@@ -164,7 +164,7 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
         return None, None, search_log
     year = int(info.get("year", 0))
     if not is_year_range(venues[venue.upper()]["YearsInterval"], year, 0): ### tollerate was 1
-        return None, None, search_log + "\nSkip as {} is not in the right year {}".format(venue, year)
+        return None, None, search_log + "Skip as {} is not in the right year {}".format(venue, year)
 
     record = {}
     key = info.get("key", "")
@@ -196,17 +196,17 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
     ptype = classify_paper_by_author(author_list, year)
     record["classfiied"] = ptype
 
-    paper_str = "{} {} {} - {} \n".format(venue, year, authors_str, title)
+    paper_str = "{} {} {} - {} ".format(venue, year, authors_str, title)
 
     if len(ptype)==0:
         foreign_papers[key] = record
-        return None, None, search_log + "\nWarning! no hungarian authors {}".format(paper_str)
+        return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
 
     if is_short_paper(info, venue):
         short_papers[key] = record
-        return None, None, search_log + "\nSkip as too short {}".format(paper_str)
+        return None, None, search_log + "\n Skip as too short {}".format(paper_str)
 
-    return key, record, search_log + "\nAdd {}".format(paper_str)
+    return key, record, search_log + "\n Add {}".format(paper_str)
 
 
 authors_data=download_author_google_sheet()
@@ -305,7 +305,7 @@ for rank_name in ["Astar", "A"]:
 
     for author, author_cls in author_classified_with_aliases.items():
         if not author_cls.get("location"):
-            search_log += "{} is not working in Hungary\n".format(author)
+            search_log += "\n{} is not working in Hungary\n".format(author)
             continue
         author_safe = remove_accents(author).replace(" ", "_")
         path = os.path.join("dblp", author_safe+".json")
@@ -322,7 +322,7 @@ for rank_name in ["Astar", "A"]:
                 continue
 
         affil = author_cls.get("affiliations", [])
-        search_log += "\n{} {} {}\n".format(author,len(hits),' '.join(affil) if isinstance(affil, list) else affil)
+        search_log += "\n{} {} {}".format(author,len(hits),' '.join(affil) if isinstance(affil, list) else affil)
         if "Akos K. Matszangosz"==author:
             print("itt")
         for hit in hits:
