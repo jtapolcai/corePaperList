@@ -46,8 +46,27 @@ regular_paper_list=["FERO: Fast and Efficient",
                   "Fast classification using sparse decision DAGs",
                   "Continuous Time Associative Bandit Problems." 
                 ]
-short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow"]
+short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
+                    "Embedding-based Automated Assessment of Domain Models.",
+                    "Towards Efficient Evaluation of Rule-based Permissions for Fine-grained Access Control in Collaborative Modeling.",
+                    "Towards the Formal Verification of SysML v2 Models.",
+                    "Driving Requirements Evolution by Engineers&apos; Opinions.",
+                    "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework.",
+                    "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
 
+                    ]
+no_hungarina_affil =[
+                    "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
+                    "Multi-step Iterative Automated Domain Modeling with Large Language Models.",
+                    "Automated Domain Modeling with Large Language Models: A Comparative Study.",
+                    "Prompting or Fine-tuning? A Comparative Study of Large Language Models for Taxonomy Construction.",
+                    "Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned.",
+                    "Collaborative Model-Driven Software Engineering: A Systematic Update.",
+                    "Modeling the Engineering Process of an Agent-based Production System: An Exemplar Study.",
+                    "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes.",
+                    "Towards Automated Test Scenario Generation for Assuring COLREGs Compliance of Autonomous Surface Vehicles."
+
+]
 doi_short_paper_list = ["FINDINGS-ACL","ICDMW5","ACL-SRW" ]
 
 def has_worked_in_hungary(author_name):
@@ -106,6 +125,8 @@ def is_short_paper(info, venue):
     limit = 6
     if venue in ["SODA", "STOC", "FOCS"]:
         limit = 3
+    if venue in ["MoDELS"]:
+        limit = 7
     if venue in ["WWW"]:
         limit = 8
     if "Workshop" in venue:
@@ -151,7 +172,7 @@ def is_short_paper(info, venue):
 
 all_authors=[]
 def process_paper(hit,venues,search_log,foreign_papers,short_papers):
-    global all_authors
+    global all_authors, no_hungarina_affil
     info=hit.get("info")
     type = info.get("type")
     if type!="Conference and Workshop Papers":
@@ -166,6 +187,8 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
     if not is_year_range(venues[venue.upper()]["YearsInterval"], year, 0): ### tollerate was 1
         return None, None, search_log + "Skip as {} is not in the right year {}".format(venue, year)
 
+    if info.get("title", "") in no_hungarina_affil:
+        return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
     record = {}
     key = info.get("key", "")
     record["key"] = key
