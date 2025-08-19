@@ -44,7 +44,8 @@ regular_paper_list=["FERO: Fast and Efficient",
                   "You are what you like! Information leakage through users' Interests",
                   "Fooling a Complete Neural Network Verifier",
                   "Fast classification using sparse decision DAGs",
-                  "Continuous Time Associative Bandit Problems." 
+                  "Continuous Time Associative Bandit Problems.",
+                  "Negative Hyper-Resolution for Proving Statements Containing Transitive Relations", 
                 ]
 short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Embedding-based Automated Assessment of Domain Models.",
@@ -163,6 +164,9 @@ def is_short_paper(info, venue):
             else:
                 return True  # Egyoldalas vagy nem értelmezhető
     else:
+        # they accept posters only
+        if venue in ["ICML", "NeurIPS", "ICLR"]:# , "ACL", "EMNLP", "COLING", "IJCAI"
+            return False 
         #print("no page is given!")
         return True
     for doi_ in doi_short_paper_list:
