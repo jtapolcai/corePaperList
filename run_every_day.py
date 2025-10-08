@@ -14,6 +14,8 @@ import os
 from unidecode import unidecode
 from google_author_sheet import download_author_google_sheet,remove_accents, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
 
+force=False
+
 url = "https://docs.google.com/spreadsheets/d/124qQX0h0CqPZZhBJiUT7myNqonp4dLJ4uyYZTtfauZI/export?format=csv"
 
 #the list of hungarian research institutions
@@ -46,6 +48,10 @@ regular_paper_list=["FERO: Fast and Efficient",
                   "Fast classification using sparse decision DAGs",
                   "Continuous Time Associative Bandit Problems.",
                   "Negative Hyper-Resolution for Proving Statements Containing Transitive Relations", 
+                   "Analysis of Second-Order Markov Reward Models.",
+                  "On the Role of Mathematical Language Concept in the Theory of Intelligent Systems.",
+                  "Definition Theory as Basis for a Creative Problem Solver.",
+                  "Integrating Declarative Knowledge Programming Styles and Tools in a Structured Object AI Environment.",
                 ]
 short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Embedding-based Automated Assessment of Domain Models.",
@@ -314,7 +320,7 @@ def query_DBLP(author_classified_with_aliases,force):
 
 ##################
 #step 1: perform DBLP queries
-query_DBLP(author_classified_with_aliases,False)
+query_DBLP(author_classified_with_aliases,force=force)
 
 #step 2: process papers
 for rank_name in ["Astar", "A"]:
