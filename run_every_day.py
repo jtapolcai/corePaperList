@@ -3,7 +3,8 @@
 import requests
 import csv
 import re
-import xml.etree.ElementTree as ET
+import xmltodict
+#import xml.etree.ElementTree as ET
 import unicodedata
 import json
 from collections import defaultdict
@@ -15,6 +16,7 @@ from unidecode import unidecode
 from google_author_sheet import download_author_google_sheet,remove_accents, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
 
 force=False
+#force=True
 
 url = "https://docs.google.com/spreadsheets/d/124qQX0h0CqPZZhBJiUT7myNqonp4dLJ4uyYZTtfauZI/export?format=csv"
 
@@ -60,7 +62,7 @@ short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Driving Requirements Evolution by Engineers&apos; Opinions.",
                     "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework.",
                     "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
-
+                    "Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions)."
                     ]
 no_hungarina_affil =[
                     "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
@@ -71,33 +73,42 @@ no_hungarina_affil =[
                     "Collaborative Model-Driven Software Engineering: A Systematic Update.",
                     "Modeling the Engineering Process of an Agent-based Production System: An Exemplar Study.",
                     "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes.",
-                    "Towards Automated Test Scenario Generation for Assuring COLREGs Compliance of Autonomous Surface Vehicles."
+                    "Towards Automated Test Scenario Generation for Assuring COLREGs Compliance of Autonomous Surface Vehicles.",
+                    "A Convergent O(n) Temporal-difference Algorithm for Off-policy Learning with Linear Function Approximation.",
+                    "Undirected Connectivity in O(log ^1.5 n) Space",
+                    "Matching Nuts and Bolts in O(n log n) Time (Extended Abstract).",
+                    "On Determinism versus Non-Determinism and Related Problems (Preliminary Version)",
+                    "Storing a Sparse Table with O(1) Worst Case Access Time",
+                    "Approximating  Minimum Cuts in (",
+                    "The Exponential-Time Complexity of Counting (Quantum) Graph Homomorphisms.",
 
 ]
 doi_short_paper_list = ["FINDINGS-ACL","ICDMW5","ACL-SRW" ]
 
 def has_worked_in_hungary(author_name):
-    global author_classified_with_aliases
+    global authors_data
     author_name_=remove_accents(author_name)
-    author_info = author_classified_with_aliases.get(author_name_)
+    author_info = authors_data.get(author_name_)
     if author_info:
         if "location" in author_info:
             if len(author_info["location"])>0:
                 return True
     return False
 
-def classify_author(author_name, year):
-    global author_classified_with_aliases
-    author_name_ = remove_accents(author_name)
-    author_info = author_classified_with_aliases.get(author_name_)
-    if author_info:
-        for location in author_info["location"]:
-            if "Hungary" in location and is_year_range(location, year):
-                return {
-                    "location": "Hungary",
-                    "institution": author_info.get("institution", "Unknown"),
-                    "department": author_info.get("department", "Unknown")
-                }
+def classify_author(author_name, pid, year):
+    global authors_data, pid_to_name
+    if pid!="" and "/"+pid in pid_to_name:
+        author_name_=pid_to_name["/"+pid]  
+        #author_name_ = remove_accents(author_name)
+        author_info = authors_data.get(author_name_)
+        if author_info:
+            for location in author_info["location"]:
+                if "Hungary" in location and is_year_range(location, year):
+                    return {
+                        "location": "Hungary",
+                        "institution": author_info.get("institution", "Unknown"),
+                        "department": author_info.get("department", "Unknown")
+                    }
     return {
         "location": "Unknown",
         "institution": "Unknown",
@@ -108,8 +119,8 @@ def classify_paper_by_author(author_list, year):
     hungarian = 0
     not_hungarian = 0
     ret = []
-    for author in author_list:
-        author_cls = classify_author(author, year)
+    for author, pid in author_list:
+        author_cls = classify_author(author, pid, year)
         if author_cls["location"] == "Hungary":
             hungarian += 1
             for field in ["institution", "department"]:
@@ -139,6 +150,8 @@ def is_short_paper(info, venue):
     if "Workshop" in venue:
         return True
     title = info.get("title", "N/A")
+    if isinstance(title, dict):
+        title = title.get("text", "N/A")
     for title_ in regular_paper_list:
         if title.startswith(title_):
             return False
@@ -181,16 +194,20 @@ def is_short_paper(info, venue):
     return False
 
 all_authors=[]
-def process_paper(hit,venues,search_log,foreign_papers,short_papers):
-    global all_authors, no_hungarina_affil
-    info=hit.get("info")
-    type = info.get("type")
-    if type!="Conference and Workshop Papers":
-        return None, None, search_log
+
+def process_paper(paper,venues,search_log,foreign_papers,short_papers):
+    global all_authors, no_hungarina_affil, pid_to_name
+    if "inproceedings" not in paper:
+        return None, None, search_log + "\n Skip as not inproceedings"
+    info = paper["inproceedings"]
+    #info=hit.get("info")
+    #if hit.get("@id", "")=="7172350":
+    #    print("itt")
+    #type = info.get("type")
+    #if type!="Conference and Workshop Papers":
+    #    return None, None, search_log
     title = info.get("title", "N/A")
-    if title.lower()=="Masked Latent Semantic Modeling: an Efficient Pre-training Alternative to Masked Language Modeling.".lower():
-        print("itt")
-    venue = info.get("venue", "")
+    venue = info.get("booktitle", "")
     if venue.upper() not in venues:
         return None, None, search_log
     year = int(info.get("year", 0))
@@ -200,7 +217,7 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
     if info.get("title", "") in no_hungarina_affil:
         return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
     record = {}
-    key = info.get("key", "")
+    key = info.get("@key", "")
     record["key"] = key
     record["title"] = title
     record["venue"] = venue
@@ -210,22 +227,24 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
     record["ee"] = info.get("ee", "")
     record["url"] = info.get("url", "")
 
+
     # Authors
-    author_list_raw = info.get("authors", {}).get("author", [])
+    author_list_raw = info.get("author", [])
     if isinstance(author_list_raw, list):
-        author_list = [a.get("text", "") for a in author_list_raw]
+        author_list = [] #a.get("text", "") for a in author_list_raw]
         ######
         for a in author_list_raw:
-            author_name=a.get("text", "")
+            author_name=a.get("#text", "")
             author_did=a.get("@pid", "")
             if (author_name,author_did) not in all_authors:
                 all_authors.append((author_name,author_did))
+            author_list.append((author_name,author_did))
     else:
-        author_list = [author_list_raw.get("text", "")]
+        author_list = [(author_list_raw.get("#text", ""), author_list_raw.get("@pid", ""))]
 
     
     record["authors"] = author_list
-    authors_str = ", ".join(author_list)
+    authors_str = ", ".join([a[0] for a in author_list])
     ptype = classify_paper_by_author(author_list, year)
     record["classfiied"] = ptype
 
@@ -244,47 +263,49 @@ def process_paper(hit,venues,search_log,foreign_papers,short_papers):
 
 authors_data=download_author_google_sheet()
 
-# next we handle the aliases, ie. if the author used multiple names, we add both names to the authors_data
-author_classified_with_aliases = {}
+# check is author names are all unique
+author_names = [remove_accents(name) for name in authors_data.keys()]
+if len(author_names) != len(set(author_names)):
+    print("Warning: Duplicate author names found!")
+
+pid_to_name = {}
 for name, data in authors_data.items():
-    key_main = remove_accents(name)
-    author_classified_with_aliases[key_main] = data
-    aliases = data.get("basic_info", {}).get("aliases", {})
-    for alias in aliases.values():
-        key_alias = remove_accents(alias)
-        author_classified_with_aliases[key_alias] = data
-
-with open("author_classified_with_aliases.json", "w", encoding="utf-8") as f:
-    json.dump(author_classified_with_aliases, f, indent=2, ensure_ascii=False)
+    pid = data.get("dblp_url", "").strip()
+    if pid != "":
+        if pid in pid_to_name:
+            print("Warning: Duplicate DBLP PID {} found for authors {} and {}".format(pid, pid_to_name[pid], name))
+        else:
+            pid_to_name[pid] = name
 
 
-def query_DBLP(author_classified_with_aliases,force): 
+
+def query_DBLP(authors_data,force): 
     os.makedirs("dblp", exist_ok=True)
 
-    author_list = list(author_classified_with_aliases.items())
     full_log = ""
     counter = 0
-    i = 0
 
-    while i < len(author_list):
-        author, author_cls = author_list[i]
-
+    for author, author_cls in authors_data.items():
         if not author_cls.get("location"):
             full_log += "{} is not working in Hungary\n".format(author)
-            i += 1
             continue
 
+        # we save the reuslts as dblp/author_name.json
         author_safe = remove_accents(author).replace(" ", "_")
         output_path = os.path.join("dblp", "{}.json".format(author_safe))
 
         if not force and os.path.exists(output_path):
             #print(f"Skip {author} (already exists)")
-            i += 1
             continue
 
         author_query = remove_accents(author)
-        url = "https://dblp.org/search/publ/api?q=author:{}&h=1000&format=json".format(quote(author_query))
-
+        if "dblp_url" in author_cls and author_cls.get("dblp_url", "").strip() != "":
+            pid = author_cls.get("dblp_url", "").strip()
+            url = "https://dblp.org/pid{}.xml".format(pid)
+        else:
+            print("No pid for {}, using name search".format(author))
+            url = "https://dblp.org/search/publ/api?q=author:{}&h=1000&format=xml".format(quote(author_query))
+        
         try:
             print("Fetching: {}".format(author))
             time.sleep(0.5)
@@ -301,11 +322,10 @@ def query_DBLP(author_classified_with_aliases,force):
             if response.status_code != 200:
                 raise Exception("HTTP error {}".format(response.status_code))
 
-            data = response.json()
+            data = xmltodict.parse(response.content)
+            #data = response.json()
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-
-            i += 1
 
         except Exception as e:
             print("Error with {}: {}".format(author,e))
@@ -320,8 +340,9 @@ def query_DBLP(author_classified_with_aliases,force):
 
 ##################
 #step 1: perform DBLP queries
-query_DBLP(author_classified_with_aliases,force=force)
+query_DBLP(authors_data,force=force)
 
+dbld_author={}
 #step 2: process papers
 for rank_name in ["Astar", "A"]:
     print("Search for Core {} papers".format(rank_name))
@@ -336,7 +357,7 @@ for rank_name in ["Astar", "A"]:
     short_papers = {}
     search_log = ""
 
-    for author, author_cls in author_classified_with_aliases.items():
+    for author, author_cls in authors_data.items():
         if not author_cls.get("location"):
             search_log += "\n{} is not working in Hungary\n".format(author)
             continue
@@ -349,19 +370,26 @@ for rank_name in ["Astar", "A"]:
         with open(path, "r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
-                hits = data.get("result", {}).get("hits", {}).get("hit", [])
+                record = data.get("dblpperson", {})
+                papers_found = record.get("r", {})
+                person = record.get("person", author)
             except Exception as e:
-                print("Error loading {}: {}".fromat(path,e))
+                print("Error loading {}: {}".format(path,e))
                 continue
-
+        dbld_author[author]=person
         affil = author_cls.get("affiliations", [])
-        search_log += "\n{} {} {}".format(author,len(hits),' '.join(affil) if isinstance(affil, list) else affil)
-        if "Akos K. Matszangosz"==author:
-            print("itt")
-        for hit in hits:
-            key, record, search_log = process_paper(hit, venues, search_log, foreign_papers, short_papers)
+        search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
+        #if "Laszlo Kovacs"==author:
+        #    print("itt", len(hits))
+        if isinstance(papers_found, dict):
+            key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers)
             if key and key not in papers:
                 papers[key] = record
+        else:
+            for paper in papers_found:
+                key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers)
+                if key and key not in papers:
+                    papers[key] = record
 
     # Mentés
     with open("parsed_core_{}_papers.json".format(rank_name), "w", encoding="utf-8") as f:
@@ -396,12 +424,15 @@ for rank_name in ["Astar", "A"]:
         return ''.join(latex_map.get(c, c) for c in text)
 
     def json_to_bibtex_entry(key, entry, all_keywords):
+        global pid_to_name
         bibkey = key.replace("conf/", "").replace("/", "")[:30]
         authors = entry.get("authors", [])
-        for author in authors:
-            author_publication_count[author] += 1
-
-        authors_bib = convert_to_latex_hungarian(" and ".join(authors))
+        author_names = []
+        for author, pid in authors:
+            author_=pid_to_name.get('/'+pid, author)
+            author_publication_count[author_] += 1
+            author_names.append(author_)
+        authors_bib = convert_to_latex_hungarian(" and ".join(author_names))
         authors_bib = re.sub(r'\d+', '', authors_bib).strip()
 
         bibtex = "@inproceedings{{{},\n".format(bibkey)
@@ -456,7 +487,7 @@ for rank_name in ["Astar", "A"]:
         for key, paper in papers.items():
             authors = paper.get("authors", [])
             paper_to_authors[key] = authors
-            for author in authors:
+            for author, pid in authors:
                 author_to_papers[author].add(key)
 
         # 2. Mohó algoritmus: minden cikkből legyen egy szerző, minél kevesebb szerzővel
@@ -494,7 +525,28 @@ for rank_name in ["Astar", "A"]:
     #print(author_list.encode("utf-8"))
     print(author_list.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
 
+
 # Finally, copy result to the worldpress folder
+with open('dblp_authors.json'.format(rank_name), 'w') as f:
+        json.dump(dbld_author, f, indent=2)
+
+# Check for pid collisions in all_authors (same pid used for multiple names)
+def check_pid_collisions(all_authors):
+    pid_to_names = {}
+    for name, pid in all_authors:
+        if not pid:
+            continue
+        pid_to_names.setdefault(pid, set()).add(name)
+    collisions = {pid: names for pid, names in pid_to_names.items() if len(names) > 1}
+    if not collisions:
+        print("✅ No duplicate names for the same PID in all_authors.")
+    else:
+        print("⚠️ Found PID collisions (same PID used by multiple names):")
+        for pid, names in collisions.items():
+            print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
+
+check_pid_collisions(all_authors)
+
 with open('all_authors.json'.format(rank_name), 'w') as f:
         json.dump(all_authors, f, indent=2)
 
