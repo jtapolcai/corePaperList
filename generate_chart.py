@@ -352,18 +352,24 @@ def plot_author_pyramid():
 
             # Piramis plot (mirrored horizontal bars)
             y = np.arange(len(thresholds))
-            left_inactive = -np.array(theory_counts_inactive)   # bal oldal negatív értékek
-            right_inactive = np.array(practical_counts_inactive)
-            left = -np.array(theory_counts)   # bal oldal negatív értékek
-            right = np.array(practical_counts)
+            # számítsuk ki az aktív és inaktív darabszámokat
+            theory_total = np.array(theory_counts)
+            theory_inactive = np.array(theory_counts_inactive)
+            theory_active = theory_total - theory_inactive
+
+            practical_total = np.array(practical_counts)
+            practical_inactive = np.array(practical_counts_inactive)
+            practical_active = practical_total - practical_inactive
 
             fig, ax = plt.subplots(figsize=(14, 14))
-            #plt.rcParams.update({'font.size': 12})
-            ax.barh(y, left, color="#f63d04", label="Elméleti (III)")
-            ax.barh(y, right, color="#0f53db", label="Alkalmazott (VI)")
+            # Rajzolás sorrendje: először a külső (inaktív, világos) szegmens, majd a belső (aktív, sötét)
+            # Bal oldal (negatív irány): a külső inaktív rész megy -total -> -active, majd a belső aktív -active -> 0
+            ax.barh(y, theory_inactive, left=-theory_total, color="#F78484")  # külső, világos
+            ax.barh(y, theory_active, left=-theory_active, color="#f63d04", label="Elméleti (III)")  # belső, sötét
 
-            ax.barh(y, left_inactive, color="#F78484")
-            ax.barh(y, right_inactive, color="#79a4fa")
+            # Jobb oldal (pozitív irány): belső aktív 0 -> active, külső inaktív active -> total
+            ax.barh(y, practical_active, left=0, color="#0f53db", label="Alkalmazott (VI)")  # belső, sötét
+            ax.barh(y, practical_inactive, left=practical_active, color="#79a4fa")  # külső, világos
 
             # Tengelyek, címkék
             ax.set_yticks(y)
