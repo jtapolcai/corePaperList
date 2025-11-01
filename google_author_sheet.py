@@ -46,68 +46,93 @@ def fix_encoding(text):
             return text
     return text
 
-def download_author_google_sheet():
+def load_table(reader):
     authors_data = {}
+    for row in reader:
+        name = fix_encoding(row["Author"]).strip()
+        alias = fix_encoding(row["DBLP alias"]).strip()
+        mtmt_id = row["MTMT id"].strip()
+        mtmt_name = fix_encoding(row["MTMT name"]).strip()
+        dblp_url = row["DBLP URL"].strip()
+        affiliations = [a.strip() for a in fix_encoding(row["Affiliations"]).split(";") if a.strip()]
+        category = row.get("Category","").strip()
+        status = row.get("MTMT Status","").strip()
+        works = row.get("Works","").strip()
+        authors_data[name] = {
+            "dblp_url": dblp_url,
+            "basic_info": {
+                "author": name,
+                "aliases": {"alias": alias} if alias else {}
+            },
+            "affiliations": affiliations,
+            "mtmt_id": mtmt_id,
+            "mtmt_name": mtmt_name,
+            "category": category,
+            "status": status,
+            "works": works
+        }
+    print("Loaded {} hungarian researcher names.".format(len(authors_data)))
+    return authors_data
+
+def generate_author_google_sheet(authors_data):
+    for rank_name in ["Astar","A"]:
+        count_papers_by_author(authors_data,rank_name)
+    collect_dblp_data(authors_data)
+
+    #  JSON mentés
+    with open("authors_data_merged.json", "w", encoding="utf-8") as f:
+        json.dump(authors_data, f, indent=2, ensure_ascii=False)
+
+    csv_rows = []
+    for author, data in authors_data.items():
+        paper_count_astar = data["paper_countAstar"] if "paper_countAstar" in data else 0
+        papers_astar = data["papersAstar"] if "papersAstar" in data else ""
+        paper_count_a = data["paper_countA"] if "paper_countA" in data else 0
+        papers_a = data["papersA"] if "papersA" in data else ""
+        mtmt_id = data.get("mtmt_id", "")
+        mtmt_name = data.get("mtmt_name", "")
+        dblp_notes = merge_list_attribute_into_string(data, "note", " + ")
+        dblp_urls = merge_list_attribute_into_string(data, "url", " , ")
+
+        csv_rows.append({
+            "Author": data["basic_info"]["author"],
+            "DBLP URL": data.get("dblp_url", "").replace("https://dblp.org/pid",""),
+            "MTMT id":  mtmt_id,
+            "Category": data.get("category", ""),
+            "MTMT Status": data.get("status", ""),
+            "Works": data.get("works",""),
+            "Affiliations": "; ".join(data.get("affiliations", [])),
+            "Core A*": paper_count_astar,
+            "Core A": paper_count_a,
+            "Core A* Papers": papers_astar,
+            "Core A Papers": papers_a,
+            "DBLP alias": data["basic_info"].get("aliases", {}).get("alias", ""),
+            "DBLP note": dblp_notes,
+            "DBLP urls": dblp_urls,
+            "MTMT name": mtmt_name,
+        })
+
+    df = pd.DataFrame(csv_rows)
+    df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
+
+    print(" Kész: authors_data.csv")
+
+def download_author_google_sheet():
     try:
         import requests
         response = requests.get(url)
         if response.status_code == 200:
             content = io.StringIO(response.text)
             reader = csv.DictReader(content)
-            authornum=0
-            for row in reader:
-                authornum+=1
-                name = fix_encoding(row["Author"]).strip()
-                alias = fix_encoding(row["Alias"]).strip()
-                mtmt_id = row["MTMT id"].strip()
-                mtmt_name = fix_encoding(row["MTMT name"]).strip()
-                dblp_url = row["DBLP URL"].strip()
-                affiliations = [a.strip() for a in fix_encoding(row["Affiliations"]).split(";") if a.strip()]
-                category = row.get("Category","").strip()
-                status = row.get("MTMT Status","").strip()
-                authors_data[name] = {
-                    "dblp_url": dblp_url,
-                    "basic_info": {
-                        "author": name,
-                        "aliases": {"alias": alias} if alias else {}
-                    },
-                    "affiliations": affiliations,
-                    "mtmt_id": mtmt_id,
-                    "mtmt_name": mtmt_name,
-                    "category": category,
-                    "status": status
-                }
-            print("Loaded {} hungarian researcher names.".format(authornum))
+            authors_data = load_table(reader)
         else:
             print("Failed to load the google sheet with hungarian researchers ({}): {}".format(response.status_code, response.text))
     except Exception as e:
         print("Try loading the local csv with hungarian researchers: {}".format(e))
         with open("authors_data.csv", "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
-            authornum=0
-            for row in reader:
-                authornum+=1
-                name = fix_encoding(row["Author"]).strip()
-                alias = fix_encoding(row["Alias"]).strip()
-                mtmt_id = row["MTMT id"].strip()
-                mtmt_name = fix_encoding(row["MTMT name"]).strip()
-                dblp_url = row["DBLP URL"].strip()
-                affiliations = [a.strip() for a in fix_encoding(row["Affiliations"]).split(";") if a.strip()]
-                category = row.get("Category","").strip()
-                status = row.get("MTMT Status","").strip()
-                authors_data[name] = {
-                    "dblp_url": dblp_url,
-                    "basic_info": {
-                        "author": name,
-                        "aliases": {"alias": alias} if alias else {}
-                    },
-                    "affiliations": affiliations,
-                    "mtmt_id": mtmt_id,
-                    "mtmt_name": mtmt_name,
-                    "category": category,
-                    "status": status
-                }
-            print("Loaded {} hungarian researcher names from local file.".format(authornum))
+            authors_data = load_table(reader)
+            
 
     # --- Processing affiliations, identify the periods the author was working in Hungary ---
     for name, data in authors_data.items():
@@ -225,49 +250,7 @@ def merge_list_attribute_into_string(data, field, sep):
         return value[0]
     return sep.join(value)
 
-def generate_author_google_sheet(authors_data):
-    for rank_name in ["Astar","A"]:
-        count_papers_by_author(authors_data,rank_name)
-    collect_dblp_data(authors_data)
 
-    #  JSON mentés
-    with open("authors_data_merged.json", "w", encoding="utf-8") as f:
-        json.dump(authors_data, f, indent=2, ensure_ascii=False)
-
-    csv_rows = []
-    for author, data in authors_data.items():
-        paper_count_astar = data["paper_countAstar"] if "paper_countAstar" in data else 0
-        papers_astar = data["papersAstar"] if "papersAstar" in data else ""
-        paper_count_a = data["paper_countA"] if "paper_countA" in data else 0
-        papers_a = data["papersA"] if "papersA" in data else ""
-        mtmt_id = data.get("mtmt_id", "")
-        mtmt_name = data.get("mtmt_name", "")
-        dblp_notes = merge_list_attribute_into_string(data, "note", " + ")
-        dblp_urls = merge_list_attribute_into_string(data, "url", " , ")
-        category = data.get("category", "")
-        status = data.get("status", "")
-
-        csv_rows.append({
-            "Author": data["basic_info"]["author"],
-            "Alias": data["basic_info"].get("aliases", {}).get("alias", ""),
-            "DBLP URL": data.get("dblp_url", "").replace("https://dblp.org/pid",""),
-            "Affiliations": "; ".join(data.get("affiliations", [])),
-            "Core A*": paper_count_astar,
-            "Core A": paper_count_a,
-            "Core A* Papers": papers_astar,
-            "Core A Papers": papers_a,
-            "DBLP note": dblp_notes,
-            "DBLP urls": dblp_urls,
-            "MTMT id":  mtmt_id,
-            "MTMT name": mtmt_name,
-            "Category": category,
-            "MTMT Status": status
-        })
-
-    df = pd.DataFrame(csv_rows)
-    df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
-
-    print(" Kész: authors_data.csv")
 
 # --- Helper functions ---
 

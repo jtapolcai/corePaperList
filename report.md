@@ -117,9 +117,18 @@ A CORE A konferenciacikkek esetében az ábrán valamivel kisebbek a lépcsőfok
 
 Az ábrákat legeneráltuk úgy is, hogy csak az első szerzőket vettük figyelembe. Az alkalmazott területeken ez különösen fontos, mivel az első szerző szerepe kiemelt jelentőségű. Az első szerzős CORE A konferenciacikkel rendelkező kutatók 54%-a már nem aktív a magyar tudományban.
 
-![Korfa, első szerzők, Core A*](figures/author_distribution_A_first.png)
-![Korfa, első szerzők, Core A](figures/author_distribution_Astar_first.png)
+![Korfa, első szerzők, Core A*](figures/author_distribution_Astar_first.png)
+![Korfa, első szerzők, Core A](figures/author_distribution_A_first.png)
 
+Megismételtük a vizsgálatot úgy, hogy négy kategóriát definiáltunk, és különbséget tettünk aközött, hogy a szerző az egyetemi pályát hagyta el egy magyar vállalat miatt, vagy külföldre ment dolgozni. A doktori képzés célja, hogy magasan kvalifikált munkaerőt biztosítson a magyar ipar számára. A külföldre költözött kutató inkább veszteségként értelmezhető a magyar tudomány szempontjából.
+Mind a négy kategóriát a CORE A* és A publikációk alapján definiáltuk, és minden szerzőt csak egy (a legmagasabb) kategóriába soroltunk be.
+A legmagasabb kategóriába azok a kutatók kerültek, akik nemzetközi szinten is kiemelkedőek; a második kategóriába azok, akik nemzetközi szinten is számottevőek; a harmadik kategóriába azok, akik hazai szinten aktív és elismert kutatók; a negyedik kategóriába pedig azok, akik celérték a nemzetközi publikációs szintet.
+
+
+![Excellence](figures/excelence_theory_applied_pies.png)
+![Expert](figures/expert_theory_applied_pies.png)
+![Researcher](figures/researcher_theory_applied_pies.png)
+![Talent](figures/talent_theory_applied_pies.png)
 ## Informatika hatása a tudományra
 
 Bár első látásra a probléma egy szűk szakterületet – az informatikát – érinti, ma már szinte minden kutatásnak van informatikai vonatkozása.

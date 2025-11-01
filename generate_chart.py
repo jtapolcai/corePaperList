@@ -401,13 +401,162 @@ def plot_author_pyramid():
             #plt.show()
 
 
+# Create side-by-side pie charts for the 'excelence_' statistics (theory vs applied)
+def plot_excellence_theory_applied_pies():
+    authors_data = load_json("authors_data_merged.json")
+
+    for first_author_only in [True,False]:
+        print(f"\n\nFirst author only: {first_author_only}\n")
+        author_type = "first" if first_author_only else "all"
+        for rank_name in ["Astar", "A"]:
+            count_papers_by_author(authors_data,rank_name=rank_name, first_author_only=first_author_only)
+            for author, data in authors_data.items():
+                authors_data[author][f"paper_count{rank_name}_{author_type}"] = authors_data[author][f"paper_count{rank_name}"]
+
+    threasholds={
+        'excelence_':{
+            'coreAstar_first':1,
+            'coreAstar_all':0,
+            'coreA_all':30,
+        },
+        'expert_':{
+            'coreAstar_first':0,
+            'coreAstar_all':0,
+            'coreA_all':15,
+        },
+        'researcher_':{
+            'coreAstar_first':0,
+            'coreAstar_all':1,
+            'coreA_all':7,
+        },
+        'talent_':{
+            'coreAstar_first':0,
+            'coreAstar_all':0,
+            'coreA_all':3,
+        },
+    }
+    statistics={}
+    processed=[]
+    for key,req in threasholds.items():
+        rtypes=["theory","applied"]
+        for rtype in rtypes:
+            statistics[key+rtype]={
+                'hungary-active':[],
+                'company':[],
+                'abroad':[],
+                'retired':[]
+            }
+        for author, data in authors_data.items():
+            if author in processed:
+                continue
+            if      data["paper_countAstar_first"] >= req['coreAstar_first'] \
+                and data["paper_countAstar_all"] >= req['coreAstar_all'] \
+                and data["paper_countA_all"] + 3*data["paper_countAstar_all"] >= req['coreA_all']:
+                processed.append(author)
+                if data.get("category","") in rtypes:
+                    keyc=key+data["category"]
+                else:
+                    print(f"Missing theory/applied for {author}")
+                    keyc=key+"applied"
+                if data.get("status","")!="inactive" and data.get("works","")=="hungary":
+                    statistics[keyc]['hungary-active'].append(author)
+                elif data.get("works","")=="company":
+                    statistics[keyc]['company'].append(author)
+                elif data.get("works","")=="abroad":
+                    statistics[keyc]['abroad'].append(author)
+                elif data.get("works","")=="retired":
+                    statistics[keyc]['retired'].append(author)
+
+
+    for key, value in statistics.items():
+        print(f"{key}: {value}")
+    stats=statistics
+    for key, req in threasholds.items():
+        th = stats.get(key + 'theory', {})
+        ap = stats.get(key + 'applied', {})
+
+        def counts_for(d):
+            # hungary-active + retired as one (dark), company (mid), abroad (light)
+            hung = len(d.get('hungary-active', [])) + len(d.get('retired', []))
+            comp = len(d.get('company', []))
+            abroad = len(d.get('abroad', []))
+            return [hung, comp, abroad]
+
+        th_counts = counts_for(th)
+        ap_counts = counts_for(ap)
+        labels = ['Hungary (active+retired)', 'Company', 'Abroad']
+
+        # color palettes: dark -> lighter
+        reds = ['#8B0000', '#D9534F', '#F7A8A8']
+        blues = ["#3960a5", '#5b9bd5', '#bfe0ff']
+
+        import matplotlib.pyplot as plt
+        # figure a bit wider to fit two separate legends
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
+
+        # Theory (reds)
+        wedges1, texts1, autotexts1 = ax1.pie(
+            th_counts,
+            colors=reds,
+            startangle=90,
+            autopct=lambda pct: f"{int(round(pct/100*sum(th_counts)))}",
+            pctdistance=0.72,
+            wedgeprops={'edgecolor': 'white'}
+        )
+        ax1.set_title('Elméleti', fontsize=12)
+
+        # Applied (blues)
+        wedges2, texts2, autotexts2 = ax2.pie(
+            ap_counts,
+            colors=blues,
+            startangle=90,
+            autopct=lambda pct: f"{int(round(pct/100*sum(ap_counts)))}",
+            pctdistance=0.72,
+            wedgeprops={'edgecolor': 'white'}
+        )
+        ax2.set_title('Alkalmazott', fontsize=12)
+
+        # Create separate legends under each subplot (axis-relative) so they are not merged
+        leg1_labels = [f"{labels[i]}: {th_counts[i]}" for i in range(len(labels))]
+        leg2_labels = [f"{labels[i]}: {ap_counts[i]}" for i in range(len(labels))]
+
+        # place each legend just below its axis using axis coordinates; small offset and smaller font
+        ax1.legend(leg1_labels, loc='upper center', bbox_to_anchor=(0.5, -0.08), bbox_transform=ax1.transAxes, ncol=1, frameon=False, fontsize=12)
+        ax2.legend(leg2_labels, loc='upper center', bbox_to_anchor=(0.5, -0.08), bbox_transform=ax2.transAxes, ncol=1, frameon=False, fontsize=12)
+
+        # reduce bottom margin so legends sit closer to the pies
+        fig.subplots_adjust(bottom=0.12, top=0.9, wspace=0.4)
+
+        # Common title (Hungarian) - build compact single-line summary instead of using explicit newlines
+        parts = []
+        if req.get('coreAstar_first', 0) > 1:
+            parts.append(f"legalább {req['coreAstar_first']} Core A* első szerzős cikk")
+        if req.get('coreAstar_first', 0) == 1:
+            parts.append(f"Core A* első szerzős cikk")
+        if req.get('coreAstar_all', 0) > 0:
+            parts.append(f"legalább {req['coreAstar_all']} Core A* cikk")
+        if req.get('coreA_all', 0) > 0:
+            parts.append(f"legalább {req['coreA_all']/3:.1f} publikáció (Core A* + A/3)")
+
+        if parts:
+            title =  "; ".join(parts)
+        else:
+            title = f"{key[:-1]}"
+
+        # place suptitle with adjusted y coordinate so it doesn't overlap the axes
+        fig.suptitle(title, fontsize=14, y=0.97)
+
+        out = f'figures/{key[:-1]}_theory_applied_pies.png'
+        plt.savefig(out, dpi=150, bbox_inches='tight')
+        #plt.show()
+        print(f'Saved {out}')
 def main():
     mpl.rcParams.update({'font.size': 14})
     plot_conference_pies()
     plot_mta_class_pies()
     plot_stacked_by_year()
     plot_author_pyramid()
-
+    plot_excellence_theory_applied_pies()
 
 if __name__ == '__main__':
     main()
