@@ -131,68 +131,73 @@ def plot_mta_class_pies():
     """Plot distribution of papers per MTA class for Core A* and Core A (pie charts).
     Uses reserved colors for III and VI classes to keep consistent appearance.
     """
-    fig, axes = plt.subplots(1, 2, figsize=(16, 8))
     reserved = {INFORMATIKA[3]: COLOR_III, INFORMATIKA[6]: COLOR_VI}
-    counter={}
     ranks=["Astar", "A"]
-    for ax, rank in zip(axes, ranks):
-        papers = load_json(f"hungarian_papers_core{rank}.json") or {}
-        confs = load_json(f"core_{rank}_conferences_classified.json") or {}
-        confs_up = {k.upper(): v for k, v in confs.items()}
+    for file in ["hungarian", "already_abroad"]:
+        counter={}
+        fig, axes = plt.subplots(1, 2, figsize=(16, 8))
+        for ax, rank in zip(axes, ranks):
+            papers = load_json(f"{file}_papers_core{rank}.json") or {}
+            confs = load_json(f"core_{rank}_conferences_classified.json") or {}
+            confs_up = {k.upper(): v for k, v in confs.items()}
 
-        cnt = Counter()
-        for p in papers.values():
-            venue = (p.get("venue") or "").upper()
-            m = confs_up.get(venue, {}).get("mta_class")
-            key = INFORMATIKA.get(m, f"{m}") if m is not None else "Unknown"
-            cnt[key] += 1
+            cnt = Counter()
+            for p in papers.values():
+                venue = (p.get("venue") or "").upper()
+                m = confs_up.get(venue, {}).get("mta_class")
+                key = INFORMATIKA.get(m, f"{m}") if m is not None else "Unknown"
+                cnt[key] += 1
 
-        items = cnt.most_common()
-        # keep top 4 and aggregate rest as Other
-        if len(items) > 4:
-            top = items[:4]
-            other = sum(c for _, c in items[4:])
-            labels = [k for k, _ in top] + ["Other"]
-            sizes = [c for _, c in top] + [other]
-        else:
-            labels = [k for k, _ in items]
-            sizes = [c for _, c in items]
-
-        # map label -> color: give priority to reserved mapping for III/VI
-        label_color_map = {}
-        for l in labels:
-            if l == "Other":
-                label_color_map[l] = OTHER_COLOR
-            elif l in reserved:
-                label_color_map[l] = reserved[l]
+            items = cnt.most_common()
+            # keep top 4 and aggregate rest as Other
+            if len(items) > 4:
+                top = items[:4]
+                other = sum(c for _, c in items[4:])
+                labels = [k for k, _ in top] + ["Other"]
+                sizes = [c for _, c in top] + [other]
             else:
-                # assign next color from palette (skip those reserved)
-                label_color_map[l] = next_color_for_label(l, reserved_vals=set(reserved.values()))
+                labels = [k for k, _ in items]
+                sizes = [c for _, c in items]
 
-        colors = [label_color_map.get(l, OTHER_COLOR) for l in labels]
+            # map label -> color: give priority to reserved mapping for III/VI
+            label_color_map = {}
+            for l in labels:
+                if l == "Other":
+                    label_color_map[l] = OTHER_COLOR
+                elif l in reserved:
+                    label_color_map[l] = reserved[l]
+                else:
+                    # assign next color from palette (skip those reserved)
+                    label_color_map[l] = next_color_for_label(l, reserved_vals=set(reserved.values()))
 
-        wedges, texts, autotexts = ax.pie(sizes, #labels=[l if sizes[i] > 0 else "" for i, l in enumerate(labels)],
-                                         colors=colors, startangle=90, wedgeprops={"edgecolor": "white"},
-                                         autopct=lambda pct: f"{int(round(pct/100*sum(sizes)))}", pctdistance=0.7,
-                                         textprops={"fontsize": fs})
-        ax.set_title(f"CORE {rank} — tudományági cikkek", fontsize=fs)
-        counter[rank]=cnt
+            colors = [label_color_map.get(l, OTHER_COLOR) for l in labels]
+
+            wedges, texts, autotexts = ax.pie(sizes, #labels=[l if sizes[i] > 0 else "" for i, l in enumerate(labels)],
+                                            colors=colors, startangle=90, wedgeprops={"edgecolor": "white"},
+                                            autopct=lambda pct: f"{int(round(pct/100*sum(sizes)))}", pctdistance=0.7,
+                                            textprops={"fontsize": fs})
+            ax.set_title(f"CORE {rank.replace('star', '*')} — tudományági cikkek", fontsize=fs)
+            counter[rank]=cnt
 
 
-    # shared legend with counts
-    legend_items = []
-    for lab in sorted({l for c in counter.values() for l in c.keys()}, key=lambda x: (0, int(x)) if x.isdigit() else (1, x)):
-        total = sum(counter[r][lab] for r in ranks)
-        legend_items.append(f"{lab}: {total}")
-    fig.legend(legend_items, loc="lower center", ncol=3, fontsize=fs)
-    plt.tight_layout(rect=(0, 0.03, 1, 1))
-    outpath = "figures/core_Astar_A_class_pies.png"
-    plt.rcParams.update({'font.size': fs}) 
-    plt.savefig(outpath, dpi=150, bbox_inches='tight')
-    #plt.tight_layout(rect=(0, 0.03, 1, 1))
-    #plt.savefig(outpath, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"Saved MTA-class pies to: {outpath}")
+        # shared legend with counts
+        legend_items = []
+        for lab in sorted({l for c in counter.values() for l in c.keys()}, key=lambda x: (0, int(x)) if x.isdigit() else (1, x)):
+            total = sum(counter[r][lab] for r in ranks)
+            legend_items.append(f"{lab}: {total}")
+        fig.legend(legend_items, loc="lower center", ncol=3, fontsize=fs)
+        plt.tight_layout(rect=(0, 0.03, 1, 1))
+        title="Magyar affiliációval rendelkező cikkek"
+        if file=="already_abroad":
+            title="Csak külföldi affiliációval rendelkező cikkek magyar szerzőktől"
+        fig.suptitle(title, fontsize=fs, y=1.07)
+        outpath = f"figures/{file}_core_Astar_A_class_pies.png"
+        plt.rcParams.update({'font.size': fs}) 
+        plt.savefig(outpath, dpi=150, bbox_inches='tight')
+        #plt.tight_layout(rect=(0, 0.03, 1, 1))
+        #plt.savefig(outpath, dpi=150, bbox_inches="tight")
+        plt.close(fig)
+        print(f"Saved MTA-class pies to: {outpath}")
 
 
 def next_color_for_label(label, reserved_vals=None):
@@ -414,22 +419,22 @@ def plot_excellence_theory_applied_pies():
                 authors_data[author][f"paper_count{rank_name}_{author_type}"] = authors_data[author][f"paper_count{rank_name}"]
 
     threasholds={
-        'excelence_':{
+        'Established_':{
             'coreAstar_first':1,
             'coreAstar_all':0,
             'coreA_all':30,
         },
-        'expert_':{
+        'Expert_':{
             'coreAstar_first':0,
             'coreAstar_all':0,
             'coreA_all':15,
         },
-        'researcher_':{
+        'Rising_':{
             'coreAstar_first':0,
             'coreAstar_all':1,
             'coreA_all':7,
         },
-        'talent_':{
+        'Entry_':{
             'coreAstar_first':0,
             'coreAstar_all':0,
             'coreA_all':3,
@@ -536,10 +541,10 @@ def plot_excellence_theory_applied_pies():
         if req.get('coreAstar_all', 0) > 0:
             parts.append(f"legalább {req['coreAstar_all']} Core A* cikk")
         if req.get('coreA_all', 0) > 0:
-            parts.append(f"legalább {req['coreA_all']/3:.1f} publikáció (Core A* + A/3)")
+            parts.append(f"legalább {req['coreA_all']/3:.1f} Core A*-ekvivalens publikáció")#(Core A cikk 1/3-nak számítva)
 
         if parts:
-            title =  "; ".join(parts)
+            title = f"{key[:-1]}: " + "; ".join(parts)
         else:
             title = f"{key[:-1]}"
 

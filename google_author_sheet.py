@@ -77,18 +77,17 @@ def load_table(reader):
 def generate_author_google_sheet(authors_data):
     for rank_name in ["Astar","A"]:
         count_papers_by_author(authors_data,rank_name)
+        count_papers_by_author(authors_data,rank_name, already_abroad_papers=True, name_prefix='already_abroad_')
     collect_dblp_data(authors_data)
-
+    
+    'already_abroad_papers_core{}.json'
     #  JSON mentés
     with open("authors_data_merged.json", "w", encoding="utf-8") as f:
         json.dump(authors_data, f, indent=2, ensure_ascii=False)
 
+
     csv_rows = []
     for author, data in authors_data.items():
-        paper_count_astar = data["paper_countAstar"] if "paper_countAstar" in data else 0
-        papers_astar = data["papersAstar"] if "papersAstar" in data else ""
-        paper_count_a = data["paper_countA"] if "paper_countA" in data else 0
-        papers_a = data["papersA"] if "papersA" in data else ""
         mtmt_id = data.get("mtmt_id", "")
         mtmt_name = data.get("mtmt_name", "")
         dblp_notes = merge_list_attribute_into_string(data, "note", " + ")
@@ -97,23 +96,33 @@ def generate_author_google_sheet(authors_data):
         csv_rows.append({
             "Author": data["basic_info"]["author"],
             "DBLP URL": data.get("dblp_url", "").replace("https://dblp.org/pid",""),
-            "MTMT id":  mtmt_id,
+            "MTMT id":  data.get("mtmt_id", ""),
             "Category": data.get("category", ""),
             "MTMT Status": data.get("status", ""),
             "Works": data.get("works",""),
             "Affiliations": "; ".join(data.get("affiliations", [])),
-            "Core A*": paper_count_astar,
-            "Core A": paper_count_a,
-            "Core A* Papers": papers_astar,
-            "Core A Papers": papers_a,
+            "HungarianCore A*": data.get("paper_countAstar",0),
+            "Hungarian Core A": data.get("paper_countA",0),
+            "Hungarian Core A* Papers": data.get("papersAstar",""),
+            "Hungarian Core A Papers": data.get("papersA",""),
+            "Abroad Core A*": data.get("already_abroad_paper_countAstar",0),
+            "Abroad Core A": data.get("already_abroad_paper_countA",0),
             "DBLP alias": data["basic_info"].get("aliases", {}).get("alias", ""),
             "DBLP note": dblp_notes,
             "DBLP urls": dblp_urls,
             "MTMT name": mtmt_name,
         })
 
-    df = pd.DataFrame(csv_rows)
-    df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
+        # Sort rows descending by the score: 3 * (Core A*) + (Core A)
+        # This ranks authors by a weighted count prioritizing Core A* publications.
+        try:
+            csv_rows.sort(key=lambda r: 3 * int(r.get("Core A*", 0)) + int(r.get("Core A", 0)), reverse=True)
+        except Exception:
+            # fallback: if values are not integers for some reason, leave original order
+            pass
+
+        df = pd.DataFrame(csv_rows)
+        df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
 
     print(" Kész: authors_data.csv")
 
@@ -179,21 +188,24 @@ def download_author_google_sheet():
             key_alias = remove_accents(alias)
             author_classified_with_aliases[key_alias] = data"""
 
-def count_papers_by_author(authors_data,rank_name, first_author_only=False):
+def count_papers_by_author(authors_data,rank_name, first_author_only=False, already_abroad_papers=False, name_prefix=''):
     pid_to_name = {data["dblp_url"]: name for name, data in authors_data.items()}
     for author, data in authors_data.items():
-        authors_data[author]["papers"+rank_name] = ""
-        authors_data[author]["paper_count"+rank_name] = 0
+        authors_data[author][name_prefix+"papers"+rank_name] = ""
+        authors_data[author][name_prefix+"paper_count"+rank_name] = 0
 
     #filename='already_abroad_papers_core{}.json'.format(rank_name)
     #filename='short_papers_core{}.json'.format(rank_name)
     filename='hungarian_papers_core{}.json'.format(rank_name)
+    if already_abroad_papers:
+        filename='already_abroad_papers_core{}.json'.format(rank_name)
     with open(filename, "r", encoding="utf-8") as f:
         papers = json.load(f)
         print("processing {}".format(filename))
     with open("foreign_authors.json", "r", encoding="utf-8") as f:
         foreign_authors = json.load(f)
     unknown_authors=[]
+    new_papers = {}
     for key, paper in papers.items():
         authors = paper.get("authors", "")
         acronym = paper.get("venue", "")
@@ -205,15 +217,28 @@ def count_papers_by_author(authors_data,rank_name, first_author_only=False):
             #author=remove_accents(author_)
             if author_ in authors_data:
             #    location = authors_data[author]["location"]
-                authors_data[author_]["paper_count"+rank_name] += 1
-                authors_data[author_]["papers"+rank_name]+=venue_year+" "
+                authors_data[author_][name_prefix+"paper_count"+rank_name] += 1
+                authors_data[author_][name_prefix+"papers"+rank_name]+=venue_year+" "
             else:
                 if author_ not in unknown_authors and author_ not in foreign_authors:
                     unknown_authors.append(author_)
+                    # record the paper as a new/unmatched paper for this rank
+                    try:
+                        new_papers[key] = paper
+                    except Exception:
+                        pass
             if first_author_only:
                 break
     with open("new_authors.json", "w", encoding="utf-8") as f:
         json.dump(unknown_authors, f, indent=2, ensure_ascii=False)
+
+    # also write the new/unmatched papers we discovered for this rank
+    try:
+        out_file = f"new_{rank_name}_papers{name_prefix}.json"
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(new_papers, f, indent=2, ensure_ascii=False)
+    except Exception:
+        pass
 
 def collect_dblp_data(authors_data):
     pid_to_name = {data["dblp_url"]: name for name, data in authors_data.items() 

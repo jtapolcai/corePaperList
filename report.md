@@ -12,7 +12,7 @@ Az informatikában a konferenciák népszerűségét részben a szigorúan ütem
 
 Ez abból is jól látszik, hogy a nagy informatikai vállalatok jelentős összegeket fordítanak ezeknek az eseményeknek a támogatására. Másfelől a kutatók is versenyeznek az innovációs szféra figyelméért, és egy rangos konferencián való megjelenés jelentősen növeli egy eredmény láthatóságát.
 
-Ennek hatására mára olyan konferenciák alakultak ki, amelyek újdonságtartalmukban és presztízsükben is meghaladják a vezető folyóiratokat.
+Ennek hatására mára olyan konferenciák alakultak ki, amelyek újdonságtartalmukban és presztízsükben is meghaladják a vezető folyóiratokat az infromatika területén.
 
 A konferenciák versenyében segít eligazodni a CORE konferenciarangsor. A CORE lista 2006 óta létezik, az Ausztrál Tudományos Akadémia és szakmai grémiumok közreműködésével. A minősítési rendszer négy fő kategóriát különböztet meg (A*, A, B, C), és néhány évente frissítik. A rangsorolás középpontjában a következetes lektorálási folyamat, a reputáció, a történeti hivatkozottság, a közösség bevonódása és a konferenciák szakmai presztízse áll.
 
@@ -22,7 +22,7 @@ A legmagasabb, A* kategóriába tartozó konferenciák szelekciós aránya a vez
 
 Egyes A* konferenciák esetében a főszöveg terjedelme kilenc oldal, amelyhez tetszőlegesen hosszú függelék csatolható, így terjedelmileg és minőségileg is megfelelhet akár egy D1-es folyóiratnak.
 
-A világ vezető kutatóegyetemei – például az MIT, a Stanford, a Berkeley, a Cambridge, az EPFL, a Tsinghua és az UIUC – elsősorban ezeken a konferenciákon publikálnak.
+A világ vezető kutatóegyetemei – például az MIT, a Stanford, a Berkeley, a Cambridge, az EPFL és a Tsinghua – elsősorban ezeken a konferenciákon publikálnak.
 
 Egy CORE A*-os cikk elfogadásához sokszor némi szerencse is kell: az eredménynek éppen abban az évben kell áttörésnek számítania, amit nehéz előre megtervezni. Még a leghíresebb kutatók számára is kihívás bejutni egy A* konferenciára.
 
@@ -39,13 +39,11 @@ A minőségi konferenciacikkek megítélése a hazai tudománymetriában sokszor
 Ezen cikkek elismerése Magyarországon jelenleg eseti: tudomásunk szerint két doktori iskola (az SZTE Informatikai és a BME Matematikai Doktori Iskola) értékeli azokat a folyóiratcikkekkel egyenrangúan. A III. (Matematikai) Osztály doktori követelményei között a 30 kiemelt hivatkozás esetében megengedett a rangos konferenciapublikáció beszámítása az informatika és számítástudomány területén, ahol ezt a CORE A és A* konferenciarangsor alapján definiálják.
 
 
-Az MTMT-ben a rangos konferenciák jelenleg nincsenek külön megjelölve, bár az MTMT3 fejlesztése során ez a funkció várhatóan megjelenik. A magyar informatikus kutatók így elsősorban a saját szakterületük konferenciáit követhetik nyomon, ám eddig nem állt rendelkezésre átfogó kép a hazai teljesítményről.
-
-Ezt a hiányt pótolandó elkezdtük összegyűjteni a magyar kutatók CORE A* és A kategóriás konferenciacikkeit.
+Az MTMT-ben a rangos konferenciák jelenleg nincsenek külön megjelölve, bár az MTMT3 fejlesztése során ez a funkció várhatóan megjelenik. A magyar informatikus kutatók így elsősorban a saját szakterületük konferenciáit követhetik nyomon, ám eddig nem állt rendelkezésre átfogó kép a hazai teljesítményről. Ezt a hiányt pótolandó összegyűjtöttük a magyar kutatók CORE A* és A kategóriás konferenciacikkeit.
 
 ## Magyar jelenlét a CORE A* és A konferenciákon
 
-Ebben a tanulmányban a magyar jelenlétet elemezzük a CORE A* és A konferenciákon. A hazai kutatók publikációit automatikus adatgyűjtés alapján (DBLP és MTMT összekapcsolásával, ~710 szerző adataival) kezdtük feltérképezni. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
+Ebben a tanulmányban a magyar jelenlétet elemezzük a CORE A* és A konferenciákon. A hazai kutatók publikációit automatikus adatgyűjtés alapján (DBLP és MTMT összekapcsolásával, ~700 szerző adataival) kezdtük feltérképezni. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
 
 A teljes lista itt található [Core A*](http://lendulet.tmit.bme.hu/lendulet_website/corea) és [A](http://lendulet.tmit.bme.hu/lendulet_website/corea-2). Összegezve a szűrés logikája:
 	•	csak a fő konferenciákon (main track) megjelent cikkek kerültek be,
@@ -64,7 +62,7 @@ A teljes lista itt található [Core A*](http://lendulet.tmit.bme.hu/lendulet_we
 
 A konferenciákat e két kategóriába sorolva, 1975 óta a következő számú CORE A* és A konferenciacikket találtuk:
 
-![Konferenciák magyar cikkel](figures/core_Astar_A_class_pies.png)
+![Konferenciák magyar cikkel](figures/hungarian_core_Astar_A_class_pies.png)
 
 A cikkek száma nagyjából hasonló: valamivel több elméleti cikket találtunk a CORE A* szinten, és némileg több alkalmazott informatikai cikket a CORE A szinten. Az informatikai területen mind a D1, mind pedig a Q1 folyóiratcikkek száma 1975 óta bőven meghaladja ennek a tízszeresét magyar affiliációval.
 
@@ -85,50 +83,60 @@ Az alkalmazott informatikai konferenciák esetében ugyanakkor még számos olya
 
 ## A magyar informatikus kutatók kihívásai
 
-A publikációs stratégia szempontjából komoly dilemmát jelent a hazai fiatal kutatók számára, hogy a magyar minősítési rendszer elsősorban a folyóiratcikkeket díjazza, míg a nemzetközi informatikai közeg a konferenciapublikációkat értékeli nagyobbra.Így karrierjük elején döntés elé kényszerülnek: ha Magyarországon szeretnének érvényesülni, akkor a doktori fokozat megszerzése és a későbbi sikeres pályázatok érdekében a folyóiratpublikációk számának növelése a cél. Ha viszont nemzetközi informatikai pályát kívánnak építeni, akkor elsődleges céljuk, hogy legyen CORE A* (vagy A) konferenciacikk publikációjuk, lehetőleg első szerzőként.
+A publikációs stratégia szempontjából komoly dilemmát jelent a hazai fiatal kutatók számára, hogy a magyar minősítési rendszer lényegében csak a folyóiratcikkeket díjazza, míg a nemzetközi informatikai közeg a konferenciapublikációkat értékeli nagyobbra. Így karrierjük elején döntés elé kényszerülnek: ha Magyarországon szeretnének érvényesülni, akkor a doktori fokozat megszerzése és a későbbi sikeres pályázatok érdekében a folyóiratpublikációk számának növelése a cél. Ha viszont nemzetközi informatikai pályát kívánnak építeni, akkor elsődleges céljuk, hogy legyen CORE A* (vagy A) konferenciacikk publikációjuk, és lehetőleg első szerzőként.
 
-Megjegyezzük, hogy például a Technion Egyetemen a doktori védés lényegében egyetlen feltétele, hogy a jelölt első szerzőként publikáljon egy CORE A*-os konferenciacikket.
+Megjegyezzük, hogy például a Technion Egyetemen a doktori védésnek publikációs szempontból az egyetlen feltétele, hogy a jelölt első szerzőként publikáljon egy CORE A*-os konferenciacikket.
 
-Megpróbáltuk adatokkal is alátámasztani azt a feltételezést, hogy akik elsősorban konferenciákon publikálnak, ritkábban választanak magyarországi kutatói karriert.
-Leszámoltuk, hány olyan szerző van, akinek legalább 1, 2, 3, 4, 5 vagy 10 CORE A* konferenciacikke van. Ezek egymás részhalmazai, és a lépcsőfokok mögött több ok is állhat:
-	•	elhagyta a kutatói pályát,
-	•	kutatóként folytatta, de külföldre vándorolt,
-	•	ez a cikk jelentette pályafutásának csúcspontját, amelyet később nem sikerült megismételnie,
-	•	a cikkben csapattagként szerepelt.
+Gyűjtöttünk adatokat a fenti dilemmával kapcsolatban: azt vizsgáltuk, hogy azok a kutatók, akik aktívan publikálnak CORE A és A* szintű konferenciákon, milyen arányban választanak külföldi kutatói karriert.
 
-Megjegyezzük, hogy az alkalmazott kutatások általában nagyobb kutatócsoportokat igényelnek, ezért ezekben a publikációkban jellemzően több szerző is részt vesz.
+Első lépésként azt elemeztük, hogy a kutatók mikor frissítették utoljára az MTMT-profiljukat. Ha ez kevesebb mint három éve történt, akkor feltételeztük, hogy továbbra is aktívak a magyarországi kutatói közösségben. Emellett egyenként megvizsgáltuk a kutatók honlapját, hogy feltüntetik-e rajta külföldi egyetemi affiliációjukat, illetve LinkedIn-profiljuk alapján hazai vagy nemzetközi ipari munkahelyen dolgoznak-e.
 
+A következő tortadiagramokban a sötét szín azokat a kutatókat jelöli, akik Magyarországon élnek és aktívak a hazai kutatói közösségben. A világosabb szín azokat, akik elhagyták a kutatói pályát, és egy magyarországi vállalatnál helyezkedtek el – így már nem vesznek részt a tudományos életben. A doktori képzés egyik alapvető célja, hogy magasan kvalifikált munkaerőt biztosítson a magyar ipar számára. 
 
-Más módon is vizsgáltuk, hogy a szerzők aktívak-e még Magyarországon. Ezt annak alapján állapítottuk meg, hogy legalább három éve nem frissítették az MTMT-profiljukat, vagy a honlapjukon már külföldi, illetve ipari munkahelyet tüntetnek fel. A grafikonon a világosabb szín jelöli azokat a kutatókat, akik már nem aktívak a hazai tudományos életben.
+A harmadik kategóriába azok a kutatók tartoznak, akik külföldön dolgoznak – akár egyetemen, akár ipari kutatóintézetben. Ők a magyar tudomány szempontjából inkább veszteségként értelmezhetők, hiszen tudásuk és tapasztalatuk már nem a hazai kutatói közösséget gyarapítja.
+
+Továbbá négy szintre osztottuk a kutatókat az eddigi aktivitásuk alapján a CORE A* és A szintű konferenciákon. Minden szerzőt csak egy, a legmagasabb elért szintnek megfelelő kategóriába soroltunk. Mind a négy szintet a CORE A* és A publikációk száma alapján definiáltuk. A számításnál A*-**ekvivalens publikáció** alatt azt értjük, hogy három CORE A cikk egy CORE A* publikációval egyenértékűnek számít. A 3-as szorzó alkalmazását az indokolja, hogy a CORE rangsor alapján hozzávetőlegesen háromszor annyi CORE A szintű konferencia létezik, mint CORE A*.
+
+A kategóriák a következők:
+
+Established
+: Azok a kutatók, akik legalább egy CORE A* konferencián első szerzőként publikáltak, és összesen több mint 10 CORE A*-ekvivalens publikációjuk van, ami nemzetközi szinten is kiemelkedő teljesítményre utal.
+
+Expert
+: Olyan kutatók, akiknek összesen legalább 5 CORE A*-ekvivalens publikációjuk van, ami erős és tartós nemzetközi jelenlétet jelez.
+
+Rising
+: Azok a kutatók, akiknek legalább 2,5 CORE A*-ekvivalens publikációjuk van, akik elsősorban hazai szinten aktív és elismert kutatók, vagy fiatal kutatók feltörekvő nemzetközi aktivitással.
+
+Entry
+: Kutatók, akiknek legfeljebb 1 CORE A*-ekvivalens publikációjuk van, és akik már elérték a nemzetközi publikációs szintet. 
 
 Egy CORE A*-os konferenciacikkel már jó eséllyel lehet külföldön kutatói állást szerezni, míg öt ilyen publikációval szinte bármely vezető egyetemen vagy kutatóintézetben szívesen alkalmazzák az illetőt.
- 
-![Korfa, Core A](figures/author_distribution_Astar_all.png)
 
+![Establishged](figures/Established_theory_applied_pies.png)
+![Expert](figures/Expert_theory_applied_pies.png)
+![Rising](figures/Rising_theory_applied_pies.png)
+![Entry](figures/Entry_theory_applied_pies.png)
 
-Az látszik, hogy az elméleti kutatóknál kisebbek a lépcsőfokok: talán jobban itthon tudják tartani a fiatal kutatóikat, és régebb óta van hagyománya annak, hogy Magyarországról ezeken a fórumokon publikálnak. Másfelől a kisebb különbségek oka az is lehet, hogy az elméleti cikkeknek jellemzően kevesebb a szerzője.
+A diagramokból az olvasható ki, hogy az elméleti informatika területén a kutatókat nagyobb arányban sikerül megtartani a hazai tudományos közösségben. Ez részben azzal magyarázható, hogy az elméleti informatikai kutatás korábban érte el a CORE A* szintet, mint az alkalmazott informatika, így a hazai támogatási és értékelési rendszereknek több idejük volt hozzá igazodni.
 
-Összességében a 185 kutatóból, akik CORE A*-os cikket írtak, 46 már nem aktív, és mindössze 92-en írtak második ilyen publikációt. Úgy gondoljuk, ezen az arányon érdemes lenne javítani.
+Lényegesen kevesebb elméleti kutató helyezkedett el magyarországi vállalatoknál, főként a Morgan Stanley-nél. Egy teljes kutatói generáció hagyta el az akadémiai pályát, amikor a Google megnyitotta a magyarországi kutatóközpontját, azonban ők ma már jellemzően külföldön dolgoznak.
 
-![Korfa, Core A*](figures/author_distribution_A_all.png)
+Az alkalmazott kutatók elsősorban az Ericssonhoz, illetve kisebb magyar startupokhoz mentek el dolgozni. Megjegyezzük, hogy az alkalmazott kutatások jellemzően nagyobb kutatócsoportokat igényelnek, ezért ezekben a publikációkban általában több szerző vesz részt, ami a statisztikai arányokat is befolyásolhatja.
 
+Az Established és Expert kategóriákban több mint kétszer annyi elméleti kutatót találtunk, mint alkalmazottat, míg a Rising és Entry szinteken éppen fordított a helyzet: ott közel kétszer annyi alkalmazott informatikus kutató szerepel, mint elméleti.
 
-A CORE A konferenciacikkek esetében az ábrán valamivel kisebbek a lépcsőfokok, ami részben abból is adódhat, hogy egy CORE A-cikkes önéletrajz kisebb kuriózumnak számít, és nehezebb vele külföldön kutatói állást találni, mint egy CORE A*-os publikációval. Ugyanakkor ezen a szinten sajnos még nagyobb az inaktív kutatók aránya.
+Ezt az arányt egy külön ábrán is bemutatjuk, ahol a vízszintes tengely a kutatók által elért CORE A-ekvivalens publikációk számát*, míg a függőleges tengely az adott szinten lévő magyar szerzők számát mutatja.
 
-Az ábrákat legeneráltuk úgy is, hogy csak az első szerzőket vettük figyelembe. Az alkalmazott területeken ez különösen fontos, mivel az első szerző szerepe kiemelt jelentőségű. Az első szerzős CORE A konferenciacikkel rendelkező kutatók 54%-a már nem aktív a magyar tudományban.
+![Szerzők szám vs minimum Core A*-ekvivalnes cikkeinek száma](figures/author_distribution_A_all_cdf.png)
 
-![Korfa, első szerzők, Core A*](figures/author_distribution_Astar_first.png)
-![Korfa, első szerzők, Core A](figures/author_distribution_A_first.png)
+Az ábrán jól megfigyelhető, hogy az elméleti kutatóknál a görbének jellegzetes „hasa” van 3 és 9 közötti publikációszámnál. Ez a jelenség vélhetően annak köszönhető, hogy az elméleti informatika területén jobban sikerül itthon tartani a fiatal kutatókat, illetve annak is, hogy az elméleti informatikai publikálásnak Magyarországon régebbi és erősebb hagyománya van a nemzetközi konferenciákon. Már 3 CORE A* konferenciacikkel is nagyon jó külföldi kutatói állások érhetők el, mivel nagy a kereslet az ilyen teljesítményű kutatók iránt a vezető nemzetközi egyetemeken és kutatóintézetekben.
 
-Megismételtük a vizsgálatot úgy, hogy négy kategóriát definiáltunk, és különbséget tettünk aközött, hogy a szerző az egyetemi pályát hagyta el egy magyar vállalat miatt, vagy külföldre ment dolgozni. A doktori képzés célja, hogy magasan kvalifikált munkaerőt biztosítson a magyar ipar számára. A külföldre költözött kutató inkább veszteségként értelmezhető a magyar tudomány szempontjából.
-Mind a négy kategóriát a CORE A* és A publikációk alapján definiáltuk, és minden szerzőt csak egy (a legmagasabb) kategóriába soroltunk be.
-A legmagasabb kategóriába azok a kutatók kerültek, akik nemzetközi szinten is kiemelkedőek; a második kategóriába azok, akik nemzetközi szinten is számottevőek; a harmadik kategóriába azok, akik hazai szinten aktív és elismert kutatók; a negyedik kategóriába pedig azok, akik celérték a nemzetközi publikációs szintet.
+A két görbe lecsengése közötti különbség azzal is magyarázható, hogy az elméleti jellegű cikkeknek általában kevesebb szerzője van, mint az alkalmazott kutatásoknak.
+Ezzel együtt úgy gondoljuk, hogy ezen az arányon érdemes lenne javítani, különösen az alkalmazott kutatási területek kutatói utánpótlásának megerősítésével.
 
+![Konferenciák magyar cikkel](figures/already_abroad_core_Astar_A_class_pies.png)
 
-![Excellence](figures/excelence_theory_applied_pies.png)
-![Expert](figures/expert_theory_applied_pies.png)
-![Researcher](figures/researcher_theory_applied_pies.png)
-![Talent](figures/talent_theory_applied_pies.png)
 ## Informatika hatása a tudományra
 
 Bár első látásra a probléma egy szűk szakterületet – az informatikát – érinti, ma már szinte minden kutatásnak van informatikai vonatkozása.

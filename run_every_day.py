@@ -64,7 +64,7 @@ short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
                     "Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions)."
                     ]
-no_hungarina_affil =[
+no_hungarian_affil =[
                     "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
                     "Multi-step Iterative Automated Domain Modeling with Large Language Models.",
                     "Automated Domain Modeling with Large Language Models: A Comparative Study.",
@@ -196,7 +196,7 @@ def is_short_paper(info, venue):
 all_authors=[]
 
 def process_paper(paper,venues,search_log,foreign_papers,short_papers):
-    global all_authors, no_hungarina_affil, pid_to_name
+    global all_authors, no_hungarian_affil, pid_to_name
     if "inproceedings" not in paper:
         return None, None, search_log + "\n Skip as not inproceedings"
     info = paper["inproceedings"]
@@ -211,11 +211,9 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers):
     if venue.upper() not in venues:
         return None, None, search_log
     year = int(info.get("year", 0))
-    if not is_year_range(venues[venue.upper()]["YearsInterval"], year, 0): ### tollerate was 1
+    if not is_year_range(venues[venue.upper()]["YearsInterval"], year, 0): 
         return None, None, search_log + "Skip as {} is not in the right year {}".format(venue, year)
 
-    if info.get("title", "") in no_hungarina_affil:
-        return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
     record = {}
     key = info.get("@key", "")
     record["key"] = key
@@ -250,6 +248,10 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers):
 
     paper_str = "{} {} {} - {} ".format(venue, year, authors_str, title)
 
+    if info.get("title", "") in no_hungarian_affil:
+        foreign_papers[key] = record
+        return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
+    
     if len(ptype)==0:
         foreign_papers[key] = record
         return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
@@ -351,50 +353,51 @@ for rank_name in ["Astar", "A"]:
     with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
         venues = {k.upper(): v for k, v in json.load(f).items()}
         #json.load(f)
+    for tollerance in [0,100]:
+        papers = {}
+        foreign_papers = {}
+        short_papers = {}
+        search_log = ""
 
-    papers = {}
-    foreign_papers = {}
-    short_papers = {}
-    search_log = ""
-
-    for author, author_cls in authors_data.items():
-        if not author_cls.get("location"):
-            search_log += "\n{} is not working in Hungary\n".format(author)
-            continue
-        author_safe = remove_accents(author).replace(" ", "_")
-        path = os.path.join("dblp", author_safe+".json")
-        if not os.path.exists(path):
-            print("{} not found ".format(path))
-            continue
-
-        with open(path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                record = data.get("dblpperson", {})
-                papers_found = record.get("r", {})
-                person = record.get("person", author)
-            except Exception as e:
-                print("Error loading {}: {}".format(path,e))
+        for author, author_cls in authors_data.items():
+            if not author_cls.get("location"):
+                search_log += "\n{} is not working in Hungary\n".format(author)
                 continue
-        dbld_author[author]=person
-        affil = author_cls.get("affiliations", [])
-        search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
-        #if "Laszlo Kovacs"==author:
-        #    print("itt", len(hits))
-        if isinstance(papers_found, dict):
-            key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers)
-            if key and key not in papers:
-                papers[key] = record
-        else:
-            for paper in papers_found:
-                key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers)
+            author_safe = remove_accents(author).replace(" ", "_")
+            path = os.path.join("dblp", author_safe+".json")
+            if not os.path.exists(path):
+                print("{} not found ".format(path))
+                continue
+
+            with open(path, "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                    record = data.get("dblpperson", {})
+                    papers_found = record.get("r", {})
+                    person = record.get("person", author)
+                except Exception as e:
+                    print("Error loading {}: {}".format(path,e))
+                    continue
+            dbld_author[author]=person
+            affil = author_cls.get("affiliations", [])
+            search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
+            #if "Laszlo Kovacs"==author:
+            #    print("itt", len(hits))
+            if isinstance(papers_found, dict):
+                key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers)
                 if key and key not in papers:
                     papers[key] = record
+            else:
+                for paper in papers_found:
+                    key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers)
+                    if key and key not in papers:
+                        papers[key] = record
+            # and foreign papers:
 
-    # Mentés
-    with open("parsed_core_{}_papers.json".format(rank_name), "w", encoding="utf-8") as f:
-        json.dump(papers, f, indent=2, ensure_ascii=False)
-    print("Elmentve: parsed_core_{}_papers.json".format(rank_name))
+        # Mentés
+        with open("parsed_core_{}_papers_{}.json".format(rank_name, tollerance), "w", encoding="utf-8") as f:
+            json.dump(papers, f, indent=2, ensure_ascii=False)
+        print("Elmentve: parsed_core_{}_papers.json".format(rank_name))
 
 
                         
