@@ -70,11 +70,16 @@ I’ll investigate why it was skipped during the data collection process.
 To generate the latest list, run:
 
 ```bash
-python3 run_every_day.py
+python run_every_day.py --force
 ```
 
 it will generate two bibtex files: `coreA.bib`	and `coreAstar.bib` 
 
+To update the charts in this [report](https://github.com/jtapolcai/corePaperList/blob/main/report.md), run:
+
+```bash
+python generate_chart.py 
+```
 ---
 
 ## 📁 Required Files
