@@ -132,10 +132,14 @@ Ezt az arányt egy külön ábrán is bemutatjuk, ahol a vízszintes tengely a k
 
 Az ábrán jól megfigyelhető, hogy az elméleti kutatóknál a görbének jellegzetes „hasa” van 3 és 9 közötti publikációszámnál. Ez a jelenség vélhetően annak köszönhető, hogy az elméleti informatika területén jobban sikerül itthon tartani a fiatal kutatókat, illetve annak is, hogy az elméleti informatikai publikálásnak Magyarországon régebbi és erősebb hagyománya van a nemzetközi konferenciákon. Már 3 CORE A* konferenciacikkel is nagyon jó külföldi kutatói állások érhetők el, mivel nagy a kereslet az ilyen teljesítményű kutatók iránt a vezető nemzetközi egyetemeken és kutatóintézetekben.
 
-A két görbe lecsengése közötti különbség azzal is magyarázható, hogy az elméleti jellegű cikkeknek általában kevesebb szerzője van, mint az alkalmazott kutatásoknak.
-Ezzel együtt úgy gondoljuk, hogy ezen az arányon érdemes lenne javítani, különösen az alkalmazott kutatási területek kutatói utánpótlásának megerősítésével.
+A két görbe lecsengése közötti különbség abból is adódik, hogy az elméleti jellegű cikkeknek általában kevesebb szerzője van, mint az alkalmazott kutatásoknak. Intuíciónk ellenőrzésére — miszerint a magyar tudományos közéletből sok alkalmazott informatikai cikk hiányzik — elkészítettünk egy tortadiagramot azokból a publikációkból, amelyek a fentebb vizsgált magyar szerzőktől származnak, de már csak külföldi affiliáció szerepelt rajtuk. 
 
 ![Konferenciák magyar cikkel](figures/already_abroad_core_Astar_A_class_pies.png)
+
+Az elméleti informatikában is jelentős a külföldre vándorlás, de az alkalmazott informatikában ezeknél a szerzőknél kétszer annyi cikk született, jellemzően olyan környezetben, ahol a kutatókat kifejezetten motiválják a top konferenciás publikációkra. Az is megfigyelhető, hogy a CORE A konferenciák kevésbé vannak a célkeresztben külföldön.
+
+Mindez jól mutatja, mekkora potenciál rejlik az alkalmazott kutatási területek kutatói utánpótlásának megerősítésében.
+
 
 ## Informatika hatása a tudományra
 
@@ -143,23 +147,21 @@ Bár első látásra a probléma egy szűk szakterületet – az informatikát �
 
 Például az Excel-táblázat hasznos eszköz az adatok összesítésére, ha világosan látszik, hogyan szeretnék az adatokat később felhasználni. Kutatások esetén azonban az adatgyűjtés fázisában ez jellemzően még nem egyértelmű, és több lehetséges kimenetel sem zárható ki. Ilyenkor minden új kutatási ötlethez új Excel-táblázatot kellene készíteni.
 
-Megfelelő informatikai háttér esetén az adatokat olyan adatkezelő szoftverekben gyűjtik, amelyek komplex műveletekre is alkalmasak. Ez megadja a kutatói szabadságot azáltal, hogy lehetőséget teremt bonyolult lekérdezések és elemzések elvégzésére. Ide kapcsolódik a verziókövetés is amikor az adatok forrását és valamennyi verzióját is tárolják. 
+Megfelelő informatikai háttér esetén az adatokat olyan adatkezelő szoftverekben gyűjtik, amelyek komplex műveletekre is alkalmasak. Ez megadja a kutatói szabadságot azáltal, hogy lehetőséget teremt bonyolult lekérdezések és elemzések elvégzésére. 
+
+Egy másik terület, ahol az informatika élen jár, az a csapatmunka támogatása. Az informatikai rendszerek kifinomult eszköztárral rendelkeznek a közös munkavégzés megkönnyítésére. Egy szoftverben az egyes funkcióknak rendkívül precízen kell együttműködniük — sokkal precízebben, mint ahogy az a kutatási folyamatokban általában megszokott.
+
+Több kutató párhuzamosan dolgozhat ugyanazon adathalmazon vagy modellen, miközben az egyes változtatások nem vesznek el, hanem kontrolláltan integrálhatók. Ezt teszi lehetővé a verziókövetés, amely az adatok, programkódok vagy elemzési eredmények időbeli változásait követi nyomon. Segítségével minden módosítás visszakereshető, dokumentálható, és szükség esetén visszaállítható a korábbi állapot. A kutatási adatok esetében ez különösen fontos, mert biztosítja az átláthatóságot, reprodukálhatóságot és hitelességet.
 
 Ennek köszönhetően a mérések elemzésekor könnyebben azonosíthatók a hibás adatok, és ha az elemzés teljesen automatizált, akkor a hibás adat kijavítása után a hozzá tartozó diagramok és táblázatok is automatikusan frissülnek. Például az ebben a dokumentumban szereplő ábrák mind automatikusan frissülnek, ahogy újabb és újabb magyar cikkek jelennek meg.  
 
-Másik példa, amikor az adatokon bonyolultabb számításokat kell végezni, és a kutatók ehhez saját szoftvert fejlesztenek. Ezekre a szoftverekre jellemző, hogy a fejlesztés során többször is változnak az igények. Könnyen módosítható szoftver készítése azonban lényegesen magasabb szintű informatikai tudást igényel, mint a hagyományos, specifikáció alapú fejlesztés.
+Másik példa, amikor az adatokon bonyolultabb számításokat kell végezni, és a kutatók ehhez saját szoftvert fejlesztenek. Ezekre a szoftverekre jellemző, hogy a fejlesztés során többször is változnak az igények. Könnyen módosítható szoftver készítése azonban lényegesen magasabb szintű informatikai tudást igényel, mint a hagyományos, specifikáció alapú fejlesztés. A cél az, hogy a szoftver objektumstruktúrája jól tükrözze a vizsgált probléma sajátosságait. Ehhez egyszerre kell érteni a kutatott témához és az agilis fejlesztési módszertanhoz. Nem véletlen, hogy a szoftverfejlesztés során teljesen természetes, ha a programot időről időre lényegében a nulláról újraírják — csak így biztosítható a magas minőség.
 
-A cél az, hogy a szoftver objektumstruktúrája jól tükrözze a vizsgált probléma sajátosságait. Ehhez egyszerre kell érteni a kutatott témához és az agilis fejlesztési módszertanhoz. Nem véletlen, hogy a szoftverfejlesztés során teljesen természetes, ha a programot időről időre lényegében a nulláról újraírják — csak így biztosítható a magas minőség.
+Ezek a szoftverek általában több fejlesztő közös munkájának eredményei. Jelentős előnyt jelent, ha a kutatók ismerik azokat az informatikai eszközöket, amelyeket a közös fejlesztések támogatására hoztak létre, és ezeken keresztül kommunikálnak a fejlesztőkkel. Sőt, célszerű ezeken keresztül nemzetközi szoftverfejlesztési projektekbe is bekapcsolódni. A kapcsolódó munkák feltérképezése és megértése a szoftverfejlesztés jelentős részét teszi ki, de csak így kerülhető el, hogy „újra feltalálják a spanyolviaszt.”
 
-Ezek a szoftverek általában több fejlesztő közös munkájának eredményei. Jelentős előnyt jelent, ha a kutatók ismerik azokat az informatikai eszközöket, amelyeket a közös fejlesztések támogatására hoztak létre, és ezeken keresztül kommunikálnak a fejlesztőkkel.Sőt, célszerű ezeken keresztül nemzetközi szoftverfejlesztési projektekbe is bekapcsolódni. A kapcsolódó munkák feltérképezése és megértése a szoftverfejlesztés jelentős részét teszi ki, de csak így kerülhető el, hogy „újra feltalálják a spanyolviaszt.”
+Gyakran az informatikai kutató hiányára utal az is, ha a problémát megoldó szoftver kivárhatatlanul sokáig fut. Ilyen esetekben gyakori, hogy a számítás egyetlen modul miatt akad el. Előfordul, hogy a szűk keresztmetszetet jelentő modul jól párhuzamosítható, és megfelelő elosztott számítási kapacitással – például GPU-k alkalmazásával – jelentősen felgyorsítható. Tipikus példa az elakadásra, amikor egy lassú modul főként olyan részleteket számol ki, amelyekre valójában nincs is szükség ilyen mélységben. Ilyenkor az informatikus kutatónak mélyebben meg kell értenie a számítás menetét, és szükség esetén módosítani kell a számítás menetét.
 
-Gyakran az informatikai kutató hiányára utal az is, ha a problémát megoldó szoftver kivárhatatlanul sokáig fut. Ilyen esetekben gyakori, hogy a számítás egyetlen modul miatt akad el. Előfordul, hogy a szűk keresztmetszetet jelentő modul jól párhuzamosítható, és megfelelő elosztott számítási kapacitással – például GPU-k alkalmazásával – jelentősen felgyorsítható.
-
-Tipikus példa az elakadásra, amikor egy lassú modul főként olyan részleteket számol ki, amelyekre valójában nincs is szükség ilyen mélységben. Ilyenkor az informatikus kutatónak mélyebben meg kell értenie a számítás menetét, és szükség esetén módosítani kell a számítás menetét.
-
-A modern számítógépek elképesztő számítási kapacitással rendelkeznek, ezért nagyon ritka, hogy egy kutató valóban olyan feladatot próbáljon megoldani, amely technikailag megoldhatatlan. Sokkal gyakoribb, hogy a probléma valójában egy másik, jobban megtervezett számítási módszerrel – esetleg némi kompromisszummal – hatékonyan kezelhető lenne.
-
-Az ilyen alternatív megoldások megtalálása azonban már messze túlmutat egy hagyományos fejlesztő feladatkörén, és informatikai kutatói szemléletet igényel.
+A modern számítógépek elképesztő számítási kapacitással rendelkeznek, ezért nagyon ritka, hogy egy kutató valóban olyan feladatot próbáljon megoldani, amely technikailag megoldhatatlan. Sokkal gyakoribb, hogy a probléma valójában egy másik, jobban megtervezett számítási módszerrel – esetleg némi kompromisszummal – hatékonyan kezelhető lenne. Az ilyen alternatív megoldások megtalálása azonban már messze túlmutat egy hagyományos fejlesztő feladatkörén, és informatikai kutatói szemléletet igényel.
 
 Az elméleti kutatások célja elsősorban új informatikai eszközök és módszerek kidolgozása, vagyis megoldást adni olyan problémákra, amelyeket korábban megoldhatatlannak gondoltak. Bár ezek hatása gyakran széles körű, konkrét alkalmazásokban is áttörést hozhatnak. A magyar elméleti informatika hosszabb múltra tekint vissza, és nemzetközi szinten is jelentős eredményeket ért el, amit az ERC-díjak is jól mutatnak.
 
@@ -213,8 +215,8 @@ A mesterséges intelligencia ma már képes ezekre a fórumokra is elegendően j
 Hasznos lenne a támogatási rendszer újragondolása is. A fiatal kutatók számára finanszírozni kellene a részvételt a vezető konferenciákon (legalább a regisztrációs díjat és az utazási költséget), hogy bátran merjenek ezekre a konferenciákra cikket beadni. Sok esetben maga a bírálati folyamat is jelentős szakmai fejlődést hoz, még elutasítás esetén is. Ráadásul ezek a konferenciák komoly láthatósági értékkel bírnak a nemzetközi tudományos közösségben.
 
 Végezetül javaslatunk lényege:
-a CORE A* konferenciacikkeket automatikusan lehessen D1 folyóiratcikkekkel,
-a CORE A konferenciacikkeket pedig Q1 folyóiratokkal egyenértékűnek tekinteni.
+- a CORE A* konferenciacikkeket automatikusan lehessen D1 folyóiratcikkekkel,
+- a CORE A konferenciacikkeket pedig Q1 folyóiratokkal egyenértékűnek tekinteni.
 
 Ezáltal a magyar kutatók teljesítményét egységes, nemzetközileg elfogadott logika alapján lehetne értékelni, anélkül, hogy párhuzamos követelményeknek kellene megfelelniük.
 

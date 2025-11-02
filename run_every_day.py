@@ -107,18 +107,22 @@ def classify_author(author_name, pid, year):
                     return {
                         "location": "Hungary",
                         "institution": author_info.get("institution", "Unknown"),
-                        "department": author_info.get("department", "Unknown")
+                        "department": author_info.get("department", "Unknown"),
+                        "category": author_info.get("category", "Unknown")
                     }
     return {
         "location": "Unknown",
         "institution": "Unknown",
-        "department": "Unknown"
+        "department": "Unknown",
+        "category": "Unknown"
     }
 
 def classify_paper_by_author(author_list, year):
     hungarian = 0
     not_hungarian = 0
     ret = []
+    theory = 0
+    applied = 0
     for author, pid in author_list:
         author_cls = classify_author(author, pid, year)
         if author_cls["location"] == "Hungary":
@@ -129,6 +133,11 @@ def classify_paper_by_author(author_list, year):
                         ret.append(author_cls[field])
         else:
             not_hungarian += 1
+        if author_cls["category"] == "theory":
+            theory += 1
+        elif author_cls["category"] == "applied":
+            applied += 1
+
     if hungarian == 0:
         return ret
     if hungarian <= not_hungarian:
@@ -137,6 +146,10 @@ def classify_paper_by_author(author_list, year):
         ret.append("all_hungarian")
     else:
         ret.append("mostly_hungarian")
+    if theory > applied:
+        ret.append("theory")
+    else:
+        ret.append("applied")
     return ret
 
 def is_short_paper(info, venue):
