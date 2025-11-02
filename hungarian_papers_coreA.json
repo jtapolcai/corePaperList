@@ -922,6 +922,60 @@
       "theory"
     ]
   },
+  "conf/icdcs/TapolcaiLR25": {
+    "key": "conf/icdcs/TapolcaiLR25",
+    "title": "A Generic Framework for Cross-Chain Atomic Swaps of Digital Tokens.",
+    "venue": "ICDCS",
+    "year": "2025",
+    "pages": "12-22",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICDCS63083.2025.00011",
+    "url": "db/conf/icdcs/icdcs2025.html#TapolcaiLR25",
+    "authors": [
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ],
+      [
+        "Bence Lad\u00f3czki",
+        "163/4741"
+      ],
+      [
+        "Lajos R\u00f3nyai",
+        "33/5156"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icdcs/TapolcaiL25": {
+    "key": "conf/icdcs/TapolcaiL25",
+    "title": "Fully Decentralized Collection of Attestations for Single-Slot Finality in Ethereum.",
+    "venue": "ICDCS",
+    "year": "2025",
+    "pages": "439-449",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICDCS63083.2025.00050",
+    "url": "db/conf/icdcs/icdcs2025.html#TapolcaiL25",
+    "authors": [
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ],
+      [
+        "Bence Lad\u00f3czki",
+        "163/4741"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/networking/YallouzTKBGO17": {
     "key": "conf/networking/YallouzTKBGO17",
     "title": "Packing strictly-shortest paths in a tree for QoS-aware routing.",
@@ -2472,6 +2526,43 @@
       "SZTAKI",
       "international",
       "theory"
+    ]
+  },
+  "conf/re/ChenBFVM25": {
+    "key": "conf/re/ChenBFVM25",
+    "title": "LLM-based Satisfiability Checking of String Requirements by Consistent Data and Checker Generation.",
+    "venue": "RE",
+    "year": "2025",
+    "pages": "231-243",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/RE63999.2025.00030",
+    "url": "db/conf/re/re2025.html#ChenBFVM25",
+    "authors": [
+      [
+        "Boqi Chen",
+        "172/9949"
+      ],
+      [
+        "Aren A. Babikian",
+        "242/3911"
+      ],
+      [
+        "Shuzhao Feng",
+        "410/4675"
+      ],
+      [
+        "D\u00e1niel Varr\u00f3",
+        "53/1883"
+      ],
+      [
+        "Gunter Mussbacher",
+        "49/6874"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
     ]
   },
   "conf/models/FoldiakMVM22": {
@@ -9263,127 +9354,6 @@
       "applied"
     ]
   },
-  "conf/csfw/ButtyanHC02": {
-    "key": "conf/csfw/ButtyanHC02",
-    "title": "A Formal Analysis of Syverson?s Rational Exchange Protocol.",
-    "venue": "CSFW",
-    "year": "2002",
-    "pages": "193-205",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/CSFW.2002.1021816",
-      "https://doi.ieeecomputersociety.org/10.1109/CSFW.2002.1021816"
-    ],
-    "url": "db/conf/csfw/csfw2002.html#ButtyanHC02",
-    "authors": [
-      [
-        "Levente Butty\u00e1n",
-        "84/3267"
-      ],
-      [
-        "Jean-Pierre Hubaux",
-        "h/JPHubaux"
-      ],
-      [
-        "Srdjan Capkun",
-        "51/1639"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/mobihoc/HubauxBC01": {
-    "key": "conf/mobihoc/HubauxBC01",
-    "title": "The quest for security in mobile ad hoc networks.",
-    "venue": "MobiHoc",
-    "year": "2001",
-    "pages": "146-155",
-    "doi": "",
-    "ee": "https://doi.org/10.1145/501416.501437",
-    "url": "db/conf/mobihoc/mobihoc2001.html#HubauxBC01",
-    "authors": [
-      [
-        "Jean-Pierre Hubaux",
-        "h/JPHubaux"
-      ],
-      [
-        "Levente Butty\u00e1n",
-        "84/3267"
-      ],
-      [
-        "Srdjan Capkun",
-        "51/1639"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/mobihoc/ButtyanH00": {
-    "key": "conf/mobihoc/ButtyanH00",
-    "title": "Enforcing service availability in mobile ad-hoc WANs.",
-    "venue": "MobiHoc",
-    "year": "2000",
-    "pages": "87-96",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/MOBHOC.2000.869216",
-      "https://dl.acm.org/citation.cfm?id=514164"
-    ],
-    "url": "db/conf/mobihoc/mobihoc2000.html#ButtyanH00",
-    "authors": [
-      [
-        "Levente Butty\u00e1n",
-        "84/3267"
-      ],
-      [
-        "Jean-Pierre Hubaux",
-        "h/JPHubaux"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/csfw/ButtyanSW98": {
-    "key": "conf/csfw/ButtyanSW98",
-    "title": "A Simple Logic for Authentication Protocol Design.",
-    "venue": "CSFW",
-    "year": "1998",
-    "pages": "153-162",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/CSFW.1998.683165",
-      "https://doi.ieeecomputersociety.org/10.1109/CSFW.1998.683165"
-    ],
-    "url": "db/conf/csfw/csfw1998.html#ButtyanSW98",
-    "authors": [
-      [
-        "Levente Butty\u00e1n",
-        "84/3267"
-      ],
-      [
-        "Sebastian Staamann",
-        "26/7033"
-      ],
-      [
-        "Uwe G. Wilhelm",
-        "94/2003"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
   "conf/im/KimMPSSWKSNM15": {
     "key": "conf/im/KimMPSSWKSNM15",
     "title": "Service provider DevOps for large scale modern network services.",
@@ -10136,7 +10106,7 @@
     "classfiied": [
       "ELTE",
       "international",
-      "applied"
+      "theory"
     ]
   },
   "conf/icnp/TuranyiV02": {

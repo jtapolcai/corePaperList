@@ -15,8 +15,14 @@ import os
 from unidecode import unidecode
 from google_author_sheet import download_author_google_sheet,remove_accents, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
 
-force=False
-#force=True
+import sys
+
+if "--force" in sys.argv:
+    force = True
+else:
+    force = False
+
+print("Force downloading DBLP records (takes a few minutes)")
 
 url = "https://docs.google.com/spreadsheets/d/124qQX0h0CqPZZhBJiUT7myNqonp4dLJ4uyYZTtfauZI/export?format=csv"
 
@@ -54,6 +60,7 @@ regular_paper_list=["FERO: Fast and Efficient",
                   "On the Role of Mathematical Language Concept in the Theory of Intelligent Systems.",
                   "Definition Theory as Basis for a Creative Problem Solver.",
                   "Integrating Declarative Knowledge Programming Styles and Tools in a Structured Object AI Environment.",
+                  "Parameter Estimation of Geometrically Sampled Fractional Brownian Traffic"
                 ]
 short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Embedding-based Automated Assessment of Domain Models.",
@@ -327,7 +334,7 @@ def query_DBLP(authors_data,force):
             response = requests.get(url)
             counter += 1
 
-            if counter % 100 == 0:
+            if counter % 50 == 0:
                 print("Pause after {} queries".format(counter))
                 time.sleep(10)
             if counter % 1000 == 0:
