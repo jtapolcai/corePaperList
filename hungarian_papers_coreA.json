@@ -413,6 +413,31 @@
       "theory"
     ]
   },
+  "conf/compgeom/MarxS14": {
+    "key": "conf/compgeom/MarxS14",
+    "title": "The limited blessing of low dimensionality: when 1-1/d is the best possible exponent for d-dimensional geometric problems.",
+    "venue": "SoCG",
+    "year": "2014",
+    "pages": "67",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/2582112.2582124",
+    "url": "db/conf/compgeom/compgeom2014.html#MarxS14",
+    "authors": [
+      [
+        "D\u00e1niel Marx",
+        "95/1832"
+      ],
+      [
+        "Anastasios Sidiropoulos",
+        "99/6850"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "theory"
+    ]
+  },
   "conf/stacs/CaoM14": {
     "key": "conf/stacs/CaoM14",
     "title": "Chordal Editing is Fixed-Parameter Tractable.",
@@ -690,6 +715,34 @@
       [
         "G\u00e1bor Tardos",
         "t/GaborTardos"
+      ]
+    ],
+    "classfiied": [
+      "R\u00e9nyi",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/istcs/TardosB95": {
+    "key": "conf/istcs/TardosB95",
+    "title": "A Lower Bound on the Mod 6 Degree of the OR Function.",
+    "venue": "ISTCS",
+    "year": "1995",
+    "pages": "52-56",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ISTCS.1995.377046",
+      "https://doi.ieeecomputersociety.org/10.1109/ISTCS.1995.377046"
+    ],
+    "url": "db/conf/istcs/istcs1995.html#TardosB95",
+    "authors": [
+      [
+        "G\u00e1bor Tardos",
+        "t/GaborTardos"
+      ],
+      [
+        "David A. Mix Barrington",
+        "b/DAMBarrington"
       ]
     ],
     "classfiied": [
@@ -1189,6 +1242,165 @@
     "classfiied": [
       "BME",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/hotnets/RetvariCKTCEP12": {
+    "key": "conf/hotnets/RetvariCKTCEP12",
+    "title": "Compressing IP forwarding tables for fun and profit.",
+    "venue": "HotNets",
+    "year": "2012",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1145/2390231.2390232",
+      "https://www.wikidata.org/entity/Q58033127"
+    ],
+    "url": "db/conf/hotnets/hotnets2012.html#RetvariCKTCEP12",
+    "authors": [
+      [
+        "G\u00e1bor R\u00e9tv\u00e1ri",
+        "45/5812"
+      ],
+      [
+        "Zolt\u00e1n Csern\u00e1tony",
+        "121/4182"
+      ],
+      [
+        "Attila Kor\u00f6si",
+        "43/3942"
+      ],
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ],
+      [
+        "Andr\u00e1s Cs\u00e1sz\u00e1r",
+        "54/6911"
+      ],
+      [
+        "G\u00e1bor Enyedi",
+        "50/870"
+      ],
+      [
+        "Gergely Pongr\u00e1cz",
+        "121/4115"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "Ericsson",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/KovacsVT07": {
+    "key": "conf/icc/KovacsVT07",
+    "title": "Spatio-Temporal Dynamic Spectrum Allocation with Interference Handling.",
+    "venue": "ICC",
+    "year": "2007",
+    "pages": "5575-5580",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICC.2007.924",
+      "https://www.wikidata.org/entity/Q58033321"
+    ],
+    "url": "db/conf/icc/icc2007.html#KovacsVT07",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Kov\u00e1cs",
+        "59/1019"
+      ],
+      [
+        "Attila Vid\u00e1cs",
+        "04/2121"
+      ],
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/TapolcaiCCWJV06": {
+    "key": "conf/icc/TapolcaiCCWJV06",
+    "title": "Joint Quantification of Resilience and Quality of Service.",
+    "venue": "ICC",
+    "year": "2006",
+    "pages": "477-482",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICC.2006.254841",
+      "https://www.wikidata.org/entity/Q58033338"
+    ],
+    "url": "db/conf/icc/icc2006.html#TapolcaiCCWJV06",
+    "authors": [
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ],
+      [
+        "Piotr Cholda",
+        "13/4355"
+      ],
+      [
+        "Tibor Cinkler",
+        "21/3848"
+      ],
+      [
+        "Krzysztof Wajda",
+        "96/2809"
+      ],
+      [
+        "Andrzej Jajszczyk",
+        "28/6064"
+      ],
+      [
+        "Dominique Verch\u00e8re",
+        "99/2939"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icc/HoTMY04": {
+    "key": "conf/icc/HoTMY04",
+    "title": "Linear formulation for path shared protection.",
+    "venue": "ICC",
+    "year": "2004",
+    "pages": "1622-1627",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2004.1312784",
+    "url": "db/conf/icc/icc2004.html#HoTMY04",
+    "authors": [
+      [
+        "Pin-Han Ho",
+        "53/4284"
+      ],
+      [
+        "J\u00e1nos Tapolcai",
+        "14/4896"
+      ],
+      [
+        "Hussein T. Mouftah",
+        "217/2530"
+      ],
+      [
+        "Chi-Hsiang Yeh",
+        "17/448"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
       "applied"
     ]
   },
@@ -2399,6 +2611,35 @@
       "theory"
     ]
   },
+  "conf/gd/PachTT97": {
+    "key": "conf/gd/PachTT97",
+    "title": "Three-dimensional Grid Drawings of Graphs.",
+    "venue": "GD",
+    "year": "1997",
+    "pages": "47-51",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/3-540-63938-1_49",
+    "url": "db/conf/gd/gd1997.html#PachTT97",
+    "authors": [
+      [
+        "J\u00e1nos Pach",
+        "18/2119"
+      ],
+      [
+        "Torsten Thiele",
+        "70/4756"
+      ],
+      [
+        "G\u00e9za T\u00f3th 0001",
+        "38/1635"
+      ]
+    ],
+    "classfiied": [
+      "R\u00e9nyi",
+      "international",
+      "theory"
+    ]
+  },
   "conf/gd/PachT96": {
     "key": "conf/gd/PachT96",
     "title": "Graphs Drawn with Few Crossings Per Edge.",
@@ -2646,6 +2887,35 @@
       "Ericsson",
       "BME",
       "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/RetvariBC07": {
+    "key": "conf/icc/RetvariBC07",
+    "title": "Routing-Independent Fairness in Capacitated Networks.",
+    "venue": "ICC",
+    "year": "2007",
+    "pages": "6344-6349",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2007.1050",
+    "url": "db/conf/icc/icc2007.html#RetvariBC07",
+    "authors": [
+      [
+        "G\u00e1bor R\u00e9tv\u00e1ri",
+        "45/5812"
+      ],
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Tibor Cinkler",
+        "21/3848"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -2973,6 +3243,71 @@
       "theory"
     ]
   },
+  "conf/bmvc/BarathNEM22": {
+    "key": "conf/bmvc/BarathNEM22",
+    "title": "Pose-graph via Adaptive Image Re-ordering.",
+    "venue": "BMVC",
+    "year": "2022",
+    "pages": "127",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmvc2022.mpi-inf.mpg.de/127/"
+    },
+    "url": "db/conf/bmvc/bmvc2022.html#BarathNEM22",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Jana Noskova",
+        "142/5723"
+      ],
+      [
+        "Ivan Eichhardt",
+        "183/3621"
+      ],
+      [
+        "Jiri Matas",
+        "m/JiriMatas"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/bmvc/EichhardtB19": {
+    "key": "conf/bmvc/EichhardtB19",
+    "title": "Optimal Multi-view Correction of Local Affine Frames.",
+    "venue": "BMVC",
+    "year": "2019",
+    "pages": "166",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmvc2019.org/wp-content/uploads/papers/0816-paper.pdf"
+    },
+    "url": "db/conf/bmvc/bmvc2019.html#EichhardtB19",
+    "authors": [
+      [
+        "Ivan Eichhardt",
+        "183/3621"
+      ],
+      [
+        "Daniel Barath",
+        "166/4789"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/cvpr/BarathTH17": {
     "key": "conf/cvpr/BarathTH17",
     "title": "A Minimal Solution for Two-View Focal-Length Estimation Using Two Affine Correspondences.",
@@ -3002,6 +3337,216 @@
     "classfiied": [
       "SZTAKI",
       "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/bmvc/BarathMH16": {
+    "key": "conf/bmvc/BarathMH16",
+    "title": "Accurate Closed-form Estimation of Local Affine Transformations Consistent with the Epipolar Geometry.",
+    "venue": "BMVC",
+    "year": "2016",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmva-archive.org.uk/bmvc/2016/papers/paper011/index.html"
+    },
+    "url": "db/conf/bmvc/bmvc2016.html#BarathMH16",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Jiri Matas",
+        "m/JiriMatas"
+      ],
+      [
+        "Levente Hajder",
+        "94/4989"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/bmvc/BarathMH16a": {
+    "key": "conf/bmvc/BarathMH16a",
+    "title": "Multi-H: Efficient recovery of tangent planes in stereo images.",
+    "venue": "BMVC",
+    "year": "2016",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmva-archive.org.uk/bmvc/2016/papers/paper013/index.html"
+    },
+    "url": "db/conf/bmvc/bmvc2016.html#BarathMH16a",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Jiri Matas",
+        "m/JiriMatas"
+      ],
+      [
+        "Levente Hajder",
+        "94/4989"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaBGT17": {
+    "key": "conf/interspeech/GosztolyaBGT17",
+    "title": "DNN-Based Feature Extraction and Classifier Combination for Child-Directed Speech, Cold and Snoring Identification.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "3522-3526",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-905"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#GosztolyaBGT17",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "R\u00f3bert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaGBT16": {
+    "key": "conf/interspeech/GosztolyaGBT16",
+    "title": "Determining Native Language and Deception Using Phonetic Features and Classifier Combination.",
+    "venue": "INTERSPEECH",
+    "year": "2016",
+    "pages": "2418-2422",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2016-962"
+    },
+    "url": "db/conf/interspeech/interspeech2016.html#GosztolyaGBT16",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "R\u00f3bert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GroszBGT15": {
+    "key": "conf/interspeech/GroszBGT15",
+    "title": "Assessing the degree of nativeness and parkinson's condition using Gaussian processes and deep rectifier neural networks.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "919-923",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-195"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#GroszBGT15",
+    "authors": [
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "R\u00f3bert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaGBT14": {
+    "key": "conf/interspeech/GosztolyaGBT14",
+    "title": "Detecting the intensity of cognitive and physical load using AdaBoost and deep rectifier neural networks.",
+    "venue": "INTERSPEECH",
+    "year": "2014",
+    "pages": "452-456",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2014-109"
+    },
+    "url": "db/conf/interspeech/interspeech2014.html#GosztolyaGBT14",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "R\u00f3bert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
       "all_hungarian",
       "applied"
     ]
@@ -3042,6 +3587,38 @@
       "SZTE",
       "international",
       "theory"
+    ]
+  },
+  "conf/interspeech/GosztolyaBT13": {
+    "key": "conf/interspeech/GosztolyaBT13",
+    "title": "Detecting autism, emotions and social signals using adaboost.",
+    "venue": "INTERSPEECH",
+    "year": "2013",
+    "pages": "220-224",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2013-71"
+    },
+    "url": "db/conf/interspeech/interspeech2013.html#GosztolyaBT13",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "R\u00f3bert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
     ]
   },
   "conf/ecml/BanhalmiKB07": {
@@ -3367,6 +3944,39 @@
       "applied"
     ]
   },
+  "conf/icc/RaczTF01": {
+    "key": "conf/icc/RaczTF01",
+    "title": {
+      "sup": "rd",
+      "#text": "Call level performance analysis of 3 generation mobile core networks."
+    },
+    "venue": "ICC",
+    "year": "2001",
+    "pages": "456-461",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2001.936982",
+    "url": "db/conf/icc/icc2001.html#RaczTF01",
+    "authors": [
+      [
+        "S\u00e1ndor R\u00e1cz",
+        "07/6609"
+      ],
+      [
+        "Mikl\u00f3s Telek",
+        "51/1636"
+      ],
+      [
+        "G\u00e1bor Fodor 0001",
+        "14/5281"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/icc/FodorNB98": {
     "key": "conf/icc/FodorNB98",
     "title": "Revenue optimization and fairness control of priced guaranteed and best effort services on an ATM transmission link.",
@@ -3505,6 +4115,35 @@
       "theory"
     ]
   },
+  "conf/icc/GulyasBH06": {
+    "key": "conf/icc/GulyasBH06",
+    "title": "A Probabilistic Network Calculus for Characterizing Long-run Network Behavior.",
+    "venue": "ICC",
+    "year": "2006",
+    "pages": "465-470",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2006.254771",
+    "url": "db/conf/icc/icc2006.html#GulyasBH06",
+    "authors": [
+      [
+        "Andr\u00e1s Guly\u00e1s",
+        "18/4170"
+      ],
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/networking/GulyasB06": {
     "key": "conf/networking/GulyasB06",
     "title": "Workload Loss Examinations with a Novel Probabilistic Extension of Network Calculus.",
@@ -3533,6 +4172,39 @@
       "applied"
     ]
   },
+  "conf/icc/GulyasBHS05": {
+    "key": "conf/icc/GulyasBHS05",
+    "title": "Dependency criteria on regulated inputs for buffer overflow approximation.",
+    "venue": "ICC",
+    "year": "2005",
+    "pages": "83-87",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2005.1494325",
+    "url": "db/conf/icc/icc2005.html#GulyasBHS05",
+    "authors": [
+      [
+        "Andr\u00e1s Guly\u00e1s",
+        "18/4170"
+      ],
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ],
+      [
+        "Tam\u00e1s Sz\u00e9n\u00e1si",
+        "59/11517"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/networking/BiroGH05": {
     "key": "conf/networking/BiroGH05",
     "title": "A Novel Direct Upper Approximation for Workload Loss Ratio in General Buffered Systems.",
@@ -3553,6 +4225,93 @@
       [
         "Andr\u00e1s Guly\u00e1s",
         "18/4170"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/BiroHMNP04": {
+    "key": "conf/icc/BiroHMNP04",
+    "title": "Towards a framework of QoS measure estimates for packet-based networks.",
+    "venue": "ICC",
+    "year": "2004",
+    "pages": "2231-2235",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2004.1312914",
+    "url": "db/conf/icc/icc2004.html#BiroHMNP04",
+    "authors": [
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ],
+      [
+        "M\u00e1ty\u00e1s Martinecz",
+        "39/2681"
+      ],
+      [
+        "Felician N\u00e9meth",
+        "22/2016"
+      ],
+      [
+        "Octavian Pop",
+        "46/1748"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/BiroH04": {
+    "key": "conf/ijcnn/BiroH04",
+    "title": "An optimization neural network model with lossy dynamics and time-varying activation functions.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "2245-2249",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1380970",
+    "url": "db/conf/ijcnn/ijcnn2004.html#BiroH04",
+    "authors": [
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/BiroH04a": {
+    "key": "conf/ijcnn/BiroH04a",
+    "title": "Analog neural networks as asymptotically exact dynamic solvers.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "2267-2272",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1380976",
+    "url": "db/conf/ijcnn/ijcnn2004.html#BiroH04a",
+    "authors": [
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
       ],
       [
         "Zal\u00e1n Heszberger",
@@ -3594,6 +4353,39 @@
       "applied"
     ]
   },
+  "conf/icc/SzlavikSZB03": {
+    "key": "conf/icc/SzlavikSZB03",
+    "title": "On the applicability of the on-off type approximation of the effective bandwidth function.",
+    "venue": "ICC",
+    "year": "2003",
+    "pages": "183-187",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2003.1204166",
+    "url": "db/conf/icc/icc2003.html#SzlavikSZB03",
+    "authors": [
+      [
+        "\u00c1rp\u00e1d Szl\u00e1vik",
+        "21/59"
+      ],
+      [
+        "Gergely Seres",
+        "22/83"
+      ],
+      [
+        "J\u00e1nos Z\u00e1tonyi",
+        "94/4489"
+      ],
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/networking/SeresSZB02": {
     "key": "conf/networking/SeresSZB02",
     "title": "Towards Efficient Decision Rules for Admission Control Based on the Many Sources Asymptotics.",
@@ -3627,6 +4419,39 @@
       "applied"
     ]
   },
+  "conf/icc/BartaNSB01": {
+    "key": "conf/icc/BartaNSB01",
+    "title": "An approach for traffic characterization in generalized processor sharing networks.",
+    "venue": "ICC",
+    "year": "2001",
+    "pages": "625-629",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2001.937014",
+    "url": "db/conf/icc/icc2001.html#BartaNSB01",
+    "authors": [
+      [
+        "Peter Barta",
+        "80/1179"
+      ],
+      [
+        "Felician N\u00e9meth",
+        "22/2016"
+      ],
+      [
+        "R\u00f3bert Szab\u00f3",
+        "46/4993"
+      ],
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/networking/SzaboBNB00": {
     "key": "conf/networking/SzaboBNB00",
     "title": "Worst-Case Deterministic Delay Bounds for Arbitrary Weighted Generalized Processor Sharing Schedulers.",
@@ -3652,6 +4477,60 @@
       [
         "J\u00f3zsef B\u00edr\u00f3",
         "b/JozsefBiro"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/BiroH99": {
+    "key": "conf/icc/BiroH99",
+    "title": "Comparison of simple tail distribution estimators.",
+    "venue": "ICC",
+    "year": "1999",
+    "pages": "1841-1845",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.1999.765581",
+    "url": "db/conf/icc/icc1999.html#BiroH99",
+    "authors": [
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zal\u00e1n Heszberger",
+        "97/6474"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icnn/BiroKT96": {
+    "key": "conf/icnn/BiroKT96",
+    "title": "A noise annealing neural network for global optimization.",
+    "venue": "ICNN",
+    "year": "1996",
+    "pages": "513-518",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICNN.1996.548946",
+    "url": "db/conf/icnn/icnn1996.html#BiroKT96",
+    "authors": [
+      [
+        "J\u00f3zsef B\u00edr\u00f3",
+        "b/JozsefBiro"
+      ],
+      [
+        "Zolt\u00e1n Koronkai",
+        "247/5493"
+      ],
+      [
+        "Tibor Tr\u00f3n",
+        "49/4500"
       ]
     ],
     "classfiied": [
@@ -3770,6 +4649,42 @@
       [
         "Maarten van Steen",
         "s/MaartenvanSteen"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/ccgrid/JelasityPSP02": {
+    "key": "conf/ccgrid/JelasityPSP02",
+    "title": "Maintaining Connectivity in a Scalable and Robust Distributed Environment.",
+    "venue": "CCGRID",
+    "year": "2002",
+    "pages": "389-394",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CCGRID.2002.1017166",
+      "https://doi.ieeecomputersociety.org/10.1109/CCGRID.2002.1017166"
+    ],
+    "url": "db/conf/ccgrid/ccgrid2002.html#JelasityPSP02",
+    "authors": [
+      [
+        "M\u00e1rk Jelasity",
+        "99/618"
+      ],
+      [
+        "Mike Preu\u00df",
+        "p/MikePreuss"
+      ],
+      [
+        "Maarten van Steen",
+        "s/MaartenvanSteen"
+      ],
+      [
+        "Ben Paechter",
+        "51/942"
       ]
     ],
     "classfiied": [
@@ -4038,6 +4953,30 @@
     "classfiied": [
       "ELTE",
       "mostly_hungarian",
+      "theory"
+    ]
+  },
+  "conf/compgeom/Palvolgyi20": {
+    "key": "conf/compgeom/Palvolgyi20",
+    "title": "Radon Numbers Grow Linearly.",
+    "venue": "SoCG",
+    "year": "2020",
+    "pages": "60:1-60:5",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.4230/LIPIcs.SoCG.2020.60"
+    },
+    "url": "db/conf/compgeom/compgeom2020.html#Palvolgyi20",
+    "authors": [
+      [
+        "D\u00f6m\u00f6t\u00f6r P\u00e1lv\u00f6lgyi",
+        "56/6527"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
       "theory"
     ]
   },
@@ -4360,6 +5299,38 @@
       "theory"
     ]
   },
+  "conf/bmvc/MilacskiPL19": {
+    "key": "conf/bmvc/MilacskiPL19",
+    "title": "Differentiable Unrolled Alternating Direction Method of Multipliers for OneNet.",
+    "venue": "BMVC",
+    "year": "2019",
+    "pages": "140",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmvc2019.org/wp-content/uploads/papers/0717-paper.pdf"
+    },
+    "url": "db/conf/bmvc/bmvc2019.html#MilacskiPL19",
+    "authors": [
+      [
+        "Zolt\u00e1n \u00c1d\u00e1m Milacski",
+        "161/2866"
+      ],
+      [
+        "Barnab\u00e1s P\u00f3czos",
+        "15/4829"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/ijcnn/FodorFKSL19": {
     "key": "conf/ijcnn/FodorFKSL19",
     "title": "Skeletonization Combined with Deep Neural Networks for Superpixel Temporal Propagation.",
@@ -4641,6 +5612,323 @@
       "applied"
     ]
   },
+  "conf/ijcnn/GaborPL04": {
+    "key": "conf/ijcnn/GaborPL04",
+    "title": "Value estimation based computer-assisted data mining for surfing the Internet.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1379915",
+    "url": "db/conf/ijcnn/ijcnn2004.html#GaborPL04",
+    "authors": [
+      [
+        "B\u00e1lint G\u00e1bor",
+        "60/1700"
+      ],
+      [
+        "Zsolt Palotai",
+        "52/5889"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/HeviziBPSTL04": {
+    "key": "conf/ijcnn/HeviziBPSTL04",
+    "title": "Hidden Markov model finds behavioral patterns of users working with a headmouse driven writing tool.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1379997",
+    "url": "db/conf/ijcnn/ijcnn2004.html#HeviziBPSTL04",
+    "authors": [
+      [
+        "Gy\u00f6rgy H\u00e9v\u00edzi",
+        "94/6840"
+      ],
+      [
+        "Mih\u00e1ly Bicz\u00f3",
+        "47/7055"
+      ],
+      [
+        "Barnab\u00e1s P\u00f3czos",
+        "15/4829"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0001",
+        "73/2909-1"
+      ],
+      [
+        "B\u00e1lint Tak\u00e1cs",
+        "38/962"
+      ],
+      [
+        "Andr\u00e1s L\u00f6rincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "BME",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/ijcnn/PalotaiML04": {
+    "key": "conf/ijcnn/PalotaiML04",
+    "title": "Distributed mining of the Internet for novel news: evolutionary community of news foragers.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "1451-1456",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1380166",
+    "url": "db/conf/ijcnn/ijcnn2004.html#PalotaiML04",
+    "authors": [
+      [
+        "Zsolt Palotai",
+        "52/5889"
+      ],
+      [
+        "S\u00e1ndor Mandusitz",
+        "31/5808"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/PalotaiSL04": {
+    "key": "conf/ijcnn/PalotaiSL04",
+    "title": "Emerging evolutionary features in noise driven STDP networks?",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1379958",
+    "url": "db/conf/ijcnn/ijcnn2004.html#PalotaiSL04",
+    "authors": [
+      [
+        "Zsolt Palotai",
+        "52/5889"
+      ],
+      [
+        "G\u00e1bor Szirtes",
+        "85/2731"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/SzitaL04": {
+    "key": "conf/ijcnn/SzitaL04",
+    "title": "Simple algorithm for recurrent neural networks that can learn sequence completion.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1379895",
+    "url": "db/conf/ijcnn/ijcnn2004.html#SzitaL04",
+    "authors": [
+      [
+        "Istvan Szita",
+        "51/6034"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/TakacsSL04": {
+    "key": "conf/ijcnn/TakacsSL04",
+    "title": "An algorithm for finding reliably schedulable plans.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "2257-2261",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1380973",
+    "url": "db/conf/ijcnn/ijcnn2004.html#TakacsSL04",
+    "authors": [
+      [
+        "B\u00e1lint Tak\u00e1cs",
+        "38/962"
+      ],
+      [
+        "Istvan Szita",
+        "51/6034"
+      ],
+      [
+        "Andr\u00e1s Lorincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "ELTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
+  "conf/ecai/SzitaTL02": {
+    "key": "conf/ecai/SzitaTL02",
+    "title": "Reinforcement Learning Integrated with a Non-Markovian Controller.",
+    "venue": "ECAI",
+    "year": "2002",
+    "pages": "365-369",
+    "doi": "",
+    "ee": "",
+    "url": "db/conf/ecai/ecai2002.html#SzitaTL02",
+    "authors": [
+      [
+        "Istvan Szita",
+        "51/6034"
+      ],
+      [
+        "B\u00e1lint Tak\u00e1cs",
+        "38/962"
+      ],
+      [
+        "Andr\u00e1s L\u00f6rincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "BME",
+      "all_hungarian",
+      "theory"
+    ]
+  },
+  "conf/ecai/SzatmaryPEKL02": {
+    "key": "conf/ecai/SzatmaryPEKL02",
+    "title": "Non-negative matrix factorization extended by sparse code shrinkage and weight sparsification non-negative matrix factorization algorithms.",
+    "venue": "ECAI",
+    "year": "2002",
+    "pages": "503-507",
+    "doi": "",
+    "ee": "",
+    "url": "db/conf/ecai/ecai2002.html#SzatmaryPEKL02",
+    "authors": [
+      [
+        "Botond Szatm\u00e1ry",
+        "90/4780"
+      ],
+      [
+        "Barnab\u00e1s P\u00f3czos",
+        "15/4829"
+      ],
+      [
+        "Julian Eggert",
+        "64/4497"
+      ],
+      [
+        "Edgar K\u00f6rner",
+        "21/1981"
+      ],
+      [
+        "Andr\u00e1s L\u00f6rincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/LorinczB99": {
+    "key": "conf/ijcnn/LorinczB99",
+    "title": "Computational model of the entorhinal-hippocampal region derived from a single principle.",
+    "venue": "IJCNN",
+    "year": "1999",
+    "pages": "58-63",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.1999.831456",
+    "url": "db/conf/ijcnn/ijcnn1999.html#LorinczB99",
+    "authors": [
+      [
+        "Andr\u00e1s L\u00f6rincz",
+        "81/2260"
+      ],
+      [
+        "Gy\u00f6rgy Buzs\u00e1ki",
+        "17/3934"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/AszalosKKBJL99": {
+    "key": "conf/ijcnn/AszalosKKBJL99",
+    "title": "Generative network explains category formation in Alzheimer patients.",
+    "venue": "IJCNN",
+    "year": "1999",
+    "pages": "64-68",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.1999.831457",
+    "url": "db/conf/ijcnn/ijcnn1999.html#AszalosKKBJL99",
+    "authors": [
+      [
+        "Peter Aszalos",
+        "213/5459"
+      ],
+      [
+        "Szabolcs K\u00e9ri",
+        "180/0669"
+      ],
+      [
+        "Gy\u00f6rgy Kov\u00e1cs",
+        "74/6897"
+      ],
+      [
+        "Gy\u00f6rgy Benedek",
+        "193/9812"
+      ],
+      [
+        "Zolton Janka",
+        "213/5367"
+      ],
+      [
+        "Andr\u00e1s L\u00f6rincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/gd/Geher024": {
     "key": "conf/gd/Geher024",
     "title": "1-Planar Unit Distance Graphs.",
@@ -4683,6 +5971,38 @@
       [
         "J\u00e1nos Bar\u00e1t",
         "39/6443"
+      ],
+      [
+        "G\u00e9za T\u00f3th 0001",
+        "38/1635"
+      ]
+    ],
+    "classfiied": [
+      "R\u00e9nyi",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/gd/CernyKT07": {
+    "key": "conf/gd/CernyKT07",
+    "title": "Improvement on the Decay of Crossing Numbers.",
+    "venue": "GD",
+    "year": "2007",
+    "pages": "25-30",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.1007/978-3-540-77537-9_5"
+    },
+    "url": "db/conf/gd/gd2007.html#CernyKT07",
+    "authors": [
+      [
+        "Jakub Cern\u00fd",
+        "32/5231"
+      ],
+      [
+        "Jan Kyncl",
+        "k/JanKyncl"
       ],
       [
         "G\u00e9za T\u00f3th 0001",
@@ -4893,6 +6213,101 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/SziovaILKN20": {
+    "key": "conf/fuzzIEEE/SziovaILKN20",
+    "title": "Fuzzy rulebase parameter determination for stabilized KH interpolation based detection of colorectal polyps on colonoscopy images.",
+    "venue": "FUZZ-IEEE",
+    "year": "2020",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ48607.2020.9177839",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2020.html#SziovaILKN20",
+    "authors": [
+      [
+        "Brigita Sziov\u00e1",
+        "225/6524"
+      ],
+      [
+        "Raneem Ismail",
+        "273/7458"
+      ],
+      [
+        "Ferenc Lilik",
+        "205/0903"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Szilvia Nagy",
+        "125/7566"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/HarmatiK19": {
+    "key": "conf/fuzzIEEE/HarmatiK19",
+    "title": "Notes on the Dynamics of Hyperbolic Tangent Fuzzy Cognitive Maps.",
+    "venue": "FUZZ-IEEE",
+    "year": "2019",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2019.8858950",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2019.html#HarmatiK19",
+    "authors": [
+      [
+        "Istv\u00e1n \u00c1. Harmati",
+        "87/1892"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/KoczyFTA19": {
+    "key": "conf/fuzzIEEE/KoczyFTA19",
+    "title": "Modeling of Fuzzy Rule-base Algorithm for the Time Dependent Traveling Salesman Problem.",
+    "venue": "FUZZ-IEEE",
+    "year": "2019",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2019.8858853",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2019.html#KoczyFTA19",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "P\u00e9ter F\u00f6ldesi",
+        "42/7581"
+      ],
+      [
+        "Boldizsar Tuu-Szabo",
+        "190/2640"
+      ],
+      [
+        "Ruba Almahasneh",
+        "242/8007"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/fuzzIEEE/HarmatiK18": {
     "key": "conf/fuzzIEEE/HarmatiK18",
     "title": "On the Existence and Uniqueness of Fixed Points of Fuzzy Set Valued Sigmoid Fuzzy Cognitive Maps.",
@@ -4935,6 +6350,85 @@
       [
         "Brigita Sziov\u00e1",
         "225/6524"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/FarkasFK17": {
+    "key": "conf/fuzzIEEE/FarkasFK17",
+    "title": "Criticality analysis of purchased materials based on fuzzy signatures.",
+    "venue": "FUZZ-IEEE",
+    "year": "2017",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2017.8015649",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2017.html#FarkasFK17",
+    "authors": [
+      [
+        "Gabor Farkas",
+        "42/10544"
+      ],
+      [
+        "P\u00e9ter F\u00f6ldesi",
+        "42/7581"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/Koczy17": {
+    "key": "conf/fuzzIEEE/Koczy17",
+    "title": "Interpolation in homogenous fuzzy signature rule bases.",
+    "venue": "FUZZ-IEEE",
+    "year": "2017",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2017.8015393",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2017.html#Koczy17",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/NagyLK17": {
+    "key": "conf/fuzzIEEE/NagyLK17",
+    "title": "Applicability of various wavelet families in fuzzy classification of access networks' telecommunication lines.",
+    "venue": "FUZZ-IEEE",
+    "year": "2017",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2017.8015644",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2017.html#NagyLK17",
+    "authors": [
+      [
+        "Szilvia Nagy",
+        "125/7566"
+      ],
+      [
+        "Ferenc Lilik",
+        "205/0903"
       ],
       [
         "L\u00e1szl\u00f3 T. K\u00f3czy",
@@ -5059,6 +6553,64 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/HarmatiBK14": {
+    "key": "conf/fuzzIEEE/HarmatiBK14",
+    "title": "Sensitivity analysis of the weighted generalized mean aggregation operator and its application to fuzzy signatures.",
+    "venue": "FUZZ-IEEE",
+    "year": "2014",
+    "pages": "1327-1332",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2014.6891814",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2014.html#HarmatiBK14",
+    "authors": [
+      [
+        "Istv\u00e1n \u00c1. Harmati",
+        "87/1892"
+      ],
+      [
+        "\u00c1d\u00e1m Bukovics",
+        "150/8692"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BallagiPK14": {
+    "key": "conf/fuzzIEEE/BallagiPK14",
+    "title": "A new fuzzy graph and signature based approach to describe fuzzy situational maps.",
+    "venue": "FUZZ-IEEE",
+    "year": "2014",
+    "pages": "1340-1345",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2014.6891862",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2014.html#BallagiPK14",
+    "authors": [
+      [
+        "\u00c1ron Ballagi",
+        "51/7616"
+      ],
+      [
+        "Claudiu Pozna",
+        "08/5177"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/fuzzIEEE/MolnarkaKK14": {
     "key": "conf/fuzzIEEE/MolnarkaKK14",
     "title": "Fuzzy rule interpolation based fuzzy signature structure in building condition evaluation.",
@@ -5138,6 +6690,35 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/ZsoltFK12": {
+    "key": "conf/fuzzIEEE/ZsoltFK12",
+    "title": "A fuzzy bacterial evolutionary solution for crisp three-dimensional bin packing problems.",
+    "venue": "FUZZ-IEEE",
+    "year": "2012",
+    "pages": "1-5",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2012.6251262",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2012.html#ZsoltFK12",
+    "authors": [
+      [
+        "Zsolt D\u00e1ny\u00e1di",
+        "118/0622"
+      ],
+      [
+        "P\u00e9ter F\u00f6ldesi",
+        "42/7581"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/ijcnn/CabritaRFK12": {
     "key": "conf/ijcnn/CabritaRFK12",
     "title": "Extending the functional training approach for B-splines.",
@@ -5205,6 +6786,35 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/FUZZY.2010.5584156",
     "url": "db/conf/fuzzIEEE/fuzzIEEE2010.html#BalazsBK10",
+    "authors": [
+      [
+        "Kriszti\u00e1n Bal\u00e1zs",
+        "23/8450"
+      ],
+      [
+        "J\u00e1nos Botzheim",
+        "38/6149"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BalazsBK10a": {
+    "key": "conf/fuzzIEEE/BalazsBK10a",
+    "title": "Hierarchical fuzzy system modeling by Genetic and Bacterial Programming approaches.",
+    "venue": "FUZZ-IEEE",
+    "year": "2010",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2010.5584220",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2010.html#BalazsBK10a",
     "authors": [
       [
         "Kriszti\u00e1n Bal\u00e1zs",
@@ -5308,6 +6918,60 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/BallagiKG09": {
+    "key": "conf/fuzzIEEE/BallagiKG09",
+    "title": "Motion control and communication of cooperating intelligent robots by fuzzy signatures.",
+    "venue": "FUZZ-IEEE",
+    "year": "2009",
+    "pages": "1073-1078",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2009.5277207",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2009.html#BallagiKG09",
+    "authors": [
+      [
+        "\u00c1ron Ballagi",
+        "51/7616"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/MendisK09": {
+    "key": "conf/fuzzIEEE/MendisK09",
+    "title": "Fuzzy rough signatures.",
+    "venue": "FUZZ-IEEE",
+    "year": "2009",
+    "pages": "1095-1100",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2009.5277102",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2009.html#MendisK09",
+    "authors": [
+      [
+        "B. Sumudu U. Mendis",
+        "04/8451"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/ijcnn/LovassyKG09": {
     "key": "conf/ijcnn/LovassyKG09",
     "title": "Function approximation capability of a novel fuzzy flip-flop based neural network.",
@@ -5332,6 +6996,118 @@
       [
         "L\u00e1szl\u00f3 G\u00e1l",
         "04/7617"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/LovassyKG08": {
+    "key": "conf/fuzzIEEE/LovassyKG08",
+    "title": "Multilayer Pereeptron implemented by fuzzy flip-flops.",
+    "venue": "FUZZ-IEEE",
+    "year": "2008",
+    "pages": "1683-1688",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2008.4630597",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2008.html#LovassyKG08",
+    "authors": [
+      [
+        "Rita Lovassy",
+        "61/3816"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "L\u00e1szl\u00f3 G\u00e1l",
+        "04/7617"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/DrobicsBK07": {
+    "key": "conf/fuzzIEEE/DrobicsBK07",
+    "title": "Increasing Diagnostic Accuracy by Meta Optimization of Fuzzy Rule Bases.",
+    "venue": "FUZZ-IEEE",
+    "year": "2007",
+    "pages": "1-5",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2007.4295377",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2007.html#DrobicsBK07",
+    "authors": [
+      [
+        "Mario Drobics",
+        "11/2535"
+      ],
+      [
+        "J\u00e1nos Botzheim",
+        "38/6149"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/KoczyL07": {
+    "key": "conf/fuzzIEEE/KoczyL07",
+    "title": "Fuzzy Flip-Flops and Neural Nets?",
+    "venue": "FUZZ-IEEE",
+    "year": "2007",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2007.4295435",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2007.html#KoczyL07",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Rita Lovassy",
+        "61/3816"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/WongGK06": {
+    "key": "conf/fuzzIEEE/WongGK06",
+    "title": "Efficient Fuzzy Cognitive Modeling for Unstructured Information.",
+    "venue": "FUZZ-IEEE",
+    "year": "2006",
+    "pages": "358-363",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2006.1681737",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2006.html#WongGK06",
+    "authors": [
+      [
+        "Kok Wai Wong",
+        "13/3307"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
       ]
     ],
     "classfiied": [
@@ -5377,6 +7153,271 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/SzaszkoKG05": {
+    "key": "conf/fuzzIEEE/SzaszkoKG05",
+    "title": "Fuzzy Pseudo-Thesaurus Based Clustering of a Folkloristic Corpus.",
+    "venue": "FUZZ-IEEE",
+    "year": "2005",
+    "pages": "126-131",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2005.1452380",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2005.html#SzaszkoKG05",
+    "authors": [
+      [
+        "Sandor Szaszko",
+        "142/9460"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/NadaiKV04": {
+    "key": "conf/fuzzIEEE/NadaiKV04",
+    "title": "Optimizing sampling time in single photon counting experiments.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "995-1000",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375544",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#NadaiKV04",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 N\u00e1dai",
+        "18/5526"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "P\u00e9ter V\u00e1rlaki",
+        "50/1605"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/KovacsK04": {
+    "key": "conf/fuzzIEEE/KovacsK04",
+    "title": "Application of interpolation-based fuzzy logic reasoning in behaviour-based control structures.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1543-1548",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375404",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#KovacsK04",
+    "authors": [
+      [
+        "Szilveszter Kov\u00e1cs",
+        "04/5320"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/WongGK04": {
+    "key": "conf/fuzzIEEE/WongGK04",
+    "title": "Construction of fuzzy signature from data: an example of SARS pre-clinical diagnosis system.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1649-1654",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375428",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#WongGK04",
+    "authors": [
+      [
+        "Kok Wai Wong",
+        "13/3307"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BotzheimCKR04": {
+    "key": "conf/fuzzIEEE/BotzheimCKR04",
+    "title": "Estimating fuzzy membership functions parameters by the Levenberg-Marquardt algorithm.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1667-1672",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375431",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#BotzheimCKR04",
+    "authors": [
+      [
+        "J\u00e1nos Botzheim",
+        "38/6149"
+      ],
+      [
+        "Cristiano Cabrita",
+        "04/6656"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Ant\u00f3nio E. B. Ruano",
+        "46/134"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/ijcnn/CabritaBRK04": {
+    "key": "conf/ijcnn/CabritaBRK04",
+    "title": "Design of B-spline neural networks using a bacterial programming approach.",
+    "venue": "IJCNN",
+    "year": "2004",
+    "pages": "2313-2318",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IJCNN.2004.1380987",
+    "url": "db/conf/ijcnn/ijcnn2004.html#CabritaBRK04",
+    "authors": [
+      [
+        "Cristiano Cabrita",
+        "04/6656"
+      ],
+      [
+        "J\u00e1nos Botzheim",
+        "38/6149"
+      ],
+      [
+        "Ant\u00f3nio E. B. Ruano",
+        "46/134"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/ChongGKK03": {
+    "key": "conf/fuzzIEEE/ChongGKK03",
+    "title": "Sparse fuzzy systems generation and fuzzy rule interpolation: a practical approach.",
+    "venue": "FUZZ-IEEE",
+    "year": "2003",
+    "pages": "494-499",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ.2003.1209413",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2003.html#ChongGKK03",
+    "authors": [
+      [
+        "Alex Chong",
+        "57/2679"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ],
+      [
+        "Szilveszter Kov\u00e1cs",
+        "04/5320"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/MuresanK02": {
+    "key": "conf/fuzzIEEE/MuresanK02",
+    "title": "Similarity in hierarchical fuzzy rule-base systems.",
+    "venue": "FUZZ-IEEE",
+    "year": "2002",
+    "pages": "746-750",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ.2002.1005086",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2002.html#MuresanK02",
+    "authors": [
+      [
+        "Leila Muresan",
+        "87/1258"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BotzheimKR02": {
+    "key": "conf/fuzzIEEE/BotzheimKR02",
+    "title": "Extension of the Levenberg-Marquardt algorithm for the extraction of trapezoidal and general piecewise linear fuzzy rules.",
+    "venue": "FUZZ-IEEE",
+    "year": "2002",
+    "pages": "815-819",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ.2002.1005098",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2002.html#BotzheimKR02",
+    "authors": [
+      [
+        "J\u00e1nos Botzheim",
+        "38/6149"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ],
+      [
+        "Ant\u00f3nio E. B. Ruano",
+        "46/134"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/fuzzIEEE/KoczyHM00": {
     "key": "conf/fuzzIEEE/KoczyHM00",
     "title": "Interpolation in hierarchical fuzzy rule bases.",
@@ -5403,6 +7444,40 @@
     "classfiied": [
       "BME",
       "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BaranyiTGK00": {
+    "key": "conf/fuzzIEEE/BaranyiTGK00",
+    "title": "\u03b1-cut interpolation technique in the space of regular conclusion.",
+    "venue": "FUZZ-IEEE",
+    "year": "2000",
+    "pages": "478-482",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2000.838706",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2000.html#BaranyiTGK00",
+    "authors": [
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ],
+      [
+        "Domonkos Tikk",
+        "55/6632"
+      ],
+      [
+        "Tam\u00e1s D. Gedeon",
+        "g/TamasDGedeon"
+      ],
+      [
+        "L\u00e1szl\u00f3 T. K\u00f3czy",
+        "00/2018"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "BME",
+      "mostly_hungarian",
       "applied"
     ]
   },
@@ -5670,6 +7745,35 @@
       "ELTE",
       "all_hungarian",
       "theory"
+    ]
+  },
+  "conf/im/OroszTV15": {
+    "key": "conf/im/OroszTV15",
+    "title": "C-GEP: Adaptive network management with reconfigurable hardware.",
+    "venue": "IM",
+    "year": "2015",
+    "pages": "954-959",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/INM.2015.7140417",
+    "url": "db/conf/im/im2015.html#OroszTV15",
+    "authors": [
+      [
+        "Peter Orosz",
+        "147/1076"
+      ],
+      [
+        "Tamas Tothfalusi",
+        "164/8018"
+      ],
+      [
+        "P\u00e1l Varga",
+        "58/3919"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
     ]
   },
   "conf/compgeom/AckermanDKPR25": {
@@ -6944,6 +9048,35 @@
       "applied"
     ]
   },
+  "conf/msr/KicsiVG20": {
+    "key": "conf/msr/KicsiVG20",
+    "title": "TestRoutes: A Manually Curated Method Level Dataset for Test-to-Code Traceability.",
+    "venue": "MSR",
+    "year": "2020",
+    "pages": "593-597",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3379597.3387488",
+    "url": "db/conf/msr/msr2020.html#KicsiVG20",
+    "authors": [
+      [
+        "Andr\u00e1s Kicsi",
+        "204/8422"
+      ],
+      [
+        "L\u00e1szl\u00f3 Vid\u00e1cs",
+        "21/5882"
+      ],
+      [
+        "Tibor Gyim\u00f3thy",
+        "23/234"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
   "conf/icsm/HodovanKG17": {
     "key": "conf/icsm/HodovanKG17",
     "title": "Coarse Hierarchical Delta Debugging.",
@@ -7058,6 +9191,35 @@
       "SZTE",
       "all_hungarian",
       "applied"
+    ]
+  },
+  "conf/ecai/AlexinGB96": {
+    "key": "conf/ecai/AlexinGB96",
+    "title": "Integrating Algorithmic Debugging and Unfolding Transformation in an Interactive Learner.",
+    "venue": "ECAI",
+    "year": "1996",
+    "pages": "403-407",
+    "doi": "",
+    "ee": "",
+    "url": "db/conf/ecai/ecai96.html#AlexinGB96",
+    "authors": [
+      [
+        "Zolt\u00e1n Alexin",
+        "61/4666"
+      ],
+      [
+        "Tibor Gyim\u00f3thy",
+        "23/234"
+      ],
+      [
+        "Henrik Bostr\u00f6m",
+        "39/6674"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "theory"
     ]
   },
   "conf/cc/GyimothyAS92": {
@@ -7198,6 +9360,43 @@
       "BME",
       "Ericsson",
       "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/KenesiKLM07": {
+    "key": "conf/icc/KenesiKLM07",
+    "title": "Optimizing Multiplayer Gaming Protocols for Heterogeneous Network Environment.",
+    "venue": "ICC",
+    "year": "2007",
+    "pages": "1606-1611",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICC.2007.269",
+      "https://www.wikidata.org/entity/Q58052430"
+    ],
+    "url": "db/conf/icc/icc2007.html#KenesiKLM07",
+    "authors": [
+      [
+        "Zsolt Kenesi",
+        "13/4906"
+      ],
+      [
+        "G\u00e1bor Kiss",
+        "51/801"
+      ],
+      [
+        "J\u00e1nos Levendovszky",
+        "20/2114"
+      ],
+      [
+        "S\u00e1ndor Moln\u00e1r",
+        "32/5556"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "BME",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -7507,6 +9706,68 @@
       "theory"
     ]
   },
+  "conf/icc/CinklerG08": {
+    "key": "conf/icc/CinklerG08",
+    "title": "MPP: Optimal Multi-Path Routing with Protection.",
+    "venue": "ICC",
+    "year": "2008",
+    "pages": "165-169",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2008.38",
+    "url": "db/conf/icc/icc2008.html#CinklerG08",
+    "authors": [
+      [
+        "Tibor Cinkler",
+        "21/3848"
+      ],
+      [
+        "L\u00e1szl\u00f3 Gyarmati",
+        "35/5916"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icc/CinklerHGSL08": {
+    "key": "conf/icc/CinklerHGSL08",
+    "title": "Adaptive Multi-Layer Traffic Engineering with Shared Risk Group Protection.",
+    "venue": "ICC",
+    "year": "2008",
+    "pages": "5367-5371",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2008.1006",
+    "url": "db/conf/icc/icc2008.html#CinklerHGSL08",
+    "authors": [
+      [
+        "Tibor Cinkler",
+        "21/3848"
+      ],
+      [
+        "P\u00e9ter Hegyi",
+        "80/516"
+      ],
+      [
+        "G\u00e9za Geleji",
+        "31/1804"
+      ],
+      [
+        "J\u00e1nos Szigeti",
+        "30/6297"
+      ],
+      [
+        "\u00c1kos Lad\u00e1nyi",
+        "89/797"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/networking/CinklerHAGSK06": {
     "key": "conf/networking/CinklerHAGSK06",
     "title": {
@@ -7731,6 +9992,70 @@
     "classfiied": [
       "BME",
       "international",
+      "applied"
+    ]
+  },
+  "conf/wowmom/AcsBD10": {
+    "key": "conf/wowmom/AcsBD10",
+    "title": "Misbehaving router detection in link-state routing for wireless mesh networks.",
+    "venue": "WOWMOM",
+    "year": "2010",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WOWMOM.2010.5534995",
+      "https://doi.ieeecomputersociety.org/10.1109/WOWMOM.2010.5534995"
+    ],
+    "url": "db/conf/wowmom/wowmom2010.html#AcsBD10",
+    "authors": [
+      [
+        "Gergely \u00c1cs",
+        "86/405"
+      ],
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "L\u00e1szl\u00f3 D\u00f3ra",
+        "50/2543"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/mass/AcsBV07": {
+    "key": "conf/mass/AcsBV07",
+    "title": "The Security Proof of a Link-state Routing Protocol for Wireless Sensor Networks.",
+    "venue": "MASS",
+    "year": "2007",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/MOBHOC.2007.4428765",
+      "https://doi.ieeecomputersociety.org/10.1109/MOBHOC.2007.4428765"
+    ],
+    "url": "db/conf/mass/mass2007.html#AcsBV07",
+    "authors": [
+      [
+        "Gergely \u00c1cs",
+        "86/405"
+      ],
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "Istv\u00e1n Vajda",
+        "41/2998"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -8203,6 +10528,50 @@
       "theory"
     ]
   },
+  "conf/mass/KushwahaMSVML05": {
+    "key": "conf/mass/KushwahaMSVML05",
+    "title": "Sensor node localization using mobile acoustic beacons.",
+    "venue": "MASS",
+    "year": "2005",
+    "pages": "",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/MAHSS.2005.1542835",
+      "https://doi.ieeecomputersociety.org/10.1109/MAHSS.2005.1542835"
+    ],
+    "url": "db/conf/mass/mass2005.html#KushwahaMSVML05",
+    "authors": [
+      [
+        "Manish Kushwaha",
+        "58/5016"
+      ],
+      [
+        "K\u00e1roly Moln\u00e1r",
+        "53/1074"
+      ],
+      [
+        "J\u00e1nos Sallai",
+        "71/6158"
+      ],
+      [
+        "P\u00e9ter V\u00f6lgyesi",
+        "83/2615"
+      ],
+      [
+        "Mikl\u00f3s Mar\u00f3ti",
+        "m/MiklosMaroti"
+      ],
+      [
+        "\u00c1kos L\u00e9deczi",
+        "l/AkosLedeczi"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/icsr/LevendovszkyKMLC02": {
     "key": "conf/icsr/LevendovszkyKMLC02",
     "title": "Model Reuse with Metamodel-Based Transformations.",
@@ -8238,6 +10607,308 @@
       "BME",
       "SZTE",
       "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/iros/FazekasGN21": {
+    "key": "conf/iros/FazekasGN21",
+    "title": "Odometry Model Calibration for Self-Driving Vehicles with Noise Correction.",
+    "venue": "IROS",
+    "year": "2021",
+    "pages": "8860-8865",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/IROS51168.2021.9635980",
+    "url": "db/conf/iros/iros2021.html#FazekasGN21",
+    "authors": [
+      [
+        "M\u00e1t\u00e9 Fazekas",
+        "237/2518"
+      ],
+      [
+        "P\u00e9ter G\u00e1sp\u00e1r",
+        "93/7138"
+      ],
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/NemethFGB16": {
+    "key": "conf/cdc/NemethFGB16",
+    "title": "Trajectory tracking based on independently controlled variable-geometry suspension for in-wheel electric vehicles.",
+    "venue": "CDC",
+    "year": "2016",
+    "pages": "1570-1575",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2016.7798489",
+    "url": "db/conf/cdc/cdc2016.html#NemethFGB16",
+    "authors": [
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ],
+      [
+        "Daniel Fenyes",
+        "192/3321"
+      ],
+      [
+        "P\u00e9ter G\u00e1sp\u00e1r",
+        "93/7138"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GasparNBSD16": {
+    "key": "conf/cdc/GasparNBSD16",
+    "title": "The impact of suspension control on the controllability of the lateral vehicle dynamics.",
+    "venue": "CDC",
+    "year": "2016",
+    "pages": "1576-1581",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2016.7798490",
+      "https://www.wikidata.org/entity/Q59208142"
+    ],
+    "url": "db/conf/cdc/cdc2016.html#GasparNBSD16",
+    "authors": [
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Olivier Sename",
+        "53/4944"
+      ],
+      [
+        "Luc Dugard",
+        "56/7143"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/NemethGB14": {
+    "key": "conf/cdc/NemethGB14",
+    "title": "Analysis of braking dynamics using parameter-dependent polynomial Control Lyapunov Functions.",
+    "venue": "CDC",
+    "year": "2014",
+    "pages": "2536-2541",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2014.7039776",
+      "https://www.wikidata.org/entity/Q57735237"
+    ],
+    "url": "db/conf/cdc/cdc2014.html#NemethGB14",
+    "authors": [
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ],
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/SzaboBGB13": {
+    "key": "conf/cdc/SzaboBGB13",
+    "title": "Elimination lemma and contractive extensions.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "3049-3054",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2013.6760347",
+      "https://www.wikidata.org/entity/Q57735381"
+    ],
+    "url": "db/conf/cdc/cdc2013.html#SzaboBGB13",
+    "authors": [
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Zsolt Bir\u00f3",
+        "125/5241"
+      ],
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/NemethGB13": {
+    "key": "conf/cdc/NemethGB13",
+    "title": "Integrated control design based on driver-in-the-loop vehicle dynamics.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "3517-3522",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2013.6760423",
+      "https://www.wikidata.org/entity/Q57735401"
+    ],
+    "url": "db/conf/cdc/cdc2013.html#NemethGB13",
+    "authors": [
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ],
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GasparNB12": {
+    "key": "conf/cdc/GasparNB12",
+    "title": "Design of a supervisory integrated control for driver assistance systems.",
+    "venue": "CDC",
+    "year": "2012",
+    "pages": "5022-5027",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2012.6425929",
+      "https://www.wikidata.org/entity/Q57735478"
+    ],
+    "url": "db/conf/cdc/cdc2012.html#GasparNB12",
+    "authors": [
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Bal\u00e1zs N\u00e9meth 0001",
+        "76/8519-1"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GasparSB08": {
+    "key": "conf/cdc/GasparSB08",
+    "title": "Design of reconfigurable and fault-tolerant suspension systems based on LPV methods.",
+    "venue": "CDC",
+    "year": "2008",
+    "pages": "5384-5389",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2008.4739132",
+      "https://www.wikidata.org/entity/Q57735691"
+    ],
+    "url": "db/conf/cdc/cdc2008.html#GasparSB08",
+    "authors": [
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/PetresNGB08": {
+    "key": "conf/fuzzIEEE/PetresNGB08",
+    "title": "H\u211e gain-scheduling based control of the heavy vehicle model, a TP model transformation based control.",
+    "venue": "FUZZ-IEEE",
+    "year": "2008",
+    "pages": "1542-1547",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2008.4630577",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2008.html#PetresNGB08",
+    "authors": [
+      [
+        "Zolt\u00e1n Petres",
+        "38/1185"
+      ],
+      [
+        "Szabolcs Nagy",
+        "43/7854"
+      ],
+      [
+        "Peter Gaspar",
+        "93/7138"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "SZTAKI",
+      "Hungary",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -8419,6 +11090,38 @@
       "applied"
     ]
   },
+  "conf/bmvc/TofalviKH24": {
+    "key": "conf/bmvc/TofalviKH24",
+    "title": "Calibration of 2D LiDAR sensors using cylindrical target.",
+    "venue": "BMVC",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://bmvc2024.org/proceedings/797/"
+    },
+    "url": "db/conf/bmvc/bmvc2024.html#TofalviKH24",
+    "authors": [
+      [
+        "Tam\u00e1s T\u00f3falvi",
+        "315/4488"
+      ],
+      [
+        "Band\u00f3 Kov\u00e1cs",
+        "315/4316"
+      ],
+      [
+        "Levente Hajder",
+        "94/4989"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
   "conf/bmvc/PernekHK08": {
     "key": "conf/bmvc/PernekHK08",
     "title": "Metric Reconstruction with Missing Data under Weak Perspective.",
@@ -8503,6 +11206,36 @@
       "theory"
     ]
   },
+  "conf/icst/SzatmariOG25": {
+    "key": "conf/icst/SzatmariOG25",
+    "title": "Weighted Call Frequency-Based Fault Localization.",
+    "venue": "ICST",
+    "year": "2025",
+    "pages": "582-586",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICST62969.2025.10989015",
+    "url": "db/conf/icst/icst2025.html#SzatmariOG25",
+    "authors": [
+      [
+        "Attila Szatm\u00e1ri",
+        "262/9465"
+      ],
+      [
+        "Aondowase James Orban",
+        "406/2135"
+      ],
+      [
+        "Tam\u00e1s Gergely",
+        "35/1518"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "Hungary",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/coling/AndrekaGN80": {
     "key": "conf/coling/AndrekaGN80",
     "title": "Model Theoretic Semantics For Many-Purpose Languages And Language Hierarchies.",
@@ -8570,6 +11303,94 @@
       "applied"
     ]
   },
+  "conf/wowmom/ButtyanH12": {
+    "key": "conf/wowmom/ButtyanH12",
+    "title": "Traffic analysis attacks and countermeasures in wireless body area sensor networks.",
+    "venue": "WOWMOM",
+    "year": "2012",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WoWMoM.2012.6263774",
+      "https://doi.ieeecomputersociety.org/10.1109/WoWMoM.2012.6263774"
+    ],
+    "url": "db/conf/wowmom/wowmom2012.html#ButtyanH12",
+    "authors": [
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "Tam\u00e1s Holczer",
+        "00/1005"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/wowmom/LaszkaBS11": {
+    "key": "conf/wowmom/LaszkaBS11",
+    "title": "Optimal selection of sink nodes in wireless sensor networks in adversarial environments.",
+    "venue": "WOWMOM",
+    "year": "2011",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WoWMoM.2011.5986167",
+      "https://doi.ieeecomputersociety.org/10.1109/WoWMoM.2011.5986167"
+    ],
+    "url": "db/conf/wowmom/wowmom2011.html#LaszkaBS11",
+    "authors": [
+      [
+        "Aron Laszka",
+        "54/10042"
+      ],
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "D\u00e1vid Szeszl\u00e9r",
+        "38/2995"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/wowmom/ButtyanD09": {
+    "key": "conf/wowmom/ButtyanD09",
+    "title": "An authentication scheme for QoS-aware multi-operator maintained wireless mesh networks.",
+    "venue": "WOWMOM",
+    "year": "2009",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WOWMOM.2009.5282425",
+      "https://doi.ieeecomputersociety.org/10.1109/WOWMOM.2009.5282425"
+    ],
+    "url": "db/conf/wowmom/wowmom2009.html#ButtyanD09",
+    "authors": [
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "L\u00e1szl\u00f3 D\u00f3ra",
+        "50/2543"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/mass/ButtyanCV08": {
     "key": "conf/mass/ButtyanCV08",
     "title": "Securing coding based distributed storage in wireless sensor networks.",
@@ -8627,6 +11448,78 @@
     "classfiied": [
       "BME",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/wowmom/AvoineBHV07": {
+    "key": "conf/wowmom/AvoineBHV07",
+    "title": "Group-Based Private Authentication.",
+    "venue": "WOWMOM",
+    "year": "2007",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WOWMOM.2007.4351808",
+      "https://doi.ieeecomputersociety.org/10.1109/WOWMOM.2007.4351808"
+    ],
+    "url": "db/conf/wowmom/wowmom2007.html#AvoineBHV07",
+    "authors": [
+      [
+        "Gildas Avoine",
+        "a/GildasAvoine"
+      ],
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "Tam\u00e1s Holczer",
+        "00/1005"
+      ],
+      [
+        "Istv\u00e1n Vajda",
+        "41/2998"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/wowmom/ButtyanDFV07": {
+    "key": "conf/wowmom/ButtyanDFV07",
+    "title": "Barter-based cooperation in delay-tolerant personal wireless networks.",
+    "venue": "WOWMOM",
+    "year": "2007",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WOWMOM.2007.4351689",
+      "https://doi.ieeecomputersociety.org/10.1109/WOWMOM.2007.4351689"
+    ],
+    "url": "db/conf/wowmom/wowmom2007.html#ButtyanDFV07",
+    "authors": [
+      [
+        "Levente Butty\u00e1n",
+        "84/3267"
+      ],
+      [
+        "L\u00e1szl\u00f3 D\u00f3ra",
+        "50/2543"
+      ],
+      [
+        "M\u00e1rk F\u00e9legyh\u00e1zi",
+        "01/4380"
+      ],
+      [
+        "Istv\u00e1n Vajda",
+        "41/2998"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
       "applied"
     ]
   },
@@ -8776,6 +11669,48 @@
       "applied"
     ]
   },
+  "conf/mobihoc/PongraczMGLNP23": {
+    "key": "conf/mobihoc/PongraczMGLNP23",
+    "title": "Towards extreme network KPIs with programmability in 6G.",
+    "venue": "MobiHoc",
+    "year": "2023",
+    "pages": "340-345",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3565287.3617610",
+    "url": "db/conf/mobihoc/mobihoc2023.html#PongraczMGLNP23",
+    "authors": [
+      [
+        "Gergely Pongr\u00e1cz",
+        "121/4115"
+      ],
+      [
+        "Attila Mih\u00e1ly",
+        "54/10324"
+      ],
+      [
+        "Istv\u00e1n G\u00f3dor",
+        "63/6494"
+      ],
+      [
+        "S\u00e1ndor Laki",
+        "78/8261"
+      ],
+      [
+        "Anastassios Nanos",
+        "98/1941"
+      ],
+      [
+        "Chrysa Papagianni",
+        "56/9978"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/wowmom/SzaboPS13": {
     "key": "conf/wowmom/SzaboPS13",
     "title": "Traffic adaptive channel switching with time slice based predictors.",
@@ -8805,6 +11740,31 @@
     "classfiied": [
       "Ericsson",
       "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icccn/CsernaiG11": {
+    "key": "conf/icccn/CsernaiG11",
+    "title": "Wireless Adapter Sleep Scheduling Based on Video QoE: How to Improve Battery Life When Watching Streaming Video?",
+    "venue": "ICCCN",
+    "year": "2011",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICCCN.2011.6005796",
+    "url": "db/conf/icccn/icccn2011.html#CsernaiG11",
+    "authors": [
+      [
+        "M\u00e1rton Csernai",
+        "11/8968"
+      ],
+      [
+        "Andr\u00e1s Guly\u00e1s",
+        "18/4170"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -8954,6 +11914,52 @@
       "applied"
     ]
   },
+  "conf/emnlp/MuellerFJSS14": {
+    "key": "conf/emnlp/MuellerFJSS14",
+    "title": "Dependency parsing with latent refinements of part-of-speech tags.",
+    "venue": "EMNLP",
+    "year": "2014",
+    "pages": "963-967",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://doi.org/10.3115/v1/d14-1103"
+      },
+      {
+        "@type": "oa",
+        "#text": "https://aclanthology.org/D14-1103/"
+      }
+    ],
+    "url": "db/conf/emnlp/emnlp2014.html#MuellerFJSS14",
+    "authors": [
+      [
+        "Thomas M\u00fcller 0009",
+        "38/6310-9"
+      ],
+      [
+        "Rich\u00e1rd Farkas",
+        "31/149"
+      ],
+      [
+        "Alex Judea",
+        "117/4072"
+      ],
+      [
+        "Helmut Schmid",
+        "79/3420"
+      ],
+      [
+        "Hinrich Sch\u00fctze",
+        "s/HinrichSchutze"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/coling/FarkasB12": {
     "key": "conf/coling/FarkasB12",
     "title": "Stacking of Dependency and Phrase Structure Parsers.",
@@ -9038,6 +12044,44 @@
       "applied"
     ]
   },
+  "conf/ecai/FarkasBHKK10": {
+    "key": "conf/ecai/FarkasBHKK10",
+    "title": "Automatic free-text-tagging of online news archives.",
+    "venue": "ECAI",
+    "year": "2010",
+    "pages": "529-534",
+    "doi": "",
+    "ee": "https://doi.org/10.3233/978-1-60750-606-5-529",
+    "url": "db/conf/ecai/ecai2010.html#FarkasBHKK10",
+    "authors": [
+      [
+        "Rich\u00e1rd Farkas",
+        "31/149"
+      ],
+      [
+        "G\u00e1bor Berend",
+        "57/8393"
+      ],
+      [
+        "Istv\u00e1n Heged\u00fcs",
+        "11/8394"
+      ],
+      [
+        "Andr\u00e1s K\u00e1rp\u00e1ti",
+        "75/8393"
+      ],
+      [
+        "Bal\u00e1zs Krich",
+        "06/8394"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "Hungary",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/bmvc/GaetanoSS10": {
     "key": "conf/bmvc/GaetanoSS10",
     "title": "Graph-based Analysis of Textured Images for Hierarchical Segmentation.",
@@ -9070,6 +12114,42 @@
       "applied"
     ]
   },
+  "conf/avss/BenedekHTSS05": {
+    "key": "conf/avss/BenedekHTSS05",
+    "title": "Motion-based flexible camera registration.",
+    "venue": "AVSS",
+    "year": "2005",
+    "pages": "439-444",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/AVSS.2005.1577309",
+      "https://doi.ieeecomputersociety.org/10.1109/AVSS.2005.1577309"
+    ],
+    "url": "db/conf/avss/avss2005.html#BenedekHTSS05",
+    "authors": [
+      [
+        "Csaba Benedek",
+        "15/3579"
+      ],
+      [
+        "Laszlo Havasi",
+        "04/4767"
+      ],
+      [
+        "Tam\u00e1s Szir\u00e1nyi",
+        "82/5404"
+      ],
+      [
+        "Zolt\u00e1n Szl\u00e1vik",
+        "84/963"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/caip/LicsarCS03": {
     "key": "conf/caip/LicsarCS03",
     "title": "Adaptive Stabilization of Vibration in Archive Films.",
@@ -9087,6 +12167,34 @@
       [
         "L\u00e1szl\u00f3 Cz\u00fani",
         "81/6403"
+      ],
+      [
+        "Tam\u00e1s Szir\u00e1nyi",
+        "82/5404"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/iciap/KopilovicS99": {
+    "key": "conf/iciap/KopilovicS99",
+    "title": "Non-Linear Scale-Selection for Image Compression Improvement Obtained by Perceptual Distortion Criteria.",
+    "venue": "ICIAP",
+    "year": "1999",
+    "pages": "197-202",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICIAP.1999.797594",
+      "https://doi.ieeecomputersociety.org/10.1109/ICIAP.1999.797594"
+    ],
+    "url": "db/conf/iciap/iciap1999.html#KopilovicS99",
+    "authors": [
+      [
+        "Iv\u00e1n Kopilovic",
+        "16/97"
       ],
       [
         "Tam\u00e1s Szir\u00e1nyi",
@@ -9128,6 +12236,34 @@
       "applied"
     ]
   },
+  "conf/icpr/SziranyiC96": {
+    "key": "conf/icpr/SziranyiC96",
+    "title": "Picture segmentation with introducing an anisotropic preliminary step to an MRF model with cellular neural networks.",
+    "venue": "ICPR",
+    "year": "1996",
+    "pages": "366-370",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICPR.1996.547447",
+      "https://doi.ieeecomputersociety.org/10.1109/ICPR.1996.547447"
+    ],
+    "url": "db/conf/icpr/icpr1996.html#SziranyiC96",
+    "authors": [
+      [
+        "Tam\u00e1s Szir\u00e1nyi",
+        "82/5404"
+      ],
+      [
+        "L\u00e1szl\u00f3 Cz\u00fani",
+        "81/6403"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
   "conf/caip/Sziranyi93": {
     "key": "conf/caip/Sziranyi93",
     "title": "Noise Effects in Statistical Subpixel Pattern Recognition.",
@@ -9146,6 +12282,85 @@
     "classfiied": [
       "SZTAKI",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/mobihoc/GyorgyiKVLS23": {
+    "key": "conf/mobihoc/GyorgyiKVLS23",
+    "title": "In-Network Quality Control of IP Camera Streams.",
+    "venue": "MobiHoc",
+    "year": "2023",
+    "pages": "334-339",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3565287.3617609",
+    "url": "db/conf/mobihoc/mobihoc2023.html#GyorgyiKVLS23",
+    "authors": [
+      [
+        "Csaba Gy\u00f6rgyi",
+        "298/3266"
+      ],
+      [
+        "K\u00e1roly Kecskem\u00e9ti",
+        "298/3377"
+      ],
+      [
+        "P\u00e9ter V\u00f6r\u00f6s",
+        "132/6357"
+      ],
+      [
+        "S\u00e1ndor Laki",
+        "78/8261"
+      ],
+      [
+        "G\u00e9za Szab\u00f3",
+        "87/1845"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "Ericsson",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/wowmom/SzaboRRPA18": {
+    "key": "conf/wowmom/SzaboRRPA18",
+    "title": "Quality of Control-Aware Resource Allocation in 5G Wireless Access Networks.",
+    "venue": "WOWMOM",
+    "year": "2018",
+    "pages": "1-6",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/WoWMoM.2018.8449804",
+      "https://doi.ieeecomputersociety.org/10.1109/WoWMoM.2018.8449804"
+    ],
+    "url": "db/conf/wowmom/wowmom2018.html#SzaboRRPA18",
+    "authors": [
+      [
+        "G\u00e9za Szab\u00f3",
+        "87/1845"
+      ],
+      [
+        "S\u00e1ndor R\u00e1cz",
+        "07/6609"
+      ],
+      [
+        "Norbert Reider",
+        "82/3571"
+      ],
+      [
+        "J\u00f3zsef Peto",
+        "225/8543"
+      ],
+      [
+        "Rafael Roque Aschoff",
+        "48/10493"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "BME",
+      "mostly_hungarian",
       "applied"
     ]
   },
@@ -9246,6 +12461,51 @@
       "BME",
       "all_hungarian",
       "theory"
+    ]
+  },
+  "conf/ssdbm/KondorDCBVBS14": {
+    "key": "conf/ssdbm/KondorDCBVBS14",
+    "title": "Efficient classification of billions of points into complex geographic regions using hierarchical triangular mesh.",
+    "venue": "SSDBM",
+    "year": "2014",
+    "pages": "4:1-4:4",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/2618243.2618245",
+    "url": "db/conf/ssdbm/ssdbm2014.html#KondorDCBVBS14",
+    "authors": [
+      [
+        "D\u00e1niel Kondor",
+        "133/8342"
+      ],
+      [
+        "L\u00e1szl\u00f3 Dobos 0001",
+        "27/4695-1"
+      ],
+      [
+        "Istv\u00e1n Csabai",
+        "c/IstvanCsabai"
+      ],
+      [
+        "Andr\u00e1s Bodor",
+        "123/6320"
+      ],
+      [
+        "G\u00e1bor Vattay",
+        "82/6832"
+      ],
+      [
+        "Tam\u00e1s Budav\u00e1ri",
+        "49/161"
+      ],
+      [
+        "Alexander S. Szalay",
+        "s/AlexanderSSzalay"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
     ]
   },
   "conf/forte/HajduTVM16": {
@@ -9367,6 +12627,46 @@
     "classfiied": [
       "ELTE",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ssdbm/DobosCSBS14": {
+    "key": "conf/ssdbm/DobosCSBS14",
+    "title": "Point cloud databases.",
+    "venue": "SSDBM",
+    "year": "2014",
+    "pages": "33:1-33:4",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1145/2618243.2618275",
+      "https://www.wikidata.org/entity/Q130893444"
+    ],
+    "url": "db/conf/ssdbm/ssdbm2014.html#DobosCSBS14",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Dobos 0001",
+        "27/4695-1"
+      ],
+      [
+        "Istv\u00e1n Csabai",
+        "c/IstvanCsabai"
+      ],
+      [
+        "J\u00e1nos M. Szalai-Gindl",
+        "147/2926"
+      ],
+      [
+        "Tam\u00e1s Budav\u00e1ri",
+        "49/161"
+      ],
+      [
+        "Alexander S. Szalay",
+        "s/AlexanderSSzalay"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "mostly_hungarian",
       "applied"
     ]
   },
@@ -9497,6 +12797,114 @@
       "applied"
     ]
   },
+  "conf/interspeech/GosztolyaTGVHSP16": {
+    "key": "conf/interspeech/GosztolyaTGVHSP16",
+    "title": "Detecting Mild Cognitive Impairment from Spontaneous Speech by Correlation-Based Phonetic Feature Selection.",
+    "venue": "INTERSPEECH",
+    "year": "2016",
+    "pages": "107-111",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2016-384"
+    },
+    "url": "db/conf/interspeech/interspeech2016.html#GosztolyaTGVHSP16",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Veronika Vincze",
+        "01/6942"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ],
+      [
+        "Gr\u00e9ta Szatl\u00f3czki",
+        "173/6622"
+      ],
+      [
+        "Magdolna P\u00e1k\u00e1ski",
+        "173/6377"
+      ],
+      [
+        "J\u00e1nos K\u00e1lm\u00e1n",
+        "173/6462"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/TothGVHSBZPK15": {
+    "key": "conf/interspeech/TothGVHSBZPK15",
+    "title": "Automatic detection of mild cognitive impairment from spontaneous speech using ASR.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "2694-2698",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-568"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#TothGVHSBZPK15",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Veronika Vincze",
+        "01/6942"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ],
+      [
+        "Gr\u00e9ta Szatl\u00f3czki",
+        "173/6622"
+      ],
+      [
+        "Edit Bir\u00f3",
+        "173/6566"
+      ],
+      [
+        "Fruzsina Zsura",
+        "173/6655"
+      ],
+      [
+        "Magdolna P\u00e1k\u00e1ski",
+        "173/6377"
+      ],
+      [
+        "J\u00e1nos K\u00e1lm\u00e1n",
+        "173/6462"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/coling/Vincze14": {
     "key": "conf/coling/Vincze14",
     "title": "Uncertainty Detection in Hungarian Texts.",
@@ -9517,6 +12925,37 @@
     ],
     "classfiied": [
       "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/SzviatovszkiSJ02": {
+    "key": "conf/icc/SzviatovszkiSJ02",
+    "title": "On the effectiveness of restoration path computation methods.",
+    "venue": "ICC",
+    "year": "2002",
+    "pages": "2312-2317",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2002.997258",
+    "url": "db/conf/icc/icc2002.html#SzviatovszkiSJ02",
+    "authors": [
+      [
+        "Bal\u00e1zs Szviatovszki",
+        "54/172"
+      ],
+      [
+        "\u00c1ron Szentesi",
+        "54/2121"
+      ],
+      [
+        "Alp\u00e1r J\u00fcttner",
+        "28/2741"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "BME",
+      "ELTE",
       "all_hungarian",
       "applied"
     ]
@@ -9707,6 +13146,108 @@
       "Ericsson",
       "BME",
       "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/ChengJOGKS07": {
+    "key": "conf/icc/ChengJOGKS07",
+    "title": "Secure Bootstrapping of Distributed Hash Tables in Dynamic Wireless Networks.",
+    "venue": "ICC",
+    "year": "2007",
+    "pages": "1917-1922",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2007.319",
+    "url": "db/conf/icc/icc2007.html#ChengJOGKS07",
+    "authors": [
+      [
+        "Lawrence Cheng",
+        "26/5161"
+      ],
+      [
+        "Kerry Jean",
+        "20/5073"
+      ],
+      [
+        "Roel Ocampo",
+        "31/2626"
+      ],
+      [
+        "Alex Galis",
+        "75/699"
+      ],
+      [
+        "Peter Kersch",
+        "11/4486"
+      ],
+      [
+        "R\u00f3bert Szab\u00f3",
+        "46/4993"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/im/RossemCCDNPPRSS17": {
+    "key": "conf/im/RossemCCDNPPRSS17",
+    "title": "NFV service dynamicity with a DevOps approach: Insights from a use-case realization.",
+    "venue": "IM",
+    "year": "2017",
+    "pages": "674-679",
+    "doi": "",
+    "ee": "https://doi.org/10.23919/INM.2017.7987357",
+    "url": "db/conf/im/im2017.html#RossemCCDNPPRSS17",
+    "authors": [
+      [
+        "Steven van Rossem",
+        "182/2253"
+      ],
+      [
+        "Xuejun Cai",
+        "20/5405"
+      ],
+      [
+        "Ivano Cerrato",
+        "142/4849"
+      ],
+      [
+        "Per Danielsson",
+        "203/6284"
+      ],
+      [
+        "Felician N\u00e9meth",
+        "22/2016"
+      ],
+      [
+        "Bertrand Pechenot",
+        "169/9705"
+      ],
+      [
+        "Istv\u00e1n Pelle",
+        "166/7090"
+      ],
+      [
+        "Fulvio Risso",
+        "49/1360"
+      ],
+      [
+        "Sachin Sharma 0001",
+        "00/8087-1"
+      ],
+      [
+        "Pontus Sk\u00f6ldstr\u00f6m",
+        "38/10923"
+      ],
+      [
+        "Wolfgang John",
+        "43/5148"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
       "applied"
     ]
   },
@@ -9965,6 +13506,343 @@
       "applied"
     ]
   },
+  "conf/cdc/SzaboBB13": {
+    "key": "conf/cdc/SzaboBB13",
+    "title": "Quadratic separators in the input-output setting.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "1756-1761",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2013.6760136",
+      "https://www.wikidata.org/entity/Q57735427"
+    ],
+    "url": "db/conf/cdc/cdc2013.html#SzaboBB13",
+    "authors": [
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Zsolt Bir\u00f3",
+        "125/5241"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/PeniSVB13": {
+    "key": "conf/cdc/PeniSVB13",
+    "title": "Model recovery anti-windup compensator design for magnitude and rate saturated LPV systems.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "4479-4484",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2013.6760579",
+      "https://www.wikidata.org/entity/Q57735415"
+    ],
+    "url": "db/conf/cdc/cdc2013.html#PeniSVB13",
+    "authors": [
+      [
+        "Tamas Peni",
+        "17/7143"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "B\u00e1lint Vanek",
+        "66/9848"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/SoumelidisBS13": {
+    "key": "conf/cdc/SoumelidisBS13",
+    "title": "An iterative identification of pole-stucture in dynamic systems based on hyperbolic metrics and Malmquist-Takenaka representation.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "5180-5185",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2013.6760703",
+      "https://www.wikidata.org/entity/Q57735355"
+    ],
+    "url": "db/conf/cdc/cdc2013.html#SoumelidisBS13",
+    "authors": [
+      [
+        "Alexandros Soumelidis",
+        "07/229"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Ferenc Schipp",
+        "83/3316"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/SzaboBB12": {
+    "key": "conf/cdc/SzaboBB12",
+    "title": "M\u00f6bius transform and efficient LPV synthesis.",
+    "venue": "CDC",
+    "year": "2012",
+    "pages": "4523-4528",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2012.6426776",
+      "https://www.wikidata.org/entity/Q57735525"
+    ],
+    "url": "db/conf/cdc/cdc2012.html#SzaboBB12",
+    "authors": [
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Zsolt Bir\u00f3",
+        "125/5241"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/SzaboBB08": {
+    "key": "conf/cdc/SzaboBB08",
+    "title": "Generalized piecewise linear feedback stabilizability of controlled linear switched systems.",
+    "venue": "CDC",
+    "year": "2008",
+    "pages": "3410-3414",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2008.4739145",
+      "https://www.wikidata.org/entity/Q57735696"
+    ],
+    "url": "db/conf/cdc/cdc2008.html#SzaboBB08",
+    "authors": [
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Gary J. Balas",
+        "25/5066"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/PeniKBV08": {
+    "key": "conf/cdc/PeniKBV08",
+    "title": {
+      "sup": "infinity",
+      "#text": "Constrained H control for discrete-time LPV systems using interpolation."
+    },
+    "venue": "CDC",
+    "year": "2008",
+    "pages": "4141-4146",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2008.4738674",
+      "https://www.wikidata.org/entity/Q57735688"
+    ],
+    "url": "db/conf/cdc/cdc2008.html#PeniKBV08",
+    "authors": [
+      [
+        "Tamas Peni",
+        "17/7143"
+      ],
+      [
+        "Bal\u00e1zs Kulcs\u00e1r",
+        "44/7141"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Michel Verhaegen",
+        "91/602"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/cdc/BalasBS04": {
+    "key": "conf/cdc/BalasBS04",
+    "title": "Tracking of continuous LPV systems using dynamic inversion.",
+    "venue": "CDC",
+    "year": "2004",
+    "pages": "2929-2933",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2004.1428911",
+      "https://www.wikidata.org/entity/Q57735906"
+    ],
+    "url": "db/conf/cdc/cdc2004.html#BalasBS04",
+    "authors": [
+      [
+        "Gary Balas",
+        "25/5066"
+      ],
+      [
+        "J\u00f3zsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/Bokor0S02": {
+    "key": "conf/cdc/Bokor0S02",
+    "title": "Failure detection for quasi LPV systems.",
+    "venue": "CDC",
+    "year": "2002",
+    "pages": "3318-3323",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2002.1184386",
+    "url": "db/conf/cdc/cdc2002.html#Bokor0S02",
+    "authors": [
+      [
+        "J\u00f3zsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "G\u00e1bor Stikkel",
+        "34/4778"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/SzigetiVBE01": {
+    "key": "conf/cdc/SzigetiVBE01",
+    "title": "Inversion based fault detection and isolation.",
+    "venue": "CDC",
+    "year": "2001",
+    "pages": "1005-1010",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/.2001.981014",
+    "url": "db/conf/cdc/cdc2001.html#SzigetiVBE01",
+    "authors": [
+      [
+        "Ferenc Szigeti",
+        "260/6092"
+      ],
+      [
+        "C. E. Vera",
+        "330/1200"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ],
+      [
+        "Andr\u00e1s Edelmayer",
+        "20/3185"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/HeubergerHHSB01": {
+    "key": "conf/cdc/HeubergerHHSB01",
+    "title": "Minimal partial realization from orthonormal basis function expansions.",
+    "venue": "CDC",
+    "year": "2001",
+    "pages": "3673-3678",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/.2001.980433",
+    "url": "db/conf/cdc/cdc2001.html#HeubergerHHSB01",
+    "authors": [
+      [
+        "Peter S. C. Heuberger",
+        "88/168"
+      ],
+      [
+        "Thomas J. de Hoog",
+        "38/8086"
+      ],
+      [
+        "Paul M. J. Van den Hof",
+        "19/4631"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "Jozsef Bokor",
+        "21/6347"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
   "conf/ease/SagodiABIHF24": {
     "key": "conf/ease/SagodiABIHF24",
     "title": "Reality Check: Assessing GPT-4 in Fixing Real-World Software Vulnerabilities.",
@@ -10042,6 +13920,130 @@
       "applied"
     ]
   },
+  "conf/cdc/KrsticBS06": {
+    "key": "conf/cdc/KrsticBS06",
+    "title": "Backstepping Boundary Controllers for Tip-Force Induced Flexible Beam Instabilities Arising in AFM.",
+    "venue": "CDC",
+    "year": "2006",
+    "pages": "2430-2435",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CDC.2006.377196",
+      "https://www.wikidata.org/entity/Q59621934"
+    ],
+    "url": "db/conf/cdc/cdc2006.html#KrsticBS06",
+    "authors": [
+      [
+        "Miroslav Krstic",
+        "35/775"
+      ],
+      [
+        "Andr\u00e1s Balogh",
+        "75/5957"
+      ],
+      [
+        "Andrey Smyshlyaev",
+        "38/3099"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/BaloghK02": {
+    "key": "conf/cdc/BaloghK02",
+    "title": "Stability of difference equations arising in infinite dimensional backstepping.",
+    "venue": "CDC",
+    "year": "2002",
+    "pages": "3015-3020",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2002.1184316",
+    "url": "db/conf/cdc/cdc2002.html#BaloghK02",
+    "authors": [
+      [
+        "Andr\u00e1s Balogh",
+        "75/5957"
+      ],
+      [
+        "Miroslav Krstic",
+        "35/775"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/mobihoc/KecskemetiGVL23": {
+    "key": "conf/mobihoc/KecskemetiGVL23",
+    "title": "In-Network Security Applications with P4RROT.",
+    "venue": "MobiHoc",
+    "year": "2023",
+    "pages": "346-351",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3565287.3617612",
+    "url": "db/conf/mobihoc/mobihoc2023.html#KecskemetiGVL23",
+    "authors": [
+      [
+        "K\u00e1roly Kecskem\u00e9ti",
+        "298/3377"
+      ],
+      [
+        "Csaba Gy\u00f6rgyi",
+        "298/3266"
+      ],
+      [
+        "P\u00e9ter V\u00f6r\u00f6s",
+        "132/6357"
+      ],
+      [
+        "S\u00e1ndor Laki",
+        "78/8261"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/networking/FejesGLN20": {
+    "key": "conf/networking/FejesGLN20",
+    "title": "On the Incompatibility of Scalable Congestion Controls over the Internet.",
+    "venue": "Networking",
+    "year": "2020",
+    "pages": "749-754",
+    "doi": "",
+    "ee": "https://ieeexplore.ieee.org/document/9142716",
+    "url": "db/conf/networking/networking2020.html#FejesGLN20",
+    "authors": [
+      [
+        "Ferenc Fejes",
+        "203/9669"
+      ],
+      [
+        "Gergo Gombos",
+        "130/9517"
+      ],
+      [
+        "S\u00e1ndor Laki",
+        "78/8261"
+      ],
+      [
+        "Szilveszter N\u00e1das",
+        "46/3323"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "Ericsson",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/icsm/AghajaniNBL18": {
     "key": "conf/icsm/AghajaniNBL18",
     "title": "A Large-Scale Empirical Study on Linguistic Antipatterns Affecting APIs.",
@@ -10092,6 +14094,34 @@
         "Loup Meurice",
         "142/9944"
       ],
+      [
+        "Csaba Nagy 0001",
+        "30/5528-1"
+      ],
+      [
+        "Anthony Cleve",
+        "c/AnthonyCleve"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icsm/NagyC15": {
+    "key": "conf/icsm/NagyC15",
+    "title": "Mining Stack Overflow for discovering error patterns in SQL queries.",
+    "venue": "ICSME",
+    "year": "2015",
+    "pages": "516-520",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICSM.2015.7332505",
+      "https://doi.ieeecomputersociety.org/10.1109/ICSM.2015.7332505"
+    ],
+    "url": "db/conf/icsm/icsme2015.html#NagyC15",
+    "authors": [
       [
         "Csaba Nagy 0001",
         "30/5528-1"
@@ -10330,6 +14360,430 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/YamLB04": {
+    "key": "conf/fuzzIEEE/YamLB04",
+    "title": "On application of grid point sampling and SVD consolidation approach.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1057-1062",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375556",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#YamLB04",
+    "authors": [
+      [
+        "Yeung Yam",
+        "y/YeungYam"
+      ],
+      [
+        "Wai Man Lee",
+        "143/7793"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BaranyiM04": {
+    "key": "conf/fuzzIEEE/BaranyiM04",
+    "title": "Global asymptotic stabilization of the aeroelastic wing section: a TP model transformation based approach.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1063-1068",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375557",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#BaranyiM04",
+    "authors": [
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ],
+      [
+        "P\u00e1l Michelberger",
+        "67/3821"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/TikkBP04": {
+    "key": "conf/fuzzIEEE/TikkBP04",
+    "title": "On the approximation properties of TP model forms.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1069-1074",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375558",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#TikkBP04",
+    "authors": [
+      [
+        "Domonkos Tikk",
+        "55/6632"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ],
+      [
+        "Ron J. Patton",
+        "75/9186"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "Hungary",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/KovacsB04": {
+    "key": "conf/fuzzIEEE/KovacsB04",
+    "title": "Reduction of the dynamic state-space in fuzzy Q-learning.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1075-1080",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375559",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#KovacsB04",
+    "authors": [
+      [
+        "Szilveszter Kov\u00e1cs",
+        "04/5320"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/PetresRB04": {
+    "key": "conf/fuzzIEEE/PetresRB04",
+    "title": "Reference signal control of the TORA system: a TP model transformation based approach.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1081-1086",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375560",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#PetresRB04",
+    "authors": [
+      [
+        "Zolt\u00e1n Petres",
+        "38/1185"
+      ],
+      [
+        "Barna Resk\u00f3",
+        "72/6240"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "Hungary",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/KissVB03": {
+    "key": "conf/fuzzIEEE/KissVB03",
+    "title": "Autonomous navigation in a known dynamic environment.",
+    "venue": "FUZZ-IEEE",
+    "year": "2003",
+    "pages": "266-271",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ.2003.1209373",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2003.html#KissVB03",
+    "authors": [
+      [
+        "Laszlo Kiss",
+        "144/4289"
+      ],
+      [
+        "Annam\u00e1ria R. V\u00e1rkonyi-K\u00f3czy",
+        "97/6671"
+      ],
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BaranyiTVYR02": {
+    "key": "conf/fuzzIEEE/BaranyiTVYR02",
+    "title": "Minimizing TS controller via HOSVD.",
+    "venue": "FUZZ-IEEE",
+    "year": "2002",
+    "pages": "128-133",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ.2002.1004972",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2002.html#BaranyiTVYR02",
+    "authors": [
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ],
+      [
+        "Domonkos Tikk",
+        "55/6632"
+      ],
+      [
+        "Annam\u00e1ria R. V\u00e1rkonyi-K\u00f3czy",
+        "97/6671"
+      ],
+      [
+        "Yeung Yam",
+        "y/YeungYam"
+      ],
+      [
+        "Imre J. Rudas",
+        "77/1960"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/BaranyiYYV00": {
+    "key": "conf/fuzzIEEE/BaranyiYYV00",
+    "title": "SVD based reduction for subdivided rule bases.",
+    "venue": "FUZZ-IEEE",
+    "year": "2000",
+    "pages": "712-716",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2000.839119",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2000.html#BaranyiYYV00",
+    "authors": [
+      [
+        "P\u00e9ter Baranyi",
+        "21/3723"
+      ],
+      [
+        "Yeung Yam",
+        "y/YeungYam"
+      ],
+      [
+        "Chi Tin Yang",
+        "81/2617"
+      ],
+      [
+        "Annam\u00e1ria R. V\u00e1rkonyi-K\u00f3czy",
+        "97/6671"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya024": {
+    "key": "conf/interspeech/Gosztolya024",
+    "title": "Combining Acoustic Feature Sets for Detecting Mild Cognitive Impairment in the Interspeech'24 TAUKADIAL Challenge.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-984"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#Gosztolya024",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/0001SGC23": {
+    "key": "conf/interspeech/0001SGC23",
+    "title": "Adaptation of Tongue Ultrasound-Based Silent Speech Interfaces Using Spatial Transformer Networks.",
+    "venue": "INTERSPEECH",
+    "year": "2023",
+    "pages": "1169-1173",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2023-1607"
+    },
+    "url": "db/conf/interspeech/interspeech2023.html#0001SGC23",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "Amin Honarmandi Shandiz",
+        "276/7946"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/LopezV0G21": {
+    "key": "conf/interspeech/LopezV0G21",
+    "title": "Identifying Conflict Escalation and Primates by Using Ensemble X-Vectors and Fisher Vector Features.",
+    "venue": "Interspeech",
+    "year": "2021",
+    "pages": "476-480",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2021-1173"
+    },
+    "url": "db/conf/interspeech/interspeech2021.html#LopezV0G21",
+    "authors": [
+      [
+        "Jos\u00e9 Vicente Egas L\u00f3pez",
+        "246/6169"
+      ],
+      [
+        "Mercedes Vetr\u00e1b",
+        "273/5467"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Shandiz0GMC21": {
+    "key": "conf/interspeech/Shandiz0GMC21",
+    "title": "Neural Speaker Embeddings for Ultrasound-Based Silent Speech Interfaces.",
+    "venue": "Interspeech",
+    "year": "2021",
+    "pages": "1932-1936",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2021-1466"
+    },
+    "url": "db/conf/interspeech/interspeech2021.html#Shandiz0GMC21",
+    "authors": [
+      [
+        "Amin Honarmandi Shandiz",
+        "276/7946"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "ELTE",
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoZ0GM20": {
+    "key": "conf/interspeech/CsapoZ0GM20",
+    "title": "Ultrasound-Based Articulatory-to-Acoustic Mapping with WaveGlow Speech Synthesis.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "2727-2731",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-1031"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#CsapoZ0GM20",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Csaba Zaink\u00f3",
+        "78/4653"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "SZTE",
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/ijcnn/GosztolyaPTGMC19": {
     "key": "conf/ijcnn/GosztolyaPTGMC19",
     "title": "Autoencoder-Based Articulatory-to-Acoustic Mapping for Ultrasound Silent Speech Interfaces.",
@@ -10369,6 +14823,416 @@
       "SZTE",
       "ELTE",
       "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/KovacsTCL19": {
+    "key": "conf/interspeech/KovacsTCL19",
+    "title": "Examining the Combination of Multi-Band Processing and Channel Dropout for Robust Speech Recognition.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "421-425",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-3215"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#KovacsTCL19",
+    "authors": [
+      [
+        "Gy\u00f6rgy Kov\u00e1cs 0001",
+        "74/6897-1"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "Dirk Van Compernolle",
+        "09/2446"
+      ],
+      [
+        "Marcus Liwicki",
+        "28/1247"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaT19": {
+    "key": "conf/interspeech/GosztolyaT19",
+    "title": "Calibrating DNN Posterior Probability Estimates of HMM/DNN Models to Improve Social Signal Detection from Audio Data.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "515-519",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-2552"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#GosztolyaT19",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoANGGTM19": {
+    "key": "conf/interspeech/CsapoANGGTM19",
+    "title": "Ultrasound-Based Silent Speech Interface Built on a Continuous Vocoder.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "894-898",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-2046"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#CsapoANGGTM19",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Mohammed Salah Al-Radhi",
+        "205/2029"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "SZTE",
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaGT18": {
+    "key": "conf/interspeech/GosztolyaGT18",
+    "title": "General Utterance-Level Feature Extraction for Classifying Crying Sounds, Atypical & Self-Assessed Affect and Heart Beats.",
+    "venue": "INTERSPEECH",
+    "year": "2018",
+    "pages": "531-535",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2018-1076"
+    },
+    "url": "db/conf/interspeech/interspeech2018.html#GosztolyaGT18",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/TothGGMC18": {
+    "key": "conf/interspeech/TothGGMC18",
+    "title": "Multi-Task Learning of Speech Recognition and Speech Synthesis Parameters for Ultrasound-based Silent Speech Interfaces.",
+    "venue": "INTERSPEECH",
+    "year": "2018",
+    "pages": "3172-3176",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2018-1078"
+    },
+    "url": "db/conf/interspeech/interspeech2018.html#TothGGMC18",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "ELTE",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GroszGT17": {
+    "key": "conf/interspeech/GroszGT17",
+    "title": "Training Context-Dependent DNN Acoustic Models Using Probabilistic Sampling.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "1621-1625",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-338"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#GroszGT17",
+    "authors": [
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GroszGT17a": {
+    "key": "conf/interspeech/GroszGT17a",
+    "title": "A Comparative Evaluation of GMM-Free State Tying Methods for ASR.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "1626-1630",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-899"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#GroszGT17a",
+    "authors": [
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoGGTM17": {
+    "key": "conf/interspeech/CsapoGGTM17",
+    "title": "DNN-Based Ultrasound-to-Speech Conversion for a Silent Speech Interface.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "3672-3676",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-939"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#CsapoGGTM17",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "SZTE",
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaGST16": {
+    "key": "conf/interspeech/GosztolyaGST16",
+    "title": "Estimating the Sincerity of Apologies in Speech by DNN Rank Learning and Prosodic Analysis.",
+    "venue": "INTERSPEECH",
+    "year": "2016",
+    "pages": "2026-2030",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2016-956"
+    },
+    "url": "db/conf/interspeech/interspeech2016.html#GosztolyaGST16",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Gy\u00f6rgy Szasz\u00e1k",
+        "28/734"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaGT16": {
+    "key": "conf/interspeech/GosztolyaGT16",
+    "title": "GMM-Free Flat Start Sequence-Discriminative DNN Training.",
+    "venue": "INTERSPEECH",
+    "year": "2016",
+    "pages": "3409-3413",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2016-391"
+    },
+    "url": "db/conf/interspeech/interspeech2016.html#GosztolyaGT16",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Toth14": {
+    "key": "conf/interspeech/Toth14",
+    "title": "Convolutional deep maxout networks for phone recognition.",
+    "venue": "INTERSPEECH",
+    "year": "2014",
+    "pages": "1078-1082",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2014-278"
+    },
+    "url": "db/conf/interspeech/interspeech2014.html#Toth14",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Toth13": {
+    "key": "conf/interspeech/Toth13",
+    "title": "Convolutional deep rectifier neural nets for phone recognition.",
+    "venue": "INTERSPEECH",
+    "year": "2013",
+    "pages": "1722-1726",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2013-429"
+    },
+    "url": "db/conf/interspeech/interspeech2013.html#Toth13",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 T\u00f3th 0001",
+        "69/3781-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
       "all_hungarian",
       "applied"
     ]
@@ -10527,6 +15391,35 @@
       "applied"
     ]
   },
+  "conf/fuzzIEEE/WongCT10": {
+    "key": "conf/fuzzIEEE/WongCT10",
+    "title": "Exploring the use of fuzzy signature for text mining.",
+    "venue": "FUZZ-IEEE",
+    "year": "2010",
+    "pages": "1-5",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2010.5584873",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2010.html#WongCT10",
+    "authors": [
+      [
+        "Kok Wai Wong",
+        "13/3307"
+      ],
+      [
+        "Todsanai Chumwatana",
+        "03/7645"
+      ],
+      [
+        "Domonkos Tikk",
+        "55/6632"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/fuzzIEEE/JohanyakTKW06": {
     "key": "conf/fuzzIEEE/JohanyakTKW06",
     "title": "Fuzzy Rule Interpolation Matlab Toolbox - FRI Toolbox.",
@@ -10552,6 +15445,60 @@
       [
         "Kok Wai Wong",
         "13/3307"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/TikkBY04": {
+    "key": "conf/fuzzIEEE/TikkBY04",
+    "title": "Experiments with a hierarchical text categorizer.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1191-1196",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZY.2004.1375582",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#TikkBY04",
+    "authors": [
+      [
+        "Domonkos Tikk",
+        "55/6632"
+      ],
+      [
+        "Gy\u00f6rgy Bir\u00f3",
+        "17/1739"
+      ],
+      [
+        "Jae Dong Yang",
+        "01/3409"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icc/FuzesiV02": {
+    "key": "conf/icc/FuzesiV02",
+    "title": "Game theoretic analysis of network dimensioning strategies in differentiated services networks.",
+    "venue": "ICC",
+    "year": "2002",
+    "pages": "1069-1073",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2002.997017",
+    "url": "db/conf/icc/icc2002.html#FuzesiV02",
+    "authors": [
+      [
+        "P\u00e9ter F\u00fczesi",
+        "75/4743"
+      ],
+      [
+        "Attila Vid\u00e1cs",
+        "04/2121"
       ]
     ],
     "classfiied": [
@@ -10610,6 +15557,71 @@
     ],
     "classfiied": [
       "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/wacv/BenedekDZ09": {
+    "key": "conf/wacv/BenedekDZ09",
+    "title": "Building extraction and change detection in multitemporal remotely sensed images with multiple birth and death dynamics.",
+    "venue": "WACV",
+    "year": "2009",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/WACV.2009.5403117",
+    "url": "db/conf/wacv/wacv2009.html#BenedekDZ09",
+    "authors": [
+      [
+        "Csaba Benedek",
+        "15/3579"
+      ],
+      [
+        "Xavier Descombes",
+        "60/3958"
+      ],
+      [
+        "Josiane Zerubia",
+        "z/JosianeZerubia"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cidr/WoldeSSB23": {
+    "key": "conf/cidr/WoldeSSB23",
+    "title": "DuckPGQ: Efficient Property Graph Queries in an analytical RDBMS.",
+    "venue": "CIDR",
+    "year": "2023",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://www.cidrdb.org/cidr2023/papers/p66-wolde.pdf"
+    },
+    "url": "db/conf/cidr/cidr2023.html#WoldeSSB23",
+    "authors": [
+      [
+        "Daniel ten Wolde",
+        "351/9539"
+      ],
+      [
+        "Tavneet Singh",
+        "290/3971"
+      ],
+      [
+        "G\u00e1bor Sz\u00e1rnyas",
+        "151/1414"
+      ],
+      [
+        "Peter Boncz",
+        "b/PeterABoncz"
+      ]
+    ],
+    "classfiied": [
+      "BME",
       "international",
       "applied"
     ]
@@ -10797,6 +15809,504 @@
       "theory"
     ]
   },
+  "conf/interspeech/GosztolyaSBH24": {
+    "key": "conf/interspeech/GosztolyaSBH24",
+    "title": "Automatic Longitudinal Investigation of Multiple Sclerosis Subjects.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-1009"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#GosztolyaSBH24",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Veronika Svindt",
+        "321/6533"
+      ],
+      [
+        "Judit B\u00f3na",
+        "321/6930"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaVSBH24": {
+    "key": "conf/interspeech/GosztolyaVSBH24",
+    "title": "Wav2vec 2.0 Embeddings Are No Swiss Army Knife - A Case Study for Multiple Sclerosis.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-995"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#GosztolyaVSBH24",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Mercedes Vetr\u00e1b",
+        "273/5467"
+      ],
+      [
+        "Veronika Svindt",
+        "321/6533"
+      ],
+      [
+        "Judit B\u00f3na",
+        "321/6930"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/LopezSBHG23": {
+    "key": "conf/interspeech/LopezSBHG23",
+    "title": "Automated Multiple Sclerosis Screening Based on Encoded Speech Representations.",
+    "venue": "INTERSPEECH",
+    "year": "2023",
+    "pages": "3003-3007",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2023-234"
+    },
+    "url": "db/conf/interspeech/interspeech2023.html#LopezSBHG23",
+    "authors": [
+      [
+        "Jos\u00e9 Vicente Egas L\u00f3pez",
+        "246/6169"
+      ],
+      [
+        "Veronika Svindt",
+        "321/6533"
+      ],
+      [
+        "Judit B\u00f3na",
+        "321/6930"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya20": {
+    "key": "conf/interspeech/Gosztolya20",
+    "title": "Very Short-Term Conflict Intensity Estimation Using Fisher Vectors.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "3127-3131",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-2349"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#Gosztolya20",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaBSSH20": {
+    "key": "conf/interspeech/GosztolyaBSSH20",
+    "title": "Making a Distinction Between Schizophrenia and Bipolar Disorder Based on Temporal Parameters in Spontaneous Speech.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "4566-4570",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-49"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#GosztolyaBSSH20",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Anita Bagi",
+        "226/1980"
+      ],
+      [
+        "Szilvia Szal\u00f3ki",
+        "226/1791"
+      ],
+      [
+        "Istv\u00e1n Szendi",
+        "226/1931"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya19": {
+    "key": "conf/interspeech/Gosztolya19",
+    "title": "Using Fisher Vector and Bag-of-Audio-Words Representations to Identify Styrian Dialects, Sleepiness, Baby & Orca Sounds.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "2413-2417",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-1726"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#Gosztolya19",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/LopezOG19": {
+    "key": "conf/interspeech/LopezOG19",
+    "title": "Assessing Parkinson's Disease from Speech Using Fisher Vectors.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "3063-3067",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-2217"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#LopezOG19",
+    "authors": [
+      [
+        "Jos\u00e9 Vicente Egas L\u00f3pez",
+        "246/6169"
+      ],
+      [
+        "Juan Rafael Orozco-Arroyave",
+        "59/10369"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya19a": {
+    "key": "conf/interspeech/Gosztolya19a",
+    "title": "Using the Bag-of-Audio-Word Feature Representation of ASR DNN Posteriors for Paralinguistic Classification.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "3940-3944",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-1163"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#Gosztolya19a",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/TundikSGB18": {
+    "key": "conf/interspeech/TundikSGB18",
+    "title": "User-centric Evaluation of Automatic Punctuation in ASR Closed Captioning.",
+    "venue": "INTERSPEECH",
+    "year": "2018",
+    "pages": "2628-2632",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2018-1352"
+    },
+    "url": "db/conf/interspeech/interspeech2018.html#TundikSGB18",
+    "authors": [
+      [
+        "M\u00e1t\u00e9 \u00c1kos T\u00fcndik",
+        "184/2965"
+      ],
+      [
+        "Gy\u00f6rgy Szasz\u00e1k",
+        "28/734"
+      ],
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Andr\u00e1s Beke",
+        "64/10648"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GosztolyaBSSH18": {
+    "key": "conf/interspeech/GosztolyaBSSH18",
+    "title": "Identifying Schizophrenia Based on Temporal Parameters in Spontaneous Speech.",
+    "venue": "INTERSPEECH",
+    "year": "2018",
+    "pages": "3408-3412",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2018-1079"
+    },
+    "url": "db/conf/interspeech/interspeech2018.html#GosztolyaBSSH18",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ],
+      [
+        "Anita Bagi",
+        "226/1980"
+      ],
+      [
+        "Szilvia Szal\u00f3ki",
+        "226/1791"
+      ],
+      [
+        "Istv\u00e1n Szendi",
+        "226/1931"
+      ],
+      [
+        "Ildik\u00f3 Hoffmann",
+        "146/6866"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya17": {
+    "key": "conf/interspeech/Gosztolya17",
+    "title": "Optimized Time Series Filters for Detecting Laughter and Filler Events.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "2376-2380",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-932"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#Gosztolya17",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya15": {
+    "key": "conf/interspeech/Gosztolya15",
+    "title": "Conflict intensity estimation from speech using Greedy forward-backward feature selection.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "1339-1343",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-332"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#Gosztolya15",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Gosztolya15a": {
+    "key": "conf/interspeech/Gosztolya15a",
+    "title": "On evaluation metrics for social signal detection.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "2504-2508",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-540"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#Gosztolya15a",
+    "authors": [
+      [
+        "G\u00e1bor Gosztolya",
+        "51/1288"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/msr/BagheriH22": {
+    "key": "conf/msr/BagheriH22",
+    "title": "Is Refactoring Always a Good Egg? Exploring the Interconnection Between Bugs and Refactorings.",
+    "venue": "MSR",
+    "year": "2022",
+    "pages": "117-121",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3524842.3528034",
+    "url": "db/conf/msr/msr2022.html#BagheriH22",
+    "authors": [
+      [
+        "Amirreza Bagheri",
+        "298/7982"
+      ],
+      [
+        "P\u00e9ter Heged\u00fcs",
+        "33/1061"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/msr/MosolygoVAH21": {
+    "key": "conf/msr/MosolygoVAH21",
+    "title": "On the Rise and Fall of Simple Stupid Bugs: a Life-Cycle Analysis of SStuBs.",
+    "venue": "MSR",
+    "year": "2021",
+    "pages": "495-499",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/MSR52588.2021.00061",
+    "url": "db/conf/msr/msr2021.html#MosolygoVAH21",
+    "authors": [
+      [
+        "Bal\u00e1zs Mosolyg\u00f3",
+        "275/2776"
+      ],
+      [
+        "Norbert V\u00e1ndor",
+        "275/2769"
+      ],
+      [
+        "G\u00e1bor Antal",
+        "156/6366"
+      ],
+      [
+        "P\u00e9ter Heged\u00fcs",
+        "33/1061"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/msr/AntalKH20": {
+    "key": "conf/msr/AntalKH20",
+    "title": "Exploring the Security Awareness of the Python and JavaScript Open Source Communities.",
+    "venue": "MSR",
+    "year": "2020",
+    "pages": "16-20",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1145/3379597.3387513",
+      "https://www.wikidata.org/entity/Q130919562"
+    ],
+    "url": "db/conf/msr/msr2020.html#AntalKH20",
+    "authors": [
+      [
+        "G\u00e1bor Antal",
+        "156/6366"
+      ],
+      [
+        "M\u00e1rton Keleti",
+        "268/5618"
+      ],
+      [
+        "P\u00e9ter Heged\u00fcs",
+        "33/1061"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/models/JacksonLB11": {
     "key": "conf/models/JacksonLB11",
     "title": "Reasoning about Metamodeling with Formal Specifications and Automatic Proofs.",
@@ -10824,6 +16334,72 @@
       "BME",
       "international",
       "applied"
+    ]
+  },
+  "conf/cdc/KvasnicaTHC15": {
+    "key": "conf/cdc/KvasnicaTHC15",
+    "title": "On region-free explicit model predictive control.",
+    "venue": "CDC",
+    "year": "2015",
+    "pages": "3669-3674",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2015.7402788",
+    "url": "db/conf/cdc/cdc2015.html#KvasnicaTHC15",
+    "authors": [
+      [
+        "Michal Kvasnica",
+        "61/3736"
+      ],
+      [
+        "B\u00e1lint Tak\u00e1cs",
+        "38/962"
+      ],
+      [
+        "Juraj Holaza",
+        "143/6028"
+      ],
+      [
+        "Stefano Di Cairano",
+        "99/4508"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/cdc/TakacsHKC13": {
+    "key": "conf/cdc/TakacsHKC13",
+    "title": "Nearly-optimal simple explicit MPC regulators with recursive feasibility guarantees.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "7089-7094",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2013.6761013",
+    "url": "db/conf/cdc/cdc2013.html#TakacsHKC13",
+    "authors": [
+      [
+        "B\u00e1lint Tak\u00e1cs",
+        "38/962"
+      ],
+      [
+        "Juraj Holaza",
+        "143/6028"
+      ],
+      [
+        "Michal Kvasnica",
+        "61/3736"
+      ],
+      [
+        "Stefano Di Cairano",
+        "99/4508"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "theory"
     ]
   },
   "conf/mobihoc/RaczMKV01": {
@@ -10857,6 +16433,208 @@
       "Ericsson",
       "BME",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/AlexandroszBurulitiszIS04": {
+    "key": "conf/icc/AlexandroszBurulitiszIS04",
+    "title": "On the accuracy of mobility modelling in wireless networks.",
+    "venue": "ICC",
+    "year": "2004",
+    "pages": "2302-2306",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2004.1312929",
+    "url": "db/conf/icc/icc2004.html#AlexandroszBurulitiszIS04",
+    "authors": [
+      [
+        "Alexandrosz Burulitisz",
+        "126/9115"
+      ],
+      [
+        "S\u00e1ndor Imre",
+        "03/4861"
+      ],
+      [
+        "S\u00e1ndor Szab\u00f3",
+        "02/6005"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icc/ImreB02": {
+    "key": "conf/icc/ImreB02",
+    "title": "Non-coherent multi-user detection based on quantum search.",
+    "venue": "ICC",
+    "year": "2002",
+    "pages": "283-287",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2002.996861",
+    "url": "db/conf/icc/icc2002.html#ImreB02",
+    "authors": [
+      [
+        "S\u00e1ndor Imre",
+        "03/4861"
+      ],
+      [
+        "Ferenc Bal\u00e1zs",
+        "46/4437"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoANB23": {
+    "key": "conf/interspeech/CsapoANB23",
+    "title": "Towards Ultrasound Tongue Image prediction from EEG during speech production.",
+    "venue": "INTERSPEECH",
+    "year": "2023",
+    "pages": "1164-1168",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2023-40"
+    },
+    "url": "db/conf/interspeech/interspeech2023.html#CsapoANB23",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Frigyes Viktor Arthur",
+        "291/4799"
+      ],
+      [
+        "P\u00e9ter Nagy",
+        "68/4155"
+      ],
+      [
+        "\u00c1d\u00e1m Boncz",
+        "349/1064"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Al-RadhiCZN21": {
+    "key": "conf/interspeech/Al-RadhiCZN21",
+    "title": "Continuous Wavelet Vocoder-Based Decomposition of Parametric Speech Waveform Synthesis.",
+    "venue": "Interspeech",
+    "year": "2021",
+    "pages": "2212-2216",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2021-1600"
+    },
+    "url": "db/conf/interspeech/interspeech2021.html#Al-RadhiCZN21",
+    "authors": [
+      [
+        "Mohammed Salah Al-Radhi",
+        "205/2029"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Csaba Zaink\u00f3",
+        "78/4653"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Csapo20": {
+    "key": "conf/interspeech/Csapo20",
+    "title": "Speaker Dependent Articulatory-to-Acoustic Mapping Using Real-Time MRI of the Vocal Tract.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "2722-2726",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-15"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#Csapo20",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Csapo20a": {
+    "key": "conf/interspeech/Csapo20a",
+    "title": "Speaker Dependent Acoustic-to-Articulatory Inversion Using Real-Time MRI of the Vocal Tract.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "3720-3724",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-16"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#Csapo20a",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoX20": {
+    "key": "conf/interspeech/CsapoX20",
+    "title": "Quantification of Transducer Misalignment in Ultrasound Tongue Imaging.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "3735-3739",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-1672"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#CsapoX20",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Kele Xu",
+        "158/4231"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
       "applied"
     ]
   },
@@ -10910,6 +16688,212 @@
       [
         "Tam\u00e1s G\u00e1bor Csap\u00f3",
         "24/8420"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/DemeBGCM19": {
+    "key": "conf/interspeech/DemeBGCM19",
+    "title": "V-to-V Coarticulation Induced Acoustic and Articulatory Variability of Vowels: The Effect of Pitch-Accent.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "3317-3321",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-2890"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#DemeBGCM19",
+    "authors": [
+      [
+        "Andrea Deme",
+        "178/0113"
+      ],
+      [
+        "M\u00e1rton Bart\u00f3k",
+        "226/2113"
+      ],
+      [
+        "Tekla Etelka Gr\u00e1czi",
+        "55/9238"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/MarkoBCGD19": {
+    "key": "conf/interspeech/MarkoBCGD19",
+    "title": "Articulatory Analysis of Transparent Vowel /i\u02d0/ in Harmonic and Antiharmonic Hungarian Stems: Is There a Difference?",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "3327-3331",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-2352"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#MarkoBCGD19",
+    "authors": [
+      [
+        "Alexandra Mark\u00f3",
+        "178/0152"
+      ],
+      [
+        "M\u00e1rton Bart\u00f3k",
+        "226/2113"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Tekla Etelka Gr\u00e1czi",
+        "55/9238"
+      ],
+      [
+        "Andrea Deme",
+        "178/0113"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/Al-RadhiCN17": {
+    "key": "conf/interspeech/Al-RadhiCN17",
+    "title": "Time-Domain Envelope Modulating the Noise Component of Excitation in a Continuous Residual-Based Vocoder for Statistical Parametric Speech Synthesis.",
+    "venue": "INTERSPEECH",
+    "year": "2017",
+    "pages": "434-438",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2017-678"
+    },
+    "url": "db/conf/interspeech/interspeech2017.html#Al-RadhiCN17",
+    "authors": [
+      [
+        "Mohammed Salah Al-Radhi",
+        "205/2029"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoN15": {
+    "key": "conf/interspeech/CsapoN15",
+    "title": "Automatic transformation of irregular to regular voice by residual analysis and synthesis.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "613-617",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-214"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#CsapoN15",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/interspeech/AbariCTO15": {
+    "key": "conf/interspeech/AbariCTO15",
+    "title": "From text to formants - indirect model for trajectory prediction based on a multi-speaker parallel speech database.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "623-627",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-216"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#AbariCTO15",
+    "authors": [
+      [
+        "K\u00e1lm\u00e1n Abari",
+        "22/9249"
+      ],
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "B\u00e1lint P\u00e1l T\u00f3th",
+        "09/694"
+      ],
+      [
+        "G\u00e1bor Olaszy",
+        "43/1881"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/CsapoL15": {
+    "key": "conf/interspeech/CsapoL15",
+    "title": "Error analysis of extracted tongue contours from 2d ultrasound images.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "2157-2161",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-486"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#CsapoL15",
+    "authors": [
+      [
+        "Tam\u00e1s G\u00e1bor Csap\u00f3",
+        "24/8420"
+      ],
+      [
+        "Steven M. Lulich",
+        "90/7824"
       ]
     ],
     "classfiied": [
@@ -11046,6 +17030,259 @@
       "applied"
     ]
   },
+  "conf/ecai/KisVM96": {
+    "key": "conf/ecai/KisVM96",
+    "title": "Controlling Distributed Manufacturing Systems by a Market Mechanism.",
+    "venue": "ECAI",
+    "year": "1996",
+    "pages": "534-538",
+    "doi": "",
+    "ee": "",
+    "url": "db/conf/ecai/ecai96.html#KisVM96",
+    "authors": [
+      [
+        "Tam\u00e1s Kis",
+        "07/3425"
+      ],
+      [
+        "J\u00f3zsef V\u00e1ncza",
+        "82/4974"
+      ],
+      [
+        "Andr\u00e1s M\u00e1rkus",
+        "41/1545"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "SZTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/ecai/MarkusV94": {
+    "key": "conf/ecai/MarkusV94",
+    "title": "Inference and Optimization Methods for Manufacturing Process Planning.",
+    "venue": "ECAI",
+    "year": "1994",
+    "pages": "595-599",
+    "doi": "",
+    "ee": "",
+    "url": "db/conf/ecai/ecai94.html#MarkusV94",
+    "authors": [
+      [
+        "Andr\u00e1s M\u00e1rkus",
+        "41/1545"
+      ],
+      [
+        "J\u00f3zsef V\u00e1ncza",
+        "82/4974"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/LuspayPSV18": {
+    "key": "conf/cdc/LuspayPSV18",
+    "title": "A Model Decomposition Framework for LPV Systems.",
+    "venue": "CDC",
+    "year": "2018",
+    "pages": "5898-5903",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2018.8618676",
+    "url": "db/conf/cdc/cdc2018.html#LuspayPSV18",
+    "authors": [
+      [
+        "Tam\u00e1s Luspay",
+        "70/7934"
+      ],
+      [
+        "Tamas Peni",
+        "17/7143"
+      ],
+      [
+        "Peter J. Seiler",
+        "48/185"
+      ],
+      [
+        "B\u00e1lint Vanek",
+        "66/9848"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GozseLP0V16": {
+    "key": "conf/cdc/GozseLP0V16",
+    "title": "Model order reduction of LPV systems based on parameter varying modal decomposition.",
+    "venue": "CDC",
+    "year": "2016",
+    "pages": "7459-7464",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2016.7799421",
+    "url": "db/conf/cdc/cdc2016.html#GozseLP0V16",
+    "authors": [
+      [
+        "Istv\u00e1n Gozse",
+        "139/6600"
+      ],
+      [
+        "Tam\u00e1s Luspay",
+        "70/7934"
+      ],
+      [
+        "Tamas Peni",
+        "17/7143"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ],
+      [
+        "B\u00e1lint Vanek",
+        "66/9848"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icc/FarkasSOS08": {
+    "key": "conf/icc/FarkasSOS08",
+    "title": "Automatic Discovery of Physical Topology in Heterogeneous Multi-Vendor Ethernet Networks.",
+    "venue": "ICC",
+    "year": "2008",
+    "pages": "2055-2060",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2008.394",
+    "url": "db/conf/icc/icc2008.html#FarkasSOS08",
+    "authors": [
+      [
+        "J\u00e1nos Farkas",
+        "26/6720"
+      ],
+      [
+        "Marcos Rog\u00e9rio Salvador",
+        "69/5702"
+      ],
+      [
+        "Vinicius Garcia de Oliveira",
+        "51/4892"
+      ],
+      [
+        "Giovanni Curiel dos Santos",
+        "06/6833"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icc/FarkasAWPTO06": {
+    "key": "conf/icc/FarkasAWPTO06",
+    "title": "Fast Failure Handling in Ethernet Networks.",
+    "venue": "ICC",
+    "year": "2006",
+    "pages": "841-846",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2006.254812",
+    "url": "db/conf/icc/icc2006.html#FarkasAWPTO06",
+    "authors": [
+      [
+        "J\u00e1nos Farkas",
+        "26/6720"
+      ],
+      [
+        "Csaba Antal",
+        "28/5547"
+      ],
+      [
+        "Lars Westberg",
+        "00/5825"
+      ],
+      [
+        "Alberto Paradisi",
+        "84/3976"
+      ],
+      [
+        "Tania Regina Tronco",
+        "126/3757"
+      ],
+      [
+        "Vinicius Garcia de Oliveira",
+        "51/4892"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/msr/CsuvikV22": {
+    "key": "conf/msr/CsuvikV22",
+    "title": "FixJS: A Dataset of Bug-fixing JavaScript Commits.",
+    "venue": "MSR",
+    "year": "2022",
+    "pages": "712-716",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1145/3524842.3528480",
+      "https://www.wikidata.org/entity/Q131115458"
+    ],
+    "url": "db/conf/msr/msr2022.html#CsuvikV22",
+    "authors": [
+      [
+        "Viktor Csuvik",
+        "219/1665"
+      ],
+      [
+        "L\u00e1szl\u00f3 Vid\u00e1cs",
+        "21/5882"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/Rodonyi016": {
+    "key": "conf/cdc/Rodonyi016",
+    "title": "Adaptation of spacing policy of autonomous vehicles based on an unknown input and state observer for a virtual predecessor vehicle.",
+    "venue": "CDC",
+    "year": "2016",
+    "pages": "1715-1720",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2016.7798512",
+    "url": "db/conf/cdc/cdc2016.html#Rodonyi016",
+    "authors": [
+      [
+        "G\u00e1bor R\u00f6d\u00f6nyi",
+        "82/10668"
+      ],
+      [
+        "Zolt\u00e1n Szab\u00f3 0002",
+        "73/2909-2"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/eurospi/BiroM07": {
     "key": "conf/eurospi/BiroM07",
     "title": "Synergies Between the Common Criteria and Process Improvement.",
@@ -11069,6 +17306,105 @@
       "ELTE",
       "international",
       "theory"
+    ]
+  },
+  "conf/icc/SuigimotoAKTVHNII05": {
+    "key": "conf/icc/SuigimotoAKTVHNII05",
+    "title": {
+      "sup": "2",
+      "#text": "Experimental evaluations of feasibility and bottlenecks of IP mobility management."
+    },
+    "venue": "ICC",
+    "year": "2005",
+    "pages": "1407-1412",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2005.1494576",
+    "url": "db/conf/icc/icc2005.html#SuigimotoAKTVHNII05",
+    "authors": [
+      [
+        "Shinta Suigimoto",
+        "126/5425"
+      ],
+      [
+        "Masayuki Ariyoshi",
+        "01/6653"
+      ],
+      [
+        "Csaba Keszei",
+        "126/5380"
+      ],
+      [
+        "Zolt\u00e1n Richard Tur\u00e1nyi",
+        "194/7070"
+      ],
+      [
+        "Andr\u00e1s Gergely Valk\u00f3",
+        "78/3652"
+      ],
+      [
+        "Yoshinori Hayashi",
+        "42/6710"
+      ],
+      [
+        "Katsutoshi Nishida",
+        "52/1455"
+      ],
+      [
+        "Shin-ichi Isobe",
+        "122/9783"
+      ],
+      [
+        "Atsushi Iwasaki",
+        "04/4799"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/mobiquitous/RonaiFBTV05": {
+    "key": "conf/mobiquitous/RonaiFBTV05",
+    "title": "MAIPAN - Middleware for Application Interconnection in Personal Area Networks.",
+    "venue": "MobiQuitous",
+    "year": "2005",
+    "pages": "494-498",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/MOBIQUITOUS.2005.35",
+      "https://doi.ieeecomputersociety.org/10.1109/MOBIQUITOUS.2005.35",
+      "http://eudl.eu/doi/10.1109/MOBIQUITOUS.2005.35"
+    ],
+    "url": "db/conf/mobiquitous/mobiquitous2005.html#RonaiFBTV05",
+    "authors": [
+      [
+        "Mikl\u00f3s Aur\u00e9l R\u00f3nai",
+        "40/2384"
+      ],
+      [
+        "Krist\u00f3f Fodor",
+        "79/1664"
+      ],
+      [
+        "Gergely Bicz\u00f3k",
+        "83/2180"
+      ],
+      [
+        "Zolt\u00e1n Richard Tur\u00e1nyi",
+        "194/7070"
+      ],
+      [
+        "Andr\u00e1s Gergely Valk\u00f3",
+        "78/3652"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "Ericsson",
+      "mostly_hungarian",
+      "applied"
     ]
   },
   "conf/icnp/TuranyiV02": {
@@ -11212,6 +17548,74 @@
       "applied"
     ]
   },
+  "conf/interspeech/YolchuyevaNG19": {
+    "key": "conf/interspeech/YolchuyevaNG19",
+    "title": "Transformer Based Grapheme-to-Phoneme Conversion.",
+    "venue": "INTERSPEECH",
+    "year": "2019",
+    "pages": "2095-2099",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2019-1954"
+    },
+    "url": "db/conf/interspeech/interspeech2019.html#YolchuyevaNG19",
+    "authors": [
+      [
+        "Sevinj Yolchuyeva",
+        "225/8583"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ],
+      [
+        "B\u00e1lint Gyires-T\u00f3th",
+        "225/8530"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/ZainkoBNO15": {
+    "key": "conf/interspeech/ZainkoBNO15",
+    "title": "A polyglot domain optimised text-to-speech system for railway station announcements.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "1236-1240",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-311"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#ZainkoBNO15",
+    "authors": [
+      [
+        "Csaba Zaink\u00f3",
+        "78/4653"
+      ],
+      [
+        "M\u00e1ty\u00e1s Bartalis",
+        "62/1441"
+      ],
+      [
+        "G\u00e9za N\u00e9meth",
+        "78/5301"
+      ],
+      [
+        "G\u00e1bor Olaszy",
+        "43/1881"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/aistats/TamasSC25": {
     "key": "conf/aistats/TamasSC25",
     "title": "Data-Driven Upper Confidence Bounds with Near-Optimal Regret for Heavy-Tailed Bandits.",
@@ -11276,6 +17680,35 @@
       "applied"
     ]
   },
+  "conf/cdc/GerencserCS18": {
+    "key": "conf/cdc/GerencserCS18",
+    "title": "Asymptotic Analysis of the LMS Algorithm with Momentum.",
+    "venue": "CDC",
+    "year": "2018",
+    "pages": "3062-3067",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2018.8619576",
+    "url": "db/conf/cdc/cdc2018.html#GerencserCS18",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Sotirios Sabanis",
+        "183/3256"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/aistats/Csaji16": {
     "key": "conf/aistats/Csaji16",
     "title": "Score Permutation Based Finite Sample Inference for Generalized AutoRegressive Conditional Heteroskedasticity (GARCH) Models.",
@@ -11297,6 +17730,184 @@
     "classfiied": [
       "SZTAKI",
       "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/CareCC16": {
+    "key": "conf/cdc/CareCC16",
+    "title": "Sign-Perturbed Sums (SPS) with asymmetric noise: Robustness analysis and robustification techniques.",
+    "venue": "CDC",
+    "year": "2016",
+    "pages": "262-267",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2016.7798280",
+    "url": "db/conf/cdc/cdc2016.html#CareCC16",
+    "authors": [
+      [
+        "Algo Car\u00e8",
+        "15/11047"
+      ],
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Marco C. Campi",
+        "89/2249"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/CsajiW15": {
+    "key": "conf/cdc/CsajiW15",
+    "title": "Closed-loop applicability of the Sign-Perturbed Sums method.",
+    "venue": "CDC",
+    "year": "2015",
+    "pages": "1441-1446",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2015.7402413",
+    "url": "db/conf/cdc/cdc2015.html#CsajiW15",
+    "authors": [
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Erik Weyer",
+        "44/4878"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/VolpeCCWC15": {
+    "key": "conf/cdc/VolpeCCWC15",
+    "title": "Sign-Perturbed Sums (SPS) with instrumental variables for the identification of ARX systems.",
+    "venue": "CDC",
+    "year": "2015",
+    "pages": "2115-2120",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2015.7402519",
+    "url": "db/conf/cdc/cdc2015.html#VolpeCCWC15",
+    "authors": [
+      [
+        "Valerio Volpe",
+        "175/9551"
+      ],
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Algo Car\u00e8",
+        "15/11047"
+      ],
+      [
+        "Erik Weyer",
+        "44/4878"
+      ],
+      [
+        "Marco C. Campi",
+        "89/2249"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/CsajiCW14": {
+    "key": "conf/cdc/CsajiCW14",
+    "title": "Strong consistency of the Sign-Perturbed Sums method.",
+    "venue": "CDC",
+    "year": "2014",
+    "pages": "3352-3357",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2014.7039908",
+    "url": "db/conf/cdc/cdc2014.html#CsajiCW14",
+    "authors": [
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Marco C. Campi",
+        "89/2249"
+      ],
+      [
+        "Erik Weyer",
+        "44/4878"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/WeyerCC13": {
+    "key": "conf/cdc/WeyerCC13",
+    "title": "Guaranteed non-asymptotic confidence ellipsoids for FIR systems.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "7162-7167",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2013.6761025",
+    "url": "db/conf/cdc/cdc2013.html#WeyerCC13",
+    "authors": [
+      [
+        "Erik Weyer",
+        "44/4878"
+      ],
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Marco C. Campi",
+        "89/2249"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/CsajiCW12": {
+    "key": "conf/cdc/CsajiCW12",
+    "title": "Sign-perturbed sums (SPS): A method for constructing exact finite-sample confidence regions for general linear systems.",
+    "venue": "CDC",
+    "year": "2012",
+    "pages": "7321-7326",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2012.6425882",
+    "url": "db/conf/cdc/cdc2012.html#CsajiCW12",
+    "authors": [
+      [
+        "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji",
+        "22/3042"
+      ],
+      [
+        "Marco C. Campi",
+        "89/2249"
+      ],
+      [
+        "Erik Weyer",
+        "44/4878"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
       "applied"
     ]
   },
@@ -11329,6 +17940,68 @@
     ],
     "classfiied": [
       "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/MuellerSSL15": {
+    "key": "conf/cdc/MuellerSSL15",
+    "title": "Aggregation of energetic flexibility using zonotopes.",
+    "venue": "CDC",
+    "year": "2015",
+    "pages": "6564-6569",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2015.7403253",
+    "url": "db/conf/cdc/cdc2015.html#MuellerSSL15",
+    "authors": [
+      [
+        "Fabian L. Mueller",
+        "99/11505"
+      ],
+      [
+        "Olle Sundstr\u00f6m",
+        "08/9778"
+      ],
+      [
+        "J\u00e1cint Szab\u00f3",
+        "39/4"
+      ],
+      [
+        "John Lygeros",
+        "51/2754"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/icc/OrincsayJT04": {
+    "key": "conf/icc/OrincsayJT04",
+    "title": "On the use of EKB routing strategy in PNNI networks.",
+    "venue": "ICC",
+    "year": "2004",
+    "pages": "1003-1007",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2004.1312652",
+    "url": "db/conf/icc/icc2004.html#OrincsayJT04",
+    "authors": [
+      [
+        "D\u00e1niel Orincsay",
+        "04/5347"
+      ],
+      [
+        "Bal\u00e1zs G\u00e1bor J\u00f3zsa",
+        "06/3976"
+      ],
+      [
+        "Levente Tam\u00e1si",
+        "54/1781"
+      ]
+    ],
+    "classfiied": [
+      "Ericsson",
       "international",
       "applied"
     ]
@@ -11472,6 +18145,31 @@
       "applied"
     ]
   },
+  "conf/icst/HodovanK18": {
+    "key": "conf/icst/HodovanK18",
+    "title": "Fuzzinator: An Open-Source Modular Random Testing Framework.",
+    "venue": "ICST",
+    "year": "2018",
+    "pages": "416-421",
+    "doi": "",
+    "ee": "https://doi.ieeecomputersociety.org/10.1109/ICST.2018.00050",
+    "url": "db/conf/icst/icst2018.html#HodovanK18",
+    "authors": [
+      [
+        "Ren\u00e1ta Hodov\u00e1n",
+        "07/9089"
+      ],
+      [
+        "\u00c1kos Kiss 0001",
+        "22/2413-1"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/ccgrid/EltetoGBS10": {
     "key": "conf/ccgrid/EltetoGBS10",
     "title": "Discovering Piecewise Linear Models of Grid Workload.",
@@ -11506,6 +18204,39 @@
       "BME",
       "international",
       "theory"
+    ]
+  },
+  "conf/icc/VajdaTYJ04": {
+    "key": "conf/icc/VajdaTYJ04",
+    "title": "Hierarchical superframe formation in 802.15.3 networks.",
+    "venue": "ICC",
+    "year": "2004",
+    "pages": "4017-4022",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICC.2004.1313305",
+    "url": "db/conf/icc/icc2004.html#VajdaTYJ04",
+    "authors": [
+      [
+        "L\u00f3r\u00e1nt Vajda",
+        "01/5836"
+      ],
+      [
+        "Attila T\u00f6r\u00f6k",
+        "67/3824"
+      ],
+      [
+        "Kyu-Jung Youn",
+        "120/8074"
+      ],
+      [
+        "Sun-Do June",
+        "21/1520"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
     ]
   },
   "conf/icdt/DemetrovicsKMST95": {
@@ -11614,6 +18345,87 @@
       "theory"
     ]
   },
+  "conf/interspeech/SztahoKV15": {
+    "key": "conf/interspeech/SztahoKV15",
+    "title": "Estimating the severity of parkinson's disease from speech using linear regression and database partitioning.",
+    "venue": "INTERSPEECH",
+    "year": "2015",
+    "pages": "498-502",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2015-183"
+    },
+    "url": "db/conf/interspeech/interspeech2015.html#SztahoKV15",
+    "authors": [
+      [
+        "David Sztah\u00f3",
+        "13/4231"
+      ],
+      [
+        "G\u00e1bor Kiss",
+        "51/801"
+      ],
+      [
+        "Kl\u00e1ra Vicsi",
+        "54/3160"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icadl/KovacsM05": {
+    "key": "conf/icadl/KovacsM05",
+    "title": "An Ontology-Based Model of Digital Libraries.",
+    "venue": "ICADL",
+    "year": "2005",
+    "pages": "38-43",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/11599517_5",
+    "url": "db/conf/icadl/icadl2005.html#KovacsM05",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Kov\u00e1cs",
+        "59/1019"
+      ],
+      [
+        "Andr\u00e1s Micsik",
+        "85/2382"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icdcs/Kovacs94": {
+    "key": "conf/icdcs/Kovacs94",
+    "title": "The GroupSPACE Concept.",
+    "venue": "ICDCS",
+    "year": "1994",
+    "pages": "320-325",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ICDCS.1994.302431",
+      "https://doi.ieeecomputersociety.org/10.1109/ICDCS.1994.302431"
+    ],
+    "url": "db/conf/icdcs/icdcs94.html#Kovacs94",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Kov\u00e1cs",
+        "59/1019"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/esop/HajduJ20": {
     "key": "conf/esop/HajduJ20",
     "title": "SMT-Friendly Formalization of the Solidity Memory Model.",
@@ -11640,6 +18452,362 @@
       "BME",
       "international",
       "theory"
+    ]
+  },
+  "conf/interspeech/GetmanGHK24": {
+    "key": "conf/interspeech/GetmanGHK24",
+    "title": "Exploring adaptation techniques of large speech foundation models for low-resource ASR: a case study on Northern S\u00e1mi.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-479"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#GetmanGHK24",
+    "authors": [
+      [
+        "Yaroslav Getman",
+        "315/6298"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Katri Hiovain-Asikainen",
+        "330/6954"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GetmanGK24": {
+    "key": "conf/interspeech/GetmanGK24",
+    "title": "What happens in continued pre-training? Analysis of self-supervised speech models with continued pre-training for colloquial Finnish ASR.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-476"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#GetmanGK24",
+    "authors": [
+      [
+        "Yaroslav Getman",
+        "315/6298"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/LunVAGK24": {
+    "key": "conf/interspeech/LunVAGK24",
+    "title": "Oversampling, Augmentation and Curriculum Learning for Speaking Assessment with Limited Training Data.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-760"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#LunVAGK24",
+    "authors": [
+      [
+        "Tin Mei Lun",
+        "405/1625"
+      ],
+      [
+        "Ekaterina Voskoboinik",
+        "339/2637"
+      ],
+      [
+        "Ragheb Al-Ghezi",
+        "243/1813"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/PhanZKGK24": {
+    "key": "conf/interspeech/PhanZKGK24",
+    "title": "CaptainA self-study mobile app for practising speaking: task completion assessment and feedback with generative AI.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://www.isca-archive.org/interspeech_2024/phan24b_interspeech.html"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#PhanZKGK24",
+    "authors": [
+      [
+        "Nhan Phan",
+        "317/5305"
+      ],
+      [
+        "Anna von Zansen",
+        "381/9694"
+      ],
+      [
+        "Maria Kautonen",
+        "343/2896"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/PhanZKVGHK24": {
+    "key": "conf/interspeech/PhanZKVGHK24",
+    "title": "Automated content assessment and feedback for Finnish L2 learners in a picture description speaking task.",
+    "venue": "INTERSPEECH",
+    "year": "2024",
+    "pages": "",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2024-1166"
+    },
+    "url": "db/conf/interspeech/interspeech2024.html#PhanZKVGHK24",
+    "authors": [
+      [
+        "Nhan Phan",
+        "317/5305"
+      ],
+      [
+        "Anna von Zansen",
+        "381/9694"
+      ],
+      [
+        "Maria Kautonen",
+        "343/2896"
+      ],
+      [
+        "Ekaterina Voskoboinik",
+        "339/2637"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Raili Hild\u00e9n",
+        "194/1143"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GroszGARK23": {
+    "key": "conf/interspeech/GroszGARK23",
+    "title": "Investigating wav2vec2 context representations and the effects of fine-tuning, a case-study of a Finnish model.",
+    "venue": "INTERSPEECH",
+    "year": "2023",
+    "pages": "196-200",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2023-837"
+    },
+    "url": "db/conf/interspeech/interspeech2023.html#GroszGARK23",
+    "authors": [
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Yaroslav Getman",
+        "315/6298"
+      ],
+      [
+        "Ragheb Al-Ghezi",
+        "243/1813"
+      ],
+      [
+        "Aku Rouhe",
+        "194/1154"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/KarakasidisGK22": {
+    "key": "conf/interspeech/KarakasidisGK22",
+    "title": "Comparison and Analysis of New Curriculum Criteria for End-to-End ASR.",
+    "venue": "INTERSPEECH",
+    "year": "2022",
+    "pages": "66-70",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2022-10046"
+    },
+    "url": "db/conf/interspeech/interspeech2022.html#KarakasidisGK22",
+    "authors": [
+      [
+        "Georgios Karakasidis",
+        "326/6164"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/GetmanAVGKSSS22": {
+    "key": "conf/interspeech/GetmanAVGKSSS22",
+    "title": "wav2vec2-based Speech Rating System for Children with Speech Sound Disorder.",
+    "venue": "INTERSPEECH",
+    "year": "2022",
+    "pages": "3618-3622",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2022-10103"
+    },
+    "url": "db/conf/interspeech/interspeech2022.html#GetmanAVGKSSS22",
+    "authors": [
+      [
+        "Yaroslav Getman",
+        "315/6298"
+      ],
+      [
+        "Ragheb Al-Ghezi",
+        "243/1813"
+      ],
+      [
+        "Katja Voskoboinik",
+        "297/8710"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ],
+      [
+        "Giampiero Salvi",
+        "39/4545"
+      ],
+      [
+        "Torbj\u00f8rn Svendsen",
+        "15/7157"
+      ],
+      [
+        "Sofia Str\u00f6mbergsson",
+        "35/9238"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/interspeech/KathaniaSGK20": {
+    "key": "conf/interspeech/KathaniaSGK20",
+    "title": "Data Augmentation Using Prosody and False Starts to Recognize Non-Native Children's Speech.",
+    "venue": "INTERSPEECH",
+    "year": "2020",
+    "pages": "260-264",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.21437/Interspeech.2020-2199"
+    },
+    "url": "db/conf/interspeech/interspeech2020.html#KathaniaSGK20",
+    "authors": [
+      [
+        "Hemant Kumar Kathania",
+        "207/4498"
+      ],
+      [
+        "Mittul Singh",
+        "20/9487"
+      ],
+      [
+        "Tam\u00e1s Gr\u00f3sz",
+        "133/1170"
+      ],
+      [
+        "Mikko Kurimo",
+        "k/MikkoKurimo"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
     ]
   },
   "conf/iros/ViraghNGV16": {
@@ -11795,6 +18963,39 @@
     ],
     "classfiied": [
       "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icccn/FarkasHPR07": {
+    "key": "conf/icccn/FarkasHPR07",
+    "title": "NWC: Node Weight Computation in MANETs.",
+    "venue": "ICCCN",
+    "year": "2007",
+    "pages": "1059-1064",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICCCN.2007.4317958",
+    "url": "db/conf/icccn/icccn2007.html#FarkasHPR07",
+    "authors": [
+      [
+        "K\u00e1roly Farkas",
+        "63/2671"
+      ],
+      [
+        "Theus Hossmann",
+        "01/1946"
+      ],
+      [
+        "Bernhard Plattner",
+        "75/6115"
+      ],
+      [
+        "Lukas Ruf",
+        "25/810"
+      ]
+    ],
+    "classfiied": [
+      "BME",
       "international",
       "applied"
     ]
@@ -12063,6 +19264,290 @@
       "theory"
     ]
   },
+  "conf/cdc/GerencserM13": {
+    "key": "conf/cdc/GerencserM13",
+    "title": "Stability of hybrid L\u00e9vy systems.",
+    "venue": "CDC",
+    "year": "2013",
+    "pages": "2042-2047",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2013.6760182",
+    "url": "db/conf/cdc/cdc2013.html#GerencserM13",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "M\u00e1t\u00e9 M\u00e1nfay",
+        "143/5995"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/HuangHG12": {
+    "key": "conf/cdc/HuangHG12",
+    "title": "Adaptive experiment design for ARMAX systems?",
+    "venue": "CDC",
+    "year": "2012",
+    "pages": "907-912",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2012.6425920",
+    "url": "db/conf/cdc/cdc2012.html#HuangHG12",
+    "authors": [
+      [
+        "Lirong Huang",
+        "32/5539"
+      ],
+      [
+        "H\u00e5kan Hjalmarsson",
+        "67/45"
+      ],
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cdc/GerencserM07": {
+    "key": "conf/cdc/GerencserM07",
+    "title": "Almost sure and Lq-convergence of the re-initialized BMP scheme.",
+    "venue": "CDC",
+    "year": "2007",
+    "pages": "969-974",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2007.4434833",
+    "url": "db/conf/cdc/cdc2007.html#GerencserM07",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "Zal\u00e1n M\u00e1ty\u00e1s",
+        "115/9185"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "Corvinus",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/Gerencser06": {
+    "key": "conf/cdc/Gerencser06",
+    "title": "A Representation Theorem for the Error of Recursive Estimators.",
+    "venue": "CDC",
+    "year": "2006",
+    "pages": "320-325",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2006.377578",
+    "url": "db/conf/cdc/cdc2006.html#Gerencser06",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GerencserM04": {
+    "key": "conf/cdc/GerencserM04",
+    "title": "Change detection of hidden Markov models.",
+    "venue": "CDC",
+    "year": "2004",
+    "pages": "1754-1758",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2004.1430298",
+    "url": "db/conf/cdc/cdc2004.html#GerencserM04",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "G\u00e1bor Moln\u00e1r-S\u00e1ska",
+        "64/3444"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GerencserRV04": {
+    "key": "conf/cdc/GerencserRV04",
+    "title": "Controlled Lyapunov-exponents with applications.",
+    "venue": "CDC",
+    "year": "2004",
+    "pages": "2550-2554",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2004.1428831",
+    "url": "db/conf/cdc/cdc2004.html#GerencserRV04",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "Mikl\u00f3s R\u00e1sonyi",
+        "78/7255"
+      ],
+      [
+        "Zsuzsanna V\u00e1g\u00f3",
+        "71/1986"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "R\u00e9nyi",
+      "PPKE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/cdc/GerencserMR02": {
+    "key": "conf/cdc/GerencserMR02",
+    "title": "Two-step estimation of misspecified, non-Gaussian ARMA processes.",
+    "venue": "CDC",
+    "year": "2002",
+    "pages": "1826-1831",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2002.1184789",
+    "url": "db/conf/cdc/cdc2002.html#GerencserMR02",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "Gy\u00f6rgy Michaletzky",
+        "87/8137"
+      ],
+      [
+        "Zoltan Reppa",
+        "315/2741"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
+  "conf/cdc/GerencserMMTV02": {
+    "key": "conf/cdc/GerencserMMTV02",
+    "title": "New methods for the statistical analysis of Hidden Markov Models.",
+    "venue": "CDC",
+    "year": "2002",
+    "pages": "2272-2277",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CDC.2002.1184870",
+    "url": "db/conf/cdc/cdc2002.html#GerencserMMTV02",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "G\u00e1bor Moln\u00e1r-S\u00e1ska",
+        "64/3444"
+      ],
+      [
+        "Gy\u00f6rgy Michaletzky",
+        "87/8137"
+      ],
+      [
+        "G\u00e1bor E. Tusn\u00e1dy",
+        "12/1458"
+      ],
+      [
+        "Zsuzsanna V\u00e1g\u00f3",
+        "71/1986"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "BME",
+      "ELTE",
+      "PPKE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
+  "conf/cdc/GerencserV01": {
+    "key": "conf/cdc/GerencserV01",
+    "title": "The mathematics of noise-free SPSA.",
+    "venue": "CDC",
+    "year": "2001",
+    "pages": "4400-4405",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/.2001.980894",
+    "url": "db/conf/cdc/cdc2001.html#GerencserV01",
+    "authors": [
+      [
+        "L\u00e1szl\u00f3 Gerencs\u00e9r",
+        "21/3075"
+      ],
+      [
+        "Zsuzsanna V\u00e1g\u00f3",
+        "71/1986"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "PPKE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/TakacsZK15": {
+    "key": "conf/fuzzIEEE/TakacsZK15",
+    "title": "Customer habit analysis in an e-commerce system using soft computing based methods.",
+    "venue": "FUZZ-IEEE",
+    "year": "2015",
+    "pages": "1-6",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/FUZZ-IEEE.2015.7338062",
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2015.html#TakacsZK15",
+    "authors": [
+      [
+        "M\u00e1rta Tak\u00e1cs",
+        "90/5608"
+      ],
+      [
+        "Ernesztina Zuban",
+        "121/2025"
+      ],
+      [
+        "Kornel Kovacs",
+        "121/1986"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/cikm/RozemberczkiSHP21": {
     "key": "conf/cikm/RozemberczkiSHP21",
     "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models.",
@@ -12120,6 +19605,67 @@
     ],
     "classfiied": [
       "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icst/Szatmari25": {
+    "key": "conf/icst/Szatmari25",
+    "title": "Harnessing Test Call Structures for Improved Fault Localization Effectiveness.",
+    "venue": "ICST",
+    "year": "2025",
+    "pages": "623-628",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICST62969.2025.10988952",
+    "url": "db/conf/icst/icst2025.html#Szatmari25",
+    "authors": [
+      [
+        "Attila Szatm\u00e1ri",
+        "262/9465"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/fuzzIEEE/ReskoKPBH04": {
+    "key": "conf/fuzzIEEE/ReskoKPBH04",
+    "title": "Image attachment using fuzzy-genetic algorithms.",
+    "venue": "FUZZ-IEEE",
+    "year": "2004",
+    "pages": "1025-1029",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/FUZZY.2004.1375549",
+      "https://www.wikidata.org/entity/Q59095383"
+    ],
+    "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#ReskoKPBH04",
+    "authors": [
+      [
+        "Barna Resk\u00f3",
+        "72/6240"
+      ],
+      [
+        "P\u00e9ter Korondi",
+        "16/1986"
+      ],
+      [
+        "Zolt\u00e1n Petres",
+        "38/1185"
+      ],
+      [
+        "Jean-Francois Bourges",
+        "143/7822"
+      ],
+      [
+        "Hideki Hashimoto",
+        "90/1589"
+      ]
+    ],
+    "classfiied": [
+      "BME",
       "international",
       "applied"
     ]

@@ -60,7 +60,21 @@ regular_paper_list=["FERO: Fast and Efficient",
                   "On the Role of Mathematical Language Concept in the Theory of Intelligent Systems.",
                   "Definition Theory as Basis for a Creative Problem Solver.",
                   "Integrating Declarative Knowledge Programming Styles and Tools in a Structured Object AI Environment.",
-                  "Parameter Estimation of Geometrically Sampled Fractional Brownian Traffic"
+                  "Parameter Estimation of Geometrically Sampled Fractional Brownian Traffic",
+                  "Multi-H: Efficient recovery of tangent planes in stereo images.",
+                  "Value estimation based computer-assisted data mining for surfing the Internet.",
+                  "Hidden Markov model finds behavioral patterns of users working with a headmouse driven writing tool.",
+                  "Emerging evolutionary features in noise driven STDP networks?",
+                  "Simple algorithm for recurrent neural networks that can learn sequence completion.",
+                  "Sensor node localization using mobile acoustic beacons.",
+                  "Accurate Closed-form Estimation of Local Affine Transformations Consistent with the Epipolar Geometry.",
+                  "Calibration of 2D LiDAR sensors using cylindrical target.",
+                  "Combining Acoustic Feature Sets for Detecting Mild Cognitive Impairment in the Interspeech'24 TAUKADIAL Challenge.",
+                  "DuckPGQ: Efficient Property Graph Queries in an analytical RDBMS.",
+                  "On the Complexity of Learning from Counterexamples and Membership Queries (abstract).",
+                  "PhFit: A General Phase-type Fitting Tool.",
+                  "The limited blessing of low dimensionality: when 1-1/d is the best possible exponent for d-dimensional geometric problems.",
+
                 ]
 short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Embedding-based Automated Assessment of Domain Models.",
@@ -69,7 +83,11 @@ short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Driving Requirements Evolution by Engineers&apos; Opinions.",
                     "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework.",
                     "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
-                    "Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions)."
+                    "Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions).",
+                    "Results of Large-Scale Queueing Delay Tomography Performed in the ETOMIC Infrastructure.",
+                    "Task Sequencing for Remote Laser Welding in the Automotive Industry.",
+                    "Multi-access Services for the Management of Diabetes Mellitus: The M2DM Project.",
+                    "A dynamic exchange game.",
                     ]
 no_hungarian_affil =[
                     "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
@@ -159,8 +177,10 @@ def classify_paper_by_author(author_list, year):
         ret.append("applied")
     return ret
 
-def is_short_paper(info, venue):
+def is_short_paper(info, venue, rank_name):
     limit = 6
+    if rank_name!='B' and rank_name!='C':
+        limit = 4
     if venue in ["SODA", "STOC", "FOCS"]:
         limit = 3
     if venue in ["MoDELS"]:
@@ -168,6 +188,7 @@ def is_short_paper(info, venue):
     if venue in ["WWW"]:
         limit = 8
     if "Workshop" in venue:
+        print("Workshop detected, treat as short paper: {}".format(info.get("title", "N/A")))
         return True
     title = info.get("title", "N/A")
     if isinstance(title, dict):
@@ -179,7 +200,7 @@ def is_short_paper(info, venue):
         if title.startswith(title_):
             return True
     pages_str = info.get("pages", "")
-    if pages_str != "":
+    if pages_str != "" and (":" in pages_str or "-" in pages_str):
         if ":" not in pages_str:
             pages = re.split(r"[-:]", pages_str)
             if len(pages) > 1 and pages[1] != "":
@@ -204,9 +225,11 @@ def is_short_paper(info, venue):
                 return True  # Egyoldalas vagy nem értelmezhető
     else:
         # they accept posters only
-        if venue in ["ICML", "NeurIPS", "ICLR"]:# , "ACL", "EMNLP", "COLING", "IJCAI"
-            return False 
-        #print("no page is given!")
+        if venue in ["ICML", "NeurIPS", "ICLR","INTERSPEECH","BMVC"]:# , "ACL", "EMNLP", "COLING", "IJCAI"
+            return False
+        if rank_name=='B' or rank_name=='C':
+            return False
+        print("no page is given for :{}, treat as short paper at {} {}".format(info.get("title", "N/A"), venue, info.get("year", "N/A")))
         return True
     for doi_ in doi_short_paper_list:
         if doi_ in info.get("doi", ""):
@@ -276,7 +299,7 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name)
         foreign_papers[key] = record
         return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
 
-    if rank_name!='B' and rank_name!='C' and is_short_paper(info, venue):
+    if is_short_paper(info, venue, rank_name):
         short_papers[key] = record
         return None, None, search_log + "\n Skip as too short {}".format(paper_str)
 
