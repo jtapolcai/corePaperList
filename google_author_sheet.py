@@ -75,7 +75,7 @@ def load_table(reader):
     return authors_data
 
 def generate_author_google_sheet(authors_data):
-    for rank_name in ["Astar","A"]:
+    for rank_name in ["Astar","A","B","C"]:
         count_papers_by_author(authors_data,rank_name)
         count_papers_by_author(authors_data,rank_name, already_abroad_papers=True, name_prefix='already_abroad_')
     collect_dblp_data(authors_data)
@@ -101,12 +101,14 @@ def generate_author_google_sheet(authors_data):
             "MTMT Status": data.get("status", ""),
             "Works": data.get("works",""),
             "Affiliations": "; ".join(data.get("affiliations", [])),
-            "HungarianCore A*": data.get("paper_countAstar",0),
+            "Hungarian Core A*": data.get("paper_countAstar",0),
             "Hungarian Core A": data.get("paper_countA",0),
             "Hungarian Core A* Papers": data.get("papersAstar",""),
             "Hungarian Core A Papers": data.get("papersA",""),
             "Abroad Core A*": data.get("already_abroad_paper_countAstar",0),
             "Abroad Core A": data.get("already_abroad_paper_countA",0),
+            "Core B": data.get("already_abroad_paper_countB",0)+data.get("paper_countB",0),
+            "Core C": data.get("already_abroad_paper_countC",0)+data.get("paper_countC",0),
             "DBLP alias": data["basic_info"].get("aliases", {}).get("alias", ""),
             "DBLP note": dblp_notes,
             "DBLP urls": dblp_urls,
@@ -116,7 +118,7 @@ def generate_author_google_sheet(authors_data):
         # Sort rows descending by the score: 3 * (Core A*) + (Core A)
         # This ranks authors by a weighted count prioritizing Core A* publications.
         try:
-            csv_rows.sort(key=lambda r: 3 * int(r.get("Core A*", 0)) + int(r.get("Core A", 0)), reverse=True)
+            csv_rows.sort(key=lambda r: int(r.get("Hungarian Core A*", 0)) + int(r.get("Hungarian Core A", 0))/3 + int(r.get("Core B", 0))/6 + int(r.get("Core C", 0))/9 , reverse=True)
         except Exception:
             # fallback: if values are not integers for some reason, leave original order
             pass

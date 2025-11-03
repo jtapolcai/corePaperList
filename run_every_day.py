@@ -215,7 +215,7 @@ def is_short_paper(info, venue):
 
 all_authors=[]
 
-def process_paper(paper,venues,search_log,foreign_papers,short_papers):
+def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name):
     global all_authors, no_hungarian_affil, pid_to_name
     if "inproceedings" not in paper:
         return None, None, search_log + "\n Skip as not inproceedings"
@@ -276,7 +276,7 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers):
         foreign_papers[key] = record
         return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
 
-    if is_short_paper(info, venue):
+    if rank_name!='B' and rank_name!='C' and is_short_paper(info, venue):
         short_papers[key] = record
         return None, None, search_log + "\n Skip as too short {}".format(paper_str)
 
@@ -336,7 +336,7 @@ def query_DBLP(authors_data,force):
 
             if counter % 50 == 0:
                 print("Pause after {} queries".format(counter))
-                time.sleep(10)
+                time.sleep(30)
             if counter % 1000 == 0:
                 print("Too many queries – exiting")
                 break
@@ -366,7 +366,7 @@ query_DBLP(authors_data,force=force)
 
 dbld_author={}
 #step 2: process papers
-for rank_name in ["Astar", "A"]:
+for rank_name in ["Astar", "A","B","C"]:
     print("Search for Core {} papers".format(rank_name))
 
     # Konferencia lista betöltése
@@ -404,12 +404,12 @@ for rank_name in ["Astar", "A"]:
             #if "Laszlo Kovacs"==author:
             #    print("itt", len(hits))
             if isinstance(papers_found, dict):
-                key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers)
+                key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers, rank_name)
                 if key and key not in papers:
                     papers[key] = record
             else:
                 for paper in papers_found:
-                    key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers)
+                    key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers, rank_name)
                     if key and key not in papers:
                         papers[key] = record
             # and foreign papers:
