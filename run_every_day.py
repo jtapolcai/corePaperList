@@ -88,6 +88,8 @@ short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
                     "Task Sequencing for Remote Laser Welding in the Automotive Industry.",
                     "Multi-access Services for the Management of Diabetes Mellitus: The M2DM Project.",
                     "A dynamic exchange game.",
+                    "Detecting Mild Cognitive Impairment by Exploiting Linguistic Information from Transcripts.",
+                    "Trading Networks with Frictions."
                     ]
 no_hungarian_affil =[
                     "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
@@ -110,6 +112,34 @@ no_hungarian_affil =[
 ]
 doi_short_paper_list = ["FINDINGS-ACL","ICDMW5","ACL-SRW" ]
 
+pid_to_name = {}
+
+def remove_numbers_and_parentheses(text: str) -> str:
+    original = text
+    # (1), (23) stb. eltávolítása a zárójellel együtt
+    text = re.sub(r'\(\d+\)', '', text)
+    # maradék számok eltávolítása
+    text = re.sub(r'\d+', '', text)
+    # felesleges dupla szóközök eltávolítása
+    text = re.sub(r'\s{2,}', ' ', text).strip()
+    #if text != original:
+    #    print(f"Módosítva: Eredeti: '{original}'  Új:       '{text}'")
+    return text
+
+def get_int(text: str):
+    if any(c.isalpha() for c in text):
+        if 'vol' in text:
+            text = text.split('vol')[0]
+            if any(c.isalpha() for c in text):
+                print("Non-numeric page numbers detected :{}".format(text))    
+                return 0
+            else:
+                return int(text)
+        print("Non-numeric page numbers detected :{}".format(text))
+        return 0
+    else:
+        return int(text)
+    
 def has_worked_in_hungary(author_name):
     global authors_data
     author_name_=remove_accents(author_name)
@@ -142,35 +172,36 @@ def classify_author(author_name, pid, year):
         "category": "Unknown"
     }
 
-def classify_paper_by_author(author_list, year):
+def classify_paper_by_author(author_list, year, ignore_affiliations=False):
     hungarian = 0
     not_hungarian = 0
     ret = []
     theory = 0
     applied = 0
     for author, pid in author_list:
-        author_cls = classify_author(author, pid, year)
-        if author_cls["location"] == "Hungary":
-            hungarian += 1
-            for field in ["institution", "department"]:
-                if author_cls[field] != "Unknown":
-                    if author_cls[field] not in ret:
-                        ret.append(author_cls[field])
-        else:
-            not_hungarian += 1
+        if not ignore_affiliations:
+            author_cls = classify_author(author, pid, year)
+            if author_cls["location"] == "Hungary":
+                hungarian += 1
+                for field in ["institution", "department"]:
+                    if author_cls[field] != "Unknown":
+                        if author_cls[field] not in ret:
+                            ret.append(author_cls[field])
+            else:
+                not_hungarian += 1
         if author_cls["category"] == "theory":
             theory += 1
         elif author_cls["category"] == "applied":
             applied += 1
-
-    if hungarian == 0:
-        return ret
-    if hungarian <= not_hungarian:
-        ret.append("international")
-    elif not_hungarian == 0:
-        ret.append("all_hungarian")
-    else:
-        ret.append("mostly_hungarian")
+    if not ignore_affiliations:
+        if hungarian == 0:
+            return ret
+        if hungarian <= not_hungarian:
+            ret.append("international")
+        elif not_hungarian == 0:
+            ret.append("all_hungarian")
+        else:
+            ret.append("mostly_hungarian")
     if theory > applied:
         ret.append("theory")
     else:
@@ -204,7 +235,7 @@ def is_short_paper(info, venue, rank_name):
         if ":" not in pages_str:
             pages = re.split(r"[-:]", pages_str)
             if len(pages) > 1 and pages[1] != "":
-                pagenum = int(pages[1]) - int(pages[0])
+                pagenum = get_int(pages[1]) - get_int(pages[0])
                 if pagenum < limit:
                     return True
             else:
@@ -238,7 +269,7 @@ def is_short_paper(info, venue, rank_name):
 
 all_authors=[]
 
-def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name):
+def process_paper(paper, rank_name, venues, search_log="", foreign_papers=None, short_papers=None):
     global all_authors, no_hungarian_affil, pid_to_name
     if "inproceedings" not in paper:
         return None, None, search_log + "\n Skip as not inproceedings"
@@ -251,6 +282,7 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name)
     #    return None, None, search_log
     title = info.get("title", "N/A")
     venue = info.get("booktitle", "")
+    venue=remove_numbers_and_parentheses(venue)
     if venue.upper() not in venues:
         return None, None, search_log
     year = int(info.get("year", 0))
@@ -272,7 +304,7 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name)
     # Authors
     author_list_raw = info.get("author", [])
     if isinstance(author_list_raw, list):
-        author_list = [] #a.get("text", "") for a in author_list_raw]
+        author_list = [] 
         ######
         for a in author_list_raw:
             author_name=a.get("#text", "")
@@ -291,36 +323,21 @@ def process_paper(paper,venues,search_log,foreign_papers,short_papers,rank_name)
 
     paper_str = "{} {} {} - {} ".format(venue, year, authors_str, title)
 
-    if info.get("title", "") in no_hungarian_affil:
-        foreign_papers[key] = record
-        return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
-    
-    if len(ptype)==0:
-        foreign_papers[key] = record
-        return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
+    if foreign_papers is not None:
+        if info.get("title", "") in no_hungarian_affil:
+            foreign_papers[key] = record
+            return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
+        
+        if len(ptype)==0:
+            foreign_papers[key] = record
+            return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
 
     if is_short_paper(info, venue, rank_name):
-        short_papers[key] = record
+        if short_papers is not None:
+            short_papers[key] = record
         return None, None, search_log + "\n Skip as too short {}".format(paper_str)
 
     return key, record, search_log + "\n Add {}".format(paper_str)
-
-
-authors_data=download_author_google_sheet()
-
-# check is author names are all unique
-author_names = [remove_accents(name) for name in authors_data.keys()]
-if len(author_names) != len(set(author_names)):
-    print("Warning: Duplicate author names found!")
-
-pid_to_name = {}
-for name, data in authors_data.items():
-    pid = data.get("dblp_url", "").strip()
-    if pid != "":
-        if pid in pid_to_name:
-            print("Warning: Duplicate DBLP PID {} found for authors {} and {}".format(pid, pid_to_name[pid], name))
-        else:
-            pid_to_name[pid] = name
 
 
 
@@ -331,9 +348,9 @@ def query_DBLP(authors_data,force):
     counter = 0
 
     for author, author_cls in authors_data.items():
-        if not author_cls.get("location"):
-            full_log += "{} is not working in Hungary\n".format(author)
-            continue
+        #if not author_cls.get("location"):
+        #    full_log += "{} is not working in Hungary\n".format(author)
+        #    continue
 
         # we save the reuslts as dblp/author_name.json
         author_safe = remove_accents(author).replace(" ", "_")
@@ -382,232 +399,247 @@ def query_DBLP(authors_data,force):
 
     print("DBLP JSON lekérések kész, elmentve: dblp/")
 
+if __name__ == "__main__":
+    authors_data=download_author_google_sheet()
 
-##################
-#step 1: perform DBLP queries
-query_DBLP(authors_data,force=force)
+    # check is author names are all unique
+    author_names = [remove_accents(name) for name in authors_data.keys()]
+    if len(author_names) != len(set(author_names)):
+        print("Warning: Duplicate author names found!")
 
-dbld_author={}
-#step 2: process papers
-for rank_name in ["Astar", "A","B","C"]:
-    print("Search for Core {} papers".format(rank_name))
-
-    # Konferencia lista betöltése
-    with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
-        venues = {k.upper(): v for k, v in json.load(f).items()}
-        #json.load(f)
-    for tollerance in [0,100]:
-        papers = {}
-        foreign_papers = {}
-        short_papers = {}
-        search_log = ""
-
-        for author, author_cls in authors_data.items():
-            if not author_cls.get("location"):
-                search_log += "\n{} is not working in Hungary\n".format(author)
-                continue
-            author_safe = remove_accents(author).replace(" ", "_")
-            path = os.path.join("dblp", author_safe+".json")
-            if not os.path.exists(path):
-                print("{} not found ".format(path))
-                continue
-
-            with open(path, "r", encoding="utf-8") as f:
-                try:
-                    data = json.load(f)
-                    record = data.get("dblpperson", {})
-                    papers_found = record.get("r", {})
-                    person = record.get("person", author)
-                except Exception as e:
-                    print("Error loading {}: {}".format(path,e))
-                    continue
-            dbld_author[author]=person
-            affil = author_cls.get("affiliations", [])
-            search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
-            #if "Laszlo Kovacs"==author:
-            #    print("itt", len(hits))
-            if isinstance(papers_found, dict):
-                key, record, search_log = process_paper(papers_found, venues, search_log, foreign_papers, short_papers, rank_name)
-                if key and key not in papers:
-                    papers[key] = record
+    for name, data in authors_data.items():
+        pid = data.get("dblp_url", "").strip()
+        if pid != "":
+            if pid in pid_to_name:
+                print("Warning: Duplicate DBLP PID {} found for authors {} and {}".format(pid, pid_to_name[pid], name))
             else:
-                for paper in papers_found:
-                    key, record, search_log = process_paper(paper, venues, search_log, foreign_papers, short_papers, rank_name)
+                pid_to_name[pid] = name
+
+    ##################
+    #step 1: perform DBLP queries
+    query_DBLP(authors_data,force=force)
+
+    dbld_author={}
+    #step 2: process papers
+    for rank_name in ["Astar", "A","B","C"]:
+        print("Search for Core {} papers".format(rank_name))
+
+        # Konferencia lista betöltése
+        with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
+            venues = {k.upper(): v for k, v in json.load(f).items()}
+            #json.load(f)
+        for tollerance in [0,100]:
+            papers = {}
+            foreign_papers = {}
+            short_papers = {}
+            search_log = ""
+
+            for author, author_cls in authors_data.items():
+                if not author_cls.get("location"):
+                    search_log += "\n{} is not working in Hungary\n".format(author)
+                    continue
+                author_safe = remove_accents(author).replace(" ", "_")
+                path = os.path.join("dblp", author_safe+".json")
+                if not os.path.exists(path):
+                    print("{} not found ".format(path))
+                    continue
+
+                with open(path, "r", encoding="utf-8") as f:
+                    try:
+                        data = json.load(f)
+                        record = data.get("dblpperson", {})
+                        papers_found = record.get("r", {})
+                        person = record.get("person", author)
+                    except Exception as e:
+                        print("Error loading {}: {}".format(path,e))
+                        continue
+                dbld_author[author]=person
+                affil = author_cls.get("affiliations", [])
+                search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
+                #if "Laszlo Kovacs"==author:
+                #    print("itt", len(hits))
+                if isinstance(papers_found, dict):
+                    key, record, search_log = process_paper(papers_found, rank_name, venues, search_log, foreign_papers, short_papers)
                     if key and key not in papers:
                         papers[key] = record
-            # and foreign papers:
+                else:
+                    for paper in papers_found:
+                        key, record, search_log = process_paper(paper, rank_name, venues, search_log, foreign_papers, short_papers)
+                        if key and key not in papers:
+                            papers[key] = record
+                # and foreign papers:
 
-        # Mentés
-        with open("parsed_core_{}_papers_{}.json".format(rank_name, tollerance), "w", encoding="utf-8") as f:
-            json.dump(papers, f, indent=2, ensure_ascii=False)
-        print("Elmentve: parsed_core_{}_papers.json".format(rank_name))
-
-
-                        
-    print("Number of papers found {}".format(len(papers)))
-    # --- Save the log file ---
-    with open("log_{}_dblp.txt".format(rank_name), "w", encoding="utf-8") as f:
-        f.write(search_log)
-    with open('already_abroad_papers_core{}.json'.format(rank_name), 'w') as f:
-        json.dump(foreign_papers, f, indent=2)
-    with open('short_papers_core{}.json'.format(rank_name), 'w') as f:
-        json.dump(short_papers, f, indent=2)
-    with open('hungarian_papers_core{}.json'.format(rank_name), 'w') as f:
-        json.dump(papers, f, indent=2)
-
-    all_keywords = set()
-    author_publication_count = defaultdict(int)
-
-    # --- BibTeX rekordok generálása ---
-
-    def convert_to_latex_hungarian(text):
-        latex_map = {
-            'á': "\\'a", 'é': "\\'e", 'í': "\\'i", 'ó': "\\'o", 'ö': '\\"o', 'ő': '\\H{o}',
-            'ú': "\\'u", 'ü': '\\"u', 'ű': '\\H{u}',
-            'Á': "\\'A", 'É': "\\'E", 'Í': "\\'I", 'Ó': "\\'O", 'Ö': '\\"O', 'Ő': '\\H{O}',
-            'Ú': "\\'U", 'Ü': '\\"U', 'Ű': '\\H{U}'
-        }
-        return ''.join(latex_map.get(c, c) for c in text)
-
-    def json_to_bibtex_entry(key, entry, all_keywords):
-        global pid_to_name
-        bibkey = key.replace("conf/", "").replace("/", "")[:30]
-        authors = entry.get("authors", [])
-        author_names = []
-        for author, pid in authors:
-            author_=pid_to_name.get('/'+pid, author)
-            author_publication_count[author_] += 1
-            author_names.append(author_)
-        authors_bib = convert_to_latex_hungarian(" and ".join(author_names))
-        authors_bib = re.sub(r'\d+', '', authors_bib).strip()
-
-        bibtex = "@inproceedings{{{},\n".format(bibkey)
-        bibtex += "  author    = {{{}}},\n".format(authors_bib)
-        bibtex += "  title     = {{{}}},\n".format(entry.get('title', ''))
-        if "venue" in entry:
-            bibtex += "  booktitle = {{{}}},\n".format(entry['venue'])
-        if "year" in entry:
-            bibtex += "  year      = {},\n".format(entry['year'])
-        if "ee" in entry: 
-            bibtex += "  doi      = {{{}}},\n".format(entry['ee'])
-        if "classfiied" in entry:
-            for kw in entry["classfiied"]:
-                all_keywords.add(kw)
-            keywords = " and ".join(entry["classfiied"])
-            bibtex += "  keywords  = {{{}}}\n".format(keywords)
-        bibtex += "}"
-        return bibtex
-
-    bibtex_entries = []
-    all_keywords = set()
-
-    for key, paper in papers.items():
-        bibtex_entries.append(json_to_bibtex_entry(key, paper, all_keywords))
-
-    # --- Mentés .bib fájlba ---
-    with open("core{}.bib".format(rank_name), "w", encoding="utf-8") as f:
-        f.write("\n\n".join(bibtex_entries))
-
-    #print(", ".join(all_keywords))
-    import sys
-    print(", ".join(all_keywords).encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
+            # Mentés
+            with open("parsed_core_{}_papers_{}.json".format(rank_name, tollerance), "w", encoding="utf-8") as f:
+                json.dump(papers, f, indent=2, ensure_ascii=False)
+            print("Elmentve: parsed_core_{}_papers.json".format(rank_name))
 
 
-    if True:
-        #print("\n📊 Szerzők legalább 5 publikációval:")
-        author_list=""
-        for author, count in sorted(author_publication_count.items(), key=lambda x: -x[1]):
-            if count >= 5 and has_worked_in_hungary(author):
-                #print("{}: {count} publikáció".format(author))
-                if author_list!="":
-                    author_list+="|"
-                author_list+=author
-    else:
-        # --- Mohó lefedő szerzői lista generálása ---
-        from collections import defaultdict
+                            
+        print("Number of papers found {}".format(len(papers)))
+        # --- Save the log file ---
+        with open("log_{}_dblp.txt".format(rank_name), "w", encoding="utf-8") as f:
+            f.write(search_log)
+        with open('already_abroad_papers_core{}.json'.format(rank_name), 'w') as f:
+            json.dump(foreign_papers, f, indent=2)
+        with open('short_papers_core{}.json'.format(rank_name), 'w') as f:
+            json.dump(short_papers, f, indent=2)
+        with open('hungarian_papers_core{}.json'.format(rank_name), 'w') as f:
+            json.dump(papers, f, indent=2)
 
-        # 1. építsük fel: melyik szerző melyik cikkekben szerepel
-        author_to_papers = defaultdict(set)
-        paper_to_authors = {}
+        all_keywords = set()
+        author_publication_count = defaultdict(int)
+
+        # --- BibTeX rekordok generálása ---
+
+        def convert_to_latex_hungarian(text):
+            latex_map = {
+                'á': "\\'a", 'é': "\\'e", 'í': "\\'i", 'ó': "\\'o", 'ö': '\\"o', 'ő': '\\H{o}',
+                'ú': "\\'u", 'ü': '\\"u', 'ű': '\\H{u}',
+                'Á': "\\'A", 'É': "\\'E", 'Í': "\\'I", 'Ó': "\\'O", 'Ö': '\\"O', 'Ő': '\\H{O}',
+                'Ú': "\\'U", 'Ü': '\\"U', 'Ű': '\\H{U}'
+            }
+            return ''.join(latex_map.get(c, c) for c in text)
+
+        def json_to_bibtex_entry(key, entry, all_keywords):
+            global pid_to_name
+            bibkey = key.replace("conf/", "").replace("/", "")[:30]
+            authors = entry.get("authors", [])
+            author_names = []
+            for author, pid in authors:
+                author_=pid_to_name.get('/'+pid, author)
+                author_publication_count[author_] += 1
+                author_names.append(author_)
+            authors_bib = convert_to_latex_hungarian(" and ".join(author_names))
+            authors_bib = re.sub(r'\d+', '', authors_bib).strip()
+
+            bibtex = "@inproceedings{{{},\n".format(bibkey)
+            bibtex += "  author    = {{{}}},\n".format(authors_bib)
+            bibtex += "  title     = {{{}}},\n".format(entry.get('title', ''))
+            if "venue" in entry:
+                bibtex += "  booktitle = {{{}}},\n".format(entry['venue'])
+            if "year" in entry:
+                bibtex += "  year      = {},\n".format(entry['year'])
+            if "ee" in entry: 
+                bibtex += "  doi      = {{{}}},\n".format(entry['ee'])
+            if "classfiied" in entry:
+                for kw in entry["classfiied"]:
+                    all_keywords.add(kw)
+                keywords = " and ".join(entry["classfiied"])
+                bibtex += "  keywords  = {{{}}}\n".format(keywords)
+            bibtex += "}"
+            return bibtex
+
+        bibtex_entries = []
+        all_keywords = set()
 
         for key, paper in papers.items():
-            authors = paper.get("authors", [])
-            paper_to_authors[key] = authors
-            for author, pid in authors:
-                author_to_papers[author].add(key)
+            bibtex_entries.append(json_to_bibtex_entry(key, paper, all_keywords))
 
-        # 2. Mohó algoritmus: minden cikkből legyen egy szerző, minél kevesebb szerzővel
-        uncovered_papers = set(papers.keys())
-        selected_authors = set()
+        # --- Mentés .bib fájlba ---
+        with open("core{}.bib".format(rank_name), "w", encoding="utf-8") as f:
+            f.write("\n\n".join(bibtex_entries))
 
-        while uncovered_papers:
-            # Válasszuk ki azt a szerzőt, aki a legtöbb még lefedetlen cikkben szerepel
-            best_author = None
-            best_cover = set()
-            for author, authored_papers in author_to_papers.items():
-                if has_worked_in_hungary(author):
-                    cover = authored_papers & uncovered_papers
-                    if len(cover) > len(best_cover):
-                        best_author = author
-                        best_cover = cover
-            if not best_author:
-                break  # nem találtunk további fedezést (elméletileg nem fordulhat elő)
-
-            selected_authors.add(best_author)
-            uncovered_papers -= best_cover
-
-        # 3. Kiírás
-        #print("\n✅ Lefedéshez kiválasztott minimális szerzőhalmaz (mohó):")
-        #for author in sorted(selected_authors):
-        #    print(" - {}".format(author))
-        #print("📦 Összesen {} szerző fedi le az összes cikket.".format(len(selected_authors)))
-
-        author_list=""
-        for author in sorted(selected_authors):
-            if author_list!="":
-                author_list+="|"
-            author_list+=re.sub(r'\d+', '', author).strip()
-
-    #print(author_list.encode("utf-8"))
-    print(author_list.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
+        #print(", ".join(all_keywords))
+        import sys
+        print(", ".join(all_keywords).encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
 
 
-# Finally, copy result to the worldpress folder
-with open('dblp_authors.json'.format(rank_name), 'w') as f:
-        json.dump(dbld_author, f, indent=2)
+        if True:
+            #print("\n📊 Szerzők legalább 5 publikációval:")
+            author_list=""
+            for author, count in sorted(author_publication_count.items(), key=lambda x: -x[1]):
+                if count >= 5 and has_worked_in_hungary(author):
+                    #print("{}: {count} publikáció".format(author))
+                    if author_list!="":
+                        author_list+="|"
+                    author_list+=author
+        else:
+            # --- Mohó lefedő szerzői lista generálása ---
+            from collections import defaultdict
 
-# Check for pid collisions in all_authors (same pid used for multiple names)
-def check_pid_collisions(all_authors):
-    pid_to_names = {}
-    for name, pid in all_authors:
-        if not pid:
-            continue
-        pid_to_names.setdefault(pid, set()).add(name)
-    collisions = {pid: names for pid, names in pid_to_names.items() if len(names) > 1}
-    if not collisions:
-        print("✅ No duplicate names for the same PID in all_authors.")
-    else:
-        print("⚠️ Found PID collisions (same PID used by multiple names):")
-        for pid, names in collisions.items():
-            print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
+            # 1. építsük fel: melyik szerző melyik cikkekben szerepel
+            author_to_papers = defaultdict(set)
+            paper_to_authors = {}
 
-check_pid_collisions(all_authors)
+            for key, paper in papers.items():
+                authors = paper.get("authors", [])
+                paper_to_authors[key] = authors
+                for author, pid in authors:
+                    author_to_papers[author].add(key)
 
-with open('all_authors.json'.format(rank_name), 'w') as f:
-        json.dump(all_authors, f, indent=2)
+            # 2. Mohó algoritmus: minden cikkből legyen egy szerző, minél kevesebb szerzővel
+            uncovered_papers = set(papers.keys())
+            selected_authors = set()
 
-#authors_data = download_author_google_sheet()
+            while uncovered_papers:
+                # Válasszuk ki azt a szerzőt, aki a legtöbb még lefedetlen cikkben szerepel
+                best_author = None
+                best_cover = set()
+                for author, authored_papers in author_to_papers.items():
+                    if has_worked_in_hungary(author):
+                        cover = authored_papers & uncovered_papers
+                        if len(cover) > len(best_cover):
+                            best_author = author
+                            best_cover = cover
+                if not best_author:
+                    break  # nem találtunk további fedezést (elméletileg nem fordulhat elő)
 
-generate_author_google_sheet(authors_data)
+                selected_authors.add(best_author)
+                uncovered_papers -= best_cover
 
-if False:
-    import shutil
+            # 3. Kiírás
+            #print("\n✅ Lefedéshez kiválasztott minimális szerzőhalmaz (mohó):")
+            #for author in sorted(selected_authors):
+            #    print(" - {}".format(author))
+            #print("📦 Összesen {} szerző fedi le az összes cikket.".format(len(selected_authors)))
 
-    src = "core{}.bib".format(rank_name)
-    dst = "/mnt/lendulet_website/wordpress/SVN/core{}.bib".format(rank_name)
+            author_list=""
+            for author in sorted(selected_authors):
+                if author_list!="":
+                    author_list+="|"
+                author_list+=re.sub(r'\d+', '', author).strip()
 
-    try:
-        shutil.copy(src, dst)
-        print("copied to {}".format(dst))
-    except Exception as e:
-        print("failed to copy {}".format(src))
+        #print(author_list.encode("utf-8"))
+        print(author_list.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
+
+
+    # Finally, copy result to the worldpress folder
+    with open('dblp_authors.json'.format(rank_name), 'w') as f:
+            json.dump(dbld_author, f, indent=2)
+
+    # Check for pid collisions in all_authors (same pid used for multiple names)
+    def check_pid_collisions(all_authors):
+        pid_to_names = {}
+        for name, pid in all_authors:
+            if not pid:
+                continue
+            pid_to_names.setdefault(pid, set()).add(name)
+        collisions = {pid: names for pid, names in pid_to_names.items() if len(names) > 1}
+        if not collisions:
+            print("✅ No duplicate names for the same PID in all_authors.")
+        else:
+            print("⚠️ Found PID collisions (same PID used by multiple names):")
+            for pid, names in collisions.items():
+                print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
+
+    check_pid_collisions(all_authors)
+
+    with open('all_authors.json'.format(rank_name), 'w') as f:
+            json.dump(all_authors, f, indent=2)
+
+    #authors_data = download_author_google_sheet()
+
+    generate_author_google_sheet(authors_data)
+
+    if False:
+        import shutil
+
+        src = "core{}.bib".format(rank_name)
+        dst = "/mnt/lendulet_website/wordpress/SVN/core{}.bib".format(rank_name)
+
+        try:
+            shutil.copy(src, dst)
+            print("copied to {}".format(dst))
+        except Exception as e:
+            print("failed to copy {}".format(src))

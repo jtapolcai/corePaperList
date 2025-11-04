@@ -74,16 +74,15 @@ def load_table(reader):
     print("Loaded {} hungarian researcher names.".format(len(authors_data)))
     return authors_data
 
-def generate_author_google_sheet(authors_data):
-    for rank_name in ["Astar","A","B","C"]:
-        count_papers_by_author(authors_data,rank_name)
-        count_papers_by_author(authors_data,rank_name, already_abroad_papers=True, name_prefix='already_abroad_')
-    collect_dblp_data(authors_data)
-    
-    'already_abroad_papers_core{}.json'
-    #  JSON mentés
-    with open("authors_data_merged.json", "w", encoding="utf-8") as f:
-        json.dump(authors_data, f, indent=2, ensure_ascii=False)
+def generate_author_google_sheet(authors_data, print_only=False, no_processing=False):
+    if no_processing==False:
+        for rank_name in ["Astar","A","B","C"]:
+            count_papers_by_author(authors_data,rank_name)
+            count_papers_by_author(authors_data,rank_name, already_abroad_papers=True, name_prefix='already_abroad_')
+        collect_dblp_data(authors_data)    
+        #  JSON mentés
+        with open("authors_data_merged.json", "w", encoding="utf-8") as f:
+            json.dump(authors_data, f, indent=2, ensure_ascii=False)
 
 
     csv_rows = []
@@ -115,18 +114,26 @@ def generate_author_google_sheet(authors_data):
             "MTMT name": mtmt_name,
         })
 
-        # Sort rows descending by the score: 3 * (Core A*) + (Core A)
-        # This ranks authors by a weighted count prioritizing Core A* publications.
-        try:
-            csv_rows.sort(key=lambda r: int(r.get("Hungarian Core A*", 0)) + int(r.get("Hungarian Core A", 0))/3 + int(r.get("Core B", 0))/6 + int(r.get("Core C", 0))/9 , reverse=True)
-        except Exception:
-            # fallback: if values are not integers for some reason, leave original order
-            pass
+    # Sort rows descending by the score: 3 * (Core A*) + (Core A)
+    # This ranks authors by a weighted count prioritizing Core A* publications.
+    try:
+        csv_rows.sort(key=lambda r: int(r.get("Hungarian Core A*", 0)) + int(r.get("Hungarian Core A", 0))/3 + int(r.get("Core B", 0))/6 + int(r.get("Core C", 0))/9 , reverse=True)
+    except Exception:
+        # fallback: if values are not integers for some reason, leave original order
+        pass
 
-        df = pd.DataFrame(csv_rows)
+    df = pd.DataFrame(csv_rows)
+    if print_only:
+        for _, row in df.iterrows(): 
+            row_str = ""
+            for key, value in row.items():
+                row_str += f"{value}\t"
+            print(row_str)
+        print(csv_rows)
+    else:
         df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
 
-    print(" Kész: authors_data.csv")
+        print(" Kész: authors_data.csv")
 
 def download_author_google_sheet():
     try:
