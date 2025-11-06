@@ -1,57 +1,40 @@
 # A CORE konferenciarangsor szerepe és tanulságai a hazai informatikai kutatás szempontjából
 
-Az informatikai tudományterületen a publikálási kultúra jelentősen eltér más tudományágakétől. A következő ábra a folyóiratok és a konferenciák relatív fontosságát mutatja a Német Kutatási Alap (DFG) 48 szakterületének szakmai zsűrijeinek értékelése alapján [forrás: DFG, Academic Publishing as a Foundation and Area of Leverage for Research Assessment, 2022](https://www.dfg.de/resource/blob/175776/positionspapier-publikationswesen-en.pdf).
+Az informatikai tudományterületen a publikálási kultúra jelentősen eltér más tudományágakétől. Míg a legtöbb tudományterületen a meghatározó eredmények folyóiratokban jelennek meg, addig az informatika lényegében egyedüliként inkább a konferenciákat részesíti előnyben. A következő ábra a folyóiratok és a konferenciák relatív fontosságát mutatja a Német Kutatási Alap (DFG) 48 szakterületének szakmai zsűrijeinek értékelése alapján [forrás: DFG, Academic Publishing as a Foundation and Area of Leverage for Research Assessment, 2022](https://www.dfg.de/resource/blob/175776/positionspapier-publikationswesen-en.pdf).
 
 ![Folyóiratok és konferenciák fontossága szakterületenként a Német Kutatási Alap 2022-es stratégiai állásfoglalásában](figures/dfg_konferenciak_vs_folyoiratok.png)
 
-Míg a legtöbb tudományterületen a meghatározó eredmények folyóiratokban jelennek meg, addig az informatika lényegében egyedüliként inkább a konferenciákat részesíti előnyben. Ezek a kiemelt konferenciák nem átlagos rendezvények: a cikkek bírálati folyamata rendkívül szigorú és hangsúlyos. A bírálatok jellemzően többkörösek, és az egyes körök között a bírálók szakmai vitát folytatnak online felületeken. A többkörös folyamat végére egy elfogadott cikk akár hat bírálatot is kaphat.
+Az Informatikában ezek a kiemelt konferenciák nem átlagos rendezvények: lényegében abban különböznek a legjobb folyóiratoktól, hogy rendkívül szigorú a bírálati ütemezésük. Előre rögzített, hogy mikor kell regisztrálni a cikket, leadni, reagálni az első körös bírálatokra stb. A szigorú ütemezés komoly kihívás elé állítja a konferenciaszervezőket, de van akkora presztízs egy ilyen konferencién legyen bíráló biztossági tagnak lenni, hogy a legjobb kutatók elvállalják. Továbbá bevetik a csapatmunka támogatására kifejlesztett teljes informatikai eszköztárat – online vitákat, a bírálók egymás pontozását, valamint a bírálók számának dinamikus növelését (egy elfogadott cikk akár hat bírálatot is kaphat, egy bírálónak meg >10 cikket kell bírálnia) stb. Illetve van hagyománya az úgynevezett árnyékbizottságnak (shadow TPC) is, akik megkapják az összes beérkezett cikket, és azokat párhuzamosan lebírálják, majd a végén elemzik, hogy az általuk elfogadott cikkek mennyire fedik át a konferencia ténylegesen elfogadott cikkeit. A bírálók olykor annyira magabiztosak a döntésükben, hogy az elfogadott cikkek bírálatait nyilvánosságra is hozzák. A szigorú határidőknek azonban megvannak a korlátai, és soha nem fogják helyettesíteni azt a fajta minőségi folyóirat-bírálatot, amikor a bíráló akár évek alatt, soronként átnézi a cikket (a bizonyítások részleteivel).
 
-A folyóiratokhoz hasonlóan általában van lehetőség a szerzők számára, hogy reagáljanak a bírálatokra – ezt rebuttal-nak hívják. Az elfogadás előtt gyakran sor kerül egy ún. shepherding szakaszra is, ami a folyóiratok minor revision fázisának felel meg. A bírálók olykor annyira magabiztosak a döntésükben, hogy az elfogadott cikkek bírálatait nyilvánosságra is hozzák.
-
-Az informatikában a konferenciák népszerűségét részben a szigorúan ütemezett bírálati folyamat, illetve a néhány hónapon belül garantált döntés magyarázza, részben pedig az, hogy az ipari és innovációs szféra szereplői ritkán olvasnak folyóiratcikkeket, viszont szívesen részt vesznek konferenciákon, ahol előadás formájában hallhatnak a legújabb, áttörő eredményekről.
-
-Ez abból is jól látszik, hogy a nagy informatikai vállalatok jelentős összegeket fordítanak ezeknek az eseményeknek a támogatására. Másfelől a kutatók is versenyeznek az innovációs szféra figyelméért, és egy rangos konferencián való megjelenés jelentősen növeli egy eredmény láthatóságát.
-
-Ennek hatására mára olyan konferenciák alakultak ki, amelyek újdonságtartalmukban és presztízsükben is meghaladják a vezető folyóiratokat az infromatika területén.
+Az innovációs szféra közelsége tette ezt a gyors és minőségi bírálati folyamatot népszerűvé, amit az is jól mutat, hogy a nagy informatikai vállalatok jelentős összegeket fordítanak ezeknek az eseményeknek a támogatására. Másfelől a kutatók is versenyeznek az innovációs szféra figyelméért, és egy rangos konferencián való megjelenés jelentősen növeli egy eredmény láthatóságát. Ennek hatására mára olyan konferenciák alakultak ki, amelyek újdonságtartalmukban és presztízsükben is meghaladják a vezető folyóiratokat az informatika területén.
 
 A konferenciák versenyében segít eligazodni a CORE konferenciarangsor. A CORE lista 2006 óta létezik, az Ausztrál Tudományos Akadémia és szakmai grémiumok közreműködésével. A minősítési rendszer négy fő kategóriát különböztet meg (A*, A, B, C), és néhány évente frissítik. A rangsorolás középpontjában a következetes lektorálási folyamat, a reputáció, a történeti hivatkozottság, a közösség bevonódása és a konferenciák szakmai presztízse áll.
 
 ![Core konferenciarangsor kategóriái](figures/core_categories.png)
 
-A legmagasabb, A* kategóriába tartozó konferenciák szelekciós aránya a vezető folyóiratok szintjén van (megközelíti a D1-es besorolású lapokat, illetve a norvég lista 2-es szintjét). Ezeken a fórumokon a benyújtott cikkek többségét – gyakran 80–90%-át – elutasítják.
-
-Egyes A* konferenciák esetében a főszöveg terjedelme kilenc oldal, amelyhez tetszőlegesen hosszú függelék csatolható, így terjedelmileg és minőségileg is megfelelhet akár egy D1-es folyóiratnak.
-
-A világ vezető kutatóegyetemei – például az MIT, a Stanford, a Berkeley, a Cambridge, az EPFL és a Tsinghua – elsősorban ezeken a konferenciákon publikálnak.
-
-Egy CORE A*-os cikk elfogadásához sokszor némi szerencse is kell: az eredménynek éppen abban az évben kell áttörésnek számítania, amit nehéz előre megtervezni. Még a leghíresebb kutatók számára is kihívás bejutni egy A* konferenciára.
-
-Ugyanakkor egy A* konferencia programbizottságában való részvétel tudományos elismerésnek számít, ám jelentős terheléssel jár: a tagoknak évente akár 12–14 cikket is bírálniuk kell, szigorú határidők mellett, részletes értékelésekkel és szakmai vitákkal kiegészítve.
-
-A CORE A kategória szintén nagyon magas minőséget képvisel; ebből lényegesen több van, és az áttörő eredmény itt kevésbé elvárás. Más tudományterületeken a Q1-es folyóiratok jelentik a hasonló szintet.
+A legmagasabb, A* kategóriába tartozó konferenciák szelekciós aránya a vezető folyóiratok szintjén van (megközelíti a D1-es besorolású lapokat, illetve a norvég lista 2-es szintjét). Ezeken a fórumokon az elfogadási ráta 10%-20% között van. Egyes A* konferenciák esetében a főszöveg terjedelme kilenc oldal, amelyhez tetszőlegesen hosszú függelék csatolható, így terjedelmileg és minőségileg is megfelelhet akár egy D1-es folyóiratnak. A világ vezető kutatóegyetemei – például az MIT, a Stanford, a Berkeley, a Cambridge, stb – elsősorban ezeken a konferenciákon publikálnak. A CORE A kategória szintén magas minőséget képvisel, de az áttörő eredmény itt kevésbé elvárás. Ilyen konferenciából 3-szor több van, mint A*-osból. Más tudományterületeken a Q1-es folyóiratok jelentik a hasonló szintet.
 
 A CORE B kategória még mindig minőségi publikációnak számít, nagyjából a Q2-es folyóiratoknak feleltethető meg. Kétes minőségűnek azokat a konferenciákat tekintik, amelyeket a CORE nem rangsorol – ezek a norvég lista 0-s szintjének vagy a Q4-es folyóiratoknak feleltethetők meg.
 
-Megjegyzendő, hogy a konferencia-orientált tudományterületeken a folyóiratok nehezebb helyzetben vannak a bírálók toborzása miatt, ezért ezeken a szakterületeken a D1, Q1, Q2 stb. kategóriák határai némileg eltolódnak.
+Megjegyzendő, hogy a konferencia-orientált tudományterületeken a folyóiratok nehezebb helyzetben vannak a bírálók toborzása miatt, ezért ezeken a szakterületeken a D1, Q1, Q2 stb. kategóriák határai némileg eltolódnak lefelé.
 
-A minőségi konferenciacikkek megítélése a hazai tudománymetriában sokszor félrecsúszik. A folyóiratcentrikus szemlélet nem tükrözi a nemzetközi informatikai gyakorlatot, ezért előfordul, hogy egy A* konferencián publikált, komoly munkával elkészült cikk nem kap megfelelő elismerést.
+## Konferenciapublikációk megítélése a hazai tudományban 
+
+A minőségi konferenciacikkek megítélése a hazai tudománymetriában sokszor félrecsúszik. A folyóiratcentrikus szemlélet nem tükrözi a nemzetközi informatikai gyakorlatot, ezért fordulhat elő, hogy egy A* konferencián publikált, komoly munkával elkészült cikk nem kap megfelelő elismerést.
 
 Ezen cikkek elismerése Magyarországon jelenleg eseti: tudomásunk szerint két doktori iskola (az SZTE Informatikai és a BME Matematikai Doktori Iskola) értékeli azokat a folyóiratcikkekkel egyenrangúan. A III. (Matematikai) Osztály doktori követelményei között a 30 kiemelt hivatkozás esetében megengedett a rangos konferenciapublikáció beszámítása az informatika és számítástudomány területén, ahol ezt a CORE A és A* konferenciarangsor alapján definiálják.
-
 
 Az MTMT-ben a rangos konferenciák jelenleg nincsenek külön megjelölve, bár az MTMT3 fejlesztése során ez a funkció várhatóan megjelenik. A magyar informatikus kutatók így elsősorban a saját szakterületük konferenciáit követhetik nyomon, ám eddig nem állt rendelkezésre átfogó kép a hazai teljesítményről. Ezt a hiányt pótolandó összegyűjtöttük a magyar kutatók CORE A* és A kategóriás konferenciacikkeit.
 
 ## Magyar jelenlét a CORE A* és A konferenciákon
 
-Ebben a tanulmányban a magyar jelenlétet elemezzük a CORE A* és A konferenciákon. A hazai kutatók publikációit automatikus adatgyűjtés alapján (DBLP és MTMT összekapcsolásával, ~700 szerző adataival) kezdtük feltérképezni. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
+Ebben a tanulmányban a magyar jelenlétet elemeztük a CORE A* és A konferenciákon. A hazai kutatók publikációit automatikus adatgyűjtés alapján (iCore, DBLP, MTMT, MTA-ATT összekapcsolásával) térképeztük fel. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
 
 A teljes lista itt található [Core A*](http://lendulet.tmit.bme.hu/lendulet_website/corea) és [A](http://lendulet.tmit.bme.hu/lendulet_website/corea-2). Összegezve a szűrés logikája:
 	•	csak a fő konferenciákon (main track) megjelent cikkek kerültek be,
 	•	a „szatelit” események (workshop, demo, poster, student track stb.) nem számítanak,
 	•	csak akkor számított magyar megjelenésnek, ha legalább egy szerző magyar intézményi affiliációval szerepelt a publikációban,
 	•	a cikkek MTMT-megjelenése is ellenőrzésre került, mivel sokszor hiányoznak vagy hibásan szerepelnek az adatok.
-
-
 
 
  Célunk annak feltárása volt, hogy mennyi és hol megjelenő minőségi magyar informatikai eredmény születik. A munkákat két kategóriába osztottuk elméleit (MTA III osztály) és gyakorlati (MTA VI osztály) informatika. Lent található két szófelhő a besorolásokról:

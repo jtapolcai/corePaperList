@@ -1,4 +1,4 @@
-# mtmt-ből töltsük a szerzőt
+  # mtmt-ből töltsük a szerzőt
 import datetime
 import json
 from os import path
@@ -12,6 +12,33 @@ from run_every_day import process_paper #,query_DBLP, count_papers_by_author
 
 mtmt_id = 10000140
 mtmt_id = 10001225
+
+def get_dblp_record(author_name):
+    author_safe = remove_accents(author_name).replace(" ", "_")
+    file_path = path.join("dblp", author_safe+".json")
+    if path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+                return data
+            except Exception as e:
+                print("Error loading {}: {}".format(path,e))
+    else:
+        print("{} not found ".format(path))
+    return None    
+
+def check_if_dblp_id_corresponds_to_the_same_mtmt(mtmt_id,author_name):
+    mtmt_record = get_mtmt_record(mtmt_id)
+    if not mtmt_record:
+        print(f"MTMT record not found for ID: {mtmt_id}")
+        return None, None
+    dblp_info = get_dblp_record(author_name)
+    if not dblp_info:
+        print(f"DBLP record not found for author: {author_name}")
+        return None, None
+    if is_same_dblp_and_mtmt_records(dblp_info, mtmt_record):
+        return dblp_info, mtmt_record
+    return None, None
 
 def find_dblp_in_google_sheets(mtmt_id):
     from google_author_sheet import download_author_google_sheet,remove_accents, count_papers_by_author, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
@@ -69,15 +96,17 @@ def find_mtmt_papers_by_title_of_author(title_orig, mtmt_id):
                             mtmt_authors=author["author"]
                             if "label" in mtmt_authors:
                                 if mtmt_authors["mtid"]==mtmt_id:
-                                    return True
+                                    return 'same_author'
                             else:
                                 if mtmt_authors["mtid"]==mtmt_id:
-                                    return True
+                                    return 'same_author'
+            return 'different_author'
         else:
             print(f"⚠️ no content in {response}")
+            return 'no_paper_found'
     else:
-        print(f"⚠️ HTTP {response.status_code} error when querying MTMT for title {title_orig}")
-    return False
+        print(f"⚠️ HTTP {response_.status_code} error when querying MTMT for title {title_orig}")
+    return 'no_response'
 
 
 def compare_dblp_to_mtmt_paper(paper, mtmt_record):
@@ -86,27 +115,34 @@ def compare_dblp_to_mtmt_paper(paper, mtmt_record):
         title = paper["article"].get("title", "")
     if "inproceedings" in paper:
         title = paper["inproceedings"].get("title", "")
+    if isinstance(title, dict):
+        return False
     if title!="":
         if title.endswith('.'):
             title=title[:-1]
-        if find_mtmt_papers_by_title_of_author(title, mtmt_record.get("mtid", "")):
+        search_for_paper=find_mtmt_papers_by_title_of_author(title, mtmt_record.get("mtid", ""))
+        if search_for_paper=='same_author':
             return True
+        if search_for_paper=='different_author':
+            return False
     return False
 
-def compare_dblp_to_mtmt_record(dblp_info, mtmt_record):
-    dblp_record=query_DBLP_author(dblp_info.get("url", ""), author=dblp_info.get("author", "author_name"), force=True)
-    with open("dblp_record.json", "w", encoding="utf-8") as f:
-        json.dump(dblp_record, f, indent=2, ensure_ascii=False)
+def is_same_dblp_and_mtmt_records(dblp_record, mtmt_record):
+    #with open("dblp_record.json", "w", encoding="utf-8") as f:
+    #    json.dump(dblp_record, f, indent=2, ensure_ascii=False)
     # next check if there is a matchnig paper:
     papers=dblp_record.get("dblpperson", {}).get("r", [])
     if isinstance(papers, list):
+        i=0
         for paper in papers:
+            i+=1
             if compare_dblp_to_mtmt_paper(paper, mtmt_record):
-                return dblp_record
+                print(f"✅ talált egyező publikáció {i} próbálokzás után")
+                return True
     else:
         if compare_dblp_to_mtmt_paper(papers, mtmt_record):
-            return dblp_record
-    return None
+            return True
+    return False
 
 def find_dblp_by_name(mtmt_record):
     with open("mtmt_record.json", "w", encoding="utf-8") as f:
@@ -123,8 +159,8 @@ def find_dblp_by_name(mtmt_record):
                 hits = result.get("result", {}).get("hits", {}).get("hit", [])
                 for hit in hits:
                     dblp_info = hit.get("info", {})
-                    dblp_record= compare_dblp_to_mtmt_record(dblp_info, mtmt_record)
-                    if dblp_record:
+                    dblp_record=query_DBLP_author(dblp_info.get("url", ""), author=dblp_info.get("author", "author_name"), force=True)
+                    if is_same_dblp_and_mtmt_records(dblp_record, mtmt_record):
                         return dblp_record
         else:
                 print(f"HTTP hiba DBLP keresésnél {name}: {response.status_code}")
@@ -200,9 +236,18 @@ def is_active_in_mtmt(mtmt_record):
     return ""
 
 def location_of_affiliation(dblp_record,mtmt_record):
+    """Extract affiliation info from the dblp_record's note field (person-level affiliations).
+    
+    This does NOT iterate through all papers; it uses the top-level 'note' metadata
+    which is much faster for authors with many publications.
+    """
     dblp_affiliations = ""
     if "note" in dblp_record:
-        for note in dblp_record["note"]:
+        notes = dblp_record["note"]
+        # handle both single dict and list of notes
+        if isinstance(notes, dict):
+            notes = [notes]
+        for note in notes:
             if "affiliation" in note:
                 affil = note["affiliation"].lower()
                 if "@label" in note:
@@ -210,10 +255,12 @@ def location_of_affiliation(dblp_record,mtmt_record):
                     if dblp_affiliations!="":
                         dblp_affiliations+="; "
                     dblp_affiliations+=f"{affil} ({years})"
-                    if not "since" in years:
+                    if "since" not in years:
+                        # not current affiliation, keep looking
                         continue
-                dblp_affiliations=f"{affil}"
-                if "budapest" in affil or "hungary" in affil or "magyarország" in affil or "szeged" in affil or "egyetem" in affil or "renyi":
+                else:
+                    dblp_affiliations=f"{affil}"
+                if "budapest" in affil or "hungary" in affil or "magyarország" in affil or "szeged" in affil or "egyetem" in affil or "renyi" in affil:
                     return dblp_affiliations,"hungary"
                 else:
                     return dblp_affiliations,"abroad"
@@ -243,14 +290,17 @@ def check_paper(paper_dict, rank_name, first_author_pid, hungarian_affil, name_p
         venue_year=f"{acronym}{year} "
         authors_data[author][name_prefix+"papers"+rank_name]+=venue_year
 
-def count_papers_by_author(author,data,rank_name, dblp_record, first_author_only=False, hungarian_affil=False, name_prefix=''):
+def count_papers_by_author(author,data,rank_name, dblp_record, venues, first_author_only=False, hungarian_affil=False, name_prefix=''):
+    """Count papers by author for a given rank.
+    
+    Args:
+        venues: Pre-loaded venues dictionary for this rank (passed in to avoid repeated file I/O)
+    """
     first_author_pid = None
     if first_author_only:
         first_author_pid = data.get("dblp_url", "")
     authors_data[author][name_prefix+"papers"+rank_name] = ""
     authors_data[author][name_prefix+"paper_count"+rank_name] = 0
-    with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
-        venues = {k.upper(): v for k, v in json.load(f).items()}
     
     papers_found = dblp_record.get("r", {})
     #affil = data.get("affiliations", [])
@@ -261,11 +311,17 @@ def count_papers_by_author(author,data,rank_name, dblp_record, first_author_only
             check_paper(paper, rank_name, first_author_pid,hungarian_affil,name_prefix,venues, authors_data, author)
 
 def count_CORE_papers_by_author(author,data, dblp_record=None):
+    """Count papers for all CORE ranks. Loads each rank's venues JSON once and reuses it."""
     for rank_name in ["Astar","A","B","C"]:
         print(f"Counting {rank_name} papers for {author}...")
-        count_papers_by_author(author,data,rank_name, dblp_record)
-        count_papers_by_author(author,data,rank_name, dblp_record, first_author_only=True, name_prefix='first_author_')
-        count_papers_by_author(author,data,rank_name, dblp_record, hungarian_affil=True, name_prefix='hungarian_')
+        # Load venues JSON once per rank (not once per call)
+        with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
+            venues = {k.upper(): v for k, v in json.load(f).items()}
+        
+        # Pass venues to all 3 calls for this rank
+        count_papers_by_author(author,data,rank_name, dblp_record, venues)
+        count_papers_by_author(author,data,rank_name, dblp_record, venues, first_author_only=True, name_prefix='first_author_')
+        count_papers_by_author(author,data,rank_name, dblp_record, venues, hungarian_affil=True, name_prefix='hungarian_')
 
 
 if __name__ == "__main__":

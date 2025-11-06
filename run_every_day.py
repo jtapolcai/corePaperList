@@ -4,7 +4,6 @@ import requests
 import csv
 import re
 import xmltodict
-#import xml.etree.ElementTree as ET
 import unicodedata
 import json
 from collections import defaultdict
@@ -13,6 +12,7 @@ from urllib.parse import quote
 import time
 import os
 from unidecode import unidecode
+import pandas as pd
 from google_author_sheet import download_author_google_sheet,remove_accents, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
 
 import sys
@@ -46,73 +46,75 @@ departments = {
     "BME-MIT": ["bme-mit", "department of measurement and information systems"]
 }
 
-regular_paper_list=["FERO: Fast and Efficient", 
-                  "Horn Belief Contraction", 
-                  "Consistent Scene Graph Generation by Constraint Optimization", 
-                  "Massively Multilingual Sparse Word Representations",
-                  "Understanding Packet Pair Separation Beyond the Fluid Model: The Key Role of Traffic Granularity",
-                  "You are what you like! Information leakage through users' Interests",
-                  "Fooling a Complete Neural Network Verifier",
-                  "Fast classification using sparse decision DAGs",
-                  "Continuous Time Associative Bandit Problems.",
-                  "Negative Hyper-Resolution for Proving Statements Containing Transitive Relations", 
-                   "Analysis of Second-Order Markov Reward Models.",
-                  "On the Role of Mathematical Language Concept in the Theory of Intelligent Systems.",
-                  "Definition Theory as Basis for a Creative Problem Solver.",
-                  "Integrating Declarative Knowledge Programming Styles and Tools in a Structured Object AI Environment.",
-                  "Parameter Estimation of Geometrically Sampled Fractional Brownian Traffic",
-                  "Multi-H: Efficient recovery of tangent planes in stereo images.",
-                  "Value estimation based computer-assisted data mining for surfing the Internet.",
-                  "Hidden Markov model finds behavioral patterns of users working with a headmouse driven writing tool.",
-                  "Emerging evolutionary features in noise driven STDP networks?",
-                  "Simple algorithm for recurrent neural networks that can learn sequence completion.",
-                  "Sensor node localization using mobile acoustic beacons.",
-                  "Accurate Closed-form Estimation of Local Affine Transformations Consistent with the Epipolar Geometry.",
-                  "Calibration of 2D LiDAR sensors using cylindrical target.",
-                  "Combining Acoustic Feature Sets for Detecting Mild Cognitive Impairment in the Interspeech'24 TAUKADIAL Challenge.",
-                  "DuckPGQ: Efficient Property Graph Queries in an analytical RDBMS.",
-                  "On the Complexity of Learning from Counterexamples and Membership Queries (abstract).",
-                  "PhFit: A General Phase-type Fitting Tool.",
-                  "The limited blessing of low dimensionality: when 1-1/d is the best possible exponent for d-dimensional geometric problems.",
+short_paper_rank ={
+    'A*': 'B',
+    'A': 'C',
+    'B': 'C',
+    'C': 'C'
+}
 
-                ]
-short_paper_list = ["Mining Hypernyms Semantic Relations from Stack Overflow.",
-                    "Embedding-based Automated Assessment of Domain Models.",
-                    "Towards Efficient Evaluation of Rule-based Permissions for Fine-grained Access Control in Collaborative Modeling.",
-                    "Towards the Formal Verification of SysML v2 Models.",
-                    "Driving Requirements Evolution by Engineers&apos; Opinions.",
-                    "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework.",
-                    "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
-                    "Tight Bounds for Planar Strongly Connected Steiner Subgraph with Fixed Number of Terminals (and Extensions).",
-                    "Results of Large-Scale Queueing Delay Tomography Performed in the ETOMIC Infrastructure.",
-                    "Task Sequencing for Remote Laser Welding in the Automotive Industry.",
-                    "Multi-access Services for the Management of Diabetes Mellitus: The M2DM Project.",
-                    "A dynamic exchange game.",
-                    "Detecting Mild Cognitive Impairment by Exploiting Linguistic Information from Transcripts.",
-                    "Trading Networks with Frictions."
-                    ]
-no_hungarian_affil =[
-                    "Text2VQL: Teaching a Model Query Language to Open-Source Language Models with ChatGPT.",
-                    "Multi-step Iterative Automated Domain Modeling with Large Language Models.",
-                    "Automated Domain Modeling with Large Language Models: A Comparative Study.",
-                    "Prompting or Fine-tuning? A Comparative Study of Large Language Models for Taxonomy Construction.",
-                    "Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned.",
-                    "Collaborative Model-Driven Software Engineering: A Systematic Update.",
-                    "Modeling the Engineering Process of an Agent-based Production System: An Exemplar Study.",
-                    "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes.",
-                    "Towards Automated Test Scenario Generation for Assuring COLREGs Compliance of Autonomous Surface Vehicles.",
-                    "A Convergent O(n) Temporal-difference Algorithm for Off-policy Learning with Linear Function Approximation.",
-                    "Undirected Connectivity in O(log ^1.5 n) Space",
-                    "Matching Nuts and Bolts in O(n log n) Time (Extended Abstract).",
-                    "On Determinism versus Non-Determinism and Related Problems (Preliminary Version)",
-                    "Storing a Sparse Table with O(1) Worst Case Access Time",
-                    "Approximating  Minimum Cuts in (",
-                    "The Exponential-Time Complexity of Counting (Quantum) Graph Homomorphisms.",
+def load_list_from_file(filename):
+    """Load a list from a file in the inputs/ directory"""
+    path = os.path.join("inputs", filename)
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return [line.strip() for line in f if line.strip()]
+    else:
+        print(f"File {path} not found. Please create it with the appropriate content.")
+    return []
 
-]
-doi_short_paper_list = ["FINDINGS-ACL","ICDMW5","ACL-SRW" ]
+# papers that must be considered as main track papers
+regular_paper_list = load_list_from_file("regular_paper_list.txt")
+
+# papers that must be considered as short track papers
+short_paper_list = load_list_from_file("short_paper_list.txt")
+
+# papers that must be excluded from having Hungarian affiliation
+no_hungarian_affil = load_list_from_file("no_hungarian_affil_list.txt")
+
+# doi of short papers
+doi_short_paper_list = load_list_from_file("doi_short_paper_list.txt")
+
+no_page_is_given =[]
 
 pid_to_name = {}
+
+core_table = pd.read_csv("inputs/core_table.csv")
+core_table = core_table.set_index("Acronym", drop=False)
+
+def core_rank(venue, pub_year):
+    global core_table, acronym_index
+    last_rank = "no_rank"
+    venue=remove_numbers_and_parentheses(venue).upper()
+    # 2) nézzük, van-e ilyen acronym az indexben
+    if venue not in core_table.index:
+        return "no_rank"
+
+    # 3) vegyük ki a sort
+    acronym_row = core_table.loc[venue]
+    core_ranks=acronym_row["YearsListed"].split(", ")
+    first_year= None
+    for cr in core_ranks:
+        parts = cr.split("_")
+        if len(parts)!=2:
+            print("core_rank: invalid core rank entry: {}".format(cr))
+            continue
+        year = int(parts[0].replace("CORE", "").replace("ERA", ""))
+        rank = parts[1]
+        if first_year is None:
+            first_year = year
+            if pub_year <= first_year:
+                # we assume it had the same rank before
+                return rank
+        if pub_year < year:
+            if year==2013 and rank=="A*":
+                # the previous rank was ERA, which had not A* rank
+                return rank
+            return last_rank
+        last_rank=rank
+    return last_rank
+
+  
 
 def remove_numbers_and_parentheses(text: str) -> str:
     original = text
@@ -209,6 +211,7 @@ def classify_paper_by_author(author_list, year, ignore_affiliations=False):
     return ret
 
 def is_short_paper(info, venue, rank_name):
+    global no_page_is_given
     limit = 6
     if rank_name!='B' and rank_name!='C':
         limit = 4
@@ -224,11 +227,11 @@ def is_short_paper(info, venue, rank_name):
     title = info.get("title", "N/A")
     if isinstance(title, dict):
         title = title.get("text", "N/A")
-    for title_ in regular_paper_list:
-        if title.startswith(title_):
+    for title in regular_paper_list:
+        if title.startswith(title):
             return False
-    for title_ in short_paper_list:
-        if title.startswith(title_):
+    for title in short_paper_list:
+        if title.startswith(title):
             return True
     pages_str = info.get("pages", "")
     if pages_str != "" and (":" in pages_str or "-" in pages_str):
@@ -260,7 +263,9 @@ def is_short_paper(info, venue, rank_name):
             return False
         if rank_name=='B' or rank_name=='C':
             return False
-        print("no page is given for :{}, treat as short paper at {} {}".format(info.get("title", "N/A"), venue, info.get("year", "N/A")))
+        print("no page is given for  ({}):{} {} {} {}, treat as short paper".format(rank_name, venue, info.get("year", "N/A"),author_string(info.get("author", [])),info.get("title", "N/A")))
+        if info.get("title", "N/A") not in no_page_is_given:
+            no_page_is_given.append(info.get("title", "N/A"))
         return True
     for doi_ in doi_short_paper_list:
         if doi_ in info.get("doi", ""):
@@ -269,26 +274,36 @@ def is_short_paper(info, venue, rank_name):
 
 all_authors=[]
 
-def process_paper(paper, rank_name, venues, search_log="", foreign_papers=None, short_papers=None):
-    global all_authors, no_hungarian_affil, pid_to_name
+def author_string(author_field):
+    if isinstance(author_field, list):
+        author_names = []
+        for a in author_field:
+            if isinstance(a, dict):
+                author_name = a.get("#text", "")
+            else:
+                author_name = str(a)
+            author_names.append(author_name)
+        return ", ".join(author_names)
+    elif isinstance(author_field, dict):
+        return author_field.get("#text", "")
+    else:
+        return str(author_field)
+
+def classify_paper(paper, search_log=""):
+    global all_authors, no_hungarian_affil, pid_to_name, short_paper_rank
+
     if "inproceedings" not in paper:
-        return None, None, search_log + "\n Skip as not inproceedings"
+        return None, None, None, False, False, search_log + "\n Skip as not inproceedings"
     info = paper["inproceedings"]
-    #info=hit.get("info")
-    #if hit.get("@id", "")=="7172350":
-    #    print("itt")
-    #type = info.get("type")
-    #if type!="Conference and Workshop Papers":
-    #    return None, None, search_log
+
+    foreign_paper=False
+    short_paper=False
+
     title = info.get("title", "N/A")
     venue = info.get("booktitle", "")
-    venue=remove_numbers_and_parentheses(venue)
-    if venue.upper() not in venues:
-        return None, None, search_log
     year = int(info.get("year", 0))
-    if not is_year_range(venues[venue.upper()]["YearsInterval"], year, 0): 
-        return None, None, search_log + "Skip as {} is not in the right year {}".format(venue, year)
-
+    rank=core_rank(venue, year)
+    #venue=remove_numbers_and_parentheses(venue)
     record = {}
     key = info.get("@key", "")
     record["key"] = key
@@ -323,23 +338,55 @@ def process_paper(paper, rank_name, venues, search_log="", foreign_papers=None, 
 
     paper_str = "{} {} {} - {} ".format(venue, year, authors_str, title)
 
-    if foreign_papers is not None:
-        if info.get("title", "") in no_hungarian_affil:
-            foreign_papers[key] = record
-            return None, None, search_log + "\n Skip as not hungarian affiliation {}".format(info.get("title", ""))
-        
-        if len(ptype)==0:
-            foreign_papers[key] = record
-            return None, None, search_log + "\n Warning! no hungarian authors {}".format(paper_str)
+    if info.get("title", "") in no_hungarian_affil:
+        foreign_paper = True
+        search_log +="\n No hungarian affiliation {}".format(info.get("title", ""))
+    
+    if len(ptype)==0:
+        foreign_paper = True
+        search_log +="\n No hungarian authors {}".format(paper_str)
 
-    if is_short_paper(info, venue, rank_name):
-        if short_papers is not None:
-            short_papers[key] = record
-        return None, None, search_log + "\n Skip as too short {}".format(paper_str)
+    if rank=="no_rank":
+        return key, record, rank, False, False, search_log + "\n no rank for venue {}".format(venue)
+    
+    if is_short_paper(info, venue, rank):
+        short_paper = True
+        search_log +="\n Short paper {}".format(paper_str)
+        rank=short_paper_rank[rank]
+    else:
+         search_log += "\n Full paper {}".format(paper_str)
 
-    return key, record, search_log + "\n Add {}".format(paper_str)
+    return key, record, rank, foreign_paper, short_paper, search_log
 
+def process_paper(paper, papers, search_log="", foreign_papers=None, short_papers=None):
+    key, record, rank, foreign_paper, short_paper, search_log=classify_paper(paper, search_log)
+    if not rank: # no rank
+        return search_log, papers, foreign_papers, short_papers
+    rank_name=rank.replace("*","star")
+    if key and rank_name in papers and key not in papers[rank_name]:
+        papers[rank_name][key] = record
+    if foreign_paper and foreign_papers is not None and rank_name in foreign_papers:
+        if key and key not in foreign_papers[rank_name]:
+            foreign_papers[rank_name][key] = record
+    if short_paper and short_papers is not None and rank_name in short_papers:
+        if key and key not in short_papers[rank_name]:
+            short_papers[rank_name][key] = record
+    return search_log, papers, foreign_papers, short_papers
 
+def get_dblp_record(author_name):
+    author_safe = remove_accents(author_name).replace(" ", "_")
+    path = os.path.join("dblp", author_safe+".json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+                record = data.get("dblpperson", {})
+                return record
+            except Exception as e:
+                print("Error loading {}: {}".format(path,e))
+    else:
+        print("{} not found ".format(path))
+    return None    
 
 def query_DBLP(authors_data,force): 
     os.makedirs("dblp", exist_ok=True)
@@ -415,77 +462,58 @@ if __name__ == "__main__":
             else:
                 pid_to_name[pid] = name
 
-    ##################
     #step 1: perform DBLP queries
     query_DBLP(authors_data,force=force)
 
     dbld_author={}
+    
     #step 2: process papers
-    for rank_name in ["Astar", "A","B","C"]:
-        print("Search for Core {} papers".format(rank_name))
+    search_log = ""
+    papers = {}
+    for rank_name in ["Astar", "A","B","C","no_rank"]:
+        papers[rank_name] = {}
+    foreign_papers = {}
+    short_papers = {}
+    for rank_name in ["Astar", "A"]:
+        foreign_papers[rank_name] = {}
+        short_papers[rank_name] = {}
 
-        # Konferencia lista betöltése
-        with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
-            venues = {k.upper(): v for k, v in json.load(f).items()}
-            #json.load(f)
-        for tollerance in [0,100]:
-            papers = {}
-            foreign_papers = {}
-            short_papers = {}
-            search_log = ""
+    for author, author_cls in authors_data.items():
+        if not author_cls.get("location"):
+            search_log += "\n{} is not working in Hungary\n".format(author)
+            #continue
+        record = get_dblp_record(author)
+        if record is None:
+            continue
+        papers_found = record.get("r", {})
+        person = record.get("person", author)
+        dbld_author[author]=person
+        affil = author_cls.get("affiliations", [])
+        search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
+        #if "Laszlo Kovacs"==author:
+        #    print("itt", len(hits))
+        if isinstance(papers_found, dict):
+            search_log, papers, foreign_papers, short_papers = process_paper(papers_found, papers, search_log, foreign_papers, short_papers)
+        else:
+            for paper in papers_found:
+                search_log, papers, foreign_papers, short_papers = process_paper(paper, papers, search_log, foreign_papers, short_papers)
 
-            for author, author_cls in authors_data.items():
-                if not author_cls.get("location"):
-                    search_log += "\n{} is not working in Hungary\n".format(author)
-                    continue
-                author_safe = remove_accents(author).replace(" ", "_")
-                path = os.path.join("dblp", author_safe+".json")
-                if not os.path.exists(path):
-                    print("{} not found ".format(path))
-                    continue
-
-                with open(path, "r", encoding="utf-8") as f:
-                    try:
-                        data = json.load(f)
-                        record = data.get("dblpperson", {})
-                        papers_found = record.get("r", {})
-                        person = record.get("person", author)
-                    except Exception as e:
-                        print("Error loading {}: {}".format(path,e))
-                        continue
-                dbld_author[author]=person
-                affil = author_cls.get("affiliations", [])
-                search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
-                #if "Laszlo Kovacs"==author:
-                #    print("itt", len(hits))
-                if isinstance(papers_found, dict):
-                    key, record, search_log = process_paper(papers_found, rank_name, venues, search_log, foreign_papers, short_papers)
-                    if key and key not in papers:
-                        papers[key] = record
-                else:
-                    for paper in papers_found:
-                        key, record, search_log = process_paper(paper, rank_name, venues, search_log, foreign_papers, short_papers)
-                        if key and key not in papers:
-                            papers[key] = record
-                # and foreign papers:
-
-            # Mentés
-            with open("parsed_core_{}_papers_{}.json".format(rank_name, tollerance), "w", encoding="utf-8") as f:
-                json.dump(papers, f, indent=2, ensure_ascii=False)
-            print("Elmentve: parsed_core_{}_papers.json".format(rank_name))
-
-
-                            
-        print("Number of papers found {}".format(len(papers)))
-        # --- Save the log file ---
-        with open("log_{}_dblp.txt".format(rank_name), "w", encoding="utf-8") as f:
-            f.write(search_log)
+    # --- Save the log file ---
+    with open("log_dblp.txt", "w", encoding="utf-8") as f:
+        f.write(search_log)
+    
+    for rank_name in ["Astar", "A"]:   
         with open('already_abroad_papers_core{}.json'.format(rank_name), 'w') as f:
-            json.dump(foreign_papers, f, indent=2)
+            json.dump(foreign_papers[rank_name], f, indent=2)
         with open('short_papers_core{}.json'.format(rank_name), 'w') as f:
-            json.dump(short_papers, f, indent=2)
-        with open('hungarian_papers_core{}.json'.format(rank_name), 'w') as f:
-            json.dump(papers, f, indent=2)
+            json.dump(short_papers[rank_name], f, indent=2)
+
+    for rank_name in ["Astar", "A","B","C","no_rank"]:
+        # Mentés
+        with open("hungarian_papers_core{}.json".format(rank_name), "w", encoding="utf-8") as f:
+            json.dump(papers[rank_name], f, indent=2, ensure_ascii=False)
+        print("Elmentve: hungarian_papers_core{} with {} papers.json".format(rank_name, len(papers[rank_name])))
+
 
         all_keywords = set()
         author_publication_count = defaultdict(int)
@@ -533,7 +561,7 @@ if __name__ == "__main__":
         bibtex_entries = []
         all_keywords = set()
 
-        for key, paper in papers.items():
+        for key, paper in papers[rank_name].items():
             bibtex_entries.append(json_to_bibtex_entry(key, paper, all_keywords))
 
         # --- Mentés .bib fájlba ---
@@ -544,69 +572,6 @@ if __name__ == "__main__":
         import sys
         print(", ".join(all_keywords).encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
 
-
-        if True:
-            #print("\n📊 Szerzők legalább 5 publikációval:")
-            author_list=""
-            for author, count in sorted(author_publication_count.items(), key=lambda x: -x[1]):
-                if count >= 5 and has_worked_in_hungary(author):
-                    #print("{}: {count} publikáció".format(author))
-                    if author_list!="":
-                        author_list+="|"
-                    author_list+=author
-        else:
-            # --- Mohó lefedő szerzői lista generálása ---
-            from collections import defaultdict
-
-            # 1. építsük fel: melyik szerző melyik cikkekben szerepel
-            author_to_papers = defaultdict(set)
-            paper_to_authors = {}
-
-            for key, paper in papers.items():
-                authors = paper.get("authors", [])
-                paper_to_authors[key] = authors
-                for author, pid in authors:
-                    author_to_papers[author].add(key)
-
-            # 2. Mohó algoritmus: minden cikkből legyen egy szerző, minél kevesebb szerzővel
-            uncovered_papers = set(papers.keys())
-            selected_authors = set()
-
-            while uncovered_papers:
-                # Válasszuk ki azt a szerzőt, aki a legtöbb még lefedetlen cikkben szerepel
-                best_author = None
-                best_cover = set()
-                for author, authored_papers in author_to_papers.items():
-                    if has_worked_in_hungary(author):
-                        cover = authored_papers & uncovered_papers
-                        if len(cover) > len(best_cover):
-                            best_author = author
-                            best_cover = cover
-                if not best_author:
-                    break  # nem találtunk további fedezést (elméletileg nem fordulhat elő)
-
-                selected_authors.add(best_author)
-                uncovered_papers -= best_cover
-
-            # 3. Kiírás
-            #print("\n✅ Lefedéshez kiválasztott minimális szerzőhalmaz (mohó):")
-            #for author in sorted(selected_authors):
-            #    print(" - {}".format(author))
-            #print("📦 Összesen {} szerző fedi le az összes cikket.".format(len(selected_authors)))
-
-            author_list=""
-            for author in sorted(selected_authors):
-                if author_list!="":
-                    author_list+="|"
-                author_list+=re.sub(r'\d+', '', author).strip()
-
-        #print(author_list.encode("utf-8"))
-        print(author_list.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
-
-
-    # Finally, copy result to the worldpress folder
-    with open('dblp_authors.json'.format(rank_name), 'w') as f:
-            json.dump(dbld_author, f, indent=2)
 
     # Check for pid collisions in all_authors (same pid used for multiple names)
     def check_pid_collisions(all_authors):
@@ -623,12 +588,13 @@ if __name__ == "__main__":
             for pid, names in collisions.items():
                 print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
 
-    check_pid_collisions(all_authors)
+    #check_pid_collisions(all_authors)
 
     with open('all_authors.json'.format(rank_name), 'w') as f:
             json.dump(all_authors, f, indent=2)
 
-    #authors_data = download_author_google_sheet()
+    with open('papers_with_no_page.json'.format(rank_name), 'w') as f:
+            json.dump(no_page_is_given, f, indent=2)
 
     generate_author_google_sheet(authors_data)
 

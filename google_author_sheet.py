@@ -69,15 +69,19 @@ def load_table(reader):
             "mtmt_name": mtmt_name,
             "category": category,
             "status": status,
-            "works": works
+            "works": works,
+            "mta_topic": row.get('MTA topic','').strip(),
+            "mta_bizottság": row.get('MTA Bizottság'),
+            "Elérhetőségek": row.get('Elérhetőségek')
         }
     print("Loaded {} hungarian researcher names.".format(len(authors_data)))
     return authors_data
 
 def generate_author_google_sheet(authors_data, print_only=False, no_processing=False):
     if no_processing==False:
-        for rank_name in ["Astar","A","B","C"]:
+        for rank_name in ["Astar","A","B","C","no_rank"]:
             count_papers_by_author(authors_data,rank_name)
+        for rank_name in ["Astar","A"]:
             count_papers_by_author(authors_data,rank_name, already_abroad_papers=True, name_prefix='already_abroad_')
         collect_dblp_data(authors_data)    
         #  JSON mentés
@@ -92,6 +96,13 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
         dblp_notes = merge_list_attribute_into_string(data, "note", " + ")
         dblp_urls = merge_list_attribute_into_string(data, "url", " , ")
 
+        core_Astar= data.get("paper_countAstar",0)
+        core_A= data.get("paper_countA",0)
+        hungarian_core_Astar =core_Astar - data.get("already_abroad_paper_countAstar",0)
+        hungarian_core_A = core_A - data.get("already_abroad_paper_countA",0)
+        core_B= data.get("paper_countB",0)
+        core_C= data.get("paper_countC",0)
+        no_core= data.get("paper_countno_rank",0)
         csv_rows.append({
             "Author": data["basic_info"]["author"],
             "DBLP URL": data.get("dblp_url", "").replace("https://dblp.org/pid",""),
@@ -100,24 +111,30 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
             "MTMT Status": data.get("status", ""),
             "Works": data.get("works",""),
             "Affiliations": "; ".join(data.get("affiliations", [])),
-            "Hungarian Core A*": data.get("paper_countAstar",0),
-            "Hungarian Core A": data.get("paper_countA",0),
-            "Hungarian Core A* Papers": data.get("papersAstar",""),
-            "Hungarian Core A Papers": data.get("papersA",""),
-            "Abroad Core A*": data.get("already_abroad_paper_countAstar",0),
-            "Abroad Core A": data.get("already_abroad_paper_countA",0),
-            "Core B": data.get("already_abroad_paper_countB",0)+data.get("paper_countB",0),
-            "Core C": data.get("already_abroad_paper_countC",0)+data.get("paper_countC",0),
+            "Core A*": core_Astar,
+            "Core A": core_A,
+            "Core A* Papers": data.get("papersAstar",""),
+            "Core A Papers": data.get("papersA",""),
+            "Hungarian Core A*": hungarian_core_Astar,
+            "Hungarian Core A": hungarian_core_A,
+            "Core B": core_B,
+            "Core C": core_C,
+            "No Core": no_core,
+            "Hungarian Core A* equivalent": hungarian_core_Astar + hungarian_core_A/3 + core_B/6 + core_C/9,
+            "Core A* equivalent": core_Astar + core_A/3 + core_B/6 + core_C/9,
+            "MTMT name": mtmt_name,
+            "MTA topic": data.get('mta topic', ''),
+            'MTA Bizottság': data.get('mta_bizottság',''),
+            'Elérhetőségek': data.get('Elérhetőségek',''),
             "DBLP alias": data["basic_info"].get("aliases", {}).get("alias", ""),
             "DBLP note": dblp_notes,
             "DBLP urls": dblp_urls,
-            "MTMT name": mtmt_name,
         })
 
     # Sort rows descending by the score: 3 * (Core A*) + (Core A)
     # This ranks authors by a weighted count prioritizing Core A* publications.
     try:
-        csv_rows.sort(key=lambda r: int(r.get("Hungarian Core A*", 0)) + int(r.get("Hungarian Core A", 0))/3 + int(r.get("Core B", 0))/6 + int(r.get("Core C", 0))/9 , reverse=True)
+        csv_rows.sort(key=lambda r: int(r.get("Hungarian Core A* equivalent")) , reverse=True)
     except Exception:
         # fallback: if values are not integers for some reason, leave original order
         pass
