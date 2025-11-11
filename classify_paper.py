@@ -34,6 +34,8 @@ no_hungarian_affil = _load_list("no_hungarian_affil_list.txt")
 doi_short_paper_list = _load_list("doi_short_paper_list.txt")
 
 core_table = pd.read_csv(os.path.join(_inputs_dir, "core_table.csv"))
+# Convert acronyms to uppercase for case-insensitive matching
+core_table["Acronym"] = core_table["Acronym"].str.upper()
 core_table = core_table.set_index("Acronym", drop=False)
 
 all_authors: List[Tuple[str, str]] = []
@@ -250,11 +252,14 @@ def process_paper(paper: Dict, papers: Dict, search_log: str = "", foreign_paper
     key, record, rank, foreign_paper, short_paper, search_log = classify_paper(paper, search_log)
     if not rank:
         return search_log, papers, foreign_papers, short_papers
-    if key and rank in papers and key not in papers[rank]:
+    # Only add to papers dict if it's NOT a foreign paper (i.e., it has Hungarian affiliation)
+    if not foreign_paper and key and rank in papers and key not in papers[rank]:
         papers[rank][key] = record
+    # Add to foreign_papers dict if it IS a foreign paper
     if foreign_paper and foreign_papers is not None and rank in foreign_papers:
         if key and key not in foreign_papers[rank]:
             foreign_papers[rank][key] = record
+    # Add to short_papers dict if it's a short paper (regardless of affiliation)
     if short_paper and short_papers is not None and rank in short_papers:
         if key and key not in short_papers[rank]:
             short_papers[rank][key] = record

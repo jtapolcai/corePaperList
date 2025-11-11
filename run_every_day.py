@@ -61,6 +61,8 @@ if __name__ == "__main__":
     #step 1: perform DBLP queries
     dblp_utils.cache_DBLP_query(authors_data,force=force)
 
+    classify_author.create_pid_to_name_map(authors_data)
+    
     dbld_author={}
     
     #step 2: process papers
