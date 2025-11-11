@@ -1,238 +1,287 @@
-  # mtmt-ből töltsük a szerzőt
-import datetime
-import json
-from os import path
-import requests
-import time
-import xmltodict
+  # -*- coding: utf-8 -*-
+"""
+Tudometer - Main module for author record creation and paper counting
+Coordinates DBLP, MTMT, and MTA ATT data to build comprehensive author profiles.
+"""
 import sys
+import json
+from collections import OrderedDict
+from typing import OrderedDict as TOrderedDict
+import pandas as pd
 
-from google_author_sheet import download_author_google_sheet, remove_accents, generate_author_google_sheet #, count_papers_by_author
-from run_every_day import process_paper #,query_DBLP, count_papers_by_author
+# Import utility modules
+import dblp_utils
+import mtmt_utils
+import mta_att_utils
+import google_author_sheet 
+import run_every_day
+import classify_author
+import classify_paper
 
-mtmt_id = 10000140
-mtmt_id = 10001225
-
-def get_dblp_record(author_name):
-    author_safe = remove_accents(author_name).replace(" ", "_")
-    file_path = path.join("dblp", author_safe+".json")
-    if path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                return data
-            except Exception as e:
-                print("Error loading {}: {}".format(path,e))
-    else:
-        print("{} not found ".format(path))
-    return None    
-
-def check_if_dblp_id_corresponds_to_the_same_mtmt(mtmt_id,author_name):
-    mtmt_record = get_mtmt_record(mtmt_id)
-    if not mtmt_record:
-        print(f"MTMT record not found for ID: {mtmt_id}")
-        return None, None
-    dblp_info = get_dblp_record(author_name)
-    if not dblp_info:
-        print(f"DBLP record not found for author: {author_name}")
-        return None, None
-    if is_same_dblp_and_mtmt_records(dblp_info, mtmt_record):
-        return dblp_info, mtmt_record
-    return None, None
 
 def find_dblp_in_google_sheets(mtmt_id):
-    from google_author_sheet import download_author_google_sheet,remove_accents, count_papers_by_author, generate_author_google_sheet, fix_encoding, get_year_range, parse_affiliation, is_year_range
-
-    authors_data=download_author_google_sheet()
-
-    for author,data in authors_data.items():
+    # Load full_authors_data.json which contains all ranking fields
+    try:
+        with open("full_authors_data.json", "r", encoding="utf-8") as f:
+            authors_data = json.load(f)
+    except FileNotFoundError:
+        # Fallback to downloading from Google Sheet (won't have ranking fields)
+        print("Warning: full_authors_data.json not found, downloading from Google Sheet (ranking fields will be missing)")
+        authors_data = google_author_sheet.download_author_google_sheet()
+    
+    for author, data in authors_data.items():
         if 'mtmt_id' in data and data['mtmt_id']!='' and int(data['mtmt_id'])==int(mtmt_id):
             return author, data        
     return None, None
 
-def query_DBLP_author(dblp_url, author, force=False):
-    # we save the reuslts as dblp/author_name.json
-    author_safe = remove_accents(author).replace(" ", "_")
-    file_path = path.join("dblp", "{}.json".format(author_safe))
 
-    if not force and path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                return data
-            except Exception as e:
-                print("Error loading {}: {}".format(file_path,e))
-
-    try:
-        print("Fetching: {} {}.xml".format(author, dblp_url))
-        response = requests.get(dblp_url+".xml")
-
-        if response.status_code != 200:
-            raise Exception("HTTP error {}".format(response.status_code))
-        #with open("debug_dblp_response.html", "wb") as f:
-        #    f.write(response.content)
-        data = xmltodict.parse(response.content)
-        #data = response.json()
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+def check_paper(paper_dict, first_author_pid, hungarian_affil, name_prefix, data, print_log=False):
+    """The main filtering function of papers. 
+       It checks a single paper whether meets the required properties
+       and if yes it updates the data accordingly."""
+    if "inproceedings" in paper_dict:
+        paper = paper_dict["inproceedings"]
+    elif "article" in paper_dict:
+        paper = paper_dict["article"]
+    else:
         return data
-    except Exception as e:
-        print("Error fetching {}: {}".format(dblp_url,e))
-        return None
+    authors = paper.get("author", [])
+    if first_author_pid!=None:
+        if isinstance(authors, list) and len(authors)>1 and authors[0].get("@pid", "")!=first_author_pid[1:]:
+            return data
+    key, record, rank, foreign_paper, short_paper, search_log=classify_paper.classify_paper(paper_dict)
+    if print_log and search_log.strip()!="" and search_log.strip()!="Skip as not inproceedings":
+        print(search_log)
+    if key:
+        if hungarian_affil and foreign_paper:
+            return data
+        data[name_prefix+"paper_count"+rank] += 1
+        acronym = paper.get("booktitle", "")
+        year = paper.get("year", "")
+        venue_year=f"{acronym}{year} "
+        data[name_prefix+"papers"+rank]+=venue_year
+    return data
 
-def find_mtmt_papers_by_title_of_author(title_orig, mtmt_id):
-    title = title_orig.strip(' .')
-    title =  title.replace(' ', '%20')
-    url = f"https://m2.mtmt.hu/api/publication?format=json&cond=title;eq;{title}"
-    response_ = requests.get(url, timeout=10)
-    if response_.status_code == 200:
-        response=response_.json()
-        if "content" in response:
-            papers=response["content"]
-            for paper in papers:                
-                if "authorships" in paper:
-                    for author in paper["authorships"]:
-                        if "author" in author:
-                            mtmt_authors=author["author"]
-                            if "label" in mtmt_authors:
-                                if mtmt_authors["mtid"]==mtmt_id:
-                                    return 'same_author'
-                            else:
-                                if mtmt_authors["mtid"]==mtmt_id:
-                                    return 'same_author'
-            return 'different_author'
-        else:
-            print(f"⚠️ no content in {response}")
-            return 'no_paper_found'
+def count_papers_by_author(data, dblp_record, first_author_only=False, hungarian_affil=False, name_prefix='', print_log=False):
+    """Count papers by author for a given rank.
+    """
+    first_author_pid = None
+    if first_author_only:
+        first_author_pid = data.get("dblp_url", "")
+    
+    if dblp_record is None:
+        return data
+    
+    papers_found = dblp_record.get("r", {})
+    if isinstance(papers_found, dict):
+        data=check_paper(papers_found, first_author_pid, hungarian_affil, name_prefix, data, print_log)
     else:
-        print(f"⚠️ HTTP {response_.status_code} error when querying MTMT for title {title_orig}")
-    return 'no_response'
+        for paper in papers_found:
+            data=check_paper(paper, first_author_pid, hungarian_affil, name_prefix, data, print_log)
+    return data
 
 
-def compare_dblp_to_mtmt_paper(paper, mtmt_record):
-    title=""
-    if "article" in paper:
-        title = paper["article"].get("title", "")
-    if "inproceedings" in paper:
-        title = paper["inproceedings"].get("title", "")
-    if isinstance(title, dict):
-        return False
-    if title!="":
-        if title.endswith('.'):
-            title=title[:-1]
-        search_for_paper=find_mtmt_papers_by_title_of_author(title, mtmt_record.get("mtid", ""))
-        if search_for_paper=='same_author':
-            return True
-        if search_for_paper=='different_author':
-            return False
-    return False
+def count_CORE_papers_by_author(author, data, dblp_record=None, print_log=False, force=False):
+    """Count papers for all CORE ranks. Loads each rank's venues JSON once and reuses it.
+    Also fetches MTMT record if mtmt_id is present in data.
+    """
+    for rank_name in ["A*","A","B","C","no_rank"]:
+        for name_prefix in ['', 'first_author_', 'hungarian_']:
+            data[name_prefix+"papers"+rank_name] = ""
+            data[name_prefix+"paper_count"+rank_name] = 0
+        #if print_log:
+        #    print(f"Counting {rank_name} papers for {author}...")
+        # Load venues JSON once per rank (not once per call)
+        #with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
+        #    venues = {k.upper(): v for k, v in json.load(f).items()}
+    
+    # Fetch MTMT record if mtmt_id is present and get metrics
+    if 'mtmt_id' in data and data['mtmt_id']:
+        try:
+            mtmt_record, pub_rec = mtmt_utils.get_mtmt_record(data['mtmt_id'], force=force, author_name=author)
+            if mtmt_record and pub_rec:
+                # Get metrics from MTMT and merge into data
+                metrics = mtmt_utils.get_metrics(mtmt_record, pub_rec)
+                for key, value in metrics.items():
+                    if isinstance(value, dict):
+                        for subkey, subvalue in value.items():
+                            data[f"mtmt_{key}_{subkey}"] = subvalue
+                    else:
+                        data[f"mtmt_{key}"] = value
+                if print_log:
+                    print(f"MTMT metrics fetched for {author}: {metrics.get('journal D1 eqvivalents', 0)} D1 eq")
+        except Exception as e:
+            if print_log:
+                print(f"Warning: Could not fetch MTMT record for {author}: {e}")
+    
+    if dblp_record and 'dblpperson' in dblp_record:
+        dblp_record=dblp_record['dblpperson']
+    # Pass venues to all 3 calls for this rank
+    data=count_papers_by_author(data, dblp_record, print_log=print_log)
+    data["Core A* equivalent"] = data["paper_countA*"]+data["paper_countA"]/3+data["paper_countB"]/6+data["paper_countC"]/12
+    data=count_papers_by_author(data, dblp_record, first_author_only=True, name_prefix='first_author_', print_log=print_log)
+    data["First Author Core A* equivalent"] = data["first_author_paper_countA*"]+data["first_author_paper_countA"]/3+data["first_author_paper_countB"]/6+data["first_author_paper_countC"]/12
+    data=count_papers_by_author(data, dblp_record, hungarian_affil=True, name_prefix='hungarian_', print_log=print_log)
+    data["Hungarian Core A* equivalent"] = data["hungarian_paper_countA*"]+data["hungarian_paper_countA"]/3+data["hungarian_paper_countB"]/6+data["hungarian_paper_countC"]/12
+    return data
 
-def is_same_dblp_and_mtmt_records(dblp_record, mtmt_record):
-    #with open("dblp_record.json", "w", encoding="utf-8") as f:
-    #    json.dump(dblp_record, f, indent=2, ensure_ascii=False)
-    # next check if there is a matchnig paper:
-    papers=dblp_record.get("dblpperson", {}).get("r", [])
-    if isinstance(papers, list):
-        i=0
-        for paper in papers:
-            i+=1
-            if compare_dblp_to_mtmt_paper(paper, mtmt_record):
-                print(f"✅ talált egyező publikáció {i} próbálokzás után")
-                return True
+def safe_get_value(row, key, default=''):
+    """Safely get value from pandas Series, handling NaN and None."""
+    if key not in row:
+        return default
+    val = row[key]
+    if pd.isna(val) or val is None:
+        return default
+    # Ha float, de egész szám, akkor integer-ként kezeljük
+    if isinstance(val, float) and val.is_integer():
+        return str(int(val))
+    return str(val).strip()
+
+def add_mta_att_record(angol_nev, row,  mtmt_id, magyar_nev, data, dblp_record=None, mtmt_record=None, pub_rec=[]):
+    """Add MTA ATT record data to the author data.
+    
+    If dblp_record and mtmt_record are provided, skip the verification step.
+    Otherwise, verify that the DBLP and MTMT records correspond to the same author.
+    """
+    if dblp_record is None or mtmt_record is None:
+        print("Missing DBLP or MTMT record, skipping verification.")
     else:
-        if compare_dblp_to_mtmt_paper(papers, mtmt_record):
-            return True
-    return False
+        if not dblp_utils.is_same_dblp_and_mtmt_records(dblp_record, mtmt_record, pub_rec):
+            print(f"Warning! {dblp_record.get('@name','')} és {mtmt_record.get('label','')} nem ugyanaz a személy!")
+            return False, data
+            # Proceed only if both records are present
+    if dblp_record and mtmt_record:
+        print("Valóban ő az!")                        
+        #data_orig = authors_data.get(angol_nev, {})
+        """
+        image                                             756        1817    2573
+        Tudományos osztály                                756        1817    2573
+        Aktuális fokozat                                  756        1817    2573
+        Publikációs név                                   756        1817    2573
+        Hivatalos név                                     756        1817    2573
+        Hivatalos név_URL                                 756        1817    2573
+        Tudományos bizottság                              756        1817    2573
+        Aktuális fokozat szakterülete                     756        1816    2572
+        Szervezeti tagságok                               740        1763    2503
+        Publikációk                                       716        1709    2425
+        Szakterület                                       688        1587    2275
+        Elérhetőségek                                     678        1495    2173
+        Kutatási téma                                     589        1340    1929
+        PhD                                               510        1344    1854
+        Foglalkozás                                       457         861    1318
+        Született                                         281         890    1171
+        Díjak                                             164         327     491
+        a műszaki tudomány kandidátusa                      3         324     327
+        MTA doktora                                       130         185     315
+        Szerkesztői tevékenységek                          80         166     246
+        a matematikai tudomány kandidátusa                173           2     175
+        levelező tag                                       42          38      80
+        rendes tag                                         36          30      66
+        Adományozott címek                                 16          47      63
+        a műszaki tudomány doktora                          0          52      52
+        a matematikai tudomány doktora                     51           1      52
+        DLA                                                 0          50      50
+        Elhunyt                                             6          16      22
+        Székfoglalók                                        8           8      16
+        a fizikai tudomány kandidátusa                      0          14      14
+        a közlekedéstudomány kandidátusa                    0          10      10
+        a kémiai tudomány kandidátusa                       0           9       9
+        a közgazdaság-tudomány kandidátusa                  2           3       5
+        a közlekedéstudomány doktora                        0           3       3
+        a kémiai tudomány doktora                           0           3       3
+        a hadtudomány kandidátusa                           1           2       3
+        az építőmérnöki tudomány kandidátusa                0           1       1
+        fokozat nélküli                                     0           1       1
+        külső tag                                           1           0       1
+        egyetemi doktor                                     0           1       1
+        az építőművészet kandidátusa                        0           1       1
+        a fizikai tudomány doktora                          0           1       1
+        a tudomány doktora                                  1           0       1
+        a nyelvtudomány kandidátusa                         0           1       1
+        a művészettörténeti tudomány kandidátusa            0           1       1
+        a mezőgazdasági tudomány kandidátusa                0           1       1
+        a hadtudomány doktora                               0           1       1
+        PhD (Szlovákia)                                     0           1       1
+        PhD (Szerbia)                                       0           1       1
+        tudományok doktora (Románia)                        0           1       1
+        HTML_content                                        0           0       0"""
+        class_type = ""
+        tud_osztaly = safe_get_value(row, 'Tudományos osztály')
+        if tud_osztaly == 'III. Matematikai Tudományok Osztálya':
+            class_type = 'theory'
+        if tud_osztaly == 'IV. Műszaki Tudományok Osztálya':
+            class_type = 'applied'
+        if data["category"]!=class_type:
+            print(f"{safe_get_value(row, 'Hivatalos név')}  kategóriaja {data['category']} -> mta-ban {class_type} {data['mtmt_name']} ")
+            data['category']=class_type
+        
+        hivatalos_nev_url = safe_get_value(row, 'Hivatalos név_URL')
+        data['mta_att_id'] = hivatalos_nev_url.replace("https://mta.hu/koztestuleti_tagok?PersonId=",'')
+        data['mta_image'] = safe_get_value(row, 'image')
+        data['mta_tud_fokozat'] = safe_get_value(row, 'Aktuális fokozat')
+        data['mta_topic'] = safe_get_value(row, 'Aktuális fokozat szakterülete')
+        data['mta_bizottság'] = safe_get_value(row, 'Tudományos bizottság')
+        data['mta_elerhetosegek'] = safe_get_value(row, 'Elérhetőségek')
+        data['mta_szervezeti_tagsagok'] = safe_get_value(row, 'Szervezeti tagságok')
+        data['mta_dijak'] = safe_get_value(row, 'Díjak')
+        data['mta_kutatasi_tema'] = safe_get_value(row, 'Kutatási téma')
+        
+        phd_eve = None
+        for key in row.index:
+            if key and isinstance(key, str) and 'phd' in key.lower():
+                val = safe_get_value(row, key)
+                if val:
+                    phd_eve = val
+                    break
+        data['phd_eve'] = phd_eve if phd_eve else ''
+        
+        data['mta_foglalkozas'] = safe_get_value(row, 'Foglalkozás')
+        data['mta_szuletett'] = safe_get_value(row, 'Született')
+        
+        rendes = safe_get_value(row, 'rendes tag')
+        levelező = safe_get_value(row, 'levelező tag')
+        külső = safe_get_value(row, 'külső tag')
+        data['mta_tagsag'] = 'rendes tag' if rendes else 'levelező tag' if levelező else 'külső tag' if külső else ''
+        
+        data['mta_elhunyt'] = safe_get_value(row, 'Elhunyt')
+        
+        publikaciok = safe_get_value(row, 'Publikációk')
+        if data['mtmt_id']!='' and publikaciok:
+            try:
+                if int(data['mtmt_id']) != int(mtmt_id):
+                    print(f"⚠️ Warning: {safe_get_value(row, 'Hivatalos név')} névhez két különböző MTMT ID tartozik: {data['mtmt_id']} és {mtmt_id}")
+                #if int(data['mtmt_id']) != int(mtmt_id) or int(mtmt_id) == int(publikaciok):
+                #    print(f"Warning! {safe_get_value(row, 'Hivatalos név')} névvel két MTMT ID van: {mtmt_id} és {data['mtmt_id']} és {publikaciok}")
+                    data['mtmt_id'] = str(int(mtmt_id))
+            except (ValueError, TypeError):
+                pass
+        
+        data['mtmt_name'] = mtmt_record.get("label", "")
+        return True, data
+    return False, data
 
-def find_dblp_by_name(mtmt_record):
-    with open("mtmt_record.json", "w", encoding="utf-8") as f:
-        json.dump(mtmt_record, f, indent=2, ensure_ascii=False)
-    family_name = mtmt_record.get("familyName", "")
-    given_name = mtmt_record.get("givenName", "")
-    name = f"{given_name} {family_name}".strip()
-    name_for_search = name.replace(' ', '+')
-    url = f"https://dblp.org/search/author/api?q={name_for_search}&format=json"
-    try:
-        response = requests.get(url, timeout=10)
-        if response.status_code == 200:
-                result = response.json()
-                hits = result.get("result", {}).get("hits", {}).get("hit", [])
-                for hit in hits:
-                    dblp_info = hit.get("info", {})
-                    dblp_record=query_DBLP_author(dblp_info.get("url", ""), author=dblp_info.get("author", "author_name"), force=True)
-                    if is_same_dblp_and_mtmt_records(dblp_record, mtmt_record):
-                        return dblp_record
-        else:
-                print(f"HTTP hiba DBLP keresésnél {name}: {response.status_code}")
-    except Exception as e:
-            print(f"Hiba DBLP keresésnél {name}: {e}")
+def get_mta_att_row(mtmt_id):
+    for output_file in ["vi_osztaly_tagok.csv","iii_osztaly_tagok.csv"]:
+        osztaly = pd.read_csv("inputs/"+output_file, encoding='utf-8-sig')
+        for idx, row in osztaly.iterrows():
+            if 'Publikációk' in row:
+                publikaciok = safe_get_value(row, 'Publikációk')
+                if publikaciok:
+                    try:
+                        if int(mtmt_id) == int(publikaciok):
+                            return row
+                    except (ValueError, TypeError):
+                        pass
     return None
-
-def get_mtmt_record(mtmt_id):
-    mtmt_url = f"https://m2.mtmt.hu/api/author/{mtmt_id}?format=json"
-    try:
-        response = requests.get(mtmt_url, timeout=10)
-        if response.status_code == 200:
-            result = response.json()
-            author_record = result.get("content", {})
-            return author_record
-        else:
-            print(f"HTTP hiba MTMT URL lekérésnél {mtmt_id}: {response.status_code}")
-    except Exception as e:
-        print(f"Hiba MTMT URL lekérésnél {mtmt_id}: {e}")
-    return None
-
 
 def categorize(val):
-    # Kulcsszavak kategorizáláshoz
     theory_kw = ["matematik", "elmélet", "gráf", "logika", "kombinatórik","kombinatorik","tudomány","algoritmus","operációkutatás","geometria","algebra","theory","matematika","formális","statisztika"]
     practical_kw = ["info", "hálózat", "távközl", "szoftver", "gép", "tanulás", "vision", "képfeld","intelligencia","technológia","technika","mérnök","robot","fizika","protokol","adat","internet","network","routing","szintézis","blockchain","rendszer","engineering","fuzz","idősor","fonetika","nyelv","műszaki","modellezés"]
     s = val.lower()
     if any(k in s for k in theory_kw):
-        return "theory"   # elméleti
+        return "theory"
     if any(k in s for k in practical_kw):
-        return "applied"   # gyakorlati
-    return ""
-
-
-def parse_last_modified(val):
-    if val is None:
-        return None
-    # epoch (int/float)
-    try:
-        if isinstance(val, (int, float)) or (isinstance(val, str) and val.isdigit()):
-            ts = int(val)
-            if ts > 1e12:  # milliseconds
-                ts = ts / 1000
-            return datetime.datetime.fromtimestamp(ts)
-    except Exception:
-        pass
-    # ISO-like string
-    if isinstance(val, str):
-        s = val.strip()
-        try:
-            return datetime.datetime.fromisoformat(s)
-        except Exception:
-            # try YYYY-MM-DD prefix
-            try:
-                return datetime.datetime.strptime(s[:10], "%Y-%m-%d")
-            except Exception:
-                return None
-    return None
-
-def is_active_in_mtmt(mtmt_record):
-    now = datetime.datetime.now(datetime.timezone.utc)  # make 'now' timezone-aware (UTC)
-    dt = parse_last_modified(mtmt_record.get("lastModified"))
-    if dt is None:
-        return ""
-    # normalize dt to timezone-aware UTC
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=datetime.timezone.utc)
-    else:
-        dt = dt.astimezone(datetime.timezone.utc)
-    age_years = (now - dt).total_seconds() / (365.25 * 24 * 3600)
-    if age_years >= 3:
-        return "inactive"
+        return "applied"
     return ""
 
 def location_of_affiliation(dblp_record,mtmt_record):
@@ -266,108 +315,192 @@ def location_of_affiliation(dblp_record,mtmt_record):
                     return dblp_affiliations,"abroad"
     return dblp_affiliations,""
 
-def check_paper(paper_dict, rank_name, first_author_pid, hungarian_affil, name_prefix,venues, authors_data, author):
-    if "inproceedings" in paper_dict:
-        paper = paper_dict["inproceedings"]
-    elif "article" in paper_dict:
-        paper = paper_dict["article"]
+def build_author_record(mtmt_record, pub_rec,dblp_record):
+    dblp_person = dblp_record.get("dblpperson", {})
+    name= dblp_person.get("@name", "")
+    dblp_url = "/"+dblp_person.get("@pid", "")
+    mtmt_id = mtmt_record.get("mtid", "")
+    topic = mtmt_record.get("auxName", "")
+    category = categorize(topic)
+    status = mtmt_utils.is_active_in_mtmt(mtmt_record)
+    works, affiliations = location_of_affiliation(dblp_person, mtmt_record)
+    alias = dblp_person.get("alias", [])
+    mtmt_name = mtmt_record.get("label", "")
+    print(f"DBLP rekord megtalálva: {name} - {dblp_url}")
+    data={
+        "dblp_url": dblp_url,
+        "dblp_author_name": name,
+        "dblp_aliases": alias,
+        "affiliations": affiliations,
+        "mtmt_id": mtmt_id,
+        "mtmt_name": mtmt_name,
+        "category": category,
+        "status": status,
+        "works": works
+    }
+    row = get_mta_att_row(mtmt_id)
+    if row is not None:
+        # Pass the already verified dblp_record and mtmt_record to avoid duplicate verification
+        ok, data = add_mta_att_record(name, row, mtmt_id, mtmt_name, data, dblp_record=dblp_record, mtmt_record=mtmt_record)
+    return data, dblp_person
+
+def create_record(mtmt_id):
+    mtmt_record, pub_rec = mtmt_utils.get_mtmt_record(mtmt_id)
+    if mtmt_record:
+        dblp_record = dblp_utils.find_dblp_by_name(mtmt_record, pub_rec)
+        if dblp_record:
+            #with open("dblp_record.json", "w", encoding="utf-8") as f:
+            #    json.dump(dblp_record, f, indent=2, ensure_ascii=False)
+            return build_author_record(mtmt_record, pub_rec,dblp_record)
+        else:
+            print(f"Nincs DBLP rekord megtalálva a név alapján {mtmt_record.get('label', '')}.")
     else:
-        return
-    authors = paper.get("author", [])
-    if first_author_pid!=None:
-        if isinstance(authors, list) and len(authors)>1 and authors[0].get("@pid", "")!=first_author_pid[1:]:
-            return False
-    foreign_papers=None
-    if hungarian_affil=="abroad":
-        foreign_papers={}
-    key, record, search_log = process_paper(paper_dict, rank_name, venues, foreign_papers=foreign_papers)
-    if search_log.strip()!="" and search_log.strip()!="Skip as not inproceedings":
-        print(search_log)
-    if key:
-        authors_data[author][name_prefix+"paper_count"+rank_name] += 1
-        acronym = paper.get("booktitle", "")
-        year = paper.get("year", "")
-        venue_year=f"{acronym}{year} "
-        authors_data[author][name_prefix+"papers"+rank_name]+=venue_year
+        print("Nem sikerült lekérni az MTMT rekordot.")
+    return None, None
 
-def count_papers_by_author(author,data,rank_name, dblp_record, venues, first_author_only=False, hungarian_affil=False, name_prefix=''):
-    """Count papers by author for a given rank.
-    
-    Args:
-        venues: Pre-loaded venues dictionary for this rank (passed in to avoid repeated file I/O)
-    """
-    first_author_pid = None
-    if first_author_only:
-        first_author_pid = data.get("dblp_url", "")
-    authors_data[author][name_prefix+"papers"+rank_name] = ""
-    authors_data[author][name_prefix+"paper_count"+rank_name] = 0
-    
-    papers_found = dblp_record.get("r", {})
-    #affil = data.get("affiliations", [])
-    if isinstance(papers_found, dict):
-        check_paper(papers_found, rank_name, first_author_pid,hungarian_affil,name_prefix,venues, authors_data, author)
-    else:
-        for paper in papers_found:
-            check_paper(paper, rank_name, first_author_pid,hungarian_affil,name_prefix,venues, authors_data, author)
+def pretty_label_map():
+    """A belső kulcsokhoz magyar címkék — típusonként rendezve (paper_count → papers → first_author → hungarian)."""
+    labels: TOrderedDict[str, str] = OrderedDict([
+        # --- Általános adatok ---
+        ("dblp_url", "DBLP azonosító"),
+        ("dblp_author_name", "DBLP szerzőnév"),
+        ("mtmt_name", "MTMT név"),
+        ("dblp_aliases", "DBLP alternatív nevek"),
+        ("affiliations", "Munkahely(ek), affiliáció"),
+        ("mtmt_affiliations", "MTMT affiliációk"),
+        ("mtmt_id", "MTMT azonosító"),
 
-def count_CORE_papers_by_author(author,data, dblp_record=None):
-    """Count papers for all CORE ranks. Loads each rank's venues JSON once and reuses it."""
-    for rank_name in ["Astar","A","B","C"]:
-        print(f"Counting {rank_name} papers for {author}...")
-        # Load venues JSON once per rank (not once per call)
-        with open('core_{}_conferences_classified.json'.format(rank_name), 'r', encoding='utf-8') as f:
-            venues = {k.upper(): v for k, v in json.load(f).items()}
-        
-        # Pass venues to all 3 calls for this rank
-        count_papers_by_author(author,data,rank_name, dblp_record, venues)
-        count_papers_by_author(author,data,rank_name, dblp_record, venues, first_author_only=True, name_prefix='first_author_')
-        count_papers_by_author(author,data,rank_name, dblp_record, venues, hungarian_affil=True, name_prefix='hungarian_')
+        ("status", "MTMT státusz"),
+        ("works", "MTMT: művek"),
+        ("mta_att_id", "MTA Köztestületi azonosító"),
+        ("mta_image", "MTA profilkép"),
+        ("mta_tud_fokozat", "Tudományos fokozat"),
+        ("mta_topic", "Tudományterület"),
+        ("mta_bizottság", "MTA bizottsági tagság"),
+        ("mta_elerhetosegek", "Elérhetőségek"),
+        ("mta_szervezeti_tagsagok", "MTA szervezeti tagságok"),
+        ("mta_dijak", "Díjak, elismerések"),
+        ("mta_kutatasi_tema", "Kutatási téma"),
+        ("phd_eve", "PhD éve"),
+        ("mta_foglalkozas", "Foglalkozás / beosztás"),
+        ("mta_szuletett", "Született"),
+        ("mta_tagsag", "MTA tagság"),
+        ("mta_elhunyt", "Elhunyt"),
+        ("mtmt_journal_publications", "MTMT folyóirat közlemények száma"),
+        ("mtmt_conference_publications", "MTMT konferencia közlemények száma"),
+        ("mtmt_total_citations", "MTMT összes idézet"),
+        ("mtmt_rank_D1", "MTMT D1 rangsor"),
+        ("mtmt_rank_Q1", "MTMT Q1 rangsor"),
+        ("mtmt_rank_Q2", "MTMT Q2 rangsor"),
+        ("mtmt_rank_Q3", "MTMT Q3 rangsor"),
+        ("mtmt_rank_Q4", "MTMT Q4 rangsor"),
+        ("mtmt_journal D1 eqvivalents", "MTMT folyóirat D1 ekvivalensek"),
+        ("Core A* equivalent Author Order", "Core A* equivalent szerint az országos sorrendben"),
+        ("Hungarian Core A* equivalent Author Order", "Magyar affilicáiós Core A* equivalent szerint az országos sorrendbe"),
+        ("First Author Core A* equivalent Author Order", "Első szerzős Core A* equivalent szerint az országos sorrendben"),
+        ("Years Since PhD", "PhD megszerzése óta eltelt idő (években)"),
+        ("Age Group", "Korcsoport"),
+        ("Age Group Core A* Rank", "Korcsoport szerinti Core A* rangsor"),
+        ("Age Group Hungarian Core A* Rank", "Korcsoport szerinti magyar affil Core A* rangsor"),
+        ("Age Group First Author Core A* Rank", "Korcsoport szerinti első szerzős Core A* rangsor"),
+        ("category", "Kategória / terület"),
+        ("Category Core A* Rank", "Kategória szerinti Core A* rangsor"),
+        ("Category Hungarian Core A* Rank", "Kategória szerinti magyar affil Core A* rangsor"),
+        ("Category First Author Core A* Rank", "Kategória szerinti első szerzős Core A* rangsor")
+    ])
 
+    # --- Logikai sorrend: előbb paper_count, aztán papers, majd first_author_papers, végül hungarian_papers ---
+    ranks = ["A*", "A", "B", "C", "no_rank"]
+
+    for r in ranks:
+        labels[f"paper_count{r}"] = f"Core {r} közlemények száma"
+    # Összesített mutató
+    labels["Core A* equivalent"] = "Core A* equivalent"
+    for r in ranks:
+        labels[f"papers{r}"] = f"{r} besorolású közlemények"
+    for r in ranks:
+        labels[f"first_author_paper_count{r}"] = f"Core {r} közlemények száma (első szerző)"
+    labels["First Author Core A* equivalent"]="First Author Core A* equivalent"
+    for r in ranks:
+        labels[f"first_author_papers{r}"] = f"Core {r} közlemények (első szerző)"
+    for r in ranks:
+        labels[f"hungarian_paper_count{r}"] = f"Core {r} közlemények száma (magyar affil)"
+    labels["Hungarian Core A* equivalent"]="Hungarian Core A* equivalent"
+    for r in ranks:
+        labels[f"hungarian_papers{r}"] = f"{r} közlemények (magyar affil)"
+    return labels
+
+
+def is_empty_value(v):
+    if v is None:
+        return True
+    if isinstance(v, str) and v.strip() == "":
+        return True
+    if isinstance(v, (list, tuple, set)) and len(v) == 0:
+        return True
+    return False
+
+
+def format_value(k, v):
+    if isinstance(v, list):
+        return ", ".join(str(x) for x in v)
+    if k == "dblp_url" and v and not v.startswith("http"):
+        return "https://dblp.org/pid" + v
+    return str(v)
+
+def print_author_hu(name, data: dict):
+    labels = pretty_label_map()
+
+    print(f"Személy: {name}")
+    print("-" * 60)
+
+    # --- 1️⃣ Kiírás a label_map sorrendjében ---
+    for key, label in labels.items():
+        if key not in data:
+            continue
+        value = data[key]
+        if is_empty_value(value):
+            continue
+        print(f"{label}: {format_value(key, value)}")
+
+    # --- 2️⃣ Maradék kulcsok (nincs formázás) ---
+    remaining_keys = [k for k in data.keys() if k not in labels and not is_empty_value(data[k])]
+
+    if remaining_keys:
+        print("\n--- Egyéb mezők ---")
+        for k in remaining_keys:
+            print(f"{k}: {format_value(k, data[k])}")
 
 if __name__ == "__main__":
+    # for debugging
+    #mtmt_id = 10025477
+    mtmt_id = 10028156
+
     if len(sys.argv)>1:
         mtmt_id = sys.argv[1]
 
     author, data = find_dblp_in_google_sheets(mtmt_id)
-    if author:
+    if author and data:
         print(f"DBLP azonosító a Google táblázatban: {author} - {data.get('dblp_url','N/A')}")
+        dblp_person = dblp_utils.get_DBLP_record(data.get('dblp_url',''), author)
+        mtmt_record, pub_rec = mtmt_utils.get_mtmt_record(str(mtmt_id))
+        record, dblp_person = build_author_record(mtmt_record=mtmt_record, pub_rec=pub_rec, dblp_record=dblp_person)
     else:
         print("Nincs DBLP azonosító a Google táblázatban, MTMT alapján keresünk...")
-        mtmt_record = get_mtmt_record(mtmt_id)
-        if mtmt_record:
-            dblp_record = find_dblp_by_name(mtmt_record)
-            if dblp_record:
-                with open("dblp_record.json", "w", encoding="utf-8") as f:
-                    json.dump(dblp_record, f, indent=2, ensure_ascii=False)
-                dblp_person = dblp_record.get("dblpperson", {})
-                name= dblp_person.get("@name", "")
-                dblp_url = "/"+dblp_person.get("@pid", "")
-                mtmt_id = mtmt_record.get("mtid", "")
-                topic = mtmt_record.get("auxName", "")
-                category = categorize(topic)
-                status = is_active_in_mtmt(mtmt_record)
-                works, affiliations = location_of_affiliation(dblp_person, mtmt_record)
-                alias = dblp_person.get("alias", [])
-                mtmt_name = mtmt_record.get("label", "")
-                authors_data = {}
-                authors_data[name] = {
-                    "dblp_url": dblp_url,
-                    "basic_info": {
-                        "author": name,
-                        "aliases": {"alias": alias} if alias else {}
-                    },
-                    "affiliations": affiliations,
-                    "mtmt_id": mtmt_id,
-                    "mtmt_name": mtmt_name,
-                    "category": category,
-                    "status": status,
-                    "works": works
-                }
-                count_CORE_papers_by_author(name, authors_data, dblp_person)
-                print(authors_data)
-                generate_author_google_sheet(authors_data, print_only=True, no_processing=True)
-                print(f"DBLP rekord megtalálva: {name} - {dblp_url}")
-            else:
-                print("Nincs DBLP rekord megtalálva a név alapján.")
+        record, dblp_person=create_record(str(mtmt_id))
+    if record and "dblp_author_name" in record:
+        name=record["dblp_author_name"]
+        author_data={}
+        author_data[name] = count_CORE_papers_by_author(name, record, dblp_person)
+        authors_data=google_author_sheet.download_author_google_sheet()
+        if name not in authors_data:
+            no_processing=False
         else:
-            print("Nem sikerült lekérni az MTMT rekordot.")
+            no_processing=True
+        authors_data[name]=author_data[name]
+        # Generate CSV and JSON with ranking fields, then print the single author
+        google_author_sheet.generate_author_google_sheet(authors_data, print_only=False, no_processing=no_processing)
+        author_data[name]=authors_data[name] # copy back single author
+        print(author_data)
+        for key, value in author_data.items():
+            print_author_hu(key,value)

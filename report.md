@@ -30,11 +30,7 @@ Az MTMT-ben a rangos konferenciák jelenleg nincsenek külön megjelölve, bár 
 
 Ebben a tanulmányban a magyar jelenlétet elemeztük a CORE A* és A konferenciákon. A hazai kutatók publikációit automatikus adatgyűjtés alapján (iCore, DBLP, MTMT, MTA-ATT összekapcsolásával) térképeztük fel. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
 
-A teljes lista itt található [Core A*](http://lendulet.tmit.bme.hu/lendulet_website/corea) és [A](http://lendulet.tmit.bme.hu/lendulet_website/corea-2). Összegezve a szűrés logikája:
-	•	csak a fő konferenciákon (main track) megjelent cikkek kerültek be,
-	•	a „szatelit” események (workshop, demo, poster, student track stb.) nem számítanak,
-	•	csak akkor számított magyar megjelenésnek, ha legalább egy szerző magyar intézményi affiliációval szerepelt a publikációban,
-	•	a cikkek MTMT-megjelenése is ellenőrzésre került, mivel sokszor hiányoznak vagy hibásan szerepelnek az adatok.
+A teljes lista itt található [Core A*](http://lendulet.tmit.bme.hu/lendulet_website/corea) és [A](http://lendulet.tmit.bme.hu/lendulet_website/corea-2). 
 
 
  Célunk annak feltárása volt, hogy mennyi és hol megjelenő minőségi magyar informatikai eredmény születik. A munkákat két kategóriába osztottuk elméleit (MTA III osztály) és gyakorlati (MTA VI osztály) informatika. Lent található két szófelhő a besorolásokról:
@@ -55,7 +51,7 @@ Megvizsgáltuk a cikkek időbeli eloszlását is. Bár a CORE-lista csak 2006 ó
 
 ![Konferenciák magyar cikkel](figures/core_A_by_year.png)
 
-Jól látszik, hogy az elméleti informatikai konferenciákon a magyar jelenlét lényegesen korábban, már az 1980-as és 1990-es években megjelent, míg a gyakorlati irányultságú konferenciákon csak a kétezres évektől kezdve találkozunk magyar kutatókkal.
+Jól látszik, hogy az elméleti informatikai konferenciákon a magyar jelenlét lényegesen korábban, már az 1980-as és 1990-es években megjelent, míg a gyakorlati irányultságú konferenciákon lényegében a kétezres évektől kezdve találkozunk magyar kutatókkal.
 Pontosabban: a CORE A szinten már a kilencvenes évektől is megfigyelhető volt aktivitás. A területek fejlődése is jól kirajzolódik: először a CORE A szinten jelentek meg a magyar cikkek, majd idővel a CORE A* konferenciákon is.
 
 Megvizsgáltuk továbbá, hogy hány különböző konferencián jelent már meg magyar kutató. Lényegesen kevesebb elméleti jellegű CORE A* és A konferenciát azonosítottunk, ezek többségén azonban már szerepeltek magyar kutatók.
