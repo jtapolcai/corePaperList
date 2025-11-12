@@ -9,6 +9,10 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 from statistics import mean
+import csv
+import os
+
+author_label=False
 
 def is_in_CORE_field(row):
     if "mta_topic" in row:
@@ -25,12 +29,12 @@ def is_in_CORE_field(row):
 
 # Try to import adjustText for automatic label positioning
 HAS_ADJUST_TEXT = False
-try:
-    from adjustText import adjust_text
-    HAS_ADJUST_TEXT = True
-except ImportError as e:
-    HAS_ADJUST_TEXT = False
-    print(f"Note: adjustText not available ({e}). Labels may overlap.")
+# try:
+#     from adjustText import adjust_text
+#     HAS_ADJUST_TEXT = True
+# except ImportError as e:
+#     HAS_ADJUST_TEXT = False
+#     print(f"Note: adjustText not available ({e}). Labels may overlap.")
 
 def load_authors_data():
     """Load full_authors_data.json with all author information."""
@@ -54,7 +58,8 @@ def extract_data_points(authors_data):
         x_val = data.get("mtmt_journal D1 eqvivalents", None)
         
         # Get y value: Hungarian Core A* equivalent
-        y_val = data.get("Hungarian Core A* equivalent", None)
+        #y_val = data.get("Hungarian Core A* equivalent", None)
+        y_val = data.get("Core A* equivalent", None)
         
         # Get work location
         works = data.get("works", "").lower()
@@ -98,6 +103,87 @@ def extract_data_points(authors_data):
         'abroad': (abroad_x, abroad_y, abroad_names)
     }
 
+def save_data_to_csv(data_points, output_dir="doc/figures"):
+    """Save scatter plot data points to CSV files for TikZ plotting."""
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Save data for each category
+    for category in ['hungary', 'company', 'abroad']:
+        x_vals, y_vals, names = data_points[category]
+        if not x_vals:
+            continue
+            
+        csv_path = os.path.join(output_dir, f"journal_vs_conference_{category}.csv")
+        with open(csv_path, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['x', 'y', 'name'])
+            for x, y, name in zip(x_vals, y_vals, names):
+                writer.writerow([x, y, name])
+        
+        print(f"Saved {len(x_vals)} data points to {csv_path}")
+
+def generate_tikz_plot(output_dir="doc/figures"):
+    """Generate TikZ/PGFPlots code for the scatter plot."""
+    tikz_code = r"""\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}
+    \begin{loglogaxis}[
+      width=0.9\textwidth,
+      height=0.7\textwidth,
+      xlabel={MTMT Journal D1 Equivalents},
+      ylabel={Core A* Equivalent},
+      title={Journal Publications vs Conference Publications},
+      legend pos=north west,
+      grid=both,
+      grid style={line width=.1pt, draw=gray!10},
+      major grid style={line width=.2pt,draw=gray!50},
+      xmin=0.1, xmax=1000,
+      ymin=0.1, ymax=1000,
+    ]
+    
+    % Hungary (green)
+    \addplot[
+      only marks,
+      mark=*,
+      mark size=2pt,
+      color=green!70!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_hungary.csv};
+    \addlegendentry{Hungary}
+    
+    % Company (yellow)
+    \addplot[
+      only marks,
+      mark=*,
+      mark size=2pt,
+      color=yellow!80!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_company.csv};
+    \addlegendentry{Company}
+    
+    % Abroad (red)
+    \addplot[
+      only marks,
+      mark=*,
+      mark size=2pt,
+      color=red!70!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_abroad.csv};
+    \addlegendentry{Abroad}
+    
+    \end{loglogaxis}
+  \end{tikzpicture}
+  \caption{Folyóirat-publikációk vs konferenciacikkek szerzők szerint. Az egyes szerzők munkahelyük szerint vannak színezve (zöld: Magyarország, sárga: cég, piros: külföld).}
+  \label{fig:journal_vs_conference}
+\end{figure}
+"""
+    
+    tikz_path = os.path.join(output_dir, "journal_vs_conference_plot.tex")
+    with open(tikz_path, 'w', encoding='utf-8') as f:
+        f.write(tikz_code)
+    
+    print(f"TikZ plot code saved to {tikz_path}")
+
 def create_plot(data_points):
     """Create scatter plot with log scales and author name annotations."""
     fig, ax = plt.subplots(figsize=(14, 10))
@@ -119,32 +205,35 @@ def create_plot(data_points):
     if data_points['hungary'][0]:  # Check if there's data
         ax.scatter(data_points['hungary'][0], data_points['hungary'][1], 
                   c='green', alpha=0.6, s=50, label='Hungary')
-        # Add name annotations for Hungary
-        for x, y, name in zip(data_points['hungary'][0], data_points['hungary'][1], data_points['hungary'][2]):
-            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8, 
-                       xytext=(3, 3), textcoords='offset points',
-                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
-            texts.append(text)
+        if author_label:
+            # Add name annotations for Hungary
+            for x, y, name in zip(data_points['hungary'][0], data_points['hungary'][1], data_points['hungary'][2]):
+                text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8, 
+                        xytext=(3, 3), textcoords='offset points',
+                        bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+                texts.append(text)
     
     if data_points['company'][0]:
         ax.scatter(data_points['company'][0], data_points['company'][1], 
                   c='yellow', alpha=0.6, s=50, label='Company', edgecolors='black', linewidth=0.5)
-        # Add name annotations for Company
-        for x, y, name in zip(data_points['company'][0], data_points['company'][1], data_points['company'][2]):
-            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
-                       xytext=(3, 3), textcoords='offset points',
-                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
-            texts.append(text)
+        if author_label:
+            # Add name annotations for Company
+            for x, y, name in zip(data_points['company'][0], data_points['company'][1], data_points['company'][2]):
+                text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
+                        xytext=(3, 3), textcoords='offset points',
+                        bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+                texts.append(text)
     
     if data_points['abroad'][0]:
         ax.scatter(data_points['abroad'][0], data_points['abroad'][1], 
                   c='red', alpha=0.6, s=50, label='Abroad')
-        # Add name annotations for Abroad
-        for x, y, name in zip(data_points['abroad'][0], data_points['abroad'][1], data_points['abroad'][2]):
-            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
-                       xytext=(3, 3), textcoords='offset points',
-                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
-            texts.append(text)
+        if author_label:
+            # Add name annotations for Abroad
+            for x, y, name in zip(data_points['abroad'][0], data_points['abroad'][1], data_points['abroad'][2]):
+                text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
+                        xytext=(3, 3), textcoords='offset points',
+                        bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+                texts.append(text)
     
     # Use adjustText if available to prevent label overlap
     if HAS_ADJUST_TEXT and texts:
@@ -153,8 +242,8 @@ def create_plot(data_points):
                    force_points=(0.5, 0.5), force_text=(0.5, 0.5))
     
     # Set log scale for both axes
-    #ax.set_xscale('log')
-    #ax.set_yscale('log')
+    ax.set_xscale('log')
+    ax.set_yscale('log')
     
     # Labels and title
     ax.set_xlabel('MTMT Journal D1 Equivalents (log scale)', fontsize=12)
@@ -203,10 +292,18 @@ def main():
     print("Creating plot...")
     fig = create_plot(data_points)
     
-    # Save figure
+    # Save figure as PNG
     output_file = "journal_vs_conference_plot.png"
     fig.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"Plot saved to {output_file}")
+    
+    # Save data points to CSV files
+    print("\nSaving data to CSV files...")
+    save_data_to_csv(data_points)
+    
+    # Generate TikZ plot code
+    print("Generating TikZ plot code...")
+    generate_tikz_plot()
     
     # Show plot
     plt.show()

@@ -1,0 +1,399 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[magyar, english]{babel}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{tikz}
+%\usepackage{fontspec}
+\usetikzlibrary{positioning, shapes, fit}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+%\usepackage[backend=bibtex,style=authoryear]{biblatex}
+%\addbibresource{irodalom.bib}
+%
+%\usepackage[hungarian]{babel}
+%\usepackage{lmodern}
+%\setlength{\parskip}{0.6em}
+%\setlength{\parindent}{0pt}
+%\urlstyle{same}
+%\usepackage{geometry}
+%\geometry{a5paper,margin=2.5cm} % B5-hez közelebb: de itt A5 példaként
+
+
+\title{A CORE konferenciarangsor a hazai informatikai kutatásban\\[0.5em]
+\textit{The CORE Conference Ranking in Hungarian Computer Science Research}}
+\author{Tapolcai János, MTA doktora\\
+%Munkahely neve, Város, Ország\\
+%E-mail: tapolcai.janos@vik.bme.hu\\
+%Beküldés dátuma: 2025-MM-DD
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\selectlanguage{magyar}
+
+\begin{abstract}
+A tanulmány a rangos konferenciapublikációk szerepét vizsgálja a hazai informatikai kutatásban. Rámutatunk, hogy a magyar tudománymetriai gyakorlat – amely jelenleg folyóirat-orientált – eltér az informatika nemzetközi publikációs normáitól, és ez torz ösztönzőket eredményez a kutatói értékelésben. Több adatbázis (iCore, DBLP, MTMT, MTA-ATT) összekapcsolásával feltérképeztük a magyar affiliációjú CORE A* és A szintű konferenciacikkeket, azok időbeli és tematikus eloszlását, valamint a szerzők pályaútjait. Eredményeink szerint az elméleti területeken korábban és nagyobb arányban jelent meg a nemzetközi jelenlét, míg az alkalmazott területeken erősebb az elvándorlás. Javasoljuk, hogy a CORE A* konferenciacikkeket D1, a CORE A cikkeket pedig Q1 folyóiratokkal tekintsék egyenértékűnek a hazai értékelési rendszerekben.
+\par\medskip
+\textbf{Kulcsszavak:} CORE konferenciarangsor; tudománymetria; informatikai publikáció; magyar affiliáció.
+\end{abstract}
+
+%\begin{abstract}
+%A tanulmány a rangos konferenciapublikációk szerepét vizsgálja a hazai informatikai kutatásban. Áttekintjük, hogy a magyar tudománymetriai gyakorlat – amely jelenleg erősen folyóirat-orientált – miként tér el az informatika nemzetközi publikációs normáitól, és bemutatjuk, hogy ez milyen ösztönzési torzulásokhoz vezet a doktori, habilitációs és MTA-értékelési eljárásokban. Több publikációs adatbázis (például iCore, DBLP, MTMT, MTA-ATT) összekapcsolásával feltérképezzük a magyar affiliációjú CORE A* és A szintű konferenciacikkek időbeli és tematikus eloszlását (elméleti vs. alkalmazott informatika), valamint a szerzők pályaútjait. Eredményeink szerint (i) az elméleti területeken korábban és nagyobb arányban jelent meg a nemzetközi jelenlét; (ii) az informatikai tudomány hazai fejlődését fékezi a nemzetközi mobilitással és külföldi tapasztalattal rendelkező – illetve hazatérő – kutatók alacsony aránya, miközben a kivándorlás jelentős; (iii) a hazai értékelési rendszer aránytalanul preferálja a konferenciacikkek folyóirat-változatait. Szakpolitikai javaslatként indítványozzuk, hogy a CORE A* konferenciacikkeket D1, a CORE A konferenciacikkeket pedig Q1 folyóiratcikkekkel tekintsék egyenértékűnek a hazai minősítési rendszerekben. A javaslat várható hatása a nemzetközi láthatóság növekedése, a fiatal kutatók itthon tartása és a publikációs erőforrások hatékonyabb felhasználása.
+%\par\medskip
+%\textbf{Kulcsszavak:} CORE konferenciarangsor; tudománymetria; informatikai publikáció; magyar affiliáció; szakpolitikai ajánlás.
+%\end{abstract}
+
+\selectlanguage{english}
+
+\begin{abstract}
+This study examines the role of top-tier conference publications in Hungarian computer science research. We show that the national scientometric practice—currently journal-oriented—diverges from international norms, creating incentive distortions in researcher evaluation. By linking multiple databases (iCore, DBLP, MTMT, MTA-ATT), we mapped Hungarian-affiliated CORE A* and A conference papers, their temporal and thematic distribution, and author trajectories. Results indicate earlier and stronger international presence in theoretical fields, while applied areas show higher outmigration. We recommend recognizing CORE A* papers as equivalent to D1 and CORE A papers as equivalent to Q1 journals in national evaluation systems.
+\par\medskip
+\textbf{Keywords:} CORE conference ranking; scientometrics; computer science; Hungarian affiliation.
+\end{abstract}
+
+\selectlanguage{magyar}
+
+\section{Bevezetés}
+
+Az informatikai tudományterületen a publikálási kultúra jelentősen eltér a többi tudományágétől. A jelentés alapján az informatika az egyedüli olyan tudományág, ahol a konferencia publikációk a fontosak, és a folyóiratok pedig nem \cite{DFG2022Publishing}. Ezzel szemben a többi tudományterületen a meghatározó eredmények folyóiratokban jelennek meg, lásd \ref{fig:tudomanyok} ábrát.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=14cm]{figures/dfg_konferenciak_vs_folyoiratok.png}
+  \caption{Folyóiratok és konferenciák fontossága szakterületenként a Német Kutatási Alap 2022-es stratégiai állásfoglalásában}
+  \label{fig:tudomanyok}
+\end{figure}
+
+Az Informatikában ezek a kiemelt konferenciák nem átlagos rendezvények: leginkább abban különböznek a legjobb folyóiratoktól, hogy rendkívül szigorú a bírálati ütemezésük. Előre rögzített, hogy mikor kell regisztrálni a cikket, leadni, reagálni az első körös bírálatokra stb. A szigorú ütemezés komoly kihívás elé állítja a konferenciaszervezőket, de van akkora presztízs egy ilyen konferencián bíráló bizottsági tagnak lenni, hogy a legjobb kutatók is elvállalják. Továbbá bevetik a csapatmunka támogatására kifejlesztett teljes informatikai eszköztárat -- online vitákat, a bírálók egymás pontozását, valamint a bírálók számának dinamikus növelését (egy elfogadott cikk akár hat bírálatot is kaphat, egy bírálónak meg több mint tíz cikket kell bírálnia) stb. Illetve van hagyománya az úgynevezett árnyékbizottságnak (shadow TPC) is, akik megkapják az összes beérkezett cikket, és azokat párhuzamosan lebírálják, majd a végén elemzik, hogy az általuk elfogadott cikkek mennyire fedik át a konferencia ténylegesen elfogadott cikkeit. A bírálók olykor annyira magabiztosak a döntésükben, hogy az elfogadott cikkek bírálatait nyilvánosságra is hozzák. A szigorú határidőknek azonban megvannak a korlátai, és soha nem fogják helyettesíteni azt a fajta minőségi folyóirat-bírálatot, amikor a bíráló -- akár évek alatt -- soronként átnézi a cikket (a bizonyítások részleteivel).
+
+Az innovációs szféra közelsége tette ezt a gyors és minőségi bírálati folyamatot népszerűvé, amit az is jól mutat, hogy a nagy informatikai vállalatok jelentős összegeket fordítanak ezeknek az eseményeknek a támogatására. Másfelől a kutatók is versenyeznek az innovációs szféra figyelméért, és egy rangos konferencián való megjelenés jelentősen növeli egy eredmény láthatóságát. Ennek hatására mára olyan konferenciák alakultak ki, amelyek újdonságtartalmukban és presztízsükben is meghaladják a vezető folyóiratokat az informatika területén.
+
+A konferenciák versenyében segít eligazodni a CORE konferenciarangsor. A CORE lista 2006 óta létezik, az Ausztrál Tudományos Akadémia és szakmai grémiumok közreműködésével. A minősítési rendszer négy fő kategóriát különböztet meg (A*, A, B, C), és néhány évente frissítik. A rangsorolás középpontjában a következetes lektorálási folyamat, a reputáció, a történeti hivatkozottság, a közösség bevonódása és a konferenciák szakmai presztízse áll.
+
+\begin{table}[h!]
+\centering
+\caption{Folyóirat- és konferenciakategóriák megfeleltetése}
+\label{fig:corecathegories}  
+\begin{tabular}{lc|l}
+\toprule
+\multicolumn{2}{c|}{\textbf{Folyóiratcikkek}} & \textbf{Konferenciacikkek} \\
+\midrule
+Norvég 2 & D1 & CORE A* \\
+\hline
+\multirow{3}{*}{Norvég 1} & Q1 & CORE A \\
+\cline{2-3}
+& Q2 & CORE B \\
+\cline{2-3}
+& Q3 & CORE C \\
+\hline
+Norvég 0 & Q4 & Nem rangsorolt \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+A legmagasabb, A* kategóriába tartozó konferenciák szelekciós aránya a vezető folyóiratok szintjén van (megközelíti a D1-es besorolású lapokat, illetve a norvég lista 2-es szintjét), lásd \ref{fig:corecathegories} ábrát. Ezeken a fórumokon az elfogadási ráta 10\%–20\% között van. A* konferenciák esetében a főszöveg terjedelme jellemzően kilenc oldal, amelyhez tetszőlegesen hosszú függelék csatolható, így terjedelmileg és minőségileg is megfelelhet akár egy D1-es folyóiratnak.  A CORE A kategória szintén magas minőséget képvisel, de az áttörő eredmény itt kevésbé elvárás. Ilyen konferenciából háromszor több van, mint A*-osból. Más tudományterületeken a Q1-es folyóiratok jelentik a hasonló szintet. A CORE B kategória még mindig minőségi publikációnak számít, nagyjából a Q2-es folyóiratoknak feleltethető meg. Kétes minőségűnek azokat a konferenciákat tekintik, amelyeket a CORE nem rangsorol – ezek a norvég lista 0-s szintjének vagy a Q4-es folyóiratoknak feleltethetők meg.
+Megjegyzendő, hogy a konferencia-orientált tudományterületeken a folyóiratok nehezebb helyzetben vannak a bírálók toborzása miatt, ezért ezeken a szakterületeken a D1, Q1, Q2 stb. kategóriák határai némileg eltolódnak lefelé.
+
+\section{Konferenciapublikációk megítélése a hazai tudományban}
+
+A hazai tudománymetriai gyakorlatban a kiemelkedő minőségű konferenciacikkek megítélése még nem kiforrott. Tudomásunk szerint jelenleg két doktori iskola -- az SZTE Informatikai Doktori Iskola és a BME Matematikai Doktori Iskola -- veszi figyelembe a jelöltek minőségi konferenciapublikációit az értékelés során. Az MTA doktori szinten a III. (Matematikai) Osztály esetében a rangos konferenciacikkek kizárólag a kiemelt hivatkozások között számítanak, és ezeket a CORE A és A* konferenciarangsor alapján definiálják. A hazai, folyóirat-orientált értékelési szemlélet azonban nem tükrözi az informatika nemzetközi publikációs gyakorlatát, így előfordulhat, hogy egy A* besorolású konferencián megjelent, jelentős kutatói teljesítményt képviselő tanulmány sem kap megfelelő elismerést.
+
+Az MTMT-ben a rangos konferenciák jelenleg nincsenek külön megjelölve, bár az MTMT3 fejlesztése során ez a funkció várhatóan megjelenik. A magyar informatikus kutatók így elsősorban a saját szakterületük konferenciáit követhetik nyomon, ám eddig nem állt rendelkezésre átfogó kép a hazai teljesítményről. Ezt a hiányt pótolandó összegyűjtöttük a magyar kutatók CORE A* és A kategóriás konferenciacikkeit.
+
+\section{Magyar jelenlét a CORE A* és A konferenciákon}
+
+%Ebben a tanulmányban a magyar jelenlétet elemeztük a CORE A* és A konferenciákon. 
+A hazai kutatók publikációit automatikus adatgyűjtés alapján (iCore, DBLP, MTMT, MTA-ATT összekapcsolásával) térképeztük fel. Egy cikket akkor számolunk magyar kötődésűnek, ha legalább egy szerzője magyar affiliációt tüntet fel a cikken. Fontos kiemelni, hogy a CORE szerinti besorolásnál csak a konferencia fő track-jén megjelent cikkeket vizsgáljuk, mert a kísérő események (workshopok, poszter- és demo-szekciók, doktoranduszi programok) közti különbség meghatározó. Sok szerző hajlamos workshop-, demo- vagy poszteranyagot is „fő-konferenciacikként” feltüntetni, ezért szükséges volt kézzel leválogatni a cikket. A válogatás némi szakmai ismeretet is igényel. Például a poszter nem mindig jelent szatellit eseményt: egyes A*-os konferenciákon (például az ICSE esetében) a több ezer résztvevő közül csak néhány tucat prezentálhat a fő szekcióban (main track), míg a többiek poszterként jelennek meg – pedig a cikkeik ugyanazon a szigorú bírálati folyamaton mentek keresztül.
+
+
+Célunk annak feltárása volt, hogy mennyi és hol megjelenő minőségi magyar informatikai eredmény születik. A munkákat két kategóriába osztottuk: elméleti (MTA III. osztály) és gyakorlati (MTA VI. osztály) informatika. 
+%Lent található két szófelhő a besorolásokról:
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/author_auxname_wordcloud_class_3.png}
+%  \caption{Szófelhő az elméleti informatikai cikkek szerzőinek tudományterületéről}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/author_auxname_wordcloud_class_6.png}
+%  \caption{Szófelhő a gyakorlati informatikai cikkek szerzőinek tudományterületéről}
+%\end{figure}
+%
+A teljes lista a  \url{http://lendulet.tmit.bme.hu/lendulet_website/corea} címen található található.
+%{Core A*} és \href{http://lendulet.tmit.bme.hu/lendulet_website/corea-2}{A} címeken található található.
+
+
+\input{hungarian_summary_table.tex}
+%\input{already_abroad_summary_table.tex}
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/hungarian_core_Astar_A_class_pies.png}
+%  \caption{Konferenciák magyar cikkel}
+%\end{figure}
+
+A \ref{tab:hungarian_core_summary} táblázat mutatja a talált magyar affiliációval publikált CORE A* és A konferenciacikket.
+Valamivel több elméleti cikket találtunk a CORE A* szinten, és dupla annyi alkalmazott informatikai cikket a CORE A szinten.
+% Az informatikai területen mind a D1, mind pedig a Q1 folyóiratcikkek száma 1975 óta bőven meghaladja ennek a tízszeresét magyar affiliációval.
+
+Megvizsgáltuk a cikkek időbeli eloszlását is. A CORE-lista 2006 óta létezik, az azt megelőző évek elemzéséhez a 2006-os verzió szolgált alapul.
+
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.9\textwidth,
+    height=8cm,
+    xlabel={Év},
+    ylabel={Core A$*$ cikkek száma},
+    legend style={at={(0.01,0.99)}, anchor=north west, legend columns=1, draw=none},
+    xtick=data,
+    %x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+    ymin=0, ymax=45,
+    %ymode=log,
+    xtick={1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025},
+    xticklabel style={/pgf/number format/1000 sep={}},
+]
+% Elméleti informatika (piros)
+\addplot[thick, red!70!black, fill=red!40, fill opacity=0.3, mark=none, area legend]
+    table[x=Year, y=3, col sep=comma] {figures/hungarian_coreAstar_by_year.csv}
+    \closedcycle;
+
+% Alkalmazott informatika (kék)
+\addplot[thick, blue!70!black, fill=blue!40, fill opacity=0.3, mark=none, area legend]
+    table[x=Year, y=6, col sep=comma] {figures/hungarian_coreAstar_by_year.csv}
+    \closedcycle;
+
+\addplot[thick, red,  mark=none] table[x=Year, y=3, col sep=comma] {figures/already_abroad_coreAstar_by_year.csv};
+\addplot[thick, blue, mark=none] table[x=Year, y=6, col sep=comma] {figures/already_abroad_coreAstar_by_year.csv};
+
+\legend{Elméleti informatika magyar cikkek (III osztály), Alkalmazott informatika magyar cikkek (VI osztály), Összes elméleti informatika cikkek (III osztály), Összes alkalmazott informatika cikkek (VI osztály)}
+\end{axis}
+\end{tikzpicture}
+\caption{Magyar affiliációval rendelkező CORE A* konferenciacikkek éves megoszlása. A folytonos vonal az ugyanazon szerzők összes CORE A* cikkének számát mutatja, tehát amiben külföldi affiliációval megjelent publikációik is szerepel.}
+\label{fig:hungarian_astar_stacked}
+\end{figure}
+
+
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/core_Astar_by_year.png}
+%  \caption{Konferenciák magyar cikkel (A*)}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/core_A_by_year.png}
+%  \caption{Konferenciák magyar cikkel (A)}
+%\end{figure}
+
+Jól látszik, hogy az elméleti informatikai konferenciákon a magyar jelenlét lényegesen korábban, már az 1970-es és 1980-as években megjelent, míg a gyakorlati irányultságú konferenciákon csak az 1990-es évektől kezdve találkozunk magyar kutatókkal. Bár a hazai affiliációjú publikációk száma csak mérsékelt növekedést mutat, ugyanazon szerzők összes CORE A* cikkeinek száma látványosan emelkedett. Ez jól jelzi, hogy jelentős potenciál rejlik a magyar informatikai kutatásban: a magyar kutatók gyorsan kibontakoznak, amint olyan nemzetközi közegbe kerülnek, amely ösztönzi a CORE A* szintű részvételt.
+
+A \ref{tab:conference_pies_summary} táblázat azt mutatja, hogy a vizsgált konferenciák mintegy felén már megjelent legalább egy magyar kutató cikkel. Az elméleti jellegű CORE A* és A konferenciák száma lényegesen alacsonyabb, és összességében mintegy $3.8$-szor több CORE A konferencia létezik, mint CORE A*.
+
+\input{figures/conference_pies_summary.tex}
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/conference_core_Astar_A_pie.png}
+%  \caption{Konferenciák magyar cikkel}
+%\end{figure}
+
+\section{A magyar informatikus kutatók kihívásai}
+
+%A publikációs stratégia szempontjából komoly dilemmát jelent a hazai fiatal kutatók számára, hogy a magyar minősítési rendszer lényegében csak a folyóiratcikkeket díjazza, míg a nemzetközi informatikai közeg a konferenciapublikációkat értékeli nagyobbra. Így 
+A hazai kutatók karrierjük elején döntés elé kényszerülnek: ha Magyarországon szeretnének érvényesülni, akkor a doktori fokozat megszerzése és a későbbi sikeres pályázatok érdekében a folyóiratpublikációk számának növelése a cél. Ha viszont nemzetközi informatikai pályát kívánnak építeni, akkor elsődleges céljuk, hogy legyen CORE A* (vagy A) konferenciacikk publikációjuk, és lehetőleg első szerzőként. Megjegyezzük, hogy például a Technionon a doktori védés publikációs feltétele egy első szerzős CORE A* konferenciacikk.
+
+A \ref{tab:excellence_summary}. táblázatban arról gyűjtöttünk adatokat, hogy azok a kutatók, akik aktívan publikálnak CORE A és A* szintű konferenciákon, milyen arányban választanak külföldi kutatói karriert.
+Egy kutatót akkor tekintünk aktívnak, ha az elmúlt három évben frissítette MTMT-profilját, honlapján nem tüntet fel külföldi egyetemi affiliációt, és LinkedIn-profilja alapján nem dolgozik sem hazai, sem nemzetközi ipari munkahelyen. Ha már nem aktív a hazai kutatói közösségben, megkülönböztetjük, hogy külföldön folytatja-e tevékenységét, vagy magyarországi vállalatnál helyezkedett el, és már nem vesz részt a tudományos életben. A doktori képzés egyik alapvető célja, hogy magasan képzett munkaerőt biztosítson a magyar ipar számára.
+
+A kutatókat négy szintre osztottuk a CORE A* és A konferenciákon mutatott aktivitásuk alapján: aktív, feltörekvő, nemzetközi és befutott kutatókra. Minden szerzőt a legmagasabb elért szintnek megfelelő kategóriába soroltunk. A szinteket a CORE A*–ekvivalens publikációk száma határozza meg, ahol három CORE A cikk egy CORE A* publikációnak felel meg, mivel a rangsorban hozzávetőleg háromszor annyi CORE A konferencia található, mint A*. A táblázat összefoglalja, hogy az egyes szintekhez hány CORE A*–ekvivalens publikáció szükséges. Már a „feltörekvő kutatói” szinttel is jó eséllyel szerezhető külföldi kutatói állás, míg a „befutott” szint elérése a vezető egyetemek és kutatóintézetek szintjén is versenyképesnek számít.
+
+\input{figures/excellence_summary_table.tex}
+
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/Established_theory_applied_pies.png}
+%  \caption{Established}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/Expert_theory_applied_pies.png}
+%  \caption{Expert}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/Rising_theory_applied_pies.png}
+%  \caption{Rising}
+%\end{figure}
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/Entry_theory_applied_pies.png}
+%  \caption{Entry}
+%\end{figure}
+
+A táblázat alapján az elméleti informatika területén a kutatókat a feltörekvő és nemzetközi szinteken nagyobb arányban sikerül megtartani a hazai tudományos közösségben. Ez részben azzal magyarázható, hogy az elméleti informatikai kutatás korábban érte el a CORE A* szintet, mint az alkalmazott informatika, így a hazai támogatási és értékelési rendszereknek több idejük volt ehhez igazodni. Befutott kutatókat azonban mindkét területen csak kis arányban sikerül itthon tartani.
+
+Lényegesen kevesebb elméleti kutató helyezkedett el magyarországi vállalatoknál, főként a Morgan Stanley-nél. Egy teljes kutatói generáció hagyta el az akadémiai pályát, amikor a Google megnyitotta a magyarországi kutatóközpontját, azonban ők ma már jellemzően külföldön dolgoznak. Az alkalmazott kutatók elsősorban az Ericssonhoz, illetve kisebb magyar startupokhoz mentek el dolgozni. 
+
+A Befutott kategóriákban több elméleti kutatót találtunk, mint alkalmazottat, míg a kisebb szinteken éppen fordított a helyzet. Megjegyezzük, hogy az alkalmazott kutatások jellemzően nagyobb kutatócsoportokat igényelnek, ezért ezekben a publikációkban általában több szerző vesz részt, ami a statisztikai arányokat is befolyásolhatja.
+
+A \ref{fig:journal_vs_conference}. ábra a kutatók konferencia- (függőleges tengely) és folyóiratpublikációs (vízszintes tengely) aktivitását mutatja. A tengelyek logaritmikus skálájúak. A publikációk súlyozása a következő módon történt:
+\[
+y = \mathrm{A^*} + \frac{\mathrm{A}}{3} + \frac{\mathrm{B}}{6} + \frac{\mathrm{C}}{9} + \frac{\mathrm{nincs\ a\ CORE\-ban}}{12}, \quad
+x = D1 + \frac{Q1}{3} + \frac{Q2}{6} + \frac{Q3}{9} + \frac{Q4}{12}.
+\]
+A pontokat a kutatók aktuális munkahelye szerint színeztük. Jól megfigyelhető, hogy a konferenciapublikálásban aktív kutatók döntő többsége külföldön dolgozik; akik pedig Magyarországon maradnak, jellemzően párhuzamosan folyóiratcikkeket is publikálnak.
+ 
+\input{figures/journal_vs_conference_plot.tex}
+
+%Ezt az arányt egy külön ábrán is bemutatjuk, ahol a vízszintes tengely a kutatók által elért CORE A-ekvivalens publikációk számát, míg a függőleges tengely az adott szinten lévő magyar szerzők számát mutatja.
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/author_distribution_A_all_cdf.png}
+%  \caption{Szerzők száma vs. minimum CORE A*-ekvivalens cikkeinek száma}
+%\end{figure}
+
+%Az ábrán jól megfigyelhető, hogy az elméleti kutatóknál a görbének jellegzetes „hasa” van 3 és 9 közötti publikációszámnál. Ez a jelenség vélhetően annak köszönhető, hogy az elméleti informatika területén jobban sikerül itthon tartani a fiatal kutatókat, illetve annak is, hogy az elméleti informatikai publikálásnak Magyarországon régebbi és erősebb hagyománya van a nemzetközi konferenciákon. Már 3 CORE A* konferenciacikkel is nagyon jó külföldi kutatói állások érhetők el, mivel nagy a kereslet az ilyen teljesítményű kutatók iránt a vezető nemzetközi egyetemeken és kutatóintézetekben.
+%
+%A két görbe lecsengése közötti különbség abból is adódik, hogy az elméleti jellegű cikkeknek általában kevesebb szerzője van, mint az alkalmazott kutatásoknak. Intuíciónk ellenőrzésére — miszerint a magyar tudományos közéletből sok alkalmazott informatikai cikk hiányzik — elkészítettünk egy tortadiagramot azokból a publikációkból, amelyek a fentebb vizsgált magyar szerzőktől származnak, de már csak külföldi affiliáció szerepelt rajtuk.
+%
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/already_abroad_core_Astar_A_class_pies.png}
+%  \caption{Konferenciák magyar cikkel}
+%\end{figure}
+%
+%Az elméleti informatikában is jelentős a külföldre vándorlás, de az alkalmazott informatikában ezeknél a szerzőknél kétszer annyi cikk született, jellemzően olyan környezetben, ahol a kutatókat kifejezetten motiválják a top konferenciás publikációkra. Az is megfigyelhető, hogy a CORE A konferenciák kevésbé vannak a célkeresztben külföldön.
+%
+%Mindez jól mutatja, mekkora potenciál rejlik az alkalmazott kutatási területek kutatói utánpótlásának megerősítésében.
+
+\section{Informatika hatása a tudományra}
+
+Bár a probléma első látásra egy szűk szakterületet – az informatikát – érinti, hatása valójában az egész magyar tudományra kiterjed. Ma már szinte minden kutatásnak van informatikai vonatkozása, és a kutatás sikeressége szempontjából meghatározó, hogy az informatikai szaktudás mennyire erős. Szerencsére a kutatók a legtöbb tudományterületen fokozatosan elsajátították az informatikai módszerek használatát, ami mérsékli ezt a versenyhátrányt. A következő fejezet néhány gyakori példán keresztül szemlélteti, hogy mindez önmagában miért nem helyettesítheti egy informatikus kutató szakterületi tudását, miért érdemes fejlett informatikai eszközökkel végezni a kutatást, illetve hogy a hardverbővítésnél gyakran léteznek hatékonyabb megoldások.
+
+Az adatok kezelésére elterjedt eszköz az Excel-táblázat, amely akkor bizonyul hasznosnak, ha előre világosan látszik, hogyan kívánják az adatokat később felhasználni. A kutatások azonban jellemzően nem ilyenek: az adatgyűjtés fázisában ez többnyire még nem egyértelmű, és több lehetséges kimenetel is nyitva marad. Az Excel makrókon keresztül bizonyos mértékig programozható, de célszerűbb az adatokat professzionális adatkezelő szoftverekben gyűjteni, amelyek összetett műveletek végrehajtására is alkalmasak. Ez nagyobb kutatói szabadságot biztosít azáltal, hogy lehetővé teszi bonyolult lekérdezések és elemzések elvégzését.
+
+A csapatmunka szoftveres támogatása egy másik terület, ahol az informatika élen jár. Egy nagyméretű szoftver fejlesztése több ezer ember összehangolt munkáját igényli, amelyben az egyes funkcióknak rendkívül precízen kell együttműködniük – sokkal precízebben, mint ahogy az a kutatási folyamatokban általában megszokott. A kutatást nagyban megkönnyíti ezeknek a kifinomult eszközöknek az ismerete, még akkor is, ha a kutatócsoport csupán néhány főből áll.
+
+A verziókövetés lehetővé teszi, hogy több kutató párhuzamosan dolgozzon ugyanazon adathalmazon vagy modellen, miközben az egyes változtatások nem vesznek el, hanem kontrolláltan integrálhatók. Segítségével minden módosítás visszakereshető, dokumentálható, és szükség esetén visszaállítható a korábbi állapot. A kutatási adatok esetében ez különösen fontos, mert biztosítja az átláthatóságot, reprodukálhatóságot és hitelességet. A mérések elemzésekor így könnyebben azonosíthatók a hibás adatok, és ha az elemzés teljesen automatizált, akkor a hibás adat kijavítása után a teljes adatfeldolgozás automatikusan elindul. Ennek köszönhetően például az ebben a tanulmányban szereplő ábrák és táblázatok is automatikusan frissülnek, ahogy újabb magyar cikkek jelennek meg.
+
+Másik példa, amikor az adatokon bonyolultabb számításokat kell végezni, és a kutatók ehhez saját szoftvert fejlesztenek. Ezekre a szoftverekre jellemző, hogy a fejlesztés során többször is változnak az igények. Könnyen módosítható szoftver készítése azonban lényegesen magasabb szintű informatikai tudást igényel, mint a hagyományos, specifikáció alapú fejlesztés. A cél az, hogy a szoftver objektumstruktúrája jól tükrözze a vizsgált probléma sajátosságait. Ehhez egyszerre kell érteni a kutatott témához és az agilis fejlesztési módszertanhoz. Itt is előny, ha a kutatók ismerik azokat az informatikai eszközöket, amelyeket a közös fejlesztések támogatására hoztak létre, és ezeken keresztül kommunikálnak a fejlesztőkkel. Sőt, célszerű ezeken keresztül nemzetközi szoftverfejlesztési projektekbe is bekapcsolódni, hogy „ne találják fel újra a "spanyolviaszt.”
+
+Gyakran az informatikai kutató hiányára utal az is, ha a problémát megoldó szoftver kivárhatatlanul sokáig fut. Ilyen esetekben gyakori, hogy a számítás egyetlen modul miatt akad el. Tipikus példa az elakadásra, amikor egy lassú modul főként olyan részleteket számol ki, amelyekre valójában nincs is szükség ilyen mélységben. Ilyenkor az informatikus kutatónak mélyebben meg kell értenie a számítás menetét, és szükség esetén módosítani kell a számítás menetét. Az is előfordul, hogy a szűk keresztmetszetet jelentő modul jól párhuzamosítható, és megfelelő elosztott számítási kapacitással – például olcsó GPU-k alkalmazásával – jelentősen felgyorsítható. 
+
+A modern számítógépek elképesztő számítási kapacitással rendelkeznek, ezért nagyon ritka, hogy egy kutató valóban olyan feladatot próbáljon megoldani, amely saját szuperszámítógép beruházását indokolja. Sokkal gyakoribb, hogy a probléma valójában egy másik, jobban megtervezett számítási módszerrel – esetleg némi kompromisszummal – hatékonyan kezelhető lenne. Ehez informatikai kutató szükséges.
+
+Az elméleti kutatások célja elsősorban új informatikai eszközök és módszerek kidolgozása, vagyis megoldást adni olyan problémákra, amelyeket korábban megoldhatatlannak gondoltak. Bár ezek hatása gyakran széles körű, konkrét alkalmazásokban is áttörést hozhatnak. A magyar elméleti informatika hosszabb múltra tekint vissza, és nemzetközi szinten is jelentős eredményeket ért el, amit az ERC-díjak is jól mutatnak.
+
+Összegezve, a műszaki kutatások egyre nagyobb mértékben támaszkodnak az informatikára. A gépi tanulás berobbanásával pedig ma már gyakorlatilag minden tudományterület egyre inkább függ az informatikai módszerektől, lásd 5. ábra a \cite{hajkowicz2023artificial} tanulmányban.
+% – ahogyan azt az alábbi ábra is szemlélteti.
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/ai_tudomanyok.png}
+%  \caption{Hajkowicz, Stefan, et al. "Artificial intelligence adoption in the physical sciences, natural sciences, life sciences, social sciences and the arts and humanities: A bibliometric analysis of research publications from 1960-2021." Technology in Society 74 (2023): 102260}
+%\end{figure}
+A fentiekhez párhuzamosan az informatikai kutatás folyamatosan keresi az új alkalmazási területeket. A \cite{fig:szofelho} ábrán a CORE A* konferenciák 2024-es felhívásaiból készített szófelhő látható, amely jól szemlélteti, milyen nagy hangsúlyt kapnak az alkalmazások.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth, trim={0 0 0 25}, clip]{../figures/Osszesitett_szofelho_coraAstar.png}
+  \caption{Szófelhő a CORE A* konferenciák felhívásaiból}
+  \label{fig:szofelho}
+\end{figure}
+
+%Az informatika önmagában is nagy tudományterület, 
+%Az Egyesült Államokban 2023-ban összesen 58\,000 sikeres PhD-védés történt, ebből 2000 az informatika területén (konferenciaorientált tudományágakban), és további 2000 olyan területen, ahol a folyóirat-publikációk mellett a konferenciaelőadásoknak is fontos szerepük van (\href{https://ira.asee.org/by-the-numbers/}{forrás: American Society for Engineering Education. (2024). Profiles of Engineering and Engineering Technology, 2023. Washington, DC.}).
+%
+%Ezek a területek önmagukban is a tudomány jelentős részét képviselik, és az informatika térnyerésével várható, hogy az informatikai konferenciák szerepe minden tudományterületen tovább növekszik.
+
+\section{Core A* konferenciák hatása az egyetemi rangsorokra}
+
+Végezetül megvizsgáltuk a CORE A* konferenciák hatását az egyetemi rangsorokra. Az egyetemi rangsorok pontszámai több tényezőből tevődnek össze. A CORE A* és A konferenciák hatása a publikációs indikátorokon keresztül minimális, mivel darabszámuk elenyésző, ugyanakkor hatásuk az akadémiai reputáció mérőszámában tükröződhet. Ezt a mutatót szakértői rangsorolások alapján számítják ki. Bár közvetlenül nem tudhatjuk, hogy egy szakértő miért rangsorol előrébb egy adott egyetemet, mint egy másikat, megvizsgáltuk, hogy az akadémiai reputáció korrelál-e a CORE A* konferenciákon való jelenléttel.
+
+Ehhez letöltöttük a CORE A* konferenciák programjait, szöveges formátumba konvertáltuk őket, és megkerestük bennük az egyetemek neveit mint karakterláncokat. Az alábbi ábrán a vízszintes tengelyen az akadémiai reputáció mérőszáma, a függőleges tengelyen pedig az egyező sztringek száma látható. A korreláció eredménye meglepő — sőt, sokkoló.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/academic_score_vs_coreA_2021-24.png}
+  \caption{Core A* konferenciák hatása az egyetemi rangsorokra}
+\end{figure}
+
+\section{Core A* cikkek utóélete}
+
+Jelenleg a kutatóknak gyakran „második körben” kell átdolgozniuk a már elfogadott konferenciacikkeiket folyóirat-változattá, csupán azért, hogy az itthoni rendszerben elismerést kapjanak — még akkor is, ha az eredeti konferencia rangosabb fórum. Ez az eljárás tehát egyfajta „dupla könyvelést” eredményez, ami felesleges munkát és torz ösztönzőket teremt.
+
+A lenti ábrán azt vizsgáltuk, hogy hányszor szerepelt azonos névvel folyóirat-publikáció a konferenciapublikáció mellett, illetve amikor szerepelt, akkor az MTMT-ben milyen SJR-értékelést kapott.
+
+Az ábra alapján legtöbbször nem adják be folyóiratba, vagy nem azonos névvel. Utóbbi esetben feltehetően a cikk tartalmát is bővítették. A CORE A* konferenciacikkek leggyakrabban D1-es folyóiratban jelennek meg. A CORE A konferenciacikkek is bekerülnek D1-es folyóiratokba, de ez kevésbé jellemző.
+
+\input{figures/sjr_rating_table.tex}
+
+%\begin{figure}[h]
+%  \centering
+%  \includegraphics[width=\textwidth]{../figures/sjr_rating.png}
+%  \caption{Core A* konferenciacikkek folyóirat változatainak SJR-értékelése az MTMT szerint}
+%\end{figure}
+
+\section{Javaslatok a probléma enyhítésére}
+
+A probléma megoldását egyfelől az informatikai konferenciák elfogadásában és népszerűsítésében látjuk. Jelenleg sikerült összegyűjteni a magyar vonatkozású CORE A* és A kategóriás cikkeket. Eddig sajnos senkinek nem volt átfogó képe a helyzetről: a kutatók legfeljebb a saját szűk szakterületüket látták át. Hosszabb távon célunk a CORE B kategóriás cikkek összegyűjtése is, mivel ezek is tisztességes minőséget képviselnek.
+
+A CORE a legelterjedtebb nemzetközi konferenciarangsor, de nem az egyetlen. Kínában több egyetem is közvetlen finanszírozási rendszert alkalmaz a CORE A* és A konferenciákon megjelent cikkekre, és ehhez elkészítették a saját rangsorukat. Ez a lista csak minimálisan tér el a CORE-besorolástól. Úgy gondoljuk, hogy a magyarországi informatikai kutatói közösség túl kicsi lenne egy saját rangsor kialakításához. Bár a CORE-listában valóban akad néhány vitatható besorolás, súlyos hibák nincsenek benne. Ráadásul egy ilyen lista folyamatos karbantartása jelentős anyagi és humán erőforrást igényelne.
+
+A kínai rendszer bevezetése óta a kínai kutatók jelenléte feltűnően megnőtt a CORE A* és A konferenciákon, míg a B és C kategóriás konferenciákon továbbra is minimális. A közvetlen finanszírozás évek óta működik Kínában, és összességében azt látjuk, hogy a CORE-lista kiállta az idők próbáját. Nem tapasztalunk visszaéléseket: a kínai kutatók előretörése részben a rendelkezésükre álló jelentős erőforrásoknak, részben pedig annak köszönhető, hogy mára rendkívül magas szinten sajátították el a tudományos angol nyelvhasználatot.
+
+Magyarországon a következő lépés az lenne, hogy csökkentsük a folyóirat-kényszert az informatikai kutatói közösségben — legyen szó az informatikai doktori iskolákról, a habilitációs és MTA-döntésekről, az alapítványi egyetemek teljesítménymutatóiról vagy a pályázati rendszerekről.
+
+Az informatikai folyóiratcikkek értékelése egyébként is több szempontból problémás. Vannak példák arra, hogy egy kutató évente akár száznál is több folyóiratcikket publikál, ami erősen csökkenti a rendszerbe vetett bizalmat. Informatikában csak a legjobb folyóiratokban van valódi verseny, és ezekben is elsősorban azokkal az országokkal versenyzünk, ahol a folyóiratközpontú értékelés még domináns — jellemzően a fejlődő országokban.
+
+A mesterséges intelligencia ma már képes ezekre a fórumokra is elegendően jó minőségű cikkeket generálni, pusztán néhány jól megfogalmazott utasítás alapján. Ez a mennyiségi publikálás korszakának végét fogja jelenteni – rövid időn belül, és nemcsak az informatikában, hanem más tudományterületeken is.
+
+Hasznos lenne a támogatási rendszer újragondolása is. A fiatal kutatók számára finanszírozni kellene a részvételt a vezető konferenciákon (legalább a regisztrációs díjat és az utazási költséget), hogy bátran merjenek ezekre a konferenciákra cikket beadni. Sok esetben maga a bírálati folyamat is jelentős szakmai fejlődést hoz, még elutasítás esetén is. Ráadásul ezek a konferenciák komoly láthatósági értékkel bírnak a nemzetközi tudományos közösségben.
+
+Végezetül javaslatunk lényege:
+\begin{itemize}
+  \item a CORE A* konferenciacikkeket automatikusan lehessen D1 folyóiratcikkekkel,
+  \item a CORE A konferenciacikkeket pedig Q1 folyóiratokkal egyenértékűnek tekinteni.
+\end{itemize}
+
+Ezáltal a magyar kutatók teljesítményét egységes, nemzetközileg elfogadott logika alapján lehetne értékelni, anélkül, hogy párhuzamos követelményeknek kellene megfelelniük.
+
+\section*{Összefoglalás}
+
+Az itthoni folyóirat-centrikus szemlélet figyelmen kívül hagyja, hogy az informatika számos alterületén a világ vezető kutatói eredményeiket nem folyóiratokban, hanem top konferenciákon publikálják. Ez a torzulás különösen a fiatal kutatókat érinti, akiknek dönteniük kell: követik-e a nemzetközi publikációs normákat és építik nemzetközi kapcsolatrendszerüket, vagy az itthoni minősítési logikához igazodva „folyóiratosítják” az eredményeiket. Ez utóbbi idő- és energiapazarlást jelent, miközben a nemzetközi láthatóságuk is csökkenhet.
+
+Magyarországon jelen van a minőségi informatikai kutatás, ám a publikációs elvárások és a finanszírozási struktúrák nem támogatják kellően a nemzetközileg releváns fórumokon való részvételt. Ezért a publikációs és értékelési rendszernek tükröznie kellene ezt a valóságot.
+
+Az informatika ma már nem elkülönült diszciplína, hanem szorosan átszövi a műszaki, természettudományos és alkalmazott kutatások egészét. Hosszabb távon a teljes hazai kutatási ökoszisztéma érdeke, hogy integrálódjon abba a gyakorlatba, amelyben az informatika főbb publikációs fórumai is szerepet kapnak.
+
+A fiatal kutatók itthon tartása, a nemzetközi kiválósági fórumokon való rendszeres jelenlét, valamint a minőségi munka megfelelő elismerése az egész magyar tudományos közösség versenyképességét erősítené.
+
+
+%\printbibliography  % biblatex esetén  
+% vagy  
+\bibliographystyle{plain}  % BibTeX esetén  
+\bibliography{irodalom}
+
+\end{document}

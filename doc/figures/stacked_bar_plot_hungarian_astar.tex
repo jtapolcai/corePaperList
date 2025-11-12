@@ -1,0 +1,25 @@
+
+% CORE A* - Hungarian papers
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar stacked,
+    bar width=12pt,
+    width=0.9\textwidth,
+    height=8cm,
+    xlabel={Év},
+    ylabel={Cikkek száma},
+    legend style={at={(0.5,-0.20)}, anchor=north, legend columns=2},
+    xtick=data,
+    x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+]
+\addplot[fill=red!70!black] table[x=Year, y=3, col sep=comma] {figures/hungarian_coreAstar_by_year.csv};
+\addplot[fill=blue!70!black] table[x=Year, y=6, col sep=comma] {figures/hungarian_coreAstar_by_year.csv};
+\legend{Elméleti informatika (III), Alkalmazott informatika (VI)}
+\end{axis}
+\end{tikzpicture}
+\caption{CORE A* — Magyar affiliációval rendelkező cikkek éves megoszlása}
+\label{fig:hungarian_astar_stacked}
+\end{figure}

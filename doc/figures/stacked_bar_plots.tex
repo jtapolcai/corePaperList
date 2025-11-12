@@ -1,0 +1,90 @@
+% CORE A* - Hungarian papers
+\begin{tikzpicture}
+\begin{axis}[
+    ybar stacked,
+    bar width=15pt,
+    width=14cm,
+    height=10cm,
+    xlabel={Év},
+    ylabel={Cikkek száma},
+    title={CORE A* — Magyar affiliációval rendelkező cikkek},
+    legend style={at={(0.5,-0.15)}, anchor=north, legend columns=2},
+    xtick=data,
+    x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+]
+\addplot[fill=red!70!black] table[x=Year, y=3, col sep=comma] {hungarian_coreAstar_by_year.csv};
+\addplot[fill=blue!70!black] table[x=Year, y=6, col sep=comma] {hungarian_coreAstar_by_year.csv};
+\legend{Elméleti informatika (III), Alkalmazott informatika (VI)}
+\end{axis}
+\end{tikzpicture}
+
+\vspace{1cm}
+
+% CORE A - Hungarian papers
+\begin{tikzpicture}
+\begin{axis}[
+    ybar stacked,
+    bar width=15pt,
+    width=14cm,
+    height=10cm,
+    xlabel={Év},
+    ylabel={Cikkek száma},
+    title={CORE A — Magyar affiliációval rendelkező cikkek},
+    legend style={at={(0.5,-0.15)}, anchor=north, legend columns=2},
+    xtick=data,
+    x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+]
+\addplot[fill=red!70!black] table[x=Year, y=3, col sep=comma] {hungarian_coreA_by_year.csv};
+\addplot[fill=blue!70!black] table[x=Year, y=6, col sep=comma] {hungarian_coreA_by_year.csv};
+\legend{Elméleti informatika (III), Alkalmazott informatika (VI)}
+\end{axis}
+\end{tikzpicture}
+
+\vspace{1cm}
+
+% CORE A* - Already abroad papers
+\begin{tikzpicture}
+\begin{axis}[
+    ybar stacked,
+    bar width=15pt,
+    width=14cm,
+    height=10cm,
+    xlabel={Év},
+    ylabel={Cikkek száma},
+    title={CORE A* — Külföldi affiliációval rendelkező cikkek},
+    legend style={at={(0.5,-0.15)}, anchor=north, legend columns=2},
+    xtick=data,
+    x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+]
+\addplot[fill=red!70!black] table[x=Year, y=3, col sep=comma] {already_abroad_coreAstar_by_year.csv};
+\addplot[fill=blue!70!black] table[x=Year, y=6, col sep=comma] {already_abroad_coreAstar_by_year.csv};
+\legend{Elméleti informatika (III), Alkalmazott informatika (VI)}
+\end{axis}
+\end{tikzpicture}
+
+\vspace{1cm}
+
+% CORE A - Already abroad papers
+\begin{tikzpicture}
+\begin{axis}[
+    ybar stacked,
+    bar width=15pt,
+    width=14cm,
+    height=10cm,
+    xlabel={Év},
+    ylabel={Cikkek száma},
+    title={CORE A — Külföldi affiliációval rendelkező cikkek},
+    legend style={at={(0.5,-0.15)}, anchor=north, legend columns=2},
+    xtick=data,
+    x tick label style={rotate=45, anchor=east},
+    enlarge x limits=0.05,
+]
+\addplot[fill=red!70!black] table[x=Year, y=3, col sep=comma] {already_abroad_coreA_by_year.csv};
+\addplot[fill=blue!70!black] table[x=Year, y=6, col sep=comma] {already_abroad_coreA_by_year.csv};
+\legend{Elméleti informatika (III), Alkalmazott informatika (VI)}
+\end axis}
+\end{tikzpicture}
+

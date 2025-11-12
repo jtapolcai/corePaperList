@@ -1,0 +1,61 @@
+\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}
+    \begin{loglogaxis}[
+      width=0.9\textwidth,
+      height=0.7\textwidth,
+      xlabel={Folyóirat cikkek: D1 ekvivalens},
+      ylabel={Konferencia cikkek: Core A* ekvivalens},
+      %title={Journal Publications vs Conference Publications},
+      legend pos=north west,
+      grid=both,
+      grid style={line width=.1pt, draw=gray!10},
+      major grid style={line width=.2pt,draw=gray!50},
+      xmin=0.2, xmax=100,
+      ymin=0.2, ymax=200,
+    xtick={1,10,100},
+    ytick={1,10,100},
+        log ticks with fixed point,
+       legend style={
+        at={(0.02,0.98)}, % bal felső sarok
+        anchor=north west,
+        draw=none, % nincs szegély
+        legend cell align=left, % balra igazított szöveg
+    },     
+    ]
+    
+    % Hungary (green)
+    \addplot[
+      only marks,
+      mark=*,
+      mark size=2pt,
+      color=green!80!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_hungary.csv};
+    \addlegendentry{Magyarországon aktív}
+    
+    % Company (yellow)
+    \addplot[
+      only marks,
+      mark=triangle*,
+      mark size=2pt,
+      color=orange!80!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_company.csv};
+    \addlegendentry{Iparban doglozik}
+    
+    % Abroad (red)
+    \addplot[
+      only marks,
+      mark=square*,
+      mark size=2pt,
+      color=red!80!black,
+      opacity=0.6
+    ] table[x=x, y=y, col sep=comma] {figures/journal_vs_conference_abroad.csv};
+    \addlegendentry{Külföldön él}
+    
+    \end{loglogaxis}
+  \end{tikzpicture}
+  \caption{Folyóirat-publikációk vs konferenciacikkek szerzők szerint. Az egyes szerzők munkahelyük szerint vannak színezve.}
+  \label{fig:journal_vs_conference}
+\end{figure}
