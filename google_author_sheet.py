@@ -220,6 +220,10 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
         json.dump(authors_data, f, indent=2, ensure_ascii=False)
 
     df = pd.DataFrame(output_rows)
+    # Remove internal tracking column before CSV export
+    if "_author_name" in df.columns:
+        df = df.drop(columns=["_author_name"])
+    
     if print_only:
         for _, row in df.iterrows(): 
             row_str = ""
@@ -403,15 +407,8 @@ def verify_table():
                         print(f"❌ DBLP and MTMT records do NOT match for {name} (MTMT ID: {data['mtmt_id']})")
                     #else:
                     #    print(f"✅ DBLP and MTMT records match for {name} (MTMT ID: {data['mtmt_id']})")
-                    if data.get("mta_att_id") and data["mta_att_id"]!='-':
-                        att_record=mta_att_utils.get_mta_att_row(data['mta_att_id'], name)
-                        if att_record:
-                            if not dblp_utils.is_same_dblp_and_mta_att_records(dblp_record, att_record):
-                                print(f"❌ DBLP and MTA ATT records do NOT match for {name} (MTA ATT ID: {data['mta_att_id']})")
-                            #else:
-                            #    print(f"✅ DBLP and MTA ATT records match for {name} (MTA ATT ID: {data['mta_att_id']})")
-                        else:
-                            print(f"⚠️ MTA ATT record not found for {name} (MTA ATT ID: {data['mta_att_id']})")
+                    #if data.get("mta_att_id") and data["mta_att_id"]!='-':
+                    #    att_record=mta_att_utils.get_mta_att_row(data['mta_att_id'], name)
 
 if __name__ == "__main__":
     verify_table()

@@ -21,13 +21,14 @@ import classify_paper
 
 def find_dblp_in_google_sheets(mtmt_id):
     # Load full_authors_data.json which contains all ranking fields
-    try:
-        with open("full_authors_data.json", "r", encoding="utf-8") as f:
-            authors_data = json.load(f)
-    except FileNotFoundError:
-        # Fallback to downloading from Google Sheet (won't have ranking fields)
-        print("Warning: full_authors_data.json not found, downloading from Google Sheet (ranking fields will be missing)")
-        authors_data = google_author_sheet.download_author_google_sheet()
+    # try:
+    #     with open("full_authors_data.json", "r", encoding="utf-8") as f:
+    #         authors_data = json.load(f)
+    # except FileNotFoundError:
+    #     # Fallback to downloading from Google Sheet (won't have ranking fields)
+    #     print("Warning: full_authors_data.json not found, downloading from Google Sheet (ranking fields will be missing)")
+    authors_data = google_author_sheet.download_author_google_sheet()
+    classify_author.create_pid_to_name_map(authors_data)
     
     for author, data in authors_data.items():
         if 'mtmt_id' in data and data['mtmt_id']!='' and int(data['mtmt_id'])==int(mtmt_id):
@@ -341,7 +342,7 @@ def build_author_record(mtmt_record, pub_rec,dblp_record):
     row = get_mta_att_row(mtmt_id)
     if row is not None:
         # Pass the already verified dblp_record and mtmt_record to avoid duplicate verification
-        ok, data = add_mta_att_record(name, row, mtmt_id, mtmt_name, data, dblp_record=dblp_record, mtmt_record=mtmt_record)
+        ok, data = add_mta_att_record(name, row, mtmt_id, mtmt_name, data, dblp_record=dblp_record, mtmt_record=mtmt_record, pub_rec=pub_rec)
     return data, dblp_person
 
 def create_record(mtmt_id):
@@ -473,8 +474,8 @@ def print_author_hu(name, data: dict):
 
 if __name__ == "__main__":
     # for debugging
-    #mtmt_id = 10025477
-    mtmt_id = 10028156
+    mtmt_id = 10017593
+    #mtmt_id = 10028156
 
     if len(sys.argv)>1:
         mtmt_id = sys.argv[1]
@@ -482,9 +483,21 @@ if __name__ == "__main__":
     author, data = find_dblp_in_google_sheets(mtmt_id)
     if author and data:
         print(f"DBLP azonosító a Google táblázatban: {author} - {data.get('dblp_url','N/A')}")
+        # Preserve specific fields from Google Sheet if they exist (Category, MTMT Status, Works, Affiliations)
+        preserve_fields = ['category', 'status', 'works', 'affiliations']
+        existing_values = {field: data.get(field, '') for field in preserve_fields}
+        
         dblp_person = dblp_utils.get_DBLP_record(data.get('dblp_url',''), author)
         mtmt_record, pub_rec = mtmt_utils.get_mtmt_record(str(mtmt_id))
         record, dblp_person = build_author_record(mtmt_record=mtmt_record, pub_rec=pub_rec, dblp_record=dblp_person)
+        # Merge record into data (preserve existing fields from Google Sheet like Rankings)
+        if record:
+            data.update(record)
+            # Restore fields from Google Sheet if they were non-empty
+            for field, existing_value in existing_values.items():
+                if existing_value:  # Only restore if the original value was non-empty
+                    data[field] = existing_value
+        record = data  # Use merged data as the record
     else:
         print("Nincs DBLP azonosító a Google táblázatban, MTMT alapján keresünk...")
         record, dblp_person=create_record(str(mtmt_id))

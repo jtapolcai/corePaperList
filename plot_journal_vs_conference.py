@@ -8,6 +8,29 @@ Creates an x-y scatter plot comparing MTMT journal D1 equivalents vs Hungarian C
 import json
 import matplotlib.pyplot as plt
 import numpy as np
+from statistics import mean
+
+def is_in_CORE_field(row):
+    if "mta_topic" in row:
+        szakterulet = row["mta_topic"]
+        if szakterulet and szakterulet.strip()!="":
+            potential_keywords =["számítástudomány", "informatika", "operációkutatás","algoritmuselmélet","számítógép","Computer science","mesterséges intelligencia", ]
+            szakterulet_lower = szakterulet.lower()
+            for keyword in potential_keywords:
+                if keyword in szakterulet_lower:
+                    return True
+    else:
+        return True
+    return False
+
+# Try to import adjustText for automatic label positioning
+HAS_ADJUST_TEXT = False
+try:
+    from adjustText import adjust_text
+    HAS_ADJUST_TEXT = True
+except ImportError as e:
+    HAS_ADJUST_TEXT = False
+    print(f"Note: adjustText not available ({e}). Labels may overlap.")
 
 def load_authors_data():
     """Load full_authors_data.json with all author information."""
@@ -25,6 +48,8 @@ def extract_data_points(authors_data):
     abroad_x, abroad_y, abroad_names = [], [], []
     
     for name, data in authors_data.items():
+        if not is_in_CORE_field(data):
+            continue
         # Get x value: mtmt_journal D1 equivalents
         x_val = data.get("mtmt_journal D1 eqvivalents", None)
         
@@ -77,34 +102,59 @@ def create_plot(data_points):
     """Create scatter plot with log scales and author name annotations."""
     fig, ax = plt.subplots(figsize=(14, 10))
     
+    # Collect all text annotations for automatic adjustment
+    texts = []
+    
+
+    sum_x = sum(data_points['hungary'][0]) + sum(data_points['company'][0]) + sum(data_points['abroad'][0])
+    sum_y = sum(data_points['hungary'][1]) + sum(data_points['company'][1]) + sum(data_points['abroad'][1])
+    ratios = [sum_y / sum_x for sum_x, sum_y in [(sum(data_points['hungary'][0]), sum(data_points['hungary'][1])),
+                                                   (sum(data_points['company'][0]), sum(data_points['company'][1])),
+                                                   (sum(data_points['abroad'][0]), sum(data_points['abroad'][1]))] if sum_x > 0]
+    avg_ratio = mean(ratios) if ratios else 0
+    print(f"Total sum of x values: {sum_x}")
+    print(f"Total sum of y values: {sum_y}")
+    print(f"Average y/x ratio across categories: {avg_ratio:.3f}")
     # Plot each category with different colors and add name annotations
     if data_points['hungary'][0]:  # Check if there's data
         ax.scatter(data_points['hungary'][0], data_points['hungary'][1], 
                   c='green', alpha=0.6, s=50, label='Hungary')
         # Add name annotations for Hungary
         for x, y, name in zip(data_points['hungary'][0], data_points['hungary'][1], data_points['hungary'][2]):
-            ax.annotate(name, (x, y), fontsize=7, alpha=0.7, 
-                       xytext=(3, 3), textcoords='offset points')
+            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8, 
+                       xytext=(3, 3), textcoords='offset points',
+                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+            texts.append(text)
     
     if data_points['company'][0]:
         ax.scatter(data_points['company'][0], data_points['company'][1], 
                   c='yellow', alpha=0.6, s=50, label='Company', edgecolors='black', linewidth=0.5)
         # Add name annotations for Company
         for x, y, name in zip(data_points['company'][0], data_points['company'][1], data_points['company'][2]):
-            ax.annotate(name, (x, y), fontsize=7, alpha=0.7,
-                       xytext=(3, 3), textcoords='offset points')
+            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
+                       xytext=(3, 3), textcoords='offset points',
+                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+            texts.append(text)
     
     if data_points['abroad'][0]:
         ax.scatter(data_points['abroad'][0], data_points['abroad'][1], 
                   c='red', alpha=0.6, s=50, label='Abroad')
         # Add name annotations for Abroad
         for x, y, name in zip(data_points['abroad'][0], data_points['abroad'][1], data_points['abroad'][2]):
-            ax.annotate(name, (x, y), fontsize=7, alpha=0.7,
-                       xytext=(3, 3), textcoords='offset points')
+            text = ax.annotate(name, (x, y), fontsize=6, alpha=0.8,
+                       xytext=(3, 3), textcoords='offset points',
+                       bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='none', alpha=0.6))
+            texts.append(text)
+    
+    # Use adjustText if available to prevent label overlap
+    if HAS_ADJUST_TEXT and texts:
+        adjust_text(texts, arrowprops=dict(arrowstyle='->', color='gray', lw=0.5, alpha=0.5),
+                   expand_points=(1.5, 1.5), expand_text=(1.2, 1.2),
+                   force_points=(0.5, 0.5), force_text=(0.5, 0.5))
     
     # Set log scale for both axes
-    ax.set_xscale('log')
-    ax.set_yscale('log')
+    #ax.set_xscale('log')
+    #ax.set_yscale('log')
     
     # Labels and title
     ax.set_xlabel('MTMT Journal D1 Equivalents (log scale)', fontsize=12)

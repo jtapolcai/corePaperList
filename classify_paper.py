@@ -25,7 +25,8 @@ def _load_list(filename: str) -> List[str]:
     path = os.path.join(_inputs_dir, filename)
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
-            return [line.strip() for line in f if line.strip()]
+            #return [line.strip() for line in f if line.strip()]
+            return json.load(f)
     return []
 
 regular_paper_list = _load_list("regular_paper_list.txt")
@@ -231,7 +232,10 @@ def classify_paper(paper: Dict, search_log: str = ""):
     ptype = classify_paper_by_author(author_list, year)
     record["classfiied"] = ptype
     paper_str = f"{venue} {year} {authors_str} - {title} "
-    if info.get("title", "") in no_hungarian_affil:
+    title=info.get("title", "")
+    if isinstance(title, dict):
+        title=title.get("text","")
+    if title in no_hungarian_affil:
         foreign_paper = True
         search_log += f"\n No hungarian affiliation {info.get('title', '')}"
     if len(ptype) == 0:
