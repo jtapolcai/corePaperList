@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+\begin{axis}[
+    width=15cm,
+    height=10cm,
+    xlabel={QS akadémiai reputáció},
+    ylabel={Megjelenések száma a CORE A* honlapjain},
+    %title={QS University Ranking vs. Top Conference Papers},
+    scatter/classes={a={mark=o,blue}},
+    only marks,
+    nodes near coords,
+    every node near coord/.append style={
+        anchor=west,
+        font=\scriptsize,
+        yshift=0pt, xshift=-1pt,
+         rotate=-62, 
+    },
+    point meta=explicit symbolic,
+    ymin=-100, ymax=1050
+]
+
+\addplot[scatter,scatter src=explicit symbolic] table[
+    x=CitationScore,
+    y=CoreAStarPapers,
+    meta=University,
+    col sep=comma
+] {figures/university_ranking_data.csv};
+
+\end{axis}
+\end{tikzpicture}
