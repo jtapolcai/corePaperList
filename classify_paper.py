@@ -139,7 +139,7 @@ def classify_paper_by_author(author_list: List[Tuple[str, str]], year: int, igno
 def is_short_paper(info: Dict, venue: str, rank_name: str) -> bool:
     limit = 6
     if rank_name not in ['B', 'C']:
-        limit = 4
+        limit = 5
     if venue in ["SODA", "STOC", "FOCS"]:
         limit = 3
     if venue in ["MoDELS"]:
