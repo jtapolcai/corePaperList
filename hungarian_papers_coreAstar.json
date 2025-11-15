@@ -11,6 +11,7 @@
       "#text": "http://colt2010.haifa.il.ibm.com/papers/COLT2010proceedings.pdf#page=239"
     },
     "url": "db/conf/colt/colt2010.html#NeuGS10",
+    "crossref": "conf/colt/2010",
     "authors": [
       [
         "Gergely Neu",
@@ -31,6 +32,49 @@
       "applied"
     ]
   },
+  "conf/nips/NeuGSA10": {
+    "key": "conf/nips/NeuGSA10",
+    "title": "Online Markov Decision Processes under Bandit Feedback.",
+    "venue": "NIPS",
+    "year": "2010",
+    "pages": "1804-1812",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2010/hash/7bb060764a818184ebb1cc0d43d382aa-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/4048-online-markov-decision-processes-under-bandit-feedback"
+      }
+    ],
+    "url": "db/conf/nips/nips2010.html#NeuGSA10",
+    "crossref": "conf/nips/2010",
+    "authors": [
+      [
+        "Gergely Neu",
+        "83/7606"
+      ],
+      [
+        "András György 0001",
+        "72/251-1"
+      ],
+      [
+        "Csaba Szepesvári",
+        "62/567"
+      ],
+      [
+        "András Antos",
+        "80/636"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "mostly_hungarian",
+      "theory"
+    ]
+  },
   "conf/ijcai/GyorgyKSS07": {
     "key": "conf/ijcai/GyorgyKSS07",
     "title": "Continuous Time Associative Bandit Problems.",
@@ -43,6 +87,7 @@
       "#text": "http://ijcai.org/Proceedings/07/Papers/133.pdf"
     },
     "url": "db/conf/ijcai/ijcai2007.html#GyorgyKSS07",
+    "crossref": "conf/ijcai/2007",
     "authors": [
       [
         "András György 0001",
@@ -68,6 +113,45 @@
       "theory"
     ]
   },
+  "conf/nips/AntosMS07": {
+    "key": "conf/nips/AntosMS07",
+    "title": "Fitted Q-iteration in continuous action-space MDPs.",
+    "venue": "NIPS",
+    "year": "2007",
+    "pages": "9-16",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2007/hash/da0d1111d2dc5d489242e60ebcbaf988-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/3233-fitted-q-iteration-in-continuous-action-space-mdps"
+      }
+    ],
+    "url": "db/conf/nips/nips2007.html#AntosMS07",
+    "crossref": "conf/nips/2007",
+    "authors": [
+      [
+        "András Antos",
+        "80/636"
+      ],
+      [
+        "Rémi Munos",
+        "69/6815"
+      ],
+      [
+        "Csaba Szepesvári",
+        "62/567"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "theory"
+    ]
+  },
   "conf/uai/NeuS07": {
     "key": "conf/uai/NeuS07",
     "title": "Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods.",
@@ -80,6 +164,7 @@
       "#text": "https://dslpitt.org/uai/displayArticleDetails.jsp?mmnu=1&smnu=2&article_id=1702&proceeding_id=23"
     },
     "url": "db/conf/uai/uai2007.html#NeuS07",
+    "crossref": "conf/uai/2007",
     "authors": [
       [
         "Gergely Neu",
@@ -105,6 +190,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/11776420_42",
     "url": "db/conf/colt/colt2006.html#AntosSM06",
+    "crossref": "conf/colt/2006",
     "authors": [
       [
         "András Antos",
@@ -138,6 +224,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/ICDM.2005.156"
     ],
     "url": "db/conf/icdm/icdm2005.html#SzamonekS05",
+    "crossref": "conf/icdm/2005",
     "authors": [
       [
         "Zoltán Szamonek",
@@ -163,6 +250,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1102351.1102462",
     "url": "db/conf/icml/icml2005.html#SzepesvariM05",
+    "crossref": "conf/icml/2005",
     "authors": [
       [
         "Csaba Szepesvári",
@@ -179,6 +267,31 @@
       "theory"
     ]
   },
+  "conf/aaai/Szepesvari04": {
+    "key": "conf/aaai/Szepesvari04",
+    "title": "Shortest Path Discovery Problems: A Framework, Algorithms and Experimental Results.",
+    "venue": "AAAI",
+    "year": "2004",
+    "pages": "550-555",
+    "doi": "",
+    "ee": {
+      "@type": "archive",
+      "#text": "http://www.aaai.org/Library/AAAI/2004/aaai04-088.php"
+    },
+    "url": "db/conf/aaai/aaai2004.html#Szepesvari04",
+    "crossref": "conf/aaai/2004",
+    "authors": [
+      [
+        "Csaba Szepesvári",
+        "62/567"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
   "conf/icml/SzepesvariS04": {
     "key": "conf/icml/SzepesvariS04",
     "title": "Interpolation-based Q-learning.",
@@ -188,6 +301,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1015330.1015445",
     "url": "db/conf/icml/icml2004.html#SzepesvariS04",
+    "crossref": "conf/icml/2004",
     "authors": [
       [
         "Csaba Szepesvári",
@@ -213,6 +327,7 @@
     "doi": "",
     "ee": "",
     "url": "db/conf/icml/icml1998.html#GaborKS98",
+    "crossref": "conf/icml/1998",
     "authors": [
       [
         "Zoltán Gábor",
@@ -233,6 +348,31 @@
       "theory"
     ]
   },
+  "conf/nips/Szepesvari97": {
+    "key": "conf/nips/Szepesvari97",
+    "title": "The Asymptotic Convergence-Rate of Q-learning.",
+    "venue": "NIPS",
+    "year": "1997",
+    "pages": "1064-1070",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "http://papers.nips.cc/paper/1383-the-asymptotic-convergence-rate-of-q-learning"
+    },
+    "url": "db/conf/nips/nips1997.html#Szepesvari97",
+    "crossref": "conf/nips/1997",
+    "authors": [
+      [
+        "Csaba Szepesvári",
+        "62/567"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "theory"
+    ]
+  },
   "conf/icml/LittmanS96": {
     "key": "conf/icml/LittmanS96",
     "title": "A Generalized Reinforcement-Learning Model: Convergence and Applications.",
@@ -242,6 +382,7 @@
     "doi": "",
     "ee": "",
     "url": "db/conf/icml/icml1996.html#LittmanS96",
+    "crossref": "conf/icml/1996",
     "authors": [
       [
         "Michael L. Littman",
@@ -270,6 +411,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2018.00052"
     ],
     "url": "db/conf/focs/focs2018.html#MarxPP18",
+    "crossref": "conf/focs/2018",
     "authors": [
       [
         "Dániel Marx",
@@ -302,6 +444,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975031.178"
     },
     "url": "db/conf/soda/soda2018.html#ChenM18",
+    "crossref": "conf/soda/2018",
     "authors": [
       [
         "Lin Chen 0009",
@@ -330,6 +473,7 @@
       "https://www.wikidata.org/entity/Q59567342"
     ],
     "url": "db/conf/stoc/stoc2018.html#BergBKMZ18",
+    "crossref": "conf/stoc/2018",
     "authors": [
       [
         "Mark de Berg",
@@ -367,6 +511,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3055399.3055502",
     "url": "db/conf/stoc/stoc2017.html#CurticapeanDM17",
+    "crossref": "conf/stoc/2017",
     "authors": [
       [
         "Radu Curticapean",
@@ -400,6 +545,7 @@
       "https://www.wikidata.org/entity/Q60488381"
     ],
     "url": "db/conf/focs/focs2016.html#FominLMPPS16",
+    "crossref": "conf/focs/2016",
     "authors": [
       [
         "Fedor V. Fomin",
@@ -447,6 +593,7 @@
       "http://dl.acm.org/citation.cfm?id=2884548"
     ],
     "url": "db/conf/soda/soda2016.html#CurticapeanM16",
+    "crossref": "conf/soda/2016",
     "authors": [
       [
         "Radu Curticapean",
@@ -472,6 +619,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/2897518.2897549",
     "url": "db/conf/stoc/stoc2016.html#BateniDHM16",
+    "crossref": "conf/stoc/2016",
     "authors": [
       [
         "MohammadHossein Bateni",
@@ -508,6 +656,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973730.42"
     },
     "url": "db/conf/soda/soda2015.html#JansenM15",
+    "crossref": "conf/soda/2015",
     "authors": [
       [
         "Bart M. P. Jansen",
@@ -536,6 +685,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973730.44"
     },
     "url": "db/conf/soda/soda2015.html#MarxW15",
+    "crossref": "conf/soda/2015",
     "authors": [
       [
         "Dániel Marx",
@@ -564,6 +714,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2014.22"
     ],
     "url": "db/conf/focs/focs2014.html#CurticapeanM14",
+    "crossref": "conf/focs/2014",
     "authors": [
       [
         "Radu Curticapean",
@@ -595,6 +746,7 @@
       "https://www.wikidata.org/entity/Q60638484"
     ],
     "url": "db/conf/soda/soda2014.html#GuillemotM14",
+    "crossref": "conf/soda/2014",
     "authors": [
       [
         "Sylvain Guillemot",
@@ -623,6 +775,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973402.9"
     },
     "url": "db/conf/soda/soda2014.html#CaoM14",
+    "crossref": "conf/soda/2014",
     "authors": [
       [
         "Yixin Cao 0001",
@@ -651,6 +804,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973402.131"
     },
     "url": "db/conf/soda/soda2014.html#KleinM14",
+    "crossref": "conf/soda/2014",
     "authors": [
       [
         "Philip N. Klein",
@@ -679,6 +833,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2013.29"
     ],
     "url": "db/conf/focs/focs2013.html#CyganMPP13",
+    "crossref": "conf/focs/2013",
     "authors": [
       [
         "Marek Cygan",
@@ -718,6 +873,7 @@
       "https://dl.acm.org/citation.cfm?id=2095122"
     ],
     "url": "db/conf/soda/soda2012.html#DellM12",
+    "crossref": "conf/soda/2012",
     "authors": [
       [
         "Holger Dell",
@@ -749,6 +905,7 @@
       "https://dl.acm.org/citation.cfm?id=2095252"
     ],
     "url": "db/conf/soda/soda2012.html#ChitnisHM12",
+    "crossref": "conf/soda/2012",
     "authors": [
       [
         "Rajesh Hemant Chitnis",
@@ -778,6 +935,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/2213977.2213996",
     "url": "db/conf/stoc/stoc2012.html#GroheM12",
+    "crossref": "conf/stoc/2012",
     "authors": [
       [
         "Martin Grohe",
@@ -806,6 +964,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.2005.70"
     ],
     "url": "db/conf/focs/focs2005.html#Marx05",
+    "crossref": "conf/focs/2005",
     "authors": [
       [
         "Dániel Marx",
@@ -830,6 +989,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2000.832275"
     ],
     "url": "db/conf/infocom/infocom2000-2.html#CinklerMLF00",
+    "crossref": "conf/infocom/2000",
     "authors": [
       [
         "Tibor Cinkler",
@@ -867,6 +1027,7 @@
       "#text": "http://proceedings.mlr.press/v119/milacski20a.html"
     },
     "url": "db/conf/icml/icml2020.html#MilacskiPL20",
+    "crossref": "conf/icml/2020",
     "authors": [
       [
         "Zoltán Ádám Milacski",
@@ -887,6 +1048,39 @@
       "applied"
     ]
   },
+  "conf/cvpr/SzaboPL11": {
+    "key": "conf/cvpr/SzaboPL11",
+    "title": "Online group-structured dictionary learning.",
+    "venue": "CVPR",
+    "year": "2011",
+    "pages": "2865-2872",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CVPR.2011.5995712",
+      "https://doi.ieeecomputersociety.org/10.1109/CVPR.2011.5995712"
+    ],
+    "url": "db/conf/cvpr/cvpr2011.html#SzaboPL11",
+    "crossref": "conf/cvpr/2011",
+    "authors": [
+      [
+        "Zoltán Szabó 0001",
+        "73/2909-1"
+      ],
+      [
+        "Barnabás Póczos",
+        "15/4829"
+      ],
+      [
+        "András Lörincz",
+        "81/2260"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/icml/PoczosL05": {
     "key": "conf/icml/PoczosL05",
     "title": "Independent subspace analysis using geodesic spanning trees.",
@@ -896,6 +1090,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1102351.1102436",
     "url": "db/conf/icml/icml2005.html#PoczosL05",
+    "crossref": "conf/icml/2005",
     "authors": [
       [
         "Barnabás Póczos",
@@ -912,6 +1107,43 @@
       "applied"
     ]
   },
+  "conf/cvpr/FelzenszwalbPTZ10": {
+    "key": "conf/cvpr/FelzenszwalbPTZ10",
+    "title": "Globally optimal pixel labeling algorithms for tree metrics.",
+    "venue": "CVPR",
+    "year": "2010",
+    "pages": "3153-3160",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CVPR.2010.5540077",
+      "https://doi.ieeecomputersociety.org/10.1109/CVPR.2010.5540077"
+    ],
+    "url": "db/conf/cvpr/cvpr2010.html#FelzenszwalbPTZ10",
+    "crossref": "conf/cvpr/2010",
+    "authors": [
+      [
+        "Pedro F. Felzenszwalb",
+        "72/5291"
+      ],
+      [
+        "Gyula Pap",
+        "64/34"
+      ],
+      [
+        "Éva Tardos",
+        "t/EvaTardos"
+      ],
+      [
+        "Ramin Zabih",
+        "z/RaminZabih"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/focs/FrankT85": {
     "key": "conf/focs/FrankT85",
     "title": "An Application of Simultaneous Approximation in Combinatorial Optimization",
@@ -924,6 +1156,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1985.8"
     ],
     "url": "db/conf/focs/focs85.html#FrankT85",
+    "crossref": "conf/focs/FOCS26",
     "authors": [
       [
         "András Frank",
@@ -949,6 +1182,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/CVPR52729.2023.00524",
     "url": "db/conf/cvpr/cvpr2023.html#BarathREHM23",
+    "crossref": "conf/cvpr/2023",
     "authors": [
       [
         "Daniel Barath",
@@ -986,6 +1220,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICCV51070.2023.00314",
     "url": "db/conf/iccv/iccv2023.html#HajderLB23",
+    "crossref": "conf/iccv/2023",
     "authors": [
       [
         "Levente Hajder",
@@ -1015,6 +1250,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-031-19824-3_42",
     "url": "db/conf/eccv/eccv2022-32.html#BarathV22",
+    "crossref": "conf/eccv/2022-32",
     "authors": [
       [
         "Daniel Barath",
@@ -1046,6 +1282,7 @@
       "https://doi.org/10.1109/CVPR46437.2021.01431"
     ],
     "url": "db/conf/cvpr/cvpr2021.html#BarathMESM21",
+    "crossref": "conf/cvpr/2021",
     "authors": [
       [
         "Daniel Barath",
@@ -1074,6 +1311,36 @@
       "theory"
     ]
   },
+  "conf/icra/GalBH21": {
+    "key": "conf/icra/GalBH21",
+    "title": "Pose Estimation for Vehicle-mounted Cameras via Horizontal and Vertical Planes.",
+    "venue": "ICRA",
+    "year": "2021",
+    "pages": "7620-7626",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA48506.2021.9561890",
+    "url": "db/conf/icra/icra2021.html#GalBH21",
+    "crossref": "conf/icra/2021",
+    "authors": [
+      [
+        "Istan Gergo Gal",
+        "259/3550"
+      ],
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Levente Hajder",
+        "94/4989"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
   "conf/cvpr/BarathNIM20": {
     "key": "conf/cvpr/BarathNIM20",
     "title": "MAGSAC++, a Fast, Reliable and Accurate Robust Estimator.",
@@ -1089,6 +1356,7 @@
       "https://doi.org/10.1109/CVPR42600.2020.00138"
     ],
     "url": "db/conf/cvpr/cvpr2020.html#BarathNIM20",
+    "crossref": "conf/cvpr/2020",
     "authors": [
       [
         "Dániel Baráth",
@@ -1128,6 +1396,7 @@
       "https://doi.org/10.1109/CVPR42600.2020.01172"
     ],
     "url": "db/conf/cvpr/cvpr2020.html#HodanBM20",
+    "crossref": "conf/cvpr/2020",
     "authors": [
       [
         "Tomás Hodan",
@@ -1148,6 +1417,129 @@
       "applied"
     ]
   },
+  "conf/eccv/EichhardtB20": {
+    "key": "conf/eccv/EichhardtB20",
+    "title": "Relative Pose from Deep Learned Depth and a Single Affine Correspondence.",
+    "venue": "ECCV (12)",
+    "year": "2020",
+    "pages": "627-644",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-030-58610-2_37",
+    "url": "db/conf/eccv/eccv2020-12.html#EichhardtB20",
+    "crossref": "conf/eccv/2020-12",
+    "authors": [
+      [
+        "Ivan Eichhardt",
+        "183/3621"
+      ],
+      [
+        "Daniel Barath",
+        "166/4789"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/eccv/BarathPFSPK20": {
+    "key": "conf/eccv/BarathPFSPK20",
+    "title": "Making Affine Correspondences Work in Camera Geometry Computation.",
+    "venue": "ECCV (11)",
+    "year": "2020",
+    "pages": "723-740",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-030-58621-8_42",
+    "url": "db/conf/eccv/eccv2020-11.html#BarathPFSPK20",
+    "crossref": "conf/eccv/2020-11",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Michal Polic",
+        "200/1041"
+      ],
+      [
+        "Wolfgang Förstner",
+        "09/1238"
+      ],
+      [
+        "Torsten Sattler",
+        "51/9054"
+      ],
+      [
+        "Tomás Pajdla",
+        "p/TomasPajdla"
+      ],
+      [
+        "Zuzana Kukelova",
+        "17/4583"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/icra/HajderB20": {
+    "key": "conf/icra/HajderB20",
+    "title": "Least-squares Optimal Relative Planar Motion for Vehicle-mounted Cameras.",
+    "venue": "ICRA",
+    "year": "2020",
+    "pages": "8644-8650",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA40945.2020.9196755",
+    "url": "db/conf/icra/icra2020.html#HajderB20",
+    "crossref": "conf/icra/2020",
+    "authors": [
+      [
+        "Levente Hajder",
+        "94/4989"
+      ],
+      [
+        "Daniel Barath",
+        "166/4789"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/icra/HajderB20a": {
+    "key": "conf/icra/HajderB20a",
+    "title": "Relative planar motion for vehicle-mounted cameras from a single affine correspondence.",
+    "venue": "ICRA",
+    "year": "2020",
+    "pages": "8651-8657",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA40945.2020.9197438",
+    "url": "db/conf/icra/icra2020.html#HajderB20a",
+    "crossref": "conf/icra/2020",
+    "authors": [
+      [
+        "Levente Hajder",
+        "94/4989"
+      ],
+      [
+        "Daniel Barath",
+        "166/4789"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "SZTAKI",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/cvpr/BarathMN19": {
     "key": "conf/cvpr/BarathMN19",
     "title": "MAGSAC: Marginalizing Sample Consensus.",
@@ -1163,6 +1555,7 @@
       "https://doi.org/10.1109/CVPR.2019.01044"
     ],
     "url": "db/conf/cvpr/cvpr2019.html#BarathMN19",
+    "crossref": "conf/cvpr/2019",
     "authors": [
       [
         "Daniel Barath",
@@ -1192,6 +1585,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICCV.2019.00118",
     "url": "db/conf/iccv/iccv2019.html#BarathK19",
+    "crossref": "conf/iccv/2019",
     "authors": [
       [
         "Dániel Baráth",
@@ -1217,6 +1611,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICCV.2019.00388",
     "url": "db/conf/iccv/iccv2019.html#BarathM19",
+    "crossref": "conf/iccv/2019",
     "authors": [
       [
         "Dániel Baráth",
@@ -1249,6 +1644,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/CVPR.2018.00032"
     ],
     "url": "db/conf/cvpr/cvpr2018.html#Barath18",
+    "crossref": "conf/cvpr/2018",
     "authors": [
       [
         "Daniel Barath",
@@ -1277,6 +1673,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/CVPR.2018.00704"
     ],
     "url": "db/conf/cvpr/cvpr2018.html#BarathM18",
+    "crossref": "conf/cvpr/2018",
     "authors": [
       [
         "Daniel Barath",
@@ -1293,6 +1690,66 @@
       "applied"
     ]
   },
+  "conf/eccv/BarathM18": {
+    "key": "conf/eccv/BarathM18",
+    "title": "Multi-class Model Fitting by Energy Minimization and Mode-Seeking.",
+    "venue": "ECCV (16)",
+    "year": "2018",
+    "pages": "229-245",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-030-01270-0_14",
+    "url": "db/conf/eccv/eccv2018-16.html#BarathM18",
+    "crossref": "conf/eccv/2018-16",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Jiri Matas",
+        "m/JiriMatas"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/cvpr/BarathTH17": {
+    "key": "conf/cvpr/BarathTH17",
+    "title": "A Minimal Solution for Two-View Focal-Length Estimation Using Two Affine Correspondences.",
+    "venue": "CVPR",
+    "year": "2017",
+    "pages": "2557-2565",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CVPR.2017.274",
+      "https://doi.ieeecomputersociety.org/10.1109/CVPR.2017.274"
+    ],
+    "url": "db/conf/cvpr/cvpr2017.html#BarathTH17",
+    "crossref": "conf/cvpr/2017",
+    "authors": [
+      [
+        "Daniel Barath",
+        "166/4789"
+      ],
+      [
+        "Tekla Toth",
+        "202/1768"
+      ],
+      [
+        "Levente Hajder",
+        "94/4989"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/soda/BabaiNP08": {
     "key": "conf/soda/BabaiNP08",
     "title": "Product growth and mixing in finite groups.",
@@ -1302,6 +1759,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=1347082.1347110",
     "url": "db/conf/soda/soda2008.html#BabaiNP08",
+    "crossref": "conf/soda/2008",
     "authors": [
       [
         "László Babai",
@@ -1331,6 +1789,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=313852.314109",
     "url": "db/conf/soda/soda96.html#BabaiBCIL96",
+    "crossref": "conf/soda/1996",
     "authors": [
       [
         "László Babai",
@@ -1368,6 +1827,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/237814.238010",
     "url": "db/conf/stoc/stoc1996.html#BabaiGKRSW96",
+    "crossref": "conf/stoc/1996",
     "authors": [
       [
         "László Babai",
@@ -1409,6 +1869,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/164081.164098",
     "url": "db/conf/issac/issac93.html#BabaiFS93",
+    "crossref": "conf/issac/1993",
     "authors": [
       [
         "László Babai",
@@ -1441,6 +1902,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1991.185442"
     ],
     "url": "db/conf/focs/focs91.html#BabaiF91",
+    "crossref": "conf/focs/FOCS32",
     "authors": [
       [
         "László Babai",
@@ -1469,6 +1931,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63461"
     ],
     "url": "db/conf/focs/focs89.html#BabaiR89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "László Babai",
@@ -1494,6 +1957,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/12130.12134",
     "url": "db/conf/stoc/stoc86.html#AjtaiBHKPRST86",
+    "crossref": "conf/stoc/STOC18",
     "authors": [
       [
         "Miklós Ajtai",
@@ -1548,6 +2012,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1984.715919"
     ],
     "url": "db/conf/focs/focs84.html#BabaiS84",
+    "crossref": "conf/focs/FOCS25",
     "authors": [
       [
         "László Babai",
@@ -1576,6 +2041,7 @@
       "#text": "http://colt2008.cs.helsinki.fi/papers/53-Gyorgy.pdf"
     },
     "url": "db/conf/colt/colt2008.html#GyorgyLO08",
+    "crossref": "conf/colt/2008",
     "authors": [
       [
         "András György 0001",
@@ -1605,6 +2071,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/11776420_35",
     "url": "db/conf/colt/colt2006.html#GyorgyLO06",
+    "crossref": "conf/colt/2006",
     "authors": [
       [
         "András György 0001",
@@ -1634,6 +2101,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611978322.145",
     "url": "db/conf/soda/soda2025.html#BhoreKK0LPT25",
+    "crossref": "conf/soda/2025",
     "authors": [
       [
         "Sujoy Bhore",
@@ -1683,6 +2151,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1992.267782"
     ],
     "url": "db/conf/focs/focs92.html#AjtaiKS92",
+    "crossref": "conf/focs/FOCS33",
     "authors": [
       [
         "Miklós Ajtai",
@@ -1712,6 +2181,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/12130.12149",
     "url": "db/conf/stoc/stoc86.html#AjtaiKSS86",
+    "crossref": "conf/stoc/STOC18",
     "authors": [
       [
         "Miklós Ajtai",
@@ -1748,6 +2218,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1983.24"
     ],
     "url": "db/conf/focs/focs83.html#AjtaiFK83",
+    "crossref": "conf/focs/FOCS24",
     "authors": [
       [
         "Miklós Ajtai",
@@ -1780,6 +2251,7 @@
       "https://www.wikidata.org/entity/Q55878855"
     ],
     "url": "db/conf/stoc/stoc83.html#AjtaiKS83",
+    "crossref": "conf/stoc/STOC15",
     "authors": [
       [
         "Miklós Ajtai",
@@ -1809,6 +2281,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3313276.3316328",
     "url": "db/conf/stoc/stoc2019.html#PachRT19",
+    "crossref": "conf/stoc/2019",
     "authors": [
       [
         "János Pach",
@@ -1844,6 +2317,7 @@
       "http://dl.acm.org/citation.cfm?id=2884503"
     ],
     "url": "db/conf/soda/soda2016.html#PachRT16",
+    "crossref": "conf/soda/2016",
     "authors": [
       [
         "János Pach",
@@ -1876,6 +2350,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973730.99"
     },
     "url": "db/conf/soda/soda2015.html#PachRT15",
+    "crossref": "conf/soda/2015",
     "authors": [
       [
         "János Pach",
@@ -1905,6 +2380,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/780542.780621",
     "url": "db/conf/stoc/stoc2003.html#AronovPST03",
+    "crossref": "conf/stoc/2003",
     "authors": [
       [
         "Boris Aronov",
@@ -1941,6 +2417,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.2000.892130"
     ],
     "url": "db/conf/focs/focs2000.html#PachT00",
+    "crossref": "conf/focs/2000",
     "authors": [
       [
         "János Pach",
@@ -1970,6 +2447,7 @@
       "https://www.wikidata.org/entity/Q57255582"
     ],
     "url": "db/conf/focs/focs98.html#PachT98",
+    "crossref": "conf/focs/1998",
     "authors": [
       [
         "János Pach",
@@ -1998,6 +2476,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63458"
     ],
     "url": "db/conf/focs/focs89.html#PachSS89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "János Pach",
@@ -2030,6 +2509,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1987.59"
     ],
     "url": "db/conf/focs/focs87.html#HajnalMPST87",
+    "crossref": "conf/focs/FOCS28",
     "authors": [
       [
         "András Hajnal",
@@ -2070,6 +2550,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2006.37"
     ],
     "url": "db/conf/focs/focs2006.html#Sarlos06",
+    "crossref": "conf/focs/2006",
     "authors": [
       [
         "Tamás Sarlós",
@@ -2091,6 +2572,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1135777.1135823",
     "url": "db/conf/www/www2006.html#SarlosBCFR06",
+    "crossref": "conf/www/2006",
     "authors": [
       [
         "Tamás Sarlós",
@@ -2129,6 +2611,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=1070432.1070458",
     "url": "db/conf/soda/soda2005.html#VeghB05",
+    "crossref": "conf/soda/2005",
     "authors": [
       [
         "László A. Végh",
@@ -2157,6 +2640,7 @@
       "#text": "http://proceedings.mlr.press/v30/Devroye13.html"
     },
     "url": "db/conf/colt/colt2013.html#DevroyeLN13",
+    "crossref": "conf/colt/2013",
     "authors": [
       [
         "Luc Devroye",
@@ -2165,6 +2649,41 @@
       [
         "Gábor Lugosi",
         "70/3715"
+      ],
+      [
+        "Gergely Neu",
+        "83/7606"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/nips/ZiminN13": {
+    "key": "conf/nips/ZiminN13",
+    "title": "Online learning in episodic Markovian decision processes by relative entropy policy search.",
+    "venue": "NIPS",
+    "year": "2013",
+    "pages": "1583-1591",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2013/hash/68053af2923e00204c3ca7c6a3150cf7-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/4974-online-learning-in-episodic-markovian-decision-processes-by-relative-entropy-policy-search"
+      }
+    ],
+    "url": "db/conf/nips/nips2013.html#ZiminN13",
+    "crossref": "conf/nips/2013",
+    "authors": [
+      [
+        "Alexander Zimin",
+        "139/1318"
       ],
       [
         "Gergely Neu",
@@ -2189,6 +2708,7 @@
       "https://www.wikidata.org/entity/Q135685490"
     ],
     "url": "db/conf/stoc/stoc2025.html#BercziGI0MS25",
+    "crossref": "conf/stoc/2025",
     "authors": [
       [
         "Kristóf Bérczi",
@@ -2233,6 +2753,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2006.28"
     ],
     "url": "db/conf/focs/focs2006.html#LovaszV06",
+    "crossref": "conf/focs/2006",
     "authors": [
       [
         "László Lovász 0001",
@@ -2258,6 +2779,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=1109557.1109563",
     "url": "db/conf/soda/soda2006.html#AroraLNRRV06",
+    "crossref": "conf/soda/2006",
     "authors": [
       [
         "Sanjeev Arora",
@@ -2302,6 +2824,7 @@
       "https://www.wikidata.org/entity/Q105584207"
     ],
     "url": "db/conf/stoc/stoc2006.html#BorgsCLSSV06",
+    "crossref": "conf/stoc/2006",
     "authors": [
       [
         "Christian Borgs",
@@ -2347,6 +2870,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1998.743451"
     ],
     "url": "db/conf/focs/focs98.html#BriedenGKKLS98",
+    "crossref": "conf/focs/1998",
     "authors": [
       [
         "Andreas Brieden",
@@ -2391,6 +2915,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1992.267803"
     ],
     "url": "db/conf/focs/focs92.html#LovaszS92",
+    "crossref": "conf/focs/FOCS33",
     "authors": [
       [
         "László Lovász 0001",
@@ -2419,6 +2944,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FSCS.1990.89553"
     ],
     "url": "db/conf/focs/focs90.html#LovaszS90",
+    "crossref": "conf/focs/FOCS31a",
     "authors": [
       [
         "László Lovász 0001",
@@ -2444,6 +2970,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/800057.808681",
     "url": "db/conf/stoc/stoc84.html#KannanLL84",
+    "crossref": "conf/stoc/STOC16",
     "authors": [
       [
         "Ravindran Kannan",
@@ -2479,6 +3006,7 @@
       "https://doi.org/10.1109/CVPR42600.2020.01379"
     ],
     "url": "db/conf/cvpr/cvpr2020.html#CsurkaKJH20",
+    "crossref": "conf/cvpr/2020",
     "authors": [
       [
         "Gabriela Csurka",
@@ -2515,6 +3043,7 @@
       "#text": "http://proceedings.mlr.press/v70/busa-fekete17a.html"
     },
     "url": "db/conf/icml/icml2017.html#Busa-FeketeSWM17",
+    "crossref": "conf/icml/2017",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2551,6 +3080,7 @@
       "#text": "http://proceedings.mlr.press/v37/szorenyi15.html"
     },
     "url": "db/conf/icml/icml2015.html#SzorenyiBWH15",
+    "crossref": "conf/icml/2015",
     "authors": [
       [
         "Balázs Szörényi",
@@ -2575,6 +3105,92 @@
       "theory"
     ]
   },
+  "conf/nips/Busa-FeketeSDH15": {
+    "key": "conf/nips/Busa-FeketeSDH15",
+    "title": "Online F-Measure Optimization.",
+    "venue": "NIPS",
+    "year": "2015",
+    "pages": "595-603",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2015/hash/d1f255a373a3cef72e03aa9d980c7eca-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/5994-online-f-measure-optimization"
+      }
+    ],
+    "url": "db/conf/nips/nips2015.html#Busa-FeketeSDH15",
+    "crossref": "conf/nips/2015",
+    "authors": [
+      [
+        "Róbert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "Balázs Szörényi",
+        "90/1311"
+      ],
+      [
+        "Krzysztof Dembczynski",
+        "91/3569"
+      ],
+      [
+        "Eyke Hüllermeier",
+        "h/EykeHullermeier"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/nips/SzorenyiBPH15": {
+    "key": "conf/nips/SzorenyiBPH15",
+    "title": "Online Rank Elicitation for Plackett-Luce: A Dueling Bandits Approach.",
+    "venue": "NIPS",
+    "year": "2015",
+    "pages": "604-612",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2015/hash/7eacb532570ff6858afd2723755ff790-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/5903-online-rank-elicitation-for-plackett-luce-a-dueling-bandits-approach"
+      }
+    ],
+    "url": "db/conf/nips/nips2015.html#SzorenyiBPH15",
+    "crossref": "conf/nips/2015",
+    "authors": [
+      [
+        "Balázs Szörényi",
+        "90/1311"
+      ],
+      [
+        "Róbert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "Adil Paul",
+        "172/3691"
+      ],
+      [
+        "Eyke Hüllermeier",
+        "h/EykeHullermeier"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/aaai/Busa-FeketeSH14": {
     "key": "conf/aaai/Busa-FeketeSH14",
     "title": "PAC Rank Elicitation through Adaptive Sampling of Stochastic Pairwise Preferences.",
@@ -2587,6 +3203,7 @@
       "#text": "https://doi.org/10.1609/aaai.v28i1.8978"
     },
     "url": "db/conf/aaai/aaai2014.html#Busa-FeketeSH14",
+    "crossref": "conf/aaai/2014",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2619,6 +3236,7 @@
       "#text": "http://proceedings.mlr.press/v32/busa-fekete14.html"
     },
     "url": "db/conf/icml/icml2014.html#Busa-FeketeHS14",
+    "crossref": "conf/icml/2014",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2639,6 +3257,45 @@
       "theory"
     ]
   },
+  "conf/emnlp/SzarvasBH13": {
+    "key": "conf/emnlp/SzarvasBH13",
+    "title": "Learning to Rank Lexical Substitutions.",
+    "venue": "EMNLP",
+    "year": "2013",
+    "pages": "1926-1932",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://doi.org/10.18653/v1/d13-1198"
+      },
+      {
+        "@type": "oa",
+        "#text": "https://aclanthology.org/D13-1198/"
+      }
+    ],
+    "url": "db/conf/emnlp/emnlp2013.html#SzarvasBH13",
+    "crossref": "conf/emnlp/2013",
+    "authors": [
+      [
+        "György Szarvas",
+        "39/6822"
+      ],
+      [
+        "Róbert Busa-Fekete",
+        "69/4876"
+      ],
+      [
+        "Eyke Hüllermeier",
+        "h/EykeHullermeier"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/icml/SzorenyiBHOJK13": {
     "key": "conf/icml/SzorenyiBHOJK13",
     "title": "Gossip-based distributed stochastic bandit algorithms.",
@@ -2651,6 +3308,7 @@
       "#text": "http://proceedings.mlr.press/v28/szorenyi13.html"
     },
     "url": "db/conf/icml/icml2013.html#SzorenyiBHOJK13",
+    "crossref": "conf/icml/2013",
     "authors": [
       [
         "Balázs Szörényi",
@@ -2695,6 +3353,7 @@
       "#text": "http://proceedings.mlr.press/v28/busa-fekete13.html"
     },
     "url": "db/conf/icml/icml2013.html#Busa-FeketeSCWH13",
+    "crossref": "conf/icml/2013",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2735,6 +3394,7 @@
       "#text": "http://icml.cc/2012/papers/501.pdf"
     },
     "url": "db/conf/icml/icml2012.html#Busa-FeketeBK12",
+    "crossref": "conf/icml/2012",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2767,6 +3427,7 @@
       "#text": "https://icml.cc/Conferences/2010/papers/263.pdf"
     },
     "url": "db/conf/icml/icml2010.html#Busa-FeketeK10",
+    "crossref": "conf/icml/2010",
     "authors": [
       [
         "Róbert Busa-Fekete",
@@ -2792,6 +3453,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1553374.1553439",
     "url": "db/conf/icml/icml2009.html#KeglB09",
+    "crossref": "conf/icml/2009",
     "authors": [
       [
         "Balázs Kégl",
@@ -2817,6 +3479,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611978322.152",
     "url": "db/conf/soda/soda2025.html#PettieT25",
+    "crossref": "conf/soda/2025",
     "authors": [
       [
         "Seth Pettie",
@@ -2842,6 +3505,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977912.45",
     "url": "db/conf/soda/soda2024.html#PettieT24",
+    "crossref": "conf/soda/2024",
     "authors": [
       [
         "Seth Pettie",
@@ -2873,6 +3537,7 @@
       "http://dl.acm.org/citation.cfm?id=3039834"
     ],
     "url": "db/conf/soda/soda2017.html#KellerST17",
+    "crossref": "conf/soda/2017",
     "authors": [
       [
         "Chaya Keller",
@@ -2905,6 +3570,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2013.78"
     ],
     "url": "db/conf/focs/focs2013.html#SaglamT13",
+    "crossref": "conf/focs/2013",
     "authors": [
       [
         "Mert Saglam",
@@ -2930,6 +3596,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/780542.780561",
     "url": "db/conf/stoc/stoc2003.html#Tardo03",
+    "crossref": "conf/stoc/2003",
     "authors": [
       [
         "Gábor Tardos",
@@ -2954,6 +3621,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1998.743459"
     ],
     "url": "db/conf/focs/focs98.html#GrolmuszT98",
+    "crossref": "conf/focs/1998",
     "authors": [
       [
         "Vince Grolmusz",
@@ -2980,6 +3648,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/258533.258639",
     "url": "db/conf/stoc/stoc1997.html#AlonDMPT97",
+    "crossref": "conf/stoc/1997",
     "authors": [
       [
         "Noga Alon",
@@ -3017,6 +3686,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/258533.258643",
     "url": "db/conf/stoc/stoc1997.html#KilianPT97",
+    "crossref": "conf/stoc/1997",
     "authors": [
       [
         "Joe Kilian",
@@ -3049,6 +3719,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1996.548508"
     ],
     "url": "db/conf/focs/focs96.html#PetrankT96",
+    "crossref": "conf/focs/1996",
     "authors": [
       [
         "Erez Petrank",
@@ -3074,6 +3745,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=320176.320208",
     "url": "db/conf/soda/soda90.html#BermanKT90",
+    "crossref": "conf/soda/1990",
     "authors": [
       [
         "Piotr Berman",
@@ -3103,6 +3775,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/100216.100268",
     "url": "db/conf/stoc/stoc90.html#Ben-DavidBKTW90",
+    "crossref": "conf/stoc/STOC22",
     "authors": [
       [
         "Shai Ben-David",
@@ -3143,6 +3816,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63482"
     ],
     "url": "db/conf/focs/focs89.html#ImpagliazzoT89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "Russell Impagliazzo",
@@ -3171,6 +3845,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63490"
     ],
     "url": "db/conf/focs/focs89.html#FiatMSST89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "Amos Fiat",
@@ -3208,6 +3883,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1060590.1060614",
     "url": "db/conf/stoc/stoc2005.html#FriedlIS05",
+    "crossref": "conf/stoc/2005",
     "authors": [
       [
         "Katalin Friedl",
@@ -3241,6 +3917,7 @@
       "https://www.wikidata.org/entity/Q130926772"
     ],
     "url": "db/conf/stoc/stoc2003.html#FriedlIMSS03",
+    "crossref": "conf/stoc/2003",
     "authors": [
       [
         "Katalin Friedl",
@@ -3282,6 +3959,7 @@
       "#text": "https://doi.org/10.1609/aaai.v34i05.6235"
     },
     "url": "db/conf/aaai/aaai2020.html#BaloghBDT20",
+    "crossref": "conf/aaai/2020",
     "authors": [
       [
         "Vanda Balogh",
@@ -3319,6 +3997,7 @@
       "#text": "http://ijcai.org/Abstract/15/456"
     },
     "url": "db/conf/ijcai/ijcai2015.html#TuranY15",
+    "crossref": "conf/ijcai/2015",
     "authors": [
       [
         "György Turán",
@@ -3347,10 +4026,49 @@
       "#text": "http://www.aaai.org/ocs/index.php/KR/KR12/paper/view/4497"
     },
     "url": "db/conf/kr/kr2012.html#AdarichevaSST12",
+    "crossref": "conf/kr/2012",
     "authors": [
       [
         "Kira V. Adaricheva",
         "00/1274"
+      ],
+      [
+        "Robert H. Sloan",
+        "s/RobertHSloan"
+      ],
+      [
+        "Balázs Szörényi",
+        "90/1311"
+      ],
+      [
+        "György Turán",
+        "50/4701"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "Hungary",
+      "international",
+      "theory"
+    ]
+  },
+  "conf/aaai/LangloisSST08": {
+    "key": "conf/aaai/LangloisSST08",
+    "title": "Horn Complements: Towards Horn-to-Horn Belief Revision.",
+    "venue": "AAAI",
+    "year": "2008",
+    "pages": "466-471",
+    "doi": "",
+    "ee": {
+      "@type": "archive",
+      "#text": "http://www.aaai.org/Library/AAAI/2008/aaai08-074.php"
+    },
+    "url": "db/conf/aaai/aaai2008.html#LangloisSST08",
+    "crossref": "conf/aaai/2008",
+    "authors": [
+      [
+        "Marina Langlois",
+        "49/3075"
       ],
       [
         "Robert H. Sloan",
@@ -3381,6 +4099,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-540-45167-9_45",
     "url": "db/conf/colt/colt2003.html#SloanST03",
+    "crossref": "conf/colt/2003",
     "authors": [
       [
         "Robert H. Sloan",
@@ -3411,6 +4130,7 @@
     "doi": "",
     "ee": "",
     "url": "db/conf/colt/colt2000.html#GoldsmithSST00",
+    "crossref": "conf/colt/2000",
     "authors": [
       [
         "Judy Goldsmith",
@@ -3445,6 +4165,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/307400.307411",
     "url": "db/conf/colt/colt1999.html#SloanT99",
+    "crossref": "conf/colt/1999",
     "authors": [
       [
         "Robert H. Sloan",
@@ -3470,6 +4191,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/279943.279978",
     "url": "db/conf/colt/colt1998.html#TsaparaT98",
+    "crossref": "conf/colt/1998",
     "authors": [
       [
         "Irene Tsapara",
@@ -3495,6 +4217,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/267460.267468",
     "url": "db/conf/colt/colt1997.html#HorvathST97",
+    "crossref": "conf/colt/1997",
     "authors": [
       [
         "Tamás Horváth 0001",
@@ -3524,6 +4247,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/180139.181128",
     "url": "db/conf/colt/colt1994.html#SloanT94",
+    "crossref": "conf/colt/1994",
     "authors": [
       [
         "Robert H. Sloan",
@@ -3552,6 +4276,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1994.365735"
     ],
     "url": "db/conf/focs/focs94.html#TuranV94",
+    "crossref": "conf/focs/FOCS35",
     "authors": [
       [
         "György Turán",
@@ -3577,6 +4302,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/168304.168382",
     "url": "db/conf/colt/colt1993.html#Turan93",
+    "crossref": "conf/colt/1993",
     "authors": [
       [
         "György Turán",
@@ -3598,6 +4324,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=102684",
     "url": "db/conf/colt/colt1990.html#MaassT90",
+    "crossref": "conf/colt/1990",
     "authors": [
       [
         "Wolfgang Maass 0001",
@@ -3626,6 +4353,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FSCS.1990.89539"
     ],
     "url": "db/conf/focs/focs90.html#MaassT90",
+    "crossref": "conf/focs/FOCS31a",
     "authors": [
       [
         "Wolfgang Maass 0001",
@@ -3654,6 +4382,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63488"
     ],
     "url": "db/conf/focs/focs89.html#MaassT89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "Wolfgang Maass 0001",
@@ -3679,6 +4408,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/62212.62228",
     "url": "db/conf/stoc/stoc88.html#HajnalMT88",
+    "crossref": "conf/stoc/STOC20",
     "authors": [
       [
         "András Hajnal",
@@ -3711,6 +4441,7 @@
       "https://doi.org/10.1109/IPSN.2006.243912"
     ],
     "url": "db/conf/ipsn/ipsn2006.html#KusyLMM06",
+    "crossref": "conf/ipsn/2006",
     "authors": [
       [
         "Branislav Kusy",
@@ -3747,6 +4478,7 @@
       "http://dl.acm.org/citation.cfm?id=1147771"
     ],
     "url": "db/conf/ipsn/ipsn2005.html#LedecziVMSBNKD05",
+    "crossref": "conf/ipsn/2005",
     "authors": [
       [
         "Ákos Lédeczi",
@@ -3796,6 +4528,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1098918.1098920",
     "url": "db/conf/sensys/sensys2005.html#MarotiVDKNLBM05",
+    "crossref": "conf/sensys/2005",
     "authors": [
       [
         "Miklós Maróti",
@@ -3845,6 +4578,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM52122.2024.10621256",
     "url": "db/conf/infocom/infocom2024.html#Berczi-KovacsGV24",
+    "crossref": "conf/infocom/2024",
     "authors": [
       [
         "Erika R. Bérczi-Kovács",
@@ -3879,6 +4613,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM53939.2023.10229023",
     "url": "db/conf/infocom/infocom2023.html#TapolcaiBHR23",
+    "crossref": "conf/infocom/2023",
     "authors": [
       [
         "János Tapolcai",
@@ -3912,6 +4647,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM48880.2022.9796870",
     "url": "db/conf/infocom/infocom2022.html#VassBBHT22",
+    "crossref": "conf/infocom/2022",
     "authors": [
       [
         "Balázs Vass",
@@ -3950,6 +4686,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM42981.2021.9488879",
     "url": "db/conf/infocom/infocom2021.html#TapolcaiHPHR21",
+    "crossref": "conf/infocom/2021",
     "authors": [
       [
         "János Tapolcai",
@@ -3987,6 +4724,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2018.8486415",
     "url": "db/conf/infocom/infocom2018.html#KissHTRR18",
+    "crossref": "conf/infocom/2018",
     "authors": [
       [
         "Sándor Z. Kiss",
@@ -4024,6 +4762,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2018.8486218",
     "url": "db/conf/infocom/infocom2018.html#TapolcaiVHBHKR18",
+    "crossref": "conf/infocom/2018",
     "authors": [
       [
         "János Tapolcai",
@@ -4069,6 +4808,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2017.8057040",
     "url": "db/conf/infocom/infocom2017.html#TapolcaiRVG17",
+    "crossref": "conf/infocom/2017",
     "authors": [
       [
         "János Tapolcai",
@@ -4102,6 +4842,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2017.8057143",
     "url": "db/conf/infocom/infocom2017.html#TokaLHFGT17",
+    "crossref": "conf/infocom/2017",
     "authors": [
       [
         "László Toka",
@@ -4147,6 +4888,7 @@
       "https://www.wikidata.org/entity/Q58033060"
     ],
     "url": "db/conf/infocom/infocom2014.html#TapolcaiRHHS14",
+    "crossref": "conf/infocom/2014",
     "authors": [
       [
         "János Tapolcai",
@@ -4175,42 +4917,6 @@
       "applied"
     ]
   },
-  "conf/infocom/TapolcaiHBR13": {
-    "key": "conf/infocom/TapolcaiHBR13",
-    "title": "On achieving all-optical failure restoration via monitoring trails.",
-    "venue": "INFOCOM",
-    "year": "2013",
-    "pages": "380-384",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/INFCOM.2013.6566799",
-      "https://www.wikidata.org/entity/Q58033085"
-    ],
-    "url": "db/conf/infocom/infocom2013.html#TapolcaiHBR13",
-    "authors": [
-      [
-        "János Tapolcai",
-        "14/4896"
-      ],
-      [
-        "Pin-Han Ho",
-        "53/4284"
-      ],
-      [
-        "Péter Babarczi",
-        "06/8283"
-      ],
-      [
-        "Lajos Rónyai",
-        "33/5156"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "mostly_hungarian",
-      "applied"
-    ]
-  },
   "conf/infocom/TapolcaiR13": {
     "key": "conf/infocom/TapolcaiR13",
     "title": "Router virtualization for improving IP-level resilience.",
@@ -4223,6 +4929,7 @@
       "https://www.wikidata.org/entity/Q58033106"
     ],
     "url": "db/conf/infocom/infocom2013.html#TapolcaiR13",
+    "crossref": "conf/infocom/2013",
     "authors": [
       [
         "János Tapolcai",
@@ -4252,6 +4959,7 @@
       "https://www.wikidata.org/entity/Q58033069"
     ],
     "url": "db/conf/sigcomm/sigcomm2013.html#RetvariTKMH13",
+    "crossref": "conf/sigcomm/2013",
     "authors": [
       [
         "Gábor Rétvári",
@@ -4292,6 +5000,7 @@
       "https://www.wikidata.org/entity/Q58033175"
     ],
     "url": "db/conf/infocom/infocom2011.html#RetvariTEC11",
+    "crossref": "conf/infocom/2011",
     "authors": [
       [
         "Gábor Rétvári",
@@ -4317,38 +5026,6 @@
       "applied"
     ]
   },
-  "conf/infocom/TapolcaiRH10": {
-    "key": "conf/infocom/TapolcaiRH10",
-    "title": "Optimal Solutions for Single Fault Localization in Two Dimensional Lattice Networks.",
-    "venue": "INFOCOM",
-    "year": "2010",
-    "pages": "161-165",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/INFCOM.2010.5462251",
-      "https://www.wikidata.org/entity/Q58033212"
-    ],
-    "url": "db/conf/infocom/infocom2010.html#TapolcaiRH10",
-    "authors": [
-      [
-        "János Tapolcai",
-        "14/4896"
-      ],
-      [
-        "Lajos Rónyai",
-        "33/5156"
-      ],
-      [
-        "Pin-Han Ho",
-        "53/4284"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "mostly_hungarian",
-      "applied"
-    ]
-  },
   "conf/infocom/TapolcaiWH09": {
     "key": "conf/infocom/TapolcaiWH09",
     "title": "On Monitoring and Failure Localization in Mesh All-Optical Networks.",
@@ -4361,6 +5038,7 @@
       "https://www.wikidata.org/entity/Q58033235"
     ],
     "url": "db/conf/infocom/infocom2009.html#TapolcaiWH09",
+    "crossref": "conf/infocom/2009",
     "authors": [
       [
         "János Tapolcai",
@@ -4373,46 +5051,6 @@
       [
         "Pin-Han Ho",
         "53/4284"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/infocom/WuHYTM09": {
-    "key": "conf/infocom/WuHYTM09",
-    "title": "CFP: Cooperative Fast Protection.",
-    "venue": "INFOCOM",
-    "year": "2009",
-    "pages": "2606-2610",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/INFCOM.2009.5062196",
-      "https://www.wikidata.org/entity/Q58033233"
-    ],
-    "url": "db/conf/infocom/infocom2009.html#WuHYTM09",
-    "authors": [
-      [
-        "Bin Wu 0002",
-        "98/4432-2"
-      ],
-      [
-        "Pin-Han Ho",
-        "53/4284"
-      ],
-      [
-        "Kwan L. Yeung",
-        "y/KwanLawrenceYeung"
-      ],
-      [
-        "János Tapolcai",
-        "14/4896"
-      ],
-      [
-        "Hussein T. Mouftah",
-        "217/2530"
       ]
     ],
     "classfiied": [
@@ -4430,6 +5068,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/238061.238160",
     "url": "db/conf/colt/colt1996.html#AntosL96",
+    "crossref": "conf/colt/1996",
     "authors": [
       [
         "András Antos",
@@ -4455,6 +5094,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/73007.73063",
     "url": "db/conf/stoc/stoc89.html#FriedmanKS89",
+    "crossref": "conf/stoc/STOC21",
     "authors": [
       [
         "Joel Friedman",
@@ -4484,6 +5124,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/62212.62261",
     "url": "db/conf/stoc/stoc88.html#PintzSS88",
+    "crossref": "conf/stoc/STOC20",
     "authors": [
       [
         "Janos Pintz",
@@ -4516,6 +5157,7 @@
       "https://www.wikidata.org/entity/Q130990191"
     ],
     "url": "db/conf/stoc/stoc87.html#MaassSS87",
+    "crossref": "conf/stoc/STOC19",
     "authors": [
       [
         "Wolfgang Maass 0001",
@@ -4548,6 +5190,7 @@
       "https://www.wikidata.org/entity/Q130994386"
     ],
     "url": "db/conf/stoc/stoc86.html#GalilKS86",
+    "crossref": "conf/stoc/STOC18",
     "authors": [
       [
         "Zvi Galil",
@@ -4577,6 +5220,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/800113.803647",
     "url": "db/conf/stoc/stoc76.html#GuibasS76",
+    "crossref": "conf/stoc/STOC8",
     "authors": [
       [
         "Leonidas J. Guibas",
@@ -4605,6 +5249,7 @@
       "#text": "http://proceedings.mlr.press/v48/korda16.html"
     },
     "url": "db/conf/icml/icml2016.html#KordaSL16",
+    "crossref": "conf/icml/2016",
     "authors": [
       [
         "Nathan Korda",
@@ -4625,6 +5270,45 @@
       "theory"
     ]
   },
+  "conf/nips/SzorenyiKM14": {
+    "key": "conf/nips/SzorenyiKM14",
+    "title": "Optimistic Planning in Markov Decision Processes Using a Generative Model.",
+    "venue": "NIPS",
+    "year": "2014",
+    "pages": "1035-1043",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://proceedings.neurips.cc/paper/2014/hash/b73dfe25b4b8714c029b37a6ad3006fa-Abstract.html"
+      },
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/5368-optimistic-planning-in-markov-decision-processes-using-a-generative-model"
+      }
+    ],
+    "url": "db/conf/nips/nips2014.html#SzorenyiKM14",
+    "crossref": "conf/nips/2014",
+    "authors": [
+      [
+        "Balázs Szörényi",
+        "90/1311"
+      ],
+      [
+        "Gunnar Kedenburg",
+        "139/1389"
+      ],
+      [
+        "Rémi Munos",
+        "69/6815"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/icra/AntalPT25": {
     "key": "conf/icra/AntalPT25",
     "title": "Hook-Based Aerial Payload Grasping from a Moving Platform.",
@@ -4634,6 +5318,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICRA55743.2025.11127483",
     "url": "db/conf/icra/icra2025.html#AntalPT25",
+    "crossref": "conf/icra/2025",
     "authors": [
       [
         "Péter Antal",
@@ -4667,6 +5352,7 @@
       "#text": "https://openreview.net/forum?id=_4n3k3d1ob"
     },
     "url": "db/conf/iclr/iclr2023.html#BeintemaST23",
+    "crossref": "conf/iclr/2023",
     "authors": [
       [
         "Gerben Izaak Beintema",
@@ -4687,6 +5373,50 @@
       "applied"
     ]
   },
+  "conf/eccv/JeniLSCK14": {
+    "key": "conf/eccv/JeniLSCK14",
+    "title": "Spatio-temporal Event Classification Using Time-Series Kernel Based Structured Sparsity.",
+    "venue": "ECCV (4)",
+    "year": "2014",
+    "pages": "135-150",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://doi.org/10.1007/978-3-319-10593-2_10"
+      },
+      "https://www.wikidata.org/entity/Q88729595"
+    ],
+    "url": "db/conf/eccv/eccv2014-4.html#JeniLSCK14",
+    "crossref": "conf/eccv/2014-4",
+    "authors": [
+      [
+        "László A. Jeni",
+        "35/7547"
+      ],
+      [
+        "András Lörincz",
+        "81/2260"
+      ],
+      [
+        "Zoltán Szabó 0001",
+        "73/2909-1"
+      ],
+      [
+        "Jeffrey F. Cohn",
+        "54/1171"
+      ],
+      [
+        "Takeo Kanade",
+        "k/TakeoKanade"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "applied"
+    ]
+  },
   "conf/issac/Janovitz-FreireichSMR08": {
     "key": "conf/issac/Janovitz-FreireichSMR08",
     "title": "Moment matrices, trace matrices and the radical of ideals.",
@@ -4696,6 +5426,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1390768.1390788",
     "url": "db/conf/issac/issac2008.html#Janovitz-FreireichSMR08",
+    "crossref": "conf/issac/2008",
     "authors": [
       [
         "Itnuit Janovitz-Freireich",
@@ -4729,6 +5460,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1145768.1145796",
     "url": "db/conf/issac/issac2006.html#Janovitz-FreireichRS06",
+    "crossref": "conf/issac/2006",
     "authors": [
       [
         "Itnuit Janovitz-Freireich",
@@ -4761,6 +5493,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1989.63462"
     ],
     "url": "db/conf/focs/focs89.html#Ronyai89",
+    "crossref": "conf/focs/FOCS30",
     "authors": [
       [
         "Lajos Rónyai",
@@ -4785,6 +5518,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1987.25"
     ],
     "url": "db/conf/focs/focs87.html#Ronyai87",
+    "crossref": "conf/focs/FOCS28",
     "authors": [
       [
         "Lajos Rónyai",
@@ -4806,6 +5540,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/28395.28438",
     "url": "db/conf/stoc/stoc87.html#Ronyai87",
+    "crossref": "conf/stoc/STOC19",
     "authors": [
       [
         "Lajos Rónyai",
@@ -4827,6 +5562,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/22145.22162",
     "url": "db/conf/stoc/stoc85.html#FriedlR85",
+    "crossref": "conf/stoc/STOC17",
     "authors": [
       [
         "Katalin Friedl",
@@ -4852,6 +5588,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM53939.2023.10228937",
     "url": "db/conf/infocom/infocom2023.html#AddankiPPRSV23",
+    "crossref": "conf/infocom/2023",
     "authors": [
       [
         "Vamsi Addanki",
@@ -4893,6 +5630,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3503222.3507769",
     "url": "db/conf/asplos/asplos2022.html#MianoSRRA22",
+    "crossref": "conf/asplos/2022",
     "authors": [
       [
         "Sebastiano Miano",
@@ -4933,6 +5671,7 @@
       "https://www.wikidata.org/entity/Q131121827"
     ],
     "url": "db/conf/sigcomm/sigcomm2016.html#MolnarPEKCJKR16",
+    "crossref": "conf/sigcomm/2016",
     "authors": [
       [
         "László Molnár",
@@ -4984,6 +5723,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1993806.1993828",
     "url": "db/conf/podc/podc2011.html#RetvariGHCB11",
+    "crossref": "conf/podc/2011",
     "authors": [
       [
         "Gábor Rétvári",
@@ -5021,6 +5761,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2010.5461925",
     "url": "db/conf/infocom/infocom2010.html#RetvariN10",
+    "crossref": "conf/infocom/2010",
     "authors": [
       [
         "Gábor Rétvári",
@@ -5037,40 +5778,6 @@
       "applied"
     ]
   },
-  "conf/infocom/EnyediSRC09": {
-    "key": "conf/infocom/EnyediSRC09",
-    "title": "IP Fast ReRoute: Lightweight Not-Via without Additional Addresses.",
-    "venue": "INFOCOM",
-    "year": "2009",
-    "pages": "2771-2775",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/INFCOM.2009.5062229",
-    "url": "db/conf/infocom/infocom2009.html#EnyediSRC09",
-    "authors": [
-      [
-        "Gábor Enyedi",
-        "50/870"
-      ],
-      [
-        "Péter Szilágyi",
-        "05/2204"
-      ],
-      [
-        "Gábor Rétvári",
-        "45/5812"
-      ],
-      [
-        "András Császár",
-        "54/6911"
-      ]
-    ],
-    "classfiied": [
-      "Ericsson",
-      "BME",
-      "mostly_hungarian",
-      "applied"
-    ]
-  },
   "conf/infocom/RetvariBC07": {
     "key": "conf/infocom/RetvariBC07",
     "title": "Fairness in Capacitated Networks: A Polyhedral Approach.",
@@ -5080,6 +5787,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2007.188",
     "url": "db/conf/infocom/infocom2007.html#RetvariBC07",
+    "crossref": "conf/infocom/2007",
     "authors": [
       [
         "Gábor Rétvári",
@@ -5109,6 +5817,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2005.1497897",
     "url": "db/conf/infocom/infocom2005.html#RetvariBCH05",
+    "crossref": "conf/infocom/2005",
     "authors": [
       [
         "Gábor Rétvári",
@@ -5145,6 +5854,7 @@
       "#text": "https://doi.org/10.1609/aaai.v39i15.33698"
     },
     "url": "db/conf/aaai/aaai2025.html#BaloghJ25",
+    "crossref": "conf/aaai/2025",
     "authors": [
       [
         "András Balogh",
@@ -5171,6 +5881,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-031-72986-7_1",
     "url": "db/conf/eccv/eccv2024-79.html#HalmosiMJ24",
+    "crossref": "conf/eccv/2024-79",
     "authors": [
       [
         "Levente Halmosi",
@@ -5203,6 +5914,7 @@
       "#text": "https://proceedings.mlr.press/v202/balogh23a.html"
     },
     "url": "db/conf/icml/icml2023.html#BaloghJ23",
+    "crossref": "conf/icml/2023",
     "authors": [
       [
         "András Balogh",
@@ -5232,6 +5944,7 @@
       "#text": "https://openreview.net/forum?id=4IwieFS44l"
     },
     "url": "db/conf/iclr/iclr2021.html#ZomboriBCMJ21",
+    "crossref": "conf/iclr/2021",
     "authors": [
       [
         "Dániel Zombori",
@@ -5260,38 +5973,6 @@
       "applied"
     ]
   },
-  "conf/dsn/MontresorJB04": {
-    "key": "conf/dsn/MontresorJB04",
-    "title": "Robust Aggregation Protocols for Large-Scale Overlay Networks.",
-    "venue": "DSN",
-    "year": "2004",
-    "pages": "19-28",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/DSN.2004.1311873",
-      "https://doi.ieeecomputersociety.org/10.1109/DSN.2004.1311873"
-    ],
-    "url": "db/conf/dsn/dsn2004.html#MontresorJB04",
-    "authors": [
-      [
-        "Alberto Montresor",
-        "m/AlbertoMontresor"
-      ],
-      [
-        "Márk Jelasity",
-        "99/618"
-      ],
-      [
-        "Özalp Babaoglu",
-        "b/OBabaoglu"
-      ]
-    ],
-    "classfiied": [
-      "SZTE",
-      "international",
-      "applied"
-    ]
-  },
   "conf/icse/ChenLMV25": {
     "key": "conf/icse/ChenLMV25",
     "title": "The Power of Types: Exploring the Impact of Type Checking on Neural Bug Detection in Dynamically Typed Languages.",
@@ -5301,6 +5982,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICSE55347.2025.00088",
     "url": "db/conf/icse/icse2025.html#ChenLMV25",
+    "crossref": "conf/icse/2025",
     "authors": [
       [
         "Boqi Chen",
@@ -5334,6 +6016,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3551349.3560433",
     "url": "db/conf/kbse/ase2022.html#ChenMPSV22",
+    "crossref": "conf/kbse/2022",
     "authors": [
       [
         "Boqi Chen",
@@ -5374,6 +6057,7 @@
       "https://ieeexplore.ieee.org/document/8453176"
     ],
     "url": "db/conf/icse/icse2018.html#SemerathNV18",
+    "crossref": "conf/icse/2018",
     "authors": [
       [
         "Oszkár Semeráth",
@@ -5394,6 +6078,95 @@
       "applied"
     ]
   },
+  "conf/kbse/AbdeenVSNDHH14": {
+    "key": "conf/kbse/AbdeenVSNDHH14",
+    "title": "Multi-objective optimization in rule-based design space exploration.",
+    "venue": "ASE",
+    "year": "2014",
+    "pages": "289-300",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1145/2642937.2643005",
+      "https://www.wikidata.org/entity/Q57090060"
+    ],
+    "url": "db/conf/kbse/ase2014.html#AbdeenVSNDHH14",
+    "crossref": "conf/kbse/2014",
+    "authors": [
+      [
+        "Hani Abdeen",
+        "85/4825"
+      ],
+      [
+        "Dániel Varró",
+        "53/1883"
+      ],
+      [
+        "Houari A. Sahraoui",
+        "s/HouariASahraoui"
+      ],
+      [
+        "András Szabolcs Nagy",
+        "150/8871"
+      ],
+      [
+        "Csaba Debreceni",
+        "150/9036"
+      ],
+      [
+        "Ábel Hegedüs",
+        "05/9522"
+      ],
+      [
+        "Ákos Horváth 0001",
+        "17/531-1"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "Hungary",
+      "mostly_hungarian",
+      "applied"
+    ]
+  },
+  "conf/kbse/HegedusHRV11": {
+    "key": "conf/kbse/HegedusHRV11",
+    "title": "A model-driven framework for guided design space exploration.",
+    "venue": "ASE",
+    "year": "2011",
+    "pages": "173-182",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/ASE.2011.6100051",
+      "https://doi.ieeecomputersociety.org/10.1109/ASE.2011.6100051",
+      "https://www.wikidata.org/entity/Q57090089"
+    ],
+    "url": "db/conf/kbse/ase2011.html#HegedusHRV11",
+    "crossref": "conf/kbse/2011",
+    "authors": [
+      [
+        "Ábel Hegedüs",
+        "05/9522"
+      ],
+      [
+        "Ákos Horváth 0001",
+        "17/531-1"
+      ],
+      [
+        "István Ráth",
+        "07/4090"
+      ],
+      [
+        "Dániel Varró",
+        "53/1883"
+      ]
+    ],
+    "classfiied": [
+      "Hungary",
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/soda/CurticapeanLN18": {
     "key": "conf/soda/CurticapeanLN18",
     "title": "A Tight Lower Bound for Counting Hamiltonian Cycles via Matrix Rank.",
@@ -5406,6 +6179,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975031.70"
     },
     "url": "db/conf/soda/soda2018.html#CurticapeanLN18",
+    "crossref": "conf/soda/2018",
     "authors": [
       [
         "Radu Curticapean",
@@ -5438,6 +6212,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2015.65"
     ],
     "url": "db/conf/focs/focs2015.html#CurticapeanX15",
+    "crossref": "conf/focs/2015",
     "authors": [
       [
         "Radu Curticapean",
@@ -5463,6 +6238,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1553374.1553502",
     "url": "db/conf/icml/icml2009.html#SzitaL09",
+    "crossref": "conf/icml/2009",
     "authors": [
       [
         "Istvan Szita",
@@ -5488,6 +6264,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1390156.1390288",
     "url": "db/conf/icml/icml2008.html#SzitaL08",
+    "crossref": "conf/icml/2008",
     "authors": [
       [
         "Istvan Szita",
@@ -5513,6 +6290,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/FOCS61266.2024.00090",
     "url": "db/conf/focs/focs2024.html#IvanyosMQSZ24",
+    "crossref": "conf/focs/2024",
     "authors": [
       [
         "Gábor Ivanyos",
@@ -5550,6 +6328,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977554.ch158",
     "url": "db/conf/soda/soda2023.html#IvanyosQ23",
+    "crossref": "conf/soda/2023",
     "authors": [
       [
         "Gábor Ivanyos",
@@ -5578,6 +6357,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975031.152"
     },
     "url": "db/conf/soda/soda2018.html#IvanyosQ18",
+    "crossref": "conf/soda/2018",
     "authors": [
       [
         "Gábor Ivanyos",
@@ -5586,71 +6366,6 @@
       [
         "Youming Qiao",
         "91/312"
-      ]
-    ],
-    "classfiied": [
-      "SZTAKI",
-      "international",
-      "theory"
-    ]
-  },
-  "conf/issac/BhargavaIMS17": {
-    "key": "conf/issac/BhargavaIMS17",
-    "title": "Irreducibility and Deterministic r-th Root Finding over Finite Fields.",
-    "venue": "ISSAC",
-    "year": "2017",
-    "pages": "37-44",
-    "doi": "",
-    "ee": "https://doi.org/10.1145/3087604.3087620",
-    "url": "db/conf/issac/issac2017.html#BhargavaIMS17",
-    "authors": [
-      [
-        "Vishwas Bhargava",
-        "194/9003"
-      ],
-      [
-        "Gábor Ivanyos",
-        "64/6959"
-      ],
-      [
-        "Rajat Mittal 0001",
-        "60/1673-1"
-      ],
-      [
-        "Nitin Saxena 0001",
-        "86/6915"
-      ]
-    ],
-    "classfiied": [
-      "SZTAKI",
-      "international",
-      "theory"
-    ]
-  },
-  "conf/issac/IvanyosKS09": {
-    "key": "conf/issac/IvanyosKS09",
-    "title": "Schemes for deterministic polynomial factoring.",
-    "venue": "ISSAC",
-    "year": "2009",
-    "pages": "191-198",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1145/1576702.1576730",
-      "https://www.wikidata.org/entity/Q56139159"
-    ],
-    "url": "db/conf/issac/issac2009.html#IvanyosKS09",
-    "authors": [
-      [
-        "Gábor Ivanyos",
-        "64/6959"
-      ],
-      [
-        "Marek Karpinski",
-        "k/MarekKarpinski"
-      ],
-      [
-        "Nitin Saxena 0001",
-        "86/6915"
       ]
     ],
     "classfiied": [
@@ -5668,6 +6383,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/345542.345620",
     "url": "db/conf/issac/issac2000.html#Ivanyos00",
+    "crossref": "conf/issac/2000",
     "authors": [
       [
         "Gábor Ivanyos",
@@ -5689,6 +6405,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/258726.258751",
     "url": "db/conf/issac/issac97.html#ChistovIK97",
+    "crossref": "conf/issac/1997",
     "authors": [
       [
         "Alexander L. Chistov",
@@ -5721,6 +6438,7 @@
       "https://www.wikidata.org/entity/Q130966490"
     ],
     "url": "db/conf/stoc/stoc2018.html#AbrahamsenAM18",
+    "crossref": "conf/stoc/2018",
     "authors": [
       [
         "Mikkel Abrahamsen",
@@ -5750,6 +6468,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977554.ch118",
     "url": "db/conf/soda/soda2023.html#KawarabayashiKK23",
+    "crossref": "conf/soda/2023",
     "authors": [
       [
         "Ken-ichi Kawarabayashi",
@@ -5783,6 +6502,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977073.19",
     "url": "db/conf/soda/soda2022.html#GiannopoulouKKK22",
+    "crossref": "conf/soda/2022",
     "authors": [
       [
         "Archontia C. Giannopoulou",
@@ -5819,6 +6539,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975994.15"
     },
     "url": "db/conf/soda/soda2020.html#GiannopoulouKKK20",
+    "crossref": "conf/soda/2020",
     "authors": [
       [
         "Archontia C. Giannopoulou",
@@ -5855,6 +6576,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975031.109"
     },
     "url": "db/conf/soda/soda2018.html#KimK18",
+    "crossref": "conf/soda/2018",
     "authors": [
       [
         "Eun Jung Kim 0002",
@@ -5883,6 +6605,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2000.832509"
     ],
     "url": "db/conf/infocom/infocom2000-3.html#SzaboBNB00",
+    "crossref": "conf/infocom/2000",
     "authors": [
       [
         "Róbert Szabó",
@@ -5916,6 +6639,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611978322.29",
     "url": "db/conf/soda/soda2025.html#ChenGW25",
+    "crossref": "conf/soda/2025",
     "authors": [
       [
         "Yanlin Chen 0001",
@@ -5945,6 +6669,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977554.ch47",
     "url": "db/conf/soda/soda2023.html#ApeldoornCGN23",
+    "crossref": "conf/soda/2023",
     "authors": [
       [
         "Joran van Apeldoorn",
@@ -5981,6 +6706,7 @@
       "#text": "https://openreview.net/forum?id=pDDODPtpx9"
     },
     "url": "db/conf/iclr/iclr2025.html#KelenJKB25",
+    "crossref": "conf/iclr/2025",
     "authors": [
       [
         "Domokos M. Kelen",
@@ -6015,6 +6741,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/ICDM58522.2023.00030",
     "url": "db/conf/icdm/icdm2023.html#KelenPKB23",
+    "crossref": "conf/icdm/2023",
     "authors": [
       [
         "Domokos M. Kelen",
@@ -6040,31 +6767,6 @@
       "theory"
     ]
   },
-  "conf/wsdm/PalovicsB17": {
-    "key": "conf/wsdm/PalovicsB17",
-    "title": "Raising Graphs From Randomness to Reveal Information Networks.",
-    "venue": "WSDM",
-    "year": "2017",
-    "pages": "23-32",
-    "doi": "",
-    "ee": "https://doi.org/10.1145/3018661.3018664",
-    "url": "db/conf/wsdm/wsdm2017.html#PalovicsB17",
-    "authors": [
-      [
-        "Róbert Pálovics",
-        "132/9381"
-      ],
-      [
-        "András A. Benczúr",
-        "66/5525"
-      ]
-    ],
-    "classfiied": [
-      "SZTAKI",
-      "all_hungarian",
-      "applied"
-    ]
-  },
   "conf/soda/BenczurK98": {
     "key": "conf/soda/BenczurK98",
     "title": {
@@ -6077,6 +6779,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=314613.314835",
     "url": "db/conf/soda/soda98.html#BenczurK98",
+    "crossref": "conf/soda/1998",
     "authors": [
       [
         "András A. Benczúr",
@@ -6110,6 +6813,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/237814.237827",
     "url": "db/conf/stoc/stoc1996.html#BenczurK96",
+    "crossref": "conf/stoc/1996",
     "authors": [
       [
         "András A. Benczúr",
@@ -6138,6 +6842,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1995.492466"
     ],
     "url": "db/conf/focs/focs95.html#Benczur95",
+    "crossref": "conf/focs/1995",
     "authors": [
       [
         "András A. Benczúr",
@@ -6159,6 +6864,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.1997.644537",
     "url": "db/conf/infocom/infocom1997-2.html#ChlamtacEFS97",
+    "crossref": "conf/infocom/1997",
     "authors": [
       [
         "Imrich Chlamtac",
@@ -6192,6 +6898,7 @@
     "doi": "",
     "ee": "https://dl.acm.org/doi/10.5555/3709347.3743822",
     "url": "db/conf/ifaamas/aamas2025.html#SchlotterC25",
+    "crossref": "conf/ifaamas/2025",
     "authors": [
       [
         "Ildikó Schlotter",
@@ -6217,6 +6924,7 @@
     "doi": "",
     "ee": "https://dl.acm.org/doi/10.5555/3709347.3743823",
     "url": "db/conf/ifaamas/aamas2025.html#SchlotterC25a",
+    "crossref": "conf/ifaamas/2025",
     "authors": [
       [
         "Ildikó Schlotter",
@@ -6245,6 +6953,7 @@
       "#text": "https://doi.org/10.24963/ijcai.2025/1154"
     },
     "url": "db/conf/ijcai/ijcai2025.html#00010NRSS25",
+    "crossref": "conf/ijcai/2025",
     "authors": [
       [
         "Jiehua Chen 0001",
@@ -6286,6 +6995,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977912.131",
     "url": "db/conf/soda/soda2024.html#KavithaMSY24",
+    "crossref": "conf/soda/2024",
     "authors": [
       [
         "Telikepalli Kavitha",
@@ -6319,6 +7029,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977073.6",
     "url": "db/conf/soda/soda2022.html#KavithaKMSS22",
+    "crossref": "conf/soda/2022",
     "authors": [
       [
         "Telikepalli Kavitha",
@@ -6360,6 +7071,7 @@
       "#text": "http://www.ijcai.org/Abstract/16/017"
     },
     "url": "db/conf/ijcai/ijcai2016.html#AzizSW16",
+    "crossref": "conf/ijcai/2016",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6392,6 +7104,7 @@
       "#text": "https://doi.org/10.1609/aaai.v25i1.7870"
     },
     "url": "db/conf/aaai/aaai2011.html#SchlotterFE11",
+    "crossref": "conf/aaai/2011",
     "authors": [
       [
         "Ildikó Schlotter",
@@ -6412,27 +7125,6 @@
       "theory"
     ]
   },
-  "conf/iwqos/Fodor06": {
-    "key": "conf/iwqos/Fodor06",
-    "title": "Performance Analysis of a Reuse Partitioning Technique for OFDM Based Evolved UTRA.",
-    "venue": "IWQoS",
-    "year": "2006",
-    "pages": "112-120",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/IWQOS.2006.250457",
-    "url": "db/conf/iwqos/iwqos2006.html#Fodor06",
-    "authors": [
-      [
-        "Gábor Fodor 0001",
-        "14/5281"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "all_hungarian",
-      "applied"
-    ]
-  },
   "conf/infocom/RaczFT99": {
     "key": "conf/infocom/RaczFT99",
     "title": "Weighted Fair Early Packet Discard at an ATM Switch Output Port.",
@@ -6445,6 +7137,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.1999.751672"
     ],
     "url": "db/conf/infocom/infocom1999-3.html#RaczFT99",
+    "crossref": "conf/infocom/1999",
     "authors": [
       [
         "András Rácz",
@@ -6478,6 +7171,7 @@
       "https://doi.org/10.1145/113446.113472"
     ],
     "url": "db/conf/pldi/pldi91.html#FritzsonGKS91",
+    "crossref": "conf/pldi/1991",
     "authors": [
       [
         "Peter Fritzson",
@@ -6514,6 +7208,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/FOCS52979.2021.00029",
     "url": "db/conf/focs/focs2021.html#PalmerP21",
+    "crossref": "conf/focs/2021",
     "authors": [
       [
         "Cory Palmer",
@@ -6539,6 +7234,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=3331721",
     "url": "db/conf/atal/aamas2019.html#BiroKPP19",
+    "crossref": "conf/atal/2019",
     "authors": [
       [
         "Péter Biró 0001",
@@ -6579,6 +7275,7 @@
       "http://dl.acm.org/citation.cfm?id=2133074"
     ],
     "url": "db/conf/soda/soda2011.html#EisenbrandPR11",
+    "crossref": "conf/soda/2011",
     "authors": [
       [
         "Friedrich Eisenbrand",
@@ -6611,6 +7308,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973075.98"
     },
     "url": "db/conf/soda/soda2010.html#EisenbrandHPS10",
+    "crossref": "conf/soda/2010",
     "authors": [
       [
         "Friedrich Eisenbrand",
@@ -6647,6 +7345,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1988.21932"
     ],
     "url": "db/conf/focs/focs88.html#KomlosP88",
+    "crossref": "conf/focs/FOCS29",
     "authors": [
       [
         "János Komlós",
@@ -6675,6 +7374,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1984.715916"
     ],
     "url": "db/conf/focs/focs84.html#Komlos84",
+    "crossref": "conf/focs/FOCS25",
     "authors": [
       [
         "János Komlós",
@@ -6685,6 +7385,64 @@
       "Rényi",
       "all_hungarian",
       "theory"
+    ]
+  },
+  "conf/cvpr/SantaK13": {
+    "key": "conf/cvpr/SantaK13",
+    "title": "Correspondence-Less Non-rigid Registration of Triangular Surface Meshes.",
+    "venue": "CVPR",
+    "year": "2013",
+    "pages": "2275-2282",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CVPR.2013.295",
+      "https://doi.ieeecomputersociety.org/10.1109/CVPR.2013.295"
+    ],
+    "url": "db/conf/cvpr/cvpr2013.html#SantaK13",
+    "crossref": "conf/cvpr/2013",
+    "authors": [
+      [
+        "Zsolt Sánta",
+        "124/7078"
+      ],
+      [
+        "Zoltan Kato",
+        "k/ZKato"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/eccv/DomokosK10": {
+    "key": "conf/eccv/DomokosK10",
+    "title": "Affine Puzzle: Realigning Deformed Object Fragments without Correspondences.",
+    "venue": "ECCV (2)",
+    "year": "2010",
+    "pages": "777-790",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://doi.org/10.1007/978-3-642-15552-9_56"
+    },
+    "url": "db/conf/eccv/eccv2010-2.html#DomokosK10",
+    "crossref": "conf/eccv/2010-2",
+    "authors": [
+      [
+        "Csaba Domokos",
+        "08/1147"
+      ],
+      [
+        "Zoltan Kato",
+        "k/ZKato"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
     ]
   },
   "conf/iccv/NemethDK09": {
@@ -6699,6 +7457,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/ICCV.2009.5459474"
     ],
     "url": "db/conf/iccv/iccv2009.html#NemethDK09",
+    "crossref": "conf/iccv/2009",
     "authors": [
       [
         "József Németh",
@@ -6719,38 +7478,6 @@
       "applied"
     ]
   },
-  "conf/iccv/KatoBZ93": {
-    "key": "conf/iccv/KatoBZ93",
-    "title": "Multiscale Markov random field models for parallel image classification.",
-    "venue": "ICCV",
-    "year": "1993",
-    "pages": "253-257",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/ICCV.1993.378210",
-      "https://doi.ieeecomputersociety.org/10.1109/ICCV.1993.378210"
-    ],
-    "url": "db/conf/iccv/iccv1993.html#KatoBZ93",
-    "authors": [
-      [
-        "Zoltan Kato",
-        "k/ZKato"
-      ],
-      [
-        "Marc Berthod",
-        "23/4016"
-      ],
-      [
-        "Josiane Zerubia",
-        "z/JosianeZerubia"
-      ]
-    ],
-    "classfiied": [
-      "SZTE",
-      "international",
-      "applied"
-    ]
-  },
   "conf/aaai/0001BY22": {
     "key": "conf/aaai/0001BY22",
     "title": "Matching Market Design with Constraints.",
@@ -6763,6 +7490,7 @@
       "#text": "https://doi.org/10.1609/aaai.v36i11.21495"
     },
     "url": "db/conf/aaai/aaai2022.html#0001BY22",
+    "crossref": "conf/aaai/2022",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6798,6 +7526,7 @@
       "https://dl.acm.org/doi/10.5555/3535850.3535861"
     ],
     "url": "db/conf/atal/aamas2022.html#BenedekBKP22",
+    "crossref": "conf/atal/2022",
     "authors": [
       [
         "Márton Benedek",
@@ -6838,6 +7567,7 @@
       }
     ],
     "url": "db/conf/atal/aamas2020.html#0001BB20",
+    "crossref": "conf/atal/2020",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6870,6 +7600,7 @@
       "#text": "https://doi.org/10.1609/aaai.v33i01.33011740"
     },
     "url": "db/conf/aaai/aaai2019.html#0001BHR19",
+    "crossref": "conf/aaai/2019",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6903,6 +7634,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=3091179",
     "url": "db/conf/atal/aamas2017.html#AzizBFGHMR17",
+    "crossref": "conf/atal/2017",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6949,6 +7681,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=2936984",
     "url": "db/conf/atal/aamas2016.html#AzizBLLM16",
+    "crossref": "conf/atal/2016",
     "authors": [
       [
         "Haris Aziz 0001",
@@ -6986,141 +7719,11 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2008.243",
     "url": "db/conf/infocom/infocom2008.html#NguyenT08",
+    "crossref": "conf/infocom/2008",
     "authors": [
       [
         "Viet Thang Nguyen",
         "60/3202"
-      ],
-      [
-        "Miklós Telek",
-        "51/1636"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/dsn/ThummlerBT05": {
-    "key": "conf/dsn/ThummlerBT05",
-    "title": "A Novel Approach for Fitting Probability Distributions to Real Trace Data with the EM Algorithm.",
-    "venue": "DSN",
-    "year": "2005",
-    "pages": "712-721",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/DSN.2005.11",
-      "https://doi.ieeecomputersociety.org/10.1109/DSN.2005.11"
-    ],
-    "url": "db/conf/dsn/dsn2005.html#ThummlerBT05",
-    "authors": [
-      [
-        "Axel Thümmler",
-        "51/1036"
-      ],
-      [
-        "Peter Buchholz 0001",
-        "b/PeterBuchholz"
-      ],
-      [
-        "Miklós Telek",
-        "51/1636"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/dsn/HorvathRT04": {
-    "key": "conf/dsn/HorvathRT04",
-    "title": "Analysis of Second-Order Markov Reward Models.",
-    "venue": "DSN",
-    "year": "2004",
-    "pages": "845-",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/DSN.2004.1311955",
-      "https://doi.ieeecomputersociety.org/10.1109/DSN.2004.1311955"
-    ],
-    "url": "db/conf/dsn/dsn2004.html#HorvathRT04",
-    "authors": [
-      [
-        "Gábor Horváth 0002",
-        "96/3128"
-      ],
-      [
-        "Sándor Rácz",
-        "07/6609"
-      ],
-      [
-        "Miklós Telek",
-        "51/1636"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "Ericsson",
-      "all_hungarian",
-      "applied"
-    ]
-  },
-  "conf/dsn/BobbioHT02": {
-    "key": "conf/dsn/BobbioHT02",
-    "title": "PhFit: A General Phase-type Fitting Tool.",
-    "venue": "DSN",
-    "year": "2002",
-    "pages": "543",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/DSN.2002.1028966",
-      "https://doi.ieeecomputersociety.org/10.1109/DSN.2002.1028966",
-      "https://www.wikidata.org/entity/Q62048506"
-    ],
-    "url": "db/conf/dsn/dsn2002.html#BobbioHT02",
-    "authors": [
-      [
-        "Andrea Bobbio",
-        "b/AndraBobbio"
-      ],
-      [
-        "András Horváth",
-        "26/7012"
-      ],
-      [
-        "Miklós Telek",
-        "51/1636"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/dsn/BobbioHT02a": {
-    "key": "conf/dsn/BobbioHT02a",
-    "title": "The Scale Factor: A New Degree of Freedom in Phase Type Approximation.",
-    "venue": "DSN",
-    "year": "2002",
-    "pages": "627-636",
-    "doi": "",
-    "ee": [
-      "https://doi.org/10.1109/DSN.2002.1029008",
-      "https://doi.ieeecomputersociety.org/10.1109/DSN.2002.1029008",
-      "https://www.wikidata.org/entity/Q62048508"
-    ],
-    "url": "db/conf/dsn/dsn2002.html#BobbioHT02a",
-    "authors": [
-      [
-        "Andrea Bobbio",
-        "b/AndraBobbio"
-      ],
-      [
-        "András Horváth",
-        "26/7012"
       ],
       [
         "Miklós Telek",
@@ -7142,6 +7745,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=314464.314479",
     "url": "db/conf/soda/soda94.html#FriedlHS94",
+    "crossref": "conf/soda/1994",
     "authors": [
       [
         "Katalin Friedl",
@@ -7171,6 +7775,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/3-540-46885-4_18",
     "url": "db/conf/eurocrypt/eurocrypt89.html#BoyarFL89",
+    "crossref": "conf/eurocrypt/89",
     "authors": [
       [
         "Joan Boyar",
@@ -7203,6 +7808,7 @@
       "#text": "https://doi.org/10.1609/aaai.v37i13.26847"
     },
     "url": "db/conf/aaai/aaai2023.html#OldenhofAPSHSDF23",
+    "crossref": "conf/aaai/2023",
     "authors": [
       [
         "Martijn Oldenhof",
@@ -7399,42 +8005,6 @@
       "applied"
     ]
   },
-  "conf/uai/KerkoucheCG21": {
-    "key": "conf/uai/KerkoucheCG21",
-    "title": "Constrained differentially private federated learning for low-bandwidth devices.",
-    "venue": "UAI",
-    "year": "2021",
-    "pages": "1756-1765",
-    "doi": "",
-    "ee": {
-      "@type": "oa",
-      "#text": "https://proceedings.mlr.press/v161/kerkouche21a.html"
-    },
-    "url": "db/conf/uai/uai2021.html#KerkoucheCG21",
-    "authors": [
-      [
-        "Raouf Kerkouche",
-        "226/7191"
-      ],
-      [
-        "Gergely Ács",
-        "86/405"
-      ],
-      [
-        "Claude Castelluccia",
-        "77/1880"
-      ],
-      [
-        "Pierre Genevès",
-        "g/PGeneves"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
   "conf/icdm/AcsMCC17": {
     "key": "conf/icdm/AcsMCC17",
     "title": "Differentially Private Mixture of Generative Neural Networks.",
@@ -7447,6 +8017,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/ICDM.2017.81"
     ],
     "url": "db/conf/icdm/icdm2017.html#AcsMCC17",
+    "crossref": "conf/icdm/2017",
     "authors": [
       [
         "Gergely Ács",
@@ -7480,6 +8051,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/2623330.2623361",
     "url": "db/conf/kdd/kdd2014.html#AcsC14",
+    "crossref": "conf/kdd/2014",
     "authors": [
       [
         "Gergely Ács",
@@ -7505,6 +8077,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/2382196.2382263",
     "url": "db/conf/ccs/ccs2012.html#ChenAC12",
+    "crossref": "conf/ccs/2012",
     "authors": [
       [
         "Rui Chen 0012",
@@ -7537,6 +8110,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/ICDM.2012.80"
     ],
     "url": "db/conf/icdm/icdm2012.html#AcsCC12",
+    "crossref": "conf/icdm/2012",
     "authors": [
       [
         "Gergely Ács",
@@ -7566,6 +8140,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2018.8485953",
     "url": "db/conf/infocom/infocom2018.html#SonkolySNMPT18",
+    "crossref": "conf/infocom/2018",
     "authors": [
       [
         "Balázs Sonkoly",
@@ -7612,6 +8187,7 @@
       "#text": "https://doi.org/10.1137/1.9781611975031.92"
     },
     "url": "db/conf/soda/soda2018.html#BercziCKM18",
+    "crossref": "conf/soda/2018",
     "authors": [
       [
         "Kristóf Bérczi",
@@ -7654,6 +8230,7 @@
       "http://dl.acm.org/citation.cfm?id=2884550"
     ],
     "url": "db/conf/soda/soda2016.html#BernathK16",
+    "crossref": "conf/soda/2016",
     "authors": [
       [
         "Attila Bernáth",
@@ -7682,6 +8259,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FOCS.2006.12"
     ],
     "url": "db/conf/focs/focs2006.html#KiralyL06",
+    "crossref": "conf/focs/2006",
     "authors": [
       [
         "Tamás Király",
@@ -7707,6 +8285,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=365411.365533",
     "url": "db/conf/soda/soda2001.html#CsirikJK01",
+    "crossref": "conf/soda/2001",
     "authors": [
       [
         "János Csirik",
@@ -7736,6 +8315,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/335305.335331",
     "url": "db/conf/stoc/stoc2000.html#CsirikJKOSW00",
+    "crossref": "conf/stoc/2000",
     "authors": [
       [
         "János Csirik",
@@ -7777,6 +8357,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=127787.127846",
     "url": "db/conf/soda/soda91.html#CsirikJ91",
+    "crossref": "conf/soda/1991",
     "authors": [
       [
         "János Csirik",
@@ -7802,6 +8383,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=314500.314588",
     "url": "db/conf/soda/soda99.html#GabowJ99",
+    "crossref": "conf/soda/1999",
     "authors": [
       [
         "Harold N. Gabow",
@@ -7827,6 +8409,7 @@
     "doi": "",
     "ee": "http://dl.acm.org/citation.cfm?id=314613.314721",
     "url": "db/conf/soda/soda98.html#Bang-JensenGJS98",
+    "crossref": "conf/soda/1998",
     "authors": [
       [
         "Jørgen Bang-Jensen",
@@ -7863,6 +8446,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1997.646137"
     ],
     "url": "db/conf/focs/focs97.html#Bang-JensenJ97",
+    "crossref": "conf/focs/1997",
     "authors": [
       [
         "Jørgen Bang-Jensen",
@@ -7891,6 +8475,7 @@
       "https://www.wikidata.org/entity/Q130980783"
     ],
     "url": "db/conf/stoc/stoc2024.html#BercziMS24",
+    "crossref": "conf/stoc/2024",
     "authors": [
       [
         "Kristóf Bérczi",
@@ -7923,6 +8508,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-032-01855-7_6",
     "url": "db/conf/crypto/crypto2025-1.html#CastryckDKLPT25",
+    "crossref": "conf/crypto/2025-1",
     "authors": [
       [
         "Wouter Castryck",
@@ -7964,6 +8550,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-031-68388-6_8",
     "url": "db/conf/crypto/crypto2024-5.html#BencinaKMPSW24",
+    "crossref": "conf/crypto/2024-5",
     "authors": [
       [
         "Benjamin Bencina",
@@ -8005,6 +8592,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-030-84252-9_15",
     "url": "db/conf/crypto/crypto2021-3.html#QuehenKLMPPS21",
+    "crossref": "conf/crypto/2021-3",
     "authors": [
       [
         "Victoria de Quehen",
@@ -8050,6 +8638,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/978-3-030-77870-5_9",
     "url": "db/conf/eurocrypt/eurocrypt2021-1.html#KutasMPW21",
+    "crossref": "conf/eurocrypt/2021-1",
     "authors": [
       [
         "Péter Kutas",
@@ -8083,6 +8672,7 @@
     "doi": "",
     "ee": "https://dl.acm.org/doi/10.5555/3635637.3662890",
     "url": "db/conf/atal/aamas2024.html#Csaji24",
+    "crossref": "conf/atal/2024",
     "authors": [
       [
         "Gergely Csáji",
@@ -8107,6 +8697,7 @@
       "#text": "https://www.ijcai.org/proceedings/2024/207"
     },
     "url": "db/conf/ijcai/ijcai2024.html#CodazziCM24",
+    "crossref": "conf/ijcai/2024",
     "authors": [
       [
         "Laura Codazzi",
@@ -8139,6 +8730,7 @@
       "#text": "https://www.ijcai.org/proceedings/2024/302"
     },
     "url": "db/conf/ijcai/ijcai2024.html#CsajiMM024",
+    "crossref": "conf/ijcai/2024",
     "authors": [
       [
         "Gergely Csáji",
@@ -8175,6 +8767,7 @@
       "#text": "https://www.ijcai.org/proceedings/2024/303"
     },
     "url": "db/conf/ijcai/ijcai2024.html#Csaji24",
+    "crossref": "conf/ijcai/2024",
     "authors": [
       [
         "Gergely Csáji",
@@ -8196,6 +8789,7 @@
     "doi": "",
     "ee": "https://dl.acm.org/doi/10.5555/3545946.3598644",
     "url": "db/conf/atal/aamas2023.html#0001CRS23",
+    "crossref": "conf/atal/2023",
     "authors": [
       [
         "Jiehua Chen 0001",
@@ -8220,44 +8814,6 @@
       "theory"
     ]
   },
-  "conf/infocom/MatrayHLCV11": {
-    "key": "conf/infocom/MatrayHLCV11",
-    "title": "On the network geography of the Internet.",
-    "venue": "INFOCOM",
-    "year": "2011",
-    "pages": "126-130",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/INFCOM.2011.5934909",
-    "url": "db/conf/infocom/infocom2011.html#MatrayHLCV11",
-    "authors": [
-      [
-        "Péter Mátray",
-        "60/5854"
-      ],
-      [
-        "Péter Hága",
-        "99/6922"
-      ],
-      [
-        "Sándor Laki",
-        "78/8261"
-      ],
-      [
-        "István Csabai",
-        "c/IstvanCsabai"
-      ],
-      [
-        "Gábor Vattay",
-        "82/6832"
-      ]
-    ],
-    "classfiied": [
-      "Ericsson",
-      "ELTE",
-      "all_hungarian",
-      "applied"
-    ]
-  },
   "conf/infocom/LakiMHSCV11": {
     "key": "conf/infocom/LakiMHSCV11",
     "title": "Spotter: A model based active geolocation service.",
@@ -8267,6 +8823,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2011.5935165",
     "url": "db/conf/infocom/infocom2011.html#LakiMHSCV11",
+    "crossref": "conf/infocom/2011",
     "authors": [
       [
         "Sándor Laki",
@@ -8300,39 +8857,6 @@
       "applied"
     ]
   },
-  "conf/infocom/TokaCDM12": {
-    "key": "conf/infocom/TokaCDM12",
-    "title": "Redundancy management for P2P backup.",
-    "venue": "INFOCOM",
-    "year": "2012",
-    "pages": "2986-2990",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/INFCOM.2012.6195743",
-    "url": "db/conf/infocom/infocom2012.html#TokaCDM12",
-    "authors": [
-      [
-        "László Toka",
-        "96/5813"
-      ],
-      [
-        "Pasquale Cataldi",
-        "20/2504"
-      ],
-      [
-        "Matteo Dell'Amico",
-        "49/4384"
-      ],
-      [
-        "Pietro Michiardi",
-        "54/3028"
-      ]
-    ],
-    "classfiied": [
-      "BME",
-      "international",
-      "applied"
-    ]
-  },
   "conf/infocom/BenkoMV04": {
     "key": "conf/infocom/BenkoMV04",
     "title": "A Large-scale, Passive Analysis of End-to-End TCP Performance over GPRS.",
@@ -8342,6 +8866,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2004.1354598",
     "url": "db/conf/infocom/infocom2004.html#BenkoMV04",
+    "crossref": "conf/infocom/2004",
     "authors": [
       [
         "Péter Benkö",
@@ -8375,6 +8900,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2001.916786"
     ],
     "url": "db/conf/infocom/infocom2001-1.html#BarryCV01",
+    "crossref": "conf/infocom/2001",
     "authors": [
       [
         "Michael G. Barry",
@@ -8407,6 +8933,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2000.832571"
     ],
     "url": "db/conf/infocom/infocom2000-3.html#VeresB00",
+    "crossref": "conf/infocom/2000",
     "authors": [
       [
         "Andras Veres",
@@ -8435,6 +8962,7 @@
       "https://doi.org/10.1145/347057.347551"
     ],
     "url": "db/conf/sigcomm/sigcomm2000.html#VeresKMV00",
+    "crossref": "conf/sigcomm/2000",
     "authors": [
       [
         "Andras Veres",
@@ -8470,6 +8998,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/195058.195108",
     "url": "db/conf/stoc/stoc1994.html#Grolmusz94",
+    "crossref": "conf/stoc/STOC26",
     "authors": [
       [
         "Vince Grolmusz",
@@ -8494,6 +9023,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1992.267764"
     ],
     "url": "db/conf/focs/focs92.html#Grolmusz92",
+    "crossref": "conf/focs/FOCS33",
     "authors": [
       [
         "Vince Grolmusz",
@@ -8518,6 +9048,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1987.34"
     ],
     "url": "db/conf/focs/focs87.html#GrolmuszR87",
+    "crossref": "conf/focs/FOCS28",
     "authors": [
       [
         "Vince Grolmusz",
@@ -8546,6 +9077,7 @@
       "#text": "https://aclanthology.org/P13-2046/"
     },
     "url": "db/conf/acl/acl2013-2.html#VinczeTF13",
+    "crossref": "conf/acl/2013-2",
     "authors": [
       [
         "Veronika Vincze",
@@ -8566,32 +9098,28 @@
       "applied"
     ]
   },
-  "conf/incdm/FarkasSO07": {
-    "key": "conf/incdm/FarkasSO07",
-    "title": "Improving a State-of-the-Art Named Entity Recognition System Using the World Wide Web.",
-    "venue": "ICDM",
-    "year": "2007",
-    "pages": "163-172",
+  "conf/emnlp/Farkas11": {
+    "key": "conf/emnlp/Farkas11",
+    "title": "Learning Local Content Shift Detectors from Document-level Information.",
+    "venue": "EMNLP",
+    "year": "2011",
+    "pages": "759-770",
     "doi": "",
-    "ee": "https://doi.org/10.1007/978-3-540-73435-2_13",
-    "url": "db/conf/incdm/incdm2007.html#FarkasSO07",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://aclanthology.org/D11-1070/"
+    },
+    "url": "db/conf/emnlp/emnlp2011.html#Farkas11",
+    "crossref": "conf/emnlp/2011",
     "authors": [
       [
         "Richárd Farkas",
         "31/149"
-      ],
-      [
-        "György Szarvas",
-        "39/6822"
-      ],
-      [
-        "Róbert Ormándi",
-        "35/4647"
       ]
     ],
     "classfiied": [
       "SZTE",
-      "mostly_hungarian",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -8607,6 +9135,7 @@
       "#text": "http://ijcai.org/Proceedings/87-2/Papers/074.pdf"
     },
     "url": "db/conf/ijcai/ijcai87.html#GergelyS87",
+    "crossref": "conf/ijcai/1987",
     "authors": [
       [
         "Tamás Gergely",
@@ -8615,34 +9144,6 @@
       [
         "Zoltán Szabó",
         "73/2909"
-      ]
-    ],
-    "classfiied": [
-      "Hungary",
-      "international",
-      "theory"
-    ]
-  },
-  "conf/ijcai/GergelyV83": {
-    "key": "conf/ijcai/GergelyV83",
-    "title": "Negative Hyper-Resolution for Proving Statements Containing Transitive Relations.",
-    "venue": "IJCAI",
-    "year": "1983",
-    "pages": "877-881",
-    "doi": "",
-    "ee": {
-      "@type": "oa",
-      "#text": "http://ijcai.org/Proceedings/83-2/Papers/066.pdf"
-    },
-    "url": "db/conf/ijcai/ijcai83.html#GergelyV83",
-    "authors": [
-      [
-        "Tamás Gergely",
-        "35/1518"
-      ],
-      [
-        "Konstantin Vershinin",
-        "86/2403"
       ]
     ],
     "classfiied": [
@@ -8663,6 +9164,7 @@
       "#text": "http://ijcai.org/Proceedings/75/Papers/002.pdf"
     },
     "url": "db/conf/ijcai/ijcai75.html#AndrekaGN75",
+    "crossref": "conf/ijcai/1975",
     "authors": [
       [
         "Hajnal Andréka",
@@ -8684,66 +9186,63 @@
       "theory"
     ]
   },
-  "conf/iwqos/KorosiLSC09": {
-    "key": "conf/iwqos/KorosiLSC09",
-    "title": "High quality P2P-Video-on-Demand with download bandwidth limitation.",
-    "venue": "IWQoS",
-    "year": "2009",
-    "pages": "1-9",
+  "conf/aaai/CsajiM06": {
+    "key": "conf/aaai/CsajiM06",
+    "title": "Adaptive Sampling Based Large-Scale Stochastic Resource Control.",
+    "venue": "AAAI",
+    "year": "2006",
+    "pages": "815-820",
     "doi": "",
-    "ee": "https://doi.org/10.1109/IWQoS.2009.5201392",
-    "url": "db/conf/iwqos/iwqos2009.html#KorosiLSC09",
+    "ee": {
+      "@type": "archive",
+      "#text": "http://www.aaai.org/Library/AAAI/2006/aaai06-129.php"
+    },
+    "url": "db/conf/aaai/aaai2006.html#CsajiM06",
+    "crossref": "conf/aaai/2006",
     "authors": [
       [
-        "Attila Korösi",
-        "43/3942"
+        "Balázs Csanád Csáji",
+        "22/3042"
       ],
       [
-        "Csaba Lukovszki",
-        "30/6328"
-      ],
-      [
-        "Balázs Székely",
-        "28/6104"
-      ],
-      [
-        "András Császár",
-        "54/6911"
+        "László Monostori",
+        "m/LMonostori"
       ]
     ],
     "classfiied": [
-      "BME",
-      "Ericsson",
-      "international",
+      "SZTAKI",
+      "all_hungarian",
       "applied"
     ]
   },
-  "conf/iwqos/CsaszarTB05": {
-    "key": "conf/iwqos/CsaszarTB05",
-    "title": "A Practical Method for the Efficient Resolution of Congestion in an On-path Reduced-State Signalling Environment.",
-    "venue": "IWQoS",
-    "year": "2005",
-    "pages": "286-297",
+  "conf/icra/TothPH20": {
+    "key": "conf/icra/TothPH20",
+    "title": "Automatic LiDAR-Camera Calibration of Extrinsic Parameters Using a Spherical Target.",
+    "venue": "ICRA",
+    "year": "2020",
+    "pages": "8580-8586",
     "doi": "",
-    "ee": "https://doi.org/10.1007/11499169_23",
-    "url": "db/conf/iwqos/iwqos2005.html#CsaszarTB05",
+    "ee": "https://doi.org/10.1109/ICRA40945.2020.9197316",
+    "url": "db/conf/icra/icra2020.html#TothPH20",
+    "crossref": "conf/icra/2020",
     "authors": [
       [
-        "András Császár",
-        "54/6911"
+        "Tekla Tóth",
+        "202/1768"
       ],
       [
-        "Attila Takács",
-        "57/1070"
+        "Zoltán Pusztai",
+        "183/3625"
       ],
       [
-        "Attila Báder",
-        "63/1814"
+        "Levente Hajder",
+        "94/4989"
       ]
     ],
     "classfiied": [
-      "Ericsson",
-      "mostly_hungarian",
+      "ELTE",
+      "SZTAKI",
+      "all_hungarian",
       "applied"
     ]
   },
@@ -8756,6 +9255,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM.2015.7218373",
     "url": "db/conf/infocom/infocom2015.html#CsernaiCBG15",
+    "crossref": "conf/infocom/2015",
     "authors": [
       [
         "Márton Csernai",
@@ -8780,6 +9280,133 @@
       "applied"
     ]
   },
+  "conf/uss/SzurdiKCSFK14": {
+    "key": "conf/uss/SzurdiKCSFK14",
+    "title": "The Long \"Taile\" of Typosquatting Domain Names.",
+    "venue": "USENIX Security Symposium",
+    "year": "2014",
+    "pages": "191-206",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/szurdi"
+    },
+    "url": "db/conf/uss/uss2014.html#SzurdiKCSFK14",
+    "crossref": "conf/uss/2014",
+    "authors": [
+      [
+        "Janos Szurdi",
+        "01/11055"
+      ],
+      [
+        "Balazs Kocso",
+        "150/5425"
+      ],
+      [
+        "Gabor Cseh",
+        "150/5421"
+      ],
+      [
+        "Jonathan M. Spring",
+        "170/1882"
+      ],
+      [
+        "Márk Félegyházi",
+        "01/4380"
+      ],
+      [
+        "Chris Kanich",
+        "20/4340"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/sp/LevchenkoPCEFGHKKLMWPVS11": {
+    "key": "conf/sp/LevchenkoPCEFGHKKLMWPVS11",
+    "title": "Click Trajectories: End-to-End Analysis of the Spam Value Chain.",
+    "venue": "IEEE Symposium on Security and Privacy",
+    "year": "2011",
+    "pages": "431-446",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/SP.2011.24",
+      "https://doi.ieeecomputersociety.org/10.1109/SP.2011.24",
+      "https://www.wikidata.org/entity/Q56066199"
+    ],
+    "url": "db/conf/sp/sp2011.html#LevchenkoPCEFGHKKLMWPVS11",
+    "crossref": "conf/sp/2011",
+    "authors": [
+      [
+        "Kirill Levchenko",
+        "l/KirillLevchenko"
+      ],
+      [
+        "Andreas Pitsillidis",
+        "59/9226"
+      ],
+      [
+        "Neha Chachra",
+        "92/9024"
+      ],
+      [
+        "Brandon Enright",
+        "47/4416"
+      ],
+      [
+        "Márk Félegyházi",
+        "01/4380"
+      ],
+      [
+        "Chris Grier",
+        "41/1279"
+      ],
+      [
+        "Tristan Halvorson",
+        "19/10075"
+      ],
+      [
+        "Chris Kanich",
+        "20/4340"
+      ],
+      [
+        "Christian Kreibich",
+        "62/7004"
+      ],
+      [
+        "He Liu",
+        "41/1105"
+      ],
+      [
+        "Damon McCoy",
+        "58/4016"
+      ],
+      [
+        "Nicholas Weaver",
+        "53/2937"
+      ],
+      [
+        "Vern Paxson",
+        "p/VernPaxson"
+      ],
+      [
+        "Geoffrey M. Voelker",
+        "v/GeoffreyMVoelker"
+      ],
+      [
+        "Stefan Savage",
+        "s/StefanSavage"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ]
+  },
   "conf/focs/Frank90": {
     "key": "conf/focs/Frank90",
     "title": "Augmenting Graphs to Meet Edge-Connectivity Requirements",
@@ -8792,6 +9419,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/FSCS.1990.89593"
     ],
     "url": "db/conf/focs/focs90.html#Frank90",
+    "crossref": "conf/focs/FOCS31b",
     "authors": [
       [
         "András Frank",
@@ -8819,6 +9447,7 @@
       "https://dl.acm.org/citation.cfm?id=3310578"
     ],
     "url": "db/conf/soda/soda2019.html#AdiprasitoBM19",
+    "crossref": "conf/soda/2019",
     "authors": [
       [
         "Karim A. Adiprasito",
@@ -8851,6 +9480,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.2005.52"
     ],
     "url": "db/conf/focs/focs2005.html#BaranyVV05",
+    "crossref": "conf/focs/2005",
     "authors": [
       [
         "Imre Bárány",
@@ -8883,6 +9513,7 @@
       "https://www.wikidata.org/entity/Q56288228"
     ],
     "url": "db/conf/stoc/stoc86.html#BaranyF86",
+    "crossref": "conf/stoc/STOC18",
     "authors": [
       [
         "Imre Bárány",
@@ -8911,6 +9542,7 @@
       "#text": "https://doi.org/10.1137/1.9781611973730.94"
     },
     "url": "db/conf/soda/soda2015.html#BaloghBDSS15",
+    "crossref": "conf/soda/2015",
     "authors": [
       [
         "János Balogh",
@@ -8948,6 +9580,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFOCOM42981.2021.9488900",
     "url": "db/conf/infocom/infocom2021.html#AlbaBBHKZK21",
+    "crossref": "conf/infocom/2021",
     "authors": [
       [
         "Alberto Martínez Alba",
@@ -8984,31 +9617,6 @@
       "applied"
     ]
   },
-  "conf/incdm/HorvathV06": {
-    "key": "conf/incdm/HorvathV06",
-    "title": "Ordinal Classification with Monotonicity Constraints.",
-    "venue": "ICDM",
-    "year": "2006",
-    "pages": "217-225",
-    "doi": "",
-    "ee": "https://doi.org/10.1007/11790853_17",
-    "url": "db/conf/incdm/incdm2006.html#HorvathV06",
-    "authors": [
-      [
-        "Tomás Horváth",
-        "40/3600"
-      ],
-      [
-        "Peter Vojtás",
-        "59/3080"
-      ]
-    ],
-    "classfiied": [
-      "ELTE",
-      "international",
-      "applied"
-    ]
-  },
   "conf/icdm/Ormandi08": {
     "key": "conf/icdm/Ormandi08",
     "title": "Variance Minimization Least Squares Support Vector Machines for Time Series Analysis.",
@@ -9021,6 +9629,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/ICDM.2008.79"
     ],
     "url": "db/conf/icdm/icdm2008.html#Ormandi08",
+    "crossref": "conf/icdm/2008",
     "authors": [
       [
         "Róbert Ormándi",
@@ -9045,6 +9654,7 @@
       "https://www.wikidata.org/entity/Q58827935"
     ],
     "url": "db/conf/icml/icml2007.html#TsangKK07",
+    "crossref": "conf/icml/2007",
     "authors": [
       [
         "Ivor W. Tsang",
@@ -9074,6 +9684,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1150402.1150494",
     "url": "db/conf/kdd/kdd2006.html#TsangKK06",
+    "crossref": "conf/kdd/2006",
     "authors": [
       [
         "Ivor W. Tsang",
@@ -9094,43 +9705,6 @@
       "applied"
     ]
   },
-  "conf/infocom/Lopez-PerezLJRZ11": {
-    "key": "conf/infocom/Lopez-PerezLJRZ11",
-    "title": "Optimization method for the joint allocation of modulation schemes, coding rates, resource blocks and power in self-organizing LTE networks.",
-    "venue": "INFOCOM",
-    "year": "2011",
-    "pages": "111-115",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/INFCOM.2011.5934888",
-    "url": "db/conf/infocom/infocom2011.html#Lopez-PerezLJRZ11",
-    "authors": [
-      [
-        "David López-Pérez",
-        "38/7211"
-      ],
-      [
-        "Ákos Ladányi",
-        "89/797"
-      ],
-      [
-        "Alpár Jüttner",
-        "28/2741"
-      ],
-      [
-        "Hervé Rivano",
-        "50/2238"
-      ],
-      [
-        "Jie Zhang 0003",
-        "84/6889-3"
-      ]
-    ],
-    "classfiied": [
-      "ELTE",
-      "international",
-      "theory"
-    ]
-  },
   "conf/infocom/JuttnerSS03": {
     "key": "conf/infocom/JuttnerSS03",
     "title": "On Bandwidth Efficiency of the Hose Resource Management Model in Virtual Private Networks.",
@@ -9143,6 +9717,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2003.1208690"
     ],
     "url": "db/conf/infocom/infocom2003.html#JuttnerSS03",
+    "crossref": "conf/infocom/2003",
     "authors": [
       [
         "Alpár Jüttner",
@@ -9177,6 +9752,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2001.916277"
     ],
     "url": "db/conf/infocom/infocom2001-2.html#JuttnerSMR01",
+    "crossref": "conf/infocom/2001",
     "authors": [
       [
         "Alpár Jüttner",
@@ -9211,6 +9787,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3453483.3454026",
     "url": "db/conf/pldi/pldi2021.html#SzaboEB21",
+    "crossref": "conf/pldi/2021",
     "authors": [
       [
         "Tamás Szabó",
@@ -9231,6 +9808,44 @@
       "applied"
     ]
   },
+  "conf/kbse/IzsoSBHR13": {
+    "key": "conf/kbse/IzsoSBHR13",
+    "title": "Towards precise metrics for predicting graph query performance.",
+    "venue": "ASE",
+    "year": "2013",
+    "pages": "421-431",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ASE.2013.6693100",
+    "url": "db/conf/kbse/ase2013.html#IzsoSBHR13",
+    "crossref": "conf/kbse/2013",
+    "authors": [
+      [
+        "Benedek Izsó",
+        "129/0257"
+      ],
+      [
+        "Zoltán Szatmári",
+        "60/10271"
+      ],
+      [
+        "Gábor Bergmann",
+        "76/4726"
+      ],
+      [
+        "Ákos Horváth 0001",
+        "17/531-1"
+      ],
+      [
+        "István Ráth",
+        "07/4090"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/colt/Antos05": {
     "key": "conf/colt/Antos05",
     "title": "Improved Minimax Bounds on the Test and Training Distortion of Empirically Designed Vector Quantizers.",
@@ -9240,6 +9855,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/11503415_36",
     "url": "db/conf/colt/colt2005.html#Antos05",
+    "crossref": "conf/colt/2005",
     "authors": [
       [
         "András Antos",
@@ -9267,6 +9883,7 @@
       "https://dl.acm.org/citation.cfm?id=2095128"
     ],
     "url": "db/conf/soda/soda2012.html#FleinerK12",
+    "crossref": "conf/soda/2012",
     "authors": [
       [
         "Tamás Fleiner",
@@ -9295,6 +9912,7 @@
       "#text": "http://ijcai.org/Proceedings/75/Papers/006a.pdf"
     },
     "url": "db/conf/ijcai/ijcai75.html#GorgelyAN75",
+    "crossref": "conf/ijcai/1975",
     "authors": [
       [
         "T. Gorgely",
@@ -9315,6 +9933,66 @@
       "theory"
     ]
   },
+  "conf/cvpr/UtasiB11": {
+    "key": "conf/cvpr/UtasiB11",
+    "title": "A 3-D marked point process model for multi-view people detection.",
+    "venue": "CVPR",
+    "year": "2011",
+    "pages": "3385-3392",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/CVPR.2011.5995699",
+      "https://doi.ieeecomputersociety.org/10.1109/CVPR.2011.5995699"
+    ],
+    "url": "db/conf/cvpr/cvpr2011.html#UtasiB11",
+    "crossref": "conf/cvpr/2011",
+    "authors": [
+      [
+        "Ákos Utasi",
+        "28/2831"
+      ],
+      [
+        "Csaba Benedek",
+        "15/3579"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/emnlp/Berend20": {
+    "key": "conf/emnlp/Berend20",
+    "title": "Sparsity Makes Sense: Word Sense Disambiguation Using Sparse Contextualized Word Representations.",
+    "venue": "EMNLP (1)",
+    "year": "2020",
+    "pages": "8498-8508",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "https://doi.org/10.18653/v1/2020.emnlp-main.683"
+      },
+      {
+        "@type": "oa",
+        "#text": "https://aclanthology.org/2020.emnlp-main.683/"
+      }
+    ],
+    "url": "db/conf/emnlp/emnlp2020-1.html#Berend20",
+    "crossref": "conf/emnlp/2020-1",
+    "authors": [
+      [
+        "Gábor Berend",
+        "57/8393"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/iclr/Berend20": {
     "key": "conf/iclr/Berend20",
     "title": "Massively Multilingual Sparse Word Representations.",
@@ -9327,6 +10005,7 @@
       "#text": "https://openreview.net/forum?id=HyeYTgrFPB"
     },
     "url": "db/conf/iclr/iclr2020.html#Berend20",
+    "crossref": "conf/iclr/2020",
     "authors": [
       [
         "Gábor Berend",
@@ -9351,6 +10030,7 @@
       "https://doi.org/10.1145/1282427.1282384"
     ],
     "url": "db/conf/sigcomm/sigcomm2007.html#ChengAVBCSSV07",
+    "crossref": "conf/sigcomm/2007",
     "authors": [
       [
         "Yuchung Cheng",
@@ -9391,6 +10071,32 @@
       "applied"
     ]
   },
+  "conf/eccv/EichhardtC18": {
+    "key": "conf/eccv/EichhardtC18",
+    "title": "Affine Correspondences Between Central Cameras for Rapid Relative Pose Estimation.",
+    "venue": "ECCV (6)",
+    "year": "2018",
+    "pages": "488-503",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-030-01231-1_30",
+    "url": "db/conf/eccv/eccv2018-6.html#EichhardtC18",
+    "crossref": "conf/eccv/2018-6",
+    "authors": [
+      [
+        "Ivan Eichhardt",
+        "183/3621"
+      ],
+      [
+        "Dmitry Chetverikov",
+        "57/6828"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/www/FogarasR05": {
     "key": "conf/www/FogarasR05",
     "title": "Scaling link-based similarity search.",
@@ -9400,6 +10106,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1060745.1060839",
     "url": "db/conf/www/www2005.html#FogarasR05",
+    "crossref": "conf/www/2005",
     "authors": [
       [
         "Dániel Fogaras",
@@ -9426,6 +10133,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1109/INFCOM.2005.1498353",
     "url": "db/conf/infocom/infocom2005.html#RaczJFA05",
+    "crossref": "conf/infocom/2005",
     "authors": [
       [
         "Sándor Rácz",
@@ -9462,6 +10170,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2000.832579"
     ],
     "url": "db/conf/infocom/infocom2000-3.html#VidacsV00",
+    "crossref": "conf/infocom/2000",
     "authors": [
       [
         "Attila Vidács",
@@ -9487,6 +10196,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1007/3-540-39466-4_10",
     "url": "db/conf/eurocrypt/eurocrypt82.html#GyorfiK82",
+    "crossref": "conf/eurocrypt/82",
     "authors": [
       [
         "László Györfi",
@@ -9515,6 +10225,7 @@
       "#text": "https://doi.org/10.1609/aaai.v34i06.6586"
     },
     "url": "db/conf/aaai/aaai2020.html#Nemeth20",
+    "crossref": "conf/aaai/2020",
     "authors": [
       [
         "József Németh",
@@ -9536,6 +10247,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/1250790.1250878",
     "url": "db/conf/stoc/stoc2007.html#Pap07",
+    "crossref": "conf/stoc/2007",
     "authors": [
       [
         "Gyula Pap",
@@ -9560,6 +10272,7 @@
       "#text": "http://ijcai.org/Proceedings/87-1/Papers/112.pdf"
     },
     "url": "db/conf/ijcai/ijcai87.html#BarbuceanuTM87",
+    "crossref": "conf/ijcai/1987",
     "authors": [
       [
         "Mihai Barbuceanu",
@@ -9580,6 +10293,36 @@
       "theory"
     ]
   },
+  "conf/visualization/CsebfalviS03": {
+    "key": "conf/visualization/CsebfalviS03",
+    "title": "Monte Carlo Volume Rendering.",
+    "venue": "IEEE Visualization",
+    "year": "2003",
+    "pages": "449-456",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/VISUAL.2003.1250406",
+      "https://doi.ieeecomputersociety.org/10.1109/VIS.2003.10000",
+      "http://dl.acm.org/citation.cfm?id=1081503"
+    ],
+    "url": "db/conf/visualization/visualization2003.html#CsebfalviS03",
+    "crossref": "conf/visualization/2003",
+    "authors": [
+      [
+        "Balázs Csébfalvi",
+        "99/712"
+      ],
+      [
+        "László Szirmay-Kalos",
+        "16/3751"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
   "conf/focs/DahlhausHK88": {
     "key": "conf/focs/DahlhausHK88",
     "title": "Optimal Parallel Algorithm for the Hamiltonian Cycle Problem on Dense Graphs",
@@ -9592,6 +10335,7 @@
       "https://doi.ieeecomputersociety.org/10.1109/SFCS.1988.21936"
     ],
     "url": "db/conf/focs/focs88.html#DahlhausHK88",
+    "crossref": "conf/focs/FOCS29",
     "authors": [
       [
         "Elias Dahlhaus",
@@ -9612,6 +10356,35 @@
       "theory"
     ]
   },
+  "conf/icra/RozenberszkiM20": {
+    "key": "conf/icra/RozenberszkiM20",
+    "title": {
+      "sup": "*",
+      "#text": "LOL: Lidar-only Odometry and Localization in 3D point cloud maps."
+    },
+    "venue": "ICRA",
+    "year": "2020",
+    "pages": "4379-4385",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA40945.2020.9197450",
+    "url": "db/conf/icra/icra2020.html#RozenberszkiM20",
+    "crossref": "conf/icra/2020",
+    "authors": [
+      [
+        "Dávid Rozenberszki",
+        "268/8101"
+      ],
+      [
+        "András L. Majdik",
+        "60/7320"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
   "conf/ccs/TasSZMKBN24": {
     "key": "conf/ccs/TasSZMKBN24",
     "title": "Atomic and Fair Data Exchange via Blockchain.",
@@ -9621,6 +10394,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3658644.3690248",
     "url": "db/conf/ccs/ccs2024.html#TasSZMKBN24",
+    "crossref": "conf/ccs/2024",
     "authors": [
       [
         "Ertem Nusret Tas",
@@ -9657,6 +10431,47 @@
       "theory"
     ]
   },
+  "conf/uss/MadathilSSSV22": {
+    "key": "conf/uss/MadathilSSSV22",
+    "title": "Private Signaling.",
+    "venue": "USENIX Security Symposium",
+    "year": "2022",
+    "pages": "3309-3326",
+    "doi": "",
+    "ee": {
+      "@type": "oa",
+      "#text": "https://www.usenix.org/conference/usenixsecurity22/presentation/madathil"
+    },
+    "url": "db/conf/uss/uss2022.html#MadathilSSSV22",
+    "crossref": "conf/uss/2022",
+    "authors": [
+      [
+        "Varun Madathil",
+        "265/8774"
+      ],
+      [
+        "Alessandra Scafuro",
+        "72/7642"
+      ],
+      [
+        "István András Seres",
+        "234/7668"
+      ],
+      [
+        "Omer Shlomovits",
+        "242/3072"
+      ],
+      [
+        "Denis Varlakov",
+        "283/4483"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
+    ]
+  },
   "conf/nips/CsiszarikKMPV21": {
     "key": "conf/nips/CsiszarikKMPV21",
     "title": "Similarity and Matching of Neural Network Representations.",
@@ -9669,6 +10484,7 @@
       "#text": "https://proceedings.neurips.cc/paper/2021/hash/2cb274e6ce940f47beb8011d8ecb1462-Abstract.html"
     },
     "url": "db/conf/nips/neurips2021.html#CsiszarikKMPV21",
+    "crossref": "conf/nips/2021",
     "authors": [
       [
         "Adrián Csiszárik",
@@ -9709,6 +10525,7 @@
       "https://www.wikidata.org/entity/Q130905920"
     ],
     "url": "db/conf/www/www2019.html#0001SCBMN19",
+    "crossref": "conf/www/2019",
     "authors": [
       [
         "Muhammad Saleem 0002",
@@ -9750,6 +10567,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1145/3452296.3472910",
     "url": "db/conf/sigcomm/sigcomm2021.html#YenLY0GR21",
+    "crossref": "conf/sigcomm/2021",
     "authors": [
       [
         "Jane Yen",
@@ -9782,6 +10600,40 @@
       "applied"
     ]
   },
+  "conf/icra/MajdikVAS14": {
+    "key": "conf/icra/MajdikVAS14",
+    "title": "Micro air vehicle localization and position tracking from textured 3D cadastral models.",
+    "venue": "ICRA",
+    "year": "2014",
+    "pages": "920-927",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA.2014.6906964",
+    "url": "db/conf/icra/icra2014.html#MajdikVAS14",
+    "crossref": "conf/icra/2014",
+    "authors": [
+      [
+        "Andras Majdik",
+        "60/7320"
+      ],
+      [
+        "Damiano Verda",
+        "45/10408"
+      ],
+      [
+        "Yves Albers-Schoenberg",
+        "139/3743"
+      ],
+      [
+        "Davide Scaramuzza 0001",
+        "62/3318"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
   "conf/soda/BencsC0V23": {
     "key": "conf/soda/BencsC0V23",
     "title": "On complex roots of the independence polynomial.",
@@ -9791,6 +10643,7 @@
     "doi": "",
     "ee": "https://doi.org/10.1137/1.9781611977554.ch29",
     "url": "db/conf/soda/soda2023.html#BencsC0V23",
+    "crossref": "conf/soda/2023",
     "authors": [
       [
         "Ferenc Bencs",
@@ -9827,6 +10680,7 @@
       "#text": "https://doi.org/10.1609/aaai.v35i13.17397"
     },
     "url": "db/conf/aaai/aaai2021.html#BentertBG0N21",
+    "crossref": "conf/aaai/2021",
     "authors": [
       [
         "Matthias Bentert",
@@ -9855,33 +10709,136 @@
       "theory"
     ]
   },
-  "conf/interaction/AsemiHA10": {
-    "key": "conf/interaction/AsemiHA10",
-    "title": "A survey on the library open source software in the University of Isfahan, Iran: Viewpoint of librarians.",
-    "venue": "ICIS",
-    "year": "2010",
-    "pages": "340-345",
+  "conf/uist/VargaWVSG18": {
+    "key": "conf/uist/VargaWVSG18",
+    "title": "Designing Groundless Body Channel Communication Systems: Performance and Implications.",
+    "venue": "UIST",
+    "year": "2018",
+    "pages": "683-695",
     "doi": "",
-    "ee": "https://doi.org/10.1109/ICICIS.2010.5534809",
-    "url": "db/conf/interaction/interaction2010.html#AsemiHA10",
+    "ee": "https://doi.org/10.1145/3242587.3242622",
+    "url": "db/conf/uist/uist2018.html#VargaWVSG18",
+    "crossref": "conf/uist/2018",
     "authors": [
       [
-        "Asefeh Asemi",
-        "09/6654"
+        "Virag Varga",
+        "162/5565"
       ],
       [
-        "Zahra Sadat Hosseini",
-        "162/2019"
+        "Marc Wyss",
+        "227/7984"
       ],
       [
-        "Adeleh Asemi",
-        "355/5666"
+        "Gergely Vakulya",
+        "55/8120"
+      ],
+      [
+        "Alanson P. Sample",
+        "99/1299"
+      ],
+      [
+        "Thomas R. Gross",
+        "g/ThomasRGross"
       ]
     ],
     "classfiied": [
-      "Hungary",
+      "PPKE",
       "international",
       "applied"
+    ]
+  },
+  "conf/icra/BalazsV18": {
+    "key": "conf/icra/BalazsV18",
+    "title": "Coordinated Dense Aerial Traffic with Self-Driving Drones.",
+    "venue": "ICRA",
+    "year": "2018",
+    "pages": "6365-6372",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/ICRA.2018.8461073",
+    "url": "db/conf/icra/icra2018.html#BalazsV18",
+    "crossref": "conf/icra/2018",
+    "authors": [
+      [
+        "Boldizsar Balazs",
+        "226/6447"
+      ],
+      [
+        "Gábor Vásárhelyi",
+        "142/2958"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/visualization/Csebfalvi05": {
+    "key": "conf/visualization/Csebfalvi05",
+    "title": "Prefiltered Gaussian Reconstruction for High-Quality Rendering of Volumetric Data sampled on a Body-Centered Cubic Grid.",
+    "venue": "IEEE Visualization",
+    "year": "2005",
+    "pages": "311-318",
+    "doi": "",
+    "ee": [
+      "https://doi.org/10.1109/VISUAL.2005.1532810",
+      "https://doi.ieeecomputersociety.org/10.1109/VIS.2005.80"
+    ],
+    "url": "db/conf/visualization/visualization2005.html#Csebfalvi05",
+    "crossref": "conf/visualization/2005",
+    "authors": [
+      [
+        "Balázs Csébfalvi",
+        "99/712"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "all_hungarian",
+      "applied"
+    ]
+  },
+  "conf/nips/KirkpatrickGTT93": {
+    "key": "conf/nips/KirkpatrickGTT93",
+    "title": "The Statistical Mechanics of k-Satisfaction.",
+    "venue": "NIPS",
+    "year": "1993",
+    "pages": "439-446",
+    "doi": "",
+    "ee": [
+      {
+        "@type": "oa",
+        "#text": "http://papers.nips.cc/paper/737-the-statistical-mechanics-of-k-satisfaction"
+      },
+      {
+        "@type": "archive",
+        "#text": "http://nips.djvuzone.org/djvu/nips06/0439.djvu"
+      }
+    ],
+    "url": "db/conf/nips/nips1993.html#KirkpatrickGTT93",
+    "crossref": "conf/nips/1993",
+    "authors": [
+      [
+        "Scott Kirkpatrick",
+        "39/5192"
+      ],
+      [
+        "Géza Györgyi",
+        "38/5489"
+      ],
+      [
+        "Naftali Tishby",
+        "03/2176"
+      ],
+      [
+        "Lidror Troyansky",
+        "40/5601"
+      ]
+    ],
+    "classfiied": [
+      "ELTE",
+      "international",
+      "theory"
     ]
   }
 }
