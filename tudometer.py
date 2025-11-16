@@ -36,7 +36,7 @@ def find_dblp_in_google_sheets(mtmt_id):
     return None, None
 
 
-def check_paper(paper_dict, first_author_pid, hungarian_affil, name_prefix, data, print_log=False):
+def check_paper(paper_dict, first_author_pid, hungarian_affil, name_prefix, data, print_log=False, first_paper_year=None,last_paper_year=None):
     """The main filtering function of papers. 
        It checks a single paper whether meets the required properties
        and if yes it updates the data accordingly."""
@@ -45,23 +45,31 @@ def check_paper(paper_dict, first_author_pid, hungarian_affil, name_prefix, data
     elif "article" in paper_dict:
         paper = paper_dict["article"]
     else:
-        return data
+        return data, first_paper_year, last_paper_year 
+    year = paper.get("year", "")
+    if first_paper_year is None:
+        first_paper_year=int(year)
+    elif int(year)<first_paper_year:
+        first_paper_year=int(year)  
+    if last_paper_year is None:
+        last_paper_year=int(year)
+    elif int(year)>last_paper_year:
+        last_paper_year=int(year)
     authors = paper.get("author", [])
     if first_author_pid!=None:
         if isinstance(authors, list) and len(authors)>1 and authors[0].get("@pid", "")!=first_author_pid[1:]:
-            return data
+            return data, first_paper_year, last_paper_year 
     key, record, rank, foreign_paper, short_paper, search_log=classify_paper.classify_paper(paper_dict)
     if print_log and search_log.strip()!="" and search_log.strip()!="Skip as not inproceedings":
         print(search_log)
     if key:
         if hungarian_affil and foreign_paper:
-            return data
+            return data, first_paper_year, last_paper_year 
         data[name_prefix+"paper_count"+rank] += 1
         acronym = paper.get("booktitle", "")
-        year = paper.get("year", "")
         venue_year=f"{acronym}{year} "
         data[name_prefix+"papers"+rank]+=venue_year
-    return data
+    return data, first_paper_year, last_paper_year 
 
 def count_papers_by_author(data, dblp_record, first_author_only=False, hungarian_affil=False, name_prefix='', print_log=False):
     """Count papers by author for a given rank.
@@ -74,11 +82,15 @@ def count_papers_by_author(data, dblp_record, first_author_only=False, hungarian
         return data
     
     papers_found = dblp_record.get("r", {})
+    first_paper_year=None
+    last_paper_year=None
     if isinstance(papers_found, dict):
-        data=check_paper(papers_found, first_author_pid, hungarian_affil, name_prefix, data, print_log)
+        data, first_paper_year, last_paper_year =check_paper(papers_found, first_author_pid, hungarian_affil, name_prefix, data, print_log, first_paper_year=first_paper_year,last_paper_year=last_paper_year)
     else:
         for paper in papers_found:
-            data=check_paper(paper, first_author_pid, hungarian_affil, name_prefix, data, print_log)
+            data, first_paper_year, last_paper_year =check_paper(paper, first_author_pid, hungarian_affil, name_prefix, data, print_log, first_paper_year=first_paper_year,last_paper_year=last_paper_year)
+    data["first_paper_year"] = first_paper_year
+    data["last_paper_year"] = last_paper_year
     return data
 
 
@@ -400,10 +412,10 @@ def pretty_label_map():
         ("Hungarian Core A* equivalent Author Order", "Magyar affilicáiós Core A* equivalent szerint az országos sorrendbe"),
         ("First Author Core A* equivalent Author Order", "Első szerzős Core A* equivalent szerint az országos sorrendben"),
         ("Years Since PhD", "PhD megszerzése óta eltelt idő (években)"),
-        ("Age Group", "Korcsoport"),
-        ("Age Group Core A* Rank", "Korcsoport szerinti Core A* rangsor"),
-        ("Age Group Hungarian Core A* Rank", "Korcsoport szerinti magyar affil Core A* rangsor"),
-        ("Age Group First Author Core A* Rank", "Korcsoport szerinti első szerzős Core A* rangsor"),
+        ("Career Length", "Korcsoport"),
+        ("Career Length Core A* Rank", "Korcsoport szerinti Core A* rangsor"),
+        ("Career Length Hungarian Core A* Rank", "Korcsoport szerinti magyar affil Core A* rangsor"),
+        ("Career Length First Author Core A* Rank", "Korcsoport szerinti első szerzős Core A* rangsor"),
         ("category", "Kategória / terület"),
         ("Category Core A* Rank", "Kategória szerinti Core A* rangsor"),
         ("Category Hungarian Core A* Rank", "Kategória szerinti magyar affil Core A* rangsor"),

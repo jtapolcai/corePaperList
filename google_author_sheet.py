@@ -101,6 +101,8 @@ field_map = {
     "Született": "mta_szuletett",
     "Elhunyt": "mta_elhunyt",
     "DBLP alias": "dblp_aliases",
+    "Első cikk éve": "first_paper_year",
+    "Legutolsó cikk éve": "last_paper_year",
 }
 
 def load_table(reader):
@@ -176,6 +178,9 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
                     val = f"https://mta.hu/koztestuleti_tagok?PersonId={val}"
             elif src_field == "MTA kép":
                 val=val.replace("https://aat.mta.hu/aat/FileData/Get/",'').replace("/static/frontend/imgs/unknown.jpg",'')
+                fix_image={"27514": "42588"}
+                if val in fix_image:
+                    val=str(fix_image[val])
                 if val:
                     val = f"https://aat.mta.hu/aat/FileData/Get/{val}"
                 else:
@@ -207,7 +212,7 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
             # Copy all ranking and computed columns back to the original dict
             # This includes: Author Order columns, Category ranks, Age Group ranks, Years Since PhD, Age Group classification
             for key, val in row.items():
-                if any(keyword in key for keyword in ["Author Order", "Rank", "Years Since PhD", "Age Group"]):
+                if any(keyword in key for keyword in ["Author Order", "Rank", "Years Since PhD", "Career Length"]):
                     # Convert back to authors_data key names if needed
                     if key in field_map:
                         # This is a Google Sheet column name, convert to authors_data key

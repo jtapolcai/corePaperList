@@ -138,21 +138,6 @@ def _safe_year(val) -> Optional[int]:
     except Exception:
         return None
 
-def add_time_since_phd(rows: List[Dict[str, str]], phd_key: str = "PhD éve",
-                       target_key: str = "Years Since PhD", current_year: Optional[int] = None) -> List[Dict[str, str]]:
-    """Compute years since PhD (inclusive of current year) for each row.
-    Missing / invalid values yield 0. Returns mutated list.
-    """
-    if current_year is None:
-        from datetime import datetime
-        current_year = datetime.now().year
-    for r in rows:
-        y = _safe_year(r.get(phd_key))
-        if y is None or y > current_year:
-            r[target_key] = "0"
-        else:
-            r[target_key] = str(current_year - y)
-    return rows
 
 def add_group_core_ranks(rows: List[Dict[str, str]], group_key: str, score_key: str,
                          rank_col: Optional[str] = None, score_transform: Optional[Callable[[Dict[str, str]], int]] = None) -> List[Dict[str, str]]:
@@ -194,17 +179,18 @@ def determine_age_group(years_since_phd: int) -> str:
         return "0-5 év"
     elif years_since_phd <= 10:
         return "5-10 év"
-    elif years_since_phd <= 20:
-        return "10-20 év"
+    elif years_since_phd <= 25:
+        return "10-25 év"
     else:
-        return "20+ év"
+        return "25+ év"
 
-def add_age_group_column(rows: List[Dict[str, str]], phd_years_key: str = "Years Since PhD",
-                         target_key: str = "Age Group") -> List[Dict[str, str]]:
+def add_age_group_column(rows: List[Dict[str, str]],
+                         target_key: str = "Career Length") -> List[Dict[str, str]]:
     """Add age group classification based on years since PhD."""
     for r in rows:
-        years = _safe_int(r.get(phd_years_key, "0"))
-        r[target_key] = determine_age_group(years)
+        from_year=_safe_int(r.get("Első cikk éve", 0))
+        to_year=_safe_int(r.get("Legutolsó cikk éve", 0))
+        r[target_key] = determine_age_group(to_year-from_year)
     return rows
 
 def add_all_category_ranks(rows: List[Dict[str, str]], category_key: str = "Category") -> List[Dict[str, str]]:
@@ -218,12 +204,12 @@ def add_all_category_ranks(rows: List[Dict[str, str]], category_key: str = "Cate
         add_group_core_ranks(rows, group_key=category_key, score_key=score_key, rank_col=rank_col)
     return rows
 
-def add_all_age_group_ranks(rows: List[Dict[str, str]], age_group_key: str = "Age Group") -> List[Dict[str, str]]:
+def add_all_age_group_ranks(rows: List[Dict[str, str]], age_group_key: str = "Career Length") -> List[Dict[str, str]]:
     """Add rankings within age group for all three main Core metrics."""
     metrics = [
-        ("Core A* equivalent", "Age Group Core A* Rank"),
-        ("Hungarian Core A* equivalent", "Age Group Hungarian Core A* Rank"),
-        ("First Author Core A* equivalent", "Age Group First Author Core A* Rank")
+        ("Core A* equivalent", "Career Length Core A* Rank"),
+        ("Hungarian Core A* equivalent", "Career Length Hungarian Core A* Rank"),
+        ("First Author Core A* equivalent", "Career Length First Author Core A* Rank")
     ]
     for score_key, rank_col in metrics:
         add_group_core_ranks(rows, group_key=age_group_key, score_key=score_key, rank_col=rank_col)
@@ -233,6 +219,8 @@ def prepare_author_order_with_extensions(rows: List[Dict[str, str]],
                                           include_time_since_phd: bool = True,
                                           include_category_ranks: bool = True,
                                           include_age_group_ranks: bool = True,
+                                          include_first_paper_year: bool = True,
+                                          author_data_dict: Optional[Dict[str, Dict]] = None,
                                           current_year: Optional[int] = None) -> List[Dict[str, str]]:
     """Pipeline adding author order annotations + optional extended Core ranks.
     Returns mutated list for chaining.
@@ -242,12 +230,14 @@ def prepare_author_order_with_extensions(rows: List[Dict[str, str]],
         include_time_since_phd: Add "Years Since PhD" column
         include_category_ranks: Add rankings within category (applied/theory) for all metrics
         include_age_group_ranks: Add rankings within age group ([0-5], [5-10], [10-20], [20+])
+        include_first_paper_year: Add "First Paper Year" column from DBLP data
+        author_data_dict: Full author data dictionary (for first paper year lookup)
         current_year: Year for PhD calculation (defaults to current year)
     """
     order_and_annotate(rows)  # base author order + sorting
     
+    
     if include_time_since_phd:
-        add_time_since_phd(rows, current_year=current_year)
         # Add age group classification (needed for age group ranks)
         add_age_group_column(rows)
     
@@ -257,7 +247,6 @@ def prepare_author_order_with_extensions(rows: List[Dict[str, str]],
     if include_age_group_ranks:
         if not include_time_since_phd:
             # Need to compute years since PhD first
-            add_time_since_phd(rows, current_year=current_year)
             add_age_group_column(rows)
         add_all_age_group_ranks(rows)
     
