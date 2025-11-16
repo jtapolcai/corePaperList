@@ -243,11 +243,11 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
                 first_year = year
                 if pub_year <= first_year:
                     return_average_rank=True
-            # elif pub_year < year:
-            #     # Historical special case retained
-            #     if year == 2013 and rank == "A*":
-            #         return rank
-            #     return last_rank
+        if pub_year <= year:
+            # Historical special case retained
+            if year == 2013 and rank == "A*":
+                return rank
+            return last_rank
         last_rank = rank
     if return_average_rank and count>0:
         avg_value=average_rank/count
@@ -360,14 +360,16 @@ def classify_paper_by_author(author_list: List[Tuple[str, str]], year: int, igno
 
 def is_short_paper(info: Dict, venue: str, rank_name: str) -> bool:
     limit = 6
-    if rank_name not in ['B', 'C']:
+    if rank_name in ['A']:
         limit = 5
+    if rank_name in ['B', 'C']:
+        limit = 4
     if venue in ["SODA", "STOC", "FOCS"]:
         limit = 3
-    if venue in ["MoDELS"]:
-        limit = 7
-    if venue in ["WWW"]:
-        limit = 8
+    # if venue in ["MoDELS"]:
+    #     limit = 7
+    # if venue in ["WWW"]:
+    #     limit = 8
     if "Workshop" in venue:
         return True
     title_val = info.get("title", "N/A")
@@ -478,3 +480,13 @@ def process_paper(paper: Dict, papers: Dict, search_log: str = "", foreign_paper
         if key and key not in short_papers[rank]:
             short_papers[rank][key] = record
     return search_log, papers, foreign_papers, short_papers
+
+if __name__ == "__main__":
+    rec= {}
+    key, record, rank, foreign_paper, short_paper, search_log = classify_paper(rec)
+    print(f"Key: {key}")
+    print(f"Record: {record}")
+    print(f"Rank: {rank}")
+    print(f"Foreign paper: {foreign_paper}")
+    print(f"Short paper: {short_paper}")
+    print(f"Search log: {search_log}")
