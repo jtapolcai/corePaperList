@@ -184,6 +184,8 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
             if isinstance(val, list):
                 val = "; ".join(val)
             row[src_field] = str(val)
+            if str(val)!=data[dst_field]:
+                data[dst_field+'_'] = val  # frissítés visszafelé is
         
         output_rows.append(row)
         #if len(missing):
