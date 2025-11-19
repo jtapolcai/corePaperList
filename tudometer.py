@@ -10,23 +10,23 @@ from typing import OrderedDict as TOrderedDict
 import pandas as pd
 
 # Import utility modules
-import dblp_utils
-import mtmt_utils
-import mta_att_utils
-import google_author_sheet 
+from src import dblp_utils
+from src import mtmt_utils
+from src import mta_att_utils
+from src import google_author_sheet 
 import run_every_day
-import classify_author
-import classify_paper
+from src import classify_author
+from src import classify_paper
 
 
 def find_dblp_in_google_sheets(mtmt_id):
     # Load full_authors_data.json which contains all ranking fields
     # try:
-    #     with open("full_authors_data.json", "r", encoding="utf-8") as f:
+    #     with open("results/full_authors_data.json", "r", encoding="utf-8") as f:
     #         authors_data = json.load(f)
     # except FileNotFoundError:
     #     # Fallback to downloading from Google Sheet (won't have ranking fields)
-    #     print("Warning: full_authors_data.json not found, downloading from Google Sheet (ranking fields will be missing)")
+    #     print("Warning: results/full_authors_data.json not found, downloading from Google Sheet (ranking fields will be missing)")
     authors_data = google_author_sheet.download_author_google_sheet()
     classify_author.create_pid_to_name_map(authors_data)
     
@@ -59,7 +59,7 @@ def check_paper(paper_dict, first_author_pid, hungarian_affil, name_prefix, data
     if first_author_pid!=None:
         if isinstance(authors, list) and len(authors)>1 and authors[0].get("@pid", "")!=first_author_pid[1:]:
             return data, first_paper_year, last_paper_year 
-    key, record, rank, foreign_paper, short_paper, search_log=classify_paper.classify_paper(paper_dict)
+    key, record, rank, foreign_paper, short_paper, search_log, original_rank=classify_paper.classify_paper(paper_dict)
     if print_log and search_log.strip()!="" and search_log.strip()!="Skip as not inproceedings":
         print(search_log)
     if key:
@@ -131,11 +131,12 @@ def count_CORE_papers_by_author(author, data, dblp_record=None, print_log=False,
         dblp_record=dblp_record['dblpperson']
     # Pass venues to all 3 calls for this rank
     data=count_papers_by_author(data, dblp_record, print_log=print_log)
-    data["Core A* equivalent"] = data["paper_countA*"]+data["paper_countA"]/3+data["paper_countB"]/6+data["paper_countC"]/12
+    weight=[2.9,4.9,9.2,19.6]
+    data["Core A* equivalent"] = data["paper_countA*"]+data["paper_countA"]/weight[0]+data["paper_countB"]/weight[1]+data["paper_countC"]/weight[2]+data["paper_countno_rank"]/weight[3]
     data=count_papers_by_author(data, dblp_record, first_author_only=True, name_prefix='first_author_', print_log=print_log)
-    data["First Author Core A* equivalent"] = data["first_author_paper_countA*"]+data["first_author_paper_countA"]/3+data["first_author_paper_countB"]/6+data["first_author_paper_countC"]/12
+    data["First Author Core A* equivalent"] = data["first_author_paper_countA*"]+data["first_author_paper_countA"]/weight[0]+data["first_author_paper_countB"]/weight[1]+data["first_author_paper_countC"]/weight[2]+data["first_author_paper_countno_rank"]/weight[3]
     data=count_papers_by_author(data, dblp_record, hungarian_affil=True, name_prefix='hungarian_', print_log=print_log)
-    data["Hungarian Core A* equivalent"] = data["hungarian_paper_countA*"]+data["hungarian_paper_countA"]/3+data["hungarian_paper_countB"]/6+data["hungarian_paper_countC"]/12
+    data["Hungarian Core A* equivalent"] = data["hungarian_paper_countA*"]+data["hungarian_paper_countA"]/weight[0]+data["hungarian_paper_countB"]/weight[1]+data["hungarian_paper_countC"]/weight[2]+data["hungarian_paper_countno_rank"]/weight[3]
     return data
 
 def safe_get_value(row, key, default=''):

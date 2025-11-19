@@ -8,10 +8,10 @@ from collections import defaultdict
 from urllib.parse import quote
 import os
 import pandas as pd
-import google_author_sheet
-import classify_author
-import dblp_utils
-import classify_paper #import core_rank, classify_paper, process_paper, all_authors, no_page_is_given
+from src import google_author_sheet
+from src import classify_author
+from src import dblp_utils
+from src import classify_paper #import core_rank, classify_paper, process_paper, all_authors, no_page_is_given
 
 
 import sys
@@ -28,10 +28,14 @@ else:
 pid_to_name = {}
 authors_data = None
 
+# central results directory for JSON/BIB outputs
+RESULTS_DIR = os.path.join(os.path.dirname(__file__), 'results')
+os.makedirs(RESULTS_DIR, exist_ok=True)
+
 
 def author_string(author_field):
     """Backward compatibility shim; moved to classify_paper but kept for existing imports."""
-    from classify_paper import author_string as _author_string
+    from src.classify_paper import author_string as _author_string
     return _author_string(author_field)
 
 
@@ -49,7 +53,81 @@ def get_dblp_record(author_name):
         print("{} not found ".format(file_path))
     return None  
 
+def create_bibtex(papers_rank, rank_name):
+    all_keywords = set()
+    author_publication_count = defaultdict(int)
 
+    # --- BibTeX rekordok generálása ---
+
+    def convert_to_latex_hungarian(text):
+        latex_map = {
+            'á': "\\'a", 'é': "\\'e", 'í': "\\'i", 'ó': "\\'o", 'ö': '\\"o', 'ő': '\\H{o}',
+            'ú': "\\'u", 'ü': '\\"u', 'ű': '\\H{u}',
+            'Á': "\\'A", 'É': "\\'E", 'Í': "\\'I", 'Ó': "\\'O", 'Ö': '\\"O', 'Ő': '\\H{O}',
+            'Ú': "\\'U", 'Ü': '\\"U', 'Ű': '\\H{U}'
+        }
+        # ensure join gets an iterable of str (not Optional[str]) by using a list comprehension
+        return ''.join([latex_map.get(c, c) or c for c in text])
+
+    def json_to_bibtex_entry(key, entry, all_keywords):
+        #global pid_to_name
+        bibkey = key.replace("conf/", "").replace("/", "")[:30]
+        authors = entry.get("authors", [])
+        author_names = []
+        for author, pid in authors:
+            author_=pid_to_name.get('/'+pid, author)
+            author_publication_count[author_] += 1
+            author_names.append(author_)
+        authors_bib = convert_to_latex_hungarian(" and ".join(author_names))
+        authors_bib = re.sub(r'\d+', '', authors_bib).strip()
+
+        bibtex = "@inproceedings{{{},\n".format(bibkey)
+        bibtex += "  author    = {{{}}},\n".format(authors_bib)
+        bibtex += "  title     = {{{}}},\n".format(entry.get('title', ''))
+        if "venue" in entry:
+            bibtex += "  booktitle = {{{}}},\n".format(entry['venue'])
+        if "year" in entry:
+            bibtex += "  year      = {},\n".format(entry['year'])
+        if "ee" in entry: 
+            bibtex += "  doi      = {{{}}},\n".format(entry['ee'])
+        if "classfiied" in entry:
+            for kw in entry["classfiied"]:
+                all_keywords.add(kw)
+            keywords = " and ".join(entry["classfiied"])
+            bibtex += "  keywords  = {{{}}}\n".format(keywords)
+        bibtex += "}"
+        return bibtex
+
+    bibtex_entries = []
+    all_keywords = set()
+
+    for key, paper in papers_rank.items():
+        bibtex_entries.append(json_to_bibtex_entry(key, paper, all_keywords))
+
+    # --- Mentés .bib fájlba ---
+    bib_out = os.path.join(RESULTS_DIR, "core{}.bib".format(rank_name))
+    with open(bib_out, "w", encoding="utf-8") as f:
+        f.write("\n\n".join(bibtex_entries))
+
+    #print(", ".join(all_keywords))
+    import sys
+    print(", ".join(all_keywords).encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
+
+# Check for pid collisions in all_authors (same pid used for multiple names)
+def check_pid_collisions(all_authors):
+    pid_to_names = {}
+    for name, pid in all_authors:
+        if not pid:
+            continue
+        pid_to_names.setdefault(pid, set()).add(name)
+    collisions = {pid: names for pid, names in pid_to_names.items() if len(names) > 1}
+    if not collisions:
+        print("✅ No duplicate names for the same PID in all_authors.")
+    else:
+        print("⚠️ Found PID collisions (same PID used by multiple names):")
+        for pid, names in collisions.items():
+            print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
+                
 if __name__ == "__main__":
     authors_data=google_author_sheet.download_author_google_sheet()
 
@@ -95,110 +173,53 @@ if __name__ == "__main__":
                 search_log, papers, foreign_papers, short_papers = classify_paper.process_paper(paper, papers, search_log, foreign_papers, short_papers)
 
     # --- Save the log file ---
-    with open("log_dblp.txt", "w", encoding="utf-8") as f:
+    with open("results/log_dblp.txt", "w", encoding="utf-8") as f:
         f.write(search_log)
     
     for rank in ["A*", "A"]:
         rank_name = rank.replace('*','star')
         if foreign_papers:
-            with open('already_abroad_papers_core{}.json'.format(rank_name), 'w') as f:
-                json.dump(foreign_papers.get(rank, {}), f, indent=2)
+            outp = os.path.join(RESULTS_DIR, 'already_abroad_papers_core{}.json'.format(rank_name))
+            with open(outp, 'w', encoding='utf-8') as f:
+                json.dump(foreign_papers.get(rank, {}), f, indent=2, ensure_ascii=False)
         if short_papers:
-            with open('short_papers_core{}.json'.format(rank_name), 'w') as f:
-                json.dump(short_papers.get(rank, {}), f, indent=2)
+            outp = os.path.join(RESULTS_DIR, 'short_papers_core{}.json'.format(rank_name))
+            with open(outp, 'w', encoding='utf-8') as f:
+                json.dump(short_papers.get(rank, {}), f, indent=2, ensure_ascii=False)
 
     for rank in ["A*", "A","B","C","no_rank"]:
         rank_name=rank.replace('*','star')
-        # Mentés
-        with open("hungarian_papers_core{}.json".format(rank_name), "w", encoding="utf-8") as f:
+        # Mentés JSON a results/ könyvtárba
+        outp = os.path.join(RESULTS_DIR, "hungarian_papers_core{}.json".format(rank_name))
+        with open(outp, "w", encoding="utf-8") as f:
             json.dump(papers[rank], f, indent=2, ensure_ascii=False)
-        print("Elmentve: hungarian_papers_core{}.json with {} papers".format(rank_name, len(papers[rank])))
+        print("Elmentve: {} with {} papers".format(os.path.basename(outp), len(papers[rank])))
 
-
-        all_keywords = set()
-        author_publication_count = defaultdict(int)
-
-        # --- BibTeX rekordok generálása ---
-
-        def convert_to_latex_hungarian(text):
-            latex_map = {
-                'á': "\\'a", 'é': "\\'e", 'í': "\\'i", 'ó': "\\'o", 'ö': '\\"o', 'ő': '\\H{o}',
-                'ú': "\\'u", 'ü': '\\"u', 'ű': '\\H{u}',
-                'Á': "\\'A", 'É': "\\'E", 'Í': "\\'I", 'Ó': "\\'O", 'Ö': '\\"O', 'Ő': '\\H{O}',
-                'Ú': "\\'U", 'Ü': '\\"U', 'Ű': '\\H{U}'
-            }
-            # ensure join gets an iterable of str (not Optional[str]) by using a list comprehension
-            return ''.join([latex_map.get(c, c) or c for c in text])
-
-        def json_to_bibtex_entry(key, entry, all_keywords):
-            #global pid_to_name
-            bibkey = key.replace("conf/", "").replace("/", "")[:30]
-            authors = entry.get("authors", [])
-            author_names = []
-            for author, pid in authors:
-                author_=pid_to_name.get('/'+pid, author)
-                author_publication_count[author_] += 1
-                author_names.append(author_)
-            authors_bib = convert_to_latex_hungarian(" and ".join(author_names))
-            authors_bib = re.sub(r'\d+', '', authors_bib).strip()
-
-            bibtex = "@inproceedings{{{},\n".format(bibkey)
-            bibtex += "  author    = {{{}}},\n".format(authors_bib)
-            bibtex += "  title     = {{{}}},\n".format(entry.get('title', ''))
-            if "venue" in entry:
-                bibtex += "  booktitle = {{{}}},\n".format(entry['venue'])
-            if "year" in entry:
-                bibtex += "  year      = {},\n".format(entry['year'])
-            if "ee" in entry: 
-                bibtex += "  doi      = {{{}}},\n".format(entry['ee'])
-            if "classfiied" in entry:
-                for kw in entry["classfiied"]:
-                    all_keywords.add(kw)
-                keywords = " and ".join(entry["classfiied"])
-                bibtex += "  keywords  = {{{}}}\n".format(keywords)
-            bibtex += "}"
-            return bibtex
-
-        bibtex_entries = []
-        all_keywords = set()
-
-        for key, paper in papers[rank].items():
-            bibtex_entries.append(json_to_bibtex_entry(key, paper, all_keywords))
-
-        # --- Mentés .bib fájlba ---
-        with open("core{}.bib".format(rank_name), "w", encoding="utf-8") as f:
-            f.write("\n\n".join(bibtex_entries))
-
-        #print(", ".join(all_keywords))
-        import sys
-        print(", ".join(all_keywords).encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"))
-
-
-    # Check for pid collisions in all_authors (same pid used for multiple names)
-    def check_pid_collisions(all_authors):
-        pid_to_names = {}
-        for name, pid in all_authors:
-            if not pid:
-                continue
-            pid_to_names.setdefault(pid, set()).add(name)
-        collisions = {pid: names for pid, names in pid_to_names.items() if len(names) > 1}
-        if not collisions:
-            print("✅ No duplicate names for the same PID in all_authors.")
-        else:
-            print("⚠️ Found PID collisions (same PID used by multiple names):")
-            for pid, names in collisions.items():
-                print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
+        # Bib fájlok is results/ könyvtárba
+        create_bibtex(papers[rank], rank_name)
+        
 
     #check_pid_collisions(all_authors)
 
-    with open('all_authors.json', 'w') as f:
-        json.dump(classify_paper.all_authors, f, indent=2)
+    out_auth = os.path.join(RESULTS_DIR, 'all_authors.json')
+    with open(out_auth, 'w', encoding='utf-8') as f:
+        json.dump(classify_paper.all_authors, f, indent=2, ensure_ascii=False)
 
-    with open('papers_with_no_page.json', 'w') as f:
-        json.dump(classify_paper.no_page_is_given, f, indent=2)
+    out_no_page = os.path.join(RESULTS_DIR, 'papers_with_no_page.json')
+    with open(out_no_page, 'w', encoding='utf-8') as f:
+        json.dump(classify_paper.no_page_is_given, f, indent=2, ensure_ascii=False)
 
     google_author_sheet.generate_author_google_sheet(authors_data)
 
+    from src import generate_chart
+    generate_chart.main()
+
+    from src import create_itable
+    create_itable.main(authors_data)
+    
+    from src import plot_author_journal_vs_conference
+    plot_author_journal_vs_conference.main(authors_data)
+    
     if False:
         import shutil
 
