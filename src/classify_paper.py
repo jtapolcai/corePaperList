@@ -198,7 +198,17 @@ def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
     venue_name_upper = venue_name.upper()
     # @ symbol indicates workshop (e.g., "SESENA@ICSE")
     is_companion_or_workshop = '@' in venue_name or any(keyword in venue_name_upper for keyword in 
-                                     ['COMPANION', 'WORKSHOP', 'WORKSHOPS', 'POSTERS', 'DEMOS'])
+                                     ['COMPANION', 'WORKSHOP', 'WORKSHOPS', 'POSTERS', 'DEMOS', 'FORUM'])
+    
+    # Check if crossref indicates workshop (e.g., "conf/re/2023w" ends with 'w', "conf/caise/2011fo" ends with 'fo')
+    if venue_crossref:
+        crossref_parts = venue_crossref.split('/')
+        if len(crossref_parts) >= 3:
+            last_part = crossref_parts[-1]
+            # Workshop indicators in crossref: ends with 'w', 'workshops', 'fo' (forum), or contains workshop/companion/demo/poster keywords
+            if (last_part.endswith('w') or last_part.endswith('workshops') or last_part.endswith('fo') or
+                any(kw in last_part.lower() for kw in ['workshop', 'companion', 'demo', 'poster', 'forum'])):
+                is_companion_or_workshop = True
     
     venue_name = remove_numbers_and_parentheses(venue_name).upper()
     if venue_crossref:
@@ -402,9 +412,19 @@ def is_short_paper(info: Dict, venue: str, rank_name: str, year: int) -> tuple[b
     venue_upper = venue.upper()
     if '@' in venue:
         return True, "Venue contains '@' (workshop indicator)"
-    for keyword in ['WORKSHOP', 'COMPANION', 'POSTERS', 'DEMOS']:
+    for keyword in ['WORKSHOP', 'COMPANION', 'POSTERS', 'DEMOS', 'FORUM']:
         if keyword in venue_upper:
             return True, f"Venue contains '{keyword}' keyword"
+    
+    # Check crossref for workshop indicators
+    crossref = info.get("crossref", "")
+    if crossref:
+        crossref_parts = crossref.split('/')
+        if len(crossref_parts) >= 3:
+            last_part = crossref_parts[-1]
+            if (last_part.endswith('w') or last_part.endswith('workshops') or last_part.endswith('fo') or
+                any(kw in last_part.lower() for kw in ['workshop', 'companion', 'demo', 'poster', 'forum'])):
+                return True, f"Crossref '{crossref}' indicates workshop/companion/forum"
     
     title_val = info.get("title", "N/A")
     if isinstance(title_val, dict):
