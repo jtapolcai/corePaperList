@@ -3,6 +3,7 @@
 Tudometer - Main module for author record creation and paper counting
 Coordinates DBLP, MTMT, and MTA ATT data to build comprehensive author profiles.
 """
+import os
 import sys
 import json
 from collections import OrderedDict
@@ -493,6 +494,9 @@ if __name__ == "__main__":
     if len(sys.argv)>1:
         mtmt_id = sys.argv[1]
 
+    if not os.path.exists('results'):
+        os.makedirs('results')
+        
     author, data = find_dblp_in_google_sheets(mtmt_id)
     if author and data:
         print(f"DBLP azonosító a Google táblázatban: {author} - {data.get('dblp_url','N/A')}")

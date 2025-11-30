@@ -129,6 +129,9 @@ def check_pid_collisions(all_authors):
             print(" PID {} -> {}".format(pid, ", ".join(sorted(names))))
                 
 if __name__ == "__main__":
+    if not os.path.exists('results'):
+        os.makedirs('results')
+
     authors_data=google_author_sheet.download_author_google_sheet()
 
     # check is author names are all unique
@@ -219,7 +222,10 @@ if __name__ == "__main__":
     
     from src import plot_author_journal_vs_conference
     plot_author_journal_vs_conference.main(authors_data)
-    
+
+    from src import map_core_papers_to_mtmt
+    map_core_papers_to_mtmt.main()
+
     if False:
         import shutil
 

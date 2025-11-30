@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os,sys
 
-show_plots = True
+show_plots = False
 rank_names = ["Astar", "A"]
 rank_names = ["Astar", "A","B","C"]
 
@@ -63,7 +63,7 @@ def download_mtmt_papers(mtmt_results, base_path='hungarian_papers_',force_downl
         return "".join(result)
     
     for rank_name in rank_names:
-        filename=base_path+'core{}.json'.format(rank_name)
+        filename='results/'+base_path+'core{}.json'.format(rank_name)
         if rank_name not in mtmt_results:
             mtmt_results[rank_name]={}
         with open(filename, "r", encoding="utf-8") as f:
@@ -429,25 +429,44 @@ def print_latex_table(categories, values_by_rank, labels):
 
     print(f'✅ Saved LaTeX table to {outpath}')
 
+def main():
+    papers={}
+    for rank_name in rank_names:
+        if os.path.exists(f"results/papers_in_mtmt_{rank_name}.json"):
+            with open(f"results/papers_in_mtmt_{rank_name}.json", "r", encoding="utf-8") as f:
+                papers[rank_name] = json.load(f)
+    #with open("missing_in_mtmt.json", "r", encoding="utf-8") as f:
+    #    missing_paper = json.load(f)
+
+    #filename='already_abroad_'
+    #filename='short_'
+    #base_path='hungarian_papers_'
+    missing_paper = download_mtmt_papers(papers, force_download=False)
+
 if __name__ == "__main__":
+    missing_paper = []
+    papers = {}
+    show_plots = True
     if len(sys.argv)==1:
-        papers={}
+        main()
+        # Load papers after main() completes
         for rank_name in rank_names:
             if os.path.exists(f"results/papers_in_mtmt_{rank_name}.json"):
                 with open(f"results/papers_in_mtmt_{rank_name}.json", "r", encoding="utf-8") as f:
                     papers[rank_name] = json.load(f)
-        #with open("missing_in_mtmt.json", "r", encoding="utf-8") as f:
-        #    missing_paper = json.load(f)
-
-        #filename='already_abroad_'
-        #filename='short_'
-        #base_path='hungarian_papers_'
-        missing_paper = download_mtmt_papers(papers, force_download=False)
     else:
         print("Force download enabled")
         missing_paper = download_mtmt_papers({}, force_download=True)
-    if len(missing_paper)>0:
-        print("Minden MTMT keresés sikeresen lefutott.")
+        # Load papers after download
+        for rank_name in rank_names:
+            if os.path.exists(f"results/papers_in_mtmt_{rank_name}.json"):
+                with open(f"results/papers_in_mtmt_{rank_name}.json", "r", encoding="utf-8") as f:
+                    papers[rank_name] = json.load(f)
+    
+    if len(missing_paper) > 0:
+        print(f"⚠️ {len(missing_paper)} cikk hiányzik az MTMT-ből")
+    else:
+        print("✅ Minden MTMT keresés sikeresen lefutott.")
     #plot_missing_papers_histogram(papers)
     plot_journal_versions(papers)
     

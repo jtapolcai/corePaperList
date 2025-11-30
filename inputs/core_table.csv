@@ -10,7 +10,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 94,Advances in Cryptology,CRYPTO,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/crypto,6
 986,International Conference on Data Engineering,ICDE,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/icde,6
 1548,International World Wide Web Conference,WWW;WWW (Fall),"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/www,6
-642,IEEE International Conference on Data Mining,ICDM,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/icdm;conf/incdm,6
+642,IEEE International Conference on Data Mining,ICDM,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/icdm,6
 46,ACM SIGMOD-SIGACT-SIGART Conference on Principles of Database Systems,PODS,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/pods,3
 823,Information Processing in Sensor Networks,IPSN,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/ipsn,6
 63,ACM Symposium on Principles of Distributed Computing,PODC,"CORE2008_A*, ERA2010_A, CORE2013_A*, CORE2014_A*, CORE2017_A*, CORE2018_A*, CORE2020_A*, CORE2021_A*, CORE2023_A*",conf/podc,6
@@ -80,7 +80,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 2051,IEEE International Conference on Robotics and Automation,ICRA,"CORE2008_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2023_A*",conf/icra,6
 2175,ACM International Conference on Systems for Energy-Efficient Built Environments,BuildSys,CORE2018_A,,
 2176,Innovations in Theoretical Computer Science,ITCS,"CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/innovations,3
-112,American Federation of Information Processing Societies,AFIPS,"ERA2010_C, CORE2018_A",,6
+112,American Federation of Information Processing Societies,AFIPS,"ERA2010_C, CORE2018_A",conf/afips,6
 2021,Extended Semantic Web Conference (was European Semantic Web Conference),ESWC,"CORE2008_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_B",conf/esws,6
 1426,International Symposium on Theoretical Aspects of Computer Science,STACS,"CORE2008_A, ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/stacs,3
 1398,International Symposium on Mathematical Foundations of Computer Science,MFCS,"CORE2008_B, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/mfcs,3
@@ -141,7 +141,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 973,International Conference on Concurrency Theory,CONCUR,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/concur,3
 24,ACM International Conference on Emerging Networking Experiments and Technologies,CoNEXT,"ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/conext,6
 371,Conference on Computational Natural Language Learning,CoNLL,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_B",conf/conll,6
-979,International Conference on Cooperative Information Systems,CoopIS,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_B, CORE2023_B",,6
+979,International Conference on Cooperative Information Systems,CoopIS,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_B, CORE2023_B",conf/coopis,6
 1175,International Conference on Principles and Practice of Constraint Programming,CP,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/cp,6
 597,IEEE Computational Systems Bioinformatics Conference,CSB,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A",,6
 13,ACM Conference on Computer Supported Cooperative Work,CSCW,"CORE2008_A, ERA2010_A, CORE2013_A, CORE2014_A, CORE2017_A, CORE2018_A, CORE2020_A, CORE2021_A, CORE2023_A",conf/cscw,6
@@ -336,7 +336,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 225,Australasian Port and Harbour Conference,,ERA2010_A,,
 232,Australasian Transport Research Forum,ATRF,ERA2010_A,,
 287,Bluff Body Aerodynamics and Applications,,ERA2010_A,,
-294,British Computer Society Conference on Human-Computer Interaction,HCI,"CORE2008_C, ERA2010_A",,
+294,British Computer Society Conference on Human-Computer Interaction,BCS HCI,"CORE2008_C, ERA2010_A",conf/bcshci,6
 299,CAADFutures Biennial conference,CAADFutures,ERA2010_A,,
 307,Centre for Asian and Middle Eastern Architecture conference,CAMEA,ERA2010_A,,
 314,CIRP Life Cycle Engineering Conference,,ERA2010_A,,
@@ -804,7 +804,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 1912,"Workshop on Logic, Language, Information and Computation",WoLLIC,"CORE2008_B, ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",conf/wollic,
 716,IEEE International Workshop on Object-Oriented Real-Time Dependable Systems,WORDS,"CORE2008_B, ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B",,
 1865,Winter Simulation Conference,WSC,"CORE2008_B, ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",conf/wsc,
-794,IEEE/WIC/ACM International Conference on Web Intelligence (previously joint with Intelligent Agent Technology WI-IAT),WI,"ERA2010_C, CORE2013_C, CORE2014_C, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",,
+794,IEEE/WIC/ACM International Conference on Web Intelligence (previously joint with Intelligent Agent Technology WI-IAT),WI,"ERA2010_C, CORE2013_C, CORE2014_C, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",conf/webi,
 849,Intelligent Virtual Agents,IVA,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",conf/iva,
 902,International Conference on Agents and Artificial Intelligence,ICAART,"ERA2010_C, CORE2013_C, CORE2014_C, CORE2017_C, CORE2018_C, CORE2020_C, CORE2021_B, CORE2023_B",conf/icaart,
 928,International Conference on Case-Based Reasoning,ICCBR,"ERA2010_C, CORE2013_C, CORE2014_C, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",conf/iccbr,
@@ -875,7 +875,7 @@ ID,Name,Acronym,YearsListed,dblp_venue,mta_class
 461,International Conference on Artificial Reality and Telexistance & Eurographics Symposium on Virtual Environments,EGVE,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",conf/egve,
 2159,"EMAS (merger of DALT, AOSE and PROMAS)",EMAS,"CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",conf/emas,
 512,European Symposium on Artificial Neural Networks,ESANN,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",conf/esann,
-1475,International Workshop on Fast Software Encryption,FSE,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B",,
+1475,International Workshop on Fast Software Encryption,FSE,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B",conf/fse,
 573,Graphics Interface,GI,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_B",conf/graphicsinterface,
 579,Heterogeneity in Computing Workshop,HCW,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",,
 652,IEEE International Conference on High Performance Computing and Communications,HPCC,"ERA2010_B, CORE2013_B, CORE2014_B, CORE2017_B, CORE2018_B, CORE2020_B, CORE2021_B, CORE2023_C",conf/hpcc,

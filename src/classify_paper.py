@@ -137,7 +137,7 @@ def remove_numbers_and_parentheses(text: str) -> str:
     #text = re.sub(r'\([^)]*\)', '', text)
     text = re.sub(r'\d+', '', text)
     text = re.sub(r'\s{2,}', ' ', text).strip()
-    text=text.replace("()", "")
+    text=text.replace("()", "").strip()
     return text
 
 

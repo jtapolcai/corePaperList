@@ -3,7 +3,7 @@
 """Test script for first paper year extraction"""
 
 import json
-from create_author_order import find_first_paper_year, add_first_paper_year
+#from create_author_order import find_first_paper_year, add_first_paper_year
 
 # Load author data
 with open('results/full_authors_data.json', 'r', encoding='utf-8') as f:

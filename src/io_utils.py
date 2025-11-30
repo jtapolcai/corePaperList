@@ -30,12 +30,15 @@ def load_json(path: str):
         return _json_cache[resolved]
     try:
         with open(resolved, 'r', encoding='utf-8') as f:
+            print(f"Loading JSON from {resolved}")
             data = json.load(f)
             _json_cache[resolved] = data
             return data
     except FileNotFoundError:
         return None
-
+    except json.JSONDecodeError as e:
+        print(f"⚠️  Invalid JSON in file: {resolved} ({e})")
+        return None
 
 def save_json(path: str, data):
     """Save JSON file into results/ directory and update cache."""

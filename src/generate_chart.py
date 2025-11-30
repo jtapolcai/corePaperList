@@ -718,7 +718,7 @@ def plot_mtmt_ratings_comparison():
 
     from io_utils import load_json
     for rank_name in ["Astar", "A"]:
-        fn = f"papers_in_mtmt_{rank_name}.json"
+        fn = f"results/papers_in_mtmt_{rank_name}.json"
         papers = load_json(fn) or {}
         if papers is None:
             print(f'⚠️ File not found: {fn} - skipping')

@@ -1,5 +1,8 @@
 import gzip
 import json
+import os
+import time
+
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import XMLParser
 from html.entities import name2codepoint
@@ -80,7 +83,12 @@ if __name__ == "__main__":
     statistics["no_rank"] = {}
     statistics["no_rank"]["all"] = {}
     venue_counts = {} 
-    venue_names = {} 
+    venue_names = {}
+    # Cache for core_rank lookups to avoid repeated pandas queries
+    rank_cache = {}
+    # Time-based progress logging (every ~10s)
+    last_log_time = time.time()
+    last_log_count = 0
     for pub in iter_dblp_publications(DBLP_FILE):
         # Itt azt csinálsz a rekorddal, amit akarsz:
         # pl. szűrés, kiírás, adatbázisba rakás stb.
@@ -98,8 +106,14 @@ if __name__ == "__main__":
         if venue_dblp not in venue_counts:
             venue_counts[venue_dblp] = 0
         venue_counts[venue_dblp] += 1
-        #rank = classify_paper.core_rank(venue_name, year)
-        rank = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
+        
+        # Use cache for rank lookup
+        cache_key = (venue_name, venue_crossref, venue_dblp, year)
+        if cache_key in rank_cache:
+            rank = rank_cache[cache_key]
+        else:
+            rank = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
+            rank_cache[cache_key] = rank
         if rank == "no_rank":
             # Correctly accumulate no_rank counts under the 'all' bucket per year
             if year not in statistics["no_rank"]["all"]:
@@ -115,25 +129,14 @@ if __name__ == "__main__":
         #         venue=venue_
         pages_str = pub.get("pages", "")
         pagenum = classify_paper.get_paper_length(pages_str)
+        # Use nested dict instead of list for O(1) lookup
         if venue_dblp not in venue_names:
-            venue_names[venue_dblp] = [(venue_, {pagenum:1})]    
-        else:
-            # Check if venue_name already exists
-            found = False
-            for i, (v_name, page_dict) in enumerate(venue_names[venue_dblp]):
-                if v_name == venue_:
-                    # Update page number count
-                    if pagenum in page_dict:
-                        page_dict[pagenum] += 1
-                    else:
-                        page_dict[pagenum] = 1
-                    venue_names[venue_dblp][i] = (v_name, page_dict)
-                    found = True
-                    break
-            
-            if not found:
-                # New venue_name for this venue_
-                venue_names[venue_dblp].append((venue_, {pagenum:1}))
+            venue_names[venue_dblp] = {}
+        if venue_ not in venue_names[venue_dblp]:
+            venue_names[venue_dblp][venue_] = {}
+        if pagenum not in venue_names[venue_dblp][venue_]:
+            venue_names[venue_dblp][venue_][pagenum] = 0
+        venue_names[venue_dblp][venue_][pagenum] += 1
 
         if rank not in statistics:
             statistics[rank] = {}
@@ -143,24 +146,33 @@ if __name__ == "__main__":
             statistics[rank][venue_dblp][year] = 0
         statistics[rank][venue_dblp][year] += 1
         count += 1
-        if count % 100000 == 0: # 12093075 
-            print(f"{count} rekord feldolgozva...")
+        # Print progress every ~10 seconds with processing rate
+        now = time.time()
+        if now - last_log_time >= 10:
+            delta = count - last_log_count
+            elapsed = now - last_log_time if now - last_log_time > 0 else 1.0
+            rate = delta / elapsed
+            print(f"{count} rekord feldolgozva... ~{rate:.0f} rec/s", flush=True)
+            last_log_time = now
+            last_log_count = count
 
     print(f"Összesen {count} publikációt dolgoztam fel.")
     
+    if not os.path.exists('conference_stats'):
+        os.makedirs('conference_stats')
     # JSON fájlba írás
-    with open('dblp_statistics.json', 'w', encoding='utf-8') as f:
+    with open('conference_stats/dblp_statistics.json', 'w', encoding='utf-8') as f:
         json.dump(statistics, f, ensure_ascii=False, indent=2)
-    print(f"✓ Statisztikák mentve: dblp_statistics.json")
+    print(f"✓ Statisztikák mentve: conference_stats/dblp_statistics.json")
     
     # Venue statistics
-    with open('dblp_venue_counts.json', 'w', encoding='utf-8') as f:
+    with open('conference_stats/dblp_venue_counts.json', 'w', encoding='utf-8') as f:
         json.dump(venue_counts, f, ensure_ascii=False, indent=2)
-    print(f"✓ Venue statisztikák mentve: dblp_venue_counts.json")
+    print(f"✓ Venue statisztikák mentve: conference_stats/dblp_venue_counts.json")
     
-    with open('dblp_venue_names.json', 'w', encoding='utf-8') as f:
+    with open('conference_stats/dblp_venue_names.json', 'w', encoding='utf-8') as f:
         json.dump(venue_names, f, ensure_ascii=False, indent=2)
-    print(f"✓ Venue statisztikák mentve: dblp_venue_names.json")
+    print(f"✓ Venue statisztikák mentve: conference_stats/dblp_venue_names.json")
 
     # Print top venues
     print(f"\nÖsszes venue: {len(venue_counts)}")
