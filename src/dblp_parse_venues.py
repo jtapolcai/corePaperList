@@ -110,10 +110,11 @@ if __name__ == "__main__":
         # Use cache for rank lookup
         cache_key = (venue_name, venue_crossref, venue_dblp, year)
         if cache_key in rank_cache:
-            rank = rank_cache[cache_key]
+            rank, short_paper = rank_cache[cache_key]
         else:
-            rank = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
-            rank_cache[cache_key] = rank
+            rank, short_paper = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
+            rank_cache[cache_key] = (rank, short_paper)
+        short_paper_str="short" if short_paper else "full"
         if rank == "no_rank":
             # Correctly accumulate no_rank counts under the 'all' bucket per year
             if year not in statistics["no_rank"]["all"]:
@@ -139,12 +140,12 @@ if __name__ == "__main__":
         venue_names[venue_dblp][venue_][pagenum] += 1
 
         if rank not in statistics:
-            statistics[rank] = {}
-        if venue_dblp not in statistics[rank]:
-            statistics[rank][venue_dblp] = {}
-        if year not in statistics[rank][venue_dblp]:
-            statistics[rank][venue_dblp][year] = 0
-        statistics[rank][venue_dblp][year] += 1
+            statistics[rank] = {'full': {}, 'short': {}}
+        if venue_dblp not in statistics[rank][short_paper_str]:
+            statistics[rank][short_paper_str][venue_dblp] = {}
+        if year not in statistics[rank][short_paper_str][venue_dblp]:
+            statistics[rank][short_paper_str][venue_dblp][year] = 0
+        statistics[rank][short_paper_str][venue_dblp][year] += 1
         count += 1
         # Print progress every ~10 seconds with processing rate
         now = time.time()

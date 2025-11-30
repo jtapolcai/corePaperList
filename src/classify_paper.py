@@ -170,7 +170,7 @@ def core_rank_old(venue: str, pub_year: int) -> str:
         last_rank = rank
     return last_rank
 
-def get_core_rank(pub: dict) -> str:
+def get_core_rank(pub: dict) -> Tuple[str, bool]:
     year=int(pub.get("year", 0))
     # Extract venue key from paper key (e.g., "conf/l4dc/JiaYSW20" -> "conf/l4dc")
     # or from crossref (e.g., "conf/l4dc/2020" -> "conf/l4dc")
@@ -187,8 +187,15 @@ def get_core_rank(pub: dict) -> str:
             venue_dblp = '/'.join(key.split('/')[:2])
     
     venue_name=pub.get("venue", "")
-    rank = core_rank(venue_name, venue_crossref, venue_dblp, year)
-    return rank
+    rank, short_paper = core_rank(venue_name, venue_crossref, venue_dblp, year)
+    return rank, short_paper
+
+def adjust_rank(last_rank: str, short_paper) -> str:
+    global short_paper_rank
+    if short_paper:
+        if last_rank in short_paper_rank:
+            return short_paper_rank[last_rank]
+    return last_rank
 
 def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
     acronym_row = None
@@ -234,7 +241,7 @@ def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
                 return None, short_paper
     return acronym_row, short_paper
     
-def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -> str:
+def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -> Tuple[str, bool]:
     """Determine CORE rank using the dblp_venue key (already normalized in the table).
 
     Falls back to "no_rank" safely if:
@@ -244,13 +251,13 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
     """
     acronym_row, short_paper = identify_conference(venue_name, venue_crossref, venue_dblp)
     if acronym_row is None:
-        return "no_rank"
+        return "no_rank", False
     # If multiple rows match, take the first
     if isinstance(acronym_row, pd.DataFrame):
         acronym_row = acronym_row.iloc[0]
     core_ranks_str = acronym_row.get("YearsListed", "")
     if not isinstance(core_ranks_str, str) or not core_ranks_str.strip():
-        return "no_rank"
+        return "no_rank", False
     core_ranks = [s.strip() for s in core_ranks_str.split(",") if s.strip()]
     last_rank = "no_rank"
     first_year = None
@@ -278,17 +285,15 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
         if pub_year <= year and not return_average_rank:
             # Historical special case retained
             if year == 2013 and rank == "A*":
-                return rank
-            return last_rank
+                return rank, short_paper
+            return last_rank, short_paper
         last_rank = rank
     if return_average_rank and count>0:
         avg_value=average_rank/count
         avg_value_rounded=round(avg_value)
         last_rank=value_to_rank.get(avg_value_rounded, "no_rank")
-    if short_paper:
-        if last_rank in short_paper_rank:
-            return short_paper_rank[last_rank]
-    return last_rank
+    return last_rank, short_paper
+
 
 def get_int(text: str) -> int:
     # Handle dot separator (e.g., "7.13" -> 13)
@@ -478,7 +483,8 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
     record["ee"] = info.get("ee", "")
     record["url"] = info.get("url", "")
     record["crossref"] = info.get("crossref", "")
-    rank = get_core_rank(record)
+    rank, short_paper = get_core_rank(record)
+
     if not skip_author_check:
         # Authors
         author_list_raw = info.get("author", [])
@@ -512,8 +518,11 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
     
     # Store original rank before degradation for short_papers tracking
     original_rank = rank
-    
-    short_paper_flag, short_paper_reason = is_short_paper(info, venue, rank, year)
+    if not short_paper:
+        short_paper_flag, short_paper_reason = is_short_paper(info, venue, rank, year)
+    else:
+        short_paper_flag = True
+        short_paper_reason = "Identified as short paper from venue/acronym analysis"
     if short_paper_flag:
         short_paper = True
         search_log += f"\n Short paper {paper_str}"

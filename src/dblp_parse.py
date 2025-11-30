@@ -86,7 +86,8 @@ if __name__ == "__main__":
         if venue_dblp not in venue_counts:
             venue_counts[venue_dblp] = 0
         venue_counts[venue_dblp] += 1
-        rank = classify_paper.get_core_rank(pub)
+        rank, short_paper = classify_paper.get_core_rank(pub)
+        short_paper_str = "short" if short_paper else "full"
         if rank == "no_rank":
             continue
         venue_=classify_paper.remove_numbers_and_parentheses(venue_name)
@@ -119,12 +120,12 @@ if __name__ == "__main__":
                 venue_names[venue_dblp].append((venue_, {pagenum:1}))
 
         if rank not in statistics:
-            statistics[rank] = {}
-        if venue_dblp not in statistics[rank]:
-            statistics[rank][venue_dblp] = {}
-        if year not in statistics[rank][venue_dblp]:
-            statistics[rank][venue_dblp][year] = 0
-        statistics[rank][venue_dblp][year] += 1
+            statistics[rank] = {'full': {}, 'short': {}}
+        if venue_dblp not in statistics[rank][short_paper_str]:
+            statistics[rank][short_paper_str][venue_dblp] = {}
+        if year not in statistics[rank][short_paper_str][venue_dblp]:
+            statistics[rank][short_paper_str][venue_dblp][year] = 0
+        statistics[rank][short_paper_str][venue_dblp][year] += 1
         count += 1
         if count % 10000 == 0: # 12093075 
             print(f"{count} rekord feldolgozva...")

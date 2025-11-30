@@ -55,6 +55,9 @@ def classify_author(author_name: str, pid: str, year: int) -> Dict[str, str]:
     If PID maps to a known name with Hungarian year-range, return details.
     """
     global authors_data, pid_to_name
+    if len(pid_to_name) == 0:
+        authors_data=google_author_sheet.download_author_google_sheet()
+        create_pid_to_name_map(authors_data)
     # PIDs in pid_to_name already have the "/" prefix
     pid_key = pid if pid.startswith('/') else f"/{pid}"
     if pid and pid_key in pid_to_name:

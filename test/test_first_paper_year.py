@@ -1,6 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""Test script for first paper year extraction"""
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 import json
 #from create_author_order import find_first_paper_year, add_first_paper_year
