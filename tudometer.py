@@ -132,7 +132,8 @@ def count_CORE_papers_by_author(author, data, dblp_record=None, print_log=False,
         dblp_record=dblp_record['dblpperson']
     # Pass venues to all 3 calls for this rank
     data=count_papers_by_author(data, dblp_record, print_log=print_log)
-    weight=[2.9,4.9,9.2,19.6]
+    #weight=[2.9,4.9,9.2,19.6]
+    weight=[3,6,9,18]
     data["Core A* equivalent"] = data["paper_countA*"]+data["paper_countA"]/weight[0]+data["paper_countB"]/weight[1]+data["paper_countC"]/weight[2]+data["paper_countno_rank"]/weight[3]
     data=count_papers_by_author(data, dblp_record, first_author_only=True, name_prefix='first_author_', print_log=print_log)
     data["First Author Core A* equivalent"] = data["first_author_paper_countA*"]+data["first_author_paper_countA"]/weight[0]+data["first_author_paper_countB"]/weight[1]+data["first_author_paper_countC"]/weight[2]+data["first_author_paper_countno_rank"]/weight[3]

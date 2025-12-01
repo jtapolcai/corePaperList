@@ -162,9 +162,29 @@ if __name__ == "__main__":
     if not os.path.exists('conference_stats'):
         os.makedirs('conference_stats')
     # JSON fájlba írás
+    # Rendezett kiíráshoz először rekurzívan sorbarendezzük a numerikus év-kulcsokat
+    def _sort_keys_rec(obj):
+        if isinstance(obj, dict):
+            # Rekurzívan dolgozzuk fel a gyerekeket
+            new_children = {k: _sort_keys_rec(v) for k, v in obj.items()}
+            # Rendezési kulcs: numerikus kulcsok elsőként (egész szám szerint), aztán a többi lexikografikusan
+            def _sort_key(k):
+                if isinstance(k, str) and k.isdigit():
+                    return (0, int(k))
+                return (1, k)
+            ordered = {}
+            for k in sorted(new_children.keys(), key=_sort_key):
+                ordered[k] = new_children[k]
+            return ordered
+        elif isinstance(obj, list):
+            return [_sort_keys_rec(v) for v in obj]
+        else:
+            return obj
+
+    sorted_statistics = _sort_keys_rec(statistics)
     with open('conference_stats/dblp_statistics.json', 'w', encoding='utf-8') as f:
-        json.dump(statistics, f, ensure_ascii=False, indent=2)
-    print(f"✓ Statisztikák mentve: conference_stats/dblp_statistics.json")
+        json.dump(sorted_statistics, f, ensure_ascii=False, indent=2)
+    print(f"✓ Statisztikák mentve: conference_stats/dblp_statistics.json (évszámok rendezve)")
     
     # Venue statistics
     with open('conference_stats/dblp_venue_counts.json', 'w', encoding='utf-8') as f:
@@ -174,6 +194,11 @@ if __name__ == "__main__":
     with open('conference_stats/dblp_venue_names.json', 'w', encoding='utf-8') as f:
         json.dump(venue_names, f, ensure_ascii=False, indent=2)
     print(f"✓ Venue statisztikák mentve: conference_stats/dblp_venue_names.json")
+
+    with open('conference_stats/dblp_acronym_to_crossref.json', 'w', encoding='utf-8') as f:
+        json.dump(classify_paper.acronym_to_crossref, f, ensure_ascii=False, indent=2)
+    print(f"✓ Venue statisztikák mentve: conference_stats/dblp_acronym_to_crossref.json")
+
 
     # Print top venues
     print(f"\nÖsszes venue: {len(venue_counts)}")

@@ -197,7 +197,10 @@ def adjust_rank(last_rank: str, short_paper) -> str:
             return short_paper_rank[last_rank]
     return last_rank
 
+acronym_to_crossref={}
+
 def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
+    global acronym_to_crossref
     acronym_row = None
     short_paper=False
     
@@ -223,6 +226,29 @@ def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
         if venue_key not in core_table_by_dblp_venue.index:
             if venue_name in core_table_by_acronym.index:
                 acronym_row = core_table_by_acronym.loc[venue_name]
+                # If multiple rows match, take the first one for this lookup
+                if isinstance(acronym_row, pd.DataFrame):
+                    acronym_row = acronym_row.iloc[0]
+                # Now venues_field is a scalar (or NaN) and safe to test
+                venues_field = acronym_row.get("dblp_venue")
+                if not pd.isna(venues_field) and str(venues_field).strip() != "":
+                    # the row had a dblp_venue that did not match!
+                    return None, short_paper
+                else:
+                    if venue_name not in acronym_to_crossref:
+                        acronym_to_crossref[venue_name] = venue_key
+                    else:
+                        if venue_key not in acronym_to_crossref[venue_name].split(';'):
+                            acronym_to_crossref[venue_name] += ';' + venue_key
+                    # the row does not have a dblp_venue
+
+
+                    # for key in str(venues_field).split(";"):
+                    #     key = key.strip()
+                    #     if not key:
+                    #         continue
+                    #     if key==venue_key
+                
         else:
             try:
                 acronym_row = core_table_by_dblp_venue.loc[venue_key]
