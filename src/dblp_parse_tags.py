@@ -3,58 +3,68 @@ import json
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import XMLParser
 from html.entities import name2codepoint
-import classify_paper
-    
+
 DBLP_FILE = "inputs/dblp.xml.gz"
 
 # Generate complete HTML entity mapping from Python's html.entities module
-# This includes all 252 standard HTML entities (euml, ocirc, etc.)
 HTML_ENTITIES = {}
 for name, codepoint in name2codepoint.items():
     HTML_ENTITIES[name] = chr(codepoint)
 
-
-def iter_dblp_publications(filename: str):
+def iter_dblp_tags(filename: str):
     """
-    Generátor, ami végigiterál a teljes dblp.xml.gz dump összes releváns
-    publikációs rekordján. Minden rekordot egy dict-ként ad vissza.
+    Generator to iterate over all tags in the DBLP XML dump.
+    Builds a hierarchical tree of tags and counts their occurrences.
     """
     # Create custom parser that handles HTML entities
     parser = XMLParser()
-    # Register HTML entities
     for entity, char in HTML_ENTITIES.items():
         parser.entity[entity] = char
-    
-    with gzip.open(filename, "rb") as f:
-        # csak 'end' esemény kell, hogy akkor dolgozzuk fel, amikor egy elem lezárult
-        context = ET.iterparse(f, events=("end",), parser=parser)
-        for event, elem in context:
-            tag = elem.tag
-            if len(elem):
-                yield tag
-                # Nagyon fontos: memória felszabadítása
-                elem.clear()
 
+    with gzip.open(filename, "rb") as f:
+        context = ET.iterparse(f, events=("start", "end"), parser=parser)
+        tag_stack = []
+        for event, elem in context:
+            if event == "start":
+                tag_stack.append(elem.tag)
+                yield tag_stack.copy()
+            elif event == "end":
+                tag_stack.pop()
+                elem.clear()  # Free memory
+
+def build_tag_tree_and_counts(filename):
+    """
+    Build a hierarchical tree of tags and count their occurrences.
+
+    Args:
+        filename (str): Path to the DBLP XML file.
+
+    Returns:
+        dict: A nested dictionary representing the tag hierarchy and counts.
+    """
+    tag_tree = {}
+
+    def add_to_tree(tree, path):
+        current = tree
+        for tag in path:
+            if tag not in current:
+                current[tag] = {"_count": 0, "_children": {}}
+            current[tag]["_count"] += 1
+            current = current[tag]["_children"]
+
+    for tag_path in iter_dblp_tags(filename):
+        add_to_tree(tag_tree, tag_path)
+
+    return tag_tree
 
 if __name__ == "__main__":
-    count = 0
-    statistics = {}
-    tag_counts = {} 
-    for pub in iter_dblp_publications(DBLP_FILE):
-        if pub not in tag_counts:
-            tag_counts[pub] = 0
-        tag_counts[pub] += 1
-        count += 1
-        if count % 100000 == 0: # 12093075 
-            print(f"{count} rekord feldolgozva...")
-            with open('dblp_tag_statistics.json', 'w', encoding='utf-8') as f:
-                json.dump(tag_counts, f, ensure_ascii=False, indent=2)
-    print(f"Összesen {count} publikációt dolgoztam fel.")
-    
-    # JSON fájlba írás
-    with open('dblp_tag_statistics.json', 'w', encoding='utf-8') as f:
-        json.dump(tag_counts, f, ensure_ascii=False, indent=2)
-    print(f"✓ Statisztikák mentve: dblp_tag_statistics.json")
-    
+    print("Building tag tree and counting occurrences...")
+    tag_tree = build_tag_tree_and_counts(DBLP_FILE)
+
+    # Save the tag tree to a JSON file
+    with open('results/dblp_tag_tree.json', 'w', encoding='utf-8') as f:
+        json.dump(tag_tree, f, ensure_ascii=False, indent=2)
+
+    print("✓ Tag tree and counts saved to results/dblp_tag_tree.json")
 
 

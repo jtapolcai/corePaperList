@@ -12,6 +12,7 @@ if _src not in sys.path: sys.path.insert(0, _src)
 
 import json
 import os
+from pathlib import Path
 import requests
 import xmltodict
 from typing import Optional, Callable, Tuple, Any
@@ -24,7 +25,7 @@ def remove_accents(text: str) -> str:
     from unidecode import unidecode
     return unidecode(text)
 
-def get_DBLP_record(dblp_url: str, author: str, force: bool = False) -> Optional[dict]:
+def get_DBLP_record(dblp_url: str, author: str = "", force: bool = False) -> Optional[dict]:
     """Query DBLP for author/person data and cache results under dblp/{author}.json.
 
     Args:
@@ -34,22 +35,30 @@ def get_DBLP_record(dblp_url: str, author: str, force: bool = False) -> Optional
     Returns:
         Parsed XML dict or None on failure.
     """
-    os.makedirs("dblp", exist_ok=True)
-    author_safe = remove_accents(author).replace(" ", "_")
-    file_path = os.path.join("dblp", f"{author_safe}.json")
+    base_dir = Path(__file__).resolve().parent.parent
+    dblp_dir = base_dir / "dblp"
+    dblp_dir.mkdir(parents=True, exist_ok=True)
+    if author.strip() != "":
+        author_safe = remove_accents(author).replace(" ", "_")
+        file_path = dblp_dir / f"{author_safe}.json"
 
-    if not force and os.path.exists(file_path):
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"Error loading {file_path}: {e}")
+        if not force and Path(file_path).exists():
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception as e:
+                print(f"Error loading {file_path}: {e}")
 
-    # Normalize URL (allow passing '/pid/xx/yy')
     if not dblp_url.startswith("http"):
-        dblp_url_full = f"https://dblp.org{dblp_url}"
+        if dblp_url.startswith("/"):
+            dblp_url_full = f"https://dblp.org/pid{dblp_url}"
+        elif dblp_url.startswith("/dip/"):
+            dblp_url_full = f"https://dblp.org{dblp_url}"
+        else:
+            dblp_url_full = f"https://dblp.org/pid/{dblp_url}"
     else:
         dblp_url_full = dblp_url
+
 
     try:
         print(f"Fetching: {author} {dblp_url_full}.xml")
@@ -57,6 +66,15 @@ def get_DBLP_record(dblp_url: str, author: str, force: bool = False) -> Optional
         if response.status_code != 200:
             raise Exception(f"HTTP error {response.status_code}")
         data = xmltodict.parse(response.content)
+        
+        dblp_dir.mkdir(parents=True, exist_ok=True)
+        if author.strip() == "":
+            author=data.get("dblpperson", {}).get("@name", "unknown_author")
+            print("Name: {} from DBLP record".format(author))
+            
+
+        author_safe = remove_accents(author).replace(" ", "_")
+        file_path = dblp_dir / f"{author_safe}.json"
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         return data
@@ -252,7 +270,9 @@ def check_if_dblp_id_corresponds_to_mtmt(mtmt_id: str,
     return None, None
 
 def cache_DBLP_query(authors_data,force): 
-    os.makedirs("dblp", exist_ok=True)
+    base_dir = Path(__file__).resolve().parent.parent
+    dblp_dir = base_dir / "dblp"
+    dblp_dir.mkdir(parents=True, exist_ok=True)
 
     full_log = ""
     counter = 0
@@ -264,9 +284,9 @@ def cache_DBLP_query(authors_data,force):
 
         # we save the reuslts as dblp/author_name.json
         author_safe = google_author_sheet.remove_accents(author).replace(" ", "_")
-        output_path = os.path.join("dblp", "{}.json".format(author_safe))
+        output_path = dblp_dir / "{}.json".format(author_safe)
 
-        if not force and os.path.exists(output_path):
+        if not force and Path(output_path).exists():
             #print(f"Skip {author} (already exists)")
             continue
 

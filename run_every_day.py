@@ -224,7 +224,7 @@ if __name__ == "__main__":
     plot_author_journal_vs_conference.main(authors_data)
 
     from src import map_core_papers_to_mtmt
-    map_core_papers_to_mtmt.main()
+    #map_core_papers_to_mtmt.main()
 
     if False:
         import shutil

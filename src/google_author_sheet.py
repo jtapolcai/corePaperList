@@ -19,8 +19,7 @@ if _src not in sys.path:
     sys.path.insert(0, _src)
 
 import pandas as pd
-import tudometer
-import run_every_day
+#import run_every_day
 import mtmt_utils
 import dblp_utils
 import mta_att_utils
@@ -156,6 +155,7 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
 
     Visszatérési érték: list of dict (ha print_only=False)
     """
+    import tudometer
     global field_map
     # fordított mapping: dst_field → src_field
     reverse_map = {dst: src for src, dst in field_map.items()}
@@ -167,9 +167,9 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
             #print("Note: no_processing=False, performing value conversions.")
             if 'dblp_url' in data:
                 dblp_record=dblp_utils.get_DBLP_record(data['dblp_url'], name, force=False)
-                tudometer.count_CORE_papers_by_author(name, data, dblp_record, print_log=False)
+                tudometer.count_CORE_papers_by_author(name, data, dblp_record, print_log=print_only)
             else:
-                print(f"Skipping row {name} as htere is no dblp url in the he google sheet")
+                print(f"Skipping row {name} as there is no dblp url in the he google sheet")
 
         row = {}
         row["_author_name"] = name  # Internal key to map back to authors_data
@@ -250,8 +250,7 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
         print(output_rows)
     else:
         df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
-
-        print(" Kész: authors_data.csv")
+        print(" Kész: authors_data.csv with {} rows.".format(len(df)))
 
     print(f"Generated {len(output_rows)} Google Sheet rows.")
     return output_rows
@@ -384,6 +383,7 @@ def extend_table_with_tudometer():
     generate_author_google_sheet(authors_data, print_only=False, no_processing=False)
                 
 def add_row_mtmt_id(data, authors_data, name, comment=''):
+    import tudometer
     data_new, dblp_person=tudometer.create_record(data['mtmt_id'])
     if data_new:
         print(f"Processing {comment}. {data_new['dblp_author_name']} mtmt_id={data['mtmt_id']}")

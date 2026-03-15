@@ -5,6 +5,7 @@ Coordinates DBLP, MTMT, and MTA ATT data to build comprehensive author profiles.
 """
 import os
 import sys
+from pathlib import Path
 import json
 from collections import OrderedDict
 from typing import OrderedDict as TOrderedDict
@@ -277,8 +278,13 @@ def add_mta_att_record(angol_nev, row,  mtmt_id, magyar_nev, data, dblp_record=N
     return False, data
 
 def get_mta_att_row(mtmt_id):
+    inputs_dir = Path(__file__).resolve() / "inputs"
     for output_file in ["vi_osztaly_tagok.csv","iii_osztaly_tagok.csv"]:
-        osztaly = pd.read_csv("inputs/"+output_file, encoding='utf-8-sig')
+        file_path = inputs_dir / output_file
+        if not file_path.exists():
+            # try next file if missing
+            continue
+        osztaly = pd.read_csv(file_path, encoding='utf-8-sig')
         for idx, row in osztaly.iterrows():
             if 'Publikációk' in row:
                 publikaciok = safe_get_value(row, 'Publikációk')
@@ -367,7 +373,7 @@ def create_record(mtmt_id):
         if dblp_record:
             #with open("dblp_record.json", "w", encoding="utf-8") as f:
             #    json.dump(dblp_record, f, indent=2, ensure_ascii=False)
-            return build_author_record(mtmt_record, pub_rec,dblp_record)
+            return build_author_record(mtmt_record, pub_rec, dblp_record)
         else:
             print(f"Nincs DBLP rekord megtalálva a név alapján {mtmt_record.get('label', '')}.")
     else:
@@ -491,6 +497,7 @@ if __name__ == "__main__":
     # for debugging
     mtmt_id = 10017593
     #mtmt_id = 10028156
+    mtmt_id = 10000519
 
     if len(sys.argv)>1:
         mtmt_id = sys.argv[1]

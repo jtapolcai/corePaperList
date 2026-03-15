@@ -15,6 +15,7 @@ This module focuses on producing reproducible charts and keeping color
 assignments consistent between runs.
 """
 import os
+from pathlib import Path
 import json
 from collections import Counter, defaultdict
 import math
@@ -173,7 +174,7 @@ def plot_mta_class_pies(authors_data, core_table):
             for p in papers.values():
                 venue = (p.get("venue") or "")
                 venue = classify_paper.remove_numbers_and_parentheses(venue).upper()
-                acronym_row, short_paper = classify_paper.identify_conference(venue, p.get("crossref"), p.get("url"))
+                acronym_row, short_paper = classify_paper.identify_conference(venue, p.get("crossref"), p)
                 m = acronym_row.get("mta_class",None) if acronym_row is not None else None
                 # Handle case where loc returns a Series (multiple rows)
                 if isinstance(m, pd.Series):
@@ -189,8 +190,8 @@ def plot_mta_class_pies(authors_data, core_table):
                     key = "Unknown"
                 else:
                     key = INFORMATIKA.get(m, f"{m}")
-                if key not in ["Elméleti informatika", "Alkalmazott informatika"]:
-                    print(f"⚠️ Unknown MTA class for venue: {venue} (mta_class={m}) in paper ID {p.get('id')}")
+                #if key not in ["Elméleti informatika", "Alkalmazott informatika"]:
+                    #print(f"⚠️ Unknown MTA class for venue: {venue} (mta_class={m}) in paper ID {p.get('id')}")
                 cnt[key] += 1
 
             items = cnt.most_common()
@@ -508,6 +509,22 @@ def plot_excellence_theory_applied_pies(authors_data):
     }
     statistics={}
     processed=[]
+    def safe_float(v, default=0.0):
+        try:
+            return float(v)
+        except Exception:
+            try:
+                return float(str(v).strip())
+            except Exception:
+                return default
+    def safe_int(v, default=0):
+        try:
+            return int(v)
+        except Exception:
+            try:
+                return int(float(str(v).strip()))
+            except Exception:
+                return default
     for key,req in threasholds.items():
         rtypes=["theory","applied"]
         for rtype in rtypes:
@@ -520,9 +537,9 @@ def plot_excellence_theory_applied_pies(authors_data):
         for author, data in authors_data.items():
             if author in processed:
                 continue
-            if      float(data['First Author Core A* equivalent']) >= req['coreAstar_first'] \
-                and int(data["paper_countA*"]) >= req['coreAstar_all'] \
-                and float(data['Core A* equivalent']) >= req['coreA_all']:
+            if      safe_float(data.get('First Author Core A* equivalent', 0)) >= req['coreAstar_first'] \
+                and safe_int(data.get("paper_countA*", 0)) >= req['coreAstar_all'] \
+                and safe_float(data.get('Core A* equivalent', 0)) >= req['coreA_all']:
                 processed.append(author)
                 if data.get("category","") in rtypes:
                     keyc=key+data["category"]
@@ -831,7 +848,8 @@ def plot_mtmt_ratings_comparison():
 def main():
     mpl.rcParams.update({'font.size': 14})
     authors_data = google_author_sheet.download_author_google_sheet()
-    core_table = pd.read_csv(os.path.join("inputs", "core_table.csv"))
+    base_dir = Path(__file__).resolve().parent.parent
+    core_table = pd.read_csv(base_dir / "inputs" / "core_table.csv")
     # Convert acronyms to uppercase for case-insensitive matching
     core_table["Acronym"] = core_table["Acronym"].str.upper()
     

@@ -112,7 +112,7 @@ if __name__ == "__main__":
         if cache_key in rank_cache:
             rank, short_paper = rank_cache[cache_key]
         else:
-            rank, short_paper = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
+            rank, short_paper, row = classify_paper.core_rank(venue_name, venue_crossref, venue_dblp, year)
             rank_cache[cache_key] = (rank, short_paper)
         short_paper_str="short" if short_paper else "full"
         if rank == "no_rank":
