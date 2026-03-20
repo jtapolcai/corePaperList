@@ -60,8 +60,11 @@ def get_DBLP_record(dblp_url: str, author: str = "", force: bool = False) -> Opt
         dblp_url_full = dblp_url
 
 
+    #dblp_url_full = dblp_url_full.replace("https://dblp.org/", "https://dblp2.uni-trier.de/")
+
     try:
         print(f"Fetching: {author} {dblp_url_full}.xml")
+        sys.sleep(1)  # Be polite to DBLP
         response = requests.get(f"{dblp_url_full}.xml")
         if response.status_code != 200:
             raise Exception(f"HTTP error {response.status_code}")
@@ -269,6 +272,7 @@ def check_if_dblp_id_corresponds_to_mtmt(mtmt_id: str,
         return dblp_record, mtmt_record
     return None, None
 
+# search for an author
 def cache_DBLP_query(authors_data,force): 
     base_dir = Path(__file__).resolve().parent.parent
     dblp_dir = base_dir / "dblp"
@@ -293,15 +297,25 @@ def cache_DBLP_query(authors_data,force):
         author_query = google_author_sheet.remove_accents(author)
         if "dblp_url" in author_cls and author_cls.get("dblp_url", "").strip() != "":
             pid = author_cls.get("dblp_url", "").strip()
+            if not pid.startswith("/"):
+                pid = "/" + pid
             url = "https://dblp.org/pid{}.xml".format(pid)
         else:
             print("No pid for {}, using name search".format(author))
             url = "https://dblp.org/search/publ/api?q=author:{}&h=1000&format=xml".format(quote(author_query))
         
         try:
-            print("Fetching: {}".format(author))
+            url = url.replace("https://dblp.org/", "https://dblp2.uni-trier.de/")
+
+            print("Fetching: {} {}".format(author, url))
             time.sleep(0.5)
-            response = requests.get(url)
+            username = os.getenv("DBLP_USER")
+            password = os.getenv("DBLP_PASS")
+            if username and password:
+                #print("Using authentication for DBLP")
+                response = requests.get(url, auth=(username, password), timeout=10)
+            else:
+                response = requests.get(url, timeout=10)
             counter += 1
 
             if counter % 50 == 0:

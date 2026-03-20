@@ -450,7 +450,7 @@ def plot_stacked_by_year(authors_data,core_table):
                 except Exception:
                     legend_labels2.append(lab)
             ax.legend(handles, legend_labels2, fontsize=12, bbox_to_anchor=(1.02, 1), loc='upper left')
-            outpath = os.path.join(FIG_DIR, f'core_{file}_{rank}_by_year.png')
+            outpath = os.path.join(FIG_DIR, f'core_{file}_{rank}.png')
             #plt.show()
             plt.tight_layout(rect=(0, 0.03, 1, 1))
             plt.savefig(outpath, dpi=150, bbox_inches='tight')
