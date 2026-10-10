@@ -42,16 +42,22 @@ from urllib.request import urlopen, Request
 # their UTF-8 byte sequences BEFORE feeding chunks to the SAX parser, so the
 # parser never sees undefined entities.
 _ENTITY_RE = re.compile(rb"&([A-Za-z][A-Za-z0-9]*);")
+# The 5 predefined XML entities must be left untouched — the SAX parser
+# handles them natively, and replacing &amp; → & produces invalid XML.
+_XML_PREDEFINED = {b"amp", b"lt", b"gt", b"apos", b"quot"}
 _ENTITY_MAP: dict[bytes, bytes] = {
     name.encode(): chr(cp).encode("utf-8")
     for name, cp in html.entities.name2codepoint.items()
+    if name.encode() not in _XML_PREDEFINED
 }
 
 def _replace_html_entities(chunk: bytes) -> bytes:
-    # Known entity → Unicode; unknown DBLP-specific entity → empty bytes.
-    # Never leave &foo; unexpanded: the SAX parser would reject it.
+    # XML predefined entities: leave as-is.
+    # Known HTML entity → UTF-8 Unicode.
+    # Unknown DBLP-specific entity → empty bytes (never leave &foo; in output).
     return _ENTITY_RE.sub(
-        lambda m: _ENTITY_MAP.get(m.group(1), b""),
+        lambda m: m.group(0) if m.group(1) in _XML_PREDEFINED
+                  else _ENTITY_MAP.get(m.group(1), b""),
         chunk
     )
 
