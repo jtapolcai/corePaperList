@@ -23,6 +23,7 @@ Error estimation (name-only fallback):
 
 import csv
 import gzip
+import html.entities
 import json
 import os
 import re
@@ -35,6 +36,22 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.request import urlopen, Request
+
+# Pre-build a bytes→bytes entity substitution map for all standard HTML entities.
+# DBLP's DTD uses these (e.g. &aacute; &ouml; &Lbr; …).  We replace them with
+# their UTF-8 byte sequences BEFORE feeding chunks to the SAX parser, so the
+# parser never sees undefined entities.
+_ENTITY_RE = re.compile(rb"&([A-Za-z][A-Za-z0-9]*);")
+_ENTITY_MAP: dict[bytes, bytes] = {
+    name.encode(): chr(cp).encode("utf-8")
+    for name, cp in html.entities.name2codepoint.items()
+}
+
+def _replace_html_entities(chunk: bytes) -> bytes:
+    return _ENTITY_RE.sub(
+        lambda m: _ENTITY_MAP.get(m.group(1), m.group(0)),
+        chunk
+    )
 
 DUMP_URL = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
 TIMESTAMP_FILE = Path(__file__).resolve().parent.parent / ".dblp_dump_timestamp"
@@ -243,14 +260,20 @@ def main(force: bool = False):
     t0 = time.time()
     with urlopen(req, timeout=300) as resp:
         with gzip.GzipFile(fileobj=resp) as gz:
-            xml.sax.parseString  # just import check
-            # feed in chunks so we don't load GB into RAM
             buf_size = 1 << 20  # 1 MB chunks
+            # Keep a small tail to avoid splitting entity references across chunks.
+            tail = b""
             while True:
-                chunk = gz.read(buf_size)
-                if not chunk:
+                raw = gz.read(buf_size)
+                if not raw:
+                    if tail:
+                        parser.feed(_replace_html_entities(tail))
                     break
-                parser.feed(chunk)
+                chunk = tail + raw
+                # Hold back the last 20 bytes (max entity length) to next round.
+                tail  = chunk[-20:]
+                chunk = chunk[:-20]
+                parser.feed(_replace_html_entities(chunk))
 
     elapsed = time.time() - t0
     print(f"Feldolgozva {elapsed:.0f}s alatt.")
