@@ -48,8 +48,10 @@ _ENTITY_MAP: dict[bytes, bytes] = {
 }
 
 def _replace_html_entities(chunk: bytes) -> bytes:
+    # Known entity → Unicode; unknown DBLP-specific entity → empty bytes.
+    # Never leave &foo; unexpanded: the SAX parser would reject it.
     return _ENTITY_RE.sub(
-        lambda m: _ENTITY_MAP.get(m.group(1), m.group(0)),
+        lambda m: _ENTITY_MAP.get(m.group(1), b""),
         chunk
     )
 
