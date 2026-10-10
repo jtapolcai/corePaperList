@@ -292,6 +292,8 @@ def main(force: bool = False):
     parser.setContentHandler(handler)
 
     t0 = time.time()
+    total_gz  = DUMP_CACHE.stat().st_size
+    bar_width = 40
     with gzip.open(DUMP_CACHE, "rb") as gz:
         buf_size = 1 << 20  # 1 MB chunks
         tail = b""
@@ -305,6 +307,14 @@ def main(force: bool = False):
             tail  = chunk[-20:]
             chunk = chunk[:-20]
             parser.feed(_replace_html_entities(chunk))
+            pos  = gz.fileobj.tell()
+            pct  = pos / total_gz
+            done = int(bar_width * pct)
+            bar  = "#" * done + "-" * (bar_width - done)
+            elapsed_so_far = time.time() - t0
+            print(f"\r  [{bar}] {pct*100:5.1f}%  {elapsed_so_far:.0f}s",
+                  end="", flush=True)
+    print()
 
     elapsed = time.time() - t0
     print(f"Feldolgozva {elapsed:.0f}s alatt.")
