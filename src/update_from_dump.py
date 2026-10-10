@@ -63,6 +63,7 @@ def _replace_html_entities(chunk: bytes) -> bytes:
 
 DUMP_URL = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
 TIMESTAMP_FILE = Path(__file__).resolve().parent.parent / ".dblp_dump_timestamp"
+DUMP_CACHE    = Path(__file__).resolve().parent.parent / ".dblp_dump_cache.xml.gz"
 DBLP_DIR = Path(__file__).resolve().parent.parent / "dblp"
 AUTHORS_CSV = Path(__file__).resolve().parent.parent / "authors_data.csv"
 LOG_FILE = Path(__file__).resolve().parent.parent / "results" / "log_dump_update.txt"
@@ -254,34 +255,56 @@ def main(force: bool = False):
     pid_map, name_map = load_authors(AUTHORS_CSV)
     print(f"Szerzők: {len(pid_map)} PID-del, {len(name_map)} névvel összesen")
 
-    # --- streaming download + parse ---
-    print(f"Letöltés és feldolgozás: {DUMP_URL}")
-    print("(Ez néhány percig tarthat — a dump ~3.5 GB)")
+    # --- download dump (skip if cached) ---
+    if DUMP_CACHE.exists():
+        print(f"Letöltött dump megvan: {DUMP_CACHE}")
+    else:
+        print(f"Letöltés: {DUMP_URL}  (~3.5 GB, egyszeri művelet)")
+        req_dl = Request(DUMP_URL)
+        req_dl.add_header("User-Agent", "NKFIH-author-tool/1.0 (mailto:tapolcai@tmit.bme.hu)")
+        tmp = DUMP_CACHE.with_suffix(".tmp")
+        with urlopen(req_dl, timeout=600) as resp:
+            total = int(resp.headers.get("Content-Length") or 0)
+            with open(tmp, "wb") as f:
+                downloaded = 0
+                bar_width = 40
+                while True:
+                    chunk = resp.read(1 << 20)
+                    if not chunk:
+                        break
+                    f.write(chunk)
+                    downloaded += len(chunk)
+                    if total:
+                        pct  = downloaded / total
+                        done = int(bar_width * pct)
+                        bar  = "#" * done + "-" * (bar_width - done)
+                        print(f"\r  [{bar}] {pct*100:5.1f}%  {downloaded/1e9:.2f}/{total/1e9:.2f} GB",
+                              end="", flush=True)
+                    else:
+                        print(f"\r  {downloaded/1e9:.2f} GB", end="", flush=True)
+        tmp.rename(DUMP_CACHE)
+        print(f"\nLetöltve: {DUMP_CACHE}")
 
+    # --- parse cached dump ---
+    print("Parse...")
     handler = DblpHandler(pid_map, name_map)
     parser  = xml.sax.make_parser()
     parser.setContentHandler(handler)
 
-    req = Request(DUMP_URL)
-    req.add_header("User-Agent", "NKFIH-author-tool/1.0 (mailto:tapolcai@tmit.bme.hu)")
-
     t0 = time.time()
-    with urlopen(req, timeout=300) as resp:
-        with gzip.GzipFile(fileobj=resp) as gz:
-            buf_size = 1 << 20  # 1 MB chunks
-            # Keep a small tail to avoid splitting entity references across chunks.
-            tail = b""
-            while True:
-                raw = gz.read(buf_size)
-                if not raw:
-                    if tail:
-                        parser.feed(_replace_html_entities(tail))
-                    break
-                chunk = tail + raw
-                # Hold back the last 20 bytes (max entity length) to next round.
-                tail  = chunk[-20:]
-                chunk = chunk[:-20]
-                parser.feed(_replace_html_entities(chunk))
+    with gzip.open(DUMP_CACHE, "rb") as gz:
+        buf_size = 1 << 20  # 1 MB chunks
+        tail = b""
+        while True:
+            raw = gz.read(buf_size)
+            if not raw:
+                if tail:
+                    parser.feed(_replace_html_entities(tail))
+                break
+            chunk = tail + raw
+            tail  = chunk[-20:]
+            chunk = chunk[:-20]
+            parser.feed(_replace_html_entities(chunk))
 
     elapsed = time.time() - t0
     print(f"Feldolgozva {elapsed:.0f}s alatt.")
