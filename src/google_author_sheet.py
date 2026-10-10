@@ -19,7 +19,8 @@ if _src not in sys.path:
     sys.path.insert(0, _src)
 
 import pandas as pd
-#import run_every_day
+import tudometer
+import run_every_day
 import mtmt_utils
 import dblp_utils
 import mta_att_utils
@@ -155,7 +156,6 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
 
     Visszatérési érték: list of dict (ha print_only=False)
     """
-    import tudometer
     global field_map
     # fordított mapping: dst_field → src_field
     reverse_map = {dst: src for src, dst in field_map.items()}
@@ -167,9 +167,9 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
             #print("Note: no_processing=False, performing value conversions.")
             if 'dblp_url' in data:
                 dblp_record=dblp_utils.get_DBLP_record(data['dblp_url'], name, force=False)
-                tudometer.count_CORE_papers_by_author(name, data, dblp_record, print_log=print_only)
+                tudometer.count_CORE_papers_by_author(name, data, dblp_record, print_log=False)
             else:
-                print(f"Skipping row {name} as there is no dblp url in the he google sheet")
+                print(f"Skipping row {name} as htere is no dblp url in the he google sheet")
 
         row = {}
         row["_author_name"] = name  # Internal key to map back to authors_data
@@ -250,10 +250,31 @@ def generate_author_google_sheet(authors_data, print_only=False, no_processing=F
         print(output_rows)
     else:
         df.to_csv("authors_data.csv", index=False, encoding="utf-8-sig")
-        print(" Kész: authors_data.csv with {} rows.".format(len(df)))
+
+        print(" Kész: authors_data.csv")
 
     print(f"Generated {len(output_rows)} Google Sheet rows.")
     return output_rows
+
+
+def _merge_extra_authors(rows):
+    """Merge extra_authors.csv into the row list (only new Author entries not already present)."""
+    extra_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "extra_authors.csv")
+    if not os.path.exists(extra_path):
+        return rows
+    existing_names = {fix_encoding(r.get("Author", "")).strip().lower() for r in rows}
+    with open(extra_path, encoding="utf-8-sig") as f:
+        extra_rows = list(csv.DictReader(f))
+    added = 0
+    for r in extra_rows:
+        name = fix_encoding(r.get("Author", "")).strip()
+        if name and name.lower() not in existing_names:
+            rows.append(r)
+            existing_names.add(name.lower())
+            added += 1
+    if added:
+        print(f"[extra_authors] {added} új szerző beolvasztva.")
+    return rows
 
 
 def download_raw_author_google_sheet():
@@ -279,7 +300,7 @@ def download_raw_author_google_sheet():
             # Optional: warn if we had to repair something
             if any('Ã' in k for k in rows[0].keys()):
                 print("[info] Repaired mojibake in header names.")
-            return repaired_rows  # list of dicts
+            return _merge_extra_authors(repaired_rows)
         else:
             print("Failed to load the google sheet with hungarian researchers ({}): {}".format(response.status_code, response.text))
             return []
@@ -295,7 +316,7 @@ def download_raw_author_google_sheet():
                     new_r[fix_encoding(k)] = v
                 repaired_rows.append(new_r)
             print("Hungarian researchers are loaded from authors_data.csv")
-            return repaired_rows  # Convert to list to avoid iterator exhaustion
+            return _merge_extra_authors(repaired_rows)
 
 def download_author_google_sheet():
     reader = download_raw_author_google_sheet()
@@ -383,7 +404,6 @@ def extend_table_with_tudometer():
     generate_author_google_sheet(authors_data, print_only=False, no_processing=False)
                 
 def add_row_mtmt_id(data, authors_data, name, comment=''):
-    import tudometer
     data_new, dblp_person=tudometer.create_record(data['mtmt_id'])
     if data_new:
         print(f"Processing {comment}. {data_new['dblp_author_name']} mtmt_id={data['mtmt_id']}")

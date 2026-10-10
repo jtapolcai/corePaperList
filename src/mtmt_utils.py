@@ -51,30 +51,40 @@ def get_mtmt_record(mtmt_id: str, force: bool = False, author_name: Optional[str
 
     mtmt_url = f"https://m2.mtmt.hu/api/author/{mtmt_id}?format=json"
     mtmt_url_pub = f"https://m2.mtmt.hu/api/publication?cond=authors;eq;{mtmt_id}&format=json&labelLang=hun&size=500&sort=publishedYear,desc"
+
+    def _fetch(url, retries=3, timeout=30):
+        for attempt in range(retries):
+            try:
+                r = requests.get(url, timeout=timeout)
+                if r.status_code == 200:
+                    return r
+                print(f"HTTP hiba MTMT lekérésnél {mtmt_id} ({r.status_code}), kísérlet {attempt+1}/{retries}")
+            except Exception as e:
+                print(f"Hiba MTMT URL lekérésnél {mtmt_id}: {e} (kísérlet {attempt+1}/{retries})")
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)  # 1s, 2s backoff
+        return None
+
     try:
-        response = requests.get(mtmt_url, timeout=10)
-        if response.status_code == 200:
-            result = response.json()
-            author_record = result.get("content", {})
-        else:
-            print(f"HTTP hiba MTMT URL lekérésnél {mtmt_id}: {response.status_code}")
-        response = requests.get(mtmt_url_pub, timeout=10)
-        if response.status_code == 200:
-            result_pub = response.json()
-            author_record_pub = result_pub.get("content", {})
-        else:
-            print(f"HTTP hiba MTMT URL2 lekérésnél {mtmt_id}: {response.status_code}")
-        # Write/update cache
-        try:
-            with open(cache_path, "w", encoding="utf-8") as f:
-                json.dump({"author": author_record, "publications": author_record_pub}, f, indent=2, ensure_ascii=False)
-        except Exception as e:
-            print(f"⚠️ Cache write error for MTMT {mtmt_id}: {e}")
+        author_record = {}
+        author_record_pub = {}
+        r = _fetch(mtmt_url)
+        if r:
+            author_record = r.json().get("content", {})
+        r = _fetch(mtmt_url_pub)
+        if r:
+            author_record_pub = r.json().get("content", {})
+        # Write/update cache only if we got something
+        if author_record or author_record_pub:
+            try:
+                with open(cache_path, "w", encoding="utf-8") as f:
+                    json.dump({"author": author_record, "publications": author_record_pub}, f, indent=2, ensure_ascii=False)
+            except Exception as e:
+                print(f"⚠️ Cache write error for MTMT {mtmt_id}: {e}")
         return author_record, author_record_pub
     except Exception as e:
-        print(f"Hiba MTMT URL lekérésnél {mtmt_id}: {e}")
-    # On error, return empty dicts to satisfy return type
-    return {}, {} # type: ignore
+        print(f"Váratlan hiba MTMT lekérésnél {mtmt_id}: {e}")
+    return {}, {}  # type: ignore
 
 
 def find_mtmt_papers_by_title(title_orig, mtmt_id, family_name=None, given_name=None):
@@ -96,7 +106,7 @@ def find_mtmt_papers_by_title(title_orig, mtmt_id, family_name=None, given_name=
     url = f"https://m2.mtmt.hu/api/publication?format=json&cond=title;eq;{title}"
     
     try:
-        response_ = requests.get(url, timeout=10)
+        response_ = requests.get(url, timeout=30)
         if response_.status_code == 200:
             response = response_.json()
             if "content" in response:
@@ -122,37 +132,6 @@ def find_mtmt_papers_by_title(title_orig, mtmt_id, family_name=None, given_name=
         print(f"⚠️ Exception when querying MTMT: {e}")
     return 'no_response', None
 
-def get_mtmt_paper_by_title(title_orig):
-    """Search MTMT for papers by title and verify authorship.
-    
-    Args:
-        title_orig: Paper title to search
-        mtmt_id: MTMT ID of expected author
-        family_name: Optional family name for disambiguation
-        given_name: Optional given name for disambiguation
-        
-    Returns:
-        tuple: (status, alternative_id) where status is one of:
-            'same_author', 'different_author', 'same_name_different_author',
-            'no_paper_found', 'no_response'
-    """
-    title = title_orig.strip(' .')
-    title = title.replace(' ', '%20')
-    url = f"https://m2.mtmt.hu/api/publication?format=json&cond=title;eq;{title}"
-
-    try:
-        response_ = requests.get(url, timeout=10)
-        if response_.status_code == 200:
-            response = response_.json()
-            if "content" in response:
-                return response["content"]
-            else:
-                return 'no_paper_found', None
-        else:
-            print(f"⚠️ HTTP {response_.status_code} error when querying MTMT for title {title_orig}")
-    except Exception as e:
-        print(f"⚠️ Exception when querying MTMT: {e}")
-    return 'no_response', None
 
 def parse_last_modified(val):
     """Parse MTMT lastModified timestamp to datetime.
@@ -354,28 +333,3 @@ def cache_mtmt_query(authors_data, force=False):
             print(f"  ⚠️ Error fetching MTMT for {name}: {e}")
             
     print(f"\n✅ Cached MTMT records for {counter} authors.")
-
-def get_mtid_from_dblp_record(dblp_record):
-    author=dblp_record.get("dblpperson", {}).get("@name", "unknown_author")
-    for paper in dblp_record.get("dblpperson", {}).get("r", []):
-        if 'article' in paper:
-            title=paper.get('article').get('title')
-        if 'inproceedings' in paper:
-            title=paper.get('inproceedings').get('title')
-        if isinstance(title, dict) and '#text' in title:
-            title=title['#text']
-        print(f"search for paper with title {title}")
-        records=get_mtmt_paper_by_title(title)
-        #print(records[0])
-        for record in records:
-            if record is not None and 'authorships' in record: # type: ignore
-                for auth in record['authorships']: # type: ignore
-                    if 'author' in auth:
-                        auth_dict=auth['author']
-                        familyName=auth_dict.get('familyName', 'unknown')
-                        givenName=auth_dict.get('givenName', 'unknown')
-                        if familyName in author and givenName in author:
-                            mtid=auth_dict.get('mtid', '')
-                            #print(auth_dict.get('mtid', ''))
-                            return mtid
-    return None

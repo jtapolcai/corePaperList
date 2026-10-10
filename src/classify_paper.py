@@ -7,12 +7,9 @@ _parent = os.path.dirname(os.path.dirname(__file__))
 if _parent not in sys.path: sys.path.insert(0, _parent)
 
 from typing import List, Tuple, Dict, Optional
-from functools import lru_cache
-import csv
 import re
 import os
 import json
-from pathlib import Path
 import pandas as pd
 from collections import defaultdict
 import google_author_sheet
@@ -35,8 +32,7 @@ rank_to_value = {
 }
 value_to_rank = {v: k for k, v in rank_to_value.items()}    
 
-_BASE_DIR = Path(__file__).resolve().parent.parent
-_inputs_dir = _BASE_DIR / "inputs"
+_inputs_dir = "inputs"
 
 def _load_list(filename: str) -> List[str]:
     path = os.path.join(_inputs_dir, filename)
@@ -51,151 +47,147 @@ short_paper_list = _load_list("short_paper_list.txt")
 no_hungarian_affil = _load_list("no_hungarian_affil_list.txt")
 doi_short_paper_list = _load_list("doi_short_paper_list.txt")
 
-journal_proceedings = {}
+# Load core table and prepare two indexed variants:
+#  - core_table_by_dblp_venue: indexed by 'dblp_venue' (DBLP-style keys), expands ';'-separated lists
+#  - core_table_by_acronym: indexed by 'Acronym' (uppercased), expands ';'-separated lists
+core_table_raw = pd.read_csv(os.path.join(_inputs_dir, "core_table.csv"))
 
-@lru_cache(maxsize=1)
-def get_core_tables():
-    """
-    Lazily load and build the core tables only when needed.
-    Returns:
-        dblp_venue_to_rows, acronym_to_row, core_table
-    """
-    global journal_proceedings
-    import pandas as pd
-    # Try both 'inputs/core_table.csv' and '../inputs/core_table.csv' relative to this file
-    candidate_paths = [
-        str(_inputs_dir / "core_table.csv"),
-        str(Path(__file__).resolve().parent.parent / 'inputs' / 'core_table.csv')
-    ]
-    core_table_path = None
-    for path in candidate_paths:
-        if os.path.exists(path):
-            core_table_path = path
-            break
-    if core_table_path is None:
-        raise FileNotFoundError(f"The core_table.csv file does not exist in any of: {candidate_paths}")
-    # Read core table robustly: try default parser, then python engine, then csv.reader fallback
-    try:
-        core_table = pd.read_csv(core_table_path, dtype=str)
-    except Exception:
-        try:
-            core_table = pd.read_csv(core_table_path, dtype=str, engine='python')
-        except Exception:
-            # fallback to csv.reader which is more permissive about line breaks if quoting is inconsistent
-            with open(core_table_path, newline='', encoding='utf-8') as f:
-                rows = list(csv.reader(f))
-            if not rows:
-                core_table = pd.DataFrame()
-            else:
-                header = rows[0]
-                data = rows[1:]
-                core_table = pd.DataFrame(data, columns=header)
+# Normalize Acronym to uppercase for case-insensitive matching
+if "Acronym" in core_table_raw.columns:
+    core_table_raw["Acronym"] = (
+        core_table_raw["Acronym"].fillna("").astype(str).str.upper()
+    )
 
-    # Normalize Acronym to uppercase for case-insensitive matching
-    if "Acronym" in core_table.columns:
-        core_table["Acronym"] = (
-            core_table["Acronym"].fillna("").astype(str).str.upper()
-        )
-    # Build dblp_venue-indexed table with expansion
-    dblp_venue_to_rows = {}
-    # for row without dblp_venue
-    acronym_to_row= {}
-    if "dblp_venue" not in core_table.columns or "Acronym" not in core_table.columns:
-        print("Warning: core_table.csv is missing expected columns 'dblp_venue' or 'Acronym'.")
-    else:
-        for _, row in core_table.iterrows():
-            venues_field = row.get("dblp_venue")
-            if pd.isna(venues_field) or str(venues_field).strip() == "":
-                acr_field = row.get("Acronym", "")
-                if pd.isna(acr_field):
-                    continue
-                for ac in str(acr_field).split(";"):
-                    ac = ac.strip().upper()
-                    if not ac:
-                        continue
-                    if ac in acronym_to_row:
-                        print("Warning: duplicate Acronym key {} in core table".format(ac))
-                    acronym_to_row[ac] = row
+# Build dblp_venue-indexed table with expansion
+_df = core_table_raw.copy()
+if "dblp_venue" in _df.columns:
+    expanded_rows = []
+    for _, row in _df.iterrows():
+        venues_field = row.get("dblp_venue")
+        if pd.isna(venues_field) or str(venues_field).strip() == "":
+            continue
+        for key in str(venues_field).split(";"):
+            key = key.strip()
+            if not key:
                 continue
-            for key in str(venues_field).split(";"):
-                key = key.strip()
-                if not key:
-                    continue
-                if not key.startswith("conf/"):
-                    if key not in journal_proceedings:
-                        journal_proceedings[key] = row.get("rules", "")
-                    elif journal_proceedings[key] != row.get("rules", ""):
-                        print("Warning: conflicting rules for journal {}: '{}' vs '{}'".format(
-                            key, journal_proceedings[key], row.get("rules", "") ))
-                if key not in dblp_venue_to_rows:
-                    dblp_venue_to_rows[key] = []
-                dblp_venue_to_rows[key].append(row)
+            r = row.copy()
+            r["dblp_venue"] = key
+            expanded_rows.append(r)
+    if expanded_rows:
+        core_table_by_dblp_venue = pd.DataFrame(expanded_rows)
+    else:
+        core_table_by_dblp_venue = _df.copy()
+else:
+    core_table_by_dblp_venue = _df.copy()
 
-    return dblp_venue_to_rows, acronym_to_row, core_table
+core_table_by_dblp_venue = core_table_by_dblp_venue.set_index("dblp_venue", drop=False)
+
+# Build Acronym-indexed table with expansion (supports ';' separated acronyms)
+_df2 = core_table_raw.copy()
+expanded_acr_rows = []
+if "Acronym" in _df2.columns:
+    for _, row in _df2.iterrows():
+        acr_field = row.get("Acronym", "")
+        if pd.isna(acr_field):
+            continue
+        for ac in str(acr_field).split(";"):
+            ac = ac.strip().upper()
+            if not ac:
+                continue
+            r = row.copy()
+            r["Acronym"] = ac
+            expanded_acr_rows.append(r)
+    if expanded_acr_rows:
+        core_table_by_acronym = pd.DataFrame(expanded_acr_rows)
+    else:
+        core_table_by_acronym = _df2.copy()
+else:
+    core_table_by_acronym = _df2.copy()
+
+core_table_by_acronym = core_table_by_acronym.set_index("Acronym", drop=False)
+
+# Backward-compatible alias (historically dblp_venue indexed)
+core_table = core_table_by_dblp_venue
+# Expand semicolon-separated dblp_venue entries into multiple rows
+core_table_acronym=core_table.copy()
+expanded_rows = []
+for _, row in core_table.iterrows():
+    venues_field = row.get("Acronym")
+    if pd.isna(venues_field):
+        continue
+    for key in str(venues_field).split(";"):
+        key = key.strip()
+        if not key:
+            continue
+        r = row.copy()
+        r["dblp_venue"] = key
+        expanded_rows.append(r)
+if expanded_rows:
+    core_table = pd.DataFrame(expanded_rows)
+
+# Index by dblp_venue for fast lookup using DBLP-style venue keys
+core_table = core_table.set_index("dblp_venue", drop=False)
 
 all_authors: List[Tuple[str, str]] = []
-# auxiliary set for O(1) membership checks to avoid O(n^2) behavior
-_all_authors_set = set(all_authors)
 no_page_is_given: List[str] = []
 
-dblp_venue_to_rows, acronym_to_row, core_table = get_core_tables()
 
 def remove_numbers_and_parentheses(text: str) -> str:
     # remove any parenthesised suffixes (e.g. "(Companion)") and digits
-    text = re.sub(r'\([^)]*\)', '', text)
+    #text = re.sub(r'\([^)]*\)', '', text)
     text = re.sub(r'\d+', '', text)
     text = re.sub(r'\s{2,}', ' ', text).strip()
     text=text.replace("()", "").strip()
     return text
 
 
+def core_rank_old(venue: str, pub_year: int) -> str:
+    venue = remove_numbers_and_parentheses(venue).upper()
+    if venue not in core_table_by_acronym.index:
+        return "no_rank"
+    acronym_row = core_table_by_acronym.loc[venue]
+    # Handle case where loc returns a Series (multiple rows) vs a single row
+    if isinstance(acronym_row, pd.DataFrame):
+        acronym_row = acronym_row.iloc[0]
+    core_ranks_str = acronym_row["YearsListed"]
+    core_ranks = core_ranks_str.split(", ")
+    last_rank = "no_rank"
+    first_year = None
+    for cr in core_ranks:
+        parts = cr.split("_")
+        if len(parts) != 2:
+            continue
+        year = int(parts[0].replace("CORE", "").replace("ERA", ""))
+        rank = parts[1]
+        if first_year is None:
+            first_year = year
+            if pub_year <= first_year:
+                return rank
+        if pub_year < year:
+            if year == 2013 and rank == "A*":
+                return rank
+            return last_rank
+        last_rank = rank
+    return last_rank
 
 def get_core_rank(pub: dict) -> Tuple[str, bool]:
-    year = int(pub.get("year", 0))
-    # Extract venue key from paper key or crossref
-    if "crossref" in pub:
-        venue_crossref = pub["crossref"]
-    elif "@key" in pub:
-        venue_crossref = pub["@key"]
-        pub["crossref"] = pub["@key"]
-    elif "key" in pub:
-        venue_crossref = pub["key"]
-        pub["crossref"] = pub["key"]
+    year=int(pub.get("year", 0))
+    # Extract venue key from paper key (e.g., "conf/l4dc/JiaYSW20" -> "conf/l4dc")
+    # or from crossref (e.g., "conf/l4dc/2020" -> "conf/l4dc")
+    venue_crossref=pub.get("crossref", "")
     venue_dblp = ""
+    
     if venue_crossref:
+        # crossref has format like "conf/l4dc/2020", extract "conf/l4dc"
         venue_dblp = '/'.join(venue_crossref.split('/')[:2])
     else:
+        # fallback: extract from key if crossref not available
         key = pub.get("key", "")
         if key:
             venue_dblp = '/'.join(key.split('/')[:2])
-
-    venue_name = pub.get("venue", "")
-
-    # Determine rank using the normalized dblp/acronym lookup
-    rank, short_paper, acronym_row = core_rank(venue_name, venue_crossref, venue_dblp, year)
-
-    # If the core table provides a fullpaper threshold for this venue, use it
-    threshold = None
-    if acronym_row is not None:
-        try:
-            if hasattr(acronym_row, 'get'):
-                thr = acronym_row.get('fullpaper_threshold')
-            else:
-                thr = None
-            if thr is not None and str(thr).strip() != "":
-                threshold = int(str(thr).strip())
-        except Exception:
-            threshold = None
-
-    if not short_paper and threshold is not None:
-        pages_str = pub.get("pages", "")
-        pagenum = get_paper_length(pages_str)
-        if pagenum is None:
-        #    print(f"No page number for {pub}")
-            pass
-        elif pagenum < threshold:
-            short_paper = True
-
+    
+    venue_name=pub.get("venue", "")
+    rank, short_paper = core_rank(venue_name, venue_crossref, venue_dblp, year)
     return rank, short_paper
 
 def adjust_rank(last_rank: str, short_paper) -> str:
@@ -207,25 +199,17 @@ def adjust_rank(last_rank: str, short_paper) -> str:
 
 acronym_to_crossref={}
 
-def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
-    global acronym_to_crossref, dblp_venue_to_rows, acronym_to_row
+def identify_conference(venue_name: str, venue_crossref: str, pub):
+    global acronym_to_crossref
     acronym_row = None
     short_paper=False
+    
     # Check for companion/workshop indicators before normalization
     venue_name_upper = venue_name.upper()
     # @ symbol indicates workshop (e.g., "SESENA@ICSE")
     is_companion_or_workshop = '@' in venue_name or any(keyword in venue_name_upper for keyword in 
-                                     ['COMPANION', 'WORKSHOP', 'POSTER', 'DEMO', 'FORUM', 'SHORT PAPER', 
-                                'FINDING', 'DEMONSTRATION','INDUSTRY','TUTORIAL','STUDENT','LINGUISTIC', 'ADJUNCT',
-                                 'DOCTORAL', 'SUPPLEMENTS', '(LATE BREAKING','(LATE-BREAKING','(SHOWCASES', '(LOCAL PROCEEDINGS',
-                                  '(PRACTITIONER PROCEEDINGS)', 'PANEL', 'SPECIAL TRACK ON APPLICATIONS',
-                                  '(EDUCATION', 'ART SHOW CATALOG', 'VISUAL PROCEEDINGS','(INFORMAL',
-                                  'SATELLITE EVENTS','(SATELLITES)', 'SUPPLEMENTAL', 'TECHNICAL COMMUNICATIONS', 
-                                  '(CHALLENGE', '(SHORT','(PHD)' 
-                                  ])
-    if venue_name in ['Comput. Graph. Forum', 'Australasian Transport Research Forum','Asia-Pacific Forum on Engineering and Technology Education']: 
-        is_companion_or_workshop = False
-
+                                     ['COMPANION', 'WORKSHOP', 'WORKSHOPS', 'POSTERS', 'DEMOS', 'FORUM'])
+    
     # Check if crossref indicates workshop (e.g., "conf/re/2023w" ends with 'w', "conf/caise/2011fo" ends with 'fo')
     if venue_crossref:
         crossref_parts = venue_crossref.split('/')
@@ -236,57 +220,68 @@ def identify_conference(venue_name: str, venue_crossref, venue_dblp: str):
                 any(kw in last_part.lower() for kw in ['workshop', 'companion', 'demo', 'poster', 'forum'])):
                 is_companion_or_workshop = True
     
-    if is_companion_or_workshop:
-        short_paper = True
     venue_name = remove_numbers_and_parentheses(venue_name).upper()
     if venue_crossref:
         venue_key = '/'.join(venue_crossref.split('/')[:2])
-        if venue_key not in dblp_venue_to_rows:
-            if venue_name in acronym_to_row:
-                # There may be multiple rows for the same acronym; iterate all and
-                # apply the same checks for each matching row instead of only the first.
-                acronym_matches = acronym_to_row[venue_name]
-                if isinstance(acronym_matches, pd.DataFrame):
-                    # If any matching row has a non-empty dblp_venue, we consider
-                    # that a mismatch for the given crossref and bail out (preserve
-                    # previous conservative behavior). Otherwise record crossref mapping.
-                    for _, acr_row in acronym_matches.iterrows():
-                        venues_field = acr_row.get("dblp_venue")
-                        if not pd.isna(venues_field) and str(venues_field).strip() != "":
-                            return None, short_paper
-                    # all matching acronym rows had empty dblp_venue -> map crossref
-                    if venue_name not in acronym_to_crossref:
-                        acronym_to_crossref[venue_name] = venue_key
-                    else:
-                        if venue_key not in acronym_to_crossref[venue_name].split(';'):
-                            acronym_to_crossref[venue_name] += ';' + venue_key
-                    acronym_row = acronym_matches.iloc[0]
+        if venue_key not in core_table_by_dblp_venue.index:
+            if venue_name in core_table_by_acronym.index:
+                acronym_row = core_table_by_acronym.loc[venue_name]
+                # If multiple rows match, take the first one for this lookup
+                if isinstance(acronym_row, pd.DataFrame):
+                    acronym_row = acronym_row.iloc[0]
+                # Now venues_field is a scalar (or NaN) and safe to test
+                venues_field = acronym_row.get("dblp_venue")
+                if not pd.isna(venues_field) and str(venues_field).strip() != "":
+                    # the row had a dblp_venue that did not match!
+                    return None, short_paper
                 else:
-                    acronym_row = acronym_matches
-                    venues_field = acronym_row.get("dblp_venue")
-                    if not pd.isna(venues_field) and str(venues_field).strip() != "":
-                        return None, short_paper
                     if venue_name not in acronym_to_crossref:
                         acronym_to_crossref[venue_name] = venue_key
                     else:
                         if venue_key not in acronym_to_crossref[venue_name].split(';'):
                             acronym_to_crossref[venue_name] += ';' + venue_key
+                    # the row does not have a dblp_venue
 
+
+                    # for key in str(venues_field).split(";"):
+                    #     key = key.strip()
+                    #     if not key:
+                    #         continue
+                    #     if key==venue_key
+                
         else:
-            for acr_row in dblp_venue_to_rows[venue_key]:
-                # If multiple rows match the dblp key, prefer a row whose Acronym
-                # explicitly contains the normalized venue name. Evaluate all rows
-                # to decide short_paper conservatively.
-                acronym_list = acr_row.get("Acronym", "")
-                acronyms = [a.strip() for a in str(acronym_list).split(';') if a.strip()]
-                for ac in acronyms:
-                    if ac.upper() == venue_name.upper():
-                        return acr_row, short_paper
-                acronym_row=acr_row    
-            short_paper = True
+            try:
+                acronym_row = core_table_by_dblp_venue.loc[venue_key]
+                if isinstance(acronym_row, pd.DataFrame):
+                    acronym_row = acronym_row.iloc[0]
+                acronym_= acronym_row.get("Acronym", "")
+                if acronym_:
+                    acronyms = [a.strip() for a in acronym_.split(';')]
+                    # Mark as short paper if venue has companion/workshop keywords OR normalized name not in acronyms
+                    if is_companion_or_workshop or venue_name not in acronyms:
+                        short_paper=True
+                    else:
+                        if venue_name in core_table_by_acronym.index:
+                            acronym_row = core_table_by_acronym.loc[venue_name]
+            except KeyError:
+                return None, short_paper
+    else:
+        # No crossref: use venue_dblp (3rd param) then acronym fallback
+        venue_dblp = pub if isinstance(pub, str) else ""
+        if venue_dblp:
+            try:
+                acronym_row = core_table_by_dblp_venue.loc[venue_dblp]
+                if isinstance(acronym_row, pd.DataFrame):
+                    acronym_row = acronym_row.iloc[0]
+            except KeyError:
+                pass
+        if acronym_row is None and venue_name in core_table_by_acronym.index:
+            acronym_row = core_table_by_acronym.loc[venue_name]
+            if isinstance(acronym_row, pd.DataFrame):
+                acronym_row = acronym_row.iloc[0]
     return acronym_row, short_paper
     
-def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -> Tuple[str, bool, Optional[pd.Series]]:
+def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -> Tuple[str, bool]:
     """Determine CORE rank using the dblp_venue key (already normalized in the table).
 
     Falls back to "no_rank" safely if:
@@ -296,13 +291,13 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
     """
     acronym_row, short_paper = identify_conference(venue_name, venue_crossref, venue_dblp)
     if acronym_row is None:
-        return "no_rank", False, None
+        return "no_rank", False
     # If multiple rows match, take the first
     if isinstance(acronym_row, pd.DataFrame):
         acronym_row = acronym_row.iloc[0]
     core_ranks_str = acronym_row.get("YearsListed", "")
     if not isinstance(core_ranks_str, str) or not core_ranks_str.strip():
-        return "no_rank", False, acronym_row
+        return "no_rank", False
     core_ranks = [s.strip() for s in core_ranks_str.split(",") if s.strip()]
     last_rank = "no_rank"
     first_year = None
@@ -319,12 +314,8 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
         except ValueError:
             continue
         rank = parts[1]
-        # Normalize rank labels: any variant containing 'UNRANK' maps to 'no_rank'
-        rank_norm = rank.strip()
-        if 'UNRANK' in rank_norm.upper():
-            rank_norm = 'no_rank'
         if year!=2013:
-            average_rank += rank_to_value.get(rank_norm, 0)
+            average_rank += rank_to_value.get(rank, 0)
             count+=1
         if not return_average_rank:
             if first_year is None:
@@ -333,15 +324,15 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
                     return_average_rank=True
         if pub_year <= year and not return_average_rank:
             # Historical special case retained
-            if year == 2013 and rank_norm == "A*":
-                return rank_norm, short_paper, acronym_row
-            return last_rank, short_paper, acronym_row
-        last_rank = rank_norm
+            if year == 2013 and rank == "A*":
+                return rank, short_paper
+            return last_rank, short_paper
+        last_rank = rank
     if return_average_rank and count>0:
         avg_value=average_rank/count
         avg_value_rounded=round(avg_value)
         last_rank=value_to_rank.get(avg_value_rounded, "no_rank")
-    return last_rank, short_paper, acronym_row
+    return last_rank, short_paper
 
 
 def get_int(text: str) -> int:
@@ -381,7 +372,18 @@ def get_paper_length(pages_str: str) -> Optional[int]:
                 return None
         else:
             return None
-
+    else:
+        parts = re.split(r"[-–]", pages_str)
+        if len(parts) > 1:
+            try:
+                start = int(re.findall(r"\d+", parts[0])[-1])
+                end = int(re.findall(r"\d+", parts[1])[-1])
+                pagenum = end - start + 1
+                return pagenum
+            except Exception:
+                return None
+        else:
+            return None
 
 
 def author_string(author_field) -> str:
@@ -433,46 +435,82 @@ def classify_paper_by_author(author_list: List[Tuple[str, str]], year: int, igno
     return ret
 
 
+def is_short_paper(info: Dict, venue: str, rank_name: str, year: int) -> tuple[bool, str]:
+    """
+    Check if a paper is a short paper.
+    Returns: (is_short: bool, reason: str)
+    """
+    limit = 6
+    if rank_name in ['A']:
+        limit = 5
+    if rank_name in ['B', 'C']:
+        limit = 4
+    if venue in ["SODA", "STOC", "FOCS","EC","COLT"]:
+        limit = 3
+    if venue in ["IJCAI", "AAAI"] and year <=2007:
+        limit = 5
+    # if venue in ["MoDELS"]:
+    #     limit = 7
+    # if venue in ["WWW"]:
+    #     limit = 8
+    # Check venue name for workshop/companion keywords
+    venue_upper = venue.upper()
+    if '@' in venue:
+        return True, "Venue contains '@' (workshop indicator)"
+    for keyword in ['WORKSHOP', 'COMPANION', 'POSTERS', 'DEMOS', 'FORUM']:
+        if keyword in venue_upper:
+            return True, f"Venue contains '{keyword}' keyword"
+    
+    # Check crossref for workshop indicators
+    crossref = info.get("crossref", "")
+    if crossref:
+        crossref_parts = crossref.split('/')
+        if len(crossref_parts) >= 3:
+            last_part = crossref_parts[-1]
+            if (last_part.endswith('w') or last_part.endswith('workshops') or last_part.endswith('fo') or
+                any(kw in last_part.lower() for kw in ['workshop', 'companion', 'demo', 'poster', 'forum'])):
+                return True, f"Crossref '{crossref}' indicates workshop/companion/forum"
+    
+    title_val = info.get("title", "N/A")
+    if isinstance(title_val, dict):
+        title_val = title_val.get("text", "N/A")
+    for t in regular_paper_list:
+        if t.startswith(title_val):
+            return False, ""
+    for t in short_paper_list:
+        if t.startswith(title_val):
+            return True, "Title in short_paper_list"
+    pages_str = info.get("pages", "")
+    pagenum = get_paper_length(pages_str)
+    
+    if pagenum is None or pagenum < 0:
+        # Cannot determine page count
+        if venue in ["ICML", "NeurIPS", "ICLR", "INTERSPEECH", "BMVC", "DSN", "EC"]:
+            return False, ""
+        if rank_name in ['B', 'C']:
+            return False, ""
+        if title_val not in no_page_is_given:
+            no_page_is_given.append(title_val)
+        return True, "No page information available"
+    else:
+        # Have valid page count
+        if pagenum < limit:
+            return True, f"Page count {pagenum} < limit {limit}"
+    for doi_ in doi_short_paper_list:
+        if doi_ in info.get("doi", ""):
+            return True, "DOI in short_paper_list"
+    return False, ""
+
 
 def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = False):
-    global all_authors, journal_proceedings
-    record_type="inproceedings"
+    global all_authors
     if "inproceedings" not in paper:
-        if "article" in paper:
-            article=paper["article"]
-            crossref='/'
-            if "crossref" in article:
-                crossref=article["crossref"]
-            elif "@key" in article:
-                crossref=article["@key"]
-            crossref_short='/'.join(crossref.split('/')[:2])
-            if crossref_short in journal_proceedings:
-                record_type="article"
-                rule=journal_proceedings[crossref_short]
-                if rule.startswith("number="):
-                    if "number" in paper["article"]:
-                        number_val = paper["article"]["number"]
-                        try:
-                            number_int = int(re.findall(r"\d+", str(number_val))[0])
-                            threshold = int(rule.split('=')[1])
-                            if number_int != threshold:
-                                return None, None, None, False, False, search_log + f"\n Skip as journal {crossref_short} with number {number_int} above threshold {threshold}", None
-                        except Exception:
-                            print(f"Warning: could not parse number '{number_val}' or threshold in rule '{rule}' for journal {crossref_short}")
-                else:
-                    print(f"Warning: unrecognized rule format '{rule}' for journal {crossref_short}")
-            else:
-                return None, None, None, False, False, search_log + "\n Skip as not journal inproceedings", None
-        else:
-            return None, None, None, False, False, search_log + "\n Skip as not inproceedings", None
-    info = paper[record_type]
+        return None, None, None, False, False, search_log + "\n Skip as not inproceedings", None
+    info = paper["inproceedings"]
     foreign_paper = False
     short_paper = False
     title = info.get("title", "N/A")
-    if record_type=="inproceedings":
-        venue = info.get("booktitle", "")
-    else:
-        venue = info.get("journal", "")
+    venue = info.get("booktitle", "")
     year = int(info.get("year", 0))
     record: Dict[str, object] = {}
     key = info.get("@key", "")
@@ -484,16 +522,8 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
     record["doi"] = info.get("doi", "")
     record["ee"] = info.get("ee", "")
     record["url"] = info.get("url", "")
-    if "crossref" in info:
-        record["crossref"] = info["crossref"]
-    elif "key" in info:
-        record["crossref"] = info["key"]
-    elif "@key" in info:
-        record["crossref"] = info["@key"]
+    record["crossref"] = info.get("crossref", "")
     rank, short_paper = get_core_rank(record)
-
-    if record_type=="article":
-        short_paper = False
 
     if not skip_author_check:
         # Authors
@@ -501,15 +531,19 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
         if isinstance(author_list_raw, list):
             author_list: List[Tuple[str, str]] = []
             for a in author_list_raw:
-                author_name = a.get("#text", "")
-                author_pid = a.get("@pid", "")
-                author_tuple = (author_name, author_pid)
-                if author_tuple not in _all_authors_set:
-                    all_authors.append(author_tuple)
-                    _all_authors_set.add(author_tuple)
-                author_list.append(author_tuple)
+                if isinstance(a, str):
+                    author_name, author_pid = a, ""
+                else:
+                    author_name = a.get("#text", "")
+                    author_pid = a.get("@pid", "")
+                if (author_name, author_pid) not in all_authors:
+                    all_authors.append((author_name, author_pid))
+                author_list.append((author_name, author_pid))
         else:
-            author_list = [(author_list_raw.get("#text", ""), author_list_raw.get("@pid", ""))]
+            if isinstance(author_list_raw, str):
+                author_list = [(author_list_raw, "")]
+            else:
+                author_list = [(author_list_raw.get("#text", ""), author_list_raw.get("@pid", ""))]
         record["authors"] = author_list
         authors_str = ", ".join([a[0] for a in author_list])
         ptype = classify_paper_by_author(author_list, year)
@@ -528,18 +562,17 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
     if rank == "no_rank":
         return key, record, rank, False, False, search_log + f"\n no rank for venue {venue}", "no_rank"
     
-    # # Store original rank before degradation for short_papers tracking
+    # Store original rank before degradation for short_papers tracking
     original_rank = rank
-    # if not short_paper:
-    #     short_paper_flag, short_paper_reason = is_short_paper(info, venue, rank, year)
-    # else:
-    #     short_paper_flag = True
-    #     short_paper_reason = "Identified as short paper from venue/acronym analysis"
-    #if short_paper_flag:
-    if short_paper:    
+    if not short_paper:
+        short_paper_flag, short_paper_reason = is_short_paper(info, venue, rank, year)
+    else:
+        short_paper_flag = True
+        short_paper_reason = "Identified as short paper from venue/acronym analysis"
+    if short_paper_flag:
         short_paper = True
         search_log += f"\n Short paper {paper_str}"
-        record["short_paper_reason"] = "Identified as short paper" #short_paper_reason
+        record["short_paper_reason"] = short_paper_reason
         rank = short_paper_rank[rank]
     else:
         search_log += f"\n Full paper {paper_str}"
@@ -564,35 +597,7 @@ def process_paper(paper: Dict, papers: Dict, search_log: str = "", foreign_paper
     return search_log, papers, foreign_papers, short_papers
 
 if __name__ == "__main__":
-    rec = {"article": {
-          "@key": "journals/cgf/abc24",
-          "author": [],
-          "title": "This should be classied as Rank A",
-          "pages": "63-74",
-          "year": "2020",
-          "volume": "37",
-          "journal": "Comput. Graph. Forum",
-          "number": "2",
-          "crossref": "journals/cgf/vc1",
-        } }
-    # rec= {"inproceedings": {
-    #       "author": [
-    #       ],
-    #       "title": "This should be classied as Rank A*",
-    #       "pages": "449-456",
-    #       "year": "2003",
-    #       "crossref": "conf/visualization/2003",
-    #       "booktitle": "IEEE Visualization"
-    #     }}
-    rec= {"inproceedings": {
-          "author": [
-          ],
-          "title": "This should be classied as Rank A*",
-          "pages": "449-456",
-          "year": "2003",
-          "crossref": "conf/acl/2003",
-          "booktitle": "ACL/IJCNLP (Findings)"
-        }}
+    rec= {}
     key, record, rank, foreign_paper, short_paper, search_log, original_rank = classify_paper(rec)
     print(f"Key: {key}")
     print(f"Record: {record}")
