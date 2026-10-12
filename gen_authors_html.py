@@ -545,11 +545,11 @@ function renderProfile(a) {{
   const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
   const statsData = [
-    ["Core A*",        a.core_astar,                    0,    astarUrl],
-    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar > 0 ? astarUrl : ""],
-    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar > 0 ? astarUrl : ""],
-    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar > 0 ? astarUrl : ""],
-    ["Core A",         a.core_a,                        0, aUrl],
+    ["Core A*",        a.core_astar,                    0,    a.core_astar_papers > 0 ? astarUrl : ""],
+    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_papers > 0 ? astarUrl : ""],
+    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar_papers > 0 ? astarUrl : ""],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar_papers > 0 ? astarUrl : ""],
+    ["Core A",         a.core_a,                        0, a.core_a_papers > 0 ? aUrl : ""],
     ["Citations",      a.mtmt_citations,                0, ""],
     ["D1 eq.",         a.mtmt_d1_equiv,                 1, ""],
     ["Magyar rang",    hungRankStr,                     null, hungTableUrl],
