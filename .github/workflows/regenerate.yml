@@ -12,6 +12,7 @@ on:
       - "gen_authors_html.py"
       - "gen_core_astar_html.py"
       - "gen_authors_table.py"
+      - "gen_index_html.py"
       - "src/create_itable.py"
 
 jobs:
@@ -32,6 +33,9 @@ jobs:
       - name: Fetch missing MTA photos
         run: python3 fetch_mta_photos.py
 
+      - name: Regenerate index.html (dashboard)
+        run: python3 gen_index_html.py
+
       - name: Regenerate authors_profile.html
         run: python3 gen_authors_html.py
 
@@ -48,7 +52,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add authors_profile.html core_astar.html authors_table.html profiles/_mta_photos.json
+          git add index.html authors_profile.html core_astar.html authors_table.html profiles/_mta_photos.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
