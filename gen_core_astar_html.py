@@ -50,8 +50,13 @@ def parse_bib(bib_path: Path) -> list[dict]:
         if not m:
             continue
         entry = {"type": m.group(1).lower(), "key": m.group(2).strip()}
+        # Values in {braces}
         for field, val in re.findall(r"(\w+)\s*=\s*\{([^}]*)\}", block):
             entry[field.lower()] = fix_latex(val)
+        # Bare numeric values (e.g. year = 2004)
+        for field, val in re.findall(r"(\w+)\s*=\s*(\d+)\s*[,}]", block):
+            if field.lower() not in entry:
+                entry[field.lower()] = val
         entries.append(entry)
     return entries
 

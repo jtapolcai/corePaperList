@@ -38,7 +38,9 @@ GITHUB_BRANCH = "main"
 PROFILE_TEMPLATE = """{
   "homepage": "",
   "note": "",
-  "highlight": false
+  "highlight": false,
+  "mtmt_id": "",
+  "mta_att_id": ""
 }"""
 
 
