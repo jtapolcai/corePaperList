@@ -145,8 +145,8 @@ def enrich_mta_photos(authors: list, profiles_dir: Path) -> list:
 def compute_ranks(authors: list) -> list:
     """Add hung_astar_rank / hung_astar_total to each Hungarian author."""
     hung = sorted(
-        [a for a in authors if a.get("works") == "hungary" and a.get("core_astar_equiv", 0) > 0],
-        key=lambda x: -x.get("core_astar_equiv", 0),
+        [a for a in authors if a.get("works") == "hungary" and (a.get("core_astar_equiv") or 0) > 0],
+        key=lambda x: -(x.get("core_astar_equiv") or 0),
     )
     total = len(hung)
     rank_map = {a["slug"]: i for i, a in enumerate(hung, 1)}

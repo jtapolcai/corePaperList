@@ -20,6 +20,8 @@ JSON_HUN_B     = RESULTS / "hungarian_papers_coreB.json"
 JSON_ABR_B     = RESULTS / "already_abroad_papers_coreB.json"
 JSON_HUN_C     = RESULTS / "hungarian_papers_coreC.json"
 JSON_ABR_C     = RESULTS / "already_abroad_papers_coreC.json"
+JSON_HUN_NR    = RESULTS / "hungarian_papers_norank.json"
+JSON_ABR_NR    = RESULTS / "already_abroad_papers_norank.json"
 AUTHORS_JSON    = BASE / "authors.json"
 AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
 OUT_FILE       = BASE / "core_papers.html"
@@ -189,7 +191,7 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
     return papers
 
 
-def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
+def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], papers_norank: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
     def paper_obj(p):
         return {
             "key":          p["key"],
@@ -204,7 +206,7 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list
             "tier":         p["tier"],
         }
 
-    all_papers = papers_astar + papers_a + papers_b + papers_c
+    all_papers = papers_astar + papers_a + papers_b + papers_c + papers_norank
     papers_json = json.dumps([paper_obj(p) for p in all_papers], ensure_ascii=False)
 
     tier_counts_json = json.dumps({
@@ -212,6 +214,7 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list
         "A":  len(papers_a),
         "B":  len(papers_b),
         "C":  len(papers_c),
+        "NR": len(papers_norank),
     })
     years_all = sorted({p["year"] for p in all_papers if p["year"]})
     min_year  = min(years_all) if years_all else 1975
@@ -299,6 +302,7 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .tag-tier-a {{ background: #fff7ed; color: #9a3412; }}
 .tag-tier-b {{ background: #eff6ff; color: #1e40af; }}
 .tag-tier-c {{ background: #f0fdf4; color: #166534; }}
+.tag-tier-nr {{ background: #f5f5f5; color: #6b7280; }}
 .tag-theory {{ background: var(--tag-theory); color: var(--tag-theory-text); }}
 .tag-applied {{ background: var(--tag-applied); color: var(--tag-applied-text); }}
 .tag-intl {{ background: var(--tag-intl); color: var(--tag-intl-text); }}
@@ -354,6 +358,7 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
       <span class="toggle-btn" id="btn-a" onclick="setTier('a')">A</span>
       <span class="toggle-btn" id="btn-b" onclick="setTier('b')">B</span>
       <span class="toggle-btn" id="btn-c" onclick="setTier('c')">C</span>
+      <span class="toggle-btn" id="btn-nr" onclick="setTier('nr')">Egyéb</span>
       <span class="toggle-btn" id="btn-both" onclick="setTier('both')">Mind</span>
     </div>
   </div>
@@ -764,11 +769,12 @@ const TIER_SETS = {{
   "a":     new Set(["A"]),
   "b":     new Set(["B"]),
   "c":     new Set(["C"]),
-  "both":  new Set(["A*","A","B","C"]),
+  "nr":    new Set(["NR"]),
+  "both":  new Set(["A*","A","B","C","NR"]),
 }};
 
-const TIER_TAG_CLASS = {{ "A*": "astar", "A": "a", "B": "b", "C": "c" }};
-const TIER_LABEL     = {{ "A*": "★ A*",   "A": "A", "B": "B", "C": "C" }};
+const TIER_TAG_CLASS = {{ "A*": "astar", "A": "a", "B": "b", "C": "c", "NR": "nr" }};
+const TIER_LABEL     = {{ "A*": "★ A*",   "A": "A", "B": "B", "C": "C", "NR": "Egyéb" }};
 
 const NAT_LABEL = {{
   all_hungarian: "Teljesen magyar",
@@ -789,7 +795,7 @@ let sortMode = "year-desc";
 
 function setTier(mode) {{
   tierMode = mode;
-  ["astar","a","b","c","both"].forEach(t =>
+  ["astar","a","b","c","nr","both"].forEach(t =>
     document.getElementById("btn-" + t).classList.toggle("active", mode === t)
   );
   render();
@@ -804,7 +810,7 @@ function renderPaper(p) {{
   const titleEl = p.doi
     ? `<a href="${{p.doi}}" target="_blank" rel="noopener">${{p.title}}</a>`
     : `<span>${{p.title}}</span>`;
-  const showTierTag = tierMode === "both" || !["astar","a","b","c"].includes(tierMode) || TIER_SETS[tierMode].size > 1;
+  const showTierTag = tierMode === "both" || !["astar","a","b","c","nr"].includes(tierMode) || TIER_SETS[tierMode].size > 1;
   const tierTag = showTierTag
     ? `<span class="tag tag-tier-${{TIER_TAG_CLASS[p.tier] || ''}}">${{TIER_LABEL[p.tier] || p.tier}}</span>`
     : "";
@@ -895,7 +901,7 @@ function clearAuthorFilter() {{
   const paramTier   = p.get("tier");
   const paramAuthor = p.get("author");
   const paramName   = p.get("name");
-  if (paramTier && ["astar","a","b","c","both"].includes(paramTier)) setTier(paramTier);
+  if (paramTier && ["astar","a","b","c","nr","both"].includes(paramTier)) setTier(paramTier);
   if (paramAuthor) {{
     authorSlugFilter = paramAuthor;
     const banner = document.getElementById("author-banner");
@@ -934,8 +940,11 @@ def main():
     papers_c = load_papers([JSON_HUN_C, JSON_ABR_C], "C", author_lookup, slug_category, pid_map)
     print(f"Core C:  {len(papers_c)} papers")
 
+    papers_norank = load_papers([JSON_HUN_NR, JSON_ABR_NR], "NR", author_lookup, slug_category, pid_map)
+    print(f"No rank: {len(papers_norank)} papers")
+
     existing = load_existing_profiles(BASE / "profiles")
-    html_out = generate_html(papers_astar, papers_a, papers_b, papers_c, author_lookup, existing, pid_map)
+    html_out = generate_html(papers_astar, papers_a, papers_b, papers_c, papers_norank, author_lookup, existing, pid_map)
     OUT_FILE.write_text(html_out, encoding="utf-8")
     print(f"Generated {OUT_FILE}")
 
