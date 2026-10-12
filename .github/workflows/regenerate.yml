@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Fetch missing MTA photos
+        run: python3 fetch_mta_photos.py
+
       - name: Regenerate authors_profile.html
         run: python3 gen_authors_html.py
 
@@ -45,7 +48,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add authors_profile.html core_astar.html authors_table.html
+          git add authors_profile.html core_astar.html authors_table.html profiles/_mta_photos.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
