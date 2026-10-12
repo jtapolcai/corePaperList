@@ -10,7 +10,7 @@ on:
       - "results/coreAstar.bib"
       - "results/coreA.bib"
       - "gen_authors_html.py"
-      - "gen_core_astar_html.py"
+      - "gen_core_papers_html.py"
       - "gen_authors_table.py"
       - "gen_index_html.py"
       - "src/create_itable.py"
@@ -36,8 +36,8 @@ jobs:
       - name: Regenerate authors_profile.html
         run: python3 gen_authors_html.py
 
-      - name: Regenerate core_astar.html
-        run: python3 gen_core_astar_html.py
+      - name: Regenerate core_papers.html
+        run: python3 gen_core_papers_html.py
 
       - name: Install dependencies for authors_table
         run: pip install pandas requests
@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html authors_profile.html core_astar.html authors_table.html profiles/_mta_photos.json
+          git add index.html authors_profile.html core_papers.html authors_table.html profiles/_mta_photos.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

@@ -317,7 +317,7 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
       <span class="title">Kutatói profilok</span>
       <span class="desc">Részletes adatlapok, szerkesztési lehetőséggel</span>
     </a>
-    <a class="nav-card" href="core_astar.html">
+    <a class="nav-card" href="core_papers.html">
       <span class="icon">⭐</span>
       <span class="title">CORE A* cikkek</span>
       <span class="desc">Magyar szerzős legrangosabb konferencia-cikkek</span>

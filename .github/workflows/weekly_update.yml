@@ -42,8 +42,8 @@ jobs:
       - name: Regenerate authors_profile.html
         run: python3 gen_authors_html.py
 
-      - name: Regenerate core_astar.html
-        run: python3 gen_core_astar_html.py
+      - name: Regenerate core_papers.html
+        run: python3 gen_core_papers_html.py
 
       - name: Install pandas for authors_table
         run: pip install pandas
@@ -56,7 +56,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/ authors.json dblp/dblp_counts.json \
-                  index.html authors_profile.html core_astar.html authors_table.html \
+                  index.html authors_profile.html core_papers.html authors_table.html \
                   profiles/_mta_photos.json || true
           if git diff --cached --quiet; then
             echo "Nincs változás"

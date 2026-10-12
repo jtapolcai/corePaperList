@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate core_astar.html from JSON source files instead of BibTeX.
+Generate core_papers.html from JSON source files instead of BibTeX.
 JSON files have proper Unicode author names (no LaTeX encoding).
 Author names link to authors_profile.html when the author is in authors.json.
 """
@@ -22,7 +22,7 @@ JSON_HUN_C     = RESULTS / "hungarian_papers_coreC.json"
 JSON_ABR_C     = RESULTS / "already_abroad_papers_coreC.json"
 AUTHORS_JSON    = BASE / "authors.json"
 AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
-OUT_FILE       = BASE / "core_astar.html"
+OUT_FILE       = BASE / "core_papers.html"
 
 if len(sys.argv) > 1:
     OUT_FILE = Path(sys.argv[1])
