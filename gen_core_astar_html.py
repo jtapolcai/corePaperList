@@ -16,7 +16,8 @@ JSON_HUN_ASTAR = RESULTS / "hungarian_papers_coreAstar.json"
 JSON_ABR_ASTAR = RESULTS / "already_abroad_papers_coreAstar.json"
 JSON_HUN_A     = RESULTS / "hungarian_papers_coreA.json"
 JSON_ABR_A     = RESULTS / "already_abroad_papers_coreA.json"
-AUTHORS_JSON   = BASE / "authors.json"
+AUTHORS_JSON    = BASE / "authors.json"
+AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
 OUT_FILE       = BASE / "core_astar.html"
 
 if len(sys.argv) > 1:
@@ -65,13 +66,12 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
-def load_author_data() -> tuple[dict, dict]:
+def load_author_data() -> tuple[dict, dict, dict]:
     """
-    Returns (name_to_slug, slug_to_category) from authors.json.
-    slug_to_category maps slug → "theory" | "applied" | "".
+    Returns (name_to_slug, slug_to_category, name_to_dblp_url) from authors.json + author_pids.json.
     """
     if not AUTHORS_JSON.exists():
-        return {}, {}
+        return {}, {}, {}
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     lookup   = {}
     category = {}
@@ -88,13 +88,21 @@ def load_author_data() -> tuple[dict, dict]:
                 if alias:
                     lookup.setdefault(normalize(alias), slug)
         category[slug] = a.get("category") or ""
-    return lookup, category
+    # Build name → DBLP URL from author_pids.json (scraped pids)
+    pid_map: dict = {}
+    if AUTHOR_PIDS_JSON.exists():
+        try:
+            pid_map = json.loads(AUTHOR_PIDS_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return lookup, category, pid_map
 
 
-def format_authors(authors: list, author_lookup: dict) -> str:
+def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = None) -> str:
     """Render author list as comma-separated HTML with profile links.
-    Known authors link to their profile; unknown authors link to GitHub to add them."""
+    Known authors link to their profile; unknown authors open the add-author modal."""
     parts = []
+    pid_map = pid_map or {}
     for name in authors:
         display = clean_name(name)
         slug = (
@@ -107,9 +115,11 @@ def format_authors(authors: list, author_lookup: dict) -> str:
             )
         else:
             new_slug = slugify(display)
+            dblp_url = pid_map.get(name) or pid_map.get(display) or ""
             parts.append(
                 f'<a class="author-add" href="javascript:void(0)"'
                 f' data-name="{esc(display)}" data-slug="{new_slug}"'
+                f' data-dblp-url="{esc(dblp_url)}"'
                 f' onclick="openAddModal(this)"'
                 f' title="{esc(display)} hozzáadása az adatbázishoz">➕ {esc(display)}</a>'
             )
@@ -145,7 +155,7 @@ def paper_topic(authors: list, author_lookup: dict, slug_category: dict) -> str:
     return "theory" if theory >= applied else "applied"
 
 
-def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_category: dict) -> list[dict]:
+def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_category: dict, pid_map: dict | None = None) -> list[dict]:
     """Load and merge papers from one or more JSON files."""
     merged = {}
     for f in json_files:
@@ -175,12 +185,12 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
     return papers
 
 
-def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup: dict, existing_profiles: set | None = None) -> str:
+def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
     def paper_obj(p):
         return {
             "key":          p["key"],
             "title":        p["title"],
-            "authors_html": format_authors(p["authors"], author_lookup),
+            "authors_html": format_authors(p["authors"], author_lookup, pid_map),
             "venue":        p["venue"],
             "year":         p["year"],
             "doi":          p["doi"],
@@ -466,6 +476,7 @@ let _modalName = "";
 function openAddModal(el) {{
   _modalName = el.dataset.name || el.textContent.replace("➕","").trim();
   _modalSlug = el.dataset.slug || slugifyJS(_modalName);
+  const knownDblpUrl = el.dataset.dblpUrl || "";
   document.getElementById("modal-title").textContent = "Hozzáadás: " + _modalName;
   // Reset
   ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note"].forEach(id => {{
@@ -474,9 +485,6 @@ function openAddModal(el) {{
   document.getElementById("m-category").value = "";
   document.getElementById("m-works").value = "";
   document.getElementById("dblp-list").innerHTML = "";
-  document.getElementById("dblp-list").style.display = "none";
-  document.getElementById("dblp-status").textContent = "Keresés";
-  document.getElementById("dblp-status").style.display = "";
   document.getElementById("mtmt-list").innerHTML = "";
   document.getElementById("mtmt-list").style.display = "none";
   document.getElementById("mtmt-status").textContent = "Keresés";
@@ -485,8 +493,21 @@ function openAddModal(el) {{
   const hint = document.getElementById("m-linkedin-hint");
   hint.innerHTML = '<a href="https://www.linkedin.com/search/results/people/?keywords=' + encodeURIComponent(_modalName) + '" target="_blank" rel="noopener">🔍 Keresés LinkedIn-en →</a>';
   document.getElementById("add-modal-overlay").classList.add("open");
-  // Fetch DBLP and MTMT in parallel
-  searchDblp(_modalName);
+  // DBLP: use known URL from paper data, no search needed
+  const dblpStatus = document.getElementById("dblp-status");
+  const dblpList = document.getElementById("dblp-list");
+  if (knownDblpUrl) {{
+    document.getElementById("m-dblp-url").value = knownDblpUrl;
+    dblpStatus.style.display = "none";
+    dblpList.innerHTML = '<div class="candidate selected"><span>🔗</span><span><strong>' + _modalName + '</strong> — DBLP azonosító ismert</span><a href="' + knownDblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a></div>';
+    dblpList.style.display = "flex";
+  }} else {{
+    dblpList.style.display = "none";
+    dblpStatus.textContent = "Keresés";
+    dblpStatus.style.display = "";
+    searchDblp(_modalName);
+  }}
+  // MTMT: always search
   searchMtmt(_modalName);
 }}
 
@@ -740,17 +761,17 @@ def load_existing_profiles(profiles_dir: Path) -> set:
 
 
 def main():
-    author_lookup, slug_category = load_author_data()
-    print(f"Loaded {len(author_lookup)} author name entries for linking")
+    author_lookup, slug_category, pid_map = load_author_data()
+    print(f"Loaded {len(author_lookup)} author name entries for linking, {len(pid_map)} DBLP pids")
 
-    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category)
+    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category, pid_map)
     print(f"Core A*: {len(papers_astar)} papers")
 
-    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category)
+    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category, pid_map)
     print(f"Core A:  {len(papers_a)} papers")
 
     existing = load_existing_profiles(BASE / "profiles")
-    html_out = generate_html(papers_astar, papers_a, author_lookup, existing)
+    html_out = generate_html(papers_astar, papers_a, author_lookup, existing, pid_map)
     OUT_FILE.write_text(html_out, encoding="utf-8")
     print(f"Generated {OUT_FILE}")
 
