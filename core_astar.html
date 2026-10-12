@@ -255,6 +255,7 @@ footer { text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mut
 <script>
 const GITHUB_REPO = "jtapolcai/corePaperList";
 const GITHUB_BRANCH = "main";
+const EXISTING_PROFILES = new Set(["andras-a-benczur", "andras-gilyen", "andras-lorincz", "csaba-szepesvari", "daniel-marx", "endre-szemeredi", "gabor-retvari", "laszlo-lovasz-0001"]);
 
 let _modalSlug = "";
 let _modalName = "";
@@ -389,8 +390,14 @@ function saveAddModal() {
   }
   const json = JSON.stringify(obj, null, 2);
   const encoded = encodeURIComponent(json);
-  const url = "https://github.com/" + GITHUB_REPO + "/new/" + GITHUB_BRANCH
-    + "?filename=profiles/" + _modalSlug + ".json&value=" + encoded;
+  let url;
+  if (EXISTING_PROFILES.has(_modalSlug)) {
+    url = "https://github.com/" + GITHUB_REPO + "/edit/" + GITHUB_BRANCH
+      + "/profiles/" + _modalSlug + ".json";
+  } else {
+    url = "https://github.com/" + GITHUB_REPO + "/new/" + GITHUB_BRANCH
+      + "?filename=profiles/" + _modalSlug + ".json&value=" + encoded;
+  }
   window.open(url, "_blank");
   closeAddModal();
 }

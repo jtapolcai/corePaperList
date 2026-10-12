@@ -175,7 +175,7 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
     return papers
 
 
-def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup: dict) -> str:
+def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup: dict, existing_profiles: set | None = None) -> str:
     def paper_obj(p):
         return {
             "key":          p["key"],
@@ -199,6 +199,7 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup:
     years_all = sorted({p["year"] for p in papers_astar + papers_a if p["year"]})
     min_year  = min(years_all) if years_all else 1975
     max_year  = max(years_all) if years_all else 2026
+    existing_profiles_json = json.dumps(sorted(existing_profiles or []))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -457,6 +458,7 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
 <script>
 const GITHUB_REPO = "{GITHUB_REPO}";
 const GITHUB_BRANCH = "{GITHUB_BRANCH}";
+const EXISTING_PROFILES = new Set({existing_profiles_json});
 
 let _modalSlug = "";
 let _modalName = "";
@@ -591,8 +593,14 @@ function saveAddModal() {{
   }}
   const json = JSON.stringify(obj, null, 2);
   const encoded = encodeURIComponent(json);
-  const url = "https://github.com/" + GITHUB_REPO + "/new/" + GITHUB_BRANCH
-    + "?filename=profiles/" + _modalSlug + ".json&value=" + encoded;
+  let url;
+  if (EXISTING_PROFILES.has(_modalSlug)) {{
+    url = "https://github.com/" + GITHUB_REPO + "/edit/" + GITHUB_BRANCH
+      + "/profiles/" + _modalSlug + ".json";
+  }} else {{
+    url = "https://github.com/" + GITHUB_REPO + "/new/" + GITHUB_BRANCH
+      + "?filename=profiles/" + _modalSlug + ".json&value=" + encoded;
+  }}
   window.open(url, "_blank");
   closeAddModal();
 }}
@@ -724,6 +732,13 @@ function clearAuthorFilter() {{
 """
 
 
+def load_existing_profiles(profiles_dir: Path) -> set:
+    """Return slugs that have a real profile .json file (not underscore-prefixed)."""
+    if not profiles_dir.exists():
+        return set()
+    return {f.stem for f in profiles_dir.glob("*.json") if not f.stem.startswith("_")}
+
+
 def main():
     author_lookup, slug_category = load_author_data()
     print(f"Loaded {len(author_lookup)} author name entries for linking")
@@ -734,7 +749,8 @@ def main():
     papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category)
     print(f"Core A:  {len(papers_a)} papers")
 
-    html_out = generate_html(papers_astar, papers_a, author_lookup)
+    existing = load_existing_profiles(BASE / "profiles")
+    html_out = generate_html(papers_astar, papers_a, author_lookup, existing)
     OUT_FILE.write_text(html_out, encoding="utf-8")
     print(f"Generated {OUT_FILE}")
 
