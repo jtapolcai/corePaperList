@@ -65594,8 +65594,9 @@
                     "scrollX": true,
                     "scrollY": "calc(100vh - 200px)",
                     "scrollCollapse": true,
-                    "autoWidth": false,
+                    "autoWidth": true,
                     "initComplete": function() {
+                        this.api().columns.adjust().draw();
                         // Define which columns should have filters (by column name)
                         var filterableColumns = [
                             'Név',
@@ -65646,6 +65647,10 @@
                     }
                 });
                 
+                // Force header realignment after fonts/images load
+                setTimeout(function() { table.columns.adjust(); }, 200);
+                $(window).on('resize', function() { table.columns.adjust(); });
+
                 // Position tooltips near mouse cursor
                 $(document).on('mousemove', '.tooltip-container', function(e) {
                     var tooltip = $(this).find('.tooltip-text');
