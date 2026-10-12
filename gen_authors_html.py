@@ -41,7 +41,7 @@ GITHUB_BRANCH = "main"
 EDITABLE_FIELDS = [
     "dblp_url", "mtmt_id", "mtmt_name", "mta_att_id", "mta_photo",
     "category", "mtmt_status", "works", "affiliations",
-    "homepage", "note",
+    "linkedin", "homepage", "note",
 ]
 
 
@@ -74,6 +74,7 @@ NEW_AUTHOR_TEMPLATE = json.dumps({
     "mtmt_status": "",
     "works": "",
     "affiliations": "",
+    "linkedin": "",
     "homepage": "",
     "note": "",
 }, ensure_ascii=False, indent=2)
@@ -282,9 +283,9 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
 .mtmt-option:hover {{ background:var(--accent-bg); }}
 .mtmt-option.selected {{ background:var(--accent-bg); border-left:3px solid var(--accent); font-weight:600; }}
 .mtmt-loading, .mtmt-no-results {{ padding:0.4rem 0.6rem; font-size:0.8rem; color:var(--muted); }}
-.mta-hint {{ font-size:0.78rem; margin-top:0.25rem; }}
-.mta-hint a {{ color:var(--accent); text-decoration:none; }}
-.mta-hint a:hover {{ text-decoration:underline; }}
+.mta-hint, .linkedin-hint {{ font-size:0.78rem; margin-top:0.25rem; }}
+.mta-hint a, .linkedin-hint a {{ color:var(--accent); text-decoration:none; }}
+.mta-hint a:hover, .linkedin-hint a:hover {{ text-decoration:underline; }}
 
 @media (max-width: 640px) {{
   #app {{ flex-direction: column; height: auto; }}
@@ -383,6 +384,17 @@ function editField(key) {{
       }}
     }}
   }}
+  if (key === "linkedin") {{
+    const a = BY_SLUG[currentSlug];
+    if (a) {{
+      const name = (a.name || "").replace(/\\s+\\d{{4}}$/, "").trim();
+      const hint = document.getElementById("linkedin-hint");
+      if (hint) {{
+        hint.style.display = "";
+        hint.innerHTML = `<a href="https://www.linkedin.com/search/results/people/?keywords=${{encodeURIComponent(name)}}" target="_blank" rel="noopener">🔍 Keresés LinkedIn-en →</a>`;
+      }}
+    }}
+  }}
 }}
 
 async function searchMTMT(fullName) {{
@@ -435,9 +447,12 @@ function selectMTMT(mtid, label, el) {{
 function cancelEdits() {{
   document.querySelectorAll("[data-edit]").forEach(el => {{
     el.disabled = true;
-    // Reset to original value from current author
     const a = BY_SLUG[currentSlug];
     if (a) el.value = a[el.dataset.edit] || "";
+  }});
+  ["mta-hint","mtmt-results","linkedin-hint"].forEach(id => {{
+    const el = document.getElementById(id);
+    if (el) el.style.display = "none";
   }});
   document.getElementById("edit-save-bar").style.display = "none";
 }}
@@ -515,6 +530,7 @@ function renderProfile(a) {{
 
   const links = [];
   if (a.homepage) links.push(`<a href="${{esc(a.homepage)}}" target="_blank">Homepage</a>`);
+  if (a.linkedin) links.push(`<a href="${{esc(a.linkedin)}}" target="_blank">LinkedIn</a>`);
   if (a.dblp_url) links.push(`<a href="${{esc(a.dblp_url)}}" target="_blank">DBLP</a>`);
   if (a.mtmt_id) links.push(`<a href="https://m2.mtmt.hu/api/author/${{a.mtmt_id}}" target="_blank">MTMT</a>`);
   if (a.mta_att_id && a.mta_att_id !== "-") links.push(`<a href="${{esc(a.mta_att_id)}}" target="_blank">MTA</a>`);
@@ -563,6 +579,7 @@ function renderProfile(a) {{
     {{key:"works",       label:"Munkahely",      type:"select", opts:["","hungary","abroad","company_hungary","company_abroad","inactive","retired"]}},
     {{key:"mtmt_status", label:"MTMT státusz",   type:"select", opts:["","active","inactive"]}},
     {{key:"affiliations",label:"Affiliációk",    type:"text"}},
+    {{key:"linkedin",    label:"LinkedIn URL",   type:"text"}},
     {{key:"homepage",    label:"Honlap",         type:"text"}},
     {{key:"note",        label:"Megjegyzés",     type:"text"}},
   ];
@@ -582,6 +599,7 @@ function renderProfile(a) {{
       <div id="mtmt-name-display" style="font-size:12px;color:var(--text-secondary);margin-top:2px">${{esc(a.mtmt_name||"")}}</div>
       <div id="mtmt-results" class="mtmt-results" style="display:none"></div>`;
     if (f.key === "mta_att_id") extra = `<div id="mta-hint" class="mta-hint" style="display:none"></div>`;
+    if (f.key === "linkedin")   extra = `<div id="linkedin-hint" class="linkedin-hint" style="display:none"></div>`;
     return `<tr><td>${{pencil}} ${{f.label}}</td><td>${{ctrl}}${{extra}}</td></tr>`;
   }}).join("");
 
