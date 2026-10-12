@@ -38,6 +38,31 @@ def profile_count() -> int:
     return len([f for f in PROFILES_DIR.glob("*.json") if not f.stem.startswith("_")])
 
 
+def load_photo_map() -> dict[str, str]:
+    """Return {slug: photo_url} from cache + per-profile overrides."""
+    photo_map: dict[str, str] = {}
+    cache_file = PROFILES_DIR / "_mta_photos.json"
+    if cache_file.exists():
+        try:
+            for slug, url in json.loads(cache_file.read_text(encoding="utf-8")).items():
+                if url:
+                    photo_map[slug] = url
+        except Exception:
+            pass
+    # per-profile overrides (mta_photo field)
+    for f in PROFILES_DIR.glob("*.json"):
+        if f.stem.startswith("_"):
+            continue
+        try:
+            p = json.loads(f.read_text(encoding="utf-8"))
+            url = p.get("mta_photo") or ""
+            if url:
+                photo_map[f.stem] = url
+        except Exception:
+            pass
+    return photo_map
+
+
 def paper_category(paper: dict, name_cat: dict) -> str:
     cats = {name_cat.get(n, "unknown") for n in paper.get("authors", [])}
     cats.discard("unknown")
@@ -155,7 +180,7 @@ def age_rows(age_counter: dict) -> str:
     return "\n".join(rows)
 
 
-def top_rows(top: list) -> str:
+def top_rows(top: list, photo_map: dict) -> str:
     rows = []
     for i, a in enumerate(top, 1):
         name = a.get("name", "")
@@ -172,14 +197,20 @@ def top_rows(top: list) -> str:
         )
         loc = "🇭🇺" if works in ("hungary", "company_hungary") else "🌍" if works in ("abroad", "company_abroad") else ""
         profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
+        photo_url = photo_map.get(slug, "")
+        if photo_url:
+            photo_cell = f'<img src="{photo_url}" class="thumb" alt="" onerror="this.style.display=\'none\'">'
+        else:
+            photo_cell = '<span class="thumb-placeholder"></span>'
         rows.append(
-            f"<tr><td class='rank'>{i}.</td><td>{loc} {profile_link}</td>"
+            f"<tr><td class='rank'>{i}.</td>"
+            f"<td class='name-cell'>{photo_cell}{loc} {profile_link}</td>"
             f"<td>{cat_badge}</td><td class='num'>{astar}</td></tr>"
         )
     return "\n".join(rows)
 
 
-def render(s: dict, chart: dict) -> str:
+def render(s: dict, chart: dict, photo_map: dict) -> str:
     hun_pct = round(100 * s["hungary"] / s["total"]) if s["total"] else 0
     ab_pct = round(100 * s["abroad"] / s["total"]) if s["total"] else 0
 
@@ -261,6 +292,10 @@ def render(s: dict, chart: dict) -> str:
   .badge {{ display: inline-block; padding: 0.1em 0.5em; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; }}
   .badge.theory {{ background: #cfe2ff; color: #084298; }}
   .badge.applied {{ background: #d1e7dd; color: #0a3622; }}
+
+  .name-cell {{ display: flex; align-items: center; gap: 0.5rem; }}
+  .thumb {{ width: 32px; height: 32px; object-fit: cover; border-radius: 50%; flex-shrink: 0; border: 1px solid var(--border); }}
+  .thumb-placeholder {{ width: 32px; height: 32px; border-radius: 50%; background: #e9ecef; flex-shrink: 0; }}
 
   footer {{ text-align: center; font-size: 0.78rem; color: var(--muted); padding: 1rem; }}
 </style>
@@ -359,13 +394,13 @@ def render(s: dict, chart: dict) -> str:
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (összes)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_all"])}</tbody>
+        <tbody>{top_rows(s["top_all"], photo_map)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_hun"])}</tbody>
+        <tbody>{top_rows(s["top_hun"], photo_map)}</tbody>
       </table>
     </div>
   </div>
@@ -474,7 +509,8 @@ def main():
     name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
     stats = compute_stats(authors)
     chart = build_chart_data(hun, abr, name_cat)
-    html = render(stats, chart)
+    photo_map = load_photo_map()
+    html = render(stats, chart, photo_map)
     OUT.write_text(html, encoding="utf-8")
     print(f"Generated {OUT}")
 
