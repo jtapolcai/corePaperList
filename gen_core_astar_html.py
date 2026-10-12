@@ -134,6 +134,8 @@ def build_papers(entries: list[dict], label: str) -> list[dict]:
     return papers
 
 
+_DBLP_SUFFIX = re.compile(r"\s+\d{4}$")  # trailing " 0001", " 0002", etc.
+
 def load_author_lookup() -> dict:
     """Build {normalized_name: slug} from authors.json."""
     if not AUTHORS_JSON.exists():
@@ -141,13 +143,19 @@ def load_author_lookup() -> dict:
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     lookup = {}
     for a in authors:
-        lookup[normalize(a["name"])] = a["slug"]
-        # Also add DBLP alias names
+        slug = a["slug"]
+        name = a["name"]
+        lookup[normalize(name)] = slug
+        # Also index without DBLP disambiguation suffix ("László Lovász 0001" → "László Lovász")
+        stripped = _DBLP_SUFFIX.sub("", name).strip()
+        if stripped != name:
+            lookup.setdefault(normalize(stripped), slug)
+        # DBLP alias names
         if a.get("dblp_alias"):
             for alias in a["dblp_alias"].split(";"):
                 alias = alias.strip()
                 if alias:
-                    lookup[normalize(alias)] = a["slug"]
+                    lookup.setdefault(normalize(alias), slug)
     return lookup
 
 
