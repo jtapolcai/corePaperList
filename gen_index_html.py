@@ -65,7 +65,7 @@ def load_photo_map() -> dict[str, str]:
 
 
 def paper_category(paper: dict, name_cat: dict) -> str:
-    cats = {name_cat.get(n, "unknown") for n in paper.get("authors", [])}
+    cats = {name_cat.get(n[0] if isinstance(n, list) else n, "unknown") for n in paper.get("authors", [])}
     cats.discard("unknown")
     if not cats:
         return "unknown"
