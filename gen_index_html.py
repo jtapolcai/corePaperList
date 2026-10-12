@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate index.html — dashboard for the Hungarian CS Research Database."""
+import datetime
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -103,7 +104,6 @@ def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
         set(list(hun_theory) + list(hun_applied) + list(all_theory) + list(all_applied))
     )
     # exclude current incomplete year
-    import datetime
     current_year = datetime.date.today().year
     years = [y for y in years if y < current_year]
 
@@ -213,6 +213,7 @@ def top_rows(top: list, photo_map: dict) -> str:
 def render(s: dict, chart: dict, photo_map: dict) -> str:
     hun_pct = round(100 * s["hungary"] / s["total"]) if s["total"] else 0
     ab_pct = round(100 * s["abroad"] / s["total"]) if s["total"] else 0
+    updated = datetime.date.today().strftime("%Y. %m. %d.")
 
     chart_years_js = json.dumps(chart["years"])
     chart_ht_js = json.dumps(chart["hun_theory"])
@@ -305,6 +306,7 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
 <header>
   <h1>Magyar Számítástudományi Kutatók</h1>
   <p>CORE A* &amp; CORE A minősítésű publikációkkal rendelkező kutatók adatbázisa</p>
+  <p style="opacity:0.7; font-size:0.82rem; margin-top:0.4rem">Adatbázis frissítve: {updated} &nbsp;•&nbsp; Heti automatikus frissítés</p>
 </header>
 
 <main>
@@ -407,7 +409,7 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
 
 </main>
 
-<footer>Adatok forrása: DBLP, MTMT, MTA • Automatikusan generálva</footer>
+<footer>Adatok forrása: DBLP, MTMT, MTA • Automatikusan generálva • Utolsó frissítés: {updated}</footer>
 
 <script>
 (function() {{
