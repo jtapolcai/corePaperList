@@ -297,8 +297,98 @@ def _sparql_count(pid):
     return int(bindings[0]["n"]["value"]) if bindings else -1
 
 
-def _sparql_fetch(pid):
-    """Fetch all publications for a PID and return a hits list (same format as DBLP JSON)."""
+def _sparql_fetch(pid, author_name=""):
+    """Fetch all publications for a PID and return a dblpperson dict.
+
+    Output format matches xmltodict-parsed PID XML so the existing
+    classification pipeline (get_dblp_record / classify_paper) works unchanged.
+    """
+    author_uri = "https://dblp.org/pid/" + pid
+
+    pubs_query = (
+        "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
+        "SELECT DISTINCT ?pub ?type ?title ?year ?venue ?doi ?pages WHERE {\n"
+        "  ?pub dblp:authoredBy <" + author_uri + "> ;\n"
+        "       dblp:title ?title ; dblp:yearOfPublication ?year .\n"
+        "  OPTIONAL { ?pub a ?type .\n"
+        "    FILTER(STRSTARTS(STR(?type),\"https://dblp.org/rdf/schema#\")"
+        " && ?type != dblp:Publication) }\n"
+        "  OPTIONAL { ?pub dblp:publishedIn ?venue }\n"
+        "  OPTIONAL { ?pub dblp:doi ?doi }\n"
+        "  OPTIONAL { ?pub dblp:pagination ?pages }\n"
+        "}"
+    )
+    r = requests.post(SPARQL_URL, data={"query": pubs_query},
+                      headers={"Accept": "application/sparql-results+json"}, timeout=60)
+    r.raise_for_status()
+    bindings = r.json()["results"]["bindings"]
+
+    pubs = {}
+    for b in bindings:
+        uri = b["pub"]["value"]
+        if uri not in pubs:
+            pubs[uri] = b
+        elif "type" in b and ("Inproceedings" in b["type"]["value"] or "Article" in b["type"]["value"]):
+            pubs[uri] = b
+
+    if not pubs:
+        return {"dblpperson": {"@name": author_name, "r": []}}
+
+    authors_query = (
+        "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
+        "SELECT DISTINCT ?pub ?coAuthorName ?coAuthorPid WHERE {\n"
+        "  ?pub dblp:authoredBy <" + author_uri + "> .\n"
+        "  ?pub dblp:authoredBy ?co . ?co dblp:primaryCreatorName ?coAuthorName .\n"
+        "  BIND(REPLACE(STR(?co),\"https://dblp.org/pid/\",\"\") AS ?coAuthorPid)\n"
+        "}"
+    )
+    r2 = requests.post(SPARQL_URL, data={"query": authors_query},
+                       headers={"Accept": "application/sparql-results+json"}, timeout=60)
+    r2.raise_for_status()
+    pub_authors: dict = {}
+    seen_pairs: dict = {}
+    for b in r2.json()["results"]["bindings"]:
+        uri = b["pub"]["value"]
+        name = b["coAuthorName"]["value"]
+        apid = b["coAuthorPid"]["value"]
+        pub_authors.setdefault(uri, [])
+        seen_pairs.setdefault(uri, set())
+        if (name, apid) not in seen_pairs[uri]:
+            pub_authors[uri].append({"#text": name, "@pid": apid})
+            seen_pairs[uri].add((name, apid))
+
+    # Build dblpperson.r list — same structure as xmltodict-parsed PID XML
+    TYPE_TO_TAG = {
+        "https://dblp.org/rdf/schema#Inproceedings": "inproceedings",
+        "https://dblp.org/rdf/schema#Article": "article",
+    }
+    r_list = []
+    for uri, b in pubs.items():
+        rec_key = uri.replace("https://dblp.org/rec/", "")
+        raw_type = b.get("type", {}).get("value", "")
+        tag = TYPE_TO_TAG.get(raw_type, "informal")
+        venue_key = "booktitle" if tag == "inproceedings" else "journal"
+        doi_uri = b.get("doi", {}).get("value", "")
+        paper = {
+            "@key": rec_key,
+            "title": b["title"]["value"].rstrip("."),
+            venue_key: b.get("venue", {}).get("value", ""),
+            "year": b["year"]["value"],
+        }
+        if b.get("pages"):
+            paper["pages"] = b["pages"]["value"]
+        if doi_uri:
+            paper["ee"] = doi_uri
+        authors = pub_authors.get(uri, [])
+        if authors:
+            paper["author"] = authors[0] if len(authors) == 1 else authors
+        r_list.append({tag: paper})
+
+    return {"dblpperson": {"@name": author_name, "r": r_list}}
+
+
+def _sparql_fetch_hits(pid):
+    """Legacy wrapper — returns raw hits list (result.hits format) for private pipeline."""
     author_uri = "https://dblp.org/pid/" + pid
 
     pubs_query = (
@@ -421,22 +511,19 @@ def cache_DBLP_query(authors_data, force):
 
         try:
             print("Fetching via SPARQL: {}".format(author), flush=True)
-            hits = _sparql_fetch(pid)
+            data = _sparql_fetch(pid, author_name=author)
             time.sleep(0.5)
             counter += 1
             if counter % 50 == 0:
                 print("Pause after {} queries".format(counter))
                 time.sleep(30)
 
-            result = {
-                "source": SPARQL_URL,
-                "result": {"hits": {"@total": str(len(hits)), "hit": hits}}
-            }
+            r_list = data.get("dblpperson", {}).get("r", [])
             tmp = output_path.with_suffix(".json.tmp")
-            tmp.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+            tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             tmp.replace(output_path)
-            counts_cache[author_safe] = len(hits)
-            print("{}: {} rekord".format(author, len(hits)), flush=True)
+            counts_cache[author_safe] = len(r_list)
+            print("{}: {} rekord".format(author, len(r_list)), flush=True)
 
         except Exception as e:
             print("Error with {}: {}".format(author, e))

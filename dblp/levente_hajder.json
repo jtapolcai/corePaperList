@@ -1,0 +1,937 @@
+{
+  "dblpperson": {
+    "r": [
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/TofalviKHT22",
+        "title": "LiDAR-camera Calibration in an Uniaxial 1-DoF Sensor System.",
+        "pages": "730-738",
+        "year": "2022",
+        "booktitle": "VISIGRAPP (4: VISAPP)",
+        "ee": "https://doi.org/10.5220/0010988800003124",
+        "url": "db/conf/visapp/visapp2022-1.html#TofalviKHT22",
+        "authors": [
+          "TamÃ¡s TÃ³falvi",
+          "BandÃ³ KovÃ¡cs",
+          "Levente Hajder",
+          "Tekla TÃ³th"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/BarathH16",
+        "title": "Novel Ways to Estimate Homography from Local Affine Transformations.",
+        "pages": "434-445",
+        "year": "2016",
+        "booktitle": "VISIGRAPP (3: VISAPP)",
+        "ee": "https://doi.org/10.5220/0005674904320443",
+        "url": "db/conf/visapp/visapp2016-1.html#BarathH16",
+        "authors": [
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/DanielMH15",
+        "title": "Optimal Surface Normal from Affine Transformation.",
+        "pages": "305-316",
+        "year": "2015",
+        "booktitle": "VISAPP (3)",
+        "ee": "https://doi.org/10.5220/0005303703050316",
+        "url": "db/conf/visapp/visapp2015-3.html#DanielMH15",
+        "authors": [
+          "Daniel Barath",
+          "JÃ³zsef MolnÃ¡r",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/PernekH14",
+        "title": "Precise 3D Pose Estimation of Human Faces.",
+        "pages": "618-625",
+        "year": "2014",
+        "booktitle": "VISAPP (3)",
+        "ee": "https://doi.org/10.5220/0004741706180625",
+        "url": "db/conf/visapp/visapp2014-3.html#PernekH14",
+        "authors": [
+          "Ãkos Pernek",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/BarathMH15",
+        "title": "Novel Methods for Estimating Surface Normals from Affine Transformations.",
+        "pages": "316-337",
+        "year": "2015",
+        "booktitle": "VISIGRAPP (Selected Papers)",
+        "ee": "https://doi.org/10.1007/978-3-319-29971-6_17",
+        "url": "db/conf/visapp/visigrapp2015.html#BarathMH15",
+        "authors": [
+          "Daniel Barath",
+          "JÃ³zsef MolnÃ¡r",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/MinhH20",
+        "title": "Affine Transformation from Fundamental Matrix and Two Directions.",
+        "pages": "819-826",
+        "year": "2020",
+        "booktitle": "VISIGRAPP (4: VISAPP)",
+        "ee": "https://doi.org/10.5220/0009154408190826",
+        "url": "db/conf/visapp/visapp2020-1.html#MinhH20",
+        "authors": [
+          "Nghia Le Minh",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/Hajder17",
+        "title": "W-PnP Method: Optimal Solution for the Weak-Perspective n-Point Problem and Its Application to Structure from Motion.",
+        "pages": "265-276",
+        "year": "2017",
+        "booktitle": "VISIGRAPP (6: VISAPP)",
+        "ee": "https://doi.org/10.5220/0006158902650276",
+        "url": "db/conf/visapp/visapp2017-3.html#Hajder17",
+        "authors": [
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/KastantinH22",
+        "title": "Visual Tilt Correction for Vehicle-mounted Cameras.",
+        "pages": "863-870",
+        "year": "2022",
+        "booktitle": "VISIGRAPP (5: VISAPP)",
+        "ee": "https://doi.org/10.5220/0010904800003124",
+        "url": "db/conf/visapp/visapp2022-2.html#KastantinH22",
+        "authors": [
+          "Firas Kastantin",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/PusztaiH16",
+        "title": "A Turntable-based Approach for Ground Truth Tracking Data Generation.",
+        "pages": "500-511",
+        "year": "2016",
+        "booktitle": "VISIGRAPP (3: VISAPP)",
+        "ee": "https://doi.org/10.5220/0005719404980509",
+        "url": "db/conf/visapp/visapp2016-1.html#PusztaiH16",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/TothH19",
+        "title": "Robust Fitting of Geometric Primitives on LiDAR Data.",
+        "pages": "622-629",
+        "year": "2019",
+        "booktitle": "VISIGRAPP (5: VISAPP)",
+        "ee": "https://doi.org/10.5220/0007572606220629",
+        "url": "db/conf/visapp/visapp2019-2.html#TothH19",
+        "authors": [
+          "Tekla Toth",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/PusztaiH17",
+        "title": "Quantitative Comparison of Affine Invariant Feature Matching.",
+        "pages": "515-522",
+        "year": "2017",
+        "booktitle": "VISIGRAPP (6: VISAPP)",
+        "ee": "https://doi.org/10.5220/0006263005150522",
+        "url": "db/conf/visapp/visapp2017-3.html#PusztaiH17",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/PusztaiH19",
+        "title": "Quantitative Affine Feature Detector Comparison based on Real-World Images Taken by a Quadcopter.",
+        "pages": "704-715",
+        "year": "2019",
+        "booktitle": "VISIGRAPP (5: VISAPP)",
+        "ee": "https://doi.org/10.5220/0007372907040715",
+        "url": "db/conf/visapp/visapp2019-2.html#PusztaiH19",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visapp/HajderTP20",
+        "title": "Automatic Estimation of Sphere Centers from Images of Calibrated Cameras.",
+        "pages": "490-497",
+        "year": "2020",
+        "booktitle": "VISIGRAPP (4: VISAPP)",
+        "ee": "https://doi.org/10.5220/0009164304900497",
+        "url": "db/conf/visapp/visapp2020-1.html#HajderTP20",
+        "authors": [
+          "Levente Hajder",
+          "Tekla TÃ³th",
+          "ZoltÃ¡n Pusztai"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/accv/TanacsMHMSK14",
+        "title": "Collaborative Mobile 3D Reconstruction of Urban Scenes.",
+        "pages": "486-501",
+        "year": "2014",
+        "booktitle": "ACCV Workshops (3)",
+        "ee": "https://doi.org/10.1007/978-3-319-16634-6_36",
+        "url": "db/conf/accv/accv2014-w3.html#TanacsMHMSK14",
+        "authors": [
+          "Attila TanÃ¡cs",
+          "Andras Majdik",
+          "Levente Hajder",
+          "JÃ³zsef MolnÃ¡r",
+          "Zsolt SÃ¡nta",
+          "Zoltan Kato"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/cvww/TothVH23",
+        "title": "3D Trajectory Registration for Sensor Calibration.",
+        "year": "2023",
+        "booktitle": "CVWW",
+        "ee": "https://ceur-ws.org/Vol-3349/paper5.pdf",
+        "url": "db/conf/cvww/cvww2023.html#TothVH23",
+        "authors": [
+          "Tekla Toth",
+          "GÃ¡bor Valasek",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/grapp/Hajder17",
+        "title": "Weak-Perspective and Scaled-Orthographic Structure from Motion with Missing Data.",
+        "pages": "128-153",
+        "year": "2017",
+        "booktitle": "VISIGRAPP (Revised Selected Papers)",
+        "ee": "https://doi.org/10.1007/978-3-030-12209-6_7",
+        "url": "db/conf/grapp/selection2017.html#Hajder17",
+        "authors": [
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/grapp/PusztaiGH19",
+        "title": "Quantitative Comparison of Affine Feature Detectors Based on Quadcopter Images.",
+        "pages": "430-455",
+        "year": "2019",
+        "booktitle": "VISIGRAPP (Revised Selected Papers)",
+        "ee": "https://doi.org/10.1007/978-3-030-41590-7_18",
+        "url": "db/conf/grapp/selection2019.html#PusztaiGH19",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Gergo GÃ¡l",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/grapp/PusztaiH16",
+        "title": "Ground-Truth Tracking Data Generation Using Rotating Real-World Objects.",
+        "pages": "395-417",
+        "year": "2016",
+        "booktitle": "VISIGRAPP (Revised Selected Papers)",
+        "ee": "https://doi.org/10.1007/978-3-319-64870-5_19",
+        "url": "db/conf/grapp/selection2016.html#PusztaiH16",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/caip/HajderPK07",
+        "title": "Fast and Precise Weak-Perspective Factorization.",
+        "pages": "498-505",
+        "year": "2007",
+        "booktitle": "CAIP",
+        "ee": "https://doi.org/10.1007/978-3-540-74272-2_62",
+        "url": "db/conf/caip/caip2007.html#HajderPK07",
+        "authors": [
+          "Levente Hajder",
+          "Ãkos Pernek",
+          "Csaba KazÃ³"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/caip/Hajder07",
+        "title": "Grouping of Articulated Objects with Common Axis.",
+        "pages": "109-116",
+        "year": "2007",
+        "booktitle": "CAIP",
+        "ee": "https://doi.org/10.1007/978-3-540-74272-2_14",
+        "url": "db/conf/caip/caip2007.html#Hajder07",
+        "authors": [
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/visigrapp/PancsicsNTJTH24",
+        "title": "Error Analysis of Aerial Image-Based Relative Object Position Estimation.",
+        "pages": "656-663",
+        "year": "2024",
+        "booktitle": "VISIGRAPP (3): VISAPP",
+        "ee": "https://doi.org/10.5220/0012433300003660",
+        "url": "db/conf/visigrapp/visigrapp2024-3.html#PancsicsNTJTH24",
+        "authors": [
+          "Zsombor PÃ¡ncsics",
+          "Nelli Nyisztor",
+          "Tekla TÃ³th",
+          "Imre Benedek JuhÃ¡sz",
+          "Gergely TreplÃ¡n",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icpr/EichhardtH16",
+        "title": "Improvement of camera calibration using surface normals.",
+        "pages": "3745-3750",
+        "year": "2016",
+        "booktitle": "ICPR",
+        "ee": "https://doi.org/10.1109/ICPR.2016.7900217",
+        "url": "db/conf/icpr/icpr2016.html#EichhardtH16",
+        "authors": [
+          "Ivan Eichhardt",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icpr/BarathH16",
+        "title": "Energy-based topological outlier filtering.",
+        "pages": "1237-1242",
+        "year": "2016",
+        "booktitle": "ICPR",
+        "ee": "https://doi.org/10.1109/ICPR.2016.7899806",
+        "url": "db/conf/icpr/icpr2016.html#BarathH16",
+        "authors": [
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icpr/PernekH10",
+        "title": "Perspective Reconstruction and Camera Auto-Calibration as Rectangular Polynomial Eigenvalue Problem.",
+        "pages": "49-52",
+        "year": "2010",
+        "booktitle": "ICPR",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICPR.2010.21",
+        "url": "db/conf/icpr/icpr2010.html#PernekH10",
+        "authors": [
+          "Ãkos Pernek",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/eccv/HajderC06",
+        "title": "Robust 3D Segmentation of Multiple Moving Objects Under Weak Perspective.",
+        "pages": "48-59",
+        "year": "2006",
+        "booktitle": "WDV",
+        "ee": "https://doi.org/10.1007/978-3-540-70932-9_4",
+        "url": "db/conf/eccv/wdv2006.html#HajderC06",
+        "authors": [
+          "Levente Hajder",
+          "Dmitry Chetverikov"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/bmvc/PernekHK08",
+        "title": "Metric Reconstruction with Missing Data under Weak Perspective.",
+        "year": "2008",
+        "booktitle": "BMVC",
+        "ee": "https://doi.org/10.5244/C.22.68",
+        "url": "db/conf/bmvc/bmvc2008.html#PernekHK08",
+        "pages": "1-10",
+        "authors": [
+          "Ãkos Pernek",
+          "Levente Hajder",
+          "Csaba KazÃ³"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/bmvc/BarathMH16",
+        "title": "Accurate Closed-form Estimation of Local Affine Transformations Consistent with the Epipolar Geometry.",
+        "year": "2016",
+        "booktitle": "BMVC",
+        "ee": "https://bmva-archive.org.uk/bmvc/2016/papers/paper011/index.html",
+        "url": "db/conf/bmvc/bmvc2016.html#BarathMH16",
+        "authors": [
+          "Daniel Barath",
+          "Jiri Matas",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/bmvc/TofalviKH24",
+        "title": "Calibration of 2D LiDAR sensors using cylindrical target.",
+        "year": "2024",
+        "booktitle": "BMVC",
+        "ee": "https://bmvc2024.org/proceedings/797/",
+        "url": "db/conf/bmvc/bmvc2024.html#TofalviKH24",
+        "authors": [
+          "TamÃ¡s TÃ³falvi",
+          "BandÃ³ KovÃ¡cs",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/bmvc/BarathMH16a",
+        "title": "Multi-H: Efficient recovery of tangent planes in stereo images.",
+        "year": "2016",
+        "booktitle": "BMVC",
+        "ee": "https://bmva-archive.org.uk/bmvc/2016/papers/paper013/index.html",
+        "url": "db/conf/bmvc/bmvc2016.html#BarathMH16a",
+        "authors": [
+          "Daniel Barath",
+          "Jiri Matas",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/coginfocom/KazoH12",
+        "title": "High-quality structured-light scanning of 3D objects using turntable.",
+        "pages": "553-557",
+        "year": "2012",
+        "booktitle": "CogInfoCom",
+        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6422042",
+        "url": "db/conf/coginfocom/coginfocom2012.html#KazoH12",
+        "authors": [
+          "Csaba KazÃ³",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/coginfocom/JankoH12",
+        "title": "Improving Human-Computer Interaction by gaze tracking.",
+        "pages": "155-160",
+        "year": "2012",
+        "booktitle": "CogInfoCom",
+        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6421972",
+        "url": "db/conf/coginfocom/coginfocom2012.html#JankoH12",
+        "authors": [
+          "Zsolt JankÃ³",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/iccvw/HajderE17",
+        "title": "Computer Vision Meets Geometric Modeling: Multi-view Reconstruction of Surface Points and Normals Using Affine Correspondences.",
+        "pages": "2427-2435",
+        "year": "2017",
+        "booktitle": "ICCV Workshops",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICCVW.2017.286",
+        "url": "db/conf/iccvw/iccvw2017.html#HajderE17",
+        "authors": [
+          "Levente Hajder",
+          "Ivan Eichhardt"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/iccvw/KazoH11",
+        "title": "Rapid weak-perspective Structure from Motion with missing data.",
+        "pages": "491-498",
+        "year": "2011",
+        "booktitle": "ICCV Workshops",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICCVW.2011.6130283",
+        "url": "db/conf/iccvw/iccvw2011.html#KazoH11",
+        "authors": [
+          "Csaba KazÃ³",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/iccvw/PusztaiH17",
+        "title": "Accurate Calibration of LiDAR-Camera Systems Using Ordinary Boxes.",
+        "pages": "394-402",
+        "year": "2017",
+        "booktitle": "ICCV Workshops",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICCVW.2017.53",
+        "url": "db/conf/iccvw/iccvw2017.html#PusztaiH17",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icra/TothPH20",
+        "title": "Automatic LiDAR-Camera Calibration of Extrinsic Parameters Using a Spherical Target.",
+        "pages": "8580-8586",
+        "year": "2020",
+        "booktitle": "ICRA",
+        "ee": "https://doi.org/10.1109/ICRA40945.2020.9197316",
+        "url": "db/conf/icra/icra2020.html#TothPH20",
+        "authors": [
+          "Tekla TÃ³th",
+          "ZoltÃ¡n Pusztai",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icra/HajderB20",
+        "title": "Least-squares Optimal Relative Planar Motion for Vehicle-mounted Cameras.",
+        "pages": "8644-8650",
+        "year": "2020",
+        "booktitle": "ICRA",
+        "ee": "https://doi.org/10.1109/ICRA40945.2020.9196755",
+        "url": "db/conf/icra/icra2020.html#HajderB20",
+        "authors": [
+          "Levente Hajder",
+          "Daniel Barath"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icra/GalBH21",
+        "title": "Pose Estimation for Vehicle-mounted Cameras via Horizontal and Vertical Planes.",
+        "pages": "7620-7626",
+        "year": "2021",
+        "booktitle": "ICRA",
+        "ee": "https://doi.org/10.1109/ICRA48506.2021.9561890",
+        "url": "db/conf/icra/icra2021.html#GalBH21",
+        "authors": [
+          "Istan Gergo Gal",
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/icra/HajderB20a",
+        "title": "Relative planar motion for vehicle-mounted cameras from a single affine correspondence.",
+        "pages": "8651-8657",
+        "year": "2020",
+        "booktitle": "ICRA",
+        "ee": "https://doi.org/10.1109/ICRA40945.2020.9197438",
+        "url": "db/conf/icra/icra2020.html#HajderB20a",
+        "authors": [
+          "Levente Hajder",
+          "Daniel Barath"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/cvpr/BarathREHM23",
+        "title": "Finding Geometric Models by Clustering in the Consensus Space.",
+        "pages": "5414-5424",
+        "year": "2023",
+        "booktitle": "CVPR",
+        "ee": "https://doi.org/10.1109/CVPR52729.2023.00524",
+        "url": "db/conf/cvpr/cvpr2023.html#BarathREHM23",
+        "authors": [
+          "Daniel Barath",
+          "Denys Rozumnyi",
+          "Ivan Eichhardt",
+          "Levente Hajder",
+          "Jiri Matas"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/cvpr/BarathTH17",
+        "title": "A Minimal Solution for Two-View Focal-Length Estimation Using Two Affine Correspondences.",
+        "pages": "2557-2565",
+        "year": "2017",
+        "booktitle": "CVPR",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/CVPR.2017.274",
+        "url": "db/conf/cvpr/cvpr2017.html#BarathTH17",
+        "authors": [
+          "Daniel Barath",
+          "Tekla Toth",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/iccv/HajderLB23",
+        "title": "Fast Globally Optimal Surface Normal from an Affine Correspondence.",
+        "pages": "3367-3378",
+        "year": "2023",
+        "booktitle": "ICCV",
+        "ee": "https://doi.org/10.1109/ICCV51070.2023.00314",
+        "url": "db/conf/iccv/iccv2023.html#HajderLB23",
+        "authors": [
+          "Levente Hajder",
+          "Lajos LÃ³czi",
+          "Daniel Barath"
+        ]
+      },
+      {
+        "type": "inproceedings",
+        "key": "conf/3dpvt/HajderCV04",
+        "title": "Robust Structure from Motion under Weak Perspective.",
+        "pages": "828-835",
+        "year": "2004",
+        "booktitle": "3DPVT",
+        "ee": "https://doi.ieeecomputersociety.org/10.1109/TDPVT.2004.1335401",
+        "url": "db/conf/3dpvt/3dpvt2004.html#HajderCV04",
+        "authors": [
+          "Levente Hajder",
+          "Dmitry Chetverikov",
+          "IstvÃ¡n Vajk"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/sensors/PusztaiEH18",
+        "title": "Accurate Calibration of Multi-LiDAR-Multi-Camera Systems.",
+        "pages": "2139",
+        "year": "2018",
+        "volume": "18",
+        "journal": "Sensors",
+        "number": "7",
+        "ee": "https://www.wikidata.org/entity/Q89411672",
+        "url": "db/journals/sensors/sensors18.html#PusztaiEH18",
+        "authors": [
+          "ZoltÃ¡n Pusztai",
+          "Ivan Eichhardt",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/ijcv/TothH23",
+        "title": "A Minimal Solution for Image-Based Sphere Estimation.",
+        "pages": "1428-1447",
+        "year": "2023",
+        "volume": "131",
+        "journal": "Int. J. Comput. Vis.",
+        "number": "6",
+        "ee": "https://doi.org/10.1007/s11263-023-01766-1",
+        "url": "db/journals/ijcv/ijcv131.html#TothH23",
+        "authors": [
+          "Tekla TÃ³th",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/prl/HajderC06",
+        "title": "Weak-perspective structure from motion for strongly contaminated data.",
+        "pages": "1581-1589",
+        "year": "2006",
+        "volume": "27",
+        "journal": "Pattern Recognit. Lett.",
+        "number": "14",
+        "ee": "https://doi.org/10.1016/j.patrec.2006.03.007",
+        "url": "db/journals/prl/prl27.html#HajderC06",
+        "authors": [
+          "Levente Hajder",
+          "Dmitry Chetverikov"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/prl/PernekH13",
+        "title": "Automatic focal length estimation as an eigenvalue problem.",
+        "pages": "1108-1117",
+        "year": "2013",
+        "volume": "34",
+        "journal": "Pattern Recognit. Lett.",
+        "number": "9",
+        "ee": "https://doi.org/10.1016/j.patrec.2013.03.007",
+        "url": "db/journals/prl/prl34.html#PernekH13",
+        "authors": [
+          "Ãkos Pernek",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/prl/BarathH17",
+        "title": "A theory of point-wise homography estimation.",
+        "pages": "7-14",
+        "year": "2017",
+        "volume": "94",
+        "journal": "Pattern Recognit. Lett.",
+        "ee": "https://doi.org/10.1016/j.patrec.2017.04.020",
+        "url": "db/journals/prl/prl94.html#BarathH17",
+        "authors": [
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/vc/HajderPK11",
+        "title": "Weak-perspective structure from motion by fast alternation.",
+        "pages": "387-399",
+        "year": "2011",
+        "volume": "27",
+        "journal": "Vis. Comput.",
+        "number": "5",
+        "ee": "https://doi.org/10.1007/s00371-011-0553-3",
+        "url": "db/journals/vc/vc27.html#HajderPK11",
+        "authors": [
+          "Levente Hajder",
+          "Ãkos Pernek",
+          "Csaba KazÃ³"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/tip/BarathH18",
+        "title": "Efficient Recovery of Essential Matrix From Two Affine Correspondences.",
+        "pages": "5328-5337",
+        "year": "2018",
+        "volume": "27",
+        "journal": "IEEE Trans. Image Process.",
+        "number": "11",
+        "ee": "https://www.wikidata.org/entity/Q89559832",
+        "url": "db/journals/tip/tip27.html#BarathH18",
+        "authors": [
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/tip/BarathEH19",
+        "title": "Optimal Multi-View Surface Normal Estimation Using Affine Correspondences.",
+        "pages": "3301-3311",
+        "year": "2019",
+        "volume": "28",
+        "journal": "IEEE Trans. Image Process.",
+        "number": "7",
+        "ee": "https://www.wikidata.org/entity/Q91290262",
+        "url": "db/journals/tip/tip28.html#BarathEH19",
+        "authors": [
+          "Daniel Barath",
+          "Ivan Eichhardt",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/mti/BaranyiMGHSSSDN22",
+        "title": "AI Technologies for Machine Supervision and Help in a Rehabilitation Scenario.",
+        "pages": "48",
+        "year": "2022",
+        "volume": "6",
+        "journal": "Multimodal Technol. Interact.",
+        "number": "7",
+        "ee": "https://doi.org/10.3390/mti6070048",
+        "url": "db/journals/mti/mti6.html#BaranyiMGHSSSDN22",
+        "authors": [
+          "GÃ¡bor Baranyi",
+          "Bruno Carlos Dos Santos MelÃ­cio",
+          "ZsÃ³fia GaÃ¡l",
+          "Levente Hajder",
+          "AndrÃ¡s Simonyi",
+          "DÃ¡niel Sindely",
+          "Joul Skaf",
+          "Ondrej Dusek",
+          "TomÃ¡s Nekvinda",
+          "AndrÃ¡s Lorincz"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/ercim/GasparSHSFB17",
+        "title": "Adding Autonomous Features to a Production Electric Car.",
+        "year": "2017",
+        "volume": "2017",
+        "journal": "ERCIM News",
+        "number": "109",
+        "ee": "https://ercim-news.ercim.eu/en109/special/adding-autonomous-features-to-a-production-electric-car",
+        "url": "db/journals/ercim/ercim2017.html#GasparSHSFB17",
+        "authors": [
+          "PÃ©ter GÃ¡spÃ¡r",
+          "TamÃ¡s SzirÃ¡nyi",
+          "Levente Hajder",
+          "Alexandros Soumelidis",
+          "ZoltÃ¡n Fazekas",
+          "Csaba Benedek"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/iet-cvi/FodorKJH14",
+        "title": "Normal map recovery using bundle adjustment.",
+        "pages": "66-75",
+        "year": "2014",
+        "volume": "8",
+        "journal": "IET Comput. Vis.",
+        "number": "1",
+        "ee": "https://doi.org/10.1049/iet-cvi.2010.0149",
+        "url": "db/journals/iet-cvi/iet-cvi8.html#FodorKJH14",
+        "authors": [
+          "BÃ¡lint Fodor",
+          "Csaba KazÃ³",
+          "Zsolt JankÃ³",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-1912-06464",
+        "title": "Least-squares Optimal Relative Planar Motion for Vehicle-mounted Cameras.",
+        "year": "2019",
+        "volume": "abs/1912.06464",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.1912.06464",
+        "url": "db/journals/corr/corr1912.html#abs-1912-06464",
+        "authors": [
+          "Levente Hajder",
+          "Daniel Barath"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2603-01836",
+        "title": "Affine Correspondences in Stereo Vision: Theory, Practice, and Limitations.",
+        "year": "2026",
+        "volume": "abs/2603.01836",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2603.01836",
+        "url": "db/journals/corr/corr2603.html#abs-2603-01836",
+        "authors": [
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2602-06805",
+        "title": "A Unified Formula for Affine Transformations between Calibrated Cameras.",
+        "year": "2026",
+        "volume": "abs/2602.06805",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2602.06805",
+        "url": "db/journals/corr/corr2602.html#abs-2602-06805",
+        "authors": [
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2504-15121",
+        "title": "Robust and Real-time Surface Normal Estimation from Stereo Disparities using Affine Transformations.",
+        "year": "2025",
+        "volume": "abs/2504.15121",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2504.15121",
+        "url": "db/journals/corr/corr2504.html#abs-2504-15121",
+        "authors": [
+          "Csongor CsanÃ¡d KarikÃ³",
+          "Muhammad Rafi Faisal",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2103-13875",
+        "title": "Progressive-X+: Clustering in the Consensus Space.",
+        "year": "2021",
+        "volume": "abs/2103.13875",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2103.13875",
+        "url": "db/journals/corr/corr2103.html#abs-2103-13875",
+        "authors": [
+          "Daniel Barath",
+          "Denys Rozumnyi",
+          "Ivan Eichhardt",
+          "Levente Hajder",
+          "Jiri Matas"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2002-10217",
+        "title": "Automatic Estimation of Sphere Centers from Images of Calibrated Cameras.",
+        "year": "2020",
+        "volume": "abs/2002.10217",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2002.10217",
+        "url": "db/journals/corr/corr2002.html#abs-2002-10217",
+        "authors": [
+          "Levente Hajder",
+          "Tekla TÃ³th",
+          "ZoltÃ¡n Pusztai"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-1912-06465",
+        "title": "Relative planar motion for vehicle-mounted cameras from a single affine correspondence.",
+        "year": "2019",
+        "volume": "abs/1912.06465",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.1912.06465",
+        "url": "db/journals/corr/corr1912.html#abs-1912-06465",
+        "authors": [
+          "Levente Hajder",
+          "Daniel Barath"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/abs-2008-05743",
+        "title": "Pose Estimation for Vehicle-mounted Cameras via Horizontal and Vertical Planes.",
+        "year": "2020",
+        "volume": "abs/2008.05743",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.2008.05743",
+        "url": "db/journals/corr/corr2008.html#abs-2008-05743",
+        "authors": [
+          "Istan Gergo Gal",
+          "Daniel Barath",
+          "Levente Hajder"
+        ]
+      },
+      {
+        "type": "article",
+        "key": "journals/corr/BarathTH17",
+        "title": "A Minimal Solution for Two-view Focal-length Estimation using Two Affine Correspondences.",
+        "year": "2017",
+        "volume": "abs/1706.01649",
+        "journal": "CoRR",
+        "ee": "https://doi.org/10.48550/arXiv.1706.01649",
+        "url": "db/journals/corr/corr1706.html#BarathTH17",
+        "authors": [
+          "Daniel Barath",
+          "Tekla Toth",
+          "Levente Hajder"
+        ]
+      }
+    ]
+  }
+}

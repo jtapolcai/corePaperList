@@ -2,10 +2,10 @@
 __pycache__/
 *.pyc
 
-# DBLP dump cache (large, regenerated automatically)
+# DBLP dump cache
 .dblp_dump_cache.xml.gz
 .dblp_dump_timestamp
-dblp/
+# dblp/ JSON files are now tracked (weekly auto-update via GitHub Actions)
 
 # MTMT cache (regenerated automatically)
 mtmt/
