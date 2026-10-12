@@ -25,6 +25,7 @@ jobs:
 
       - name: Run DBLP update and paper classification
         run: python3 run_every_day.py
+        continue-on-error: true
         env:
           SKIP_SHEET_WRITE: "1"
 
@@ -44,6 +45,7 @@ jobs:
         run: python3 gen_authors_table.py
 
       - name: Commit changes
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

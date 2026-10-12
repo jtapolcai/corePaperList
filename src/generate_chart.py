@@ -362,7 +362,7 @@ def next_color_for_label(label, reserved_vals=None):
     """
     if reserved_vals is None:
         reserved_vals = set()
-    cmap = cm.get_cmap("tab20")
+    cmap = mpl.colormaps.get_cmap("tab20") if hasattr(mpl, "colormaps") else cm.get_cmap("tab20")
     # deterministic hash to pick an index
     idx = abs(hash(label)) % 20
     col = colors.to_hex(cmap(idx))
