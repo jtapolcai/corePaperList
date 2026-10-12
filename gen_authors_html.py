@@ -118,36 +118,21 @@ def merge(authors: list, profiles: dict) -> list:
     return authors
 
 
-def fetch_mta_photo(person_id: str) -> str | None:
-    """Fetch photo URL from MTA person page (server-side, no CORS)."""
+def enrich_mta_photos(authors: list, profiles_dir: Path) -> list:
+    """Apply MTA photo URLs from profiles/_mta_photos.json cache (no HTTP)."""
+    cache_file = profiles_dir / "_mta_photos.json"
+    if not cache_file.exists():
+        return authors
     try:
-        url = f"https://mta.hu/koztestuleti_tagok?PersonId={person_id}"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            html = resp.read().decode("utf-8", errors="ignore")
-        m = re.search(r'aat\.mta\.hu/aat/FileData/Get/(\d+)', html)
-        if m:
-            return f"https://aat.mta.hu/aat/FileData/Get/{m.group(1)}"
+        cache = json.loads(cache_file.read_text(encoding="utf-8"))
     except Exception:
-        pass
-    return None
-
-
-def enrich_mta_photos(authors: list) -> list:
-    """Auto-fill mta_photo for authors with mta_att_id but no mta_photo."""
+        return authors
     for a in authors:
         if a.get("mta_photo"):
             continue
-        att_id = a.get("mta_att_id", "")
-        if not att_id or att_id == "-":
-            continue
-        m = re.search(r'PersonId=(\d+)', att_id)
-        if not m:
-            continue
-        photo = fetch_mta_photo(m.group(1))
+        photo = cache.get(a.get("slug", ""), "")
         if photo:
             a["mta_photo"] = photo
-            print(f"  [mta_photo] {a.get('slug','')}: {photo}")
     return authors
 
 
@@ -772,7 +757,7 @@ def main():
     new_authors = load_new_authors(PROFILES_DIR, existing_slugs)
     merged.extend(new_authors)
 
-    enrich_mta_photos(merged)
+    enrich_mta_photos(merged, PROFILES_DIR)
 
     html = generate(merged)
     OUT_FILE.write_text(html, encoding="utf-8")
