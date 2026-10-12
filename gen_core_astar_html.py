@@ -38,12 +38,16 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
-def load_author_lookup() -> dict:
-    """Build {normalized_name: slug} from authors.json."""
+def load_author_data() -> tuple[dict, dict]:
+    """
+    Returns (name_to_slug, slug_to_category) from authors.json.
+    slug_to_category maps slug → "theory" | "applied" | "".
+    """
     if not AUTHORS_JSON.exists():
-        return {}
+        return {}, {}
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
-    lookup = {}
+    lookup   = {}
+    category = {}
     for a in authors:
         slug = a["slug"]
         name = a["name"]
@@ -56,7 +60,8 @@ def load_author_lookup() -> dict:
                 alias = alias.strip()
                 if alias:
                     lookup.setdefault(normalize(alias), slug)
-    return lookup
+        category[slug] = a.get("category") or ""
+    return lookup, category
 
 
 def format_authors(authors: list, author_lookup: dict) -> str:
@@ -87,7 +92,26 @@ def classify(tags: list) -> dict:
     return {"institutions": institutions, "nationality": nationality}
 
 
-def load_papers(json_files: list[Path], label: str) -> list[dict]:
+def paper_topic(authors: list, author_lookup: dict, slug_category: dict) -> str:
+    """Majority vote of known authors' categories → 'theory' | 'applied' | ''."""
+    theory = applied = 0
+    for name in authors:
+        slug = (
+            author_lookup.get(normalize(name))
+            or author_lookup.get(normalize(clean_name(name)))
+        )
+        if slug:
+            cat = slug_category.get(slug, "")
+            if cat == "theory":
+                theory += 1
+            elif cat == "applied":
+                applied += 1
+    if theory == 0 and applied == 0:
+        return ""
+    return "theory" if theory >= applied else "applied"
+
+
+def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_category: dict) -> list[dict]:
     """Load and merge papers from one or more JSON files."""
     merged = {}
     for f in json_files:
@@ -95,19 +119,22 @@ def load_papers(json_files: list[Path], label: str) -> list[dict]:
             merged.update(json.loads(f.read_text(encoding="utf-8")))
     papers = []
     for key, e in merged.items():
-        kw = classify(e.get("classfiied", []))
+        authors = e.get("authors", [])
+        kw      = classify(e.get("classfiied", []))
+        topic   = paper_topic(authors, author_lookup, slug_category)
         doi = e.get("doi", "").strip()
         ee  = e.get("ee",  "").strip()
         link = doi if doi else ee
         papers.append({
             "key":          key,
             "title":        e.get("title", "").rstrip("."),
-            "authors":      e.get("authors", []),
+            "authors":      authors,
             "venue":        e.get("venue", ""),
             "year":         int(e.get("year", 0) or 0),
             "doi":          link,
             "institutions": kw["institutions"],
             "nationality":  kw["nationality"],
+            "topic":        topic,
             "tier":         label,
         })
     papers.sort(key=lambda p: -p["year"])
@@ -125,6 +152,7 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup:
             "doi":          p["doi"],
             "institutions": p["institutions"],
             "nationality":  p["nationality"],
+            "topic":        p["topic"],
             "tier":         p["tier"],
         }
 
@@ -149,6 +177,8 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup:
   --bg: #f9fafb; --card: #fff; --border: #e5e7eb; --text: #111827;
   --muted: #6b7280; --accent: #1d4ed8; --accent-bg: #eff6ff;
   --chip-bg: #f3f4f6; --chip-active: #1d4ed8; --chip-active-text: #fff;
+  --tag-theory: #d1fae5; --tag-theory-text: #065f46;
+  --tag-applied: #fef3c7; --tag-applied-text: #92400e;
   --tag-intl: #e0e7ff; --tag-intl-text: #3730a3;
   --tag-allhu: #fce7f3; --tag-allhu-text: #9d174d;
   --tag-mosthu: #f3e8ff; --tag-mosthu-text: #6b21a8;
@@ -159,6 +189,8 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup:
     --bg: #111827; --card: #1f2937; --border: #374151; --text: #f9fafb;
     --muted: #9ca3af; --accent: #60a5fa; --accent-bg: #1e3a5f;
     --chip-bg: #374151; --chip-active: #3b82f6; --chip-active-text: #fff;
+    --tag-theory: #064e3b; --tag-theory-text: #6ee7b7;
+    --tag-applied: #78350f; --tag-applied-text: #fcd34d;
     --tag-intl: #1e1b4b; --tag-intl-text: #a5b4fc;
     --tag-allhu: #500724; --tag-allhu-text: #f9a8d4;
     --tag-mosthu: #3b0764; --tag-mosthu-text: #d8b4fe;
@@ -207,6 +239,8 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .tag-inst {{ background: var(--chip-bg); color: var(--text); }}
 .tag-tier-astar {{ background: #fef2f2; color: #991b1b; }}
 .tag-tier-a {{ background: #fff7ed; color: #9a3412; }}
+.tag-theory {{ background: var(--tag-theory); color: var(--tag-theory-text); }}
+.tag-applied {{ background: var(--tag-applied); color: var(--tag-applied-text); }}
 .tag-intl {{ background: var(--tag-intl); color: var(--tag-intl-text); }}
 .tag-allhu {{ background: var(--tag-allhu); color: var(--tag-allhu-text); }}
 .tag-mosthu {{ background: var(--tag-mosthu); color: var(--tag-mosthu-text); }}
@@ -249,6 +283,12 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
   <span class="chip" data-group="nat" data-val="mostly_hungarian">Főleg magyar</span>
   <span class="chip" data-group="nat" data-val="international">Nemzetközi</span>
 </div>
+<div class="filter-row">
+  <span class="filter-label">Téma</span>
+  <span class="chip active" data-group="topic" data-val="">Mind</span>
+  <span class="chip" data-group="topic" data-val="theory">Elmélet</span>
+  <span class="chip" data-group="topic" data-val="applied">Alkalmazott</span>
+</div>
 <div id="status"></div>
 <div id="list"></div>
 <div id="empty">Nincs a szűrőknek megfelelő cikk.</div>
@@ -269,7 +309,7 @@ const NAT_CLASS = {{
   international: "tag-intl"
 }};
 
-let filterInst = "", filterNat = "";
+let filterInst = "", filterNat = "", filterTopic = "";
 let searchQ = "", yearFrom = {min_year}, yearTo = {max_year};
 let tierMode = "astar";
 
@@ -298,6 +338,7 @@ function renderPaper(p) {{
     tierTag,
     ...p.institutions.map(i => `<span class="tag tag-inst">${{i}}</span>`),
     p.nationality ? `<span class="tag ${{NAT_CLASS[p.nationality] || ''}}">${{NAT_LABEL[p.nationality] || p.nationality}}</span>` : "",
+    p.topic ? `<span class="tag tag-${{p.topic}}">${{p.topic === "theory" ? "Elmélet" : "Alkalmazott"}}</span>` : "",
   ].filter(Boolean).join("");
   return `<div class="paper">
     <div class="paper-title">${{titleEl}}</div>
@@ -307,8 +348,9 @@ function renderPaper(p) {{
 }}
 
 function matches(p) {{
-  if (filterInst && !p.institutions.includes(filterInst)) return false;
-  if (filterNat && p.nationality !== filterNat) return false;
+  if (filterInst  && !p.institutions.includes(filterInst)) return false;
+  if (filterNat   && p.nationality !== filterNat) return false;
+  if (filterTopic && p.topic !== filterTopic) return false;
   if (p.year < yearFrom || p.year > yearTo) return false;
   if (searchQ) {{
     const q = searchQ.toLowerCase();
@@ -332,8 +374,9 @@ document.querySelectorAll(".chip").forEach(chip => {{
     const g = chip.dataset.group;
     document.querySelectorAll(`.chip[data-group="${{g}}"]`).forEach(c => c.classList.remove("active"));
     chip.classList.add("active");
-    if (g === "inst") filterInst = chip.dataset.val;
-    if (g === "nat")  filterNat  = chip.dataset.val;
+    if (g === "inst")  filterInst  = chip.dataset.val;
+    if (g === "nat")   filterNat   = chip.dataset.val;
+    if (g === "topic") filterTopic = chip.dataset.val;
     render();
   }});
 }});
@@ -349,13 +392,13 @@ render();
 
 
 def main():
-    author_lookup = load_author_lookup()
+    author_lookup, slug_category = load_author_data()
     print(f"Loaded {len(author_lookup)} author name entries for linking")
 
-    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*")
+    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category)
     print(f"Core A*: {len(papers_astar)} papers")
 
-    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A")
+    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category)
     print(f"Core A:  {len(papers_a)} papers")
 
     html_out = generate_html(papers_astar, papers_a, author_lookup)
