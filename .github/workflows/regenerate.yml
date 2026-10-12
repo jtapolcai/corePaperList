@@ -30,9 +30,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch missing MTA photos
-        run: python3 fetch_mta_photos.py
-
       - name: Regenerate index.html (dashboard)
         run: python3 gen_index_html.py
 

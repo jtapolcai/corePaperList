@@ -545,23 +545,23 @@ function renderProfile(a) {{
   const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
   const statsData = [
-    ["Core A*",        a.core_astar,                    "",    astarUrl],
-    ["Core A* eq.",    a.core_astar_equiv,              ".2f", astarUrl],
-    ["1st Author eq.", a.first_author_core_astar_equiv, ".2f", astarUrl],
-    ["HU eq.",         a.hungarian_core_astar_equiv,    ".2f", astarUrl],
-    ["Core A",         a.core_a,                        "",    aUrl],
-    ["Citations",      a.mtmt_citations,                "",    ""],
-    ["D1 eq.",         a.mtmt_d1_equiv,                 ".1f", ""],
-    ["Magyar rang",    hungRankStr,                     "",    hungTableUrl],
-    ["Kat. rang",      a.category_astar_rank,           "",    catTableUrl],
-    ["Életkor rang",   a.age_astar_rank,                "",    ageTableUrl],
+    ["Core A*",        a.core_astar,                    0,    astarUrl],
+    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar > 0 ? astarUrl : ""],
+    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar > 0 ? astarUrl : ""],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar > 0 ? astarUrl : ""],
+    ["Core A",         a.core_a,                        0, aUrl],
+    ["Citations",      a.mtmt_citations,                0, ""],
+    ["D1 eq.",         a.mtmt_d1_equiv,                 1, ""],
+    ["Magyar rang",    hungRankStr,                     null, hungTableUrl],
+    ["Kat. rang",      a.category_astar_rank,           0,    catTableUrl],
+    ["Életkor rang",   a.age_astar_rank,                0,    ageTableUrl],
   ].filter(([,v]) => v != null && v !== 0);
 
   const stats = statsData.length ? `<div class="section">
     <h3>Metrics</h3>
     <div class="stats-grid">
       ${{statsData.map(([lbl, v, fmt_, url]) => {{
-        const valStr = typeof v === "number" && fmt_ ? v.toFixed(parseInt(fmt_)) : fmt(v);
+        const valStr = typeof v === "number" && fmt_ != null ? v.toFixed(fmt_) : fmt(v);
         const inner  = `<div class="val">${{valStr}}</div><div class="lbl">${{lbl}}</div>`;
         return url
           ? `<a class="stat-card stat-link" href="${{url}}" title="${{lbl}} cikkek listája">${{inner}}</a>`
