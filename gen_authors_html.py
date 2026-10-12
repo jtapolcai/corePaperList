@@ -9,7 +9,9 @@ Usage:
   python3 gen_authors_html.py authors.json profiles/  # explicit paths
 """
 import json
+import re
 import sys
+import urllib.request
 from pathlib import Path
 
 BASE = Path(__file__).parent
@@ -37,7 +39,7 @@ GITHUB_BRANCH = "main"
 
 # Fields the user manually edits in profiles/{slug}.json
 EDITABLE_FIELDS = [
-    "dblp_url", "mtmt_id", "mta_att_id", "mtmt_name",
+    "dblp_url", "mtmt_id", "mtmt_name", "mta_att_id", "mta_photo",
     "category", "mtmt_status", "works", "affiliations",
     "homepage", "note",
 ]
@@ -65,8 +67,9 @@ NEW_AUTHOR_TEMPLATE = json.dumps({
     "slug": "",
     "dblp_url": "",
     "mtmt_id": "",
-    "mta_att_id": "",
     "mtmt_name": "",
+    "mta_att_id": "",
+    "mta_photo": "",
     "category": "theory",
     "mtmt_status": "",
     "works": "",
@@ -102,6 +105,39 @@ def merge(authors: list, profiles: dict) -> list:
                 legacy = p.get(f"profile_{k}") or p.get(k)
                 if legacy:
                     a[k] = legacy
+    return authors
+
+
+def fetch_mta_photo(person_id: str) -> str | None:
+    """Fetch photo URL from MTA person page (server-side, no CORS)."""
+    try:
+        url = f"https://mta.hu/koztestuleti_tagok?PersonId={person_id}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            html = resp.read().decode("utf-8", errors="ignore")
+        m = re.search(r'aat\.mta\.hu/aat/FileData/Get/(\d+)', html)
+        if m:
+            return f"https://aat.mta.hu/aat/FileData/Get/{m.group(1)}"
+    except Exception:
+        pass
+    return None
+
+
+def enrich_mta_photos(authors: list) -> list:
+    """Auto-fill mta_photo for authors with mta_att_id but no mta_photo."""
+    for a in authors:
+        if a.get("mta_photo"):
+            continue
+        att_id = a.get("mta_att_id", "")
+        if not att_id or att_id == "-":
+            continue
+        m = re.search(r'PersonId=(\d+)', att_id)
+        if not m:
+            continue
+        photo = fetch_mta_photo(m.group(1))
+        if photo:
+            a["mta_photo"] = photo
+            print(f"  [mta_photo] {a.get('slug','')}: {photo}")
     return authors
 
 
@@ -379,14 +415,18 @@ async function searchMTMT(fullName) {{
   }}
   const items = [...seen.values()].map(c => {{
     const safeLabel = esc(c.label || "");
-    return `<div class="mtmt-option" onclick="selectMTMT(${{c.mtid}}, this)"><strong>${{c.mtid}}</strong> — ${{safeLabel}}</div>`;
+    return `<div class="mtmt-option" onclick="selectMTMT(${{c.mtid}}, ${{JSON.stringify(c.label||'')}}, this)"><strong>${{c.mtid}}</strong> — ${{safeLabel}}</div>`;
   }}).join("");
   container.innerHTML = `<div class="mtmt-results-label">Kattints a megfelelő szerzőre:</div>${{items}}`;
 }}
 
-function selectMTMT(mtid, el) {{
-  const input = document.querySelector('[data-edit="mtmt_id"]');
-  if (input) {{ input.value = String(mtid); input.disabled = false; }}
+function selectMTMT(mtid, label, el) {{
+  const idInput = document.querySelector('[data-edit="mtmt_id"]');
+  if (idInput) {{ idInput.value = String(mtid); idInput.disabled = false; }}
+  const nameInput = document.querySelector('[data-edit="mtmt_name"]');
+  if (nameInput) {{ nameInput.value = label; }}
+  const nameDisplay = document.getElementById("mtmt-name-display");
+  if (nameDisplay) nameDisplay.textContent = label;
   document.querySelectorAll(".mtmt-option").forEach(o => o.classList.remove("selected"));
   el.classList.add("selected");
   document.getElementById("edit-save-bar").style.display = "flex";
@@ -513,14 +553,14 @@ function renderProfile(a) {{
     </div>
   </div>` : "";
 
-  // Editable fields with pencil buttons
+  // Editable fields with pencil buttons (mtmt_name is auto-filled by MTMT search)
   const EDIT_FIELDS = [
     {{key:"dblp_url",    label:"DBLP URL",      type:"text"}},
     {{key:"mta_att_id",  label:"MTA URL",        type:"text"}},
+    {{key:"mta_photo",   label:"MTA fotó URL",   type:"text"}},
     {{key:"mtmt_id",     label:"MTMT ID",        type:"text"}},
-    {{key:"mtmt_name",   label:"MTMT név",       type:"text"}},
     {{key:"category",    label:"Kategória",      type:"select", opts:["","theory","applied"]}},
-    {{key:"works",       label:"Munkahely",      type:"select", opts:["","hungary","abroad","company","inactive","retired"]}},
+    {{key:"works",       label:"Munkahely",      type:"select", opts:["","hungary","abroad","company_hungary","company_abroad","inactive","retired"]}},
     {{key:"mtmt_status", label:"MTMT státusz",   type:"select", opts:["","active","inactive"]}},
     {{key:"affiliations",label:"Affiliációk",    type:"text"}},
     {{key:"homepage",    label:"Honlap",         type:"text"}},
@@ -537,7 +577,10 @@ function renderProfile(a) {{
       ctrl = `<input type="text" data-edit="${{f.key}}" value="${{esc(val)}}" disabled class="edit-ctrl">`;
     }}
     let extra = "";
-    if (f.key === "mtmt_id")    extra = `<div id="mtmt-results" class="mtmt-results" style="display:none"></div>`;
+    if (f.key === "mtmt_id") extra = `
+      <input type="hidden" data-edit="mtmt_name" id="mtmt-name-hidden" value="${{esc(a.mtmt_name||"")}}">
+      <div id="mtmt-name-display" style="font-size:12px;color:var(--text-secondary);margin-top:2px">${{esc(a.mtmt_name||"")}}</div>
+      <div id="mtmt-results" class="mtmt-results" style="display:none"></div>`;
     if (f.key === "mta_att_id") extra = `<div id="mta-hint" class="mta-hint" style="display:none"></div>`;
     return `<tr><td>${{pencil}} ${{f.label}}</td><td>${{ctrl}}${{extra}}</td></tr>`;
   }}).join("");
@@ -701,6 +744,8 @@ def main():
     existing_slugs = {a["slug"] for a in authors}
     new_authors = load_new_authors(PROFILES_DIR, existing_slugs)
     merged.extend(new_authors)
+
+    enrich_mta_photos(merged)
 
     html = generate(merged)
     OUT_FILE.write_text(html, encoding="utf-8")
