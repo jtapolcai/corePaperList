@@ -16,6 +16,10 @@ JSON_HUN_ASTAR = RESULTS / "hungarian_papers_coreAstar.json"
 JSON_ABR_ASTAR = RESULTS / "already_abroad_papers_coreAstar.json"
 JSON_HUN_A     = RESULTS / "hungarian_papers_coreA.json"
 JSON_ABR_A     = RESULTS / "already_abroad_papers_coreA.json"
+JSON_HUN_B     = RESULTS / "hungarian_papers_coreB.json"
+JSON_ABR_B     = RESULTS / "already_abroad_papers_coreB.json"
+JSON_HUN_C     = RESULTS / "hungarian_papers_coreC.json"
+JSON_ABR_C     = RESULTS / "already_abroad_papers_coreC.json"
 AUTHORS_JSON    = BASE / "authors.json"
 AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
 OUT_FILE       = BASE / "core_astar.html"
@@ -185,7 +189,7 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
     return papers
 
 
-def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
+def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
     def paper_obj(p):
         return {
             "key":          p["key"],
@@ -200,13 +204,16 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], author_lookup:
             "tier":         p["tier"],
         }
 
-    papers_json = json.dumps(
-        [paper_obj(p) for p in papers_astar] + [paper_obj(p) for p in papers_a],
-        ensure_ascii=False
-    )
+    all_papers = papers_astar + papers_a + papers_b + papers_c
+    papers_json = json.dumps([paper_obj(p) for p in all_papers], ensure_ascii=False)
 
-    n_astar   = len(papers_astar)
-    years_all = sorted({p["year"] for p in papers_astar + papers_a if p["year"]})
+    tier_counts_json = json.dumps({
+        "A*": len(papers_astar),
+        "A":  len(papers_a),
+        "B":  len(papers_b),
+        "C":  len(papers_c),
+    })
+    years_all = sorted({p["year"] for p in all_papers if p["year"]})
     min_year  = min(years_all) if years_all else 1975
     max_year  = max(years_all) if years_all else 2026
     existing_profiles_json = json.dumps(sorted(existing_profiles or []))
@@ -290,6 +297,8 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .tag-inst {{ background: var(--chip-bg); color: var(--text); }}
 .tag-tier-astar {{ background: #fef2f2; color: #991b1b; }}
 .tag-tier-a {{ background: #fff7ed; color: #9a3412; }}
+.tag-tier-b {{ background: #eff6ff; color: #1e40af; }}
+.tag-tier-c {{ background: #f0fdf4; color: #166534; }}
 .tag-theory {{ background: var(--tag-theory); color: var(--tag-theory-text); }}
 .tag-applied {{ background: var(--tag-applied); color: var(--tag-applied-text); }}
 .tag-intl {{ background: var(--tag-intl); color: var(--tag-intl-text); }}
@@ -335,11 +344,13 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
 <body>
 <header>
   <div class="header-row">
-    <h1>Core A* / Core A Papers — Hungarian CS Research</h1>
+    <h1>CORE Rangsorolt Cikkek — Magyar CS Kutatók</h1>
     <div class="tier-toggle">
-      <span class="toggle-btn active" id="btn-astar" onclick="setTier('astar')">★ Core A*</span>
-      <span class="toggle-btn" id="btn-a" onclick="setTier('a')">Core A</span>
-      <span class="toggle-btn" id="btn-both" onclick="setTier('both')">Mindkettő</span>
+      <span class="toggle-btn active" id="btn-astar" onclick="setTier('astar')">★ A*</span>
+      <span class="toggle-btn" id="btn-a" onclick="setTier('a')">A</span>
+      <span class="toggle-btn" id="btn-b" onclick="setTier('b')">B</span>
+      <span class="toggle-btn" id="btn-c" onclick="setTier('c')">C</span>
+      <span class="toggle-btn" id="btn-both" onclick="setTier('both')">Mind</span>
     </div>
   </div>
   <div class="controls">
@@ -736,7 +747,18 @@ document.getElementById("add-modal-overlay").addEventListener("click", function(
 </script>
 <script>
 const ALL_PAPERS = {papers_json};
-const N_ASTAR = {n_astar};
+const TIER_COUNTS = {tier_counts_json};
+
+const TIER_SETS = {{
+  "astar": new Set(["A*"]),
+  "a":     new Set(["A"]),
+  "b":     new Set(["B"]),
+  "c":     new Set(["C"]),
+  "both":  new Set(["A*","A","B","C"]),
+}};
+
+const TIER_TAG_CLASS = {{ "A*": "astar", "A": "a", "B": "b", "C": "c" }};
+const TIER_LABEL     = {{ "A*": "★ A*",   "A": "A", "B": "B", "C": "C" }};
 
 const NAT_LABEL = {{
   all_hungarian: "Teljesen magyar",
@@ -750,30 +772,30 @@ const NAT_CLASS = {{
 }};
 
 let filterInst = "", filterNat = "", filterTopic = "";
-let searchQ = "", yearFrom = {min_year}, yearTo = 0;  // 0 = no upper limit
+let searchQ = "", yearFrom = {min_year}, yearTo = 0;
 let tierMode = "astar";
-let authorSlugFilter = "";  // set from URL param ?author=slug
+let authorSlugFilter = "";
 
 function setTier(mode) {{
   tierMode = mode;
-  document.getElementById("btn-astar").classList.toggle("active", mode === "astar");
-  document.getElementById("btn-a").classList.toggle("active", mode === "a");
-  document.getElementById("btn-both").classList.toggle("active", mode === "both");
+  ["astar","a","b","c","both"].forEach(t =>
+    document.getElementById("btn-" + t).classList.toggle("active", mode === t)
+  );
   render();
 }}
 
 function papers() {{
-  if (tierMode === "astar") return ALL_PAPERS.slice(0, N_ASTAR);
-  if (tierMode === "a")     return ALL_PAPERS.slice(N_ASTAR);
-  return ALL_PAPERS;
+  const tiers = TIER_SETS[tierMode] || TIER_SETS["astar"];
+  return ALL_PAPERS.filter(p => tiers.has(p.tier));
 }}
 
 function renderPaper(p) {{
   const titleEl = p.doi
     ? `<a href="${{p.doi}}" target="_blank" rel="noopener">${{p.title}}</a>`
     : `<span>${{p.title}}</span>`;
-  const tierTag = tierMode === "both"
-    ? `<span class="tag tag-tier-${{p.tier === "A*" ? "astar" : "a"}}">${{p.tier === "A*" ? "★ A*" : "A"}}</span>`
+  const showTierTag = tierMode === "both" || !["astar","a","b","c"].includes(tierMode) || TIER_SETS[tierMode].size > 1;
+  const tierTag = showTierTag
+    ? `<span class="tag tag-tier-${{TIER_TAG_CLASS[p.tier] || ''}}">${{TIER_LABEL[p.tier] || p.tier}}</span>`
     : "";
   const tags = [
     tierTag,
@@ -808,6 +830,7 @@ function render() {{
   const visible = src.filter(matches);
   document.getElementById("list").innerHTML = visible.map(renderPaper).join("");
   document.getElementById("empty").style.display = visible.length ? "none" : "block";
+  const cnt = TIER_COUNTS[tierMode === "astar" ? "A*" : tierMode === "both" ? "all" : tierMode.toUpperCase()] || src.length;
   document.getElementById("status").textContent =
     visible.length + " / " + src.length + " cikk";
 }}
@@ -834,13 +857,12 @@ function clearAuthorFilter() {{
   render();
 }}
 
-// Init from URL params (from author profile click-through)
 (function() {{
   const p = new URLSearchParams(window.location.search);
   const paramTier   = p.get("tier");
   const paramAuthor = p.get("author");
   const paramName   = p.get("name");
-  if (paramTier && ["astar","a","both"].includes(paramTier)) setTier(paramTier);
+  if (paramTier && ["astar","a","b","c","both"].includes(paramTier)) setTier(paramTier);
   if (paramAuthor) {{
     authorSlugFilter = paramAuthor;
     const banner = document.getElementById("author-banner");
@@ -873,8 +895,14 @@ def main():
     papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category, pid_map)
     print(f"Core A:  {len(papers_a)} papers")
 
+    papers_b = load_papers([JSON_HUN_B, JSON_ABR_B], "B", author_lookup, slug_category, pid_map)
+    print(f"Core B:  {len(papers_b)} papers")
+
+    papers_c = load_papers([JSON_HUN_C, JSON_ABR_C], "C", author_lookup, slug_category, pid_map)
+    print(f"Core C:  {len(papers_c)} papers")
+
     existing = load_existing_profiles(BASE / "profiles")
-    html_out = generate_html(papers_astar, papers_a, author_lookup, existing, pid_map)
+    html_out = generate_html(papers_astar, papers_a, papers_b, papers_c, author_lookup, existing, pid_map)
     OUT_FILE.write_text(html_out, encoding="utf-8")
     print(f"Generated {OUT_FILE}")
 
