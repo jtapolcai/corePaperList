@@ -32,10 +32,24 @@ def load_profiles(profiles_dir: Path) -> dict:
     return profiles
 
 
+GITHUB_REPO = "jtapolcai/corePaperList"
+GITHUB_BRANCH = "main"
+
+
+def github_edit_url(slug: str, has_profile: bool) -> str:
+    if has_profile:
+        return f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/profiles/{slug}.json"
+    else:
+        return f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}/profiles?filename={slug}.json"
+
+
 def merge(authors: list, profiles: dict) -> list:
     for a in authors:
         slug = a.get("slug", "")
-        if slug in profiles:
+        has_profile = slug in profiles
+        a["_has_profile"] = has_profile
+        a["_github_edit_url"] = github_edit_url(slug, has_profile)
+        if has_profile:
             p = profiles[slug]
             for k, v in p.items():
                 if not k.startswith("_") and v:
@@ -102,11 +116,19 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
 #profile-area {{ padding: 2rem; max-width: 800px; }}
 #empty-state {{ padding: 4rem 2rem; text-align: center; color: var(--muted); }}
 .profile-header {{ margin-bottom: 1.5rem; }}
+.profile-header-inner {{ display: flex; gap: 1rem; align-items: flex-start; }}
+.profile-photo {{ width: 72px; height: 72px; object-fit: cover; border-radius: 8px;
+  border: 1px solid var(--border); flex-shrink: 0; }}
 .profile-name {{ font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }}
 .profile-meta {{ color: var(--muted); font-size: 0.875rem; margin-bottom: 0.5rem; }}
-.profile-links {{ display: flex; gap: 0.75rem; flex-wrap: wrap; font-size: 0.82rem; }}
+.profile-links {{ display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; font-size: 0.82rem; }}
 .profile-links a {{ color: var(--accent); text-decoration: none; }}
 .profile-links a:hover {{ text-decoration: underline; }}
+.edit-btn {{ display: inline-flex; align-items: center; padding: 0.2rem 0.6rem;
+  background: var(--chip-bg); border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text) !important; font-size: 0.75rem; font-weight: 500;
+  text-decoration: none !important; }}
+.edit-btn:hover {{ background: var(--accent-bg); border-color: var(--accent); }}
 .profile-note {{ background: var(--accent-bg); border-left: 3px solid var(--accent);
   padding: 0.6rem 0.9rem; border-radius: 0 6px 6px 0; margin-bottom: 1.25rem;
   font-size: 0.875rem; color: var(--text); }}
@@ -283,11 +305,24 @@ function renderProfile(a) {{
     </table>
   </div>` : "";
 
+  const photo = a.mta_photo
+    ? `<img src="${{esc(a.mta_photo)}}" class="profile-photo" alt="MTA photo"
+        onerror="this.style.display='none'">`
+    : "";
+
+  const editLabel = a._has_profile ? "✏️ Edit profile" : "✏️ Create profile";
+  const editBtn = `<a class="edit-btn" href="${{esc(a._github_edit_url)}}" target="_blank" rel="noopener">${{editLabel}}</a>`;
+
   document.getElementById("profile").innerHTML = `
     <div class="profile-header">
-      <div class="profile-name">${{esc(a.name)}}</div>
-      <div class="profile-meta">${{esc(a.mtmt_name || "")}}</div>
-      <div class="profile-links">${{links.join("&ensp;·&ensp;")}}</div>
+      <div class="profile-header-inner">
+        ${{photo}}
+        <div>
+          <div class="profile-name">${{esc(a.name)}}</div>
+          <div class="profile-meta">${{esc(a.mtmt_name || "")}}</div>
+          <div class="profile-links">${{links.join("&ensp;·&ensp;")}}&ensp;${{editBtn}}</div>
+        </div>
+      </div>
     </div>
     ${{note}}
     ${{stats}}
