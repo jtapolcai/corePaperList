@@ -370,17 +370,20 @@ async function searchMtmt(name) {
     statusEl.style.display = "";
     return;
   }
-  listEl.innerHTML = [...seen.entries()].map(([mtid, label]) =>
-    `<div class="candidate" onclick="selectMtmt(${mtid}, ${JSON.stringify(label)}, this)">
+  listEl.innerHTML = [...seen.entries()].map(([mtid, label]) => {
+    const safeLabel = label.replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+    return `<div class="candidate" data-mtid="${mtid}" data-label="${safeLabel}" onclick="selectMtmt(this)">
       <span>📖</span>
       <span><strong>${label}</strong> <span style="color:var(--muted);font-size:.75rem">(ID: ${mtid})</span></span>
       <a href="https://m2.mtmt.hu/api/author/${mtid}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">MTMT →</a>
-    </div>`
-  ).join("");
+    </div>`;
+  }).join("");
   listEl.style.display = "flex";
 }
 
-function selectMtmt(mtid, label, el) {
+function selectMtmt(el) {
+  const mtid  = +el.dataset.mtid;
+  const label = el.dataset.label;
   document.getElementById("m-mtmt-id").value = mtid;
   document.getElementById("m-mtmt-name").value = label;
   document.querySelectorAll("#mtmt-list .candidate").forEach(c => c.classList.remove("selected"));
