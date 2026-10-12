@@ -1,0 +1,393 @@
+{
+  "dblpperson": {
+    "@name": "Thomas Hermann",
+    "r": [
+      {
+        "informal": {
+          "@key": "books/sp/97/0002KV97",
+          "title": "Special Applications in Surface Fitting",
+          "journal": "Geometric Modeling",
+          "year": "1997",
+          "pages": "14-31",
+          "ee": "https://doi.org/10.1007/978-3-642-60607-6_2",
+          "author": [
+            {
+              "#text": "Tamás Várady",
+              "@pid": "01/3363"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            },
+            {
+              "#text": "Zoltán Kovács",
+              "@pid": "69/4076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gmp/HermannPS10",
+          "title": "Constraints on Curve Networks Suitable for G2 Interpolation",
+          "booktitle": "GMP",
+          "year": "2010",
+          "pages": "77-87",
+          "ee": "https://doi.org/10.1007/978-3-642-13411-1_6",
+          "author": [
+            {
+              "#text": "Jörg Peters",
+              "@pid": "p/JorgPeters"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            },
+            {
+              "#text": "Timothy Strotman",
+              "@pid": "45/7438"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ima-ms/HermannR88",
+          "title": "Subdivision of n-sided Regions into Four-sided Patches",
+          "booktitle": "IMA Conference on the Mathematics of Surfaces",
+          "year": "1989",
+          "pages": "347-357",
+          "author": [
+            {
+              "#text": "Gábor Renner",
+              "@pid": "98/661"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ima-ms/VaradyH94",
+          "title": "Best Fit Surface Curvature at Vertices of Topologically Irregular Curve Networks",
+          "booktitle": "IMA Conference on the Mathematics of Surfaces",
+          "year": "1996",
+          "pages": "411-427",
+          "author": [
+            {
+              "#text": "Tamás Várady",
+              "@pid": "01/3363"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sma/HermannPS09",
+          "title": "A geometric criterion for smooth interpolation of curve networks",
+          "booktitle": "Symposium on Solid and Physical Modeling",
+          "year": "2009",
+          "pages": "169-173",
+          "ee": "https://doi.org/10.1145/1629255.1629277",
+          "author": [
+            {
+              "#text": "Jörg Peters",
+              "@pid": "p/JorgPeters"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            },
+            {
+              "#text": "Timothy Strotman",
+              "@pid": "45/7438"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cad/HermannPS11",
+          "title": "A geometric constraint on curve networks suitable for smooth interpolation",
+          "journal": "Comput. Aided Des.",
+          "year": "2011",
+          "pages": "741-746",
+          "ee": "https://doi.org/10.1016/J.CAD.2010.05.007",
+          "author": [
+            {
+              "#text": "Jörg Peters",
+              "@pid": "p/JorgPeters"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            },
+            {
+              "#text": "Timothy Strotman",
+              "@pid": "45/7438"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cad/HermannR93",
+          "title": "NURBS for curve and surface design: G. Farin(Ed.) SIAM, 1991, 161 pp, ISBN 0-89871-286-6",
+          "journal": "Comput. Aided Des.",
+          "year": "1993",
+          "pages": "195",
+          "ee": "https://doi.org/10.1016/0010-4485(93)90046-Q",
+          "author": [
+            {
+              "#text": "Gábor Renner",
+              "@pid": "98/661"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cad/HermannR93a",
+          "title": "Curve and surface design: H. Hagen (Ed.) SIAM, USA (1992), 219 pp, ISBN 089871-281-5",
+          "journal": "Comput. Aided Des.",
+          "year": "1993",
+          "pages": "391",
+          "ee": "https://doi.org/10.1016/0010-4485(93)90036-N",
+          "author": [
+            {
+              "#text": "Gábor Renner",
+              "@pid": "98/661"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/Hermann02",
+          "title": "Degree elevation for generalized Poisson functions",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "2002",
+          "pages": "65-70",
+          "ee": "https://doi.org/10.1016/S0167-8396(01)00089-9",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/Hermann92",
+          "title": "On a tolerance problem of parametric curves and surfaces",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1992",
+          "pages": "109-117",
+          "ee": "https://doi.org/10.1016/0167-8396(92)90010-M",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/Hermann96",
+          "title": "G2 interpolation of free form curve networks by biquintic Gregory patches",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1996",
+          "pages": "873-893",
+          "ee": "https://doi.org/10.1016/S0167-8396(96)00013-1",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/Hermann98",
+          "title": "On the smoothness of offset surfaces",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1998",
+          "pages": "529-533",
+          "ee": "https://doi.org/10.1016/S0167-8396(98)00002-8",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/Hermann99",
+          "title": "On the derivatives of second and third degree rational Bézier curves",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1999",
+          "pages": "157-163",
+          "ee": "https://doi.org/10.1016/S0167-8396(98)00037-5",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannL00",
+          "title": "On higher order derivatives of blending functions",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "2000",
+          "pages": "309-317",
+          "ee": "https://doi.org/10.1016/S0167-8396(00)00008-X",
+          "author": [
+            {
+              "#text": "Gábor Lukács",
+              "@pid": "87/5320"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannL96",
+          "title": "A new insight into the Gn continuity of polynomial surfaces",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1996",
+          "pages": "697-707",
+          "ee": "https://doi.org/10.1016/0167-8396(96)00005-2",
+          "author": [
+            {
+              "#text": "Gábor Lukács",
+              "@pid": "87/5320"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannL98",
+          "title": "Proof of the nonintersection conjecture of Hoffmann and Peters",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1998",
+          "pages": "147-163",
+          "ee": "https://doi.org/10.1016/S0167-8396(97)00015-0",
+          "author": [
+            {
+              "#text": "Gábor Lukács",
+              "@pid": "87/5320"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannLW99",
+          "title": "Geometrical criteria on the higher order smoothness of composite surfaces",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1999",
+          "pages": "907-911",
+          "ee": "https://doi.org/10.1016/S0167-8396(99)00036-9",
+          "author": [
+            {
+              "#text": "Franz-Erich Wolter",
+              "@pid": "w/FranzErichWolter"
+            },
+            {
+              "#text": "Gábor Lukács",
+              "@pid": "87/5320"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannPS12",
+          "title": "Curve networks compatible with G2 surfacing",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "2012",
+          "pages": "219-230",
+          "ee": "https://doi.org/10.1016/J.CAGD.2011.10.003",
+          "author": [
+            {
+              "#text": "Jörg Peters",
+              "@pid": "p/JorgPeters"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            },
+            {
+              "#text": "Timothy Strotman",
+              "@pid": "45/7438"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/HermannR92",
+          "title": "Note on the RGB-patch concept",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "1992",
+          "pages": "271-277",
+          "ee": "https://doi.org/10.1016/0167-8396(92)90034-M",
+          "author": [
+            {
+              "#text": "Gábor Renner",
+              "@pid": "98/661"
+            },
+            {
+              "#text": "Thomas Hermann",
+              "@pid": "54/5170-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/na/Hermann96",
+          "title": "On the stability of polynomial transformations between Taylor, Bernstein and Hermite forms",
+          "journal": "Numer. Algorithms",
+          "year": "1996",
+          "pages": "307-320",
+          "ee": "https://doi.org/10.1007/BF02207698",
+          "author": {
+            "#text": "Thomas Hermann",
+            "@pid": "54/5170-2"
+          }
+        }
+      }
+    ]
+  }
+}

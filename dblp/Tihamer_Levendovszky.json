@@ -1,1298 +1,2231 @@
 {
   "dblpperson": {
+    "@name": "Tihamer Levendovszky",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icsr/LevendovszkyKMLC02",
-        "title": "Model Reuse with Metamodel-Based Transformations.",
-        "pages": "166-178",
-        "year": "2002",
-        "booktitle": "ICSR",
-        "ee": "https://doi.org/10.1007/3-540-46020-9_12",
-        "url": "db/conf/icsr/icsr2002.html#LevendovszkyKMLC02",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Gabor Karsai",
-          "Miklos Maroti",
-          "Ãkos LÃ©deczi",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecmdafa/LevendovszkyBSSK10",
-        "title": "A transformation instance-based approach to traceability.",
-        "pages": "55-60",
-        "year": "2010",
-        "booktitle": "ECMFA-TW",
-        "ee": "https://doi.org/10.1145/1814392.1814400",
-        "url": "db/conf/ecmdafa/tw2010.html#LevendovszkyBSSK10",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian",
-          "Kevin Smyth",
-          "Feng Shi",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/LengyelLMC06",
-        "title": "A Visual Control Flow Language for Model Transformation Systems.",
-        "pages": "194-199",
-        "year": "2006",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2006.html#LengyelLMC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/LengyelLKC05",
-        "title": "Compiling and Validating OCL Constraints in Metamodeling Environments and Visual Model Compilers.",
-        "pages": "48-49",
-        "year": "2005",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2005.html#LengyelLKC05",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "P. Kozma",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/MezeiLLC05",
-        "title": "A Flexible Attribute Instantiation Technique for Visual Languages.",
-        "pages": "355-359",
-        "year": "2005",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2005.html#MezeiLLC05",
-        "authors": [
-          "Gergely Mezei",
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/MezeiLC06",
-        "title": "Visual Presentation Solutions for Domain Specific Languages.",
-        "pages": "212-217",
-        "year": "2006",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2006.html#MezeiLC06",
-        "authors": [
-          "Gergely Mezei",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/LevendovszkyLC04",
-        "title": "Software composition with a multipurpose modeling and model transformation framework.",
-        "pages": "590-594",
-        "year": "2004",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2004.html#LevendovszkyLC04",
-        "authors": [
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/LengyelLC04",
-        "title": "Supporting round-trip engineering in modeling environments with the application of meta-modeling techniques.",
-        "pages": "178-182",
-        "year": "2004",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2004.html#LengyelLC04",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/Bogardi-MeszolyLC06",
-        "title": "Using Queueing Model in Predicting the Response Time of ASP.NET Web Applications.",
-        "pages": "252-257",
-        "year": "2006",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2006.html#Bogardi-MeszolyLC06",
-        "authors": [
-          "Ãgnes BogÃ¡rdi-MÃ©szÃ¶ly",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dagstuhl/LevendovszkyRSS07",
-        "title": "Model Evolution and Management.",
-        "pages": "241-270",
-        "year": "2007",
-        "booktitle": "Model-Based Engineering of Embedded Real-Time Systems",
-        "ee": "https://doi.org/10.1007/978-3-642-16277-0_9",
-        "url": "db/conf/dagstuhl/rt2007.html#LevendovszkyRSS07",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Bernhard Rumpe",
-          "Bernhard SchÃ¤tz",
-          "Jonathan Sprinkle"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pdcn/MezeiJL07",
-        "title": "A distribution technique for graph rewriting and model transformation systems.",
-        "pages": "63-68",
-        "year": "2007",
-        "booktitle": "Parallel and Distributed Computing and Networks",
-        "url": "db/conf/pdcn/pdcn2007.html#MezeiJL07",
-        "authors": [
-          "Gergely Mezei",
-          "SÃ¡ndor JuhÃ¡sz",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ifip2/MezeiLC06",
-        "title": "An optimizing OCL Compiler for Metamodeling and Model Transformation Environments.",
-        "pages": "61-71",
-        "year": "2006",
-        "booktitle": "SET",
-        "ee": "https://doi.org/10.1007/978-0-387-39388-9_6",
-        "url": "db/conf/ifip2/set2006.html#MezeiLC06",
-        "authors": [
-          "Gergely Mezei",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icst/MeszarosL12",
-        "title": "Verified Operational Patterns with Graph Transformation.",
-        "pages": "954-961",
-        "year": "2012",
-        "booktitle": "ICST",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICST.2012.201",
-        "url": "db/conf/icst/icst2012.html#MeszarosL12",
-        "authors": [
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icst/AsztalosLL10",
-        "title": "Towards Automated, Formal Verification of Model Transformations.",
-        "pages": "15-24",
-        "year": "2010",
-        "booktitle": "ICST",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICST.2010.42",
-        "url": "db/conf/icst/icst2010.html#AsztalosLL10",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icse/NeemaSLPAS14",
-        "title": "Formalization of software models for cyber-physical systems.",
-        "pages": "45-51",
-        "year": "2014",
-        "booktitle": "FormaliSE",
-        "ee": "https://doi.org/10.1145/2593489.2593495",
-        "url": "db/conf/icse/formalise2014.html#NeemaSLPAS14",
-        "authors": [
-          "Sandeep Neema",
-          "Gabor Simko",
-          "Tihamer Levendovszky",
-          "Joseph Porter",
-          "Akshay Agrawal",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mompes/ForstnerLLMKC06",
-        "title": "Model-Based System Development for Embedded Mobile Platforms.",
-        "pages": "43-52",
-        "year": "2006",
-        "booktitle": "MDB/MOMPES",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/MBD-MOMPES.2006.20",
-        "url": "db/conf/mompes/mompes2006.html#ForstnerLLMKC06",
-        "authors": [
-          "Bertalan Forstner",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Imre KelÃ©nyi",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/agtive/LevendovszkyLMM07",
-        "title": "Introducing the VMTS Mobile Toolkit.",
-        "pages": "587-592",
-        "year": "2007",
-        "booktitle": "AGTIVE",
-        "ee": "https://doi.org/10.1007/978-3-540-89020-1_45",
-        "url": "db/conf/agtive/agtive2007.html#LevendovszkyLMM07",
-        "authors": [
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "Gergely Mezei",
-          "TamÃ¡s MÃ©szÃ¡ros"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/BalasubramanianLDK14",
-        "title": "Taming Multi-Paradigm Integration in a Software Architecture Description Language.",
-        "pages": "67-76",
-        "year": "2014",
-        "booktitle": "MPM@MoDELS",
-        "ee": "https://ceur-ws.org/Vol-1237/paper7.pdf",
-        "url": "db/conf/models/mpm2014.html#BalasubramanianLDK14",
-        "authors": [
-          "Daniel Balasubramanian",
-          "Tihamer Levendovszky",
-          "Abhishek Dubey",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/MarotiKKBVJLL14",
-        "title": "Next Generation (Meta)Modeling: Web- and Cloud-based Collaborative Tool Infrastructure.",
-        "pages": "41-60",
-        "year": "2014",
-        "booktitle": "MPM@MoDELS",
-        "ee": "https://ceur-ws.org/Vol-1237/paper5.pdf",
-        "url": "db/conf/models/mpm2014.html#MarotiKKBVJLL14",
-        "authors": [
-          "MiklÃ³s MarÃ³ti",
-          "TamÃ¡s KecskÃ©s",
-          "RÃ³bert KereskÃ©nyi",
-          "Brian Broll",
-          "PÃ©ter VÃ¶lgyesi",
-          "LÃ¡szlÃ³ JurÃ¡cz",
-          "Tihamer Levendovszky",
-          "Ãkos LÃ©deczi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/JacksonLB11",
-        "title": "Reasoning about Metamodeling with Formal Specifications and Automatic Proofs.",
-        "pages": "653-667",
-        "year": "2011",
-        "booktitle": "MoDELS",
-        "ee": "https://doi.org/10.1007/978-3-642-24485-8_48",
-        "url": "db/conf/models/models2011.html#JacksonLB11",
-        "authors": [
-          "Ethan K. Jackson",
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/AsztalosLL09",
-        "title": "A formalism for describing modeling transformations for verification.",
-        "pages": "2:1-2:10",
-        "year": "2009",
-        "booktitle": "MoDeVVa@MoDELS",
-        "ee": "https://doi.org/10.1145/1656485.1656487",
-        "url": "db/conf/models/modevva2009.html#AsztalosLL09",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/SimkoLLNS13",
-        "title": "Specification of Cyber-Physical Components with Formal Semantics - Integration and Composition.",
-        "pages": "471-487",
-        "year": "2013",
-        "booktitle": "MoDELS",
-        "ee": "https://doi.org/10.1007/978-3-642-41533-3_29",
-        "url": "db/conf/models/models2013.html#SimkoLLNS13",
-        "authors": [
-          "Gabor Simko",
-          "David Lindecker",
-          "Tihamer Levendovszky",
-          "Sandeep Neema",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/LevendovszkySBS12",
-        "title": "Evolution in a context of an model-integrated tool environment.",
-        "pages": "33-38",
-        "year": "2012",
-        "booktitle": "ME@MoDELS",
-        "ee": "https://doi.org/10.1145/2523599.2523606",
-        "url": "db/conf/models/me2012.html#LevendovszkySBS12",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Kevin Smyth",
-          "Daniel Balasubramanian",
-          "Feng Shi",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/CaglarAGL12",
-        "title": "Transitioning to the cloud?: a model-driven analysis and automated deployment capability for cloud services.",
-        "pages": "8",
-        "year": "2012",
-        "booktitle": "MDHPCL@MoDELS",
-        "ee": "https://doi.org/10.1145/2446224.2446232",
-        "url": "db/conf/models/mdhpcl2012.html#CaglarAGL12",
-        "authors": [
-          "Faruk Caglar",
-          "Kyoungho An",
-          "Aniruddha S. Gokhale",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/JuraczLLHGNPSH13",
-        "title": "VehicleFORGE: A Cloud-Based Infrastructure for Collaborative Model-Based Design.",
-        "pages": "25-36",
-        "year": "2013",
-        "booktitle": "MDHPCL@MoDELS",
-        "ee": "https://ceur-ws.org/Vol-1118/04-paper.pdf",
-        "url": "db/conf/models/mdhpcl2013.html#JuraczLLHGNPSH13",
-        "authors": [
-          "Laszlo Juracz",
-          "Zsolt Lattmann",
-          "Tihamer Levendovszky",
-          "Graham Hemingway",
-          "Will Gaggioli",
-          "Tanner Netterville",
-          "GÃ¡bor Pap",
-          "Kevin Smyth",
-          "Larry Howard"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/AmaralHKLL09",
-        "title": "Recent Advances in Multi-paradigm Modeling.",
-        "pages": "220-224",
-        "year": "2009",
-        "booktitle": "MoDELS (Workshops)",
-        "ee": "https://doi.org/10.1007/978-3-642-12261-3_21",
-        "url": "db/conf/models/models2009w.html#AmaralHKLL09",
-        "authors": [
-          "Vasco Amaral 0001",
-          "CÃ©cile Hardebolle",
-          "Gabor Karsai",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/LattmannNLBNK12",
-        "title": "Component-based modeling of dynamic systems using heterogeneous composition.",
-        "pages": "73-78",
-        "year": "2012",
-        "booktitle": "MPM@MoDELS",
-        "ee": "https://doi.org/10.1145/2508443.2508456",
-        "url": "db/conf/models/mpm2012.html#LattmannNLBNK12",
-        "authors": [
-          "Zsolt Lattmann",
-          "Adam Nagel",
-          "Tihamer Levendovszky",
-          "Ted Bapty",
-          "Sandeep Neema",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/VajkDAML11",
-        "title": "Runtime model validation with parallel object constraint language.",
-        "pages": "7:1-7:8",
-        "year": "2011",
-        "booktitle": "MoDeVVa@MoDELS",
-        "ee": "https://doi.org/10.1145/2095654.2095663",
-        "url": "db/conf/models/modevva2011.html#VajkDAML11",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "ZoltÃ¡n DÃ¡vid",
-          "MÃ¡rk Asztalos",
-          "Gergely Mezei",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/NarayananLBK09",
-        "title": "Automatic Domain Model Migration to Manage Metamodel Evolution.",
-        "pages": "706-711",
-        "year": "2009",
-        "booktitle": "MoDELS",
-        "ee": "https://doi.org/10.1007/978-3-642-04425-0_57",
-        "url": "db/conf/models/models2009.html#NarayananLBK09",
-        "authors": [
-          "Anantha Narayanan",
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/GieseLV06",
-        "title": "Summary of the Workshop on Multi-Paradigm Modeling: Concepts and Tools.",
-        "pages": "252-262",
-        "year": "2006",
-        "booktitle": "MoDELS (Workshops)",
-        "ee": "https://doi.org/10.1007/978-3-540-69489-2_31",
-        "url": "db/conf/models/models2006w.html#GieseLV06",
-        "authors": [
-          "Holger Giese",
-          "Tihamer Levendovszky",
-          "Hans Vangheluwe"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/models/LaraLMV07",
-        "title": "Second International Workshop on Multi-Paradigm Modeling: Concepts and Tools.",
-        "pages": "237-246",
-        "year": "2007",
-        "booktitle": "MoDELS (Workshops)",
-        "ee": "https://doi.org/10.1007/978-3-540-69073-3_25",
-        "url": "db/conf/models/models2007w.html#LaraLMV07",
-        "authors": [
-          "Juan de Lara",
-          "Tihamer Levendovszky",
-          "Pieter J. Mosterman",
-          "Hans Vangheluwe"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cyphy/SimkoLMS14",
-        "title": "Towards a theory for cyber-physical systems modeling.",
-        "pages": "56-61",
-        "year": "2014",
-        "booktitle": "CyPhy",
-        "ee": "https://doi.org/10.1145/2593458.2593463",
-        "url": "db/conf/cyphy/cyphy2014.html#SimkoLMS14",
-        "authors": [
-          "Gabor Simko",
-          "Tihamer Levendovszky",
-          "Miklos Maroti",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/teaa/ImreLC06",
-        "title": "Modeling the Effect of Application Server Settings on the Performance of J2EE Web Applications.",
-        "pages": "202-216",
-        "year": "2006",
-        "booktitle": "TEAA",
-        "ee": "https://doi.org/10.1007/978-3-540-75912-6_15",
-        "url": "db/conf/teaa/teaa2006.html#ImreLC06",
-        "authors": [
-          "GÃ¡bor Imre",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sle/LevendovszkyBNK09",
-        "title": "A Novel Approach to Semi-automated Evolution of DSML Model Transformation.",
-        "pages": "23-41",
-        "year": "2009",
-        "booktitle": "SLE",
-        "ee": "https://doi.org/10.1007/978-3-642-12107-4_4",
-        "url": "db/conf/sle/sle2009.html#LevendovszkyBNK09",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian",
-          "Anantha Narayanan",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aiccsa/LengyelLMFC06",
-        "title": "Towards a Model-Based Unification of Mobile Platforms.",
-        "pages": "867-874",
-        "year": "2006",
-        "booktitle": "AICCSA",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AICCSA.2006.205190",
-        "url": "db/conf/aiccsa/aiccsa2006.html#LengyelLMFC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mdeis/LengyelLMC06",
-        "title": "Model-Based Development with Validated Model Transformation.",
-        "pages": "39-48",
-        "year": "2006",
-        "booktitle": "MDEIS",
-        "url": "db/conf/mdeis/mdeis2006.html#LengyelLMC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/enase/LengyelLMC07",
-        "title": "Supporting Design Patterns in Graph Rewriting-based Model Transformation.",
-        "pages": "25-32",
-        "year": "2007",
-        "booktitle": "ENASE",
-        "url": "db/conf/enase/enase2007.html#LengyelLMC07",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecbs/SimkoLLJNS13",
-        "title": "A Framework for Unambiguous and Extensible Specification of DSMLs for Cyber-Physical Systems.",
-        "pages": "30-39",
-        "year": "2013",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2013.30",
-        "url": "db/conf/ecbs/ecbs2013.html#SimkoLLJNS13",
-        "authors": [
-          "Gabor Simko",
-          "David Lindecker",
-          "Tihamer Levendovszky",
-          "Ethan K. Jackson",
-          "Sandeep Neema",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecbs/VajkKLL09",
-        "title": "Raising the Abstraction of Domain-Specific Model Translator Development.",
-        "pages": "31-37",
-        "year": "2009",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2009.30",
-        "url": "db/conf/ecbs/ecbs2009.html#VajkKLL09",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "RÃ³bert KereskÃ©nyi",
-          "Tihamer Levendovszky",
-          "Ãkos LÃ©deczi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecbs/LindeckerSMLS13",
-        "title": "Multi-way Semantic Specification of Domain-Specific Modeling Languages.",
-        "pages": "20-29",
-        "year": "2013",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2013.29",
-        "url": "db/conf/ecbs/ecbs2013.html#LindeckerSMLS13",
-        "authors": [
-          "David Lindecker",
-          "Gabor Simko",
-          "IstvÃ¡n Madari",
-          "Tihamer Levendovszky",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecbs/SprinkleALSK03",
-        "title": "Domain Model Translation Using Graph Transformations.",
-        "pages": "159-167",
-        "year": "2003",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2003.1194795",
-        "url": "db/conf/ecbs/ecbs2003.html#SprinkleALSK03",
-        "authors": [
-          "Jonathan Sprinkle",
-          "Aditya Agrawal",
-          "Tihamer Levendovszky",
-          "Feng Shi",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecbs/VajkML09",
-        "title": "Incremental Type Checking in OCL Compilers.",
-        "pages": "9-18",
-        "year": "2009",
-        "booktitle": "ECBS-EERC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS-EERC.2009.21",
-        "url": "db/conf/ecbs/ecbs-eerc2009.html#VajkML09",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "Gergely Mezei",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/avi/MeszarosML08",
-        "title": "A flexible, declarative presentation framework for domain-specific modeling.",
-        "pages": "309-312",
-        "year": "2008",
-        "booktitle": "AVI",
-        "ee": "https://doi.org/10.1145/1385569.1385620",
-        "url": "db/conf/avi/avi2008.html#MeszarosML08",
-        "authors": [
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Gergely Mezei",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pci/LengyelLC05",
-        "title": "Weaving Aspect-Oriented Constraints into Metamodel-Based Model Transformation Steps.",
-        "pages": "393-403",
-        "year": "2005",
-        "booktitle": "Panhellenic Conference on Informatics",
-        "ee": "https://doi.org/10.1007/11573036_37",
-        "url": "db/conf/pci/pci2005.html#LengyelLC05",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pci/Bogardi-MeszolySLC05",
-        "title": "Investigating Factors Influencing the Response Time in ASP.NET Web Applications.",
-        "pages": "223-233",
-        "year": "2005",
-        "booktitle": "Panhellenic Conference on Informatics",
-        "ee": "https://doi.org/10.1007/11573036_21",
-        "url": "db/conf/pci/pci2005.html#Bogardi-MeszolySLC05",
-        "authors": [
-          "Ãgnes BogÃ¡rdi-MÃ©szÃ¶ly",
-          "ZoltÃ¡n SzitÃ¡s",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/hci/LevendovszkyM09",
-        "title": "Tooling the Dynamic Behavior Models of Graphical DSLs.",
-        "pages": "830-839",
-        "year": "2009",
-        "booktitle": "HCI (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-02577-8_91",
-        "url": "db/conf/hci/hci2009-2.html#LevendovszkyM09",
-        "authors": [
-          "Tihamer Levendovszky",
-          "TamÃ¡s MÃ©szÃ¡ros"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sosym/LevendovszkyBNSBK14",
-        "title": "A semi-formal description of migrating domain-specific models with evolving domains.",
-        "pages": "807-823",
-        "year": "2014",
-        "volume": "13",
-        "journal": "Softw. Syst. Model.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10270-012-0313-5",
-        "url": "db/journals/sosym/sosym13.html#LevendovszkyBNSBK14",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian",
-          "Anantha Narayanan",
-          "Feng Shi",
-          "Christopher P. van Buskirk",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sosym/JacksonLB15",
-        "title": "Automatically reasoning about metamodeling.",
-        "pages": "271-285",
-        "year": "2015",
-        "volume": "14",
-        "journal": "Softw. Syst. Model.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s10270-013-0315-y",
-        "url": "db/journals/sosym/sosym14.html#JacksonLB15",
-        "authors": [
-          "Ethan K. Jackson",
-          "Tihamer Levendovszky",
-          "Daniel Balasubramanian"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sosym/LevendovszkyLM09",
-        "title": "Supporting domain-specific model patterns with metamodeling.",
-        "pages": "501-520",
-        "year": "2009",
-        "volume": "8",
-        "journal": "Softw. Syst. Model.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s10270-009-0118-3",
-        "url": "db/journals/sosym/sosym8.html#LevendovszkyLM09",
-        "authors": [
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "TamÃ¡s MÃ©szÃ¡ros"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ijcat/LengyelLC08",
-        "title": "Validated model transformation-driven software development.",
-        "pages": "106-119",
-        "year": "2008",
-        "volume": "31",
-        "journal": "Int. J. Comput. Appl. Technol.",
-        "number": "1/2",
-        "ee": "https://doi.org/10.1504/IJCAT.2008.017723",
-        "url": "db/journals/ijcat/ijcat31.html#LengyelLC08",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/LengyelLC06",
-        "title": "Constraint Validation Support in Visual Model Transformation Systems.",
-        "year": "2006",
-        "volume": "17",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "ee": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3671",
-        "url": "db/journals/actaC/actaC17.html#LengyelLC06",
-        "pages": "339-357",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/stvr/AsztalosLL13",
-        "title": "Formal specification and analysis of functional properties of graph rewriting-based model transformation.",
-        "pages": "405-435",
-        "year": "2013",
-        "volume": "23",
-        "journal": "Softw. Test. Verification Reliab.",
-        "number": "5",
-        "ee": "https://doi.org/10.1002/stvr.1502",
-        "url": "db/journals/stvr/stvr23.html#AsztalosLL13",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/AsztalosELL10",
-        "title": "Verification of Model Transformations to Refactoring Mobile Social Networks.",
-        "year": "2010",
-        "volume": "32",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.32.542",
-        "url": "db/journals/eceasst/eceasst32.html#AsztalosELL10",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "PÃ©ter Ekler",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/MeszarosLM09",
-        "title": "Code Generation with the Model Transformation of Visual Behavior Models.",
-        "year": "2009",
-        "volume": "21",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.21.292",
-        "url": "db/journals/eceasst/eceasst21.html#MeszarosLM09",
-        "authors": [
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Tihamer Levendovszky",
-          "Gergely Mezei"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/MeszarosLM11",
-        "title": "Active Model Patterns with Interactive Model Transformation.",
-        "year": "2011",
-        "volume": "42",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.42.604",
-        "url": "db/journals/eceasst/eceasst42.html#MeszarosLM11",
-        "authors": [
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Tihamer Levendovszky",
-          "Gergely Mezei"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/AsztalosLL09",
-        "title": "Toward Automated Verification of Model Transformations: A Case Study of Analysis of Refactoring Business Process Models.",
-        "year": "2009",
-        "volume": "21",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.21.287",
-        "url": "db/journals/eceasst/eceasst21.html#AsztalosLL09",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/LevendovszkyL09",
-        "title": "Preface.",
-        "year": "2009",
-        "volume": "21",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.21.282.269",
-        "url": "db/journals/eceasst/eceasst21.html#LevendovszkyL09",
-        "authors": [
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "Gabor Karsai",
-          "CÃ©cile Hardebolle"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/VajkML08",
-        "title": "An Incremental OCL Compiler for Modeling Environments.",
-        "year": "2008",
-        "volume": "15",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.15.173",
-        "url": "db/journals/eceasst/eceasst15.html#VajkML08",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "Gergely Mezei",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/MezeiLC06",
-        "title": "Restrictions for OCL Constraint Optimization Algorithms.",
-        "year": "2006",
-        "volume": "5",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.5.48",
-        "url": "db/journals/eceasst/eceasst5.html#MezeiLC06",
-        "authors": [
-          "Gergely Mezei",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/LengyelLVC06",
-        "title": "Realizing QVT with Graph Rewriting-Based Model Transformation.",
-        "year": "2006",
-        "volume": "4",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.4.21",
-        "url": "db/journals/eceasst/eceasst4.html#LengyelLVC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "TamÃ¡s Vajk",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/AsztalosELLMM11",
-        "title": "Automated Verification by Declarative Description of Graph Rewriting-Based Model Transformations.",
-        "year": "2011",
-        "volume": "42",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.42.603",
-        "url": "db/journals/eceasst/eceasst42.html#AsztalosELLMM11",
-        "authors": [
-          "MÃ¡rk Asztalos",
-          "PÃ©ter Ekler",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "TamÃ¡s MÃ©szÃ¡ros"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/LevendovszkyK10",
-        "title": "An Active Pattern Infrastructure for Domain-Specific Languages.",
-        "year": "2010",
-        "volume": "25",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.25.366",
-        "url": "db/journals/eceasst/eceasst25.html#LevendovszkyK10",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/MezeiLLC06",
-        "title": "A Model Transformation for Automated Concrete Syntax Definitions of Metamodeled Visual Languages.",
-        "year": "2006",
-        "volume": "4",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.4.9",
-        "url": "db/journals/eceasst/eceasst4.html#MezeiLLC06",
-        "authors": [
-          "Gergely Mezei",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/VajkML10",
-        "title": "Design Pattern Modeling with Constraint Relaxation.",
-        "year": "2010",
-        "volume": "25",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.25.348",
-        "url": "db/journals/eceasst/eceasst25.html#VajkML10",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jot/LengyelLC06",
-        "title": "Constraint Validation in Model Compilers.",
-        "pages": "107-127",
-        "year": "2006",
-        "volume": "5",
-        "journal": "J. Object Technol.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q123308616",
-        "url": "db/journals/jot/jot5.html#LengyelLC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jot/LindeckerSLMS15",
-        "title": "Validating Transformations for Semantic Anchoring.",
-        "pages": "2:1-25",
-        "year": "2015",
-        "volume": "14",
-        "journal": "J. Object Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.5381/jot.2015.14.3.a2",
-        "url": "db/journals/jot/jot14.html#LindeckerSLMS15",
-        "authors": [
-          "David Lindecker",
-          "Gabor Simko",
-          "Tihamer Levendovszky",
-          "IstvÃ¡n Madari",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sttt/MeszarosMLA10",
-        "title": "Manual and automated performance optimization of model transformation systems.",
-        "pages": "231-243",
-        "year": "2010",
-        "volume": "12",
-        "journal": "Int. J. Softw. Tools Technol. Transf.",
-        "number": "3-4",
-        "ee": "https://doi.org/10.1007/s10009-010-0151-0",
-        "url": "db/journals/sttt/sttt12.html#MeszarosMLA10",
-        "authors": [
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Gergely Mezei",
-          "Tihamer Levendovszky",
-          "MÃ¡rk Asztalos"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/software/LevendovszkyDOBCNEKGK14",
-        "title": "Distributed Real-Time Managed Systems: A Model-Driven Distributed Secure Information Architecture Platform for Managed Embedded Systems.",
-        "pages": "62-69",
-        "year": "2014",
-        "volume": "31",
-        "journal": "IEEE Softw.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q123010159",
-        "url": "db/journals/software/software31.html#LevendovszkyDOBCNEKGK14",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Abhishek Dubey",
-          "William Otte",
-          "Daniel Balasubramanian",
-          "Alessandro Coglio",
-          "Sandor Nyako",
-          "William Emfinger",
-          "Pranav Srinivas Kumar",
-          "Aniruddha S. Gokhale",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/pe/Bogardi-MeszolyL11",
-        "title": "A novel algorithm for performance prediction of web-based software systems.",
-        "pages": "45-57",
-        "year": "2011",
-        "volume": "68",
-        "journal": "Perform. Evaluation",
-        "number": "1",
-        "ee": "https://doi.org/10.1016/j.peva.2010.09.004",
-        "url": "db/journals/pe/pe68.html#Bogardi-MeszolyL11",
-        "authors": [
-          "Ãgnes BogÃ¡rdi-MÃ©szÃ¶ly",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jss/PradhanDLKEBOK16",
-        "title": "Achieving resilience in distributed software systems via self-reconfiguration.",
-        "pages": "344-363",
-        "year": "2016",
-        "volume": "122",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://doi.org/10.1016/j.jss.2016.05.038",
-        "url": "db/journals/jss/jss122.html#PradhanDLKEBOK16",
-        "authors": [
-          "Subhav Pradhan",
-          "Abhishek Dubey",
-          "Tihamer Levendovszky",
-          "Pranav Srinivas Kumar",
-          "William Emfinger",
-          "Daniel Balasubramanian",
-          "William Otte",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/simulation/LaraLM09",
-        "title": "Guest Editorial: Special Issue on Multi-paradigm Modeling.",
-        "pages": "685-687",
-        "year": "2009",
-        "volume": "85",
-        "journal": "Simul.",
-        "number": "11-12",
-        "ee": "https://doi.org/10.1177/0037549709105681",
-        "url": "db/journals/simulation/simulation85.html#LaraLM09",
-        "authors": [
-          "Juan de Lara",
-          "Tihamer Levendovszky",
-          "Pieter J. Mosterman"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/scp/Balasubramanian15",
-        "title": "DREMS ML: A wide spectrum architecture design language for distributed computing platforms.",
-        "pages": "3-29",
-        "year": "2015",
-        "volume": "106",
-        "journal": "Sci. Comput. Program.",
-        "ee": "https://doi.org/10.1016/j.scico.2015.04.002",
-        "url": "db/journals/scp/scp106.html#Balasubramanian15",
-        "authors": [
-          "Daniel Balasubramanian",
-          "Abhishek Dubey",
-          "William Otte",
-          "Tihamer Levendovszky",
-          "Aniruddha S. Gokhale",
-          "Pranav Srinivas Kumar",
-          "William Emfinger",
-          "Gabor Karsai"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/scp/NadasLJMS14",
-        "title": "A model-integrated authoring environment for privacy policies.",
-        "pages": "105-125",
-        "year": "2014",
-        "volume": "89",
-        "journal": "Sci. Comput. Program.",
-        "ee": "https://doi.org/10.1016/j.scico.2013.05.004",
-        "url": "db/journals/scp/scp89.html#NadasLJMS14",
-        "authors": [
-          "AndrÃ¡s NÃ¡das",
-          "Tihamer Levendovszky",
-          "Ethan K. Jackson",
-          "IstvÃ¡n Madari",
-          "Janos Sztipanovits"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/isse/VajkML13",
-        "title": "Incremental semantic analysis for OCL compilers.",
-        "pages": "147-162",
-        "year": "2013",
-        "volume": "9",
-        "journal": "Innov. Syst. Softw. Eng.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q121008963",
-        "url": "db/journals/isse/isse9.html#VajkML13",
-        "authors": [
-          "TamÃ¡s Vajk",
-          "Gergely Mezei",
-          "Tihamer Levendovszky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "journals/entcs/LevendovszkyPE07",
-        "title": "Termination Criteria for DPO Transformations with Injective Matches.",
-        "pages": "87-100",
-        "year": "2006",
-        "booktitle": "GT-VC@CONCUR",
-        "ee": "https://www.wikidata.org/entity/Q114182438",
-        "url": "db/conf/concur/gtvc2006.html#LevendovszkyPE07",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Ulrike Prange",
-          "Hartmut Ehrig"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "journals/entcs/ImreKLC10",
-        "title": "A Novel Cost Model of XML Serialization.",
-        "pages": "147-162",
-        "year": "2009",
-        "booktitle": "PASM@MASCOTS",
-        "ee": "https://doi.org/10.1016/j.entcs.2010.01.010",
-        "url": "db/journals/entcs/entcs261.html#ImreKLC10",
-        "authors": [
-          "GÃ¡bor Imre",
-          "M. KaszÃ³",
-          "Tihamer Levendovszky",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "journals/entcs/LevendovszkyLMC05",
-        "title": "A Systematic Approach to Metamodeling Environments and Model Transformation Systems in VMTS.",
-        "pages": "65-75",
-        "year": "2004",
-        "booktitle": "GraBaTs",
-        "ee": "https://doi.org/10.1016/j.entcs.2004.12.040",
-        "url": "db/conf/grabats/grabats2004.html#LevendovszkyLMC05",
-        "authors": [
-          "Tihamer Levendovszky",
-          "LÃ¡szlÃ³ Lengyel",
-          "Gergely Mezei",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "journals/entcs/LengyelLMFC06",
-        "title": "Metamodel-Based Model Transformation with Aspect-Oriented Constraints.",
-        "pages": "111-123",
-        "year": "2005",
-        "booktitle": "GRaMoT@GPCE",
-        "ee": "https://doi.org/10.1016/j.entcs.2005.10.020",
-        "url": "db/journals/entcs/entcs152.html#LengyelLMFC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/LevendovszkyRSS14",
-        "title": "Model Evolution and Management.",
-        "year": "2014",
-        "volume": "abs/1409.2361",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1409.2361",
-        "url": "db/journals/corr/corr1409.html#LevendovszkyRSS14",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Bernhard Rumpe",
-          "Bernhard SchÃ¤tz",
-          "Jonathan Sprinkle"
-        ]
+        "inproceedings": {
+          "@key": "conf/agtive/LevendovszkyLMM07",
+          "title": "Introducing the VMTS Mobile Toolkit",
+          "booktitle": "AGTIVE",
+          "year": "2008",
+          "pages": "587-592",
+          "ee": "https://doi.org/10.1007/978-3-540-89020-1_45",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aiccsa/LengyelLMFC06",
+          "title": "Towards a Model-Based Unification of Mobile Platforms",
+          "booktitle": "AICCSA",
+          "year": "2006",
+          "pages": "867-874",
+          "ee": "https://doi.org/10.1109/AICCSA.2006.205190",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/avi/MeszarosML08",
+          "title": "A flexible, declarative presentation framework for domain-specific modeling",
+          "booktitle": "AVI",
+          "year": "2008",
+          "pages": "309-312",
+          "ee": "https://doi.org/10.1145/1385569.1385620",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cyphy/SimkoLMS14",
+          "title": "Towards a theory for cyber-physical systems modeling",
+          "booktitle": "CyPhy",
+          "year": "2014",
+          "pages": "56-61",
+          "ee": "https://doi.org/10.1145/2593458.2593463",
+          "author": [
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagstuhl/LevendovszkyRSS07",
+          "title": "Model Evolution and Management",
+          "booktitle": "Model-Based Engineering of Embedded Real-Time Systems",
+          "year": "2011",
+          "pages": "241-270",
+          "ee": "https://doi.org/10.1007/978-3-642-16277-0_9",
+          "author": [
+            {
+              "#text": "Bernhard Rumpe",
+              "@pid": "r/BernhardRumpe"
+            },
+            {
+              "#text": "Bernhard Schätz",
+              "@pid": "10/5882"
+            },
+            {
+              "#text": "Jonathan Sprinkle",
+              "@pid": "94/2487"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecbs/LindeckerSMLS13",
+          "title": "Multi-way Semantic Specification of Domain-Specific Modeling Languages",
+          "booktitle": "ECBS",
+          "year": "2013",
+          "pages": "20-29",
+          "ee": "https://doi.org/10.1109/ECBS.2013.29",
+          "author": [
+            {
+              "#text": "David Lindecker",
+              "@pid": "134/9559"
+            },
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "István Madari",
+              "@pid": "59/8721"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecbs/SimkoLLJNS13",
+          "title": "A Framework for Unambiguous and Extensible Specification of DSMLs for Cyber-Physical Systems",
+          "booktitle": "ECBS",
+          "year": "2013",
+          "pages": "30-39",
+          "ee": "https://doi.org/10.1109/ECBS.2013.30",
+          "author": [
+            {
+              "#text": "David Lindecker",
+              "@pid": "134/9559"
+            },
+            {
+              "#text": "Ethan K. Jackson",
+              "@pid": "16/762"
+            },
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Sandeep Neema",
+              "@pid": "48/2825"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecbs/SprinkleALSK03",
+          "title": "Domain Model Translation Using Graph Transformations",
+          "booktitle": "ECBS",
+          "year": "2003",
+          "pages": "159-167",
+          "ee": "https://doi.org/10.1109/ECBS.2003.1194795",
+          "author": [
+            {
+              "#text": "Aditya Agrawal",
+              "@pid": "53/4349"
+            },
+            {
+              "#text": "Feng Shi",
+              "@pid": "06/468"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Jonathan Sprinkle",
+              "@pid": "94/2487"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecbs/VajkKLL09",
+          "title": "Raising the Abstraction of Domain-Specific Model Translator Development",
+          "booktitle": "ECBS",
+          "year": "2009",
+          "pages": "31-37",
+          "ee": "https://doi.org/10.1109/ECBS.2009.30",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecbs/VajkML09",
+          "title": "Incremental Type Checking in OCL Compilers",
+          "booktitle": "ECBS-EERC",
+          "year": "2009",
+          "pages": "9-18",
+          "ee": "https://doi.org/10.1109/ECBS-EERC.2009.21",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecmdafa/LevendovszkyBSSK10",
+          "title": "A transformation instance-based approach to traceability",
+          "booktitle": "ECMFA-TW",
+          "year": "2010",
+          "pages": "55-60",
+          "ee": "https://doi.org/10.1145/1814392.1814400",
+          "author": [
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Feng Shi",
+              "@pid": "06/468"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Kevin Smyth",
+              "@pid": "38/6117"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/enase/LengyelLMC07",
+          "title": "Supporting Design Patterns in Graph Rewriting-based Model Transformation",
+          "booktitle": "ENASE",
+          "year": "2007",
+          "pages": "25-32",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hci/LevendovszkyM09",
+          "title": "Tooling the Dynamic Behavior Models of Graphical DSLs",
+          "booktitle": "HCI (2)",
+          "year": "2009",
+          "pages": "830-839",
+          "ee": "https://doi.org/10.1007/978-3-642-02577-8_91",
+          "author": [
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/Bogardi-MeszolyLC06",
+          "title": "Using Queueing Model in Predicting the Response Time of ASP.NET Web Applications",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2006",
+          "pages": "252-257",
+          "author": [
+            {
+              "#text": "Ágnes Bogárdi-Mészöly",
+              "@pid": "81/2352"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/LengyelLC04",
+          "title": "Supporting round-trip engineering in modeling environments with the application of meta-modeling techniques",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2004",
+          "pages": "178-182",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/LengyelLKC05",
+          "title": "Compiling and Validating OCL Constraints in Metamodeling Environments and Visual Model Compilers",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2005",
+          "pages": "48-49",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "P. Kozma",
+              "@pid": "59/2875"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/LengyelLMC06",
+          "title": "A Visual Control Flow Language for Model Transformation Systems",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2006",
+          "pages": "194-199",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/LevendovszkyLC04",
+          "title": "Software composition with a multipurpose modeling and model transformation framework",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2004",
+          "pages": "590-594",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/MezeiLC06",
+          "title": "Visual Presentation Solutions for Domain Specific Languages",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2006",
+          "pages": "212-217",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iastedSE/MezeiLLC05",
+          "title": "A Flexible Attribute Instantiation Technique for Visual Languages",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2005",
+          "pages": "355-359",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/NeemaSLPAS14",
+          "title": "Formalization of software models for cyber-physical systems",
+          "booktitle": "FormaliSE",
+          "year": "2014",
+          "pages": "45-51",
+          "ee": "https://doi.org/10.1145/2593489.2593495",
+          "author": [
+            {
+              "#text": "Akshay Agrawal",
+              "@pid": "82/10308"
+            },
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Joseph Porter",
+              "@pid": "22/1333"
+            },
+            {
+              "#text": "Sandeep Neema",
+              "@pid": "48/2825"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsr/LevendovszkyKMLC02",
+          "title": "Model Reuse with Metamodel-Based Transformations",
+          "booktitle": "ICSR",
+          "year": "2002",
+          "pages": "166-178",
+          "ee": "https://doi.org/10.1007/3-540-46020-9_12",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icst/AsztalosLL10",
+          "title": "Towards Automated, Formal Verification of Model Transformations",
+          "booktitle": "ICST",
+          "year": "2010",
+          "pages": "15-24",
+          "ee": "https://doi.org/10.1109/ICST.2010.42",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icst/MeszarosL12",
+          "title": "Verified Operational Patterns with Graph Transformation",
+          "booktitle": "ICST",
+          "year": "2012",
+          "pages": "954-961",
+          "ee": "https://doi.org/10.1109/ICST.2012.201",
+          "author": [
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip2/MezeiLC06",
+          "title": "An optimizing OCL Compiler for Metamodeling and Model Transformation Environments",
+          "booktitle": "SET",
+          "year": "2007",
+          "pages": "61-71",
+          "ee": "https://doi.org/10.1007/978-0-387-39388-9_6",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mdeis/LengyelLMC06",
+          "title": "Model-Based Development with Validated Model Transformation",
+          "booktitle": "MDEIS",
+          "year": "2006",
+          "pages": "39-48",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/AmaralHKLL09",
+          "title": "Recent Advances in Multi-paradigm Modeling",
+          "booktitle": "MoDELS (Workshops)",
+          "year": "2010",
+          "pages": "220-224",
+          "ee": "https://doi.org/10.1007/978-3-642-12261-3_21",
+          "author": [
+            {
+              "#text": "Cécile Hardebolle",
+              "@pid": "14/2185"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Vasco Amaral",
+              "@pid": "44/2600"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/AsztalosLL09",
+          "title": "A formalism for describing modeling transformations for verification",
+          "booktitle": "MoDeVVa@MoDELS",
+          "year": "2009",
+          "pages": "2:1-2:10",
+          "ee": "https://doi.org/10.1145/1656485.1656487",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/BalasubramanianLDK14",
+          "title": "Taming Multi-Paradigm Integration in a Software Architecture Description Language",
+          "booktitle": "MPM@MoDELS",
+          "year": "2014",
+          "pages": "67-76",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/CaglarAGL12",
+          "title": "Transitioning to the cloud?: a model-driven analysis and automated deployment capability for cloud services",
+          "booktitle": "MDHPCL@MoDELS",
+          "year": "2012",
+          "pages": "8",
+          "ee": "https://doi.org/10.1145/2446224.2446232",
+          "author": [
+            {
+              "#text": "Aniruddha S. Gokhale",
+              "@pid": "83/287"
+            },
+            {
+              "#text": "Faruk Caglar",
+              "@pid": "131/7025"
+            },
+            {
+              "#text": "Kyoungho An",
+              "@pid": "20/9715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/GieseLV06",
+          "title": "Summary of the Workshop on Multi-Paradigm Modeling: Concepts and Tools",
+          "booktitle": "MoDELS (Workshops)",
+          "year": "2007",
+          "pages": "252-262",
+          "ee": "https://doi.org/10.1007/978-3-540-69489-2_31",
+          "author": [
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Holger Giese",
+              "@pid": "13/1348"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/JacksonLB11",
+          "title": "Reasoning about Metamodeling with Formal Specifications and Automatic Proofs",
+          "booktitle": "MoDELS",
+          "year": "2011",
+          "pages": "653-667",
+          "ee": "https://doi.org/10.1007/978-3-642-24485-8_48",
+          "author": [
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Ethan K. Jackson",
+              "@pid": "16/762"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/JuraczLLHGNPSH13",
+          "title": "VehicleFORGE: A Cloud-Based Infrastructure for Collaborative Model-Based Design",
+          "booktitle": "MDHPCL@MoDELS",
+          "year": "2014",
+          "pages": "25-36",
+          "author": [
+            {
+              "#text": "Gábor Pap",
+              "@pid": "58/4702"
+            },
+            {
+              "#text": "Graham Hemingway",
+              "@pid": "06/5758"
+            },
+            {
+              "#text": "Kevin Smyth",
+              "@pid": "38/6117"
+            },
+            {
+              "#text": "Larry Howard",
+              "@pid": "17/1735"
+            },
+            {
+              "#text": "László Jurácz",
+              "@pid": "41/8776"
+            },
+            {
+              "#text": "Tanner Netterville",
+              "@pid": "140/0754"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Will Gaggioli",
+              "@pid": "140/0741"
+            },
+            {
+              "#text": "Zsolt Lattmann",
+              "@pid": "140/0738"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/LaraLMV07",
+          "title": "Second International Workshop on Multi-Paradigm Modeling: Concepts and Tools",
+          "booktitle": "MoDELS (Workshops)",
+          "year": "2008",
+          "pages": "237-246",
+          "ee": "https://doi.org/10.1007/978-3-540-69073-3_25",
+          "author": [
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Juan de Lara",
+              "@pid": "l/JuandeLara"
+            },
+            {
+              "#text": "Pieter J. Mosterman",
+              "@pid": "78/1737"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/LattmannNLBNK12",
+          "title": "Component-based modeling of dynamic systems using heterogeneous composition",
+          "booktitle": "MPM@MoDELS",
+          "year": "2012",
+          "pages": "73-78",
+          "ee": "https://doi.org/10.1145/2508443.2508456",
+          "author": [
+            {
+              "#text": "Adam Nagel",
+              "@pid": "160/2971"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Sandeep Neema",
+              "@pid": "48/2825"
+            },
+            {
+              "#text": "Ted Bapty",
+              "@pid": "09/5995"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Zsolt Lattmann",
+              "@pid": "140/0738"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/LevendovszkySBS12",
+          "title": "Evolution in a context of an model-integrated tool environment",
+          "booktitle": "ME@MoDELS",
+          "year": "2012",
+          "pages": "33-38",
+          "ee": "https://doi.org/10.1145/2523599.2523606",
+          "author": [
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Feng Shi",
+              "@pid": "06/468"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Kevin Smyth",
+              "@pid": "38/6117"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/MarotiKKBVJLL14",
+          "title": "Next Generation (Meta)Modeling: Web- and Cloud-based Collaborative Tool Infrastructure",
+          "booktitle": "MPM@MoDELS",
+          "year": "2014",
+          "pages": "41-60",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "László Jurácz",
+              "@pid": "41/8776"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            },
+            {
+              "#text": "Tamás Kecskés",
+              "@pid": "148/6337"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/NarayananLBK09",
+          "title": "Automatic Domain Model Migration to Manage Metamodel Evolution",
+          "booktitle": "MoDELS",
+          "year": "2009",
+          "pages": "706-711",
+          "ee": "https://doi.org/10.1007/978-3-642-04425-0_57",
+          "author": [
+            {
+              "#text": "Anantha Narayanan",
+              "@pid": "51/3517"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/SimkoLLNS13",
+          "title": "Specification of Cyber-Physical Components with Formal Semantics - Integration and Composition",
+          "booktitle": "MoDELS",
+          "year": "2013",
+          "pages": "471-487",
+          "ee": "https://doi.org/10.1007/978-3-642-41533-3_29",
+          "author": [
+            {
+              "#text": "David Lindecker",
+              "@pid": "134/9559"
+            },
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Sandeep Neema",
+              "@pid": "48/2825"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/VajkDAML11",
+          "title": "Runtime model validation with parallel object constraint language",
+          "booktitle": "MoDeVVa@MoDELS",
+          "year": "2011",
+          "pages": "7:1-7:8",
+          "ee": "https://doi.org/10.1145/2095654.2095663",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Zoltán Dávid",
+              "@pid": "24/11179"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mompes/ForstnerLLMKC06",
+          "title": "Model-Based System Development for Embedded Mobile Platforms",
+          "booktitle": "MDB/MOMPES",
+          "year": "2006",
+          "pages": "43-52",
+          "ee": "https://doi.org/10.1109/MBD-MOMPES.2006.20",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Imre Kelényi",
+              "@pid": "11/4085"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pci/Bogardi-MeszolySLC05",
+          "title": "Investigating Factors Influencing the Response Time in ASP.NET Web Applications",
+          "booktitle": "Panhellenic Conference on Informatics",
+          "year": "2005",
+          "pages": "223-233",
+          "ee": "https://doi.org/10.1007/11573036_21",
+          "author": [
+            {
+              "#text": "Ágnes Bogárdi-Mészöly",
+              "@pid": "81/2352"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Zoltán Szitás",
+              "@pid": "37/5404"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pci/LengyelLC05",
+          "title": "Weaving Aspect-Oriented Constraints into Metamodel-Based Model Transformation Steps",
+          "booktitle": "Panhellenic Conference on Informatics",
+          "year": "2005",
+          "pages": "393-403",
+          "ee": "https://doi.org/10.1007/11573036_37",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pdcn/MezeiJL07",
+          "title": "A distribution technique for graph rewriting and model transformation systems",
+          "booktitle": "Parallel and Distributed Computing and Networks",
+          "year": "2007",
+          "pages": "63-68",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Sándor Juhász",
+              "@pid": "35/6599"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sle/LevendovszkyBNK09",
+          "title": "A Novel Approach to Semi-automated Evolution of DSML Model Transformation",
+          "booktitle": "SLE",
+          "year": "2010",
+          "pages": "23-41",
+          "ee": "https://doi.org/10.1007/978-3-642-12107-4_4",
+          "author": [
+            {
+              "#text": "Anantha Narayanan",
+              "@pid": "51/3517"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/teaa/ImreLC06",
+          "title": "Modeling the Effect of Application Server Settings on the Performance of J2EE Web Applications",
+          "booktitle": "TEAA",
+          "year": "2007",
+          "pages": "202-216",
+          "ee": "https://doi.org/10.1007/978-3-540-75912-6_15",
+          "author": [
+            {
+              "#text": "Gábor Imre",
+              "@pid": "36/3612"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/LengyelLC06",
+          "title": "Constraint Validation Support in Visual Model Transformation Systems",
+          "journal": "Acta Cybern.",
+          "year": "2006",
+          "pages": "339-357",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LevendovszkyRSS14",
+          "title": "Model Evolution and Management",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1409.2361",
+          "author": [
+            {
+              "#text": "Bernhard Rumpe",
+              "@pid": "r/BernhardRumpe"
+            },
+            {
+              "#text": "Bernhard Schätz",
+              "@pid": "10/5882"
+            },
+            {
+              "#text": "Jonathan Sprinkle",
+              "@pid": "94/2487"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/AsztalosELL10",
+          "title": "Verification of Model Transformations to Refactoring Mobile Social Networks",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2010",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.32.542",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Péter Ekler",
+              "@pid": "23/6239"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/AsztalosELLMM11",
+          "title": "Automated Verification by Declarative Description of Graph Rewriting-Based Model Transformations",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2011",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.42.603",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Péter Ekler",
+              "@pid": "23/6239"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/AsztalosLL09",
+          "title": "Toward Automated Verification of Model Transformations: A Case Study of Analysis of Refactoring Business Process Models",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2009",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.21.287",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/LengyelLVC06",
+          "title": "Realizing QVT with Graph Rewriting-Based Model Transformation",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2006",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.4.21",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/LevendovszkyK10",
+          "title": "An Active Pattern Infrastructure for Domain-Specific Languages",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2010",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.25.366",
+          "author": [
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/LevendovszkyL09",
+          "title": "Preface",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2009",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.21.282.269",
+          "author": [
+            {
+              "#text": "Cécile Hardebolle",
+              "@pid": "14/2185"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/MeszarosLM09",
+          "title": "Code Generation with the Model Transformation of Visual Behavior Models",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2009",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.21.292",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/MeszarosLM11",
+          "title": "Active Model Patterns with Interactive Model Transformation",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2011",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.42.604",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/MezeiLC06",
+          "title": "Restrictions for OCL Constraint Optimization Algorithms",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2006",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.5.48",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/MezeiLLC06",
+          "title": "A Model Transformation for Automated Concrete Syntax Definitions of Metamodeled Visual Languages",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2006",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.4.9",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/VajkML08",
+          "title": "An Incremental OCL Compiler for Modeling Environments",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2008",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.15.173",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/VajkML10",
+          "title": "Design Pattern Modeling with Constraint Relaxation",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2010",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.25.348",
+          "author": [
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/entcs/ImreKLC10",
+          "title": "A Novel Cost Model of XML Serialization",
+          "booktitle": "PASM@MASCOTS",
+          "year": "2010",
+          "pages": "147-162",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2010.01.010",
+          "author": [
+            {
+              "#text": "Gábor Imre",
+              "@pid": "36/3612"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "M. Kaszó",
+              "@pid": "05/7839"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/entcs/LengyelLMFC06",
+          "title": "Metamodel-Based Model Transformation with Aspect-Oriented Constraints",
+          "booktitle": "GRaMoT@GPCE",
+          "year": "2006",
+          "pages": "111-123",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2005.10.020",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/entcs/LevendovszkyLMC05",
+          "title": "A Systematic Approach to Metamodeling Environments and Model Transformation Systems in VMTS",
+          "booktitle": "GraBaTs",
+          "year": "2005",
+          "pages": "65-75",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2004.12.040",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/entcs/LevendovszkyPE07",
+          "title": "Termination Criteria for DPO Transformations with Injective Matches",
+          "booktitle": "GT-VC@CONCUR",
+          "year": "2007",
+          "pages": "87-100",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2007.04.019",
+          "author": [
+            {
+              "#text": "Hartmut Ehrig",
+              "@pid": "e/HartmutEhrig"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "Ulrike Golas",
+              "@pid": "43/8527"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcat/LengyelLC08",
+          "title": "Validated model transformation-driven software development",
+          "journal": "Int. J. Comput. Appl. Technol.",
+          "year": "2008",
+          "pages": "106-119",
+          "ee": "https://doi.org/10.1504/IJCAT.2008.017723",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/isse/VajkML13",
+          "title": "Incremental semantic analysis for OCL compilers",
+          "journal": "Innov. Syst. Softw. Eng.",
+          "year": "2013",
+          "pages": "147-162",
+          "ee": "https://doi.org/10.1007/S11334-013-0218-7",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jot/LengyelLC06",
+          "title": "Constraint Validation in Model Compilers",
+          "journal": "J. Object Technol.",
+          "year": "2006",
+          "pages": "107-127",
+          "ee": "https://doi.org/10.5381/JOT.2006.5.4.A3",
+          "author": [
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jot/LindeckerSLMS15",
+          "title": "Validating Transformations for Semantic Anchoring",
+          "journal": "J. Object Technol.",
+          "year": "2015",
+          "pages": "2:1-25",
+          "ee": "https://doi.org/10.5381/JOT.2015.14.3.A2",
+          "author": [
+            {
+              "#text": "David Lindecker",
+              "@pid": "134/9559"
+            },
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "István Madari",
+              "@pid": "59/8721"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/PradhanDLKEBOK16",
+          "title": "Achieving resilience in distributed software systems via self-reconfiguration",
+          "journal": "J. Syst. Softw.",
+          "year": "2016",
+          "pages": "344-363",
+          "ee": "https://doi.org/10.1016/J.JSS.2016.05.038",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Pranav Srinivas Kumar",
+              "@pid": "151/0090"
+            },
+            {
+              "#text": "Subhav Pradhan",
+              "@pid": "135/1134"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "William Emfinger",
+              "@pid": "144/0563"
+            },
+            {
+              "#text": "William Otte",
+              "@pid": "35/5286"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pe/Bogardi-MeszolyL11",
+          "title": "A novel algorithm for performance prediction of web-based software systems",
+          "journal": "Perform. Evaluation",
+          "year": "2011",
+          "pages": "45-57",
+          "ee": "https://doi.org/10.1016/J.PEVA.2010.09.004",
+          "author": [
+            {
+              "#text": "Ágnes Bogárdi-Mészöly",
+              "@pid": "81/2352"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scp/Balasubramanian15",
+          "title": "DREMS ML: A wide spectrum architecture design language for distributed computing platforms",
+          "journal": "Sci. Comput. Program.",
+          "year": "2015",
+          "pages": "3-29",
+          "ee": "https://doi.org/10.1016/J.SCICO.2015.04.002",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Aniruddha S. Gokhale",
+              "@pid": "83/287"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Pranav Srinivas Kumar",
+              "@pid": "151/0090"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "William Emfinger",
+              "@pid": "144/0563"
+            },
+            {
+              "#text": "William Otte",
+              "@pid": "35/5286"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scp/NadasLJMS14",
+          "title": "A model-integrated authoring environment for privacy policies",
+          "journal": "Sci. Comput. Program.",
+          "year": "2014",
+          "pages": "105-125",
+          "ee": "https://doi.org/10.1016/J.SCICO.2013.05.004",
+          "author": [
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Ethan K. Jackson",
+              "@pid": "16/762"
+            },
+            {
+              "#text": "István Madari",
+              "@pid": "59/8721"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/simulation/LaraLM09",
+          "title": "Guest Editorial: Special Issue on Multi-paradigm Modeling",
+          "journal": "Simul.",
+          "year": "2009",
+          "pages": "685-687",
+          "ee": "https://doi.org/10.1177/0037549709105681",
+          "author": [
+            {
+              "#text": "Juan de Lara",
+              "@pid": "l/JuandeLara"
+            },
+            {
+              "#text": "Pieter J. Mosterman",
+              "@pid": "78/1737"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/software/LevendovszkyDOBCNEKGK14",
+          "title": "Distributed Real-Time Managed Systems: A Model-Driven Distributed Secure Information Architecture Platform for Managed Embedded Systems",
+          "journal": "IEEE Softw.",
+          "year": "2014",
+          "pages": "62-69",
+          "ee": "https://doi.org/10.1109/MS.2013.143",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Alessandro Coglio",
+              "@pid": "56/3094"
+            },
+            {
+              "#text": "Aniruddha S. Gokhale",
+              "@pid": "83/287"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Pranav Srinivas Kumar",
+              "@pid": "151/0090"
+            },
+            {
+              "#text": "Sandor Nyako",
+              "@pid": "144/0596"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            },
+            {
+              "#text": "William Emfinger",
+              "@pid": "144/0563"
+            },
+            {
+              "#text": "William Otte",
+              "@pid": "35/5286"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/JacksonLB15",
+          "title": "Automatically reasoning about metamodeling",
+          "journal": "Softw. Syst. Model.",
+          "year": "2015",
+          "pages": "271-285",
+          "ee": "https://doi.org/10.1007/S10270-013-0315-Y",
+          "author": [
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Ethan K. Jackson",
+              "@pid": "16/762"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/LevendovszkyBNSBK14",
+          "title": "A semi-formal description of migrating domain-specific models with evolving domains",
+          "journal": "Softw. Syst. Model.",
+          "year": "2014",
+          "pages": "807-823",
+          "ee": "https://doi.org/10.1007/S10270-012-0313-5",
+          "author": [
+            {
+              "#text": "Anantha Narayanan",
+              "@pid": "51/3517"
+            },
+            {
+              "#text": "Christopher P. van Buskirk",
+              "@pid": "69/5400"
+            },
+            {
+              "#text": "Daniel Balasubramanian",
+              "@pid": "42/5805"
+            },
+            {
+              "#text": "Feng Shi",
+              "@pid": "06/468"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/LevendovszkyLM09",
+          "title": "Supporting domain-specific model patterns with metamodeling",
+          "journal": "Softw. Syst. Model.",
+          "year": "2009",
+          "pages": "501-520",
+          "ee": "https://doi.org/10.1007/S10270-009-0118-3",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sttt/MeszarosMLA10",
+          "title": "Manual and automated performance optimization of model transformation systems",
+          "journal": "Int. J. Softw. Tools Technol. Transf.",
+          "year": "2010",
+          "pages": "231-243",
+          "ee": "https://doi.org/10.1007/S10009-010-0151-0",
+          "author": [
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/stvr/AsztalosLL13",
+          "title": "Formal specification and analysis of functional properties of graph rewriting-based model transformation",
+          "journal": "Softw. Test. Verification Reliab.",
+          "year": "2013",
+          "pages": "405-435",
+          "ee": "https://doi.org/10.1002/STVR.1502",
+          "author": [
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Márk Asztalos",
+              "@pid": "15/2641"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,278 +1,466 @@
 {
   "dblpperson": {
+    "@name": "Tibor Schneider",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/conext/SchmidSFV23",
-        "title": "Predicting Specification Violations During BGP Convergence.",
-        "pages": "25-26",
-        "year": "2023",
-        "booktitle": "StudentWorkshop@CoNEXT",
-        "ee": "https://doi.org/10.1145/3630202.3630235",
-        "url": "db/conf/conext/sw2023.html#SchmidSFV23",
-        "authors": [
-          "Roland Schmid",
-          "Tibor Schneider",
-          "Georgia Fragkouli",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/conext/ChenSV23",
+          "title": "Causality Analysis in Control Plane Verification",
+          "booktitle": "StudentWorkshop@CoNEXT",
+          "year": "2023",
+          "pages": "5-6",
+          "ee": "https://doi.org/10.1145/3630202.3630237",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            },
+            {
+              "#text": "Yu Chen",
+              "@pid": "87/1254-90"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/conext/ChenSV23",
-        "title": "Causality Analysis in Control Plane Verification.",
-        "pages": "5-6",
-        "year": "2023",
-        "booktitle": "StudentWorkshop@CoNEXT",
-        "ee": "https://doi.org/10.1145/3630202.3630237",
-        "url": "db/conf/conext/sw2023.html#ChenSV23",
-        "authors": [
-          "Yu Chen 0090",
-          "Tibor Schneider",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/conext/SchmidSFV23",
+          "title": "Predicting Specification Violations During BGP Convergence",
+          "booktitle": "StudentWorkshop@CoNEXT",
+          "year": "2023",
+          "pages": "25-26",
+          "ee": "https://doi.org/10.1145/3630202.3630235",
+          "author": [
+            {
+              "#text": "Georgia Fragkouli",
+              "@pid": "241/7400"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Roland Schmid",
+              "@pid": "142/1822"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/GerasimenkoPSS019",
-        "title": "Prototyping Directional UAV-Based Wireless Access and Backhaul Systems.",
-        "pages": "1-6",
-        "year": "2019",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOBECOM38437.2019.9014228",
-        "url": "db/conf/globecom/globecom2019.html#GerasimenkoPSS019",
-        "authors": [
-          "Mikhail Gerasimenko",
-          "JirÃ­ PokornÃ½",
-          "Tibor Schneider",
-          "Jakub Sirjov",
-          "Sergey Andreev 0001",
-          "Jiri Hosek"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/GerasimenkoPSS019",
+          "title": "Prototyping Directional UAV-Based Wireless Access and Backhaul Systems",
+          "booktitle": "GLOBECOM",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GLOBECOM38437.2019.9014228",
+          "author": [
+            {
+              "#text": "Jakub Sirjov",
+              "@pid": "259/3672"
+            },
+            {
+              "#text": "Jiri Hosek",
+              "@pid": "83/10428"
+            },
+            {
+              "#text": "Jirí Pokorný",
+              "@pid": "77/8088"
+            },
+            {
+              "#text": "Mikhail Gerasimenko",
+              "@pid": "117/9028"
+            },
+            {
+              "#text": "Sergey Andreev",
+              "@pid": "66/6334"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smartcomp/SchneiderWHCB20",
-        "title": "Q-EEGNet: an Energy-Efficient 8-bit Quantized Parallel EEGNet Implementation for Edge Motor-Imagery Brain-Machine Interfaces.",
-        "pages": "284-289",
-        "year": "2020",
-        "booktitle": "SMARTCOMP",
-        "ee": "https://doi.org/10.1109/SMARTCOMP50058.2020.00065",
-        "url": "db/conf/smartcomp/smartcomp2020.html#SchneiderWHCB20",
-        "authors": [
-          "Tibor Schneider",
-          "Xiaying Wang",
-          "Michael Hersche",
-          "Lukas Cavigelli",
-          "Luca Benini"
-        ]
+        "inproceedings": {
+          "@key": "conf/icnp/SchneiderMV25",
+          "title": "Guided Exploration of Control-Plane Routing States",
+          "booktitle": "ICNP",
+          "year": "2025",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1109/ICNP65844.2025.11192328",
+          "author": [
+            {
+              "#text": "Jean Mégret",
+              "@pid": "415/9191"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nsdi/SchneiderVV25",
-        "title": "Verifying maximum link loads in a changing world.",
-        "pages": "1269-1287",
-        "year": "2025",
-        "booktitle": "NSDI",
-        "ee": "https://www.usenix.org/conference/nsdi25/presentation/schneider",
-        "url": "db/conf/nsdi/nsdi2025.html#SchneiderVV25",
-        "authors": [
-          "Tibor Schneider",
-          "Stefano Vissicchio",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/icnp/SchneiderSV22",
+          "title": "On the Complexity of Network-Wide Configuration Synthesis",
+          "booktitle": "ICNP",
+          "year": "2022",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1109/ICNP55882.2022.9940325",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Roland Schmid",
+              "@pid": "142/1822"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icnp/SchneiderMV25",
-        "title": "Guided Exploration of Control-Plane Routing States.",
-        "pages": "1-12",
-        "year": "2025",
-        "booktitle": "ICNP",
-        "ee": "https://doi.org/10.1109/ICNP65844.2025.11192328",
-        "url": "db/conf/icnp/icnp2025.html#SchneiderMV25",
-        "authors": [
-          "Tibor Schneider",
-          "Jean MÃ©gret",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/iscas/WangSHCB21",
+          "title": "Mixed-Precision Quantization and Parallel Implementation of Multispectral Riemannian Classification for Brain-Machine Interfaces",
+          "booktitle": "ISCAS",
+          "year": "2021",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ISCAS51556.2021.9401564",
+          "author": [
+            {
+              "#text": "Luca Benini",
+              "@pid": "b/LucaBenini"
+            },
+            {
+              "#text": "Lukas Cavigelli",
+              "@pid": "137/9406"
+            },
+            {
+              "#text": "Michael Hersche",
+              "@pid": "231/2484"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            },
+            {
+              "#text": "Xiaying Wang",
+              "@pid": "229/8936"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icnp/SchneiderSV22",
-        "title": "On the Complexity of Network-Wide Configuration Synthesis.",
-        "pages": "1-11",
-        "year": "2022",
-        "booktitle": "ICNP",
-        "ee": "https://doi.org/10.1109/ICNP55882.2022.9940325",
-        "url": "db/conf/icnp/icnp2022.html#SchneiderSV22",
-        "authors": [
-          "Tibor Schneider",
-          "Roland Schmid",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/nsdi/SchneiderVV25",
+          "title": "Verifying maximum link loads in a changing world",
+          "booktitle": "NSDI",
+          "year": "2025",
+          "pages": "1269-1287",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Stefano Vissicchio",
+              "@pid": "29/7759"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iscas/WangSHCB21",
-        "title": "Mixed-Precision Quantization and Parallel Implementation of Multispectral Riemannian Classification for Brain-Machine Interfaces.",
-        "pages": "1-5",
-        "year": "2021",
-        "booktitle": "ISCAS",
-        "ee": "https://doi.org/10.1109/ISCAS51556.2021.9401564",
-        "url": "db/conf/iscas/iscas2021.html#WangSHCB21",
-        "authors": [
-          "Xiaying Wang",
-          "Tibor Schneider",
-          "Michael Hersche",
-          "Lukas Cavigelli",
-          "Luca Benini"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/MegretSV25",
+          "title": "Probabilistic Routing Algebras for QoS Routing",
+          "booktitle": "SIGCOMM (Posters and Demos)",
+          "year": "2025",
+          "pages": "85-87",
+          "ee": "https://doi.org/10.1145/3744969.3748432",
+          "author": [
+            {
+              "#text": "Jean Mégret",
+              "@pid": "415/9191"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/SchneiderSVV23",
-        "title": "Taming the transient while reconfiguring BGP.",
-        "pages": "77-93",
-        "year": "2023",
-        "booktitle": "SIGCOMM",
-        "ee": "https://doi.org/10.1145/3603269.3604855",
-        "url": "db/conf/sigcomm/sigcomm2023.html#SchneiderSVV23",
-        "authors": [
-          "Tibor Schneider",
-          "Roland Schmid",
-          "Stefano Vissicchio",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/RonchettiSV26",
+          "title": "When static verification is not enough: revealing BGP bugs at runtime",
+          "booktitle": "SIGCOMM",
+          "year": "2026",
+          "pages": "92-105",
+          "ee": "https://doi.org/10.1145/3789240.3829137",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Pietro Ronchetti",
+              "@pid": "417/5597"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/MegretSV25",
-        "title": "Probabilistic Routing Algebras for QoS Routing.",
-        "pages": "85-87",
-        "year": "2025",
-        "booktitle": "SIGCOMM (Posters and Demos)",
-        "ee": "https://doi.org/10.1145/3744969.3748432",
-        "url": "db/conf/sigcomm/sigcomm2025pd.html#MegretSV25",
-        "authors": [
-          "Jean MÃ©gret",
-          "Tibor Schneider",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/SchneiderBV21",
+          "title": "Snowcap: synthesizing network-wide configuration updates",
+          "booktitle": "SIGCOMM",
+          "year": "2021",
+          "pages": "33-49",
+          "ee": "https://doi.org/10.1145/3452296.3472915",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Rüdiger Birkner",
+              "@pid": "182/6218"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/SchneiderBV21",
-        "title": "Snowcap: synthesizing network-wide configuration updates.",
-        "pages": "33-49",
-        "year": "2021",
-        "booktitle": "SIGCOMM",
-        "ee": "https://doi.org/10.1145/3452296.3472915",
-        "url": "db/conf/sigcomm/sigcomm2021.html#SchneiderBV21",
-        "authors": [
-          "Tibor Schneider",
-          "RÃ¼diger Birkner",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/SchneiderSVV23",
+          "title": "Taming the transient while reconfiguring BGP",
+          "booktitle": "SIGCOMM",
+          "year": "2023",
+          "pages": "77-93",
+          "ee": "https://doi.org/10.1145/3603269.3604855",
+          "author": [
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Roland Schmid",
+              "@pid": "142/1822"
+            },
+            {
+              "#text": "Stefano Vissicchio",
+              "@pid": "29/7759"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/RonchettiSV26",
-        "title": "When static verification is not enough: revealing BGP bugs at runtime.",
-        "pages": "92-105",
-        "year": "2026",
-        "booktitle": "SIGCOMM",
-        "ee": "https://doi.org/10.1145/3789240.3829137",
-        "url": "db/conf/sigcomm/sigcomm2026.html#RonchettiSV26",
-        "authors": [
-          "Pietro Ronchetti",
-          "Tibor Schneider",
-          "Laurent Vanbever"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartcomp/SchneiderWHCB20",
+          "title": "Q-EEGNet: an Energy-Efficient 8-bit Quantized Parallel EEGNet Implementation for Edge Motor-Imagery Brain-Machine Interfaces",
+          "booktitle": "SMARTCOMP",
+          "year": "2020",
+          "pages": "284-289",
+          "ee": "https://doi.org/10.1109/SMARTCOMP50058.2020.00065",
+          "author": [
+            {
+              "#text": "Luca Benini",
+              "@pid": "b/LucaBenini"
+            },
+            {
+              "#text": "Lukas Cavigelli",
+              "@pid": "137/9406"
+            },
+            {
+              "#text": "Michael Hersche",
+              "@pid": "231/2484"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            },
+            {
+              "#text": "Xiaying Wang",
+              "@pid": "229/8936"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/pacmnet/SchmidSFV25",
-        "title": "Transient Forwarding Anomalies and How to Find Them.",
-        "pages": "1-23",
-        "year": "2025",
-        "volume": "3",
-        "journal": "Proc. ACM Netw.",
-        "number": "CoNEXT2",
-        "ee": "https://doi.org/10.1145/3730973",
-        "url": "db/journals/pacmnet/pacmnet3.html#SchmidSFV25",
-        "authors": [
-          "Roland Schmid",
-          "Tibor Schneider",
-          "Georgia Fragkouli",
-          "Laurent Vanbever"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2004-11690",
+          "title": "Q-EEGNet: an Energy-Efficient 8-bit Quantized Parallel EEGNet Implementation for Edge Motor-Imagery Brain-Machine Interfaces",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.11690",
+          "author": [
+            {
+              "#text": "Luca Benini",
+              "@pid": "b/LucaBenini"
+            },
+            {
+              "#text": "Lukas Cavigelli",
+              "@pid": "137/9406"
+            },
+            {
+              "#text": "Michael Hersche",
+              "@pid": "231/2484"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            },
+            {
+              "#text": "Xiaying Wang",
+              "@pid": "229/8936"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tbcas/WangCSB21",
-        "title": "Sub-100 $\\mu$W Multispectral Riemannian Classification for EEG-Based Brain-Machine Interfaces.",
-        "pages": "1149-1160",
-        "year": "2021",
-        "volume": "15",
-        "journal": "IEEE Trans. Biomed. Circuits Syst.",
-        "number": "6",
-        "ee": "https://www.wikidata.org/entity/Q115263823",
-        "url": "db/journals/tbcas/tbcas15.html#WangCSB21",
-        "authors": [
-          "Xiaying Wang",
-          "Lukas Cavigelli",
-          "Tibor Schneider",
-          "Luca Benini"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2503-15249",
+          "title": "The Effects of iBGP Convergence",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2503.15249",
+          "author": [
+            {
+              "#text": "Georgia Fragkouli",
+              "@pid": "241/7400"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Roland Schmid",
+              "@pid": "142/1822"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2503-15249",
-        "title": "The Effects of iBGP Convergence.",
-        "year": "2025",
-        "volume": "abs/2503.15249",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2503.15249",
-        "url": "db/journals/corr/corr2503.html#abs-2503-15249",
-        "authors": [
-          "Roland Schmid",
-          "Tibor Schneider",
-          "Georgia Fragkouli",
-          "Laurent Vanbever"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2608-11340",
+          "title": "Self-evolving network verifiers",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.11340",
+          "author": [
+            {
+              "#text": "Ioannis Protogeros",
+              "@pid": "387/8897"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2608-11340",
-        "title": "Self-evolving network verifiers.",
-        "year": "2026",
-        "volume": "abs/2608.11340",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2608.11340",
-        "url": "db/journals/corr/corr2608.html#abs-2608-11340",
-        "authors": [
-          "Ioannis Protogeros",
-          "Tibor Schneider",
-          "Laurent Vanbever"
-        ]
+        "article": {
+          "@key": "journals/pacmnet/SchmidSFV25",
+          "title": "Transient Forwarding Anomalies and How to Find Them",
+          "journal": "Proc. ACM Netw.",
+          "year": "2025",
+          "pages": "1-23",
+          "ee": "https://doi.org/10.1145/3730973",
+          "author": [
+            {
+              "#text": "Georgia Fragkouli",
+              "@pid": "241/7400"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Roland Schmid",
+              "@pid": "142/1822"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2004-11690",
-        "title": "Q-EEGNet: an Energy-Efficient 8-bit Quantized Parallel EEGNet Implementation for Edge Motor-Imagery Brain-Machine Interfaces.",
-        "year": "2020",
-        "volume": "abs/2004.11690",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2004.11690",
-        "url": "db/journals/corr/corr2004.html#abs-2004-11690",
-        "authors": [
-          "Tibor Schneider",
-          "Xiaying Wang",
-          "Michael Hersche",
-          "Lukas Cavigelli",
-          "Luca Benini"
-        ]
+        "article": {
+          "@key": "journals/tbcas/WangCSB21",
+          "title": "Sub-100 $\\mu$W Multispectral Riemannian Classification for EEG-Based Brain-Machine Interfaces",
+          "journal": "IEEE Trans. Biomed. Circuits Syst.",
+          "year": "2021",
+          "pages": "1149-1160",
+          "ee": "https://doi.org/10.1109/TBCAS.2021.3137290",
+          "author": [
+            {
+              "#text": "Luca Benini",
+              "@pid": "b/LucaBenini"
+            },
+            {
+              "#text": "Lukas Cavigelli",
+              "@pid": "137/9406"
+            },
+            {
+              "#text": "Tibor Schneider",
+              "@pid": "259/3843"
+            },
+            {
+              "#text": "Xiaying Wang",
+              "@pid": "229/8936"
+            }
+          ]
+        }
       }
     ]
   }

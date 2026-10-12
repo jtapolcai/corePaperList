@@ -1,20 +1,30 @@
 {
   "dblpperson": {
+    "@name": "Katalin Gombos",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/GombosSS15",
-        "title": "How does environment and form influence colour perception?",
-        "pages": "313-317",
-        "year": "2015",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2015.7390610",
-        "url": "db/conf/coginfocom/coginfocom2015.html#GombosSS15",
-        "authors": [
-          "Katalin Gombos",
-          "Cecilia Sik-LÃ¡nyi",
-          "Krisztian Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/GombosSS15",
+          "title": "How does environment and form influence colour perception?",
+          "booktitle": "CogInfoCom",
+          "year": "2015",
+          "pages": "313-317",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2015.7390610",
+          "author": [
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Katalin Gombos",
+              "@pid": "333/9613"
+            },
+            {
+              "#text": "Krisztian Simon",
+              "@pid": "333/8713"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,0 +1,3119 @@
+{
+  "dblpperson": {
+    "@name": "László A. Végh",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/caan/HarksV07",
+          "title": "Nonadaptive Selfish Routing with Online Demands",
+          "booktitle": "CAAN",
+          "year": "2007",
+          "pages": "27-45",
+          "ee": "https://doi.org/10.1007/978-3-540-77294-1_5",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tobias Harks",
+              "@pid": "35/4992"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/DadushKNV21",
+          "title": "An Accelerated Newton-Dinkelbach Method and Its Application to Two Variables per Inequality Systems",
+          "booktitle": "ESA",
+          "year": "2021",
+          "pages": "36:1-36:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2021.36",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/MnichWV16",
+          "title": "A 7/3-Approximation for Feedback Vertex Sets in Tournaments",
+          "booktitle": "ESA",
+          "year": "2016",
+          "pages": "67:1-67:14",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2016.67",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Matthias Mnich",
+              "@pid": "10/2223"
+            },
+            {
+              "#text": "Virginia Vassilevska Williams",
+              "@pid": "63/8319"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/AllamigeonDLNV22",
+          "title": "Interior point methods are not worse than Simplex",
+          "booktitle": "FOCS",
+          "year": "2022",
+          "pages": "267-277",
+          "ee": "https://doi.org/10.1109/FOCS54457.2022.00032",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Xavier Allamigeon",
+              "@pid": "59/2233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/ChandrasekaranVV12",
+          "title": "The Cutting Plane Method Is Polynomial for Perfect Matchings",
+          "booktitle": "FOCS",
+          "year": "2012",
+          "pages": "571-580",
+          "ee": "https://doi.org/10.1109/FOCS.2012.35",
+          "author": [
+            {
+              "#text": "Karthekeyan Chandrasekaran",
+              "@pid": "83/1935"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Santosh S. Vempala",
+              "@pid": "v/SantoshVempala"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/CheriyanV13",
+          "title": "Approximating Minimum-Cost k-Node Connected Subgraphs via Independence-Free Graphs",
+          "booktitle": "FOCS",
+          "year": "2013",
+          "pages": "30-39",
+          "ee": "https://doi.org/10.1109/FOCS.2013.12",
+          "author": [
+            {
+              "#text": "Joseph Cheriyan",
+              "@pid": "87/5654"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/DadushNV20",
+          "title": "Revisiting Tardos's Framework for Linear Programming: Faster Exact Solutions using Approximate Solvers",
+          "booktitle": "FOCS",
+          "year": "2020",
+          "pages": "931-942",
+          "ee": "https://doi.org/10.1109/FOCS46700.2020.00091",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/Vegh12",
+          "title": "Concave Generalized Flows with Applications to Market Equilibria",
+          "booktitle": "FOCS",
+          "year": "2012",
+          "pages": "150-159",
+          "ee": "https://doi.org/10.1109/FOCS.2012.33",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/MarxV13",
+          "title": "Fixed-Parameter Algorithms for Minimum Cost Edge-Connectivity Augmentation",
+          "booktitle": "ICALP (1)",
+          "year": "2013",
+          "pages": "721-732",
+          "ee": "https://doi.org/10.1007/978-3-642-39206-1_61",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icumt/LakatosBKBKV11",
+          "title": "ILP based diverse path routing with node inclusion",
+          "booktitle": "ICUMT",
+          "year": "2011",
+          "pages": "1-8",
+          "author": [
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Kristóf Bérczi",
+              "@pid": "82/7567"
+            },
+            {
+              "#text": "Lajos Bajzik",
+              "@pid": "95/8141"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tamás Kárász",
+              "@pid": "192/3550"
+            },
+            {
+              "#text": "Zsolt Lakatos",
+              "@pid": "06/4977"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/LohoV20",
+          "title": "Signed Tropical Convexity",
+          "booktitle": "ITCS",
+          "year": "2020",
+          "pages": "24:1-24:35",
+          "ee": "https://doi.org/10.4230/LIPICS.ITCS.2020.24",
+          "author": [
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/BercziV10",
+          "title": "Restricted b-Matchings in Degree-Bounded Graphs",
+          "booktitle": "IPCO",
+          "year": "2010",
+          "pages": "43-56",
+          "ee": "https://doi.org/10.1007/978-3-642-13036-6_4",
+          "author": [
+            {
+              "#text": "Kristóf Bérczi",
+              "@pid": "82/7567"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/ColeHTV24",
+          "title": "A First Order Method for Linear Programming Parameterized by Circuit Imbalance",
+          "booktitle": "IPCO",
+          "year": "2024",
+          "pages": "57-70",
+          "ee": "https://doi.org/10.1007/978-3-031-59835-7_5",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Richard Cole",
+              "@pid": "96/5516"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/DadushKNV22",
+          "title": "On Circuit Diameter Bounds via Circuit Imbalances",
+          "booktitle": "IPCO",
+          "year": "2022",
+          "pages": "140-153",
+          "ee": "https://doi.org/10.1007/978-3-031-06901-7_11",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/DadushVZ16",
+          "title": "Rescaled Coordinate Descent Methods for Linear Programming",
+          "booktitle": "IPCO",
+          "year": "2016",
+          "pages": "26-37",
+          "ee": "https://doi.org/10.1007/978-3-319-33461-5_3",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/FujishigeKV23",
+          "title": "An Update-and-Stabilize Framework for the Minimum-Norm-Point Problem",
+          "booktitle": "IPCO",
+          "year": "2023",
+          "pages": "142-156",
+          "ee": "https://doi.org/10.1007/978-3-031-32726-1_11",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Satoru Fujishige",
+              "@pid": "91/6191"
+            },
+            {
+              "#text": "Tomonari Kitahara",
+              "@pid": "90/9298"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/HusicKLV23",
+          "title": "On the Correlation Gap of Matroids",
+          "booktitle": "IPCO",
+          "year": "2023",
+          "pages": "203-216",
+          "ee": "https://doi.org/10.1007/978-3-031-32726-1_15",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/IbrahimpurV25",
+          "title": "An O(log n)-Approximation Algorithm for (p, q)-Flexible Graph Connectivity via Independent Rounding",
+          "booktitle": "IPCO",
+          "year": "2025",
+          "pages": "312-325",
+          "ee": "https://doi.org/10.1007/978-3-031-93112-3_23",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Sharat Ibrahimpur",
+              "@pid": "200/9443"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/SvenssonTV16",
+          "title": "Constant Factor Approximation for ATSP with Two Edge Weights - (Extended Abstract)",
+          "booktitle": "IPCO",
+          "year": "2016",
+          "pages": "226-237",
+          "ee": "https://doi.org/10.1007/978-3-319-33461-5_19",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/EneNV17",
+          "title": "Decomposable Submodular Function Minimization: Discrete and Continuous",
+          "booktitle": "NIPS",
+          "year": "2017",
+          "pages": "2870-2880",
+          "author": [
+            {
+              "#text": "Alina Ene",
+              "@pid": "69/1732"
+            },
+            {
+              "#text": "Huy L. Nguyen",
+              "@pid": "62/3796"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/HertrichTV23",
+          "title": "Mode Connectivity in Auction Design",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/AkramiRV26",
+          "title": "Matroids are Equitable",
+          "booktitle": "SODA",
+          "year": "2026",
+          "pages": "5843-5860",
+          "ee": "https://doi.org/10.1137/1.9781611978971.207",
+          "author": [
+            {
+              "#text": "Hannaneh Akrami",
+              "@pid": "236/6003"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Roshan Raj",
+              "@pid": "47/3306"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/DadushOSV26",
+          "title": "From Incremental Transitive Cover to Strongly Polynomial Maximum Flow",
+          "booktitle": "SODA",
+          "year": "2026",
+          "pages": "150-163",
+          "ee": "https://doi.org/10.1137/1.9781611978971.7",
+          "author": [
+            {
+              "#text": "Aaron Sidford",
+              "@pid": "125/2326"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/DadushVZ18",
+          "title": "Geometric Rescaling Algorithms for Submodular Function Minimization",
+          "booktitle": "SODA",
+          "year": "2018",
+          "pages": "832-848",
+          "ee": "https://doi.org/10.1137/1.9781611975031.54",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/DadushVZ22",
+          "title": "On finding exact solutions of linear programs in the oracle model",
+          "booktitle": "SODA",
+          "year": "2022",
+          "pages": "2700-2722",
+          "ee": "https://doi.org/10.1137/1.9781611977073.106",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/GargTV22",
+          "title": "Approximating Equilibrium under Constrained Piecewise Linear Concave Utilities with Applications to Matching Markets",
+          "booktitle": "SODA",
+          "year": "2022",
+          "pages": "2269-2284",
+          "ee": "https://doi.org/10.1137/1.9781611977073.91",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/GargTV25",
+          "title": "Approximating Competitive Equilibrium by Nash Welfare",
+          "booktitle": "SODA",
+          "year": "2025",
+          "pages": "2538-2559",
+          "ee": "https://doi.org/10.1137/1.9781611978322.83",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/HusicLSV22",
+          "title": "On complete classes of valuated matroids",
+          "booktitle": "SODA",
+          "year": "2022",
+          "pages": "945-962",
+          "ee": "https://doi.org/10.1137/1.9781611977073.41",
+          "author": [
+            {
+              "#text": "Ben Smith",
+              "@pid": "10/4604"
+            },
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/OrlinV21",
+          "title": "Directed Shortest Paths via Approximate Cost Balancing",
+          "booktitle": "SODA",
+          "year": "2021",
+          "pages": "235-254",
+          "ee": "https://doi.org/10.1137/1.9781611976465.16",
+          "author": [
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/SinghV14",
+          "title": "Approximating Minimum Cost Connectivity Orientation and Augmentation",
+          "booktitle": "SODA",
+          "year": "2014",
+          "pages": "1687-1701",
+          "ee": "https://doi.org/10.1137/1.9781611973402.122",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Mohit Singh",
+              "@pid": "21/6018"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/VeghB05",
+          "title": "Primal-dual approach for directed vertex connectivity augmentation and generalizations",
+          "booktitle": "SODA",
+          "year": "2005",
+          "pages": "186-194",
+          "author": [
+            {
+              "#text": "András A. Benczúr",
+              "@pid": "66/5525"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/DadushKNOV25",
+          "title": "A Strongly Polynomial Algorithm for Linear Programs with at Most Two Non-Zero Entries per Row or Column (Invited Talk)",
+          "booktitle": "STACS",
+          "year": "2025",
+          "pages": "2:1-2:1",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2025.2",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Neil Olver",
+              "@pid": "22/2571"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/GargHV21",
+          "title": "Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands and Their Applications",
+          "booktitle": "STACS",
+          "year": "2021",
+          "pages": "33:1-33:19",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2021.33",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/DadushHNV20",
+          "title": "A scaling-invariant algorithm for linear programming whose running time depends only on the constraint matrix",
+          "booktitle": "STOC",
+          "year": "2020",
+          "pages": "761-774",
+          "ee": "https://doi.org/10.1145/3357713.3384326",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Sophie Huiberts",
+              "@pid": "210/1008"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/DadushKNOV24",
+          "title": "A Strongly Polynomial Algorithm for Linear Programs with At Most Two Nonzero Entries per Row or Column",
+          "booktitle": "STOC",
+          "year": "2024",
+          "pages": "1561-1572",
+          "ee": "https://doi.org/10.1145/3618260.3649764",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Neil Olver",
+              "@pid": "22/2571"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/DadushMNV26",
+          "title": "Trust Region Interior Point Methods: Optimal ℓ₂- and Faster Wide-Neighborhood Path Following",
+          "booktitle": "STOC",
+          "year": "2026",
+          "pages": "755-766",
+          "ee": "https://doi.org/10.1145/3798129.3800790",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Haoyuan Ma",
+              "@pid": "213/4893"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/GargHLVV23",
+          "title": "Approximating Nash Social Welfare by Matching and Local Search",
+          "booktitle": "STOC",
+          "year": "2023",
+          "pages": "1298-1310",
+          "ee": "https://doi.org/10.1145/3564246.3585255",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jan Vondrák",
+              "@pid": "29/5942"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Wenzheng Li",
+              "@pid": "36/4877"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/GargHV21",
+          "title": "Approximating Nash social welfare under rado valuations",
+          "booktitle": "STOC",
+          "year": "2021",
+          "pages": "1412-1425",
+          "ee": "https://doi.org/10.1145/3406325.3451031",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/GargV19",
+          "title": "A strongly polynomial algorithm for linear exchange markets",
+          "booktitle": "STOC",
+          "year": "2019",
+          "pages": "54-65",
+          "ee": "https://doi.org/10.1145/3313276.3316340",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/OlverV17",
+          "title": "A simpler and faster strongly polynomial algorithm for generalized flow maximization",
+          "booktitle": "STOC",
+          "year": "2017",
+          "pages": "100-111",
+          "ee": "https://doi.org/10.1145/3055399.3055439",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Neil Olver",
+              "@pid": "22/2571"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/SvenssonTV18",
+          "title": "A constant-factor approximation algorithm for the asymmetric traveling salesman problem",
+          "booktitle": "STOC",
+          "year": "2018",
+          "pages": "204-213",
+          "ee": "https://doi.org/10.1145/3188745.3188824",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/Vegh10",
+          "title": "Augmenting undirected node-connectivity by one",
+          "booktitle": "STOC",
+          "year": "2010",
+          "pages": "563-572",
+          "ee": "https://doi.org/10.1145/1806689.1806767",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/Vegh12",
+          "title": "Strongly polynomial algorithm for a class of minimum-cost flow problems with separable convex objectives",
+          "booktitle": "STOC",
+          "year": "2012",
+          "pages": "27-40",
+          "ee": "https://doi.org/10.1145/2213977.2213981",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/Vegh14",
+          "title": "A strongly polynomial algorithm for generalized flow maximization",
+          "booktitle": "STOC",
+          "year": "2014",
+          "pages": "644-653",
+          "ee": "https://doi.org/10.1145/2591796.2591806",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/GargHMV22",
+          "title": "Tractable Fragments of the Maximum Nash Welfare Problem",
+          "booktitle": "WINE",
+          "year": "2022",
+          "pages": "362-363",
+          "author": [
+            {
+              "#text": "Aniket Murhekar",
+              "@pid": "200/8297"
+            },
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/MehtaTVV14",
+          "title": "To Save Or Not To Save: The Fisher Game",
+          "booktitle": "WINE",
+          "year": "2014",
+          "pages": "294-307",
+          "ee": "https://doi.org/10.1007/978-3-319-13129-0_24",
+          "author": [
+            {
+              "#text": "Adrian Vetta",
+              "@pid": "v/AdrianVetta"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Nithum Thain",
+              "@pid": "99/7611"
+            },
+            {
+              "#text": "Ruta Mehta",
+              "@pid": "50/7864"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/PiliourasVV12",
+          "title": "LP-Based Covering Games with Low Price of Anarchy",
+          "booktitle": "WINE",
+          "year": "2012",
+          "pages": "184-197",
+          "ee": "https://doi.org/10.1007/978-3-642-35311-6_14",
+          "author": [
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tomás Valla",
+              "@pid": "91/8602"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cejor/BernathKKMPPSV13",
+          "title": "Algorithms for multiplayer multicommodity flow problems",
+          "journal": "Central Eur. J. Oper. Res.",
+          "year": "2013",
+          "pages": "699-712",
+          "ee": "https://doi.org/10.1007/S10100-012-0255-6",
+          "author": [
+            {
+              "#text": "Attila Bernáth",
+              "@pid": "63/3725"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gergely Mádi-Nagy",
+              "@pid": "83/4620"
+            },
+            {
+              "#text": "Gyula Pap",
+              "@pid": "64/34"
+            },
+            {
+              "#text": "Jácint Szabó",
+              "@pid": "39/4"
+            },
+            {
+              "#text": "Júlia Pap",
+              "@pid": "62/7261"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tamás Király",
+              "@pid": "26/1533"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/AkramiLRV26",
+          "title": "Matroids are Equitable",
+          "journal": "Comb.",
+          "year": "2026",
+          "pages": "22",
+          "ee": "https://doi.org/10.1007/S00493-026-00217-Y",
+          "author": [
+            {
+              "#text": "Hannaneh Akrami",
+              "@pid": "236/6003"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Roshan Raj",
+              "@pid": "47/3306"
+            },
+            {
+              "#text": "Siyue Liu",
+              "@pid": "361/2321"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/KovacsV11",
+          "title": "The constructive characterization of (κ, ℓ)-edge-connected digraphs",
+          "journal": "Comb.",
+          "year": "2011",
+          "pages": "201-223",
+          "ee": "https://doi.org/10.1007/S00493-011-2570-2",
+          "author": [
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1109-3893",
+          "title": "Concave Generalized Flows with Applications to Market Equilibria",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1109.3893",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1110-4882",
+          "title": "Strongly polynomial algorithm for a class of minimum-cost flow problems with separable convex objectives",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1110.4882",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1203-0050",
+          "title": "LP-based Covering Games with Low Price of Anarchy",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1203.0050",
+          "author": [
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tomás Valla",
+              "@pid": "91/8602"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1207-5813",
+          "title": "The Cutting Plane Method is Polynomial for Perfect Matchings",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1207.5813",
+          "author": [
+            {
+              "#text": "Karthekeyan Chandrasekaran",
+              "@pid": "83/1935"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Santosh S. Vempala",
+              "@pid": "v/SantoshVempala"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1207-6371",
+          "title": "On Mimicking Networks Representing Minimum Terminal Cuts",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1207.6371",
+          "author": [
+            {
+              "#text": "Arindam Khan",
+              "@pid": "96/9083-1"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Prasad Raghavendra",
+              "@pid": "69/3746"
+            },
+            {
+              "#text": "Prasad Tetali",
+              "@pid": "34/1161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1210-4694",
+          "title": "Oriented Euler Complexes and Signed Perfect Matchings",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1210.4694",
+          "author": [
+            {
+              "#text": "Bernhard von Stengel",
+              "@pid": "95/4774"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1212-3981",
+          "title": "Approximating Minimum-Cost k-Node Connected Subgraphs via Independence-Free Graphs",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1212.3981",
+          "author": [
+            {
+              "#text": "Joseph Cheriyan",
+              "@pid": "87/5654"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1304-6593",
+          "title": "Fixed-parameter algorithms for minimum cost edge-connectivity augmentation",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1304.6593",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1708-04215",
+          "title": "A Constant-Factor Approximation Algorithm for the Asymmetric Traveling Salesman Problem",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1708.04215",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-06266",
+          "title": "A Strongly Polynomial Algorithm for Linear Exchange Markets",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.06266",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-07948",
+          "title": "Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.07948",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1912-06252",
+          "title": "A scaling-invariant algorithm for linear programming whose running time depends only on the constraint matrix",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.06252",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Sophie Huiberts",
+              "@pid": "210/1008"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2004-08634",
+          "title": "A Strongly Polynomial Label-Correcting Algorithm for Linear Systems with Two Variables per Inequality",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.08634",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-07975",
+          "title": "Directed Shortest Paths via Approximate Cost Balancing",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.07975",
+          "author": [
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2009-04942",
+          "title": "Revisiting Tardos's Framework for Linear Programming: Faster Exact Solutions using Approximate Solvers",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2009.04942",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2009-14793",
+          "title": "Approximating Nash Social Welfare under Rado Valuations",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2009.14793",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2107-05700",
+          "title": "Approximating Equilibrium under Constrained Piecewise Linear Concave Utilities with Applications to Matching Markets",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.05700",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2107-06961",
+          "title": "On complete classes of valuated matroids",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.06961",
+          "author": [
+            {
+              "#text": "Ben Smith",
+              "@pid": "10/4604"
+            },
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2108-03616",
+          "title": "Circuit imbalance measures and linear programming",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.03616",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Farbod Ekbatani",
+              "@pid": "299/1967"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2111-07913",
+          "title": "On Circuit Diameter Bounds via Circuit Imbalances",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.07913",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2112-10199",
+          "title": "Tractable Fragments of the Maximum Nash Welfare Problem",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.10199",
+          "author": [
+            {
+              "#text": "Aniket Murhekar",
+              "@pid": "200/8297"
+            },
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2206-08810",
+          "title": "Interior point methods are not worse than Simplex",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.08810",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Xavier Allamigeon",
+              "@pid": "59/2233"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2209-09896",
+          "title": "On the Correlation Gap of Matroids",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2209.09896",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2211-03883",
+          "title": "Approximating Nash Social Welfare by Matching and Local Search",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.03883",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jan Vondrák",
+              "@pid": "29/5942"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Wenzheng Li",
+              "@pid": "36/4877"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-11005",
+          "title": "Mode Connectivity in Auction Design",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.11005",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-08454",
+          "title": "Faster Ascending Auctions via Polymatroid Sum",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.08454",
+          "author": [
+            {
+              "#text": "Britta Peis",
+              "@pid": "68/2328"
+            },
+            {
+              "#text": "Katharina Eickhoff",
+              "@pid": "335/7147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Laura Vargas Koch",
+              "@pid": "184/8459"
+            },
+            {
+              "#text": "Niklas Rieken",
+              "@pid": "345/8360"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2311-01959",
+          "title": "A First Order Method for Linear Programming Parameterized by Circuit Imbalance",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2311.01959",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Richard Cole",
+              "@pid": "96/5516"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-09994",
+          "title": "Approximating Competitive Equilibrium by Nash Welfare",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.09994",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-12549",
+          "title": "An O(log n)-Approximation Algorithm for (p,q)-Flexible Graph Connectivity via Independent Rounding",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.12549",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Sharat Ibrahimpur",
+              "@pid": "200/9443"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-03359",
+          "title": "Tight Efficiency Bounds for the Probabilistic Serial Mechanism under Cardinal Preferences",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.03359",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-12100",
+          "title": "Matroids are Equitable",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.12100",
+          "author": [
+            {
+              "#text": "Hannaneh Akrami",
+              "@pid": "236/6003"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Roshan Raj",
+              "@pid": "47/3306"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-20368",
+          "title": "From Incremental Transitive Cover to Strongly Polynomial Maximum Flow",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.20368",
+          "author": [
+            {
+              "#text": "Aaron Sidford",
+              "@pid": "125/2326"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-10701",
+          "title": "Handicap reduction for linear complementarity problems",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.10701",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Marianna Nagy",
+              "@pid": "83/5914"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-11820",
+          "title": "On finding exact solutions of linear programs in the oracle model",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.11820",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DadushVZ16",
+          "title": "Rescaling Algorithms for Linear Programming - Part I: Conic feasibility",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.06427",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DadushVZ17",
+          "title": "Geometric Rescaling Algorithms for Submodular Function Minimization",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1707.05065",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DevanurGV13",
+          "title": "A Rational Convex Program for Linear Arrow-Debreu Markets",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.8037",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Nikhil R. Devanur",
+              "@pid": "48/3493"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/EneNV17",
+          "title": "Decomposable Submodular Function Minimization: Discrete and Continuous",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.01830",
+          "author": [
+            {
+              "#text": "Alina Ene",
+              "@pid": "69/1732"
+            },
+            {
+              "#text": "Huy L. Nguyen",
+              "@pid": "62/3796"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MnichWV15",
+          "title": "A 7/3-Approximation for Feedback Vertex Sets in Tournaments",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.01137",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Matthias Mnich",
+              "@pid": "10/2223"
+            },
+            {
+              "#text": "Virginia Vassilevska Williams",
+              "@pid": "63/8319"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/OlverV16",
+          "title": "A Simpler and Faster Strongly Polynomial Algorithm for Generalized Flow Maximization",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.01778",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Neil Olver",
+              "@pid": "22/2571"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/SinghV13",
+          "title": "Approximating Minimum Cost Connectivity Orientation and Augmentation",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.4164",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Mohit Singh",
+              "@pid": "21/6018"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/SvenssonTV15",
+          "title": "Constant Factor Approximation for ATSP with Two Edge Weights",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.07038",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Vegh13",
+          "title": "Strongly polynomial algorithm for generalized flows",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.6809",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/VeghZ13",
+          "title": "A polynomial projection-type algorithm for linear programming",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.4334",
+          "author": [
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/disopt/FrankV08",
+          "title": "An algorithm to increase the node-connectivity of a digraph by one",
+          "journal": "Discret. Optim.",
+          "year": "2008",
+          "pages": "677-684",
+          "ee": "https://doi.org/10.1016/J.DISOPT.2008.03.002",
+          "author": [
+            {
+              "#text": "András Frank",
+              "@pid": "34/3494"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/geb/GargTV26",
+          "title": "Approximating competitive equilibrium by Nash welfare",
+          "journal": "Games Econ. Behav.",
+          "year": "2026",
+          "pages": "142-166",
+          "ee": "https://doi.org/10.1016/J.GEB.2026.03.004",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ior/GargV23",
+          "title": "A Strongly Polynomial Algorithm for Linear Exchange Markets",
+          "journal": "Oper. Res.",
+          "year": "2023",
+          "pages": "487-505",
+          "ee": "https://doi.org/10.1287/OPRE.2021.2258",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/itor/RosenheadV25",
+          "title": "IFORS' Operational Research Hall of Fame: Ailsa Land",
+          "journal": "Int. Trans. Oper. Res.",
+          "year": "2025",
+          "pages": "2429-2431",
+          "ee": "https://doi.org/10.1111/ITOR.13598",
+          "author": [
+            {
+              "#text": "Jonathan Rosenhead",
+              "@pid": "77/2620"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/GargHLVV26",
+          "title": "Approximating Nash Social Welfare by Matching and Local Search",
+          "journal": "J. ACM",
+          "year": "2026",
+          "pages": "20:1-20:25",
+          "ee": "https://doi.org/10.1145/3807505",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jan Vondrák",
+              "@pid": "29/5942"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Wenzheng Li",
+              "@pid": "36/4877"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/OlverV20",
+          "title": "A Simpler and Faster Strongly Polynomial Algorithm for Generalized Flow Maximization",
+          "journal": "J. ACM",
+          "year": "2020",
+          "pages": "10:1-10:26",
+          "ee": "https://doi.org/10.1145/3383454",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Neil Olver",
+              "@pid": "22/2571"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/OrlinV23",
+          "title": "Directed Shortest Paths via Approximate Cost Balancing",
+          "journal": "J. ACM",
+          "year": "2023",
+          "pages": "3:1-3:33",
+          "ee": "https://doi.org/10.1145/3565019",
+          "author": [
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/SvenssonTV20",
+          "title": "A Constant-factor Approximation Algorithm for the Asymmetric Traveling Salesman Problem",
+          "journal": "J. ACM",
+          "year": "2020",
+          "pages": "37:1-37:53",
+          "ee": "https://doi.org/10.1145/3424306",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/ChandrasekaranV16",
+          "title": "The Cutting Plane Method is Polynomial for Perfect Matchings",
+          "journal": "Math. Oper. Res.",
+          "year": "2016",
+          "pages": "23-48",
+          "ee": "https://doi.org/10.1287/MOOR.2015.0714",
+          "author": [
+            {
+              "#text": "Karthekeyan Chandrasekaran",
+              "@pid": "83/1935"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Santosh S. Vempala",
+              "@pid": "v/SantoshVempala"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/DadushKNV23",
+          "title": "An Accelerated Newton-Dinkelbach Method and Its Application to Two Variables per Inequality Systems",
+          "journal": "Math. Oper. Res.",
+          "year": "2023",
+          "pages": "1934-1958",
+          "ee": "https://doi.org/10.1287/MOOR.2022.1326",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/DadushVZ20",
+          "title": "Rescaling Algorithms for Linear Conic Feasibility",
+          "journal": "Math. Oper. Res.",
+          "year": "2020",
+          "pages": "732-754",
+          "ee": "https://doi.org/10.1287/MOOR.2019.1011",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/DadushVZ21",
+          "title": "Geometric Rescaling Algorithms for Submodular Function Minimization",
+          "journal": "Math. Oper. Res.",
+          "year": "2021",
+          "pages": "1081-1108",
+          "ee": "https://doi.org/10.1287/MOOR.2020.1064",
+          "author": [
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/FokkinkLV19",
+          "title": "On Submodular Search and Machine Scheduling",
+          "journal": "Math. Oper. Res.",
+          "year": "2019",
+          "pages": "1431-1449",
+          "ee": "https://doi.org/10.1287/MOOR.2018.0978",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Robbert Fokkink",
+              "@pid": "58/8187"
+            },
+            {
+              "#text": "Tom Lidbetter",
+              "@pid": "53/8816"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/HertrichTV26",
+          "title": "Mode Connectivity in Auction Design",
+          "journal": "Math. Oper. Res.",
+          "year": "2026",
+          "pages": "456-475",
+          "ee": "https://doi.org/10.1287/MOOR.2024.0525",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/Vegh14",
+          "title": "Concave Generalized Flows with Applications to Market Equilibria",
+          "journal": "Math. Oper. Res.",
+          "year": "2014",
+          "pages": "573-596",
+          "ee": "https://doi.org/10.1287/MOOR.2013.0623",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/Vegh17",
+          "title": "A Strongly Polynomial Algorithm for Generalized Flow Maximization",
+          "journal": "Math. Oper. Res.",
+          "year": "2017",
+          "pages": "179-211",
+          "ee": "https://doi.org/10.1287/MOOR.2016.0800",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/ColeHTV26",
+          "title": "A first order method for linear programming parameterized by circuit imbalance",
+          "journal": "Math. Program.",
+          "year": "2026",
+          "pages": "339-377",
+          "ee": "https://doi.org/10.1007/S10107-025-02264-7",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Richard Cole",
+              "@pid": "96/5516"
+            },
+            {
+              "#text": "Yixin Tao",
+              "@pid": "133/3849"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/DadushHNV24",
+          "title": "A scaling-invariant algorithm for linear programming whose running time depends only on the constraint matrix",
+          "journal": "Math. Program.",
+          "year": "2024",
+          "pages": "135-206",
+          "ee": "https://doi.org/10.1007/S10107-023-01956-2",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Sophie Huiberts",
+              "@pid": "210/1008"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/DadushKNV24",
+          "title": "On circuit diameter bounds via circuit imbalances",
+          "journal": "Math. Program.",
+          "year": "2024",
+          "pages": "631-662",
+          "ee": "https://doi.org/10.1007/S10107-024-02107-X",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/FujishigeKV25",
+          "title": "An update-and-stabilize framework for the minimum-norm-point problem",
+          "journal": "Math. Program.",
+          "year": "2025",
+          "pages": "281-311",
+          "ee": "https://doi.org/10.1007/S10107-024-02077-0",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Satoru Fujishige",
+              "@pid": "91/6191"
+            },
+            {
+              "#text": "Tomonari Kitahara",
+              "@pid": "90/9298"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/HusicKLV25",
+          "title": "On the correlation gap of matroids",
+          "journal": "Math. Program.",
+          "year": "2025",
+          "pages": "407-456",
+          "ee": "https://doi.org/10.1007/S10107-024-02116-W",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Zhuan Khye Koh",
+              "@pid": "206/6109"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/SvenssonTV18",
+          "title": "Constant factor approximation for ATSP with two edge weights",
+          "journal": "Math. Program.",
+          "year": "2018",
+          "pages": "371-397",
+          "ee": "https://doi.org/10.1007/S10107-017-1195-7",
+          "author": [
+            {
+              "#text": "Jakub Tarnawski",
+              "@pid": "157/6045"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Ola Svensson",
+              "@pid": "11/6945"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/VeghS15",
+          "title": "Oriented Euler complexes and signed perfect matchings",
+          "journal": "Math. Program.",
+          "year": "2015",
+          "pages": "153-178",
+          "ee": "https://doi.org/10.1007/S10107-014-0770-4",
+          "author": [
+            {
+              "#text": "Bernhard von Stengel",
+              "@pid": "95/4774"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mst/PiliourasVV15",
+          "title": "LP-Based Covering Games with Low Price of Anarchy",
+          "journal": "Theory Comput. Syst.",
+          "year": "2015",
+          "pages": "238-260",
+          "ee": "https://doi.org/10.1007/S00224-014-9587-Z",
+          "author": [
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Tomás Valla",
+              "@pid": "91/8602"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/orl/VeghZ14",
+          "title": "A polynomial projection-type algorithm for linear programming",
+          "journal": "Oper. Res. Lett.",
+          "year": "2014",
+          "pages": "91-96",
+          "ee": "https://doi.org/10.1016/J.ORL.2013.12.007",
+          "author": [
+            {
+              "#text": "Giacomo Zambelli",
+              "@pid": "45/1147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/shonan-reports/FukunagaRV16",
+          "title": "Current Trends in Combinatorial Optimization (NII Shonan Meeting 2016-7)",
+          "journal": "NII Shonan Meet. Rep.",
+          "year": "2016",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "R. Ravi",
+              "@pid": "r/RRavi-1"
+            },
+            {
+              "#text": "Takuro Fukunaga",
+              "@pid": "35/6826"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/AllamigeonDLNV25",
+          "title": "Interior Point Methods Are Not Worse than Simplex",
+          "journal": "SIAM J. Comput.",
+          "year": "2025",
+          "pages": "S22-178",
+          "ee": "https://doi.org/10.1137/23M1554588",
+          "author": [
+            {
+              "#text": "Bento Natura",
+              "@pid": "255/7588"
+            },
+            {
+              "#text": "Daniel Dadush",
+              "@pid": "07/3765"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Xavier Allamigeon",
+              "@pid": "59/2233"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/CheriyanV14",
+          "title": "Approximating Minimum-Cost k-Node Connected Subgraphs via Independence-Free Graphs",
+          "journal": "SIAM J. Comput.",
+          "year": "2014",
+          "pages": "1342-1362",
+          "ee": "https://doi.org/10.1137/120902847",
+          "author": [
+            {
+              "#text": "Joseph Cheriyan",
+              "@pid": "87/5654"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/SinghV18",
+          "title": "Approximating Minimum Cost Connectivity Orientation and Augmentation",
+          "journal": "SIAM J. Comput.",
+          "year": "2018",
+          "pages": "270-293",
+          "ee": "https://doi.org/10.1137/15100583X",
+          "author": [
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Mohit Singh",
+              "@pid": "21/6018"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/Vegh16",
+          "title": "A Strongly Polynomial Algorithm for a Class of Minimum-Cost Flow Problems with Separable Convex Objectives",
+          "journal": "SIAM J. Comput.",
+          "year": "2016",
+          "pages": "1729-1761",
+          "ee": "https://doi.org/10.1137/140978296",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamdm/Vegh11",
+          "title": "Augmenting Undirected Node-Connectivity by One",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2011",
+          "pages": "695-718",
+          "ee": "https://doi.org/10.1137/100787507",
+          "author": {
+            "#text": "László A. Végh",
+            "@pid": "12/2680"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigecom/GargHV21",
+          "title": "Approximating nash social welfare under rado valuations",
+          "journal": "SIGecom Exch.",
+          "year": "2021",
+          "pages": "45-51",
+          "ee": "https://doi.org/10.1145/3476436.3476444",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/MarxV15",
+          "title": "Fixed-Parameter Algorithms for Minimum-Cost Edge-Connectivity Augmentation",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2015",
+          "pages": "27:1-27:24",
+          "ee": "https://doi.org/10.1145/2700210",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/VeghB08",
+          "title": "Primal-dual approach for directed vertex connectivity augmentation and generalizations",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2008",
+          "pages": "20:1-20:21",
+          "ee": "https://doi.org/10.1145/1361192.1361197",
+          "author": [
+            {
+              "#text": "András A. Benczúr",
+              "@pid": "66/5525"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/DevanurGV16",
+          "title": "A Rational Convex Program for Linear Arrow-Debreu Markets",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2016",
+          "pages": "6:1-6:13",
+          "author": [
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Nikhil R. Devanur",
+              "@pid": "48/3493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/EickhoffNPRKV25",
+          "title": "Faster Dynamic Auctions via Polymatroid Sum",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2025",
+          "pages": "13:1-13:47",
+          "ee": "https://doi.org/10.1145/3729429",
+          "author": [
+            {
+              "#text": "Britta Peis",
+              "@pid": "68/2328"
+            },
+            {
+              "#text": "Katharina Eickhoff",
+              "@pid": "335/7147"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Laura Vargas Koch",
+              "@pid": "184/8459"
+            },
+            {
+              "#text": "Meike Neuwohner",
+              "@pid": "284/0749"
+            },
+            {
+              "#text": "Niklas Rieken",
+              "@pid": "345/8360"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/GargHV23",
+          "title": "An Auction Algorithm for Market Equilibrium with Weak Gross Substitute Demands",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2023",
+          "pages": "1-24",
+          "ee": "https://doi.org/10.1145/3624558",
+          "author": [
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Jugal Garg",
+              "@pid": "04/7867"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/theoretics/HusicLSV24",
+          "title": "On complete classes of valuated matroids",
+          "journal": "TheoretiCS",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/THEORETICS.24.24",
+          "author": [
+            {
+              "#text": "Ben Smith",
+              "@pid": "10/4604"
+            },
+            {
+              "#text": "Edin Husic",
+              "@pid": "194/2616"
+            },
+            {
+              "#text": "Georg Loho",
+              "@pid": "178/6497"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toc/Ron-ZewiBV21",
+          "title": "Special Issue: APPROX-RANDOM 2019: Guest Editors' Foreword",
+          "journal": "Theory Comput.",
+          "year": "2021",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.4086/TOC.2021.V017A003",
+          "author": [
+            {
+              "#text": "Ivona Bezáková",
+              "@pid": "71/180"
+            },
+            {
+              "#text": "László A. Végh",
+              "@pid": "12/2680"
+            },
+            {
+              "#text": "Noga Ron-Zewi",
+              "@pid": "54/8727"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

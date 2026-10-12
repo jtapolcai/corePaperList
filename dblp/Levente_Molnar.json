@@ -1,52 +1,78 @@
 {
   "dblpperson": {
+    "@name": "Levente Molnar",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/MolnarV09",
-        "title": "Verification of autonomous underwater vehicles using formal logic.",
-        "pages": "1263-1268",
-        "year": "2009",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2009.7074579",
-        "url": "db/conf/eucc/eucc2009.html#MolnarV09",
-        "authors": [
-          "Levente Molnar",
-          "Sandor M. Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/MolnarV09",
+          "title": "Verification of autonomous underwater vehicles using formal logic",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "1263-1268",
+          "ee": "https://doi.org/10.23919/ECC.2009.7074579",
+          "author": [
+            {
+              "#text": "Levente Molnar",
+              "@pid": "49/9925"
+            },
+            {
+              "#text": "Sandor M. Veres",
+              "@pid": "06/7141"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcai/EzekielLMV11",
-        "title": "Verifying Fault Tolerance and Self-Diagnosability of an Autonomous Underwater Vehicle.",
-        "pages": "1659-1664",
-        "year": "2011",
-        "booktitle": "IJCAI",
-        "ee": "https://doi.org/10.5591/978-1-57735-516-8/IJCAI11-279",
-        "url": "db/conf/ijcai/ijcai2011.html#EzekielLMV11",
-        "authors": [
-          "Jonathan Ezekiel",
-          "Alessio Lomuscio",
-          "Levente Molnar",
-          "Sandor M. Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcai/EzekielLMV11",
+          "title": "Verifying Fault Tolerance and Self-Diagnosability of an Autonomous Underwater Vehicle",
+          "booktitle": "IJCAI",
+          "year": "2011",
+          "pages": "1659-1664",
+          "ee": "https://doi.org/10.5591/978-1-57735-516-8/IJCAI11-279",
+          "author": [
+            {
+              "#text": "Alessio Lomuscio",
+              "@pid": "l/AlessioLomuscio"
+            },
+            {
+              "#text": "Jonathan Ezekiel",
+              "@pid": "04/1884"
+            },
+            {
+              "#text": "Levente Molnar",
+              "@pid": "49/9925"
+            },
+            {
+              "#text": "Sandor M. Veres",
+              "@pid": "06/7141"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijcon/MolnarOT07",
-        "title": "Guidance, navigation and control system for the Tethra unmanned underwater vehicle.",
-        "pages": "1050-1076",
-        "year": "2007",
-        "volume": "80",
-        "journal": "Int. J. Control",
-        "number": "7",
-        "ee": "https://doi.org/10.1080/00207170701245039",
-        "url": "db/journals/ijcon/ijcon80.html#MolnarOT07",
-        "authors": [
-          "Levente Molnar",
-          "Edin Omerdic",
-          "Daniel J. F. Toal"
-        ]
+        "article": {
+          "@key": "journals/ijcon/MolnarOT07",
+          "title": "Guidance, navigation and control system for the Tethra unmanned underwater vehicle",
+          "journal": "Int. J. Control",
+          "year": "2007",
+          "pages": "1050-1076",
+          "ee": "https://doi.org/10.1080/00207170701245039",
+          "author": [
+            {
+              "#text": "Daniel J. F. Toal",
+              "@pid": "39/2963"
+            },
+            {
+              "#text": "Edin Omerdic",
+              "@pid": "85/3849"
+            },
+            {
+              "#text": "Levente Molnar",
+              "@pid": "49/9925"
+            }
+          ]
+        }
       }
     ]
   }

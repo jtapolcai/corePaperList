@@ -1,102 +1,169 @@
 {
   "dblpperson": {
+    "@name": "Peter Laborczi",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ispan/TorokLM09",
-        "title": "Spatial Context-Awareness in Vehicular Ad Hoc Networks.",
-        "pages": "642-647",
-        "year": "2009",
-        "booktitle": "ISPAN",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/I-SPAN.2009.93",
-        "url": "db/conf/ispan/ispan2009.html#TorokLM09",
-        "authors": [
-          "Attila TÃ¶rÃ¶k",
-          "Peter Laborczi",
-          "Balazs Mezny"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/LaborcziTHCRM01",
+          "title": "Algorithms for Asymmetrically Weighted Pair of Disjoint Paths in Survivable Networks",
+          "booktitle": "DRCN",
+          "year": "2001",
+          "pages": "220-227",
+          "author": [
+            {
+              "#text": "András Recski",
+              "@pid": "45/473"
+            },
+            {
+              "#text": "Hussein T. Mouftah",
+              "@pid": "217/2530"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            },
+            {
+              "#text": "Pin-Han Ho",
+              "@pid": "53/4284"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pimrc/TorokVL0V06",
-        "title": "Analysis of Scatternet Formation in High-Rate Multi-Hop WPANS.",
-        "pages": "1-6",
-        "year": "2006",
-        "booktitle": "PIMRC",
-        "ee": "https://doi.org/10.1109/PIMRC.2006.254148",
-        "url": "db/conf/pimrc/pimrc2006.html#TorokVL0V06",
-        "authors": [
-          "Attila TÃ¶rÃ¶k",
-          "LÃ³rÃ¡nt Vajda",
-          "Peter Laborczi",
-          "ZoltÃ¡n FÃ¼lÃ¶p 0002",
-          "Attila VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/ispan/TorokLM09",
+          "title": "Spatial Context-Awareness in Vehicular Ad Hoc Networks",
+          "booktitle": "ISPAN",
+          "year": "2009",
+          "pages": "642-647",
+          "ee": "https://doi.org/10.1109/I-SPAN.2009.93",
+          "author": [
+            {
+              "#text": "Attila Török",
+              "@pid": "67/3824"
+            },
+            {
+              "#text": "Balazs Mezny",
+              "@pid": "24/7868"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vtc/TorokLG08",
-        "title": "Spatially Constrained Dissemination of Traffic Information in Vehicular Ad Hoc Networks.",
-        "pages": "1-5",
-        "year": "2008",
-        "booktitle": "VTC Fall",
-        "ee": "https://doi.org/10.1109/VETECF.2008.20",
-        "url": "db/conf/vtc/vtc2008f.html#TorokLG08",
-        "authors": [
-          "Attila TÃ¶rÃ¶k",
-          "Peter Laborczi",
-          "Gabor Gerhath"
-        ]
+        "inproceedings": {
+          "@key": "conf/pimrc/TorokVL0V06",
+          "title": "Analysis of Scatternet Formation in High-Rate Multi-Hop WPANS",
+          "booktitle": "PIMRC",
+          "year": "2006",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/PIMRC.2006.254148",
+          "author": [
+            {
+              "#text": "Attila Török",
+              "@pid": "67/3824"
+            },
+            {
+              "#text": "Attila Vidács",
+              "@pid": "04/2121"
+            },
+            {
+              "#text": "Lóránt Vajda",
+              "@pid": "01/5836"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            },
+            {
+              "#text": "Zoltán Fülöp",
+              "@pid": "46/8140"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/LaborcziTHCRM01",
-        "title": "Algorithms for Asymmetrically Weighted Pair of Disjoint Paths in Survivable Networks.",
-        "pages": "220-227",
-        "year": "2001",
-        "booktitle": "DRCN",
-        "url": "db/conf/drcn/drcn2001.html#LaborcziTHCRM01",
-        "authors": [
-          "Peter Laborczi",
-          "JÃ¡nos Tapolcai",
-          "Pin-Han Ho",
-          "Tibor Cinkler",
-          "AndrÃ¡s Recski",
-          "Hussein T. Mouftah"
-        ]
+        "inproceedings": {
+          "@key": "conf/vtc/TorokLG08",
+          "title": "Spatially Constrained Dissemination of Traffic Information in Vehicular Ad Hoc Networks",
+          "booktitle": "VTC Fall",
+          "year": "2008",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECF.2008.20",
+          "author": [
+            {
+              "#text": "Attila Török",
+              "@pid": "67/3824"
+            },
+            {
+              "#text": "Gabor Gerhath",
+              "@pid": "24/6406"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/endm/LaborcziMTR10",
-        "title": "Query-based Information Gathering in Intelligent Transportation Systems.",
-        "pages": "1201-1208",
-        "year": "2010",
-        "volume": "36",
-        "journal": "Electron. Notes Discret. Math.",
-        "ee": "https://doi.org/10.1016/j.endm.2010.05.152",
-        "url": "db/journals/endm/endm36.html#LaborcziMTR10",
-        "authors": [
-          "Peter Laborczi",
-          "Balazs Mezny",
-          "Attila TÃ¶rÃ¶k",
-          "ZoltÃ¡n Ruzsa"
-        ]
+        "article": {
+          "@key": "journals/endm/LaborcziMTR10",
+          "title": "Query-based Information Gathering in Intelligent Transportation Systems",
+          "journal": "Electron. Notes Discret. Math.",
+          "year": "2010",
+          "pages": "1201-1208",
+          "ee": "https://doi.org/10.1016/J.ENDM.2010.05.152",
+          "author": [
+            {
+              "#text": "Attila Török",
+              "@pid": "67/3824"
+            },
+            {
+              "#text": "Balazs Mezny",
+              "@pid": "24/7868"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            },
+            {
+              "#text": "Zoltán Ruzsa",
+              "@pid": "88/8724"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/pnc/HarmatosL02",
-        "title": "Dynamic Routing and Wavelength Assignment in Survivable WDM Networks.",
-        "pages": "357-376",
-        "year": "2002",
-        "volume": "4",
-        "journal": "Photonic Netw. Commun.",
-        "number": "3-4",
-        "ee": "https://doi.org/10.1023/A%3A1016072216748",
-        "url": "db/journals/pnc/pnc4.html#HarmatosL02",
-        "authors": [
-          "JÃ¡nos Harmatos",
-          "Peter Laborczi"
-        ]
+        "article": {
+          "@key": "journals/pnc/HarmatosL02",
+          "title": "Dynamic Routing and Wavelength Assignment in Survivable WDM Networks",
+          "journal": "Photonic Netw. Commun.",
+          "year": "2002",
+          "pages": "357-376",
+          "ee": "https://doi.org/10.1023/A%3A1016072216748",
+          "author": [
+            {
+              "#text": "János Harmatos",
+              "@pid": "05/4105"
+            },
+            {
+              "#text": "Peter Laborczi",
+              "@pid": "74/6983"
+            }
+          ]
+        }
       }
     ]
   }

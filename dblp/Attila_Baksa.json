@@ -1,49 +1,102 @@
 {
   "dblpperson": {
+    "@name": "Attila Baksa",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/adaEurope/BalazsBBHKPRSSS15",
-        "title": "The Central on-Board Computer of the Philae Lander in the Context of the Rosetta Space Mission.",
-        "pages": "18-30",
-        "year": "2015",
-        "booktitle": "Ada-Europe",
-        "ee": "https://doi.org/10.1007/978-3-319-19584-1_2",
-        "url": "db/conf/adaEurope/adaEurope2015.html#BalazsBBHKPRSSS15",
-        "authors": [
-          "AndrÃ¡s BalÃ¡zs",
-          "Attila Baksa",
-          "H. Bitterlich",
-          "I. Hernyes",
-          "O. KÃ¼chemann",
-          "Zoltan PÃ¡los",
-          "J. Rustenbach",
-          "W. Schmidt",
-          "PÃ©ter SpÃ¡nyi",
-          "J. SulyÃ¡n",
-          "SÃ¡ndor Szalai",
-          "Laszlo VÃ¡rhalmi"
-        ]
+        "inproceedings": {
+          "@key": "conf/adaEurope/BalazsBBHKPRSSS15",
+          "title": "The Central on-Board Computer of the Philae Lander in the Context of the Rosetta Space Mission",
+          "booktitle": "Ada-Europe",
+          "year": "2015",
+          "pages": "18-30",
+          "ee": "https://doi.org/10.1007/978-3-319-19584-1_2",
+          "author": [
+            {
+              "#text": "András Balázs",
+              "@pid": "175/8691"
+            },
+            {
+              "#text": "Attila Baksa",
+              "@pid": "163/4573"
+            },
+            {
+              "#text": "H. Bitterlich",
+              "@pid": "163/4447"
+            },
+            {
+              "#text": "I. Hernyes",
+              "@pid": "163/4579"
+            },
+            {
+              "#text": "J. Rustenbach",
+              "@pid": "163/4594"
+            },
+            {
+              "#text": "J. Sulyán",
+              "@pid": "163/4450"
+            },
+            {
+              "#text": "Laszlo Várhalmi",
+              "@pid": "163/4487"
+            },
+            {
+              "#text": "O. Küchemann",
+              "@pid": "163/4471"
+            },
+            {
+              "#text": "Péter Spányi",
+              "@pid": "03/1812"
+            },
+            {
+              "#text": "Sándor Szalai",
+              "@pid": "16/7498"
+            },
+            {
+              "#text": "W. Schmidt",
+              "@pid": "47/2464"
+            },
+            {
+              "#text": "Zoltan Pálos",
+              "@pid": "177/0486"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/software/BaksaBPSSV16",
-        "title": "Software on a Comet: The Philae Lander's Central Onboard Computer.",
-        "pages": "81-84",
-        "year": "2016",
-        "volume": "33",
-        "journal": "IEEE Softw.",
-        "number": "2",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/MS.2016.40",
-        "url": "db/journals/software/software33.html#BaksaBPSSV16",
-        "authors": [
-          "Attila Baksa",
-          "AndrÃ¡s BalÃ¡zs",
-          "Zoltan PÃ¡los",
-          "PÃ©ter SpÃ¡nyi",
-          "SÃ¡ndor Szalai",
-          "Laszlo VÃ¡rhalmi"
-        ]
+        "article": {
+          "@key": "journals/software/BaksaBPSSV16",
+          "title": "Software on a Comet: The Philae Lander's Central Onboard Computer",
+          "journal": "IEEE Softw.",
+          "year": "2016",
+          "pages": "81-84",
+          "ee": "https://doi.org/10.1109/MS.2016.40",
+          "author": [
+            {
+              "#text": "András Balázs",
+              "@pid": "175/8691"
+            },
+            {
+              "#text": "Attila Baksa",
+              "@pid": "163/4573"
+            },
+            {
+              "#text": "Laszlo Várhalmi",
+              "@pid": "163/4487"
+            },
+            {
+              "#text": "Péter Spányi",
+              "@pid": "03/1812"
+            },
+            {
+              "#text": "Sándor Szalai",
+              "@pid": "16/7498"
+            },
+            {
+              "#text": "Zoltan Pálos",
+              "@pid": "177/0486"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,619 +1,961 @@
 {
   "dblpperson": {
+    "@name": "Roland Molontay",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/asmta/HorvathFKMMV17",
-        "title": "Markovian Queue with Garbage Collection.",
-        "pages": "109-124",
-        "year": "2017",
-        "booktitle": "ASMTA",
-        "ee": "https://doi.org/10.1007/978-3-319-61428-1_8",
-        "url": "db/conf/asmta/asmta2017.html#HorvathFKMMV17",
-        "authors": [
-          "IllÃ©s HorvÃ¡th",
-          "IstvÃ¡n Finta",
-          "Ferenc KovÃ¡cs",
-          "AndrÃ¡s MÃ©szÃ¡ros",
-          "Roland Molontay",
-          "KrisztiÃ¡n Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/aime/KissMP26",
+          "title": "The Critical Role of Model Selection in Causal Inference: A Comparative Analysis of Classification Models Within the InferBERT Framework for Pharmacovigilance",
+          "booktitle": "AIME (1)",
+          "year": "2027",
+          "pages": "174-178",
+          "ee": "https://doi.org/10.1007/978-3-032-30710-1_21",
+          "author": [
+            {
+              "#text": "Csaba Kiss",
+              "@pid": "27/646"
+            },
+            {
+              "#text": "Gabriele Pergola",
+              "@pid": "180/3707"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/asmta/EgriHKM16",
-        "title": "Fingerprinting and Reconstruction of Functionals of Discrete Time Markov Chains.",
-        "pages": "140-154",
-        "year": "2016",
-        "booktitle": "ASMTA",
-        "ee": "https://doi.org/10.1007/978-3-319-43904-4_10",
-        "url": "db/conf/asmta/asmta2016.html#EgriHKM16",
-        "authors": [
-          "Attila Egri",
-          "IllÃ©s HorvÃ¡th",
-          "Ferenc KovÃ¡cs",
-          "Roland Molontay"
-        ]
+        "inproceedings": {
+          "@key": "conf/asmta/EgriHKM16",
+          "title": "Fingerprinting and Reconstruction of Functionals of Discrete Time Markov Chains",
+          "booktitle": "ASMTA",
+          "year": "2016",
+          "pages": "140-154",
+          "ee": "https://doi.org/10.1007/978-3-319-43904-4_10",
+          "author": [
+            {
+              "#text": "Attila Egri",
+              "@pid": "183/8078"
+            },
+            {
+              "#text": "Ferenc Kovács",
+              "@pid": "96/2829"
+            },
+            {
+              "#text": "Illés Horváth",
+              "@pid": "59/7058"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sofsem/MolontayV19",
-        "title": "On the Complexity of Color-Avoiding Site and Bond Percolation.",
-        "pages": "354-367",
-        "year": "2019",
-        "booktitle": "SOFSEM",
-        "ee": "https://doi.org/10.1007/978-3-030-10801-4_28",
-        "url": "db/conf/sofsem/sofsem2019.html#MolontayV19",
-        "authors": [
-          "Roland Molontay",
-          "Kitti Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/asmta/HorvathFKMMV17",
+          "title": "Markovian Queue with Garbage Collection",
+          "booktitle": "ASMTA",
+          "year": "2017",
+          "pages": "109-124",
+          "ee": "https://doi.org/10.1007/978-3-319-61428-1_8",
+          "author": [
+            {
+              "#text": "András Mészáros",
+              "@pid": "124/6083"
+            },
+            {
+              "#text": "Ferenc Kovács",
+              "@pid": "96/2829"
+            },
+            {
+              "#text": "Illés Horváth",
+              "@pid": "59/7058"
+            },
+            {
+              "#text": "István Finta",
+              "@pid": "201/0499"
+            },
+            {
+              "#text": "Krisztián Varga",
+              "@pid": "133/2611"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/MagyarNM26",
-        "title": "Interpretable Clustering of Anomalous Log Sequences Using a Shap-Based Surrogate Framework.",
-        "booktitle": "NOMS",
-        "year": "2026",
-        "pages": "1-7",
-        "ee": "https://doi.org/10.1109/NOMS69089.2026.11668135",
-        "url": "db/conf/noms/noms2026.html#MagyarNM26",
-        "authors": [
-          "RÃ³bert Attila Magyar",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "inproceedings": {
+          "@key": "conf/asunam/MolontayN19",
+          "title": "Two decades of network science: as seen through the co-authorship network of network scientists",
+          "booktitle": "ASONAM",
+          "year": "2019",
+          "pages": "578-583",
+          "ee": "https://doi.org/10.1145/3341161.3343685",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/SzalaiBHM25",
-        "title": "LODA Revisited: Enhancements for Robust Online Anomaly Detection with Concept Drift Handling.",
-        "booktitle": "SMC",
-        "year": "2025",
-        "pages": "933-938",
-        "ee": "https://doi.org/10.1109/SMC58881.2025.11343703",
-        "url": "db/conf/smc/smc2025.html#SzalaiBHM25",
-        "authors": [
-          "MÃ¡rk DÃ¡niel Szalai",
-          "MÃ¡tÃ© Baranyi",
-          "GÃ¡bor HorvÃ¡th 0002",
-          "Roland Molontay"
-        ]
+        "inproceedings": {
+          "@key": "conf/asunam/NagyM19",
+          "title": "On the structural properties of social networks and their measurement-calibrated synthetic counterparts",
+          "booktitle": "ASONAM",
+          "year": "2019",
+          "pages": "584-588",
+          "ee": "https://doi.org/10.1145/3341161.3343686",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iv/HorvathMS18",
-        "title": "Visualizing Student Flows to Track Retention and Graduation Rates.",
-        "pages": "338-343",
-        "year": "2018",
-        "booktitle": "IV",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/iV.2018.00064",
-        "url": "db/conf/iv/iv2018.html#HorvathMS18",
-        "authors": [
-          "Daniel Marton Horvath",
-          "Roland Molontay",
-          "MihÃ¡ly SzabÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/iv/HorvathMS18",
+          "title": "Visualizing Student Flows to Track Retention and Graduation Rates",
+          "booktitle": "IV",
+          "year": "2018",
+          "pages": "338-343",
+          "ee": "https://doi.org/10.1109/IV.2018.00064",
+          "author": [
+            {
+              "#text": "Daniel Marton Horvath",
+              "@pid": "231/4706"
+            },
+            {
+              "#text": "Mihály Szabó",
+              "@pid": "275/6972"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigite/BaranyiNM20",
-        "title": "Interpretable Deep Learning for University Dropout Prediction.",
-        "pages": "13-19",
-        "year": "2020",
-        "booktitle": "SIGITE",
-        "ee": "https://doi.org/10.1145/3368308.3415382",
-        "url": "db/conf/sigite/sigite2020.html#BaranyiNM20",
-        "authors": [
-          "MÃ¡tÃ© Baranyi",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/MagyarNM26",
+          "title": "Interpretable Clustering of Anomalous Log Sequences Using a Shap-Based Surrogate Framework",
+          "booktitle": "NOMS",
+          "year": "2026",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/NOMS69089.2026.11668135",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Róbert Attila Magyar",
+              "@pid": "445/2652"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aime/KissMP26",
-        "title": "The Critical Role of Model Selection in Causal Inference: A Comparative Analysis of Classification Models Within the InferBERT Framework for Pharmacovigilance.",
-        "booktitle": "AIME (1)",
-        "year": "2026",
-        "pages": "174-178",
-        "ee": "https://doi.org/10.1007/978-3-032-30710-1_21",
-        "url": "db/conf/aime/aime2026-1.html#KissMP26",
-        "authors": [
-          "Csaba Kiss",
-          "Roland Molontay",
-          "Gabriele Pergola"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigite/BaranyiNM20",
+          "title": "Interpretable Deep Learning for University Dropout Prediction",
+          "booktitle": "SIGITE",
+          "year": "2020",
+          "pages": "13-19",
+          "ee": "https://doi.org/10.1145/3368308.3415382",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Máté Baranyi",
+              "@pid": "276/3065"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/asunam/NagyM19",
-        "title": "On the structural properties of social networks and their measurement-calibrated synthetic counterparts.",
-        "pages": "584-588",
-        "year": "2019",
-        "booktitle": "ASONAM",
-        "ee": "https://doi.org/10.1145/3341161.3343686",
-        "url": "db/conf/asunam/asonam2019.html#NagyM19",
-        "authors": [
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/SzalaiBHM25",
+          "title": "LODA Revisited: Enhancements for Robust Online Anomaly Detection with Concept Drift Handling",
+          "booktitle": "SMC",
+          "year": "2025",
+          "pages": "933-938",
+          "ee": "https://doi.org/10.1109/SMC58881.2025.11343703",
+          "author": [
+            {
+              "#text": "Gábor Horváth",
+              "@pid": "96/3128"
+            },
+            {
+              "#text": "Márk Dániel Szalai",
+              "@pid": "364/5289"
+            },
+            {
+              "#text": "Máté Baranyi",
+              "@pid": "276/3065"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/asunam/MolontayN19",
-        "title": "Two decades of network science: as seen through the co-authorship network of network scientists.",
-        "pages": "578-583",
-        "year": "2019",
-        "booktitle": "ASONAM",
-        "ee": "https://doi.org/10.1145/3341161.3343685",
-        "url": "db/conf/asunam/asonam2019.html#MolontayN19",
-        "authors": [
-          "Roland Molontay",
-          "Marcell Nagy"
-        ]
+        "inproceedings": {
+          "@key": "conf/sofsem/MolontayV19",
+          "title": "On the Complexity of Color-Avoiding Site and Bond Percolation",
+          "booktitle": "SOFSEM",
+          "year": "2019",
+          "pages": "354-367",
+          "ee": "https://doi.org/10.1007/978-3-030-10801-4_28",
+          "author": [
+            {
+              "#text": "Kitti Varga",
+              "@pid": "200/8681"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tist/HorvathKMN20",
-        "title": "Copula-Based Anomaly Scoring and Localization for Large-Scale, High-Dimensional Continuous Data.",
-        "pages": "26:1-26:26",
-        "year": "2020",
-        "volume": "11",
-        "journal": "ACM Trans. Intell. Syst. Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/3372274",
-        "url": "db/journals/tist/tist11.html#HorvathKMN20",
-        "authors": [
-          "GÃ¡bor HorvÃ¡th 0002",
-          "Edith KovÃ¡cs",
-          "Roland Molontay",
-          "Szabolcs NovÃ¡czki"
-        ]
+        "article": {
+          "@key": "journals/aiedu/NagyM24",
+          "title": "Interpretable Dropout Prediction: Towards XAI-Based Personalized Intervention",
+          "journal": "Int. J. Artif. Intell. Educ.",
+          "year": "2024",
+          "pages": "274-300",
+          "ee": "https://doi.org/10.1007/S40593-023-00331-8",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tlt/MolontayHBSS20",
-        "title": "Characterizing Curriculum Prerequisite Networks by a Student Flow Approach.",
-        "pages": "491-501",
-        "year": "2020",
-        "volume": "13",
-        "journal": "IEEE Trans. Learn. Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1109/TLT.2020.2981331",
-        "url": "db/journals/tlt/tlt13.html#MolontayHBSS20",
-        "authors": [
-          "Roland Molontay",
-          "NoÃ©mi HorvÃ¡th",
-          "JÃºlia Bergmann",
-          "DÃ³ra SzekrÃ©nyes",
-          "MihÃ¡ly SzabÃ³"
-        ]
+        "article": {
+          "@key": "journals/ans/BarnesRTLBM21",
+          "title": "Dank or not? Analyzing and predicting the popularity of memes on Reddit",
+          "journal": "Appl. Netw. Sci.",
+          "year": "2021",
+          "pages": "21",
+          "ee": "https://doi.org/10.1007/S41109-021-00358-7",
+          "author": [
+            {
+              "#text": "Eli Lleshi",
+              "@pid": "279/6465"
+            },
+            {
+              "#text": "Kate Barnes",
+              "@pid": "279/6480"
+            },
+            {
+              "#text": "Minh Duc Trinh",
+              "@pid": "279/6640"
+            },
+            {
+              "#text": "Nóra Balogh",
+              "@pid": "279/6490"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "Tiernon Riesenmy",
+              "@pid": "279/6775"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/aiedu/NagyM24",
-        "title": "Interpretable Dropout Prediction: Towards XAI-Based Personalized Intervention.",
-        "pages": "274-300",
-        "year": "2024",
-        "volume": "34",
-        "journal": "Int. J. Artif. Intell. Educ.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s40593-023-00331-8",
-        "url": "db/journals/aiedu/aiedu34.html#NagyM24",
-        "authors": [
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/ans/KovacsNM21",
+          "title": "Comparative analysis of box-covering algorithms for fractal networks",
+          "journal": "Appl. Netw. Sci.",
+          "year": "2021",
+          "pages": "73",
+          "ee": "https://doi.org/10.1007/S41109-021-00410-6",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Péter Tamás Kovács",
+              "@pid": "47/1701"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/itor/CsatoMP24",
-        "title": "Tournament schedules and incentives in a double round-robin tournament with four teams.",
-        "pages": "1486-1514",
-        "year": "2024",
-        "volume": "31",
-        "journal": "Int. Trans. Oper. Res.",
-        "number": "3",
-        "ee": "https://doi.org/10.1111/itor.13391",
-        "url": "db/journals/itor/itor31.html#CsatoMP24",
-        "authors": [
-          "LÃ¡szlÃ³ CsatÃ³",
-          "Roland Molontay",
-          "JÃ³zsef PintÃ©r"
-        ]
+        "article": {
+          "@key": "journals/ans/ZakarPolyakNM23",
+          "title": "Towards a better understanding of the characteristics of fractal networks",
+          "journal": "Appl. Netw. Sci.",
+          "year": "2023",
+          "pages": "17",
+          "ee": "https://doi.org/10.1007/S41109-023-00537-8",
+          "author": [
+            {
+              "#text": "Eniko Zakar-Polyák",
+              "@pid": "332/0809"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ile/BaranyiM21",
-        "title": "Comparing the effectiveness of two remedial mathematics courses using modern regression discontinuity techniques.",
-        "pages": "247-269",
-        "year": "2021",
-        "volume": "29",
-        "journal": "Interact. Learn. Environ.",
-        "number": "2",
-        "ee": "https://doi.org/10.1080/10494820.2020.1839506",
-        "url": "db/journals/ile/ile29.html#BaranyiM21",
-        "authors": [
-          "MÃ¡tÃ© Baranyi",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/ans/ZakarPolyakNM23a",
+          "title": "Correction: Towards a better understanding of the characteristics of fractal networks",
+          "journal": "Appl. Netw. Sci.",
+          "year": "2023",
+          "pages": "26",
+          "ee": "https://doi.org/10.1007/S41109-023-00545-8",
+          "author": [
+            {
+              "#text": "Eniko Zakar-Polyák",
+              "@pid": "332/0809"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ans/KovacsNM21",
-        "title": "Comparative analysis of box-covering algorithms for fractal networks.",
-        "pages": "73",
-        "year": "2021",
-        "volume": "6",
-        "journal": "Appl. Netw. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s41109-021-00410-6",
-        "url": "db/journals/ans/ans6.html#KovacsNM21",
-        "authors": [
-          "PÃ©ter TamÃ¡s KovÃ¡cs",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/compnet/KomjathyMS19",
+          "title": "Transfinite fractal dimension of trees and hierarchical scale-free graphs",
+          "journal": "J. Complex Networks",
+          "year": "2019",
+          "pages": "764-791",
+          "ee": "https://doi.org/10.1093/COMNET/CNZ005",
+          "author": [
+            {
+              "#text": "Júlia Komjáthy",
+              "@pid": "172/5120"
+            },
+            {
+              "#text": "Károly Simon",
+              "@pid": "80/6719"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ans/BarnesRTLBM21",
-        "title": "Dank or not? Analyzing and predicting the popularity of memes on Reddit.",
-        "pages": "21",
-        "year": "2021",
-        "volume": "6",
-        "journal": "Appl. Netw. Sci.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q112686597",
-        "url": "db/journals/ans/ans6.html#BarnesRTLBM21",
-        "authors": [
-          "Kate Barnes",
-          "Tiernon Riesenmy",
-          "Minh Duc Trinh",
-          "Eli Lleshi",
-          "NÃ³ra Balogh",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1808-02674",
+          "title": "Modified box dimension of trees and hierarchical scale-free graphs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1808.02674",
+          "author": [
+            {
+              "#text": "Júlia Komjáthy",
+              "@pid": "172/5120"
+            },
+            {
+              "#text": "Károly Simon",
+              "@pid": "80/6719"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ans/ZakarPolyakNM23a",
-        "title": "Correction: Towards a better understanding of the characteristics of fractal networks.",
-        "pages": "26",
-        "year": "2023",
-        "volume": "8",
-        "journal": "Appl. Netw. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s41109-023-00545-8",
-        "url": "db/journals/ans/ans8.html#ZakarPolyakNM23a",
-        "authors": [
-          "Eniko Zakar-PolyÃ¡k",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1810-08484",
+          "title": "On the complexity of color-avoiding site and bond percolation",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1810.08484",
+          "author": [
+            {
+              "#text": "Kitti Varga",
+              "@pid": "200/8681"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ans/ZakarPolyakNM23",
-        "title": "Towards a better understanding of the characteristics of fractal networks.",
-        "pages": "17",
-        "year": "2023",
-        "volume": "8",
-        "journal": "Appl. Netw. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s41109-023-00537-8",
-        "url": "db/journals/ans/ans8.html#ZakarPolyakNM23",
-        "authors": [
-          "Eniko Zakar-PolyÃ¡k",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1810-08498",
+          "title": "Data-driven Analysis of Complex Networks and their Model-generated Counterparts",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1810.08498",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jap/FeketeMRV24",
-        "title": "Color-avoiding percolation and branching processes.",
-        "pages": "942-966",
-        "year": "2024",
-        "volume": "61",
-        "journal": "J. Appl. Probab.",
-        "number": "3",
-        "ee": "https://doi.org/10.1017/jpr.2023.115",
-        "url": "db/journals/jap/jap61.html#FeketeMRV24",
-        "authors": [
-          "Panna TÃ­mea Fekete",
-          "Roland Molontay",
-          "BalÃ¡zs RÃ¡th",
-          "Kitti Varga"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1908-08429",
+          "title": "On the Structural Properties of Social Networks and their Measurement-calibrated Synthetic Counterparts",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.08429",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/netsci/NagyM22",
-        "title": "Network classification-based structural analysis of real networks and their model-generated counterparts.",
-        "pages": "146-169",
-        "year": "2022",
-        "volume": "10",
-        "journal": "Netw. Sci.",
-        "number": "2",
-        "ee": "https://doi.org/10.1017/nws.2022.14",
-        "url": "db/journals/netsci/netsci10.html#NagyM22",
-        "authors": [
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1908-08478",
+          "title": "Two Decades of Network Science as seen through the co-authorship network of network scientists",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.08478",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/compnet/KomjathyMS19",
-        "title": "Transfinite fractal dimension of trees and hierarchical scale-free graphs.",
-        "pages": "764-791",
-        "year": "2019",
-        "volume": "7",
-        "journal": "J. Complex Networks",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q128520632",
-        "url": "db/journals/compnet/compnet7.html#KomjathyMS19",
-        "authors": [
-          "JÃºlia KomjÃ¡thy",
-          "Roland Molontay",
-          "KÃ¡roly Simon"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1912-02166",
+          "title": "Copula-based anomaly scoring and localization for large-scale, high-dimensional continuous data",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.02166",
+          "author": [
+            {
+              "#text": "Edith Kovács",
+              "@pid": "47/10687"
+            },
+            {
+              "#text": "Gábor Horváth",
+              "@pid": "96/3128"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "Szabolcs Nováczki",
+              "@pid": "73/7742"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/snam/BarnesJNM23",
-        "title": "Topicality boosts popularity: a comparative analysis of NYT articles and Reddit memes.",
-        "pages": "119",
-        "year": "2024",
-        "volume": "14",
-        "journal": "Soc. Netw. Anal. Min.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s13278-024-01272-3",
-        "url": "db/journals/snam/snam14.html#BarnesJNM23",
-        "authors": [
-          "Kate Barnes",
-          "PÃ©ter JuhÃ¡sz",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2001-09006",
+          "title": "Twenty Years of Network Science: A Bibliographic and Co-authorship Network Analysis",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.09006",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/data/Alvarado-UribeM22",
-        "title": "Student Dataset from Tecnologico de Monterrey in Mexico to Predict Dropout in Higher Education.",
-        "pages": "119",
-        "year": "2022",
-        "volume": "7",
-        "journal": "Data",
-        "number": "9",
-        "ee": "https://www.wikidata.org/entity/Q114031685",
-        "url": "db/journals/data/data7.html#Alvarado-UribeM22",
-        "authors": [
-          "Joanna Alvarado-Uribe",
-          "Paola MejÃ­a-Almada",
-          "Ana Luisa Masetto Herrera",
-          "Roland Molontay",
-          "Isabel Hilliger",
-          "Vinayak Hegde",
-          "JosÃ© Enrique Montemayor Gallegos",
-          "Renato Armando RamÃ­rez DÃ­az",
-          "Hector G. Ceballos"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2011-14326",
+          "title": "Dank or Not? - Analyzing and Predicting the Popularity of Memes on Reddit",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.14326",
+          "author": [
+            {
+              "#text": "Eli Lleshi",
+              "@pid": "279/6465"
+            },
+            {
+              "#text": "Kate Barnes",
+              "@pid": "279/6480"
+            },
+            {
+              "#text": "Minh Duc Trinh",
+              "@pid": "279/6640"
+            },
+            {
+              "#text": "Nóra Balogh",
+              "@pid": "279/6490"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "Tiernon Riesenmy",
+              "@pid": "279/6775"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scientometrics/BarnesBTM26",
-        "title": "Citation distance matters: towards a new metric for evaluating journal impact.",
-        "year": "2026",
-        "pages": "1505-1524",
-        "volume": "131",
-        "journal": "Scientometrics",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s11192-026-05586-1",
-        "url": "db/journals/scientometrics/scientometrics131.html#BarnesBTM26",
-        "authors": [
-          "Kate Barnes",
-          "Ahmed Bannour",
-          "Levente TÃ¶rÃ¶k",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2105-01939",
+          "title": "Comparative Analysis of Box-Covering Algorithms for Fractal Networks",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2105.01939",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Péter Tamás Kovács",
+              "@pid": "47/1701"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2011-14326",
-        "title": "Dank or Not? - Analyzing and Predicting the Popularity of Memes on Reddit.",
-        "year": "2020",
-        "volume": "abs/2011.14326",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2011.14326",
-        "url": "db/journals/corr/corr2011.html#abs-2011-14326",
-        "authors": [
-          "Kate Barnes",
-          "Tiernon Riesenmy",
-          "Minh Duc Trinh",
-          "Eli Lleshi",
-          "NÃ³ra Balogh",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2210-15505",
+          "title": "Investigating the Origins of Fractality Based on Two Novel Fractal Network Models",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.15505",
+          "author": [
+            {
+              "#text": "Eniko Zakar-Polyák",
+              "@pid": "332/0809"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1810-08498",
-        "title": "Data-driven Analysis of Complex Networks and their Model-generated Counterparts.",
-        "year": "2018",
-        "volume": "abs/1810.08498",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1810.08498",
-        "url": "db/journals/corr/corr1810.html#abs-1810-08498",
-        "authors": [
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2212-03120",
+          "title": "Towards a Better Understanding of the Characteristics of Fractal Networks",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2212.03120",
+          "author": [
+            {
+              "#text": "Eniko Zakar-Polyák",
+              "@pid": "332/0809"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1810-08484",
-        "title": "On the complexity of color-avoiding site and bond percolation.",
-        "year": "2018",
-        "volume": "abs/1810.08484",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1810.08484",
-        "url": "db/journals/corr/corr1810.html#abs-1810-08484",
-        "authors": [
-          "Roland Molontay",
-          "Kitti Varga"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2408-08126",
+          "title": "Decoding Memes: A Comparative Study of Machine Learning Models for Template Identification",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2408.08126",
+          "author": [
+            {
+              "#text": "Kate Barnes",
+              "@pid": "279/6480"
+            },
+            {
+              "#text": "Levente Murgás",
+              "@pid": "385/7484"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2105-01939",
-        "title": "Comparative Analysis of Box-Covering Algorithms for Fractal Networks.",
-        "year": "2021",
-        "volume": "abs/2105.01939",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2105.01939",
-        "url": "db/journals/corr/corr2105.html#abs-2105-01939",
-        "authors": [
-          "PÃ©ter TamÃ¡s KovÃ¡cs",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2606-17113",
+          "title": "The Critical Role of Model Selection in Causal Inference: A Comparative Analysis of Classification Models within the InferBERT Framework for Pharmacovigilance",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.17113",
+          "author": [
+            {
+              "#text": "Csaba Kiss",
+              "@pid": "27/646"
+            },
+            {
+              "#text": "Gabriele Pergola",
+              "@pid": "180/3707"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2212-03120",
-        "title": "Towards a Better Understanding of the Characteristics of Fractal Networks.",
-        "year": "2022",
-        "volume": "abs/2212.03120",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2212.03120",
-        "url": "db/journals/corr/corr2212.html#abs-2212-03120",
-        "authors": [
-          "Eniko Zakar-PolyÃ¡k",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/data/Alvarado-UribeM22",
+          "title": "Student Dataset from Tecnologico de Monterrey in Mexico to Predict Dropout in Higher Education",
+          "journal": "Data",
+          "year": "2022",
+          "pages": "119",
+          "ee": "https://doi.org/10.3390/DATA7090119",
+          "author": [
+            {
+              "#text": "Ana Luisa Masetto Herrera",
+              "@pid": "330/4197"
+            },
+            {
+              "#text": "Hector G. Ceballos",
+              "@pid": "67/6751"
+            },
+            {
+              "#text": "Isabel Hilliger",
+              "@pid": "182/1339"
+            },
+            {
+              "#text": "Joanna Alvarado-Uribe",
+              "@pid": "163/7116"
+            },
+            {
+              "#text": "José Enrique Montemayor Gallegos",
+              "@pid": "330/5219"
+            },
+            {
+              "#text": "Paola Mejía-Almada",
+              "@pid": "330/5151"
+            },
+            {
+              "#text": "Renato Armando Ramírez Díaz",
+              "@pid": "330/4876"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "Vinayak Hegde",
+              "@pid": "63/3629"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1912-02166",
-        "title": "Copula-based anomaly scoring and localization for large-scale, high-dimensional continuous data.",
-        "year": "2019",
-        "volume": "abs/1912.02166",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1912.02166",
-        "url": "db/journals/corr/corr1912.html#abs-1912-02166",
-        "authors": [
-          "GÃ¡bor HorvÃ¡th 0002",
-          "Edith KovÃ¡cs",
-          "Roland Molontay",
-          "Szabolcs NovÃ¡czki"
-        ]
+        "article": {
+          "@key": "journals/ile/BaranyiM21",
+          "title": "Comparing the effectiveness of two remedial mathematics courses using modern regression discontinuity techniques",
+          "journal": "Interact. Learn. Environ.",
+          "year": "2021",
+          "pages": "247-269",
+          "ee": "https://doi.org/10.1080/10494820.2020.1839506",
+          "author": [
+            {
+              "#text": "Máté Baranyi",
+              "@pid": "276/3065"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2606-17113",
-        "title": "The Critical Role of Model Selection in Causal Inference: A Comparative Analysis of Classification Models within the InferBERT Framework for Pharmacovigilance.",
-        "year": "2026",
-        "volume": "abs/2606.17113",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2606.17113",
-        "url": "db/journals/corr/corr2606.html#abs-2606-17113",
-        "authors": [
-          "Csaba Kiss",
-          "Roland Molontay",
-          "Gabriele Pergola"
-        ]
+        "article": {
+          "@key": "journals/itor/CsatoMP24",
+          "title": "Tournament schedules and incentives in a double round-robin tournament with four teams",
+          "journal": "Int. Trans. Oper. Res.",
+          "year": "2024",
+          "pages": "1486-1514",
+          "ee": "https://doi.org/10.1111/ITOR.13391",
+          "author": [
+            {
+              "#text": "József Pintér",
+              "@pid": "369/0157"
+            },
+            {
+              "#text": "László Csató",
+              "@pid": "157/3817"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1908-08429",
-        "title": "On the Structural Properties of Social Networks and their Measurement-calibrated Synthetic Counterparts.",
-        "year": "2019",
-        "volume": "abs/1908.08429",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1908.08429",
-        "url": "db/journals/corr/corr1908.html#abs-1908-08429",
-        "authors": [
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/jap/FeketeMRV24",
+          "title": "Color-avoiding percolation and branching processes",
+          "journal": "J. Appl. Probab.",
+          "year": "2024",
+          "pages": "942-966",
+          "ee": "https://doi.org/10.1017/JPR.2023.115",
+          "author": [
+            {
+              "#text": "Balázs Ráth",
+              "@pid": "13/6040"
+            },
+            {
+              "#text": "Kitti Varga",
+              "@pid": "200/8681"
+            },
+            {
+              "#text": "Panna Tímea Fekete",
+              "@pid": "340/7485"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1908-08478",
-        "title": "Two Decades of Network Science as seen through the co-authorship network of network scientists.",
-        "year": "2019",
-        "volume": "abs/1908.08478",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1908.08478",
-        "url": "db/journals/corr/corr1908.html#abs-1908-08478",
-        "authors": [
-          "Roland Molontay",
-          "Marcell Nagy"
-        ]
+        "article": {
+          "@key": "journals/netsci/NagyM22",
+          "title": "Network classification-based structural analysis of real networks and their model-generated counterparts",
+          "journal": "Netw. Sci.",
+          "year": "2022",
+          "pages": "146-169",
+          "ee": "https://doi.org/10.1017/NWS.2022.14",
+          "author": [
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2408-08126",
-        "title": "Decoding Memes: A Comparative Study of Machine Learning Models for Template Identification.",
-        "year": "2024",
-        "volume": "abs/2408.08126",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2408.08126",
-        "url": "db/journals/corr/corr2408.html#abs-2408-08126",
-        "authors": [
-          "Levente MurgÃ¡s",
-          "Marcell Nagy",
-          "Kate Barnes",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/scientometrics/BarnesBTM26",
+          "title": "Citation distance matters: towards a new metric for evaluating journal impact",
+          "journal": "Scientometrics",
+          "year": "2026",
+          "pages": "1505-1524",
+          "ee": "https://doi.org/10.1007/S11192-026-05586-1",
+          "author": [
+            {
+              "#text": "Ahmed Bannour",
+              "@pid": "85/10096"
+            },
+            {
+              "#text": "Kate Barnes",
+              "@pid": "279/6480"
+            },
+            {
+              "#text": "Levente Török",
+              "@pid": "86/1368"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2001-09006",
-        "title": "Twenty Years of Network Science: A Bibliographic and Co-authorship Network Analysis.",
-        "year": "2020",
-        "volume": "abs/2001.09006",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2001.09006",
-        "url": "db/journals/corr/corr2001.html#abs-2001-09006",
-        "authors": [
-          "Roland Molontay",
-          "Marcell Nagy"
-        ]
+        "article": {
+          "@key": "journals/snam/BarnesJNM23",
+          "title": "Topicality boosts popularity: a comparative analysis of NYT articles and Reddit memes",
+          "journal": "Soc. Netw. Anal. Min.",
+          "year": "2024",
+          "pages": "119",
+          "ee": "https://doi.org/10.1007/S13278-024-01272-3",
+          "author": [
+            {
+              "#text": "Kate Barnes",
+              "@pid": "279/6480"
+            },
+            {
+              "#text": "Marcell Nagy",
+              "@pid": "32/5518"
+            },
+            {
+              "#text": "Péter Juhász",
+              "@pid": "149/2967"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2210-15505",
-        "title": "Investigating the Origins of Fractality Based on Two Novel Fractal Network Models.",
-        "year": "2022",
-        "volume": "abs/2210.15505",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2210.15505",
-        "url": "db/journals/corr/corr2210.html#abs-2210-15505",
-        "authors": [
-          "Eniko Zakar-PolyÃ¡k",
-          "Marcell Nagy",
-          "Roland Molontay"
-        ]
+        "article": {
+          "@key": "journals/tist/HorvathKMN20",
+          "title": "Copula-Based Anomaly Scoring and Localization for Large-Scale, High-Dimensional Continuous Data",
+          "journal": "ACM Trans. Intell. Syst. Technol.",
+          "year": "2020",
+          "pages": "26:1-26:26",
+          "ee": "https://doi.org/10.1145/3372274",
+          "author": [
+            {
+              "#text": "Edith Kovács",
+              "@pid": "47/10687"
+            },
+            {
+              "#text": "Gábor Horváth",
+              "@pid": "96/3128"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "Szabolcs Nováczki",
+              "@pid": "73/7742"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1808-02674",
-        "title": "Modified box dimension of trees and hierarchical scale-free graphs.",
-        "year": "2018",
-        "volume": "abs/1808.02674",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1808.02674",
-        "url": "db/journals/corr/corr1808.html#abs-1808-02674",
-        "authors": [
-          "JÃºlia KomjÃ¡thy",
-          "Roland Molontay",
-          "KÃ¡roly Simon"
-        ]
+        "article": {
+          "@key": "journals/tlt/MolontayHBSS20",
+          "title": "Characterizing Curriculum Prerequisite Networks by a Student Flow Approach",
+          "journal": "IEEE Trans. Learn. Technol.",
+          "year": "2020",
+          "pages": "491-501",
+          "ee": "https://doi.org/10.1109/TLT.2020.2981331",
+          "author": [
+            {
+              "#text": "Dóra Szekrényes",
+              "@pid": "275/6873"
+            },
+            {
+              "#text": "Júlia Bergmann",
+              "@pid": "275/7056"
+            },
+            {
+              "#text": "Mihály Szabó",
+              "@pid": "275/6972"
+            },
+            {
+              "#text": "Noémi Horváth",
+              "@pid": "275/7082"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            }
+          ]
+        }
       }
     ]
   }

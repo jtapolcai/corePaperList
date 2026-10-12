@@ -1,189 +1,359 @@
 {
   "dblpperson": {
+    "@name": "Daniel Gehberger",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/tsp/MalioszSBNG18",
-        "title": "Scaling in OpenStack Using Client Feedback.",
-        "pages": "1-5",
-        "year": "2018",
-        "booktitle": "TSP",
-        "ee": "https://doi.org/10.1109/TSP.2018.8441221",
-        "url": "db/conf/tsp/tsp2018.html#MalioszSBNG18",
-        "authors": [
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "David Balla",
-          "Anh Tra Phan Ngo",
-          "Daniel Gehberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/hotcloud/NemethGM17",
+          "title": "DAL: A Locality-Optimizing Distributed Shared Memory System",
+          "booktitle": "HotCloud",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hotcloud/NemethGM17",
-        "title": "DAL: A Locality-Optimizing Distributed Shared Memory System.",
-        "year": "2017",
-        "booktitle": "HotCloud",
-        "ee": "https://www.usenix.org/conference/hotcloud17/program/presentation/nemeth",
-        "url": "db/conf/hotcloud/hotcloud2017.html#NemethGM17",
-        "authors": [
-          "GÃ¡bor NÃ©meth",
-          "Daniel Gehberger",
-          "PÃ©ter MÃ¡tray"
-        ]
+        "inproceedings": {
+          "@key": "conf/ic2e/SedighiGG22",
+          "title": "Workload-aware Dynamic GPU Resource Management in Component-based Applications",
+          "booktitle": "IC2E",
+          "year": "2022",
+          "pages": "213-220",
+          "ee": "https://doi.org/10.1109/IC2E55432.2022.00030",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Hoda Sedighi",
+              "@pid": "257/3116"
+            },
+            {
+              "#text": "Roch H. Glitho",
+              "@pid": "59/5306"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ucc/GehbergerMN16",
-        "title": "Data-driven monitoring for cloud compute systems.",
-        "pages": "128-137",
-        "year": "2016",
-        "booktitle": "UCC",
-        "ee": "https://ieeexplore.ieee.org/document/7881624/",
-        "url": "db/conf/ucc/ucc2016.html#GehbergerMN16",
-        "authors": [
-          "Daniel Gehberger",
-          "PÃ©ter MÃ¡tray",
-          "GÃ¡bor NÃ©meth"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/GehbergerBMS18",
+          "title": "Performance Evaluation of Low Latency Communication Alternatives in a Containerized Cloud Environment",
+          "booktitle": "IEEE CLOUD",
+          "year": "2018",
+          "pages": "9-16",
+          "ee": "https://doi.org/10.1109/CLOUD.2018.00009",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/TokaLHFGT17",
-        "title": "A resource-aware and time-critical IoT framework.",
-        "pages": "1-9",
-        "year": "2017",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFOCOM.2017.8057143",
-        "url": "db/conf/infocom/infocom2017.html#TokaLHFGT17",
-        "authors": [
-          "LÃ¡szlÃ³ Toka",
-          "BalÃ¡zs Lajtha",
-          "Ãva Hosszu",
-          "Bence Formanek",
-          "Daniel Gehberger",
-          "JÃ¡nos Tapolcai"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/SzalayNGKMNPRT19",
+          "title": "Industrial-Scale Stateless Network Functions",
+          "booktitle": "CLOUD",
+          "year": "2019",
+          "pages": "383-390",
+          "ee": "https://doi.org/10.1109/CLOUD.2019.00068",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Zoltán Lajos Kis",
+              "@pid": "75/4853"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEcloud/SzalayNGKMNPRT19",
-        "title": "Industrial-Scale Stateless Network Functions.",
-        "pages": "383-390",
-        "year": "2019",
-        "booktitle": "CLOUD",
-        "ee": "https://doi.org/10.1109/CLOUD.2019.00068",
-        "url": "db/conf/IEEEcloud/IEEEcloud2019.html#SzalayNGKMNPRT19",
-        "authors": [
-          "MÃ¡rk Szalay",
-          "MÃ¡tÃ© Nagy 0002",
-          "Daniel Gehberger",
-          "ZoltÃ¡n Lajos Kis",
-          "PÃ©ter MÃ¡tray",
-          "FeliciÃ¡n NÃ©meth",
-          "Gergely PongrÃ¡cz",
-          "GÃ¡bor RÃ©tvÃ¡ri",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/TokaLHFGT17",
+          "title": "A resource-aware and time-critical IoT framework",
+          "booktitle": "INFOCOM",
+          "year": "2017",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/INFOCOM.2017.8057143",
+          "author": [
+            {
+              "#text": "Balázs Lajtha",
+              "@pid": "34/8214"
+            },
+            {
+              "#text": "Bence Formanek",
+              "@pid": "188/5173"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Éva Hosszu",
+              "@pid": "04/10476"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEcloud/GehbergerBMS18",
-        "title": "Performance Evaluation of Low Latency Communication Alternatives in a Containerized Cloud Environment.",
-        "pages": "9-16",
-        "year": "2018",
-        "booktitle": "IEEE CLOUD",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CLOUD.2018.00009",
-        "url": "db/conf/IEEEcloud/IEEEcloud2018.html#GehbergerBMS18",
-        "authors": [
-          "Daniel Gehberger",
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iov/BallaMSG19",
+          "title": "Tuning Runtimes in Open Source FaaS",
+          "booktitle": "IOV",
+          "year": "2020",
+          "pages": "250-266",
+          "ee": "https://doi.org/10.1007/978-3-030-38651-1_21",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ic2e/SedighiGG22",
-        "title": "Workload-aware Dynamic GPU Resource Management in Component-based Applications.",
-        "pages": "213-220",
-        "year": "2022",
-        "booktitle": "IC2E",
-        "ee": "https://doi.org/10.1109/IC2E55432.2022.00030",
-        "url": "db/conf/ic2e/ic2e2022.html#SedighiGG22",
-        "authors": [
-          "Hoda Sedighi",
-          "Daniel Gehberger",
-          "Roch H. Glitho"
-        ]
+        "inproceedings": {
+          "@key": "conf/nfvsdn/PinczelGTF15",
+          "title": "Towards high performance packet processing for 5G",
+          "booktitle": "NFV-SDN",
+          "year": "2015",
+          "pages": "67-73",
+          "ee": "https://doi.org/10.1109/NFV-SDN.2015.7387408",
+          "author": [
+            {
+              "#text": "Balázs Pinczel",
+              "@pid": "150/7845"
+            },
+            {
+              "#text": "Bence Formanek",
+              "@pid": "188/5173"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Zoltán Richard Turányi",
+              "@pid": "194/7070"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iov/BallaMSG19",
-        "title": "Tuning Runtimes in Open Source FaaS.",
-        "pages": "250-266",
-        "year": "2019",
-        "booktitle": "IOV",
-        "ee": "https://doi.org/10.1007/978-3-030-38651-1_21",
-        "url": "db/conf/iov/iov2019.html#BallaMSG19",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "Daniel Gehberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/BallaMSGZ19",
+          "title": "Bounded Latency with RoCE",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2019",
+          "pages": "134-135",
+          "ee": "https://doi.org/10.1145/3342280.3342334",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Peter Zsitvai",
+              "@pid": "246/9379"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nfvsdn/PinczelGTF15",
-        "title": "Towards high performance packet processing for 5G.",
-        "pages": "67-73",
-        "year": "2015",
-        "booktitle": "NFV-SDN",
-        "ee": "https://doi.org/10.1109/NFV-SDN.2015.7387408",
-        "url": "db/conf/nfvsdn/nfvsdn2015.html#PinczelGTF15",
-        "authors": [
-          "BalÃ¡zs Pinczel",
-          "Daniel Gehberger",
-          "ZoltÃ¡n Richard TurÃ¡nyi",
-          "Bence Formanek"
-        ]
+        "inproceedings": {
+          "@key": "conf/tsp/MalioszSBNG18",
+          "title": "Scaling in OpenStack Using Client Feedback",
+          "booktitle": "TSP",
+          "year": "2018",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/TSP.2018.8441221",
+          "author": [
+            {
+              "#text": "Anh Tra Phan Ngo",
+              "@pid": "225/7322"
+            },
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/BallaMSGZ19",
-        "title": "Bounded Latency with RoCE.",
-        "pages": "134-135",
-        "year": "2019",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://www.wikidata.org/entity/Q130957477",
-        "url": "db/conf/sigcomm/p2019.html#BallaMSGZ19",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "Daniel Gehberger",
-          "Peter Zsitvai"
-        ]
+        "inproceedings": {
+          "@key": "conf/ucc/GehbergerMN16",
+          "title": "Data-driven monitoring for cloud compute systems",
+          "booktitle": "UCC",
+          "year": "2016",
+          "pages": "128-137",
+          "ee": "https://doi.org/10.1145/2996890.2996893",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcc/SedighiGEWG25",
-        "title": "Efficient Dynamic Resource Management for Spatial Multitasking GPUs.",
-        "pages": "99-117",
-        "year": "2025",
-        "volume": "13",
-        "journal": "IEEE Trans. Cloud Comput.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TCC.2024.3511548",
-        "url": "db/journals/tcc/tcc13.html#SedighiGEWG25",
-        "authors": [
-          "Hoda Sedighi",
-          "Daniel Gehberger",
-          "Amin Ebrahimzadeh",
-          "Fetahi Wuhib",
-          "Roch H. Glitho"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2206-00599",
+          "title": "Cooling Down FaaS: Towards Getting Rid of Warm Starts",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.00599",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Dávid Kovács",
+              "@pid": "322/0468"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcc/SedighiGEWG25",
+          "title": "Efficient Dynamic Resource Management for Spatial Multitasking GPUs",
+          "journal": "IEEE Trans. Cloud Comput.",
+          "year": "2025",
+          "pages": "99-117",
+          "ee": "https://doi.org/10.1109/TCC.2024.3511548",
+          "author": [
+            {
+              "#text": "Amin Ebrahimzadeh",
+              "@pid": "134/5290"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Fetahi Zebenigus Wuhib",
+              "@pid": "71/6704"
+            },
+            {
+              "#text": "Hoda Sedighi",
+              "@pid": "257/3116"
+            },
+            {
+              "#text": "Roch H. Glitho",
+              "@pid": "59/5306"
+            }
+          ]
+        }
       }
     ]
   }

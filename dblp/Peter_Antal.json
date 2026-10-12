@@ -1,621 +1,2102 @@
 {
   "dblpperson": {
+    "@name": "Peter Antal",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/kdd/AntalGF02",
-        "title": "On the potential of domain literature for clustering and Bayesian network learning.",
-        "pages": "405-414",
-        "year": "2002",
-        "booktitle": "KDD",
-        "ee": "https://doi.org/10.1145/775047.775105",
-        "url": "db/conf/kdd/kdd2002.html#AntalGF02",
-        "authors": [
-          "Peter Antal",
-          "Patrick Glenisson",
-          "Geert Fannes"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaai/OldenhofAPSHSDF23",
+          "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+          "booktitle": "AAAI",
+          "year": "2023",
+          "pages": "15576-15584",
+          "ee": "https://doi.org/10.1609/AAAI.V37I13.26847",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "Adam Zalewski",
+              "@pid": "154/5673"
+            },
+            {
+              "#text": "Adrien Darbier",
+              "@pid": "331/3180"
+            },
+            {
+              "#text": "Alexandre Picosson",
+              "@pid": "331/3514"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Ansgar Schuffenhauer",
+              "@pid": "39/1508"
+            },
+            {
+              "#text": "Antoine Simon",
+              "@pid": "41/436"
+            },
+            {
+              "#text": "Arnaud Gohier",
+              "@pid": "284/2209"
+            },
+            {
+              "#text": "Arne Dieckmann",
+              "@pid": "331/3577"
+            },
+            {
+              "#text": "Ashley Nicollet",
+              "@pid": "331/3578"
+            },
+            {
+              "#text": "Aurélien Gasser",
+              "@pid": "331/3822"
+            },
+            {
+              "#text": "Balazs Pejo",
+              "@pid": "175/5675"
+            },
+            {
+              "#text": "Camille Boillet",
+              "@pid": "331/3864"
+            },
+            {
+              "#text": "Camille Marini",
+              "@pid": "146/2819"
+            },
+            {
+              "#text": "Clément Mayer",
+              "@pid": "331/3516"
+            },
+            {
+              "#text": "David Endico",
+              "@pid": "331/3884"
+            },
+            {
+              "#text": "Dieter Kopecky",
+              "@pid": "37/5686"
+            },
+            {
+              "#text": "Eric Boniface",
+              "@pid": "331/3470"
+            },
+            {
+              "#text": "Ezron Oluoch",
+              "@pid": "331/3494"
+            },
+            {
+              "#text": "Fabien Gelus",
+              "@pid": "331/3715"
+            },
+            {
+              "#text": "Gergely Ács",
+              "@pid": "86/405"
+            },
+            {
+              "#text": "Hugo Ceulemans",
+              "@pid": "191/5926"
+            },
+            {
+              "#text": "Inal Djafar",
+              "@pid": "331/3084"
+            },
+            {
+              "#text": "Jaak Simm",
+              "@pid": "93/1203"
+            },
+            {
+              "#text": "Jordon Rahaman",
+              "@pid": "331/3800"
+            },
+            {
+              "#text": "Kelvin Moutet",
+              "@pid": "189/8153"
+            },
+            {
+              "#text": "Lewis H. Mervin",
+              "@pid": "173/0958"
+            },
+            {
+              "#text": "Lukas Friedrich",
+              "@pid": "308/0321"
+            },
+            {
+              "#text": "Manuel Stößel",
+              "@pid": "331/3585"
+            },
+            {
+              "#text": "Maria Telenczuk",
+              "@pid": "331/0577"
+            },
+            {
+              "#text": "Martijn Oldenhof",
+              "@pid": "259/3090"
+            },
+            {
+              "#text": "Mathieu Galtier",
+              "@pid": "116/2861"
+            },
+            {
+              "#text": "Matthieu Blottière",
+              "@pid": "331/3727"
+            },
+            {
+              "#text": "Michal Vanco",
+              "@pid": "331/3752"
+            },
+            {
+              "#text": "Nicholas Holway",
+              "@pid": "331/3643"
+            },
+            {
+              "#text": "Noé Sturm",
+              "@pid": "141/2565"
+            },
+            {
+              "#text": "Ola Engkvist",
+              "@pid": "40/1370"
+            },
+            {
+              "#text": "Oliver Fortmeier",
+              "@pid": "22/8239"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Schmidtke",
+              "@pid": "30/7234"
+            },
+            {
+              "#text": "Prakash Chandra Rathi",
+              "@pid": "141/3690"
+            },
+            {
+              "#text": "Ritsuya Niwayama",
+              "@pid": "212/4743"
+            },
+            {
+              "#text": "Thaïs de Boisfossé",
+              "@pid": "331/3177"
+            },
+            {
+              "#text": "Thibaud Martinez",
+              "@pid": "331/3552"
+            },
+            {
+              "#text": "Van Tien Nguyen",
+              "@pid": "41/7867"
+            },
+            {
+              "#text": "Wouter Heyndrickx",
+              "@pid": "69/8885"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pais/GuenfoudA18",
-        "title": "Bayesian exploration of dependencies of laboratory tests and evaluation of test redundancy.",
-        "pages": "1-6",
-        "year": "2018",
-        "booktitle": "PAIS",
-        "ee": "https://doi.org/10.1109/PAIS.2018.8598485",
-        "url": "db/conf/pais/pais2018.html#GuenfoudA18",
-        "authors": [
-          "Zeyneb Guenfoud",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/aime/AntalFMVMT01",
+          "title": "Extended Bayesian Regression Models: A Symbiotic Application of Belief Networks and Multilayer Perceptrons for the Classification of Ovarian Tumors",
+          "booktitle": "AIME",
+          "year": "2001",
+          "pages": "177-187",
+          "ee": "https://doi.org/10.1007/3-540-48229-6_26",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Geert Fannes",
+              "@pid": "31/1559"
+            },
+            {
+              "#text": "Joos Vandewalle",
+              "@pid": "v/JoosVandewalle"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwbbio/GezsiBGA18",
-        "title": "Constructing a Quantitative Fusion Layer over the Semantic Level for Scalable Inference.",
-        "pages": "41-53",
-        "year": "2018",
-        "booktitle": "IWBBIO (1)",
-        "ee": "https://doi.org/10.1007/978-3-319-78723-7_4",
-        "url": "db/conf/iwbbio/iwbbio2018-1.html#GezsiBGA18",
-        "authors": [
-          "AndrÃ¡s GÃ©zsi",
-          "Bence Bruncsics",
-          "GÃ¡bor Guta",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/aime/AntalMNMGJA24",
+          "title": "Modular Quantitative Temporal Transformer for Biobank-Scale Unified Representations",
+          "booktitle": "AIME (2)",
+          "year": "2024",
+          "pages": "212-226",
+          "ee": "https://doi.org/10.1007/978-3-031-66535-6_24",
+          "author": [
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Gabriella Juhász",
+              "@pid": "184/4574"
+            },
+            {
+              "#text": "Márk Marosi",
+              "@pid": "382/4608"
+            },
+            {
+              "#text": "Mátyás Antal",
+              "@pid": "33/2136"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Tamás Nagy",
+              "@pid": "76/6602"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/biostec/SarkozyEA14",
-        "title": "Flow Index based Characterization of next Generation Sequencing Errors - Visualizing Pyrosequencing and Semiconductor Sequencing to Cope with Homopolymer Errors.",
-        "pages": "271-277",
-        "year": "2014",
-        "booktitle": "BIOINFORMATICS",
-        "ee": "https://doi.org/10.5220/0004924902710277",
-        "url": "db/conf/biostec/bioinformatics2014.html#SarkozyEA14",
-        "authors": [
-          "PÃ©ter SÃ¡rkÃ¶zy",
-          "MÃ¡rton Enyedi",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/aime/MillinghofferAMFAA24",
+          "title": "Boosting Multitask Decomposition: Directness, Sequentiality, Subsampling, Cross-Gradients",
+          "booktitle": "AIME (1)",
+          "year": "2024",
+          "pages": "17-35",
+          "ee": "https://doi.org/10.1007/978-3-031-66538-7_3",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Márk Marosi",
+              "@pid": "382/4608"
+            },
+            {
+              "#text": "Mátyás Antal",
+              "@pid": "33/2136"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/biostec/MarxBGGA14",
-        "title": "MicroRNA Prioritization based on Target Profile Similarities.",
-        "pages": "278-285",
-        "year": "2014",
-        "booktitle": "BIOINFORMATICS",
-        "ee": "https://doi.org/10.5220/0004925502780285",
-        "url": "db/conf/biostec/bioinformatics2014.html#MarxBGGA14",
-        "authors": [
-          "Peter Marx",
-          "Bence BolgÃ¡r",
-          "AndrÃ¡s GÃ©zsi",
-          "Attila GulyÃ¡s-KovÃ¡cs",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/biostec/MarxBGGA14",
+          "title": "MicroRNA Prioritization based on Target Profile Similarities",
+          "booktitle": "BIOINFORMATICS",
+          "year": "2014",
+          "pages": "278-285",
+          "ee": "https://doi.org/10.5220/0004925502780285",
+          "author": [
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "Attila Gulyás-Kovács",
+              "@pid": "151/2179"
+            },
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Marx",
+              "@pid": "130/9716"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbms/AntalVTHMV00",
-        "title": "Bayesian Networks in Ovarian Cancer Diagnosis: Potentials and Limitations.",
-        "pages": "103-108",
-        "year": "2000",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2000.856886",
-        "url": "db/conf/cbms/cbms2000.html#AntalVTHMV00",
-        "authors": [
-          "Peter Antal",
-          "Herman Verrelst",
-          "Dirk Timmerman",
-          "Sabine Van Huffel",
-          "Bart De Moor",
-          "Ignace Vergote"
-        ]
+        "inproceedings": {
+          "@key": "conf/biostec/PoganyA23",
+          "title": "DT-ML: Drug-Target Metric Learning",
+          "booktitle": "BIOINFORMATICS",
+          "year": "2023",
+          "pages": "204-211",
+          "ee": "https://doi.org/10.5220/0011691100003414",
+          "author": [
+            {
+              "#text": "Domonkos Pogány",
+              "@pid": "343/0251"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbms/AntalMMD01",
-        "title": "Annotated Bayesian Networks: A Tool to Integrate Textual and Probabilistic Medical Knowledge.",
-        "pages": "177-182",
-        "year": "2001",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2001.941717",
-        "url": "db/conf/cbms/cbms2001.html#AntalMMD01",
-        "authors": [
-          "Peter Antal",
-          "Bart De Moor",
-          "TamÃ¡s MÃ©szÃ¡ros 0003",
-          "Tadeusz P. Dobrowiecki"
-        ]
+        "inproceedings": {
+          "@key": "conf/biostec/SarkozyEA14",
+          "title": "Flow Index based Characterization of next Generation Sequencing Errors - Visualizing Pyrosequencing and Semiconductor Sequencing to Cope with Homopolymer Errors",
+          "booktitle": "BIOINFORMATICS",
+          "year": "2014",
+          "pages": "271-277",
+          "ee": "https://doi.org/10.5220/0004924902710277",
+          "author": [
+            {
+              "#text": "Márton Enyedi",
+              "@pid": "151/2301"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Péter Sárközy",
+              "@pid": "151/2181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbms/AntalTMD02",
-        "title": "Domain Knowledge Based Information Retrieval Language: An Application Of Annotated Bayesian Network In Ovarian Cancer Domain.",
-        "pages": "213-218",
-        "year": "2002",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2002.1011379",
-        "url": "db/conf/cbms/cbms2002.html#AntalTMD02",
-        "authors": [
-          "Peter Antal",
-          "Dirk Timmerman",
-          "TamÃ¡s MÃ©szÃ¡ros 0003",
-          "Tadeusz P. Dobrowiecki"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbms/AertsATMM02",
+          "title": "Web-based Data Collection for Uterine Adnexal Tumors: A Case Study",
+          "booktitle": "CBMS",
+          "year": "2002",
+          "pages": "282-287",
+          "ee": "https://doi.org/10.1109/CBMS.2002.1011390",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Stein Aerts",
+              "@pid": "15/1543"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbms/AertsATMM02",
-        "title": "Web-based Data Collection for Uterine Adnexal Tumors: A Case Study.",
-        "pages": "282-287",
-        "year": "2002",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2002.1011390",
-        "url": "db/conf/cbms/cbms2002.html#AertsATMM02",
-        "authors": [
-          "Stein Aerts",
-          "Peter Antal",
-          "Dirk Timmerman",
-          "Bart De Moor",
-          "Yves Moreau"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbms/AntalMMD01",
+          "title": "Annotated Bayesian Networks: A Tool to Integrate Textual and Probabilistic Medical Knowledge",
+          "booktitle": "CBMS",
+          "year": "2001",
+          "pages": "177-182",
+          "ee": "https://doi.org/10.1109/CBMS.2001.941717",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Tadeusz P. Dobrowiecki",
+              "@pid": "23/143"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242-3"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aaai/OldenhofAPSHSDF23",
-        "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery.",
-        "pages": "15576-15584",
-        "year": "2023",
-        "booktitle": "AAAI",
-        "ee": "https://doi.org/10.1609/aaai.v37i13.26847",
-        "url": "db/conf/aaai/aaai2023.html#OldenhofAPSHSDF23",
-        "authors": [
-          "Martijn Oldenhof",
-          "Gergely Ãcs",
-          "BalÃ¡zs PejÃ³",
-          "Ansgar Schuffenhauer",
-          "Nicholas Holway",
-          "NoÃ© Sturm",
-          "Arne Dieckmann",
-          "Oliver Fortmeier",
-          "Eric Boniface",
-          "ClÃ©ment Mayer",
-          "Arnaud Gohier",
-          "Peter Schmidtke",
-          "Ritsuya Niwayama",
-          "Dieter Kopecky",
-          "Lewis H. Mervin",
-          "Prakash Chandra Rathi",
-          "Lukas Friedrich",
-          "AndrÃ¡s Formanek",
-          "Peter Antal",
-          "Jordon Rahaman",
-          "Adam Zalewski",
-          "Wouter Heyndrickx",
-          "Ezron Oluoch",
-          "Manuel StÃ¶Ãel",
-          "Michal Vanco",
-          "David Endico",
-          "Fabien Gelus",
-          "ThaÃ¯s de BoisfossÃ©",
-          "Adrien Darbier",
-          "Ashley Nicollet",
-          "Matthieu BlottiÃ¨re",
-          "Maria Telenczuk",
-          "Van Tien Nguyen",
-          "Thibaud Martinez",
-          "Camille Boillet",
-          "Kelvin Moutet",
-          "Alexandre Picosson",
-          "AurÃ©lien Gasser",
-          "Inal Djafar",
-          "Antoine Simon",
-          "Adam Arany",
-          "Jaak Simm",
-          "Yves Moreau",
-          "Ola Engkvist",
-          "Hugo Ceulemans",
-          "Camille Marini",
-          "Mathieu Galtier"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbms/AntalTMD02",
+          "title": "Domain Knowledge Based Information Retrieval Language: An Application Of Annotated Bayesian Network In Ovarian Cancer Domain",
+          "booktitle": "CBMS",
+          "year": "2002",
+          "pages": "213-218",
+          "ee": "https://doi.org/10.1109/CBMS.2002.1011379",
+          "author": [
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Tadeusz P. Dobrowiecki",
+              "@pid": "23/143"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242-3"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cibcb/HullamJDA17",
-        "title": "Structural and parametric uncertainties in full Bayesian and graphical lasso based approaches: Beyond edge weights in psychological networks.",
-        "pages": "1-8",
-        "year": "2017",
-        "booktitle": "CIBCB",
-        "ee": "https://doi.org/10.1109/CIBCB.2017.8058566",
-        "url": "db/conf/cibcb/cibcb2017.html#HullamJDA17",
-        "authors": [
-          "GÃ¡bor HullÃ¡m",
-          "Gabriella JuhÃ¡sz",
-          "Bill Deakin",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbms/AntalVTHMV00",
+          "title": "Bayesian Networks in Ovarian Cancer Diagnosis: Potentials and Limitations",
+          "booktitle": "CBMS",
+          "year": "2000",
+          "pages": "103-108",
+          "ee": "https://doi.org/10.1109/CBMS.2000.856886",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Herman Verrelst",
+              "@pid": "47/884"
+            },
+            {
+              "#text": "Ignace Vergote",
+              "@pid": "65/6953"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Sabine Van Huffel",
+              "@pid": "60/5071"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cibcb/BruncsicsA19",
-        "title": "A multi-trait evaluation of network propagation for GWAS results.",
-        "pages": "1-6",
-        "year": "2019",
-        "booktitle": "CIBCB",
-        "ee": "https://doi.org/10.1109/CIBCB.2019.8791453",
-        "url": "db/conf/cibcb/cibcb2019.html#BruncsicsA19",
-        "authors": [
-          "Bence Bruncsics",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/cibcb/BruncsicsA19",
+          "title": "A multi-trait evaluation of network propagation for GWAS results",
+          "booktitle": "CIBCB",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/CIBCB.2019.8791453",
+          "author": [
+            {
+              "#text": "Bence Bruncsics",
+              "@pid": "217/7874"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aime/AntalFMVMT01",
-        "title": "Extended Bayesian Regression Models: A Symbiotic Application of Belief Networks and Multilayer Perceptrons for the Classification of Ovarian Tumors.",
-        "pages": "177-187",
-        "year": "2001",
-        "booktitle": "AIME",
-        "ee": "https://doi.org/10.1007/3-540-48229-6_26",
-        "url": "db/conf/aime/aime2001.html#AntalFMVMT01",
-        "authors": [
-          "Peter Antal",
-          "Geert Fannes",
-          "Bart De Moor",
-          "Joos Vandewalle",
-          "Yves Moreau",
-          "Dirk Timmerman"
-        ]
+        "inproceedings": {
+          "@key": "conf/cibcb/HullamJDA17",
+          "title": "Structural and parametric uncertainties in full Bayesian and graphical lasso based approaches: Beyond edge weights in psychological networks",
+          "booktitle": "CIBCB",
+          "year": "2017",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/CIBCB.2017.8058566",
+          "author": [
+            {
+              "#text": "Gábor Hullám",
+              "@pid": "10/9381"
+            },
+            {
+              "#text": "Gabriella Juhász",
+              "@pid": "184/4574"
+            },
+            {
+              "#text": "John Francis William Deakin",
+              "@pid": "71/10750"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/psb/GlenissonAMMM03",
-        "title": "Evaluation of the Vector Space Representation in Text-Based Gene Clustering.",
-        "pages": "391-402",
-        "year": "2003",
-        "booktitle": "Pacific Symposium on Biocomputing",
-        "ee": "http://psb.stanford.edu/psb-online/proceedings/psb03/glenisson.pdf",
-        "url": "db/conf/psb/psb2003.html#GlenissonAMMM03",
-        "authors": [
-          "Patrick Glenisson",
-          "Peter Antal",
-          "Janick Mathys",
-          "Yves Moreau",
-          "Bart De Moor"
-        ]
+        "inproceedings": {
+          "@key": "conf/esann/PoganyA24",
+          "title": "Hyperbolic Metabolite-Disease Association Prediction",
+          "booktitle": "ESANN",
+          "year": "2024",
+          "ee": "https://doi.org/10.14428/ESANN/2024.ES2024-29",
+          "author": [
+            {
+              "#text": "Domonkos Pogány",
+              "@pid": "343/0251"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pgm/MarxMJA16",
-        "title": "Joint Bayesian Modelling of Internal Dependencies and Relevant Multimorbidities of a Heterogeneous Disease.",
-        "pages": "310-320",
-        "year": "2016",
-        "booktitle": "Probabilistic Graphical Models",
-        "ee": "http://proceedings.mlr.press/v52/marx16.html",
-        "url": "db/conf/pgm/pgm2016.html#MarxMJA16",
-        "authors": [
-          "Peter Marx",
-          "AndrÃ¡s Millinghoffer",
-          "Gabriella JuhÃ¡sz",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/esann/PoganyA25",
+          "title": "Hyperbolic representation learning in multi-layer tissue networks",
+          "booktitle": "ESANN",
+          "year": "2025",
+          "ee": "https://doi.org/10.14428/ESANN/2025.ES2025-21",
+          "author": [
+            {
+              "#text": "Domonkos Pogány",
+              "@pid": "343/0251"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pgm/AntalM06",
-        "title": "Literature Mining using Bayesian Networks.",
-        "pages": "17-24",
-        "year": "2006",
-        "booktitle": "Probabilistic Graphical Models",
-        "ee": "http://www.utia.cas.cz/files/mtr/pgm06/36_paper.pdf",
-        "url": "db/conf/pgm/pgm2006.html#AntalM06",
-        "authors": [
-          "Peter Antal",
-          "AndrÃ¡s Millinghoffer"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/AntalPT24",
+          "title": "Computationally Efficient Sampling-Based Algorithm for Stability Analysis of Nonlinear Systems",
+          "booktitle": "ECC",
+          "year": "2024",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.23919/ECC64448.2024.10590987",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pgm/BolgarA16",
-        "title": "Bayesian Matrix Factorization with Non-Random Missing Data using Informative Gaussian Process Priors and Soft Evidences.",
-        "pages": "25-36",
-        "year": "2016",
-        "booktitle": "Probabilistic Graphical Models",
-        "ee": "http://proceedings.mlr.press/v52/bolgar16.html",
-        "url": "db/conf/pgm/pgm2016.html#BolgarA16",
-        "authors": [
-          "Bence BolgÃ¡r",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/hcaiep/SandorNA23",
+          "title": "Algorithmic Biases in Causal Structure Learning for Gene Regulatory Networks",
+          "booktitle": "HCAIep",
+          "year": "2023",
+          "pages": "52",
+          "ee": "https://doi.org/10.1145/3633083.3633101",
+          "author": [
+            {
+              "#text": "Dániel Sándor",
+              "@pid": "363/0185"
+            },
+            {
+              "#text": "Lili Nemes",
+              "@pid": "363/0302"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pgm/AntalGHM06",
-        "title": "Learning Complex Bayesian Network Features for Classification.",
-        "pages": "9-16",
-        "year": "2006",
-        "booktitle": "Probabilistic Graphical Models",
-        "ee": "http://www.utia.cas.cz/files/mtr/pgm06/37_paper.pdf",
-        "url": "db/conf/pgm/pgm2006.html#AntalGHM06",
-        "authors": [
-          "Peter Antal",
-          "AndrÃ¡s GÃ©zsi",
-          "GÃ¡bor HullÃ¡m",
-          "AndrÃ¡s Millinghoffer"
-        ]
+        "inproceedings": {
+          "@key": "conf/hcaiep/TodorovaSALD0SL23",
+          "title": "The European AI Tango: Balancing Regulation Innovation and Competitiveness",
+          "booktitle": "HCAIep",
+          "year": "2023",
+          "pages": "2-8",
+          "ee": "https://doi.org/10.1145/3633083.3633161",
+          "author": [
+            {
+              "#text": "Alessandro Barducci",
+              "@pid": "12/8961"
+            },
+            {
+              "#text": "Alireza Dehghani",
+              "@pid": "93/8107-4"
+            },
+            {
+              "#text": "Carlo Sansone",
+              "@pid": "90/5377"
+            },
+            {
+              "#text": "Christina Todorova",
+              "@pid": "226/3262"
+            },
+            {
+              "#text": "Fernando Pérez-Téllez",
+              "@pid": "92/7247"
+            },
+            {
+              "#text": "Francesco Gargiulo",
+              "@pid": "91/3633-1"
+            },
+            {
+              "#text": "George Sharkov",
+              "@pid": "226/3283"
+            },
+            {
+              "#text": "Huib Aldewereld",
+              "@pid": "16/4203"
+            },
+            {
+              "#text": "John Pugh",
+              "@pid": "191/3974"
+            },
+            {
+              "#text": "Kitti Mezei",
+              "@pid": "362/9875"
+            },
+            {
+              "#text": "Maurice Lynch",
+              "@pid": "363/0392"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Hanák",
+              "@pid": "40/8726"
+            },
+            {
+              "#text": "Stefan Leijnen",
+              "@pid": "49/7509"
+            },
+            {
+              "#text": "Stefano Marrone",
+              "@pid": "08/6606-2"
+            },
+            {
+              "#text": "Tarry Singh",
+              "@pid": "89/7158"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pgm/HullamA14",
-        "title": "Towards a Bayesian Decision Theoretic Analysis of Contextual Effect Modifiers.",
-        "pages": "222-237",
-        "year": "2014",
-        "booktitle": "Probabilistic Graphical Models",
-        "ee": "https://doi.org/10.1007/978-3-319-11433-0_15",
-        "url": "db/conf/pgm/pgm2014.html#HullamA14",
-        "authors": [
-          "GÃ¡bor HullÃ¡m",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/icann/FormanekBAMA24",
+          "title": "Model Based Clustering of Time Series Utilizing Expert ODEs",
+          "booktitle": "ICANN (4)",
+          "year": "2024",
+          "pages": "230-245",
+          "ee": "https://doi.org/10.1007/978-3-031-72341-4_16",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Edward De Brouwer",
+              "@pid": "230/8173"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/bmcbi/BolgarA17",
-        "title": "VB-MK-LMF: fusion of drugs, targets and interactions using variational Bayesian multiple kernel logistic matrix factorization.",
-        "pages": "440:1-440:18",
-        "year": "2017",
-        "volume": "18",
-        "journal": "BMC Bioinform.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q42278847",
-        "url": "db/journals/bmcbi/bmcbi18.html#BolgarA17",
-        "authors": [
-          "Bence BolgÃ¡r",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/icra/AntalPT25",
+          "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+          "booktitle": "ICRA",
+          "year": "2025",
+          "pages": "5209-5215",
+          "ee": "https://doi.org/10.1109/ICRA55743.2025.11127483",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/jmlr/AntalMHSF08",
-        "title": "A Bayesian View of Challenges in Feature Selection: Feature Aggregation, Multiple Targets, Redundancy and Interaction.",
-        "pages": "74-89",
-        "booktitle": "FSDM",
-        "year": "2008",
-        "ee": "http://proceedings.mlr.press/v4/antal08a.html",
-        "url": "db/journals/jmlr/jmlrp4.html#AntalMHSF08",
-        "authors": [
-          "Peter Antal",
-          "AndrÃ¡s Millinghoffer",
-          "GÃ¡bor HullÃ¡m",
-          "Csaba Szalai",
-          "AndrÃ¡s Falus"
-        ]
+        "inproceedings": {
+          "@key": "conf/intellisys/SandorA23",
+          "title": "Boosting Federated Multitask Learning: Transfer Effects in Cross-Domain Drug-Target Interaction Prediction",
+          "booktitle": "IntelliSys (1)",
+          "year": "2024",
+          "pages": "386-399",
+          "ee": "https://doi.org/10.1007/978-3-031-47721-8_26",
+          "author": [
+            {
+              "#text": "Dániel Sándor",
+              "@pid": "363/0185"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/jmlr/HullamASF10",
-        "title": "Evaluation of a Bayesian model-based approach in GA studies.",
-        "pages": "30-43",
-        "booktitle": "MLSB",
-        "year": "2010",
-        "ee": "http://proceedings.mlr.press/v8/hullam10a.html",
-        "url": "db/journals/jmlr/jmlrp8.html#HullamASF10",
-        "authors": [
-          "GÃ¡bor HullÃ¡m",
-          "Peter Antal",
-          "Csaba Szalai",
-          "AndrÃ¡s Falus"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwbbio/GezsiBGA18",
+          "title": "Constructing a Quantitative Fusion Layer over the Semantic Level for Scalable Inference",
+          "booktitle": "IWBBIO (1)",
+          "year": "2018",
+          "pages": "41-53",
+          "ee": "https://doi.org/10.1007/978-3-319-78723-7_4",
+          "author": [
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "Bence Bruncsics",
+              "@pid": "217/7874"
+            },
+            {
+              "#text": "Gábor Guta",
+              "@pid": "44/881"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jcisd/HeyndrickxMMSFZPHONSFSADJALVHHPTH24",
-        "title": "MELLODDY: Cross-pharma Federated Learning at Unprecedented Scale Unlocks Benefits in QSAR without Compromising Proprietary Information.",
-        "pages": "2331-2344",
-        "year": "2024",
-        "volume": "64",
-        "journal": "J. Chem. Inf. Model.",
-        "number": "7",
-        "ee": "https://doi.org/10.1021/acs.jcim.3c00799",
-        "url": "db/journals/jcisd/jcisd64.html#HeyndrickxMMSFZPHONSFSADJALVHHPTH24",
-        "authors": [
-          "Wouter Heyndrickx",
-          "Lewis H. Mervin",
-          "Tobias Morawietz",
-          "NoÃ© Sturm",
-          "Lukas Friedrich",
-          "Adam Zalewski",
-          "Anastasia Pentina",
-          "Lina Humbeck",
-          "Martijn Oldenhof",
-          "Ritsuya Niwayama",
-          "Peter Schmidtke",
-          "Nikolas Fechner",
-          "Jaak Simm",
-          "Adam Arany",
-          "Nicolas Drizard",
-          "Rama Jabal",
-          "Arina Afanasyeva",
-          "Regis Loeb",
-          "Shlok Verma",
-          "Simon Harnqvist",
-          "Matthew Holmes",
-          "Balazs Pejo",
-          "Maria Telenczuk",
-          "Nicholas Holway",
-          "Arne Dieckmann",
-          "Nicola Rieke",
-          "Friederike Zumsande",
-          "Djork-ArnÃ© Clevert",
-          "Michael Krug",
-          "Christopher N. Luscombe",
-          "Darren V. S. Green",
-          "Peter Ertl",
-          "Peter Antal",
-          "David Marcus",
-          "Nicolas Do Huu",
-          "Hideyoshi Fuji",
-          "Stephen D. Pickett",
-          "Gergely Ãcs",
-          "Eric Boniface",
-          "Bernd Beck",
-          "Yax Sun",
-          "Arnaud Gohier",
-          "Friedrich Rippmann",
-          "Ola Engkvist",
-          "Andreas H. GÃ¶ller",
-          "Yves Moreau",
-          "Mathieu N. Galtier",
-          "Ansgar Schuffenhauer",
-          "Hugo Ceulemans"
-        ]
+        "inproceedings": {
+          "@key": "conf/kdd/AntalGF02",
+          "title": "On the potential of domain literature for clustering and Bayesian network learning",
+          "booktitle": "KDD",
+          "year": "2002",
+          "pages": "405-414",
+          "ee": "https://doi.org/10.1145/775047.775105",
+          "author": [
+            {
+              "#text": "Geert Fannes",
+              "@pid": "31/1559"
+            },
+            {
+              "#text": "Patrick Glenisson",
+              "@pid": "04/3509"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/artmed/AntalFTMM03",
-        "title": "Bayesian applications of belief networks and multilayer perceptrons for ovarian tumor classification with rejection.",
-        "pages": "39-60",
-        "year": "2003",
-        "volume": "29",
-        "journal": "Artif. Intell. Medicine",
-        "number": "1-2",
-        "ee": "https://www.wikidata.org/entity/Q42607890",
-        "url": "db/journals/artmed/artmed29.html#AntalFTMM03",
-        "authors": [
-          "Peter Antal",
-          "Geert Fannes",
-          "Dirk Timmerman",
-          "Yves Moreau",
-          "Bart De Moor"
-        ]
+        "inproceedings": {
+          "@key": "conf/pais/GuenfoudA18",
+          "title": "Bayesian exploration of dependencies of laboratory tests and evaluation of test redundancy",
+          "booktitle": "PAIS",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/PAIS.2018.8598485",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Zeyneb Guenfoud",
+              "@pid": "237/7204"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/artmed/AntalFTMM04",
-        "title": "Using literature and data to learn Bayesian networks as clinical models of ovarian tumors.",
-        "pages": "257-281",
-        "year": "2004",
-        "volume": "30",
-        "journal": "Artif. Intell. Medicine",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q30921027",
-        "url": "db/journals/artmed/artmed30.html#AntalFTMM04",
-        "authors": [
-          "Peter Antal",
-          "Geert Fannes",
-          "Dirk Timmerman",
-          "Yves Moreau",
-          "Bart De Moor"
-        ]
+        "inproceedings": {
+          "@key": "conf/pgm/AntalGHM06",
+          "title": "Learning Complex Bayesian Network Features for Classification",
+          "booktitle": "Probabilistic Graphical Models",
+          "year": "2006",
+          "pages": "9-16",
+          "author": [
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Gábor Hullám",
+              "@pid": "10/9381"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ploscb/MarxABBDJ17",
-        "title": "Comorbidities in the diseasome are more apparent than real: What Bayesian filtering reveals about the comorbidities of depression.",
-        "year": "2017",
-        "volume": "13",
-        "journal": "PLoS Comput. Biol.",
-        "number": "6",
-        "ee": "https://www.wikidata.org/entity/Q33897934",
-        "url": "db/journals/ploscb/ploscb13.html#MarxABBDJ17",
-        "authors": [
-          "Peter Marx",
-          "Peter Antal",
-          "Bence BolgÃ¡r",
-          "Gyorgy Bagdy",
-          "Bill Deakin",
-          "Gabriella JuhÃ¡sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/pgm/AntalM06",
+          "title": "Literature Mining using Bayesian Networks",
+          "booktitle": "Probabilistic Graphical Models",
+          "year": "2006",
+          "pages": "17-24",
+          "author": [
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jucs/AntalBFJ06",
-        "title": "The mobiDÃIK Educational Portal.",
-        "pages": "1118-1127",
-        "year": "2006",
-        "volume": "12",
-        "journal": "J. Univers. Comput. Sci.",
-        "number": "9",
-        "ee": "https://doi.org/10.3217/jucs-012-09-1118",
-        "url": "db/journals/jucs/jucs12.html#AntalBFJ06",
-        "authors": [
-          "Peter Antal",
-          "Norbert BÃ¡tfai",
-          "IstvÃ¡n Fazekas",
-          "PÃ©ter Jeszenszky"
-        ]
+        "inproceedings": {
+          "@key": "conf/pgm/BolgarA16",
+          "title": "Bayesian Matrix Factorization with Non-Random Missing Data using Informative Gaussian Process Priors and Soft Evidences",
+          "booktitle": "Probabilistic Graphical Models",
+          "year": "2016",
+          "pages": "25-36",
+          "author": [
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2512-09757",
-        "title": "Circuits, Features, and Heuristics in Molecular Transformers.",
-        "year": "2025",
-        "volume": "abs/2512.09757",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2512.09757",
-        "url": "db/journals/corr/corr2512.html#abs-2512-09757",
-        "authors": [
-          "Kristof Varadi",
-          "MÃ¡rk Marosi",
-          "Peter Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/pgm/HullamA14",
+          "title": "Towards a Bayesian Decision Theoretic Analysis of Contextual Effect Modifiers",
+          "booktitle": "Probabilistic Graphical Models",
+          "year": "2014",
+          "pages": "222-237",
+          "ee": "https://doi.org/10.1007/978-3-319-11433-0_15",
+          "author": [
+            {
+              "#text": "Gábor Hullám",
+              "@pid": "10/9381"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2210-08871",
-        "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery.",
-        "year": "2022",
-        "volume": "abs/2210.08871",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2210.08871",
-        "url": "db/journals/corr/corr2210.html#abs-2210-08871",
-        "authors": [
-          "Martijn Oldenhof",
-          "Gergely Ãcs",
-          "BalÃ¡zs PejÃ³",
-          "Ansgar Schuffenhauer",
-          "Nicholas Holway",
-          "NoÃ© Sturm",
-          "Arne Dieckmann",
-          "Oliver Fortmeier",
-          "Eric Boniface",
-          "ClÃ©ment Mayer",
-          "Arnaud Gohier",
-          "Peter Schmidtke",
-          "Ritsuya Niwayama",
-          "Dieter Kopecky",
-          "Lewis H. Mervin",
-          "Prakash Chandra Rathi",
-          "Lukas Friedrich",
-          "AndrÃ¡s Formanek",
-          "Peter Antal",
-          "Jordon Rahaman",
-          "Adam Zalewski",
-          "Ezron Oluoch",
-          "Manuel StÃ¶Ãel",
-          "Michal Vanco",
-          "David Endico",
-          "Fabien Gelus",
-          "ThaÃ¯s de BoisfossÃ©",
-          "Adrien Darbier",
-          "Ashley Nicollet",
-          "Matthieu BlottiÃ¨re",
-          "Maria Telenczuk",
-          "Van Tien Nguyen",
-          "Thibaud Martinez",
-          "Camille Boillet",
-          "Kelvin Moutet",
-          "Alexandre Picosson",
-          "AurÃ©lien Gasser",
-          "Inal Djafar",
-          "Adam Arany",
-          "Jaak Simm",
-          "Yves Moreau",
-          "Ola Engkvist",
-          "Hugo Ceulemans",
-          "Camille Marini",
-          "Mathieu Galtier"
-        ]
+        "inproceedings": {
+          "@key": "conf/pgm/MarxMJA16",
+          "title": "Joint Bayesian Modelling of Internal Dependencies and Relevant Multimorbidities of a Heterogeneous Disease",
+          "booktitle": "Probabilistic Graphical Models",
+          "year": "2016",
+          "pages": "310-320",
+          "author": [
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Gabriella Juhász",
+              "@pid": "184/4574"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Marx",
+              "@pid": "130/9716"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2209-14652",
-        "title": "Backflipping with Miniature Quadcopters by Gaussian Process Based Control and Planning.",
-        "year": "2022",
-        "volume": "abs/2209.14652",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2209.14652",
-        "url": "db/journals/corr/corr2209.html#abs-2209-14652",
-        "authors": [
-          "Peter Antal",
-          "TamÃ¡s PÃ©ni",
-          "Roland TÃ³th"
-        ]
+        "inproceedings": {
+          "@key": "conf/psb/GlenissonAMMM03",
+          "title": "Evaluation of the Vector Space Representation in Text-Based Gene Clustering",
+          "booktitle": "Pacific Symposium on Biocomputing",
+          "year": "2003",
+          "pages": "391-402",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Janick Mathys",
+              "@pid": "82/1777"
+            },
+            {
+              "#text": "Patrick Glenisson",
+              "@pid": "04/3509"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ans/PoganyA26",
+          "title": "Modeling multi-layer tissue networks in hyperbolic space",
+          "journal": "Appl. Netw. Sci.",
+          "year": "2026",
+          "pages": "7",
+          "ee": "https://doi.org/10.1007/S41109-025-00764-1",
+          "author": [
+            {
+              "#text": "Domonkos Pogány",
+              "@pid": "343/0251"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/artmed/AntalFTMM03",
+          "title": "Bayesian applications of belief networks and multilayer perceptrons for ovarian tumor classification with rejection",
+          "journal": "Artif. Intell. Medicine",
+          "year": "2003",
+          "pages": "39-60",
+          "ee": "https://doi.org/10.1016/S0933-3657(03)00053-8",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Geert Fannes",
+              "@pid": "31/1559"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/artmed/AntalFTMM04",
+          "title": "Using literature and data to learn Bayesian networks as clinical models of ovarian tumors",
+          "journal": "Artif. Intell. Medicine",
+          "year": "2004",
+          "pages": "257-281",
+          "ee": "https://doi.org/10.1016/J.ARTMED.2003.11.007",
+          "author": [
+            {
+              "#text": "Bart De Moor",
+              "@pid": "66/3559"
+            },
+            {
+              "#text": "Dirk Timmerman",
+              "@pid": "86/2235"
+            },
+            {
+              "#text": "Geert Fannes",
+              "@pid": "31/1559"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/GezsiA24",
+          "title": "GNN4DM: a graph neural network-based method to identify overlapping functional disease modules",
+          "journal": "Bioinform.",
+          "year": "2024",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTAE573",
+          "author": [
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bmcbi/BolgarA17",
+          "title": "VB-MK-LMF: fusion of drugs, targets and interactions using variational Bayesian multiple kernel logistic matrix factorization",
+          "journal": "BMC Bioinform.",
+          "year": "2017",
+          "pages": "440:1-440:18",
+          "ee": "https://doi.org/10.1186/S12859-017-1845-Z",
+          "author": [
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bmcbi/SandorA25",
+          "title": "Efficient structure learning of gene regulatory networks with Bayesian active learning",
+          "journal": "BMC Bioinform.",
+          "year": "2025",
+          "pages": "150",
+          "ee": "https://doi.org/10.1186/S12859-025-06149-6",
+          "author": [
+            {
+              "#text": "Dániel Sándor",
+              "@pid": "363/0185"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2209-14652",
+          "title": "Backflipping with Miniature Quadcopters by Gaussian Process Based Control and Planning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2209.14652",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-08871",
+          "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.08871",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "Adam Zalewski",
+              "@pid": "154/5673"
+            },
+            {
+              "#text": "Adrien Darbier",
+              "@pid": "331/3180"
+            },
+            {
+              "#text": "Alexandre Picosson",
+              "@pid": "331/3514"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Ansgar Schuffenhauer",
+              "@pid": "39/1508"
+            },
+            {
+              "#text": "Arnaud Gohier",
+              "@pid": "284/2209"
+            },
+            {
+              "#text": "Arne Dieckmann",
+              "@pid": "331/3577"
+            },
+            {
+              "#text": "Ashley Nicollet",
+              "@pid": "331/3578"
+            },
+            {
+              "#text": "Aurélien Gasser",
+              "@pid": "331/3822"
+            },
+            {
+              "#text": "Balazs Pejo",
+              "@pid": "175/5675"
+            },
+            {
+              "#text": "Camille Boillet",
+              "@pid": "331/3864"
+            },
+            {
+              "#text": "Camille Marini",
+              "@pid": "146/2819"
+            },
+            {
+              "#text": "Clément Mayer",
+              "@pid": "331/3516"
+            },
+            {
+              "#text": "David Endico",
+              "@pid": "331/3884"
+            },
+            {
+              "#text": "Dieter Kopecky",
+              "@pid": "37/5686"
+            },
+            {
+              "#text": "Eric Boniface",
+              "@pid": "331/3470"
+            },
+            {
+              "#text": "Ezron Oluoch",
+              "@pid": "331/3494"
+            },
+            {
+              "#text": "Fabien Gelus",
+              "@pid": "331/3715"
+            },
+            {
+              "#text": "Gergely Ács",
+              "@pid": "86/405"
+            },
+            {
+              "#text": "Hugo Ceulemans",
+              "@pid": "191/5926"
+            },
+            {
+              "#text": "Inal Djafar",
+              "@pid": "331/3084"
+            },
+            {
+              "#text": "Jaak Simm",
+              "@pid": "93/1203"
+            },
+            {
+              "#text": "Jordon Rahaman",
+              "@pid": "331/3800"
+            },
+            {
+              "#text": "Kelvin Moutet",
+              "@pid": "189/8153"
+            },
+            {
+              "#text": "Lewis H. Mervin",
+              "@pid": "173/0958"
+            },
+            {
+              "#text": "Lukas Friedrich",
+              "@pid": "308/0321"
+            },
+            {
+              "#text": "Manuel Stößel",
+              "@pid": "331/3585"
+            },
+            {
+              "#text": "Maria Telenczuk",
+              "@pid": "331/0577"
+            },
+            {
+              "#text": "Martijn Oldenhof",
+              "@pid": "259/3090"
+            },
+            {
+              "#text": "Mathieu Galtier",
+              "@pid": "116/2861"
+            },
+            {
+              "#text": "Matthieu Blottière",
+              "@pid": "331/3727"
+            },
+            {
+              "#text": "Michal Vanco",
+              "@pid": "331/3752"
+            },
+            {
+              "#text": "Nicholas Holway",
+              "@pid": "331/3643"
+            },
+            {
+              "#text": "Noé Sturm",
+              "@pid": "141/2565"
+            },
+            {
+              "#text": "Ola Engkvist",
+              "@pid": "40/1370"
+            },
+            {
+              "#text": "Oliver Fortmeier",
+              "@pid": "22/8239"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Schmidtke",
+              "@pid": "30/7234"
+            },
+            {
+              "#text": "Prakash Chandra Rathi",
+              "@pid": "141/3690"
+            },
+            {
+              "#text": "Ritsuya Niwayama",
+              "@pid": "212/4743"
+            },
+            {
+              "#text": "Thaïs de Boisfossé",
+              "@pid": "331/3177"
+            },
+            {
+              "#text": "Thibaud Martinez",
+              "@pid": "331/3552"
+            },
+            {
+              "#text": "Van Tien Nguyen",
+              "@pid": "41/7867"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2211-14138",
+          "title": "The TSN Building Blocks in Linux",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.14138",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Márton Kerekes",
+              "@pid": "334/4197"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2304-02444",
+          "title": "Payload Grasping and Transportation by a Quadrotor with a Hook-Based Manipulator",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2304.02444",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-09651",
+          "title": "Modelling, identification and geometric control of autonomous quadcopters for agile maneuvering",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.09651",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-13750",
+          "title": "Computationally Efficient Sampling-Based Algorithm for Stability Analysis of Nonlinear Systems",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.13750",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-11788",
+          "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.11788",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-09757",
+          "title": "Circuits, Features, and Heuristics in Molecular Transformers",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.09757",
+          "author": [
+            {
+              "#text": "Kristof Varadi",
+              "@pid": "424/5779"
+            },
+            {
+              "#text": "Márk Marosi",
+              "@pid": "382/4608"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-24708",
+          "title": "BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.24708",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-24810",
+          "title": "DTI-GP: Bayesian operations for drug-target interactions using deep kernel Gaussian processes",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.24810",
+          "author": [
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-24866",
+          "title": "Characterization of Transfer Using Multi-task Learning Curves",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.24866",
+          "author": [
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-24959",
+          "title": "Semi-overlapping Multi-bandit Best Arm Identification for Sequential Support Network Learning",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.24959",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-02370",
+          "title": "Robust Adaptive Predictive Control for Hook-Based Aerial Transportation Between Moving Platforms",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.02370",
+          "author": [
+            {
+              "#text": "Andrea Carron",
+              "@pid": "125/5537"
+            },
+            {
+              "#text": "Melanie Nicole Zeilinger",
+              "@pid": "41/7142"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eecs/SarkozyMFSA17",
+          "title": "Beyond Homopolymer Errors: a Systematic Investigation of Nanopore-based DNA Sequencing Characteristics Using HLA-DQA2",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2017",
+          "pages": "231-237",
+          "ee": "https://doi.org/10.3311/PPEE.10015",
+          "author": [
+            {
+              "#text": "Csaba Szalai",
+              "@pid": "08/9381"
+            },
+            {
+              "#text": "Dóra Fogl",
+              "@pid": "347/4786"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Péter Sárközy",
+              "@pid": "151/2181"
+            },
+            {
+              "#text": "Viktor Molnar",
+              "@pid": "328/5393"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcisd/HeyndrickxMMSFZPHONSFSADJALVHHPTH24",
+          "title": "MELLODDY: Cross-pharma Federated Learning at Unprecedented Scale Unlocks Benefits in QSAR without Compromising Proprietary Information",
+          "journal": "J. Chem. Inf. Model.",
+          "year": "2024",
+          "pages": "2331-2344",
+          "ee": "https://doi.org/10.1021/ACS.JCIM.3C00799",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "Adam Zalewski",
+              "@pid": "154/5673"
+            },
+            {
+              "#text": "Anastasia Pentina",
+              "@pid": "137/8243"
+            },
+            {
+              "#text": "Andreas H. Göller",
+              "@pid": "63/5574"
+            },
+            {
+              "#text": "Ansgar Schuffenhauer",
+              "@pid": "39/1508"
+            },
+            {
+              "#text": "Arina Buzdalova",
+              "@pid": "119/7396"
+            },
+            {
+              "#text": "Arnaud Gohier",
+              "@pid": "284/2209"
+            },
+            {
+              "#text": "Arne Dieckmann",
+              "@pid": "331/3577"
+            },
+            {
+              "#text": "Balazs Pejo",
+              "@pid": "175/5675"
+            },
+            {
+              "#text": "Bernd Beck",
+              "@pid": "94/2300"
+            },
+            {
+              "#text": "Christopher N. Luscombe",
+              "@pid": "129/8542"
+            },
+            {
+              "#text": "Darren V. S. Green",
+              "@pid": "06/4293"
+            },
+            {
+              "#text": "David Marcus",
+              "@pid": "141/1239"
+            },
+            {
+              "#text": "Djork-Arné Clevert",
+              "@pid": "03/1617"
+            },
+            {
+              "#text": "Eric Boniface",
+              "@pid": "331/3470"
+            },
+            {
+              "#text": "Friederike Zumsande",
+              "@pid": "374/2734"
+            },
+            {
+              "#text": "Friedrich Rippmann",
+              "@pid": "42/1077"
+            },
+            {
+              "#text": "Gergely Ács",
+              "@pid": "86/405"
+            },
+            {
+              "#text": "Hideyoshi Fuji",
+              "@pid": "98/528"
+            },
+            {
+              "#text": "Hugo Ceulemans",
+              "@pid": "191/5926"
+            },
+            {
+              "#text": "Jaak Simm",
+              "@pid": "93/1203"
+            },
+            {
+              "#text": "Lewis H. Mervin",
+              "@pid": "173/0958"
+            },
+            {
+              "#text": "Lina Humbeck",
+              "@pid": "200/1544"
+            },
+            {
+              "#text": "Lukas Friedrich",
+              "@pid": "308/0321"
+            },
+            {
+              "#text": "Maria Telenczuk",
+              "@pid": "331/0577"
+            },
+            {
+              "#text": "Martijn Oldenhof",
+              "@pid": "259/3090"
+            },
+            {
+              "#text": "Mathieu Galtier",
+              "@pid": "116/2861"
+            },
+            {
+              "#text": "Matthew Holmes",
+              "@pid": "80/9393"
+            },
+            {
+              "#text": "Michael Krug",
+              "@pid": "84/6567"
+            },
+            {
+              "#text": "Nicholas Holway",
+              "@pid": "331/3643"
+            },
+            {
+              "#text": "Nicola Rieke",
+              "@pid": "149/7726"
+            },
+            {
+              "#text": "Nicolas Do Huu",
+              "@pid": "43/2246"
+            },
+            {
+              "#text": "Nicolas Drizard",
+              "@pid": "353/4401"
+            },
+            {
+              "#text": "Nikolas Fechner",
+              "@pid": "90/5491"
+            },
+            {
+              "#text": "Noé Sturm",
+              "@pid": "141/2565"
+            },
+            {
+              "#text": "Ola Engkvist",
+              "@pid": "40/1370"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Ertl",
+              "@pid": "10/4531"
+            },
+            {
+              "#text": "Peter Schmidtke",
+              "@pid": "30/7234"
+            },
+            {
+              "#text": "Rama Jabal",
+              "@pid": "374/3251"
+            },
+            {
+              "#text": "Régis Loeb",
+              "@pid": "252/8815"
+            },
+            {
+              "#text": "Ritsuya Niwayama",
+              "@pid": "212/4743"
+            },
+            {
+              "#text": "Shlok Verma",
+              "@pid": "374/2818"
+            },
+            {
+              "#text": "Simon Harnqvist",
+              "@pid": "374/2512"
+            },
+            {
+              "#text": "Stephen D. Pickett",
+              "@pid": "38/2383"
+            },
+            {
+              "#text": "Tobias Morawietz",
+              "@pid": "290/4853"
+            },
+            {
+              "#text": "Wouter Heyndrickx",
+              "@pid": "69/8885"
+            },
+            {
+              "#text": "Yax Sun",
+              "@pid": "71/6936"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/jmlr/AntalMHSF08",
+          "title": "A Bayesian View of Challenges in Feature Selection: Feature Aggregation, Multiple Targets, Redundancy and Interaction",
+          "booktitle": "FSDM",
+          "year": "2008",
+          "pages": "74-89",
+          "author": [
+            {
+              "#text": "András Falus",
+              "@pid": "78/4365"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Csaba Szalai",
+              "@pid": "08/9381"
+            },
+            {
+              "#text": "Gábor Hullám",
+              "@pid": "10/9381"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/jmlr/HullamASF10",
+          "title": "Evaluation of a Bayesian model-based approach in GA studies",
+          "booktitle": "MLSB",
+          "year": "2010",
+          "pages": "30-43",
+          "author": [
+            {
+              "#text": "András Falus",
+              "@pid": "78/4365"
+            },
+            {
+              "#text": "Csaba Szalai",
+              "@pid": "08/9381"
+            },
+            {
+              "#text": "Gábor Hullám",
+              "@pid": "10/9381"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jucs/AntalBFJ06",
+          "title": "The mobiDÁIK Educational Portal",
+          "journal": "J. Univers. Comput. Sci.",
+          "year": "2006",
+          "pages": "1118-1127",
+          "ee": "https://doi.org/10.3217/JUCS-012-09-1118",
+          "author": [
+            {
+              "#text": "István Fazekas",
+              "@pid": "00/4472"
+            },
+            {
+              "#text": "Norbert Bátfai",
+              "@pid": "94/4545"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Péter Jeszenszky",
+              "@pid": "52/2825"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/MarxABBDJ17",
+          "title": "Comorbidities in the diseasome are more apparent than real: What Bayesian filtering reveals about the comorbidities of depression",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2017",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1005487",
+          "author": [
+            {
+              "#text": "Bence Bolgár",
+              "@pid": "151/2328"
+            },
+            {
+              "#text": "Gabriella Juhász",
+              "@pid": "184/4574"
+            },
+            {
+              "#text": "Gyorgy Bagdy",
+              "@pid": "215/7585"
+            },
+            {
+              "#text": "John Francis William Deakin",
+              "@pid": "71/10750"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Marx",
+              "@pid": "130/9716"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ral/AntalCZTP26",
+          "title": "Robust Adaptive Predictive Control for Hook-Based Aerial Transportation Between Moving Platforms",
+          "journal": "IEEE Robotics Autom. Lett.",
+          "year": "2026",
+          "pages": "12352-12359",
+          "ee": "https://doi.org/10.1109/LRA.2026.3730216",
+          "author": [
+            {
+              "#text": "Andrea Carron",
+              "@pid": "125/5537"
+            },
+            {
+              "#text": "Melanie Nicole Zeilinger",
+              "@pid": "41/7142"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcbb/PoganyA25",
+          "title": "Hyperbolic Nature of Differential Expression Signatures",
+          "journal": "IEEE Trans. Comput. Biol. Bioinform.",
+          "year": "2025",
+          "pages": "3131-3142",
+          "ee": "https://doi.org/10.1109/TCBBIO.2025.3612275",
+          "author": [
+            {
+              "#text": "Domonkos Pogány",
+              "@pid": "343/0251"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/AntalPT24",
+          "title": "Backflipping With Miniature Quadcopters by Gaussian-Process-Based Control and Planning",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2024",
+          "pages": "3-14",
+          "ee": "https://doi.org/10.1109/TCST.2023.3297744",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/AntalPT25",
+          "title": "Autonomous Hook-Based Grasping and Transportation With Quadcopters",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2025",
+          "pages": "980-990",
+          "ee": "https://doi.org/10.1109/TCST.2025.3529356",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       }
     ]
   }

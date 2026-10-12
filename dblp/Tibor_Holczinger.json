@@ -1,105 +1,170 @@
 {
   "dblpperson": {
+    "@name": "Tibor Holczinger",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/macro/HolczingerO15",
-        "title": "Throughput Maximization with S-graph Framework using Global Branching Tree.",
-        "pages": "201-210",
-        "year": "2015",
-        "booktitle": "MACRo",
-        "ee": "https://doi.org/10.1515/macro-2015-0020",
-        "url": "db/conf/macro/macro2015.html#HolczingerO15",
-        "authors": [
-          "Tibor Holczinger",
-          "Ãkos Orosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ism2/BakonHJ21",
+          "title": "Production flow of customized products in a digital factory",
+          "booktitle": "ISM",
+          "year": "2022",
+          "pages": "1201-1208",
+          "ee": "https://doi.org/10.1016/J.PROCS.2022.01.320",
+          "author": [
+            {
+              "#text": "Krisztián Bakon",
+              "@pid": "316/8936"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ism2/BakonHJ21",
-        "title": "Production flow of customized products in a digital factory.",
-        "pages": "1201-1208",
-        "year": "2021",
-        "booktitle": "ISM",
-        "ee": "https://doi.org/10.1016/j.procs.2022.01.320",
-        "url": "db/conf/ism2/ism2021.html#BakonHJ21",
-        "authors": [
-          "KrisztiÃ¡n Bakon",
-          "Tibor Holczinger",
-          "SzilÃ¡rd JaskÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/macro/HolczingerO15",
+          "title": "Throughput Maximization with S-graph Framework using Global Branching Tree",
+          "booktitle": "MACRo",
+          "year": "2015",
+          "pages": "201-210",
+          "ee": "https://doi.org/10.1515/MACRO-2015-0020",
+          "author": [
+            {
+              "#text": "Ákos Orosz",
+              "@pid": "204/3547"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/BakonHSJA22",
-        "title": "Scheduling Under Uncertainty for Industry 4.0 and 5.0.",
-        "pages": "74977-75017",
-        "year": "2022",
-        "volume": "10",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2022.3191426",
-        "url": "db/journals/access/access10.html#BakonHSJA22",
-        "authors": [
-          "KrisztiÃ¡n Bakon",
-          "Tibor Holczinger",
-          "ZoltÃ¡n SÃ¼le",
-          "SzilÃ¡rd JaskÃ³",
-          "JÃ¡nos Abonyi"
-        ]
+        "article": {
+          "@key": "journals/access/BakonHSJA22",
+          "title": "Scheduling Under Uncertainty for Industry 4.0 and 5.0",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "74977-75017",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3191426",
+          "author": [
+            {
+              "#text": "János Abonyi",
+              "@pid": "85/4591"
+            },
+            {
+              "#text": "Krisztián Bakon",
+              "@pid": "316/8936"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            },
+            {
+              "#text": "Zoltán Süle",
+              "@pid": "20/11198"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/complexity/CsalodiSJHA21",
-        "title": "Industry 4.0-Driven Development of Optimization Algorithms: A Systematic Overview.",
-        "pages": "6621235:1-6621235:22",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "Complex.",
-        "ee": "https://www.wikidata.org/entity/Q125807874",
-        "url": "db/journals/complexity/complexity2021.html#CsalodiSJHA21",
-        "authors": [
-          "RÃ³bert CsalÃ³di",
-          "ZoltÃ¡n SÃ¼le",
-          "SzilÃ¡rd JaskÃ³",
-          "Tibor Holczinger",
-          "JÃ¡nos Abonyi"
-        ]
+        "article": {
+          "@key": "journals/cejor/HegyhatiBH23",
+          "title": "Optimization with uncertainties: a scheduling example",
+          "journal": "Central Eur. J. Oper. Res.",
+          "year": "2023",
+          "pages": "1239-1263",
+          "ee": "https://doi.org/10.1007/S10100-023-00854-4",
+          "author": [
+            {
+              "#text": "Krisztián Bakon",
+              "@pid": "316/8936"
+            },
+            {
+              "#text": "Máté Hegyháti",
+              "@pid": "128/5361"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cii/JaskoSHCA20",
-        "title": "Development of manufacturing execution systems in accordance with Industry 4.0 requirements: A review of standard- and ontology-based methodologies and tools.",
-        "pages": "103300",
-        "year": "2020",
-        "volume": "123",
-        "journal": "Comput. Ind.",
-        "ee": "https://doi.org/10.1016/j.compind.2020.103300",
-        "url": "db/journals/cii/cii123.html#JaskoSHCA20",
-        "authors": [
-          "SzilÃ¡rd JaskÃ³",
-          "Adrienn Skrop",
-          "Tibor Holczinger",
-          "Tibor ChovÃ¡n",
-          "JÃ¡nos Abonyi"
-        ]
+        "article": {
+          "@key": "journals/cii/JaskoSHCA20",
+          "title": "Development of manufacturing execution systems in accordance with Industry 4.0 requirements: A review of standard- and ontology-based methodologies and tools",
+          "journal": "Comput. Ind.",
+          "year": "2020",
+          "pages": "103300",
+          "ee": "https://doi.org/10.1016/J.COMPIND.2020.103300",
+          "author": [
+            {
+              "#text": "Adrienn Skrop",
+              "@pid": "38/5264"
+            },
+            {
+              "#text": "János Abonyi",
+              "@pid": "85/4591"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            },
+            {
+              "#text": "Tibor Chován",
+              "@pid": "87/7156"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cejor/HegyhatiBH23",
-        "title": "Optimization with uncertainties: a scheduling example.",
-        "pages": "1239-1263",
-        "year": "2023",
-        "volume": "31",
-        "journal": "Central Eur. J. Oper. Res.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s10100-023-00854-4",
-        "url": "db/journals/cejor/cejor31.html#HegyhatiBH23",
-        "authors": [
-          "MÃ¡tÃ© HegyhÃ¡ti",
-          "KrisztiÃ¡n Bakon",
-          "Tibor Holczinger"
-        ]
+        "article": {
+          "@key": "journals/complexity/CsalodiSJHA21",
+          "title": "Industry 4.0-Driven Development of Optimization Algorithms: A Systematic Overview",
+          "journal": "Complex.",
+          "year": "2021",
+          "pages": "6621235:1-6621235:22",
+          "ee": "https://doi.org/10.1155/2021/6621235",
+          "author": [
+            {
+              "#text": "János Abonyi",
+              "@pid": "85/4591"
+            },
+            {
+              "#text": "Róbert Csalódi",
+              "@pid": "285/5528"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            },
+            {
+              "#text": "Tibor Holczinger",
+              "@pid": "224/9084"
+            },
+            {
+              "#text": "Zoltán Süle",
+              "@pid": "20/11198"
+            }
+          ]
+        }
       }
     ]
   }

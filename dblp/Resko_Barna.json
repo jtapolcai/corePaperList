@@ -1,22 +1,38 @@
 {
   "dblpperson": {
+    "@name": "Resko Barna",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/isnn/WangBWBH05",
-        "title": "Application of Artificial Neural Networks to Predicate Shale Content.",
-        "pages": "1046-1051",
-        "year": "2005",
-        "booktitle": "ISNN (3)",
-        "ee": "https://doi.org/10.1007/11427469_166",
-        "url": "db/conf/isnn/isnn2005-3.html#WangBWBH05",
-        "authors": [
-          "Kesheng Wang",
-          "Resko Barna",
-          "Yi Wang",
-          "Maxim Boldin",
-          "Ove R. Hjelmervik"
-        ]
+        "inproceedings": {
+          "@key": "conf/isnn/WangBWBH05",
+          "title": "Application of Artificial Neural Networks to Predicate Shale Content",
+          "booktitle": "ISNN (3)",
+          "year": "2005",
+          "pages": "1046-1051",
+          "ee": "https://doi.org/10.1007/11427469_166",
+          "author": [
+            {
+              "#text": "Kesheng Wang",
+              "@pid": "75/4164"
+            },
+            {
+              "#text": "Maxim Boldin",
+              "@pid": "03/465"
+            },
+            {
+              "#text": "Ove R. Hjelmervik",
+              "@pid": "43/403"
+            },
+            {
+              "#text": "Resko Barna",
+              "@pid": "89/4928"
+            },
+            {
+              "#text": "Yi Wang",
+              "@pid": "17/221"
+            }
+          ]
+        }
       }
     ]
   }

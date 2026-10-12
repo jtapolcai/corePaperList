@@ -1,97 +1,179 @@
 {
   "dblpperson": {
+    "@name": "Gergo Somorjai",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/iros/VasarhelyiVSTSNV14",
-        "title": "Outdoor flocking and formation flight with autonomous aerial robots.",
-        "pages": "3866-3873",
-        "year": "2014",
-        "booktitle": "IROS",
-        "ee": "https://doi.org/10.1109/IROS.2014.6943105",
-        "url": "db/conf/iros/iros2014.html#VasarhelyiVSTSNV14",
-        "authors": [
-          "GÃ¡bor VÃ¡sÃ¡rhelyi",
-          "Csaba VirÃ¡gh",
-          "Gergo Somorjai",
-          "Norbert Tarcai",
-          "TamÃ¡s SzÃ¶rÃ©nyi",
-          "TamÃ¡s Nepusz",
-          "TamÃ¡s Vicsek"
-        ]
+        "inproceedings": {
+          "@key": "conf/iros/VasarhelyiVSTSNV14",
+          "title": "Outdoor flocking and formation flight with autonomous aerial robots",
+          "booktitle": "IROS",
+          "year": "2014",
+          "pages": "3866-3873",
+          "ee": "https://doi.org/10.1109/IROS.2014.6943105",
+          "author": [
+            {
+              "#text": "Csaba Virágh",
+              "@pid": "142/2352"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Norbert Tarcai",
+              "@pid": "142/2984"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Szörényi",
+              "@pid": "142/2762"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/swarm/BalazsVSNV25",
-        "title": "Decentralized traffic management of autonomous drones.",
-        "pages": "29-53",
-        "year": "2025",
-        "volume": "19",
-        "journal": "Swarm Intell.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s11721-024-00241-y",
-        "url": "db/journals/swarm/swarm19.html#BalazsVSNV25",
-        "authors": [
-          "BoldizsÃ¡r BalÃ¡zs",
-          "TamÃ¡s Vicsek",
-          "Gergo Somorjai",
-          "TamÃ¡s Nepusz",
-          "GÃ¡bor VÃ¡sÃ¡rhelyi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2312-11207",
+          "title": "Decentralized traffic management of autonomous drones",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.11207",
+          "author": [
+            {
+              "#text": "Boldizsar Balazs",
+              "@pid": "226/6447"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scirobotics/ViraghSNEV18",
-        "title": "Optimized flocking of autonomous drones in confined environments.",
-        "year": "2018",
-        "volume": "3",
-        "journal": "Sci. Robotics",
-        "number": "20",
-        "ee": "https://www.wikidata.org/entity/Q101213095",
-        "url": "db/journals/scirobotics/scirobotics3.html#ViraghSNEV18",
-        "authors": [
-          "Csaba VirÃ¡gh",
-          "Gergo Somorjai",
-          "TamÃ¡s Nepusz",
-          "Ãgoston E. Eiben",
-          "TamÃ¡s Vicsek"
-        ]
+        "informal": {
+          "@key": "journals/corr/VasarhelyiVSTSNV14",
+          "title": "Outdoor flocking and formation flight with autonomous aerial robots",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1402.3588",
+          "author": [
+            {
+              "#text": "Csaba Virágh",
+              "@pid": "142/2352"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Norbert Tarcai",
+              "@pid": "142/2984"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Szörényi",
+              "@pid": "142/2762"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-11207",
-        "title": "Decentralized traffic management of autonomous drones.",
-        "year": "2023",
-        "volume": "abs/2312.11207",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.11207",
-        "url": "db/journals/corr/corr2312.html#abs-2312-11207",
-        "authors": [
-          "BoldizsÃ¡r BalÃ¡zs",
-          "TamÃ¡s Vicsek",
-          "Gergo Somorjai",
-          "TamÃ¡s Nepusz",
-          "GÃ¡bor VÃ¡sÃ¡rhelyi"
-        ]
+        "article": {
+          "@key": "journals/scirobotics/ViraghSNEV18",
+          "title": "Optimized flocking of autonomous drones in confined environments",
+          "journal": "Sci. Robotics",
+          "year": "2018",
+          "ee": "https://doi.org/10.1126/SCIROBOTICS.AAT3536",
+          "author": [
+            {
+              "#text": "A. E. Eiben",
+              "@pid": "e/AEEiben"
+            },
+            {
+              "#text": "Csaba Virágh",
+              "@pid": "142/2352"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/VasarhelyiVSTSNV14",
-        "title": "Outdoor flocking and formation flight with autonomous aerial robots.",
-        "year": "2014",
-        "volume": "abs/1402.3588",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1402.3588",
-        "url": "db/journals/corr/corr1402.html#VasarhelyiVSTSNV14",
-        "authors": [
-          "GÃ¡bor VÃ¡sÃ¡rhelyi",
-          "Csaba VirÃ¡gh",
-          "Gergo Somorjai",
-          "Norbert Tarcai",
-          "TamÃ¡s SzÃ¶rÃ©nyi",
-          "TamÃ¡s Nepusz",
-          "TamÃ¡s Vicsek"
-        ]
+        "article": {
+          "@key": "journals/swarm/BalazsVSNV25",
+          "title": "Decentralized traffic management of autonomous drones",
+          "journal": "Swarm Intell.",
+          "year": "2025",
+          "pages": "29-53",
+          "ee": "https://doi.org/10.1007/S11721-024-00241-Y",
+          "author": [
+            {
+              "#text": "Boldizsar Balazs",
+              "@pid": "226/6447"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       }
     ]
   }

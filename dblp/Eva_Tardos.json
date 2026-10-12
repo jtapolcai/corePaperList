@@ -1,24 +1,5868 @@
 {
   "dblpperson": {
+    "@name": "Éva Tardos",
     "r": [
       {
-        "type": "article",
-        "key": "journals/corr/abs-2510-11937",
-        "title": "Stable and Fault-Tolerant Decentralized Traffic Engineering.",
-        "year": "2025",
-        "volume": "abs/2510.11937",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2510.11937",
-        "url": "db/journals/corr/corr2510.html#abs-2510-11937",
-        "authors": [
-          "Arjun Devraj",
-          "Umesh Krishnaswamy",
-          "Ying Zhang",
-          "Karuna Grewal",
-          "Justin Hsu",
-          "Eva Tardos",
-          "Rachee Singh"
-        ]
+        "informal": {
+          "@key": "books/daglib/0015106",
+          "title": "Algorithm design",
+          "journal": "",
+          "year": "2006",
+          "pages": "I-XXIII, 1-838",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/alt/LykourisTW20",
+          "title": "Feedback graph regret bounds for Thompson Sampling and UCB",
+          "booktitle": "ALT",
+          "year": "2020",
+          "pages": "592-614",
+          "author": [
+            {
+              "#text": "Drishti Wali",
+              "@pid": "241/6917"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/approx/GuptaST04",
+          "title": "Cost-Sharing Mechanisms for Network Design",
+          "booktitle": "APPROX-RANDOM",
+          "year": "2004",
+          "pages": "139-150",
+          "ee": "https://doi.org/10.1007/978-3-540-27821-4_13",
+          "author": [
+            {
+              "#text": "Anupam Gupta",
+              "@pid": "27/2931"
+            },
+            {
+              "#text": "Aravind Srinivasan",
+              "@pid": "s/AravindSrinivasan"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/approx/SvitkinaT04",
+          "title": "Min-Max Multiway Cut",
+          "booktitle": "APPROX-RANDOM",
+          "year": "2004",
+          "pages": "207-218",
+          "ee": "https://doi.org/10.1007/978-3-540-27821-4_19",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Zoya Svitkina",
+              "@pid": "s/ZoyaSvitkina"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/FikiorisT23",
+          "title": "Approximately Stationary Bandits with Knapsacks",
+          "booktitle": "COLT",
+          "year": "2023",
+          "pages": "3758-3782",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LykourisST18",
+          "title": "Small-loss bounds for online learning with partial information",
+          "booktitle": "COLT",
+          "year": "2018",
+          "pages": "979-986",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karthik Sridharan",
+              "@pid": "s/KarthikSridharan"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvpr/FelzenszwalbPTZ10",
+          "title": "Globally optimal pixel labeling algorithms for tree metrics",
+          "booktitle": "CVPR",
+          "year": "2010",
+          "pages": "3153-3160",
+          "ee": "https://doi.org/10.1109/CVPR.2010.5540077",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Gyula Pap",
+              "@pid": "64/34"
+            },
+            {
+              "#text": "Pedro F. Felzenszwalb",
+              "@pid": "72/5291"
+            },
+            {
+              "#text": "Ramin Zabih",
+              "@pid": "z/RaminZabih"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "conf/dagstuhl/CramtonMTT07",
+          "title": "07271 Summary - Computational Social Systems and the Internet",
+          "journal": "Computational Social Systems and the Internet",
+          "year": "2007",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Moshe Tennenholtz",
+              "@pid": "t/MosheTennenholtz"
+            },
+            {
+              "#text": "Peter Cramton",
+              "@pid": "48/2529"
+            },
+            {
+              "#text": "Rudolf Müller",
+              "@pid": "25/5909"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "conf/dagstuhl/CramtonMTT07a",
+          "title": "07271 Abstracts Collection - Computational Social Systems and the Internet ",
+          "journal": "Computational Social Systems and the Internet",
+          "year": "2007",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Moshe Tennenholtz",
+              "@pid": "t/MosheTennenholtz"
+            },
+            {
+              "#text": "Peter Cramton",
+              "@pid": "48/2529"
+            },
+            {
+              "#text": "Rudolf Müller",
+              "@pid": "25/5909"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "conf/dagstuhl/HeringsJMTS07",
+          "title": "07471 Abstracts Collection - Equilibrium Computation",
+          "journal": "Equilibrium Computation",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "Bernhard von Stengel",
+              "@pid": "95/4774"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Marcin Jurdzinski",
+              "@pid": "42/2563"
+            },
+            {
+              "#text": "P. Jean-Jacques Herings",
+              "@pid": "39/4434"
+            },
+            {
+              "#text": "Peter Bro Miltersen",
+              "@pid": "m/PBMiltersen"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/NguyenT08",
+          "title": "Parallel Imaging Problem",
+          "booktitle": "ESA",
+          "year": "2008",
+          "pages": "684-695",
+          "ee": "https://doi.org/10.1007/978-3-540-87744-8_57",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thành Nguyen",
+              "@pid": "07/6674-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/Tardos03",
+          "title": "Approximation Algorithms and Network Games",
+          "booktitle": "ESA",
+          "year": "2003",
+          "pages": "6",
+          "ee": "https://doi.org/10.1007/978-3-540-39658-1_3",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/AnshelevichDKTWR04",
+          "title": "The Price of Stability for Network Design with Fair Cost Allocation",
+          "booktitle": "FOCS",
+          "year": "2004",
+          "pages": "295-304",
+          "ee": "https://doi.org/10.1109/FOCS.2004.68",
+          "author": [
+            {
+              "#text": "Anirban Dasgupta",
+              "@pid": "54/385-1"
+            },
+            {
+              "#text": "Elliot Anshelevich",
+              "@pid": "66/414"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/ArcherT01",
+          "title": "Truthful Mechanisms for One-Parameter Agents",
+          "booktitle": "FOCS",
+          "year": "2001",
+          "pages": "482-491",
+          "ee": "https://doi.org/10.1109/SFCS.2001.959924",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/BlumeEKKT11",
+          "title": "Which Networks are Least Susceptible to Cascading Failures?",
+          "booktitle": "FOCS",
+          "year": "2011",
+          "pages": "393-402",
+          "ee": "https://doi.org/10.1109/FOCS.2011.38",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/FrankT85",
+          "title": "An Application of Simultaneous Approximation in Combinatorial Optimization",
+          "booktitle": "FOCS",
+          "year": "1985",
+          "pages": "459-463",
+          "ee": "https://doi.org/10.1109/SFCS.1985.8",
+          "author": [
+            {
+              "#text": "András Frank",
+              "@pid": "34/3494"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/GalilT86",
+          "title": "An O(n^2 (m + n log n) log n) Min-Cost Flow Algorithm",
+          "booktitle": "FOCS",
+          "year": "1986",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/SFCS.1986.7",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Zvi Galil",
+              "@pid": "g/ZviGalil"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/GoldbergPST89",
+          "title": "Interior-Point Methods in Parallel Computation",
+          "booktitle": "FOCS",
+          "year": "1989",
+          "pages": "350-355",
+          "ee": "https://doi.org/10.1109/SFCS.1989.63502",
+          "author": [
+            {
+              "#text": "Andrew V. Goldberg",
+              "@pid": "g/AndrewVGoldberg"
+            },
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/GoldbergPT88",
+          "title": "Combinatorial Algorithms for the Generalized Circulation Problem",
+          "booktitle": "FOCS",
+          "year": "1988",
+          "pages": "432-443",
+          "ee": "https://doi.org/10.1109/SFCS.1988.21959",
+          "author": [
+            {
+              "#text": "Andrew V. Goldberg",
+              "@pid": "g/AndrewVGoldberg"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/KleinbergRT99",
+          "title": "Fairness in Routing and Load Balancing",
+          "booktitle": "FOCS",
+          "year": "1999",
+          "pages": "568-578",
+          "ee": "https://doi.org/10.1109/SFFCS.1999.814631",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Yuval Rabani",
+              "@pid": "r/YRabani"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/KleinbergT95",
+          "title": "Disjoint Paths in Densely Embedded Graphs",
+          "booktitle": "FOCS",
+          "year": "1995",
+          "pages": "52-61",
+          "ee": "https://doi.org/10.1109/SFCS.1995.492462",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/KleinbergT99",
+          "title": "Approximation Algorithms for Classification Problems with Pairwise Relationships: Metric Labeling and Markov Random Fields",
+          "booktitle": "FOCS",
+          "year": "1999",
+          "pages": "14-23",
+          "ee": "https://doi.org/10.1109/SFFCS.1999.814572",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/LemeT10",
+          "title": "Pure and Bayes-Nash Price of Anarchy for Generalized Second Price Auction",
+          "booktitle": "FOCS",
+          "year": "2010",
+          "pages": "735-744",
+          "ee": "https://doi.org/10.1109/FOCS.2010.75",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/LenstraST87",
+          "title": "Approximation Algorithms for Scheduling Unrelated Parallel Machines",
+          "booktitle": "FOCS",
+          "year": "1987",
+          "pages": "217-224",
+          "ee": "https://doi.org/10.1109/SFCS.1987.8",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jan Karel Lenstra",
+              "@pid": "l/JKLenstra"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/PalT03",
+          "title": "Group Strategyproof Mechanisms via Primal-Dual Algorithms",
+          "booktitle": "FOCS",
+          "year": "2003",
+          "pages": "584-593",
+          "ee": "https://doi.org/10.1109/SFCS.2003.1238231",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Martin Pál",
+              "@pid": "p/MartinPal"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/PalTW01",
+          "title": "Facility Location with Nonuniform Hard Capacities",
+          "booktitle": "FOCS",
+          "year": "2001",
+          "pages": "329-338",
+          "ee": "https://doi.org/10.1109/SFCS.2001.959907",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Martin Pál",
+              "@pid": "p/MartinPal"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/PlotkinST91",
+          "title": "Fast Approximation Algorithms for Fractional Packing and Covering Problems",
+          "booktitle": "FOCS",
+          "year": "1991",
+          "pages": "495-504",
+          "ee": "https://doi.org/10.1109/SFCS.1991.185411",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/RoughgardenT00",
+          "title": "How Bad is Selfish Routing?",
+          "booktitle": "FOCS",
+          "year": "2000",
+          "pages": "93-102",
+          "ee": "https://doi.org/10.1109/SFCS.2000.892069",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/KempeKT05",
+          "title": "Influential Nodes in a Diffusion Model for Social Networks",
+          "booktitle": "ICALP",
+          "year": "2005",
+          "pages": "1127-1138",
+          "ee": "https://doi.org/10.1007/11523468_91",
+          "author": [
+            {
+              "#text": "David Kempe",
+              "@pid": "63/5749-1"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/LinRTW05",
+          "title": "Braess's Paradox, Fibonacci Numbers, and Exponential Inapproximability",
+          "booktitle": "ICALP",
+          "year": "2005",
+          "pages": "497-512",
+          "ee": "https://doi.org/10.1007/11523468_41",
+          "author": [
+            {
+              "#text": "Asher Walkover",
+              "@pid": "57/4991"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Henry C. Lin",
+              "@pid": "77/6036"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcai/LinHFBT25",
+          "title": "Online Resource Sharing: Better Robust Guarantees via Randomized Strategies",
+          "booktitle": "IJCAI",
+          "year": "2025",
+          "pages": "179-186",
+          "ee": "https://doi.org/10.24963/IJCAI.2025/21",
+          "author": [
+            {
+              "#text": "Daniel Hall",
+              "@pid": "304/7061"
+            },
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/BeyhaghiT21",
+          "title": "Randomness and Fairness in Two-Sided Matching with Limited Interviews",
+          "booktitle": "ITCS",
+          "year": "2021",
+          "pages": "74:1-74:18",
+          "ee": "https://doi.org/10.4230/LIPICS.ITCS.2021.74",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Hedyeh Beyhaghi",
+              "@pid": "125/4162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/KleinbergLPT11",
+          "title": "Beyond the Nash Equilibrium Barrier",
+          "booktitle": "ICS",
+          "year": "2011",
+          "pages": "125-140",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "Katrina Ligett",
+              "@pid": "76/3876"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/LemeST12",
+          "title": "The curse of simultaneity",
+          "booktitle": "ITCS",
+          "year": "2012",
+          "pages": "60-67",
+          "ee": "https://doi.org/10.1145/2090236.2090242",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/LinFBT26",
+          "title": "Robust Resource Allocation via Competitive Subsidies",
+          "booktitle": "ITCS",
+          "year": "2026",
+          "pages": "96:1-96:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ITCS.2026.96",
+          "author": [
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/FleischerT96",
+          "title": "Separating Maximally Violated Comb Inequalities in Planar Graphs",
+          "booktitle": "IPCO",
+          "year": "1996",
+          "pages": "475-489",
+          "ee": "https://doi.org/10.1007/3-540-61310-2_35",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Lisa Fleischer",
+              "@pid": "20/2997"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/MelkonianT99",
+          "title": "Approximation Algorithms for a Directed Network Design Problem",
+          "booktitle": "IPCO",
+          "year": "1999",
+          "pages": "345-360",
+          "ee": "https://doi.org/10.1007/3-540-48777-8_26",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vardges Melkonian",
+              "@pid": "51/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipco/TardosW98",
+          "title": "Simple Generalized Maximum Flow Algorithms",
+          "booktitle": "IPCO",
+          "year": "1998",
+          "pages": "310-324",
+          "ee": "https://doi.org/10.1007/3-540-69346-7_24",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Kevin D. Wayne",
+              "@pid": "72/2234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/Tardos99",
+          "title": "Approximation Algorithms for Some Clustering and Classification Problems",
+          "booktitle": "ISAAC",
+          "year": "1999",
+          "pages": "183",
+          "ee": "https://doi.org/10.1007/3-540-46632-0_19",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/kdd/KempeKT03",
+          "title": "Maximizing the spread of influence through a social network",
+          "booktitle": "KDD",
+          "year": "2003",
+          "pages": "137-146",
+          "ee": "https://doi.org/10.1145/956750.956769",
+          "author": [
+            {
+              "#text": "David Kempe",
+              "@pid": "63/5749-1"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/FosterLLST16",
+          "title": "Learning in Games: Robustness of Fast Convergence",
+          "booktitle": "NIPS",
+          "year": "2016",
+          "pages": "4727-4735",
+          "author": [
+            {
+              "#text": "Dylan J. Foster",
+              "@pid": "167/4271"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karthik Sridharan",
+              "@pid": "s/KarthikSridharan"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            },
+            {
+              "#text": "Zhiyuan Li",
+              "@pid": "39/7780-5"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/HartlineST15",
+          "title": "No-Regret Learning in Bayesian Games",
+          "booktitle": "NIPS",
+          "year": "2015",
+          "pages": "3061-3069",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason D. Hartline",
+              "@pid": "38/6279"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/osdi/VuppalapatiF0CK23",
+          "title": "Karma: Resource Allocation for Dynamic Demands",
+          "booktitle": "OSDI",
+          "year": "2023",
+          "pages": "645-662",
+          "author": [
+            {
+              "#text": "Anurag Khandelwal",
+              "@pid": "162/1936"
+            },
+            {
+              "#text": "Asaf Cidon",
+              "@pid": "35/10805"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Midhul Vuppalapati",
+              "@pid": "237/0851"
+            },
+            {
+              "#text": "Rachit Agarwal",
+              "@pid": "41/5447-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/podc/HayrapetyanTW05",
+          "title": "A network pricing game for selfish traffic",
+          "booktitle": "PODC",
+          "year": "2005",
+          "pages": "284-291",
+          "ee": "https://doi.org/10.1145/1073814.1073869",
+          "author": [
+            {
+              "#text": "Ara Hayrapetyan",
+              "@pid": "36/5415"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/podc/KleinbergPT09",
+          "title": "Load balancing without regret in the bulletin board model",
+          "booktitle": "PODC",
+          "year": "2009",
+          "pages": "56-62",
+          "ee": "https://doi.org/10.1145/1582716.1582731",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sagt/BachrachSTV14",
+          "title": "Strong Price of Anarchy, Utility Games and Coalitional Dynamics",
+          "booktitle": "SAGT",
+          "year": "2014",
+          "pages": "218-230",
+          "ee": "https://doi.org/10.1007/978-3-662-44803-8_19",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Milan Vojnovic",
+              "@pid": "00/1815"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            },
+            {
+              "#text": "Yoram Bachrach",
+              "@pid": "70/2671"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sagt/BeyhaghiDT15",
+          "title": "Brief Announcement: Effect of Strategic Grading and Early Offers in Matching Markets",
+          "booktitle": "SAGT",
+          "year": "2015",
+          "pages": "300-302",
+          "ee": "https://doi.org/10.1007/978-3-662-48433-3_24",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Hedyeh Beyhaghi",
+              "@pid": "125/4162"
+            },
+            {
+              "#text": "Nishanth Dikkala",
+              "@pid": "138/8092"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sagt/FikiorisAT24",
+          "title": "Incentives in Dominant Resource Fair Allocation Under Dynamic Demands",
+          "booktitle": "SAGT",
+          "year": "2024",
+          "pages": "108-125",
+          "ee": "https://doi.org/10.1007/978-3-031-71033-9_7",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Rachit Agarwal",
+              "@pid": "41/5447-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sagt/KleinbergRT24",
+          "title": "Calibrated Recommendations for Users with Decaying Attention",
+          "booktitle": "SAGT",
+          "year": "2024",
+          "pages": "443-460",
+          "ee": "https://doi.org/10.1007/978-3-031-71033-9_25",
+          "author": [
+            {
+              "#text": "Emily Ryu",
+              "@pid": "314/9551"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/AlaeiKT17",
+          "title": "Computing Equilibrium in Matching Markets",
+          "booktitle": "EC",
+          "year": "2017",
+          "pages": "245-261",
+          "ee": "https://doi.org/10.1145/3033274.3085150",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            },
+            {
+              "#text": "Saeed Alaei",
+              "@pid": "77/5584"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/BanerjeeFT23",
+          "title": "Robust Pseudo-Markets for Reusable Public Resources",
+          "booktitle": "EC",
+          "year": "2023",
+          "pages": "241",
+          "ee": "https://doi.org/10.1145/3580507.3597723",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/BlumeEKKT11",
+          "title": "Network formation in the presence of contagious risk",
+          "booktitle": "EC",
+          "year": "2011",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1145/1993574.1993576",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/BlumeEKT07",
+          "title": "Trading networks with price-setting agents",
+          "booktitle": "EC",
+          "year": "2007",
+          "pages": "143-151",
+          "ee": "https://doi.org/10.1145/1250910.1250933",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/CashoreFT22",
+          "title": "Dynamic Pricing Provides Robust Equilibria in Stochastic Ride-Sharing Networks",
+          "booktitle": "EC",
+          "year": "2022",
+          "pages": "301-302",
+          "ee": "https://doi.org/10.1145/3490486.3538277",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "J. Massey Cashore",
+              "@pid": "163/2125"
+            },
+            {
+              "#text": "Peter I. Frazier",
+              "@pid": "33/1711"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/DuttingKT14",
+          "title": "Mechanism with unique learnable equilibria",
+          "booktitle": "EC",
+          "year": "2014",
+          "pages": "877-894",
+          "ee": "https://doi.org/10.1145/2600057.2602838",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Paul Dütting",
+              "@pid": "70/7588"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/DuttingKT15",
+          "title": "Algorithms as Mechanisms: The Price of Anarchy of Relax-and-Round",
+          "booktitle": "EC",
+          "year": "2015",
+          "pages": "187-201",
+          "ee": "https://doi.org/10.1145/2764468.2764486",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Paul Dütting",
+              "@pid": "70/7588"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/EasleyKT25",
+          "title": "Markets with Heterogeneous Agents: Dynamics and Survival of Bayesian vs. No-Regret Learners",
+          "booktitle": "EC",
+          "year": "2025",
+          "pages": "575",
+          "ee": "https://doi.org/10.1145/3736252.3742595",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/FikiorisBT25",
+          "title": "Beyond Worst-Case Online Allocation via Dynamic Max-min Fairness",
+          "booktitle": "EC",
+          "year": "2025",
+          "pages": "92",
+          "ee": "https://doi.org/10.1145/3736252.3742501",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/FikiorisKKKMT25",
+          "title": "Learning in Budgeted Auctions with Spacing Objectives",
+          "booktitle": "EC",
+          "year": "2025",
+          "pages": "158",
+          "ee": "https://doi.org/10.1145/3736252.3742512",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Raunak Kumar",
+              "@pid": "249/9236"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            },
+            {
+              "#text": "Yishay Mansour",
+              "@pid": "m/YishayMansour"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/FikiorisT23",
+          "title": "Liquid Welfare Guarantees for No-Regret Learning in Sequential Budgeted Auctions",
+          "booktitle": "EC",
+          "year": "2023",
+          "pages": "678-698",
+          "ee": "https://doi.org/10.1145/3580507.3597772",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/GaitondeKT20",
+          "title": "Adversarial Perturbations of Opinion Dynamics in Networks",
+          "booktitle": "EC",
+          "year": "2020",
+          "pages": "471-472",
+          "ee": "https://doi.org/10.1145/3391403.3399490",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/GaitondeKT21",
+          "title": "Polarization in Geometric Opinion Dynamics",
+          "booktitle": "EC",
+          "year": "2021",
+          "pages": "499-519",
+          "ee": "https://doi.org/10.1145/3465456.3467633",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/GaitondeT20",
+          "title": "Stability and Learning in Strategic Queuing Systems",
+          "booktitle": "EC",
+          "year": "2020",
+          "pages": "319-347",
+          "ee": "https://doi.org/10.1145/3391403.3399491",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/GaitondeT21",
+          "title": "Virtues of Patience in Strategic Queuing Systems",
+          "booktitle": "EC",
+          "year": "2021",
+          "pages": "520-540",
+          "ee": "https://doi.org/10.1145/3465456.3467640",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/KesselheimKT15",
+          "title": "Smooth Online Mechanisms: A Game-Theoretic Problem in Renewable Energy Markets",
+          "booktitle": "EC",
+          "year": "2015",
+          "pages": "203-220",
+          "ee": "https://doi.org/10.1145/2764468.2764487",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/KleinbergORT24",
+          "title": "Modeling reputation-based behavioral biases in school choice",
+          "booktitle": "EC",
+          "year": "2024",
+          "pages": "671-672",
+          "ee": "https://doi.org/10.1145/3670865.3673609",
+          "author": [
+            {
+              "#text": "Emily Ryu",
+              "@pid": "314/9551"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Sigal Oren",
+              "@pid": "89/9697"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/KleinbergSTW08",
+          "title": "Strategic network formation with structural holes",
+          "booktitle": "EC",
+          "year": "2008",
+          "pages": "284-293",
+          "ee": "https://doi.org/10.1145/1386790.1386835",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Siddharth Suri",
+              "@pid": "96/3563"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/NekipelovST15",
+          "title": "Econometrics for Learning Agents",
+          "booktitle": "EC",
+          "year": "2015",
+          "pages": "1-18",
+          "ee": "https://doi.org/10.1145/2764468.2764522",
+          "author": [
+            {
+              "#text": "Denis Nekipelov",
+              "@pid": "144/7434"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/NguyenT07",
+          "title": "Approximately maximizing efficiency and revenue in polyhedral environments",
+          "booktitle": "EC",
+          "year": "2007",
+          "pages": "11-19",
+          "ee": "https://doi.org/10.1145/1250910.1250913",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thành Nguyen",
+              "@pid": "07/6674-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/SyrgkanisKT15",
+          "title": "Information Asymmetries in Common-Value Auctions with Discrete Signals",
+          "booktitle": "EC",
+          "year": "2015",
+          "pages": "303",
+          "ee": "https://doi.org/10.1145/2764468.2764481",
+          "author": [
+            {
+              "#text": "David Kempe",
+              "@pid": "63/5749-1"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigecom/SyrgkanisT12",
+          "title": "Bayesian sequential auctions",
+          "booktitle": "EC",
+          "year": "2012",
+          "pages": "929-944",
+          "ee": "https://doi.org/10.1145/2229012.2229082",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmetrics/OnyezeBFT25",
+          "title": "Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria",
+          "booktitle": "SIGMETRICS (Abstracts)",
+          "year": "2025",
+          "pages": "22-24",
+          "ee": "https://doi.org/10.1145/3726854.3727271",
+          "author": [
+            {
+              "#text": "Chido Onyeze",
+              "@pid": "398/3948"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/ArcherFHKTT04",
+          "title": "Approximate classification via earthmover metrics",
+          "booktitle": "SODA",
+          "year": "2004",
+          "pages": "1079-1087",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Chris Harrelson",
+              "@pid": "63/3602"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jittat Fakcharoenphol",
+              "@pid": "63/319"
+            },
+            {
+              "#text": "Kunal Talwar",
+              "@pid": "06/3696"
+            },
+            {
+              "#text": "Robert Krauthgamer",
+              "@pid": "k/RobertKrauthgamer"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/ArcherPTT03",
+          "title": "An approximate truthful mechanism for combinatorial auctions with single parameter agents",
+          "booktitle": "SODA",
+          "year": "2003",
+          "pages": "205-214",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Christos H. Papadimitriou",
+              "@pid": "p/CHPapadimitriou"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Kunal Talwar",
+              "@pid": "06/3696"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/ArcherT02",
+          "title": "Frugal path mechanisms",
+          "booktitle": "SODA",
+          "year": "2002",
+          "pages": "991-999",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/GabowGTW05",
+          "title": "Approximating the smallest k-edge connected spanning subgraph by LP-rounding",
+          "booktitle": "SODA",
+          "year": "2005",
+          "pages": "562-571",
+          "author": [
+            {
+              "#text": "David P. Williamson",
+              "@pid": "w/DavidPWilliamson"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Harold N. Gabow",
+              "@pid": "g/HaroldNGabow"
+            },
+            {
+              "#text": "Michel X. Goemans",
+              "@pid": "g/MichelXGoemans"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/GoemansGPSTW94",
+          "title": "Improved Approximation Algorithms for Network Design Problems",
+          "booktitle": "SODA",
+          "year": "1994",
+          "pages": "223-232",
+          "author": [
+            {
+              "#text": "Andrew V. Goldberg",
+              "@pid": "g/AndrewVGoldberg"
+            },
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "David P. Williamson",
+              "@pid": "w/DavidPWilliamson"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Michel X. Goemans",
+              "@pid": "g/MichelXGoemans"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/HayrapetyanST05",
+          "title": "Network design for information networks",
+          "booktitle": "SODA",
+          "year": "2005",
+          "pages": "933-942",
+          "author": [
+            {
+              "#text": "Ara Hayrapetyan",
+              "@pid": "36/5415"
+            },
+            {
+              "#text": "Chaitanya Swamy",
+              "@pid": "99/662"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/HoppeT94",
+          "title": "Polynomial Time Algorithms for Some Evacuation Problems",
+          "booktitle": "SODA",
+          "year": "1994",
+          "pages": "433-441",
+          "author": [
+            {
+              "#text": "Bruce Hoppe",
+              "@pid": "86/381"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/HoppeT95",
+          "title": "The Quickest Transshipment Problem",
+          "booktitle": "SODA",
+          "year": "1995",
+          "pages": "512-521",
+          "author": [
+            {
+              "#text": "Bruce Hoppe",
+              "@pid": "86/381"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/LemeST12",
+          "title": "Sequential auctions and externalities",
+          "booktitle": "SODA",
+          "year": "2012",
+          "pages": "869-886",
+          "ee": "https://doi.org/10.1137/1.9781611973099.70",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/LinBFT26",
+          "title": "Robust Equilibria in Shared Resource Allocation via Strengthening Border's Theorem",
+          "booktitle": "SODA",
+          "year": "2026",
+          "pages": "6571-6612",
+          "ee": "https://doi.org/10.1137/1.9781611978971.235",
+          "author": [
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/LinRT04",
+          "title": "A stronger bound on Braess's Paradox",
+          "booktitle": "SODA",
+          "year": "2004",
+          "pages": "340-341",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Henry C. Lin",
+              "@pid": "77/6036"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/LykourisST16",
+          "title": "Learning and Efficiency in Games with Dynamic Population",
+          "booktitle": "SODA",
+          "year": "2016",
+          "pages": "120-129",
+          "ee": "https://doi.org/10.1137/1.9781611974331.CH9",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/NortonPT90",
+          "title": "Using Separation Algorithms in Fixed Dimension",
+          "booktitle": "SODA",
+          "year": "1990",
+          "pages": "377-387",
+          "author": [
+            {
+              "#text": "Carolyn Haibt Norton",
+              "@pid": "75/980"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/PlotkinT90",
+          "title": "Improved Dual Network Simplex",
+          "booktitle": "SODA",
+          "year": "1990",
+          "pages": "367-376",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/ShmoysT93",
+          "title": "Scheduling Unrelated Machines with Costs",
+          "booktitle": "SODA",
+          "year": "1993",
+          "pages": "448-454",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/SvitkinaT06",
+          "title": "Facility location with hierarchical facility costs",
+          "booktitle": "SODA",
+          "year": "2006",
+          "pages": "153-161",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Zoya Svitkina",
+              "@pid": "s/ZoyaSvitkina"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/AnshelevichDTW03",
+          "title": "Near-optimal network design with selfish agents",
+          "booktitle": "STOC",
+          "year": "2003",
+          "pages": "511-520",
+          "ee": "https://doi.org/10.1145/780542.780617",
+          "author": [
+            {
+              "#text": "Anirban Dasgupta",
+              "@pid": "54/385-1"
+            },
+            {
+              "#text": "Elliot Anshelevich",
+              "@pid": "66/414"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/CharikarGTS99",
+          "title": "A Constant-Factor Approximation Algorithm for the k-Median Problem (Extended Abstract)",
+          "booktitle": "STOC",
+          "year": "1999",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1145/301250.301257",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Moses Charikar",
+              "@pid": "c/MosesCharikar"
+            },
+            {
+              "#text": "Sudipto Guha",
+              "@pid": "g/SudiptoGuha"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/GoelHPT99",
+          "title": "Scheduling Data Transfers in a Network and the Set Scheduling Problem",
+          "booktitle": "STOC",
+          "year": "1999",
+          "pages": "189-197",
+          "ee": "https://doi.org/10.1145/301250.301300",
+          "author": [
+            {
+              "#text": "Ashish Goel",
+              "@pid": "g/AshishGoel"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Monika Henzinger",
+              "@pid": "h/MonikaRauchHenzinger"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/GuptaT00",
+          "title": "A constant factor approximation algorithm for a class of classification problems",
+          "booktitle": "STOC",
+          "year": "2000",
+          "pages": "652-658",
+          "ee": "https://doi.org/10.1145/335305.335397",
+          "author": [
+            {
+              "#text": "Anupam Gupta",
+              "@pid": "27/2931"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/HayrapetyanTW06",
+          "title": "The effect of collusion in congestion games",
+          "booktitle": "STOC",
+          "year": "2006",
+          "pages": "89-98",
+          "ee": "https://doi.org/10.1145/1132516.1132529",
+          "author": [
+            {
+              "#text": "Ara Hayrapetyan",
+              "@pid": "36/5415"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/KleinbergPT09",
+          "title": "Multiplicative updates outperform generic no-regret learning in congestion games: extended abstract",
+          "booktitle": "STOC",
+          "year": "2009",
+          "pages": "533-542",
+          "ee": "https://doi.org/10.1145/1536414.1536487",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/KleinbergRT97",
+          "title": "Allocating Bandwidth for Bursty Connections",
+          "booktitle": "STOC",
+          "year": "1997",
+          "pages": "664-673",
+          "ee": "https://doi.org/10.1145/258533.258661",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Yuval Rabani",
+              "@pid": "r/YRabani"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/KleinbergT08",
+          "title": "Balanced outcomes in social exchange networks",
+          "booktitle": "STOC",
+          "year": "2008",
+          "pages": "295-304",
+          "ee": "https://doi.org/10.1145/1374376.1376994",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/KleinbergT95",
+          "title": "Approximations for the disjoint paths problem in high-diameter planar networks",
+          "booktitle": "STOC",
+          "year": "1995",
+          "pages": "26-35",
+          "ee": "https://doi.org/10.1145/225058.225075",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/KleinST90",
+          "title": "Leighton-Rao Might Be Practical: Faster Approximation Algorithms for Concurrent Flow with Uniform Capacities",
+          "booktitle": "STOC",
+          "year": "1990",
+          "pages": "310-321",
+          "ee": "https://doi.org/10.1145/100216.100257",
+          "author": [
+            {
+              "#text": "Clifford Stein",
+              "@pid": "s/CliffordStein"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Philip N. Klein",
+              "@pid": "k/PhilipNKlein"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/LeightonMPSTT91",
+          "title": "Fast Approximation Algorithms for Multicommodity Flow Problems",
+          "booktitle": "STOC",
+          "year": "1991",
+          "pages": "101-111",
+          "ee": "https://doi.org/10.1145/103418.103425",
+          "author": [
+            {
+              "#text": "Clifford Stein",
+              "@pid": "s/CliffordStein"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Fillia Makedon",
+              "@pid": "m/FilliaMakedon"
+            },
+            {
+              "#text": "Frank Thomson Leighton",
+              "@pid": "l/FrankThomsonLeighton"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            },
+            {
+              "#text": "Spyros Tragoudas",
+              "@pid": "70/5489"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/PlotkinT93",
+          "title": "Improved bounds on the max-flow min-cut ratio for multicommodity flows",
+          "booktitle": "STOC",
+          "year": "1993",
+          "pages": "691-697",
+          "ee": "https://doi.org/10.1145/167088.167263",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/RabaniT96",
+          "title": "Distributed Packet Switching in Arbitrary Networks",
+          "booktitle": "STOC",
+          "year": "1996",
+          "pages": "366-375",
+          "ee": "https://doi.org/10.1145/237814.237983",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Yuval Rabani",
+              "@pid": "r/YRabani"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/ShmoysTA97",
+          "title": "Approximation Algorithms for Facility Location Problems (Extended Abstract)",
+          "booktitle": "STOC",
+          "year": "1997",
+          "pages": "265-274",
+          "ee": "https://doi.org/10.1145/258533.258600",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karen Aardal",
+              "@pid": "54/260"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/SyrgkanisT13",
+          "title": "Composable and efficient mechanisms",
+          "booktitle": "STOC",
+          "year": "2013",
+          "pages": "211-220",
+          "ee": "https://doi.org/10.1145/2488608.2488635",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/Tardos04",
+          "title": "Network games",
+          "booktitle": "STOC",
+          "year": "2004",
+          "pages": "341-342",
+          "ee": "https://doi.org/10.1145/1007352.1007356",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/DikkalaT13",
+          "title": "Can Credit Increase Revenue?",
+          "booktitle": "WINE",
+          "year": "2013",
+          "pages": "121-133",
+          "ee": "https://doi.org/10.1007/978-3-642-45046-4_11",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Nishanth Dikkala",
+              "@pid": "138/8092"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/KhalilabadiT18",
+          "title": "Simple and Efficient Budget Feasible Mechanisms for Monotone Submodular Valuations",
+          "booktitle": "WINE",
+          "year": "2018",
+          "pages": "246-263",
+          "ee": "https://doi.org/10.1007/978-3-030-04612-5_17",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/LucierSST13",
+          "title": "Equilibrium in Combinatorial Public Projects",
+          "booktitle": "WINE",
+          "year": "2013",
+          "pages": "347-360",
+          "ee": "https://doi.org/10.1007/978-3-642-45046-4_28",
+          "author": [
+            {
+              "#text": "Brendan Lucier",
+              "@pid": "09/6191"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            },
+            {
+              "#text": "Yaron Singer",
+              "@pid": "82/4709"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/NguyenT09",
+          "title": "Approximate Pure Nash Equilibria via Lovász Local Lemma",
+          "booktitle": "WINE",
+          "year": "2009",
+          "pages": "160-171",
+          "ee": "https://doi.org/10.1007/978-3-642-10841-9_16",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thành Nguyen",
+              "@pid": "07/6674-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wine/Tardos09",
+          "title": "Quantifying Outcomes in Games",
+          "booktitle": "WINE",
+          "year": "2009",
+          "pages": "17",
+          "ee": "https://doi.org/10.1007/978-3-642-10841-9_3",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/www/LucierLT12",
+          "title": "On revenue in the generalized second price auction",
+          "booktitle": "WWW",
+          "year": "2012",
+          "pages": "361-370",
+          "ee": "https://doi.org/10.1145/2187836.2187886",
+          "author": [
+            {
+              "#text": "Brendan Lucier",
+              "@pid": "09/6191"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/GuptaST08",
+          "title": "Cost-Sharing Mechanisms for Network Design",
+          "journal": "Algorithmica",
+          "year": "2008",
+          "pages": "98-119",
+          "ee": "https://doi.org/10.1007/S00453-007-9065-Y",
+          "author": [
+            {
+              "#text": "Anupam Gupta",
+              "@pid": "27/2931"
+            },
+            {
+              "#text": "Aravind Srinivasan",
+              "@pid": "s/AravindSrinivasan"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/GusfieldT94",
+          "title": "A Faster Parametric Minimum-Cut Algorithm",
+          "journal": "Algorithmica",
+          "year": "1994",
+          "pages": "278-290",
+          "ee": "https://doi.org/10.1007/BF01240737",
+          "author": [
+            {
+              "#text": "Dan Gusfield",
+              "@pid": "g/DanGusfield"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/FrankT87",
+          "title": "An application of simultaneous Diophantine approximation in combinatorial optimization",
+          "journal": "Comb.",
+          "year": "1987",
+          "pages": "49-65",
+          "ee": "https://doi.org/10.1007/BF02579200",
+          "author": [
+            {
+              "#text": "András Frank",
+              "@pid": "34/3494"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/PlotkinT95",
+          "title": "Improved Bounds on the Max-Flow Min-Cut Ratio for Multicommodity Flows",
+          "journal": "Comb.",
+          "year": "1995",
+          "pages": "425-434",
+          "ee": "https://doi.org/10.1007/BF01299746",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/Tardos85",
+          "title": "A strongly polynomial minimum cost circulation algorithm",
+          "journal": "Comb.",
+          "year": "1985",
+          "pages": "247-256",
+          "ee": "https://doi.org/10.1007/BF02579369",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorica/Tardos88",
+          "title": "The gap between monotone and non-monotone circuit complexity is exponential",
+          "journal": "Comb.",
+          "year": "1988",
+          "pages": "141-142",
+          "ee": "https://doi.org/10.1007/BF02122563",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1108-2452",
+          "title": "Sequential Auctions and Externalities",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1108.2452",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1201-6429",
+          "title": "On the efficiency of equilibria in generalized second price auctions",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1201.6429",
+          "author": [
+            {
+              "#text": "Brendan Lucier",
+              "@pid": "09/6191"
+            },
+            {
+              "#text": "Christos Kaklamanis",
+              "@pid": "k/ChristosKaklamanis"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Ioannis Caragiannis",
+              "@pid": "c/IoannisCaragiannis"
+            },
+            {
+              "#text": "Maria Kyropoulou",
+              "@pid": "35/7232"
+            },
+            {
+              "#text": "Panagiotis Kanellopoulos",
+              "@pid": "01/5157"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1206-4771",
+          "title": "Bayesian Sequential Auctions",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1206.4771",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1211-1325",
+          "title": "Composable and Efficient Mechanisms",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1211.1325",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1711-03639",
+          "title": "Small-loss bounds for online learning with partial information",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1711.03639",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karthik Sridharan",
+              "@pid": "s/KarthikSridharan"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-09898",
+          "title": "Graph regret bounds for Thompson Sampling and UCB",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.09898",
+          "author": [
+            {
+              "#text": "Drishti Wali",
+              "@pid": "241/6917"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-07009",
+          "title": "Stability and Learning in Strategic Queuing Systems",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.07009",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-07010",
+          "title": "Adversarial Perturbations of Opinion Dynamics in Networks",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.07010",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2011-10205",
+          "title": "Virtues of Patience in Strategic Queuing Systems",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.10205",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2106-12459",
+          "title": "Polarization in Geometric Opinion Dynamics",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2106.12459",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2109-12401",
+          "title": "Incentives in Resource Allocation under Dynamic Demands",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2109.12401",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Rachit Agarwal",
+              "@pid": "41/5447-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2203-00233",
+          "title": "Ordered Submodularity and its Applications to Diversifying Recommendations",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2203.00233",
+          "author": [
+            {
+              "#text": "Emily Ryu",
+              "@pid": "314/9551"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2205-09679",
+          "title": "Dynamic Pricing Provides Robust Equilibria in Stochastic Ridesharing Networks",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2205.09679",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "J. Massey Cashore",
+              "@pid": "163/2125"
+            },
+            {
+              "#text": "Peter I. Frazier",
+              "@pid": "33/1711"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-07502",
+          "title": "Liquid Welfare guarantees for No-Regret Learning in Sequential Budgeted Auctions",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.07502",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-03239",
+          "title": "Calibrated Recommendations for Users with Decaying Attention",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.03239",
+          "author": [
+            {
+              "#text": "Emily Ryu",
+              "@pid": "314/9551"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-09127",
+          "title": "Robust Pseudo-Markets for Reusable Public Resources",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.09127",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-14686",
+          "title": "Approximately Stationary Bandits with Knapsacks",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.14686",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-17222",
+          "title": "Karma: Resource Allocation for Dynamic Demands",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.17222",
+          "author": [
+            {
+              "#text": "Anurag Khandelwal",
+              "@pid": "162/1936"
+            },
+            {
+              "#text": "Asaf Cidon",
+              "@pid": "35/10805"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Midhul Vuppalapati",
+              "@pid": "237/0851"
+            },
+            {
+              "#text": "Rachit Agarwal",
+              "@pid": "41/5447-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-08881",
+          "title": "Online Resource Sharing via Dynamic Max-Min Fairness: Efficiency, Robustness and Non-Stationarity",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.08881",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2403-04616",
+          "title": "Modeling reputation-based behavioral biases in school choice",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.04616",
+          "author": [
+            {
+              "#text": "Emily Ryu",
+              "@pid": "314/9551"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Sigal Oren",
+              "@pid": "89/9697"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-20880",
+          "title": "Paying to Do Better: Games with Payments between Learning Agents",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.20880",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Joseph Y. Halpern",
+              "@pid": "h/JosephYHalpern"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2411-04843",
+          "title": "Learning in Budgeted Auctions with Spacing Objectives",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2411.04843",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Raunak Kumar",
+              "@pid": "249/9236"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            },
+            {
+              "#text": "Yishay Mansour",
+              "@pid": "m/YishayMansour"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-14916",
+          "title": "Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.14916",
+          "author": [
+            {
+              "#text": "Chido Onyeze",
+              "@pid": "398/3948"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-08597",
+          "title": "Learning in Markets with Heterogeneous Agents: Dynamics and Survival of Bayesian vs. No-Regret Learners",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.08597",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-08898",
+          "title": "Learning in Strategic Queuing Systems with Small Buffers",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.08898",
+          "author": [
+            {
+              "#text": "Ariana Abel",
+              "@pid": "399/9364"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jeronimo Martin Duque",
+              "@pid": "399/7217"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-11431",
+          "title": "Robust Equilibria in Shared Resource Allocation via Strengthening Border's Theorem",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.11431",
+          "author": [
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-13824",
+          "title": "Online Resource Sharing: Better Robust Guarantees via Randomized Strategies",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.13824",
+          "author": [
+            {
+              "#text": "Daniel Hall",
+              "@pid": "304/7061"
+            },
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2508-06619",
+          "title": "Asymmetric Network Games: α-Potential Function and Learning",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2508.06619",
+          "author": [
+            {
+              "#text": "Adit Jain",
+              "@pid": "324/4044"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Francesca Parise",
+              "@pid": "153/1792"
+            },
+            {
+              "#text": "Kiran Rokade",
+              "@pid": "248/5969"
+            },
+            {
+              "#text": "Vikram Krishnamurthy",
+              "@pid": "01/1516"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-04817",
+          "title": "Dynamic Allocation of Public Goods with Approximate Core Equilibria",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.04817",
+          "author": [
+            {
+              "#text": "Chido Onyeze",
+              "@pid": "398/3948"
+            },
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-09934",
+          "title": "Robust Resource Allocation via Competitive Subsidies",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.09934",
+          "author": [
+            {
+              "#text": "David X. Lin",
+              "@pid": "407/9559"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-17916",
+          "title": "Robust Temporal Guarantees in Budgeted Sequential Auctions",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.17916",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            },
+            {
+              "#text": "Yishay Mansour",
+              "@pid": "m/YishayMansour"
+            },
+            {
+              "#text": "Yoav Kolumbus",
+              "@pid": "190/7381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-00444",
+          "title": "Price of Anarchy of Algorithmic Monoculture",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.00444",
+          "author": [
+            {
+              "#text": "Erald Sinanaj",
+              "@pid": "435/0153"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-08517",
+          "title": "Learning vs. Optimizing Bidders in Budgeted Auctions",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.08517",
+          "author": [
+            {
+              "#text": "Balasubramanian Sivan",
+              "@pid": "13/1446"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-22226",
+          "title": "Quantifying Theoretical AI Alignment Guarantees: Receiver-Utility Bounds in Bayesian Persuasion",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.22226",
+          "author": [
+            {
+              "#text": "Eric Yachbes",
+              "@pid": "440/1920"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-29533",
+          "title": "Improved Multi-Dimensional Forecasting for Swap Regret",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.29533",
+          "author": [
+            {
+              "#text": "Chido Onyeze",
+              "@pid": "398/3948"
+            },
+            {
+              "#text": "Erald Sinanaj",
+              "@pid": "435/0153"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Joey Rivkin",
+              "@pid": "394/4704"
+            },
+            {
+              "#text": "Ramiro Deo-Campo Vuong",
+              "@pid": "354/9070"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/AlaeiJT17",
+          "title": "Computing Equilibrium in Matching Markets",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.10689",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            },
+            {
+              "#text": "Saeed Alaei",
+              "@pid": "77/5584"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BachrachSTV13",
+          "title": "Strong Price of Anarchy and Coalitional Dynamics",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.2537",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Milan Vojnovic",
+              "@pid": "00/1815"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            },
+            {
+              "#text": "Yoram Bachrach",
+              "@pid": "70/2671"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BeyhaghiDT15",
+          "title": "Effect of Strategic Grading and Early Offers in Matching Markets",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1507.02718",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Hedyeh Beyhaghi",
+              "@pid": "125/4162"
+            },
+            {
+              "#text": "Nishanth Dikkala",
+              "@pid": "138/8092"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BeyhaghiST17",
+          "title": "Effect of selfish choices in deferred acceptance with short lists",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1701.00849",
+          "author": [
+            {
+              "#text": "Daniela Sabán",
+              "@pid": "12/8045"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Hedyeh Beyhaghi",
+              "@pid": "125/4162"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DuttingKT15",
+          "title": "Algorithms as Mechanisms: The Price of Anarchy of Relax-and-Round",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.09208",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Paul Dütting",
+              "@pid": "70/7588"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/FosterLLST16",
+          "title": "Fast Convergence of Common Learning Algorithms in Games",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1606.06244",
+          "author": [
+            {
+              "#text": "Dylan J. Foster",
+              "@pid": "167/4271"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karthik Sridharan",
+              "@pid": "s/KarthikSridharan"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            },
+            {
+              "#text": "Zhiyuan Li",
+              "@pid": "39/7780-5"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HartlineST15",
+          "title": "No-Regret Learning in Repeated Bayesian Games",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1507.00418",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason D. Hartline",
+              "@pid": "38/6279"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/JalalyNT17",
+          "title": "Learning and Trust in Auction Markets",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.10672",
+          "author": [
+            {
+              "#text": "Denis Nekipelov",
+              "@pid": "144/7434"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/JalalyT17",
+          "title": "Simple and Efficient Budget Feasible Mechanisms for Monotone Submodular Valuations",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.10681",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LykourisST15",
+          "title": "Learning and Efficiency in Games with Dynamic Population",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1505.00391",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/NekipelovST15",
+          "title": "Econometrics for Learning Agents",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1505.00720",
+          "author": [
+            {
+              "#text": "Denis Nekipelov",
+              "@pid": "144/7434"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/RoughgardenST16",
+          "title": "The Price of Anarchy in Auctions",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.07684",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/HartTS13",
+          "title": "Interface of Computation, Game Theory, and Economics (Dagstuhl Seminar 13161)",
+          "journal": "Dagstuhl Reports",
+          "year": "2013",
+          "pages": "69-90",
+          "ee": "https://doi.org/10.4230/DAGREP.3.4.69",
+          "author": [
+            {
+              "#text": "Bernhard von Stengel",
+              "@pid": "95/4774"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Sergiu Hart",
+              "@pid": "15/4952"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/FrankNSS92",
+          "title": "Algorithms for Routing around a Rectangle",
+          "journal": "Discret. Appl. Math.",
+          "year": "1992",
+          "pages": "363-378",
+          "ee": "https://doi.org/10.1016/0166-218X(92)90007-W",
+          "author": [
+            {
+              "#text": "András Frank",
+              "@pid": "34/3494"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Hitoshi Suzuki",
+              "@pid": "30/5125"
+            },
+            {
+              "#text": "Nobuji Saito",
+              "@pid": "19/6604"
+            },
+            {
+              "#text": "Takao Nishizeki",
+              "@pid": "n/TakaoNishizeki"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dc/HayrapetyanTW07",
+          "title": "A network pricing game for selfish traffic",
+          "journal": "Distributed Comput.",
+          "year": "2007",
+          "pages": "255-266",
+          "ee": "https://doi.org/10.1007/S00446-006-0020-Y",
+          "author": [
+            {
+              "#text": "Ara Hayrapetyan",
+              "@pid": "36/5415"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dc/KleinbergPT11",
+          "title": "Load balancing without regret in the bulletin board model",
+          "journal": "Distributed Comput.",
+          "year": "2011",
+          "pages": "21-29",
+          "ee": "https://doi.org/10.1007/S00446-011-0129-5",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Georgios Piliouras",
+              "@pid": "62/1236"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dm/HurkensST89",
+          "title": "On fractional multicommodity flows and distance functions",
+          "journal": "Discret. Math.",
+          "year": "1989",
+          "pages": "99-109",
+          "ee": "https://doi.org/10.1016/0012-365X(88)90137-9",
+          "author": [
+            {
+              "#text": "Alexander Schrijver",
+              "@pid": "94/717"
+            },
+            {
+              "#text": "Cor A. J. Hurkens",
+              "@pid": "227/3221"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eatcs/CzumajKT19",
+          "title": "The EATCS Award 2020 - Call for Nominations",
+          "journal": "Bull. EATCS",
+          "year": "2019",
+          "author": [
+            {
+              "#text": "Artur Czumaj",
+              "@pid": "c/ArturCzumaj"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Marta Z. Kwiatkowska",
+              "@pid": "k/MartaZKwiatkowska"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eatcs/KwiatkowskaTH20",
+          "title": "The EATCS Award 2021 - Call for Nominations",
+          "journal": "Bull. EATCS",
+          "year": "2020",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Johan Håstad",
+              "@pid": "47/3155"
+            },
+            {
+              "#text": "Marta Z. Kwiatkowska",
+              "@pid": "k/MartaZKwiatkowska"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eatcs/Tardos21",
+          "title": "The EATCS Award 2022 - Call for Nominations",
+          "journal": "Bull. EATCS",
+          "year": "2021",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eatcs/Tardos22",
+          "title": "The EATCS Award 2022 - Laudatio for Patrick Cousot",
+          "journal": "Bull. EATCS",
+          "year": "2022",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/geb/BlumeEKT09",
+          "title": "Trading networks with price-setting agents",
+          "journal": "Games Econ. Behav.",
+          "year": "2009",
+          "pages": "36-50",
+          "ee": "https://doi.org/10.1016/J.GEB.2008.12.002",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/geb/RoughgardenT04",
+          "title": "Bounding the inefficiency of equilibria in nonatomic congestion games",
+          "journal": "Games Econ. Behav.",
+          "year": "2004",
+          "pages": "389-403",
+          "ee": "https://doi.org/10.1016/J.GEB.2003.06.004",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/im/ArcherPTT03",
+          "title": "An Approximate Truthful Mechanism for Combinatorial Auctions with Single Parameter Agents",
+          "journal": "Internet Math.",
+          "year": "2003",
+          "pages": "129-150",
+          "ee": "https://doi.org/10.1080/15427951.2004.10129086",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Christos H. Papadimitriou",
+              "@pid": "p/CHPapadimitriou"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Kunal Talwar",
+              "@pid": "06/3696"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/informs/MelkonianT05",
+          "title": "Primal-Dual-Based Algorithms for a Directed Network Design Problem",
+          "journal": "INFORMS J. Comput.",
+          "year": "2005",
+          "pages": "159-174",
+          "ee": "https://doi.org/10.1287/IJOC.1040.0066",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vardges Melkonian",
+              "@pid": "51/6036"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ior/Tardos86",
+          "title": "A Strongly Polynomial Algorithm to Solve Combinatorial Linear Programs",
+          "journal": "Oper. Res.",
+          "year": "1986",
+          "pages": "250-256",
+          "ee": "https://doi.org/10.1287/OPRE.34.2.250",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ipl/TardosV93",
+          "title": "Improved Bounds for the Max-Flow Min-Multicut Ratio for Planar and K_r, r-Free Graphs",
+          "journal": "Inf. Process. Lett.",
+          "year": "1993",
+          "pages": "77-80",
+          "ee": "https://doi.org/10.1016/0020-0190(93)90228-2",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vijay V. Vazirani",
+              "@pid": "84/5806"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/GaitondeT23",
+          "title": "The Price of Anarchy of Strategic Queuing Systems",
+          "journal": "J. ACM",
+          "year": "2023",
+          "pages": "20:1-20:63",
+          "ee": "https://doi.org/10.1145/3587250",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jason Gaitonde",
+              "@pid": "260/6437"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/GalilT88",
+          "title": "An O(n²(m + n log n)log n) min-cost flow algorithm",
+          "journal": "J. ACM",
+          "year": "1988",
+          "pages": "374-386",
+          "ee": "https://doi.org/10.1145/42282.214090",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Zvi Galil",
+              "@pid": "g/ZviGalil"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/KleinbergT02",
+          "title": "Approximation algorithms for classification problems with pairwise relationships: metric labeling and Markov random fields",
+          "journal": "J. ACM",
+          "year": "2002",
+          "pages": "616-639",
+          "ee": "https://doi.org/10.1145/585265.585268",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/RoughgardenT02",
+          "title": "How bad is selfish routing?",
+          "journal": "J. ACM",
+          "year": "2002",
+          "pages": "236-259",
+          "ee": "https://doi.org/10.1145/506147.506153",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos16",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2016",
+          "pages": "8:1",
+          "ee": "https://doi.org/10.1145/2875947",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos16a",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2016",
+          "pages": "18:1",
+          "ee": "https://doi.org/10.1145/2896919",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos16b",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2016",
+          "pages": "27e:1",
+          "ee": "https://doi.org/10.1145/2940319",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos16c",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2016",
+          "pages": "45e:1",
+          "ee": "https://doi.org/10.1145/3018097",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "pages": "6:1",
+          "ee": "https://doi.org/10.1145/3055358",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17a",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "pages": "13:1",
+          "ee": "https://doi.org/10.1145/3090997",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17b",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "pages": "22:1",
+          "ee": "https://doi.org/10.1145/3090999",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17c",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "ee": "https://doi.org/10.1145/3119408",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17d",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "ee": "https://doi.org/10.1145/3140539",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos17e",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2017",
+          "ee": "https://doi.org/10.1145/3151720",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos18",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2018",
+          "ee": "https://doi.org/10.1145/3159447",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos18a",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2018",
+          "pages": "11e:1",
+          "ee": "https://doi.org/10.1145/3186890",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos18b",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2018",
+          "ee": "https://doi.org/10.1145/3186892",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos18c",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2018",
+          "pages": "25:1-25:61",
+          "ee": "https://doi.org/10.1145/3231052",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos18d",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2018",
+          "pages": "44:1",
+          "ee": "https://doi.org/10.1145/3241947",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos19",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2019",
+          "pages": "20:1",
+          "ee": "https://doi.org/10.1145/3328536",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos19a",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2019",
+          "pages": "43:1",
+          "ee": "https://doi.org/10.1145/3371337",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos20",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2020",
+          "pages": "12:1",
+          "ee": "https://doi.org/10.1145/3391411",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos20a",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2020",
+          "pages": "29:1",
+          "ee": "https://doi.org/10.1145/3418066",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos20b",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2020",
+          "pages": "35:1",
+          "ee": "https://doi.org/10.1145/3429262",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "6:1",
+          "ee": "https://doi.org/10.1145/3442687",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21a",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "12e:1",
+          "ee": "https://doi.org/10.1145/3456290",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21b",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "20:1",
+          "ee": "https://doi.org/10.1145/3448013",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21c",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "29:1",
+          "ee": "https://doi.org/10.1145/3464772",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21d",
+          "title": "Invited Articles Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "37:1",
+          "ee": "https://doi.org/10.1145/3485044",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos21e",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "47:1",
+          "ee": "https://doi.org/10.1145/3490689",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos22",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2022",
+          "pages": "7:1",
+          "ee": "https://doi.org/10.1145/3505279",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/Tardos22a",
+          "title": "Invited Article Foreword",
+          "journal": "J. ACM",
+          "year": "2022",
+          "pages": "16:1",
+          "ee": "https://doi.org/10.1145/3519019",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jair/RoughgardenST17",
+          "title": "The Price of Anarchy in Auctions",
+          "journal": "J. Artif. Intell. Res.",
+          "year": "2017",
+          "pages": "59-101",
+          "ee": "https://doi.org/10.1613/JAIR.5272",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jal/GoelHPT03",
+          "title": "Scheduling data transfers in a network and the set scheduling problem",
+          "journal": "J. Algorithms",
+          "year": "2003",
+          "pages": "314-332",
+          "ee": "https://doi.org/10.1016/S0196-6774(03)00054-3",
+          "author": [
+            {
+              "#text": "Ashish Goel",
+              "@pid": "g/AshishGoel"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Monika Henzinger",
+              "@pid": "h/MonikaRauchHenzinger"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jal/KleinPRT97",
+          "title": "Approximation Algorithms for Steiner and Directed Multicuts",
+          "journal": "J. Algorithms",
+          "year": "1997",
+          "pages": "241-269",
+          "ee": "https://doi.org/10.1006/JAGM.1996.0833",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Philip N. Klein",
+              "@pid": "k/PhilipNKlein"
+            },
+            {
+              "#text": "Satish Rao",
+              "@pid": "r/SRao"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jal/NortonPT92",
+          "title": "Using Separation Algorithms in Fixed Dimension",
+          "journal": "J. Algorithms",
+          "year": "1992",
+          "pages": "79-98",
+          "ee": "https://doi.org/10.1016/0196-6774(92)90006-X",
+          "author": [
+            {
+              "#text": "Carolyn Haibt Norton",
+              "@pid": "75/980"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/CharikarGTS02",
+          "title": "A Constant-Factor Approximation Algorithm for the k-Median Problem",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "2002",
+          "pages": "129-149",
+          "ee": "https://doi.org/10.1006/JCSS.2002.1882",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Moses Charikar",
+              "@pid": "c/MosesCharikar"
+            },
+            {
+              "#text": "Sudipto Guha",
+              "@pid": "g/SudiptoGuha"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/KleinbergRT01",
+          "title": "Fairness in Routing and Load Balancing",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "2001",
+          "pages": "2-20",
+          "ee": "https://doi.org/10.1006/JCSS.2001.1752",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Yuval Rabani",
+              "@pid": "r/YRabani"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/KleinbergT98",
+          "title": "Approximations for the Disjoint Paths Problem in High-Diameter Planar Networks",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "1998",
+          "pages": "61-73",
+          "ee": "https://doi.org/10.1006/JCSS.1998.1579",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/LeightonMPSST95",
+          "title": "Fast Approximation Algorithms for Multicommodity Flow Problems",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "1995",
+          "pages": "228-243",
+          "ee": "https://doi.org/10.1006/JCSS.1995.1020",
+          "author": [
+            {
+              "#text": "Clifford Stein",
+              "@pid": "s/CliffordStein"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Fillia Makedon",
+              "@pid": "m/FilliaMakedon"
+            },
+            {
+              "#text": "Frank Thomson Leighton",
+              "@pid": "l/FrankThomsonLeighton"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            },
+            {
+              "#text": "Spyros Tragoudas",
+              "@pid": "70/5489"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jct/Tardos90",
+          "title": "An intersection theorem for supermatroids",
+          "journal": "J. Comb. Theory B",
+          "year": "1990",
+          "pages": "150-159",
+          "ee": "https://doi.org/10.1016/0095-8956(90)90070-G",
+          "author": {
+            "#text": "Éva Tardos",
+            "@pid": "t/EvaTardos"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jet/BlumeEKKT15",
+          "title": "Introduction to computer science and economic theory",
+          "journal": "J. Econ. Theory",
+          "year": "2015",
+          "pages": "1-13",
+          "ee": "https://doi.org/10.1016/J.JET.2014.11.002",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jet/CaragiannisKKKLLT15",
+          "title": "Bounding the inefficiency of outcomes in generalized second price auctions",
+          "journal": "J. Econ. Theory",
+          "year": "2015",
+          "pages": "343-388",
+          "ee": "https://doi.org/10.1016/J.JET.2014.04.010",
+          "author": [
+            {
+              "#text": "Brendan Lucier",
+              "@pid": "09/6191"
+            },
+            {
+              "#text": "Christos Kaklamanis",
+              "@pid": "k/ChristosKaklamanis"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Ioannis Caragiannis",
+              "@pid": "c/IoannisCaragiannis"
+            },
+            {
+              "#text": "Maria Kyropoulou",
+              "@pid": "35/7232"
+            },
+            {
+              "#text": "Panagiotis Kanellopoulos",
+              "@pid": "01/5157"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/CashoreFT24",
+          "title": "Dynamic Pricing Provides Robust Equilibria in Stochastic Ridesharing Networks",
+          "journal": "Math. Oper. Res.",
+          "year": "2024",
+          "pages": "1647-1677",
+          "ee": "https://doi.org/10.1287/MOOR.2022.0163",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "J. Massey Cashore",
+              "@pid": "163/2125"
+            },
+            {
+              "#text": "Peter I. Frazier",
+              "@pid": "33/1711"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/DuttingKT21",
+          "title": "Algorithms as Mechanisms: The Price of Anarchy of Relax and Round",
+          "journal": "Math. Oper. Res.",
+          "year": "2021",
+          "pages": "317-335",
+          "ee": "https://doi.org/10.1287/MOOR.2020.1058",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Paul Dütting",
+              "@pid": "70/7588"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/FikiorisT25",
+          "title": "Liquid Welfare Guarantees for No-Regret Learning in Sequential Budgeted Auctions",
+          "journal": "Math. Oper. Res.",
+          "year": "2025",
+          "pages": "1233-1249",
+          "ee": "https://doi.org/10.1287/MOOR.2023.0274",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/FleischerT99",
+          "title": "Separating Maximally Violated Comb Inequalities in Planar Graphs",
+          "journal": "Math. Oper. Res.",
+          "year": "1999",
+          "pages": "130-148",
+          "ee": "https://doi.org/10.1287/MOOR.24.1.130",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Lisa Fleischer",
+              "@pid": "20/2997"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/GoldbergPT91",
+          "title": "Combinatorial Algorithms for the Generalized Circulation Problem",
+          "journal": "Math. Oper. Res.",
+          "year": "1991",
+          "pages": "351-381",
+          "ee": "https://doi.org/10.1287/MOOR.16.2.351",
+          "author": [
+            {
+              "#text": "Andrew V. Goldberg",
+              "@pid": "g/AndrewVGoldberg"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/HoppeT00",
+          "title": "The Quickest Transshipment Problem",
+          "journal": "Math. Oper. Res.",
+          "year": "2000",
+          "pages": "36-62",
+          "ee": "https://doi.org/10.1287/MOOR.25.1.36.15211",
+          "author": [
+            {
+              "#text": "Bruce Hoppe",
+              "@pid": "86/381"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/LykourisST22",
+          "title": "Small-Loss Bounds for Online Learning with Partial Information",
+          "journal": "Math. Oper. Res.",
+          "year": "2022",
+          "pages": "2186-2218",
+          "ee": "https://doi.org/10.1287/MOOR.2021.1204",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Karthik Sridharan",
+              "@pid": "s/KarthikSridharan"
+            },
+            {
+              "#text": "Thodoris Lykouris",
+              "@pid": "150/7250"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/PlotkinST95",
+          "title": "Fast Approximation Algorithms for Fractional Packing and Covering Problems",
+          "journal": "Math. Oper. Res.",
+          "year": "1995",
+          "pages": "257-301",
+          "ee": "https://doi.org/10.1287/MOOR.20.2.257",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/SyrgkanisKT19",
+          "title": "Information Asymmetries in Common-Value Auctions with Discrete Signals",
+          "journal": "Math. Oper. Res.",
+          "year": "2019",
+          "pages": "1450-1476",
+          "ee": "https://doi.org/10.1287/MOOR.2018.0979",
+          "author": [
+            {
+              "#text": "David Kempe",
+              "@pid": "63/5749-1"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/TardosTT86",
+          "title": "Layered Augmenting Path Algorithms",
+          "journal": "Math. Oper. Res.",
+          "year": "1986",
+          "pages": "362-370",
+          "ee": "https://doi.org/10.1287/MOOR.11.2.362",
+          "author": [
+            {
+              "#text": "Craig A. Tovey",
+              "@pid": "70/6070"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Michael A. Trick",
+              "@pid": "t/MichaelATrick"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/CookGST86",
+          "title": "Sensitivity theorems in integer linear programming",
+          "journal": "Math. Program.",
+          "year": "1986",
+          "pages": "251-264",
+          "ee": "https://doi.org/10.1007/BF01582230",
+          "author": [
+            {
+              "#text": "Alexander Schrijver",
+              "@pid": "94/717"
+            },
+            {
+              "#text": "Bert Gerards",
+              "@pid": "22/5771"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "William J. Cook",
+              "@pid": "74/1313"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/FrankT88",
+          "title": "Generalized polymatroids and submodular flows",
+          "journal": "Math. Program.",
+          "year": "1988",
+          "pages": "489-563",
+          "ee": "https://doi.org/10.1007/BF01589418",
+          "author": [
+            {
+              "#text": "András Frank",
+              "@pid": "34/3494"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/LenstraST90",
+          "title": "Approximation Algorithms for Scheduling Unrelated Parallel Machines",
+          "journal": "Math. Program.",
+          "year": "1990",
+          "pages": "259-271",
+          "ee": "https://doi.org/10.1007/BF01585745",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jan Karel Lenstra",
+              "@pid": "l/JKLenstra"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/OrlinPT93",
+          "title": "Polynomial dual network simplex algorithms",
+          "journal": "Math. Program.",
+          "year": "1993",
+          "pages": "255-276",
+          "ee": "https://doi.org/10.1007/BF01580615",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "James B. Orlin",
+              "@pid": "o/JamesBOrlin"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/ShmoysT93",
+          "title": "An approximation algorithm for the generalized assignment problem",
+          "journal": "Math. Program.",
+          "year": "1993",
+          "pages": "461-474",
+          "ee": "https://doi.org/10.1007/BF01585178",
+          "author": [
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/networks/GabowGTW09",
+          "title": "Approximating the smallest k-edge connected spanning subgraph by LP-rounding",
+          "journal": "Networks",
+          "year": "2009",
+          "pages": "345-357",
+          "ee": "https://doi.org/10.1002/NET.20289",
+          "author": [
+            {
+              "#text": "David P. Williamson",
+              "@pid": "w/DavidPWilliamson"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Harold N. Gabow",
+              "@pid": "g/HaroldNGabow"
+            },
+            {
+              "#text": "Michel X. Goemans",
+              "@pid": "g/MichelXGoemans"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/networks/MelkonianT04",
+          "title": "Algorithms for a network design problem with crossing supermodular demands",
+          "journal": "Networks",
+          "year": "2004",
+          "pages": "256-265",
+          "ee": "https://doi.org/10.1002/NET.20005",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Vardges Melkonian",
+              "@pid": "51/6036"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/orl/FleischerT98",
+          "title": "Efficient continuous-time dynamic network flow algorithms",
+          "journal": "Oper. Res. Lett.",
+          "year": "1998",
+          "pages": "71-80",
+          "ee": "https://doi.org/10.1016/S0167-6377(98)00037-6",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Lisa Fleischer",
+              "@pid": "20/2997"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pomacs/OnyezeBFT25",
+          "title": "Allocating Public Goods via Dynamic Max-Min Fairness: Long-Run Behavior and Competitive Equilibria",
+          "journal": "Proc. ACM Meas. Anal. Comput. Syst.",
+          "year": "2025",
+          "pages": "2:1-2:45",
+          "ee": "https://doi.org/10.1145/3711695",
+          "author": [
+            {
+              "#text": "Chido Onyeze",
+              "@pid": "398/3948"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Giannis Fikioris",
+              "@pid": "264/9493"
+            },
+            {
+              "#text": "Siddhartha Banerjee",
+              "@pid": "88/9184"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/AnshelevichDKTWR08",
+          "title": "The Price of Stability for Network Design with Fair Cost Allocation",
+          "journal": "SIAM J. Comput.",
+          "year": "2008",
+          "pages": "1602-1623",
+          "ee": "https://doi.org/10.1137/070680096",
+          "author": [
+            {
+              "#text": "Anirban Dasgupta",
+              "@pid": "54/385-1"
+            },
+            {
+              "#text": "Elliot Anshelevich",
+              "@pid": "66/414"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/BarahonaT89",
+          "title": "Note on Weintraub's Minimum-Cost Circulation Algorithm",
+          "journal": "SIAM J. Comput.",
+          "year": "1989",
+          "pages": "579-583",
+          "ee": "https://doi.org/10.1137/0218039",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Francisco Barahona",
+              "@pid": "18/3873"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/DinurT08",
+          "title": "Special Issue on Foundations of Computer Science",
+          "journal": "SIAM J. Comput.",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Irit Dinur",
+              "@pid": "18/3891"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/GoldbergPST92",
+          "title": "Using Interior-Point Methods for Fast Parallel Algorithms for Bipartite Matching and Related Problems",
+          "journal": "SIAM J. Comput.",
+          "year": "1992",
+          "pages": "140-150",
+          "ee": "https://doi.org/10.1137/0221011",
+          "author": [
+            {
+              "#text": "Andrew V. Goldberg",
+              "@pid": "g/AndrewVGoldberg"
+            },
+            {
+              "#text": "David B. Shmoys",
+              "@pid": "s/DavidBShmoys"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/KleinbergRT00",
+          "title": "Allocating Bandwidth for Bursty Connections",
+          "journal": "SIAM J. Comput.",
+          "year": "2000",
+          "pages": "191-217",
+          "ee": "https://doi.org/10.1137/S0097539797329142",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Yuval Rabani",
+              "@pid": "r/YRabani"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/KleinPST94",
+          "title": "Faster Approximation Algorithms for the Unit Capacity Concurrent Flow Problem with Applications to Routing and Finding Sparse Cuts",
+          "journal": "SIAM J. Comput.",
+          "year": "1994",
+          "pages": "466-487",
+          "ee": "https://doi.org/10.1137/S0097539792241175",
+          "author": [
+            {
+              "#text": "Clifford Stein",
+              "@pid": "s/CliffordStein"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Philip N. Klein",
+              "@pid": "k/PhilipNKlein"
+            },
+            {
+              "#text": "Serge A. Plotkin",
+              "@pid": "43/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamdm/LinRTW11",
+          "title": "Stronger Bounds on Braess's Paradox and the Maximum Latency of Selfish Routing",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2011",
+          "pages": "1667-1686",
+          "ee": "https://doi.org/10.1137/090769600",
+          "author": [
+            {
+              "#text": "Asher Walkover",
+              "@pid": "57/4991"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Henry C. Lin",
+              "@pid": "77/6036"
+            },
+            {
+              "#text": "Timothy Roughgarden",
+              "@pid": "r/TimRoughgarden"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigecom/DuttingKT15",
+          "title": "Algorithms as mechanisms: the price of anarchy of relax-and-round",
+          "journal": "SIGecom Exch.",
+          "year": "2015",
+          "pages": "22-25",
+          "ee": "https://doi.org/10.1145/2904104.2904107",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Paul Dütting",
+              "@pid": "70/7588"
+            },
+            {
+              "#text": "Thomas Kesselheim",
+              "@pid": "48/7186"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigecom/KleinbergSTW08",
+          "title": "Strategic network formation with structural holes",
+          "journal": "SIGecom Exch.",
+          "year": "2008",
+          "ee": "https://doi.org/10.1145/1486877.1486888",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Siddharth Suri",
+              "@pid": "96/3563"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigecom/LemeST12",
+          "title": "The dining bidder problem: à la russe et à la française",
+          "journal": "SIGecom Exch.",
+          "year": "2012",
+          "pages": "25-28",
+          "ee": "https://doi.org/10.1145/2509002.2509008",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Renato Paes Leme",
+              "@pid": "53/1607"
+            },
+            {
+              "#text": "Vasilis Syrgkanis",
+              "@pid": "32/8820"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigecom/McAfeeT13",
+          "title": "Notes from the EC'13 program chairs",
+          "journal": "SIGecom Exch.",
+          "year": "2013",
+          "pages": "2-7",
+          "ee": "https://doi.org/10.1145/2509013.2509015",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "R. Preston McAfee",
+              "@pid": "62/2039"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/ArcherT07",
+          "title": "Frugal path mechanisms",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2007",
+          "pages": "3:1-3:22",
+          "ee": "https://doi.org/10.1145/1219944.1219948",
+          "author": [
+            {
+              "#text": "Aaron Archer",
+              "@pid": "97/1504"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/SvitkinaT10",
+          "title": "Facility location with hierarchical facility costs",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2010",
+          "pages": "37:1-37:22",
+          "ee": "https://doi.org/10.1145/1721837.1721853",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Zoya Svitkina",
+              "@pid": "s/ZoyaSvitkina"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/BlumeEKKT13",
+          "title": "Network Formation in the Presence of Contagious Risk",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2013",
+          "pages": "6:1-6:20",
+          "ee": "https://doi.org/10.1145/2465769.2465771",
+          "author": [
+            {
+              "#text": "David A. Easley",
+              "@pid": "130/6581"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            },
+            {
+              "#text": "Lawrence E. Blume",
+              "@pid": "47/5148"
+            },
+            {
+              "#text": "Robert D. Kleinberg",
+              "@pid": "k/RDKleinberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/JalalyT21",
+          "title": "Simple and Efficient Budget Feasible Mechanisms for Monotone Submodular Valuations",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2021",
+          "pages": "4:1-4:20",
+          "ee": "https://doi.org/10.1145/3434421",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Pooya Jalaly",
+              "@pid": "89/9828"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/teco/McAfeeT16",
+          "title": "Introduction",
+          "journal": "ACM Trans. Economics and Comput.",
+          "year": "2016",
+          "pages": "12:1",
+          "ee": "https://doi.org/10.1145/2916701",
+          "author": [
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "R. Preston McAfee",
+              "@pid": "62/2039"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toc/AnshelevichDTW08",
+          "title": "Near-Optimal Network Design with Selfish Agents",
+          "journal": "Theory Comput.",
+          "year": "2008",
+          "pages": "77-109",
+          "ee": "https://doi.org/10.4086/TOC.2008.V004A004",
+          "author": [
+            {
+              "#text": "Anirban Dasgupta",
+              "@pid": "54/385-1"
+            },
+            {
+              "#text": "Elliot Anshelevich",
+              "@pid": "66/414"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Tom Wexler",
+              "@pid": "68/6928"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toc/KempeKT15",
+          "title": "Maximizing the Spread of Influence through a Social Network",
+          "journal": "Theory Comput.",
+          "year": "2015",
+          "pages": "105-147",
+          "ee": "https://doi.org/10.4086/TOC.2015.V011A004",
+          "author": [
+            {
+              "#text": "David Kempe",
+              "@pid": "63/5749-1"
+            },
+            {
+              "#text": "Éva Tardos",
+              "@pid": "t/EvaTardos"
+            },
+            {
+              "#text": "Jon M. Kleinberg",
+              "@pid": "k/JonMKleinberg"
+            }
+          ]
+        }
       }
     ]
   }

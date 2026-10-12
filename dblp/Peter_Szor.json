@@ -1,0 +1,42 @@
+{
+  "dblpperson": {
+    "@name": "Peter Szor",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/uss/Szor04",
+          "title": "Fighting Computer Virus Attacks",
+          "booktitle": "USENIX Security Symposium",
+          "year": "2004",
+          "author": {
+            "#text": "Peter Szor",
+            "@pid": "89/5651"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1111-2503",
+          "title": "Darwin inside the machines: Malware evolution and the consequences for computer security",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1111.2503",
+          "author": [
+            {
+              "#text": "Christoph Adami",
+              "@pid": "36/1930"
+            },
+            {
+              "#text": "Dimitris Iliopoulos",
+              "@pid": "03/10545"
+            },
+            {
+              "#text": "Peter Szor",
+              "@pid": "89/5651"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

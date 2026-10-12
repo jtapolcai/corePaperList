@@ -1,421 +1,2116 @@
 {
   "dblpperson": {
+    "@name": "Ferenc Huszar",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/nips/LeeK0QHHL23",
-        "title": "FedL2P: Federated Learning to Personalize.",
-        "year": "2023",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper_files/paper/2023/hash/2fb57276bfbaf1b832d7bfcba36bb41c-Abstract-Conference.html",
-        "url": "db/conf/nips/neurips2023.html#LeeK0QHHL23",
-        "authors": [
-          "Royson Lee",
-          "Minyoung Kim 0001",
-          "Da Li 0001",
-          "Xinchi Qiu",
-          "Timothy M. Hospedales",
-          "Ferenc Huszar",
-          "Nicholas D. Lane"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvpr/LedigTHCCAATTWS17",
+          "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+          "booktitle": "CVPR",
+          "year": "2017",
+          "pages": "105-114",
+          "ee": "https://doi.org/10.1109/CVPR.2017.19",
+          "author": [
+            {
+              "#text": "Alejandro Acosta",
+              "@pid": "48/8360"
+            },
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Andrew Cunningham",
+              "@pid": "34/2068"
+            },
+            {
+              "#text": "Andrew P. Aitken",
+              "@pid": "186/8194"
+            },
+            {
+              "#text": "Christian Ledig",
+              "@pid": "117/0353"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Johannes Totz",
+              "@pid": "11/10171"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Zehan Wang",
+              "@pid": "126/7826"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/GuoZMHS24",
-        "title": "Do Finetti: On Causal Effects for Exchangeable Data.",
-        "year": "2024",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/e656933e4e9626f5ada42349bcadffb8-Abstract-Conference.html",
-        "url": "db/conf/nips/neurips2024.html#GuoZMHS24",
-        "authors": [
-          "Siyuan Guo 0003",
-          "Chi Zhang",
-          "Karthika Mohan",
-          "Ferenc Huszar",
-          "Bernhard SchÃ¶lkopf"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvpr/ShiCHTABRW16",
+          "title": "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network",
+          "booktitle": "CVPR",
+          "year": "2016",
+          "pages": "1874-1883",
+          "ee": "https://doi.org/10.1109/CVPR.2016.207",
+          "author": [
+            {
+              "#text": "Andrew P. Aitken",
+              "@pid": "186/8194"
+            },
+            {
+              "#text": "Daniel Rueckert",
+              "@pid": "69/2478"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Johannes Totz",
+              "@pid": "11/10171"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Rob Bishop",
+              "@pid": "186/7861"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Zehan Wang",
+              "@pid": "126/7826"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/GuoTSH23",
-        "title": "Causal de Finetti: On the Identification of Invariant Causal Structure in Exchangeable Data.",
-        "year": "2023",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper_files/paper/2023/hash/7279908471a7dd4898d2715f7c6a7413-Abstract-Conference.html",
-        "url": "db/conf/nips/neurips2023.html#GuoTSH23",
-        "authors": [
-          "Siyuan Guo 0003",
-          "Viktor TÃ³th",
-          "Bernhard SchÃ¶lkopf",
-          "Ferenc Huszar"
-        ]
+        "inproceedings": {
+          "@key": "conf/fat/BucknallSTMHRPM25",
+          "title": "In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?",
+          "booktitle": "FAccT",
+          "year": "2025",
+          "pages": "3148-3161",
+          "ee": "https://doi.org/10.1145/3715275.3732201",
+          "author": [
+            {
+              "#text": "Alessandro Abate",
+              "@pid": "19/3904"
+            },
+            {
+              "#text": "Ani Calinescu",
+              "@pid": "77/2207"
+            },
+            {
+              "#text": "Anka Reuel",
+              "@pid": "341/1372"
+            },
+            {
+              "#text": "Ben Bucknall",
+              "@pid": "361/0440"
+            },
+            {
+              "#text": "Ben Harack",
+              "@pid": "355/5953"
+            },
+            {
+              "#text": "Casey Mahoney",
+              "@pid": "405/4386"
+            },
+            {
+              "#text": "Charbel-Raphaël Ségerie",
+              "@pid": "301/9367"
+            },
+            {
+              "#text": "Conor McGurk",
+              "@pid": "405/4802"
+            },
+            {
+              "#text": "Fazl Barez",
+              "@pid": "308/2550"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Gabriel Davis Jones",
+              "@pid": "165/4433"
+            },
+            {
+              "#text": "Lara Thurnherr",
+              "@pid": "401/8274"
+            },
+            {
+              "#text": "Michael K. Cohen",
+              "@pid": "237/9460"
+            },
+            {
+              "#text": "Oscar Delaney",
+              "@pid": "382/6518"
+            },
+            {
+              "#text": "Patricia Paskov",
+              "@pid": "392/9292"
+            },
+            {
+              "#text": "Philip Torr",
+              "@pid": "t/PhilipHSTorr"
+            },
+            {
+              "#text": "Robert Trager",
+              "@pid": "351/0644"
+            },
+            {
+              "#text": "Saad Siddiqui",
+              "@pid": "405/4855"
+            },
+            {
+              "#text": "Scott Singer",
+              "@pid": "171/4302"
+            },
+            {
+              "#text": "Sören Mindermann",
+              "@pid": "211/7976"
+            },
+            {
+              "#text": "Vinay Hiremath",
+              "@pid": "405/4432"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/MeszarosUBRH24",
-        "title": "Rule Extrapolation in Language Modeling: A Study of Compositional Generalization on OOD Prompts.",
-        "year": "2024",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/3d9ef68629089da055334c2d41dfcf93-Abstract-Conference.html",
-        "url": "db/conf/nips/neurips2024.html#MeszarosUBRH24",
-        "authors": [
-          "Anna MÃ©szÃ¡ros",
-          "Szilvia UjvÃ¡ry",
-          "Wieland Brendel",
-          "Patrik Reizinger",
-          "Ferenc Huszar"
-        ]
+        "inproceedings": {
+          "@key": "conf/iclr/MoskovitzAHG21",
+          "title": "Efficient Wasserstein Natural Gradients for Reinforcement Learning",
+          "booktitle": "ICLR",
+          "year": "2021",
+          "author": [
+            {
+              "#text": "Arthur Gretton",
+              "@pid": "56/2574"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Michael Arbel",
+              "@pid": "200/8609"
+            },
+            {
+              "#text": "Ted Moskovitz",
+              "@pid": "259/3088"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/HoulsbyHHG12",
-        "title": "Collaborative Gaussian Processes for Preference Learning.",
-        "pages": "2105-2113",
-        "year": "2012",
-        "booktitle": "NIPS",
-        "ee": "http://papers.nips.cc/paper/4700-collaborative-gaussian-processes-for-preference-learning",
-        "url": "db/conf/nips/nips2012.html#HoulsbyHHG12",
-        "authors": [
-          "Neil Houlsby",
-          "JosÃ© Miguel HernÃ¡ndez-Lobato",
-          "Ferenc Huszar",
-          "Zoubin Ghahramani"
-        ]
+        "inproceedings": {
+          "@key": "conf/iclr/ReizingerGHSB25",
+          "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+          "booktitle": "ICLR",
+          "year": "2025",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/KorshunovaDHGGD18",
-        "title": "BRUNO: A Deep Recurrent Model for Exchangeable Data.",
-        "pages": "7190-7198",
-        "year": "2018",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper/7949-bruno-a-deep-recurrent-model-for-exchangeable-data",
-        "url": "db/conf/nips/nips2018.html#KorshunovaDHGGD18",
-        "authors": [
-          "Iryna Korshunova",
-          "Jonas Degrave",
-          "Ferenc Huszar",
-          "Yarin Gal",
-          "Arthur Gretton",
-          "Joni Dambre"
-        ]
+        "inproceedings": {
+          "@key": "conf/iclr/SonderbyCTSH17",
+          "title": "Amortised MAP Inference for Image Super-resolution",
+          "booktitle": "ICLR",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Casper Kaae Sønderby",
+              "@pid": "160/8787"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/recsys/ZhangLXKTGMDPIU20",
-        "title": "Model Size Reduction Using Frequency Based Double Hashing for Recommender Systems.",
-        "pages": "521-526",
-        "year": "2020",
-        "booktitle": "RecSys",
-        "ee": "https://www.wikidata.org/entity/Q131015352",
-        "url": "db/conf/recsys/recsys2020.html#ZhangLXKTGMDPIU20",
-        "authors": [
-          "Caojin Zhang",
-          "Yicun Liu",
-          "Yuanpu Xie",
-          "Sofia Ira Ktena",
-          "Alykhan Tejani",
-          "Akshay Gupta",
-          "Pranay Kumar Myana",
-          "Deepak Dilipkumar",
-          "Suvadip Paul",
-          "Ikuhiro Ihara",
-          "Prasang Upadhyaya",
-          "Ferenc Huszar",
-          "Wenzhe Shi"
-        ]
+        "inproceedings": {
+          "@key": "conf/iclr/TheisSCH17",
+          "title": "Lossy Image Compression with Compressive Autoencoders",
+          "booktitle": "ICLR (Poster)",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Andrew Cunningham",
+              "@pid": "34/2068"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/recsys/GuoKMHSTKD20",
-        "title": "Deep Bayesian Bandits: Exploring in Online Personalized Recommendations.",
-        "pages": "456-461",
-        "year": "2020",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/3383313.3412214",
-        "url": "db/conf/recsys/recsys2020.html#GuoKMHSTKD20",
-        "authors": [
-          "Dalin Guo",
-          "Sofia Ira Ktena",
-          "Pranay Kumar Myana",
-          "Ferenc Huszar",
-          "Wenzhe Shi",
-          "Alykhan Tejani",
-          "Michael Kneier",
-          "Sourav Das"
-        ]
+        "inproceedings": {
+          "@key": "conf/icml/LeeFH0LDHHL24",
+          "title": "Recurrent Early Exits for Federated Learning with Heterogeneous Clients",
+          "booktitle": "ICML",
+          "year": "2024",
+          "pages": "26568-26588",
+          "author": [
+            {
+              "#text": "Da Li",
+              "@pid": "43/4804-1"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Javier Fernández-Marqués",
+              "@pid": "171/7908"
+            },
+            {
+              "#text": "Lukasz Dudziak",
+              "@pid": "228/7987"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Shell Xu Hu",
+              "@pid": "239/4857"
+            },
+            {
+              "#text": "Stefanos Laskaridis",
+              "@pid": "241/6273"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iclr/MoskovitzAHG21",
-        "title": "Efficient Wasserstein Natural Gradients for Reinforcement Learning.",
-        "year": "2021",
-        "booktitle": "ICLR",
-        "ee": "https://openreview.net/forum?id=OHgnfSrn2jv",
-        "url": "db/conf/iclr/iclr2021.html#MoskovitzAHG21",
-        "authors": [
-          "Ted Moskovitz",
-          "Michael Arbel",
-          "Ferenc Huszar",
-          "Arthur Gretton"
-        ]
+        "inproceedings": {
+          "@key": "conf/icml/ReizingerUMKBH24",
+          "title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
+          "booktitle": "ICML",
+          "year": "2024",
+          "pages": "42365-42390",
+          "author": [
+            {
+              "#text": "Anna Böhm",
+              "@pid": "187/2127"
+            },
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Szilvia Ujváry",
+              "@pid": "331/6108"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pcs/StorrsLKTH18",
-        "title": "Adaptive Paired-Comparison Method for Subjective Video Quality Assessment on Mobile Devices.",
-        "pages": "169-173",
-        "year": "2018",
-        "booktitle": "PCS",
-        "ee": "https://doi.org/10.1109/PCS.2018.8456273",
-        "url": "db/conf/pcs/pcs2018.html#StorrsLKTH18",
-        "authors": [
-          "Katherine Storrs",
-          "Sebastiaan Van Leuven",
-          "Steve Kojder",
-          "Lucas Theis",
-          "Ferenc Huszar"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/GuoTSH23",
+          "title": "Causal de Finetti: On the Identification of Invariant Causal Structure in Exchangeable Data",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            },
+            {
+              "#text": "Viktor Tóth",
+              "@pid": "244/9826"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uai/HuszarD12",
-        "title": "Optimally-Weighted Herding is Bayesian Quadrature.",
-        "pages": "377-386",
-        "year": "2012",
-        "booktitle": "UAI",
-        "ee": "https://dslpitt.org/uai/displayArticleDetails.jsp?mmnu=1&smnu=2&article_id=2300&proceeding_id=28",
-        "url": "db/conf/uai/uai2012.html#HuszarD12",
-        "authors": [
-          "Ferenc Huszar",
-          "David Duvenaud"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/GuoZMHS24",
+          "title": "Do Finetti: On Causal Effects for Exchangeable Data",
+          "booktitle": "NeurIPS",
+          "year": "2024",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Chi Zhang",
+              "@pid": "91/195"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Karthika Mohan",
+              "@pid": "92/8278"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cvpr/ShiCHTABRW16",
-        "title": "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network.",
-        "pages": "1874-1883",
-        "year": "2016",
-        "booktitle": "CVPR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CVPR.2016.207",
-        "url": "db/conf/cvpr/cvpr2016.html#ShiCHTABRW16",
-        "authors": [
-          "Wenzhe Shi",
-          "Jose Caballero",
-          "Ferenc Huszar",
-          "Johannes Totz",
-          "Andrew P. Aitken",
-          "Rob Bishop",
-          "Daniel Rueckert",
-          "Zehan Wang"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/HoulsbyHHG12",
+          "title": "Collaborative Gaussian Processes for Preference Learning",
+          "booktitle": "NIPS",
+          "year": "2012",
+          "pages": "2105-2113",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "José Miguel Hernández-Lobato",
+              "@pid": "40/6058"
+            },
+            {
+              "#text": "Neil Houlsby",
+              "@pid": "91/10669"
+            },
+            {
+              "#text": "Zoubin Ghahramani",
+              "@pid": "g/ZoubinGhahramani"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cvpr/LedigTHCCAATTWS17",
-        "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network.",
-        "pages": "105-114",
-        "year": "2017",
-        "booktitle": "CVPR",
-        "ee": "https://www.wikidata.org/entity/Q59844149",
-        "url": "db/conf/cvpr/cvpr2017.html#LedigTHCCAATTWS17",
-        "authors": [
-          "Christian Ledig",
-          "Lucas Theis",
-          "Ferenc Huszar",
-          "Jose Caballero",
-          "Andrew Cunningham",
-          "Alejandro Acosta",
-          "Andrew P. Aitken",
-          "Alykhan Tejani",
-          "Johannes Totz",
-          "Zehan Wang",
-          "Wenzhe Shi"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/KorshunovaDHGGD18",
+          "title": "BRUNO: A Deep Recurrent Model for Exchangeable Data",
+          "booktitle": "NeurIPS",
+          "year": "2018",
+          "pages": "7190-7198",
+          "author": [
+            {
+              "#text": "Arthur Gretton",
+              "@pid": "56/2574"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Iryna Korshunova",
+              "@pid": "190/7250"
+            },
+            {
+              "#text": "Jonas Degrave",
+              "@pid": "143/0375"
+            },
+            {
+              "#text": "Joni Dambre",
+              "@pid": "d/JoniDambre"
+            },
+            {
+              "#text": "Yarin Gal",
+              "@pid": "67/9076"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/jmlr/Lacoste-JulienHG11",
-        "title": "Approximate inference for the loss-calibrated Bayesian.",
-        "pages": "416-424",
-        "booktitle": "AISTATS",
-        "year": "2011",
-        "ee": "http://proceedings.mlr.press/v15/lacoste_julien11a/lacoste_julien11a.pdf",
-        "url": "db/journals/jmlr/jmlrp15.html#Lacoste-JulienHG11",
-        "authors": [
-          "Simon Lacoste-Julien",
-          "Ferenc Huszar",
-          "Zoubin Ghahramani"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/LeeK0QHHL23",
+          "title": "FedL2P: Federated Learning to Personalize",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Da Li",
+              "@pid": "43/4804-1"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Minyoung Kim",
+              "@pid": "34/5733-1"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            },
+            {
+              "#text": "Xinchi Qiu",
+              "@pid": "265/6559"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2010-05380",
-        "title": "Efficient Wasserstein Natural Gradients for Reinforcement Learning.",
-        "year": "2020",
-        "volume": "abs/2010.05380",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2010.05380",
-        "url": "db/journals/corr/corr2010.html#abs-2010-05380",
-        "authors": [
-          "Ted Moskovitz",
-          "Michael Arbel",
-          "Ferenc Huszar",
-          "Arthur Gretton"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/MeszarosUBRH24",
+          "title": "Rule Extrapolation in Language Modeling: A Study of Compositional Generalization on OOD Prompts",
+          "booktitle": "NeurIPS",
+          "year": "2024",
+          "author": [
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Szilvia Ujváry",
+              "@pid": "331/6108"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/LedigTHCATTWS16",
-        "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network.",
-        "year": "2016",
-        "volume": "abs/1609.04802",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1609.04802",
-        "url": "db/journals/corr/corr1609.html#LedigTHCATTWS16",
-        "authors": [
-          "Christian Ledig",
-          "Lucas Theis",
-          "Ferenc Huszar",
-          "Jose Caballero",
-          "Andrew P. Aitken",
-          "Alykhan Tejani",
-          "Johannes Totz",
-          "Zehan Wang",
-          "Wenzhe Shi"
-        ]
+        "inproceedings": {
+          "@key": "conf/pcs/StorrsLKTH18",
+          "title": "Adaptive Paired-Comparison Method for Subjective Video Quality Assessment on Mobile Devices",
+          "booktitle": "PCS",
+          "year": "2018",
+          "pages": "169-173",
+          "ee": "https://doi.org/10.1109/PCS.2018.8456273",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Katherine Storrs",
+              "@pid": "238/1219"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Sebastiaan Van Leuven",
+              "@pid": "44/9489"
+            },
+            {
+              "#text": "Steve Kojder",
+              "@pid": "226/1001"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2202-01615",
-        "title": "Measuring Disparate Outcomes of Content Recommendation Algorithms with Distributional Inequality Metrics.",
-        "year": "2022",
-        "volume": "abs/2202.01615",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2202.01615",
-        "url": "db/journals/corr/corr2202.html#abs-2202-01615",
-        "authors": [
-          "Tomo Lazovich",
-          "Luca Belli",
-          "Aaron Gonzales",
-          "Amanda Bower",
-          "Uthaipon Tantipongpipat",
-          "Kristian Lum",
-          "Ferenc Huszar",
-          "Rumman Chowdhury"
-        ]
+        "inproceedings": {
+          "@key": "conf/recsys/GuoKMHSTKD20",
+          "title": "Deep Bayesian Bandits: Exploring in Online Personalized Recommendations",
+          "booktitle": "RecSys",
+          "year": "2020",
+          "pages": "456-461",
+          "ee": "https://doi.org/10.1145/3383313.3412214",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Dalin Guo",
+              "@pid": "231/7681"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Michael Kneier",
+              "@pid": "274/7726"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Sourav Das",
+              "@pid": "31/6808"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1112-5745",
-        "title": "Bayesian Active Learning for Classification and Preference Learning",
-        "ee": "https://doi.org/10.48550/arXiv.1112.5745",
-        "year": "2011",
-        "journal": "CoRR",
-        "volume": "abs/1112.5745",
-        "url": "db/journals/corr/corr1112.html#abs-1112-5745",
-        "authors": [
-          "Neil Houlsby",
-          "Ferenc Huszar",
-          "Zoubin Ghahramani",
-          "MÃ¡tÃ© Lengyel"
-        ]
+        "inproceedings": {
+          "@key": "conf/recsys/KtenaTTMDHYS19",
+          "title": "Addressing delayed feedback for continuous training with neural networks in CTR prediction",
+          "booktitle": "RecSys",
+          "year": "2019",
+          "pages": "187-195",
+          "ee": "https://doi.org/10.1145/3298689.3347002",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Deepak Dilipkumar",
+              "@pid": "211/7179"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Steven Yoo",
+              "@pid": "245/0285"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1907-06558",
-        "title": "Addressing Delayed Feedback for Continuous Training with Neural Networks in CTR prediction.",
-        "year": "2019",
-        "volume": "abs/1907.06558",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.06558",
-        "url": "db/journals/corr/corr1907.html#abs-1907-06558",
-        "authors": [
-          "Sofia Ira Ktena",
-          "Alykhan Tejani",
-          "Lucas Theis",
-          "Pranay Kumar Myana",
-          "Deepak Dilipkumar",
-          "Ferenc Huszar",
-          "Steven Yoo",
-          "Wenzhe Shi"
-        ]
+        "inproceedings": {
+          "@key": "conf/recsys/ZhangLXKTGMDPIU20",
+          "title": "Model Size Reduction Using Frequency Based Double Hashing for Recommender Systems",
+          "booktitle": "RecSys",
+          "year": "2020",
+          "pages": "521-526",
+          "ee": "https://doi.org/10.1145/3383313.3412227",
+          "author": [
+            {
+              "#text": "Akshay Gupta",
+              "@pid": "29/2562"
+            },
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Caojin Zhang",
+              "@pid": "208/4222"
+            },
+            {
+              "#text": "Deepak Dilipkumar",
+              "@pid": "211/7179"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Ikuhiro Ihara",
+              "@pid": "271/4684"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Prasang Upadhyaya",
+              "@pid": "54/1412"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Suvadip Paul",
+              "@pid": "260/2833"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Yicun Liu",
+              "@pid": "220/3401"
+            },
+            {
+              "#text": "Yuanpu Xie",
+              "@pid": "165/8025"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2007-14523",
-        "title": "Model Size Reduction Using Frequency Based Double Hashing for Recommender Systems.",
-        "year": "2020",
-        "volume": "abs/2007.14523",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2007.14523",
-        "url": "db/journals/corr/corr2007.html#abs-2007-14523",
-        "authors": [
-          "Caojin Zhang",
-          "Yicun Liu",
-          "Yuanpu Xie",
-          "Sofia Ira Ktena",
-          "Alykhan Tejani",
-          "Akshay Gupta",
-          "Pranay Kumar Myana",
-          "Deepak Dilipkumar",
-          "Suvadip Paul",
-          "Ikuhiro Ihara",
-          "Prasang Upadhyaya",
-          "Ferenc Huszar",
-          "Wenzhe Shi"
-        ]
+        "inproceedings": {
+          "@key": "conf/uai/HuszarD12",
+          "title": "Optimally-Weighted Herding is Bayesian Quadrature",
+          "booktitle": "UAI",
+          "year": "2012",
+          "pages": "377-386",
+          "author": [
+            {
+              "#text": "David Duvenaud",
+              "@pid": "86/9380"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/ShiCTHALW16",
-        "title": "Is the deconvolution layer the same as a convolutional layer?",
-        "year": "2016",
-        "volume": "abs/1609.07009",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1609.07009",
-        "url": "db/journals/corr/corr1609.html#ShiCTHALW16",
-        "authors": [
-          "Wenzhe Shi",
-          "Jose Caballero",
-          "Lucas Theis",
-          "Ferenc Huszar",
-          "Andrew P. Aitken",
-          "Christian Ledig",
-          "Zehan Wang"
-        ]
+        "inproceedings": {
+          "@key": "conf/wacv/Lee0VHHL24",
+          "title": "Meta-Learned Kernel For Blind Super-Resolution Kernel Estimation",
+          "booktitle": "WACV",
+          "year": "2024",
+          "pages": "1485-1494",
+          "ee": "https://doi.org/10.1109/WACV57701.2024.00152",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Rui Li",
+              "@pid": "96/4282-52"
+            },
+            {
+              "#text": "Stylianos I. Venieris",
+              "@pid": "169/2322"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2008-00727",
-        "title": "Deep Bayesian Bandits: Exploring in Online Personalized Recommendations.",
-        "year": "2020",
-        "volume": "abs/2008.00727",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2008.00727",
-        "url": "db/journals/corr/corr2008.html#abs-2008-00727",
-        "authors": [
-          "Dalin Guo",
-          "Sofia Ira Ktena",
-          "Ferenc Huszar",
-          "Pranay Kumar Myana",
-          "Wenzhe Shi",
-          "Alykhan Tejani"
-        ]
+        "informal": {
+          "@key": "data/10/ReizingerSBSHB22",
+          "title": "nl-causal-representations",
+          "journal": "",
+          "year": "2022",
+          "ee": "https://doi.org/10.5281/ZENODO.7002143",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Matthias Bethge",
+              "@pid": "77/3005"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            },
+            {
+              "#text": "Yash Sharma",
+              "@pid": "121/9967-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/Huszar15",
-        "title": "How (not) to Train your Generative Model: Scheduled Sampling, Likelihood, Adversary?",
-        "year": "2015",
-        "volume": "abs/1511.05101",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1511.05101",
-        "url": "db/journals/corr/corr1511.html#Huszar15",
-        "authors": [
-          "Ferenc Huszar"
-        ]
+        "informal": {
+          "@key": "data/10/ReizingerSBSHB23",
+          "title": "nl-causal-representations",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.5281/ZENODO.7807654",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Matthias Bethge",
+              "@pid": "77/3005"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            },
+            {
+              "#text": "Yash Sharma",
+              "@pid": "121/9967-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1112-5745",
+          "title": "Bayesian Active Learning for Classification and Preference Learning",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1112.5745",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Máté Lengyel",
+              "@pid": "48/6327"
+            },
+            {
+              "#text": "Neil Houlsby",
+              "@pid": "91/10669"
+            },
+            {
+              "#text": "Zoubin Ghahramani",
+              "@pid": "g/ZoubinGhahramani"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-03847",
+          "title": "On Quadratic Penalties in Elastic Weight Consolidation",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.03847",
+          "author": {
+            "#text": "Ferenc Huszar",
+            "@pid": "78/10549"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1801-05787",
+          "title": "Faster gaze prediction with dense networks and Fisher pruning",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1801.05787",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Iryna Korshunova",
+              "@pid": "190/7250"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1907-06558",
+          "title": "Addressing Delayed Feedback for Continuous Training with Neural Networks in CTR prediction",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.06558",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Deepak Dilipkumar",
+              "@pid": "211/7179"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Steven Yoo",
+              "@pid": "245/0285"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-14523",
+          "title": "Model Size Reduction Using Frequency Based Double Hashing for Recommender Systems",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.14523",
+          "author": [
+            {
+              "#text": "Akshay Gupta",
+              "@pid": "29/2562"
+            },
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Caojin Zhang",
+              "@pid": "208/4222"
+            },
+            {
+              "#text": "Deepak Dilipkumar",
+              "@pid": "211/7179"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Ikuhiro Ihara",
+              "@pid": "271/4684"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Prasang Upadhyaya",
+              "@pid": "54/1412"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Suvadip Paul",
+              "@pid": "260/2833"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Yicun Liu",
+              "@pid": "220/3401"
+            },
+            {
+              "#text": "Yuanpu Xie",
+              "@pid": "165/8025"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2008-00727",
+          "title": "Deep Bayesian Bandits: Exploring in Online Personalized Recommendations",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2008.00727",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Dalin Guo",
+              "@pid": "231/7681"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Pranay Kumar Myana",
+              "@pid": "244/9656"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-05380",
+          "title": "Efficient Wasserstein Natural Gradients for Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.05380",
+          "author": [
+            {
+              "#text": "Arthur Gretton",
+              "@pid": "56/2574"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Michael Arbel",
+              "@pid": "200/8609"
+            },
+            {
+              "#text": "Ted Moskovitz",
+              "@pid": "259/3088"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-11010",
+          "title": "Algorithmic Amplification of Politics on Twitter",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.11010",
+          "author": [
+            {
+              "#text": "Andrew Schlaikjer",
+              "@pid": "304/7589"
+            },
+            {
+              "#text": "Conor O'Brien",
+              "@pid": "06/10260"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Luca Belli",
+              "@pid": "124/0068"
+            },
+            {
+              "#text": "Moritz Hardt",
+              "@pid": "26/4683"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2111-11542",
+          "title": "Depth Without the Magic: Inductive Bias of Natural Gradient Descent",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.11542",
+          "author": [
+            {
+              "#text": "Anna Böhm",
+              "@pid": "187/2127"
+            },
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-01615",
+          "title": "Measuring Disparate Outcomes of Content Recommendation Algorithms with Distributional Inequality Metrics",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.01615",
+          "author": [
+            {
+              "#text": "Aaron Gonzales",
+              "@pid": "223/2554"
+            },
+            {
+              "#text": "Amanda Bower",
+              "@pid": "165/1718"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Kristian Lum",
+              "@pid": "127/7638"
+            },
+            {
+              "#text": "Luca Belli",
+              "@pid": "124/0068"
+            },
+            {
+              "#text": "Rumman Chowdhury",
+              "@pid": "249/2341"
+            },
+            {
+              "#text": "Tomo Lazovich",
+              "@pid": "217/1675"
+            },
+            {
+              "#text": "Uthaipon Tao Tantipongpipat",
+              "@pid": "215/5265"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2203-15756",
+          "title": "Causal de Finetti: On the Identification of Invariant Causal Structure in Exchangeable Data",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2203.15756",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            },
+            {
+              "#text": "Viktor Tóth",
+              "@pid": "244/9826"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-10452",
+          "title": "Rethinking Sharpness-Aware Minimization as Variational Inference",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.10452",
+          "author": [
+            {
+              "#text": "Anna Böhm",
+              "@pid": "187/2127"
+            },
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Szilvia Ujváry",
+              "@pid": "331/6108"
+            },
+            {
+              "#text": "Zsigmond Telek",
+              "@pid": "331/6018"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2212-07886",
+          "title": "Meta-Learned Kernel For Blind Super-Resolution Kernel Estimation",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2212.07886",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Rui Li",
+              "@pid": "96/4282-52"
+            },
+            {
+              "#text": "Stylianos I. Venieris",
+              "@pid": "169/2322"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-02420",
+          "title": "FedL2P: Federated Learning to Personalize",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.02420",
+          "author": [
+            {
+              "#text": "Da Li",
+              "@pid": "43/4804-1"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Minyoung Kim",
+              "@pid": "34/5733-1"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            },
+            {
+              "#text": "Xinchi Qiu",
+              "@pid": "265/6559"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-01964",
+          "title": "Understanding LLMs Requires More Than Statistical Generalization",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.01964",
+          "author": [
+            {
+              "#text": "Anna Böhm",
+              "@pid": "187/2127"
+            },
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Szilvia Ujváry",
+              "@pid": "331/6108"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-14791",
+          "title": "Recurrent Early Exits for Federated Learning with Heterogeneous Clients",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.14791",
+          "author": [
+            {
+              "#text": "Da Li",
+              "@pid": "43/4804-1"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Javier Fernández-Marqués",
+              "@pid": "171/7908"
+            },
+            {
+              "#text": "Lukasz Dudziak",
+              "@pid": "228/7987"
+            },
+            {
+              "#text": "Nicholas D. Lane",
+              "@pid": "03/2663"
+            },
+            {
+              "#text": "Royson Lee",
+              "@pid": "247/5940"
+            },
+            {
+              "#text": "Shell Xu Hu",
+              "@pid": "239/4857"
+            },
+            {
+              "#text": "Stefanos Laskaridis",
+              "@pid": "241/6273"
+            },
+            {
+              "#text": "Timothy M. Hospedales",
+              "@pid": "32/3545"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-15485",
+          "title": "Learning Beyond Pattern Matching? Assaying Mathematical Understanding in LLMs",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.15485",
+          "author": [
+            {
+              "#text": "Aniket Didolkar",
+              "@pid": "245/8589"
+            },
+            {
+              "#text": "Anirudh Goyal",
+              "@pid": "172/1039"
+            },
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Nan Rosemary Ke",
+              "@pid": "120/5291"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-18836",
+          "title": "Do Finetti: On Causal Effects for Exchangeable Data",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.18836",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Chi Zhang",
+              "@pid": "91/195"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Karthika Mohan",
+              "@pid": "92/8278"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-14302",
+          "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.14302",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Siyuan Guo",
+              "@pid": "244/5858-3"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-13728",
+          "title": "Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.13728",
+          "author": [
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Szilvia Ujváry",
+              "@pid": "331/6108"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2411-00666",
+          "title": "Beyond the Boundaries of Proximal Policy Optimization",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2411.00666",
+          "author": [
+            {
+              "#text": "Benjamin Ellis",
+              "@pid": "150/5880"
+            },
+            {
+              "#text": "Charlie B. Tan",
+              "@pid": "392/4317"
+            },
+            {
+              "#text": "Edan Toledo",
+              "@pid": "305/9859"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Jakob N. Foerster",
+              "@pid": "176/5095"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-12914",
+          "title": "In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.12914",
+          "author": [
+            {
+              "#text": "Alessandro Abate",
+              "@pid": "19/3904"
+            },
+            {
+              "#text": "Ani Calinescu",
+              "@pid": "77/2207"
+            },
+            {
+              "#text": "Anka Reuel",
+              "@pid": "341/1372"
+            },
+            {
+              "#text": "Ben Bucknall",
+              "@pid": "361/0440"
+            },
+            {
+              "#text": "Ben Harack",
+              "@pid": "355/5953"
+            },
+            {
+              "#text": "Casey Mahoney",
+              "@pid": "405/4386"
+            },
+            {
+              "#text": "Charbel-Raphaël Ségerie",
+              "@pid": "301/9367"
+            },
+            {
+              "#text": "Conor McGurk",
+              "@pid": "405/4802"
+            },
+            {
+              "#text": "Fazl Barez",
+              "@pid": "308/2550"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Gabriel Davis Jones",
+              "@pid": "165/4433"
+            },
+            {
+              "#text": "Lara Thurnherr",
+              "@pid": "401/8274"
+            },
+            {
+              "#text": "Michael K. Cohen",
+              "@pid": "237/9460"
+            },
+            {
+              "#text": "Oscar Delaney",
+              "@pid": "382/6518"
+            },
+            {
+              "#text": "Patricia Paskov",
+              "@pid": "392/9292"
+            },
+            {
+              "#text": "Philip Torr",
+              "@pid": "t/PhilipHSTorr"
+            },
+            {
+              "#text": "Robert Trager",
+              "@pid": "351/0644"
+            },
+            {
+              "#text": "Saad Siddiqui",
+              "@pid": "405/4855"
+            },
+            {
+              "#text": "Scott Singer",
+              "@pid": "171/4302"
+            },
+            {
+              "#text": "Sören Mindermann",
+              "@pid": "211/7976"
+            },
+            {
+              "#text": "Vinay Hiremath",
+              "@pid": "405/4432"
+            },
+            {
+              "#text": "Yoshua Bengio",
+              "@pid": "56/953"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-20783",
+          "title": "Out-of-distribution Tests Reveal Compositionality in Chess Transformers",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.20783",
+          "author": [
+            {
+              "#text": "Anna Mészáros",
+              "@pid": "287/4492"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Huszar15",
+          "title": "How (not) to Train your Generative Model: Scheduled Sampling, Likelihood, Adversary?",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.05101",
+          "author": {
+            "#text": "Ferenc Huszar",
+            "@pid": "78/10549"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Huszar17",
+          "title": "Variational Inference using Implicit Distributions",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1702.08235",
+          "author": {
+            "#text": "Ferenc Huszar",
+            "@pid": "78/10549"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LedigTHCATTWS16",
+          "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.04802",
+          "author": [
+            {
+              "#text": "Alykhan Tejani",
+              "@pid": "150/4263"
+            },
+            {
+              "#text": "Andrew P. Aitken",
+              "@pid": "186/8194"
+            },
+            {
+              "#text": "Christian Ledig",
+              "@pid": "117/0353"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Johannes Totz",
+              "@pid": "11/10171"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Zehan Wang",
+              "@pid": "126/7826"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ShiCHTABRW16",
+          "title": "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.05158",
+          "author": [
+            {
+              "#text": "Andrew P. Aitken",
+              "@pid": "186/8194"
+            },
+            {
+              "#text": "Daniel Rueckert",
+              "@pid": "69/2478"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Johannes Totz",
+              "@pid": "11/10171"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Rob Bishop",
+              "@pid": "186/7861"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Zehan Wang",
+              "@pid": "126/7826"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ShiCTHALW16",
+          "title": "Is the deconvolution layer the same as a convolutional layer?",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.07009",
+          "author": [
+            {
+              "#text": "Andrew P. Aitken",
+              "@pid": "186/8194"
+            },
+            {
+              "#text": "Christian Ledig",
+              "@pid": "117/0353"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            },
+            {
+              "#text": "Zehan Wang",
+              "@pid": "126/7826"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/SonderbyCTSH16",
+          "title": "Amortised MAP Inference for Image Super-resolution",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1610.04490",
+          "author": [
+            {
+              "#text": "Casper Kaae Sønderby",
+              "@pid": "160/8787"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Jose Caballero",
+              "@pid": "118/9828"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/TheisSCH17",
+          "title": "Lossy Image Compression with Compressive Autoencoders",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.00395",
+          "author": [
+            {
+              "#text": "Andrew Cunningham",
+              "@pid": "34/2068"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Lucas Theis",
+              "@pid": "28/8772"
+            },
+            {
+              "#text": "Wenzhe Shi",
+              "@pid": "46/8487"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/jmlr/Lacoste-JulienHG11",
+          "title": "Approximate inference for the loss-calibrated Bayesian",
+          "booktitle": "AISTATS",
+          "year": "2011",
+          "pages": "416-424",
+          "author": [
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Simon Lacoste-Julien",
+              "@pid": "94/446"
+            },
+            {
+              "#text": "Zoubin Ghahramani",
+              "@pid": "g/ZoubinGhahramani"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/patterns/LazovichBGBTLHC22",
+          "title": "Measuring disparate outcomes of content recommendation algorithms with distributional inequality metrics",
+          "journal": "Patterns",
+          "year": "2022",
+          "pages": "100568",
+          "ee": "https://doi.org/10.1016/J.PATTER.2022.100568",
+          "author": [
+            {
+              "#text": "Aaron Gonzales",
+              "@pid": "223/2554"
+            },
+            {
+              "#text": "Amanda Bower",
+              "@pid": "165/1718"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Kristian Lum",
+              "@pid": "127/7638"
+            },
+            {
+              "#text": "Luca Belli",
+              "@pid": "124/0068"
+            },
+            {
+              "#text": "Rumman Chowdhury",
+              "@pid": "249/2341"
+            },
+            {
+              "#text": "Tomo Lazovich",
+              "@pid": "217/1675"
+            },
+            {
+              "#text": "Uthaipon Tao Tantipongpipat",
+              "@pid": "215/5265"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/patterns/LazovichBGBTLHC23",
+          "title": "Measuring disparate outcomes of content recommendation algorithms with distributional inequality metrics",
+          "journal": "Patterns",
+          "year": "2023",
+          "pages": "100822",
+          "ee": "https://doi.org/10.1016/J.PATTER.2023.100822",
+          "author": [
+            {
+              "#text": "Aaron Gonzales",
+              "@pid": "223/2554"
+            },
+            {
+              "#text": "Amanda Bower",
+              "@pid": "165/1718"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Kristian Lum",
+              "@pid": "127/7638"
+            },
+            {
+              "#text": "Luca Belli",
+              "@pid": "124/0068"
+            },
+            {
+              "#text": "Rumman Chowdhury",
+              "@pid": "249/2341"
+            },
+            {
+              "#text": "Tomo Lazovich",
+              "@pid": "217/1675"
+            },
+            {
+              "#text": "Uthaipon Tao Tantipongpipat",
+              "@pid": "215/5265"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pnas/HuszarKOBSH22",
+          "title": "Algorithmic amplification of politics on Twitter",
+          "journal": "Proc. Natl. Acad. Sci. USA",
+          "year": "2022",
+          "pages": "e2025334119",
+          "ee": "https://doi.org/10.1073/PNAS.2025334119",
+          "author": [
+            {
+              "#text": "Andrew Schlaikjer",
+              "@pid": "304/7589"
+            },
+            {
+              "#text": "Conor O'Brien",
+              "@pid": "06/10260"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Luca Belli",
+              "@pid": "124/0068"
+            },
+            {
+              "#text": "Moritz Hardt",
+              "@pid": "26/4683"
+            },
+            {
+              "#text": "Sofia Ira Ktena",
+              "@pid": "190/7605"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmlr/ReizingerSBSHB23",
+          "title": "Jacobian-based Causal Discovery with Nonlinear ICA",
+          "journal": "Trans. Mach. Learn. Res.",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Bernhard Schölkopf",
+              "@pid": "97/119"
+            },
+            {
+              "#text": "Ferenc Huszar",
+              "@pid": "78/10549"
+            },
+            {
+              "#text": "Matthias Bethge",
+              "@pid": "77/3005"
+            },
+            {
+              "#text": "Patrik Reizinger",
+              "@pid": "249/5412"
+            },
+            {
+              "#text": "Wieland Brendel",
+              "@pid": "37/11107"
+            },
+            {
+              "#text": "Yash Sharma",
+              "@pid": "121/9967-1"
+            }
+          ]
+        }
       }
     ]
   }

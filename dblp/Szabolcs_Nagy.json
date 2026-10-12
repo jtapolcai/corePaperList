@@ -1,137 +1,244 @@
 {
   "dblpperson": {
+    "@name": "Szabolcs Nagy",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/0002GNB09",
-        "title": "Control-oriented Qlpv modeling using TP Transformation.",
-        "pages": "2640-2645",
-        "year": "2009",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2009.7074804",
-        "url": "db/conf/eucc/eucc2009.html#0002GNB09",
-        "authors": [
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "PÃ©ter GÃ¡spÃ¡r",
-          "Szabolcs Nagy",
-          "PÃ©ter Baranyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/0002GNB09",
+          "title": "Control-oriented Qlpv modeling using TP Transformation",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "2640-2645",
+          "ee": "https://doi.org/10.23919/ECC.2009.7074804",
+          "author": [
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/giots/BeliatisMNAP18",
-        "title": "Digital waste management using LoRa network a business case from lab to fab.",
-        "pages": "1-6",
-        "year": "2018",
-        "booktitle": "GIoTS",
-        "ee": "https://doi.org/10.1109/GIOTS.2018.8534562",
-        "url": "db/conf/giots/giots2018.html#BeliatisMNAP18",
-        "authors": [
-          "Michail J. Beliatis",
-          "Hussam Mansour",
-          "Szabolcs Nagy",
-          "Annabeth Aagaard",
-          "Mirko Presser"
-        ]
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/NagyPB08",
+          "title": "TP model transformation based controller design for the parallel-type double inverted pendulum",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2008",
+          "pages": "1374-1380",
+          "ee": "https://doi.org/10.1109/FUZZY.2008.4630551",
+          "author": [
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Zoltán Petres",
+              "@pid": "38/1185"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/saci/Nagy09",
-        "title": "Exact reconstruction of HOSVD based TP models from sampled data.",
-        "pages": "67-70",
-        "year": "2009",
-        "booktitle": "SACI",
-        "ee": "https://doi.org/10.1109/SACI.2009.5136214",
-        "url": "db/conf/saci/saci2009.html#Nagy09",
-        "authors": [
-          "Szabolcs Nagy"
-        ]
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/PetresNGB08",
+          "title": "H℞ gain-scheduling based control of the heavy vehicle model, a TP model transformation based control",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2008",
+          "pages": "1542-1547",
+          "ee": "https://doi.org/10.1109/FUZZY.2008.4630577",
+          "author": [
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Zoltán Petres",
+              "@pid": "38/1185"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/AagaardPBMN18",
-        "title": "A Tool for Internet of Things Digital Business Model Innovation.",
-        "pages": "1-6",
-        "year": "2018",
-        "booktitle": "GLOBECOM Workshops",
-        "ee": "https://doi.org/10.1109/GLOCOMW.2018.8644517",
-        "url": "db/conf/globecom/globecom2018w.html#AagaardPBMN18",
-        "authors": [
-          "Annabeth Aagaard",
-          "Mirko Presser",
-          "Michail J. Beliatis",
-          "Hussam Mansour",
-          "Szabolcs Nagy"
-        ]
+        "inproceedings": {
+          "@key": "conf/giots/BeliatisMNAP18",
+          "title": "Digital waste management using LoRa network a business case from lab to fab",
+          "booktitle": "GIoTS",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GIOTS.2018.8534562",
+          "author": [
+            {
+              "#text": "Annabeth Aagaard",
+              "@pid": "144/3363"
+            },
+            {
+              "#text": "Hussam Mansour",
+              "@pid": "218/9700"
+            },
+            {
+              "#text": "Michail J. Beliatis",
+              "@pid": "230/1332"
+            },
+            {
+              "#text": "Mirko Presser",
+              "@pid": "74/3906"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/most/RovidTCCDRVSSNS24",
-        "title": "Digital Twin and Cloud Based Remote Control of Vehicles.",
-        "pages": "154-167",
-        "year": "2024",
-        "booktitle": "MOST",
-        "ee": "https://doi.org/10.1109/MOST60774.2024.00024",
-        "url": "db/conf/most/most2024.html#RovidTCCDRVSSNS24",
-        "authors": [
-          "AndrÃ¡s RÃ¶vid",
-          "Viktor Tihanyi",
-          "MÃ¡rton Cserni",
-          "MihÃ¡ly CsonthÃ³",
-          "ÃdÃ¡m Domina",
-          "Viktor Remeli",
-          "Zsolt Vincze",
-          "MÃ¡tyÃ¡s SzÃ¡ntÃ³",
-          "MÃ¡tyÃ¡s Szalai",
-          "Szabolcs Nagy",
-          "Zsolt Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/AagaardPBMN18",
+          "title": "A Tool for Internet of Things Digital Business Model Innovation",
+          "booktitle": "GLOBECOM Workshops",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GLOCOMW.2018.8644517",
+          "author": [
+            {
+              "#text": "Annabeth Aagaard",
+              "@pid": "144/3363"
+            },
+            {
+              "#text": "Hussam Mansour",
+              "@pid": "218/9700"
+            },
+            {
+              "#text": "Michail J. Beliatis",
+              "@pid": "230/1332"
+            },
+            {
+              "#text": "Mirko Presser",
+              "@pid": "74/3906"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/PetresNGB08",
-        "title": "H℞ gain-scheduling based control of the heavy vehicle model, a TP model transformation based control.",
-        "pages": "1542-1547",
-        "year": "2008",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2008.4630577",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2008.html#PetresNGB08",
-        "authors": [
-          "ZoltÃ¡n Petres",
-          "Szabolcs Nagy",
-          "Peter Gaspar",
-          "PÃ©ter Baranyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/most/RovidTCCDRVSSNS24",
+          "title": "Digital Twin and Cloud Based Remote Control of Vehicles",
+          "booktitle": "MOST",
+          "year": "2024",
+          "pages": "154-167",
+          "ee": "https://doi.org/10.1109/MOST60774.2024.00024",
+          "author": [
+            {
+              "#text": "Ádám Domina",
+              "@pid": "248/3062"
+            },
+            {
+              "#text": "András Rövid",
+              "@pid": "84/1634"
+            },
+            {
+              "#text": "Márton Cserni",
+              "@pid": "383/3077"
+            },
+            {
+              "#text": "Mátyás Szalai",
+              "@pid": "229/7818"
+            },
+            {
+              "#text": "Mátyás Szántó",
+              "@pid": "322/4118"
+            },
+            {
+              "#text": "Mihály Csonthó",
+              "@pid": "289/1578"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Viktor Remeli",
+              "@pid": "287/5486"
+            },
+            {
+              "#text": "Viktor Tihanyi",
+              "@pid": "229/7841"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            },
+            {
+              "#text": "Zsolt Vincze",
+              "@pid": "289/1925"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/NagyPB08",
-        "title": "TP model transformation based controller design for the parallel-type double inverted pendulum.",
-        "pages": "1374-1380",
-        "year": "2008",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2008.4630551",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2008.html#NagyPB08",
-        "authors": [
-          "Szabolcs Nagy",
-          "ZoltÃ¡n Petres",
-          "PÃ©ter Baranyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/saci/Nagy09",
+          "title": "Exact reconstruction of HOSVD based TP models from sampled data",
+          "booktitle": "SACI",
+          "year": "2009",
+          "pages": "67-70",
+          "ee": "https://doi.org/10.1109/SACI.2009.5136214",
+          "author": {
+            "#text": "Szabolcs Nagy",
+            "@pid": "43/7854"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wf-iot/NagyMP18",
-        "title": "Case study of IoT as a driver for business model innovation in the wind industry.",
-        "pages": "74-79",
-        "year": "2018",
-        "booktitle": "WF-IoT",
-        "ee": "https://doi.org/10.1109/WF-IoT.2018.8355222",
-        "url": "db/conf/wf-iot/wf-iot2018.html#NagyMP18",
-        "authors": [
-          "Szabolcs Nagy",
-          "Hussam Mansour",
-          "Mirko Presser"
-        ]
+        "inproceedings": {
+          "@key": "conf/wf-iot/NagyMP18",
+          "title": "Case study of IoT as a driver for business model innovation in the wind industry",
+          "booktitle": "WF-IoT",
+          "year": "2018",
+          "pages": "74-79",
+          "ee": "https://doi.org/10.1109/WF-IOT.2018.8355222",
+          "author": [
+            {
+              "#text": "Hussam Mansour",
+              "@pid": "218/9700"
+            },
+            {
+              "#text": "Mirko Presser",
+              "@pid": "74/3906"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            }
+          ]
+        }
       }
     ]
   }

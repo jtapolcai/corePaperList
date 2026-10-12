@@ -1,165 +1,798 @@
 {
   "dblpperson": {
+    "@name": "Daniel Fenyes",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/FenyesNG18",
-        "title": "Analysis of autonomous vehicle dynamics based on the big data approach.",
-        "pages": "219-224",
-        "year": "2018",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2018.8550426",
-        "url": "db/conf/eucc/eucc2018.html#FenyesNG18",
-        "authors": [
-          "Daniel Fenyes",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
+        "inproceedings": {
+          "@key": "conf/aimech/NemethFGM17",
+          "title": "Analysis and robust control design of a steering system for autonomous vehicles",
+          "booktitle": "AIM",
+          "year": "2017",
+          "pages": "535-540",
+          "ee": "https://doi.org/10.1109/AIM.2017.8014072",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/NemethFGB16",
-        "title": "Trajectory tracking based on independently controlled variable-geometry suspension for in-wheel electric vehicles.",
-        "pages": "1570-1575",
-        "year": "2016",
-        "booktitle": "CDC",
-        "ee": "https://doi.org/10.1109/CDC.2016.7798489",
-        "url": "db/conf/cdc/cdc2016.html#NemethFGB16",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "PÃ©ter GÃ¡spÃ¡r",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/FenyesNG20",
+          "title": "LPV-based autonomous vehicle control using the results of big data analysis on lateral dynamics",
+          "booktitle": "ACC",
+          "year": "2020",
+          "pages": "2250-2255",
+          "ee": "https://doi.org/10.23919/ACC45564.2020.9147548",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/NemethGFB17",
-        "title": "Robust control design for the integration of steering and torque vectoring using a variable-geometry suspension system.",
-        "pages": "291-296",
-        "year": "2017",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.23919/ACC.2017.7962968",
-        "url": "db/conf/amcc/acc2017.html#NemethGFB17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "PÃ©ter GÃ¡spÃ¡r",
-          "Daniel Fenyes",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/HegedusFNG20",
+          "title": "Handling of tire pressure variation in autonomous vehicles: an integrated estimation and control design approach",
+          "booktitle": "ACC",
+          "year": "2020",
+          "pages": "2244-2249",
+          "ee": "https://doi.org/10.23919/ACC45564.2020.9147472",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icinco/FenyesNG18",
-        "title": "A Novel Big-data-based Estimation Method of Side-slip Angles for Autonomous Road Vehicles.",
-        "pages": "430-436",
-        "year": "2018",
-        "booktitle": "ICINCO (1)",
-        "ee": "https://doi.org/10.5220/0006849504300436",
-        "url": "db/conf/icinco/icinco2018-1.html#FenyesNG18",
-        "authors": [
-          "Daniel Fenyes",
-          "BalÃ¡zs NÃ©meth 0001",
-          "PÃ©ter GÃ¡spÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/HegedusFNSG22",
+          "title": "Design of Model Free Control with tuning method on ultra-local model for lateral vehicle control purposes",
+          "booktitle": "ACC",
+          "year": "2022",
+          "pages": "4101-4106",
+          "ee": "https://doi.org/10.23919/ACC53348.2022.9867837",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icinco/HegedusFTG23",
-        "title": "Lateral Control for Automated Vehicles Based on Model Predictive Control and Error-Based Ultra-Local Model.",
-        "pages": "142-149",
-        "year": "2023",
-        "booktitle": "ICINCO (2)",
-        "ee": "https://doi.org/10.5220/0012184500003543",
-        "url": "db/conf/icinco/icinco2023-2.html#HegedusFTG23",
-        "authors": [
-          "TamÃ¡s HegedÃ¼s",
-          "Daniel Fenyes",
-          "Vu Van Tan",
-          "Peter Gaspar"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/NemethGFB17",
+          "title": "Robust control design for the integration of steering and torque vectoring using a variable-geometry suspension system",
+          "booktitle": "ACC",
+          "year": "2017",
+          "pages": "291-296",
+          "ee": "https://doi.org/10.23919/ACC.2017.7962968",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icinco/FenyesHTG23",
-        "title": "An Observer Design Method Using Ultra-Local Model for Autonomous Vehicles.",
-        "pages": "41-49",
-        "year": "2023",
-        "booktitle": "ICINCO (2)",
-        "ee": "https://doi.org/10.5220/0012184300003543",
-        "url": "db/conf/icinco/icinco2023-2.html#FenyesHTG23",
-        "authors": [
-          "Daniel Fenyes",
-          "TamÃ¡s HegedÃ¼s",
-          "Vu Van Tan",
-          "Peter Gaspar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesHG24",
+          "title": "Enhanced LPV-based lateral control using ultra-local model-based slip angle estimation",
+          "booktitle": "CDC",
+          "year": "2024",
+          "pages": "7226-7231",
+          "ee": "https://doi.org/10.1109/CDC56724.2024.10885900",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aimech/NemethFGM17",
-        "title": "Analysis and robust control design of a steering system for autonomous vehicles.",
-        "pages": "535-540",
-        "year": "2017",
-        "booktitle": "AIM",
-        "ee": "https://doi.org/10.1109/AIM.2017.8014072",
-        "url": "db/conf/aimech/aim2017.html#NemethFGM17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "Peter Gaspar",
-          "Andras Mihaly"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesHN0G22",
+          "title": "Combined LPV and ultra-local model-based control design approach for autonomous vehicles",
+          "booktitle": "CDC",
+          "year": "2022",
+          "pages": "3303-3308",
+          "ee": "https://doi.org/10.1109/CDC51059.2022.9992983",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/NemethFGB17",
-        "title": "Control design of an electro-hydraulic actuator for variable-geometry suspension systems.",
-        "pages": "180-185",
-        "year": "2017",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2017.7984115",
-        "url": "db/conf/med/med2017.html#NemethFGB17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesNG21",
+          "title": "Data-driven modeling and control design in a hierarchical structure for a variable-geometry suspension test bed",
+          "booktitle": "CDC",
+          "year": "2021",
+          "pages": "5047-5052",
+          "ee": "https://doi.org/10.1109/CDC45484.2021.9683152",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/FenyesNAG18",
-        "title": "Side-slip Angle Estimation of Autonomous Road Vehicles Based on Big Data Analysis.",
-        "pages": "849-854",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8443010",
-        "url": "db/conf/med/med2018.html#FenyesNAG18",
-        "authors": [
-          "Daniel Fenyes",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Mate Asszonyi",
-          "Peter Gaspar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/NemethFGB16",
+          "title": "Trajectory tracking based on independently controlled variable-geometry suspension for in-wheel electric vehicles",
+          "booktitle": "CDC",
+          "year": "2016",
+          "pages": "1570-1575",
+          "ee": "https://doi.org/10.1109/CDC.2016.7798489",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcst/NemethFGB19",
-        "title": "Coordination of Independent Steering and Torque Vectoring in a Variable-Geometry Suspension System.",
-        "pages": "2209-2220",
-        "year": "2019",
-        "volume": "27",
-        "journal": "IEEE Trans. Control. Syst. Technol.",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q129247850",
-        "url": "db/journals/tcst/tcst27.html#NemethFGB19",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "PÃ©ter GÃ¡spÃ¡r",
-          "JÃ³zsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/codit/FenyesHG25",
+          "title": "Control-Informed Neural Network for Controller Selection",
+          "booktitle": "CoDIT",
+          "year": "2025",
+          "pages": "2322-2327",
+          "ee": "https://doi.org/10.1109/CODIT66093.2025.11321745",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/codit/FenyesHNTG24",
+          "title": "An improved side-slip estimation algorithm based on ultra-local model technique for autonomous vehicles",
+          "booktitle": "CoDIT",
+          "year": "2024",
+          "pages": "1631-1636",
+          "ee": "https://doi.org/10.1109/CODIT62066.2024.10708469",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesHNSG22",
+          "title": "Robust control design using ultra-local model-based approach for vehicle-oriented control problems",
+          "booktitle": "ECC",
+          "year": "2022",
+          "pages": "1746-1751",
+          "ee": "https://doi.org/10.23919/ECC55457.2022.9838107",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG18",
+          "title": "Analysis of autonomous vehicle dynamics based on the big data approach",
+          "booktitle": "ECC",
+          "year": "2018",
+          "pages": "219-224",
+          "ee": "https://doi.org/10.23919/ECC.2018.8550426",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG19",
+          "title": "Impact of big data on the design of MPC control for autonomous vehicles",
+          "booktitle": "ECC",
+          "year": "2019",
+          "pages": "4154-4159",
+          "ee": "https://doi.org/10.23919/ECC.2019.8795804",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG20",
+          "title": "LPV based data-driven modeling and control design for autonomous vehicles",
+          "booktitle": "ECC",
+          "year": "2020",
+          "pages": "1371-1376",
+          "ee": "https://doi.org/10.23919/ECC51009.2020.9143618",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FenyesHTG23",
+          "title": "An Observer Design Method Using Ultra-Local Model for Autonomous Vehicles",
+          "booktitle": "ICINCO (2)",
+          "year": "2023",
+          "pages": "41-49",
+          "ee": "https://doi.org/10.5220/0012184300003543",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FenyesNG18",
+          "title": "A Novel Big-data-based Estimation Method of Side-slip Angles for Autonomous Road Vehicles",
+          "booktitle": "ICINCO (1)",
+          "year": "2018",
+          "pages": "430-436",
+          "ee": "https://doi.org/10.5220/0006849504300436",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/HegedusFTG23",
+          "title": "Lateral Control for Automated Vehicles Based on Model Predictive Control and Error-Based Ultra-Local Model",
+          "booktitle": "ICINCO (2)",
+          "year": "2023",
+          "pages": "142-149",
+          "ee": "https://doi.org/10.5220/0012184500003543",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ivs/FenyesHNG21",
+          "title": "Observer design with performance guarantees for vehicle control purposes via the integration of learning-based and LPV approaches",
+          "booktitle": "IV Workshops",
+          "year": "2021",
+          "pages": "122-127",
+          "ee": "https://doi.org/10.1109/IVWORKSHOPS54471.2021.9669224",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesHN22",
+          "title": "Combined observer design for road vehicles using LPV-based and learning-based methods",
+          "booktitle": "MED",
+          "year": "2022",
+          "pages": "1074-1079",
+          "ee": "https://doi.org/10.1109/MED54222.2022.9837151",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesHNGKS20",
+          "title": "LPV control for autonomous vehicles using a machine learning-based tire pressure estimation",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "212-217",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9183106",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Damien Koenig",
+              "@pid": "39/7138"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesNAG18",
+          "title": "Side-slip Angle Estimation of Autonomous Road Vehicles Based on Big Data Analysis",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "849-854",
+          "ee": "https://doi.org/10.1109/MED.2018.8443010",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Mate Asszonyi",
+              "@pid": "237/2514"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesNG24",
+          "title": "An Improved Lateral Vehicle Control Design Using Ultra-Local Model-Based Slip Estimation",
+          "booktitle": "MED",
+          "year": "2024",
+          "pages": "310-315",
+          "ee": "https://doi.org/10.1109/MED61351.2024.10566193",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/HegedusFNG23",
+          "title": "Cooperation Strategy for Optimal Motion of Aerial and Ground Vehicles",
+          "booktitle": "MED",
+          "year": "2023",
+          "pages": "19-24",
+          "ee": "https://doi.org/10.1109/MED59994.2023.10185727",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethFGB17",
+          "title": "Control design of an electro-hydraulic actuator for variable-geometry suspension systems",
+          "booktitle": "MED",
+          "year": "2017",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.1109/MED.2017.7984115",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/FenyesNGPS19",
+          "title": "Study on a road surface estimation method based on big data analysis",
+          "booktitle": "SACI",
+          "year": "2019",
+          "pages": "57-62",
+          "ee": "https://doi.org/10.1109/SACI46893.2019.9111487",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Daniel Pup",
+              "@pid": "225/8476"
+            },
+            {
+              "#text": "Ferenc Szauter",
+              "@pid": "188/4446"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/FenyesHG25",
+          "title": "Neural Network-Based Controller Combination for Automated Vehicles",
+          "booktitle": "SysTol",
+          "year": "2025",
+          "pages": "234-239",
+          "ee": "https://doi.org/10.1109/SYSTOL66549.2025.11267327",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcon/FenyesNG22",
+          "title": "Design of LPV control for autonomous vehicles using the contributions of big data analysis",
+          "journal": "Int. J. Control",
+          "year": "2022",
+          "pages": "1802-1813",
+          "ee": "https://doi.org/10.1080/00207179.2021.1876922",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/NemethFGB19",
+          "title": "Coordination of Independent Steering and Torque Vectoring in a Variable-Geometry Suspension System",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2019",
+          "pages": "2209-2220",
+          "ee": "https://doi.org/10.1109/TCST.2018.2867369",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       }
     ]
   }

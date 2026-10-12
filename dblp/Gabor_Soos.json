@@ -1,136 +1,843 @@
 {
   "dblpperson": {
+    "@name": "Gabor Soos",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/iecon/HegedusKSV16",
-        "title": "Enhancements of the Arrowhead Framework to refine inter-cloud service interactions.",
-        "pages": "5259-5264",
-        "year": "2016",
-        "booktitle": "IECON",
-        "ee": "https://doi.org/10.1109/IECON.2016.7793757",
-        "url": "db/conf/iecon/iecon2016.html#HegedusKSV16",
-        "authors": [
-          "Csaba HegedÃ¼s",
-          "DÃ¡niel Kozma",
-          "Gabor Soos",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/FiczereSV21",
+          "title": "A compact 5G Non-Public Network",
+          "booktitle": "CNSM",
+          "year": "2021",
+          "pages": "518-520",
+          "ee": "https://doi.org/10.23919/CNSM52442.2021.9615528",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wfcs/VargaPSH17",
-        "title": "Security threats and issues in automation IoT.",
-        "pages": "1-6",
-        "year": "2017",
-        "booktitle": "WFCS",
-        "ee": "https://doi.org/10.1109/WFCS.2017.7991968",
-        "url": "db/conf/wfcs/wfcs2017.html#VargaPSH17",
-        "authors": [
-          "PÃ¡l Varga",
-          "SÃ¡ndor PlÃ³sz",
-          "Gabor Soos",
-          "Csaba HegedÃ¼s"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/KozmaSFV19",
+          "title": "Communication Challenges and Solutions between Heterogeneous Industrial IoT Systems",
+          "booktitle": "CNSM",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/CNSM46954.2019.9012664",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Dániel Kozma",
+              "@pid": "124/1257"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ficloud/SoosKJV18",
-        "title": "IoT Device Lifecycle - A Generic Model and a Use Case for Cellular Mobile Networks.",
-        "pages": "176-183",
-        "year": "2018",
-        "booktitle": "FiCloud",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/FiCloud.2018.00033",
-        "url": "db/conf/ficloud/ficloud2018.html#SoosKJV18",
-        "authors": [
-          "Gabor Soos",
-          "DÃ¡niel Kozma",
-          "Ferenc NÃ¡ndor Janky",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/SoosFV20",
+          "title": "Investigating the network traffic of Industry 4.0 applications - methodology and initial results",
+          "booktitle": "CNSM",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/CNSM50824.2020.9269093",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cnsm/FiczereSV21",
-        "title": "A compact 5G Non-Public Network.",
-        "pages": "518-520",
-        "year": "2021",
-        "booktitle": "CNSM",
-        "ee": "https://doi.org/10.23919/CNSM52442.2021.9615528",
-        "url": "db/conf/cnsm/cnsm2021.html#FiczereSV21",
-        "authors": [
-          "DÃ¡niel Ficzere",
-          "Gabor Soos",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/ficloud/SoosKJV18",
+          "title": "IoT Device Lifecycle - A Generic Model and a Use Case for Cellular Mobile Networks",
+          "booktitle": "FiCloud",
+          "year": "2018",
+          "pages": "176-183",
+          "ee": "https://doi.org/10.1109/FICLOUD.2018.00033",
+          "author": [
+            {
+              "#text": "Dániel Kozma",
+              "@pid": "124/1257"
+            },
+            {
+              "#text": "Ferenc Nándor Janky",
+              "@pid": "226/4622"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccve/ReckenzaunCEEHK22",
-        "title": "Transnational Testing, Operation and Certification of Automated Driving Systems: Perspective from testEPS and Central System EUREKA Projects.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "ICCVE",
-        "ee": "https://doi.org/10.1109/ICCVE52871.2022.9742896",
-        "url": "db/conf/iccve/iccve2022.html#ReckenzaunCEEHK22",
-        "authors": [
-          "Jakob Reckenzaun",
-          "Luca Csanady",
-          "Arno Eichberger",
-          "Alexandre Engelstein",
-          "Leander B. HÃ¶rmann",
-          "TamÃ¡s Kiss",
-          "Patrick Luley",
-          "Matthias RÃ¼ther",
-          "Stefan Schwarz",
-          "Thomas Strasser-Krauss",
-          "Selim Solmaz",
-          "Gabor Soos",
-          "Viktor Tihanyi",
-          "Attila Turoczi",
-          "Patrick Weissensteiner",
-          "Jinwei Zhou"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccve/ReckenzaunCEEHK22",
+          "title": "Transnational Testing, Operation and Certification of Automated Driving Systems: Perspective from testEPS and Central System EUREKA Projects",
+          "booktitle": "ICCVE",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICCVE52871.2022.9742896",
+          "author": [
+            {
+              "#text": "Alexandre Engelstein",
+              "@pid": "318/0367"
+            },
+            {
+              "#text": "Arno Eichberger",
+              "@pid": "183/3628"
+            },
+            {
+              "#text": "Attila Turoczi",
+              "@pid": "318/0787"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Jakob Reckenzaun",
+              "@pid": "250/5304"
+            },
+            {
+              "#text": "Jinwei Zhou",
+              "@pid": "214/5821"
+            },
+            {
+              "#text": "Leander B. Hörmann",
+              "@pid": "65/8359"
+            },
+            {
+              "#text": "Luca Csanady",
+              "@pid": "318/0215"
+            },
+            {
+              "#text": "Matthias Rüther",
+              "@pid": "34/5019"
+            },
+            {
+              "#text": "Patrick Morris Luley",
+              "@pid": "94/1976"
+            },
+            {
+              "#text": "Patrick Weissensteiner",
+              "@pid": "318/0620"
+            },
+            {
+              "#text": "Selim Solmaz",
+              "@pid": "47/6575"
+            },
+            {
+              "#text": "Stefan Schwarz",
+              "@pid": "66/3337"
+            },
+            {
+              "#text": "Tamás Kiss",
+              "@pid": "54/5297"
+            },
+            {
+              "#text": "Thomas Strasser-Krauss",
+              "@pid": "318/0149"
+            },
+            {
+              "#text": "Viktor Tihanyi",
+              "@pid": "229/7841"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/VargaPFBHJSFMT20",
-        "title": "5G support for Industrial IoT Applications - Challenges, Solutions, and Research gaps.",
-        "pages": "828",
-        "year": "2020",
-        "volume": "20",
-        "journal": "Sensors",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q89597369",
-        "url": "db/journals/sensors/sensors20.html#VargaPFBHJSFMT20",
-        "authors": [
-          "PÃ¡l Varga",
-          "JÃ³zsef Peto",
-          "Attila Franko",
-          "David Balla",
-          "DÃ¡vid Haja",
-          "Ferenc NÃ¡ndor Janky",
-          "Gabor Soos",
-          "DÃ¡niel Ficzere",
-          "Markosz Maliosz",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/icphys/OroszVSH19",
+          "title": "QoS Guarantees for Industrial IoT Applications over LTE - a Feasibility Study",
+          "booktitle": "ICPS",
+          "year": "2019",
+          "pages": "667-672",
+          "ee": "https://doi.org/10.1109/ICPHYS.2019.8780308",
+          "author": [
+            {
+              "#text": "Csaba Hegedüs",
+              "@pid": "39/6316"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijnm/SoosFV22",
-        "title": "Analyzing group behavior patterns in a cellular mobile network for 5G use-cases.",
-        "year": "2022",
-        "volume": "32",
-        "journal": "Int. J. Netw. Manag.",
-        "number": "1",
-        "ee": "https://doi.org/10.1002/nem.2157",
-        "url": "db/journals/ijnm/ijnm32.html#SoosFV22",
-        "authors": [
-          "Gabor Soos",
-          "DÃ¡niel Ficzere",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/iecon/HegedusKSV16",
+          "title": "Enhancements of the Arrowhead Framework to refine inter-cloud service interactions",
+          "booktitle": "IECON",
+          "year": "2016",
+          "pages": "5259-5264",
+          "ee": "https://doi.org/10.1109/IECON.2016.7793757",
+          "author": [
+            {
+              "#text": "Csaba Hegedüs",
+              "@pid": "39/6316"
+            },
+            {
+              "#text": "Dániel Kozma",
+              "@pid": "124/1257"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/im/FiczereSVS21",
+          "title": "Real-life V2X Measurement Results for 5G NSA Performance on a High-speed Motorway",
+          "booktitle": "IM",
+          "year": "2021",
+          "pages": "836-841",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/indin/KozmaVS19",
+          "title": "Supporting Digital Production, Product Lifecycle and Supply Chain Management in Industry 4.0 by the Arrowhead Framework - a Survey",
+          "booktitle": "INDIN",
+          "year": "2019",
+          "pages": "126-131",
+          "ee": "https://doi.org/10.1109/INDIN41052.2019.8972216",
+          "author": [
+            {
+              "#text": "Dániel Kozma",
+              "@pid": "124/1257"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/indin/SoosV19",
+          "title": "On the Security Threat of Abandoned and Zombie Cellular IoT Devices",
+          "booktitle": "INDIN",
+          "year": "2019",
+          "pages": "996-1001",
+          "ee": "https://doi.org/10.1109/INDIN41052.2019.8972107",
+          "author": [
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/FiczerePSASV22",
+          "title": "5G public network integration for a real-life PROFINET application",
+          "booktitle": "NOMS",
+          "year": "2022",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/NOMS54207.2022.9789789",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Dhruvin Patel",
+              "@pid": "246/0443"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Joachim Sachs",
+              "@pid": "21/93"
+            },
+            {
+              "#text": "Junaid Ansari",
+              "@pid": "44/2834"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/SoosFV20",
+          "title": "User Group Behavioural Pattern in a Cellular Mobile Network for 5G Use-cases",
+          "booktitle": "NOMS",
+          "year": "2020",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/NOMS47738.2020.9110427",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/SoosFVS20",
+          "title": "Practical 5G KPI Measurement Results on a Non-Standalone Architecture",
+          "booktitle": "NOMS",
+          "year": "2020",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/NOMS47738.2020.9110457",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsp/SoosFV20",
+          "title": "The Pursuit of NB-IoT Transmission Rate Limitations by Real-life Network Measurements",
+          "booktitle": "TSP",
+          "year": "2020",
+          "pages": "430-434",
+          "ee": "https://doi.org/10.1109/TSP49548.2020.9163540",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsp/SoosJV19",
+          "title": "Distinguishing 5G IoT Use-Cases through Analyzing Signaling Traffic Characteristics",
+          "booktitle": "TSP",
+          "year": "2019",
+          "pages": "562-565",
+          "ee": "https://doi.org/10.1109/TSP.2019.8769045",
+          "author": [
+            {
+              "#text": "Ferenc Nándor Janky",
+              "@pid": "226/4622"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wfcs/VargaPSH17",
+          "title": "Security threats and issues in automation IoT",
+          "booktitle": "WFCS",
+          "year": "2017",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/WFCS.2017.7991968",
+          "author": [
+            {
+              "#text": "Csaba Hegedüs",
+              "@pid": "39/6316"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Sándor Plósz",
+              "@pid": "47/7257"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-07696",
+          "title": "A Communication-Latency-Aware Co-Simulation Platform for Safety and Comfort Evaluation of Cloud-Controlled ICVs",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.07696",
+          "author": [
+            {
+              "#text": "Ádám Boronyák",
+              "@pid": "409/9298"
+            },
+            {
+              "#text": "András Rövid",
+              "@pid": "84/1634"
+            },
+            {
+              "#text": "Arno Eichberger",
+              "@pid": "183/3628"
+            },
+            {
+              "#text": "Erik Reichmann-Blaga",
+              "@pid": "409/9194"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Jia Hu",
+              "@pid": "88/1307-3"
+            },
+            {
+              "#text": "Lu Xiong",
+              "@pid": "15/8081-1"
+            },
+            {
+              "#text": "Luis Putzer",
+              "@pid": "409/8985"
+            },
+            {
+              "#text": "Martin Schabauer",
+              "@pid": "338/2224"
+            },
+            {
+              "#text": "Peizhi Zhang",
+              "@pid": "116/3636"
+            },
+            {
+              "#text": "Tomislav Mihalj",
+              "@pid": "338/2449"
+            },
+            {
+              "#text": "Xinrui Zhang",
+              "@pid": "90/8490-4"
+            },
+            {
+              "#text": "Yongqi Zhao",
+              "@pid": "245/7639"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijnm/SoosFV22",
+          "title": "Analyzing group behavior patterns in a cellular mobile network for 5G use-cases",
+          "journal": "Int. J. Netw. Manag.",
+          "year": "2022",
+          "ee": "https://doi.org/10.1002/NEM.2157",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/iotj/ZhaoZMSPRBRSZXHE26",
+          "title": "A Communication-Latency-Aware Co-Simulation Platform for Safety and Comfort Evaluation of Cloud-Controlled ICVs",
+          "journal": "IEEE Internet Things J.",
+          "year": "2026",
+          "pages": "6217-6229",
+          "ee": "https://doi.org/10.1109/JIOT.2025.3634326",
+          "author": [
+            {
+              "#text": "Ádám Boronyák",
+              "@pid": "409/9298"
+            },
+            {
+              "#text": "András Rövid",
+              "@pid": "84/1634"
+            },
+            {
+              "#text": "Arno Eichberger",
+              "@pid": "183/3628"
+            },
+            {
+              "#text": "Erik Reichmann-Blaga",
+              "@pid": "409/9194"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Jia Hu",
+              "@pid": "88/1307-3"
+            },
+            {
+              "#text": "Lu Xiong",
+              "@pid": "15/8081-1"
+            },
+            {
+              "#text": "Luis Putzer",
+              "@pid": "409/8985"
+            },
+            {
+              "#text": "Martin Schabauer",
+              "@pid": "338/2224"
+            },
+            {
+              "#text": "Peizhi Zhang",
+              "@pid": "116/3636"
+            },
+            {
+              "#text": "Tomislav Mihalj",
+              "@pid": "338/2449"
+            },
+            {
+              "#text": "Xinrui Zhang",
+              "@pid": "90/8490-4"
+            },
+            {
+              "#text": "Yongqi Zhao",
+              "@pid": "245/7639"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/SzalayFTMSV20",
+          "title": "5G-Enabled Autonomous Driving Demonstration with a V2X Scenario-in-the-Loop Approach",
+          "journal": "Sensors",
+          "year": "2020",
+          "pages": "7344",
+          "ee": "https://doi.org/10.3390/S20247344",
+          "author": [
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Ferenc Magyar",
+              "@pid": "281/6225"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Viktor Tihanyi",
+              "@pid": "229/7841"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/TihanyiTCEFGHKK21",
+          "title": "Motorway Measurement Campaign to Support R&D Activities in the Field of Automated Driving Technologies",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "2169",
+          "ee": "https://doi.org/10.3390/S21062169",
+          "author": [
+            {
+              "#text": "András Rövid",
+              "@pid": "84/1634"
+            },
+            {
+              "#text": "Arno Eichberger",
+              "@pid": "183/3628"
+            },
+            {
+              "#text": "Christoph Knauder",
+              "@pid": "289/1907"
+            },
+            {
+              "#text": "Christoph Wellershaus",
+              "@pid": "278/8424"
+            },
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "Dávid Szántay",
+              "@pid": "289/0331"
+            },
+            {
+              "#text": "Gábor Magyar",
+              "@pid": "68/3836"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Huba Németh",
+              "@pid": "235/4812"
+            },
+            {
+              "#text": "Jakob Reckenzaun",
+              "@pid": "250/5304"
+            },
+            {
+              "#text": "Kálmán Gangel",
+              "@pid": "289/1488"
+            },
+            {
+              "#text": "Leander B. Hörmann",
+              "@pid": "65/8359"
+            },
+            {
+              "#text": "Maria Anneliese Klaffenböck",
+              "@pid": "209/3516"
+            },
+            {
+              "#text": "Matthias Rüther",
+              "@pid": "34/5019"
+            },
+            {
+              "#text": "Mihály Csonthó",
+              "@pid": "289/1578"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Patrick Morris Luley",
+              "@pid": "94/1976"
+            },
+            {
+              "#text": "Selim Solmaz",
+              "@pid": "47/6575"
+            },
+            {
+              "#text": "Tamás Attila Tomaschek",
+              "@pid": "289/1439"
+            },
+            {
+              "#text": "Tamás Tettamanti",
+              "@pid": "142/0455"
+            },
+            {
+              "#text": "Viktor Remeli",
+              "@pid": "287/5486"
+            },
+            {
+              "#text": "Viktor Tihanyi",
+              "@pid": "229/7841"
+            },
+            {
+              "#text": "Zoltán Ferenc Magosi",
+              "@pid": "289/1618"
+            },
+            {
+              "#text": "Zoltán Somogyi",
+              "@pid": "287/6016"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            },
+            {
+              "#text": "Zsolt Vincze",
+              "@pid": "289/1925"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/VargaPFBHJSFMT20",
+          "title": "5G support for Industrial IoT Applications - Challenges, Solutions, and Research gaps",
+          "journal": "Sensors",
+          "year": "2020",
+          "pages": "828",
+          "ee": "https://doi.org/10.3390/S20030828",
+          "author": [
+            {
+              "#text": "Attila Franko",
+              "@pid": "221/9203"
+            },
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Ferenc Nándor Janky",
+              "@pid": "226/4622"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "József Peto",
+              "@pid": "225/8543"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gabor22c",
+          "title": "Life Cycle Modeling of IoT Systems and Integration Method with 5G-based Industrial Cellular Networks",
+          "journal": "",
+          "year": "2022",
+          "author": {
+            "#text": "Gabor Soos",
+            "@pid": "207/6861"
+          }
+        }
       }
     ]
   }

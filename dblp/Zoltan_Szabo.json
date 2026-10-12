@@ -1,58 +1,202 @@
 {
   "dblpperson": {
+    "@name": "Zoltán Szabó",
     "r": [
       {
-        "type": "article",
-        "key": "journals/bmcbi/SzepesiNagyBSTPR26",
-        "title": "Frag'n'Flow: automated workflow for large-scale quantitative proteomics in high performance computing environments.",
-        "pages": "18",
-        "year": "2026",
-        "volume": "27",
-        "journal": "BMC Bioinform.",
-        "number": "1",
-        "ee": "https://doi.org/10.1186/s12859-025-06305-y",
-        "url": "db/journals/bmcbi/bmcbi27.html#SzepesiNagyBSTPR26",
-        "authors": [
-          "Istvan Szepesi-Nagy",
-          "Roberta Borosta",
-          "Zoltan Szabo",
-          "Gabor E. Tusnady",
-          "Lorinc S. Pongor",
-          "Gergely Rona"
-        ]
+        "inproceedings": {
+          "@key": "conf/dais/SzaboTBJB19",
+          "title": "Stunner: A Smart Phone Trace for Developing Decentralized Edge Systems",
+          "booktitle": "DAIS",
+          "year": "2019",
+          "pages": "108-115",
+          "ee": "https://doi.org/10.1007/978-3-030-22496-7_7",
+          "author": [
+            {
+              "#text": "Árpád Berta",
+              "@pid": "149/0221"
+            },
+            {
+              "#text": "Krisztián Téglás",
+              "@pid": "242/3270"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            },
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2407-01837",
-        "title": "To Switch or Not to Switch? Balanced Policy Switching in Offline Reinforcement Learning.",
-        "year": "2024",
-        "volume": "abs/2407.01837",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2407.01837",
-        "url": "db/journals/corr/corr2407.html#abs-2407-01837",
-        "authors": [
-          "Tao Ma",
-          "Xuzhi Yang",
-          "Zoltan Szabo"
-        ]
+        "inproceedings": {
+          "@key": "conf/middleware/Berta0J20",
+          "title": "Modeling Peer-to-Peer Connections over a Smartphone Network",
+          "booktitle": "DICG@Middleware",
+          "year": "2020",
+          "pages": "43-48",
+          "ee": "https://doi.org/10.1145/3428662.3428791",
+          "author": [
+            {
+              "#text": "Árpád Berta",
+              "@pid": "149/0221"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2406-19531",
-        "title": "Forward and Backward State Abstractions for Off-policy Evaluation.",
-        "year": "2024",
-        "volume": "abs/2406.19531",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2406.19531",
-        "url": "db/journals/corr/corr2406.html#abs-2406-19531",
-        "authors": [
-          "Meiling Hao",
-          "Pingfan Su",
-          "Liyuan Hu",
-          "Zoltan Szabo",
-          "Qingyuan Zhao",
-          "Chengchun Shi"
-        ]
+        "article": {
+          "@key": "journals/actaC/SzaboB21",
+          "title": "Access Control of EHR Records in a Heterogeneous Cloud Infrastructure",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "485-516",
+          "ee": "https://doi.org/10.14232/ACTACYB.290283",
+          "author": [
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/SzaboHB24",
+          "title": "Patient Flow Analysis with a Custom Simulation Engine",
+          "journal": "Acta Cybern.",
+          "year": "2024",
+          "pages": "637-669",
+          "ee": "https://doi.org/10.14232/ACTACYB.299391",
+          "author": [
+            {
+              "#text": "Emoke Adrienn Hompoth",
+              "@pid": "340/9087"
+            },
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fi/SzaboB23",
+          "title": "A New Approach to Web Application Security: Utilizing GPT Language Models for Source Code Inspection",
+          "journal": "Future Internet",
+          "year": "2023",
+          "pages": "326",
+          "ee": "https://doi.org/10.3390/FI15100326",
+          "author": [
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/NagyDFRHSDBVHMVGLBS23",
+          "title": "The Actigraphy-Based Identification of Premorbid Latent Liability of Schizophrenia and Bipolar Disorder",
+          "journal": "Sensors",
+          "year": "2023",
+          "pages": "958",
+          "ee": "https://doi.org/10.3390/S23020958",
+          "author": [
+            {
+              "#text": "Ádám Nagy",
+              "@pid": "271/3921"
+            },
+            {
+              "#text": "András Búzás",
+              "@pid": "268/0989"
+            },
+            {
+              "#text": "András Dér",
+              "@pid": "268/1176"
+            },
+            {
+              "#text": "Anh Tuan Hoang",
+              "@pid": "33/1519"
+            },
+            {
+              "#text": "Bálint Maczák",
+              "@pid": "340/9473"
+            },
+            {
+              "#text": "Emese Rudics",
+              "@pid": "340/9453"
+            },
+            {
+              "#text": "Emoke Adrienn Hompoth",
+              "@pid": "340/9087"
+            },
+            {
+              "#text": "Gergely Vadai",
+              "@pid": "146/0882"
+            },
+            {
+              "#text": "István Szendi",
+              "@pid": "226/1931"
+            },
+            {
+              "#text": "József Dombi",
+              "@pid": "27/6119"
+            },
+            {
+              "#text": "Martin Patrik Fülep",
+              "@pid": "341/0013"
+            },
+            {
+              "#text": "Szandra László",
+              "@pid": "341/0355"
+            },
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            },
+            {
+              "#text": "Zoltan Gingl",
+              "@pid": "46/7999"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-9"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
       }
     ]
   }

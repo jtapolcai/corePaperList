@@ -1,640 +1,1003 @@
 {
   "dblpperson": {
+    "@name": "Tuan Anh Trinh",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/HorvathT11",
-        "title": "A SystemC-Based Simulation Framework for Energy-Efficiency Evaluation of Embedded Networking Devices.",
-        "pages": "169-180",
-        "year": "2011",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-23541-2_18",
-        "url": "db/conf/ifip6-6/eunice2011.html#HorvathT11",
-        "authors": [
-          "DÃ¡niel HorvÃ¡th",
-          "Tuan Anh Trinh"
-        ]
+        "informal": {
+          "@key": "books/iet/19/BouvryVTWIB19",
+          "title": "Resilience and fault tolerance",
+          "journal": "Ultrascale Computing Systems",
+          "year": "2019",
+          "pages": "65-83",
+          "ee": "https://doi.org/10.1049/PBPC024E_CH3",
+          "author": [
+            {
+              "#text": "Abdallah Ali Z. A. Ibrahim",
+              "@pid": "183/4798"
+            },
+            {
+              "#text": "Muhammad Umer Wasim",
+              "@pid": "211/9087"
+            },
+            {
+              "#text": "Pascal Bouvry",
+              "@pid": "b/PascalBouvry"
+            },
+            {
+              "#text": "Sébastien Varrette",
+              "@pid": "84/4601"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            },
+            {
+              "#text": "Xavier Besseron",
+              "@pid": "64/1712"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/KulikT11",
-        "title": "Investigation of Quality of Experience for 3D Streams in Gigabit Passive Optical Network.",
-        "pages": "157-168",
-        "year": "2011",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-23541-2_17",
-        "url": "db/conf/ifip6-6/eunice2011.html#KulikT11",
-        "authors": [
-          "Ivett Kulik",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccn/SonkolyTM05",
+          "title": "Understanding highspeed TCP: A control-theoretic perspective",
+          "booktitle": "Communications and Computer Networks",
+          "year": "2005",
+          "pages": "74-80",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/HorvathBMT10",
-        "title": "An Energy-Efficient FPGA-Based Packet Processing Framework.",
-        "pages": "31-40",
-        "year": "2010",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-13971-0_4",
-        "url": "db/conf/ifip6-6/eunice2010.html#HorvathBMT10",
-        "authors": [
-          "DÃ¡niel HorvÃ¡th",
-          "Imre Bertalan",
-          "IstvÃ¡n MoldovÃ¡n",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/KulikKTB13",
+          "title": "Analysis of the relationship between quality of experience and service attributes for 3D future internet multimedia",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "641-646",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719181",
+          "author": [
+            {
+              "#text": "Ivett Kulik",
+              "@pid": "79/10064"
+            },
+            {
+              "#text": "László Bokor",
+              "@pid": "85/7742"
+            },
+            {
+              "#text": "Péter A. Kara",
+              "@pid": "119/1092"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/GyarmatiT09",
-        "title": "Characterizing User Groups in Online Social Networks.",
-        "pages": "59-68",
-        "year": "2009",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-03700-9_7",
-        "url": "db/conf/ifip6-6/eunice2009.html#GyarmatiT09",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/conext/BiczokTVT09",
+          "title": "On incentives in global wireless communities",
+          "booktitle": "U-NET@CoNEXT",
+          "year": "2009",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1145/1659029.1659031",
+          "author": [
+            {
+              "#text": "Attila Vidács",
+              "@pid": "04/2121"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/KulikT12",
-        "title": "Investigation of Quality of Experience for 3D Video in Wireless Network Environment.",
-        "pages": "340-349",
-        "year": "2012",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-32808-4_31",
-        "url": "db/conf/ifip6-6/eunice2012.html#KulikT12",
-        "authors": [
-          "Ivett Kulik",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/cost/BraunT13",
+          "title": "Energy Efficiency Issues in Information-Centric Networking",
+          "booktitle": "EE-LSDS",
+          "year": "2013",
+          "pages": "271-278",
+          "ee": "https://doi.org/10.1007/978-3-642-40517-4_22",
+          "author": [
+            {
+              "#text": "Torsten Braun",
+              "@pid": "b/TorstenBraun"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/qofis/TrinhM04",
-        "title": "A Game-Theoretic Analysis of TCP Vegas.",
-        "pages": "338-347",
-        "ee": "https://doi.org/10.1007/978-3-540-30193-6_34",
-        "year": "2004",
-        "booktitle": "QofIS",
-        "url": "db/conf/qofis/qofis2004.html#TrinhM04",
-        "authors": [
-          "Tuan Anh Trinh",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/eenergy/GyarmatiT10",
+          "title": "How can architecture help to reduce energy consumption in data center networking?",
+          "booktitle": "e-Energy",
+          "year": "2010",
+          "pages": "183-186",
+          "ee": "https://doi.org/10.1145/1791314.1791343",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icqt/BiczokT09",
-        "title": "A User-Influenced Pricing Mechanism for Internet Access.",
-        "pages": "48-60",
-        "year": "2009",
-        "booktitle": "ICQT",
-        "ee": "https://doi.org/10.1007/978-3-642-01796-4_6",
-        "url": "db/conf/icqt/icqt2009.html#BiczokT09",
-        "authors": [
-          "Gergely BiczÃ³k",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/eenergy/GyarmatiT11",
+          "title": "Power footprint of internet services",
+          "booktitle": "e-Energy",
+          "year": "2011",
+          "pages": "59-62",
+          "ee": "https://doi.org/10.1145/2318716.2318727",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icqt/GyarmatiT09",
-        "title": "On Competition for Market Share in a Dynamic ISP Market with Customer Loyalty: A Game-Theoretic Analysis.",
-        "pages": "11-23",
-        "year": "2009",
-        "booktitle": "ICQT",
-        "ee": "https://doi.org/10.1007/978-3-642-01796-4_3",
-        "url": "db/conf/icqt/icqt2009.html#GyarmatiT09",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/energyware/PloszMTF10",
+          "title": "Design and Implementation of a Practical Smart Home System Based on DECT Technology",
+          "booktitle": "ICST E-Energy",
+          "year": "2011",
+          "pages": "104-113",
+          "ee": "https://doi.org/10.1007/978-3-642-19322-4_12",
+          "author": [
+            {
+              "#text": "Andreas Foglar",
+              "@pid": "07/1593"
+            },
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "Sándor Plósz",
+              "@pid": "47/7257"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ngi/TrinhG09",
-        "title": "Revisiting Internet Access Pricing for Loyal Customers: the Long-Term Interaction Case.",
-        "pages": "1-8",
-        "year": "2009",
-        "booktitle": "NGI",
-        "ee": "https://doi.org/10.1109/NGI.2009.5175780",
-        "url": "db/conf/ngi/ngi2009.html#TrinhG09",
-        "authors": [
-          "Tuan Anh Trinh",
-          "LÃ¡szlÃ³ Gyarmati"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/TrinhM04",
+          "title": "A novel approach to model TCP traffic",
+          "booktitle": "GLOBECOM",
+          "year": "2004",
+          "pages": "660-664",
+          "ee": "https://doi.org/10.1109/GLOCOM.2004.1378044",
+          "author": [
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wwic/DurandGRABT15",
-        "title": "BitWorker, a Decentralized Distributed Computing System Based on BitTorrent.",
-        "pages": "151-164",
-        "year": "2015",
-        "booktitle": "WWIC",
-        "ee": "https://doi.org/10.1007/978-3-319-22572-2_11",
-        "url": "db/conf/wwic/wwic2015.html#DurandGRABT15",
-        "authors": [
-          "Arnaud Durand 0003",
-          "Mikael Gasparian",
-          "Thomas Rouvinez",
-          "Imad Aad",
-          "Torsten Braun",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/icqt/BiczokT09",
+          "title": "A User-Influenced Pricing Mechanism for Internet Access",
+          "booktitle": "ICQT",
+          "year": "2009",
+          "pages": "48-60",
+          "ee": "https://doi.org/10.1007/978-3-642-01796-4_6",
+          "author": [
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/conext/BiczokTVT09",
-        "title": "On incentives in global wireless communities.",
-        "pages": "1-6",
-        "year": "2009",
-        "booktitle": "U-NET@CoNEXT",
-        "ee": "https://doi.org/10.1145/1659029.1659031",
-        "url": "db/conf/conext/unet2009.html#BiczokTVT09",
-        "authors": [
-          "Gergely BiczÃ³k",
-          "LÃ¡szlÃ³ Toka",
-          "Attila VidÃ¡cs",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/icqt/GyarmatiT09",
+          "title": "On Competition for Market Share in a Dynamic ISP Market with Customer Loyalty: A Game-Theoretic Analysis",
+          "booktitle": "ICQT",
+          "year": "2009",
+          "pages": "11-23",
+          "ee": "https://doi.org/10.1007/978-3-642-01796-4_3",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/TrinhM04",
-        "title": "A novel approach to model TCP traffic.",
-        "pages": "660-664",
-        "year": "2004",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOCOM.2004.1378044",
-        "url": "db/conf/globecom/globecom2004.html#TrinhM04",
-        "authors": [
-          "Tuan Anh Trinh",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/GyarmatiT09",
+          "title": "Characterizing User Groups in Online Social Networks",
+          "booktitle": "EUNICE",
+          "year": "2009",
+          "pages": "59-68",
+          "ee": "https://doi.org/10.1007/978-3-642-03700-9_7",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccn/SonkolyTM05",
-        "title": "Understanding highspeed TCP: A control-theoretic perspective.",
-        "pages": "74-80",
-        "year": "2005",
-        "booktitle": "Communications and Computer Networks",
-        "url": "db/conf/ccn/ccn2005.html#SonkolyTM05",
-        "authors": [
-          "BalÃ¡zs Sonkoly",
-          "Tuan Anh Trinh",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/HorvathBMT10",
+          "title": "An Energy-Efficient FPGA-Based Packet Processing Framework",
+          "booktitle": "EUNICE",
+          "year": "2010",
+          "pages": "31-40",
+          "ee": "https://doi.org/10.1007/978-3-642-13971-0_4",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257"
+            },
+            {
+              "#text": "Imre Bertalan",
+              "@pid": "36/8214"
+            },
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/KulikKTB13",
-        "title": "Analysis of the relationship between quality of experience and service attributes for 3D future internet multimedia.",
-        "pages": "641-646",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719181",
-        "url": "db/conf/coginfocom/coginfocom2013.html#KulikKTB13",
-        "authors": [
-          "Ivett Kulik",
-          "PÃ©ter AndrÃ¡s Kara",
-          "Tuan Anh Trinh",
-          "LÃ¡szlÃ³ Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/HorvathT11",
+          "title": "A SystemC-Based Simulation Framework for Energy-Efficiency Evaluation of Embedded Networking Devices",
+          "booktitle": "EUNICE",
+          "year": "2011",
+          "pages": "169-180",
+          "ee": "https://doi.org/10.1007/978-3-642-23541-2_18",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cost/BraunT13",
-        "title": "Energy Efficiency Issues in Information-Centric Networking.",
-        "pages": "271-278",
-        "year": "2013",
-        "booktitle": "EE-LSDS",
-        "ee": "https://doi.org/10.1007/978-3-642-40517-4_22",
-        "url": "db/conf/cost/eelsds2013.html#BraunT13",
-        "authors": [
-          "Torsten Braun",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/KulikT11",
+          "title": "Investigation of Quality of Experience for 3D Streams in Gigabit Passive Optical Network",
+          "booktitle": "EUNICE",
+          "year": "2011",
+          "pages": "157-168",
+          "ee": "https://doi.org/10.1007/978-3-642-23541-2_17",
+          "author": [
+            {
+              "#text": "Ivett Kulik",
+              "@pid": "79/10064"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/energyware/PloszMTF10",
-        "title": "Design and Implementation of a Practical Smart Home System Based on DECT Technology.",
-        "pages": "104-113",
-        "year": "2010",
-        "booktitle": "ICST E-Energy",
-        "ee": "http://eudl.eu/doi/10.1007/978-3-642-19322-4_12",
-        "url": "db/conf/energyware/energyware2010.html#PloszMTF10",
-        "authors": [
-          "SÃ¡ndor PlÃ³sz",
-          "IstvÃ¡n MoldovÃ¡n",
-          "Tuan Anh Trinh",
-          "Andreas Foglar"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/KulikT12",
+          "title": "Investigation of Quality of Experience for 3D Video in Wireless Network Environment",
+          "booktitle": "EUNICE",
+          "year": "2012",
+          "pages": "340-349",
+          "ee": "https://doi.org/10.1007/978-3-642-32808-4_31",
+          "author": [
+            {
+              "#text": "Ivett Kulik",
+              "@pid": "79/10064"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lcn/TrinhEG00",
-        "title": "On Some Metrics of TCP.",
-        "pages": "544-545",
-        "year": "2000",
-        "booktitle": "LCN",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/LCN.2000.891098",
-        "url": "db/conf/lcn/lcn2000.html#TrinhEG00",
-        "authors": [
-          "Tuan Anh Trinh",
-          "TamÃ¡s ÃltetÃ¶",
-          "LÃ¡szlÃ³ GyÃ¶rfi"
-        ]
+        "inproceedings": {
+          "@key": "conf/lcn/TrinhEG00",
+          "title": "On Some Metrics of TCP",
+          "booktitle": "LCN",
+          "year": "2000",
+          "pages": "544-545",
+          "ee": "https://doi.org/10.1109/LCN.2000.891098",
+          "author": [
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            },
+            {
+              "#text": "Tamás Éltetö",
+              "@pid": "18/2239"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lcn/TrinhGS10",
-        "title": "Migrating to IPv6: A game-theoretic perspective.",
-        "pages": "344-347",
-        "year": "2010",
-        "booktitle": "LCN",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/LCN.2010.5735739",
-        "url": "db/conf/lcn/lcn2010.html#TrinhGS10",
-        "authors": [
-          "Tuan Anh Trinh",
-          "LÃ¡szlÃ³ Gyarmati",
-          "Gyula Sallai"
-        ]
+        "inproceedings": {
+          "@key": "conf/lcn/TrinhGS10",
+          "title": "Migrating to IPv6: A game-theoretic perspective",
+          "booktitle": "LCN",
+          "year": "2010",
+          "pages": "344-347",
+          "ee": "https://doi.org/10.1109/LCN.2010.5735739",
+          "author": [
+            {
+              "#text": "Gyula Sallai",
+              "@pid": "17/2812"
+            },
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/networking/PloszMKT11",
-        "title": "Characterization of Power-Aware Reconfiguration in FPGA-Based Networking Hardware.",
-        "pages": "281-290",
-        "year": "2011",
-        "booktitle": "Networking Workshops",
-        "ee": "https://doi.org/10.1007/978-3-642-23041-7_27",
-        "url": "db/conf/networking/networking2011w.html#PloszMKT11",
-        "authors": [
-          "SÃ¡ndor PlÃ³sz",
-          "IstvÃ¡n MoldovÃ¡n",
-          "LÃ¡szlÃ³ KÃ¡ntor",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/networking/PloszMKT11",
+          "title": "Characterization of Power-Aware Reconfiguration in FPGA-Based Networking Hardware",
+          "booktitle": "Networking Workshops",
+          "year": "2011",
+          "pages": "281-290",
+          "ee": "https://doi.org/10.1007/978-3-642-23041-7_27",
+          "author": [
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "László Kántor",
+              "@pid": "31/10042"
+            },
+            {
+              "#text": "Sándor Plósz",
+              "@pid": "47/7257"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/BiczokKT08",
-        "title": "Pricing internet access for disloyal users: a game-theoretic analysis.",
-        "pages": "55-60",
-        "year": "2008",
-        "booktitle": "NetEcon",
-        "ee": "https://doi.org/10.1145/1403027.1403040",
-        "url": "db/conf/sigcomm/netecon2008.html#BiczokKT08",
-        "authors": [
-          "Gergely BiczÃ³k",
-          "SÃ¡ndor Kardos",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/ngi/TrinhG09",
+          "title": "Revisiting Internet Access Pricing for Loyal Customers: the Long-Term Interaction Case",
+          "booktitle": "NGI",
+          "year": "2009",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/NGI.2009.5175780",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eenergy/GyarmatiT10",
-        "title": "How can architecture help to reduce energy consumption in data center networking?",
-        "pages": "183-186",
-        "year": "2010",
-        "booktitle": "e-Energy",
-        "ee": "https://doi.org/10.1145/1791314.1791343",
-        "url": "db/conf/eenergy/eenergy2010.html#GyarmatiT10",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/qofis/TrinhM04",
+          "title": "A Game-Theoretic Analysis of TCP Vegas",
+          "booktitle": "QofIS",
+          "year": "2004",
+          "pages": "338-347",
+          "ee": "https://doi.org/10.1007/978-3-540-30193-6_34",
+          "author": [
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eenergy/GyarmatiT11",
-        "title": "Power footprint of internet services.",
-        "pages": "59-62",
-        "year": "2011",
-        "booktitle": "e-Energy",
-        "ee": "https://doi.org/10.1145/2318716.2318727",
-        "url": "db/conf/eenergy/eenergy2011.html#GyarmatiT11",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/BiczokKT08",
+          "title": "Pricing internet access for disloyal users: a game-theoretic analysis",
+          "booktitle": "NetEcon",
+          "year": "2008",
+          "pages": "55-60",
+          "ee": "https://doi.org/10.1145/1403027.1403040",
+          "author": [
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Sándor Kardos",
+              "@pid": "66/211"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/comcom/MolnarST09",
-        "title": "A comprehensive TCP fairness analysis in high speed networks.",
-        "pages": "1460-1484",
-        "year": "2009",
-        "volume": "32",
-        "journal": "Comput. Commun.",
-        "number": "13-14",
-        "ee": "https://doi.org/10.1016/j.comcom.2009.05.003",
-        "url": "db/journals/comcom/comcom32.html#MolnarST09",
-        "authors": [
-          "SÃ¡ndor MolnÃ¡r",
-          "BalÃ¡zs Sonkoly",
-          "Tuan Anh Trinh"
-        ]
+        "inproceedings": {
+          "@key": "conf/wwic/DurandGRABT15",
+          "title": "BitWorker, a Decentralized Distributed Computing System Based on BitTorrent",
+          "booktitle": "WWIC",
+          "year": "2015",
+          "pages": "151-164",
+          "ee": "https://doi.org/10.1007/978-3-319-22572-2_11",
+          "author": [
+            {
+              "#text": "Arnaud Durand",
+              "@pid": "91/2388-3"
+            },
+            {
+              "#text": "Imad Aad",
+              "@pid": "94/5314"
+            },
+            {
+              "#text": "Mikael Gasparian",
+              "@pid": "167/1548"
+            },
+            {
+              "#text": "Thomas Rouvinez",
+              "@pid": "167/1473"
+            },
+            {
+              "#text": "Torsten Braun",
+              "@pid": "b/TorstenBraun"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/npa/SonkolySTM09",
-        "title": "A Research Framework for Analyzing High Speed Transport Protocols Based on Control-theory.",
-        "pages": "1-26",
-        "year": "2009",
-        "volume": "1",
-        "journal": "Netw. Protoc. Algorithms",
-        "number": "2",
-        "ee": "https://doi.org/10.5296/npa.v1i2.252",
-        "url": "db/journals/npa/npa1.html#SonkolySTM09",
-        "authors": [
-          "BalÃ¡zs Sonkoly",
-          "BoglÃ¡rka Simon",
-          "Tuan Anh Trinh",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "article": {
+          "@key": "journals/adt/TrinhG10",
+          "title": "How to price Internet access for disloyal users under uncertainty",
+          "journal": "Ann. des Télécommunications",
+          "year": "2010",
+          "pages": "171-188",
+          "ee": "https://doi.org/10.1007/S12243-009-0133-Y",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/LeonTN10",
-        "title": "Using economic regulation to prevent resource congestion in large-scale shared infrastructures.",
-        "pages": "599-607",
-        "year": "2010",
-        "volume": "26",
-        "journal": "Future Gener. Comput. Syst.",
-        "number": "4",
-        "ee": "https://doi.org/10.1016/j.future.2009.11.004",
-        "url": "db/journals/fgcs/fgcs26.html#LeonTN10",
-        "authors": [
-          "Xavier LeÃ³n",
-          "Tuan Anh Trinh",
-          "Leandro Navarro 0001"
-        ]
+        "article": {
+          "@key": "journals/adt/TrinhSM10",
+          "title": "On the fairness characteristics of FAST TCP",
+          "journal": "Ann. des Télécommunications",
+          "year": "2010",
+          "pages": "73-85",
+          "ee": "https://doi.org/10.1007/S12243-009-0145-7",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/TrinhHT12",
-        "title": "Energy efficiency in large-scale distributed systems.",
-        "pages": "743-744",
-        "year": "2012",
-        "volume": "28",
-        "journal": "Future Gener. Comput. Syst.",
-        "number": "5",
-        "ee": "https://doi.org/10.1016/j.future.2011.11.011",
-        "url": "db/journals/fgcs/fgcs28.html#TrinhHT12",
-        "authors": [
-          "Tuan Anh Trinh",
-          "Helmut Hlavacs",
-          "Domenico Talia"
-        ]
+        "article": {
+          "@key": "journals/ccr/GyarmatiT10",
+          "title": "Scafida: a scale-free network inspired data center architecture",
+          "journal": "Comput. Commun. Rev.",
+          "year": "2010",
+          "pages": "4-12",
+          "ee": "https://doi.org/10.1145/1880153.1880155",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/superfri/BouvryMMPRTTV15",
-        "title": "Resilience within Ultrascale Computing System: Challenges and Opportunities from Nesus Project.",
-        "pages": "46-63",
-        "year": "2015",
-        "volume": "2",
-        "journal": "Supercomput. Front. Innov.",
-        "number": "2",
-        "ee": "https://doi.org/10.14529/jsfi150203",
-        "url": "db/journals/superfri/superfri2.html#BouvryMMPRTTV15",
-        "authors": [
-          "Pascal Bouvry",
-          "Rudolf Mayer",
-          "Jakub Muszynski",
-          "Dana Petcu",
-          "Andreas Rauber",
-          "Gianluca Tempesti",
-          "Tuan Anh Trinh",
-          "SÃ©bastien Varrette"
-        ]
+        "article": {
+          "@key": "journals/cn/BiczokTGTV11",
+          "title": "Incentivizing the global wireless village",
+          "journal": "Comput. Networks",
+          "year": "2011",
+          "pages": "439-456",
+          "ee": "https://doi.org/10.1016/J.COMNET.2010.08.014",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Vidács",
+              "@pid": "04/2121"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/percom/GyarmatiT11",
-        "title": "Cooperative strategies of wireless access technologies: A game-theoretic analysis.",
-        "pages": "545-568",
-        "year": "2011",
-        "volume": "7",
-        "journal": "Pervasive Mob. Comput.",
-        "number": "5",
-        "ee": "https://doi.org/10.1016/j.pmcj.2010.11.006",
-        "url": "db/journals/percom/percom7.html#GyarmatiT11",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "article": {
+          "@key": "journals/cn/GyarmatiGSTB13",
+          "title": "Free-scaling your data center",
+          "journal": "Comput. Networks",
+          "year": "2013",
+          "pages": "1758-1773",
+          "ee": "https://doi.org/10.1016/J.COMNET.2013.03.005",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/adt/TrinhG10",
-        "title": "How to price Internet access for disloyal users under uncertainty.",
-        "pages": "171-188",
-        "year": "2010",
-        "volume": "65",
-        "journal": "Ann. des TÃ©lÃ©communications",
-        "number": "3-4",
-        "ee": "https://doi.org/10.1007/s12243-009-0133-y",
-        "url": "db/journals/adt/adt65.html#TrinhG10",
-        "authors": [
-          "Tuan Anh Trinh",
-          "LÃ¡szlÃ³ Gyarmati"
-        ]
+        "article": {
+          "@key": "journals/cn/LeonTN11",
+          "title": "Modeling resource usage in planetary-scale shared infrastructures: PlanetLab's case study",
+          "journal": "Comput. Networks",
+          "year": "2011",
+          "pages": "3394-3407",
+          "ee": "https://doi.org/10.1016/J.COMNET.2011.06.026",
+          "author": [
+            {
+              "#text": "Leandro Navarro-Moldes",
+              "@pid": "n/LNavarroM"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            },
+            {
+              "#text": "Xavier León",
+              "@pid": "66/4464"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/adt/TrinhSM10",
-        "title": "On the fairness characteristics of FAST TCP.",
-        "pages": "73-85",
-        "year": "2010",
-        "volume": "65",
-        "journal": "Ann. des TÃ©lÃ©communications",
-        "number": "1-2",
-        "ee": "https://doi.org/10.1007/s12243-009-0145-7",
-        "url": "db/journals/adt/adt65.html#TrinhSM10",
-        "authors": [
-          "Tuan Anh Trinh",
-          "BalÃ¡zs Sonkoly",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "article": {
+          "@key": "journals/comcom/MolnarST09",
+          "title": "A comprehensive TCP fairness analysis in high speed networks",
+          "journal": "Comput. Commun.",
+          "year": "2009",
+          "pages": "1460-1484",
+          "ee": "https://doi.org/10.1016/J.COMCOM.2009.05.003",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cn/LeonTN11",
-        "title": "Modeling resource usage in planetary-scale shared infrastructures: PlanetLab's case study.",
-        "pages": "3394-3407",
-        "year": "2011",
-        "volume": "55",
-        "journal": "Comput. Networks",
-        "number": "15",
-        "ee": "https://doi.org/10.1016/j.comnet.2011.06.026",
-        "url": "db/journals/cn/cn55.html#LeonTN11",
-        "authors": [
-          "Xavier LeÃ³n",
-          "Tuan Anh Trinh",
-          "Leandro Navarro 0001"
-        ]
+        "informal": {
+          "@key": "journals/ercim/TrinhP09",
+          "title": "Interactive Energy Management System in Households",
+          "journal": "ERCIM News",
+          "year": "2009",
+          "author": [
+            {
+              "#text": "Sándor Plósz",
+              "@pid": "47/7257"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cn/GyarmatiGSTB13",
-        "title": "Free-scaling your data center.",
-        "pages": "1758-1773",
-        "year": "2013",
-        "volume": "57",
-        "journal": "Comput. Networks",
-        "number": "8",
-        "ee": "https://doi.org/10.1016/j.comnet.2013.03.005",
-        "url": "db/journals/cn/cn57.html#GyarmatiGSTB13",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "AndrÃ¡s GulyÃ¡s",
-          "BalÃ¡zs Sonkoly",
-          "Tuan Anh Trinh",
-          "Gergely BiczÃ³k"
-        ]
+        "article": {
+          "@key": "journals/ett/GyarmatiCT12",
+          "title": "Path-based Multipath Protection: resilience using multiple paths",
+          "journal": "Trans. Emerg. Telecommun. Technol.",
+          "year": "2012",
+          "pages": "660-671",
+          "ee": "https://doi.org/10.1002/ETT.2522",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cn/BiczokTGTV11",
-        "title": "Incentivizing the global wireless village.",
-        "pages": "439-456",
-        "year": "2011",
-        "volume": "55",
-        "journal": "Comput. Networks",
-        "number": "2",
-        "ee": "https://doi.org/10.1016/j.comnet.2010.08.014",
-        "url": "db/journals/cn/cn55.html#BiczokTGTV11",
-        "authors": [
-          "Gergely BiczÃ³k",
-          "LÃ¡szlÃ³ Toka",
-          "AndrÃ¡s GulyÃ¡s",
-          "Tuan Anh Trinh",
-          "Attila VidÃ¡cs"
-        ]
+        "article": {
+          "@key": "journals/fgcs/LeonTN10",
+          "title": "Using economic regulation to prevent resource congestion in large-scale shared infrastructures",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2010",
+          "pages": "599-607",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2009.11.004",
+          "author": [
+            {
+              "#text": "Leandro Navarro-Moldes",
+              "@pid": "n/LNavarroM"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            },
+            {
+              "#text": "Xavier León",
+              "@pid": "66/4464"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ccr/GyarmatiT10",
-        "title": "Scafida: a scale-free network inspired data center architecture.",
-        "pages": "4-12",
-        "year": "2010",
-        "volume": "40",
-        "journal": "Comput. Commun. Rev.",
-        "number": "5",
-        "ee": "https://doi.org/10.1145/1880153.1880155",
-        "url": "db/journals/ccr/ccr40.html#GyarmatiT10",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "article": {
+          "@key": "journals/fgcs/TrinhHT12",
+          "title": "Energy efficiency in large-scale distributed systems",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2012",
+          "pages": "743-744",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2011.11.011",
+          "author": [
+            {
+              "#text": "Domenico Talia",
+              "@pid": "44/5373"
+            },
+            {
+              "#text": "Helmut Hlavacs",
+              "@pid": "48/3001"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/network/GyarmatiT10",
-        "title": "Measuring user behavior in online social networks.",
-        "pages": "26-31",
-        "year": "2010",
-        "volume": "24",
-        "journal": "IEEE Netw.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/MNET.2010.5578915",
-        "url": "db/journals/network/network24.html#GyarmatiT10",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tuan Anh Trinh"
-        ]
+        "article": {
+          "@key": "journals/network/GyarmatiT10",
+          "title": "Measuring user behavior in online social networks",
+          "journal": "IEEE Netw.",
+          "year": "2010",
+          "pages": "26-31",
+          "ee": "https://doi.org/10.1109/MNET.2010.5578915",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/telsys/TrinhGS11",
-        "title": "Understanding the impact of loyal user behaviour on Internet access pricing: a game-theoretic framework.",
-        "pages": "43-61",
-        "year": "2011",
-        "volume": "48",
-        "journal": "Telecommun. Syst.",
-        "number": "1-2",
-        "ee": "https://doi.org/10.1007/s11235-010-9333-z",
-        "url": "db/journals/telsys/telsys48.html#TrinhGS11",
-        "authors": [
-          "Tuan Anh Trinh",
-          "LÃ¡szlÃ³ Gyarmati",
-          "Gyula Sallai"
-        ]
+        "article": {
+          "@key": "journals/npa/SonkolySTM09",
+          "title": "A Research Framework for Analyzing High Speed Transport Protocols Based on Control-theory",
+          "journal": "Netw. Protoc. Algorithms",
+          "year": "2009",
+          "pages": "1-26",
+          "ee": "https://doi.org/10.5296/NPA.V1I2.252",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Boglárka Simon",
+              "@pid": "178/8516"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/telsys/TrinhM04",
-        "title": "A Comprehensive Performance Analysis of Random Early Detection Mechanism.",
-        "pages": "9-31",
-        "year": "2004",
-        "volume": "25",
-        "journal": "Telecommun. Syst.",
-        "number": "1-2",
-        "ee": "https://doi.org/10.1023/B:TELS.0000011194.77405.30",
-        "url": "db/journals/telsys/telsys25.html#TrinhM04",
-        "authors": [
-          "Tuan Anh Trinh",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "article": {
+          "@key": "journals/percom/GyarmatiT11",
+          "title": "Cooperative strategies of wireless access technologies: A game-theoretic analysis",
+          "journal": "Pervasive Mob. Comput.",
+          "year": "2011",
+          "pages": "545-568",
+          "ee": "https://doi.org/10.1016/J.PMCJ.2010.11.006",
+          "author": [
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/telsys/StillerTRT13",
-        "title": "Editorial.",
-        "pages": "583-585",
-        "year": "2013",
-        "volume": "52",
-        "journal": "Telecommun. Syst.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s11235-011-9502-8",
-        "url": "db/journals/telsys/telsys52.html#StillerTRT13",
-        "authors": [
-          "Burkhard Stiller",
-          "Bruno Tuffin",
-          "Peter Reichl",
-          "Tuan Anh Trinh"
-        ]
+        "article": {
+          "@key": "journals/superfri/BouvryMMPRTTV15",
+          "title": "Resilience within Ultrascale Computing System: Challenges and Opportunities from Nesus Project",
+          "journal": "Supercomput. Front. Innov.",
+          "year": "2015",
+          "pages": "46-63",
+          "ee": "https://doi.org/10.14529/JSFI150203",
+          "author": [
+            {
+              "#text": "Andreas Rauber",
+              "@pid": "r/AndreasRauber"
+            },
+            {
+              "#text": "Dana Petcu",
+              "@pid": "58/6332"
+            },
+            {
+              "#text": "Gianluca Tempesti",
+              "@pid": "t/GTempesti"
+            },
+            {
+              "#text": "Jakub Muszynski",
+              "@pid": "123/3976"
+            },
+            {
+              "#text": "Pascal Bouvry",
+              "@pid": "b/PascalBouvry"
+            },
+            {
+              "#text": "Rudolf Mayer",
+              "@pid": "59/528"
+            },
+            {
+              "#text": "Sébastien Varrette",
+              "@pid": "84/4601"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ercim/TrinhP09",
-        "title": "Interactive Energy Management System in Households.",
-        "year": "2009",
-        "volume": "2009",
-        "journal": "ERCIM News",
-        "number": "79",
-        "ee": "http://ercim-news.ercim.eu/en79/special/interactive-energy-management-system-in-households",
-        "url": "db/journals/ercim/ercim2009.html#TrinhP09",
-        "authors": [
-          "Tuan Anh Trinh",
-          "SÃ¡ndor PlÃ³sz"
-        ]
+        "article": {
+          "@key": "journals/telsys/StillerTRT13",
+          "title": "Editorial",
+          "journal": "Telecommun. Syst.",
+          "year": "2013",
+          "pages": "583-585",
+          "ee": "https://doi.org/10.1007/S11235-011-9502-8",
+          "author": [
+            {
+              "#text": "Bruno Tuffin",
+              "@pid": "t/BrunoTuffin"
+            },
+            {
+              "#text": "Burkhard Stiller",
+              "@pid": "00/4292"
+            },
+            {
+              "#text": "Peter Reichl",
+              "@pid": "41/2683"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ett/GyarmatiCT12",
-        "title": "Path-based Multipath Protection: resilience using multiple paths.",
-        "pages": "660-671",
-        "year": "2012",
-        "volume": "23",
-        "journal": "Trans. Emerg. Telecommun. Technol.",
-        "number": "7",
-        "ee": "https://doi.org/10.1002/ett.2522",
-        "url": "db/journals/ett/ett23.html#GyarmatiCT12",
-        "authors": [
-          "LÃ¡szlÃ³ Gyarmati",
-          "Tibor Cinkler",
-          "Tuan Anh Trinh"
-        ]
+        "article": {
+          "@key": "journals/telsys/TrinhGS11",
+          "title": "Understanding the impact of loyal user behaviour on Internet access pricing: a game-theoretic framework",
+          "journal": "Telecommun. Syst.",
+          "year": "2011",
+          "pages": "43-61",
+          "ee": "https://doi.org/10.1007/S11235-010-9333-Z",
+          "author": [
+            {
+              "#text": "Gyula Sallai",
+              "@pid": "17/2812"
+            },
+            {
+              "#text": "László Gyarmati",
+              "@pid": "35/5916"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/telsys/TrinhM04",
+          "title": "A Comprehensive Performance Analysis of Random Early Detection Mechanism",
+          "journal": "Telecommun. Syst.",
+          "year": "2004",
+          "pages": "9-31",
+          "ee": "https://doi.org/10.1023/B:TELS.0000011194.77405.30",
+          "author": [
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Tuan Anh Trinh",
+              "@pid": "57/2295"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,71 +1,238 @@
 {
   "dblpperson": {
+    "@name": "Zsolt Krámer",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icmcs/MolnarMSKM16",
-        "title": "Flexible media transport framework for android.",
-        "pages": "1",
-        "year": "2016",
-        "booktitle": "ICME Workshops",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICMEW.2016.7574660",
-        "url": "db/conf/icmcs/icmew2016.html#MolnarMSKM16",
-        "authors": [
-          "SÃ¡ndor MolnÃ¡r",
-          "PÃ©ter Megyesi",
-          "SzilÃ¡rd Solymos",
-          "Zsolt Kramer",
-          "ZoltÃ¡n MÃ³czÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/anrw/KramerKIM21",
+          "title": "Cooperative performance enhancement using QUIC tunneling in 5G cellular networks",
+          "booktitle": "ANRW",
+          "year": "2021",
+          "pages": "49-51",
+          "ee": "https://doi.org/10.1145/3472305.3472320",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Marcus Ihlar",
+              "@pid": "165/5495"
+            },
+            {
+              "#text": "Mirja Kühlewind",
+              "@pid": "50/8423"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cacml/ScharnitzkyKMM23",
-        "title": "Real-time Emulation of MASQUE-based QUIC Proxying in LTE Networks using ns-3.",
-        "pages": "581-586",
-        "year": "2023",
-        "booktitle": "CACML",
-        "ee": "https://doi.org/10.1145/3590003.3590995",
-        "url": "db/conf/cacml/cacml2023.html#ScharnitzkyKMM23",
-        "authors": [
-          "Donat Scharnitzky",
-          "Zsolt Kramer",
-          "SÃ¡ndor MolnÃ¡r",
-          "Attila MihÃ¡ly"
-        ]
+        "inproceedings": {
+          "@key": "conf/cacml/ScharnitzkyKMM23",
+          "title": "Real-time Emulation of MASQUE-based QUIC Proxying in LTE Networks using ns-3",
+          "booktitle": "CACML",
+          "year": "2023",
+          "pages": "581-586",
+          "ee": "https://doi.org/10.1145/3590003.3590995",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Donat Scharnitzky",
+              "@pid": "349/2895"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/MegyesiKM16",
-        "title": "How quick is QUIC?",
-        "pages": "1-6",
-        "year": "2016",
-        "booktitle": "ICC",
-        "ee": "https://doi.org/10.1109/ICC.2016.7510788",
-        "url": "db/conf/icc/icc2016.html#MegyesiKM16",
-        "authors": [
-          "PÃ©ter Megyesi",
-          "Zsolt Kramer",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/camad/KramerMPM20",
+          "title": "A Lightweight Performance Enhancing Proxy for Evolved Protocols and Networks",
+          "booktitle": "CAMAD",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/CAMAD50429.2020.9209304",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Marcus Pieskä",
+              "@pid": "209/9200"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iintec/MihalyNMKSI17",
-        "title": "Supporting multi-domain congestion control by a lightweight PEP.",
-        "pages": "105-110",
-        "year": "2017",
-        "booktitle": "IINTEC",
-        "ee": "https://doi.org/10.1109/IINTEC.2017.8325922",
-        "url": "db/conf/iintec/iintec2017.html#MihalyNMKSI17",
-        "authors": [
-          "Attila MihÃ¡ly",
-          "Szilveszter NÃ¡das",
-          "SÃ¡ndor MolnÃ¡r",
-          "Zsolt Kramer",
-          "Robert Skog",
-          "Marcus Ihlar"
-        ]
+        "inproceedings": {
+          "@key": "conf/camad/KramerMSM19",
+          "title": "On the Benefits of Multi-Domain Congestion Control in LTE Networks",
+          "booktitle": "CAMAD",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/CAMAD.2019.8858449",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Szilárd Solymos",
+              "@pid": "140/7075"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icc/MegyesiKM16",
+          "title": "How quick is QUIC?",
+          "booktitle": "ICC",
+          "year": "2016",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICC.2016.7510788",
+          "author": [
+            {
+              "#text": "Péter Megyesi",
+              "@pid": "117/3201"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icmcs/MolnarMSKM16",
+          "title": "Flexible media transport framework for android",
+          "booktitle": "ICME Workshops",
+          "year": "2016",
+          "pages": "1",
+          "ee": "https://doi.org/10.1109/ICMEW.2016.7574660",
+          "author": [
+            {
+              "#text": "Péter Megyesi",
+              "@pid": "117/3201"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Szilárd Solymos",
+              "@pid": "140/7075"
+            },
+            {
+              "#text": "Zoltán Móczár",
+              "@pid": "22/10067"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iintec/MihalyNMKSI17",
+          "title": "Supporting multi-domain congestion control by a lightweight PEP",
+          "booktitle": "IINTEC",
+          "year": "2017",
+          "pages": "105-110",
+          "ee": "https://doi.org/10.1109/IINTEC.2017.8325922",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Marcus Ihlar",
+              "@pid": "165/5495"
+            },
+            {
+              "#text": "Robert Skog",
+              "@pid": "00/6795"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcnc/KramerMMN19",
+          "title": "Towards Multi-Domain Congestion Control in Next-Generation Networks",
+          "booktitle": "WCNC",
+          "year": "2019",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/WCNC.2019.8885612",
+          "author": [
+            {
+              "#text": "Attila Mihály",
+              "@pid": "54/10324"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zsolt Krämer",
+              "@pid": "183/1848"
+            }
+          ]
+        }
       }
     ]
   }

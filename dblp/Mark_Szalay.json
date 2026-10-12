@@ -1,165 +1,785 @@
 {
   "dblpperson": {
+    "@name": "Mark Szalay",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/NemethSDRSTS18",
-        "title": "Fast and efficient network service embedding method with adaptive offloading to the edge.",
-        "pages": "178-183",
-        "year": "2018",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFCOMW.2018.8406882",
-        "url": "db/conf/infocom/infocom2018w.html#NemethSDRSTS18",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Mark Szalay",
-          "Janos Doka",
-          "Matthias Rost",
-          "Stefan Schmid 0001",
-          "LÃ¡szlÃ³ Toka",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/SzalayMT19",
+          "title": "Minimizing state access delay for cloud-native network functions",
+          "booktitle": "CloudNet",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/CLOUDNET47604.2019.9064048",
+          "author": [
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/SzalayHDST19",
-        "title": "Demo Abstract: Turning OpenStack into a Fog Orchestrator.",
-        "pages": "947-948",
-        "year": "2019",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFCOMW.2019.8845035",
-        "url": "db/conf/infocom/infocom2019w.html#SzalayHDST19",
-        "authors": [
-          "Mark Szalay",
-          "DÃ¡vid Haja",
-          "Janos Doka",
-          "BalÃ¡zs Sonkoly",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/SzalayMT20",
+          "title": "AnnaBellaDB: Key-Value Store Made Cloud Native",
+          "booktitle": "CNSM",
+          "year": "2020",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.23919/CNSM50824.2020.9269045",
+          "author": [
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/HajaSSNKTS18",
-        "title": "How to orchestrate a distributed OpenStack.",
-        "pages": "293-298",
-        "year": "2018",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFCOMW.2018.8407014",
-        "url": "db/conf/infocom/infocom2018w.html#HajaSSNKTS18",
-        "authors": [
-          "DÃ¡vid Haja",
-          "Marton Szabo",
-          "Mark Szalay",
-          "Adam Nagy",
-          "AndrÃ¡s Kern",
-          "LÃ¡szlÃ³ Toka",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/TokaSHSRT20",
+          "title": "To boost or not to boost: a stochastic game in wireless access networks",
+          "booktitle": "ICC",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICC40277.2020.9148970",
+          "author": [
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Géza Szabó",
+              "@pid": "87/1845"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Miklós Telek",
+              "@pid": "51/1636"
+            },
+            {
+              "#text": "Sándor Rácz",
+              "@pid": "07/6609"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nfvsdn/GeroJSCHNSSTCM17",
-        "title": "The orchestration in 5G exchange - A multi-provider NFV framework for 5G services.",
-        "pages": "1-2",
-        "year": "2017",
-        "booktitle": "NFV-SDN",
-        "ee": "https://doi.org/10.1109/NFV-SDN.2017.8169865",
-        "url": "db/conf/nfvsdn/nfvsdn2017.html#GeroJSCHNSSTCM17",
-        "authors": [
-          "BalÃ¡zs PÃ©ter Gero",
-          "DÃ¡vid Jocha",
-          "RÃ³bert SzabÃ³",
-          "JÃ¡nos Czentye",
-          "DÃ¡vid Haja",
-          "BalÃ¡zs NÃ©meth 0001",
-          "BalÃ¡zs Sonkoly",
-          "Mark Szalay",
-          "LÃ¡szlÃ³ Toka",
-          "Carlos Jesus Bernardos Cano",
-          "Luis Miguel Contreras Murillo"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/SzalayMT21",
+          "title": "Real-time task scheduling in a FaaS cloud",
+          "booktitle": "CLOUD",
+          "year": "2021",
+          "pages": "497-507",
+          "ee": "https://doi.org/10.1109/CLOUD53861.2021.00065",
+          "author": [
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nfvsdn/CsikorSST15",
-        "title": "NFPA: Network function performance analyzer.",
-        "pages": "15-17",
-        "year": "2015",
-        "booktitle": "NFV-SDN",
-        "ee": "https://doi.org/10.1109/NFV-SDN.2015.7387395",
-        "url": "db/conf/nfvsdn/nfvsdn2015.html#CsikorSST15",
-        "authors": [
-          "Levente Csikor",
-          "Mark Szalay",
-          "BalÃ¡zs Sonkoly",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/SzalayNGKMNPRT19",
+          "title": "Industrial-Scale Stateless Network Functions",
+          "booktitle": "CLOUD",
+          "year": "2019",
+          "pages": "383-390",
+          "ee": "https://doi.org/10.1109/CLOUD.2019.00068",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Zoltán Lajos Kis",
+              "@pid": "75/4853"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cnsm/SzalayMT20",
-        "title": "AnnaBellaDB: Key-Value Store Made Cloud Native.",
-        "pages": "1-5",
-        "year": "2020",
-        "booktitle": "CNSM",
-        "ee": "https://doi.org/10.23919/CNSM50824.2020.9269045",
-        "url": "db/conf/cnsm/cnsm2020.html#SzalayMT20",
-        "authors": [
-          "Mark Szalay",
-          "PÃ©ter MÃ¡tray",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/im/TokaDHS21",
+          "title": "Predicting cloud-native application failures based on monitoring data of cloud infrastructure",
+          "booktitle": "IM",
+          "year": "2021",
+          "pages": "842-847",
+          "author": [
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/im/TokaDHS21",
-        "title": "Predicting cloud-native application failures based on monitoring data of cloud infrastructure.",
-        "pages": "842-847",
-        "year": "2021",
-        "booktitle": "IM",
-        "ee": "https://ieeexplore.ieee.org/document/9463991",
-        "url": "db/conf/im/im2021.html#TokaDHS21",
-        "authors": [
-          "LÃ¡szlÃ³ Toka",
-          "Gergely Dobreff",
-          "DÃ¡vid Haja",
-          "Mark Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/HajaSSNKTS18",
+          "title": "How to orchestrate a distributed OpenStack",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2018",
+          "pages": "293-298",
+          "ee": "https://doi.org/10.1109/INFCOMW.2018.8407014",
+          "author": [
+            {
+              "#text": "Adam Nagy",
+              "@pid": "220/5724"
+            },
+            {
+              "#text": "András Kern",
+              "@pid": "85/5267"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Szabo",
+              "@pid": "204/9323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/HajaSSPT19",
-        "title": "Sharpening Kubernetes for the Edge.",
-        "pages": "136-137",
-        "year": "2019",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://doi.org/10.1145/3342280.3342335",
-        "url": "db/conf/sigcomm/p2019.html#HajaSSPT19",
-        "authors": [
-          "DÃ¡vid Haja",
-          "Mark Szalay",
-          "BalÃ¡zs Sonkoly",
-          "Gergely PongrÃ¡cz",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/NemethSDRSTS18",
+          "title": "Fast and efficient network service embedding method with adaptive offloading to the edge",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2018",
+          "pages": "178-183",
+          "ee": "https://doi.org/10.1109/INFCOMW.2018.8406882",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Janos Doka",
+              "@pid": "222/8067"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Matthias Rost",
+              "@pid": "136/5768"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/SzalayTRPCP17",
-        "title": "HARMLESS: Cost-Effective Transitioning to SDN.",
-        "pages": "91-93",
-        "year": "2017",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://www.wikidata.org/entity/Q130959238",
-        "url": "db/conf/sigcomm/p2017.html#SzalayTRPCP17",
-        "authors": [
-          "Mark Szalay",
-          "LÃ¡szlÃ³ Toka",
-          "GÃ¡bor RÃ©tvÃ¡ri",
-          "Gergely PongrÃ¡cz",
-          "Levente Csikor",
-          "Dimitrios P. Pezaros"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/SzalayHDST19",
+          "title": "Demo Abstract: Turning OpenStack into a Fog Orchestrator",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2019",
+          "pages": "947-948",
+          "ee": "https://doi.org/10.1109/INFCOMW.2019.8845035",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Janos Doka",
+              "@pid": "222/8067"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwssip/DobreffSMVLBP23",
+          "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study",
+          "booktitle": "IWSSIP",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/CsikorTSPPR18",
+          "title": "HARMLESS: Cost-Effective Transitioning to SDN for Small Enterprises",
+          "booktitle": "Networking",
+          "year": "2018",
+          "pages": "208-216",
+          "ee": "https://doi.org/10.23919/IFIPNETWORKING.2018.8696504",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nfvsdn/CsikorSST15",
+          "title": "NFPA: Network function performance analyzer",
+          "booktitle": "NFV-SDN",
+          "year": "2015",
+          "pages": "15-17",
+          "ee": "https://doi.org/10.1109/NFV-SDN.2015.7387395",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nfvsdn/GeroJSCHNSSTCM17",
+          "title": "The orchestration in 5G exchange - A multi-provider NFV framework for 5G services",
+          "booktitle": "NFV-SDN",
+          "year": "2017",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1109/NFV-SDN.2017.8169865",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Péter Gero",
+              "@pid": "04/4095"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Carlos J. Bernardos",
+              "@pid": "94/4416"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Dávid Jocha",
+              "@pid": "122/5062"
+            },
+            {
+              "#text": "János Czentye",
+              "@pid": "142/4887"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Luis M. Contreras",
+              "@pid": "118/9656"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qomex/DobreffSLMVBP23",
+          "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring",
+          "booktitle": "QoMEX",
+          "year": "2023",
+          "pages": "127-130",
+          "ee": "https://doi.org/10.1109/QOMEX58391.2023.10178470",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/HajaSSPT19",
+          "title": "Sharpening Kubernetes for the Edge",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2019",
+          "pages": "136-137",
+          "ee": "https://doi.org/10.1145/3342280.3342335",
+          "author": [
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/SzalayMT20",
+          "title": "AnnaBellaDB: a key value store for stateless network functions",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2020",
+          "pages": "6-8",
+          "ee": "https://doi.org/10.1145/3405837.3411371",
+          "author": [
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/SzalayTRPCP17",
+          "title": "HARMLESS: Cost-Effective Transitioning to SDN",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2017",
+          "pages": "91-93",
+          "ee": "https://doi.org/10.1145/3123878.3131997",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comsur/SonkolyCSNT21",
+          "title": "Survey on Placement Methods in the Edge and Beyond",
+          "journal": "IEEE Commun. Surv. Tutorials",
+          "year": "2021",
+          "pages": "2590-2629",
+          "ee": "https://doi.org/10.1109/COMST.2021.3101460",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "János Czentye",
+              "@pid": "142/4887"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jnca/SonkolyHNSCSUKT20",
+          "title": "Scalable edge cloud platforms for IoT services",
+          "journal": "J. Netw. Comput. Appl.",
+          "year": "2020",
+          "pages": "102785",
+          "ee": "https://doi.org/10.1016/J.JNCA.2020.102785",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Byung-Seo Kim",
+              "@pid": "79/2310"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "János Czentye",
+              "@pid": "142/4887"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Rehmat Ullah",
+              "@pid": "167/7781"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/SonkolySNCHSDGJ20",
+          "title": "5G Applications From Vision to Reality: Multi-Operator Orchestration",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2020",
+          "pages": "1401-1416",
+          "ee": "https://doi.org/10.1109/JSAC.2020.2999684",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Péter Gero",
+              "@pid": "04/4095"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Dávid Jocha",
+              "@pid": "122/5062"
+            },
+            {
+              "#text": "János Czentye",
+              "@pid": "142/4887"
+            },
+            {
+              "#text": "Janos Doka",
+              "@pid": "222/8067"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcc/SzalayMT23",
+          "title": "Real-Time FaaS: Towards a Latency Bounded Serverless Cloud",
+          "journal": "IEEE Trans. Cloud Comput.",
+          "year": "2023",
+          "pages": "1636-1650",
+          "ee": "https://doi.org/10.1109/TCC.2022.3151469",
+          "author": [
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/CsikorSRPPT20",
+          "title": "Transition to SDN is HARMLESS: Hybrid Architecture for Migrating Legacy Ethernet Switches to SDN",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2020",
+          "pages": "275-288",
+          "ee": "https://doi.org/10.1109/TNET.2019.2958762",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
       }
     ]
   }

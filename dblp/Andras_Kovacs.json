@@ -1,115 +1,184 @@
 {
   "dblpperson": {
+    "@name": "Andras Kovacs",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ieeesensors/KovacsKPPM18",
-        "title": "Tunable Light Source for Photoacoustic Sensing Applications.",
-        "pages": "1-4",
-        "year": "2018",
-        "booktitle": "IEEE SENSORS",
-        "ee": "https://doi.org/10.1109/ICSENS.2018.8589589",
-        "url": "db/conf/ieeesensors/ieeesensors2018.html#KovacsKPPM18",
-        "authors": [
-          "Andras Kovacs",
-          "Shervin Keshavarzi",
-          "Alvaro Ortiz PÃ©rez",
-          "Stefan Palzer",
-          "Ulrich Mescheder"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeesensors/KhaziKZMA20",
+          "title": "Microfabricated Eddy-Current Sensors for Non-Destructive Testing of the Micro Grinding Burn",
+          "booktitle": "IEEE SENSORS",
+          "year": "2020",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/SENSORS47125.2020.9278595",
+          "author": [
+            {
+              "#text": "Ali Zahedi",
+              "@pid": "70/10713"
+            },
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Bahman Azarhoushang",
+              "@pid": "335/4128"
+            },
+            {
+              "#text": "Isman Khazi",
+              "@pid": "335/4164"
+            },
+            {
+              "#text": "Ulrich Mescheder",
+              "@pid": "194/6096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeesensors/KhaziKZMA20",
-        "title": "Microfabricated Eddy-Current Sensors for Non-Destructive Testing of the Micro Grinding Burn.",
-        "pages": "1-4",
-        "year": "2020",
-        "booktitle": "IEEE SENSORS",
-        "ee": "https://doi.org/10.1109/SENSORS47125.2020.9278595",
-        "url": "db/conf/ieeesensors/ieeesensors2020.html#KhaziKZMA20",
-        "authors": [
-          "Isman Khazi",
-          "Andras Kovacs",
-          "Ali Zahedi",
-          "Ulrich Mescheder",
-          "Bahman Azarhoushang"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeesensors/KovacsKPPM18",
+          "title": "Tunable Light Source for Photoacoustic Sensing Applications",
+          "booktitle": "IEEE SENSORS",
+          "year": "2018",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ICSENS.2018.8589589",
+          "author": [
+            {
+              "#text": "Alvaro Ortiz Pérez",
+              "@pid": "194/5953"
+            },
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Shervin Keshavarzi",
+              "@pid": "346/5278"
+            },
+            {
+              "#text": "Stefan Palzer",
+              "@pid": "194/6086"
+            },
+            {
+              "#text": "Ulrich Mescheder",
+              "@pid": "194/6096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeesensors/KovacsKZMA20",
-        "title": "Development of an Optical Sensor for the Non-Destructive Testing of Grinding Burn.",
-        "pages": "1-4",
-        "year": "2020",
-        "booktitle": "IEEE SENSORS",
-        "ee": "https://doi.org/10.1109/SENSORS47125.2020.9278837",
-        "url": "db/conf/ieeesensors/ieeesensors2020.html#KovacsKZMA20",
-        "authors": [
-          "Andras Kovacs",
-          "Isman Khazi",
-          "Ali Zahedi",
-          "Ulrich Mescheder",
-          "Bahman Azarhoushang"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeesensors/KovacsKZMA20",
+          "title": "Development of an Optical Sensor for the Non-Destructive Testing of Grinding Burn",
+          "booktitle": "IEEE SENSORS",
+          "year": "2020",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/SENSORS47125.2020.9278837",
+          "author": [
+            {
+              "#text": "Ali Zahedi",
+              "@pid": "70/10713"
+            },
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Bahman Azarhoushang",
+              "@pid": "335/4128"
+            },
+            {
+              "#text": "Isman Khazi",
+              "@pid": "335/4164"
+            },
+            {
+              "#text": "Ulrich Mescheder",
+              "@pid": "194/6096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeesensors/KovacsM18",
-        "title": "Thin Photonic Crystals for Optical Characterization of Ultrathin Hafnium Dioxide in Mesoporous Layers.",
-        "pages": "1-4",
-        "year": "2018",
-        "booktitle": "IEEE SENSORS",
-        "ee": "https://doi.org/10.1109/ICSENS.2018.8589935",
-        "url": "db/conf/ieeesensors/ieeesensors2018.html#KovacsM18",
-        "authors": [
-          "Andras Kovacs",
-          "Ulrich Mescheder"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeesensors/KovacsM18",
+          "title": "Thin Photonic Crystals for Optical Characterization of Ultrathin Hafnium Dioxide in Mesoporous Layers",
+          "booktitle": "IEEE SENSORS",
+          "year": "2018",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ICSENS.2018.8589935",
+          "author": [
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Ulrich Mescheder",
+              "@pid": "194/6096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeesensors/KovacsPBM24",
-        "title": "Porous Silicon-Based Absorber Using Integration of Light Trapping and Anti-Reflective Layer.",
-        "pages": "1-4",
-        "year": "2024",
-        "booktitle": "IEEE SENSORS",
-        "ee": "https://doi.org/10.1109/SENSORS60989.2024.10785048",
-        "url": "db/conf/ieeesensors/ieeesensors2024.html#KovacsPBM24",
-        "authors": [
-          "Andras Kovacs",
-          "Julien Petit",
-          "Volker Bucher",
-          "Ulrich Mescheder"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeesensors/KovacsPBM24",
+          "title": "Porous Silicon-Based Absorber Using Integration of Light Trapping and Anti-Reflective Layer",
+          "booktitle": "IEEE SENSORS",
+          "year": "2024",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/SENSORS60989.2024.10785048",
+          "author": [
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Julien Petit",
+              "@pid": "117/6345"
+            },
+            {
+              "#text": "Ulrich Mescheder",
+              "@pid": "194/6096"
+            },
+            {
+              "#text": "Volker Bucher",
+              "@pid": "219/0462"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smartgridcomm/Kovacs16",
-        "title": "Bilevel programming approach to optimizing a time-variant electricity tariff for demand response.",
-        "pages": "674-679",
-        "year": "2016",
-        "booktitle": "SmartGridComm",
-        "ee": "https://doi.org/10.1109/SmartGridComm.2016.7778839",
-        "url": "db/conf/smartgridcomm/smartgridcomm2016.html#Kovacs16",
-        "authors": [
-          "Andras Kovacs"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartgridcomm/Kovacs16",
+          "title": "Bilevel programming approach to optimizing a time-variant electricity tariff for demand response",
+          "booktitle": "SmartGridComm",
+          "year": "2016",
+          "pages": "674-679",
+          "ee": "https://doi.org/10.1109/SMARTGRIDCOMM.2016.7778839",
+          "author": {
+            "#text": "Andras Kovacs",
+            "@pid": "191/4491"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/symmetry/KovacsV24",
-        "title": "Rethinking Electron Statistics Rules.",
-        "pages": "1185",
-        "year": "2024",
-        "volume": "16",
-        "journal": "Symmetry",
-        "number": "9",
-        "ee": "https://doi.org/10.3390/sym16091185",
-        "url": "db/journals/symmetry/symmetry16.html#KovacsV24",
-        "authors": [
-          "Andras Kovacs",
-          "Giorgio Vassallo"
-        ]
+        "article": {
+          "@key": "journals/symmetry/KovacsV24",
+          "title": "Rethinking Electron Statistics Rules",
+          "journal": "Symmetry",
+          "year": "2024",
+          "pages": "1185",
+          "ee": "https://doi.org/10.3390/SYM16091185",
+          "author": [
+            {
+              "#text": "Andras Kovacs",
+              "@pid": "191/4491"
+            },
+            {
+              "#text": "Giorgio Vassallo",
+              "@pid": "10/823"
+            }
+          ]
+        }
       }
     ]
   }

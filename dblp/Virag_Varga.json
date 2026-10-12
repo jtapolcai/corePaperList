@@ -1,134 +1,267 @@
 {
   "dblpperson": {
+    "@name": "Virag Varga",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/mobisys/VargaKVGM15",
-        "title": "Demo: Bringing the Internet of Toys to Life.",
-        "pages": "461",
-        "year": "2015",
-        "booktitle": "MobiSys",
-        "ee": "https://doi.org/10.1145/2742647.2745918",
-        "url": "db/conf/mobisys/mobisys2015.html#VargaKVGM15",
-        "authors": [
-          "Virag Varga",
-          "Lito Kriara",
-          "Vladimir Vukadinovic",
-          "Thomas R. Gross",
-          "Stefan Mangold"
-        ]
+        "inproceedings": {
+          "@key": "conf/mobisys/LamVKGM15",
+          "title": "Demo: TouchCom - Creating Real Excalibur Experience with Body Touch Communication",
+          "booktitle": "MobiSys",
+          "year": "2015",
+          "pages": "453",
+          "ee": "https://doi.org/10.1145/2742647.2745930",
+          "author": [
+            {
+              "#text": "Lito Kriara",
+              "@pid": "94/1986"
+            },
+            {
+              "#text": "Stefan Mangold",
+              "@pid": "95/178"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            },
+            {
+              "#text": "Yawhuei Lam",
+              "@pid": "162/5531"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mobisys/LamVKGM15",
-        "title": "Demo: TouchCom - Creating Real Excalibur Experience with Body Touch Communication.",
-        "pages": "453",
-        "year": "2015",
-        "booktitle": "MobiSys",
-        "ee": "https://doi.org/10.1145/2742647.2745930",
-        "url": "db/conf/mobisys/mobisys2015.html#LamVKGM15",
-        "authors": [
-          "Yawhuei Lam",
-          "Virag Varga",
-          "Lito Kriara",
-          "Thomas R. Gross",
-          "Stefan Mangold"
-        ]
+        "inproceedings": {
+          "@key": "conf/mobisys/VargaKVGM15",
+          "title": "Demo: Bringing the Internet of Toys to Life",
+          "booktitle": "MobiSys",
+          "year": "2015",
+          "pages": "461",
+          "ee": "https://doi.org/10.1145/2742647.2745918",
+          "author": [
+            {
+              "#text": "Lito Kriara",
+              "@pid": "94/1986"
+            },
+            {
+              "#text": "Stefan Mangold",
+              "@pid": "95/178"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            },
+            {
+              "#text": "Vladimir Vukadinovic",
+              "@pid": "14/2395"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uist/VargaWVSG18",
-        "title": "Designing Groundless Body Channel Communication Systems: Performance and Implications.",
-        "pages": "683-695",
-        "year": "2018",
-        "booktitle": "UIST",
-        "ee": "https://doi.org/10.1145/3242587.3242622",
-        "url": "db/conf/uist/uist2018.html#VargaWVSG18",
-        "authors": [
-          "Virag Varga",
-          "Marc Wyss",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "inproceedings": {
+          "@key": "conf/tei/VargaVBRZSGS21",
+          "title": "Real-Time Capture of Holistic Tangible Interactions",
+          "booktitle": "TEI",
+          "year": "2021",
+          "pages": "39:1-39:15",
+          "ee": "https://doi.org/10.1145/3430524.3440658",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Benjamin Bürgisser",
+              "@pid": "268/6346"
+            },
+            {
+              "#text": "Fabio Zünd",
+              "@pid": "142/0115"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Nathan Riopelle",
+              "@pid": "228/1459"
+            },
+            {
+              "#text": "Robert W. Sumner",
+              "@pid": "30/4038"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uist/VargaVSG17",
-        "title": "Playful Interactions with Body Channel Communication: Conquer it!",
-        "pages": "81-82",
-        "year": "2017",
-        "booktitle": "UIST (Adjunct Volume)",
-        "ee": "https://doi.org/10.1145/3131785.3131798",
-        "url": "db/conf/uist/uist2017a.html#VargaVSG17",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "inproceedings": {
+          "@key": "conf/uist/VargaVSG17",
+          "title": "Playful Interactions with Body Channel Communication: Conquer it!",
+          "booktitle": "UIST (Adjunct Volume)",
+          "year": "2017",
+          "pages": "81-82",
+          "ee": "https://doi.org/10.1145/3131785.3131798",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tei/VargaVBRZSGS21",
-        "title": "Real-Time Capture of Holistic Tangible Interactions.",
-        "pages": "39:1-39:15",
-        "year": "2021",
-        "booktitle": "TEI",
-        "ee": "https://www.wikidata.org/entity/Q131136559",
-        "url": "db/conf/tei/tei2021.html#VargaVBRZSGS21",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Benjamin BÃ¼rgisser",
-          "Nathan Riopelle",
-          "Fabio Zund",
-          "Robert W. Sumner",
-          "Thomas R. Gross",
-          "Alanson P. Sample"
-        ]
+        "inproceedings": {
+          "@key": "conf/uist/VargaWVSG18",
+          "title": "Designing Groundless Body Channel Communication Systems: Performance and Implications",
+          "booktitle": "UIST",
+          "year": "2018",
+          "pages": "683-695",
+          "ee": "https://doi.org/10.1145/3242587.3242622",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Marc Wyss",
+              "@pid": "227/7984"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/imwut/AhujaKXVXZTHOA19",
-        "title": "EduSense: Practical Classroom Sensing at Scale.",
-        "pages": "71:1-71:26",
-        "year": "2019",
-        "volume": "3",
-        "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/3351229",
-        "url": "db/journals/imwut/imwut3.html#AhujaKXVXZTHOA19",
-        "authors": [
-          "Karan Ahuja",
-          "Dohyun Kim",
-          "Franceska Xhakaj",
-          "Virag Varga",
-          "Anne Xie",
-          "Stanley Zhang",
-          "Jay Eric Townsend",
-          "Chris Harrison 0001",
-          "Amy Ogan",
-          "Yuvraj Agarwal"
-        ]
+        "article": {
+          "@key": "journals/imwut/AhujaKXVXZTHOA19",
+          "title": "EduSense: Practical Classroom Sensing at Scale",
+          "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "year": "2019",
+          "pages": "71:1-71:26",
+          "ee": "https://doi.org/10.1145/3351229",
+          "author": [
+            {
+              "#text": "Amy Ogan",
+              "@pid": "26/2748"
+            },
+            {
+              "#text": "Anne Xie",
+              "@pid": "251/4576"
+            },
+            {
+              "#text": "Chris Harrison",
+              "@pid": "77/2637"
+            },
+            {
+              "#text": "Do Hyun Kim",
+              "@pid": "93/5867"
+            },
+            {
+              "#text": "Franceska Xhakaj",
+              "@pid": "163/7964"
+            },
+            {
+              "#text": "Jay Eric Townsend",
+              "@pid": "251/4413"
+            },
+            {
+              "#text": "Karan Ahuja",
+              "@pid": "185/0960"
+            },
+            {
+              "#text": "Stanley Zhang",
+              "@pid": "83/9643"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            },
+            {
+              "#text": "Yuvraj Agarwal",
+              "@pid": "84/1053"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/imwut/VargaVSG17",
-        "title": "Enabling Interactive Infrastructure with Body Channel Communication.",
-        "pages": "169:1-169:29",
-        "year": "2017",
-        "volume": "1",
-        "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3161180",
-        "url": "db/journals/imwut/imwut1.html#VargaVSG17",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "article": {
+          "@key": "journals/imwut/VargaVSG17",
+          "title": "Enabling Interactive Infrastructure with Body Channel Communication",
+          "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "year": "2017",
+          "pages": "169:1-169:29",
+          "ee": "https://doi.org/10.1145/3161180",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/basesearch/Varga19",
+          "title": "Reinventing Touch with Body Channel Communication - System Design from Electric Fields To Mixed Reality",
+          "journal": "",
+          "year": "2019",
+          "ee": "https://doi.org/10.3929/ETHZ-B-000356345",
+          "author": {
+            "#text": "Virag Varga",
+            "@pid": "162/5565"
+          }
+        }
       }
     ]
   }

@@ -1,334 +1,533 @@
 {
   "dblpperson": {
+    "@name": "Gergely Vakulya",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEssd/VakulyaS14",
-        "title": "Low power accelerometer based intrusion and tamper detector.",
-        "pages": "1-6",
-        "year": "2014",
-        "booktitle": "SSD",
-        "ee": "https://doi.org/10.1109/SSD.2014.6808878",
-        "url": "db/conf/IEEEssd/ssd2014.html#VakulyaS14",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/KoszteczkyVS15",
+          "title": "Forest intrusion detection system with sensor network",
+          "booktitle": "I2MTC",
+          "year": "2015",
+          "pages": "1672-1676",
+          "ee": "https://doi.org/10.1109/I2MTC.2015.7151531",
+          "author": [
+            {
+              "#text": "Bencze Koszteczky",
+              "@pid": "224/9059"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwmn/SimonVR22",
-        "title": "On the Utilization of Equivalent Sampling in Undersampled Asynchronous Camera Communication Protocols.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "M&N",
-        "ee": "https://doi.org/10.1109/MN55117.2022.9887654",
-        "url": "db/conf/iwmn/ismn2022.html#SimonVR22",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya",
-          "MÃ¡rk RÃ¡tosi"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/RatosiVS21",
+          "title": "Measuring Camera Exposure Time Using Equivalent Sampling",
+          "booktitle": "I2MTC",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/I2MTC50364.2021.9459789",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwmn/VakulyaS13",
-        "title": "Low-power communication protocol for low duty cycle data acquisition applications.",
-        "pages": "58-62",
-        "year": "2013",
-        "booktitle": "M&N",
-        "ee": "https://doi.org/10.1109/IWMN.2013.6663777",
-        "url": "db/conf/iwmn/iwmn2013.html#VakulyaS13",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/VakulyaS13",
+          "title": "Extended round-robin TDMA scheduling scheme for wireless sensor networks",
+          "booktitle": "I2MTC",
+          "year": "2013",
+          "pages": "253-258",
+          "ee": "https://doi.org/10.1109/I2MTC.2013.6555419",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/VakulyaHU22",
-        "title": "Experimental Bolus Sensor for Dairy Cattle.",
-        "pages": "157-162",
-        "year": "2022",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY56759.2022.10036279",
-        "url": "db/conf/sisy/sisy2022.html#VakulyaHU22",
-        "authors": [
-          "Gergely Vakulya",
-          "Eva Hajnal",
-          "Peter Udvardy"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharVS17",
+          "title": "Design of a VLC-based beaconing infrastructure for indoor localization applications",
+          "booktitle": "I2MTC",
+          "year": "2017",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/I2MTC.2017.7969837",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/imcsit/VakulyaS08",
-        "title": "Energy efficient percolation-driven flood routing for large-scale sensor networks.",
-        "pages": "877-883",
-        "year": "2008",
-        "booktitle": "IMCSIT",
-        "ee": "https://doi.org/10.1109/IMCSIT.2008.4747345",
-        "url": "db/conf/imcsit/imcsit2008.html#VakulyaS08",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharVS20",
+          "title": "Bearing estimation using Planar Circular Photodiode Arrays",
+          "booktitle": "I2MTC",
+          "year": "2020",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/I2MTC43012.2020.9128827",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/SimonV23",
-        "title": "Fast Calculation Method for Time Difference of Arrival-based Localization.",
-        "pages": "1-5",
-        "year": "2023",
-        "booktitle": "IPIN",
-        "ee": "https://doi.org/10.1109/IPIN57070.2023.10332489",
-        "url": "db/conf/ipin/ipin2023.html#SimonV23",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEssd/VakulyaS14",
+          "title": "Low power accelerometer based intrusion and tamper detector",
+          "booktitle": "SSD",
+          "year": "2014",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/SSD.2014.6808878",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/ZacharVS19",
-        "title": "Azimuth estimation for indoor localization using redundant planar circular photodiode array.",
-        "pages": "149-156",
-        "year": "2019",
-        "booktitle": "IPIN (Short Papers/Work-in-Progress Papers)",
-        "ee": "https://ceur-ws.org/Vol-2498/short20.pdf",
-        "url": "db/conf/ipin/ipin2019s.html#ZacharVS19",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/imcsit/VakulyaS08",
+          "title": "Energy efficient percolation-driven flood routing for large-scale sensor networks",
+          "booktitle": "IMCSIT",
+          "year": "2008",
+          "pages": "877-883",
+          "ee": "https://doi.org/10.1109/IMCSIT.2008.4747345",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uist/VargaWVSG18",
-        "title": "Designing Groundless Body Channel Communication Systems: Performance and Implications.",
-        "pages": "683-695",
-        "year": "2018",
-        "booktitle": "UIST",
-        "ee": "https://doi.org/10.1145/3242587.3242622",
-        "url": "db/conf/uist/uist2018.html#VargaWVSG18",
-        "authors": [
-          "Virag Varga",
-          "Marc Wyss",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/SimonV23",
+          "title": "Fast Calculation Method for Time Difference of Arrival-based Localization",
+          "booktitle": "IPIN",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IPIN57070.2023.10332489",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uist/VargaVSG17",
-        "title": "Playful Interactions with Body Channel Communication: Conquer it!",
-        "pages": "81-82",
-        "year": "2017",
-        "booktitle": "UIST (Adjunct Volume)",
-        "ee": "https://doi.org/10.1145/3131785.3131798",
-        "url": "db/conf/uist/uist2017a.html#VargaVSG17",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/ZacharVS19",
+          "title": "Azimuth estimation for indoor localization using redundant planar circular photodiode array",
+          "booktitle": "IPIN (Short Papers/Work-in-Progress Papers)",
+          "year": "2019",
+          "pages": "149-156",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tei/VargaVBRZSGS21",
-        "title": "Real-Time Capture of Holistic Tangible Interactions.",
-        "pages": "39:1-39:15",
-        "year": "2021",
-        "booktitle": "TEI",
-        "ee": "https://www.wikidata.org/entity/Q131136559",
-        "url": "db/conf/tei/tei2021.html#VargaVBRZSGS21",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Benjamin BÃ¼rgisser",
-          "Nathan Riopelle",
-          "Fabio Zund",
-          "Robert W. Sumner",
-          "Thomas R. Gross",
-          "Alanson P. Sample"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwmn/SimonVR22",
+          "title": "On the Utilization of Equivalent Sampling in Undersampled Asynchronous Camera Communication Protocols",
+          "booktitle": "M&N",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MN55117.2022.9887654",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharVS17",
-        "title": "Design of a VLC-based beaconing infrastructure for indoor localization applications.",
-        "pages": "1-6",
-        "year": "2017",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2017.7969837",
-        "url": "db/conf/i2mtc/i2mtc2017.html#ZacharVS17",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwmn/VakulyaS13",
+          "title": "Low-power communication protocol for low duty cycle data acquisition applications",
+          "booktitle": "M&N",
+          "year": "2013",
+          "pages": "58-62",
+          "ee": "https://doi.org/10.1109/IWMN.2013.6663777",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharVS20",
-        "title": "Bearing estimation using Planar Circular Photodiode Arrays.",
-        "pages": "1-5",
-        "year": "2020",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC43012.2020.9128827",
-        "url": "db/conf/i2mtc/i2mtc2020.html#ZacharVS20",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/VakulyaHU22",
+          "title": "Experimental Bolus Sensor for Dairy Cattle",
+          "booktitle": "SISY",
+          "year": "2022",
+          "pages": "157-162",
+          "ee": "https://doi.org/10.1109/SISY56759.2022.10036279",
+          "author": [
+            {
+              "#text": "Eva Hajnal",
+              "@pid": "183/1191"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Peter Udvardy",
+              "@pid": "128/6995"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/RatosiVS21",
-        "title": "Measuring Camera Exposure Time Using Equivalent Sampling.",
-        "pages": "1-6",
-        "year": "2021",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC50364.2021.9459789",
-        "url": "db/conf/i2mtc/i2mtc2021.html#RatosiVS21",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/tei/VargaVBRZSGS21",
+          "title": "Real-Time Capture of Holistic Tangible Interactions",
+          "booktitle": "TEI",
+          "year": "2021",
+          "pages": "39:1-39:15",
+          "ee": "https://doi.org/10.1145/3430524.3440658",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Benjamin Bürgisser",
+              "@pid": "268/6346"
+            },
+            {
+              "#text": "Fabio Zünd",
+              "@pid": "142/0115"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Nathan Riopelle",
+              "@pid": "228/1459"
+            },
+            {
+              "#text": "Robert W. Sumner",
+              "@pid": "30/4038"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/KoszteczkyVS15",
-        "title": "Forest intrusion detection system with sensor network.",
-        "pages": "1672-1676",
-        "year": "2015",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2015.7151531",
-        "url": "db/conf/i2mtc/i2mtc2015.html#KoszteczkyVS15",
-        "authors": [
-          "Bencze Koszteczky",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/uist/VargaVSG17",
+          "title": "Playful Interactions with Body Channel Communication: Conquer it!",
+          "booktitle": "UIST (Adjunct Volume)",
+          "year": "2017",
+          "pages": "81-82",
+          "ee": "https://doi.org/10.1145/3131785.3131798",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/VakulyaS13",
-        "title": "Extended round-robin TDMA scheduling scheme for wireless sensor networks.",
-        "pages": "253-258",
-        "year": "2013",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2013.6555419",
-        "url": "db/conf/i2mtc/i2mtc2013.html#VakulyaS13",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/uist/VargaWVSG18",
+          "title": "Designing Groundless Body Channel Communication Systems: Performance and Implications",
+          "booktitle": "UIST",
+          "year": "2018",
+          "pages": "683-695",
+          "ee": "https://doi.org/10.1145/3242587.3242622",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Marc Wyss",
+              "@pid": "227/7984"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/HajnalKV22",
-        "title": "Dairy Cattle Rumen Bolus Developments with Special Regard to the Applicable Artificial Intelligence (AI) Methods.",
-        "pages": "6812",
-        "year": "2022",
-        "volume": "22",
-        "journal": "Sensors",
-        "number": "18",
-        "ee": "https://doi.org/10.3390/s22186812",
-        "url": "db/journals/sensors/sensors22.html#HajnalKV22",
-        "authors": [
-          "Eva Hajnal",
-          "Levente KovÃ¡cs",
-          "Gergely Vakulya"
-        ]
+        "article": {
+          "@key": "journals/imwut/VargaVSG17",
+          "title": "Enabling Interactive Infrastructure with Body Channel Communication",
+          "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+          "year": "2017",
+          "pages": "169:1-169:29",
+          "ee": "https://doi.org/10.1145/3161180",
+          "author": [
+            {
+              "#text": "Alanson P. Sample",
+              "@pid": "99/1299"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Thomas R. Gross",
+              "@pid": "g/ThomasRGross"
+            },
+            {
+              "#text": "Virag Varga",
+              "@pid": "162/5565"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/SimonVR22",
-        "title": "The Way to Modern Shutter Speed Measurement Methods: A Historical Overview.",
-        "pages": "1871",
-        "year": "2022",
-        "volume": "22",
-        "journal": "Sensors",
-        "number": "5",
-        "ee": "https://doi.org/10.3390/s22051871",
-        "url": "db/journals/sensors/sensors22.html#SimonVR22",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya",
-          "MÃ¡rk RÃ¡tosi"
-        ]
+        "article": {
+          "@key": "journals/sensors/HajnalKV22",
+          "title": "Dairy Cattle Rumen Bolus Developments with Special Regard to the Applicable Artificial Intelligence (AI) Methods",
+          "journal": "Sensors",
+          "year": "2022",
+          "pages": "6812",
+          "ee": "https://doi.org/10.3390/S22186812",
+          "author": [
+            {
+              "#text": "Eva Hajnal",
+              "@pid": "183/1191"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonZV17",
-        "title": "Lookup: Robust and Accurate Indoor Localization Using Visible Light Communication.",
-        "pages": "2337-2348",
-        "year": "2017",
-        "volume": "66",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "9",
-        "ee": "https://doi.org/10.1109/TIM.2017.2707878",
-        "url": "db/journals/tim/tim66.html#SimonZV17",
-        "authors": [
-          "Gyula Simon",
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya"
-        ]
+        "article": {
+          "@key": "journals/sensors/SimonVR22",
+          "title": "The Way to Modern Shutter Speed Measurement Methods: A Historical Overview",
+          "journal": "Sensors",
+          "year": "2022",
+          "pages": "1871",
+          "ee": "https://doi.org/10.3390/S22051871",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonRV22",
-        "title": "Automatic Measurement of Digital Cameras' Exposure Time Using Equivalent Sampling.",
-        "pages": "1-10",
-        "year": "2022",
-        "volume": "71",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "ee": "https://doi.org/10.1109/TIM.2022.3186372",
-        "url": "db/journals/tim/tim71.html#SimonRV22",
-        "authors": [
-          "Gyula Simon",
-          "MÃ¡rk RÃ¡tosi",
-          "Gergely Vakulya"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonRV22",
+          "title": "Automatic Measurement of Digital Cameras' Exposure Time Using Equivalent Sampling",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2022",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/TIM.2022.3186372",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/VakulyaS11",
-        "title": "Fast Adaptive Acoustic Localization for Sensor Networks.",
-        "pages": "1820-1829",
-        "year": "2011",
-        "volume": "60",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/TIM.2011.2108074",
-        "url": "db/journals/tim/tim60.html#VakulyaS11",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonZV17",
+          "title": "Lookup: Robust and Accurate Indoor Localization Using Visible Light Communication",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2017",
+          "pages": "2337-2348",
+          "ee": "https://doi.org/10.1109/TIM.2017.2707878",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/imwut/VargaVSG17",
-        "title": "Enabling Interactive Infrastructure with Body Channel Communication.",
-        "pages": "169:1-169:29",
-        "year": "2017",
-        "volume": "1",
-        "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3161180",
-        "url": "db/journals/imwut/imwut1.html#VargaVSG17",
-        "authors": [
-          "Virag Varga",
-          "Gergely Vakulya",
-          "Alanson P. Sample",
-          "Thomas R. Gross"
-        ]
+        "article": {
+          "@key": "journals/tim/VakulyaS11",
+          "title": "Fast Adaptive Acoustic Localization for Sensor Networks",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2011",
+          "pages": "1820-1829",
+          "ee": "https://doi.org/10.1109/TIM.2011.2108074",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gergely15",
+          "title": "Köztesréteg szolgáltatások hatékony megvalósítása szenzorhálózatokban",
+          "journal": "",
+          "year": "2015",
+          "author": {
+            "#text": "Gergely Vakulya",
+            "@pid": "55/8120"
+          }
+        }
       }
     ]
   }

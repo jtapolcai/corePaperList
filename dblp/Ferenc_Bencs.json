@@ -1,470 +1,684 @@
 {
   "dblpperson": {
+    "@name": "Ferenc Bencs",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/soda/BencsC0V23",
-        "title": "On complex roots of the independence polynomial.",
-        "pages": "675-699",
-        "year": "2023",
-        "booktitle": "SODA",
-        "ee": "https://doi.org/10.1137/1.9781611977554.ch29",
-        "url": "db/conf/soda/soda2023.html#BencsC0V23",
-        "authors": [
-          "Ferenc Bencs",
-          "PÃ©ter CsikvÃ¡ri",
-          "Piyush Srivastava 0001",
-          "Jan VondrÃ¡k"
-        ]
+        "inproceedings": {
+          "@key": "conf/soda/BencsC0V23",
+          "title": "On complex roots of the independence polynomial",
+          "booktitle": "SODA",
+          "year": "2023",
+          "pages": "675-699",
+          "ee": "https://doi.org/10.1137/1.9781611977554.CH29",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Jan Vondrák",
+              "@pid": "29/5942"
+            },
+            {
+              "#text": "Péter Csikvári",
+              "@pid": "88/8047"
+            },
+            {
+              "#text": "Piyush Srivastava",
+              "@pid": "27/9075"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/stoc/BencsHLLR26",
-        "title": "On Zeros and Algorithms for Disordered Systems: Mean-Field Spin Glasses.",
-        "pages": "508-517",
-        "year": "2026",
-        "booktitle": "STOC",
-        "ee": "https://doi.org/10.1145/3798129.3800769",
-        "url": "db/conf/stoc/stoc2026.html#BencsHLLR26",
-        "authors": [
-          "Ferenc Bencs",
-          "Brice Huang",
-          "Daniel Z. Lee",
-          "Kuikui Liu",
-          "Guus Regts"
-        ]
+        "inproceedings": {
+          "@key": "conf/stoc/BencsHLLR26",
+          "title": "On Zeros and Algorithms for Disordered Systems: Mean-Field Spin Glasses",
+          "booktitle": "STOC",
+          "year": "2026",
+          "pages": "508-517",
+          "ee": "https://doi.org/10.1145/3798129.3800769",
+          "author": [
+            {
+              "#text": "Brice Huang",
+              "@pid": "240/5301"
+            },
+            {
+              "#text": "Daniel Z. Lee",
+              "@pid": "415/0680"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Kuikui Liu",
+              "@pid": "230/3619"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cc/BencsHR24",
-        "title": "Approximating the chromatic polynomial is as hard as computing it exactly.",
-        "pages": "1",
-        "year": "2024",
-        "volume": "33",
-        "journal": "Comput. Complex.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00037-023-00247-8",
-        "url": "db/journals/cc/cc33.html#BencsHR24",
-        "authors": [
-          "Ferenc Bencs",
-          "Jeroen Huijben",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/cc/BencsHR24",
+          "title": "Approximating the chromatic polynomial is as hard as computing it exactly",
+          "journal": "Comput. Complex.",
+          "year": "2024",
+          "pages": "1",
+          "ee": "https://doi.org/10.1007/S00037-023-00247-8",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Jeroen Huijben",
+              "@pid": "288/2518"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/rsa/BencsB25",
-        "title": "Optimal Zero-Free Regions for the Independence Polynomial of Bounded Degree Hypergraphs.",
-        "year": "2025",
-        "volume": "66",
-        "journal": "Random Struct. Algorithms",
-        "number": "4",
-        "ee": "https://doi.org/10.1002/rsa.70018",
-        "url": "db/journals/rsa/rsa66.html#BencsB25",
-        "authors": [
-          "Ferenc Bencs",
-          "Pjotr Buys"
-        ]
+        "article": {
+          "@key": "journals/combinatorics/BencsCR21",
+          "title": "Some Applications of Wagner's Weighted Subgraph Counting Polynomial",
+          "journal": "Electron. J. Comb.",
+          "year": "2021",
+          "ee": "https://doi.org/10.37236/10185",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Péter Csikvári",
+              "@pid": "88/8047"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/combinatorics/BencsCR21",
-        "title": "Some Applications of Wagner's Weighted Subgraph Counting Polynomial.",
-        "year": "2021",
-        "volume": "28",
-        "journal": "Electron. J. Comb.",
-        "number": "4",
-        "ee": "https://doi.org/10.37236/10185",
-        "url": "db/journals/combinatorics/combinatorics28.html#BencsCR21",
-        "authors": [
-          "Ferenc Bencs",
-          "PÃ©ter CsikvÃ¡ri",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/combinatorics/BencsHR23",
+          "title": "On the Location of Chromatic Zeros of Series-Parallel Graphs",
+          "journal": "Electron. J. Comb.",
+          "year": "2023",
+          "ee": "https://doi.org/10.37236/11204",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Jeroen Huijben",
+              "@pid": "288/2518"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/combinatorics/BencsHR23",
-        "title": "On the Location of Chromatic Zeros of Series-Parallel Graphs.",
-        "year": "2023",
-        "volume": "30",
-        "journal": "Electron. J. Comb.",
-        "number": "3",
-        "ee": "https://doi.org/10.37236/11204",
-        "url": "db/journals/combinatorics/combinatorics30.html#BencsHR23",
-        "authors": [
-          "Ferenc Bencs",
-          "Jeroen Huijben",
-          "Guus Regts"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1812-07532",
+          "title": "On zero-free regions for the anti-ferromagnetic Potts model on bounded-degree graphs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1812.07532",
+          "author": [
+            {
+              "#text": "Ewan Davies",
+              "@pid": "172/8192"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Viresh Patel",
+              "@pid": "33/2410"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/theoretics/BencsBR26",
-        "title": "Deterministic approximate counting of colorings with fewer than 2Δ colors via absence of zeros.",
-        "year": "2026",
-        "volume": "5",
-        "journal": "TheoretiCS",
-        "ee": "https://doi.org/10.46298/theoretics.26.1",
-        "url": "db/journals/theoretics/theoretics5.html#BencsBR26",
-        "authors": [
-          "Ferenc Bencs",
-          "Khallil Berrekkal",
-          "Guus Regts"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2203-15457",
+          "title": "Uniqueness of the Gibbs measure for the anti-ferromagnetic Potts model on the infinite Δ-regular tree for large Δ",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2203.15457",
+          "author": [
+            {
+              "#text": "David de Boer",
+              "@pid": "278/3147"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Pjotr Buys",
+              "@pid": "278/2997"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dcg/BencsR26",
-        "title": "Approximating the Volume of a Truncated Relaxation of the Independence Polytope.",
-        "year": "2026",
-        "pages": "508-525",
-        "volume": "76",
-        "journal": "Discret. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00454-026-00824-y",
-        "url": "db/journals/dcg/dcg76.html#BencsR26",
-        "authors": [
-          "Ferenc Bencs",
-          "Guus Regts"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2204-04868",
+          "title": "On complex roots of the independence polynomial",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.04868",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Jan Vondrák",
+              "@pid": "29/5942"
+            },
+            {
+              "#text": "Péter Csikvári",
+              "@pid": "88/8047"
+            },
+            {
+              "#text": "Piyush Srivastava",
+              "@pid": "27/9075"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cpc/Bencs18",
-        "title": "Christoffel-Darboux Type Identities for the Independence Polynomial.",
-        "pages": "716-724",
-        "year": "2018",
-        "volume": "27",
-        "journal": "Comb. Probab. Comput.",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q130028676",
-        "url": "db/journals/cpc/cpc27.html#Bencs18",
-        "authors": [
-          "Ferenc Bencs"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2204-10038",
+          "title": "On the location of chromatic zeros of series-parallel graphs",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.10038",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Jeroen Huijben",
+              "@pid": "288/2518"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/int/ArendasBBS16",
-        "title": "Compositions of Complements of Graphs.",
-        "pages": "A29",
-        "year": "2016",
-        "volume": "16",
-        "journal": "Integers",
-        "ee": "http://math.colgate.edu/~integers/q29/q29.Abstract.html",
-        "url": "db/journals/int/int16.html#ArendasBBS16",
-        "authors": [
-          "PÃ©ter ÃrendÃ¡s",
-          "Ferenc Bencs",
-          "ZoltÃ¡n BlÃ¡zsik",
-          "Csaba SzabÃ³"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2211-13790",
+          "title": "Approximating the chromatic polynomial is as hard as computing it exactly",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.13790",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Jeroen Huijben",
+              "@pid": "288/2518"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dm/BencsHT24",
-        "title": "Factor-of-iid Schreier decorations of lattices in Euclidean spaces.",
-        "pages": "114056",
-        "year": "2024",
-        "volume": "347",
-        "journal": "Discret. Math.",
-        "number": "9",
-        "ee": "https://doi.org/10.1016/j.disc.2024.114056",
-        "url": "db/journals/dm/dm347.html#BencsHT24",
-        "authors": [
-          "Ferenc Bencs",
-          "Aranka HruskovÃ¡",
-          "LÃ¡szlÃ³ MÃ¡rton TÃ³th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2310-04338",
+          "title": "Near optimal bounds for weak and strong spatial mixing for the anti-ferromagnetic Potts model on trees",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.04338",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Khallil Berrekkal",
+              "@pid": "359/2067"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dm/Bencs18",
-        "title": "On trees with real-rooted independence polynomial.",
-        "pages": "3321-3330",
-        "year": "2018",
-        "volume": "341",
-        "journal": "Discret. Math.",
-        "number": "12",
-        "ee": "https://doi.org/10.1016/j.disc.2018.06.033",
-        "url": "db/journals/dm/dm341.html#Bencs18",
-        "authors": [
-          "Ferenc Bencs"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2404-08577",
+          "title": "Approximating the volume of a truncated relaxation of the independence polytope",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2404.08577",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/Bencs21",
-        "title": "Some coefficient sequences related to the descent polynomial.",
-        "pages": "103396",
-        "year": "2021",
-        "volume": "98",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://doi.org/10.1016/j.ejc.2021.103396",
-        "url": "db/journals/ejc/ejc98.html#Bencs21",
-        "authors": [
-          "Ferenc Bencs"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2408-04727",
+          "title": "Deterministic approximate counting of colorings with fewer than 2Δ colors via absence of zeros",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2408.04727",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Khallil Berrekkal",
+              "@pid": "359/2067"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/BencsC23",
-        "title": "Upper bound for the number of spanning forests of regular graphs.",
-        "pages": "103677",
-        "year": "2023",
-        "volume": "110",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://doi.org/10.1016/j.ejc.2022.103677",
-        "url": "db/journals/ejc/ejc110.html#BencsC23",
-        "authors": [
-          "Ferenc Bencs",
-          "PÃ©ter CsikvÃ¡ri"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2505-04366",
+          "title": "Improved bounds on the zeros of the chromatic polynomial of graphs and claw-free graphs",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.04366",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/Bencs17",
-        "title": "One more remark on the adjoint polynomial.",
-        "pages": "253-258",
-        "year": "2017",
-        "volume": "65",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://doi.org/10.1016/j.ejc.2017.06.005",
-        "url": "db/journals/ejc/ejc65.html#Bencs17",
-        "authors": [
-          "Ferenc Bencs"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2507-03135",
+          "title": "Barvinok's interpolation method meets Weitz's correlation decay approach",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.03135",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/BencsHT24",
-        "title": "Factor-of-iid balanced orientation of non-amenable graphs.",
-        "pages": "103784",
-        "year": "2024",
-        "volume": "115",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://doi.org/10.1016/j.ejc.2023.103784",
-        "url": "db/journals/ejc/ejc115.html#BencsHT24",
-        "authors": [
-          "Ferenc Bencs",
-          "Aranka HruskovÃ¡",
-          "LÃ¡szlÃ³ MÃ¡rton TÃ³th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2507-15616",
+          "title": "On zeros and algorithms for disordered systems: mean-field spin glasses",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.15616",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Kuikui Liu",
+              "@pid": "230/3619"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jctb/BencsC22",
-        "title": "Evaluations of Tutte polynomials of regular graphs.",
-        "pages": "500-523",
-        "year": "2022",
-        "volume": "157",
-        "journal": "J. Comb. Theory B",
-        "ee": "https://doi.org/10.1016/j.jctb.2022.08.003",
-        "url": "db/journals/jctb/jctb157.html#BencsC22",
-        "authors": [
-          "Ferenc Bencs",
-          "PÃ©ter CsikvÃ¡ri"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2512-11504",
+          "title": "On the complex zeros and the computational complexity of approximating the reliability polynomial",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.11504",
+          "author": [
+            {
+              "#text": "Chiara Piombi",
+              "@pid": "424/9357"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2505-04366",
-        "title": "Improved bounds on the zeros of the chromatic polynomial of graphs and claw-free graphs.",
-        "year": "2025",
-        "volume": "abs/2505.04366",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2505.04366",
-        "url": "db/journals/corr/corr2505.html#abs-2505-04366",
-        "authors": [
-          "Ferenc Bencs",
-          "Guus Regts"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2608-09729",
+          "title": "On the self-intersection time of non-backtracking random walks",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.09729",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Gabor Pete",
+              "@pid": "445/7627"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Leslie Ann Goldberg",
+              "@pid": "67/941"
+            },
+            {
+              "#text": "Mark Jerrum",
+              "@pid": "j/MarkJerrum"
+            },
+            {
+              "#text": "Matthew Jenssen",
+              "@pid": "126/6712"
+            },
+            {
+              "#text": "Yitong Yin",
+              "@pid": "30/328"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2211-13790",
-        "title": "Approximating the chromatic polynomial is as hard as computing it exactly.",
-        "year": "2022",
-        "volume": "abs/2211.13790",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2211.13790",
-        "url": "db/journals/corr/corr2211.html#abs-2211-13790",
-        "authors": [
-          "Ferenc Bencs",
-          "Jeroen Huijben",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/cpc/Bencs18",
+          "title": "Christoffel-Darboux Type Identities for the Independence Polynomial",
+          "journal": "Comb. Probab. Comput.",
+          "year": "2018",
+          "pages": "716-724",
+          "ee": "https://doi.org/10.1017/S0963548318000135",
+          "author": {
+            "#text": "Ferenc Bencs",
+            "@pid": "204/8940"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2507-03135",
-        "title": "Barvinok's interpolation method meets Weitz's correlation decay approach.",
-        "year": "2025",
-        "volume": "abs/2507.03135",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2507.03135",
-        "url": "db/journals/corr/corr2507.html#abs-2507-03135",
-        "authors": [
-          "Ferenc Bencs",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/dcg/BencsR26",
+          "title": "Approximating the Volume of a Truncated Relaxation of the Independence Polytope",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2026",
+          "pages": "508-525",
+          "ee": "https://doi.org/10.1007/S00454-026-00824-Y",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2404-08577",
-        "title": "Approximating the volume of a truncated relaxation of the independence polytope.",
-        "year": "2024",
-        "volume": "abs/2404.08577",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2404.08577",
-        "url": "db/journals/corr/corr2404.html#abs-2404-08577",
-        "authors": [
-          "Ferenc Bencs",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/dm/Bencs18",
+          "title": "On trees with real-rooted independence polynomial",
+          "journal": "Discret. Math.",
+          "year": "2018",
+          "pages": "3321-3330",
+          "ee": "https://doi.org/10.1016/J.DISC.2018.06.033",
+          "author": {
+            "#text": "Ferenc Bencs",
+            "@pid": "204/8940"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2310-04338",
-        "title": "Near optimal bounds for weak and strong spatial mixing for the anti-ferromagnetic Potts model on trees.",
-        "year": "2023",
-        "volume": "abs/2310.04338",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2310.04338",
-        "url": "db/journals/corr/corr2310.html#abs-2310-04338",
-        "authors": [
-          "Ferenc Bencs",
-          "Khallil Berrekkal",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/dm/BencsHT24",
+          "title": "Factor-of-iid Schreier decorations of lattices in Euclidean spaces",
+          "journal": "Discret. Math.",
+          "year": "2024",
+          "pages": "114056",
+          "ee": "https://doi.org/10.1016/J.DISC.2024.114056",
+          "author": [
+            {
+              "#text": "Aranka Hrusková",
+              "@pid": "359/4105"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "László Márton Tóth",
+              "@pid": "359/1606"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2204-10038",
-        "title": "On the location of chromatic zeros of series-parallel graphs.",
-        "year": "2022",
-        "volume": "abs/2204.10038",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2204.10038",
-        "url": "db/journals/corr/corr2204.html#abs-2204-10038",
-        "authors": [
-          "Ferenc Bencs",
-          "Jeroen Huijben",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/ejc/Bencs17",
+          "title": "One more remark on the adjoint polynomial",
+          "journal": "Eur. J. Comb.",
+          "year": "2017",
+          "pages": "253-258",
+          "ee": "https://doi.org/10.1016/J.EJC.2017.06.005",
+          "author": {
+            "#text": "Ferenc Bencs",
+            "@pid": "204/8940"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2608-09729",
-        "title": "On the self-intersection time of non-backtracking random walks.",
-        "year": "2026",
-        "volume": "abs/2608.09729",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2608.09729",
-        "url": "db/journals/corr/corr2608.html#abs-2608-09729",
-        "authors": [
-          "Ferenc Bencs",
-          "Leslie Ann Goldberg",
-          "Matthew Jenssen",
-          "Mark Jerrum",
-          "Gabor Pete",
-          "Guus Regts",
-          "Yitong Yin"
-        ]
+        "article": {
+          "@key": "journals/ejc/Bencs21",
+          "title": "Some coefficient sequences related to the descent polynomial",
+          "journal": "Eur. J. Comb.",
+          "year": "2021",
+          "pages": "103396",
+          "ee": "https://doi.org/10.1016/J.EJC.2021.103396",
+          "author": {
+            "#text": "Ferenc Bencs",
+            "@pid": "204/8940"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2408-04727",
-        "title": "Deterministic approximate counting of colorings with fewer than 2Δ colors via absence of zeros.",
-        "year": "2024",
-        "volume": "abs/2408.04727",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2408.04727",
-        "url": "db/journals/corr/corr2408.html#abs-2408-04727",
-        "authors": [
-          "Ferenc Bencs",
-          "Khallil Berrekkal",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/ejc/BencsC23",
+          "title": "Upper bound for the number of spanning forests of regular graphs",
+          "journal": "Eur. J. Comb.",
+          "year": "2023",
+          "pages": "103677",
+          "ee": "https://doi.org/10.1016/J.EJC.2022.103677",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Péter Csikvári",
+              "@pid": "88/8047"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1812-07532",
-        "title": "On zero-free regions for the anti-ferromagnetic Potts model on bounded-degree graphs.",
-        "year": "2018",
-        "volume": "abs/1812.07532",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1812.07532",
-        "url": "db/journals/corr/corr1812.html#abs-1812-07532",
-        "authors": [
-          "Ferenc Bencs",
-          "Ewan Davies",
-          "Viresh Patel",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/ejc/BencsHT24",
+          "title": "Factor-of-iid balanced orientation of non-amenable graphs",
+          "journal": "Eur. J. Comb.",
+          "year": "2024",
+          "pages": "103784",
+          "ee": "https://doi.org/10.1016/J.EJC.2023.103784",
+          "author": [
+            {
+              "#text": "Aranka Hrusková",
+              "@pid": "359/4105"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "László Márton Tóth",
+              "@pid": "359/1606"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2204-04868",
-        "title": "On complex roots of the independence polynomial.",
-        "year": "2022",
-        "volume": "abs/2204.04868",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2204.04868",
-        "url": "db/journals/corr/corr2204.html#abs-2204-04868",
-        "authors": [
-          "Ferenc Bencs",
-          "PÃ©ter CsikvÃ¡ri",
-          "Piyush Srivastava 0001",
-          "Jan VondrÃ¡k"
-        ]
+        "article": {
+          "@key": "journals/int/ArendasBBS16",
+          "title": "Compositions of Complements of Graphs",
+          "journal": "Integers",
+          "year": "2016",
+          "pages": "A29",
+          "author": [
+            {
+              "#text": "Csaba Szabó",
+              "@pid": "91/2482"
+            },
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Péter Árendás",
+              "@pid": "260/9714"
+            },
+            {
+              "#text": "Zoltán Blázsik",
+              "@pid": "11/2803"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2203-15457",
-        "title": "Uniqueness of the Gibbs measure for the anti-ferromagnetic Potts model on the infinite Δ-regular tree for large Δ.",
-        "year": "2022",
-        "volume": "abs/2203.15457",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2203.15457",
-        "url": "db/journals/corr/corr2203.html#abs-2203-15457",
-        "authors": [
-          "Ferenc Bencs",
-          "David de Boer",
-          "Pjotr Buys",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/jctb/BencsC22",
+          "title": "Evaluations of Tutte polynomials of regular graphs",
+          "journal": "J. Comb. Theory B",
+          "year": "2022",
+          "pages": "500-523",
+          "ee": "https://doi.org/10.1016/J.JCTB.2022.08.003",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Péter Csikvári",
+              "@pid": "88/8047"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2507-15616",
-        "title": "On zeros and algorithms for disordered systems: mean-field spin glasses.",
-        "year": "2025",
-        "volume": "abs/2507.15616",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2507.15616",
-        "url": "db/journals/corr/corr2507.html#abs-2507-15616",
-        "authors": [
-          "Ferenc Bencs",
-          "Kuikui Liu",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/rsa/BencsB25",
+          "title": "Optimal Zero-Free Regions for the Independence Polynomial of Bounded Degree Hypergraphs",
+          "journal": "Random Struct. Algorithms",
+          "year": "2025",
+          "ee": "https://doi.org/10.1002/RSA.70018",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Pjotr Buys",
+              "@pid": "278/2997"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2512-11504",
-        "title": "On the complex zeros and the computational complexity of approximating the reliability polynomial.",
-        "year": "2025",
-        "volume": "abs/2512.11504",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2512.11504",
-        "url": "db/journals/corr/corr2512.html#abs-2512-11504",
-        "authors": [
-          "Ferenc Bencs",
-          "Chiara Piombi",
-          "Guus Regts"
-        ]
+        "article": {
+          "@key": "journals/theoretics/BencsBR26",
+          "title": "Deterministic approximate counting of colorings with fewer than 2Δ colors via absence of zeros",
+          "journal": "TheoretiCS",
+          "year": "2026",
+          "ee": "https://doi.org/10.46298/THEORETICS.26.1",
+          "author": [
+            {
+              "#text": "Ferenc Bencs",
+              "@pid": "204/8940"
+            },
+            {
+              "#text": "Guus Regts",
+              "@pid": "09/10647"
+            },
+            {
+              "#text": "Khallil Berrekkal",
+              "@pid": "359/2067"
+            }
+          ]
+        }
       }
     ]
   }

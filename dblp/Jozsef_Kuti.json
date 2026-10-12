@@ -1,117 +1,270 @@
 {
   "dblpperson": {
+    "@name": "Jozsef Kuti",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/KutiG17",
-        "title": "Computational relaxations for affine tensor product model transformation.",
-        "pages": "333-338",
-        "year": "2017",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY.2017.8080577",
-        "url": "db/conf/sisy/sisy2017.html#KutiG17",
-        "authors": [
-          "Jozsef Kuti",
-          "PÃ©ter Galambos"
-        ]
+        "inproceedings": {
+          "@key": "conf/saci/KutiG21",
+          "title": "Decreasing the Computational Demand of Unscented Kalman Filter based Methods",
+          "booktitle": "SACI",
+          "year": "2021",
+          "pages": "181-186",
+          "ee": "https://doi.org/10.1109/SACI51354.2021.9465610",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/KutiGBV15",
-        "title": "A Hands-On Demonstration of Control Performance Optimization Using Tensor Product Model Transformation and Convex Hull Manipulation.",
-        "pages": "2609-2614",
-        "year": "2015",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/SMC.2015.456",
-        "url": "db/conf/smc/smc2015.html#KutiGBV15",
-        "authors": [
-          "Jozsef Kuti",
-          "PÃ©ter Galambos",
-          "PÃ©ter Baranyi",
-          "PÃ©ter VÃ¡rlaki"
-        ]
+        "inproceedings": {
+          "@key": "conf/saci/KutiG23",
+          "title": "Revitalizing KUKA youBot project for Research and Educational purposes: Architecture of a new C++ driver",
+          "booktitle": "SACI",
+          "year": "2023",
+          "pages": "605-610",
+          "ee": "https://doi.org/10.1109/SACI58269.2023.10158592",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/KutiGB16",
-        "title": "Non-simplex enclosing polytope generation concept for Tensor Product model transformation based controller design.",
-        "pages": "3368-3373",
-        "year": "2016",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/SMC.2016.7844754",
-        "url": "db/conf/smc/smc2016.html#KutiGB16",
-        "authors": [
-          "Jozsef Kuti",
-          "PÃ©ter Galambos",
-          "PÃ©ter Baranyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/KutiG17",
+          "title": "Computational relaxations for affine tensor product model transformation",
+          "booktitle": "SISY",
+          "year": "2017",
+          "pages": "333-338",
+          "ee": "https://doi.org/10.1109/SISY.2017.8080577",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/TakacsKHGR16",
-        "title": "Polytopic model based interaction control for soft tissue manipulation.",
-        "pages": "3899-3905",
-        "year": "2016",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/SMC.2016.7844843",
-        "url": "db/conf/smc/smc2016.html#TakacsKHGR16",
-        "authors": [
-          "ÃrpÃ¡d TakÃ¡cs",
-          "Jozsef Kuti",
-          "TamÃ¡s Haidegger",
-          "PÃ©ter Galambos",
-          "Imre J. Rudas"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/GalambosKBSR15",
+          "title": "Tensor Product Based Convex Polytopic Modeling of Nonlinear Insulin-Glucose Dynamics",
+          "booktitle": "SMC",
+          "year": "2015",
+          "pages": "2597-2602",
+          "ee": "https://doi.org/10.1109/SMC.2015.454",
+          "author": [
+            {
+              "#text": "Gabor Szogi",
+              "@pid": "174/3448"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/GalambosKBSR15",
-        "title": "Tensor Product Based Convex Polytopic Modeling of Nonlinear Insulin-Glucose Dynamics.",
-        "pages": "2597-2602",
-        "year": "2015",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/SMC.2015.454",
-        "url": "db/conf/smc/smc2015.html#GalambosKBSR15",
-        "authors": [
-          "PÃ©ter Galambos",
-          "Jozsef Kuti",
-          "PÃ©ter Baranyi",
-          "Gabor Szogi",
-          "Imre J. Rudas"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/KutiGB16",
+          "title": "Non-simplex enclosing polytope generation concept for Tensor Product model transformation based controller design",
+          "booktitle": "SMC",
+          "year": "2016",
+          "pages": "3368-3373",
+          "ee": "https://doi.org/10.1109/SMC.2016.7844754",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tsmc/KarolyGKR21",
-        "title": "Deep Learning in Robotics: Survey on Model Structures and Training Strategies.",
-        "pages": "266-279",
-        "year": "2021",
-        "volume": "51",
-        "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TSMC.2020.3018325",
-        "url": "db/journals/tsmc/tsmc51.html#KarolyGKR21",
-        "authors": [
-          "ArtÃºr IstvÃ¡n KÃ¡roly",
-          "PÃ©ter Galambos",
-          "Jozsef Kuti",
-          "Imre J. Rudas"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/KutiGBV15",
+          "title": "A Hands-On Demonstration of Control Performance Optimization Using Tensor Product Model Transformation and Convex Hull Manipulation",
+          "booktitle": "SMC",
+          "year": "2015",
+          "pages": "2609-2614",
+          "ee": "https://doi.org/10.1109/SMC.2015.456",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            },
+            {
+              "#text": "Péter Várlaki",
+              "@pid": "50/1605"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/complexity/KutiG18",
-        "title": "Affine Tensor Product Model Transformation.",
-        "pages": "4073531:1-4073531:12",
-        "year": "2018",
-        "volume": "2018",
-        "journal": "Complex.",
-        "ee": "https://doi.org/10.1155/2018/4073531",
-        "url": "db/journals/complexity/complexity2018.html#KutiG18",
-        "authors": [
-          "Jozsef Kuti",
-          "PÃ©ter Galambos"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/TakacsKHGR16",
+          "title": "Polytopic model based interaction control for soft tissue manipulation",
+          "booktitle": "SMC",
+          "year": "2016",
+          "pages": "3899-3905",
+          "ee": "https://doi.org/10.1109/SMC.2016.7844843",
+          "author": [
+            {
+              "#text": "Árpád Takács",
+              "@pid": "155/4632"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            },
+            {
+              "#text": "Tamás Haidegger",
+              "@pid": "06/7853"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/complexity/KutiG18",
+          "title": "Affine Tensor Product Model Transformation",
+          "journal": "Complex.",
+          "year": "2018",
+          "pages": "4073531:1-4073531:12",
+          "ee": "https://doi.org/10.1155/2018/4073531",
+          "author": [
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcyb/KutiRGG23",
+          "title": "Computationally Relaxed Unscented Kalman Filter",
+          "journal": "IEEE Trans. Cybern.",
+          "year": "2023",
+          "pages": "1557-1565",
+          "ee": "https://doi.org/10.1109/TCYB.2022.3181211",
+          "author": [
+            {
+              "#text": "Huijun Gao",
+              "@pid": "01/4829"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsmc/KarolyGKR21",
+          "title": "Deep Learning in Robotics: Survey on Model Structures and Training Strategies",
+          "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
+          "year": "2021",
+          "pages": "266-279",
+          "ee": "https://doi.org/10.1109/TSMC.2020.3018325",
+          "author": [
+            {
+              "#text": "Artúr István Károly",
+              "@pid": "249/8428"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Jozsef Kuti",
+              "@pid": "174/3446"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Jozsef18a",
+          "title": "Generalization of Tensor Product Model Based Control Analysis and Synthesis",
+          "journal": "",
+          "year": "2018",
+          "author": {
+            "#text": "Jozsef Kuti",
+            "@pid": "174/3446"
+          }
+        }
       }
     ]
   }

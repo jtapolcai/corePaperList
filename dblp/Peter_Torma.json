@@ -1,0 +1,101 @@
+{
+  "dblpperson": {
+    "@name": "Péter Torma",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/aistats/TormaS03",
+          "title": "Sequential Importance Sampling for Visual Tracking Reconsidered",
+          "booktitle": "AISTATS",
+          "year": "2003",
+          "pages": "284-291",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Péter Torma",
+              "@pid": "41/832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eccv/TormaS04",
+          "title": "Enhancing Particle Filters Using Local Likelihood Sampling",
+          "booktitle": "ECCV (1)",
+          "year": "2004",
+          "pages": "16-27",
+          "ee": "https://doi.org/10.1007/978-3-540-24670-1_2",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Péter Torma",
+              "@pid": "41/832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/jmlr/TormaGS10",
+          "title": "A Markov-Chain Monte Carlo Approach to Simultaneous Localization and Mapping",
+          "booktitle": "AISTATS",
+          "year": "2010",
+          "pages": "852-859",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Péter Torma",
+              "@pid": "41/832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmm2/TormaS06",
+          "title": "Local Importance Sampling: A Novel Technique to Enhance Particle Filtering",
+          "journal": "J. Multim.",
+          "year": "2006",
+          "pages": "32-43",
+          "ee": "https://doi.org/10.4304/JMM.1.1.32-43",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Péter Torma",
+              "@pid": "41/832"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Peter08a",
+          "title": "TOWARDS Efficient Vision-based Object Tracking Algorithms: Rehabilitating visual information in Particle filtering",
+          "journal": "",
+          "year": "2008",
+          "author": {
+            "#text": "Péter Torma",
+            "@pid": "41/832"
+          }
+        }
+      }
+    ]
+  }
+}

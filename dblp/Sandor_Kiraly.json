@@ -1,37 +1,49 @@
 {
   "dblpperson": {
+    "@name": "Sandor Kiraly",
     "r": [
       {
-        "type": "article",
-        "key": "journals/eait/KiralyKP24",
-        "title": "Investigating the usability of a new framework for creating, working and teaching artificial neural networks using augmented reality (AR) and virtual reality (VR) tools.",
-        "pages": "13085-13104",
-        "year": "2024",
-        "volume": "29",
-        "journal": "Educ. Inf. Technol.",
-        "number": "10",
-        "ee": "https://doi.org/10.1007/s10639-023-12349-5",
-        "url": "db/journals/eait/eait29.html#KiralyKP24",
-        "authors": [
-          "Roland KirÃ¡ly",
-          "Sandor Kiraly",
-          "Martin Palotai"
-        ]
+        "article": {
+          "@key": "journals/eait/KiralyKP24",
+          "title": "Investigating the usability of a new framework for creating, working and teaching artificial neural networks using augmented reality (AR) and virtual reality (VR) tools",
+          "journal": "Educ. Inf. Technol.",
+          "year": "2024",
+          "pages": "13085-13104",
+          "ee": "https://doi.org/10.1007/S10639-023-12349-5",
+          "author": [
+            {
+              "#text": "Martin Palotai",
+              "@pid": "382/5284"
+            },
+            {
+              "#text": "Roland Király",
+              "@pid": "68/3367"
+            },
+            {
+              "#text": "Sandor Kiraly",
+              "@pid": "232/6295"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/informaticaSI/KiralyS18",
-        "title": "Analysing RPC and Testing the Performance of Solutions.",
-        "year": "2018",
-        "volume": "42",
-        "journal": "Informatica (Slovenia)",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q128670546",
-        "url": "db/journals/informaticaSI/informaticaSI42.html#KiralyS18",
-        "authors": [
-          "Sandor Kiraly",
-          "Szilveszter Szekely"
-        ]
+        "article": {
+          "@key": "journals/informaticaSI/KiralyS18",
+          "title": "Analysing RPC and Testing the Performance of Solutions",
+          "journal": "Informatica (Slovenia)",
+          "year": "2018",
+          "ee": "https://doi.org/10.31449/INF.V42I4.1510",
+          "author": [
+            {
+              "#text": "Sandor Kiraly",
+              "@pid": "232/6295"
+            },
+            {
+              "#text": "Szilveszter Szekely",
+              "@pid": "232/6281"
+            }
+          ]
+        }
       }
     ]
   }

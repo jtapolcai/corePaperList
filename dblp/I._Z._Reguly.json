@@ -1,0 +1,1947 @@
+{
+  "dblpperson": {
+    "@name": "I. Z. Reguly",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/carla/RodriguesCPLRGS19",
+          "title": "GPU Support for Automatic Generation of Finite-Differences Stencil Kernels",
+          "booktitle": "CARLA",
+          "year": "2020",
+          "pages": "230-244",
+          "ee": "https://doi.org/10.1007/978-3-030-41005-6_16",
+          "author": [
+            {
+              "#text": "Fabio Luporini",
+              "@pid": "37/10545"
+            },
+            {
+              "#text": "Gerard Gorman",
+              "@pid": "08/9991"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Lucas Cavalcante",
+              "@pid": "197/3589"
+            },
+            {
+              "#text": "Maelso Bruno Pereira",
+              "@pid": "255/5185"
+            },
+            {
+              "#text": "Samuel Xavier de Souza",
+              "@pid": "96/303"
+            },
+            {
+              "#text": "Vitor Hugo Mickus Rodrigues",
+              "@pid": "255/4754"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cascon/RegulyKG15",
+          "title": "Benchmarking the IBM Power8 processor",
+          "booktitle": "CASCON",
+          "year": "2015",
+          "pages": "61-69",
+          "author": [
+            {
+              "#text": "Abdoul-Kader Keita",
+              "@pid": "174/9553"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccgrid/BaloghR20",
+          "title": "Automatic parallel implementations of adjoint codes for structured mesh applications",
+          "booktitle": "CCGRID",
+          "year": "2020",
+          "pages": "908-911",
+          "ee": "https://doi.org/10.1109/CCGRID49817.2020.00019",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccgrid/SiklosiRM20",
+          "title": "Bitwise Reproducible task execution on unstructured mesh applications",
+          "booktitle": "CCGRID",
+          "year": "2020",
+          "pages": "889-892",
+          "ee": "https://doi.org/10.1109/CCGRID49817.2020.00015",
+          "author": [
+            {
+              "#text": "Bálint Siklósi",
+              "@pid": "270/3996"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cluster/BaloghR21",
+          "title": "Automatic Parallelisation of Sturctured Mesh Computations with SYCL",
+          "booktitle": "CLUSTER",
+          "year": "2021",
+          "pages": "821-822",
+          "ee": "https://doi.org/10.1109/CLUSTER48925.2021.00083",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cluster/KirkMRWMJ17",
+          "title": "Achieving Performance Portability for a Heat Conduction Solver Mini-Application on Modern Multi-core Systems",
+          "booktitle": "CLUSTER",
+          "year": "2017",
+          "pages": "834-841",
+          "ee": "https://doi.org/10.1109/CLUSTER.2017.122",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Matt Martineau",
+              "@pid": "176/9075"
+            },
+            {
+              "#text": "Richard O. Kirk",
+              "@pid": "206/3866"
+            },
+            {
+              "#text": "Stephen A. Jarvis",
+              "@pid": "69/1268"
+            },
+            {
+              "#text": "Steven A. Wright",
+              "@pid": "11/10822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cluster/MudaligeRPALJ22",
+          "title": "Towards Virtual Certification of Gas Turbine Engines With Performance-Portable Simulations",
+          "booktitle": "CLUSTER",
+          "year": "2022",
+          "pages": "206-217",
+          "ee": "https://doi.org/10.1109/CLUSTER51413.2022.00034",
+          "author": [
+            {
+              "#text": "Arun Prabhakar",
+              "@pid": "172/8934"
+            },
+            {
+              "#text": "Dario Amirante",
+              "@pid": "297/7493"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Leigh Lapworth",
+              "@pid": "147/1480"
+            },
+            {
+              "#text": "Stephen A. Jarvis",
+              "@pid": "69/1268"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cluster/RegulyMG15",
+          "title": "Design and Development of Domain Specific Active Libraries with Proxy Applications",
+          "booktitle": "CLUSTER",
+          "year": "2015",
+          "pages": "738-745",
+          "ee": "https://doi.org/10.1109/CLUSTER.2015.128",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hipc/PowellCPRAJM21",
+          "title": "Predictive Analysis of Large-Scale Coupled CFD Simulations with the CPX Mini-App",
+          "booktitle": "HiPC",
+          "year": "2021",
+          "pages": "141-151",
+          "ee": "https://doi.org/10.1109/HIPC53243.2021.00028",
+          "author": [
+            {
+              "#text": "Archie Powell",
+              "@pid": "295/1409"
+            },
+            {
+              "#text": "Arun Prabhakar",
+              "@pid": "172/8934"
+            },
+            {
+              "#text": "Dario Amirante",
+              "@pid": "297/7493"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "K. Choudry",
+              "@pid": "312/3471"
+            },
+            {
+              "#text": "Stephen A. Jarvis",
+              "@pid": "69/1268"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ic-nc/RegulyM20",
+          "title": "Modernising an Industrial CFD Application",
+          "booktitle": "CANDAR (Workshops)",
+          "year": "2020",
+          "pages": "191-196",
+          "ee": "https://doi.org/10.1109/CANDARW51189.2020.00046",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icpp/EkanayakeRLM23",
+          "title": "Communication-Avoiding Optimizations for Large-Scale Unstructured-Mesh Applications with OP2",
+          "booktitle": "ICPP",
+          "year": "2023",
+          "pages": "380-391",
+          "ee": "https://doi.org/10.1145/3605573.3605604",
+          "author": [
+            {
+              "#text": "Fabio Luporini",
+              "@pid": "37/10545"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Suneth Dasantha Ekanayake",
+              "@pid": "356/8201"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ics/KamalakkannanMR22",
+          "title": "High throughput multidimensional tridiagonal system solvers on FPGAs",
+          "booktitle": "ICS",
+          "year": "2022",
+          "pages": "19:1-19:12",
+          "ee": "https://doi.org/10.1145/3524059.3532371",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kamalakkannan Kamalavasan",
+              "@pid": "234/1340"
+            },
+            {
+              "#text": "Suhaib A. Fahmy",
+              "@pid": "83/2660"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/KamalavasanMRF21",
+          "title": "High-Level FPGA Accelerator Design for Structured-Mesh-Based Explicit Numerical Solvers",
+          "booktitle": "IPDPS",
+          "year": "2021",
+          "pages": "1087-1096",
+          "ee": "https://doi.org/10.1109/IPDPS49936.2021.00117",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kamalakkannan Kamalavasan",
+              "@pid": "234/1340"
+            },
+            {
+              "#text": "Suhaib A. Fahmy",
+              "@pid": "83/2660"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/LondheKMKRCCM26",
+          "title": "Performance-portable Acceleration of a DNS Turbulent Reacting Flows Application with OPS",
+          "booktitle": "IPDPSW",
+          "year": "2026",
+          "pages": "310-320",
+          "ee": "https://doi.org/10.1109/IPDPSW71298.2026.00045",
+          "author": [
+            {
+              "#text": "Ashutosh S. Londhe",
+              "@pid": "444/9873"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "Hamid Kavari",
+              "@pid": "445/0098"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Joe Kaushal",
+              "@pid": "445/0091"
+            },
+            {
+              "#text": "Nilanjan Chakraborty",
+              "@pid": "36/4037"
+            },
+            {
+              "#text": "R. Stewart Cant",
+              "@pid": "445/0071"
+            },
+            {
+              "#text": "Vishnu Mohan",
+              "@pid": "134/2054"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/LaszloNGRAS15",
+          "title": "Analysis of parallel processor architectures for the solution of the Black-Scholes PDE",
+          "booktitle": "ISCAS",
+          "year": "2015",
+          "pages": "1977-1980",
+          "ee": "https://doi.org/10.1109/ISCAS.2015.7169062",
+          "author": [
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jeremy Appleyard",
+              "@pid": "161/9036"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwocl/KamalakkannanMR22",
+          "title": "FPGA Acceleration of Structured-Mesh-Based Explicit and Implicit Numerical Solvers using SYCL",
+          "booktitle": "IWOCL",
+          "year": "2022",
+          "pages": "19:1-19:11",
+          "ee": "https://doi.org/10.1145/3529538.3530007",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kamalakkannan Kamalavasan",
+              "@pid": "234/1340"
+            },
+            {
+              "#text": "Suhaib A. Fahmy",
+              "@pid": "83/2660"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwocl/Szilniczky-Eross20",
+          "title": "Performance Portability of the MG-CFD Mini-App with SYCL",
+          "booktitle": "IWOCL",
+          "year": "2020",
+          "pages": "21:1-21:2",
+          "ee": "https://doi.org/10.1145/3388333.3388659",
+          "author": [
+            {
+              "#text": "Botond Szilniczky-Eross",
+              "@pid": "263/7943"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/kes/CsabaTHOR19",
+          "title": "PPCU Sam: Open-source face recognition framework",
+          "booktitle": "KES",
+          "year": "2019",
+          "pages": "1947-1956",
+          "ee": "https://doi.org/10.1016/J.PROCS.2019.09.367",
+          "author": [
+            {
+              "#text": "András Horváth",
+              "@pid": "26/7012"
+            },
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Botos Csaba",
+              "@pid": "236/6044"
+            },
+            {
+              "#text": "Hakkel Tamás",
+              "@pid": "252/0292"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/llvmhpc/BaloghMRAB18",
+          "title": "OP2-Clang: A Source-to-Source Translator Using Clang/LLVM LibTooling",
+          "booktitle": "LLVM-HPC@SC",
+          "year": "2018",
+          "pages": "59-70",
+          "ee": "https://doi.org/10.1109/LLVM-HPC.2018.8639205",
+          "author": [
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Samuel F. Antao",
+              "@pid": "441/9559"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/HorvathSR23",
+          "title": "Quantifying and comparing the impact of combinations of non-pharmaceutical interventions on the spread of COVID-19",
+          "booktitle": "MED",
+          "year": "2023",
+          "pages": "1010-1015",
+          "ee": "https://doi.org/10.1109/MED59994.2023.10185817",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Gergely Horváth",
+              "@pid": "95/1917"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ppopp/MudaligeRG16",
+          "title": "Auto-vectorizing a large-scale production unstructured-mesh CFD application",
+          "booktitle": "WPMVP@PPoPP",
+          "year": "2016",
+          "pages": "5:1-5:8",
+          "ee": "https://doi.org/10.1145/2870650.2870651",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ppopp/RegulyLMG14",
+          "title": "Vectorizing Unstructured Mesh Computations for Many-core Architectures",
+          "booktitle": "PMAM",
+          "year": "2014",
+          "pages": "39",
+          "ee": "https://doi.org/10.1145/2578948.2560686",
+          "author": [
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/BaloghRM17",
+          "title": "Comparison of Parallelisation Approaches, Languages, and Compilers for Unstructured Mesh Algorithms on GPUs",
+          "booktitle": "PMBS@SC",
+          "year": "2018",
+          "pages": "22-43",
+          "ee": "https://doi.org/10.1007/978-3-319-72971-8_2",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/DravaiR24",
+          "title": "Benchmarking the Evolution of Performance and Energy Efficiency Across Recent Generations of Intel Xeon Processors",
+          "booktitle": "SC Workshops",
+          "year": "2024",
+          "pages": "1413-1419",
+          "ee": "https://doi.org/10.1109/SCW63240.2024.00182",
+          "author": [
+            {
+              "#text": "Balázs Drávai",
+              "@pid": "395/3203"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/GilesLRAD14",
+          "title": "GPU implementation of finite difference solvers",
+          "booktitle": "WHPCF@SC",
+          "year": "2014",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/WHPCF.2014.10",
+          "author": [
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jeremy Appleyard",
+              "@pid": "161/9036"
+            },
+            {
+              "#text": "Julien Demouth",
+              "@pid": "81/5892"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/GilesMBKLR12",
+          "title": "An Analytical Study of Loop Tiling for a Large-Scale Unstructured Mesh Application",
+          "booktitle": "SC Companion",
+          "year": "2012",
+          "pages": "477-482",
+          "ee": "https://doi.org/10.1109/SC.COMPANION.2012.68",
+          "author": [
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Paul H. J. Kelly",
+              "@pid": "60/732"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/MudaligeRGMGH14",
+          "title": "Performance Analysis of a High-Level Abstractions-Based Hydrocode on Future Computing Systems",
+          "booktitle": "PMBS@SC",
+          "year": "2015",
+          "pages": "85-104",
+          "ee": "https://doi.org/10.1007/978-3-319-17248-4_5",
+          "author": [
+            {
+              "#text": "Andrew C. Mallinson",
+              "@pid": "129/5580"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "J. A. Herdman",
+              "@pid": "05/1065"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Wayne P. Gaudin",
+              "@pid": "94/9460"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/Reguly19",
+          "title": "Performance Portability of Multi-Material Kernels",
+          "booktitle": "P3HPC@SC",
+          "year": "2019",
+          "pages": "26-35",
+          "ee": "https://doi.org/10.1109/P3HPC49587.2019.00008",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/Reguly23",
+          "title": "Evaluating the performance portability of SYCL across CPUs and GPUs on bandwidth-bound applications",
+          "booktitle": "SC Workshops",
+          "year": "2023",
+          "pages": "1038-1047",
+          "ee": "https://doi.org/10.1145/3624062.3624180",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/Reguly23a",
+          "title": "Comparative evaluation of bandwidth-bound applications on the Intel Xeon CPU MAX Series",
+          "booktitle": "SC Workshops",
+          "year": "2023",
+          "pages": "1236-1244",
+          "ee": "https://doi.org/10.1145/3624062.3624195",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/RegulyMG17",
+          "title": "Beyond 16GB: Out-of-Core Stencil Computations",
+          "booktitle": "MCHPC@SC",
+          "year": "2017",
+          "pages": "20-29",
+          "ee": "https://doi.org/10.1145/3145617.3145619",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/RegulyMGCM14",
+          "title": "The OPS domain specific abstraction for multi-block structured grid computations",
+          "booktitle": "WOLFHPC@SC",
+          "year": "2014",
+          "pages": "58-67",
+          "ee": "https://doi.org/10.1109/WOLFHPC.2014.7",
+          "author": [
+            {
+              "#text": "Dan Curran",
+              "@pid": "146/2913"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Simon McIntosh-Smith",
+              "@pid": "15/8560"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/supercomputer/RegulyKZG16",
+          "title": "High Performance Computing on the IBM Power8 Platform",
+          "booktitle": "ISC High Performance (Workshops)",
+          "year": "2016",
+          "pages": "235-254",
+          "ee": "https://doi.org/10.1007/978-3-319-46079-6_17",
+          "author": [
+            {
+              "#text": "Abdoul-Kader Keita",
+              "@pid": "174/9553"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Rafik Zurob",
+              "@pid": "70/5985"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/supercomputer/RegulyMSTM19",
+          "title": "Batch Solution of Small PDEs with the OPS DSL",
+          "booktitle": "ISC High Performance (Workshops)",
+          "year": "2019",
+          "pages": "124-141",
+          "ee": "https://doi.org/10.1007/978-3-030-34356-9_12",
+          "author": [
+            {
+              "#text": "Branden Moore",
+              "@pid": "165/5176"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jacques Du Toit",
+              "@pid": "209/3971"
+            },
+            {
+              "#text": "Tim Schmielau",
+              "@pid": "03/8522"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/supercomputer/RegulyOPJM21",
+          "title": "Under the Hood of SYCL - An Initial Performance Analysis with An Unstructured-Mesh CFD Application",
+          "booktitle": "ISC High Performance",
+          "year": "2021",
+          "pages": "391-410",
+          "ee": "https://doi.org/10.1007/978-3-030-78713-4_21",
+          "author": [
+            {
+              "#text": "Andrew Owenson",
+              "@pid": "220/7405"
+            },
+            {
+              "#text": "Archie Powell",
+              "@pid": "295/1409"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Stephen A. Jarvis",
+              "@pid": "69/1268"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/HorvathOPSLRTZM25",
+          "title": "Anomaly Detection Algorithms for Real-Time Log Data Analysis at Scale",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "136288-136311",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3594469",
+          "author": [
+            {
+              "#text": "András Horváth",
+              "@pid": "26/7012"
+            },
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Attila Pintér",
+              "@pid": "413/5700"
+            },
+            {
+              "#text": "Bálint Siklósi",
+              "@pid": "270/3996"
+            },
+            {
+              "#text": "Gergely Lukács",
+              "@pid": "05/5771"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Máthé",
+              "@pid": "62/2836"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/concurrency/RegulyLMG16",
+          "title": "Vectorizing unstructured mesh computations for many-core architectures",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2016",
+          "pages": "557-577",
+          "ee": "https://doi.org/10.1002/CPE.3621",
+          "author": [
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1709-02125",
+          "title": "Beyond 16GB: Out-of-Core Stencil Computations",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1709.02125",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1711-01845",
+          "title": "Comparison of Parallelisation Approaches, Languages, and Compilers for Unstructured Mesh Algorithms on GPUs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1711.01845",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1802-03749",
+          "title": "Improving Locality of Unstructured Mesh Algorithms on GPUs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1802.03749",
+          "author": [
+            {
+              "#text": "András Attila Sulyok",
+              "@pid": "215/3815"
+            },
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1912-00695",
+          "title": "GPU Support for Automatic Generation of Finite-Differences Stencil Kernels",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.00695",
+          "author": [
+            {
+              "#text": "Fabio Luporini",
+              "@pid": "37/10545"
+            },
+            {
+              "#text": "Gerard Gorman",
+              "@pid": "08/9991"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Lucas Cavalcante",
+              "@pid": "197/3589"
+            },
+            {
+              "#text": "Maelso Bruno Pereira",
+              "@pid": "255/5185"
+            },
+            {
+              "#text": "Samuel Xavier de Souza",
+              "@pid": "96/303"
+            },
+            {
+              "#text": "Vitor Hugo Mickus Rodrigues",
+              "@pid": "255/4754"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2101-01177",
+          "title": "High-Level FPGA Accelerator Design for Structured-Mesh-Based Explicit Numerical Solvers",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.01177",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kamalakkannan Kamalavasan",
+              "@pid": "234/1340"
+            },
+            {
+              "#text": "Suhaib A. Fahmy",
+              "@pid": "83/2660"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2201-03950",
+          "title": "High Throughput Multidimensional Tridiagonal Systems Solvers on FPGAs",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2201.03950",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kamalakkannan Kamalavasan",
+              "@pid": "234/1340"
+            },
+            {
+              "#text": "Suhaib A. Fahmy",
+              "@pid": "83/2660"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2309-09084",
+          "title": "Comparative evaluation of bandwidth-bound applications on the Intel Xeon CPU MAX Series",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2309.09084",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2309-10075",
+          "title": "Evaluating the performance portability of SYCL across CPUs and GPUs on bandwidth-bound applications",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2309.10075",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-20911",
+          "title": "Reduced and mixed precision turbulent flow simulations using explicit finite difference schemes",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.20911",
+          "author": [
+            {
+              "#text": "Bálint Siklósi",
+              "@pid": "270/3996"
+            },
+            {
+              "#text": "David J. Lusher",
+              "@pid": "206/7212"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Neil D. Sandham",
+              "@pid": "186/8433"
+            },
+            {
+              "#text": "Pushpender K. Sharma",
+              "@pid": "408/7732"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/RegulyMBGBKR14",
+          "title": "Acceleration of a Full-scale Industrial CFD Application with OP2",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1403.7209",
+          "author": [
+            {
+              "#text": "Adam Betts",
+              "@pid": "57/4187"
+            },
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "David Radford",
+              "@pid": "143/7164"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Paul H. J. Kelly",
+              "@pid": "60/732"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/RegulyMG17",
+          "title": "Loop Tiling in Large-Scale Stencil Codes at Run-time with OPS",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1704.00693",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/BaloghFLMR22",
+          "title": "Scalable Many-Core Algorithms for Tridiagonal Solvers",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2022",
+          "pages": "26-35",
+          "ee": "https://doi.org/10.1109/MCSE.2021.3130544",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Sylvain Laizet",
+              "@pid": "73/9750"
+            },
+            {
+              "#text": "Tobias S. Flynn",
+              "@pid": "316/6664"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fgcs/DravaiR25",
+          "title": "Performance and efficiency: A multi-generational benchmark of modern processors on bandwidth-bound HPC applications",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2025",
+          "pages": "107793",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2025.107793",
+          "author": [
+            {
+              "#text": "Balázs Drávai",
+              "@pid": "395/3203"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fgcs/SiklosiSLRS26",
+          "title": "Reduced and mixed precision turbulent flow simulations using explicit finite difference schemes",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2026",
+          "pages": "108111",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2025.108111",
+          "author": [
+            {
+              "#text": "Bálint Siklósi",
+              "@pid": "270/3996"
+            },
+            {
+              "#text": "David J. Lusher",
+              "@pid": "206/7212"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Neil D. Sandham",
+              "@pid": "186/8433"
+            },
+            {
+              "#text": "Pushpender K. Sharma",
+              "@pid": "408/7732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijpp/RegulyG15",
+          "title": "Finite Element Algorithms and Data Structures on Graphical Processing Units",
+          "journal": "Int. J. Parallel Program.",
+          "year": "2015",
+          "pages": "203-239",
+          "ee": "https://doi.org/10.1007/S10766-013-0301-6",
+          "author": [
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcc/RovigattiSRR15",
+          "title": "A comparison between parallelization approaches in molecular dynamics simulations on GPUs",
+          "journal": "J. Comput. Chem.",
+          "year": "2015",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1002/JCC.23763",
+          "author": [
+            {
+              "#text": "Flavio Romano",
+              "@pid": "153/5792"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Lorenzo Rovigatti",
+              "@pid": "154/9002"
+            },
+            {
+              "#text": "Petr Sulc",
+              "@pid": "85/8828"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jpdc/GilesMSBR13",
+          "title": "Designing OP2 for GPU architectures",
+          "journal": "J. Parallel Distributed Comput.",
+          "year": "2013",
+          "pages": "1451-1460",
+          "ee": "https://doi.org/10.1016/J.JPDC.2012.07.008",
+          "author": [
+            {
+              "#text": "B. Spencer",
+              "@pid": "134/7136"
+            },
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jpdc/MudaligeRJJGS19",
+          "title": "Large-scale performance of a DSL-based multi-block structured-mesh application for Direct Numerical Simulation",
+          "journal": "J. Parallel Distributed Comput.",
+          "year": "2019",
+          "pages": "130-146",
+          "ee": "https://doi.org/10.1016/J.JPDC.2019.04.019",
+          "author": [
+            {
+              "#text": "Christian T. Jacobs",
+              "@pid": "146/0893"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Neil D. Sandham",
+              "@pid": "186/8433"
+            },
+            {
+              "#text": "Satya P. Jammy",
+              "@pid": "186/8092"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jpdc/RegulyMGM19",
+          "title": "Improving resilience of scientific software through a domain-specific approach",
+          "journal": "J. Parallel Distributed Comput.",
+          "year": "2019",
+          "pages": "99-114",
+          "ee": "https://doi.org/10.1016/J.JPDC.2019.01.015",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "S. Maheswaran",
+              "@pid": "33/11085-3"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jpdc/SulyokBRM19",
+          "title": "Locality optimized unstructured mesh algorithms on GPUs",
+          "journal": "J. Parallel Distributed Comput.",
+          "year": "2019",
+          "pages": "50-64",
+          "ee": "https://doi.org/10.1016/J.JPDC.2019.07.011",
+          "author": [
+            {
+              "#text": "András Attila Sulyok",
+              "@pid": "215/3815"
+            },
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/neuroimage/Hernandez-Fernandez19",
+          "title": "Using GPUs to accelerate computational diffusion MRI: From microstructure estimation to tractography and connectomes",
+          "journal": "NeuroImage",
+          "year": "2019",
+          "pages": "598-615",
+          "ee": "https://doi.org/10.1016/J.NEUROIMAGE.2018.12.015",
+          "author": [
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Moisés Hernández",
+              "@pid": "96/11159"
+            },
+            {
+              "#text": "Saâd Jbabdi",
+              "@pid": "27/4819"
+            },
+            {
+              "#text": "Stamatios N. Sotiropoulos",
+              "@pid": "43/6310"
+            },
+            {
+              "#text": "Stephen M. Smith",
+              "@pid": "s/StephenMSmith"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pc/MudaligeGTRBKT13",
+          "title": "Design and initial performance of a high-level unstructured mesh framework on heterogeneous parallel systems",
+          "journal": "Parallel Comput.",
+          "year": "2013",
+          "pages": "669-692",
+          "ee": "https://doi.org/10.1016/J.PARCO.2013.09.004",
+          "author": [
+            {
+              "#text": "Anne E. Trefethen",
+              "@pid": "12/1698"
+            },
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jeyan Thiyagalingam",
+              "@pid": "90/1818"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Paul H. J. Kelly",
+              "@pid": "60/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/PolczRTJPCS25",
+          "title": "Smart epidemic control: A hybrid model blending ODEs and agent-based simulations for optimal, real-world intervention planning",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2025",
+          "pages": "1013028",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1013028",
+          "author": [
+            {
+              "#text": "Attila Csikász-Nagy",
+              "@pid": "62/1850"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "János Juhász",
+              "@pid": "167/3938"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Sándor Pongor",
+              "@pid": "87/3292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/RegulyCJTBHKKCI22",
+          "title": "Microsimulation based quantitative analysis of COVID-19 management strategies",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2022",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1009693",
+          "author": [
+            {
+              "#text": "Attila Csikász-Nagy",
+              "@pid": "62/1850"
+            },
+            {
+              "#text": "Bence Keömley-Horváth",
+              "@pid": "326/9564"
+            },
+            {
+              "#text": "Dávid Csercsik",
+              "@pid": "49/8089"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Gergely Horváth",
+              "@pid": "95/1917"
+            },
+            {
+              "#text": "Gergely Röst",
+              "@pid": "33/6817"
+            },
+            {
+              "#text": "György Cserey",
+              "@pid": "91/5885"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "János Juhász",
+              "@pid": "167/3938"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Kristóf Iván",
+              "@pid": "149/9366"
+            },
+            {
+              "#text": "Sándor Pongor",
+              "@pid": "87/3292"
+            },
+            {
+              "#text": "Tamás Kós",
+              "@pid": "326/9789"
+            },
+            {
+              "#text": "Zsófia Bujtár",
+              "@pid": "326/9785"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamsc/NaumovACCDELMRS15",
+          "title": "AmgX: A Library for GPU Accelerated Algebraic Multigrid and Preconditioned Iterative Methods",
+          "journal": "SIAM J. Sci. Comput.",
+          "year": "2015",
+          "ee": "https://doi.org/10.1137/140980260",
+          "author": [
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Joe Eaton",
+              "@pid": "182/0211"
+            },
+            {
+              "#text": "Jonathan M. Cohen",
+              "@pid": "55/6818"
+            },
+            {
+              "#text": "Julien Demouth",
+              "@pid": "81/5892"
+            },
+            {
+              "#text": "M. Arsaev",
+              "@pid": "172/0377"
+            },
+            {
+              "#text": "Maxim Naumov",
+              "@pid": "79/2042"
+            },
+            {
+              "#text": "N. Markovskiy",
+              "@pid": "172/0064"
+            },
+            {
+              "#text": "Nikolai Sakharnykh",
+              "@pid": "157/2858"
+            },
+            {
+              "#text": "Patrice Castonguay",
+              "@pid": "13/9486"
+            },
+            {
+              "#text": "Robert Strzodka",
+              "@pid": "72/4667"
+            },
+            {
+              "#text": "Simon K. Layton",
+              "@pid": "22/8575"
+            },
+            {
+              "#text": "V. Sellappan",
+              "@pid": "172/0326"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toms/BaloghLTNR26",
+          "title": "Performance Portable Adjoints for Structured Mesh Applications with OPS",
+          "journal": "ACM Trans. Math. Softw.",
+          "year": "2026",
+          "pages": "21:1-21:33",
+          "ee": "https://doi.org/10.1145/3815776",
+          "author": [
+            {
+              "#text": "Gábor Dániel Balogh",
+              "@pid": "209/9749"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jacques Du Toit",
+              "@pid": "209/3971"
+            },
+            {
+              "#text": "Johannes Lotz",
+              "@pid": "130/5926-1"
+            },
+            {
+              "#text": "Uwe Naumann",
+              "@pid": "n/UweNaumann"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tpds/RegulyMBGBKR16",
+          "title": "Acceleration of a Full-Scale Industrial CFD Application with OP2",
+          "journal": "IEEE Trans. Parallel Distributed Syst.",
+          "year": "2016",
+          "pages": "1265-1278",
+          "ee": "https://doi.org/10.1109/TPDS.2015.2453972",
+          "author": [
+            {
+              "#text": "Adam Betts",
+              "@pid": "57/4187"
+            },
+            {
+              "#text": "Carlo Bertolli",
+              "@pid": "02/115"
+            },
+            {
+              "#text": "David Radford",
+              "@pid": "143/7164"
+            },
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Paul H. J. Kelly",
+              "@pid": "60/732"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tpds/RegulyMG18",
+          "title": "Loop Tiling in Large-Scale Stencil Codes at Run-Time with OPS",
+          "journal": "IEEE Trans. Parallel Distributed Syst.",
+          "year": "2018",
+          "pages": "873-886",
+          "ee": "https://doi.org/10.1109/TPDS.2017.2778161",
+          "author": [
+            {
+              "#text": "Gihan R. Mudalige",
+              "@pid": "26/1059"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Zoltan14a",
+          "title": "Abstraction and implementation of unstructured grid algorithms on massively parallel heterogeneous architectures",
+          "journal": "",
+          "year": "2014",
+          "author": {
+            "#text": "István Z. Reguly",
+            "@pid": "129/5523"
+          }
+        }
+      }
+    ]
+  }
+}

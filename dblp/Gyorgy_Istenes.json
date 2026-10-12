@@ -1,35 +1,54 @@
 {
   "dblpperson": {
+    "@name": "Gyorgy Istenes",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/SzauterIR16",
-        "title": "Spectral analysis of suspension system of a commercial city bus.",
-        "pages": "67-72",
-        "year": "2016",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY.2016.7601473",
-        "url": "db/conf/sisy/sisy2016.html#SzauterIR16",
-        "authors": [
-          "Ferenc Szauter",
-          "Gyorgy Istenes",
-          "GÃ¡bor RÃ¶dÃ¶nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/codit/IstenesSR17",
+          "title": "Vibration analysis of a suspension system subject to high level of measurement noise",
+          "booktitle": "CoDIT",
+          "year": "2017",
+          "pages": "881-886",
+          "ee": "https://doi.org/10.1109/CODIT.2017.8102707",
+          "author": [
+            {
+              "#text": "Ferenc Szauter",
+              "@pid": "188/4446"
+            },
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Gyorgy Istenes",
+              "@pid": "188/4413"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/codit/IstenesSR17",
-        "title": "Vibration analysis of a suspension system subject to high level of measurement noise.",
-        "pages": "881-886",
-        "year": "2017",
-        "booktitle": "CoDIT",
-        "ee": "https://doi.org/10.1109/CoDIT.2017.8102707",
-        "url": "db/conf/codit/codit2017.html#IstenesSR17",
-        "authors": [
-          "Gyorgy Istenes",
-          "Ferenc Szauter",
-          "GÃ¡bor RÃ¶dÃ¶nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/SzauterIR16",
+          "title": "Spectral analysis of suspension system of a commercial city bus",
+          "booktitle": "SISY",
+          "year": "2016",
+          "pages": "67-72",
+          "ee": "https://doi.org/10.1109/SISY.2016.7601473",
+          "author": [
+            {
+              "#text": "Ferenc Szauter",
+              "@pid": "188/4446"
+            },
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Gyorgy Istenes",
+              "@pid": "188/4413"
+            }
+          ]
+        }
       }
     ]
   }

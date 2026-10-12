@@ -1,278 +1,576 @@
 {
   "dblpperson": {
+    "@name": "Andras Veres",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ngi/BiczokNTKV09",
-        "title": "SpeedDetect: A Simple TCP Extension for Handling Sudden Capacity Increase.",
-        "pages": "1-9",
-        "year": "2009",
-        "booktitle": "NGI",
-        "ee": "https://doi.org/10.1109/NGI.2009.5175783",
-        "url": "db/conf/ngi/ngi2009.html#BiczokNTKV09",
-        "authors": [
-          "Gergely BiczÃ³k",
-          "GÃ¡bor NÃ©meth",
-          "Peter TarjÃ¡n",
-          "Ferenc Kubinszky",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucnc/RaczBVC26",
+          "title": "A Transformer Inspired AI-Based MIMO Receiver",
+          "booktitle": "EuCNC/6G Summit",
+          "year": "2026",
+          "pages": "221-226",
+          "ee": "https://doi.org/10.1109/EUCNC/6GSUMMIT68295.2026.11577624",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Benedek Csala",
+              "@pid": "420/4609"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/BenkoMV04",
-        "title": "A Large-scale, Passive Analysis of End-to-End TCP Performance over GPRS.",
-        "year": "2004",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFCOM.2004.1354598",
-        "url": "db/conf/infocom/infocom2004.html#BenkoMV04",
-        "pages": "1882-1892",
-        "authors": [
-          "PÃ©ter BenkÃ¶",
-          "GÃ¡bor MalicskÃ³",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/BenkoV02",
+          "title": "A passive method for estimating end-to-end TCP packet loss",
+          "booktitle": "GLOBECOM",
+          "year": "2002",
+          "pages": "2609-2613",
+          "ee": "https://doi.org/10.1109/GLOCOM.2002.1189102",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/VeresB00",
-        "title": "The Chaotic Nature of TCP Congestion Control.",
-        "pages": "1715-1723",
-        "year": "2000",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2000.832571",
-        "url": "db/conf/infocom/infocom2000-3.html#VeresB00",
-        "authors": [
-          "Andras Veres",
-          "MiklÃ³s Boda"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/MakoHKSV19",
+          "title": "Sensor Signatures: AI Assisted Co-Location Detection of IoT Devices",
+          "booktitle": "GLOBECOM Workshops",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GCWKSHPS45667.2019.9024422",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Daniel Mako",
+              "@pid": "260/2985"
+            },
+            {
+              "#text": "Mate Szebenyei",
+              "@pid": "260/2865"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/AhnSVC02",
-        "title": "SWAN: Service Differentiation in Stateless Wireless Ad Hoc Networks.",
-        "year": "2002",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2002.1019290",
-        "url": "db/conf/infocom/infocom2002.html#AhnSVC02",
-        "pages": "457-466",
-        "authors": [
-          "Gahng-Seop Ahn",
-          "Li-Hsiang Sun",
-          "Andras Veres",
-          "Andrew T. Campbell"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/RaczVHBK22",
+          "title": "A Full-Stack Neuromorphic Prototype Architecture for Low-Power Wireless Sensors",
+          "booktitle": "GLOBECOM (Workshops)",
+          "year": "2022",
+          "pages": "353-358",
+          "ee": "https://doi.org/10.1109/GCWKSHPS56602.2022.10008616",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/BarryCV01",
-        "title": "Distributed Control Algorithms for Service Differentiation in Wireless Packet Networks.",
-        "pages": "582-590",
-        "year": "2001",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/INFCOM.2001.916786",
-        "url": "db/conf/infocom/infocom2001-1.html#BarryCV01",
-        "authors": [
-          "Michael G. Barry",
-          "Andrew T. Campbell",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/SzaboVM09",
+          "title": "Effects of User Behavior on MMORPG Traffic",
+          "booktitle": "ICC",
+          "year": "2009",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICC.2009.5198966",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Géza Szabó",
+              "@pid": "87/1845"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/BenkoV02",
-        "title": "A passive method for estimating end-to-end TCP packet loss.",
-        "pages": "2609-2613",
-        "year": "2002",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOCOM.2002.1189102",
-        "url": "db/conf/globecom/globecom2002.html#BenkoV02",
-        "authors": [
-          "PÃ©ter BenkÃ¶",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip12/VeresHRBK22",
+          "title": "A Communication Data Layer for Distributed Neuromorphic Systems",
+          "booktitle": "AIAI (2)",
+          "year": "2022",
+          "pages": "3-16",
+          "ee": "https://doi.org/10.1007/978-3-031-08337-2_1",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/MakoHKSV19",
-        "title": "Sensor Signatures: AI Assisted Co-Location Detection of IoT Devices.",
-        "pages": "1-6",
-        "year": "2019",
-        "booktitle": "GLOBECOM Workshops",
-        "ee": "https://doi.org/10.1109/GCWkshps45667.2019.9024422",
-        "url": "db/conf/globecom/globecom2019w.html#MakoHKSV19",
-        "authors": [
-          "Daniel Mako",
-          "PÃ©ter HÃ¡ga",
-          "Zsolt Kenesi",
-          "Mate Szebenyei",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-3/TuranyiVO98",
+          "title": "A family of measurement-based admission control algorithms",
+          "booktitle": "PICS",
+          "year": "1998",
+          "pages": "153-164",
+          "author": [
+            {
+              "#text": "A. Oláh",
+              "@pid": "02/5583"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Zoltán Richard Turányi",
+              "@pid": "194/7070"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wcnc/BorsosCDHV22",
-        "title": "Resilience Analysis of Distributed Wireless Spiking Neural Networks.",
-        "pages": "2375-2380",
-        "year": "2022",
-        "booktitle": "WCNC",
-        "ee": "https://doi.org/10.1109/WCNC51071.2022.9771543",
-        "url": "db/conf/wcnc/wcnc2022.html#BorsosCDHV22",
-        "authors": [
-          "TamÃ¡s Borsos",
-          "Massimo Condoluci",
-          "Marios Daoutis",
-          "PÃ©ter HÃ¡ga",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/AhnSVC02",
+          "title": "SWAN: Service Differentiation in Stateless Wireless Ad Hoc Networks",
+          "booktitle": "INFOCOM",
+          "year": "2002",
+          "pages": "457-466",
+          "ee": "https://doi.org/10.1109/INFCOM.2002.1019290",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Andrew T. Campbell",
+              "@pid": "c/AndrewTCampbell"
+            },
+            {
+              "#text": "Gahng-Seop Ahn",
+              "@pid": "52/6575"
+            },
+            {
+              "#text": "Li-Hsiang Sun",
+              "@pid": "66/7039"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/SzaboVM09",
-        "title": "Effects of User Behavior on MMORPG Traffic.",
-        "pages": "1-6",
-        "year": "2009",
-        "booktitle": "ICC",
-        "ee": "https://doi.org/10.1109/ICC.2009.5198966",
-        "url": "db/conf/icc/icc2009.html#SzaboVM09",
-        "authors": [
-          "GÃ©za SzabÃ³",
-          "Andras Veres",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/BarryCV01",
+          "title": "Distributed Control Algorithms for Service Differentiation in Wireless Packet Networks",
+          "booktitle": "INFOCOM",
+          "year": "2001",
+          "pages": "582-590",
+          "ee": "https://doi.org/10.1109/INFCOM.2001.916786",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Andrew T. Campbell",
+              "@pid": "c/AndrewTCampbell"
+            },
+            {
+              "#text": "Michael G. Barry",
+              "@pid": "03/2669"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vtc/FeherVH12",
-        "title": "Ping-Pong Reduction Using Sub Cell Movement Detection.",
-        "pages": "1-5",
-        "year": "2012",
-        "booktitle": "VTC Spring",
-        "ee": "https://doi.org/10.1109/VETECS.2012.6239926",
-        "url": "db/conf/vtc/vtc2012s.html#FeherVH12",
-        "authors": [
-          "Zoltan Feher",
-          "Andras Veres",
-          "ZalÃ¡n Heszberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/BenkoMV04",
+          "title": "A Large-scale, Passive Analysis of End-to-End TCP Performance over GPRS",
+          "booktitle": "INFOCOM",
+          "year": "2004",
+          "pages": "1882-1892",
+          "ee": "https://doi.org/10.1109/INFCOM.2004.1354598",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Gábor Malicskó",
+              "@pid": "16/6161"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lcn/NemethTBKV07",
-        "title": "Measuring high-speed TCP performance during mobile handovers.",
-        "pages": "599-612",
-        "year": "2007",
-        "booktitle": "LCN",
-        "ee": "https://www.wikidata.org/entity/Q105047186",
-        "url": "db/conf/lcn/lcn2007.html#NemethTBKV07",
-        "authors": [
-          "GÃ¡bor NÃ©meth",
-          "Peter TarjÃ¡n",
-          "Gergely BiczÃ³k",
-          "Ferenc Kubinszky",
-          "Andras Veres"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/VeresB00",
+          "title": "The Chaotic Nature of TCP Congestion Control",
+          "booktitle": "INFOCOM",
+          "year": "2000",
+          "pages": "1715-1723",
+          "ee": "https://doi.org/10.1109/INFCOM.2000.832571",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Miklós Boda",
+              "@pid": "58/1963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-3/TuranyiVO98",
-        "title": "A family of measurement-based admission control algorithms.",
-        "pages": "153-164",
-        "year": "1998",
-        "booktitle": "PICS",
-        "url": "db/conf/ifip6-3/ifip6-3-1998.html#TuranyiVO98",
-        "authors": [
-          "ZoltÃ¡n Richard TurÃ¡nyi",
-          "Andras Veres",
-          "A. OlÃ¡h"
-        ]
+        "inproceedings": {
+          "@key": "conf/lcn/NemethTBKV07",
+          "title": "Measuring high-speed TCP performance during mobile handovers",
+          "booktitle": "LCN",
+          "year": "2007",
+          "pages": "599-612",
+          "ee": "https://doi.org/10.1109/LCN.2007.77",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Ferenc Kubinszky",
+              "@pid": "23/6795"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Peter Tarján",
+              "@pid": "34/2306"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/VeresKMV00",
-        "title": "On the proagation of long-range dependence in the internet.",
-        "pages": "243-254",
-        "year": "2000",
-        "booktitle": "SIGCOMM",
-        "ee": "https://doi.org/10.1145/347057.347551",
-        "url": "db/conf/sigcomm/sigcomm2000.html#VeresKMV00",
-        "authors": [
-          "Andras Veres",
-          "Zsolt Kenesi",
-          "SÃ¡ndor MolnÃ¡r",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/ngi/BiczokNTKV09",
+          "title": "SpeedDetect: A Simple TCP Extension for Handling Sudden Capacity Increase",
+          "booktitle": "NGI",
+          "year": "2009",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/NGI.2009.5175783",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Ferenc Kubinszky",
+              "@pid": "23/6795"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Peter Tarján",
+              "@pid": "34/2306"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/comcom/VeresKMV03",
-        "title": "TCP's role in the propagation of self-similarity in the Internet.",
-        "pages": "899-913",
-        "year": "2003",
-        "volume": "26",
-        "journal": "Comput. Commun.",
-        "number": "8",
-        "ee": "https://doi.org/10.1016/S0140-3664(02)00222-0",
-        "url": "db/journals/comcom/comcom26.html#VeresKMV03",
-        "authors": [
-          "Andras Veres",
-          "Zsolt Kenesi",
-          "SÃ¡ndor MolnÃ¡r",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/VeresKMV00",
+          "title": "On the proagation of long-range dependence in the internet",
+          "booktitle": "SIGCOMM",
+          "year": "2000",
+          "pages": "243-254",
+          "ee": "https://doi.org/10.1145/347059.347551",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tmc/AhnCVS02",
-        "title": "Supporting Service Differentiation for Real-Time and Best-Effort Traffic in Stateless Wireless Ad Hoc Networks (SWAN).",
-        "pages": "192-207",
-        "year": "2002",
-        "volume": "1",
-        "journal": "IEEE Trans. Mob. Comput.",
-        "number": "3",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TMC.2002.1081755",
-        "url": "db/journals/tmc/tmc1.html#AhnCVS02",
-        "authors": [
-          "Gahng-Seop Ahn",
-          "Andrew T. Campbell",
-          "Andras Veres",
-          "Li-Hsiang Sun"
-        ]
+        "inproceedings": {
+          "@key": "conf/vtc/FeherVH12",
+          "title": "Ping-Pong Reduction Using Sub Cell Movement Detection",
+          "booktitle": "VTC Spring",
+          "year": "2012",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECS.2012.6239926",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            },
+            {
+              "#text": "Zoltan Feher",
+              "@pid": "119/9361"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jsac/VeresCBS01",
-        "title": "Supporting service differentiation in wireless packet networks using distributed control.",
-        "pages": "2081-2093",
-        "year": "2001",
-        "volume": "19",
-        "journal": "IEEE J. Sel. Areas Commun.",
-        "number": "10",
-        "url": "db/journals/jsac/jsac19.html#VeresCBS01",
-        "ee": "https://doi.org/10.1109/49.957321",
-        "authors": [
-          "Andras Veres",
-          "Andrew T. Campbell",
-          "Michael G. Barry",
-          "Li-Hsiang Sun"
-        ]
+        "inproceedings": {
+          "@key": "conf/wcnc/BorsosCDHV22",
+          "title": "Resilience Analysis of Distributed Wireless Spiking Neural Networks",
+          "booktitle": "WCNC",
+          "year": "2022",
+          "pages": "2375-2380",
+          "ee": "https://doi.org/10.1109/WCNC51071.2022.9771543",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Marios Daoutis",
+              "@pid": "73/5742"
+            },
+            {
+              "#text": "Massimo Condoluci",
+              "@pid": "66/9958"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/mta/SzaboVM09",
-        "title": "On the impacts of human interactions in MMORPG traffic.",
-        "pages": "133-161",
-        "year": "2009",
-        "volume": "45",
-        "journal": "Multim. Tools Appl.",
-        "number": "1-3",
-        "ee": "https://doi.org/10.1007/s11042-009-0298-4",
-        "url": "db/journals/mta/mta45.html#SzaboVM09",
-        "authors": [
-          "GÃ©za SzabÃ³",
-          "Andras Veres",
-          "SÃ¡ndor MolnÃ¡r"
-        ]
+        "article": {
+          "@key": "journals/comcom/VeresKMV03",
+          "title": "TCP's role in the propagation of self-similarity in the Internet",
+          "journal": "Comput. Commun.",
+          "year": "2003",
+          "pages": "899-913",
+          "ee": "https://doi.org/10.1016/S0140-3664(02)00222-0",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-20363",
+          "title": "A Transformer Inspired AI-based MIMO receiver",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.20363",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Benedek Csala",
+              "@pid": "420/4609"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/VeresCBS01",
+          "title": "Supporting service differentiation in wireless packet networks using distributed control",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2001",
+          "pages": "2081-2093",
+          "ee": "https://doi.org/10.1109/49.957321",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Andrew T. Campbell",
+              "@pid": "c/AndrewTCampbell"
+            },
+            {
+              "#text": "Li-Hsiang Sun",
+              "@pid": "66/7039"
+            },
+            {
+              "#text": "Michael G. Barry",
+              "@pid": "03/2669"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mta/SzaboVM09",
+          "title": "On the impacts of human interactions in MMORPG traffic",
+          "journal": "Multim. Tools Appl.",
+          "year": "2009",
+          "pages": "133-161",
+          "ee": "https://doi.org/10.1007/S11042-009-0298-4",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Géza Szabó",
+              "@pid": "87/1845"
+            },
+            {
+              "#text": "Sándor Molnár",
+              "@pid": "32/5556"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmc/AhnCVS02",
+          "title": "Supporting Service Differentiation for Real-Time and Best-Effort Traffic in Stateless Wireless Ad Hoc Networks (SWAN)",
+          "journal": "IEEE Trans. Mob. Comput.",
+          "year": "2002",
+          "pages": "192-207",
+          "ee": "https://doi.org/10.1109/TMC.2002.1081755",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Andrew T. Campbell",
+              "@pid": "c/AndrewTCampbell"
+            },
+            {
+              "#text": "Gahng-Seop Ahn",
+              "@pid": "52/6575"
+            },
+            {
+              "#text": "Li-Hsiang Sun",
+              "@pid": "66/7039"
+            }
+          ]
+        }
       }
     ]
   }

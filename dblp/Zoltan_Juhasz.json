@@ -1,490 +1,907 @@
 {
   "dblpperson": {
+    "@name": "Zoltán Juhász",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/mipro/BenkoJ19",
-        "title": "GPU implementation of the FastICA algorithm.",
-        "pages": "196-199",
-        "year": "2019",
-        "booktitle": "MIPRO",
-        "ee": "https://doi.org/10.23919/MIPRO.2019.8757036",
-        "url": "db/conf/mipro/mipro2019.html#BenkoJ19",
-        "authors": [
-          "G. Benko",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccgrid/BakerJ02",
+          "title": "Jini and the Grid",
+          "booktitle": "CCGRID",
+          "year": "2002",
+          "pages": "2",
+          "ee": "https://doi.org/10.1109/CCGRID.2002.1017097",
+          "author": [
+            {
+              "#text": "Mark Baker",
+              "@pid": "02/4503"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mipro/JuhaszK15",
-        "title": "A GPU-based simultaneous real-time EEG processing and visualization system for brain imaging applications.",
-        "pages": "299-304",
-        "year": "2015",
-        "booktitle": "MIPRO",
-        "ee": "https://doi.org/10.1109/MIPRO.2015.7160283",
-        "url": "db/conf/mipro/mipro2015.html#JuhaszK15",
-        "authors": [
-          "Zoltan Juhasz",
-          "GyÃ¶rgy Kozmann"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccgrid/JuhaszAP02",
+          "title": "JM: A Jini Framework for Global Computing",
+          "booktitle": "CCGRID",
+          "year": "2002",
+          "pages": "395-400",
+          "ee": "https://doi.org/10.1109/CCGRID.2002.1017167",
+          "author": [
+            {
+              "#text": "Arpad Andics",
+              "@pid": "19/6699"
+            },
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mipro/WangNJ22",
-        "title": "On the Benefits of Empirical Mode Decomposition in Spatio-temporal EEG Analysis.",
-        "pages": "333-338",
-        "year": "2022",
-        "booktitle": "MIPRO",
-        "ee": "https://doi.org/10.23919/MIPRO55190.2022.9803337",
-        "url": "db/conf/mipro/mipro2022.html#WangNJ22",
-        "authors": [
-          "Zeyu Wang 0012",
-          "ZoltÃ¡n Nagy",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccgrid/JuhaszP02",
+          "title": "Scalability Analysis of the Contract Net Protocol",
+          "booktitle": "CCGRID",
+          "year": "2002",
+          "pages": "346-347",
+          "ee": "https://doi.org/10.1109/CCGRID.2002.1017157",
+          "author": [
+            {
+              "#text": "Prasenjit Paul",
+              "@pid": "46/5810"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mipro/JuhaszI19",
-        "title": "EEG Based Imaging of Stroke Location, Extent and Progress of Recovery Using a GPU Architecture.",
-        "pages": "369-374",
-        "year": "2019",
-        "booktitle": "MIPRO",
-        "ee": "https://doi.org/10.23919/MIPRO.2019.8757035",
-        "url": "db/conf/mipro/mipro2019.html#JuhaszI19",
-        "authors": [
-          "Zoltan Juhasz",
-          "Mohamed F. Issa"
-        ]
+        "inproceedings": {
+          "@key": "conf/dapsys/PotaSJK04",
+          "title": "Parallel Programm Execution Support in the JGrid System",
+          "booktitle": "DAPSYS",
+          "year": "2004",
+          "pages": "13-20",
+          "author": [
+            {
+              "#text": "Gergely Sipos",
+              "@pid": "65/6297"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mipro/Juhasz17",
-        "title": "Highly parallel online bioelectrical signal processing on GPU architecture.",
-        "pages": "340-346",
-        "year": "2017",
-        "booktitle": "MIPRO",
-        "ee": "https://doi.org/10.23919/MIPRO.2017.7973446",
-        "url": "db/conf/mipro/mipro2017.html#Juhasz17",
-        "authors": [
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/JuhaszK00",
+          "title": "A Jini-Based Prototype Metacomputing Framework (Research Note)",
+          "booktitle": "Euro-Par",
+          "year": "2000",
+          "pages": "1171-1174",
+          "ee": "https://doi.org/10.1007/3-540-44520-X_165",
+          "author": [
+            {
+              "#text": "László Késmárki",
+              "@pid": "16/6137"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pads/TeoTJ05",
-        "title": "Optimistic Protocol Analysis in a Performance Analyzer and Prediction Tool.",
-        "pages": "49-58",
-        "year": "2005",
-        "booktitle": "PADS",
-        "ee": "http://dl.acm.org/citation.cfm?id=1070160",
-        "url": "db/conf/pads/pads2005.html#TeoTJ05",
-        "authors": [
-          "Peihan Teo",
-          "Stephen John Turner",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/SeinstraMJW08",
+          "title": "Topic 11: Distributed and High-Performance Multimedia",
+          "booktitle": "Euro-Par",
+          "year": "2008",
+          "pages": "844-845",
+          "ee": "https://doi.org/10.1007/978-3-540-85451-7_89",
+          "author": [
+            {
+              "#text": "Frank J. Seinstra",
+              "@pid": "19/930"
+            },
+            {
+              "#text": "Nicolás Guil",
+              "@pid": "g/NicolasGuilMata"
+            },
+            {
+              "#text": "Simon Wilson",
+              "@pid": "20/3055"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipps/PotaJ06a",
-        "title": "The benefits of Java and Jini in the JGrid system.",
-        "year": "2006",
-        "booktitle": "IPDPS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/IPDPS.2006.1639512",
-        "url": "db/conf/ipps/ipdps2006.html#PotaJ06a",
-        "authors": [
-          "Szabolcs Pota",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/WangJ23",
+          "title": "Massively Parallel EEG Algorithms for Pre-exascale Architectures",
+          "booktitle": "Euro-Par Workshops",
+          "year": "2024",
+          "pages": "290-295",
+          "ee": "https://doi.org/10.1007/978-3-031-48803-0_34",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipps/PotaJ06",
-        "title": "High-level execution and communication support for parallel grid applications in JGrid.",
-        "year": "2006",
-        "booktitle": "IPDPS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/IPDPS.2006.1639506",
-        "url": "db/conf/ipps/ipdps2006.html#PotaJ06",
-        "authors": [
-          "Szabolcs Pota",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/gttse/JuhaszSP07",
+          "title": "Implementation of a Finite State Machine with Active Libraries in C++",
+          "booktitle": "GTTSE",
+          "year": "2008",
+          "pages": "474-488",
+          "ee": "https://doi.org/10.1007/978-3-540-88643-3_14",
+          "author": [
+            {
+              "#text": "Ádám Sipos",
+              "@pid": "63/681"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            },
+            {
+              "#text": "Zoltán Porkoláb",
+              "@pid": "65/2241"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/SeinstraMJW08",
-        "title": "Topic 11: Distributed and High-Performance Multimedia.",
-        "pages": "844-845",
-        "year": "2008",
-        "booktitle": "Euro-Par",
-        "ee": "https://doi.org/10.1007/978-3-540-85451-7_89",
-        "url": "db/conf/europar/europar2008.html#SeinstraMJW08",
-        "authors": [
-          "Frank J. Seinstra",
-          "NicolÃ¡s Guil",
-          "Zoltan Juhasz",
-          "Simon Wilson"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/AratoJBEE04",
+          "title": "Java-Powered Braille Slate Talker",
+          "booktitle": "ICCHP",
+          "year": "2004",
+          "pages": "506-513",
+          "ee": "https://doi.org/10.1007/978-3-540-27817-7_74",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "D. Gareth Evans",
+              "@pid": "81/1557"
+            },
+            {
+              "#text": "Grigori E. Evreinov",
+              "@pid": "e/GrigoriEEvreinov"
+            },
+            {
+              "#text": "Paul Blenkhorn",
+              "@pid": "59/4104"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/WangJ23",
-        "title": "Massively Parallel EEG Algorithms for Pre-exascale Architectures.",
-        "pages": "290-295",
-        "year": "2023",
-        "booktitle": "Euro-Par Workshops",
-        "ee": "https://doi.org/10.1007/978-3-031-48803-0_34",
-        "url": "db/conf/europar/europar2023w2.html#WangJ23",
-        "authors": [
-          "Zeyu Wang 0012",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/AratoMJ12",
+          "title": "Speaking and Understanding Morse Language, Speech Technology and Autism",
+          "booktitle": "ICCHP (2)",
+          "year": "2012",
+          "pages": "311-314",
+          "ee": "https://doi.org/10.1007/978-3-642-31534-3_47",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/JuhaszK00",
-        "title": "A Jini-Based Prototype Metacomputing Framework (Research Note).",
-        "pages": "1171-1174",
-        "year": "2000",
-        "booktitle": "Euro-Par",
-        "ee": "https://doi.org/10.1007/3-540-44520-X_165",
-        "url": "db/conf/europar/europar2000.html#JuhaszK00",
-        "authors": [
-          "Zoltan Juhasz",
-          "LÃ¡szlÃ³ KÃ©smÃ¡rki"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/AratoMJ14",
+          "title": "Teaching Morse Language to a Deaf-Blind Person for Reading and Writing SMS on an Ordinary Vibrating Smartphone",
+          "booktitle": "ICCHP (2)",
+          "year": "2014",
+          "pages": "393-396",
+          "ee": "https://doi.org/10.1007/978-3-319-08599-9_59",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccgrid/BakerJ02",
-        "title": "Jini and the Grid.",
-        "pages": "2",
-        "year": "2002",
-        "booktitle": "CCGRID",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CCGRID.2002.1017097",
-        "url": "db/conf/ccgrid/ccgrid2002.html#BakerJ02",
-        "authors": [
-          "Mark Baker",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/JuhaszABBEMMNV06",
+          "title": "Usability Evaluation of the MOST Mobile Assistant (SlatTalker)",
+          "booktitle": "ICCHP",
+          "year": "2006",
+          "pages": "1055-1062",
+          "ee": "https://doi.org/10.1007/11788713_154",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Emil Mógor",
+              "@pid": "200/5190"
+            },
+            {
+              "#text": "Gábor Bognár",
+              "@pid": "78/793"
+            },
+            {
+              "#text": "Gergely Eberhardt",
+              "@pid": "36/4360"
+            },
+            {
+              "#text": "Laszlo Buday",
+              "@pid": "26/2376"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Teréz Vaspöri",
+              "@pid": "93/3541"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccgrid/JuhaszAP02",
-        "title": "JM: A Jini Framework for Global Computing.",
-        "pages": "395-400",
-        "year": "2002",
-        "booktitle": "CCGRID",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CCGRID.2002.1017167",
-        "url": "db/conf/ccgrid/ccgrid2002.html#JuhaszAP02",
-        "authors": [
-          "Zoltan Juhasz",
-          "Arpad Andics",
-          "Szabolcs Pota"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/MarkusAJBK10",
+          "title": "MOST-NNG: An Accessible GPS Navigation Application Integrated into the MObile Slate Talker (MOST) for the Blind",
+          "booktitle": "ICCHP (2)",
+          "year": "2010",
+          "pages": "247-254",
+          "ee": "https://doi.org/10.1007/978-3-642-14100-3_37",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Gábor Bognár",
+              "@pid": "78/793"
+            },
+            {
+              "#text": "László Késmárki",
+              "@pid": "16/6137"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccgrid/JuhaszP02",
-        "title": "Scalability Analysis of the Contract Net Protocol.",
-        "pages": "346-347",
-        "year": "2002",
-        "booktitle": "CCGRID",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CCGRID.2002.1017157",
-        "url": "db/conf/ccgrid/ccgrid2002.html#JuhaszP02",
-        "authors": [
-          "Zoltan Juhasz",
-          "Prasenjit Paul"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/MarkusJBA08",
+          "title": "How Can Java Be Made Blind-Friendly",
+          "booktitle": "ICCHP",
+          "year": "2008",
+          "pages": "526-533",
+          "ee": "https://doi.org/10.1007/978-3-540-70540-6_75",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Gábor Bognár",
+              "@pid": "78/793"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccS/PotaJ06",
-        "title": "Supporting Interactive Computational Science Applications Within the JGrid Infrastructure.",
-        "pages": "830-833",
-        "year": "2006",
-        "booktitle": "International Conference on Computational Science (1)",
-        "ee": "https://doi.org/10.1007/11758501_116",
-        "url": "db/conf/iccS/iccS2006-1.html#PotaJ06",
-        "authors": [
-          "Szabolcs Pota",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/MarkusMJA12",
+          "title": "Accessibility for the Blind on an Open-Source Mobile Platform - MObile Slate Talker (MOST) for Android",
+          "booktitle": "ICCHP (2)",
+          "year": "2012",
+          "pages": "599-606",
+          "ee": "https://doi.org/10.1007/978-3-642-31534-3_88",
+          "author": [
+            {
+              "#text": "András Arató",
+              "@pid": "75/5457"
+            },
+            {
+              "#text": "Norbert Markus",
+              "@pid": "50/4231"
+            },
+            {
+              "#text": "Szabolcs Malik",
+              "@pid": "116/7462"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/JuhaszABBEMMNV06",
-        "title": "Usability Evaluation of the MOST Mobile Assistant (SlatTalker).",
-        "pages": "1055-1062",
-        "year": "2006",
-        "booktitle": "ICCHP",
-        "ee": "https://doi.org/10.1007/11788713_154",
-        "url": "db/conf/icchp/icchp2006.html#JuhaszABBEMMNV06",
-        "authors": [
-          "Zoltan Juhasz",
-          "AndrÃ¡s AratÃ³",
-          "GÃ¡bor BognÃ¡r",
-          "Laszlo Buday",
-          "Gergely Eberhardt",
-          "Norbert Markus",
-          "Emil MÃ³gor",
-          "ZoltÃ¡n Nagy",
-          "TerÃ©z VaspÃ¶ri"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccS/PotaJ06",
+          "title": "Supporting Interactive Computational Science Applications Within the JGrid Infrastructure",
+          "booktitle": "International Conference on Computational Science (1)",
+          "year": "2006",
+          "pages": "830-833",
+          "ee": "https://doi.org/10.1007/11758501_116",
+          "author": [
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/AratoMJ12",
-        "title": "Speaking and Understanding Morse Language, Speech Technology and Autism.",
-        "pages": "311-314",
-        "year": "2012",
-        "booktitle": "ICCHP (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-31534-3_47",
-        "url": "db/conf/icchp/icchp2012-2.html#AratoMJ12",
-        "authors": [
-          "AndrÃ¡s AratÃ³",
-          "Norbert Markus",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipps/PotaJ06",
+          "title": "High-level execution and communication support for parallel grid applications in JGrid",
+          "booktitle": "IPDPS",
+          "year": "2006",
+          "ee": "https://doi.org/10.1109/IPDPS.2006.1639506",
+          "author": [
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/AratoJBEE04",
-        "title": "Java-Powered Braille Slate Talker.",
-        "pages": "506-513",
-        "ee": "https://doi.org/10.1007/978-3-540-27817-7_74",
-        "year": "2004",
-        "booktitle": "ICCHP",
-        "url": "db/conf/icchp/icchp2004.html#AratoJBEE04",
-        "authors": [
-          "AndrÃ¡s AratÃ³",
-          "Zoltan Juhasz",
-          "Paul Blenkhorn",
-          "Gareth Evans 0001",
-          "Grigori E. Evreinov"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipps/PotaJ06a",
+          "title": "The benefits of Java and Jini in the JGrid system",
+          "booktitle": "IPDPS",
+          "year": "2006",
+          "ee": "https://doi.org/10.1109/IPDPS.2006.1639512",
+          "author": [
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/MarkusMJA12",
-        "title": "Accessibility for the Blind on an Open-Source Mobile Platform - MObile Slate Talker (MOST) for Android.",
-        "pages": "599-606",
-        "year": "2012",
-        "booktitle": "ICCHP (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-31534-3_88",
-        "url": "db/conf/icchp/icchp2012-2.html#MarkusMJA12",
-        "authors": [
-          "Norbert Markus",
-          "Szabolcs Malik",
-          "Zoltan Juhasz",
-          "AndrÃ¡s AratÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/ismir/Juhasz09",
+          "title": "Motive Identification in 22 Folksong Corpora Using Dynamic Time Warping and Self Organizing Maps",
+          "booktitle": "ISMIR",
+          "year": "2009",
+          "pages": "171-176",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/AratoMJ14",
-        "title": "Teaching Morse Language to a Deaf-Blind Person for Reading and Writing SMS on an Ordinary Vibrating Smartphone.",
-        "pages": "393-396",
-        "year": "2014",
-        "booktitle": "ICCHP (2)",
-        "ee": "https://doi.org/10.1007/978-3-319-08599-9_59",
-        "url": "db/conf/icchp/icchp2014-2.html#AratoMJ14",
-        "authors": [
-          "AndrÃ¡s AratÃ³",
-          "Norbert Markus",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ismir/Juhasz11",
+          "title": "Low Dimensional Visualization of Folk Music Systems Using the Self Organizing Cloud",
+          "booktitle": "ISMIR",
+          "year": "2011",
+          "pages": "299-304",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/MarkusJBA08",
-        "title": "How Can Java Be Made Blind-Friendly.",
-        "pages": "526-533",
-        "year": "2008",
-        "booktitle": "ICCHP",
-        "ee": "https://doi.org/10.1007/978-3-540-70540-6_75",
-        "url": "db/conf/icchp/icchp2008.html#MarkusJBA08",
-        "authors": [
-          "Norbert Markus",
-          "Zoltan Juhasz",
-          "GÃ¡bor BognÃ¡r",
-          "AndrÃ¡s AratÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/mipro/BenkoJ19",
+          "title": "GPU implementation of the FastICA algorithm",
+          "booktitle": "MIPRO",
+          "year": "2019",
+          "pages": "196-199",
+          "ee": "https://doi.org/10.23919/MIPRO.2019.8757036",
+          "author": [
+            {
+              "#text": "G. Benko",
+              "@pid": "246/2328"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pvm/JuhaszC96",
-        "title": "A PVM Implementation of a Portable Parallel Image Processing Library.",
-        "pages": "188-196",
-        "year": "1996",
-        "booktitle": "PVM",
-        "url": "db/conf/pvm/pvm1996.html#JuhaszC96",
-        "ee": "https://doi.org/10.1007/3540617795_24",
-        "authors": [
-          "Zoltan Juhasz",
-          "Danny Crookes"
-        ]
+        "inproceedings": {
+          "@key": "conf/mipro/Juhasz17",
+          "title": "Highly parallel online bioelectrical signal processing on GPU architecture",
+          "booktitle": "MIPRO",
+          "year": "2017",
+          "pages": "340-346",
+          "ee": "https://doi.org/10.23919/MIPRO.2017.7973446",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pvm/Juhasz02",
-        "title": "Making Grid Computing Mainstream.",
-        "pages": "8",
-        "year": "2002",
-        "booktitle": "PVM/MPI",
-        "ee": "https://doi.org/10.1007/3-540-45825-5_6",
-        "url": "db/conf/pvm/pvm2002.html#Juhasz02",
-        "authors": [
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/mipro/JuhaszI19",
+          "title": "EEG Based Imaging of Stroke Location, Extent and Progress of Recovery Using a GPU Architecture",
+          "booktitle": "MIPRO",
+          "year": "2019",
+          "pages": "369-374",
+          "ee": "https://doi.org/10.23919/MIPRO.2019.8757035",
+          "author": [
+            {
+              "#text": "Mohamed F. Issa",
+              "@pid": "246/2154"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/dapsys/PotaSJK04",
-        "title": "Parallel Programm Execution Support in the JGrid System.",
-        "pages": "13-20",
-        "year": "2004",
-        "booktitle": "DAPSYS",
-        "url": "db/conf/dapsys/dapsys2004.html#PotaSJK04",
-        "authors": [
-          "Szabolcs Pota",
-          "Gergely Sipos",
-          "Zoltan Juhasz",
-          "PÃ©ter Kacsuk"
-        ]
+        "inproceedings": {
+          "@key": "conf/mipro/JuhaszK15",
+          "title": "A GPU-based simultaneous real-time EEG processing and visualization system for brain imaging applications",
+          "booktitle": "MIPRO",
+          "year": "2015",
+          "pages": "299-304",
+          "ee": "https://doi.org/10.1109/MIPRO.2015.7160283",
+          "author": [
+            {
+              "#text": "György Kozmann",
+              "@pid": "67/2083"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/WangJ23",
-        "title": "GPU Implementation of the Improved CEEMDAN Algorithm for Fast and Efficient EEG Time-Frequency Analysis.",
-        "pages": "8654",
-        "year": "2023",
-        "volume": "23",
-        "journal": "Sensors",
-        "number": "20",
-        "ee": "https://doi.org/10.3390/s23208654",
-        "url": "db/journals/sensors/sensors23.html#WangJ23",
-        "authors": [
-          "Zeyu Wang 0012",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/mipro/WangNJ22",
+          "title": "On the Benefits of Empirical Mode Decomposition in Spatio-temporal EEG Analysis",
+          "booktitle": "MIPRO",
+          "year": "2022",
+          "pages": "333-338",
+          "ee": "https://doi.org/10.23919/MIPRO55190.2022.9803337",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jocs/WangJ23",
-        "title": "Efficient GPU implementation of the multivariate empirical mode decomposition algorithm.",
-        "pages": "102180",
-        "year": "2023",
-        "volume": "74",
-        "journal": "J. Comput. Sci.",
-        "ee": "https://doi.org/10.1016/j.jocs.2023.102180",
-        "url": "db/journals/jocs/jocs74.html#WangJ23",
-        "authors": [
-          "Zeyu Wang 0012",
-          "Zoltan Juhasz"
-        ]
+        "inproceedings": {
+          "@key": "conf/pads/TeoTJ05",
+          "title": "Optimistic Protocol Analysis in a Performance Analyzer and Prediction Tool",
+          "booktitle": "PADS",
+          "year": "2005",
+          "pages": "49-58",
+          "ee": "https://doi.org/10.1109/PADS.2005.17",
+          "author": [
+            {
+              "#text": "Peihan Teo",
+              "@pid": "38/6779"
+            },
+            {
+              "#text": "Stephen John Turner",
+              "@pid": "t/StephenJohnTurner"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cphysics/JuhaszDDMDH21",
-        "title": "Efficient GPU implementation of the Particle-in-Cell/Monte-Carlo collisions method for 1D simulation of low-pressure capacitively coupled plasmas.",
-        "pages": "107913",
-        "year": "2021",
-        "volume": "263",
-        "journal": "Comput. Phys. Commun.",
-        "ee": "https://doi.org/10.1016/j.cpc.2021.107913",
-        "url": "db/journals/cphysics/cphysics263.html#JuhaszDDMDH21",
-        "authors": [
-          "Zoltan Juhasz",
-          "JÃ¡n Durian",
-          "Aranka Derzsi",
-          "Stefan MatejcÃ­k",
-          "ZoltÃ¡n DonkÃ³",
-          "Peter Hartmann"
-        ]
+        "inproceedings": {
+          "@key": "conf/pvm/Juhasz02",
+          "title": "Making Grid Computing Mainstream",
+          "booktitle": "PVM/MPI",
+          "year": "2002",
+          "pages": "8",
+          "ee": "https://doi.org/10.1007/3-540-45825-5_6",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijoe/JuhaszBKPP06",
-        "title": "Remote Engineering and Virtual Instrumentation Using Jini Technology.",
-        "year": "2006",
-        "volume": "2",
-        "journal": "Int. J. Online Eng.",
-        "number": "3",
-        "ee": "https://www.online-journals.org/index.php/i-joe/article/view/357",
-        "url": "db/journals/ijoe/ijoe2.html#JuhaszBKPP06",
-        "authors": [
-          "Zoltan Juhasz",
-          "GÃ¡bor BognÃ¡r",
-          "Krisztian Kuntner",
-          "Akos Pasztory",
-          "Szabolcs Pota"
-        ]
+        "inproceedings": {
+          "@key": "conf/pvm/JuhaszC96",
+          "title": "A PVM Implementation of a Portable Parallel Image Processing Library",
+          "booktitle": "PVM",
+          "year": "1996",
+          "pages": "188-196",
+          "ee": "https://doi.org/10.1007/3540617795_24",
+          "author": [
+            {
+              "#text": "Danny Crookes",
+              "@pid": "09/3995"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scpe/JuhaszK16",
-        "title": "A GPU-based Soft Real-Time System for Simultaneous EEG Processing and Visualization.",
-        "pages": "61-78",
-        "year": "2016",
-        "volume": "17",
-        "journal": "Scalable Comput. Pract. Exp.",
-        "number": "2",
-        "ee": "https://doi.org/10.12694/scpe.v17i2.1156",
-        "url": "db/journals/scpe/scpe17.html#JuhaszK16",
-        "authors": [
-          "Zoltan Juhasz",
-          "GyÃ¶rgy Kozmann"
-        ]
+        "article": {
+          "@key": "journals/aai/Juhasz07",
+          "title": "Analysis of Melody Roots in Hungarian Folk Music Using Self-Organizing Maps with Adaptively Weighted Dynamic Time Warping",
+          "journal": "Appl. Artif. Intell.",
+          "year": "2007",
+          "pages": "35-55",
+          "ee": "https://doi.org/10.1080/08839510600940116",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scpe/JuhaszAKP05",
-        "title": "Towards a Robust and Fault-Tolerant Multicast Discovery Architecture for Global Computing Grids.",
-        "year": "2005",
-        "volume": "6",
-        "journal": "Scalable Comput. Pract. Exp.",
-        "number": "2",
-        "ee": "http://www.scpe.org/index.php/scpe/article/view/323",
-        "url": "db/journals/scpe/scpe6.html#JuhaszAKP05",
-        "authors": [
-          "Zoltan Juhasz",
-          "Arpad Andics",
-          "Krisztian Kuntner",
-          "Szabolcs Pota"
-        ]
+        "article": {
+          "@key": "journals/cluster/Juhasz21",
+          "title": "Quantitative cost comparison of on-premise and cloud infrastructure based EEG data processing",
+          "journal": "Clust. Comput.",
+          "year": "2021",
+          "pages": "625-641",
+          "ee": "https://doi.org/10.1007/S10586-020-03141-Y",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sigcse/Juhasz99",
-        "title": "Using spreadsheets as a simple and effective teaching tool for predicting and visualizing parallel program performance.",
-        "pages": "51-54",
-        "year": "1999",
-        "volume": "31",
-        "journal": "ACM SIGCSE Bull.",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/571535.571568",
-        "url": "db/journals/sigcse/sigcse31.html#Juhasz99",
-        "authors": [
-          "Zoltan Juhasz"
-        ]
+        "article": {
+          "@key": "journals/cphysics/JuhaszDDMDH21",
+          "title": "Efficient GPU implementation of the Particle-in-Cell/Monte-Carlo collisions method for 1D simulation of low-pressure capacitively coupled plasmas",
+          "journal": "Comput. Phys. Commun.",
+          "year": "2021",
+          "pages": "107913",
+          "ee": "https://doi.org/10.1016/J.CPC.2021.107913",
+          "author": [
+            {
+              "#text": "Aranka Derzsi",
+              "@pid": "293/4194"
+            },
+            {
+              "#text": "Ján Durian",
+              "@pid": "293/4193"
+            },
+            {
+              "#text": "Peter Hartmann",
+              "@pid": "82/4122"
+            },
+            {
+              "#text": "Stefan Matejcík",
+              "@pid": "293/4153"
+            },
+            {
+              "#text": "Zoltán Donkó",
+              "@pid": "293/4312"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cluster/Juhasz21",
-        "title": "Quantitative cost comparison of on-premise and cloud infrastructure based EEG data processing.",
-        "pages": "625-641",
-        "year": "2021",
-        "volume": "24",
-        "journal": "Clust. Comput.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10586-020-03141-y",
-        "url": "db/journals/cluster/cluster24.html#Juhasz21",
-        "authors": [
-          "Zoltan Juhasz"
-        ]
+        "article": {
+          "@key": "journals/ijcse/PotaSJK09",
+          "title": "Parallel program execution support in the JGrid system",
+          "journal": "Int. J. Comput. Sci. Eng.",
+          "year": "2009",
+          "pages": "213-220",
+          "ee": "https://doi.org/10.1504/IJCSE.2009.027383",
+          "author": [
+            {
+              "#text": "Gergely Sipos",
+              "@pid": "65/6297"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijoe/JuhaszBKPP06",
+          "title": "Remote Engineering and Virtual Instrumentation Using Jini Technology",
+          "journal": "Int. J. Online Eng.",
+          "year": "2006",
+          "author": [
+            {
+              "#text": "Akos Pasztory",
+              "@pid": "16/8241"
+            },
+            {
+              "#text": "Gábor Bognár",
+              "@pid": "78/793"
+            },
+            {
+              "#text": "Krisztian Kuntner",
+              "@pid": "16/8240"
+            },
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocs/WangJ23",
+          "title": "Efficient GPU implementation of the multivariate empirical mode decomposition algorithm",
+          "journal": "J. Comput. Sci.",
+          "year": "2023",
+          "pages": "102180",
+          "ee": "https://doi.org/10.1016/J.JOCS.2023.102180",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/nca/IssaYTWJSE25",
+          "title": "Enhancing single-lead electrocardiogram arrhythmia detection with empirical mode decomposition",
+          "journal": "Neural Comput. Appl.",
+          "year": "2025",
+          "pages": "11583-11605",
+          "ee": "https://doi.org/10.1007/S00521-025-11089-6",
+          "author": [
+            {
+              "#text": "Ahmed H. Abu El-Atta",
+              "@pid": "146/8549"
+            },
+            {
+              "#text": "Ahmed Yousry",
+              "@pid": "253/1846"
+            },
+            {
+              "#text": "Gergely Tuboly",
+              "@pid": "131/6169"
+            },
+            {
+              "#text": "Mazen Mohamed Selim",
+              "@pid": "263/4505"
+            },
+            {
+              "#text": "Mohamed F. Issa",
+              "@pid": "246/2154"
+            },
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scpe/JuhaszAKP05",
+          "title": "Towards a Robust and Fault-Tolerant Multicast Discovery Architecture for Global Computing Grids",
+          "journal": "Scalable Comput. Pract. Exp.",
+          "year": "2005",
+          "author": [
+            {
+              "#text": "Arpad Andics",
+              "@pid": "19/6699"
+            },
+            {
+              "#text": "Krisztian Kuntner",
+              "@pid": "16/8240"
+            },
+            {
+              "#text": "Szabolcs Pota",
+              "@pid": "57/7032"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scpe/JuhaszK16",
+          "title": "A GPU-based Soft Real-Time System for Simultaneous EEG Processing and Visualization",
+          "journal": "Scalable Comput. Pract. Exp.",
+          "year": "2016",
+          "pages": "61-78",
+          "ee": "https://doi.org/10.12694/SCPE.V17I2.1156",
+          "author": [
+            {
+              "#text": "György Kozmann",
+              "@pid": "67/2083"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/WangJ23",
+          "title": "GPU Implementation of the Improved CEEMDAN Algorithm for Fast and Efficient EEG Time-Frequency Analysis",
+          "journal": "Sensors",
+          "year": "2023",
+          "pages": "8654",
+          "ee": "https://doi.org/10.3390/S23208654",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigcse/Juhasz99",
+          "title": "Using spreadsheets as a simple and effective teaching tool for predicting and visualizing parallel program performance",
+          "journal": "ACM SIGCSE Bull.",
+          "year": "1999",
+          "pages": "51-54",
+          "ee": "https://doi.org/10.1145/571535.571568",
+          "author": {
+            "#text": "Zoltan Juhasz",
+            "@pid": "09/3768"
+          }
+        }
       }
     ]
   }

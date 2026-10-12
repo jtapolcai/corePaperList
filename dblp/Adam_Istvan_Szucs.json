@@ -1,21 +1,165 @@
 {
   "dblpperson": {
+    "@name": "Adam Istvan Szucs",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/wacv/MoinarSMH16",
-        "title": "Active contours for selective object segmentation.",
-        "pages": "1-9",
-        "year": "2016",
-        "booktitle": "WACV",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/WACV.2016.7477572",
-        "url": "db/conf/wacv/wacv2016.html#MoinarSMH16",
-        "authors": [
-          "JÃ³zsef MolnÃ¡r",
-          "Adam Istvan Szucs",
-          "Csaba Molnar",
-          "PÃ©ter HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/bibm/SzucsKP24",
+          "title": "Projection geometry invariant nonrigid motion correction",
+          "booktitle": "BIBM",
+          "year": "2024",
+          "pages": "5546-5552",
+          "ee": "https://doi.org/10.1109/BIBM62325.2024.10822170",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Béla Kári",
+              "@pid": "03/406"
+            },
+            {
+              "#text": "Oszkár Pártos",
+              "@pid": "378/4689"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icbra/AliSKP25",
+          "title": "Attention on Shapes - A Myocardial Perfusion Imaging SPECT Segmentation Transformer with Shape Priors",
+          "booktitle": "ICBRA",
+          "year": "2025",
+          "pages": "10-15",
+          "ee": "https://doi.org/10.1145/3774976.3774978",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Béla Kári",
+              "@pid": "03/406"
+            },
+            {
+              "#text": "Haris Ali",
+              "@pid": "343/0308"
+            },
+            {
+              "#text": "Oszkár Pártos",
+              "@pid": "378/4689"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icbra/SzucsHSZK23",
+          "title": "Self-supervised segmentation of myocardial perfusion imaging SPECT left ventricles",
+          "booktitle": "ICBRA",
+          "year": "2023",
+          "pages": "206-211",
+          "ee": "https://doi.org/10.1145/3632047.3632078",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Ádám Zlehovszky",
+              "@pid": "373/0423"
+            },
+            {
+              "#text": "Béla Kári",
+              "@pid": "03/406"
+            },
+            {
+              "#text": "Katalin Sólyomvári",
+              "@pid": "373/0834"
+            },
+            {
+              "#text": "Kristóf Horváth",
+              "@pid": "373/0132"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/SzucsKP24",
+          "title": "Continuous Max-Flow Augmentation of Self-Supervised Few-Shot Learning on Spect Left Ventricles",
+          "booktitle": "ISBI",
+          "year": "2024",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ISBI56570.2024.10635433",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Béla Kári",
+              "@pid": "03/406"
+            },
+            {
+              "#text": "Oszkár Pártos",
+              "@pid": "378/4689"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wacv/MoinarSMH16",
+          "title": "Active contours for selective object segmentation",
+          "booktitle": "WACV",
+          "year": "2016",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/WACV.2016.7477572",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Csaba Molnar",
+              "@pid": "126/0704"
+            },
+            {
+              "#text": "József Molnár",
+              "@pid": "51/3911"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "132/8240"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-05520",
+          "title": "Continuous max-flow augmentation of self-supervised few-shot learning on SPECT left ventricles",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.05520",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Béla Kári",
+              "@pid": "03/406"
+            },
+            {
+              "#text": "Oszkár Pártos",
+              "@pid": "378/4689"
+            }
+          ]
+        }
       }
     ]
   }

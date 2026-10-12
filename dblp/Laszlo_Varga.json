@@ -1,43 +1,86 @@
 {
   "dblpperson": {
+    "@name": "László Varga",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/hicss/KovacsMSGLRVZV00",
-        "title": "Database Description for a Pan-European Healthcare System.",
-        "year": "2000",
-        "booktitle": "HICSS",
-        "ee": "https://www.wikidata.org/entity/Q58827366",
-        "url": "db/conf/hicss/hicss2000.html#KovacsMSGLRVZV00",
-        "authors": [
-          "Zsolt Kovacs 0001",
-          "Richard McClatchey",
-          "Tony Solomonides",
-          "Jean-Marie Le Goff",
-          "Paul Lecoq",
-          "Francois Rohrbach",
-          "GyÃ¶rgy Vesztergombi",
-          "Marton Zsenei",
-          "Laszlo Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwssip/DobreffSMVLBP23",
+          "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study",
+          "booktitle": "IWSSIP",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ideas/McClatcheyKEGVZ99",
-        "title": "The Role of Meta-Objects and Self-Description in an Engineering Data Warehouse.",
-        "pages": "342-350",
-        "year": "1999",
-        "booktitle": "IDEAS",
-        "ee": "https://www.wikidata.org/entity/Q58827368",
-        "url": "db/conf/ideas/ideas1999.html#McClatcheyKEGVZ99",
-        "authors": [
-          "Richard McClatchey",
-          "Zsolt Kovacs 0001",
-          "Florida Estrella",
-          "Jean-Marie Le Goff",
-          "Laszlo Varga",
-          "Marton Zsenei"
-        ]
+        "inproceedings": {
+          "@key": "conf/qomex/DobreffSLMVBP23",
+          "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring",
+          "booktitle": "QoMEX",
+          "year": "2023",
+          "pages": "127-130",
+          "ee": "https://doi.org/10.1109/QOMEX58391.2023.10178470",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       }
     ]
   }

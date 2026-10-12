@@ -1,747 +1,1247 @@
 {
   "dblpperson": {
+    "@name": "Bertalan Forstner",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ifip6-6/BlazovicsLF12",
-        "title": "Target Surrounding Solution for Swarm Robots.",
-        "pages": "251-262",
-        "year": "2012",
-        "booktitle": "EUNICE",
-        "ee": "https://doi.org/10.1007/978-3-642-32808-4_23",
-        "url": "db/conf/ifip6-6/eunice2012.html#BlazovicsLF12",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/aiccsa/LengyelLMFC06",
+          "title": "Towards a Model-Based Unification of Mobile Platforms",
+          "booktitle": "AICCSA",
+          "year": "2006",
+          "pages": "867-874",
+          "ee": "https://doi.org/10.1109/AICCSA.2006.205190",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iastedSE/KereskenyiFC06",
-        "title": "Using Design Patterns in Mobile Communication Development.",
-        "pages": "65-70",
-        "year": "2006",
-        "booktitle": "IASTED Conf. on Software Engineering",
-        "url": "db/conf/iastedSE/se2006.html#KereskenyiFC06",
-        "authors": [
-          "RÃ³bert KereskÃ©nyi",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/algosensors/HidegLF18",
+          "title": "Filling Arbitrary Connected Areas by Silent Robots with Minimum Visibility Range",
+          "booktitle": "ALGOSENSORS",
+          "year": "2019",
+          "pages": "193-205",
+          "ee": "https://doi.org/10.1007/978-3-030-14094-6_13",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdcn/ForstnerKC06",
-        "title": "Eliminating Clustering in the Propagation Tree of Semantic Peer-to-Peer Networks.",
-        "pages": "111-116",
-        "year": "2006",
-        "booktitle": "Parallel and Distributed Computing and Networks",
-        "url": "db/conf/pdcn/pdcn2006.html#ForstnerKC06",
-        "authors": [
-          "Bertalan Forstner",
-          "RÃ³bert KereskÃ©nyi",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccnc/KelenyiF08",
+          "title": "Distributed Hash Table on Mobile Phones",
+          "booktitle": "CCNC",
+          "year": "2008",
+          "pages": "1226-1227",
+          "ee": "https://doi.org/10.1109/CCNC08.2007.280",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Imre Kelényi",
+              "@pid": "11/4085"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdcn/ForstnerC04",
-        "title": "cPEED: A rapid web application development framework.",
-        "pages": "625-630",
-        "year": "2004",
-        "booktitle": "Parallel and Distributed Computing and Networks",
-        "url": "db/conf/pdcn/pdcn2004.html#ForstnerC04",
-        "authors": [
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/FeketeCFFV12",
+          "title": "Energy-efficient computation offloading model for mobile phone environment",
+          "booktitle": "CloudNet",
+          "year": "2012",
+          "pages": "95-99",
+          "ee": "https://doi.org/10.1109/CLOUDNET.2012.6483662",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "Krisztian Fekete",
+              "@pid": "37/11338"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdcn/CsucsMF05",
-        "title": "Evaluating Performance of Peer-to-Peer Protocols with an Advanced Simulator.",
-        "pages": "584-589",
-        "year": "2005",
-        "booktitle": "Parallel and Distributed Computing and Networks",
-        "url": "db/conf/pdcn/pdcn2005.html#CsucsMF05",
-        "authors": [
-          "Gergely CsÃºcs",
-          "KÃ¡lmÃ¡n Marossy",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/BlazovicsFCF13",
+          "title": "On the benefits of cognitive infocommunication for mobile communication nodes using cooperative concepts",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "693-698",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719191",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Frank H. P. Fitzek",
+              "@pid": "f/FHPFitzek"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/HidegTF17",
-        "title": "Uniform dispersal of silent oblivious robots.",
-        "pages": "175-180",
-        "year": "2017",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY.2017.8080548",
-        "url": "db/conf/sisy/sisy2017.html#HidegTF17",
-        "authors": [
-          "Attila Hideg",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/BlazovicsLF12",
+          "title": "Surrounding robots - A localized solution for the intruder problem",
+          "booktitle": "CogInfoCom",
+          "year": "2012",
+          "pages": "297-301",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2012.6421997",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/HidegBF16",
-        "title": "Solving the filling problem with the visibility range of 1.",
-        "pages": "19-23",
-        "year": "2016",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY.2016.7601503",
-        "url": "db/conf/sisy/sisy2016.html#HidegBF16",
-        "authors": [
-          "Attila Hideg",
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/BodolaiGFS15",
+          "title": "Supervising Biofeedback-based serious games",
+          "booktitle": "CogInfoCom",
+          "year": "2015",
+          "pages": "273-278",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2015.7390603",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Dorottya Bodolai",
+              "@pid": "333/9713"
+            },
+            {
+              "#text": "László Gazdi",
+              "@pid": "333/7717"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cloudnet/FeketeCFFV12",
-        "title": "Energy-efficient computation offloading model for mobile phone environment.",
-        "pages": "95-99",
-        "year": "2012",
-        "booktitle": "CloudNet",
-        "ee": "https://doi.org/10.1109/CloudNet.2012.6483662",
-        "url": "db/conf/cloudnet/cloudnet2012.html#FeketeCFFV12",
-        "authors": [
-          "Krisztian Fekete",
-          "KristÃ³f Csorba",
-          "Bertalan Forstner",
-          "Marcell FehÃ©r",
-          "TamÃ¡s Vajk"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/FeherF13",
+          "title": "Self-adjusting method for efficient GPS tracklog compression",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "753-758",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719199",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mompes/ForstnerLLMKC06",
-        "title": "Model-Based System Development for Embedded Mobile Platforms.",
-        "pages": "43-52",
-        "year": "2006",
-        "booktitle": "MDB/MOMPES",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/MBD-MOMPES.2006.20",
-        "url": "db/conf/mompes/mompes2006.html#ForstnerLLMKC06",
-        "authors": [
-          "Bertalan Forstner",
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Imre KelÃ©nyi",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/FeketeCVFP13",
+          "title": "Towards an Energy efficient Code Generator for Mobile phones",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "647-652",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719182",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "Krisztian Fekete",
+              "@pid": "37/11338"
+            },
+            {
+              "#text": "Krisztián Pándi",
+              "@pid": "132/0256"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccnc/KelenyiF08",
-        "title": "Distributed Hash Table on Mobile Phones.",
-        "pages": "1226-1227",
-        "year": "2008",
-        "booktitle": "CCNC",
-        "ee": "https://doi.org/10.1109/ccnc08.2007.280",
-        "url": "db/conf/ccnc/ccnc2008.html#KelenyiF08",
-        "authors": [
-          "Imre KelÃ©nyi",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/ForstnerSAF13",
+          "title": "A general framework for innovative mobile biofeedback based educational games",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "775-778",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719204",
+          "author": [
+            {
+              "#text": "András Fekete",
+              "@pid": "22/10736"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Robert Angeli",
+              "@pid": "334/0040"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/FeketeCVFP13",
-        "title": "Towards an Energy efficient Code Generator for Mobile phones.",
-        "pages": "647-652",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719182",
-        "url": "db/conf/coginfocom/coginfocom2013.html#FeketeCVFP13",
-        "authors": [
-          "Krisztian Fekete",
-          "KristÃ³f Csorba",
-          "TamÃ¡s Vajk",
-          "Bertalan Forstner",
-          "KrisztiÃ¡n PÃ¡ndi"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/GazdiPRSSF16",
+          "title": "Experimenting with classifiers in biofeedback-based mental effort measurement",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "331-336",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804571",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Bertalan Radostyan",
+              "@pid": "333/7918"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "László Gazdi",
+              "@pid": "333/7717"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Szabó",
+              "@pid": "163/9840"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/RadostyanFSPG16",
-        "title": "Adaptive figurai abstraction test with generated exercises.",
-        "pages": "327-330",
-        "year": "2016",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2016.7804570",
-        "url": "db/conf/coginfocom/coginfocom2016.html#RadostyanFSPG16",
-        "authors": [
-          "Bertalan Radostyan",
-          "Bertalan Forstner",
-          "Luca Szegletes",
-          "KrisztiÃ¡n PomÃ¡zi",
-          "LÃ¡szlÃ³ Gazdi"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/HidegBF16",
+          "title": "Uniform dispersal of oblivious mobile robots",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "323-326",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804569",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/MedgyesiPSF15",
-        "title": "Evaluating application usability with portable biofeedback system for mobile and desktop.",
-        "pages": "279-283",
-        "year": "2015",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2015.7390604",
-        "url": "db/conf/coginfocom/coginfocom2015.html#MedgyesiPSF15",
-        "authors": [
-          "Zsolt Medgyesi",
-          "KrisztiÃ¡n PomÃ¡zi",
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/HidegBF18",
+          "title": "Multi-Robot Simulation Framework",
+          "booktitle": "CogInfoCom",
+          "year": "2018",
+          "pages": "159-164",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2018.8639911",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Bláazovics",
+              "@pid": "334/2763"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/BlazovicsFCF13",
-        "title": "On the benefits of cognitive infocommunication for mobile communication nodes using cooperative concepts.",
-        "pages": "693-698",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719191",
-        "url": "db/conf/coginfocom/coginfocom2013.html#BlazovicsFCF13",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "Bertalan Forstner",
-          "Hassan Charaf",
-          "Frank H. P. Fitzek"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/HidegBF19",
+          "title": "Uniform Dispersal of Cheap Flying Robots",
+          "booktitle": "CogInfoCom",
+          "year": "2019",
+          "pages": "227-232",
+          "ee": "https://doi.org/10.1109/COGINFOCOM47531.2019.9089977",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SzaboPRSF16",
-        "title": "Estimating task difficulty in educational games.",
-        "pages": "397-402",
-        "year": "2016",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2016.7804582",
-        "url": "db/conf/coginfocom/coginfocom2016.html#SzaboPRSF16",
-        "authors": [
-          "MÃ¡tÃ© SzabÃ³",
-          "KrisztiÃ¡n PomÃ¡zi",
-          "Bertalan Radostyan",
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/KolesSF15",
+          "title": "Towards a physiology based difficulty control system for serious games",
+          "booktitle": "CogInfoCom",
+          "year": "2015",
+          "pages": "323-328",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2015.7390612",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Köles",
+              "@pid": "151/3177"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/ForstnerSAF13",
-        "title": "A general framework for innovative mobile biofeedback based educational games.",
-        "pages": "775-778",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719204",
-        "url": "db/conf/coginfocom/coginfocom2013.html#ForstnerSAF13",
-        "authors": [
-          "Bertalan Forstner",
-          "Luca Szegletes",
-          "Robert Angeli",
-          "AndrÃ¡s Fekete"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/MedgyesiPSF15",
+          "title": "Evaluating application usability with portable biofeedback system for mobile and desktop",
+          "booktitle": "CogInfoCom",
+          "year": "2015",
+          "pages": "279-283",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2015.7390604",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Zsolt Medgyesi",
+              "@pid": "333/9441"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SzegletesKF14",
-        "title": "The design of a biofeedback framework for dynamic difficulty adjustment in games.",
-        "pages": "295-299",
-        "year": "2014",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2014.7020465",
-        "url": "db/conf/coginfocom/coginfocom2014.html#SzegletesKF14",
-        "authors": [
-          "Luca Szegletes",
-          "MÃ¡tÃ© KÃ¶les",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/PomaziGRSSF16",
+          "title": "Self-standardizing cognitive profile based on gardner's multiple intelligence theory",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "317-322",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804568",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Bertalan Radostyan",
+              "@pid": "333/7918"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "László Gazdi",
+              "@pid": "333/7717"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Szabó",
+              "@pid": "163/9840"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/HidegBF18",
-        "title": "Multi-Robot Simulation Framework.",
-        "pages": "159-164",
-        "year": "2018",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2018.8639911",
-        "url": "db/conf/coginfocom/coginfocom2018.html#HidegBF18",
-        "authors": [
-          "Attila Hideg",
-          "LÃ¡szlÃ³ BlÃ¡azovics",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/RadostyanFSPG16",
+          "title": "Adaptive figurai abstraction test with generated exercises",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "327-330",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804570",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Bertalan Radostyan",
+              "@pid": "333/7918"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "László Gazdi",
+              "@pid": "333/7717"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SzegletesF12",
-        "title": "Towards biofeedback-controlled self-rewarding learning with mobile devices.",
-        "pages": "303-308",
-        "year": "2012",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6421998",
-        "url": "db/conf/coginfocom/coginfocom2012.html#SzegletesF12",
-        "authors": [
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SzaboPRSF16",
+          "title": "Estimating task difficulty in educational games",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "397-402",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804582",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Bertalan Radostyan",
+              "@pid": "333/7918"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Szabó",
+              "@pid": "163/9840"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/GazdiPRSSF16",
-        "title": "Experimenting with classifiers in biofeedback-based mental effort measurement.",
-        "pages": "331-336",
-        "year": "2016",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2016.7804571",
-        "url": "db/conf/coginfocom/coginfocom2016.html#GazdiPRSSF16",
-        "authors": [
-          "LÃ¡szlÃ³ Gazdi",
-          "KrisztiÃ¡n PomÃ¡zi",
-          "Bertalan Radostyan",
-          "MÃ¡tÃ© SzabÃ³",
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SzegletesF12",
+          "title": "Towards biofeedback-controlled self-rewarding learning with mobile devices",
+          "booktitle": "CogInfoCom",
+          "year": "2012",
+          "pages": "303-308",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2012.6421998",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/BodolaiGFS15",
-        "title": "Supervising Biofeedback-based serious games.",
-        "pages": "273-278",
-        "year": "2015",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2015.7390603",
-        "url": "db/conf/coginfocom/coginfocom2015.html#BodolaiGFS15",
-        "authors": [
-          "Dorottya Bodolai",
-          "LÃ¡szlÃ³ Gazdi",
-          "Bertalan Forstner",
-          "Luca Szegletes"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SzegletesF13",
+          "title": "Reusable framework for the development of adaptive games",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "601-606",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719173",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/HidegBF19",
-        "title": "Uniform Dispersal of Cheap Flying Robots.",
-        "pages": "227-232",
-        "year": "2019",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom47531.2019.9089977",
-        "url": "db/conf/coginfocom/coginfocom2019.html#HidegBF19",
-        "authors": [
-          "Attila Hideg",
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SzegletesKF14",
+          "title": "The design of a biofeedback framework for dynamic difficulty adjustment in games",
+          "booktitle": "CogInfoCom",
+          "year": "2014",
+          "pages": "295-299",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2014.7020465",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Köles",
+              "@pid": "151/3177"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/BlazovicsLF12",
-        "title": "Surrounding robots - A localized solution for the intruder problem.",
-        "pages": "297-301",
-        "year": "2012",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6421997",
-        "url": "db/conf/coginfocom/coginfocom2012.html#BlazovicsLF12",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/csa/ForstnerC05",
+          "title": "Modelling Clustered Peer-to-Peer Networks",
+          "booktitle": "Communication Systems and Applications",
+          "year": "2005",
+          "pages": "152-157",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/PomaziGRSSF16",
-        "title": "Self-standardizing cognitive profile based on gardner's multiple intelligence theory.",
-        "pages": "317-322",
-        "year": "2016",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2016.7804568",
-        "url": "db/conf/coginfocom/coginfocom2016.html#PomaziGRSSF16",
-        "authors": [
-          "KrisztiÃ¡n PomÃ¡zi",
-          "LÃ¡szlÃ³ Gazdi",
-          "Bertalan Radostyan",
-          "MÃ¡tÃ© SzabÃ³",
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/BlazovicsCFC12",
+          "title": "Target Tracking and Surrounding with Swarm Robots",
+          "booktitle": "ECBS",
+          "year": "2012",
+          "pages": "135-141",
+          "ee": "https://doi.org/10.1109/ECBS.2012.41",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/FeherF13",
-        "title": "Self-adjusting method for efficient GPS tracklog compression.",
-        "pages": "753-758",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719199",
-        "url": "db/conf/coginfocom/coginfocom2013.html#FeherF13",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/BlazovicsVCFFC11",
+          "title": "Vision Based Area Discovery with Swarm Robots",
+          "booktitle": "ECBS-EERC",
+          "year": "2011",
+          "pages": "149-150",
+          "ee": "https://doi.org/10.1109/ECBS-EERC.2011.32",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Csaba Varga",
+              "@pid": "51/8606"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SzegletesF13",
-        "title": "Reusable framework for the development of adaptive games.",
-        "pages": "601-606",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719173",
-        "url": "db/conf/coginfocom/coginfocom2013.html#SzegletesF13",
-        "authors": [
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/FeherF11",
+          "title": "Identifying and Utilizing Routines of Human Movement",
+          "booktitle": "ECBS-EERC",
+          "year": "2011",
+          "pages": "135-138",
+          "ee": "https://doi.org/10.1109/ECBS-EERC.2011.28",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/KolesSF15",
-        "title": "Towards a physiology based difficulty control system for serious games.",
-        "pages": "323-328",
-        "year": "2015",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2015.7390612",
-        "url": "db/conf/coginfocom/coginfocom2015.html#KolesSF15",
-        "authors": [
-          "MÃ¡tÃ© KÃ¶les",
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/FeherF13",
+          "title": "Meeting Arrangement Based on Patterns of Movement",
+          "booktitle": "ECBS-EERC",
+          "year": "2013",
+          "pages": "78-84",
+          "ee": "https://doi.org/10.1109/ECBS-EERC.2013.39",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/HidegBF16",
-        "title": "Uniform dispersal of oblivious mobile robots.",
-        "pages": "323-326",
-        "year": "2016",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2016.7804569",
-        "url": "db/conf/coginfocom/coginfocom2016.html#HidegBF16",
-        "authors": [
-          "Attila Hideg",
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/FeherFCF12",
+          "title": "Route Separation Strategies for Human Movement Datasets",
+          "booktitle": "ECBS",
+          "year": "2012",
+          "pages": "150-153",
+          "ee": "https://doi.org/10.1109/ECBS.2012.35",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "Krisztian Fekete",
+              "@pid": "37/11338"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aiccsa/LengyelLMFC06",
-        "title": "Towards a Model-Based Unification of Mobile Platforms.",
-        "pages": "867-874",
-        "year": "2006",
-        "booktitle": "AICCSA",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AICCSA.2006.205190",
-        "url": "db/conf/aiccsa/aiccsa2006.html#LengyelLMFC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/iastedSE/KereskenyiFC06",
+          "title": "Using Design Patterns in Mobile Communication Development",
+          "booktitle": "IASTED Conf. on Software Engineering",
+          "year": "2006",
+          "pages": "65-70",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/FeketeCFVFA13",
-        "title": "Analyzing computation offloading energy-efficiency measurements.",
-        "pages": "301-305",
-        "year": "2013",
-        "booktitle": "ICC Workshops",
-        "ee": "https://doi.org/10.1109/ICCW.2013.6649248",
-        "url": "db/conf/icc/icc2013w.html#FeketeCFVFA13",
-        "authors": [
-          "Krisztian Fekete",
-          "KristÃ³f Csorba",
-          "Bertalan Forstner",
-          "TamÃ¡s Vajk",
-          "Marcell FehÃ©r",
-          "IstvÃ¡n Albert"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/FeketeCFVFA13",
+          "title": "Analyzing computation offloading energy-efficiency measurements",
+          "booktitle": "ICC Workshops",
+          "year": "2013",
+          "pages": "301-305",
+          "ee": "https://doi.org/10.1109/ICCW.2013.6649248",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "István Albert",
+              "@pid": "96/2827"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "Krisztian Fekete",
+              "@pid": "37/11338"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            },
+            {
+              "#text": "Tamás Vajk",
+              "@pid": "04/3715"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/csa/ForstnerC05",
-        "title": "Modelling Clustered Peer-to-Peer Networks.",
-        "pages": "152-157",
-        "year": "2005",
-        "booktitle": "Communication Systems and Applications",
-        "url": "db/conf/csa/csa2005.html#ForstnerC05",
-        "authors": [
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsama/FeherF14",
+          "title": "GPS Tracklog Compression by Heading-Based Filtering",
+          "booktitle": "ICCSAMA",
+          "year": "2014",
+          "pages": "367-376",
+          "ee": "https://doi.org/10.1007/978-3-319-06569-4_27",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccsama/FeherF14",
-        "title": "GPS Tracklog Compression by Heading-Based Filtering.",
-        "pages": "367-376",
-        "year": "2014",
-        "booktitle": "ICCSAMA",
-        "ee": "https://doi.org/10.1007/978-3-319-06569-4_27",
-        "url": "db/conf/iccsama/iccsama2014.html#FeherF14",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/ifip6-6/BlazovicsLF12",
+          "title": "Target Surrounding Solution for Swarm Robots",
+          "booktitle": "EUNICE",
+          "year": "2012",
+          "pages": "251-262",
+          "ee": "https://doi.org/10.1007/978-3-642-32808-4_23",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/BlazovicsVCFFC11",
-        "title": "Vision Based Area Discovery with Swarm Robots.",
-        "pages": "149-150",
-        "year": "2011",
-        "booktitle": "ECBS-EERC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS-EERC.2011.32",
-        "url": "db/conf/ecbs/ecbs-eerc2011.html#BlazovicsVCFFC11",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "Csaba Varga",
-          "KristÃ³f Csorba",
-          "Marcell FehÃ©r",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/mompes/ForstnerLLMKC06",
+          "title": "Model-Based System Development for Embedded Mobile Platforms",
+          "booktitle": "MDB/MOMPES",
+          "year": "2006",
+          "pages": "43-52",
+          "ee": "https://doi.org/10.1109/MBD-MOMPES.2006.20",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Imre Kelényi",
+              "@pid": "11/4085"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/FeherF11",
-        "title": "Identifying and Utilizing Routines of Human Movement.",
-        "pages": "135-138",
-        "year": "2011",
-        "booktitle": "ECBS-EERC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS-EERC.2011.28",
-        "url": "db/conf/ecbs/ecbs-eerc2011.html#FeherF11",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdcn/CsucsMF05",
+          "title": "Evaluating Performance of Peer-to-Peer Protocols with an Advanced Simulator",
+          "booktitle": "Parallel and Distributed Computing and Networks",
+          "year": "2005",
+          "pages": "584-589",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Csúcs",
+              "@pid": "76/1012"
+            },
+            {
+              "#text": "Kálmán Marossy",
+              "@pid": "42/5938"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/BlazovicsCFC12",
-        "title": "Target Tracking and Surrounding with Swarm Robots.",
-        "pages": "135-141",
-        "year": "2012",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2012.41",
-        "url": "db/conf/ecbs/ecbs2012.html#BlazovicsCFC12",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "KristÃ³f Csorba",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdcn/ForstnerC04",
+          "title": "cPEED: A rapid web application development framework",
+          "booktitle": "Parallel and Distributed Computing and Networks",
+          "year": "2004",
+          "pages": "625-630",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/FeherF13",
-        "title": "Meeting Arrangement Based on Patterns of Movement.",
-        "pages": "78-84",
-        "year": "2013",
-        "booktitle": "ECBS-EERC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS-EERC.2013.39",
-        "url": "db/conf/ecbs/ecbs-eerc2013.html#FeherF13",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdcn/ForstnerKC06",
+          "title": "Eliminating Clustering in the Propagation Tree of Semantic Peer-to-Peer Networks",
+          "booktitle": "Parallel and Distributed Computing and Networks",
+          "year": "2006",
+          "pages": "111-116",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/FeherFCF12",
-        "title": "Route Separation Strategies for Human Movement Datasets.",
-        "pages": "150-153",
-        "year": "2012",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2012.35",
-        "url": "db/conf/ecbs/ecbs2012.html#FeherFCF12",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Krisztian Fekete",
-          "KristÃ³f Csorba",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/HidegBF16",
+          "title": "Solving the filling problem with the visibility range of 1",
+          "booktitle": "SISY",
+          "year": "2016",
+          "pages": "19-23",
+          "ee": "https://doi.org/10.1109/SISY.2016.7601503",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/algosensors/HidegLF18",
-        "title": "Filling Arbitrary Connected Areas by Silent Robots with Minimum Visibility Range.",
-        "pages": "193-205",
-        "year": "2018",
-        "booktitle": "ALGOSENSORS",
-        "ee": "https://doi.org/10.1007/978-3-030-14094-6_13",
-        "url": "db/conf/algosensors/algosensors2018.html#HidegLF18",
-        "authors": [
-          "Attila Hideg",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/HidegTF17",
+          "title": "Uniform dispersal of silent oblivious robots",
+          "booktitle": "SISY",
+          "year": "2017",
+          "pages": "175-180",
+          "ee": "https://doi.org/10.1109/SISY.2017.8080548",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jmui/SzegletesKF15",
-        "title": "Socio-cognitive gamification: general framework for educational games.",
-        "pages": "395-401",
-        "year": "2015",
-        "volume": "9",
-        "journal": "J. Multimodal User Interfaces",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s12193-015-0183-6",
-        "url": "db/journals/jmui/jmui9.html#SzegletesKF15",
-        "authors": [
-          "Luca Szegletes",
-          "MÃ¡tÃ© KÃ¶les",
-          "Bertalan Forstner"
-        ]
+        "article": {
+          "@key": "journals/actaC/CharafEMKKAFL14",
+          "title": "Mobile Platforms and Multi-Mobile Platform Development",
+          "journal": "Acta Cybern.",
+          "year": "2014",
+          "pages": "529-552",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.4.2014.2",
+          "author": [
+            {
+              "#text": "Bence Kovári",
+              "@pid": "70/4940"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Imre Kelényi",
+              "@pid": "11/4085"
+            },
+            {
+              "#text": "István Albert",
+              "@pid": "96/2827"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Péter Ekler",
+              "@pid": "23/6239"
+            },
+            {
+              "#text": "Tamás Mészáros",
+              "@pid": "71/6242"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/CharafEMKKAFL14",
-        "title": "Mobile Platforms and Multi-Mobile Platform Development.",
-        "pages": "529-552",
-        "year": "2014",
-        "volume": "21",
-        "journal": "Acta Cybern.",
-        "number": "4",
-        "ee": "https://doi.org/10.14232/actacyb.21.4.2014.2",
-        "url": "db/journals/actaC/actaC21.html#CharafEMKKAFL14",
-        "authors": [
-          "Hassan Charaf",
-          "PÃ©ter Ekler",
-          "TamÃ¡s MÃ©szÃ¡ros",
-          "Imre KelÃ©nyi",
-          "Bence KovÃ¡ri",
-          "IstvÃ¡n Albert",
-          "Bertalan Forstner",
-          "LÃ¡szlÃ³ Lengyel"
-        ]
+        "article": {
+          "@key": "journals/data/LuczF25",
+          "title": "A Thirty-Day Dataset of Malicious HTTP Requests Blocked by OWASP ModSecurity on a Production Web Server",
+          "journal": "Data",
+          "year": "2025",
+          "pages": "186",
+          "ee": "https://doi.org/10.3390/DATA10110186",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Geza Lucz",
+              "@pid": "421/1487"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/eecs/GazdiPSF18",
-        "title": "An Innovative Model for Adaptive Learning Utilizing Biofeedback and Item Response Theory.",
-        "pages": "90-105",
-        "year": "2018",
-        "volume": "62",
-        "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q129710172",
-        "url": "db/journals/eecs/eecs62.html#GazdiPSF18",
-        "authors": [
-          "LÃ¡szlÃ³ Gazdi",
-          "KrisztiÃ¡n PomÃ¡zi",
-          "MÃ¡tÃ© SzabÃ³",
-          "Bertalan Forstner"
-        ]
+        "article": {
+          "@key": "journals/eecs/GazdiPSF18",
+          "title": "An Innovative Model for Adaptive Learning Utilizing Biofeedback and Item Response Theory",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2018",
+          "pages": "90-105",
+          "ee": "https://doi.org/10.3311/PPEE.12213",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Krisztián Pomázi",
+              "@pid": "333/8154"
+            },
+            {
+              "#text": "László Gazdi",
+              "@pid": "333/7717"
+            },
+            {
+              "#text": "Máté Szabó",
+              "@pid": "163/9840"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/eecs/HidegLF22",
-        "title": "Improved Runtime for the Synchronous Multi-door Filling.",
-        "pages": "12-19",
-        "year": "2022",
-        "volume": "66",
-        "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.3311/ppee.17853",
-        "url": "db/journals/eecs/eecs66.html#HidegLF22",
-        "authors": [
-          "Attila Hideg",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "article": {
+          "@key": "journals/eecs/HidegLF22",
+          "title": "Improved Runtime for the Synchronous Multi-door Filling",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2022",
+          "pages": "12-19",
+          "ee": "https://doi.org/10.3311/PPEE.17853",
+          "author": [
+            {
+              "#text": "Attila Hideg",
+              "@pid": "188/4415"
+            },
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ercim/FeherF14",
-        "title": "A Carpooling Recommendation System in the Smartphone Age.",
-        "year": "2014",
-        "volume": "2014",
-        "journal": "ERCIM News",
-        "number": "98",
-        "ee": "http://ercim-news.ercim.eu/en98/special/a-carpooling-recommendation-system-in-the-smartphone-age",
-        "url": "db/journals/ercim/ercim2014.html#FeherF14",
-        "authors": [
-          "Marcell FehÃ©r",
-          "Bertalan Forstner"
-        ]
+        "inproceedings": {
+          "@key": "journals/entcs/LengyelLMFC06",
+          "title": "Metamodel-Based Model Transformation with Aspect-Oriented Constraints",
+          "booktitle": "GRaMoT@GPCE",
+          "year": "2006",
+          "pages": "111-123",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2005.10.020",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Gergely Mezei",
+              "@pid": "32/3411"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "László Lengyel",
+              "@pid": "22/5962"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/data/LuczF25",
-        "title": "A Thirty-Day Dataset of Malicious HTTP Requests Blocked by OWASP ModSecurity on a Production Web Server.",
-        "pages": "186",
-        "year": "2025",
-        "volume": "10",
-        "journal": "Data",
-        "number": "11",
-        "ee": "https://doi.org/10.3390/data10110186",
-        "url": "db/journals/data/data10.html#LuczF25",
-        "authors": [
-          "Geza Lucz",
-          "Bertalan Forstner"
-        ]
+        "informal": {
+          "@key": "journals/ercim/FeherF14",
+          "title": "A Carpooling Recommendation System in the Smartphone Age",
+          "journal": "ERCIM News",
+          "year": "2014",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Marcell Fehér",
+              "@pid": "82/11338"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/entcs/LengyelLMFC06",
-        "title": "Metamodel-Based Model Transformation with Aspect-Oriented Constraints.",
-        "pages": "111-123",
-        "year": "2005",
-        "booktitle": "GRaMoT@GPCE",
-        "ee": "https://doi.org/10.1016/j.entcs.2005.10.020",
-        "url": "db/journals/entcs/entcs152.html#LengyelLMFC06",
-        "authors": [
-          "LÃ¡szlÃ³ Lengyel",
-          "Tihamer Levendovszky",
-          "Gergely Mezei",
-          "Bertalan Forstner",
-          "Hassan Charaf"
-        ]
+        "article": {
+          "@key": "journals/jaciii/BlazovicsLF14",
+          "title": "Surrounding Robots - A Discrete Localized Solution for the Intruder Problem -",
+          "journal": "J. Adv. Comput. Intell. Intell. Informatics",
+          "year": "2014",
+          "pages": "315-319",
+          "ee": "https://doi.org/10.20965/JACIII.2014.P0315",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "László Blázovics",
+              "@pid": "98/8693"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jaciii/SzegletesF14",
-        "title": "Applications of Modern HCIs in Adaptive Mobile Learning.",
-        "pages": "311-314",
-        "year": "2014",
-        "volume": "18",
-        "journal": "J. Adv. Comput. Intell. Intell. Informatics",
-        "number": "3",
-        "ee": "https://doi.org/10.20965/jaciii.2014.p0311",
-        "url": "db/journals/jaciii/jaciii18.html#SzegletesF14",
-        "authors": [
-          "Luca Szegletes",
-          "Bertalan Forstner"
-        ]
+        "article": {
+          "@key": "journals/jaciii/SzegletesF14",
+          "title": "Applications of Modern HCIs in Adaptive Mobile Learning",
+          "journal": "J. Adv. Comput. Intell. Intell. Informatics",
+          "year": "2014",
+          "pages": "311-314",
+          "ee": "https://doi.org/10.20965/JACIII.2014.P0311",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jaciii/BlazovicsLF14",
-        "title": "Surrounding Robots - A Discrete Localized Solution for the Intruder Problem -.",
-        "pages": "315-319",
-        "year": "2014",
-        "volume": "18",
-        "journal": "J. Adv. Comput. Intell. Intell. Informatics",
-        "number": "3",
-        "ee": "https://doi.org/10.20965/jaciii.2014.p0315",
-        "url": "db/journals/jaciii/jaciii18.html#BlazovicsLF14",
-        "authors": [
-          "LÃ¡szlÃ³ BlÃ¡zovics",
-          "TamÃ¡s Lukovszki",
-          "Bertalan Forstner"
-        ]
+        "article": {
+          "@key": "journals/jmui/SzegletesKF15",
+          "title": "Socio-cognitive gamification: general framework for educational games",
+          "journal": "J. Multimodal User Interfaces",
+          "year": "2015",
+          "pages": "395-401",
+          "ee": "https://doi.org/10.1007/S12193-015-0183-6",
+          "author": [
+            {
+              "#text": "Bertalan Forstner",
+              "@pid": "81/2853"
+            },
+            {
+              "#text": "Luca Szegletes",
+              "@pid": "150/9417"
+            },
+            {
+              "#text": "Máté Köles",
+              "@pid": "151/3177"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Bertalan09",
+          "title": "Szemantikus információ-visszakeresés mobil Peer-to-Peer hálózatokban",
+          "journal": "",
+          "year": "2009",
+          "author": {
+            "#text": "Bertalan Forstner",
+            "@pid": "81/2853"
+          }
+        }
       }
     ]
   }

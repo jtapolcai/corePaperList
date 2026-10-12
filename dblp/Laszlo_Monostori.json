@@ -1,241 +1,1379 @@
 {
   "dblpperson": {
+    "@name": "László Monostori",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ias/BartalM86",
-        "title": "Vibration Monitoring: A Pattern Recognition Approach.",
-        "pages": "123-128",
-        "year": "1986",
-        "booktitle": "IAS",
-        "url": "db/conf/ias/ias1986.html#BartalM86",
-        "authors": [
-          "P. Bartal",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaai/CsajiM06",
+          "title": "Adaptive Sampling Based Large-Scale Stochastic Resource Control",
+          "booktitle": "AAAI",
+          "year": "2006",
+          "pages": "815-820",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iros/MonostoriVMKV03",
-        "title": "Digital enterprises: first results of a national R&D project.",
-        "pages": "2335-2340",
-        "year": "2003",
-        "booktitle": "IROS",
-        "ee": "https://doi.org/10.1109/IROS.2003.1249219",
-        "url": "db/conf/iros/iros2003.html#MonostoriVMKV03",
-        "authors": [
-          "Laszlo Monostori",
-          "JÃ³zsef VÃ¡ncza",
-          "AndrÃ¡s MÃ¡rkus",
-          "Botond KÃ¡dÃ¡r",
-          "Zsolt JÃ¡nos Viharos"
-        ]
+        "inproceedings": {
+          "@key": "conf/ceemas/CsajiM05",
+          "title": "Stochastic Reactive Production Scheduling by Multi-agent Based Asynchronous Approximate Dynamic Programming",
+          "booktitle": "CEEMAS",
+          "year": "2005",
+          "pages": "388-397",
+          "ee": "https://doi.org/10.1007/11559221_39",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wsc/PfeifferGSM18",
-        "title": "Production Log Data Analysis for Reject rate Prediction and Workload estimation.",
-        "pages": "3364-3374",
-        "year": "2018",
-        "booktitle": "WSC",
-        "ee": "https://dl.acm.org/citation.cfm?id=3320914",
-        "url": "db/conf/wsc/wsc2018.html#PfeifferGSM18",
-        "authors": [
-          "AndrÃ¡s Pfeiffer",
-          "DÃ¡vid Gyulai",
-          "ÃdÃ¡m Szaller",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ceemas/KadarPM05",
+          "title": "Building Agent-Based Systems in a Discrete-Event Simulation Environment",
+          "booktitle": "CEEMAS",
+          "year": "2005",
+          "pages": "595-599",
+          "ee": "https://doi.org/10.1007/11559221_69",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/ViharosMV02",
-        "title": "Training and Application of Artificial Neural Networks with Incomplete Data.",
-        "pages": "649-659",
-        "year": "2002",
-        "booktitle": "IEA/AIE",
-        "ee": "https://doi.org/10.1007/3-540-48035-8_63",
-        "url": "db/conf/ieaaie/ieaaie2002.html#ViharosMV02",
-        "authors": [
-          "Zsolt JÃ¡nos Viharos",
-          "Laszlo Monostori",
-          "T. Vincze"
-        ]
+        "inproceedings": {
+          "@key": "conf/etfa/KemenyZM09",
+          "title": "From Tracking Operations to IOT-the Small Business Perspective",
+          "booktitle": "ETFA",
+          "year": "2009",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/ETFA.2009.5347154",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/ViharosM01",
-        "title": "Optimisation of Process Chains and Production Plants by Using a Hybrid-, AI-, and Simulation-Based Approach.",
-        "pages": "827-835",
-        "year": "2001",
-        "booktitle": "IEA/AIE",
-        "ee": "https://doi.org/10.1007/3-540-45517-5_91",
-        "url": "db/conf/ieaaie/ieaaie2001.html#ViharosM01",
-        "authors": [
-          "Zsolt JÃ¡nos Viharos",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/etfa/KemenyZSM08",
+          "title": "A low-cost perspective in identifier-based services of supply chains",
+          "booktitle": "ETFA",
+          "year": "2008",
+          "pages": "1338-1345",
+          "ee": "https://doi.org/10.1109/ETFA.2008.4638573",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Marcell Szathmári",
+              "@pid": "07/6995"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/MonostoriB92",
-        "title": "Convergence Behaviour of Connectionist Models in Large Scale Diagnostic Problems.",
-        "pages": "113-122",
-        "year": "1992",
-        "booktitle": "IEA/AIE",
-        "url": "db/conf/ieaaie/ieaaie1992.html#MonostoriB92",
-        "ee": "https://doi.org/10.1007/BFb0024962",
-        "authors": [
-          "Laszlo Monostori",
-          "Achim Bothe"
-        ]
+        "inproceedings": {
+          "@key": "conf/holomas/CsajiKM03",
+          "title": "Improving Multi-agent Based Scheduling by Neurodynamic Programming",
+          "booktitle": "HoloMAS",
+          "year": "2003",
+          "pages": "110-123",
+          "ee": "https://doi.org/10.1007/978-3-540-45185-3_11",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/ViharosM99",
-        "title": "Automatic Input-Output Configuration and Generation of ANN-based Process Models and Their Application in Machining.",
-        "pages": "659-668",
-        "year": "1999",
-        "booktitle": "IEA/AIE",
-        "url": "db/conf/ieaaie/ieaaie1999.html#ViharosM99",
-        "ee": "https://doi.org/10.1007/978-3-540-48765-4_70",
-        "authors": [
-          "Zsolt JÃ¡nos Viharos",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ias/BartalM86",
+          "title": "Vibration Monitoring: A Pattern Recognition Approach",
+          "booktitle": "IAS",
+          "year": "1987",
+          "pages": "123-128",
+          "author": [
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "P. Bartal",
+              "@pid": "70/5949"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/StefanM01",
-        "title": "On the Relationship between Learning Capability and the Boltzmann-Formula.",
-        "pages": "227-236",
-        "year": "2001",
-        "booktitle": "IEA/AIE",
-        "ee": "https://doi.org/10.1007/3-540-45517-5_26",
-        "url": "db/conf/ieaaie/ieaaie2001.html#StefanM01",
-        "authors": [
-          "PÃ©ter StefÃ¡n",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/icassp/HermannHM82",
+          "title": "Real-time monitoring of machine tools via Walsh-Hadamard tranform",
+          "booktitle": "ICASSP",
+          "year": "1982",
+          "pages": "343-346",
+          "ee": "https://doi.org/10.1109/ICASSP.1982.1171756",
+          "author": [
+            {
+              "#text": "Gyula Hermann",
+              "@pid": "79/3651"
+            },
+            {
+              "#text": "László Horváth",
+              "@pid": "65/5574"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/ZudorM01",
-        "title": "Agent-Based Support for Handling Environmental and Life-Cycle Issues.",
-        "pages": "812-820",
-        "year": "2001",
-        "booktitle": "IEA/AIE",
-        "ee": "https://doi.org/10.1007/3-540-45517-5_89",
-        "url": "db/conf/ieaaie/ieaaie2001.html#ZudorM01",
-        "authors": [
-          "Elisabeta Ilie Zudor",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/KadarM01",
+          "title": "Approaches to Increase the Performance of Agent-Based Production Systems",
+          "booktitle": "IEA/AIE",
+          "year": "2001",
+          "pages": "612-621",
+          "ee": "https://doi.org/10.1007/3-540-45517-5_68",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/MonostoriHEV98",
-        "title": "Soft Computing and Hybrid AI Approaches to Intelligent Manufacturing.",
-        "pages": "765-774",
-        "year": "1998",
-        "booktitle": "IEA/AIE (Vol. 2)",
-        "url": "db/conf/ieaaie/ieaaie1998-2.html#MonostoriHEV98",
-        "ee": "https://doi.org/10.1007/3-540-64574-8_463",
-        "authors": [
-          "Laszlo Monostori",
-          "JÃ³zsef HornyÃ¡k",
-          "Csaba Egresits",
-          "Zsolt JÃ¡nos Viharos"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/MonostoriB92",
+          "title": "Convergence Behaviour of Connectionist Models in Large Scale Diagnostic Problems",
+          "booktitle": "IEA/AIE",
+          "year": "1992",
+          "pages": "113-122",
+          "ee": "https://doi.org/10.1007/BFB0024962",
+          "author": [
+            {
+              "#text": "Achim Bothe",
+              "@pid": "18/4328"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieaaie/ZudorM02",
-        "title": "An Agent-Based Approach for Production Control Incorporating Environmental and Life-Cycle Issues, together with Sensitivity Analysis.",
-        "pages": "157-167",
-        "year": "2002",
-        "booktitle": "IEA/AIE",
-        "ee": "https://doi.org/10.1007/3-540-48035-8_16",
-        "url": "db/conf/ieaaie/ieaaie2002.html#ZudorM02",
-        "authors": [
-          "Elisabeta Ilie Zudor",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/MonostoriEK96",
+          "title": "Hybrid AI Solutions and Their Application in Manufacturing",
+          "booktitle": "IEA/AIE",
+          "year": "1996",
+          "pages": "469-478",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Csaba Egresits",
+              "@pid": "29/6481"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip5-3/MonostoriVK06",
-        "title": "Agent Based Manufacturing.",
-        "pages": "3-4",
-        "year": "2006",
-        "booktitle": "BASYS",
-        "ee": "https://doi.org/10.1007/978-0-387-36594-7_1",
-        "url": "db/conf/ifip5-3/basys2006.html#MonostoriVK06",
-        "authors": [
-          "Laszlo Monostori",
-          "JÃ³zsef VÃ¡ncza",
-          "Soundar R. T. Kumara"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/MonostoriHEV98",
+          "title": "Soft Computing and Hybrid AI Approaches to Intelligent Manufacturing",
+          "booktitle": "IEA/AIE (Vol. 2)",
+          "year": "1998",
+          "pages": "765-774",
+          "ee": "https://doi.org/10.1007/3-540-64574-8_463",
+          "author": [
+            {
+              "#text": "Csaba Egresits",
+              "@pid": "29/6481"
+            },
+            {
+              "#text": "József Hornyák",
+              "@pid": "21/219"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ifip5-3/MarkosMNS93",
-        "title": "Monitoring of the Milling Process through Neural Network and Fuzzy Techniques.",
-        "pages": "239-250",
-        "year": "1993",
-        "booktitle": "KNOWHSEM",
-        "url": "db/conf/ifip5-3/knowhsem1993.html#MarkosMNS93",
-        "authors": [
-          "S. Markos",
-          "Laszlo Monostori",
-          "J. Nacsa",
-          "G. SzÃ¶llÃµsi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/MonostoriK98",
+          "title": "Agent Based Architectures for Mastering Changes and Disturbances in Manufacturing",
+          "booktitle": "IEA/AIE (Vol. 2)",
+          "year": "1998",
+          "pages": "755-764",
+          "ee": "https://doi.org/10.1007/3-540-64574-8_462",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/prolamat/ZudorM01",
-        "title": "Modeling and Management of Production Networks.",
-        "pages": "60-71",
-        "year": "2001",
-        "booktitle": "PROLAMAT",
-        "url": "db/conf/prolamat/prolamat2001.html#ZudorM01",
-        "authors": [
-          "Elisabeta Ilie Zudor",
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/StefanM01",
+          "title": "On the Relationship between Learning Capability and the Boltzmann-Formula",
+          "booktitle": "IEA/AIE",
+          "year": "2001",
+          "pages": "227-236",
+          "ee": "https://doi.org/10.1007/3-540-45517-5_26",
+          "author": [
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Péter Stefán",
+              "@pid": "65/1965"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jim/EgresitsMH98",
-        "title": "Multistrategy learning approaches to generate and tune fuzzy control structures and their application in manufacturing.",
-        "pages": "323-329",
-        "year": "1998",
-        "volume": "9",
-        "journal": "J. Intell. Manuf.",
-        "number": "4",
-        "ee": "https://doi.org/10.1023/A%3A1008922709029",
-        "url": "db/journals/jim/jim9.html#EgresitsMH98",
-        "authors": [
-          "Csaba Egresits",
-          "Laszlo Monostori",
-          "JÃ³zsef HornyÃ¡k"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/ViharosM01",
+          "title": "Optimisation of Process Chains and Production Plants by Using a Hybrid-, AI-, and Simulation-Based Approach",
+          "booktitle": "IEA/AIE",
+          "year": "2001",
+          "pages": "827-835",
+          "ee": "https://doi.org/10.1007/3-540-45517-5_91",
+          "author": [
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/apin/Monostori04",
-        "title": "Engineering Intelligent Systems, Introduction.",
-        "pages": "115-116",
-        "year": "2004",
-        "volume": "21",
-        "journal": "Appl. Intell.",
-        "number": "2",
-        "ee": "https://doi.org/10.1023/B:APIN.0000033656.71725.23",
-        "url": "db/journals/apin/apin21.html#Monostori04",
-        "authors": [
-          "Laszlo Monostori"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieaaie/ViharosM99",
+          "title": "Automatic Input-Output Configuration and Generation of ANN-based Process Models and Their Application in Machining",
+          "booktitle": "IEA/AIE",
+          "year": "1999",
+          "pages": "659-668",
+          "ee": "https://doi.org/10.1007/978-3-540-48765-4_70",
+          "author": [
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ieaaie/ViharosMV02",
+          "title": "Training and Application of Artificial Neural Networks with Incomplete Data",
+          "booktitle": "IEA/AIE",
+          "year": "2002",
+          "pages": "649-659",
+          "ee": "https://doi.org/10.1007/3-540-48035-8_63",
+          "author": [
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "T. Vincze",
+              "@pid": "88/2461"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ieaaie/ZudorM01",
+          "title": "Agent-Based Support for Handling Environmental and Life-Cycle Issues",
+          "booktitle": "IEA/AIE",
+          "year": "2001",
+          "pages": "812-820",
+          "ee": "https://doi.org/10.1007/3-540-45517-5_89",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ieaaie/ZudorM02",
+          "title": "An Agent-Based Approach for Production Control Incorporating Environmental and Life-Cycle Issues, together with Sensitivity Analysis",
+          "booktitle": "IEA/AIE",
+          "year": "2002",
+          "pages": "157-167",
+          "ee": "https://doi.org/10.1007/3-540-48035-8_16",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip3/CavalieriGMCCCLLCLMFKMZMS02",
+          "title": "Virtual Institute for the Modelling of Industrial Manufacturing Systems: Integration of on-line and 'face-to-face' learning in an international platform for teaching and research",
+          "booktitle": "TelE-Learning",
+          "year": "2002",
+          "pages": "153-159",
+          "author": [
+            {
+              "#text": "Alberto Colorni",
+              "@pid": "45/5402"
+            },
+            {
+              "#text": "Alberto Meroni",
+              "@pid": "40/5397"
+            },
+            {
+              "#text": "Alessandro Campi",
+              "@pid": "73/1805"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "Francesca Collina",
+              "@pid": "84/162"
+            },
+            {
+              "#text": "Gregor von Cieminski",
+              "@pid": "21/1804"
+            },
+            {
+              "#text": "Ignazio Locatelli",
+              "@pid": "19/4196"
+            },
+            {
+              "#text": "Jens Lopitzsch",
+              "@pid": "13/3658"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Marco Garetti",
+              "@pid": "67/2290"
+            },
+            {
+              "#text": "Marco Macchi",
+              "@pid": "77/1538"
+            },
+            {
+              "#text": "Maria di Mascolo",
+              "@pid": "32/1724"
+            },
+            {
+              "#text": "Nicoletta Santambrogio",
+              "@pid": "67/1547"
+            },
+            {
+              "#text": "Sergio Cavalieri",
+              "@pid": "50/5111"
+            },
+            {
+              "#text": "Tiziana Longeri",
+              "@pid": "05/5204"
+            },
+            {
+              "#text": "Yannick Frein",
+              "@pid": "66/2360"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip5-3/MarkosMNS93",
+          "title": "Monitoring of the Milling Process through Neural Network and Fuzzy Techniques",
+          "booktitle": "KNOWHSEM",
+          "year": "1993",
+          "pages": "239-250",
+          "author": [
+            {
+              "#text": "G. Szöllõsi",
+              "@pid": "37/6993"
+            },
+            {
+              "#text": "J. Nacsa",
+              "@pid": "56/6190"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "S. Markos",
+              "@pid": "79/1391"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip5-3/MonostoriVK06",
+          "title": "Agent Based Manufacturing",
+          "booktitle": "BASYS",
+          "year": "2006",
+          "pages": "3-4",
+          "ee": "https://doi.org/10.1007/978-0-387-36594-7_1",
+          "author": [
+            {
+              "#text": "József Váncza",
+              "@pid": "82/4974"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Soundar R. T. Kumara",
+              "@pid": "34/1207"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/in4pl/Monostori20",
+          "title": "Industry 4.0 and Beyond: Challenges and Opportunities",
+          "booktitle": "IN4PL",
+          "year": "2020",
+          "pages": "7",
+          "author": {
+            "#text": "László Monostori",
+            "@pid": "m/LMonostori"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iros/MonostoriVMKV03",
+          "title": "Digital enterprises: first results of a national R&D project",
+          "booktitle": "IROS",
+          "year": "2003",
+          "pages": "2335-2340",
+          "ee": "https://doi.org/10.1109/IROS.2003.1249219",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "József Váncza",
+              "@pid": "82/4974"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt János Viharos",
+              "@pid": "62/6178"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/prolamat/ZudorM01",
+          "title": "Modeling and Management of Production Networks",
+          "booktitle": "PROLAMAT",
+          "year": "2001",
+          "pages": "60-71",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wsc/PfeifferGSM18",
+          "title": "Production Log Data Analysis for Reject rate Prediction and Workload estimation",
+          "booktitle": "WSC",
+          "year": "2018",
+          "pages": "3364-3374",
+          "ee": "https://doi.org/10.1109/WSC.2018.8632482",
+          "author": [
+            {
+              "#text": "Ádám Szaller",
+              "@pid": "235/4475"
+            },
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Dávid Gyulai",
+              "@pid": "178/6654"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wsc/PfeifferKPKVKM12",
+          "title": "Applying model-reconstruction by exploring MES and PLC data for simulation support of production systems",
+          "booktitle": "WSC",
+          "year": "2012",
+          "pages": "145:1-145:13",
+          "ee": "https://doi.org/10.1109/WSC.2012.6465069",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Csaba Kardos",
+              "@pid": "124/6119"
+            },
+            {
+              "#text": "Gergely Popovics",
+              "@pid": "124/6306"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Lörinc Kemény",
+              "@pid": "124/6099"
+            },
+            {
+              "#text": "Zoltán Vén",
+              "@pid": "124/6204"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aei/CsajiMK06",
+          "title": "Reinforcement learning in a distributed market-based production control system",
+          "journal": "Adv. Eng. Informatics",
+          "year": "2006",
+          "pages": "279-288",
+          "ee": "https://doi.org/10.1016/J.AEI.2006.01.001",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aei/MonostoriU06",
+          "title": "Design of complex adaptive systems: Introduction",
+          "journal": "Adv. Eng. Informatics",
+          "year": "2006",
+          "pages": "223-225",
+          "ee": "https://doi.org/10.1016/J.AEI.2006.05.009",
+          "author": [
+            {
+              "#text": "Kanji Ueda",
+              "@pid": "93/2847"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/apin/Monostori04",
+          "title": "Engineering Intelligent Systems, Introduction",
+          "journal": "Appl. Intell.",
+          "year": "2004",
+          "pages": "115-116",
+          "ee": "https://doi.org/10.1023/B:APIN.0000033656.71725.23",
+          "author": {
+            "#text": "László Monostori",
+            "@pid": "m/LMonostori"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/arc/MonostoriCKPZKS10",
+          "title": "Towards adaptive and digital manufacturing",
+          "journal": "Annu. Rev. Control.",
+          "year": "2010",
+          "pages": "118-128",
+          "ee": "https://doi.org/10.1016/J.ARCONTROL.2010.02.007",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Marcell Szathmári",
+              "@pid": "07/6995"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/arc/MonostoriVDPBC15",
+          "title": "Cooperative control in production and logistics",
+          "journal": "Annu. Rev. Control.",
+          "year": "2015",
+          "pages": "12-29",
+          "ee": "https://doi.org/10.1016/J.ARCONTROL.2015.03.001",
+          "author": [
+            {
+              "#text": "Alexandre Dolgui",
+              "@pid": "36/1693"
+            },
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "Hervé Panetto",
+              "@pid": "24/465"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Mietek Brdys",
+              "@pid": "162/6589"
+            },
+            {
+              "#text": "Paul Valckenaers",
+              "@pid": "36/4098"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/arc/NofMMMF06",
+          "title": "From plant and logistics control to multi-enterprise collaboration",
+          "journal": "Annu. Rev. Control.",
+          "year": "2006",
+          "pages": "55-68",
+          "ee": "https://doi.org/10.1016/J.ARCONTROL.2006.01.005",
+          "author": [
+            {
+              "#text": "Arturo Molina",
+              "@pid": "65/1447"
+            },
+            {
+              "#text": "Florin G. Filip",
+              "@pid": "03/4465"
+            },
+            {
+              "#text": "Gérard Morel",
+              "@pid": "56/5326"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Shimon Y. Nof",
+              "@pid": "82/1847"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/at/Monostori15",
+          "title": "Cyber-physical production systems: roots from manufacturing science and technology",
+          "journal": "Autom.",
+          "year": "2015",
+          "pages": "766-776",
+          "author": {
+            "#text": "László Monostori",
+            "@pid": "m/LMonostori"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/caee/ZudorKSM13",
+          "title": "The role of OSC-based projects in meeting new challenges of education - concept and exemplification",
+          "journal": "Comput. Appl. Eng. Educ.",
+          "year": "2013",
+          "pages": "E141-E151",
+          "ee": "https://doi.org/10.1002/CAE.20518",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Marcell Szathmári",
+              "@pid": "07/6995"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/caee/ZudorMMSK11",
+          "title": "Engineering education on supply-chain management for students and for employees in industry",
+          "journal": "Comput. Appl. Eng. Educ.",
+          "year": "2011",
+          "pages": "81-88",
+          "ee": "https://doi.org/10.1002/CAE.20293",
+          "author": [
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Marco Macchi",
+              "@pid": "77/1538"
+            },
+            {
+              "#text": "Stefano Scotti",
+              "@pid": "200/9925"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cii/MonostoriEKKKPV10",
+          "title": "Digital enterprise solution for integrated production planning and control",
+          "journal": "Comput. Ind.",
+          "year": "2010",
+          "pages": "112-126",
+          "ee": "https://doi.org/10.1016/J.COMPIND.2009.10.008",
+          "author": [
+            {
+              "#text": "András Kovács",
+              "@pid": "50/4283"
+            },
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Gábor Erdös",
+              "@pid": "47/762"
+            },
+            {
+              "#text": "József Váncza",
+              "@pid": "82/4974"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Tamás Kis",
+              "@pid": "07/3425"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cii/PfeifferKM07",
+          "title": "Stability-oriented evaluation of rescheduling strategies, by using simulation",
+          "journal": "Comput. Ind.",
+          "year": "2007",
+          "pages": "630-643",
+          "ee": "https://doi.org/10.1016/J.COMPIND.2007.05.009",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cii/ZudorKBMM11",
+          "title": "A survey of applications and requirements of unique identification systems and RFID techniques",
+          "journal": "Comput. Ind.",
+          "year": "2011",
+          "pages": "227-252",
+          "ee": "https://doi.org/10.1016/J.COMPIND.2010.10.004",
+          "author": [
+            {
+              "#text": "André van der Meulen",
+              "@pid": "74/9450"
+            },
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "Fred van Blommestein",
+              "@pid": "02/7514"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/CsajiM14",
+          "title": "Adaptive Stochastic Resource Control: A Machine Learning Approach",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1401.3434",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MonostoriVDPBC15",
+          "title": "Cooperative Control in Production and Logistics",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1506.05608",
+          "author": [
+            {
+              "#text": "Alexandre Dolgui",
+              "@pid": "36/1693"
+            },
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "Hervé Panetto",
+              "@pid": "24/465"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Mietek Brdys",
+              "@pid": "162/6589"
+            },
+            {
+              "#text": "Paul Valckenaers",
+              "@pid": "36/4098"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/EgriGKM16",
+          "title": "Production Planning on Supply Network and Plant Levels: The RobustPlaNet Approach",
+          "journal": "ERCIM News",
+          "year": "2016",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Dávid Gyulai",
+              "@pid": "178/6654"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Péter Egri",
+              "@pid": "59/3233"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcim/MonostoriKVKE09",
+          "title": "Real-time, cooperative enterprises for customised mass production",
+          "journal": "Int. J. Comput. Integr. Manuf.",
+          "year": "2009",
+          "pages": "55-68",
+          "ee": "https://doi.org/10.1080/09511920802369324",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Gábor Erdös",
+              "@pid": "47/762"
+            },
+            {
+              "#text": "József Váncza",
+              "@pid": "82/4974"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Tamás Kis",
+              "@pid": "07/3425"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcim/PfeifferKMK08",
+          "title": "Simulation as one of the core technologies for digital enterprises: assessment of hybrid rescheduling methods",
+          "journal": "Int. J. Comput. Integr. Manuf.",
+          "year": "2008",
+          "pages": "206-214",
+          "ee": "https://doi.org/10.1080/09511920701607717",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "Dávid Karnok",
+              "@pid": "99/8661"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcim/PopovicsPM16",
+          "title": "Generic data structure and validation methodology for simulation of manufacturing systems",
+          "journal": "Int. J. Comput. Integr. Manuf.",
+          "year": "2016",
+          "pages": "1272-1286",
+          "ee": "https://doi.org/10.1080/0951192X.2016.1187296",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Gergely Popovics",
+              "@pid": "124/6306"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcim/ZudorKPM17",
+          "title": "Decision support solutions for factory and network logistics operations",
+          "journal": "Int. J. Comput. Integr. Manuf.",
+          "year": "2017",
+          "pages": "63-73",
+          "ee": "https://doi.org/10.1080/0951192X.2016.1145801",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijpr/GyulaiPM17",
+          "title": "Robust production planning and control for multi-stage systems with flexible final assembly lines",
+          "journal": "Int. J. Prod. Res.",
+          "year": "2017",
+          "pages": "3657-3673",
+          "ee": "https://doi.org/10.1080/00207543.2016.1198506",
+          "author": [
+            {
+              "#text": "András Pfeiffer",
+              "@pid": "56/5635"
+            },
+            {
+              "#text": "Dávid Gyulai",
+              "@pid": "178/6654"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jair/CsajiM08",
+          "title": "Adaptive Stochastic Resource Control: A Machine Learning Approach",
+          "journal": "J. Artif. Intell. Res.",
+          "year": "2008",
+          "pages": "453-486",
+          "ee": "https://doi.org/10.1613/JAIR.2548",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jim/EgresitsMH98",
+          "title": "Multistrategy learning approaches to generate and tune fuzzy control structures and their application in manufacturing",
+          "journal": "J. Intell. Manuf.",
+          "year": "1998",
+          "pages": "323-329",
+          "ee": "https://doi.org/10.1023/A%3A1008922709029",
+          "author": [
+            {
+              "#text": "Csaba Egresits",
+              "@pid": "29/6481"
+            },
+            {
+              "#text": "József Hornyák",
+              "@pid": "21/219"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jim/KadarMS98",
+          "title": "An object-oriented framework for developing distributed manufacturing architectures",
+          "journal": "J. Intell. Manuf.",
+          "year": "1998",
+          "pages": "173-179",
+          "ee": "https://doi.org/10.1023/A%3A1008876114686",
+          "author": [
+            {
+              "#text": "Botond Kádár",
+              "@pid": "69/1183"
+            },
+            {
+              "#text": "E. Szelke",
+              "@pid": "147/0676"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jim/KarnokKZM16",
+          "title": "Data type definition and handling for supporting interoperability across organizational borders",
+          "journal": "J. Intell. Manuf.",
+          "year": "2016",
+          "pages": "167-185",
+          "ee": "https://doi.org/10.1007/S10845-014-0884-9",
+          "author": [
+            {
+              "#text": "Dávid Karnok",
+              "@pid": "99/8661"
+            },
+            {
+              "#text": "Elisabeth Ilie Zudor",
+              "@pid": "57/4671"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            },
+            {
+              "#text": "Zsolt Kemény",
+              "@pid": "54/520"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jim/Monostori98",
+          "title": "Guest Editorial",
+          "journal": "J. Intell. Manuf.",
+          "year": "1998",
+          "pages": "95-96",
+          "ee": "https://doi.org/10.1023/A%3A1008875327948",
+          "author": {
+            "#text": "László Monostori",
+            "@pid": "m/LMonostori"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jim/Monostori98a",
+          "title": "Guest Editorial",
+          "journal": "J. Intell. Manuf.",
+          "year": "1998",
+          "pages": "279-280",
+          "ee": "https://doi.org/10.1023/A%3A1008991123142",
+          "author": {
+            "#text": "László Monostori",
+            "@pid": "m/LMonostori"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/CsajiM08",
+          "title": "Value Function Based Reinforcement Learning in Changing Markovian Environments",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2008",
+          "pages": "1679-1709",
+          "author": [
+            {
+              "#text": "Balázs Csanád Csáji",
+              "@pid": "22/3042"
+            },
+            {
+              "#text": "László Monostori",
+              "@pid": "m/LMonostori"
+            }
+          ]
+        }
       }
     ]
   }

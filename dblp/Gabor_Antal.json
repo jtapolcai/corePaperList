@@ -1,107 +1,935 @@
 {
   "dblpperson": {
+    "@name": "Gabor Antal",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icsm/BaloghABVGV15",
-        "title": "Identifying wasted effort in the field via developer interaction data.",
-        "pages": "391-400",
-        "year": "2015",
-        "booktitle": "ICSME",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2015.7332490",
-        "url": "db/conf/icsm/icsme2015.html#BaloghABVGV15",
-        "authors": [
-          "GergÃ¶ Balogh",
-          "Gabor Antal",
-          "ÃrpÃ¡d BeszÃ©des",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Tibor GyimÃ³thy",
-          "ÃdÃ¡m ZoltÃ¡n VÃ©gh"
-        ]
+        "inproceedings": {
+          "@key": "conf/ease/AntalBFH25",
+          "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study",
+          "booktitle": "EASE",
+          "year": "2025",
+          "pages": "696-700",
+          "ee": "https://doi.org/10.1145/3756681.3757078",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/scam/AntalHSBFM16",
-        "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments.",
-        "pages": "177-186",
-        "year": "2016",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2016.11",
-        "url": "db/conf/scam/scam2016.html#AntalHSBFM16",
-        "authors": [
-          "Gabor Antal",
-          "David Havas",
-          "IstvÃ¡n Siket",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "JÃ³zsef Mihalicza"
-        ]
+        "inproceedings": {
+          "@key": "conf/ease/AntalBIFH25",
+          "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+          "booktitle": "EASE",
+          "year": "2025",
+          "pages": "1056-1065",
+          "ee": "https://doi.org/10.1145/3756681.3757075",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/scam/AntalHTFG18",
-        "title": "[Research Paper] Static JavaScript Call Graphs: A Comparative Study.",
-        "pages": "177-186",
-        "year": "2018",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2018.00028",
-        "url": "db/conf/scam/scam2018.html#AntalHTFG18",
-        "authors": [
-          "Gabor Antal",
-          "PÃ©ter HegedÃ¼s",
-          "ZoltÃ¡n TÃ³th",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
+        "inproceedings": {
+          "@key": "conf/ease/SagodiABIHF24",
+          "title": "Reality Check: Assessing GPT-4 in Fixing Real-World Software Vulnerabilities",
+          "booktitle": "EASE",
+          "year": "2024",
+          "pages": "252-261",
+          "ee": "https://doi.org/10.1145/3661167.3661207",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/scam/SzokeANFG14",
-        "title": "Bulk Fixing Coding Issues and Its Effects on Software Quality: Is It Worth Refactoring?",
-        "pages": "95-104",
-        "year": "2014",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2014.18",
-        "url": "db/conf/scam/scam2014.html#SzokeANFG14",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Gabor Antal",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/BanhalmiPVAB13",
+          "title": "Development of a Novel Semantic-Based System Integration Framework",
+          "booktitle": "ECBS-EERC",
+          "year": "2013",
+          "pages": "18-24",
+          "ee": "https://doi.org/10.1109/ECBS-EERC.2013.11",
+          "author": [
+            {
+              "#text": "Ádám Zoltán Végh",
+              "@pid": "199/8039"
+            },
+            {
+              "#text": "András Bánhalmi",
+              "@pid": "76/3452"
+            },
+            {
+              "#text": "Dénes Paczolay",
+              "@pid": "72/6905"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Vilmos Bilicki",
+              "@pid": "84/7508"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jss/SzokeANFG17",
-        "title": "Empirical study on refactoring large-scale industrial systems and its effects on maintainability.",
-        "pages": "107-126",
-        "year": "2017",
-        "volume": "129",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://doi.org/10.1016/j.jss.2016.08.071",
-        "url": "db/journals/jss/jss129.html#SzokeANFG17",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Gabor Antal",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/AntalMVH20",
+          "title": "A Data-Mining Based Study of Security Vulnerability Types and Their Mitigation in Different Languages",
+          "booktitle": "ICCSA (4)",
+          "year": "2020",
+          "pages": "1019-1034",
+          "ee": "https://doi.org/10.1007/978-3-030-58811-3_72",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2607-02825",
-        "title": "JavaVulBench: A Java Vulnerability Benchmark with Realistic Splits, a Unified Multi-Backend Harness, and a Leakage-Aware Evaluation Mode.",
-        "year": "2026",
-        "volume": "abs/2607.02825",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2607.02825",
-        "url": "db/journals/corr/corr2607.html#abs-2607-02825",
-        "authors": [
-          "Norbert Szolnoki",
-          "Gabor Antal"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/AntalSH18",
+          "title": "A Hands-on OpenStack Code Refactoring Experience Report",
+          "booktitle": "ICCSA (5)",
+          "year": "2018",
+          "pages": "464-480",
+          "ee": "https://doi.org/10.1007/978-3-319-95174-4_37",
+          "author": [
+            {
+              "#text": "Alex Szarka",
+              "@pid": "222/5220"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/FerencHGABG19",
+          "title": "Challenging machine learning algorithms in predicting vulnerable JavaScript functions",
+          "booktitle": "RAISE@ICSE",
+          "year": "2019",
+          "pages": "8-14",
+          "ee": "https://doi.org/10.1109/RAISE.2019.00010",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BaloghABVGV15",
+          "title": "Identifying wasted effort in the field via developer interaction data",
+          "booktitle": "ICSME",
+          "year": "2015",
+          "pages": "391-400",
+          "ee": "https://doi.org/10.1109/ICSM.2015.7332490",
+          "author": [
+            {
+              "#text": "Ádám Zoltán Végh",
+              "@pid": "199/8039"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gergö Balogh",
+              "@pid": "137/0554"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/msr/AntalKH20",
+          "title": "Exploring the Security Awareness of the Python and JavaScript Open Source Communities",
+          "booktitle": "MSR",
+          "year": "2020",
+          "pages": "16-20",
+          "ee": "https://doi.org/10.1145/3379597.3387513",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Márton Keleti",
+              "@pid": "268/5618"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/msr/MosolygoVAH21",
+          "title": "On the Rise and Fall of Simple Stupid Bugs: a Life-Cycle Analysis of SStuBs",
+          "booktitle": "MSR",
+          "year": "2021",
+          "pages": "495-499",
+          "ee": "https://doi.org/10.1109/MSR52588.2021.00061",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saner/SzolnokiBHA26",
+          "title": "CVE-Poisoning: Towards Human-Guided and Cost-Effective Detection of a Novel AI Data Poisoning Attack",
+          "booktitle": "SANER Companion",
+          "year": "2026",
+          "pages": "273-276",
+          "ee": "https://doi.org/10.1109/SANER-C67878.2026.00043",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gergö Balogh",
+              "@pid": "137/0554"
+            },
+            {
+              "#text": "Norbert Szolnoki",
+              "@pid": "433/7647"
+            },
+            {
+              "#text": "Szabina Herman",
+              "@pid": "436/5985"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/AntalHSBFM16",
+          "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments",
+          "booktitle": "SCAM",
+          "year": "2016",
+          "pages": "177-186",
+          "ee": "https://doi.org/10.1109/SCAM.2016.11",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "David Havas",
+              "@pid": "156/6337"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "József Mihalicza",
+              "@pid": "51/4196"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/AntalHTFG18",
+          "title": "[Research Paper] Static JavaScript Call Graphs: A Comparative Study",
+          "booktitle": "SCAM",
+          "year": "2018",
+          "pages": "177-186",
+          "ee": "https://doi.org/10.1109/SCAM.2018.00028",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/RozsaAF22",
+          "title": "Don't DIY: Automatically transform legacy Python code to support structural pattern matching",
+          "booktitle": "SCAM",
+          "year": "2022",
+          "pages": "164-169",
+          "ee": "https://doi.org/10.1109/SCAM55253.2022.00024",
+          "author": [
+            {
+              "#text": "Balázs Rózsa",
+              "@pid": "338/4755"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/SzokeANFG14",
+          "title": "Bulk Fixing Coding Issues and Its Effects on Software Quality: Is It Worth Refactoring?",
+          "booktitle": "SCAM",
+          "year": "2014",
+          "pages": "95-104",
+          "ee": "https://doi.org/10.1109/SCAM.2014.18",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/VandorAHF24",
+          "title": "On the Usefulness of Python Structural Pattern Matching: An Empirical Study",
+          "booktitle": "SANER",
+          "year": "2024",
+          "pages": "501-511",
+          "ee": "https://doi.org/10.1109/SANER60148.2024.00058",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AntalESH26",
+          "title": "Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection: An Empirical Study on Real-World Java Vulnerabilities",
+          "journal": "IEEE Access",
+          "year": "2026",
+          "pages": "50878-50891",
+          "ee": "https://doi.org/10.1109/ACCESS.2026.3676577",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Lóránt Értekes",
+              "@pid": "433/8579"
+            },
+            {
+              "#text": "Norbert Szolnoki",
+              "@pid": "433/7647"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AntalHHLF23",
+          "title": "Is JavaScript Call Graph Extraction Solved Yet? A Comparative Study of Static and Dynamic Tools",
+          "journal": "IEEE Access",
+          "year": "2023",
+          "pages": "25266-25284",
+          "ee": "https://doi.org/10.1109/ACCESS.2023.3255984",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Lóki",
+              "@pid": "151/0623"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Herczeg",
+              "@pid": "97/2115"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AntalVKMHF24",
+          "title": "PyBugHive: A Comprehensive Database of Manually Validated, Reproducible Python Bugs",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "123739-123756",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3449106",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Kolláth",
+              "@pid": "385/2910"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2006-13652",
+          "title": "Exploring the Security Awareness of the Python and JavaScript Open Source Communities",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.13652",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Márton Keleti",
+              "@pid": "268/5618"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-09604",
+          "title": "On the Rise and Fall of Simple Stupid Bugs: a Life-Cycle Analysis of SStuBs",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.09604",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2404-14370",
+          "title": "Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2404.14370",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Richárd Vozár",
+              "@pid": "376/0620"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07204",
+          "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07204",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "David Havas",
+              "@pid": "156/6337"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "József Mihalicza",
+              "@pid": "51/4196"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07206",
+          "title": "Static JavaScript Call Graphs: A Comparative Study",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07206",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07213",
+          "title": "Challenging Machine Learning Algorithms in Predicting Vulnerable JavaScript Functions",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07213",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07244",
+          "title": "Enhanced Bug Prediction in JavaScript Programs with Hybrid Call-Graph Based Invocation Metrics",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07244",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-08025",
+          "title": "A Data-Mining Based Study of Security Vulnerability Types and Their Mitigation in Different Languages",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.08025",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-11559",
+          "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.11559",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-11561",
+          "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.11561",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2607-02825",
+          "title": "JavaVulBench: A Java Vulnerability Benchmark with Realistic Splits, a Unified Multi-Backend Harness, and a Leakage-Aware Evaluation Mode",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.02825",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Szolnoki",
+              "@pid": "433/7647"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/SzokeANFG17",
+          "title": "Empirical study on refactoring large-scale industrial systems and its effects on maintainability",
+          "journal": "J. Syst. Softw.",
+          "year": "2017",
+          "pages": "107-126",
+          "ee": "https://doi.org/10.1016/J.JSS.2016.08.071",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gabor22",
+          "title": "Applying Code Analysis and Machine Learning Techniques to Improve Compatibility and Security of Programs",
+          "journal": "",
+          "year": "2022",
+          "author": {
+            "#text": "Gabor Antal",
+            "@pid": "156/6366"
+          }
+        }
       }
     ]
   }

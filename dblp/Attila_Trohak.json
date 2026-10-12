@@ -1,21 +1,46 @@
 {
   "dblpperson": {
+    "@name": "Attila Trohak",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/BiroMPT12",
-        "title": "Experiences during the development of the voice control for a monorail.",
-        "pages": "705-708",
-        "year": "2012",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6421943",
-        "url": "db/conf/coginfocom/coginfocom2012.html#BiroMPT12",
-        "authors": [
-          "Z. Biro",
-          "L. Mehes",
-          "Judit MÃ¡ria PintÃ©r",
-          "Attila Trohak"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/BiroMPT12",
+          "title": "Experiences during the development of the voice control for a monorail",
+          "booktitle": "CogInfoCom",
+          "year": "2012",
+          "pages": "705-708",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2012.6421943",
+          "author": [
+            {
+              "#text": "Attila Trohak",
+              "@pid": "334/2849"
+            },
+            {
+              "#text": "Judit Mária Pintér",
+              "@pid": "234/1188"
+            },
+            {
+              "#text": "L. Mehes",
+              "@pid": "334/2671"
+            },
+            {
+              "#text": "Z. Biro",
+              "@pid": "334/2748"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Attila15c",
+          "title": "ÚJ IRÁNYÍTÁSI, TERHELÉSELOSZTÁSI ÉS TÁVDIAGNOSZTIKAI MÓDSZEREK KIDOLGOZÁSA, ELMÉLETI MEGALAPOZÁSA",
+          "journal": "",
+          "year": "2015",
+          "author": {
+            "#text": "Attila Trohak",
+            "@pid": "334/2849"
+          }
+        }
       }
     ]
   }

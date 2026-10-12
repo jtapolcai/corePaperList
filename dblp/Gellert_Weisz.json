@@ -1,0 +1,655 @@
+{
+  "dblpperson": {
+    "@name": "Gellért Weisz",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/alt/WeiszAS21",
+          "title": "Exponential Lower Bounds for Planning in MDPs With Linearly-Realizable Optimal Action-Value Functions",
+          "booktitle": "ALT",
+          "year": "2021",
+          "pages": "1237-1264",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Philip Amortila",
+              "@pid": "222/2989"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/alt/WeiszS022",
+          "title": "TensorPlan and the Few Actions Lower Bound for Planning in MDPs under Linear Realizability of Optimal Value Functions",
+          "booktitle": "ALT",
+          "year": "2022",
+          "pages": "1097-1137",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LiuMKLWS23",
+          "title": "Exponential Hardness of Reinforcement Learning with Linear Function Approximation",
+          "booktitle": "COLT",
+          "year": "2023",
+          "pages": "1588-1617",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Daniel M. Kane",
+              "@pid": "52/6817"
+            },
+            {
+              "#text": "Gaurav Mahajan",
+              "@pid": "246/4992"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Shachar Lovett",
+              "@pid": "77/4422"
+            },
+            {
+              "#text": "Sihan Liu",
+              "@pid": "47/8958"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/WeiszAJAJS21",
+          "title": "On Query-efficient Planning in MDPs under Linear Realizability of the Optimal State-value Function",
+          "booktitle": "COLT",
+          "year": "2021",
+          "pages": "4355-4385",
+          "author": [
+            {
+              "#text": "Barnabás Janzer",
+              "@pid": "219/8900"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Nan Jiang",
+              "@pid": "06/4489-8"
+            },
+            {
+              "#text": "Philip Amortila",
+              "@pid": "222/2989"
+            },
+            {
+              "#text": "Yasin Abbasi-Yadkori",
+              "@pid": "16/736"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/LattimoreSW20",
+          "title": "Learning with Good Feature Representations in Bandits and in RL with a Generative Model",
+          "booktitle": "ICML",
+          "year": "2020",
+          "pages": "5662-5670",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Tor Lattimore",
+              "@pid": "44/9886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/WeiszGS18",
+          "title": "LEAPSANDBOUNDS: A Method for Approximately Optimal Algorithm Configuration",
+          "booktitle": "ICML",
+          "year": "2018",
+          "pages": "5254-5262",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/WeiszGS19",
+          "title": "CapsAndRuns: An Improved Method for Approximately Optimal Algorithm Configuration",
+          "booktitle": "ICML",
+          "year": "2019",
+          "pages": "6707-6715",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/LiuW00S23",
+          "title": "Optimistic Natural Policy Gradient: a Simple Efficient Policy Optimization Framework for Online RL",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Chi Jin",
+              "@pid": "126/1802-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Qinghua Liu",
+              "@pid": "64/2594"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/TkachukWS24",
+          "title": "Trajectory Data Suffices for Statistically Efficient Learning in Offline RL with Linear qπ-Realizability and Concentrability",
+          "booktitle": "NeurIPS",
+          "year": "2024",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Volodymyr Tkachuk",
+              "@pid": "287/4223"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Weisz0KS22",
+          "title": "Confident Approximate Policy Iteration for Efficient Local Planning in $q^\\pi$-realizable MDPs",
+          "booktitle": "NeurIPS",
+          "year": "2022",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Tadashi Kozuno",
+              "@pid": "207/8504"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Weisz0LGLSL20",
+          "title": "ImpatientCapsAndRuns: Approximately Optimal Algorithm Configuration from an Infinite Pool",
+          "booktitle": "NeurIPS",
+          "year": "2020",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Brendan Lucier",
+              "@pid": "09/6191"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Devon R. Graham",
+              "@pid": "217/3515"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Kevin Leyton-Brown",
+              "@pid": "81/1149"
+            },
+            {
+              "#text": "Wei-I Lin",
+              "@pid": "280/1256"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Weisz0S23",
+          "title": "Online RL in Linearly qπ-Realizable MDPs Is as Easy as in Linear MDPs If You Learn What to Ignore",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1802-03753",
+          "title": "Sample Efficient Deep Reinforcement Learning for Dialogue Systems with Large Action Spaces",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1802.03753",
+          "author": [
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Milica Gasic",
+              "@pid": "27/7520"
+            },
+            {
+              "#text": "Pawel Budzianowski",
+              "@pid": "202/1739"
+            },
+            {
+              "#text": "Pei-hao Su",
+              "@pid": "136/5093"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1807-00755",
+          "title": "LeapsAndBounds: A Method for Approximately Optimal Algorithm Configuration",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1807.00755",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-10479",
+          "title": "Exploration-Enhanced POLITEX",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.10479",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Nevena Lazic",
+              "@pid": "17/5587"
+            },
+            {
+              "#text": "Yasin Abbasi-Yadkori",
+              "@pid": "16/736"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-01374",
+          "title": "Exponential Lower Bounds for Planning in MDPs With Linearly-Realizable Optimal Action-Value Functions",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.01374",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Philip Amortila",
+              "@pid": "222/2989"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-02049",
+          "title": "On Query-efficient Planning in MDPs under Linear Realizability of the Optimal State-value Function",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.02049",
+          "author": [
+            {
+              "#text": "Barnabás Janzer",
+              "@pid": "219/8900"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Nan Jiang",
+              "@pid": "06/4489-8"
+            },
+            {
+              "#text": "Philip Amortila",
+              "@pid": "222/2989"
+            },
+            {
+              "#text": "Yasin Abbasi-Yadkori",
+              "@pid": "16/736"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-02195",
+          "title": "TensorPlan and the Few Actions Lower Bound for Planning in MDPs under Linear Realizability of Optimal Value Functions",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.02195",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-15755",
+          "title": "Confident Approximate Policy Iteration for Efficient Local Planning in qπ-realizable MDPs",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.15755",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Tadashi Kozuno",
+              "@pid": "207/8504"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-12940",
+          "title": "Exponential Hardness of Reinforcement Learning with Linear Function Approximation",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.12940",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Daniel M. Kane",
+              "@pid": "52/6817"
+            },
+            {
+              "#text": "Gaurav Mahajan",
+              "@pid": "246/4992"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Shachar Lovett",
+              "@pid": "77/4422"
+            },
+            {
+              "#text": "Sihan Liu",
+              "@pid": "47/8958"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-11032",
+          "title": "Optimistic Natural Policy Gradient: a Simple Efficient Policy Optimization Framework for Online RL",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.11032",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Chi Jin",
+              "@pid": "126/1802-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Qinghua Liu",
+              "@pid": "64/2594"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-07811",
+          "title": "Online RL in Linearly qπ-Realizable MDPs Is as Easy as in Linear MDPs If You Learn What to Ignore",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.07811",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-16809",
+          "title": "Trajectory Data Suffices for Statistically Efficient Learning in Offline RL with Linear qπ-Realizability and Concentrability",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.16809",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Volodymyr Tkachuk",
+              "@pid": "287/4223"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/taslp/WeiszBSG18",
+          "title": "Sample Efficient Deep Reinforcement Learning for Dialogue Systems With Large Action Spaces",
+          "journal": "IEEE ACM Trans. Audio Speech Lang. Process.",
+          "year": "2018",
+          "pages": "2083-2097",
+          "ee": "https://doi.org/10.1109/TASLP.2018.2851664",
+          "author": [
+            {
+              "#text": "Gellért Weisz",
+              "@pid": "215/3618"
+            },
+            {
+              "#text": "Milica Gasic",
+              "@pid": "27/7520"
+            },
+            {
+              "#text": "Pawel Budzianowski",
+              "@pid": "202/1739"
+            },
+            {
+              "#text": "Pei-hao Su",
+              "@pid": "136/5093"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

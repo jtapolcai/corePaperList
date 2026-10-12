@@ -1,22 +1,38 @@
 {
   "dblpperson": {
+    "@name": "Csaba Hadhazi",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/aaai/RayAHDP20",
-        "title": "Question Quality Improvement: Deep Question Understanding for Incident Management in Technical Support Domain.",
-        "pages": "13196-13203",
-        "year": "2020",
-        "booktitle": "AAAI",
-        "ee": "https://doi.org/10.1609/aaai.v34i08.7024",
-        "url": "db/conf/aaai/aaai2020.html#RayAHDP20",
-        "authors": [
-          "Anupama Ray",
-          "Pooja Aggarwal",
-          "Csaba Hadhazi",
-          "Gargi Dasgupta",
-          "Amit M. Paradkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaai/RayAHDP20",
+          "title": "Question Quality Improvement: Deep Question Understanding for Incident Management in Technical Support Domain",
+          "booktitle": "AAAI",
+          "year": "2020",
+          "pages": "13196-13203",
+          "ee": "https://doi.org/10.1609/AAAI.V34I08.7024",
+          "author": [
+            {
+              "#text": "Amit M. Paradkar",
+              "@pid": "23/502"
+            },
+            {
+              "#text": "Anupama Ray",
+              "@pid": "136/3987"
+            },
+            {
+              "#text": "Csaba Hadhazi",
+              "@pid": "266/3648"
+            },
+            {
+              "#text": "Gargi Dasgupta",
+              "@pid": "40/6666"
+            },
+            {
+              "#text": "Pooja Aggarwal",
+              "@pid": "133/3638"
+            }
+          ]
+        }
       }
     ]
   }

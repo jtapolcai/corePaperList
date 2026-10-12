@@ -1,145 +1,260 @@
 {
   "dblpperson": {
+    "@name": "Gergely Papp",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/nn/Papp07",
-        "title": "Place-Field and Memory Formation in the Hippocampus.",
-        "pages": "131-136",
-        "year": "2007",
-        "booktitle": "Summer School on Neural Networks",
-        "ee": "https://doi.org/10.1007/978-3-540-88853-6_11",
-        "url": "db/conf/nn/nn2007.html#Papp07",
-        "authors": [
-          "Gergely Papp"
-        ]
+        "inproceedings": {
+          "@key": "conf/nips/CsiszarikKMPV21",
+          "title": "Similarity and Matching of Neural Network Representations",
+          "booktitle": "NeurIPS",
+          "year": "2021",
+          "pages": "5656-5668",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Ákos K. Matszangosz",
+              "@pid": "189/6173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nips/CsiszarikKMPV21",
-        "title": "Similarity and Matching of Neural Network Representations.",
-        "pages": "5656-5668",
-        "year": "2021",
-        "booktitle": "NeurIPS",
-        "ee": "https://proceedings.neurips.cc/paper/2021/hash/2cb274e6ce940f47beb8011d8ecb1462-Abstract.html",
-        "url": "db/conf/nips/neurips2021.html#CsiszarikKMPV21",
-        "authors": [
-          "AdriÃ¡n CsiszÃ¡rik",
-          "PÃ©ter KorÃ¶si-SzabÃ³",
-          "Ãkos K. Matszangosz",
-          "Gergely Papp",
-          "DÃ¡niel Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/nn/Papp07",
+          "title": "Place-Field and Memory Formation in the Hippocampus",
+          "booktitle": "Summer School on Neural Networks",
+          "year": "2008",
+          "pages": "131-136",
+          "ee": "https://doi.org/10.1007/978-3-540-88853-6_11",
+          "author": {
+            "#text": "Gergely Papp",
+            "@pid": "39/1627"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/nn/CsiszarikKKMPV24",
-        "title": "Mode combinability: Exploring convex combinations of permutation aligned models.",
-        "pages": "106204",
-        "year": "2024",
-        "volume": "173",
-        "journal": "Neural Networks",
-        "ee": "https://doi.org/10.1016/j.neunet.2024.106204",
-        "url": "db/journals/nn/nn173.html#CsiszarikKKMPV24",
-        "authors": [
-          "AdriÃ¡n CsiszÃ¡rik",
-          "Melinda F. Kiss",
-          "PÃ©ter KorÃ¶si-SzabÃ³",
-          "MÃ¡rton Muntag",
-          "Gergely Papp",
-          "DÃ¡niel Varga"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2003-14048",
+          "title": "Moment-Preserving and Mesh-Adaptive Reweighting Method for Rare-Event Sampling in Monte-Carlo Algorithms",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.14048",
+          "author": [
+            {
+              "#text": "C. U. Schuster",
+              "@pid": "262/0324"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Jari Varje",
+              "@pid": "262/0541"
+            },
+            {
+              "#text": "Markus Hasenöhrl",
+              "@pid": "262/0082"
+            },
+            {
+              "#text": "R. Bilato",
+              "@pid": "261/9984"
+            },
+            {
+              "#text": "Seppo Sipilä",
+              "@pid": "143/3582"
+            },
+            {
+              "#text": "T. Johnson",
+              "@pid": "08/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cphysics/SchusterJPBSVH21",
-        "title": "Moment-preserving and mesh-adaptive reweighting method for rare-event sampling in Monte-Carlo algorithms.",
-        "pages": "108041",
-        "year": "2021",
-        "volume": "267",
-        "journal": "Comput. Phys. Commun.",
-        "ee": "https://doi.org/10.1016/j.cpc.2021.108041",
-        "url": "db/journals/cphysics/cphysics267.html#SchusterJPBSVH21",
-        "authors": [
-          "C. U. Schuster",
-          "T. Johnson",
-          "Gergely Papp",
-          "R. Bilato",
-          "Seppo SipilÃ¤",
-          "Jari Varje",
-          "Markus HasenÃ¶hrl"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2110-14633",
+          "title": "Similarity and Matching of Neural Network Representations",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.14633",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Ákos K. Matszangosz",
+              "@pid": "189/6173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijon/PappHLE04",
-        "title": "Effect of dendritic location and different components of LTP expression on the bursting activity of hippocampal CA1 pyramidal cells.",
-        "pages": "691-697",
-        "year": "2004",
-        "volume": "58-60",
-        "journal": "Neurocomputing",
-        "ee": "https://doi.org/10.1016/j.neucom.2004.01.115",
-        "url": "db/journals/ijon/ijon58.html#PappHLE04",
-        "authors": [
-          "Gergely Papp",
-          "ZsÃ³fia Huhn",
-          "MÃ¡tÃ© Lengyel",
-          "PÃ©ter Ãrdi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2308-11511",
+          "title": "Mode Combinability: Exploring Convex Combinations of Permutation Aligned Models",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2308.11511",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Márton Muntag",
+              "@pid": "355/3158"
+            },
+            {
+              "#text": "Melinda F. Kiss",
+              "@pid": "355/2083"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2003-14048",
-        "title": "Moment-Preserving and Mesh-Adaptive Reweighting Method for Rare-Event Sampling in Monte-Carlo Algorithms.",
-        "year": "2020",
-        "volume": "abs/2003.14048",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2003.14048",
-        "url": "db/journals/corr/corr2003.html#abs-2003-14048",
-        "authors": [
-          "C. U. Schuster",
-          "T. Johnson",
-          "Gergely Papp",
-          "R. Bilato",
-          "Seppo SipilÃ¤",
-          "Jari Varje",
-          "Markus HasenÃ¶hrl"
-        ]
+        "article": {
+          "@key": "journals/cphysics/SchusterJPBSVH21",
+          "title": "Moment-preserving and mesh-adaptive reweighting method for rare-event sampling in Monte-Carlo algorithms",
+          "journal": "Comput. Phys. Commun.",
+          "year": "2021",
+          "pages": "108041",
+          "ee": "https://doi.org/10.1016/J.CPC.2021.108041",
+          "author": [
+            {
+              "#text": "C. U. Schuster",
+              "@pid": "262/0324"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Jari Varje",
+              "@pid": "262/0541"
+            },
+            {
+              "#text": "Markus Hasenöhrl",
+              "@pid": "262/0082"
+            },
+            {
+              "#text": "R. Bilato",
+              "@pid": "261/9984"
+            },
+            {
+              "#text": "Seppo Sipilä",
+              "@pid": "143/3582"
+            },
+            {
+              "#text": "T. Johnson",
+              "@pid": "08/9417"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2110-14633",
-        "title": "Similarity and Matching of Neural Network Representations.",
-        "year": "2021",
-        "volume": "abs/2110.14633",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2110.14633",
-        "url": "db/journals/corr/corr2110.html#abs-2110-14633",
-        "authors": [
-          "AdriÃ¡n CsiszÃ¡rik",
-          "PÃ©ter KorÃ¶si-SzabÃ³",
-          "Ãkos K. Matszangosz",
-          "Gergely Papp",
-          "DÃ¡niel Varga"
-        ]
+        "article": {
+          "@key": "journals/ijon/PappHLE04",
+          "title": "Effect of dendritic location and different components of LTP expression on the bursting activity of hippocampal CA1 pyramidal cells",
+          "journal": "Neurocomputing",
+          "year": "2004",
+          "pages": "691-697",
+          "ee": "https://doi.org/10.1016/J.NEUCOM.2004.01.115",
+          "author": [
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Máté Lengyel",
+              "@pid": "48/6327"
+            },
+            {
+              "#text": "Péter Érdi",
+              "@pid": "04/1676"
+            },
+            {
+              "#text": "Zsófia Huhn",
+              "@pid": "68/6960"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2308-11511",
-        "title": "Mode Combinability: Exploring Convex Combinations of Permutation Aligned Models.",
-        "year": "2023",
-        "volume": "abs/2308.11511",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2308.11511",
-        "url": "db/journals/corr/corr2308.html#abs-2308-11511",
-        "authors": [
-          "AdriÃ¡n CsiszÃ¡rik",
-          "Melinda F. Kiss",
-          "PÃ©ter KorÃ¶si-SzabÃ³",
-          "MÃ¡rton Muntag",
-          "Gergely Papp",
-          "DÃ¡niel Varga"
-        ]
+        "article": {
+          "@key": "journals/nn/CsiszarikKKMPV24",
+          "title": "Mode combinability: Exploring convex combinations of permutation aligned models",
+          "journal": "Neural Networks",
+          "year": "2024",
+          "pages": "106204",
+          "ee": "https://doi.org/10.1016/J.NEUNET.2024.106204",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Márton Muntag",
+              "@pid": "355/3158"
+            },
+            {
+              "#text": "Melinda F. Kiss",
+              "@pid": "355/2083"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
       }
     ]
   }

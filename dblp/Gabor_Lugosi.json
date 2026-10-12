@@ -1,21 +1,3494 @@
 {
   "dblpperson": {
+    "@name": "Gábor Lugosi",
     "r": [
       {
-        "type": "article",
-        "key": "journals/corr/abs-2510-12846",
-        "title": "Finding a Nash equilibrium of a random win-lose game in expected polynomial time.",
-        "year": "2025",
-        "volume": "abs/2510.12846",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2510.12846",
-        "url": "db/journals/corr/corr2510.html#abs-2510-12846",
-        "authors": [
-          "Andrea Collevecchio",
-          "Gabor Lugosi",
-          "Adrian Vetta",
-          "Rui-Ray Zhang"
-        ]
+        "informal": {
+          "@key": "books/daglib/0016248",
+          "title": "Prediction, learning, and games",
+          "journal": "",
+          "year": "2006",
+          "pages": "I-XII, 1-394",
+          "ee": "https://doi.org/10.1017/CBO9780511546921",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/daglib/0018090",
+          "title": "Combinatorial methods in density estimation",
+          "journal": "Springer series in statistics",
+          "year": "2001",
+          "pages": "I-XII, 1-208",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/daglib/0035704",
+          "title": "Concentration Inequalities - A Nonasymptotic Theory of Independence",
+          "journal": "",
+          "year": "2013",
+          "pages": "1-449",
+          "ee": "https://doi.org/10.1093/ACPROF:OSO/9780199535255.001.0001",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Pascal Massart",
+              "@pid": "72/5690"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/sp/DevroyeGL96",
+          "title": "A Probabilistic Theory of Pattern Recognition",
+          "journal": "Stochastic Modelling and Applied Probability",
+          "year": "1996",
+          "pages": "1-638",
+          "ee": "https://doi.org/10.1007/978-1-4612-0711-5",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ac/BoucheronLB03",
+          "title": "Concentration Inequalities",
+          "booktitle": "Advanced Lectures on Machine Learning",
+          "year": "2004",
+          "pages": "208-240",
+          "ee": "https://doi.org/10.1007/978-3-540-28650-9_9",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Olivier Bousquet",
+              "@pid": "82/2045"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ac/BousquetBL03",
+          "title": "Introduction to Statistical Learning Theory",
+          "booktitle": "Advanced Lectures on Machine Learning",
+          "year": "2004",
+          "pages": "169-207",
+          "ee": "https://doi.org/10.1007/978-3-540-28650-9_8",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Olivier Bousquet",
+              "@pid": "82/2045"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/alt/LugosiNO19",
+          "title": "Online Influence Maximization with Local Observations",
+          "booktitle": "ALT",
+          "year": "2019",
+          "pages": "557-580",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Julia Olkhovskaya",
+              "@pid": "220/5277"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccia/Lugosi07",
+          "title": "Sequential prediction under incomplete feedback",
+          "booktitle": "CCIA",
+          "year": "2007",
+          "pages": "3-5",
+          "author": {
+            "#text": "Gábor Lugosi",
+            "@pid": "70/3715"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GyorgyLL05",
+          "title": "Limited-Delay Coding of Individual Sequences with Piecewise Different Behavior",
+          "booktitle": "CDC/ECC",
+          "year": "2005",
+          "pages": "8185-8190",
+          "ee": "https://doi.org/10.1109/CDC.2005.1583487",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/AlamgirLL14",
+          "title": "Density-preserving quantization with application to graph downsampling",
+          "booktitle": "COLT",
+          "year": "2014",
+          "pages": "543-559",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Morteza Alamgir",
+              "@pid": "01/9024"
+            },
+            {
+              "#text": "Ulrike von Luxburg",
+              "@pid": "06/1082"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/AntosL96",
+          "title": "Strong Minimax Lower Bounds for Learning",
+          "booktitle": "COLT",
+          "year": "1996",
+          "pages": "303-309",
+          "ee": "https://doi.org/10.1145/238061.238160",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/BartlettBL00",
+          "title": "Model Selection and Error Estimation",
+          "booktitle": "COLT",
+          "year": "2000",
+          "pages": "286-297",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Peter L. Bartlett",
+              "@pid": "68/4020"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Cesa-BianchiL01",
+          "title": "Potential-Based Algorithms in Online Prediction and Game Theory",
+          "booktitle": "COLT/EuroCOLT",
+          "year": "2001",
+          "pages": "48-64",
+          "ee": "https://doi.org/10.1007/3-540-44581-1_4",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Cesa-BianchiL09",
+          "title": "Combinatorial Bandits",
+          "booktitle": "COLT",
+          "year": "2009",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Cesa-BianchiL98",
+          "title": "On Sequential Prediction of Individual Sequences Relative to a Set of Experts",
+          "booktitle": "COLT",
+          "year": "1998",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1145/279943.279946",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Cesa-BianchiL99",
+          "title": "Minimax Regret Under log Loss for General Classes of Experts",
+          "booktitle": "COLT",
+          "year": "1999",
+          "pages": "12-18",
+          "ee": "https://doi.org/10.1145/307400.307407",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Cesa-BianchiLS04",
+          "title": "Minimizing Regret with Label Efficient Prediction",
+          "booktitle": "COLT",
+          "year": "2004",
+          "pages": "77-92",
+          "ee": "https://doi.org/10.1007/978-3-540-27819-1_6",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/ClemenconLV05",
+          "title": "Ranking and Scoring Using Empirical Risk Minimization",
+          "booktitle": "COLT",
+          "year": "2005",
+          "pages": "1-15",
+          "ee": "https://doi.org/10.1007/11503415_1",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolas Vayatis",
+              "@pid": "00/582"
+            },
+            {
+              "#text": "Stéphan Clémençon",
+              "@pid": "85/6714"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/DevroyeLN13",
+          "title": "Prediction by random-walk perturbation",
+          "booktitle": "COLT",
+          "year": "2013",
+          "pages": "460-473",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/GyorgyLL05",
+          "title": "Tracking the Best of Many Experts",
+          "booktitle": "COLT",
+          "year": "2005",
+          "pages": "204-216",
+          "ee": "https://doi.org/10.1007/11503415_14",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/GyorgyLO08",
+          "title": "On-line Sequential Bin Packing",
+          "booktitle": "COLT",
+          "year": "2008",
+          "pages": "447-454",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "György Ottucsák",
+              "@pid": "23/3941"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/KeglLL01",
+          "title": "Data-Dependent Margin-Based Generalization Bounds for Classification",
+          "booktitle": "COLT/EuroCOLT",
+          "year": "2001",
+          "pages": "368-384",
+          "ee": "https://doi.org/10.1007/3-540-44581-1_24",
+          "author": [
+            {
+              "#text": "Balázs Kégl",
+              "@pid": "k/BalazsKegl"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/Lugosi08",
+          "title": "Concentration Inequalities",
+          "booktitle": "COLT",
+          "year": "2008",
+          "pages": "7-8",
+          "author": {
+            "#text": "Gábor Lugosi",
+            "@pid": "70/3715"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LugosiMS07",
+          "title": "Strategies for Prediction Under Imperfect Monitoring",
+          "booktitle": "COLT",
+          "year": "2007",
+          "pages": "248-262",
+          "ee": "https://doi.org/10.1007/978-3-540-72927-3_19",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LugosiN22",
+          "title": "Generalization Bounds via Convex Analysis",
+          "booktitle": "COLT",
+          "year": "2022",
+          "pages": "3524-3546",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LugosiP96",
+          "title": "A Data-Dependent Skeleton Estimate for Learning",
+          "booktitle": "COLT",
+          "year": "1996",
+          "pages": "51-56",
+          "ee": "https://doi.org/10.1145/238061.238068",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Márta Pintér",
+              "@pid": "46/616"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LugosiPS09",
+          "title": "Online Multi-task Learning with Hard Constraints",
+          "booktitle": "COLT",
+          "year": "2009",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Omiros Papaspiliopoulos",
+              "@pid": "68/6685"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/LugosiV02",
+          "title": "A Consistent Strategy for Boosting Algorithms",
+          "booktitle": "COLT",
+          "year": "2002",
+          "pages": "303-318",
+          "ee": "https://doi.org/10.1007/3-540-45435-7_21",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolas Vayatis",
+              "@pid": "00/582"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/SeldinL17",
+          "title": "An Improved Parametrization and Analysis of the EXP3++ Algorithm for Stochastic and Adversarial Bandits",
+          "booktitle": "COLT",
+          "year": "2017",
+          "pages": "1743-1759",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Yevgeny Seldin",
+              "@pid": "34/39"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/colt/StoltzL03",
+          "title": "Internal Regret in On-Line Portfolio Selection",
+          "booktitle": "COLT",
+          "year": "2003",
+          "pages": "403-417",
+          "ee": "https://doi.org/10.1007/978-3-540-45167-9_30",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dcc/GyorgyLL04",
+          "title": "A \"Follow the Perturbed Leader\"-type Algorithm for Zero-Delay Quantization of Individual Sequence",
+          "booktitle": "Data Compression Conference",
+          "year": "2004",
+          "pages": "342-351",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dcc/LinderLZ93",
+          "title": "Universality and Rates of Convergence in Lossy Source Coding",
+          "booktitle": "Data Compression Conference",
+          "year": "1993",
+          "pages": "89-97",
+          "ee": "https://doi.org/10.1109/DCC.1993.253141",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dcc/LinderLZ96",
+          "title": "Designing Vector Quantizers in the Presence of Source Noise or Channel Noise",
+          "booktitle": "Data Compression Conference",
+          "year": "1996",
+          "pages": "33-42",
+          "ee": "https://doi.org/10.1109/DCC.1996.488308",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocolt/BartlettLL97",
+          "title": "A Minimax Lower Bound for Empirical Quantizer Design",
+          "booktitle": "EuroCOLT",
+          "year": "1997",
+          "pages": "210-222",
+          "ee": "https://doi.org/10.1007/3-540-62685-9_18",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Peter L. Bartlett",
+              "@pid": "68/4020"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gfkl/ClemenconLV05",
+          "title": "From Ranking to Classification: A Statistical View",
+          "booktitle": "GfKl",
+          "year": "2006",
+          "pages": "214-221",
+          "ee": "https://doi.org/10.1007/3-540-31314-1_25",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolas Vayatis",
+              "@pid": "00/582"
+            },
+            {
+              "#text": "Stéphan Clémençon",
+              "@pid": "85/6714"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/LiuLNT17",
+          "title": "Algorithmic Stability and Hypothesis Complexity",
+          "booktitle": "ICML",
+          "year": "2017",
+          "pages": "2159-2167",
+          "author": [
+            {
+              "#text": "Dacheng Tao",
+              "@pid": "46/3391"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Tongliang Liu",
+              "@pid": "150/6667"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icpr/KrzyzakLL94",
+          "title": "Nonparametric classification using radial basis function nets and empirical risk minimization",
+          "booktitle": "ICPR (2)",
+          "year": "1994",
+          "pages": "72-76",
+          "ee": "https://doi.org/10.1109/ICPR.1994.576878",
+          "author": [
+            {
+              "#text": "Adam Krzyzak",
+              "@pid": "k/AdamKrzyzak"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isit/GyorgyLL04",
+          "title": "Efficient algorithms and minimax bounds for zero-delay lossy source coding",
+          "booktitle": "ISIT",
+          "year": "2004",
+          "pages": "463",
+          "ee": "https://doi.org/10.1109/ISIT.2004.1365498",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isit/GyorgyLL05",
+          "title": "Tracking the best quantizer",
+          "booktitle": "ISIT",
+          "year": "2005",
+          "pages": "1163-1167",
+          "ee": "https://doi.org/10.1109/ISIT.2005.1523524",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isit/GyorgyLL12",
+          "title": "Efficient tracking of large classes of experts",
+          "booktitle": "ISIT",
+          "year": "2012",
+          "pages": "885-889",
+          "ee": "https://doi.org/10.1109/ISIT.2012.6284689",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/itw/Cesa-BianchiLS06",
+          "title": "Regret Minimization Under Partial Monitoring",
+          "booktitle": "ITW",
+          "year": "2006",
+          "pages": "72-76",
+          "ee": "https://doi.org/10.1109/ITW.2006.1633784",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/itw/GyorgyLL06",
+          "title": "The Shortest Path Problem in the Bandit Setting",
+          "booktitle": "ITW",
+          "year": "2006",
+          "pages": "87-91",
+          "ee": "https://doi.org/10.1109/ITW.2006.1633787",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Cesa-BianchiGLS12",
+          "title": "Mirror Descent Meets Fixed Share (and feels no regret)",
+          "booktitle": "NIPS",
+          "year": "2012",
+          "pages": "989-997",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            },
+            {
+              "#text": "Pierre Gaillard",
+              "@pid": "25/2131"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Cesa-BianchiGNL17",
+          "title": "Boltzmann Exploration Done Right",
+          "booktitle": "NIPS",
+          "year": "2017",
+          "pages": "6284-6293",
+          "author": [
+            {
+              "#text": "Claudio Gentile",
+              "@pid": "56/5759"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/DevroyeLPS07",
+          "title": "Multiple choice tries and distributed hash tables",
+          "booktitle": "SODA",
+          "year": "2007",
+          "pages": "891-899",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "GaHyun Park",
+              "@pid": "14/3"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Wojciech Szpankowski",
+              "@pid": "s/WSzpankowski"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0704-1020",
+          "title": "The on-line shortest path problem under partial monitoring",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.0704.1020",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "György Ottucsák",
+              "@pid": "23/3941"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0902-3526",
+          "title": "Online Multi-task Learning with Hard Constraints",
+          "journal": "CoRR",
+          "year": "2009",
+          "ee": "https://doi.org/10.48550/ARXIV.0902.3526",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Omiros Papaspiliopoulos",
+              "@pid": "68/6685"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1103-0351",
+          "title": "Connectivity threshold for Bluetooth graphs",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1103.0351",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            },
+            {
+              "#text": "Nicolas Fraiman",
+              "@pid": "07/9365"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1110-2755",
+          "title": "Efficient Tracking of Large Classes of Experts",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1110.2755",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1202-3323",
+          "title": "A new look at shifting regret",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1202.3323",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            },
+            {
+              "#text": "Pierre Gaillard",
+              "@pid": "25/2131"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1204-4710",
+          "title": "Regret in Online Combinatorial Optimization",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1204.4710",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jean-Yves Audibert",
+              "@pid": "01/3781"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1209-1727",
+          "title": "Bandits with heavy tail",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.1727",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1302-5797",
+          "title": "Prediction by Random-Walk Perturbation",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1302.5797",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1710-05739",
+          "title": "On the Hardness of Inventory Management with Censored Demand Data",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1710.05739",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Mihalis G. Markakis",
+              "@pid": "115/7214"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-07775",
+          "title": "Local optima of the Sherrington-Kirkpatrick Hamiltonian",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.07775",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Louigi Addario-Berry",
+              "@pid": "56/2679"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Roberto Oliveira",
+              "@pid": "51/934"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1805-11022",
+          "title": "Online Influence Maximization with Local Observations",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1805.11022",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Julia Olkhovskaya",
+              "@pid": "220/5277"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1808-08416",
+          "title": "Multiplayer bandits without observing collision information",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1808.08416",
+          "author": [
+            {
+              "#text": "Abbas Mehrabian",
+              "@pid": "88/8395"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1906-04280",
+          "title": "Mean estimation and regression under heavy-tailed distributions-a survey",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1906.04280",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Shahar Mendelson",
+              "@pid": "80/1427"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1906-09501",
+          "title": "Structure learning in graphical models by covariance queries",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1906.09501",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jakub Truszkowski",
+              "@pid": "03/8247"
+            },
+            {
+              "#text": "Piotr Zwiernik",
+              "@pid": "79/11280"
+            },
+            {
+              "#text": "Vasiliki Velona",
+              "@pid": "223/8539"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1906-11300",
+          "title": "Benign Overfitting in Linear Regression",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1906.11300",
+          "author": [
+            {
+              "#text": "Alexander Tsigler",
+              "@pid": "194/2673"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Peter L. Bartlett",
+              "@pid": "68/4020"
+            },
+            {
+              "#text": "Philip M. Long",
+              "@pid": "66/5275"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-11537",
+          "title": "On Mean Estimation for Heteroscedastic Random Variables",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.11537",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nikita Zhivotovskiy",
+              "@pid": "163/1814"
+            },
+            {
+              "#text": "Silvio Lattanzi",
+              "@pid": "46/6611"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2109-11909",
+          "title": "Learning to maximize global influence from local observations",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2109.11909",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Julia Olkhovskaya",
+              "@pid": "220/5277"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2111-13026",
+          "title": "Bandit problems with fidelity rewards",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.13026",
+          "author": [
+            {
+              "#text": "Ciara Pike-Burke",
+              "@pid": "202/1263"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Pierre-André Savalle",
+              "@pid": "124/8974"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-04985",
+          "title": "Generalization Bounds via Convex Analysis",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.04985",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2207-14601",
+          "title": "Archaeology of random recursive dags and Cooper-Frieze random networks",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2207.14601",
+          "author": [
+            {
+              "#text": "Francisco Calvillo",
+              "@pid": "325/5348"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-10544",
+          "title": "Subtractive random forests",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.10544",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            },
+            {
+              "#text": "Roberto Oliveira",
+              "@pid": "51/934"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-19674",
+          "title": "Online-to-PAC Conversions: Generalization Bounds via Regret Analysis",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.19674",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-01727",
+          "title": "Broadcasting in random recursive dags",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.01727",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-11401",
+          "title": "Increasing paths in random temporal graphs",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.11401",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            },
+            {
+              "#text": "Nina Kamcev",
+              "@pid": "142/5023"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2309-05657",
+          "title": "On the quality of randomized approximations of Tukey's depth",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2309.05657",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Roberto Oliveira",
+              "@pid": "51/934"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2311-13059",
+          "title": "A note on estimating the dimension from a random geometric graph",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2311.13059",
+          "author": [
+            {
+              "#text": "Caelan Atamanchuk",
+              "@pid": "359/4475"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2403-09755",
+          "title": "Estimating the history of a random recursive tree",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.09755",
+          "author": [
+            {
+              "#text": "Christophe Giraud",
+              "@pid": "15/3175-2"
+            },
+            {
+              "#text": "Déborah Sulem",
+              "@pid": "277/9751"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-07401",
+          "title": "Convergence of continuous-time stochastic gradient descent with applications to linear deep neural networks",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.07401",
+          "author": [
+            {
+              "#text": "Eulalia Nualart",
+              "@pid": "313/4008"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2410-06481",
+          "title": "Leaf Stripping on Uniform Attachment Trees",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.06481",
+          "author": [
+            {
+              "#text": "Anna M. Brandenberger",
+              "@pid": "254/5493"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Louigi Addario-Berry",
+              "@pid": "56/2679"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-21543",
+          "title": "Detecting weighted hidden cliques",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.21543",
+          "author": [
+            {
+              "#text": "Anirban Mandal",
+              "@pid": "31/6757"
+            },
+            {
+              "#text": "B. R. Vinay Kumar",
+              "@pid": "213/9458"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Karissa Huang",
+              "@pid": "391/6421"
+            },
+            {
+              "#text": "Maruf Alam Tarafdar",
+              "@pid": "410/7570"
+            },
+            {
+              "#text": "Nandan Malhotra",
+              "@pid": "410/6673"
+            },
+            {
+              "#text": "Ritabrata Karmakar",
+              "@pid": "410/6914"
+            },
+            {
+              "#text": "Urmisha Chatterjee",
+              "@pid": "410/7487"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-15741",
+          "title": "Conformal and kNN Predictive Uncertainty Quantification Algorithms in Metric Spaces",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.15741",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Marcos Matabuena",
+              "@pid": "236/4768"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-16142",
+          "title": "Ratio Covers of Convex Sets and Optimal Mixture Density Estimation",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.16142",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jaouad Mourtada",
+              "@pid": "205/2522"
+            },
+            {
+              "#text": "Jian Qian",
+              "@pid": "232/2479"
+            },
+            {
+              "#text": "Nikita Zhivotovskiy",
+              "@pid": "163/1814"
+            },
+            {
+              "#text": "Spencer Compton",
+              "@pid": "258/3302"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-15996",
+          "title": "Testing properties of trees in graphical models with covariance queries",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.15996",
+          "author": [
+            {
+              "#text": "Francisco Calvillo",
+              "@pid": "325/5348"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Piotr Zwiernik",
+              "@pid": "79/11280"
+            },
+            {
+              "#text": "Sofiya Burova",
+              "@pid": "397/2092"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-math-0701419",
+          "title": "Strategies for prediction under imperfect monitoring",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.MATH/0701419",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BroutinDL14",
+          "title": "Connectivity of sparse Bluetooth networks",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1402.3696",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BroutinDL14a",
+          "title": "Almost optimal sparsification of random geometric graphs",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1403.1274",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BubeckDL14",
+          "title": "Finding Adam in random growing trees",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1411.3317",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Cesa-BianchiGLN17",
+          "title": "Boltzmann Exploration Done Right",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1705.10257",
+          "author": [
+            {
+              "#text": "Claudio Gentile",
+              "@pid": "56/5759"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/GyorfiLM08",
+          "title": "A simple randomized algorithm for sequential prediction of ergodic time series",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0805.3091",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gusztáv Morvai",
+              "@pid": "79/5627"
+            },
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LiuLNT17",
+          "title": "Algorithmic stability and hypothesis complexity",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1702.08712",
+          "author": [
+            {
+              "#text": "Dacheng Tao",
+              "@pid": "46/3391"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Tongliang Liu",
+              "@pid": "150/6667"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/SeldinL17",
+          "title": "An Improved Parametrization and Analysis of the EXP3++ Algorithm for Stochastic and Adversarial Bandits",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1702.06103",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Yevgeny Seldin",
+              "@pid": "34/39"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cpc/Addario-BerryBL10",
+          "title": "The Longest Minimum-Weight Path in a Complete Graph",
+          "journal": "Comb. Probab. Comput.",
+          "year": "2010",
+          "pages": "1-19",
+          "ee": "https://doi.org/10.1017/S0963548309990204",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Louigi Addario-Berry",
+              "@pid": "56/2679"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cpc/AtamanchukDL25",
+          "title": "On the size of temporal cliques in subcritical random temporal graphs",
+          "journal": "Comb. Probab. Comput.",
+          "year": "2025",
+          "pages": "671-679",
+          "ee": "https://doi.org/10.1017/S0963548325000100",
+          "author": [
+            {
+              "#text": "Caelan Atamanchuk",
+              "@pid": "359/4475"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cpc/BriendCL23",
+          "title": "Archaeology of random recursive dags and Cooper-Frieze random networks",
+          "journal": "Comb. Probab. Comput.",
+          "year": "2023",
+          "pages": "859-873",
+          "ee": "https://doi.org/10.1017/S0963548323000184",
+          "author": [
+            {
+              "#text": "Francisco Calvillo",
+              "@pid": "325/5348"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/0001LR15",
+          "title": "Mathematical and Computational Foundations of Learning Theory (Dagstuhl Seminar 15361)",
+          "journal": "Dagstuhl Reports",
+          "year": "2015",
+          "pages": "54-0",
+          "ee": "https://doi.org/10.4230/DAGREP.5.8.54",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Lorenzo Rosasco",
+              "@pid": "01/6788"
+            },
+            {
+              "#text": "Matthias Hein",
+              "@pid": "97/1213-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/HeinLRS11",
+          "title": "Mathematical and Computational Foundations of Learning Theory (Dagstuhl Seminar 11291)",
+          "journal": "Dagstuhl Reports",
+          "year": "2011",
+          "pages": "53-69",
+          "ee": "https://doi.org/10.4230/DAGREP.1.7.53",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Lorenzo Rosasco",
+              "@pid": "01/6788"
+            },
+            {
+              "#text": "Matthias Hein",
+              "@pid": "97/1213-1"
+            },
+            {
+              "#text": "Stephen Smale",
+              "@pid": "36/2147"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/HorvathL98",
+          "title": "Scale-sensitive Dimensions and Skeleton Estimates for Classification",
+          "journal": "Discret. Appl. Math.",
+          "year": "1998",
+          "pages": "37-61",
+          "ee": "https://doi.org/10.1016/S0166-218X(98)00013-4",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Márta Horváth",
+              "@pid": "22/1597"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fdgth/GarrigaGL24",
+          "title": "Individualized post-crisis monitoring of psychiatric patients via Hidden Markov models",
+          "journal": "Frontiers Digit. Health",
+          "year": "2024",
+          "ee": "https://doi.org/10.3389/FDGTH.2024.1322555",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Roger Garriga",
+              "@pid": "367/5820"
+            },
+            {
+              "#text": "Vicenç Gómez",
+              "@pid": "80/4108"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/focm/LugosiM19",
+          "title": "Mean Estimation and Regression Under Heavy-Tailed Distributions: A Survey",
+          "journal": "Found. Comput. Math.",
+          "year": "2019",
+          "pages": "1145-1190",
+          "ee": "https://doi.org/10.1007/S10208-019-09427-X",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Shahar Mendelson",
+              "@pid": "80/1427"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/geb/GermanoL07",
+          "title": "Global Nash convergence of Foster and Young's regret testing",
+          "journal": "Games Econ. Behav.",
+          "year": "2007",
+          "pages": "135-154",
+          "ee": "https://doi.org/10.1016/J.GEB.2006.06.001",
+          "author": [
+            {
+              "#text": "Fabrizio Germano",
+              "@pid": "38/11309"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/geb/StoltzL07",
+          "title": "Learning correlated equilibria in games with compact sets of strategies",
+          "journal": "Games Econ. Behav.",
+          "year": "2007",
+          "pages": "187-208",
+          "ee": "https://doi.org/10.1016/J.GEB.2006.04.007",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/informsjop/LugosiMN24",
+          "title": "On the Hardness of Learning from Censored and Nonstationary Demand",
+          "journal": "INFORMS J. Optim.",
+          "year": "2024",
+          "pages": "63-83",
+          "ee": "https://doi.org/10.1287/IJOO.2022.0017",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Mihalis G. Markakis",
+              "@pid": "115/7214"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jap/DevroyeGLW17",
+          "title": "On the measure of Voronoi cells",
+          "journal": "J. Appl. Probab.",
+          "year": "2017",
+          "pages": "394-408",
+          "ee": "https://doi.org/10.1017/JPR.2017.7",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Harro Walk",
+              "@pid": "68/4003"
+            },
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/Cesa-BianchiL12",
+          "title": "Combinatorial bandits",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "2012",
+          "pages": "1404-1422",
+          "ee": "https://doi.org/10.1016/J.JCSS.2012.01.001",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/Addario-BerryBB15",
+          "title": "Exceptional rotations of random graphs: a VC theory",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2015",
+          "pages": "1893-1922",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Louigi Addario-Berry",
+              "@pid": "56/2679"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Roberto Oliveira",
+              "@pid": "51/934"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            },
+            {
+              "#text": "Shankar Bhamidi",
+              "@pid": "18/3240"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/AntosKLL02",
+          "title": "Data-dependent margin-based generalization bounds for classification",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2002",
+          "pages": "73-98",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "Balázs Kégl",
+              "@pid": "k/BalazsKegl"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/jmlr/AudibertBL11",
+          "title": "Minimax Policies for Combinatorial Prediction Games",
+          "booktitle": "COLT",
+          "year": "2011",
+          "pages": "107-132",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jean-Yves Audibert",
+              "@pid": "01/3781"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/BiauDL08",
+          "title": "Consistency of Random Forests and Other Averaging Classifiers",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2008",
+          "pages": "2015-2033",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gérard Biau",
+              "@pid": "55/6157"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/BlanchardLV03",
+          "title": "On the Rate of Convergence of Regularized Boosting Classifiers",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2003",
+          "pages": "861-894",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Blanchard",
+              "@pid": "61/3550"
+            },
+            {
+              "#text": "Nicolas Vayatis",
+              "@pid": "00/582"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/GyorgyLLO07",
+          "title": "The On-Line Shortest Path Problem Under Partial Monitoring",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2007",
+          "pages": "2369-2403",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "György Ottucsák",
+              "@pid": "23/3941"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/GyorgyLO10",
+          "title": "On-Line Sequential Bin Packing",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2010",
+          "pages": "89-109",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "György Ottucsák",
+              "@pid": "23/3941"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/LugosiPS23",
+          "title": "Bandit problems with fidelity rewards",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2023",
+          "pages": "328:1-328:44",
+          "author": [
+            {
+              "#text": "Ciara Pike-Burke",
+              "@pid": "202/1263"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Pierre-André Savalle",
+              "@pid": "124/8974"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/LugosiTVZ21",
+          "title": "Learning partial correlation graphs and graphical models by covariance queries",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2021",
+          "pages": "203:1-203:41",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jakub Truszkowski",
+              "@pid": "03/8247"
+            },
+            {
+              "#text": "Piotr Zwiernik",
+              "@pid": "79/11280"
+            },
+            {
+              "#text": "Vasiliki Velona",
+              "@pid": "223/8539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/AntosL98",
+          "title": "Strong Minimax Lower Bounds for Learning",
+          "journal": "Mach. Learn.",
+          "year": "1998",
+          "pages": "31-56",
+          "ee": "https://doi.org/10.1023/A:1007454427662",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/BartlettBL02",
+          "title": "Model Selection and Error Estimation",
+          "journal": "Mach. Learn.",
+          "year": "2002",
+          "pages": "85-113",
+          "ee": "https://doi.org/10.1023/A:1013999503812",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Peter L. Bartlett",
+              "@pid": "68/4020"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/BlumLS07",
+          "title": "Introduction to the special issue on COLT 2006",
+          "journal": "Mach. Learn.",
+          "year": "2007",
+          "pages": "75-77",
+          "ee": "https://doi.org/10.1007/S10994-007-5027-5",
+          "author": [
+            {
+              "#text": "Avrim Blum",
+              "@pid": "b/AvrimBlum"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Hans Simon",
+              "@pid": "54/4749"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/Cesa-BianchiL01",
+          "title": "Worst-Case Bounds for the Logarithmic Loss of Predictors",
+          "journal": "Mach. Learn.",
+          "year": "2001",
+          "pages": "247-264",
+          "ee": "https://doi.org/10.1023/A:1010848128995",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/Cesa-BianchiL03",
+          "title": "Potential-Based Algorithms in On-Line Prediction and Game Theory",
+          "journal": "Mach. Learn.",
+          "year": "2003",
+          "pages": "239-261",
+          "ee": "https://doi.org/10.1023/A:1022901500417",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ml/StoltzL05",
+          "title": "Internal Regret in On-Line Portfolio Selection",
+          "journal": "Mach. Learn.",
+          "year": "2005",
+          "pages": "125-159",
+          "ee": "https://doi.org/10.1007/S10994-005-0465-4",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/AudibertBL14",
+          "title": "Regret in Online Combinatorial Optimization",
+          "journal": "Math. Oper. Res.",
+          "year": "2014",
+          "pages": "31-45",
+          "ee": "https://doi.org/10.1287/MOOR.2013.0598",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Jean-Yves Audibert",
+              "@pid": "01/3781"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/Cesa-BianchiLS06",
+          "title": "Regret Minimization Under Partial Monitoring",
+          "journal": "Math. Oper. Res.",
+          "year": "2006",
+          "pages": "562-580",
+          "ee": "https://doi.org/10.1287/MOOR.1060.0206",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/LugosiM22",
+          "title": "Multiplayer Bandits Without Observing Collision Information",
+          "journal": "Math. Oper. Res.",
+          "year": "2022",
+          "pages": "1247-1265",
+          "ee": "https://doi.org/10.1287/MOOR.2021.1168",
+          "author": [
+            {
+              "#text": "Abbas Mehrabian",
+              "@pid": "88/8395"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mor/LugosiMS08",
+          "title": "Strategies for Prediction Under Imperfect Monitoring",
+          "journal": "Math. Oper. Res.",
+          "year": "2008",
+          "pages": "513-528",
+          "ee": "https://doi.org/10.1287/MOOR.1080.0312",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pami/FaragoLL93",
+          "title": "Fast Nearest-Neighbor Search in Dissimilarity Spaces",
+          "journal": "IEEE Trans. Pattern Anal. Mach. Intell.",
+          "year": "1993",
+          "pages": "957-962",
+          "ee": "https://doi.org/10.1109/34.232083",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pr/DevroyeL95",
+          "title": "Lower bounds in pattern recognition and learning",
+          "journal": "Pattern Recognit.",
+          "year": "1995",
+          "pages": "1011-1018",
+          "ee": "https://doi.org/10.1016/0031-3203(94)00141-8",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pr/Lugosi92",
+          "title": "Learning with an unreliable teacher",
+          "journal": "Pattern Recognit.",
+          "year": "1992",
+          "pages": "79-87",
+          "ee": "https://doi.org/10.1016/0031-3203(92)90008-7",
+          "author": {
+            "#text": "Gábor Lugosi",
+            "@pid": "70/3715"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rsa/BoucheronLM00",
+          "title": "A sharp concentration inequality with applications",
+          "journal": "Random Struct. Algorithms",
+          "year": "2000",
+          "pages": "277-292",
+          "ee": "https://doi.org/10.1002/(SICI)1098-2418(200005)16:3%3C277::AID-RSA4%3E3.0.CO;2-1",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Pascal Massart",
+              "@pid": "72/5690"
+            },
+            {
+              "#text": "Stéphane Boucheron",
+              "@pid": "91/5076"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rsa/BroutinDFL14",
+          "title": "Connectivity threshold of Bluetooth graphs",
+          "journal": "Random Struct. Algorithms",
+          "year": "2014",
+          "pages": "45-66",
+          "ee": "https://doi.org/10.1002/RSA.20459",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Nicolas Broutin",
+              "@pid": "72/680"
+            },
+            {
+              "#text": "Nicolas Fraiman",
+              "@pid": "07/9365"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rsa/BubeckDL17",
+          "title": "Finding Adam in random growing trees",
+          "journal": "Random Struct. Algorithms",
+          "year": "2017",
+          "pages": "158-172",
+          "ee": "https://doi.org/10.1002/RSA.20649",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rsa/DevroyeLPS09",
+          "title": "Multiple choice tries and distributed hash tables",
+          "journal": "Random Struct. Algorithms",
+          "year": "2009",
+          "pages": "337-367",
+          "ee": "https://doi.org/10.1002/RSA.20234",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "GaHyun Park",
+              "@pid": "14/3"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            },
+            {
+              "#text": "Wojciech Szpankowski",
+              "@pid": "s/WSzpankowski"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/simods/BriendLO25",
+          "title": "On the Quality of Randomized Approximations of Tukey's Depth",
+          "journal": "SIAM J. Math. Data Sci.",
+          "year": "2025",
+          "pages": "1441-1464",
+          "ee": "https://doi.org/10.1137/24M1654919",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Roberto Oliveira",
+              "@pid": "51/934"
+            },
+            {
+              "#text": "Simon Briend",
+              "@pid": "325/5525"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tac/KulkarniL00",
+          "title": "Finite-time lower bounds for the two-armed bandit problem",
+          "journal": "IEEE Trans. Autom. Control.",
+          "year": "2000",
+          "pages": "711-714",
+          "ee": "https://doi.org/10.1109/9.847107",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Sanjeev R. Kulkarni",
+              "@pid": "52/6276"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/LugosiZ11",
+          "title": "Preface",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2011",
+          "pages": "1755",
+          "ee": "https://doi.org/10.1016/J.TCS.2010.12.052",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Sandra Zilles",
+              "@pid": "z/SandraZilles"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/BartlettLL98",
+          "title": "The Minimax Distortion Redundancy in Empirical Quantizer Design",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1998",
+          "pages": "1802-1813",
+          "ee": "https://doi.org/10.1109/18.705560",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Peter L. Bartlett",
+              "@pid": "68/4020"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/BiauDL08",
+          "title": "On the Performance of Clustering in Hilbert Spaces",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2008",
+          "pages": "781-790",
+          "ee": "https://doi.org/10.1109/TIT.2007.913516",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gérard Biau",
+              "@pid": "55/6157"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/BubeckCL13",
+          "title": "Bandits With Heavy Tail",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2013",
+          "pages": "7711-7717",
+          "ee": "https://doi.org/10.1109/TIT.2013.2277869",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            },
+            {
+              "#text": "Sébastien Bubeck",
+              "@pid": "35/4292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/CastroLS14",
+          "title": "Detection of Correlations With Adaptive Sensing",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2014",
+          "pages": "7913-7927",
+          "ee": "https://doi.org/10.1109/TIT.2014.2364713",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Pierre-André Savalle",
+              "@pid": "124/8974"
+            },
+            {
+              "#text": "Rui M. Castro",
+              "@pid": "11/2943"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/Cesa-BianchiLS05",
+          "title": "Minimizing regret with label efficient prediction",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2005",
+          "pages": "2152-2162",
+          "ee": "https://doi.org/10.1109/TIT.2005.847729",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gilles Stoltz",
+              "@pid": "18/3915"
+            },
+            {
+              "#text": "Nicolò Cesa-Bianchi",
+              "@pid": "c/NicoloCesaBianchi"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/DevroyeGL02",
+          "title": "A note on robust hypothesis testing",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2002",
+          "pages": "2111-2114",
+          "ee": "https://doi.org/10.1109/TIT.2002.1013154",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/DevroyeLN15",
+          "title": "Random-Walk Perturbations for Online Combinatorial Optimization",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2015",
+          "pages": "4099-4106",
+          "ee": "https://doi.org/10.1109/TIT.2015.2428253",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gergely Neu",
+              "@pid": "83/7606"
+            },
+            {
+              "#text": "Luc Devroye",
+              "@pid": "d/LucDevroye"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/FaragoL93",
+          "title": "Strong universal consistency of neural network classifiers",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1993",
+          "pages": "1146-1151",
+          "ee": "https://doi.org/10.1109/18.243433",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/GyorfiLM99",
+          "title": "A simple randomized algorithm for sequential prediction of ergodic time series",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1999",
+          "pages": "2642-2650",
+          "ee": "https://doi.org/10.1109/18.796420",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Gusztáv Morvai",
+              "@pid": "79/5627"
+            },
+            {
+              "#text": "László Györfi",
+              "@pid": "48/6301"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/GyorgyLL08",
+          "title": "Tracking the Best Quantizer",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2008",
+          "pages": "1604-1625",
+          "ee": "https://doi.org/10.1109/TIT.2008.917651",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/GyorgyLL12",
+          "title": "Efficient Tracking of Large Classes of Experts",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2012",
+          "pages": "6709-6725",
+          "ee": "https://doi.org/10.1109/TIT.2012.2209627",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/KhaleghiL23",
+          "title": "Inferring the Mixing Properties of a Stationary Ergodic Process From a Single Sample-Path",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2023",
+          "pages": "4014-4026",
+          "ee": "https://doi.org/10.1109/TIT.2023.3248375",
+          "author": [
+            {
+              "#text": "Azadeh Khaleghi",
+              "@pid": "60/2707"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/KulkarniLV98",
+          "title": "Learning Pattern Classification - A Survey",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1998",
+          "pages": "2178-2206",
+          "ee": "https://doi.org/10.1109/18.720536",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Sanjeev R. Kulkarni",
+              "@pid": "52/6276"
+            },
+            {
+              "#text": "Santosh S. Venkatesh",
+              "@pid": "73/3998"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LinderL01",
+          "title": "A zero-delay sequential scheme for lossy coding of individual sequences",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2001",
+          "pages": "2533-2538",
+          "ee": "https://doi.org/10.1109/18.945263",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LinderLZ94",
+          "title": "Rates of convergence in the source coding theorem, in empirical quantizer design, and in universal lossy source coding",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1994",
+          "pages": "1728-1740",
+          "ee": "https://doi.org/10.1109/18.340451",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LinderLZ95",
+          "title": "Fixed-rate universal lossy source coding and rates of convergence for memoryless sources",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1995",
+          "pages": "665-676",
+          "ee": "https://doi.org/10.1109/18.382013",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LinderLZ97",
+          "title": "Empirical quantizer design in the presence of source noise or channel noise",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1997",
+          "pages": "612-623",
+          "ee": "https://doi.org/10.1109/18.556117",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LugosiP94",
+          "title": "On the posterior-probability estimate of the error rate of nonparametric classification rules",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1994",
+          "pages": "475-481",
+          "ee": "https://doi.org/10.1109/18.312167",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Miroslaw Pawlak",
+              "@pid": "09/974"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LugosiZ95",
+          "title": "Nonparametric estimation via empirical risk minimization",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1995",
+          "pages": "677-687",
+          "ee": "https://doi.org/10.1109/18.382014",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/LugosiZ96",
+          "title": "Concept learning using complexity regularization",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1996",
+          "pages": "48-54",
+          "ee": "https://doi.org/10.1109/18.481777",
+          "author": [
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Kenneth Zeger",
+              "@pid": "13/2483"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tnn/KrzyzakLL96",
+          "title": "Nonparametric estimation and classification using radial basis function nets and empirical risk minimization",
+          "journal": "IEEE Trans. Neural Networks",
+          "year": "1996",
+          "pages": "475-487",
+          "ee": "https://doi.org/10.1109/72.485681",
+          "author": [
+            {
+              "#text": "Adam Krzyzak",
+              "@pid": "k/AdamKrzyzak"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsp/GyorgyLL04",
+          "title": "Efficient adaptive algorithms and minimax bounds for zero-delay lossy source coding",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2004",
+          "pages": "2337-2347",
+          "ee": "https://doi.org/10.1109/TSP.2004.831128",
+          "author": [
+            {
+              "#text": "András György",
+              "@pid": "72/251-1"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
       }
     ]
   }

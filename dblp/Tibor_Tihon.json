@@ -1,92 +1,210 @@
 {
   "dblpperson": {
+    "@name": "Tibor Tihon",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/iclr/KeysersSSBFKMSS20",
-        "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data.",
-        "year": "2020",
-        "booktitle": "ICLR",
-        "ee": "https://openreview.net/forum?id=SygcCnNKwr",
-        "url": "db/conf/iclr/iclr2020.html#KeysersSSBFKMSS20",
-        "authors": [
-          "Daniel Keysers",
-          "Nathanael SchÃ¤rli",
-          "Nathan Scales",
-          "Hylke Buisman",
-          "Daniel Furrer",
-          "Sergii Kashubin",
-          "Nikola Momchev",
-          "Danila Sinopalnikov",
-          "Lukasz Stafiniak",
-          "Tibor Tihon",
-          "Dmitry Tsarkov",
-          "Xiao Wang 0038",
-          "Marc van Zee",
-          "Olivier Bousquet"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaai/TsarkovTSMSS21",
+          "title": "*-CFQ: Analyzing the Scalability of Machine Learning on a Compositional Task",
+          "booktitle": "AAAI",
+          "year": "2021",
+          "pages": "9949-9957",
+          "ee": "https://doi.org/10.1609/AAAI.V35I11.17195",
+          "author": [
+            {
+              "#text": "Danila Sinopalnikov",
+              "@pid": "255/5584"
+            },
+            {
+              "#text": "Dmitry Tsarkov",
+              "@pid": "46/5520"
+            },
+            {
+              "#text": "Nathan Scales",
+              "@pid": "55/462"
+            },
+            {
+              "#text": "Nathanael Schärli",
+              "@pid": "86/684"
+            },
+            {
+              "#text": "Nikola Momchev",
+              "@pid": "255/5966"
+            },
+            {
+              "#text": "Tibor Tihon",
+              "@pid": "255/6143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aaai/TsarkovTSMSS21",
-        "title": "*-CFQ: Analyzing the Scalability of Machine Learning on a Compositional Task.",
-        "pages": "9949-9957",
-        "year": "2021",
-        "booktitle": "AAAI",
-        "ee": "https://doi.org/10.1609/aaai.v35i11.17195",
-        "url": "db/conf/aaai/aaai2021.html#TsarkovTSMSS21",
-        "authors": [
-          "Dmitry Tsarkov",
-          "Tibor Tihon",
-          "Nathan Scales",
-          "Nikola Momchev",
-          "Danila Sinopalnikov",
-          "Nathanael SchÃ¤rli"
-        ]
+        "inproceedings": {
+          "@key": "conf/iclr/KeysersSSBFKMSS20",
+          "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data",
+          "booktitle": "ICLR",
+          "year": "2020",
+          "author": [
+            {
+              "#text": "Daniel Furrer",
+              "@pid": "47/11179"
+            },
+            {
+              "#text": "Daniel Keysers",
+              "@pid": "02/6955"
+            },
+            {
+              "#text": "Danila Sinopalnikov",
+              "@pid": "255/5584"
+            },
+            {
+              "#text": "Dmitry Tsarkov",
+              "@pid": "46/5520"
+            },
+            {
+              "#text": "Hylke Buisman",
+              "@pid": "81/480"
+            },
+            {
+              "#text": "Lukasz Stafiniak",
+              "@pid": "88/9922"
+            },
+            {
+              "#text": "Marc van Zee",
+              "@pid": "133/1757"
+            },
+            {
+              "#text": "Nathan Scales",
+              "@pid": "55/462"
+            },
+            {
+              "#text": "Nathanael Schärli",
+              "@pid": "86/684"
+            },
+            {
+              "#text": "Nikola Momchev",
+              "@pid": "255/5966"
+            },
+            {
+              "#text": "Olivier Bousquet",
+              "@pid": "82/2045"
+            },
+            {
+              "#text": "Sergii Kashubin",
+              "@pid": "255/5800"
+            },
+            {
+              "#text": "Tibor Tihon",
+              "@pid": "255/6143"
+            },
+            {
+              "#text": "Xiao Wang",
+              "@pid": "49/67-38"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2012-08266",
-        "title": "*-CFQ: Analyzing the Scalability of Machine Learning on a Compositional Task.",
-        "year": "2020",
-        "volume": "abs/2012.08266",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2012.08266",
-        "url": "db/journals/corr/corr2012.html#abs-2012-08266",
-        "authors": [
-          "Dmitry Tsarkov",
-          "Tibor Tihon",
-          "Nathan Scales",
-          "Nikola Momchev",
-          "Danila Sinopalnikov",
-          "Nathanael SchÃ¤rli"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1912-09713",
+          "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.09713",
+          "author": [
+            {
+              "#text": "Daniel Furrer",
+              "@pid": "47/11179"
+            },
+            {
+              "#text": "Daniel Keysers",
+              "@pid": "02/6955"
+            },
+            {
+              "#text": "Danila Sinopalnikov",
+              "@pid": "255/5584"
+            },
+            {
+              "#text": "Dmitry Tsarkov",
+              "@pid": "46/5520"
+            },
+            {
+              "#text": "Hylke Buisman",
+              "@pid": "81/480"
+            },
+            {
+              "#text": "Lukasz Stafiniak",
+              "@pid": "88/9922"
+            },
+            {
+              "#text": "Marc van Zee",
+              "@pid": "133/1757"
+            },
+            {
+              "#text": "Nathan Scales",
+              "@pid": "55/462"
+            },
+            {
+              "#text": "Nathanael Schärli",
+              "@pid": "86/684"
+            },
+            {
+              "#text": "Nikola Momchev",
+              "@pid": "255/5966"
+            },
+            {
+              "#text": "Olivier Bousquet",
+              "@pid": "82/2045"
+            },
+            {
+              "#text": "Sergii Kashubin",
+              "@pid": "255/5800"
+            },
+            {
+              "#text": "Tibor Tihon",
+              "@pid": "255/6143"
+            },
+            {
+              "#text": "Xiao Wang",
+              "@pid": "49/67-38"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1912-09713",
-        "title": "Measuring Compositional Generalization: A Comprehensive Method on Realistic Data.",
-        "year": "2019",
-        "volume": "abs/1912.09713",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1912.09713",
-        "url": "db/journals/corr/corr1912.html#abs-1912-09713",
-        "authors": [
-          "Daniel Keysers",
-          "Nathanael SchÃ¤rli",
-          "Nathan Scales",
-          "Hylke Buisman",
-          "Daniel Furrer",
-          "Sergii Kashubin",
-          "Nikola Momchev",
-          "Danila Sinopalnikov",
-          "Lukasz Stafiniak",
-          "Tibor Tihon",
-          "Dmitry Tsarkov",
-          "Xiao Wang 0038",
-          "Marc van Zee",
-          "Olivier Bousquet"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2012-08266",
+          "title": "*-CFQ: Analyzing the Scalability of Machine Learning on a Compositional Task",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2012.08266",
+          "author": [
+            {
+              "#text": "Danila Sinopalnikov",
+              "@pid": "255/5584"
+            },
+            {
+              "#text": "Dmitry Tsarkov",
+              "@pid": "46/5520"
+            },
+            {
+              "#text": "Nathan Scales",
+              "@pid": "55/462"
+            },
+            {
+              "#text": "Nathanael Schärli",
+              "@pid": "86/684"
+            },
+            {
+              "#text": "Nikola Momchev",
+              "@pid": "255/5966"
+            },
+            {
+              "#text": "Tibor Tihon",
+              "@pid": "255/6143"
+            }
+          ]
+        }
       }
     ]
   }

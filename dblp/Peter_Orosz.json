@@ -1,203 +1,505 @@
 {
   "dblpperson": {
+    "@name": "Péter Orosz",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/hpsr/TothfalusiKOV15",
-        "title": "100 Gbit/s network monitoring with on-the-fly reconfigurable rules for multi-encapsulated packets.",
-        "pages": "134-137",
-        "year": "2015",
-        "booktitle": "HPSR",
-        "ee": "https://doi.org/10.1109/HPSR.2015.7483096",
-        "url": "db/conf/hpsr/hpsr2015.html#TothfalusiKOV15",
-        "authors": [
-          "Tamas Tothfalusi",
-          "LÃ¡szlÃ³ KovÃ¡cs",
-          "Peter Orosz",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/NagyOBS25",
+          "title": "Enhancing DDoS Detection: A Novel Real-World Dataset for Generalizable Cross-Domain Training",
+          "booktitle": "CNSM",
+          "year": "2025",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.23919/CNSM67658.2025.11297554",
+          "author": [
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "Katica Bozsó",
+              "@pid": "423/3565"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Skopko",
+              "@pid": "147/1142"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hpsr/VargaKTO15",
-        "title": "C-GEP: 100 Gbit/s capable, FPGA-based, reconfigurable networking equipment.",
-        "pages": "76-81",
-        "year": "2015",
-        "booktitle": "HPSR",
-        "ee": "https://doi.org/10.1109/HPSR.2015.7483084",
-        "url": "db/conf/hpsr/hpsr2015.html#VargaKTO15",
-        "authors": [
-          "PÃ¡l Varga",
-          "LÃ¡szlÃ³ KovÃ¡cs",
-          "Tamas Tothfalusi",
-          "Peter Orosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/OroszMS24",
+          "title": "Assessing Application-Level Network Neutrality using Digital Twins",
+          "booktitle": "CNSM",
+          "year": "2024",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.23919/CNSM62983.2024.10814304",
+          "author": [
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamás Marosits",
+              "@pid": "38/604"
+            },
+            {
+              "#text": "Tamas Skopko",
+              "@pid": "147/1142"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/OroszSNVG14",
-        "title": "A case study on correlating video QoS and QoE.",
-        "pages": "1-5",
-        "year": "2014",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS.2014.6838399",
-        "url": "db/conf/noms/noms2014.html#OroszSNVG14",
-        "authors": [
-          "Peter Orosz",
-          "Tamas Skopko",
-          "ZoltÃ¡n Nagy",
-          "PÃ¡l Varga",
-          "Laszlo Gyimothi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/OroszMS24a",
+          "title": "NAPlr: Multi-Gigabit Internet Access Profiling in Web Browser",
+          "booktitle": "CNSM",
+          "year": "2024",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.23919/CNSM62983.2024.10814449",
+          "author": [
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamás Marosits",
+              "@pid": "38/604"
+            },
+            {
+              "#text": "Tamas Skopko",
+              "@pid": "147/1142"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/NagyOTKV18",
-        "title": "Detecting DDoS attacks within milliseconds by using FPGA-based hardware acceleration.",
-        "pages": "1-4",
-        "year": "2018",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS.2018.8406299",
-        "url": "db/conf/noms/noms2018.html#NagyOTKV18",
-        "authors": [
-          "BalÃ¡zs Nagy",
-          "Peter Orosz",
-          "Tamas Tothfalusi",
-          "LÃ¡szlÃ³ KovÃ¡cs",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/OroszNVG18",
+          "title": "Low False Alarm Ratio DDoS Detection for ms-scale Threat Mitigation",
+          "booktitle": "CNSM",
+          "year": "2018",
+          "pages": "212-218",
+          "author": [
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "Mitchell Gusat",
+              "@pid": "45/5210"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/NagyOV18",
-        "title": "Low-reaction time FPGA-based DDoS detector.",
-        "pages": "1-2",
-        "year": "2018",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS.2018.8406124",
-        "url": "db/conf/noms/noms2018.html#NagyOV18",
-        "authors": [
-          "BalÃ¡zs Nagy",
-          "Peter Orosz",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/VargaKMCAONTKG17",
+          "title": "Real-time security services for SDN-based datacenters",
+          "booktitle": "CNSM",
+          "year": "2017",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.23919/CNSM.2017.8256030",
+          "author": [
+            {
+              "#text": "Akos Mate",
+              "@pid": "213/1763"
+            },
+            {
+              "#text": "Andreea Anghel",
+              "@pid": "57/10370"
+            },
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "Georgios Kathareios",
+              "@pid": "49/11158"
+            },
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            },
+            {
+              "#text": "Mitchell Gusat",
+              "@pid": "45/5210"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Rolf Clauberg",
+              "@pid": "97/1114"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cnsm/OroszNVG18",
-        "title": "Low False Alarm Ratio DDoS Detection for ms-scale Threat Mitigation.",
-        "pages": "212-218",
-        "year": "2018",
-        "booktitle": "CNSM",
-        "ee": "https://ieeexplore.ieee.org/document/8584940",
-        "url": "db/conf/cnsm/cnsm2018.html#OroszNVG18",
-        "authors": [
-          "Peter Orosz",
-          "BalÃ¡zs Nagy",
-          "PÃ¡l Varga",
-          "Mitch Gusat"
-        ]
+        "inproceedings": {
+          "@key": "conf/hpsr/TothfalusiKOV15",
+          "title": "100 Gbit/s network monitoring with on-the-fly reconfigurable rules for multi-encapsulated packets",
+          "booktitle": "HPSR",
+          "year": "2015",
+          "pages": "134-137",
+          "ee": "https://doi.org/10.1109/HPSR.2015.7483096",
+          "author": [
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cnsm/VargaKMCAONTKG17",
-        "title": "Real-time security services for SDN-based datacenters.",
-        "pages": "1-9",
-        "year": "2017",
-        "booktitle": "CNSM",
-        "ee": "https://doi.org/10.23919/CNSM.2017.8256030",
-        "url": "db/conf/cnsm/cnsm2017.html#VargaKMCAONTKG17",
-        "authors": [
-          "PÃ¡l Varga",
-          "Georgios Kathareios",
-          "Akos Mate",
-          "Rolf Clauberg",
-          "Andreea Anghel",
-          "Peter Orosz",
-          "BalÃ¡zs Nagy",
-          "Tamas Tothfalusi",
-          "LÃ¡szlÃ³ KovÃ¡cs",
-          "Mitch Gusat"
-        ]
+        "inproceedings": {
+          "@key": "conf/hpsr/VargaKTO15",
+          "title": "C-GEP: 100 Gbit/s capable, FPGA-based, reconfigurable networking equipment",
+          "booktitle": "HPSR",
+          "year": "2015",
+          "pages": "76-81",
+          "ee": "https://doi.org/10.1109/HPSR.2015.7483084",
+          "author": [
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/im/OroszTV15",
-        "title": "C-GEP: Adaptive network management with reconfigurable hardware.",
-        "pages": "954-959",
-        "year": "2015",
-        "booktitle": "IM",
-        "ee": "https://doi.org/10.1109/INM.2015.7140417",
-        "url": "db/conf/im/im2015.html#OroszTV15",
-        "authors": [
-          "Peter Orosz",
-          "Tamas Tothfalusi",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/icphys/OroszVSH19",
+          "title": "QoS Guarantees for Industrial IoT Applications over LTE - a Feasibility Study",
+          "booktitle": "ICPS",
+          "year": "2019",
+          "pages": "667-672",
+          "ee": "https://doi.org/10.1109/ICPHYS.2019.8780308",
+          "author": [
+            {
+              "#text": "Csaba Hegedüs",
+              "@pid": "39/6316"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/im/TothfalusiOV15",
-        "title": "C-GEP: Platform demo for 100 Gbit/s network monitoring.",
-        "pages": "1151-1152",
-        "year": "2015",
-        "booktitle": "IM",
-        "ee": "https://doi.org/10.1109/INM.2015.7140454",
-        "url": "db/conf/im/im2015.html#TothfalusiOV15",
-        "authors": [
-          "Tamas Tothfalusi",
-          "Peter Orosz",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/im/OroszSV15",
+          "title": "Towards estimating video QoE based on frame loss statistics of the video streams",
+          "booktitle": "IM",
+          "year": "2015",
+          "pages": "1282-1285",
+          "ee": "https://doi.org/10.1109/INM.2015.7140482",
+          "author": [
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Skopko",
+              "@pid": "147/1142"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/im/OroszSV15",
-        "title": "Towards estimating video QoE based on frame loss statistics of the video streams.",
-        "pages": "1282-1285",
-        "year": "2015",
-        "booktitle": "IM",
-        "ee": "https://doi.org/10.1109/INM.2015.7140482",
-        "url": "db/conf/im/im2015.html#OroszSV15",
-        "authors": [
-          "Peter Orosz",
-          "Tamas Skopko",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/im/OroszTV15",
+          "title": "C-GEP: Adaptive network management with reconfigurable hardware",
+          "booktitle": "IM",
+          "year": "2015",
+          "pages": "954-959",
+          "ee": "https://doi.org/10.1109/INM.2015.7140417",
+          "author": [
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/comsur/OroszTV19",
-        "title": "FPGA-Assisted DPI Systems: 100 Gbit/s and Beyond.",
-        "pages": "2015-2040",
-        "year": "2019",
-        "volume": "21",
-        "journal": "IEEE Commun. Surv. Tutorials",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q129087410",
-        "url": "db/journals/comsur/comsur21.html#OroszTV19",
-        "authors": [
-          "Peter Orosz",
-          "Tamas Tothfalusi",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/im/TothfalusiOV15",
+          "title": "C-GEP: Platform demo for 100 Gbit/s network monitoring",
+          "booktitle": "IM",
+          "year": "2015",
+          "pages": "1151-1152",
+          "ee": "https://doi.org/10.1109/INM.2015.7140454",
+          "author": [
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fi/OroszNV25",
-        "title": "Real-Time Detection and Mitigation Strategies Newly Appearing for DDoS Profiles.",
-        "pages": "400",
-        "year": "2025",
-        "volume": "17",
-        "journal": "Future Internet",
-        "number": "9",
-        "ee": "https://doi.org/10.3390/fi17090400",
-        "url": "db/journals/fi/fi17.html#OroszNV25",
-        "authors": [
-          "Peter Orosz",
-          "BalÃ¡zs Nagy",
-          "PÃ¡l Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/NagyOTKV18",
+          "title": "Detecting DDoS attacks within milliseconds by using FPGA-based hardware acceleration",
+          "booktitle": "NOMS",
+          "year": "2018",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/NOMS.2018.8406299",
+          "author": [
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/NagyOV18",
+          "title": "Low-reaction time FPGA-based DDoS detector",
+          "booktitle": "NOMS",
+          "year": "2018",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1109/NOMS.2018.8406124",
+          "author": [
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/OroszSNVG14",
+          "title": "A case study on correlating video QoS and QoE",
+          "booktitle": "NOMS",
+          "year": "2014",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/NOMS.2014.6838399",
+          "author": [
+            {
+              "#text": "Laszlo Gyimothi",
+              "@pid": "147/1132"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Skopko",
+              "@pid": "147/1142"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/noms/OroszT20",
+          "title": "VoicePerf: A Quality Estimation Approach for No-reference IP Voice Traffic",
+          "booktitle": "NOMS",
+          "year": "2020",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/NOMS47738.2020.9110264",
+          "author": [
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comsur/OroszTV19",
+          "title": "FPGA-Assisted DPI Systems: 100 Gbit/s and Beyond",
+          "journal": "IEEE Commun. Surv. Tutorials",
+          "year": "2019",
+          "pages": "2015-2040",
+          "ee": "https://doi.org/10.1109/COMST.2018.2876196",
+          "author": [
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fi/OroszNV25",
+          "title": "Real-Time Detection and Mitigation Strategies Newly Appearing for DDoS Profiles",
+          "journal": "Future Internet",
+          "year": "2025",
+          "pages": "400",
+          "ee": "https://doi.org/10.3390/FI17090400",
+          "author": [
+            {
+              "#text": "Balázs Nagy",
+              "@pid": "157/5891"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jnsm/OroszT21",
+          "title": "A New Application-Aware No-Reference Quality Assessment Method for IP Voice Services",
+          "journal": "J. Netw. Syst. Manag.",
+          "year": "2021",
+          "pages": "29",
+          "ee": "https://doi.org/10.1007/S10922-021-09595-8",
+          "author": [
+            {
+              "#text": "Peter Orosz",
+              "@pid": "147/1076"
+            },
+            {
+              "#text": "Tamas Tothfalusi",
+              "@pid": "164/8018"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Peter10b",
+          "title": "Cross-layer forgalom és protokoll elemzés",
+          "journal": "",
+          "year": "2010",
+          "author": {
+            "#text": "Peter Orosz",
+            "@pid": "147/1076"
+          }
+        }
       }
     ]
   }

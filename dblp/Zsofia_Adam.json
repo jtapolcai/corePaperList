@@ -1,0 +1,617 @@
+{
+  "dblpperson": {
+    "@name": "Zsófia Ádám",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/icse-formalise/BajcziAM22",
+          "title": "C for Yourself: Comparison of Front-End Techniques for Formal Verification",
+          "booktitle": "FormaliSE@ICSE",
+          "year": "2022",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1145/3524482.3527646",
+          "author": [
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/kbse/AdamABBJRS25",
+          "title": "Non-termination Witnesses and Their Validation",
+          "booktitle": "ASE",
+          "year": "2025",
+          "pages": "1969-1981",
+          "ee": "https://doi.org/10.1109/ASE63991.2025.00164",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Jan Strejcek",
+              "@pid": "37/1716"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Marek Jankola",
+              "@pid": "372/9707"
+            },
+            {
+              "#text": "Marian Lingsch Rosenfeld",
+              "@pid": "324/5905"
+            },
+            {
+              "#text": "Paulína Ayaziová",
+              "@pid": "263/1478"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nfm/AdamLMPBVKTTA23",
+          "title": "From Natural Language Requirements to the Verification of Programmable Logic Controllers: Integrating FRET into PLCverif",
+          "booktitle": "NFM",
+          "year": "2023",
+          "pages": "353-360",
+          "ee": "https://doi.org/10.1007/978-3-031-33170-1_21",
+          "author": [
+            {
+              "#text": "Anastasia Mavridou",
+              "@pid": "120/6277"
+            },
+            {
+              "#text": "Andreas Katis",
+              "@pid": "159/1609"
+            },
+            {
+              "#text": "Borja Fernandez Adiego",
+              "@pid": "139/8750"
+            },
+            {
+              "#text": "Enrique Blanco Viñuela",
+              "@pid": "52/10495"
+            },
+            {
+              "#text": "Ignacio D. Lopez-Miguel",
+              "@pid": "309/3357"
+            },
+            {
+              "#text": "Jean-Charles Tournier",
+              "@pid": "61/386"
+            },
+            {
+              "#text": "Khanh V. Trinh",
+              "@pid": "199/3725"
+            },
+            {
+              "#text": "Marcin Bes",
+              "@pid": "349/9984"
+            },
+            {
+              "#text": "Thomas Pressburger",
+              "@pid": "27/5966"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/AdamBCLS24",
+          "title": "Btor2-Cert: A Certifying Hardware-Verification Framework Using Software Analyzers",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "129-149",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_7",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Nian-Ze Lee",
+              "@pid": "154/3010"
+            },
+            {
+              "#text": "Nils Sirrenberg",
+              "@pid": "372/9755"
+            },
+            {
+              "#text": "Po-Chun Chien",
+              "@pid": "258/6304"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/AdamBDHM22",
+          "title": "Theta: portfolio of CEGAR-based analyses with dynamic algorithm selection (Competition Contribution)",
+          "booktitle": "TACAS (2)",
+          "year": "2022",
+          "pages": "474-478",
+          "ee": "https://doi.org/10.1007/978-3-030-99527-0_34",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/AdamSH21",
+          "title": "Gazer-Theta: LLVM-based Verifier Portfolio with BMC/CEGAR (Competition Contribution)",
+          "booktitle": "TACAS (2)",
+          "year": "2021",
+          "pages": "433-437",
+          "ee": "https://doi.org/10.1007/978-3-030-72013-1_27",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Gyula Sallai",
+              "@pid": "17/2812"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziAM24",
+          "title": "ConcurrentWitness2Test: Test-Harnessing the Power of Concurrency (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "330-334",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_16",
+          "author": [
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziAM25",
+          "title": "SV-COMP'25 Reproduction Report (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2025",
+          "pages": "187-191",
+          "ee": "https://doi.org/10.1007/978-3-031-90660-2_10",
+          "author": [
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziSMASTDM24",
+          "title": "EmergenTheta: Verification Beyond Abstraction Refinement (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "371-375",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_23",
+          "author": [
+            {
+              "#text": "Csanád Telbisz",
+              "@pid": "372/9792"
+            },
+            {
+              "#text": "Dániel Szekeres",
+              "@pid": "307/4639"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziTSADSMM24",
+          "title": "Theta: Abstraction Based Techniques for Verifying Concurrency (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "412-417",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_30",
+          "author": [
+            {
+              "#text": "Csanád Telbisz",
+              "@pid": "372/9792"
+            },
+            {
+              "#text": "Dániel Szekeres",
+              "@pid": "307/4639"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/10/AdamBCLS23",
+          "title": "Reproduction Package for TACAS 2024 Submission 'Btor2-Cert: A Certifying Hardware-Verification Framework Using Software Analyzers'",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.5281/ZENODO.10013059",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Nian-Ze Lee",
+              "@pid": "154/3010"
+            },
+            {
+              "#text": "Nils Sirrenberg",
+              "@pid": "372/9755"
+            },
+            {
+              "#text": "Po-Chun Chien",
+              "@pid": "258/6304"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/AdamABCL24",
+          "title": "Btor2-Cert (HWMCC 2024 Submission)",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.13627808",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Nian-Ze Lee",
+              "@pid": "154/3010"
+            },
+            {
+              "#text": "Po-Chun Chien",
+              "@pid": "258/6304"
+            },
+            {
+              "#text": "Salih Ates",
+              "@pid": "383/4785"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/AdamBCLS24",
+          "title": "Reproduction Package for TACAS 2024 Article 'Btor2-Cert: A Certifying Hardware-Verification Framework Using Software Analyzers'",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.10548597",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Nian-Ze Lee",
+              "@pid": "154/3010"
+            },
+            {
+              "#text": "Nils Sirrenberg",
+              "@pid": "372/9755"
+            },
+            {
+              "#text": "Po-Chun Chien",
+              "@pid": "258/6304"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/AdamABBJRS25",
+          "title": "Reproduction Package for ASE 2025 Paper \"Non-termination Witnesses and Their Validation\"",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.17237968",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Jan Strejcek",
+              "@pid": "37/1716"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Marek Jankola",
+              "@pid": "372/9707"
+            },
+            {
+              "#text": "Marian Lingsch Rosenfeld",
+              "@pid": "324/5905"
+            },
+            {
+              "#text": "Paulína Ayaziová",
+              "@pid": "263/1478"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/AdamABBJRS25a",
+          "title": "Non-termination Witnesses in Format 2.1 for ASE 2025 Article 'Non-termination Witnesses and Their Validation'",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.17264464",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Jan Strejcek",
+              "@pid": "37/1716"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Marek Jankola",
+              "@pid": "372/9707"
+            },
+            {
+              "#text": "Marian Lingsch Rosenfeld",
+              "@pid": "324/5905"
+            },
+            {
+              "#text": "Paulína Ayaziová",
+              "@pid": "263/1478"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/AdamABBJRS25b",
+          "title": "Non-termination Witnesses in Format 2.1 for ASE 2025 Article 'Non-termination Witnesses and Their Validation'",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.17264555",
+          "author": [
+            {
+              "#text": "Dirk Beyer",
+              "@pid": "b/DirkBeyer1"
+            },
+            {
+              "#text": "Jan Strejcek",
+              "@pid": "37/1716"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Marek Jankola",
+              "@pid": "372/9707"
+            },
+            {
+              "#text": "Marian Lingsch Rosenfeld",
+              "@pid": "324/5905"
+            },
+            {
+              "#text": "Paulína Ayaziová",
+              "@pid": "263/1478"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/PeterAMK25",
+          "title": "Smart Contract in the Loop: Fault Impact Assessment for Distributed Ledger Technologies",
+          "journal": "Acta Cybern.",
+          "year": "2025",
+          "pages": "197-220",
+          "ee": "https://doi.org/10.14232/ACTACYB.312501",
+          "author": [
+            {
+              "#text": "Bertalan Zoltán Péter",
+              "@pid": "393/6226"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/abs-2404-15215",
+          "title": "Bottoms Up for CHCs: Novel Transformation of Linear Constrained Horn Clauses to Software Verification",
+          "booktitle": "LSFA/HCVS",
+          "year": "2024",
+          "pages": "105-117",
+          "ee": "https://doi.org/10.48550/ARXIV.2404.15215",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

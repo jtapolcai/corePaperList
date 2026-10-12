@@ -1,193 +1,337 @@
 {
   "dblpperson": {
+    "@name": "Gergely Dobreff",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DobreffFBP24",
-        "title": "Empowering ISPs with Cloud Gaming User Experience Modeling: A NVIDIA GeForce NOW Use-Case.",
-        "pages": "202-209",
-        "year": "2024",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN60470.2024.10494462",
-        "url": "db/conf/icin/icin2024.html#DobreffFBP24",
-        "authors": [
-          "Gergely Dobreff",
-          "DÃ¡niel Frey",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccgrid/TokaDFS20",
+          "title": "Adaptive AI-based auto-scaling for Kubernetes",
+          "booktitle": "CCGRID",
+          "year": "2020",
+          "pages": "599-608",
+          "ee": "https://doi.org/10.1109/CCGRID49817.2020.00-33",
+          "author": [
+            {
+              "#text": "Balázs Fodor",
+              "@pid": "64/9293"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/qomex/DobreffSLMVBP23",
-        "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring.",
-        "pages": "127-130",
-        "year": "2023",
-        "booktitle": "QoMEX",
-        "ee": "https://doi.org/10.1109/QoMEX58391.2023.10178470",
-        "url": "db/conf/qomex/qomex2023.html#DobreffSLMVBP23",
-        "authors": [
-          "Gergely Dobreff",
-          "MÃ¡rk Szalay",
-          "Bence LadÃ³czki",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Varga 0004",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DobreffFBP24",
+          "title": "Empowering ISPs with Cloud Gaming User Experience Modeling: A NVIDIA GeForce NOW Use-Case",
+          "booktitle": "ICIN",
+          "year": "2024",
+          "pages": "202-209",
+          "ee": "https://doi.org/10.1109/ICIN60470.2024.10494462",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Dániel Frey",
+              "@pid": "373/3979"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccgrid/TokaDFS20",
-        "title": "Adaptive AI-based auto-scaling for Kubernetes.",
-        "pages": "599-608",
-        "year": "2020",
-        "booktitle": "CCGRID",
-        "ee": "https://doi.org/10.1109/CCGrid49817.2020.00-33",
-        "url": "db/conf/ccgrid/ccgrid2020.html#TokaDFS20",
-        "authors": [
-          "LÃ¡szlÃ³ Toka",
-          "Gergely Dobreff",
-          "BalÃ¡zs Fodor",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "inproceedings": {
+          "@key": "conf/im/TokaDHS21",
+          "title": "Predicting cloud-native application failures based on monitoring data of cloud infrastructure",
+          "booktitle": "IM",
+          "year": "2021",
+          "pages": "842-847",
+          "author": [
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/im/TokaDHS21",
-        "title": "Predicting cloud-native application failures based on monitoring data of cloud infrastructure.",
-        "pages": "842-847",
-        "year": "2021",
-        "booktitle": "IM",
-        "ee": "https://ieeexplore.ieee.org/document/9463991",
-        "url": "db/conf/im/im2021.html#TokaDHS21",
-        "authors": [
-          "LÃ¡szlÃ³ Toka",
-          "Gergely Dobreff",
-          "DÃ¡vid Haja",
-          "Mark Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwssip/DobreffSMVLBP23",
+          "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study",
+          "booktitle": "IWSSIP",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwssip/DobreffSMVLBP23",
-        "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study.",
-        "pages": "1-5",
-        "year": "2023",
-        "booktitle": "IWSSIP",
-        "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
-        "url": "db/conf/iwssip/iwssip2023.html#DobreffSMVLBP23",
-        "authors": [
-          "Gergely Dobreff",
-          "MÃ¡rk Szalay",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Varga 0004",
-          "Bence LadÃ³czki",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/pkdd/CsanalosiDPMT20",
+          "title": "Low-Cost Optical Tracking of Soccer Players",
+          "booktitle": "MLSA@PKDD/ECML",
+          "year": "2020",
+          "pages": "28-39",
+          "ee": "https://doi.org/10.1007/978-3-030-64912-8_3",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gabor Csanalosi",
+              "@pid": "319/6983"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pkdd/DobreffRSSTP20",
-        "title": "Physical Performance Optimization in Football.",
-        "pages": "51-61",
-        "year": "2020",
-        "booktitle": "MLSA@PKDD/ECML",
-        "ee": "https://doi.org/10.1007/978-3-030-64912-8_5",
-        "url": "db/conf/pkdd/mlsa2020.html#DobreffRSSTP20",
-        "authors": [
-          "Gergely Dobreff",
-          "PÃ©ter Revisnyei",
-          "GÃ¡bor Schuth",
-          "GyÃ¶rgy Szigeti",
-          "LÃ¡szlÃ³ Toka",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/pkdd/DobreffRSSTP20",
+          "title": "Physical Performance Optimization in Football",
+          "booktitle": "MLSA@PKDD/ECML",
+          "year": "2020",
+          "pages": "51-61",
+          "ee": "https://doi.org/10.1007/978-3-030-64912-8_5",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gábor Schuth",
+              "@pid": "319/6965"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "György Szigeti",
+              "@pid": "319/6785"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pkdd/CsanalosiDPMT20",
-        "title": "Low-Cost Optical Tracking of Soccer Players.",
-        "pages": "28-39",
-        "year": "2020",
-        "booktitle": "MLSA@PKDD/ECML",
-        "ee": "https://doi.org/10.1007/978-3-030-64912-8_3",
-        "url": "db/conf/pkdd/mlsa2020.html#CsanalosiDPMT20",
-        "authors": [
-          "Gabor Csanalosi",
-          "Gergely Dobreff",
-          "Alija Pasic",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/qomex/DobreffSLMVBP23",
+          "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring",
+          "booktitle": "QoMEX",
+          "year": "2023",
+          "pages": "127-130",
+          "ee": "https://doi.org/10.1109/QOMEX58391.2023.10178470",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijcssport/DobreffMT22",
-        "title": "Optimizing and dimensioning a data intensive cloud application for soccer player tracking.",
-        "pages": "30-48",
-        "year": "2022",
-        "volume": "21",
-        "journal": "Int. J. Comput. Sci. Sport",
-        "number": "1",
-        "ee": "https://doi.org/10.2478/ijcss-2022-0004",
-        "url": "db/journals/ijcssport/ijcssport21.html#DobreffMT22",
-        "authors": [
-          "Gergely Dobreff",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "article": {
+          "@key": "journals/access/DobreffBP25",
+          "title": "A QoE and Availability-Aware Framework for Network Slice Placement and Resource Allocation",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "1481-1495",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3523900",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/TokaDFS21",
-        "title": "Machine Learning-Based Scaling Management for Kubernetes Edge Clusters.",
-        "pages": "958-972",
-        "year": "2021",
-        "volume": "18",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TNSM.2021.3052837",
-        "url": "db/journals/tnsm/tnsm18.html#TokaDFS21",
-        "authors": [
-          "LÃ¡szlÃ³ Toka",
-          "Gergely Dobreff",
-          "BalÃ¡zs Fodor",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "article": {
+          "@key": "journals/ijcssport/DobreffMT22",
+          "title": "Optimizing and dimensioning a data intensive cloud application for soccer player tracking",
+          "journal": "Int. J. Comput. Sci. Sport",
+          "year": "2022",
+          "pages": "30-48",
+          "ee": "https://doi.org/10.2478/IJCSS-2022-0004",
+          "author": [
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/DobreffSP26",
-        "title": "A Framework for Disaster-Tolerant Slice Placement in Future Networks.",
-        "year": "2026",
-        "pages": "5788-5800",
-        "volume": "23",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "ee": "https://doi.org/10.1109/TNSM.2026.3706661",
-        "url": "db/journals/tnsm/tnsm23.html#DobreffSP26",
-        "authors": [
-          "Gergely Dobreff",
-          "NÃ³ra SzlovencsÃ¡k",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/tnsm/DobreffSP26",
+          "title": "A Framework for Disaster-Tolerant Slice Placement in Future Networks",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2026",
+          "pages": "5788-5800",
+          "ee": "https://doi.org/10.1109/TNSM.2026.3706661",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "Nóra Szlovencsák",
+              "@pid": "440/7591"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/DobreffBP25",
-        "title": "A QoE and Availability-Aware Framework for Network Slice Placement and Resource Allocation.",
-        "pages": "1481-1495",
-        "year": "2025",
-        "volume": "13",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3523900",
-        "url": "db/journals/access/access13.html#DobreffBP25",
-        "authors": [
-          "Gergely Dobreff",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/tnsm/TokaDFS21",
+          "title": "Machine Learning-Based Scaling Management for Kubernetes Edge Clusters",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2021",
+          "pages": "958-972",
+          "ee": "https://doi.org/10.1109/TNSM.2021.3052837",
+          "author": [
+            {
+              "#text": "Balázs Fodor",
+              "@pid": "64/9293"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,0 +1,91 @@
+{
+  "dblpperson": {
+    "@name": "Zeyu Wang",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/europar/WangJ23",
+          "title": "Massively Parallel EEG Algorithms for Pre-exascale Architectures",
+          "booktitle": "Euro-Par Workshops",
+          "year": "2024",
+          "pages": "290-295",
+          "ee": "https://doi.org/10.1007/978-3-031-48803-0_34",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mipro/WangNJ22",
+          "title": "On the Benefits of Empirical Mode Decomposition in Spatio-temporal EEG Analysis",
+          "booktitle": "MIPRO",
+          "year": "2022",
+          "pages": "333-338",
+          "ee": "https://doi.org/10.23919/MIPRO55190.2022.9803337",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocs/WangJ23",
+          "title": "Efficient GPU implementation of the multivariate empirical mode decomposition algorithm",
+          "journal": "J. Comput. Sci.",
+          "year": "2023",
+          "pages": "102180",
+          "ee": "https://doi.org/10.1016/J.JOCS.2023.102180",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/WangJ23",
+          "title": "GPU Implementation of the Improved CEEMDAN Algorithm for Fast and Efficient EEG Time-Frequency Analysis",
+          "journal": "Sensors",
+          "year": "2023",
+          "pages": "8654",
+          "ee": "https://doi.org/10.3390/S23208654",
+          "author": [
+            {
+              "#text": "Zeyu Wang",
+              "@pid": "132/7882-12"
+            },
+            {
+              "#text": "Zoltan Juhasz",
+              "@pid": "09/3768"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

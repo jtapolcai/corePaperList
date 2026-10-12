@@ -1,0 +1,91 @@
+{
+  "dblpperson": {
+    "@name": "Peter Tarján",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/lcn/NemethTBKV07",
+          "title": "Measuring high-speed TCP performance during mobile handovers",
+          "booktitle": "LCN",
+          "year": "2007",
+          "pages": "599-612",
+          "ee": "https://doi.org/10.1109/LCN.2007.77",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Ferenc Kubinszky",
+              "@pid": "23/6795"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Peter Tarján",
+              "@pid": "34/2306"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ngi/BiczokNTKV09",
+          "title": "SpeedDetect: A Simple TCP Extension for Handling Sudden Capacity Increase",
+          "booktitle": "NGI",
+          "year": "2009",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/NGI.2009.5175783",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Ferenc Kubinszky",
+              "@pid": "23/6795"
+            },
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gergely Biczók",
+              "@pid": "83/2180"
+            },
+            {
+              "#text": "Peter Tarján",
+              "@pid": "34/2306"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/icl/TarjanN08",
+          "title": "Buffer Overflow Probability of TCP Flows During Mobile Handovers",
+          "journal": "IEEE Commun. Lett.",
+          "year": "2008",
+          "pages": "481-483",
+          "ee": "https://doi.org/10.1109/LCOMM.2008.071803",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Peter Tarján",
+              "@pid": "34/2306"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

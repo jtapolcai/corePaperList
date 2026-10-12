@@ -1,41 +1,62 @@
 {
   "dblpperson": {
+    "@name": "Andrej Lisec",
     "r": [
       {
-        "type": "article",
-        "key": "journals/bpmj/DabeesLEB24",
-        "title": "The role of organizational performance in sustaining competitive advantage through reverse logistics activities.",
-        "pages": "2025-2046",
-        "year": "2024",
-        "volume": "30",
-        "journal": "Bus. Process. Manag. J.",
-        "number": "6",
-        "ee": "https://doi.org/10.1108/BPMJ-03-2023-0235",
-        "url": "db/journals/bpmj/bpmj30.html#DabeesLEB24",
-        "authors": [
-          "Ahmed Dabees",
-          "Andrej Lisec",
-          "Sahar Elbarky",
-          "Mahmoud Barakat"
-        ]
+        "article": {
+          "@key": "journals/bpmj/DabeesLEB24",
+          "title": "The role of organizational performance in sustaining competitive advantage through reverse logistics activities",
+          "journal": "Bus. Process. Manag. J.",
+          "year": "2024",
+          "pages": "2025-2046",
+          "ee": "https://doi.org/10.1108/BPMJ-03-2023-0235",
+          "author": [
+            {
+              "#text": "Ahmed Dabees",
+              "@pid": "389/4081"
+            },
+            {
+              "#text": "Andrej Lisec",
+              "@pid": "203/1844"
+            },
+            {
+              "#text": "Mahmoud Barakat",
+              "@pid": "373/9062"
+            },
+            {
+              "#text": "Sahar Elbarky",
+              "@pid": "389/4052"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ol/DordevicACL17",
-        "title": "A metaheuristic approach to solving a multiproduct EOQ-based inventory problem with storage space constraints.",
-        "pages": "1137-1154",
-        "year": "2017",
-        "volume": "11",
-        "journal": "Optim. Lett.",
-        "number": "6",
-        "ee": "https://doi.org/10.1007/s11590-016-1009-5",
-        "url": "db/journals/ol/ol11.html#DordevicACL17",
-        "authors": [
-          "Lena S. Dordevic",
-          "Slobodan Antic",
-          "Mirjana Cangalovic",
-          "Andrej Lisec"
-        ]
+        "article": {
+          "@key": "journals/ol/DordevicACL17",
+          "title": "A metaheuristic approach to solving a multiproduct EOQ-based inventory problem with storage space constraints",
+          "journal": "Optim. Lett.",
+          "year": "2017",
+          "pages": "1137-1154",
+          "ee": "https://doi.org/10.1007/S11590-016-1009-5",
+          "author": [
+            {
+              "#text": "Andrej Lisec",
+              "@pid": "203/1844"
+            },
+            {
+              "#text": "Lena S. Dordevic",
+              "@pid": "116/1439"
+            },
+            {
+              "#text": "Mirjana Cangalovic",
+              "@pid": "58/3355"
+            },
+            {
+              "#text": "Slobodan Antic",
+              "@pid": "203/1898"
+            }
+          ]
+        }
       }
     ]
   }

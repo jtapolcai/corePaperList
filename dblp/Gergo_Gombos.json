@@ -1,428 +1,741 @@
 {
   "dblpperson": {
+    "@name": "Gergo Gombos",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/FejesNGL21",
-        "title": "A Core-Stateless L4S Scheduler for P4-enabled hardware switches with emulated HQoS.",
-        "pages": "1-2",
-        "year": "2021",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFOCOMWKSHPS51825.2021.9484581",
-        "url": "db/conf/infocom/infocom2021w.html#FejesNGL21",
-        "authors": [
-          "Ferenc Fejes",
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/anrw/LakiGNT17",
+          "title": "Take your own share of the PIE",
+          "booktitle": "ANRW",
+          "year": "2017",
+          "pages": "27-32",
+          "ee": "https://doi.org/10.1145/3106328.3106333",
+          "author": [
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zoltán Richard Turányi",
+              "@pid": "194/7070"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eucnc/AlwahabGL21",
-        "title": "On a Deep Q-Network-based Approach for Active Queue Management.",
-        "pages": "371-376",
-        "year": "2021",
-        "booktitle": "EuCNC/6G Summit",
-        "ee": "https://doi.org/10.1109/EuCNC/6GSummit51104.2021.9482588",
-        "url": "db/conf/eucnc/eucnc2021.html#AlwahabGL21",
-        "authors": [
-          "Dhulfiqar A. Alwahab",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/anrw/NadasGFL19",
+          "title": "Towards core-stateless fairness on multiple timescales",
+          "booktitle": "ANRW",
+          "year": "2019",
+          "pages": "30-36",
+          "ee": "https://doi.org/10.1145/3340301.3341124",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ficloud/Gombos017",
-        "title": "P-Spar(k)ql: SPARQL Evaluation Method on Spark GraphX with Parallel Query Plan.",
-        "pages": "212-219",
-        "year": "2017",
-        "booktitle": "FiCloud",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/FiCloud.2017.48",
-        "url": "db/conf/ficloud/ficloud2017.html#Gombos017",
-        "authors": [
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/anrw/NadasGFL20",
+          "title": "A Congestion Control Independent L4S Scheduler",
+          "booktitle": "ANRW",
+          "year": "2020",
+          "pages": "45-51",
+          "ee": "https://doi.org/10.1145/3404868.3406669",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ficloud/GombosR016",
-        "title": "Spar(k)ql: SPARQL Evaluation Method on Spark GraphX.",
-        "pages": "188-193",
-        "year": "2016",
-        "booktitle": "FiCloud Workshops",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/W-FiCloud.2016.48",
-        "url": "db/conf/ficloud/ficloud2016w.html#GombosR016",
-        "authors": [
-          "Gergo Gombos",
-          "GÃ¡bor RÃ¡cz",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/anrw/NadasGHL18",
+          "title": "Towards a Congestion Control-Independent Core-Stateless AQM",
+          "booktitle": "ANRW",
+          "year": "2018",
+          "pages": "84-90",
+          "ee": "https://doi.org/10.1145/3232755.3232777",
+          "author": [
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Péter Hudoba",
+              "@pid": "224/2395"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mobiwis/MatuszkaGK14",
-        "title": "mSWB: Towards a Mobile Semantic Web Browser.",
-        "pages": "165-175",
-        "year": "2014",
-        "booktitle": "MobiWIS",
-        "ee": "https://doi.org/10.1007/978-3-319-10359-4_14",
-        "url": "db/conf/mobiwis/mobiwis2014.html#MatuszkaGK14",
-        "authors": [
-          "TamÃ¡s Matuszka",
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/bs/FejesGLN19",
+          "title": "Who will Save the Internet from the Congestion Control Revolution?",
+          "booktitle": "BS",
+          "year": "2019",
+          "pages": "7:1-7:6",
+          "ee": "https://doi.org/10.1145/3375235.3375242",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/anrw/NadasGHL18",
-        "title": "Towards a Congestion Control-Independent Core-Stateless AQM.",
-        "pages": "84-90",
-        "year": "2018",
-        "booktitle": "ANRW",
-        "ee": "https://doi.org/10.1145/3232755.3232777",
-        "url": "db/conf/anrw/anrw2018.html#NadasGHL18",
-        "authors": [
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "PÃ©ter Hudoba",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SzucsG013",
+          "title": "Five Ws, one H and many tweets",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "441-446",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719287",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Imre Szucs",
+              "@pid": "333/8854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/anrw/LakiGNT17",
-        "title": "Take your own share of the PIE.",
-        "pages": "27-32",
-        "year": "2017",
-        "booktitle": "ANRW",
-        "ee": "https://doi.org/10.1145/3106328.3106333",
-        "url": "db/conf/anrw/anrw2017.html#LakiGNT17",
-        "authors": [
-          "SÃ¡ndor Laki",
-          "Gergo Gombos",
-          "Szilveszter NÃ¡das",
-          "ZoltÃ¡n Richard TurÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucnc/AlwahabGL21",
+          "title": "On a Deep Q-Network-based Approach for Active Queue Management",
+          "booktitle": "EuCNC/6G Summit",
+          "year": "2021",
+          "pages": "371-376",
+          "ee": "https://doi.org/10.1109/EUCNC/6GSUMMIT51104.2021.9482588",
+          "author": [
+            {
+              "#text": "Alwahab Dhulfiqar Zoltán",
+              "@pid": "227/7724"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/anrw/NadasGFL20",
-        "title": "A Congestion Control Independent L4S Scheduler.",
-        "pages": "45-51",
-        "year": "2020",
-        "booktitle": "ANRW",
-        "ee": "https://doi.org/10.1145/3404868.3406669",
-        "url": "db/conf/anrw/anrw2020.html#NadasGFL20",
-        "authors": [
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "Ferenc Fejes",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/ficloud/Gombos017",
+          "title": "P-Spar(k)ql: SPARQL Evaluation Method on Spark GraphX with Parallel Query Plan",
+          "booktitle": "FiCloud",
+          "year": "2017",
+          "pages": "212-219",
+          "ee": "https://doi.org/10.1109/FICLOUD.2017.48",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/anrw/NadasGFL19",
-        "title": "Towards core-stateless fairness on multiple timescales.",
-        "pages": "30-36",
-        "year": "2019",
-        "booktitle": "ANRW",
-        "ee": "https://doi.org/10.1145/3340301.3341124",
-        "url": "db/conf/anrw/anrw2019.html#NadasGFL19",
-        "authors": [
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "Ferenc Fejes",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/ficloud/GombosR016",
+          "title": "Spar(k)ql: SPARQL Evaluation Method on Spark GraphX",
+          "booktitle": "FiCloud Workshops",
+          "year": "2016",
+          "pages": "188-193",
+          "ee": "https://doi.org/10.1109/W-FICLOUD.2016.48",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gábor Rácz",
+              "@pid": "150/7799"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SzucsG013",
-        "title": "Five Ws, one H and many tweets.",
-        "pages": "441-446",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719287",
-        "url": "db/conf/coginfocom/coginfocom2013.html#SzucsG013",
-        "authors": [
-          "Imre Szucs",
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/hci/Gombos016",
+          "title": "Federated Query Evaluation Supported by SPARQL Recommendation",
+          "booktitle": "HCI (4)",
+          "year": "2016",
+          "pages": "263-274",
+          "ee": "https://doi.org/10.1007/978-3-319-40349-6_25",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/NadasTGL19",
-        "title": "Stateless Resource Sharing in Networks with Multi-Layer Virtualization.",
-        "pages": "1-7",
-        "year": "2019",
-        "booktitle": "ICC",
-        "ee": "https://doi.org/10.1109/ICC.2019.8761720",
-        "url": "db/conf/icc/icc2019.html#NadasTGL19",
-        "authors": [
-          "Szilveszter NÃ¡das",
-          "ZoltÃ¡n Richard TurÃ¡nyi",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki"
-        ]
+        "inproceedings": {
+          "@key": "conf/hci/GombosK14",
+          "title": "SPARQL Query Writing with Recommendations Based on Datasets",
+          "booktitle": "HCI (12)",
+          "year": "2014",
+          "pages": "310-319",
+          "ee": "https://doi.org/10.1007/978-3-319-07731-4_32",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/KecskemetiBGLMC26",
-        "title": "Energy-Efficient Resource Management Optimization Using Programmable Switches.",
-        "booktitle": "ICC",
-        "year": "2026",
-        "pages": "1-6",
-        "ee": "https://doi.org/10.1109/ICC59461.2026.11587383",
-        "url": "db/conf/icc/icc2026.html#KecskemetiBGLMC26",
-        "authors": [
-          "KÃ¡roly KecskemÃ©ti",
-          "Jorge AndrÃ©s Brito",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki",
-          "JosÃ© Ignacio Moreno",
-          "Luis M. Contreras 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/hci/MatuszkaGK13",
+          "title": "A New Approach for Indoor Navigation Using Semantic Webtechnologies and Augmented Reality",
+          "booktitle": "HCI (18)",
+          "year": "2013",
+          "pages": "202-210",
+          "ee": "https://doi.org/10.1007/978-3-642-39405-8_24",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Tamás Matuszka",
+              "@pid": "129/9519"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/GombosMLPS22",
-        "title": "Active Queue Management on the Tofino programmable switch: The (Dual)PI2 case.",
-        "pages": "1685-1691",
-        "year": "2022",
-        "booktitle": "ICC",
-        "ee": "https://doi.org/10.1109/ICC45855.2022.9838674",
-        "url": "db/conf/icc/icc2022.html#GombosMLPS22",
-        "authors": [
-          "Gergo Gombos",
-          "Maurice Mouw",
-          "SÃ¡ndor Laki",
-          "Chrysa Papagianni",
-          "Koen De Schepper"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/GombosMLPS22",
+          "title": "Active Queue Management on the Tofino programmable switch: The (Dual)PI2 case",
+          "booktitle": "ICC",
+          "year": "2022",
+          "pages": "1685-1691",
+          "ee": "https://doi.org/10.1109/ICC45855.2022.9838674",
+          "author": [
+            {
+              "#text": "Chrysa Papagianni",
+              "@pid": "56/9978"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Koen De Schepper",
+              "@pid": "88/7909"
+            },
+            {
+              "#text": "Maurice Mouw",
+              "@pid": "326/7377"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/bs/FejesGLN19",
-        "title": "Who will Save the Internet from the Congestion Control Revolution?",
-        "pages": "7:1-7:6",
-        "year": "2019",
-        "booktitle": "BS",
-        "ee": "https://www.wikidata.org/entity/Q130993736",
-        "url": "db/conf/bs/bs2019.html#FejesGLN19",
-        "authors": [
-          "Ferenc Fejes",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki",
-          "Szilveszter NÃ¡das"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/KecskemetiBGLMC26",
+          "title": "Energy-Efficient Resource Management Optimization Using Programmable Switches",
+          "booktitle": "ICC",
+          "year": "2026",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICC59461.2026.11587383",
+          "author": [
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Jorge Andrés Brito",
+              "@pid": "366/3343"
+            },
+            {
+              "#text": "José Ignacio Moreno",
+              "@pid": "06/6711"
+            },
+            {
+              "#text": "Károly Kecskeméti",
+              "@pid": "298/3377"
+            },
+            {
+              "#text": "Luis M. Contreras",
+              "@pid": "118/9656"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/nfvsdn/GombosKLN25",
-        "title": "End-User Performance Isolation at Scale in Access Aggregation Networks.",
-        "booktitle": "NFV-SDN",
-        "year": "2025",
-        "pages": "1-6",
-        "ee": "https://doi.org/10.1109/NFV-SDN66355.2025.11349533",
-        "url": "db/conf/nfvsdn/nfvsdn2025.html#GombosKLN25",
-        "authors": [
-          "Gergo Gombos",
-          "DÃ¡vid Kis",
-          "SÃ¡ndor Laki",
-          "Szilveszter NÃ¡das"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/NadasTGL19",
+          "title": "Stateless Resource Sharing in Networks with Multi-Layer Virtualization",
+          "booktitle": "ICC",
+          "year": "2019",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/ICC.2019.8761720",
+          "author": [
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zoltán Richard Turányi",
+              "@pid": "194/7070"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hci/MatuszkaGK13",
-        "title": "A New Approach for Indoor Navigation Using Semantic Webtechnologies and Augmented Reality.",
-        "pages": "202-210",
-        "year": "2013",
-        "booktitle": "HCI (18)",
-        "ee": "https://doi.org/10.1007/978-3-642-39405-8_24",
-        "url": "db/conf/hci/hci2013-18.html#MatuszkaGK13",
-        "authors": [
-          "TamÃ¡s Matuszka",
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/FejesNGL21",
+          "title": "A Core-Stateless L4S Scheduler for P4-enabled hardware switches with emulated HQoS",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2021",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1109/INFOCOMWKSHPS51825.2021.9484581",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hci/Gombos016",
-        "title": "Federated Query Evaluation Supported by SPARQL Recommendation.",
-        "pages": "263-274",
-        "year": "2016",
-        "booktitle": "HCI (4)",
-        "ee": "https://doi.org/10.1007/978-3-319-40349-6_25",
-        "url": "db/conf/hci/hci2016-4.html#Gombos016",
-        "authors": [
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/mobiwis/MatuszkaGK14",
+          "title": "mSWB: Towards a Mobile Semantic Web Browser",
+          "booktitle": "MobiWIS",
+          "year": "2014",
+          "pages": "165-175",
+          "ee": "https://doi.org/10.1007/978-3-319-10359-4_14",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Tamás Matuszka",
+              "@pid": "129/9519"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hci/GombosK14",
-        "title": "SPARQL Query Writing with Recommendations Based on Datasets.",
-        "pages": "310-319",
-        "year": "2014",
-        "booktitle": "HCI (12)",
-        "ee": "https://doi.org/10.1007/978-3-319-07731-4_32",
-        "url": "db/conf/hci/hci2014-12.html#GombosK14",
-        "authors": [
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/networking/FejesGLN20",
+          "title": "On the Incompatibility of Scalable Congestion Controls over the Internet",
+          "booktitle": "Networking",
+          "year": "2020",
+          "pages": "749-754",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/networking/FejesGLN20",
-        "title": "On the Incompatibility of Scalable Congestion Controls over the Internet.",
-        "pages": "749-754",
-        "year": "2020",
-        "booktitle": "Networking",
-        "ee": "https://ieeexplore.ieee.org/document/9142716",
-        "url": "db/conf/networking/networking2020.html#FejesGLN20",
-        "authors": [
-          "Ferenc Fejes",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki",
-          "Szilveszter NÃ¡das"
-        ]
+        "inproceedings": {
+          "@key": "conf/nfvsdn/GombosKLN25",
+          "title": "End-User Performance Isolation at Scale in Access Aggregation Networks",
+          "booktitle": "NFV-SDN",
+          "year": "2025",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/NFV-SDN66355.2025.11349533",
+          "author": [
+            {
+              "#text": "Dávid Kis",
+              "@pid": "299/9405"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/KisGLN22",
-        "title": "Resource sharing beyond FQ: 35K users at 100Gbps.",
-        "pages": "1-3",
-        "year": "2022",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://doi.org/10.1145/3546037.3546045",
-        "url": "db/conf/sigcomm/p2022.html#KisGLN22",
-        "authors": [
-          "DÃ¡vid Kis",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki",
-          "Szilveszter NÃ¡das"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/FejesLGNK19",
+          "title": "Decoupling Delay and Resource Sharing Targets with Efficient Core-Stateless AQM",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2019",
+          "pages": "128-130",
+          "ee": "https://doi.org/10.1145/3342280.3342332",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zoltán Kiss",
+              "@pid": "67/2339"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/FejesLGNK19",
-        "title": "Decoupling Delay and Resource Sharing Targets with Efficient Core-Stateless AQM.",
-        "pages": "128-130",
-        "year": "2019",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://doi.org/10.1145/3342280.3342332",
-        "url": "db/conf/sigcomm/p2019.html#FejesLGNK19",
-        "authors": [
-          "Ferenc Fejes",
-          "SÃ¡ndor Laki",
-          "Gergo Gombos",
-          "Szilveszter NÃ¡das",
-          "ZoltÃ¡n Kiss"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/KisGLN22",
+          "title": "Resource sharing beyond FQ: 35K users at 100Gbps",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2022",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.1145/3546037.3546045",
+          "author": [
+            {
+              "#text": "Dávid Kis",
+              "@pid": "299/9405"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/GombosMPRK14",
-        "title": "VOSD: A General-Purpose Virtual Observatory over Semantic Databases.",
-        "pages": "353-366",
-        "year": "2014",
-        "volume": "21",
-        "journal": "Acta Cybern.",
-        "number": "3",
-        "ee": "https://doi.org/10.14232/actacyb.21.3.2014.5",
-        "url": "db/journals/actaC/actaC21.html#GombosMPRK14",
-        "authors": [
-          "Gergo Gombos",
-          "TamÃ¡s Matuszka",
-          "BalÃ¡zs Pinczel",
-          "GÃ¡bor RÃ¡cz",
-          "Attila Kiss 0001"
-        ]
+        "article": {
+          "@key": "journals/access/GombosKTKNL22",
+          "title": "Flow Fairness With Core-Stateless Resource Sharing in Arbitrary Topology",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "120312-120328",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3222062",
+          "author": [
+            {
+              "#text": "Dávid Kis",
+              "@pid": "299/9405"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Lilla Tóthmérész",
+              "@pid": "116/2934"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Tamás Király",
+              "@pid": "26/1533"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/FejesNGL22",
-        "title": "DeepQoS: Core-Stateless Hierarchical QoS in Programmable Switches.",
-        "pages": "1842-1861",
-        "year": "2022",
-        "volume": "19",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/TNSM.2022.3152017",
-        "url": "db/journals/tnsm/tnsm19.html#FejesNGL22",
-        "authors": [
-          "Ferenc Fejes",
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "SÃ¡ndor Laki"
-        ]
+        "article": {
+          "@key": "journals/actaC/GombosMPRK14",
+          "title": "VOSD: A General-Purpose Virtual Observatory over Semantic Databases",
+          "journal": "Acta Cybern.",
+          "year": "2014",
+          "pages": "353-366",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.3.2014.5",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Balázs Pinczel",
+              "@pid": "150/7845"
+            },
+            {
+              "#text": "Gábor Rácz",
+              "@pid": "150/7799"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Tamás Matuszka",
+              "@pid": "129/9519"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ton/LakiNGFHTKK21",
-        "title": "Core-Stateless Forwarding With QoS Revisited: Decoupling Delay and Bandwidth Requirements.",
-        "pages": "503-516",
-        "year": "2021",
-        "volume": "29",
-        "journal": "IEEE/ACM Trans. Netw.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/TNET.2020.3041235",
-        "url": "db/journals/ton/ton29.html#LakiNGFHTKK21",
-        "authors": [
-          "SÃ¡ndor Laki",
-          "Szilveszter NÃ¡das",
-          "Gergo Gombos",
-          "Ferenc Fejes",
-          "PÃ©ter Hudoba",
-          "ZoltÃ¡n Richard TurÃ¡nyi",
-          "ZoltÃ¡n Kiss",
-          "Csaba Keszei"
-        ]
+        "article": {
+          "@key": "journals/tcci/RaczGK14",
+          "title": "Visualization of Semantic Data Based on Selected Predicates",
+          "journal": "Trans. Comput. Collect. Intell.",
+          "year": "2014",
+          "pages": "180-195",
+          "ee": "https://doi.org/10.1007/978-3-662-44509-9_9",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-1"
+            },
+            {
+              "#text": "Gábor Rácz",
+              "@pid": "150/7799"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/GombosKTKNL22",
-        "title": "Flow Fairness With Core-Stateless Resource Sharing in Arbitrary Topology.",
-        "pages": "120312-120328",
-        "year": "2022",
-        "volume": "10",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2022.3222062",
-        "url": "db/journals/access/access10.html#GombosKTKNL22",
-        "authors": [
-          "Gergo Gombos",
-          "DÃ¡vid Kis",
-          "Lilla TÃ³thmÃ©rÃ©sz",
-          "TamÃ¡s KirÃ¡ly",
-          "Szilveszter NÃ¡das",
-          "SÃ¡ndor Laki"
-        ]
+        "article": {
+          "@key": "journals/tnsm/FejesNGL22",
+          "title": "DeepQoS: Core-Stateless Hierarchical QoS in Programmable Switches",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2022",
+          "pages": "1842-1861",
+          "ee": "https://doi.org/10.1109/TNSM.2022.3152017",
+          "author": [
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcci/RaczGK14",
-        "title": "Visualization of Semantic Data Based on Selected Predicates.",
-        "pages": "180-195",
-        "year": "2014",
-        "volume": "14",
-        "journal": "Trans. Comput. Collect. Intell.",
-        "ee": "https://doi.org/10.1007/978-3-662-44509-9_9",
-        "url": "db/journals/tcci/tcci14.html#RaczGK14",
-        "authors": [
-          "GÃ¡bor RÃ¡cz",
-          "Gergo Gombos",
-          "Attila Kiss 0001"
-        ]
+        "article": {
+          "@key": "journals/ton/LakiNGFHTKK21",
+          "title": "Core-Stateless Forwarding With QoS Revisited: Decoupling Delay and Bandwidth Requirements",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2021",
+          "pages": "503-516",
+          "ee": "https://doi.org/10.1109/TNET.2020.3041235",
+          "author": [
+            {
+              "#text": "Csaba Keszei",
+              "@pid": "126/5380"
+            },
+            {
+              "#text": "Ferenc Fejes",
+              "@pid": "203/9669"
+            },
+            {
+              "#text": "Gergo Gombos",
+              "@pid": "130/9517"
+            },
+            {
+              "#text": "Péter Hudoba",
+              "@pid": "224/2395"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Szilveszter Nádas",
+              "@pid": "46/3323"
+            },
+            {
+              "#text": "Zoltán Kiss",
+              "@pid": "67/2339"
+            },
+            {
+              "#text": "Zoltán Richard Turányi",
+              "@pid": "194/7070"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gergo18",
+          "title": "Szemantikus adatok lekérdezése federált és osztott rendszereken",
+          "journal": "",
+          "year": "2018",
+          "author": {
+            "#text": "Gergo Gombos",
+            "@pid": "130/9517"
+          }
+        }
       }
     ]
   }

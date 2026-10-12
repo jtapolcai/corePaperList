@@ -1,44 +1,457 @@
 {
   "dblpperson": {
+    "@name": "Gergely Kovács",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/aiccsa/RebahiPNEKS08",
-        "title": "Performance analysis of identity management in the Session Initiation Protocol (SIP).",
-        "pages": "711-717",
-        "year": "2008",
-        "booktitle": "AICCSA",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AICCSA.2008.4493606",
-        "url": "db/conf/aiccsa/aiccsa2008.html#RebahiPNEKS08",
-        "authors": [
-          "Yacine Rebahi",
-          "Jordi Jaen Pallares",
-          "Tuan Minh Nguyen",
-          "Sven Ehlert",
-          "Gergely Kovacs",
-          "Dorgham Sisalem"
-        ]
+        "inproceedings": {
+          "@key": "conf/dgci/KovacsNV16",
+          "title": "On Weighted Distances on the Khalimsky Grid",
+          "booktitle": "DGCI",
+          "year": "2016",
+          "pages": "372-384",
+          "ee": "https://doi.org/10.1007/978-3-319-32360-2_29",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fini/MakkaiABGEKKSJ23",
-        "title": "Maximum likelihood-based estimation of diffusion coefficient is quick and reliable method for analyzing estradiol actions on surface receptor movements.",
-        "year": "2023",
-        "volume": "17",
-        "journal": "Frontiers Neuroinformatics",
-        "ee": "https://doi.org/10.3389/fninf.2023.1005936",
-        "url": "db/journals/fini/fini17.html#MakkaiABGEKKSJ23",
-        "authors": [
-          "Geza Makkai",
-          "Istvan M. Abraham",
-          "Klaudia Barabas",
-          "Soma Godo",
-          "David Ernszt",
-          "TamÃ¡s KovÃ¡cs",
-          "Gergely Kovacs",
-          "Szilard Szocs",
-          "Tibor Z. Janosi"
-        ]
+        "inproceedings": {
+          "@key": "conf/dgci/KovacsNV17",
+          "title": "Weighted Distances on the Trihexagonal Grid",
+          "booktitle": "DGCI",
+          "year": "2017",
+          "pages": "82-93",
+          "ee": "https://doi.org/10.1007/978-3-319-66272-5_8",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dgci/KovacsNV17a",
+          "title": "An Integer Programming Approach to Characterize Digital Disks on the Triangular Grid",
+          "booktitle": "DGCI",
+          "year": "2017",
+          "pages": "94-106",
+          "ee": "https://doi.org/10.1007/978-3-319-66272-5_9",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucnc/KovacsSTVPBSK26",
+          "title": "ENVELOPE Dutch Trial Site: Advanced Testbed for Network API Experimentation",
+          "booktitle": "EuCNC/6G Summit",
+          "year": "2026",
+          "pages": "751-756",
+          "ee": "https://doi.org/10.1109/EUCNC/6GSUMMIT68295.2026.11577603",
+          "author": [
+            {
+              "#text": "Belma Turkovic",
+              "@pid": "210/0173"
+            },
+            {
+              "#text": "Geerd Kakes",
+              "@pid": "99/4740"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Guus Botman",
+              "@pid": "440/3487"
+            },
+            {
+              "#text": "Peter-Paul M. Schackmann",
+              "@pid": "190/0201"
+            },
+            {
+              "#text": "Ramon S. Schwartz",
+              "@pid": "73/2784"
+            },
+            {
+              "#text": "Rintse van de Vlasakker",
+              "@pid": "381/7454"
+            },
+            {
+              "#text": "Srinath Potnuru",
+              "@pid": "296/3789"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucnc/TurkovicVPSSSKFKS25",
+          "title": "Dynamic QoS Adaptation Via Exposed Service APIs for Advanced CAM Use Cases",
+          "booktitle": "EuCNC/6G Summit",
+          "year": "2025",
+          "pages": "345-350",
+          "ee": "https://doi.org/10.1109/EUCNC/6GSUMMIT63408.2025.11037156",
+          "author": [
+            {
+              "#text": "Alexandru Forrai",
+              "@pid": "129/6939"
+            },
+            {
+              "#text": "Belma Turkovic",
+              "@pid": "210/0173"
+            },
+            {
+              "#text": "Geerd Kakes",
+              "@pid": "99/4740"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Peter-Paul M. Schackmann",
+              "@pid": "190/0201"
+            },
+            {
+              "#text": "Pieter Span",
+              "@pid": "410/8489"
+            },
+            {
+              "#text": "Ramon S. Schwartz",
+              "@pid": "73/2784"
+            },
+            {
+              "#text": "Rintse van de Vlasakker",
+              "@pid": "381/7454"
+            },
+            {
+              "#text": "Srinath Potnuru",
+              "@pid": "296/3789"
+            },
+            {
+              "#text": "Yonatan Shiferaw",
+              "@pid": "270/4015"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/anor/KovacsV25",
+          "title": "A generalization of Hunter's bound to hypergraphs",
+          "journal": "Ann. Oper. Res.",
+          "year": "2025",
+          "pages": "1171-1177",
+          "ee": "https://doi.org/10.1007/S10479-018-2869-0",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/anor/VizvariLCK11",
+          "title": "A stochastic programming and simulation based analysis of the structure of production on the arable land",
+          "journal": "Ann. Oper. Res.",
+          "year": "2011",
+          "pages": "325-337",
+          "ee": "https://doi.org/10.1007/S10479-009-0635-Z",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Zoltán Lakner",
+              "@pid": "71/10256"
+            },
+            {
+              "#text": "Zsolt Csizmadia",
+              "@pid": "55/1396"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/KovacsNV20",
+          "title": "On disks of the triangular grid: An application of optimization theory in discrete geometry",
+          "journal": "Discret. Appl. Math.",
+          "year": "2020",
+          "pages": "136-151",
+          "ee": "https://doi.org/10.1016/J.DAM.2019.11.018",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/KovacsTVJ18",
+          "title": "A note on the polytope of bipartite TSP",
+          "journal": "Discret. Appl. Math.",
+          "year": "2018",
+          "pages": "92-100",
+          "ee": "https://doi.org/10.1016/J.DAM.2017.09.009",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Hajieh K. Jabbari",
+              "@pid": "211/3317"
+            },
+            {
+              "#text": "Zsolt Tuza",
+              "@pid": "95/4519"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eecs/KuczmannSK21",
+          "title": "Transformer Model Identification by Ārtap: A Benchmark Problem",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2021",
+          "pages": "123-130",
+          "ee": "https://doi.org/10.3311/PPEE.17606",
+          "author": [
+            {
+              "#text": "Attila Szücs",
+              "@pid": "54/5899"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Miklós Kuczmann",
+              "@pid": "201/4505"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jco/KovacsNV19",
+          "title": "Chamfer distances on the isometric grid: a structural description of minimal distances based on linear programming approach",
+          "journal": "J. Comb. Optim.",
+          "year": "2019",
+          "pages": "867-886",
+          "ee": "https://doi.org/10.1007/S10878-019-00425-X",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmiv/KovacsNV17",
+          "title": "Weighted Distances and Digital Disks on the Khalimsky Grid - Disks with Holes and Islands",
+          "journal": "J. Math. Imaging Vis.",
+          "year": "2017",
+          "pages": "2-22",
+          "ee": "https://doi.org/10.1007/S10851-016-0701-5",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/KovacsNT21",
+          "title": "Distance on the Cairo pattern",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2021",
+          "pages": "141-146",
+          "ee": "https://doi.org/10.1016/J.PATREC.2021.02.002",
+          "author": [
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Neset Deniz Turgay",
+              "@pid": "290/5892"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/KovacsNV21",
+          "title": "Weighted distances on the truncated hexagonal grid",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2021",
+          "pages": "26-33",
+          "ee": "https://doi.org/10.1016/J.PATREC.2021.09.015",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/TurgayNKV23",
+          "title": "Weighted distances in the Cairo pattern",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2023",
+          "pages": "105-111",
+          "ee": "https://doi.org/10.1016/J.PATREC.2023.01.004",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            },
+            {
+              "#text": "Neset Deniz Turgay",
+              "@pid": "290/5892"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tgis/KovacsNV25",
+          "title": "Minimal Path-Generated Distances on the Trihexagonal Grid Having Four Neighborhoods",
+          "journal": "Trans. GIS",
+          "year": "2025",
+          "ee": "https://doi.org/10.1111/TGIS.70027",
+          "author": [
+            {
+              "#text": "Béla Vizvári",
+              "@pid": "83/5570"
+            },
+            {
+              "#text": "Benedek Nagy",
+              "@pid": "06/6134"
+            },
+            {
+              "#text": "Gergely Kovács",
+              "@pid": "72/10256"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gergely20a",
+          "title": "Permanens mágnesek modellezése a villamosmérnöki gyakorlatban",
+          "journal": "",
+          "year": "2020",
+          "author": {
+            "#text": "Gergely Kovács",
+            "@pid": "72/10256"
+          }
+        }
       }
     ]
   }

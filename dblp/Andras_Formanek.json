@@ -1,0 +1,574 @@
+{
+  "dblpperson": {
+    "@name": "András Formanek",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/aaai/OldenhofAPSHSDF23",
+          "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+          "booktitle": "AAAI",
+          "year": "2023",
+          "pages": "15576-15584",
+          "ee": "https://doi.org/10.1609/AAAI.V37I13.26847",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "Adam Zalewski",
+              "@pid": "154/5673"
+            },
+            {
+              "#text": "Adrien Darbier",
+              "@pid": "331/3180"
+            },
+            {
+              "#text": "Alexandre Picosson",
+              "@pid": "331/3514"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Ansgar Schuffenhauer",
+              "@pid": "39/1508"
+            },
+            {
+              "#text": "Antoine Simon",
+              "@pid": "41/436"
+            },
+            {
+              "#text": "Arnaud Gohier",
+              "@pid": "284/2209"
+            },
+            {
+              "#text": "Arne Dieckmann",
+              "@pid": "331/3577"
+            },
+            {
+              "#text": "Ashley Nicollet",
+              "@pid": "331/3578"
+            },
+            {
+              "#text": "Aurélien Gasser",
+              "@pid": "331/3822"
+            },
+            {
+              "#text": "Balazs Pejo",
+              "@pid": "175/5675"
+            },
+            {
+              "#text": "Camille Boillet",
+              "@pid": "331/3864"
+            },
+            {
+              "#text": "Camille Marini",
+              "@pid": "146/2819"
+            },
+            {
+              "#text": "Clément Mayer",
+              "@pid": "331/3516"
+            },
+            {
+              "#text": "David Endico",
+              "@pid": "331/3884"
+            },
+            {
+              "#text": "Dieter Kopecky",
+              "@pid": "37/5686"
+            },
+            {
+              "#text": "Eric Boniface",
+              "@pid": "331/3470"
+            },
+            {
+              "#text": "Ezron Oluoch",
+              "@pid": "331/3494"
+            },
+            {
+              "#text": "Fabien Gelus",
+              "@pid": "331/3715"
+            },
+            {
+              "#text": "Gergely Ács",
+              "@pid": "86/405"
+            },
+            {
+              "#text": "Hugo Ceulemans",
+              "@pid": "191/5926"
+            },
+            {
+              "#text": "Inal Djafar",
+              "@pid": "331/3084"
+            },
+            {
+              "#text": "Jaak Simm",
+              "@pid": "93/1203"
+            },
+            {
+              "#text": "Jordon Rahaman",
+              "@pid": "331/3800"
+            },
+            {
+              "#text": "Kelvin Moutet",
+              "@pid": "189/8153"
+            },
+            {
+              "#text": "Lewis H. Mervin",
+              "@pid": "173/0958"
+            },
+            {
+              "#text": "Lukas Friedrich",
+              "@pid": "308/0321"
+            },
+            {
+              "#text": "Manuel Stößel",
+              "@pid": "331/3585"
+            },
+            {
+              "#text": "Maria Telenczuk",
+              "@pid": "331/0577"
+            },
+            {
+              "#text": "Martijn Oldenhof",
+              "@pid": "259/3090"
+            },
+            {
+              "#text": "Mathieu Galtier",
+              "@pid": "116/2861"
+            },
+            {
+              "#text": "Matthieu Blottière",
+              "@pid": "331/3727"
+            },
+            {
+              "#text": "Michal Vanco",
+              "@pid": "331/3752"
+            },
+            {
+              "#text": "Nicholas Holway",
+              "@pid": "331/3643"
+            },
+            {
+              "#text": "Noé Sturm",
+              "@pid": "141/2565"
+            },
+            {
+              "#text": "Ola Engkvist",
+              "@pid": "40/1370"
+            },
+            {
+              "#text": "Oliver Fortmeier",
+              "@pid": "22/8239"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Schmidtke",
+              "@pid": "30/7234"
+            },
+            {
+              "#text": "Prakash Chandra Rathi",
+              "@pid": "141/3690"
+            },
+            {
+              "#text": "Ritsuya Niwayama",
+              "@pid": "212/4743"
+            },
+            {
+              "#text": "Thaïs de Boisfossé",
+              "@pid": "331/3177"
+            },
+            {
+              "#text": "Thibaud Martinez",
+              "@pid": "331/3552"
+            },
+            {
+              "#text": "Van Tien Nguyen",
+              "@pid": "41/7867"
+            },
+            {
+              "#text": "Wouter Heyndrickx",
+              "@pid": "69/8885"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aime/MillinghofferAMFAA24",
+          "title": "Boosting Multitask Decomposition: Directness, Sequentiality, Subsampling, Cross-Gradients",
+          "booktitle": "AIME (1)",
+          "year": "2024",
+          "pages": "17-35",
+          "ee": "https://doi.org/10.1007/978-3-031-66538-7_3",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Márk Marosi",
+              "@pid": "382/4608"
+            },
+            {
+              "#text": "Mátyás Antal",
+              "@pid": "33/2136"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icann/FormanekBAMA24",
+          "title": "Model Based Clustering of Time Series Utilizing Expert ODEs",
+          "booktitle": "ICANN (4)",
+          "year": "2024",
+          "pages": "230-245",
+          "ee": "https://doi.org/10.1007/978-3-031-72341-4_16",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Edward De Brouwer",
+              "@pid": "230/8173"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-08871",
+          "title": "Industry-Scale Orchestrated Federated Learning for Drug Discovery",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.08871",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "Adam Zalewski",
+              "@pid": "154/5673"
+            },
+            {
+              "#text": "Adrien Darbier",
+              "@pid": "331/3180"
+            },
+            {
+              "#text": "Alexandre Picosson",
+              "@pid": "331/3514"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Ansgar Schuffenhauer",
+              "@pid": "39/1508"
+            },
+            {
+              "#text": "Arnaud Gohier",
+              "@pid": "284/2209"
+            },
+            {
+              "#text": "Arne Dieckmann",
+              "@pid": "331/3577"
+            },
+            {
+              "#text": "Ashley Nicollet",
+              "@pid": "331/3578"
+            },
+            {
+              "#text": "Aurélien Gasser",
+              "@pid": "331/3822"
+            },
+            {
+              "#text": "Balazs Pejo",
+              "@pid": "175/5675"
+            },
+            {
+              "#text": "Camille Boillet",
+              "@pid": "331/3864"
+            },
+            {
+              "#text": "Camille Marini",
+              "@pid": "146/2819"
+            },
+            {
+              "#text": "Clément Mayer",
+              "@pid": "331/3516"
+            },
+            {
+              "#text": "David Endico",
+              "@pid": "331/3884"
+            },
+            {
+              "#text": "Dieter Kopecky",
+              "@pid": "37/5686"
+            },
+            {
+              "#text": "Eric Boniface",
+              "@pid": "331/3470"
+            },
+            {
+              "#text": "Ezron Oluoch",
+              "@pid": "331/3494"
+            },
+            {
+              "#text": "Fabien Gelus",
+              "@pid": "331/3715"
+            },
+            {
+              "#text": "Gergely Ács",
+              "@pid": "86/405"
+            },
+            {
+              "#text": "Hugo Ceulemans",
+              "@pid": "191/5926"
+            },
+            {
+              "#text": "Inal Djafar",
+              "@pid": "331/3084"
+            },
+            {
+              "#text": "Jaak Simm",
+              "@pid": "93/1203"
+            },
+            {
+              "#text": "Jordon Rahaman",
+              "@pid": "331/3800"
+            },
+            {
+              "#text": "Kelvin Moutet",
+              "@pid": "189/8153"
+            },
+            {
+              "#text": "Lewis H. Mervin",
+              "@pid": "173/0958"
+            },
+            {
+              "#text": "Lukas Friedrich",
+              "@pid": "308/0321"
+            },
+            {
+              "#text": "Manuel Stößel",
+              "@pid": "331/3585"
+            },
+            {
+              "#text": "Maria Telenczuk",
+              "@pid": "331/0577"
+            },
+            {
+              "#text": "Martijn Oldenhof",
+              "@pid": "259/3090"
+            },
+            {
+              "#text": "Mathieu Galtier",
+              "@pid": "116/2861"
+            },
+            {
+              "#text": "Matthieu Blottière",
+              "@pid": "331/3727"
+            },
+            {
+              "#text": "Michal Vanco",
+              "@pid": "331/3752"
+            },
+            {
+              "#text": "Nicholas Holway",
+              "@pid": "331/3643"
+            },
+            {
+              "#text": "Noé Sturm",
+              "@pid": "141/2565"
+            },
+            {
+              "#text": "Ola Engkvist",
+              "@pid": "40/1370"
+            },
+            {
+              "#text": "Oliver Fortmeier",
+              "@pid": "22/8239"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Peter Schmidtke",
+              "@pid": "30/7234"
+            },
+            {
+              "#text": "Prakash Chandra Rathi",
+              "@pid": "141/3690"
+            },
+            {
+              "#text": "Ritsuya Niwayama",
+              "@pid": "212/4743"
+            },
+            {
+              "#text": "Thaïs de Boisfossé",
+              "@pid": "331/3177"
+            },
+            {
+              "#text": "Thibaud Martinez",
+              "@pid": "331/3552"
+            },
+            {
+              "#text": "Van Tien Nguyen",
+              "@pid": "41/7867"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-24708",
+          "title": "BandiK: Efficient Multi-Task Decomposition Using a Multi-Bandit Framework",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.24708",
+          "author": [
+            {
+              "#text": "András Antos",
+              "@pid": "80/636"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Millinghoffer",
+              "@pid": "88/5217"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-15084",
+          "title": "GATTA: Graph Active Learning with Test-Time Augmentation",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.15084",
+          "author": [
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "Zsombor Bánfi",
+              "@pid": "445/1964"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcisd/FormanekVBBMA26",
+          "title": "A Comparative Study of QSPR Methods on a Unique Multitask PAMPA Data Set",
+          "journal": "J. Chem. Inf. Model.",
+          "year": "2026",
+          "pages": "5508-5518",
+          "ee": "https://doi.org/10.1021/ACS.JCIM.5C02931",
+          "author": [
+            {
+              "#text": "Adam Arany",
+              "@pid": "178/0111"
+            },
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "Anna Vincze",
+              "@pid": "437/0044"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Richárd Bicsak",
+              "@pid": "437/1187"
+            },
+            {
+              "#text": "Yves Moreau",
+              "@pid": "52/5372"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmlr/BanfiGF26",
+          "title": "GATTA: Graph Active Learning with Test-Time Augmentation",
+          "journal": "Trans. Mach. Learn. Res.",
+          "year": "2026",
+          "author": [
+            {
+              "#text": "András Formanek",
+              "@pid": "331/3842"
+            },
+            {
+              "#text": "András Gézsi",
+              "@pid": "63/4734"
+            },
+            {
+              "#text": "Zsombor Bánfi",
+              "@pid": "445/1964"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

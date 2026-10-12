@@ -1,266 +1,486 @@
 {
   "dblpperson": {
+    "@name": "Attila Klenik",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/dsn/KlenikKPTGVP26",
-        "title": "Structural Compliance, Governed Adaptation: Dependable Evolution in the eAyroll Governmental Blockchain Platform.",
-        "booktitle": "DSN-S",
-        "year": "2026",
-        "pages": "162-168",
-        "ee": "https://doi.org/10.1109/DSN-S70715.2026.00039",
-        "url": "db/conf/dsn/dsn2026s.html#KlenikKPTGVP26",
-        "authors": [
-          "Attila Klenik",
-          "Imre Kocsis",
-          "SÃ¡ndor Pap",
-          "PÃ©ter TÃ³th",
-          "LÃ¡szlÃ³ GÃ¶nczy",
-          "Ferenc VÃ¡gujhelyi",
-          "AndrÃ¡s Pataricza"
-        ]
+        "inproceedings": {
+          "@key": "conf/apn/MarussyKMVMT16",
+          "title": "Efficient Decomposition Algorithm for Stationary Analysis of Complex Stochastic Petri Net Models",
+          "booktitle": "Petri Nets",
+          "year": "2016",
+          "pages": "281-300",
+          "ee": "https://doi.org/10.1007/978-3-319-39086-4_17",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Kristóf Marussy",
+              "@pid": "130/6479"
+            },
+            {
+              "#text": "Miklós Telek",
+              "@pid": "51/1636"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/dsn/GaramvolgyiKGK18",
-        "title": "Towards Model-Driven Engineering of Smart Contracts for Cyber-Physical Systems.",
-        "pages": "134-139",
-        "year": "2018",
-        "booktitle": "DSN Workshops",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/DSN-W.2018.00052",
-        "url": "db/conf/dsn/dsn2018w.html#GaramvolgyiKGK18",
-        "authors": [
-          "PÃ©ter GaramvÃ¶lgyi",
-          "Imre Kocsis",
-          "Benjamin Gehl",
-          "Attila Klenik"
-        ]
+        "inproceedings": {
+          "@key": "conf/apn/VorosDMKHJBM16",
+          "title": "PetriDotNet 1.5: Extensible Petri Net Editor and Analyser for Education and Research",
+          "booktitle": "Petri Nets",
+          "year": "2016",
+          "pages": "123-132",
+          "ee": "https://doi.org/10.1007/978-3-319-39086-4_9",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Attila Jámbor",
+              "@pid": "181/0144"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Dániel Darvas",
+              "@pid": "145/5929"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Bartha",
+              "@pid": "87/827"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/apn/VorosDMKHJBM16",
-        "title": "PetriDotNet 1.5: Extensible Petri Net Editor and Analyser for Education and Research.",
-        "pages": "123-132",
-        "year": "2016",
-        "booktitle": "Petri Nets",
-        "ee": "https://www.wikidata.org/entity/Q57086289",
-        "url": "db/conf/apn/pn2016.html#VorosDMKHJBM16",
-        "authors": [
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "DÃ¡niel Darvas",
-          "Vince MolnÃ¡r",
-          "Attila Klenik",
-          "Ãkos Hajdu",
-          "Attila JÃ¡mbor",
-          "TamÃ¡s Bartha",
-          "IstvÃ¡n Majzik"
-        ]
+        "inproceedings": {
+          "@key": "conf/dsn/GaramvolgyiKGK18",
+          "title": "Towards Model-Driven Engineering of Smart Contracts for Cyber-Physical Systems",
+          "booktitle": "DSN Workshops",
+          "year": "2018",
+          "pages": "134-139",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Benjamin Gehl",
+              "@pid": "223/7084"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "Péter Garamvölgyi",
+              "@pid": "311/4204"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/apn/MarussyKMVMT16",
-        "title": "Efficient Decomposition Algorithm for Stationary Analysis of Complex Stochastic Petri Net Models.",
-        "pages": "281-300",
-        "year": "2016",
-        "booktitle": "Petri Nets",
-        "ee": "https://doi.org/10.1007/978-3-319-39086-4_17",
-        "url": "db/conf/apn/pn2016.html#MarussyKMVMT16",
-        "authors": [
-          "KristÃ³f Marussy",
-          "Attila Klenik",
-          "Vince MolnÃ¡r",
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "IstvÃ¡n Majzik",
-          "MiklÃ³s Telek"
-        ]
+        "inproceedings": {
+          "@key": "conf/dsn/KlenikKPTGVP26",
+          "title": "Structural Compliance, Governed Adaptation: Dependable Evolution in the eAyroll Governmental Blockchain Platform",
+          "booktitle": "DSN-S",
+          "year": "2026",
+          "pages": "162-168",
+          "ee": "https://doi.org/10.1109/DSN-S70715.2026.00039",
+          "author": [
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Ferenc Vágujhelyi",
+              "@pid": "445/3744"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Péter Tóth",
+              "@pid": "445/3158"
+            },
+            {
+              "#text": "Sándor Pap",
+              "@pid": "445/4391"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/issre/AlGburiKK23",
-        "title": "Semantics-Based, Automated Preparation of Exploratory Data Analysis for Complex Systems.",
-        "pages": "96-102",
-        "year": "2023",
-        "booktitle": "ISSREW",
-        "ee": "https://doi.org/10.1109/ISSREW60843.2023.00054",
-        "url": "db/conf/issre/issre2023w.html#AlGburiKK23",
-        "authors": [
-          "Noor Al-Gburi",
-          "Attila Klenik",
-          "Imre Kocsis"
-        ]
+        "inproceedings": {
+          "@key": "conf/issre/AlGburiKK23",
+          "title": "Semantics-Based, Automated Preparation of Exploratory Data Analysis for Complex Systems",
+          "booktitle": "ISSREW",
+          "year": "2023",
+          "pages": "96-102",
+          "ee": "https://doi.org/10.1109/ISSREW60843.2023.00054",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "Noor Al-Gburi",
+              "@pid": "360/4597"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sac/KlenikK22",
-        "title": "Porting a benchmark with a classic workload to blockchain: TPC-C on hyperledger fabric.",
-        "pages": "290-298",
-        "year": "2022",
-        "booktitle": "SAC",
-        "ee": "https://www.wikidata.org/entity/Q130849773",
-        "url": "db/conf/sac/sac2022.html#KlenikK22",
-        "authors": [
-          "Attila Klenik",
-          "Imre Kocsis"
-        ]
+        "inproceedings": {
+          "@key": "conf/sac/KlenikK22",
+          "title": "Porting a benchmark with a classic workload to blockchain: TPC-C on hyperledger fabric",
+          "booktitle": "SAC",
+          "year": "2022",
+          "pages": "290-298",
+          "ee": "https://doi.org/10.1145/3477314.3507006",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/KlenikP22",
-        "title": "Adding Semantics to Measurements: Ontology-Guided, Systematic Performance Analysis.",
-        "pages": "175-213",
-        "year": "2022",
-        "volume": "26",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "ee": "https://doi.org/10.14232/actacyb.295182",
-        "url": "db/journals/actaC/actaC26.html#KlenikP22",
-        "authors": [
-          "Attila Klenik",
-          "AndrÃ¡s Pataricza"
-        ]
+        "article": {
+          "@key": "journals/access/DebreczeniKK24",
+          "title": "Transaction Conflict Control in Hyperledger Fabric: A Taxonomy, Gaps, and Design for Conflict Prevention",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "18987-19008",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3361318",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "Máté Debreczeni",
+              "@pid": "369/6708"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/KangogoPKK26",
-        "title": "Practical Runtime Verification of Cross-Organizational Smart Contracts.",
-        "year": "2026",
-        "pages": "120269-120293",
-        "volume": "14",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2026.3718770",
-        "url": "db/journals/access/access14.html#KangogoPKK26",
-        "authors": [
-          "Damaris Jepkurui Kangogo",
-          "Bertalan ZoltÃ¡n PÃ©ter",
-          "Attila Klenik",
-          "Imre Kocsis"
-        ]
+        "article": {
+          "@key": "journals/access/HajduIKKGLMP20",
+          "title": "Using Fault Injection to Assess Blockchain Systems in Presence of Faulty Smart Contracts",
+          "journal": "IEEE Access",
+          "year": "2020",
+          "pages": "190760-190783",
+          "ee": "https://doi.org/10.1109/ACCESS.2020.3032239",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Henrique Madeira",
+              "@pid": "33/2879"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Naghmeh Ramezani Ivaki",
+              "@pid": "123/7759"
+            },
+            {
+              "#text": "Nuno Laranjeiro",
+              "@pid": "56/6126"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/DebreczeniKK24",
-        "title": "Transaction Conflict Control in Hyperledger Fabric: A Taxonomy, Gaps, and Design for Conflict Prevention.",
-        "pages": "18987-19008",
-        "year": "2024",
-        "volume": "12",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3361318",
-        "url": "db/journals/access/access12.html#DebreczeniKK24",
-        "authors": [
-          "MÃ¡tÃ© Debreczeni",
-          "Attila Klenik",
-          "Imre Kocsis"
-        ]
+        "article": {
+          "@key": "journals/access/KangogoPKK26",
+          "title": "Practical Runtime Verification of Cross-Organizational Smart Contracts",
+          "journal": "IEEE Access",
+          "year": "2026",
+          "pages": "120269-120293",
+          "ee": "https://doi.org/10.1109/ACCESS.2026.3718770",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Bertalan Zoltán Péter",
+              "@pid": "393/6226"
+            },
+            {
+              "#text": "Damaris Jepkurui Kangogo",
+              "@pid": "443/7294"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/HajduIKKGLMP20",
-        "title": "Using Fault Injection to Assess Blockchain Systems in Presence of Faulty Smart Contracts.",
-        "pages": "190760-190783",
-        "year": "2020",
-        "volume": "8",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2020.3032239",
-        "url": "db/journals/access/access8.html#HajduIKKGLMP20",
-        "authors": [
-          "Ãkos Hajdu",
-          "Naghmeh Ramezani Ivaki",
-          "Imre Kocsis",
-          "Attila Klenik",
-          "LÃ¡szlÃ³ GÃ¶nczy",
-          "Nuno Laranjeiro",
-          "Henrique Madeira",
-          "AndrÃ¡s Pataricza"
-        ]
+        "article": {
+          "@key": "journals/actaC/KlenikP22",
+          "title": "Adding Semantics to Measurements: Ontology-Guided, Systematic Performance Analysis",
+          "journal": "Acta Cybern.",
+          "year": "2022",
+          "pages": "175-213",
+          "ee": "https://doi.org/10.14232/ACTACYB.295182",
+          "author": [
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijcc/KocsisKPTDC18",
-        "title": "Systematic performance evaluation using component-in-the-loop approach.",
-        "pages": "336-357",
-        "year": "2018",
-        "volume": "7",
-        "journal": "Int. J. Cloud Comput.",
-        "number": "3/4",
-        "ee": "https://doi.org/10.1504/IJCC.2018.10016239",
-        "url": "db/journals/ijcc/ijcc7.html#KocsisKPTDC18",
-        "authors": [
-          "Imre Kocsis",
-          "Attila Klenik",
-          "AndrÃ¡s Pataricza",
-          "MiklÃ³s Telek",
-          "FlÃ³riÃ¡n DeÃ©",
-          "DÃ¡vid Cseh"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2006-11597",
+          "title": "Using Fault Injection to Assess Blockchain Systems in Presence of Faulty Smart Contracts",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.11597",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Henrique Madeira",
+              "@pid": "33/2879"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Naghmeh Ramezani Ivaki",
+              "@pid": "123/7759"
+            },
+            {
+              "#text": "Nuno Laranjeiro",
+              "@pid": "56/6126"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scp/VorosDHKMMBM18",
-        "title": "Industrial applications of the PetriDotNet modelling and analysis tool.",
-        "pages": "17-40",
-        "year": "2018",
-        "volume": "157",
-        "journal": "Sci. Comput. Program.",
-        "ee": "https://doi.org/10.1016/j.scico.2017.09.003",
-        "url": "db/journals/scp/scp157.html#VorosDHKMMBM18",
-        "authors": [
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "DÃ¡niel Darvas",
-          "Ãkos Hajdu",
-          "Attila Klenik",
-          "KristÃ³f Marussy",
-          "Vince MolnÃ¡r",
-          "TamÃ¡s Bartha",
-          "IstvÃ¡n Majzik"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2112-11270",
+          "title": "Adding semantics to measurements: Ontology-guided, systematic performance analysis",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.11270",
+          "author": [
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2112-11270",
-        "title": "Adding semantics to measurements: Ontology-guided, systematic performance analysis.",
-        "year": "2021",
-        "volume": "abs/2112.11270",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2112.11270",
-        "url": "db/journals/corr/corr2112.html#abs-2112-11270",
-        "authors": [
-          "Attila Klenik",
-          "AndrÃ¡s Pataricza"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2112-11277",
+          "title": "Porting a benchmark with a classic workload to blockchain: TPC-C on Hyperledger Fabric",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.11277",
+          "author": [
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2006-11597",
-        "title": "Using Fault Injection to Assess Blockchain Systems in Presence of Faulty Smart Contracts.",
-        "year": "2020",
-        "volume": "abs/2006.11597",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2006.11597",
-        "url": "db/journals/corr/corr2006.html#abs-2006-11597",
-        "authors": [
-          "Ãkos Hajdu",
-          "Naghmeh Ramezani Ivaki",
-          "Imre Kocsis",
-          "Attila Klenik",
-          "LÃ¡szlÃ³ GÃ¶nczy",
-          "Nuno Laranjeiro",
-          "Henrique Madeira",
-          "AndrÃ¡s Pataricza"
-        ]
+        "article": {
+          "@key": "journals/ijcc/KocsisKPTDC18",
+          "title": "Systematic performance evaluation using component-in-the-loop approach",
+          "journal": "Int. J. Cloud Comput.",
+          "year": "2018",
+          "pages": "336-357",
+          "ee": "https://doi.org/10.1504/IJCC.2018.10016239",
+          "author": [
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Dávid Cseh",
+              "@pid": "228/1010"
+            },
+            {
+              "#text": "Flórián Deé",
+              "@pid": "228/1101"
+            },
+            {
+              "#text": "Imre Kocsis",
+              "@pid": "60/3841"
+            },
+            {
+              "#text": "Miklós Telek",
+              "@pid": "51/1636"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2112-11277",
-        "title": "Porting a benchmark with a classic workload to blockchain: TPC-C on Hyperledger Fabric.",
-        "year": "2021",
-        "volume": "abs/2112.11277",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2112.11277",
-        "url": "db/journals/corr/corr2112.html#abs-2112-11277",
-        "authors": [
-          "Attila Klenik",
-          "Imre Kocsis"
-        ]
+        "article": {
+          "@key": "journals/scp/VorosDHKMMBM18",
+          "title": "Industrial applications of the PetriDotNet modelling and analysis tool",
+          "journal": "Sci. Comput. Program.",
+          "year": "2018",
+          "pages": "17-40",
+          "ee": "https://doi.org/10.1016/J.SCICO.2017.09.003",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Attila Klenik",
+              "@pid": "181/0156"
+            },
+            {
+              "#text": "Dániel Darvas",
+              "@pid": "145/5929"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Kristóf Marussy",
+              "@pid": "130/6479"
+            },
+            {
+              "#text": "Tamás Bartha",
+              "@pid": "87/827"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Attila22b",
+          "title": "Measurement-based Performance Evaluation of Distributed Ledger Technologies",
+          "journal": "",
+          "year": "2022",
+          "author": {
+            "#text": "Attila Klenik",
+            "@pid": "181/0156"
+          }
+        }
       }
     ]
   }

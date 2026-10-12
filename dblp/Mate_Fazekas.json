@@ -1,20 +1,475 @@
 {
   "dblpperson": {
+    "@name": "Máté Fazekas",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/med/NemethFG18",
-        "title": "Anti-Lock Braking Control Design for Electric Vehicles Using LPV Methods.",
-        "pages": "511-516",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8442426",
-        "url": "db/conf/med/med2018.html#NemethFG18",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Mate Fazekas",
-          "Peter Gaspar"
-        ]
+        "inproceedings": {
+          "@key": "conf/case/FazekasGN21",
+          "title": "Improving the wheel odometry calibration of self-driving vehicles via detection of faulty segments",
+          "booktitle": "CASE",
+          "year": "2021",
+          "pages": "144-150",
+          "ee": "https://doi.org/10.1109/CASE49439.2021.9551452",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/coginfocom/FazekasGN20",
+          "title": "Vision-based motion estimation for vehicles on test track via cone markers",
+          "booktitle": "CogInfoCom",
+          "year": "2020",
+          "pages": "387-392",
+          "ee": "https://doi.org/10.1109/COGINFOCOM50765.2020.9237845",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FazekasG26",
+          "title": "Wheel odometry & GNSS fusion with neural network-based tuning",
+          "booktitle": "ECC",
+          "year": "2026",
+          "pages": "2059-2064",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/HegedusNFG26",
+          "title": "LQR-KAN Combined Control via Reinforcement Learning Distillation with Stability Guarantees",
+          "booktitle": "ECC",
+          "year": "2026",
+          "pages": "503-508",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethFBGS23",
+          "title": "LPV-Based Control Design with Guarantees: a Case Study for Automated Steering of Road Vehicles",
+          "booktitle": "ECC",
+          "year": "2023",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ECC57647.2023.10178394",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Bagoly",
+              "@pid": "352/4244"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FazekasG25",
+          "title": "Calibration Architecture for the Nonlinear Wheel Odometry Model with Integrated Noise Compensation",
+          "booktitle": "ICINCO (2)",
+          "year": "2025",
+          "pages": "325-332",
+          "ee": "https://doi.org/10.5220/0013720800003982",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FazekasNG22",
+          "title": "Calibration of the Nonlinear Wheel Odometry Model with an Improved Genetic Algorithm Architecture",
+          "booktitle": "ICINCO",
+          "year": "2022",
+          "pages": "640-648",
+          "ee": "https://doi.org/10.5220/0011275700003271",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iros/FazekasGN21",
+          "title": "Odometry Model Calibration for Self-Driving Vehicles with Noise Correction",
+          "booktitle": "IROS",
+          "year": "2021",
+          "pages": "8860-8865",
+          "ee": "https://doi.org/10.1109/IROS51168.2021.9635980",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ivs/FazekasDTBB24",
+          "title": "Evaluation of Local Planner-Based Stanley Control in Autonomous RC Car Racing Series",
+          "booktitle": "IV",
+          "year": "2024",
+          "pages": "252-257",
+          "ee": "https://doi.org/10.1109/IV55156.2024.10588629",
+          "author": [
+            {
+              "#text": "Ármin Bogár-Németh",
+              "@pid": "381/8831"
+            },
+            {
+              "#text": "Gergely Bári",
+              "@pid": "381/7931"
+            },
+            {
+              "#text": "János Tóth",
+              "@pid": "53/3027"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Zalán Demeter",
+              "@pid": "381/8113"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FazekasGN21",
+          "title": "Challenges of the Application of Front-Wheel Odometry for Vehicle Localization",
+          "booktitle": "MED",
+          "year": "2021",
+          "pages": "132-137",
+          "ee": "https://doi.org/10.1109/MED51440.2021.9480228",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FazekasNGS20",
+          "title": "Vehicle odometry model identification considering dynamic load transfers",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "19-24",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9182873",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethFG18",
+          "title": "Anti-Lock Braking Control Design for Electric Vehicles Using LPV Methods",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "511-516",
+          "ee": "https://doi.org/10.1109/MED.2018.8442426",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfi/FazekasGN20",
+          "title": "Identification of kinematic vehicle model parameters for localization purposes",
+          "booktitle": "MFI",
+          "year": "2020",
+          "pages": "373-380",
+          "ee": "https://doi.org/10.1109/MFI49285.2020.9235246",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfi/FazekasGN21",
+          "title": "Estimation of wheel odometry model parameters with improved Gauss-Newton method",
+          "booktitle": "MFI",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MFI52462.2021.9591178",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sisy/FazekasG24",
+          "title": "State Estimation Design and Tuning for Autonomous Vehicles in the Era of Data-Based Techniques",
+          "booktitle": "SISY",
+          "year": "2024",
+          "pages": "547-552",
+          "ee": "https://doi.org/10.1109/SISY62279.2024.10737596",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/FazekasGN21",
+          "title": "Parameter Identification of the Nonlinear Wheel Odometry Model with Batch Least Squares Method",
+          "booktitle": "SysTol",
+          "year": "2021",
+          "pages": "360-365",
+          "ee": "https://doi.org/10.1109/SYSTOL52990.2021.9595253",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2408-15152",
+          "title": "Evaluation of Local Planner-Based Stanley Control in Autonomous RC Car Racing Series",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2408.15152",
+          "author": [
+            {
+              "#text": "Ármin Bogár-Németh",
+              "@pid": "381/8831"
+            },
+            {
+              "#text": "Gergely Bári",
+              "@pid": "381/7931"
+            },
+            {
+              "#text": "János Tóth",
+              "@pid": "53/3027"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Zalán Demeter",
+              "@pid": "381/8113"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eaai/FazekasG24",
+          "title": "Wheel odometry model calibration with neural network-based weighting",
+          "journal": "Eng. Appl. Artif. Intell.",
+          "year": "2024",
+          "pages": "108631",
+          "ee": "https://doi.org/10.1016/J.ENGAPPAI.2024.108631",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/FazekasGN21",
+          "title": "Calibration and Improvement of an Odometry Model with Dynamic Wheel and Lateral Dynamics Integration",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "337",
+          "ee": "https://doi.org/10.3390/S21020337",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       }
     ]
   }

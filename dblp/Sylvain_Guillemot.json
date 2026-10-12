@@ -1,543 +1,749 @@
 {
   "dblpperson": {
+    "@name": "Sylvain Guillemot",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/soda/GuillemotM14",
-        "title": "Finding small patterns in permutations in linear time.",
-        "pages": "82-101",
-        "year": "2014",
-        "booktitle": "SODA",
-        "ee": "https://www.wikidata.org/entity/Q60638484",
-        "url": "db/conf/soda/soda2014.html#GuillemotM14",
-        "authors": [
-          "Sylvain Guillemot",
-          "DÃ¡niel Marx"
-        ]
+        "inproceedings": {
+          "@key": "conf/cocoon/BerryGNP05",
+          "title": "On the Approximation of Computing Evolutionary Trees",
+          "booktitle": "COCOON",
+          "year": "2005",
+          "pages": "115-125",
+          "ee": "https://doi.org/10.1007/11533719_14",
+          "author": [
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "François Nicolas",
+              "@pid": "03/3615"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Vincent Berry",
+              "@pid": "b/VincentBerry"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cocoon/BerryGNP05",
-        "title": "On the Approximation of Computing Evolutionary Trees.",
-        "pages": "115-125",
-        "year": "2005",
-        "booktitle": "COCOON",
-        "ee": "https://doi.org/10.1007/11533719_14",
-        "url": "db/conf/cocoon/cocoon2005.html#BerryGNP05",
-        "authors": [
-          "Vincent Berry",
-          "Sylvain Guillemot",
-          "FranÃ§ois Nicolas",
-          "Christophe Paul"
-        ]
+        "inproceedings": {
+          "@key": "conf/cpm/Fernandez-BacaGSV12",
+          "title": "Fixed-Parameter Algorithms for Finding Agreement Supertrees",
+          "booktitle": "CPM",
+          "year": "2012",
+          "pages": "373-384",
+          "ee": "https://doi.org/10.1007/978-3-642-31265-6_30",
+          "author": [
+            {
+              "#text": "Brad Shutters",
+              "@pid": "46/7805"
+            },
+            {
+              "#text": "David Fernández-Baca",
+              "@pid": "62/3259"
+            },
+            {
+              "#text": "Sudheer Vakati",
+              "@pid": "63/8037"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mfcs/GuillemotS10",
-        "title": "Finding and Counting Vertex-Colored Subtrees.",
-        "pages": "405-416",
-        "year": "2010",
-        "booktitle": "MFCS",
-        "ee": "https://doi.org/10.1007/978-3-642-15155-2_36",
-        "url": "db/conf/mfcs/mfcs2010.html#GuillemotS10",
-        "authors": [
-          "Sylvain Guillemot",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/cpm/GuillemotB07",
+          "title": "Fixed-Parameter Tractability of the Maximum Agreement Supertree Problem",
+          "booktitle": "CPM",
+          "year": "2007",
+          "pages": "274-285",
+          "ee": "https://doi.org/10.1007/978-3-540-73437-6_28",
+          "author": [
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Vincent Berry",
+              "@pid": "b/VincentBerry"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cpm/Fernandez-BacaGSV12",
-        "title": "Fixed-Parameter Algorithms for Finding Agreement Supertrees.",
-        "pages": "373-384",
-        "year": "2012",
-        "booktitle": "CPM",
-        "ee": "https://doi.org/10.1007/978-3-642-31265-6_30",
-        "url": "db/conf/cpm/cpm2012.html#Fernandez-BacaGSV12",
-        "authors": [
-          "David FernÃ¡ndez-Baca",
-          "Sylvain Guillemot",
-          "Brad Shutters",
-          "Sudheer Vakati"
-        ]
+        "inproceedings": {
+          "@key": "conf/cpm/GuillemotN06",
+          "title": "Solving the Maximum Agreement SubTree and the Maximum Compatible Tree Problems on Many Bounded Degree Trees",
+          "booktitle": "CPM",
+          "year": "2006",
+          "pages": "165-176",
+          "ee": "https://doi.org/10.1007/11780441_16",
+          "author": [
+            {
+              "#text": "François Nicolas",
+              "@pid": "03/3615"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cpm/GuillemotB07",
-        "title": "Fixed-Parameter Tractability of the Maximum Agreement Supertree Problem.",
-        "pages": "274-285",
-        "year": "2007",
-        "booktitle": "CPM",
-        "ee": "https://doi.org/10.1007/978-3-540-73437-6_28",
-        "url": "db/conf/cpm/cpm2007.html#GuillemotB07",
-        "authors": [
-          "Sylvain Guillemot",
-          "Vincent Berry"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/ByrkaGJ08",
+          "title": "New Results on Optimizing Rooted Triplets Consistency",
+          "booktitle": "ISAAC",
+          "year": "2008",
+          "pages": "484-495",
+          "ee": "https://doi.org/10.1007/978-3-540-92182-0_44",
+          "author": [
+            {
+              "#text": "Jaroslaw Byrka",
+              "@pid": "10/6734"
+            },
+            {
+              "#text": "Jesper Jansson",
+              "@pid": "j/JesperJansson"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cpm/GuillemotN06",
-        "title": "Solving the Maximum Agreement SubTree and the Maximum Compatible Tree Problems on Many Bounded Degree Trees.",
-        "pages": "165-176",
-        "year": "2006",
-        "booktitle": "CPM",
-        "ee": "https://doi.org/10.1007/11780441_16",
-        "url": "db/conf/cpm/cpm2006.html#GuillemotN06",
-        "authors": [
-          "Sylvain Guillemot",
-          "FranÃ§ois Nicolas"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/Guillemot06",
+          "title": "Parameterized Problems on Coincidence Graphs",
+          "booktitle": "ISAAC",
+          "year": "2006",
+          "pages": "253-266",
+          "ee": "https://doi.org/10.1007/11940128_27",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/Guillemot06",
-        "title": "Parameterized Problems on Coincidence Graphs.",
-        "pages": "253-266",
-        "year": "2006",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/11940128_27",
-        "url": "db/conf/isaac/isaac2006.html#Guillemot06",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/Guillemot11",
+          "title": "Parameterized Algorithms for Inclusion of Linear Matchings",
+          "booktitle": "ISAAC",
+          "year": "2011",
+          "pages": "354-363",
+          "ee": "https://doi.org/10.1007/978-3-642-25591-5_37",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/ByrkaGJ08",
-        "title": "New Results on Optimizing Rooted Triplets Consistency.",
-        "pages": "484-495",
-        "year": "2008",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-540-92182-0_44",
-        "url": "db/conf/isaac/isaac2008.html#ByrkaGJ08",
-        "authors": [
-          "Jaroslaw Byrka",
-          "Sylvain Guillemot",
-          "Jesper Jansson 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/GuillemotJS09",
+          "title": "Computing a Smallest Multi-labeled Phylogenetic Tree from Rooted Triplets",
+          "booktitle": "ISAAC",
+          "year": "2009",
+          "pages": "1205-1214",
+          "ee": "https://doi.org/10.1007/978-3-642-10631-6_121",
+          "author": [
+            {
+              "#text": "Jesper Jansson",
+              "@pid": "j/JesperJansson"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Wing-Kin Sung",
+              "@pid": "s/WingKinSung"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/Guillemot11",
-        "title": "Parameterized Algorithms for Inclusion of Linear Matchings.",
-        "pages": "354-363",
-        "year": "2011",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-642-25591-5_37",
-        "url": "db/conf/isaac/isaac2011.html#Guillemot11",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/GuillemotV09",
+          "title": "Pattern Matching for 321-Avoiding Permutations",
+          "booktitle": "ISAAC",
+          "year": "2009",
+          "pages": "1064-1073",
+          "ee": "https://doi.org/10.1007/978-3-642-10631-6_107",
+          "author": [
+            {
+              "#text": "Stéphane Vialette",
+              "@pid": "42/3622"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/GuillemotV09",
-        "title": "Pattern Matching for 321-Avoiding Permutations.",
-        "pages": "1064-1073",
-        "year": "2009",
-        "booktitle": "ISAAC",
-        "ee": "https://www.wikidata.org/entity/Q60638481",
-        "url": "db/conf/isaac/isaac2009.html#GuillemotV09",
-        "authors": [
-          "Sylvain Guillemot",
-          "StÃ©phane Vialette"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/Guillemot08",
+          "title": "Parameterized Complexity and Approximability of the SLCS Problem",
+          "booktitle": "IWPEC",
+          "year": "2008",
+          "pages": "115-128",
+          "ee": "https://doi.org/10.1007/978-3-540-79723-4_12",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/GuillemotJS09",
-        "title": "Computing a Smallest Multi-labeled Phylogenetic Tree from Rooted Triplets.",
-        "pages": "1205-1214",
-        "year": "2009",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-642-10631-6_121",
-        "url": "db/conf/isaac/isaac2009.html#GuillemotJS09",
-        "authors": [
-          "Sylvain Guillemot",
-          "Jesper Jansson 0001",
-          "Wing-Kin Sung"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/Guillemot08a",
+          "title": "FPT Algorithms for Path-Transversals and Cycle-Transversals Problems in Graphs",
+          "booktitle": "IWPEC",
+          "year": "2008",
+          "pages": "129-140",
+          "ee": "https://doi.org/10.1007/978-3-540-79723-4_13",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tamc/GuillemotM10",
-        "title": "Kernel and Fast Algorithm for Dense Triplet Inconsistency.",
-        "pages": "247-257",
-        "year": "2010",
-        "booktitle": "TAMC",
-        "ee": "https://doi.org/10.1007/978-3-642-13562-0_23",
-        "url": "db/conf/tamc/tamc2010.html#GuillemotM10",
-        "authors": [
-          "Sylvain Guillemot",
-          "Matthias Mnich"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/GuillemotM13",
+          "title": "A Faster FPT Algorithm for Bipartite Contraction",
+          "booktitle": "IPEC",
+          "year": "2013",
+          "pages": "177-188",
+          "ee": "https://doi.org/10.1007/978-3-319-03898-8_16",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/Guillemot08",
-        "title": "Parameterized Complexity and Approximability of the SLCS Problem.",
-        "pages": "115-128",
-        "year": "2008",
-        "booktitle": "IWPEC",
-        "ee": "https://doi.org/10.1007/978-3-540-79723-4_12",
-        "url": "db/conf/iwpec/iwpec2008.html#Guillemot08",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/GuillemotPP10",
+          "title": "On the (Non-)existence of Polynomial Kernels for Pl-free Edge Modification Problems",
+          "booktitle": "IPEC",
+          "year": "2010",
+          "pages": "147-157",
+          "ee": "https://doi.org/10.1007/978-3-642-17493-3_15",
+          "author": [
+            {
+              "#text": "Anthony Perez",
+              "@pid": "20/1167"
+            },
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/GuillemotM13",
-        "title": "A Faster FPT Algorithm for Bipartite Contraction.",
-        "pages": "177-188",
-        "year": "2013",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.1007/978-3-319-03898-8_16",
-        "url": "db/conf/iwpec/ipec2013.html#GuillemotM13",
-        "authors": [
-          "Sylvain Guillemot",
-          "DÃ¡niel Marx"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfcs/GuillemotS10",
+          "title": "Finding and Counting Vertex-Colored Subtrees",
+          "booktitle": "MFCS",
+          "year": "2010",
+          "pages": "405-416",
+          "ee": "https://doi.org/10.1007/978-3-642-15155-2_36",
+          "author": [
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/GuillemotPP10",
-        "title": "On the (Non-)existence of Polynomial Kernels for Pl-free Edge Modification Problems.",
-        "pages": "147-157",
-        "year": "2010",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.1007/978-3-642-17493-3_15",
-        "url": "db/conf/iwpec/ipec2010.html#GuillemotPP10",
-        "authors": [
-          "Sylvain Guillemot",
-          "Christophe Paul",
-          "Anthony Perez 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/soda/GuillemotM14",
+          "title": "Finding small patterns in permutations in linear time",
+          "booktitle": "SODA",
+          "year": "2014",
+          "pages": "82-101",
+          "ee": "https://doi.org/10.1137/1.9781611973402.7",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/Guillemot08a",
-        "title": "FPT Algorithms for Path-Transversals and Cycle-Transversals Problems in Graphs.",
-        "pages": "129-140",
-        "year": "2008",
-        "booktitle": "IWPEC",
-        "ee": "https://doi.org/10.1007/978-3-540-79723-4_13",
-        "url": "db/conf/iwpec/iwpec2008.html#Guillemot08a",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "inproceedings": {
+          "@key": "conf/tamc/GuillemotM10",
+          "title": "Kernel and Fast Algorithm for Dense Triplet Inconsistency",
+          "booktitle": "TAMC",
+          "year": "2010",
+          "pages": "247-257",
+          "ee": "https://doi.org/10.1007/978-3-642-13562-0_23",
+          "author": [
+            {
+              "#text": "Matthias Mnich",
+              "@pid": "10/2223"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/talg/BerryPGN09",
-        "title": "Linear time 3-approximation for the MAST problem.",
-        "year": "2009",
-        "volume": "5",
-        "journal": "ACM Trans. Algorithms",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/1497290.1497299",
-        "url": "db/journals/talg/talg5.html#BerryPGN09",
-        "pages": "23:1-23:18",
-        "authors": [
-          "Vincent Berry",
-          "Christophe Paul",
-          "Sylvain Guillemot",
-          "FranÃ§ois Nicolas"
-        ]
+        "article": {
+          "@key": "journals/algorithmica/GuillemotHPP13",
+          "title": "On the (Non-)Existence of Polynomial Kernels for P  l -Free Edge Modification Problems",
+          "journal": "Algorithmica",
+          "year": "2013",
+          "pages": "900-926",
+          "ee": "https://doi.org/10.1007/S00453-012-9619-5",
+          "author": [
+            {
+              "#text": "Anthony Perez",
+              "@pid": "20/1167"
+            },
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "Frédéric Havet",
+              "@pid": "75/5208"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/GuillemotHPP13",
-        "title": "On the (Non-)Existence of Polynomial Kernels for P  l -Free Edge Modification Problems.",
-        "pages": "900-926",
-        "year": "2013",
-        "volume": "65",
-        "journal": "Algorithmica",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00453-012-9619-5",
-        "url": "db/journals/algorithmica/algorithmica65.html#GuillemotHPP13",
-        "authors": [
-          "Sylvain Guillemot",
-          "FrÃ©dÃ©ric Havet",
-          "Christophe Paul",
-          "Anthony Perez 0001"
-        ]
+        "article": {
+          "@key": "journals/algorithmica/GuillemotS13",
+          "title": "Finding and Counting Vertex-Colored Subtrees",
+          "journal": "Algorithmica",
+          "year": "2013",
+          "pages": "828-844",
+          "ee": "https://doi.org/10.1007/S00453-011-9600-8",
+          "author": [
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/GuillemotS13",
-        "title": "Finding and Counting Vertex-Colored Subtrees.",
-        "pages": "828-844",
-        "year": "2013",
-        "volume": "65",
-        "journal": "Algorithmica",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00453-011-9600-8",
-        "url": "db/journals/algorithmica/algorithmica65.html#GuillemotS13",
-        "authors": [
-          "Sylvain Guillemot",
-          "Florian Sikora"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0802-0024",
+          "title": "Solving the Maximum Agreement SubTree and the Maximum Compatible Tree problems on many bounded degree trees",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0802.0024",
+          "author": [
+            {
+              "#text": "François Nicolas",
+              "@pid": "03/3615"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/toct/Guillemot25",
-        "title": "Parameterized covering in semi-ladder-free hypergraphs.",
-        "pages": "9:1-9:15",
-        "year": "2025",
-        "volume": "17",
-        "journal": "ACM Trans. Comput. Theory",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/3708510",
-        "url": "db/journals/toct/toct17.html#Guillemot25",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1002-1880",
+          "title": "Finding and counting vertex-colored subtrees",
+          "journal": "CoRR",
+          "year": "2010",
+          "ee": "https://doi.org/10.48550/ARXIV.1002.1880",
+          "author": [
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/siamcomp/Fernandez-BacaG15",
-        "title": "Fixed-Parameter Algorithms for Finding Agreement Supertrees.",
-        "pages": "384-410",
-        "year": "2015",
-        "volume": "44",
-        "journal": "SIAM J. Comput.",
-        "number": "2",
-        "ee": "https://doi.org/10.1137/120897559",
-        "url": "db/journals/siamcomp/siamcomp44.html#Fernandez-BacaG15",
-        "authors": [
-          "David FernÃ¡ndez-Baca",
-          "Sylvain Guillemot",
-          "Brad Shutters",
-          "Sudheer Vakati"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1007-4011",
+          "title": "On the (non-)existence of polynomial kernels for Pl-free edge modification problems",
+          "journal": "CoRR",
+          "year": "2010",
+          "ee": "https://doi.org/10.48550/ARXIV.1007.4011",
+          "author": [
+            {
+              "#text": "Anthony Perez",
+              "@pid": "20/1167"
+            },
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcs/GuillemotM13",
-        "title": "Kernel and fast algorithm for dense triplet inconsistency.",
-        "pages": "134-143",
-        "year": "2013",
-        "volume": "494",
-        "journal": "Theor. Comput. Sci.",
-        "ee": "https://doi.org/10.1016/j.tcs.2012.12.032",
-        "url": "db/journals/tcs/tcs494.html#GuillemotM13",
-        "authors": [
-          "Sylvain Guillemot",
-          "Matthias Mnich"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1305-2743",
+          "title": "A faster FPT algorithm for Bipartite Contraction",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1305.2743",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ipl/GuillemotM13",
-        "title": "A faster FPT algorithm for Bipartite Contraction.",
-        "pages": "906-912",
-        "year": "2013",
-        "volume": "113",
-        "journal": "Inf. Process. Lett.",
-        "number": "22-24",
-        "ee": "https://doi.org/10.1016/j.ipl.2013.09.004",
-        "url": "db/journals/ipl/ipl113.html#GuillemotM13",
-        "authors": [
-          "Sylvain Guillemot",
-          "DÃ¡niel Marx"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2211-00711",
+          "title": "Alternative polynomial-time algorithm for Bipartite Matching",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.00711",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/disopt/Guillemot11a",
-        "title": "FPT algorithms for path-transversal and cycle-transversal problems.",
-        "pages": "61-71",
-        "year": "2011",
-        "volume": "8",
-        "journal": "Discret. Optim.",
-        "number": "1",
-        "ee": "https://doi.org/10.1016/j.disopt.2010.05.003",
-        "url": "db/journals/disopt/disopt8.html#Guillemot11a",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2311-00466",
+          "title": "Parameterized covering in semi-ladder-free hypergraphs",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2311.00466",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/disopt/Guillemot11",
-        "title": "Parameterized complexity and approximability of the Longest Compatible Sequence problem.",
-        "pages": "50-60",
-        "year": "2011",
-        "volume": "8",
-        "journal": "Discret. Optim.",
-        "number": "1",
-        "ee": "https://doi.org/10.1016/j.disopt.2010.08.003",
-        "url": "db/journals/disopt/disopt8.html#Guillemot11",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "informal": {
+          "@key": "journals/corr/GuillemotM13",
+          "title": "Finding small patterns in permutations in linear time",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1307.3073",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcbb/GuillemotJS11",
-        "title": "Computing a Smallest Multilabeled Phylogenetic Tree from Rooted Triplets.",
-        "pages": "1141-1147",
-        "year": "2011",
-        "volume": "8",
-        "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q51667416",
-        "url": "db/journals/tcbb/tcbb8.html#GuillemotJS11",
-        "authors": [
-          "Sylvain Guillemot",
-          "Jesper Jansson 0001",
-          "Wing-Kin Sung"
-        ]
+        "article": {
+          "@key": "journals/dam/ByrkaGJ10",
+          "title": "New results on optimizing rooted triplets consistency",
+          "journal": "Discret. Appl. Math.",
+          "year": "2010",
+          "pages": "1136-1147",
+          "ee": "https://doi.org/10.1016/J.DAM.2010.03.004",
+          "author": [
+            {
+              "#text": "Jaroslaw Byrka",
+              "@pid": "10/6734"
+            },
+            {
+              "#text": "Jesper Jansson",
+              "@pid": "j/JesperJansson"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcbb/GuillemotB10",
-        "title": "Fixed-Parameter Tractability of the Maximum Agreement Supertree Problem.",
-        "pages": "342-353",
-        "year": "2010",
-        "volume": "7",
-        "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q51701146",
-        "url": "db/journals/tcbb/tcbb7.html#GuillemotB10",
-        "authors": [
-          "Sylvain Guillemot",
-          "Vincent Berry"
-        ]
+        "article": {
+          "@key": "journals/dam/GuillemotNBP09",
+          "title": "On the approximability of the Maximum Agreement SubTree and Maximum Compatible Tree problems",
+          "journal": "Discret. Appl. Math.",
+          "year": "2009",
+          "pages": "1555-1570",
+          "ee": "https://doi.org/10.1016/J.DAM.2008.06.007",
+          "author": [
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "François Nicolas",
+              "@pid": "03/3615"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Vincent Berry",
+              "@pid": "b/VincentBerry"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dam/ByrkaGJ10",
-        "title": "New results on optimizing rooted triplets consistency.",
-        "pages": "1136-1147",
-        "year": "2010",
-        "volume": "158",
-        "journal": "Discret. Appl. Math.",
-        "number": "11",
-        "ee": "https://doi.org/10.1016/j.dam.2010.03.004",
-        "url": "db/journals/dam/dam158.html#ByrkaGJ10",
-        "authors": [
-          "Jaroslaw Byrka",
-          "Sylvain Guillemot",
-          "Jesper Jansson 0001"
-        ]
+        "article": {
+          "@key": "journals/disopt/Guillemot11",
+          "title": "Parameterized complexity and approximability of the Longest Compatible Sequence problem",
+          "journal": "Discret. Optim.",
+          "year": "2011",
+          "pages": "50-60",
+          "ee": "https://doi.org/10.1016/J.DISOPT.2010.08.003",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dam/GuillemotNBP09",
-        "title": "On the approximability of the Maximum Agreement SubTree and Maximum Compatible Tree problems.",
-        "pages": "1555-1570",
-        "year": "2009",
-        "volume": "157",
-        "journal": "Discret. Appl. Math.",
-        "number": "7",
-        "ee": "https://doi.org/10.1016/j.dam.2008.06.007",
-        "url": "db/journals/dam/dam157.html#GuillemotNBP09",
-        "authors": [
-          "Sylvain Guillemot",
-          "FranÃ§ois Nicolas",
-          "Vincent Berry",
-          "Christophe Paul"
-        ]
+        "article": {
+          "@key": "journals/disopt/Guillemot11a",
+          "title": "FPT algorithms for path-transversal and cycle-transversal problems",
+          "journal": "Discret. Optim.",
+          "year": "2011",
+          "pages": "61-71",
+          "ee": "https://doi.org/10.1016/J.DISOPT.2010.05.003",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0802-0024",
-        "title": "Solving the Maximum Agreement SubTree and the Maximum Compatible Tree problems on many bounded degree trees",
-        "ee": "https://doi.org/10.48550/arXiv.0802.0024",
-        "year": "2008",
-        "journal": "CoRR",
-        "volume": "abs/0802.0024",
-        "url": "db/journals/corr/corr0802.html#abs-0802-0024",
-        "authors": [
-          "Sylvain Guillemot",
-          "FranÃ§ois Nicolas"
-        ]
+        "article": {
+          "@key": "journals/ipl/GuillemotM13",
+          "title": "A faster FPT algorithm for Bipartite Contraction",
+          "journal": "Inf. Process. Lett.",
+          "year": "2013",
+          "pages": "906-912",
+          "ee": "https://doi.org/10.1016/J.IPL.2013.09.004",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2211-00711",
-        "title": "Alternative polynomial-time algorithm for Bipartite Matching.",
-        "year": "2022",
-        "volume": "abs/2211.00711",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2211.00711",
-        "url": "db/journals/corr/corr2211.html#abs-2211-00711",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "article": {
+          "@key": "journals/siamcomp/Fernandez-BacaG15",
+          "title": "Fixed-Parameter Algorithms for Finding Agreement Supertrees",
+          "journal": "SIAM J. Comput.",
+          "year": "2015",
+          "pages": "384-410",
+          "ee": "https://doi.org/10.1137/120897559",
+          "author": [
+            {
+              "#text": "Brad Shutters",
+              "@pid": "46/7805"
+            },
+            {
+              "#text": "David Fernández-Baca",
+              "@pid": "62/3259"
+            },
+            {
+              "#text": "Sudheer Vakati",
+              "@pid": "63/8037"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1007-4011",
-        "title": "On the (non-)existence of polynomial kernels for Pl-free edge modification problems",
-        "ee": "https://doi.org/10.48550/arXiv.1007.4011",
-        "year": "2010",
-        "journal": "CoRR",
-        "volume": "abs/1007.4011",
-        "url": "db/journals/corr/corr1007.html#abs-1007-4011",
-        "authors": [
-          "Sylvain Guillemot",
-          "Christophe Paul",
-          "Anthony Perez 0001"
-        ]
+        "article": {
+          "@key": "journals/talg/BerryPGN09",
+          "title": "Linear time 3-approximation for the MAST problem",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2009",
+          "pages": "23:1-23:18",
+          "ee": "https://doi.org/10.1145/1497290.1497299",
+          "author": [
+            {
+              "#text": "Christophe Paul",
+              "@pid": "51/6396"
+            },
+            {
+              "#text": "François Nicolas",
+              "@pid": "03/3615"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Vincent Berry",
+              "@pid": "b/VincentBerry"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1305-2743",
-        "title": "A faster FPT algorithm for Bipartite Contraction",
-        "ee": "https://doi.org/10.48550/arXiv.1305.2743",
-        "year": "2013",
-        "journal": "CoRR",
-        "volume": "abs/1305.2743",
-        "url": "db/journals/corr/corr1305.html#abs-1305-2743",
-        "authors": [
-          "Sylvain Guillemot",
-          "DÃ¡niel Marx"
-        ]
+        "article": {
+          "@key": "journals/tcbb/GuillemotB10",
+          "title": "Fixed-Parameter Tractability of the Maximum Agreement Supertree Problem",
+          "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
+          "year": "2010",
+          "pages": "342-353",
+          "ee": "https://doi.org/10.1109/TCBB.2008.93",
+          "author": [
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Vincent Berry",
+              "@pid": "b/VincentBerry"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2311-00466",
-        "title": "Parameterized covering in semi-ladder-free hypergraphs.",
-        "year": "2023",
-        "volume": "abs/2311.00466",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2311.00466",
-        "url": "db/journals/corr/corr2311.html#abs-2311-00466",
-        "authors": [
-          "Sylvain Guillemot"
-        ]
+        "article": {
+          "@key": "journals/tcbb/GuillemotJS11",
+          "title": "Computing a Smallest Multilabeled Phylogenetic Tree from Rooted Triplets",
+          "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
+          "year": "2011",
+          "pages": "1141-1147",
+          "ee": "https://doi.org/10.1109/TCBB.2010.77",
+          "author": [
+            {
+              "#text": "Jesper Jansson",
+              "@pid": "j/JesperJansson"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            },
+            {
+              "#text": "Wing-Kin Sung",
+              "@pid": "s/WingKinSung"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/GuillemotM13",
-        "title": "Finding small patterns in permutations in linear time.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1307.3073",
-        "volume": "abs/1307.3073",
-        "url": "db/journals/corr/corr1307.html#GuillemotM13",
-        "authors": [
-          "Sylvain Guillemot",
-          "DÃ¡niel Marx"
-        ]
+        "article": {
+          "@key": "journals/tcs/GuillemotM13",
+          "title": "Kernel and fast algorithm for dense triplet inconsistency",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2013",
+          "pages": "134-143",
+          "ee": "https://doi.org/10.1016/J.TCS.2012.12.032",
+          "author": [
+            {
+              "#text": "Matthias Mnich",
+              "@pid": "10/2223"
+            },
+            {
+              "#text": "Sylvain Guillemot",
+              "@pid": "42/5527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1002-1880",
-        "title": "Finding and counting vertex-colored subtrees",
-        "ee": "https://doi.org/10.48550/arXiv.1002.1880",
-        "year": "2010",
-        "journal": "CoRR",
-        "volume": "abs/1002.1880",
-        "url": "db/journals/corr/corr1002.html#abs-1002-1880",
-        "authors": [
-          "Sylvain Guillemot",
-          "Florian Sikora"
-        ]
+        "article": {
+          "@key": "journals/toct/Guillemot25",
+          "title": "Parameterized covering in semi-ladder-free hypergraphs",
+          "journal": "ACM Trans. Comput. Theory",
+          "year": "2025",
+          "pages": "9:1-9:15",
+          "ee": "https://doi.org/10.1145/3708510",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hal/Guillemot08",
+          "title": "Approches Combinatoires pour le Consensus d'Arbres et de Séquences. (Combinatorial Approaches for the Consensus of Trees and Sequences)",
+          "journal": "",
+          "year": "2008",
+          "author": {
+            "#text": "Sylvain Guillemot",
+            "@pid": "42/5527"
+          }
+        }
       }
     ]
   }

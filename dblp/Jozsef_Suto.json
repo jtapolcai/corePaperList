@@ -1,159 +1,205 @@
 {
   "dblpperson": {
+    "@name": "Jozsef Suto",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icai3/SutoJ20",
-        "title": "Music Stimuli Recognition from EEG Signals with EMOTIV EPOC Headset.",
-        "pages": "309-317",
-        "year": "2020",
-        "booktitle": "ICAI",
-        "ee": "https://ceur-ws.org/Vol-2650/paper32.pdf",
-        "url": "db/conf/icai3/icai2020.html#SutoJ20",
-        "authors": [
-          "Jozsef Suto",
-          "Zsanett Jambor"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SutoO13",
+          "title": "FPGA implemented reduced Ethernet MAC",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "29-32",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719258",
+          "author": [
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Stefan Oniga",
+              "@pid": "133/0753"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SutoO13",
-        "title": "FPGA implemented reduced Ethernet MAC.",
-        "pages": "29-32",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719258",
-        "url": "db/conf/coginfocom/coginfocom2013.html#SutoO13",
-        "authors": [
-          "Jozsef Suto",
-          "Stefan Oniga"
-        ]
+        "inproceedings": {
+          "@key": "conf/icai3/SutoJ20",
+          "title": "Music Stimuli Recognition from EEG Signals with EMOTIV EPOC Headset",
+          "booktitle": "ICAI",
+          "year": "2020",
+          "pages": "309-317",
+          "author": [
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Zsanett Jambor",
+              "@pid": "276/3819"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cogsr/SutoO19",
-        "title": "Efficiency investigation from shallow to deep neural network techniques in human activity recognition.",
-        "pages": "37-49",
-        "year": "2019",
-        "volume": "54",
-        "journal": "Cogn. Syst. Res.",
-        "ee": "https://www.wikidata.org/entity/Q128899605",
-        "url": "db/journals/cogsr/cogsr54.html#SutoO19",
-        "authors": [
-          "Jozsef Suto",
-          "Stefan Oniga"
-        ]
+        "article": {
+          "@key": "journals/cejcs/Suto21",
+          "title": "The effect of hyperparameter search on artificial neural network in human activity recognition",
+          "journal": "Open Comput. Sci.",
+          "year": "2021",
+          "pages": "411-422",
+          "ee": "https://doi.org/10.1515/COMP-2020-0227",
+          "author": {
+            "#text": "Jozsef Suto",
+            "@pid": "223/8468"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/Suto24",
-        "title": "Using Data Augmentation to Improve the Generalization Capability of an Object Detector on Remote-Sensed Insect Trap Images.",
-        "pages": "4502",
-        "year": "2024",
-        "volume": "24",
-        "journal": "Sensors",
-        "number": "14",
-        "ee": "https://doi.org/10.3390/s24144502",
-        "url": "db/journals/sensors/sensors24.html#Suto24",
-        "authors": [
-          "Jozsef Suto"
-        ]
+        "article": {
+          "@key": "journals/cogsr/SutoO19",
+          "title": "Efficiency investigation from shallow to deep neural network techniques in human activity recognition",
+          "journal": "Cogn. Syst. Res.",
+          "year": "2019",
+          "pages": "37-49",
+          "ee": "https://doi.org/10.1016/J.COGSYS.2018.11.009",
+          "author": [
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Stefan Oniga",
+              "@pid": "133/0753"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijccc/SutoOS17",
-        "title": "Feature Analysis to Human Activity Recognition.",
-        "pages": "116-130",
-        "year": "2017",
-        "volume": "12",
-        "journal": "Int. J. Comput. Commun. Control",
-        "number": "1",
-        "ee": "https://doi.org/10.15837/ijccc.2017.1.2787",
-        "url": "db/journals/ijccc/ijccc12.html#SutoOS17",
-        "authors": [
-          "Jozsef Suto",
-          "Stefan Oniga",
-          "Petrica Pop Sitar"
-        ]
+        "article": {
+          "@key": "journals/ida/Suto20",
+          "title": "Plant leaf recognition with shallow and deep learning: A comprehensive study",
+          "journal": "Intell. Data Anal.",
+          "year": "2020",
+          "pages": "1311-1328",
+          "ee": "https://doi.org/10.3233/IDA-194821",
+          "author": {
+            "#text": "Jozsef Suto",
+            "@pid": "223/8468"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/mta/Suto24",
-        "title": "Improving the generalization capability of YOLOv5 on remote sensed insect trap images with data augmentation.",
-        "pages": "27921-27934",
-        "year": "2024",
-        "volume": "83",
-        "journal": "Multim. Tools Appl.",
-        "number": "9",
-        "ee": "https://doi.org/10.1007/s11042-023-16578-1",
-        "url": "db/journals/mta/mta83.html#Suto24",
-        "authors": [
-          "Jozsef Suto"
-        ]
+        "article": {
+          "@key": "journals/ijccc/SutoOS17",
+          "title": "Feature Analysis to Human Activity Recognition",
+          "journal": "Int. J. Comput. Commun. Control",
+          "year": "2017",
+          "pages": "116-130",
+          "ee": "https://doi.org/10.15837/IJCCC.2017.1.2787",
+          "author": [
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Petrica C. Pop",
+              "@pid": "28/3781"
+            },
+            {
+              "#text": "Stefan Oniga",
+              "@pid": "133/0753"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/nca/SutoOLO20",
-        "title": "Comparison of offline and real-time human activity recognition results using machine learning techniques.",
-        "pages": "15673-15686",
-        "year": "2020",
-        "volume": "32",
-        "journal": "Neural Comput. Appl.",
-        "number": "20",
-        "ee": "https://www.wikidata.org/entity/Q130108989",
-        "url": "db/journals/nca/nca32.html#SutoOLO20",
-        "authors": [
-          "Jozsef Suto",
-          "Stefan Oniga",
-          "Claudiu Lung",
-          "Ioan Orha"
-        ]
+        "article": {
+          "@key": "journals/jaihc/SutoO18",
+          "title": "Efficiency investigation of artificial neural networks in human activity recognition",
+          "journal": "J. Ambient Intell. Humaniz. Comput.",
+          "year": "2018",
+          "pages": "1049-1060",
+          "ee": "https://doi.org/10.1007/S12652-017-0513-5",
+          "author": [
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Stefan Oniga",
+              "@pid": "133/0753"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ida/Suto20",
-        "title": "Plant leaf recognition with shallow and deep learning: A comprehensive study.",
-        "pages": "1311-1328",
-        "year": "2020",
-        "volume": "24",
-        "journal": "Intell. Data Anal.",
-        "number": "6",
-        "ee": "https://doi.org/10.3233/IDA-194821",
-        "url": "db/journals/ida/ida24.html#Suto20",
-        "authors": [
-          "Jozsef Suto"
-        ]
+        "article": {
+          "@key": "journals/mta/Suto24",
+          "title": "Improving the generalization capability of YOLOv5 on remote sensed insect trap images with data augmentation",
+          "journal": "Multim. Tools Appl.",
+          "year": "2024",
+          "pages": "27921-27934",
+          "ee": "https://doi.org/10.1007/S11042-023-16578-1",
+          "author": {
+            "#text": "Jozsef Suto",
+            "@pid": "223/8468"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cejcs/Suto21",
-        "title": "The effect of hyperparameter search on artificial neural network in human activity recognition.",
-        "pages": "411-422",
-        "year": "2021",
-        "volume": "11",
-        "journal": "Open Comput. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.1515/comp-2020-0227",
-        "url": "db/journals/cejcs/cejcs11.html#Suto21",
-        "authors": [
-          "Jozsef Suto"
-        ]
+        "article": {
+          "@key": "journals/nca/SutoOLO20",
+          "title": "Comparison of offline and real-time human activity recognition results using machine learning techniques",
+          "journal": "Neural Comput. Appl.",
+          "year": "2020",
+          "pages": "15673-15686",
+          "ee": "https://doi.org/10.1007/S00521-018-3437-X",
+          "author": [
+            {
+              "#text": "Claudiu Lung",
+              "@pid": "275/9420"
+            },
+            {
+              "#text": "Ioan Orha",
+              "@pid": "275/9395"
+            },
+            {
+              "#text": "Jozsef Suto",
+              "@pid": "223/8468"
+            },
+            {
+              "#text": "Stefan Oniga",
+              "@pid": "133/0753"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jaihc/SutoO18",
-        "title": "Efficiency investigation of artificial neural networks in human activity recognition.",
-        "pages": "1049-1060",
-        "year": "2018",
-        "volume": "9",
-        "journal": "J. Ambient Intell. Humaniz. Comput.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s12652-017-0513-5",
-        "url": "db/journals/jaihc/jaihc9.html#SutoO18",
-        "authors": [
-          "Jozsef Suto",
-          "Stefan Oniga"
-        ]
+        "article": {
+          "@key": "journals/sensors/Suto24",
+          "title": "Using Data Augmentation to Improve the Generalization Capability of an Object Detector on Remote-Sensed Insect Trap Images",
+          "journal": "Sensors",
+          "year": "2024",
+          "pages": "4502",
+          "ee": "https://doi.org/10.3390/S24144502",
+          "author": {
+            "#text": "Jozsef Suto",
+            "@pid": "223/8468"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Jozsef18c",
+          "title": "Emberi tevékenység felismerés viselhető szenzorok adataiból gépi-tanulással",
+          "journal": "",
+          "year": "2018",
+          "author": {
+            "#text": "Jozsef Suto",
+            "@pid": "223/8468"
+          }
+        }
       }
     ]
   }

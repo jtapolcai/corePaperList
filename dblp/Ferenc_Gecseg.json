@@ -1,0 +1,697 @@
+{
+  "dblpperson": {
+    "@name": "Ferenc Gécseg",
+    "r": [
+      {
+        "informal": {
+          "@key": "books/others/tree1984",
+          "title": "Tree Automata",
+          "journal": "",
+          "year": "1984",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Magnus Steinby",
+              "@pid": "s/MagnusSteinby"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/Gecseg94",
+          "title": "Homomorphic Representations by Producs of Tree Automata",
+          "booktitle": "Results and Trends in Theoretical Computer Science",
+          "year": "1994",
+          "pages": "131-139",
+          "ee": "https://doi.org/10.1007/3-540-58131-6_42",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/GecsegI01",
+          "title": "On Isomorphic Representations of Monotone Tree and Nondeterministic Tree ",
+          "booktitle": "Words, Semigroups, and Transductions",
+          "year": "2001",
+          "pages": "141-154",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/GecsegS01",
+          "title": "Minimal Recognizers and Syntactic Monoids of DR Tree Languages",
+          "booktitle": "Words, Semigroups, and Transductions",
+          "year": "2001",
+          "pages": "155-167",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Magnus Steinby",
+              "@pid": "s/MagnusSteinby"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dlt/Gecseg03",
+          "title": "Comments on Complete Sets of Tree Automata",
+          "booktitle": "Developments in Language Theory",
+          "year": "2003",
+          "pages": "22-34",
+          "ee": "https://doi.org/10.1007/3-540-45007-6_3",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dlt/GecsegI97",
+          "title": "On complete sets of tree automata",
+          "booktitle": "Developments in Language Theory",
+          "year": "1997",
+          "pages": "37-47",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fct/Gecseg77",
+          "title": "Universal Algebras and Tree Automata",
+          "booktitle": "FCT",
+          "year": "1977",
+          "pages": "98-112",
+          "ee": "https://doi.org/10.1007/3-540-08442-8_75",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/Gecseg74",
+          "title": "Composition of Automata",
+          "booktitle": "ICALP",
+          "year": "1974",
+          "pages": "351-363",
+          "ee": "https://doi.org/10.1007/3-540-06841-4_74",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/EsikDGV86",
+          "title": "Homomorphic Realizations of Automata with Compositions",
+          "booktitle": "MFCS",
+          "year": "1986",
+          "pages": "299-307",
+          "ee": "https://doi.org/10.1007/BFB0016254",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "J. Virágh",
+              "@pid": "80/1116"
+            },
+            {
+              "#text": "Pál Dömösi",
+              "@pid": "84/253"
+            },
+            {
+              "#text": "Zoltán Ésik",
+              "@pid": "e/ZoltanEsik"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/Gecseg73",
+          "title": "Model Theoretical Methods in the Theory of Automata",
+          "booktitle": "MFCS",
+          "year": "1973",
+          "pages": "57-63",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/Gecseg75",
+          "title": "Isomorphic Representation of Automata",
+          "booktitle": "MFCS",
+          "year": "1975",
+          "pages": "226-230",
+          "ee": "https://doi.org/10.1007/3-540-07389-2_200",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/GecsegE77",
+          "title": "Algebra and Logic in Theoretical Computer Science",
+          "booktitle": "MFCS",
+          "year": "1977",
+          "pages": "78-92",
+          "ee": "https://doi.org/10.1007/3-540-08353-7_129",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Péter Ecsedi-Tóth",
+              "@pid": "75/5646"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/EsikG84",
+          "title": "General products and equational classes of automata",
+          "journal": "Acta Cybern.",
+          "year": "1983",
+          "pages": "281-284",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Zoltán Ésik",
+              "@pid": "e/ZoltanEsik"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Gecseg11",
+          "title": "Classes of Tree Languages and DR Tree Languages Given by Classes of Semigroups",
+          "journal": "Acta Cybern.",
+          "year": "2011",
+          "pages": "253-267",
+          "ee": "https://doi.org/10.14232/ACTACYB.20.2.2011.3",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Gecseg76",
+          "title": "Representation of automaton mappings in finite length",
+          "journal": "Acta Cybern.",
+          "year": "1976",
+          "pages": "285-289",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Gecseg84",
+          "title": "On a representation of deterministic uniform root-to-frontier tree transformations",
+          "journal": "Acta Cybern.",
+          "year": "1983",
+          "pages": "173-180",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Gecseg85",
+          "title": "On νi-products of commutative automata",
+          "journal": "Acta Cybern.",
+          "year": "1985",
+          "pages": "55-59",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Gecseg85a",
+          "title": "Metric representations by νi-products",
+          "journal": "Acta Cybern.",
+          "year": "1985",
+          "pages": "203-209",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegG06",
+          "title": "On the closedness of nilpotent DR tree languages under Boolean operations",
+          "journal": "Acta Cybern.",
+          "year": "2006",
+          "pages": "449-457",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "György Gyurica",
+              "@pid": "88/5776"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegI01",
+          "title": "On isomorphic representations of generalized definite automata",
+          "journal": "Acta Cybern.",
+          "year": "2001",
+          "pages": "33-43",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegI87",
+          "title": "On isomorphic metric equivalence of νi",
+          "journal": "Acta Cybern.",
+          "year": "1987",
+          "pages": "129-134",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegI89",
+          "title": "On star-products of automata",
+          "journal": "Acta Cybern.",
+          "year": "1989",
+          "pages": "167-172",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegS80",
+          "title": "Minimal ascending tree automata",
+          "journal": "Acta Cybern.",
+          "year": "1978",
+          "pages": "37-44",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Magnus Steinby",
+              "@pid": "s/MagnusSteinby"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/GecsegT07",
+          "title": "Kalmár Workshop on Logic and Computer Science - Preface",
+          "journal": "Acta Cybern.",
+          "year": "2007",
+          "pages": "3-5",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "György Turán",
+              "@pid": "50/4701"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/GecsegS15",
+          "title": "Tree Automata",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1509.06233",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Magnus Steinby",
+              "@pid": "s/MagnusSteinby"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/GecsegI92",
+          "title": "Finite isomorphically complete systems",
+          "journal": "Discret. Appl. Math.",
+          "year": "1992",
+          "pages": "307-311",
+          "ee": "https://doi.org/10.1016/0166-218X(92)90261-8",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/GecsegJ96",
+          "title": "Dependence in Algebras",
+          "journal": "Fundam. Informaticae",
+          "year": "1996",
+          "pages": "247-256",
+          "ee": "https://doi.org/10.3233/FI-1996-253403",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Helmut Jürgensen",
+              "@pid": "j/HJurgensen"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijfcs/Gecseg07",
+          "title": "Classes of Tree Languages Determined by Classes of Monoids",
+          "journal": "Int. J. Found. Comput. Sci.",
+          "year": "2007",
+          "pages": "1237-1246",
+          "ee": "https://doi.org/10.1142/S0129054107005285",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jalc/GecsegI02",
+          "title": "On Monotone Automata and Monotone Languages",
+          "journal": "J. Autom. Lang. Comb.",
+          "year": "2002",
+          "pages": "71-82",
+          "ee": "https://doi.org/10.25596/JALC-2002-071",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jalc/GecsegI04",
+          "title": "On Definite and Nilpotent DR Tree Languages",
+          "journal": "J. Autom. Lang. Comb.",
+          "year": "2004",
+          "pages": "55-60",
+          "ee": "https://doi.org/10.25596/JALC-2004-055",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jalc/GecsegI06",
+          "title": "On Asynchronous Tree Automata",
+          "journal": "J. Autom. Lang. Comb.",
+          "year": "2006",
+          "pages": "161-168",
+          "ee": "https://doi.org/10.25596/JALC-2006-161",
+          "author": [
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jalc/GecsegIP98",
+          "title": "On the Existence of Finite Isomorphically Complete Systems of Automata",
+          "journal": "J. Autom. Lang. Comb.",
+          "year": "1998",
+          "pages": "77-84",
+          "ee": "https://doi.org/10.25596/JALC-1998-077",
+          "author": [
+            {
+              "#text": "András Pluhár",
+              "@pid": "85/3065"
+            },
+            {
+              "#text": "Balázs Imreh",
+              "@pid": "32/6374"
+            },
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jucs/Gecseg02",
+          "title": "On Quasi-Products of Tree Automata",
+          "journal": "J. Univers. Comput. Sci.",
+          "year": "2002",
+          "pages": "184-192",
+          "ee": "https://doi.org/10.3217/JUCS-008-02-0184",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/EsikG86",
+          "title": "On alpha-0-Products and alpha-2-Products",
+          "journal": "Theor. Comput. Sci.",
+          "year": "1986",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1016/0304-3975(86)90080-0",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Zoltán Ésik",
+              "@pid": "e/ZoltanEsik"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/EsikG87",
+          "title": "On a Representation of Tree Automata",
+          "journal": "Theor. Comput. Sci.",
+          "year": "1987",
+          "pages": "243-255",
+          "ee": "https://doi.org/10.1016/0304-3975(87)90066-1",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Zoltán Ésik",
+              "@pid": "e/ZoltanEsik"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/GecsegJ90",
+          "title": "Automata Represented by Products of Soliton Automata",
+          "journal": "Theor. Comput. Sci.",
+          "year": "1990",
+          "pages": "163-181",
+          "ee": "https://doi.org/10.1016/0304-3975(90)90135-5",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Helmut Jürgensen",
+              "@pid": "j/HJurgensen"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/GecsegJ91",
+          "title": "On alpha-0-nu-1-Products of Automata",
+          "journal": "Theor. Comput. Sci.",
+          "year": "1991",
+          "pages": "35-51",
+          "ee": "https://doi.org/10.1016/0304-3975(91)90204-F",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Helmut Jürgensen",
+              "@pid": "j/HJurgensen"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "reference/hfl/GecsegS97",
+          "title": "Tree Languages",
+          "journal": "Handbook of Formal Languages (3)",
+          "year": "1997",
+          "pages": "1-68",
+          "ee": "https://doi.org/10.1007/978-3-642-59126-6_1",
+          "author": [
+            {
+              "#text": "Ferenc Gécseg",
+              "@pid": "g/FGecseg"
+            },
+            {
+              "#text": "Magnus Steinby",
+              "@pid": "s/MagnusSteinby"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/eatcs/Gecseg86",
+          "title": "Products of Automata",
+          "journal": "EATCS Monographs on Theoretical Computer Science",
+          "year": "1986",
+          "pages": "I-VIII, 1-107",
+          "ee": "https://doi.org/10.1007/978-3-642-61611-2",
+          "author": {
+            "#text": "Ferenc Gécseg",
+            "@pid": "g/FGecseg"
+          }
+        }
+      }
+    ]
+  }
+}

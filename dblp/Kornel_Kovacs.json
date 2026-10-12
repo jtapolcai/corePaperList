@@ -1,52 +1,227 @@
 {
   "dblpperson": {
+    "@name": "Kornél Kovács",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/sisy/ZubanLBKC12",
-        "title": "Digital Radar Aided Cane.",
-        "pages": "117-120",
-        "year": "2012",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY.2012.6339499",
-        "url": "db/conf/sisy/sisy2012.html#ZubanLBKC12",
-        "authors": [
-          "Ernesztina Zuban",
-          "Henrik Labadi",
-          "Istvan Balogh",
-          "Kornel Kovacs",
-          "Zlatko Covic"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecai/SzepesvariKK04",
+          "title": "Kernel Machine Based Feature Extraction Algorithms for Regression Problems",
+          "booktitle": "ECAI",
+          "year": "2004",
+          "pages": "1091-1092",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/TakacsZK15",
-        "title": "Customer habit analysis in an e-commerce system using soft computing based methods.",
-        "pages": "1-6",
-        "year": "2015",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZ-IEEE.2015.7338062",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2015.html#TakacsZK15",
-        "authors": [
-          "MÃ¡rta TakÃ¡cs",
-          "Ernesztina Zuban",
-          "Kornel Kovacs"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecml/KocsorKS04",
+          "title": "Margin Maximizing Discriminant Analysis",
+          "booktitle": "ECML",
+          "year": "2004",
+          "pages": "227-238",
+          "ee": "https://doi.org/10.1007/978-3-540-30115-8_23",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/ZubanLK12",
-        "title": "Detecting and processing objects using radio waves and opto-electrical methods.",
-        "pages": "745-748",
-        "year": "2012",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2012.6421950",
-        "url": "db/conf/coginfocom/coginfocom2012.html#ZubanLK12",
-        "authors": [
-          "Ernesztina Zuban",
-          "Henrik Labadi",
-          "Kornel Kovacs"
-        ]
+        "inproceedings": {
+          "@key": "conf/interspeech/BanhalmiKKT05",
+          "title": "Fundamental frequency estimation by least-squares harmonic model fitting",
+          "booktitle": "INTERSPEECH",
+          "year": "2005",
+          "pages": "305-308",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2005-170",
+          "author": [
+            {
+              "#text": "András Bánhalmi",
+              "@pid": "76/3452"
+            },
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            },
+            {
+              "#text": "László Tóth",
+              "@pid": "69/3781-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sofsem/KovacsKT02",
+          "title": "Hungarian Speech Synthesis Using a Phase Exact HNM Approach",
+          "booktitle": "SOFSEM",
+          "year": "2002",
+          "pages": "181-185",
+          "ee": "https://doi.org/10.1007/3-540-36137-5_12",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            },
+            {
+              "#text": "László Tóth",
+              "@pid": "69/3781-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsd/KocsorK02",
+          "title": "Kernel Springy Discriminant Analysis and Its Application to a Phonological Awareness Teaching System",
+          "booktitle": "TSD",
+          "year": "2002",
+          "pages": "325-328",
+          "ee": "https://doi.org/10.1007/3-540-46154-X_45",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsd/TothKK00",
+          "title": "A Discriminative Segmental Speech Model and Its Application to Hungarian Number Recognition",
+          "booktitle": "TSD",
+          "year": "2000",
+          "pages": "307-313",
+          "ee": "https://doi.org/10.1007/3-540-45323-7_52",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            },
+            {
+              "#text": "László Tóth",
+              "@pid": "69/3781-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/KovacsK03",
+          "title": "Various Hyperplane Classifiers Using Kernel Feature Spaces",
+          "journal": "Acta Cybern.",
+          "year": "2003",
+          "pages": "271-278",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/KovacsK06",
+          "title": "Classification using a sparse combination of basis functions",
+          "journal": "Acta Cybern.",
+          "year": "2006",
+          "pages": "311-323",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijst/KocsorTKKJGC00",
+          "title": "A Comparative Study of Several Feature Transformation and Learning Methods for Phoneme Classification",
+          "journal": "Int. J. Speech Technol.",
+          "year": "2000",
+          "pages": "263-276",
+          "ee": "https://doi.org/10.1023/A%3A1026554814106",
+          "author": [
+            {
+              "#text": "András Kocsor",
+              "@pid": "24/3451"
+            },
+            {
+              "#text": "András Kuba",
+              "@pid": "81/5545"
+            },
+            {
+              "#text": "János Csirik",
+              "@pid": "c/JCsirik"
+            },
+            {
+              "#text": "Kornél Kovács",
+              "@pid": "16/145"
+            },
+            {
+              "#text": "László Tóth",
+              "@pid": "69/3781-1"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
       }
     ]
   }

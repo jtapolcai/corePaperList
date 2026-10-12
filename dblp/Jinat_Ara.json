@@ -1,178 +1,277 @@
 {
   "dblpperson": {
+    "@name": "Jinat Ara",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/Sik-LanyiA22",
-        "title": "Serious and Fun Games - Introduction to the Special Thematic Session.",
-        "pages": "67-72",
-        "year": "2022",
-        "booktitle": "ICCHP-AAATE (2)",
-        "ee": "https://doi.org/10.1007/978-3-031-08645-8_8",
-        "url": "db/conf/icchp/icchp2022-2.html#Sik-LanyiA22",
-        "authors": [
-          "Cecilia Sik-LÃ¡nyi",
-          "Jinat Ara"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/AraS23",
+          "title": "Webpage Accessibility Evaluation Using Machine Learning Technique",
+          "booktitle": "CogInfoCom",
+          "year": "2023",
+          "pages": "69-74",
+          "ee": "https://doi.org/10.1109/COGINFOCOM59411.2023.10397496",
+          "author": [
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icchp/AraS24",
-        "title": "A Declarative Model for Web Content Accessibility Evaluation Process.",
-        "pages": "84-92",
-        "year": "2024",
-        "booktitle": "ICCHP (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-62846-7_10",
-        "url": "db/conf/icchp/icchp2024-1.html#AraS24",
-        "authors": [
-          "Jinat Ara",
-          "Cecilia Sik-LÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/AraS24",
+          "title": "A Declarative Model for Web Content Accessibility Evaluation Process",
+          "booktitle": "ICCHP (1)",
+          "year": "2024",
+          "pages": "84-92",
+          "ee": "https://doi.org/10.1007/978-3-031-62846-7_10",
+          "author": [
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icsipa/BhuiyanABI17",
-        "title": "Retrieving YouTube video by sentiment analysis on user comment.",
-        "pages": "474-478",
-        "year": "2017",
-        "booktitle": "ICSIPA",
-        "ee": "https://doi.org/10.1109/ICSIPA.2017.8120658",
-        "url": "db/conf/icsipa/icsipa2017.html#BhuiyanABI17",
-        "authors": [
-          "Hanif Bhuiyan",
-          "Jinat Ara",
-          "Rajon Bardhan",
-          "Md. Rashedul Islam"
-        ]
+        "inproceedings": {
+          "@key": "conf/icchp/Sik-LanyiA22",
+          "title": "Serious and Fun Games - Introduction to the Special Thematic Session",
+          "booktitle": "ICCHP-AAATE (2)",
+          "year": "2022",
+          "pages": "67-72",
+          "ee": "https://doi.org/10.1007/978-3-031-08645-8_8",
+          "author": [
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icitl/AraS26",
-        "title": "CAAI: Cognitive Accessibility Analyzer for AI-Generated Images.",
-        "booktitle": "ICCHP (2)",
-        "year": "2026",
-        "pages": "297-304",
-        "ee": "https://doi.org/10.1007/978-3-032-31308-9_36",
-        "url": "db/conf/icchp/icchp2026-2.html#AraS26",
-        "authors": [
-          "Jinat Ara",
-          "Cecilia Sik-LÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/BhuiyanKKA21",
+          "title": "Semantic Improvement of Question-Answering System with Multi-Layer LSTM",
+          "booktitle": "ICCSA (3)",
+          "year": "2021",
+          "pages": "338-352",
+          "ee": "https://doi.org/10.1007/978-3-030-86970-0_24",
+          "author": [
+            {
+              "#text": "Faria Benta Karim",
+              "@pid": "301/6442"
+            },
+            {
+              "#text": "Hanif Bhuiyan",
+              "@pid": "174/4135"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            },
+            {
+              "#text": "Md. Abdul Karim",
+              "@pid": "301/6750"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/AraS23",
-        "title": "Webpage Accessibility Evaluation Using Machine Learning Technique.",
-        "pages": "69-74",
-        "year": "2023",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom59411.2023.10397496",
-        "url": "db/conf/coginfocom/coginfocom2023.html#AraS23",
-        "authors": [
-          "Jinat Ara",
-          "Cecilia Sik-LÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icitl/AraS26",
+          "title": "CAAI: Cognitive Accessibility Analyzer for AI-Generated Images",
+          "booktitle": "ICCHP (2)",
+          "year": "2027",
+          "pages": "297-304",
+          "ee": "https://doi.org/10.1007/978-3-032-31308-9_36",
+          "author": [
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwci/AraB19",
-        "title": "Upgrading YouTube Video Search by Generating Tags Through Semantic Analysis of Contextual Data.",
-        "pages": "425-437",
-        "year": "2019",
-        "booktitle": "IJCCI",
-        "ee": "https://doi.org/10.1007/978-981-15-3607-6_34",
-        "url": "db/conf/iwci/ijcci2019.html#AraB19",
-        "authors": [
-          "Jinat Ara",
-          "Hanif Bhuiyan"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsipa/BhuiyanABI17",
+          "title": "Retrieving YouTube video by sentiment analysis on user comment",
+          "booktitle": "ICSIPA",
+          "year": "2017",
+          "pages": "474-478",
+          "ee": "https://doi.org/10.1109/ICSIPA.2017.8120658",
+          "author": [
+            {
+              "#text": "Hanif Bhuiyan",
+              "@pid": "174/4135"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            },
+            {
+              "#text": "Md. Rashedul Islam",
+              "@pid": "24/7956"
+            },
+            {
+              "#text": "Rajon Bardhan",
+              "@pid": "165/9362"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccsa/BhuiyanKKA21",
-        "title": "Semantic Improvement of Question-Answering System with Multi-Layer LSTM.",
-        "pages": "338-352",
-        "year": "2021",
-        "booktitle": "ICCSA (3)",
-        "ee": "https://doi.org/10.1007/978-3-030-86970-0_24",
-        "url": "db/conf/iccsa/iccsa2021-3.html#BhuiyanKKA21",
-        "authors": [
-          "Hanif Bhuiyan",
-          "Md. Abdul Karim",
-          "Faria Benta Karim",
-          "Jinat Ara"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwci/AraB19",
+          "title": "Upgrading YouTube Video Search by Generating Tags Through Semantic Analysis of Contextual Data",
+          "booktitle": "IJCCI",
+          "year": "2020",
+          "pages": "425-437",
+          "ee": "https://doi.org/10.1007/978-981-15-3607-6_34",
+          "author": [
+            {
+              "#text": "Hanif Bhuiyan",
+              "@pid": "174/4135"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/uais/AraSK24",
-        "title": "Accessibility engineering in web evaluation process: a systematic literature review.",
-        "pages": "653-686",
-        "year": "2024",
-        "volume": "23",
-        "journal": "Univers. Access Inf. Soc.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10209-023-00967-2",
-        "url": "db/journals/uais/uais23.html#AraSK24",
-        "authors": [
-          "Jinat Ara",
-          "Cecilia Sik-LÃ¡nyi",
-          "Arpad Kelemen"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2101-06364",
+          "title": "AR-based Modern Healthcare: A Review",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.06364",
+          "author": [
+            {
+              "#text": "Hanif Bhuiyan",
+              "@pid": "174/4135"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            },
+            {
+              "#text": "Muhammad Ismail Bhuiyan",
+              "@pid": "283/5733"
+            },
+            {
+              "#text": "Salma Begum Bhyan",
+              "@pid": "283/5359"
+            },
+            {
+              "#text": "Yeasin Arafat Bhuiyan",
+              "@pid": "283/5762"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/uais/AraSKG25",
-        "title": "An inclusive framework for automated web content accessibility evaluation.",
-        "pages": "1581-1607",
-        "year": "2025",
-        "volume": "24",
-        "journal": "Univers. Access Inf. Soc.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10209-024-01164-5",
-        "url": "db/journals/uais/uais24.html#AraSKG25",
-        "authors": [
-          "Jinat Ara",
-          "Cecilia Sik-LÃ¡nyi",
-          "Arpad Kelemen",
-          "Tibor Guzsvinecz"
-        ]
+        "article": {
+          "@key": "journals/data/KhanTAAB25",
+          "title": "CropsDisNet: An AI-Based Platform for Disease Detection and Advancing On-Farm Privacy Solutions",
+          "journal": "Data",
+          "year": "2025",
+          "pages": "25",
+          "ee": "https://doi.org/10.3390/DATA10020025",
+          "author": [
+            {
+              "#text": "Hanif Bhuiyan",
+              "@pid": "174/4135"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            },
+            {
+              "#text": "Mobashwer Alam",
+              "@pid": "404/4273"
+            },
+            {
+              "#text": "Mohammad Badhruddouza Khan",
+              "@pid": "404/1948"
+            },
+            {
+              "#text": "Salwa Tamkin",
+              "@pid": "377/4247"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/data/KhanTAAB25",
-        "title": "CropsDisNet: An AI-Based Platform for Disease Detection and Advancing On-Farm Privacy Solutions.",
-        "pages": "25",
-        "year": "2025",
-        "volume": "10",
-        "journal": "Data",
-        "number": "2",
-        "ee": "https://doi.org/10.3390/data10020025",
-        "url": "db/journals/data/data10.html#KhanTAAB25",
-        "authors": [
-          "Mohammad Badhruddouza Khan",
-          "Salwa Tamkin",
-          "Jinat Ara",
-          "Mobashwer Alam",
-          "Hanif Bhuiyan"
-        ]
+        "article": {
+          "@key": "journals/uais/AraSK24",
+          "title": "Accessibility engineering in web evaluation process: a systematic literature review",
+          "journal": "Univers. Access Inf. Soc.",
+          "year": "2024",
+          "pages": "653-686",
+          "ee": "https://doi.org/10.1007/S10209-023-00967-2",
+          "author": [
+            {
+              "#text": "Arpad Kelemen",
+              "@pid": "77/1035"
+            },
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2101-06364",
-        "title": "AR-based Modern Healthcare: A Review.",
-        "year": "2021",
-        "volume": "abs/2101.06364",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2101.06364",
-        "url": "db/journals/corr/corr2101.html#abs-2101-06364",
-        "authors": [
-          "Jinat Ara",
-          "Hanif Bhuiyan",
-          "Yeasin Arafat Bhuiyan",
-          "Salma Begum Bhyan",
-          "Muhammad Ismail Bhuiyan"
-        ]
+        "article": {
+          "@key": "journals/uais/AraSKG25",
+          "title": "An inclusive framework for automated web content accessibility evaluation",
+          "journal": "Univers. Access Inf. Soc.",
+          "year": "2025",
+          "pages": "1581-1607",
+          "ee": "https://doi.org/10.1007/S10209-024-01164-5",
+          "author": [
+            {
+              "#text": "Arpad Kelemen",
+              "@pid": "77/1035"
+            },
+            {
+              "#text": "Cecilia Sik-Lányi",
+              "@pid": "44/2572"
+            },
+            {
+              "#text": "Jinat Ara",
+              "@pid": "210/5800"
+            },
+            {
+              "#text": "Tibor Guzsvinecz",
+              "@pid": "182/6084"
+            }
+          ]
+        }
       }
     ]
   }

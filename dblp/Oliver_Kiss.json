@@ -1,180 +1,384 @@
 {
   "dblpperson": {
+    "@name": "Oliver Kiss",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiKS20a",
-        "title": "Little Ball of Fur: A Python Library for Graph Sampling.",
-        "pages": "3133-3140",
-        "year": "2020",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3340531.3412758",
-        "url": "db/conf/cikm/cikm2020.html#RozemberczkiKS20a",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiKS20",
+          "title": "Karate Club: An API Oriented Open-Source Python Framework for Unsupervised Learning on Graphs",
+          "booktitle": "CIKM",
+          "year": "2020",
+          "pages": "3125-3132",
+          "ee": "https://doi.org/10.1145/3340531.3412757",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiSHP21",
-        "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models.",
-        "pages": "4564-4573",
-        "year": "2021",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3459637.3482014",
-        "url": "db/conf/cikm/cikm2021.html#RozemberczkiSHP21",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Yixuan He 0001",
-          "George Panagopoulos",
-          "Alexander Riedel",
-          "Maria Sinziana Astefanoaei",
-          "Oliver Kiss",
-          "Ferenc BÃ©res",
-          "GuzmÃ¡n LÃ³pez",
-          "Nicolas Collignon",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiKS20a",
+          "title": "Little Ball of Fur: A Python Library for Graph Sampling",
+          "booktitle": "CIKM",
+          "year": "2020",
+          "pages": "3133-3140",
+          "ee": "https://doi.org/10.1145/3340531.3412758",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiKS20",
-        "title": "Karate Club: An API Oriented Open-Source Python Framework for Unsupervised Learning on Graphs.",
-        "pages": "3125-3132",
-        "year": "2020",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3340531.3412757",
-        "url": "db/conf/cikm/cikm2020.html#RozemberczkiKS20",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiSHP21",
+          "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models",
+          "booktitle": "CIKM",
+          "year": "2021",
+          "pages": "4564-4573",
+          "ee": "https://doi.org/10.1145/3459637.3482014",
+          "author": [
+            {
+              "#text": "Alexander Riedel",
+              "@pid": "124/9774"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Guzmán López",
+              "@pid": "300/6977"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcai/RozemberczkiWBY22",
-        "title": "The Shapley Value in Machine Learning.",
-        "pages": "5572-5579",
-        "year": "2022",
-        "booktitle": "IJCAI",
-        "ee": "https://doi.org/10.24963/ijcai.2022/778",
-        "url": "db/conf/ijcai/ijcai2022.html#RozemberczkiWBY22",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Lauren Watson",
-          "PÃ©ter Bayer",
-          "Hao-Tsung Yang",
-          "Oliver Kiss",
-          "Sebastian Nilsson",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcai/RozemberczkiWBY22",
+          "title": "The Shapley Value in Machine Learning",
+          "booktitle": "IJCAI",
+          "year": "2022",
+          "pages": "5572-5579",
+          "ee": "https://doi.org/10.24963/IJCAI.2022/778",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Hao-Tsung Yang",
+              "@pid": "151/7478"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Péter Bayer",
+              "@pid": "283/4588"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/comgeo/BrecklinghausBK24",
-        "title": "Bounds on soft rectangle packing ratios.",
-        "pages": "102078",
-        "year": "2024",
-        "volume": "119",
-        "journal": "Comput. Geom.",
-        "ee": "https://doi.org/10.1016/j.comgeo.2023.102078",
-        "url": "db/journals/comgeo/comgeo119.html#BrecklinghausBK24",
-        "authors": [
-          "Judith Brecklinghaus",
-          "Ulrich Brenner",
-          "Oliver Kiss"
-        ]
+        "informal": {
+          "@key": "data/11/RozemberczkiSHPAKBCS23",
+          "title": "Pedal Me Bicycle Deliveries",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.24432/C5KC9C",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2104-07788",
-        "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models.",
-        "year": "2021",
-        "volume": "abs/2104.07788",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2104.07788",
-        "url": "db/journals/corr/corr2104.html#abs-2104-07788",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Yixuan He 0001",
-          "George Panagopoulos",
-          "Maria Sinziana Astefanoaei",
-          "Oliver Kiss",
-          "Ferenc BÃ©res",
-          "Nicolas Collignon",
-          "Rik Sarkar"
-        ]
+        "article": {
+          "@key": "journals/comgeo/BrecklinghausBK24",
+          "title": "Bounds on soft rectangle packing ratios",
+          "journal": "Comput. Geom.",
+          "year": "2024",
+          "pages": "102078",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2023.102078",
+          "author": [
+            {
+              "#text": "Judith Brecklinghaus",
+              "@pid": "155/9930"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Ulrich Brenner",
+              "@pid": "03/6791"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2102-08100",
-        "title": "Chickenpox Cases in Hungary: a Benchmark Dataset for Spatiotemporal Signal Processing with Graph Neural Networks.",
-        "year": "2021",
-        "volume": "abs/2102.08100",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2102.08100",
-        "url": "db/journals/corr/corr2102.html#abs-2102-08100",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Oliver Kiss",
-          "Rik Sarkar",
-          "Tamas Ferenci"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2003-04819",
+          "title": "An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.04819",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2202-05594",
-        "title": "The Shapley Value in Machine Learning.",
-        "year": "2022",
-        "volume": "abs/2202.05594",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2202.05594",
-        "url": "db/journals/corr/corr2202.html#abs-2202-05594",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Lauren Watson",
-          "PÃ©ter Bayer",
-          "Hao-Tsung Yang",
-          "Oliver Kiss",
-          "Sebastian Nilsson",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2006-04311",
+          "title": "Little Ball of Fur: A Python Library for Graph Sampling",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.04311",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2006-04311",
-        "title": "Little Ball of Fur: A Python Library for Graph Sampling.",
-        "year": "2020",
-        "volume": "abs/2006.04311",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2006.04311",
-        "url": "db/journals/corr/corr2006.html#abs-2006-04311",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2102-08100",
+          "title": "Chickenpox Cases in Hungary: a Benchmark Dataset for Spatiotemporal Signal Processing with Graph Neural Networks",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.08100",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Tamas Ferenci",
+              "@pid": "143/1571"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2003-04819",
-        "title": "An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs.",
-        "year": "2020",
-        "volume": "abs/2003.04819",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2003.04819",
-        "url": "db/journals/corr/corr2003.html#abs-2003-04819",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2104-07788",
+          "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2104.07788",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-05594",
+          "title": "The Shapley Value in Machine Learning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.05594",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Hao-Tsung Yang",
+              "@pid": "151/7478"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Péter Bayer",
+              "@pid": "283/4588"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       }
     ]
   }

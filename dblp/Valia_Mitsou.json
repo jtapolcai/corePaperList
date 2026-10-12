@@ -1,943 +1,1618 @@
 {
   "dblpperson": {
+    "@name": "Valia Mitsou",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/mfcs/LampisMNOV025",
-        "title": "Parameterized Spanning Tree Congestion.",
-        "pages": "65:1-65:20",
-        "year": "2025",
-        "booktitle": "MFCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.MFCS.2025.65",
-        "url": "db/conf/mfcs/mfcs2025.html#LampisMNOV025",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Edouard Nemery",
-          "Yota Otachi",
-          "Manolis Vasilakis",
-          "Daniel Vaz 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/Belmonte0LMO20",
+          "title": "Grundy Distinguishes Treewidth from Pathwidth",
+          "booktitle": "ESA",
+          "year": "2020",
+          "pages": "14:1-14:19",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2020.14",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mfcs/EgamiGHKLMNOV025",
-        "title": "Broadcasting Under Structural Restrictions.",
-        "pages": "42:1-42:18",
-        "year": "2025",
-        "booktitle": "MFCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.MFCS.2025.42",
-        "url": "db/conf/mfcs/mfcs2025.html#EgamiGHKLMNOV025",
-        "authors": [
-          "Yudai Egami",
-          "Tatsuya Gima",
-          "Tesshu Hanaka",
-          "Yasuaki Kobayashi",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Edouard Nemery",
-          "Yota Otachi",
-          "Manolis Vasilakis",
-          "Daniel Vaz 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/fun/BaffierCDKMRRU16",
+          "title": "Hanabi is NP-complete, Even for Cheaters who Look at Their Cards",
+          "booktitle": "FUN",
+          "year": "2016",
+          "pages": "4:1-4:17",
+          "ee": "https://doi.org/10.4230/LIPICS.FUN.2016.4",
+          "author": [
+            {
+              "#text": "André van Renssen",
+              "@pid": "21/8434"
+            },
+            {
+              "#text": "Jean-François Baffier",
+              "@pid": "139/8142"
+            },
+            {
+              "#text": "Man-Kwun Chiu",
+              "@pid": "71/3446"
+            },
+            {
+              "#text": "Marcel Roeloffzen",
+              "@pid": "90/9733"
+            },
+            {
+              "#text": "Matias Korman",
+              "@pid": "57/6389"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yago Diez Donoso",
+              "@pid": "02/4232"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mfcs/GajarskyLMMO15",
-        "title": "Parameterized Algorithms for Parity Games.",
-        "pages": "336-347",
-        "year": "2015",
-        "booktitle": "MFCS (2)",
-        "ee": "https://doi.org/10.1007/978-3-662-48054-0_28",
-        "url": "db/conf/mfcs/mfcs2015-2.html#GajarskyLMMO15",
-        "authors": [
-          "Jakub GajarskÃ½",
-          "Michael Lampis",
-          "Kazuhisa Makino",
-          "Valia Mitsou",
-          "Sebastian Ordyniak"
-        ]
+        "inproceedings": {
+          "@key": "conf/fun/LampisM07",
+          "title": "The Ferry Cover Problem",
+          "booktitle": "FUN",
+          "year": "2007",
+          "pages": "227-239",
+          "ee": "https://doi.org/10.1007/978-3-540-72914-3_20",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mfcs/EickmeyerGLMNOV26",
-        "title": "Lower Bounds for Meta-Reconfiguration.",
-        "pages": "55:1-55:17",
-        "year": "2026",
-        "booktitle": "MFCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.MFCS.2026.55",
-        "url": "db/conf/mfcs/mfcs2026.html#EickmeyerGLMNOV26",
-        "authors": [
-          "Kord Eickmeyer",
-          "Tatsuya Gima",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Edouard Nemery",
-          "Yota Otachi",
-          "Manolis Vasilakis",
-          "Daniel Vaz 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/fun/LampisMS12",
+          "title": "Scrabble Is PSPACE-Complete",
+          "booktitle": "FUN",
+          "year": "2012",
+          "pages": "258-269",
+          "ee": "https://doi.org/10.1007/978-3-642-30347-0_26",
+          "author": [
+            {
+              "#text": "Karolina Soltys",
+              "@pid": "39/9223"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/esa/Belmonte0LMO20",
-        "title": "Grundy Distinguishes Treewidth from Pathwidth.",
-        "pages": "14:1-14:19",
-        "year": "2020",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.4230/LIPIcs.ESA.2020.14",
-        "url": "db/conf/esa/esa2020.html#Belmonte0LMO20",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/AchilleosLM10",
+          "title": "Parameterized Modal Satisfiability",
+          "booktitle": "ICALP (2)",
+          "year": "2010",
+          "pages": "369-380",
+          "ee": "https://doi.org/10.1007/978-3-642-14162-1_31",
+          "author": [
+            {
+              "#text": "Antonis Achilleos",
+              "@pid": "44/7660"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wg/BelmonteLM17",
-        "title": "Defective Coloring on Classes of Perfect Graphs.",
-        "pages": "113-126",
-        "year": "2017",
-        "booktitle": "WG",
-        "ee": "https://doi.org/10.1007/978-3-319-68705-6_9",
-        "url": "db/conf/wg/wg2017.html#BelmonteLM17",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/MarxM16",
+          "title": "Double-Exponential and Triple-Exponential Bounds for Choosability Problems Parameterized by Treewidth",
+          "booktitle": "ICALP",
+          "year": "2016",
+          "pages": "28:1-28:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2016.28",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wg/LampisMMU14",
-        "title": "Parameterized Edge Hamiltonicity.",
-        "pages": "348-359",
-        "year": "2014",
-        "booktitle": "WG",
-        "ee": "https://doi.org/10.1007/978-3-319-12340-0_29",
-        "url": "db/conf/wg/wg2014.html#LampisMMU14",
-        "authors": [
-          "Michael Lampis",
-          "Kazuhisa Makino",
-          "Valia Mitsou",
-          "Yushi Uno"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/LampisKM08",
+          "title": "On the Algorithmic Effectiveness of Digraph Decompositions and Complexity Measures",
+          "booktitle": "ISAAC",
+          "year": "2008",
+          "pages": "220-231",
+          "ee": "https://doi.org/10.1007/978-3-540-92182-0_22",
+          "author": [
+            {
+              "#text": "Georgia Kaouri",
+              "@pid": "28/2533"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icalp/MarxM16",
-        "title": "Double-Exponential and Triple-Exponential Bounds for Choosability Problems Parameterized by Treewidth.",
-        "pages": "28:1-28:15",
-        "year": "2016",
-        "booktitle": "ICALP",
-        "ee": "https://doi.org/10.4230/LIPIcs.ICALP.2016.28",
-        "url": "db/conf/icalp/icalp2016.html#MarxM16",
-        "authors": [
-          "DÃ¡niel Marx",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/isaac/LampisM21",
+          "title": "Fine-Grained Meta-Theorems for Vertex Integrity",
+          "booktitle": "ISAAC",
+          "year": "2021",
+          "pages": "34:1-34:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ISAAC.2021.34",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icalp/AchilleosLM10",
-        "title": "Parameterized Modal Satisfiability.",
-        "pages": "369-380",
-        "year": "2010",
-        "booktitle": "ICALP (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-14162-1_31",
-        "url": "db/conf/icalp/icalp2010-2.html#AchilleosLM10",
-        "authors": [
-          "Antonis Achilleos",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/Dell0LMM15",
+          "title": "Complexity and Approximability of Parameterized MAX-CSPs",
+          "booktitle": "IPEC",
+          "year": "2015",
+          "pages": "294-306",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2015.294",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Holger Dell",
+              "@pid": "27/3557"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tobias Mömke",
+              "@pid": "58/5658"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/stacs/BelmonteLM18",
-        "title": "Parameterized (Approximate) Defective Coloring.",
-        "pages": "10:1-10:15",
-        "year": "2018",
-        "booktitle": "STACS",
-        "ee": "https://doi.org/10.4230/LIPIcs.STACS.2018.10",
-        "url": "db/conf/stacs/stacs2018.html#BelmonteLM18",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/FoucaudHLMP19",
+          "title": "Parameterized Complexity of Edge-Coloured and Signed Graph Homomorphism Problems",
+          "booktitle": "IPEC",
+          "year": "2019",
+          "pages": "15:1-15:16",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2019.15",
+          "author": [
+            {
+              "#text": "Dimitri Lajou",
+              "@pid": "233/8578"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Hervé Hocquard",
+              "@pid": "52/7568"
+            },
+            {
+              "#text": "Théo Pierron",
+              "@pid": "177/6072"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/stacs/Belmonte0LMOS19",
-        "title": "Token Sliding on Split Graphs.",
-        "pages": "13:1-13:17",
-        "year": "2019",
-        "booktitle": "STACS",
-        "ee": "https://doi.org/10.4230/LIPIcs.STACS.2019.13",
-        "url": "db/conf/stacs/stacs2019.html#Belmonte0LMOS19",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwpec/LampisM17",
+          "title": "Treewidth with a Quantifier Alternation Revisited",
+          "booktitle": "IPEC",
+          "year": "2018",
+          "pages": "26:1-26:12",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2017.26",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/LampisKM08",
-        "title": "On the Algorithmic Effectiveness of Digraph Decompositions and Complexity Measures.",
-        "pages": "220-231",
-        "year": "2008",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-540-92182-0_22",
-        "url": "db/conf/isaac/isaac2008.html#LampisKM08",
-        "authors": [
-          "Michael Lampis",
-          "Georgia Kaouri",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/latin/LampisM14",
+          "title": "The Computational Complexity of the Game of Set and Its Theoretical Applications",
+          "booktitle": "LATIN",
+          "year": "2014",
+          "pages": "24-34",
+          "ee": "https://doi.org/10.1007/978-3-642-54423-1_3",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isaac/LampisM21",
-        "title": "Fine-Grained Meta-Theorems for Vertex Integrity.",
-        "pages": "34:1-34:15",
-        "year": "2021",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.4230/LIPIcs.ISAAC.2021.34",
-        "url": "db/conf/isaac/isaac2021.html#LampisM21",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfcs/EgamiGHKLMNOV025",
+          "title": "Broadcasting Under Structural Restrictions",
+          "booktitle": "MFCS",
+          "year": "2025",
+          "pages": "42:1-42:18",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2025.42",
+          "author": [
+            {
+              "#text": "Daniel Vaz",
+              "@pid": "133/1705"
+            },
+            {
+              "#text": "Edouard Nemery",
+              "@pid": "390/1331"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tatsuya Gima",
+              "@pid": "281/6848"
+            },
+            {
+              "#text": "Tesshu Hanaka",
+              "@pid": "157/1043"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yasuaki Kobayashi",
+              "@pid": "58/8821"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            },
+            {
+              "#text": "Yudai Egami",
+              "@pid": "405/4528"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sat/LampisMM18",
-        "title": "QBF as an Alternative to Courcelle's Theorem.",
-        "pages": "235-252",
-        "year": "2018",
-        "booktitle": "SAT",
-        "ee": "https://doi.org/10.1007/978-3-319-94144-8_15",
-        "url": "db/conf/sat/sat2018.html#LampisMM18",
-        "authors": [
-          "Michael Lampis",
-          "Stefan Mengel",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfcs/EickmeyerGLMNOV26",
+          "title": "Lower Bounds for Meta-Reconfiguration",
+          "booktitle": "MFCS",
+          "year": "2026",
+          "pages": "55:1-55:17",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2026.55",
+          "author": [
+            {
+              "#text": "Daniel Vaz",
+              "@pid": "133/1705"
+            },
+            {
+              "#text": "Edouard Nemery",
+              "@pid": "390/1331"
+            },
+            {
+              "#text": "Kord Eickmeyer",
+              "@pid": "34/1695"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tatsuya Gima",
+              "@pid": "281/6848"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fun/LampisMS12",
-        "title": "Scrabble Is PSPACE-Complete.",
-        "pages": "258-269",
-        "year": "2012",
-        "booktitle": "FUN",
-        "ee": "https://doi.org/10.1007/978-3-642-30347-0_26",
-        "url": "db/conf/fun/fun2012.html#LampisMS12",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Karolina Soltys"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfcs/GajarskyLMMO15",
+          "title": "Parameterized Algorithms for Parity Games",
+          "booktitle": "MFCS (2)",
+          "year": "2015",
+          "pages": "336-347",
+          "ee": "https://doi.org/10.1007/978-3-662-48054-0_28",
+          "author": [
+            {
+              "#text": "Jakub Gajarský",
+              "@pid": "11/11268"
+            },
+            {
+              "#text": "Kazuhisa Makino",
+              "@pid": "04/3674"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Sebastian Ordyniak",
+              "@pid": "88/3220"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fun/LampisM07",
-        "title": "The Ferry Cover Problem.",
-        "pages": "227-239",
-        "year": "2007",
-        "booktitle": "FUN",
-        "ee": "https://doi.org/10.1007/978-3-540-72914-3_20",
-        "url": "db/conf/fun/fun2007.html#LampisM07",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfcs/LampisMNOV025",
+          "title": "Parameterized Spanning Tree Congestion",
+          "booktitle": "MFCS",
+          "year": "2025",
+          "pages": "65:1-65:20",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2025.65",
+          "author": [
+            {
+              "#text": "Daniel Vaz",
+              "@pid": "133/1705"
+            },
+            {
+              "#text": "Edouard Nemery",
+              "@pid": "390/1331"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fun/BaffierCDKMRRU16",
-        "title": "Hanabi is NP-complete, Even for Cheaters who Look at Their Cards.",
-        "pages": "4:1-4:17",
-        "year": "2016",
-        "booktitle": "FUN",
-        "ee": "https://doi.org/10.4230/LIPIcs.FUN.2016.4",
-        "url": "db/conf/fun/fun2016.html#BaffierCDKMRRU16",
-        "authors": [
-          "Jean-FranÃ§ois Baffier",
-          "Man-Kwun Chiu",
-          "Yago Diez",
-          "Matias Korman",
-          "Valia Mitsou",
-          "AndrÃ© van Renssen",
-          "Marcel Roeloffzen",
-          "Yushi Uno"
-        ]
+        "inproceedings": {
+          "@key": "conf/sat/LampisMM18",
+          "title": "QBF as an Alternative to Courcelle's Theorem",
+          "booktitle": "SAT",
+          "year": "2018",
+          "pages": "235-252",
+          "ee": "https://doi.org/10.1007/978-3-319-94144-8_15",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Stefan Mengel",
+              "@pid": "79/9794"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sirocco/Bar-NoyCLMZ09",
-        "title": "Ordered Coloring Grids and Related Graphs.",
-        "pages": "30-43",
-        "year": "2009",
-        "booktitle": "SIROCCO",
-        "ee": "https://doi.org/10.1007/978-3-642-11476-2_4",
-        "url": "db/conf/sirocco/sirocco2009.html#Bar-NoyCLMZ09",
-        "authors": [
-          "Amotz Bar-Noy",
-          "Panagiotis Cheilaris",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Stathis Zachos"
-        ]
+        "inproceedings": {
+          "@key": "conf/sirocco/Bar-NoyCLMZ09",
+          "title": "Ordered Coloring Grids and Related Graphs",
+          "booktitle": "SIROCCO",
+          "year": "2010",
+          "pages": "30-43",
+          "ee": "https://doi.org/10.1007/978-3-642-11476-2_4",
+          "author": [
+            {
+              "#text": "Amotz Bar-Noy",
+              "@pid": "b/AmotzBarNoy"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Panagiotis Cheilaris",
+              "@pid": "56/4132"
+            },
+            {
+              "#text": "Stathis Zachos",
+              "@pid": "10/2770"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/LampisM17",
-        "title": "Treewidth with a Quantifier Alternation Revisited.",
-        "pages": "26:1-26:12",
-        "year": "2017",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.4230/LIPIcs.IPEC.2017.26",
-        "url": "db/conf/iwpec/ipec2017.html#LampisM17",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/stacs/Belmonte0LMOS19",
+          "title": "Token Sliding on Split Graphs",
+          "booktitle": "STACS",
+          "year": "2019",
+          "pages": "13:1-13:17",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2019.13",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/FoucaudHLMP19",
-        "title": "Parameterized Complexity of Edge-Coloured and Signed Graph Homomorphism Problems.",
-        "pages": "15:1-15:16",
-        "year": "2019",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.4230/LIPIcs.IPEC.2019.15",
-        "url": "db/conf/iwpec/ipec2019.html#FoucaudHLMP19",
-        "authors": [
-          "Florent Foucaud",
-          "HervÃ© Hocquard",
-          "Dimitri Lajou",
-          "Valia Mitsou",
-          "ThÃ©o Pierron"
-        ]
+        "inproceedings": {
+          "@key": "conf/stacs/BelmonteLM18",
+          "title": "Parameterized (Approximate) Defective Coloring",
+          "booktitle": "STACS",
+          "year": "2018",
+          "pages": "10:1-10:15",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2018.10",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/Dell0LMM15",
-        "title": "Complexity and Approximability of Parameterized MAX-CSPs.",
-        "pages": "294-306",
-        "year": "2015",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.4230/LIPIcs.IPEC.2015.294",
-        "url": "db/conf/iwpec/ipec2015.html#Dell0LMM15",
-        "authors": [
-          "Holger Dell",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Tobias MÃ¶mke"
-        ]
+        "inproceedings": {
+          "@key": "conf/wg/BelmonteLM17",
+          "title": "Defective Coloring on Classes of Perfect Graphs",
+          "booktitle": "WG",
+          "year": "2017",
+          "pages": "113-126",
+          "ee": "https://doi.org/10.1007/978-3-319-68705-6_9",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/latin/LampisM14",
-        "title": "The Computational Complexity of the Game of Set and Its Theoretical Applications.",
-        "pages": "24-34",
-        "year": "2014",
-        "booktitle": "LATIN",
-        "ee": "https://doi.org/10.1007/978-3-642-54423-1_3",
-        "url": "db/conf/latin/latin2014.html#LampisM14",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "inproceedings": {
+          "@key": "conf/wg/LampisMMU14",
+          "title": "Parameterized Edge Hamiltonicity",
+          "booktitle": "WG",
+          "year": "2014",
+          "pages": "348-359",
+          "ee": "https://doi.org/10.1007/978-3-319-12340-0_29",
+          "author": [
+            {
+              "#text": "Kazuhisa Makino",
+              "@pid": "04/3674"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dmtcs/BelmonteLM22",
-        "title": "Defective Coloring on Classes of Perfect Graphs.",
-        "year": "2022",
-        "volume": "24",
-        "journal": "Discret. Math. Theor. Comput. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.46298/dmtcs.4926",
-        "url": "db/journals/dmtcs/dmtcs24.html#BelmonteLM22",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/algorithmica/AchilleosLM12",
+          "title": "Parameterized Modal Satisfiability",
+          "journal": "Algorithmica",
+          "year": "2012",
+          "pages": "38-55",
+          "ee": "https://doi.org/10.1007/S00453-011-9552-Z",
+          "author": [
+            {
+              "#text": "Antonis Achilleos",
+              "@pid": "44/7660"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/FoucaudHLMP22",
-        "title": "Graph Modification for Edge-Coloured and Signed Graph Homomorphism Problems: Parameterized and Classical Complexity.",
-        "pages": "1183-1212",
-        "year": "2022",
-        "volume": "84",
-        "journal": "Algorithmica",
-        "number": "5",
-        "ee": "https://doi.org/10.1007/s00453-021-00918-4",
-        "url": "db/journals/algorithmica/algorithmica84.html#FoucaudHLMP22",
-        "authors": [
-          "Florent Foucaud",
-          "HervÃ© Hocquard",
-          "Dimitri Lajou",
-          "Valia Mitsou",
-          "ThÃ©o Pierron"
-        ]
+        "article": {
+          "@key": "journals/algorithmica/DellKLMM17",
+          "title": "Complexity and Approximability of Parameterized MAX-CSPs",
+          "journal": "Algorithmica",
+          "year": "2017",
+          "pages": "230-250",
+          "ee": "https://doi.org/10.1007/S00453-017-0310-8",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Holger Dell",
+              "@pid": "27/3557"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tobias Mömke",
+              "@pid": "58/5658"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/AchilleosLM12",
-        "title": "Parameterized Modal Satisfiability.",
-        "pages": "38-55",
-        "year": "2012",
-        "volume": "64",
-        "journal": "Algorithmica",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00453-011-9552-z",
-        "url": "db/journals/algorithmica/algorithmica64.html#AchilleosLM12",
-        "authors": [
-          "Antonis Achilleos",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/algorithmica/FoucaudHLMP22",
+          "title": "Graph Modification for Edge-Coloured and Signed Graph Homomorphism Problems: Parameterized and Classical Complexity",
+          "journal": "Algorithmica",
+          "year": "2022",
+          "pages": "1183-1212",
+          "ee": "https://doi.org/10.1007/S00453-021-00918-4",
+          "author": [
+            {
+              "#text": "Dimitri Lajou",
+              "@pid": "233/8578"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Hervé Hocquard",
+              "@pid": "52/7568"
+            },
+            {
+              "#text": "Théo Pierron",
+              "@pid": "177/6072"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/DellKLMM17",
-        "title": "Complexity and Approximability of Parameterized MAX-CSPs.",
-        "pages": "230-250",
-        "year": "2017",
-        "volume": "79",
-        "journal": "Algorithmica",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00453-017-0310-8",
-        "url": "db/journals/algorithmica/algorithmica79.html#DellKLMM17",
-        "authors": [
-          "Holger Dell",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Tobias MÃ¶mke"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0907-4488",
+          "title": "Vertex Cover Problem Parameterized Above and Below Tight Bounds",
+          "journal": "CoRR",
+          "year": "2009",
+          "ee": "https://doi.org/10.48550/ARXIV.0907.4488",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Gregory Z. Gutin",
+              "@pid": "74/2412"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/mst/GutinKLM11",
-        "title": "Vertex Cover Problem Parameterized Above and Below Tight Bounds.",
-        "pages": "402-410",
-        "year": "2011",
-        "volume": "48",
-        "journal": "Theory Comput. Syst.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s00224-010-9262-y",
-        "url": "db/journals/mst/mst48.html#GutinKLM11",
-        "authors": [
-          "Gregory Z. Gutin",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0912-4941",
+          "title": "Parameterized Modal Satisfiability",
+          "journal": "CoRR",
+          "year": "2009",
+          "ee": "https://doi.org/10.48550/ARXIV.0912.4941",
+          "author": [
+            {
+              "#text": "Antonis Achilleos",
+              "@pid": "44/7660"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/mst/LampisM09",
-        "title": "The Ferry Cover Problem.",
-        "pages": "215-229",
-        "year": "2009",
-        "volume": "44",
-        "journal": "Theory Comput. Syst.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s00224-008-9107-0",
-        "url": "db/journals/mst/mst44.html#LampisM09",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1201-5298",
+          "title": "Scrabble is PSPACE-Complete",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1201.5298",
+          "author": [
+            {
+              "#text": "Karolina Soltys",
+              "@pid": "39/9223"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/mst/BelmonteKLMOS21",
-        "title": "Token Sliding on Split Graphs.",
-        "pages": "662-686",
-        "year": "2021",
-        "volume": "65",
-        "journal": "Theory Comput. Syst.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00224-020-09967-8",
-        "url": "db/journals/mst/mst65.html#BelmonteKLMOS21",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi",
-          "Florian Sikora"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1801-03879",
+          "title": "Parameterized (Approximate) Defective Coloring",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1801.03879",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcs/BaffierCDKMRRU17",
-        "title": "Hanabi is NP-hard, even for cheaters who look at their cards.",
-        "pages": "43-55",
-        "year": "2017",
-        "volume": "675",
-        "journal": "Theor. Comput. Sci.",
-        "ee": "https://doi.org/10.1016/j.tcs.2017.02.024",
-        "url": "db/journals/tcs/tcs675.html#BaffierCDKMRRU17",
-        "authors": [
-          "Jean-FranÃ§ois Baffier",
-          "Man-Kwun Chiu",
-          "Yago Diez",
-          "Matias Korman",
-          "Valia Mitsou",
-          "AndrÃ© van Renssen",
-          "Marcel Roeloffzen",
-          "Yushi Uno"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1805-08456",
+          "title": "QBF as an Alternative to Courcelle's Theorem",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1805.08456",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Stefan Mengel",
+              "@pid": "79/9794"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcs/Bar-NoyCLMZ12",
-        "title": "Ordered coloring of grids and related graphs.",
-        "pages": "40-51",
-        "year": "2012",
-        "volume": "444",
-        "journal": "Theor. Comput. Sci.",
-        "ee": "https://doi.org/10.1016/j.tcs.2012.04.036",
-        "url": "db/journals/tcs/tcs444.html#Bar-NoyCLMZ12",
-        "authors": [
-          "Amotz Bar-Noy",
-          "Panagiotis Cheilaris",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Stathis Zachos"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1807-05322",
+          "title": "Token Sliding on Split Graphs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1807.05322",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/disopt/LampisKM11",
-        "title": "On the algorithmic effectiveness of digraph decompositions and complexity measures.",
-        "pages": "129-138",
-        "year": "2011",
-        "volume": "8",
-        "journal": "Discret. Optim.",
-        "number": "1",
-        "ee": "https://doi.org/10.1016/j.disopt.2010.03.010",
-        "url": "db/journals/disopt/disopt8.html#LampisKM11",
-        "authors": [
-          "Michael Lampis",
-          "Georgia Kaouri",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1907-03266",
+          "title": "Complexity of planar signed graph homomorphisms to cycles",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.03266",
+          "author": [
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "François Dross",
+              "@pid": "151/6400"
+            },
+            {
+              "#text": "Pascal Ochem",
+              "@pid": "27/839"
+            },
+            {
+              "#text": "Théo Pierron",
+              "@pid": "177/6072"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/siamdm/BelmonteLM20",
-        "title": "Parameterized (Approximate) Defective Coloring.",
-        "pages": "1084-1106",
-        "year": "2020",
-        "volume": "34",
-        "journal": "SIAM J. Discret. Math.",
-        "number": "2",
-        "ee": "https://doi.org/10.1137/18M1223666",
-        "url": "db/journals/siamdm/siamdm34.html#BelmonteLM20",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1910-01099",
+          "title": "Parameterized complexity of edge-coloured and signed graph homomorphism problems",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1910.01099",
+          "author": [
+            {
+              "#text": "Dimitri Lajou",
+              "@pid": "233/8578"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Hervé Hocquard",
+              "@pid": "52/7568"
+            },
+            {
+              "#text": "Théo Pierron",
+              "@pid": "177/6072"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/siamdm/BelmonteKLMO22",
-        "title": "Grundy Distinguishes Treewidth from Pathwidth.",
-        "pages": "1761-1787",
-        "year": "2022",
-        "volume": "36",
-        "journal": "SIAM J. Discret. Math.",
-        "number": "3",
-        "ee": "https://doi.org/10.1137/20m1385779",
-        "url": "db/journals/siamdm/siamdm36.html#BelmonteKLMO22",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2008-07425",
+          "title": "Grundy Distinguishes Treewidth from Pathwidth",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2008.07425",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/lmcs/LampisM24",
-        "title": "Fine-grained Meta-Theorems for Vertex Integrity.",
-        "year": "2024",
-        "volume": "20",
-        "journal": "Log. Methods Comput. Sci.",
-        "number": "4",
-        "ee": "https://doi.org/10.46298/lmcs-20(4:18)2024",
-        "url": "db/journals/lmcs/lmcs20.html#LampisM24",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2109-10333",
+          "title": "Fine-grained Meta-Theorems for Vertex Integrity",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2109.10333",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dam/LampisMMU18",
-        "title": "Parameterized Edge Hamiltonicity.",
-        "pages": "68-78",
-        "year": "2018",
-        "volume": "248",
-        "journal": "Discret. Appl. Math.",
-        "ee": "https://doi.org/10.1016/j.dam.2017.04.045",
-        "url": "db/journals/dam/dam248.html#LampisMMU18",
-        "authors": [
-          "Michael Lampis",
-          "Kazuhisa Makino",
-          "Valia Mitsou",
-          "Yushi Uno"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2410-08314",
+          "title": "Parameterized Spanning Tree Congestion",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.08314",
+          "author": [
+            {
+              "#text": "Daniel Vaz",
+              "@pid": "133/1705"
+            },
+            {
+              "#text": "Edouard Nemery",
+              "@pid": "390/1331"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dam/DrossFMOP20",
-        "title": "Complexity of planar signed graph homomorphisms to cycles.",
-        "pages": "166-178",
-        "year": "2020",
-        "volume": "284",
-        "journal": "Discret. Appl. Math.",
-        "ee": "https://doi.org/10.1016/j.dam.2020.03.029",
-        "url": "db/journals/dam/dam284.html#DrossFMOP20",
-        "authors": [
-          "FranÃ§ois Dross",
-          "Florent Foucaud",
-          "Valia Mitsou",
-          "Pascal Ochem",
-          "ThÃ©o Pierron"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2501-12282",
+          "title": "Complexity of Jelly-No and Hanano games with various constraints",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.12282",
+          "author": [
+            {
+              "#text": "Owen Crabtree",
+              "@pid": "398/0544"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jip/LampisMS15",
-        "title": "Scrabble is PSPACE-Complete.",
-        "pages": "284-292",
-        "year": "2015",
-        "volume": "23",
-        "journal": "J. Inf. Process.",
-        "number": "3",
-        "ee": "https://doi.org/10.2197/ipsjjip.23.284",
-        "url": "db/journals/jip/jip23.html#LampisMS15",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Karolina Soltys"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2504-13669",
+          "title": "Broadcasting under Structural Restrictions",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.13669",
+          "author": [
+            {
+              "#text": "Daniel Vaz",
+              "@pid": "133/1705"
+            },
+            {
+              "#text": "Edouard Nemery",
+              "@pid": "390/1331"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tatsuya Gima",
+              "@pid": "281/6848"
+            },
+            {
+              "#text": "Tesshu Hanaka",
+              "@pid": "157/1043"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yasuaki Kobayashi",
+              "@pid": "58/8821"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            },
+            {
+              "#text": "Yudai Egami",
+              "@pid": "405/4528"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2501-12282",
-        "title": "Complexity of Jelly-No and Hanano games with various constraints.",
-        "year": "2025",
-        "volume": "abs/2501.12282",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2501.12282",
-        "url": "db/journals/corr/corr2501.html#abs-2501-12282",
-        "authors": [
-          "Owen Crabtree",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/BaffierCDKMRRU16",
+          "title": "Hanabi is NP-complete, Even for Cheaters who Look at Their Cards",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1603.01911",
+          "author": [
+            {
+              "#text": "André van Renssen",
+              "@pid": "21/8434"
+            },
+            {
+              "#text": "Jean-François Baffier",
+              "@pid": "139/8142"
+            },
+            {
+              "#text": "Man-Kwun Chiu",
+              "@pid": "71/3446"
+            },
+            {
+              "#text": "Marcel Roeloffzen",
+              "@pid": "90/9733"
+            },
+            {
+              "#text": "Matias Korman",
+              "@pid": "57/6389"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yago Diez Donoso",
+              "@pid": "02/4232"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1907-03266",
-        "title": "Complexity of planar signed graph homomorphisms to cycles.",
-        "year": "2019",
-        "volume": "abs/1907.03266",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.03266",
-        "url": "db/journals/corr/corr1907.html#abs-1907-03266",
-        "authors": [
-          "FranÃ§ois Dross",
-          "Florent Foucaud",
-          "Valia Mitsou",
-          "Pascal Ochem",
-          "ThÃ©o Pierron"
-        ]
+        "informal": {
+          "@key": "journals/corr/BelmonteLM17",
+          "title": "Defective Coloring on Classes of Perfect Graphs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1702.08903",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BelmonteLM17",
-        "title": "Defective Coloring on Classes of Perfect Graphs.",
-        "year": "2017",
-        "volume": "abs/1702.08903",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1702.08903",
-        "url": "db/journals/corr/corr1702.html#BelmonteLM17",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/Dell0LMM15",
+          "title": "Complexity and Approximability of Parameterized MAX-CSPs",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.05546",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Holger Dell",
+              "@pid": "27/3557"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Tobias Mömke",
+              "@pid": "58/5658"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1801-03879",
-        "title": "Parameterized (Approximate) Defective Coloring.",
-        "year": "2018",
-        "volume": "abs/1801.03879",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1801.03879",
-        "url": "db/journals/corr/corr1801.html#abs-1801-03879",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "informal": {
+          "@key": "journals/corr/LampisM13",
+          "title": "The Computational Complexity of the Game of Set and its Theoretical Applications",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1309.6504",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2410-08314",
-        "title": "Parameterized Spanning Tree Congestion.",
-        "year": "2024",
-        "volume": "abs/2410.08314",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2410.08314",
-        "url": "db/journals/corr/corr2410.html#abs-2410-08314",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Edouard Nemery",
-          "Yota Otachi",
-          "Manolis Vasilakis",
-          "Daniel Vaz 0001"
-        ]
+        "informal": {
+          "@key": "journals/corr/LampisMMU14",
+          "title": "Parameterized Edge Hamiltonicity",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1403.2041",
+          "author": [
+            {
+              "#text": "Kazuhisa Makino",
+              "@pid": "04/3674"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2008-07425",
-        "title": "Grundy Distinguishes Treewidth from Pathwidth.",
-        "year": "2020",
-        "volume": "abs/2008.07425",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2008.07425",
-        "url": "db/journals/corr/corr2008.html#abs-2008-07425",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi"
-        ]
+        "article": {
+          "@key": "journals/dam/DrossFMOP20",
+          "title": "Complexity of planar signed graph homomorphisms to cycles",
+          "journal": "Discret. Appl. Math.",
+          "year": "2020",
+          "pages": "166-178",
+          "ee": "https://doi.org/10.1016/J.DAM.2020.03.029",
+          "author": [
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "François Dross",
+              "@pid": "151/6400"
+            },
+            {
+              "#text": "Pascal Ochem",
+              "@pid": "27/839"
+            },
+            {
+              "#text": "Théo Pierron",
+              "@pid": "177/6072"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1805-08456",
-        "title": "QBF as an Alternative to Courcelle's Theorem.",
-        "year": "2018",
-        "volume": "abs/1805.08456",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1805.08456",
-        "url": "db/journals/corr/corr1805.html#abs-1805-08456",
-        "authors": [
-          "Michael Lampis",
-          "Stefan Mengel",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/dam/LampisMMU18",
+          "title": "Parameterized Edge Hamiltonicity",
+          "journal": "Discret. Appl. Math.",
+          "year": "2018",
+          "pages": "68-78",
+          "ee": "https://doi.org/10.1016/J.DAM.2017.04.045",
+          "author": [
+            {
+              "#text": "Kazuhisa Makino",
+              "@pid": "04/3674"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2504-13669",
-        "title": "Broadcasting under Structural Restrictions.",
-        "year": "2025",
-        "volume": "abs/2504.13669",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2504.13669",
-        "url": "db/journals/corr/corr2504.html#abs-2504-13669",
-        "authors": [
-          "Yudai Egami",
-          "Tatsuya Gima",
-          "Tesshu Hanaka",
-          "Yasuaki Kobayashi",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Edouard Nemery",
-          "Yota Otachi",
-          "Manolis Vasilakis",
-          "Daniel Vaz 0001"
-        ]
+        "article": {
+          "@key": "journals/disopt/LampisKM11",
+          "title": "On the algorithmic effectiveness of digraph decompositions and complexity measures",
+          "journal": "Discret. Optim.",
+          "year": "2011",
+          "pages": "129-138",
+          "ee": "https://doi.org/10.1016/J.DISOPT.2010.03.010",
+          "author": [
+            {
+              "#text": "Georgia Kaouri",
+              "@pid": "28/2533"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/Dell0LMM15",
-        "title": "Complexity and Approximability of Parameterized MAX-CSPs.",
-        "year": "2015",
-        "volume": "abs/1511.05546",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1511.05546",
-        "url": "db/journals/corr/corr1511.html#Dell0LMM15",
-        "authors": [
-          "Holger Dell",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Tobias MÃ¶mke"
-        ]
+        "article": {
+          "@key": "journals/dmtcs/BelmonteLM22",
+          "title": "Defective Coloring on Classes of Perfect Graphs",
+          "journal": "Discret. Math. Theor. Comput. Sci.",
+          "year": "2022",
+          "ee": "https://doi.org/10.46298/DMTCS.4926",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2109-10333",
-        "title": "Fine-grained Meta-Theorems for Vertex Integrity.",
-        "year": "2021",
-        "volume": "abs/2109.10333",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2109.10333",
-        "url": "db/journals/corr/corr2109.html#abs-2109-10333",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/jip/LampisMS15",
+          "title": "Scrabble is PSPACE-Complete",
+          "journal": "J. Inf. Process.",
+          "year": "2015",
+          "pages": "284-292",
+          "ee": "https://doi.org/10.2197/IPSJJIP.23.284",
+          "author": [
+            {
+              "#text": "Karolina Soltys",
+              "@pid": "39/9223"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1807-05322",
-        "title": "Token Sliding on Split Graphs.",
-        "year": "2018",
-        "volume": "abs/1807.05322",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1807.05322",
-        "url": "db/journals/corr/corr1807.html#abs-1807-05322",
-        "authors": [
-          "RÃ©my Belmonte",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Yota Otachi",
-          "Florian Sikora"
-        ]
+        "article": {
+          "@key": "journals/lmcs/LampisM24",
+          "title": "Fine-grained Meta-Theorems for Vertex Integrity",
+          "journal": "Log. Methods Comput. Sci.",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/LMCS-20(4:18)2024",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0912-4941",
-        "title": "Parameterized Modal Satisfiability",
-        "ee": "https://doi.org/10.48550/arXiv.0912.4941",
-        "year": "2009",
-        "journal": "CoRR",
-        "volume": "abs/0912.4941",
-        "url": "db/journals/corr/corr0912.html#abs-0912-4941",
-        "authors": [
-          "Antonis Achilleos",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/mst/BelmonteKLMOS21",
+          "title": "Token Sliding on Split Graphs",
+          "journal": "Theory Comput. Syst.",
+          "year": "2021",
+          "pages": "662-686",
+          "ee": "https://doi.org/10.1007/S00224-020-09967-8",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BaffierCDKMRRU16",
-        "title": "Hanabi is NP-complete, Even for Cheaters who Look at Their Cards.",
-        "year": "2016",
-        "volume": "abs/1603.01911",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1603.01911",
-        "url": "db/journals/corr/corr1603.html#BaffierCDKMRRU16",
-        "authors": [
-          "Jean-FranÃ§ois Baffier",
-          "Man-Kwun Chiu",
-          "Yago Diez",
-          "Matias Korman",
-          "Valia Mitsou",
-          "AndrÃ© van Renssen",
-          "Marcel Roeloffzen",
-          "Yushi Uno"
-        ]
+        "article": {
+          "@key": "journals/mst/GutinKLM11",
+          "title": "Vertex Cover Problem Parameterized Above and Below Tight Bounds",
+          "journal": "Theory Comput. Syst.",
+          "year": "2011",
+          "pages": "402-410",
+          "ee": "https://doi.org/10.1007/S00224-010-9262-Y",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Gregory Z. Gutin",
+              "@pid": "74/2412"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0907-4488",
-        "title": "Vertex Cover Problem Parameterized Above and Below Tight Bounds",
-        "ee": "https://doi.org/10.48550/arXiv.0907.4488",
-        "year": "2009",
-        "journal": "CoRR",
-        "volume": "abs/0907.4488",
-        "url": "db/journals/corr/corr0907.html#abs-0907-4488",
-        "authors": [
-          "Gregory Z. Gutin",
-          "Eun Jung Kim 0002",
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/mst/LampisM09",
+          "title": "The Ferry Cover Problem",
+          "journal": "Theory Comput. Syst.",
+          "year": "2009",
+          "pages": "215-229",
+          "ee": "https://doi.org/10.1007/S00224-008-9107-0",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/LampisMMU14",
-        "title": "Parameterized Edge Hamiltonicity.",
-        "year": "2014",
-        "volume": "abs/1403.2041",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1403.2041",
-        "url": "db/journals/corr/corr1403.html#LampisMMU14",
-        "authors": [
-          "Michael Lampis",
-          "Kazuhisa Makino",
-          "Valia Mitsou",
-          "Yushi Uno"
-        ]
+        "article": {
+          "@key": "journals/siamdm/BelmonteKLMO22",
+          "title": "Grundy Distinguishes Treewidth from Pathwidth",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2022",
+          "pages": "1761-1787",
+          "ee": "https://doi.org/10.1137/20M1385779",
+          "author": [
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yota Otachi",
+              "@pid": "41/4592"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/LampisM13",
-        "title": "The Computational Complexity of the Game of Set and its Theoretical Applications.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1309.6504",
-        "volume": "abs/1309.6504",
-        "url": "db/journals/corr/corr1309.html#LampisM13",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou"
-        ]
+        "article": {
+          "@key": "journals/siamdm/BelmonteLM20",
+          "title": "Parameterized (Approximate) Defective Coloring",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2020",
+          "pages": "1084-1106",
+          "ee": "https://doi.org/10.1137/18M1223666",
+          "author": [
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Rémy Belmonte",
+              "@pid": "72/8575"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1201-5298",
-        "title": "Scrabble is PSPACE-Complete",
-        "ee": "https://doi.org/10.48550/arXiv.1201.5298",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1201.5298",
-        "url": "db/journals/corr/corr1201.html#abs-1201-5298",
-        "authors": [
-          "Michael Lampis",
-          "Valia Mitsou",
-          "Karolina Soltys"
-        ]
+        "article": {
+          "@key": "journals/tcs/BaffierCDKMRRU17",
+          "title": "Hanabi is NP-hard, even for cheaters who look at their cards",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2017",
+          "pages": "43-55",
+          "ee": "https://doi.org/10.1016/J.TCS.2017.02.024",
+          "author": [
+            {
+              "#text": "André van Renssen",
+              "@pid": "21/8434"
+            },
+            {
+              "#text": "Jean-François Baffier",
+              "@pid": "139/8142"
+            },
+            {
+              "#text": "Man-Kwun Chiu",
+              "@pid": "71/3446"
+            },
+            {
+              "#text": "Marcel Roeloffzen",
+              "@pid": "90/9733"
+            },
+            {
+              "#text": "Matias Korman",
+              "@pid": "57/6389"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            },
+            {
+              "#text": "Yago Diez Donoso",
+              "@pid": "02/4232"
+            },
+            {
+              "#text": "Yushi Uno",
+              "@pid": "11/6181"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1910-01099",
-        "title": "Parameterized complexity of edge-coloured and signed graph homomorphism problems.",
-        "year": "2019",
-        "volume": "abs/1910.01099",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1910.01099",
-        "url": "db/journals/corr/corr1910.html#abs-1910-01099",
-        "authors": [
-          "Florent Foucaud",
-          "HervÃ© Hocquard",
-          "Dimitri Lajou",
-          "Valia Mitsou",
-          "ThÃ©o Pierron"
-        ]
+        "article": {
+          "@key": "journals/tcs/Bar-NoyCLMZ12",
+          "title": "Ordered coloring of grids and related graphs",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2012",
+          "pages": "40-51",
+          "ee": "https://doi.org/10.1016/J.TCS.2012.04.036",
+          "author": [
+            {
+              "#text": "Amotz Bar-Noy",
+              "@pid": "b/AmotzBarNoy"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Panagiotis Cheilaris",
+              "@pid": "56/4132"
+            },
+            {
+              "#text": "Stathis Zachos",
+              "@pid": "10/2770"
+            },
+            {
+              "#text": "Valia Mitsou",
+              "@pid": "08/879"
+            }
+          ]
+        }
       }
     ]
   }

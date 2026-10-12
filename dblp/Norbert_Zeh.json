@@ -1,1908 +1,3092 @@
 {
   "dblpperson": {
+    "@name": "Norbert Zeh",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/spire/HongBGLZ24",
-        "title": "Another Virtue of Wavelet Forests.",
-        "pages": "184-191",
-        "year": "2024",
-        "booktitle": "SPIRE",
-        "ee": "https://doi.org/10.1007/978-3-031-72200-4_14",
-        "url": "db/conf/spire/spire2024.html#HongBGLZ24",
-        "authors": [
-          "Aaron Hong",
-          "Christina Boucher 0001",
-          "Travis Gagie",
-          "Yansong Li",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/spaa/ArgeTZ03",
-        "title": "I/O-efficient topological sorting of planar DAGs.",
-        "pages": "85-93",
-        "year": "2003",
-        "booktitle": "SPAA",
-        "ee": "https://doi.org/10.1145/777412.777427",
-        "url": "db/conf/spaa/spaa2003.html#ArgeTZ03",
-        "authors": [
-          "Lars Arge",
-          "Laura Toma",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/spaa/SitchinavaZ12",
-        "title": "A parallel buffer tree.",
-        "pages": "214-223",
-        "year": "2012",
-        "booktitle": "SPAA",
-        "ee": "https://doi.org/10.1145/2312005.2312046",
-        "url": "db/conf/spaa/spaa2012.html#SitchinavaZ12",
-        "authors": [
-          "Nodari Sitchinava",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/bigdataconf/Rau-ChaplinVWYZ13",
-        "title": "QuPARA: Query-driven large-scale portfolio aggregate risk analysis on MapReduce.",
-        "pages": "703-709",
-        "year": "2013",
-        "booktitle": "IEEE BigData",
-        "ee": "https://doi.org/10.1109/BigData.2013.6691640",
-        "url": "db/conf/bigdataconf/bigdataconf2013.html#Rau-ChaplinVWYZ13",
-        "authors": [
-          "Andrew Rau-Chaplin",
-          "Blesson Varghese",
-          "Duane Wilson",
-          "Zhimin Yao",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wabi/WhiddenZ09",
-        "title": "A Unifying View on Approximation and FPT of Agreement Forests.",
-        "pages": "390-402",
-        "year": "2009",
-        "booktitle": "WABI",
-        "ee": "https://doi.org/10.1007/978-3-642-04241-6_32",
-        "url": "db/conf/wabi/wabi2009.html#WhiddenZ09",
-        "authors": [
-          "Chris Whidden",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wabi/HickeyCMZ08",
-        "title": "NAPX: A Polynomial Time Approximation Scheme for the Noah's Ark Problem.",
-        "pages": "76-86",
-        "year": "2008",
-        "booktitle": "WABI",
-        "ee": "https://doi.org/10.1007/978-3-540-87361-7_7",
-        "url": "db/conf/wabi/wabi2008.html#HickeyCMZ08",
-        "authors": [
-          "Glenn Hickey",
-          "Paz Carmi",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/AfshaniZ11",
-        "title": "Improved Space Bounds for Cache-Oblivious Range Reporting.",
-        "pages": "1745-1758",
-        "year": "2011",
-        "booktitle": "SODA",
-        "ee": "http://dl.acm.org/citation.cfm?id=2133170",
-        "url": "db/conf/soda/soda2011.html#AfshaniZ11",
-        "authors": [
-          "Peyman Afshani",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/MaheshwariZ02",
-        "title": "I/O-optimal algorithms for planar graphs using separators.",
-        "pages": "372-381",
-        "year": "2002",
-        "booktitle": "SODA",
-        "ee": "http://dl.acm.org/citation.cfm?id=545381.545430",
-        "url": "db/conf/soda/soda2002.html#MaheshwariZ02",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/WalderveenZA13",
-        "title": "Multiway Simple Cycle Separators and I/O-Efficient Algorithms for Planar Graphs.",
-        "pages": "901-918",
-        "year": "2013",
-        "booktitle": "SODA",
-        "ee": "https://doi.org/10.1137/1.9781611973105.65",
-        "url": "db/conf/soda/soda2013.html#WalderveenZA13",
-        "authors": [
-          "Freek van Walderveen",
-          "Norbert Zeh",
-          "Lars Arge"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/AfshaniBZ11",
-        "title": "Ordered and Unordered Top-K Range Reporting in Large Data Sets.",
-        "pages": "390-400",
-        "year": "2011",
-        "booktitle": "SODA",
-        "ee": "http://dl.acm.org/citation.cfm?id=2133067",
-        "url": "db/conf/soda/soda2011.html#AfshaniBZ11",
-        "authors": [
-          "Peyman Afshani",
-          "Gerth StÃ¸lting Brodal",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/AllulliLZ07",
-        "title": "A faster cache-oblivious shortest-path algorithm for undirected graphs with bounded edge lengths.",
-        "pages": "910-919",
-        "year": "2007",
-        "booktitle": "SODA",
-        "ee": "http://dl.acm.org/citation.cfm?id=1283383.1283481",
-        "url": "db/conf/soda/soda2007.html#AllulliLZ07",
-        "authors": [
-          "Luca Allulli",
-          "Peter Lichodzijewski",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/soda/MaheshwariZ01",
-        "title": "I/O-efficient algorithms for graphs of bounded treewidth.",
-        "pages": "89-90",
-        "year": "2001",
-        "booktitle": "SODA",
-        "ee": "http://dl.acm.org/citation.cfm?id=365411.365423",
-        "url": "db/conf/soda/soda2001.html#MaheshwariZ01",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/nldb/RakibZJM20",
-        "title": "Enhancement of Short Text Clustering by Iterative Classification.",
-        "pages": "105-117",
-        "year": "2020",
-        "booktitle": "NLDB",
-        "ee": "https://doi.org/10.1007/978-3-030-51310-8_10",
-        "url": "db/conf/nldb/nldb2020.html#RakibZJM20",
-        "authors": [
-          "Md. Rashadul Hasan Rakib",
-          "Norbert Zeh",
-          "Magdalena Jankowska",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cocoon/HutchinsonMZ99",
-        "title": "An External Memory Data Structure for Shortest Path Queries.",
-        "pages": "51-60",
-        "ee": "https://doi.org/10.1007/3-540-48686-0_5",
-        "year": "1999",
-        "booktitle": "COCOON",
-        "url": "db/conf/cocoon/cocoon99.html#HutchinsonMZ99",
-        "authors": [
-          "David A. Hutchinson",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cocoon/LyuGHNZ23",
-        "title": "Sum-of-Local-Effects Data Structures for Separable Graphs.",
-        "pages": "195-206",
-        "year": "2023",
-        "booktitle": "COCOON (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-49190-0_14",
-        "url": "db/conf/cocoon/cocoon2023-1.html#LyuGHNZ23",
-        "authors": [
-          "Xing Lyu",
-          "Travis Gagie",
-          "Meng He 0001",
-          "Yakov Nekrich",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/doceng/AiMMZ0M17",
-        "title": "High-performance Computational Framework for Phrase Relatedness.",
-        "pages": "145-148",
-        "year": "2017",
-        "booktitle": "DocEng",
-        "ee": "https://doi.org/10.1145/3103010.3121039",
-        "url": "db/conf/doceng/doceng2017.html#AiMMZ0M17",
-        "authors": [
-          "Zichu Ai",
-          "Jie Mei 0005",
-          "Abidalrahman Moh'd",
-          "Norbert Zeh",
-          "Meng He 0001",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/doceng/RakibZM21",
-        "title": "Efficient clustering of short text streams using online-offline clustering.",
-        "pages": "5:1-5:10",
-        "year": "2021",
-        "booktitle": "DocEng",
-        "ee": "https://doi.org/10.1145/3469096.3469866",
-        "url": "db/conf/doceng/doceng2021.html#RakibZM21",
-        "authors": [
-          "Md. Rashadul Hasan Rakib",
-          "Norbert Zeh",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/doceng/RakibJZM18",
-        "title": "Improving Short Text Clustering by Similarity Matrix Sparsification.",
-        "pages": "50:1-50:4",
-        "year": "2018",
-        "booktitle": "DocEng",
-        "ee": "https://doi.org/10.1145/3209280.3229114",
-        "url": "db/conf/doceng/doceng2018.html#RakibJZM18",
-        "authors": [
-          "Md. Rashadul Hasan Rakib",
-          "Magdalena Jankowska",
-          "Norbert Zeh",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/doceng/RakibZM20",
-        "title": "Short Text Stream Clustering via Frequent Word Pairs and Reassignment of Outliers to Clusters.",
-        "pages": "13:1-13:4",
-        "year": "2020",
-        "booktitle": "DocEng",
-        "ee": "https://doi.org/10.1145/3395027.3419589",
-        "url": "db/conf/doceng/doceng2020.html#RakibZM20",
-        "authors": [
-          "Md. Rashadul Hasan Rakib",
-          "Norbert Zeh",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ipps/AjwaniSZ11",
-        "title": "I/O-Optimal Distribution Sweeping on Private-Cache Chip Multiprocessors.",
-        "pages": "1114-1123",
-        "year": "2011",
-        "booktitle": "IPDPS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/IPDPS.2011.106",
-        "url": "db/conf/ipps/ipdps2011.html#AjwaniSZ11",
-        "authors": [
-          "Deepak Ajwani",
-          "Nodari Sitchinava",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dagstuhl/MaheshwariZ02",
-        "title": "A Survey of Techniques for Designing I/O-Efficient Algorithms.",
-        "pages": "36-61",
-        "year": "2002",
-        "booktitle": "Algorithms for Memory Hierarchies",
-        "ee": "https://doi.org/10.1007/3-540-36574-5_3",
-        "url": "db/conf/dagstuhl/amh2002.html#MaheshwariZ02",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dagstuhl/TomaZ02",
-        "title": "I/O-Efficient Algorithms for Sparse Graphs.",
-        "pages": "85-109",
-        "year": "2002",
-        "booktitle": "Algorithms for Memory Hierarchies",
-        "ee": "https://doi.org/10.1007/3-540-36574-5_5",
-        "url": "db/conf/dagstuhl/amh2002.html#TomaZ02",
-        "authors": [
-          "Laura Toma",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/MeyerZ03",
-        "title": "I/O-Efficient Undirected Shortest Paths.",
-        "pages": "434-445",
-        "ee": "https://doi.org/10.1007/978-3-540-39658-1_40",
-        "year": "2003",
-        "booktitle": "ESA",
-        "url": "db/conf/esa/esa2003.html#MeyerZ03",
-        "authors": [
-          "Ulrich Meyer 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/ArgeMZ08",
-        "title": "Cache-Oblivious Red-Blue Line Segment Intersection.",
-        "pages": "88-99",
-        "year": "2008",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.1007/978-3-540-87744-8_8",
-        "url": "db/conf/esa/esa2008.html#ArgeMZ08",
-        "authors": [
-          "Lars Arge",
-          "Thomas MÃ¸lhave",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/LiZ17",
-        "title": "Computing Maximum Agreement Forests without Cluster Partitioning is Folly.",
-        "pages": "56:1-56:14",
-        "year": "2017",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.4230/LIPIcs.ESA.2017.56",
-        "url": "db/conf/esa/esa2017.html#LiZ17",
-        "authors": [
-          "Zhijiang Li",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/GovindarajanLMZ00",
-        "title": "I/O-Efficient Well-Separated Pair Decomposition and Its Applications.",
-        "pages": "220-231",
-        "year": "2000",
-        "booktitle": "ESA",
-        "url": "db/conf/esa/esa2000.html#GovindarajanLMZ00",
-        "ee": "https://doi.org/10.1007/3-540-45253-2_21",
-        "authors": [
-          "Sathish Govindarajan",
-          "TamÃ¡s Lukovszki",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/AfshaniZ12",
-        "title": "Lower Bounds for Sorted Geometric Queries in the I/O Model.",
-        "pages": "48-59",
-        "year": "2012",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.1007/978-3-642-33090-2_6",
-        "url": "db/conf/esa/esa2012.html#AfshaniZ12",
-        "authors": [
-          "Peyman Afshani",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/AjwaniSZ10",
-        "title": "Geometric Algorithms for Private-Cache Chip Multiprocessors - (Extended Abstract).",
-        "pages": "75-86",
-        "year": "2010",
-        "booktitle": "ESA (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-15781-3_7",
-        "url": "db/conf/esa/esa2010-2.html#AjwaniSZ10",
-        "authors": [
-          "Deepak Ajwani",
-          "Nodari Sitchinava",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/MeyerZ06",
-        "title": "I/O-Efficient Undirected Shortest Paths with Unbounded Edge Lengths.",
-        "pages": "540-551",
-        "year": "2006",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.1007/11841036_49",
-        "url": "db/conf/esa/esa2006.html#MeyerZ06",
-        "authors": [
-          "Ulrich Meyer 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/kdd/KeseljLZBW09",
-        "title": "Finding optimal parameters for edit distance based sequence classification is NP-hard.",
-        "pages": "17-21",
-        "year": "2009",
-        "booktitle": "KDD Workshop on Statistical and Relational Learning in Bioinformatics",
-        "ee": "https://www.wikidata.org/entity/Q130991653",
-        "url": "db/conf/kdd/srb2009.html#KeseljLZBW09",
-        "authors": [
-          "Vlado Keselj",
-          "Haibin Liu",
-          "Norbert Zeh",
-          "Christian Blouin",
-          "Chris Whidden"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fsttcs/LukovszkiMZ01",
-        "title": "I/O-Efficient Batched Range Counting and Its Applications to Proximity Problems.",
-        "pages": "244-255",
-        "year": "2001",
-        "booktitle": "FSTTCS",
-        "ee": "https://doi.org/10.1007/3-540-45294-X_21",
-        "url": "db/conf/fsttcs/fsttcs2001.html#LukovszkiMZ01",
-        "authors": [
-          "TamÃ¡s Lukovszki",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/ArgeZ06",
-        "title": "Simple and semi-dynamic structures for cache-oblivious planar orthogonal range searching.",
-        "pages": "158-166",
-        "year": "2006",
-        "booktitle": "SCG",
-        "ee": "https://doi.org/10.1145/1137856.1137883",
-        "url": "db/conf/compgeom/compgeom2006.html#ArgeZ06",
-        "authors": [
-          "Lars Arge",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/ArgeRZ10",
-        "title": "I/O-efficient computation of water flow across a terrain.",
-        "pages": "403-412",
-        "year": "2010",
-        "booktitle": "SCG",
-        "ee": "https://doi.org/10.1145/1810959.1811026",
-        "url": "db/conf/compgeom/compgeom2010.html#ArgeRZ10",
-        "authors": [
-          "Lars Arge",
-          "Morten RevsbÃ¦k",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/AfshaniHZ09a",
-        "title": "A general approach for cache-oblivious range reporting and approximate range counting.",
-        "pages": "287-295",
-        "year": "2009",
-        "booktitle": "SCG",
-        "ee": "https://doi.org/10.1145/1542362.1542413",
-        "url": "db/conf/compgeom/compgeom2009.html#AfshaniHZ09a",
-        "authors": [
-          "Peyman Afshani",
-          "Chris H. Hamilton",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/AfshaniHZ09",
-        "title": "Cache-oblivious range reporting with optimal queries requires superlinear space.",
-        "pages": "277-286",
-        "year": "2009",
-        "booktitle": "SCG",
-        "ee": "https://doi.org/10.1145/1542362.1542412",
-        "url": "db/conf/compgeom/compgeom2009.html#AfshaniHZ09",
-        "authors": [
-          "Peyman Afshani",
-          "Chris H. Hamilton",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cccg/MaheshwariVZ02",
-        "title": "On reverse nearest neighbor queries.",
-        "pages": "128-132",
-        "year": "2002",
-        "booktitle": "CCCG",
-        "ee": "http://www.cs.uleth.ca/~wismath/cccg/papers/32.ps",
-        "url": "db/conf/cccg/cccg2002.html#MaheshwariVZ02",
-        "authors": [
-          "Anil Maheshwari",
-          "Jan Vahrenhold",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cccg/BoseCCDPTZ09",
-        "title": "Relaxed Gabriel Graphs.",
-        "pages": "169-172",
-        "year": "2009",
-        "booktitle": "CCCG",
-        "ee": "http://cccg.ca/proceedings/2009/cccg09_44.pdf",
-        "url": "db/conf/cccg/cccg2009.html#BoseCCDPTZ09",
-        "authors": [
-          "Prosenjit Bose",
-          "Jean Cardinal",
-          "SÃ©bastien Collette",
-          "Erik D. Demaine",
-          "BelÃ©n Palop",
-          "Perouz Taslakian",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dexa/DeveauxRZ07",
-        "title": "Adaptive Tuple Differential Coding.",
-        "pages": "109-119",
-        "year": "2007",
-        "booktitle": "DEXA",
-        "ee": "https://doi.org/10.1007/978-3-540-74469-6_12",
-        "url": "db/conf/dexa/dexa2007.html#DeveauxRZ07",
-        "authors": [
-          "Jean-Paul Deveaux",
-          "Andrew Rau-Chaplin",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccS/Rau-ChaplinYZ14",
-        "title": "Efficient Data Structures for Risk Modelling in Portfolios of Catastrophic Risk Using MapReduce.",
-        "pages": "1557-1568",
-        "year": "2014",
-        "booktitle": "ICCS",
-        "ee": "https://doi.org/10.1016/j.procs.2014.05.141",
-        "url": "db/conf/iccS/iccS2014.html#Rau-ChaplinYZ14",
-        "authors": [
-          "Andrew Rau-Chaplin",
-          "Zhimin Yao",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/www/SaeidiMZ22",
-        "title": "Biomedical Word Sense Disambiguation with Contextualized Representation Learning.",
-        "pages": "843-848",
-        "year": "2022",
-        "booktitle": "WWW (Companion Volume)",
-        "ee": "https://doi.org/10.1145/3487553.3524703",
-        "url": "db/conf/www/www2022c.html#SaeidiMZ22",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Evangelos E. Milios",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/waoa/BoseCCMSZ07",
-        "title": "Geometric Spanners with Small Chromatic Number.",
-        "pages": "75-88",
-        "year": "2007",
-        "booktitle": "WAOA",
-        "ee": "https://doi.org/10.1007/978-3-540-77918-6_7",
-        "url": "db/conf/waoa/waoa2007.html#BoseCCMSZ07",
-        "authors": [
-          "Prosenjit Bose",
-          "Paz Carmi",
-          "Mathieu Couture",
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/hpcs/Cosgaya-LozanoRZ07",
-        "title": "Parallel Computation of Skyline Queries.",
-        "pages": "12",
-        "year": "2007",
-        "booktitle": "HPCS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/HPCS.2007.25",
-        "url": "db/conf/hpcs/hpcs2007.html#Cosgaya-LozanoRZ07",
-        "authors": [
-          "Adan Cosgaya-Lozano",
-          "Andrew Rau-Chaplin",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icalp/JampalaZ05",
-        "title": "Cache-Oblivious Planar Shortest Paths.",
-        "pages": "563-575",
-        "year": "2005",
-        "booktitle": "ICALP",
-        "ee": "https://doi.org/10.1007/11523468_46",
-        "url": "db/conf/icalp/icalp2005.html#JampalaZ05",
-        "authors": [
-          "Hema Jampala",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/stacs/BoseMNSZ03",
-        "title": "Approximating Geometric Bottleneck Shortest Paths.",
-        "pages": "38-49",
-        "year": "2003",
-        "booktitle": "STACS",
-        "ee": "https://doi.org/10.1007/3-540-36494-3_5",
-        "url": "db/conf/stacs/stacs2003.html#BoseMNSZ03",
-        "authors": [
-          "Prosenjit Bose",
-          "Anil Maheshwari",
-          "Giri Narasimhan",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/swat/BrodalFMZ04",
-        "title": "Cache-Oblivious Data Structures and Algorithms for Undirected Breadth-First Search and Shortest Paths.",
-        "pages": "480-492",
-        "ee": "https://doi.org/10.1007/978-3-540-27810-8_41",
-        "year": "2004",
-        "booktitle": "SWAT",
-        "url": "db/conf/swat/swat2004.html#BrodalFMZ04",
-        "authors": [
-          "Gerth StÃ¸lting Brodal",
-          "Rolf Fagerberg",
-          "Ulrich Meyer 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/swat/Zeh04",
-        "title": "Connectivity of Graphs Under Edge Flips.",
-        "pages": "161-173",
-        "ee": "https://doi.org/10.1007/978-3-540-27810-8_15",
-        "year": "2004",
-        "booktitle": "SWAT",
-        "url": "db/conf/swat/swat2004.html#Zeh04",
-        "authors": [
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/focs/ArgeZ03",
-        "title": "I/O-Efficient Strong Connectivity and Depth-First Search for Directed Planar Graphs.",
-        "pages": "261-270",
-        "year": "2003",
-        "booktitle": "FOCS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SFCS.2003.1238200",
-        "url": "db/conf/focs/focs2003.html#ArgeZ03",
-        "authors": [
-          "Lars Arge",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recombcg/LafondLTWWZ26",
-        "title": "Cherry-Picking Distance Between Binary Orchards Parameterized by Level.",
-        "booktitle": "RECOMB-CG",
-        "year": "2026",
-        "pages": "283-314",
-        "ee": "https://doi.org/10.1007/978-3-032-26891-4_14",
-        "url": "db/conf/recombcg/recombcg2026.html#LafondLTWWZ26",
-        "authors": [
-          "Manuel Lafond",
-          "Kaari Landry",
-          "Olivier Tremblay-Savard",
-          "Hamza Wahed",
-          "Christopher Whidden",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/alenex/AjwaniCZ11",
-        "title": "Engineering a Topological Sorting Algorithm for Massive Graphs.",
-        "pages": "139-150",
-        "year": "2011",
-        "booktitle": "ALENEX",
-        "ee": "https://doi.org/10.1137/1.9781611972917.14",
-        "url": "db/conf/alenex/alenex2011.html#AjwaniCZ11",
-        "authors": [
-          "Deepak Ajwani",
-          "Adan Cosgaya-Lozano",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/HeNZ12",
-        "title": "A Space-Efficient Framework for Dynamic Point Location.",
-        "pages": "548-557",
-        "year": "2012",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-642-35261-4_57",
-        "url": "db/conf/isaac/isaac2012.html#HeNZ12",
-        "authors": [
-          "Meng He 0001",
-          "Patrick K. Nicholson",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/NowakowskiZ04",
-        "title": "Boundary-Optimal Triangulation Flooding.",
-        "pages": "717-728",
-        "ee": "https://doi.org/10.1007/978-3-540-30551-4_62",
-        "year": "2004",
-        "booktitle": "ISAAC",
-        "url": "db/conf/isaac/isaac2004.html#NowakowskiZ04",
-        "authors": [
-          "Richard J. Nowakowski",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/ScottSZ06",
-        "title": "Politician's Firefighting.",
-        "pages": "608-617",
-        "year": "2006",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/11940128_61",
-        "url": "db/conf/isaac/isaac2006.html#ScottSZ06",
-        "authors": [
-          "Allan E. Scott",
-          "Ulrike Stege",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/HeTZ14",
-        "title": "Orienting Dynamic Graphs, with Applications to Maximal Matchings and Adjacency Queries.",
-        "pages": "128-140",
-        "year": "2014",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-319-13075-0_11",
-        "url": "db/conf/isaac/isaac2014.html#HeTZ14",
-        "authors": [
-          "Meng He 0001",
-          "Ganggui Tang",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/MaheshwariZ99",
-        "title": "External Memory Algorithms for Outerplanar Graphs.",
-        "pages": "307-316",
-        "ee": "https://doi.org/10.1007/3-540-46632-0_31",
-        "year": "1999",
-        "booktitle": "ISAAC",
-        "url": "db/conf/isaac/isaac99.html#MaheshwariZ99",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/DorrigivHZ12",
-        "title": "On the Advice Complexity of Buffer Management.",
-        "pages": "136-145",
-        "year": "2012",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-642-35261-4_17",
-        "url": "db/conf/isaac/isaac2012.html#DorrigivHZ12",
-        "authors": [
-          "Reza Dorrigiv",
-          "Meng He 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/DillabaughHMZ09",
-        "title": "I/O and Space-Efficient Path Traversal in Planar Graphs.",
-        "pages": "1175-1184",
-        "year": "2009",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.1007/978-3-642-10631-6_118",
-        "url": "db/conf/isaac/isaac2009.html#DillabaughHMZ09",
-        "authors": [
-          "Craig Dillabaugh",
-          "Meng He 0001",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icmla/SaeidiMZ21",
-        "title": "Graph Convolutional Networks for Categorizing Online Harassment on Twitter.",
-        "pages": "946-951",
-        "year": "2021",
-        "booktitle": "ICMLA",
-        "ee": "https://doi.org/10.1109/ICMLA52953.2021.00156",
-        "url": "db/conf/icmla/icmla2021.html#SaeidiMZ21",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Evangelos E. Milios",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wea/WhiddenBZ10",
-        "title": "Fast FPT Algorithms for Computing Rooted Agreement Forests: Theory and Experiments.",
-        "pages": "141-153",
-        "year": "2010",
-        "booktitle": "SEA",
-        "ee": "https://doi.org/10.1007/978-3-642-13193-6_13",
-        "url": "db/conf/wea/sea2010.html#WhiddenBZ10",
-        "authors": [
-          "Chris Whidden",
-          "Robert G. Beiko",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wea/FerresSHZ15",
-        "title": "Parallel Construction of Succinct Trees.",
-        "pages": "3-14",
-        "year": "2015",
-        "booktitle": "SEA",
-        "ee": "https://doi.org/10.1007/978-3-319-20086-6_1",
-        "url": "db/conf/wea/sea2015.html#FerresSHZ15",
-        "authors": [
-          "Leo Ferres",
-          "JosÃ© Fuentes-SepÃºlveda",
-          "Meng He 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wea/Cosgaya-LozanoZ09",
-        "title": "A Heuristic Strong Connectivity Algorithm for Large Graphs.",
-        "pages": "113-124",
-        "year": "2009",
-        "booktitle": "SEA",
-        "ee": "https://doi.org/10.1007/978-3-642-02011-7_12",
-        "url": "db/conf/wea/sea2009.html#Cosgaya-LozanoZ09",
-        "authors": [
-          "Adan Cosgaya-Lozano",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sac/BaltzerRZ13",
-        "title": "Building a scalable spatial OLAP system.",
-        "pages": "13-15",
-        "year": "2013",
-        "booktitle": "SAC",
-        "ee": "https://doi.org/10.1145/2480362.2480366",
-        "url": "db/conf/sac/sac2013.html#BaltzerRZ13",
-        "authors": [
-          "Oliver Baltzer",
-          "Andrew Rau-Chaplin",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wads/MaheshwariSZ01",
-        "title": "I/O-Efficient Shortest Path Queries in Geometric Spanners.",
-        "pages": "287-299",
-        "year": "2001",
-        "booktitle": "WADS",
-        "ee": "https://doi.org/10.1007/3-540-44634-6_27",
-        "url": "db/conf/wads/wads2001.html#MaheshwariSZ01",
-        "authors": [
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wads/ArgeMTZ01",
-        "title": "On External-Memory Planar Depth First Search.",
-        "pages": "471-482",
-        "year": "2001",
-        "booktitle": "WADS",
-        "ee": "https://doi.org/10.1007/3-540-44634-6_43",
-        "url": "db/conf/wads/wads2001.html#ArgeMTZ01",
-        "authors": [
-          "Lars Arge",
-          "Ulrich Meyer 0001",
-          "Laura Toma",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/alcob/IerselJJMZ18",
-        "title": "Polynomial-Time Algorithms for Phylogenetic Inference Problems.",
-        "pages": "37-49",
-        "year": "2018",
-        "booktitle": "AlCoB",
-        "ee": "https://doi.org/10.1007/978-3-319-91938-6_4",
-        "url": "db/conf/alcob/alcob2018.html#IerselJJMZ18",
-        "authors": [
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dcc/HongBGLZ24",
-        "title": "Another virtue of wavelet forests.",
-        "pages": "559",
-        "year": "2024",
-        "booktitle": "DCC",
-        "ee": "https://doi.org/10.1109/DCC58796.2024.00076",
-        "url": "db/conf/dcc/dcc2024.html#HongBGLZ24",
-        "authors": [
-          "Aaron Hong",
-          "Christina Boucher 0001",
-          "Travis Gagie",
-          "Yansong Li",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cascon/BurkeBZ20",
-        "title": "Efficient location-level risk analytics.",
-        "pages": "33-42",
-        "year": "2020",
-        "booktitle": "CASCON",
-        "ee": "https://dl.acm.org/doi/10.5555/3432601.3432606",
-        "url": "db/conf/cascon/cascon2020.html#BurkeBZ20",
-        "authors": [
-          "Neil Burke",
-          "Oliver Baltzer",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sirocco/ZehS01",
-        "title": "On Finding Minimum Deadly Sets for Directed Networks.",
-        "pages": "351-366",
-        "year": "2001",
-        "booktitle": "SIROCCO",
-        "url": "db/conf/sirocco/sirocco2001.html#ZehS01",
-        "authors": [
-          "Norbert Zeh",
-          "Nicola Santoro"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/latin/0001NZ18",
-        "title": "Maximal and Convex Layers of Random Point Sets.",
-        "pages": "597-610",
-        "year": "2018",
-        "booktitle": "LATIN",
-        "ee": "https://doi.org/10.1007/978-3-319-77404-6_44",
-        "url": "db/conf/latin/latin2018.html#0001NZ18",
-        "authors": [
-          "Meng He 0001",
-          "Cuong P. Nguyen",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkdd/SaeidiSMZB19",
-        "title": "Categorizing Online Harassment on Twitter.",
-        "pages": "283-297",
-        "year": "2019",
-        "booktitle": "PKDD/ECML Workshops (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-43887-6_22",
-        "url": "db/conf/pkdd/pkdd2019-w2.html#SaeidiSMZB19",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Samuel Bruno da Silva Sousa",
-          "Evangelos E. Milios",
-          "Norbert Zeh",
-          "Lilian Berton"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icdar/SaeidiMZ21a",
-        "title": "Graph Representation Learning in Document Wikification.",
-        "pages": "509-524",
-        "year": "2021",
-        "booktitle": "ICDAR Workshops (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-86159-9_37",
-        "url": "db/conf/icdar/icdar2021w-2.html#SaeidiMZ21a",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Evangelos E. Milios",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icdar/SaeidiMZ21",
-        "title": "Contextualized Knowledge Base Sense Embeddings in Word Sense Disambiguation.",
-        "pages": "174-186",
-        "year": "2021",
-        "booktitle": "ICDAR Workshops (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-86159-9_12",
-        "url": "db/conf/icdar/icdar2021w-2.html#SaeidiMZ21",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Evangelos E. Milios",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/BoseMNSZ04",
-        "title": "Approximating geometric bottleneck shortest paths.",
-        "pages": "233-249",
-        "year": "2004",
-        "volume": "29",
-        "journal": "Comput. Geom.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.comgeo.2004.04.003",
-        "url": "db/journals/comgeo/comgeo29.html#BoseMNSZ04",
-        "authors": [
-          "Prosenjit Bose",
-          "Anil Maheshwari",
-          "Giri Narasimhan",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/Zeh10",
-        "title": "Editorial.",
-        "pages": "329-330",
-        "year": "2010",
-        "volume": "43",
-        "journal": "Comput. Geom.",
-        "number": "4",
-        "ee": "https://doi.org/10.1016/j.comgeo.2009.06.007",
-        "url": "db/journals/comgeo/comgeo43.html#Zeh10",
-        "authors": [
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/BoseCCMSZ09",
-        "title": "Geometric spanners with small chromatic number.",
-        "pages": "134-146",
-        "year": "2009",
-        "volume": "42",
-        "journal": "Comput. Geom.",
-        "number": "2",
-        "ee": "https://doi.org/10.1016/j.comgeo.2008.04.003",
-        "url": "db/journals/comgeo/comgeo42.html#BoseCCMSZ09",
-        "authors": [
-          "Prosenjit Bose",
-          "Paz Carmi",
-          "Mathieu Couture",
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/HeZ19",
-        "title": "Editorial: Special issue on the 26th Canadian Conference on Computational Geometry (CCCG).",
-        "pages": "1-2",
-        "year": "2019",
-        "volume": "77",
-        "journal": "Comput. Geom.",
-        "ee": "https://doi.org/10.1016/j.comgeo.2018.08.001",
-        "url": "db/journals/comgeo/comgeo77.html#HeZ19",
-        "authors": [
-          "Meng He 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/AfshaniHZ10",
-        "title": "A general approach for cache-oblivious range reporting and approximate range counting.",
-        "pages": "700-712",
-        "year": "2010",
-        "volume": "43",
-        "journal": "Comput. Geom.",
-        "number": "8",
-        "ee": "https://doi.org/10.1016/j.comgeo.2010.04.003",
-        "url": "db/journals/comgeo/comgeo43.html#AfshaniHZ10",
-        "authors": [
-          "Peyman Afshani",
-          "Chris H. Hamilton",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/MaheshwariSZ08",
-        "title": "I/O-efficient algorithms for computing planar geometric spanners.",
-        "pages": "252-271",
-        "year": "2008",
-        "volume": "40",
-        "journal": "Comput. Geom.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.comgeo.2007.07.007",
-        "url": "db/journals/comgeo/comgeo40.html#MaheshwariSZ08",
-        "authors": [
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/talg/MeyerZ12",
-        "title": "I/O-efficient shortest path algorithms for undirected graphs with random or bounded edge lengths.",
-        "pages": "22:1-22:28",
-        "year": "2012",
-        "volume": "8",
-        "journal": "ACM Trans. Algorithms",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/2229163.2229166",
-        "url": "db/journals/talg/talg8.html#MeyerZ12",
-        "authors": [
-          "Ulrich Meyer 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/MaheshwariZ09",
-        "title": "I/O-Efficient Algorithms for Graphs of Bounded Treewidth.",
-        "pages": "413-469",
-        "year": "2009",
-        "volume": "54",
-        "journal": "Algorithmica",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00453-007-9131-5",
-        "url": "db/journals/algorithmica/algorithmica54.html#MaheshwariZ09",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/DillabaughHMZ17",
-        "title": "I/O-Efficient Path Traversal in Succinct Planar Graphs.",
-        "pages": "714-755",
-        "year": "2017",
-        "volume": "77",
-        "journal": "Algorithmica",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00453-015-0086-7",
-        "url": "db/journals/algorithmica/algorithmica77.html#DillabaughHMZ17",
-        "authors": [
-          "Craig Dillabaugh",
-          "Meng He 0001",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/WhiddenBZ16",
-        "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests of Multifurcating Trees.",
-        "pages": "1019-1054",
-        "year": "2016",
-        "volume": "74",
-        "journal": "Algorithmica",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00453-015-9983-z",
-        "url": "db/journals/algorithmica/algorithmica74.html#WhiddenBZ16",
-        "authors": [
-          "Chris Whidden",
-          "Robert G. Beiko",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/IerselJJMZ22",
-        "title": "A Practical Fixed-Parameter Algorithm for Constructing Tree-Child Networks from Multiple Binary Trees.",
-        "pages": "917-960",
-        "year": "2022",
-        "volume": "84",
-        "journal": "Algorithmica",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00453-021-00914-8",
-        "url": "db/journals/algorithmica/algorithmica84.html#IerselJJMZ22",
-        "authors": [
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/GovindarajanLMZ06",
-        "title": "I/O-Efficient Well-Separated Pair Decomposition and Applications.",
-        "pages": "585-614",
-        "year": "2006",
-        "volume": "45",
-        "journal": "Algorithmica",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00453-005-1197-3",
-        "url": "db/journals/algorithmica/algorithmica45.html#GovindarajanLMZ06",
-        "authors": [
-          "Sathish Govindarajan",
-          "TamÃ¡s Lukovszki",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/siamcomp/WhiddenBZ13",
-        "title": "Fixed-Parameter Algorithms for Maximum Agreement Forests.",
-        "pages": "1431-1466",
-        "year": "2013",
-        "volume": "42",
-        "journal": "SIAM J. Comput.",
-        "number": "4",
-        "ee": "https://doi.org/10.1137/110845045",
-        "url": "db/journals/siamcomp/siamcomp42.html#WhiddenBZ13",
-        "authors": [
-          "Chris Whidden",
-          "Robert G. Beiko",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/siamcomp/MaheshwariZ08",
-        "title": "I/O-Efficient Planar Separators.",
-        "pages": "767-801",
-        "year": "2008",
-        "volume": "38",
-        "journal": "SIAM J. Comput.",
-        "number": "3",
-        "ee": "https://doi.org/10.1137/S0097539705446925",
-        "url": "db/journals/siamcomp/siamcomp38.html#MaheshwariZ08",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tcs/SepulvedaFHZ17",
-        "title": "Parallel construction of succinct trees.",
-        "pages": "1-22",
-        "year": "2017",
-        "volume": "700",
-        "journal": "Theor. Comput. Sci.",
-        "ee": "https://doi.org/10.1016/j.tcs.2017.07.025",
-        "url": "db/journals/tcs/tcs700.html#SepulvedaFHZ17",
-        "authors": [
-          "JosÃ© Fuentes-SepÃºlveda",
-          "Leo Ferres",
-          "Meng He 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jdim/BaltzerRZ07",
-        "title": "Storage and Indexing of Relational OLAP Views with Mixed Categorical and Continuous Dimensions.",
-        "pages": "180-190",
-        "year": "2007",
-        "volume": "5",
-        "journal": "J. Digit. Inf. Manag.",
-        "number": "4",
-        "url": "db/journals/jdim/jdim5.html#BaltzerRZ07",
-        "authors": [
-          "Oliver Baltzer",
-          "Andrew Rau-Chaplin",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jgaa/ArgeMTZ03",
-        "title": "On External-Memory Planar Depth First Search.",
-        "pages": "105-129",
-        "year": "2003",
-        "volume": "7",
-        "journal": "J. Graph Algorithms Appl.",
-        "number": "2",
-        "ee": "https://doi.org/10.7155/jgaa.00063",
-        "url": "db/journals/jgaa/jgaa7.html#ArgeMTZ03",
-        "authors": [
-          "Lars Arge",
-          "Ulrich Meyer 0001",
-          "Laura Toma",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jgaa/MaheshwariZ04",
-        "title": "I/O-Optimal Algorithms for Outerplanar Graphs.",
-        "pages": "47-87",
-        "year": "2004",
-        "volume": "8",
-        "journal": "J. Graph Algorithms Appl.",
-        "ee": "https://doi.org/10.7155/jgaa.00082",
-        "url": "db/journals/jgaa/jgaa8.html#MaheshwariZ04",
-        "authors": [
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ipl/MaheshwariSZ11",
-        "title": "Low-interference networks in metric spaces of bounded doubling dimension.",
-        "pages": "1120-1123",
-        "year": "2011",
-        "volume": "111",
-        "journal": "Inf. Process. Lett.",
-        "number": "23-24",
-        "ee": "https://doi.org/10.1016/j.ipl.2011.09.013",
-        "url": "db/journals/ipl/ipl111.html#MaheshwariSZ11",
-        "authors": [
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ipl/DempseyIJZ25",
-        "title": "A simple 4-approximation algorithm for maximum agreement forests on multiple unrooted binary trees.",
-        "pages": "106572",
-        "year": "2025",
-        "volume": "190",
-        "journal": "Inf. Process. Lett.",
-        "ee": "https://doi.org/10.1016/j.ipl.2025.106572",
-        "url": "db/journals/ipl/ipl190.html#DempseyIJZ25",
-        "authors": [
-          "Jordan Dempsey",
-          "Leo van Iersel",
-          "Mark Jones 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iswa/SaeidiMMZ23",
-        "title": "Context-enhanced concept disambiguation in Wikification.",
-        "pages": "200246",
-        "year": "2023",
-        "volume": "19",
-        "journal": "Intell. Syst. Appl.",
-        "ee": "https://www.wikidata.org/entity/Q130715974",
-        "url": "db/journals/iswa/iswa19.html#SaeidiMMZ23",
-        "authors": [
-          "Mozhgan Saeidi",
-          "Kaveh Mahdaviani",
-          "Evangelos E. Milios",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcg/AfshaniHZ11",
-        "title": "Cache-Oblivious Range Reporting with Optimal Queries Requires Superlinear Space.",
-        "pages": "824-850",
-        "year": "2011",
-        "volume": "45",
-        "journal": "Discret. Comput. Geom.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00454-011-9347-7",
-        "url": "db/journals/dcg/dcg45.html#AfshaniHZ11",
-        "authors": [
-          "Peyman Afshani",
-          "Chris H. Hamilton",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ijcga/NowakowskiZ06",
-        "title": "Boundary-optimal Triangulation Flooding.",
-        "pages": "271-290",
-        "year": "2006",
-        "volume": "16",
-        "journal": "Int. J. Comput. Geom. Appl.",
-        "number": "2-3",
-        "ee": "https://doi.org/10.1142/S0218195906002038",
-        "url": "db/journals/ijcga/ijcga16.html#NowakowskiZ06",
-        "authors": [
-          "Richard J. Nowakowski",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/aam/IerselJJMZ21",
-        "title": "A unifying characterization of tree-based networks and orchard networks using cherry covers.",
-        "pages": "102222",
-        "year": "2021",
-        "volume": "129",
-        "journal": "Adv. Appl. Math.",
-        "ee": "https://doi.org/10.1016/j.aam.2021.102222",
-        "url": "db/journals/aam/aam129.html#IerselJJMZ21",
-        "authors": [
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jea/AjwaniCZ11",
-        "title": "A topological sorting algorithm for large graphs.",
-        "year": "2011",
-        "volume": "17",
-        "journal": "ACM J. Exp. Algorithmics",
-        "number": "1",
-        "ee": "https://doi.org/10.1145/2133803.2330083",
-        "url": "db/journals/jea/jea17.html#AjwaniCZ11",
-        "authors": [
-          "Deepak Ajwani",
-          "Adan Cosgaya-Lozano",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jea/0001Z16",
-        "title": "Introduction to Special Issue ALENEX 2013.",
-        "pages": "2.1:1-2.1:2",
-        "year": "2016",
-        "volume": "21",
-        "journal": "ACM J. Exp. Algorithmics",
-        "number": "1",
-        "ee": "https://doi.org/10.1145/2966922",
-        "url": "db/journals/jea/jea21.html#0001Z16",
-        "authors": [
-          "Peter Sanders 0001",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tcbb/HickeyBCMZ11",
-        "title": "An Approximation Algorithm for the Noah's Ark Problem with Random Feature Loss.",
-        "pages": "551-556",
-        "year": "2011",
-        "volume": "8",
-        "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q33579897",
-        "url": "db/journals/tcbb/tcbb8.html#HickeyBCMZ11",
-        "authors": [
-          "Glenn Hickey",
-          "Mathieu Blanchette",
-          "Paz Carmi",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tcbb/IerselJJMZ20",
-        "title": "Polynomial-Time Algorithms for Phylogenetic Inference Problems Involving Duplication and Reticulation.",
-        "pages": "14-26",
-        "year": "2020",
-        "volume": "17",
-        "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q92695078",
-        "url": "db/journals/tcbb/tcbb17.html#IerselJJMZ20",
-        "authors": [
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/siamdm/IerselKLWZ16",
-        "title": "Hybridization Number on Three Rooted Binary Trees is EPT.",
-        "pages": "1607-1631",
-        "year": "2016",
-        "volume": "30",
-        "journal": "SIAM J. Discret. Math.",
-        "number": "3",
-        "ee": "https://doi.org/10.1137/15M1036579",
-        "url": "db/journals/siamdm/siamdm30.html#IerselKLWZ16",
-        "authors": [
-          "Leo van Iersel",
-          "Steven Kelk",
-          "Nela Lekic",
-          "Chris Whidden",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dam/HutchinsonMZ03",
-        "title": "An external memory data structure for shortest path queries.",
-        "pages": "55-82",
-        "year": "2003",
-        "volume": "126",
-        "journal": "Discret. Appl. Math.",
-        "number": "1",
-        "url": "db/journals/dam/dam126.html#HutchinsonMZ03",
-        "ee": "https://doi.org/10.1016/S0166-218X(02)00217-2",
-        "authors": [
-          "David A. Hutchinson",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jcss/DeenIJJMZ24",
-        "title": "A near-linear kernel for bounded-state parsimony distance.",
-        "pages": "103477",
-        "year": "2024",
-        "volume": "140",
-        "journal": "J. Comput. Syst. Sci.",
-        "ee": "https://doi.org/10.1016/j.jcss.2023.103477",
-        "url": "db/journals/jcss/jcss140.html#DeenIJJMZ24",
-        "authors": [
-          "Elise Deen",
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2603-07000",
-        "title": "A Class of Unrooted Phylogenetic Networks Inspired by the Properties of Rooted Tree-Child Networks.",
-        "year": "2026",
-        "volume": "abs/2603.07000",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2603.07000",
-        "url": "db/journals/corr/corr2603.html#abs-2603-07000",
-        "authors": [
-          "Leo van Iersel",
-          "Mark Jones 0001",
-          "Simone Linz",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2408-10769",
-        "title": "A Wild Sheep Chase Through an Orchard.",
-        "year": "2024",
-        "volume": "abs/2408.10769",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2408.10769",
-        "url": "db/journals/corr/corr2408.html#abs-2408-10769",
-        "authors": [
-          "Jordan Dempsey",
-          "Leo van Iersel",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/Rau-ChaplinVWYZ13",
-        "title": "QuPARA: Query-Driven Large-Scale Portfolio Aggregate Risk Analysis on MapReduce.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1308.3615",
-        "volume": "abs/1308.3615",
-        "url": "db/journals/corr/corr1308.html#Rau-ChaplinVWYZ13",
-        "authors": [
-          "Andrew Rau-Chaplin",
-          "Blesson Varghese",
-          "Duane Wilson",
-          "Zhimin Yao",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/IerselKLWZ14",
-        "title": "Hybridization Number on Three Trees.",
-        "year": "2014",
-        "volume": "abs/1402.2136",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1402.2136",
-        "url": "db/journals/corr/corr1402.html#IerselKLWZ14",
-        "authors": [
-          "Leo van Iersel",
-          "Steven Kelk",
-          "Nela Lekic",
-          "Chris Whidden",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1108-2664",
-        "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests",
-        "ee": "https://doi.org/10.48550/arXiv.1108.2664",
-        "year": "2011",
-        "journal": "CoRR",
-        "volume": "abs/1108.2664",
-        "url": "db/journals/corr/corr1108.html#abs-1108-2664",
-        "authors": [
-          "Chris Whidden",
-          "Robert G. Beiko",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2602-12959",
-        "title": "Limits of Kernelization and Parametrization for Phylogenetic Diversity with Dependencies.",
-        "year": "2026",
-        "volume": "abs/2602.12959",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.12959",
-        "url": "db/journals/corr/corr2602.html#abs-2602-12959",
-        "authors": [
-          "Niels Holtgrefe",
-          "Jannik Schestag",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2308-07809",
-        "title": "Another virtue of wavelet forests?",
-        "year": "2023",
-        "volume": "abs/2308.07809",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2308.07809",
-        "url": "db/journals/corr/corr2308.html#abs-2308-07809",
-        "authors": [
-          "Christina Boucher 0001",
-          "Travis Gagie",
-          "Aaron Hong",
-          "Yansong Li",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1907-08474",
-        "title": "A Practical Fixed-Parameter Algorithm for Constructing Tree-Child Networks from Multiple Binary Trees.",
-        "year": "2019",
-        "volume": "abs/1907.08474",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.08474",
-        "url": "db/journals/corr/corr1907.html#abs-1907-08474",
-        "authors": [
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yukihiro Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-0711-0114",
-        "title": "Geometric Spanners With Small Chromatic Number",
-        "ee": "https://doi.org/10.48550/arXiv.0711.0114",
-        "year": "2007",
-        "journal": "CoRR",
-        "volume": "abs/0711.0114",
-        "url": "db/journals/corr/corr0711.html#abs-0711-0114",
-        "authors": [
-          "Prosenjit Bose",
-          "Paz Carmi",
-          "Mathieu Couture",
-          "Anil Maheshwari",
-          "Michiel H. M. Smid",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-0805-1661",
-        "title": "NAPX: A Polynomial Time Approximation Scheme for the Noah's Ark Problem",
-        "ee": "https://doi.org/10.48550/arXiv.0805.1661",
-        "year": "2008",
-        "journal": "CoRR",
-        "volume": "abs/0805.1661",
-        "url": "db/journals/corr/corr0805.html#abs-0805-1661",
-        "authors": [
-          "Glenn Hickey",
-          "Paz Carmi",
-          "Anil Maheshwari",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2001-11631",
-        "title": "Enhancement of Short Text Clustering by Iterative Classification.",
-        "year": "2020",
-        "volume": "abs/2001.11631",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2001.11631",
-        "url": "db/journals/corr/corr2001.html#abs-2001-11631",
-        "authors": [
-          "Md. Rashadul Hasan Rakib",
-          "Norbert Zeh",
-          "Magdalena Jankowska",
-          "Evangelos E. Milios"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1305-0512",
-        "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests of Multifurcating Trees",
-        "ee": "https://doi.org/10.48550/arXiv.1305.0512",
-        "year": "2013",
-        "journal": "CoRR",
-        "volume": "abs/1305.0512",
-        "url": "db/journals/corr/corr1305.html#abs-1305-0512",
-        "authors": [
-          "Chris Whidden",
-          "Robert G. Beiko",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2211-00378",
-        "title": "A Near-Linear Kernel for Two-Parsimony Distance.",
-        "year": "2022",
-        "volume": "abs/2211.00378",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2211.00378",
-        "url": "db/journals/corr/corr2211.html#abs-2211-00378",
-        "authors": [
-          "Elise Deen",
-          "Leo van Iersel",
-          "Remie Janssen",
-          "Mark Jones 0001",
-          "Yuki Murakami",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2602-06903",
-        "title": "The First Known Problem That Is FPT with Respect to Node Scanwidth but Not Treewidth.",
-        "year": "2026",
-        "volume": "abs/2602.06903",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.06903",
-        "url": "db/journals/corr/corr2602.html#abs-2602-06903",
-        "authors": [
-          "Jannik Schestag",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2305-03240",
-        "title": "Sum-of-Local-Effects Data Structures for Separable Graphs.",
-        "year": "2023",
-        "volume": "abs/2305.03240",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2305.03240",
-        "url": "db/journals/corr/corr2305.html#abs-2305-03240",
-        "authors": [
-          "Xing Lyu",
-          "Travis Gagie",
-          "Meng He 0001",
-          "Yakov Nekrich",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2606-31597",
-        "title": "Orienting Unrooted Binary Networks Faster: Focus on the Generator.",
-        "year": "2026",
-        "volume": "abs/2606.31597",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2606.31597",
-        "url": "db/journals/corr/corr2606.html#abs-2606-31597",
-        "authors": [
-          "Jannik Schestag",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2508-21749",
-        "title": "When Many Trees Go to War.",
-        "year": "2025",
-        "volume": "abs/2508.21749",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2508.21749",
-        "url": "db/journals/corr/corr2508.html#abs-2508-21749",
-        "authors": [
-          "Mathias Weller",
-          "Norbert Zeh"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2409-08440",
-        "title": "A Simple 4-Approximation Algorithm for Maximum Agreement Forests on Multiple Unrooted Binary Trees.",
-        "year": "2024",
-        "volume": "abs/2409.08440",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2409.08440",
-        "url": "db/journals/corr/corr2409.html#abs-2409-08440",
-        "authors": [
-          "Jordan Dempsey",
-          "Leo van Iersel",
-          "Mark Jones 0001",
-          "Norbert Zeh"
-        ]
+        "inproceedings": {
+          "@key": "conf/alcob/IerselJJMZ18",
+          "title": "Polynomial-Time Algorithms for Phylogenetic Inference Problems",
+          "booktitle": "AlCoB",
+          "year": "2018",
+          "pages": "37-49",
+          "ee": "https://doi.org/10.1007/978-3-319-91938-6_4",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/alenex/AjwaniCZ11",
+          "title": "Engineering a Topological Sorting Algorithm for Massive Graphs",
+          "booktitle": "ALENEX",
+          "year": "2011",
+          "pages": "139-150",
+          "ee": "https://doi.org/10.1137/1.9781611972917.14",
+          "author": [
+            {
+              "#text": "Adan Cosgaya-Lozano",
+              "@pid": "45/4003"
+            },
+            {
+              "#text": "Deepak Ajwani",
+              "@pid": "24/2712"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bigdataconf/Rau-ChaplinVWYZ13",
+          "title": "QuPARA: Query-driven large-scale portfolio aggregate risk analysis on MapReduce",
+          "booktitle": "IEEE BigData",
+          "year": "2013",
+          "pages": "703-709",
+          "ee": "https://doi.org/10.1109/BIGDATA.2013.6691640",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Blesson Varghese",
+              "@pid": "32/7786"
+            },
+            {
+              "#text": "Duane Wilson",
+              "@pid": "87/9673"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Zhimin Yao",
+              "@pid": "133/8529"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cascon/BurkeBZ20",
+          "title": "Efficient location-level risk analytics",
+          "booktitle": "CASCON",
+          "year": "2020",
+          "pages": "33-42",
+          "author": [
+            {
+              "#text": "Neil Burke",
+              "@pid": "151/8340"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Oliver Baltzer",
+              "@pid": "88/4416"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cccg/BoseCCDPTZ09",
+          "title": "Relaxed Gabriel Graphs",
+          "booktitle": "CCCG",
+          "year": "2009",
+          "pages": "169-172",
+          "author": [
+            {
+              "#text": "Belén Palop",
+              "@pid": "72/7026"
+            },
+            {
+              "#text": "Erik D. Demaine",
+              "@pid": "d/ErikDDemaine"
+            },
+            {
+              "#text": "Jean Cardinal",
+              "@pid": "85/4356"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Perouz Taslakian",
+              "@pid": "52/1849"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            },
+            {
+              "#text": "Sébastien Collette",
+              "@pid": "04/4830"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cccg/MaheshwariVZ02",
+          "title": "On reverse nearest neighbor queries",
+          "booktitle": "CCCG",
+          "year": "2002",
+          "pages": "128-132",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Jan Vahrenhold",
+              "@pid": "v/JanVahrenhold"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cocoon/HutchinsonMZ99",
+          "title": "An External Memory Data Structure for Shortest Path Queries",
+          "booktitle": "COCOON",
+          "year": "1999",
+          "pages": "51-60",
+          "ee": "https://doi.org/10.1007/3-540-48686-0_5",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "David A. Hutchinson",
+              "@pid": "h/DavidAHutchinson"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cocoon/LyuGHNZ23",
+          "title": "Sum-of-Local-Effects Data Structures for Separable Graphs",
+          "booktitle": "COCOON (1)",
+          "year": "2024",
+          "pages": "195-206",
+          "ee": "https://doi.org/10.1007/978-3-031-49190-0_14",
+          "author": [
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Travis Gagie",
+              "@pid": "00/3487"
+            },
+            {
+              "#text": "Xing Lyu",
+              "@pid": "271/4914"
+            },
+            {
+              "#text": "Yakov Nekrich",
+              "@pid": "n/YakovNekrich"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/AfshaniHZ09",
+          "title": "Cache-oblivious range reporting with optimal queries requires superlinear space",
+          "booktitle": "SCG",
+          "year": "2009",
+          "pages": "277-286",
+          "ee": "https://doi.org/10.1145/1542362.1542412",
+          "author": [
+            {
+              "#text": "Chris H. Hamilton",
+              "@pid": "59/53"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/AfshaniHZ09a",
+          "title": "A general approach for cache-oblivious range reporting and approximate range counting",
+          "booktitle": "SCG",
+          "year": "2009",
+          "pages": "287-295",
+          "ee": "https://doi.org/10.1145/1542362.1542413",
+          "author": [
+            {
+              "#text": "Chris H. Hamilton",
+              "@pid": "59/53"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/ArgeRZ10",
+          "title": "I/O-efficient computation of water flow across a terrain",
+          "booktitle": "SCG",
+          "year": "2010",
+          "pages": "403-412",
+          "ee": "https://doi.org/10.1145/1810959.1811026",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Morten Revsbæk",
+              "@pid": "27/7591"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/ArgeZ06",
+          "title": "Simple and semi-dynamic structures for cache-oblivious planar orthogonal range searching",
+          "booktitle": "SCG",
+          "year": "2006",
+          "pages": "158-166",
+          "ee": "https://doi.org/10.1145/1137856.1137883",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagstuhl/MaheshwariZ02",
+          "title": "A Survey of Techniques for Designing I/O-Efficient Algorithms",
+          "booktitle": "Algorithms for Memory Hierarchies",
+          "year": "2003",
+          "pages": "36-61",
+          "ee": "https://doi.org/10.1007/3-540-36574-5_3",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagstuhl/TomaZ02",
+          "title": "I/O-Efficient Algorithms for Sparse Graphs",
+          "booktitle": "Algorithms for Memory Hierarchies",
+          "year": "2003",
+          "pages": "85-109",
+          "ee": "https://doi.org/10.1007/3-540-36574-5_5",
+          "author": [
+            {
+              "#text": "Laura Toma",
+              "@pid": "08/1529"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dcc/HongBGLZ24",
+          "title": "Another virtue of wavelet forests",
+          "booktitle": "DCC",
+          "year": "2024",
+          "pages": "559",
+          "ee": "https://doi.org/10.1109/DCC58796.2024.00076",
+          "author": [
+            {
+              "#text": "Aaron Hong",
+              "@pid": "343/7228"
+            },
+            {
+              "#text": "Christina Boucher",
+              "@pid": "04/4610"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Travis Gagie",
+              "@pid": "00/3487"
+            },
+            {
+              "#text": "Yansong Li",
+              "@pid": "90/2100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dexa/DeveauxRZ07",
+          "title": "Adaptive Tuple Differential Coding",
+          "booktitle": "DEXA",
+          "year": "2007",
+          "pages": "109-119",
+          "ee": "https://doi.org/10.1007/978-3-540-74469-6_12",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Jean-Paul Deveaux",
+              "@pid": "27/4848"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/doceng/AiMMZ0M17",
+          "title": "High-performance Computational Framework for Phrase Relatedness",
+          "booktitle": "DocEng",
+          "year": "2017",
+          "pages": "145-148",
+          "ee": "https://doi.org/10.1145/3103010.3121039",
+          "author": [
+            {
+              "#text": "Abidalrahman Mohammad",
+              "@pid": "40/8005"
+            },
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Jie Mei",
+              "@pid": "47/4497-5"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Zichu Ai",
+              "@pid": "205/6776"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/doceng/RakibJZM18",
+          "title": "Improving Short Text Clustering by Similarity Matrix Sparsification",
+          "booktitle": "DocEng",
+          "year": "2018",
+          "pages": "50:1-50:4",
+          "ee": "https://doi.org/10.1145/3209280.3229114",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Magdalena Jankowska",
+              "@pid": "60/2700"
+            },
+            {
+              "#text": "Md. Rashadul Hasan Rakib",
+              "@pid": "179/7517"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/doceng/RakibZM20",
+          "title": "Short Text Stream Clustering via Frequent Word Pairs and Reassignment of Outliers to Clusters",
+          "booktitle": "DocEng",
+          "year": "2020",
+          "pages": "13:1-13:4",
+          "ee": "https://doi.org/10.1145/3395027.3419589",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Md. Rashadul Hasan Rakib",
+              "@pid": "179/7517"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/doceng/RakibZM21",
+          "title": "Efficient clustering of short text streams using online-offline clustering",
+          "booktitle": "DocEng",
+          "year": "2021",
+          "pages": "5:1-5:10",
+          "ee": "https://doi.org/10.1145/3469096.3469866",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Md. Rashadul Hasan Rakib",
+              "@pid": "179/7517"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/AfshaniZ12",
+          "title": "Lower Bounds for Sorted Geometric Queries in the I/O Model",
+          "booktitle": "ESA",
+          "year": "2012",
+          "pages": "48-59",
+          "ee": "https://doi.org/10.1007/978-3-642-33090-2_6",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/AjwaniSZ10",
+          "title": "Geometric Algorithms for Private-Cache Chip Multiprocessors - (Extended Abstract)",
+          "booktitle": "ESA (2)",
+          "year": "2010",
+          "pages": "75-86",
+          "ee": "https://doi.org/10.1007/978-3-642-15781-3_7",
+          "author": [
+            {
+              "#text": "Deepak Ajwani",
+              "@pid": "24/2712"
+            },
+            {
+              "#text": "Nodari Sitchinava",
+              "@pid": "51/947"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/ArgeMZ08",
+          "title": "Cache-Oblivious Red-Blue Line Segment Intersection",
+          "booktitle": "ESA",
+          "year": "2008",
+          "pages": "88-99",
+          "ee": "https://doi.org/10.1007/978-3-540-87744-8_8",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Thomas Mølhave",
+              "@pid": "02/2083"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/GovindarajanLMZ00",
+          "title": "I/O-Efficient Well-Separated Pair Decomposition and Its Applications",
+          "booktitle": "ESA",
+          "year": "2000",
+          "pages": "220-231",
+          "ee": "https://doi.org/10.1007/3-540-45253-2_21",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Sathish Govindarajan",
+              "@pid": "25/1300"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/LiZ17",
+          "title": "Computing Maximum Agreement Forests without Cluster Partitioning is Folly",
+          "booktitle": "ESA",
+          "year": "2017",
+          "pages": "56:1-56:14",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2017.56",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Zhijiang Li",
+              "@pid": "37/3503"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/MeyerZ03",
+          "title": "I/O-Efficient Undirected Shortest Paths",
+          "booktitle": "ESA",
+          "year": "2003",
+          "pages": "434-445",
+          "ee": "https://doi.org/10.1007/978-3-540-39658-1_40",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/MeyerZ06",
+          "title": "I/O-Efficient Undirected Shortest Paths with Unbounded Edge Lengths",
+          "booktitle": "ESA",
+          "year": "2006",
+          "pages": "540-551",
+          "ee": "https://doi.org/10.1007/11841036_49",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/ArgeZ03",
+          "title": "I/O-Efficient Strong Connectivity and Depth-First Search for Directed Planar Graphs",
+          "booktitle": "FOCS",
+          "year": "2003",
+          "pages": "261-270",
+          "ee": "https://doi.org/10.1109/SFCS.2003.1238200",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fsttcs/LukovszkiMZ01",
+          "title": "I/O-Efficient Batched Range Counting and Its Applications to Proximity Problems",
+          "booktitle": "FSTTCS",
+          "year": "2001",
+          "pages": "244-255",
+          "ee": "https://doi.org/10.1007/3-540-45294-X_21",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpcs/Cosgaya-LozanoRZ07",
+          "title": "Parallel Computation of Skyline Queries",
+          "booktitle": "HPCS",
+          "year": "2007",
+          "pages": "12",
+          "ee": "https://doi.org/10.1109/HPCS.2007.25",
+          "author": [
+            {
+              "#text": "Adan Cosgaya-Lozano",
+              "@pid": "45/4003"
+            },
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/JampalaZ05",
+          "title": "Cache-Oblivious Planar Shortest Paths",
+          "booktitle": "ICALP",
+          "year": "2005",
+          "pages": "563-575",
+          "ee": "https://doi.org/10.1007/11523468_46",
+          "author": [
+            {
+              "#text": "Hema Jampala",
+              "@pid": "38/3249"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/Rau-ChaplinYZ14",
+          "title": "Efficient Data Structures for Risk Modelling in Portfolios of Catastrophic Risk Using MapReduce",
+          "booktitle": "ICCS",
+          "year": "2014",
+          "pages": "1557-1568",
+          "ee": "https://doi.org/10.1016/J.PROCS.2014.05.141",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Zhimin Yao",
+              "@pid": "133/8529"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icdar/SaeidiMZ21",
+          "title": "Contextualized Knowledge Base Sense Embeddings in Word Sense Disambiguation",
+          "booktitle": "ICDAR Workshops (2)",
+          "year": "2021",
+          "pages": "174-186",
+          "ee": "https://doi.org/10.1007/978-3-030-86159-9_12",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icdar/SaeidiMZ21a",
+          "title": "Graph Representation Learning in Document Wikification",
+          "booktitle": "ICDAR Workshops (2)",
+          "year": "2021",
+          "pages": "509-524",
+          "ee": "https://doi.org/10.1007/978-3-030-86159-9_37",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icmla/SaeidiMZ21",
+          "title": "Graph Convolutional Networks for Categorizing Online Harassment on Twitter",
+          "booktitle": "ICMLA",
+          "year": "2021",
+          "pages": "946-951",
+          "ee": "https://doi.org/10.1109/ICMLA52953.2021.00156",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/AjwaniSZ11",
+          "title": "I/O-Optimal Distribution Sweeping on Private-Cache Chip Multiprocessors",
+          "booktitle": "IPDPS",
+          "year": "2011",
+          "pages": "1114-1123",
+          "ee": "https://doi.org/10.1109/IPDPS.2011.106",
+          "author": [
+            {
+              "#text": "Deepak Ajwani",
+              "@pid": "24/2712"
+            },
+            {
+              "#text": "Nodari Sitchinava",
+              "@pid": "51/947"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/DillabaughHMZ09",
+          "title": "I/O and Space-Efficient Path Traversal in Planar Graphs",
+          "booktitle": "ISAAC",
+          "year": "2009",
+          "pages": "1175-1184",
+          "ee": "https://doi.org/10.1007/978-3-642-10631-6_118",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Craig Dillabaugh",
+              "@pid": "73/1311"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/DorrigivHZ12",
+          "title": "On the Advice Complexity of Buffer Management",
+          "booktitle": "ISAAC",
+          "year": "2012",
+          "pages": "136-145",
+          "ee": "https://doi.org/10.1007/978-3-642-35261-4_17",
+          "author": [
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Reza Dorrigiv",
+              "@pid": "d/RezaDorrigiv"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/HeNZ12",
+          "title": "A Space-Efficient Framework for Dynamic Point Location",
+          "booktitle": "ISAAC",
+          "year": "2012",
+          "pages": "548-557",
+          "ee": "https://doi.org/10.1007/978-3-642-35261-4_57",
+          "author": [
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Patrick K. Nicholson",
+              "@pid": "40/7591"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/HeTZ14",
+          "title": "Orienting Dynamic Graphs, with Applications to Maximal Matchings and Adjacency Queries",
+          "booktitle": "ISAAC",
+          "year": "2014",
+          "pages": "128-140",
+          "ee": "https://doi.org/10.1007/978-3-319-13075-0_11",
+          "author": [
+            {
+              "#text": "Ganggui Tang",
+              "@pid": "153/5770"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/MaheshwariZ99",
+          "title": "External Memory Algorithms for Outerplanar Graphs",
+          "booktitle": "ISAAC",
+          "year": "1999",
+          "pages": "307-316",
+          "ee": "https://doi.org/10.1007/3-540-46632-0_31",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/NowakowskiZ04",
+          "title": "Boundary-Optimal Triangulation Flooding",
+          "booktitle": "ISAAC",
+          "year": "2004",
+          "pages": "717-728",
+          "ee": "https://doi.org/10.1007/978-3-540-30551-4_62",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Richard J. Nowakowski",
+              "@pid": "40/6020"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/ScottSZ06",
+          "title": "Politician's Firefighting",
+          "booktitle": "ISAAC",
+          "year": "2006",
+          "pages": "608-617",
+          "ee": "https://doi.org/10.1007/11940128_61",
+          "author": [
+            {
+              "#text": "Allan E. Scott",
+              "@pid": "68/5049"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrike Stege",
+              "@pid": "s/UlrikeStege"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/kdd/KeseljLZBW09",
+          "title": "Finding optimal parameters for edit distance based sequence classification is NP-hard",
+          "booktitle": "KDD Workshop on Statistical and Relational Learning in Bioinformatics",
+          "year": "2009",
+          "pages": "17-21",
+          "ee": "https://doi.org/10.1145/1562090.1562094",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Christian Blouin",
+              "@pid": "06/6416"
+            },
+            {
+              "#text": "Haibin Liu",
+              "@pid": "33/2972"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Vlado Keselj",
+              "@pid": "32/5995"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/latin/0001NZ18",
+          "title": "Maximal and Convex Layers of Random Point Sets",
+          "booktitle": "LATIN",
+          "year": "2018",
+          "pages": "597-610",
+          "ee": "https://doi.org/10.1007/978-3-319-77404-6_44",
+          "author": [
+            {
+              "#text": "Cuong P. Nguyen",
+              "@pid": "44/11470"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nldb/RakibZJM20",
+          "title": "Enhancement of Short Text Clustering by Iterative Classification",
+          "booktitle": "NLDB",
+          "year": "2020",
+          "pages": "105-117",
+          "ee": "https://doi.org/10.1007/978-3-030-51310-8_10",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Magdalena Jankowska",
+              "@pid": "60/2700"
+            },
+            {
+              "#text": "Md. Rashadul Hasan Rakib",
+              "@pid": "179/7517"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkdd/SaeidiSMZB19",
+          "title": "Categorizing Online Harassment on Twitter",
+          "booktitle": "PKDD/ECML Workshops (2)",
+          "year": "2020",
+          "pages": "283-297",
+          "ee": "https://doi.org/10.1007/978-3-030-43887-6_22",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Lilian Berton",
+              "@pid": "48/8572"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Samuel Sousa",
+              "@pid": "230/4309"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recombcg/LafondLTWWZ26",
+          "title": "Cherry-Picking Distance Between Binary Orchards Parameterized by Level",
+          "booktitle": "RECOMB-CG",
+          "year": "2026",
+          "pages": "283-314",
+          "ee": "https://doi.org/10.1007/978-3-032-26891-4_14",
+          "author": [
+            {
+              "#text": "Christopher Whidden",
+              "@pid": "314/5687"
+            },
+            {
+              "#text": "Hamza Wahed",
+              "@pid": "400/8179"
+            },
+            {
+              "#text": "Kaari Landry",
+              "@pid": "294/3761"
+            },
+            {
+              "#text": "Manuel Lafond",
+              "@pid": "117/8942"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Olivier Tremblay-Savard",
+              "@pid": "43/8637"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sac/BaltzerRZ13",
+          "title": "Building a scalable spatial OLAP system",
+          "booktitle": "SAC",
+          "year": "2013",
+          "pages": "13-15",
+          "ee": "https://doi.org/10.1145/2480362.2480366",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Oliver Baltzer",
+              "@pid": "88/4416"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sirocco/ZehS01",
+          "title": "On Finding Minimum Deadly Sets for Directed Networks",
+          "booktitle": "SIROCCO",
+          "year": "2001",
+          "pages": "351-366",
+          "author": [
+            {
+              "#text": "Nicola Santoro",
+              "@pid": "s/NicolaSantoro"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/AfshaniBZ11",
+          "title": "Ordered and Unordered Top-K Range Reporting in Large Data Sets",
+          "booktitle": "SODA",
+          "year": "2011",
+          "pages": "390-400",
+          "ee": "https://doi.org/10.1137/1.9781611973082.31",
+          "author": [
+            {
+              "#text": "Gerth Stølting Brodal",
+              "@pid": "b/GerthStoltingBrodal"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/AfshaniZ11",
+          "title": "Improved Space Bounds for Cache-Oblivious Range Reporting",
+          "booktitle": "SODA",
+          "year": "2011",
+          "pages": "1745-1758",
+          "ee": "https://doi.org/10.1137/1.9781611973082.134",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/AllulliLZ07",
+          "title": "A faster cache-oblivious shortest-path algorithm for undirected graphs with bounded edge lengths",
+          "booktitle": "SODA",
+          "year": "2007",
+          "pages": "910-919",
+          "author": [
+            {
+              "#text": "Luca Allulli",
+              "@pid": "a/LucaAllulli"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peter Lichodzijewski",
+              "@pid": "81/7030"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/MaheshwariZ01",
+          "title": "I/O-efficient algorithms for graphs of bounded treewidth",
+          "booktitle": "SODA",
+          "year": "2001",
+          "pages": "89-90",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/MaheshwariZ02",
+          "title": "I/O-optimal algorithms for planar graphs using separators",
+          "booktitle": "SODA",
+          "year": "2002",
+          "pages": "372-381",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/WalderveenZA13",
+          "title": "Multiway Simple Cycle Separators and I/O-Efficient Algorithms for Planar Graphs",
+          "booktitle": "SODA",
+          "year": "2013",
+          "pages": "901-918",
+          "ee": "https://doi.org/10.1137/1.9781611973105.65",
+          "author": [
+            {
+              "#text": "Freek van Walderveen",
+              "@pid": "14/874"
+            },
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/spaa/ArgeTZ03",
+          "title": "I/O-efficient topological sorting of planar DAGs",
+          "booktitle": "SPAA",
+          "year": "2003",
+          "pages": "85-93",
+          "ee": "https://doi.org/10.1145/777412.777427",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Laura Toma",
+              "@pid": "08/1529"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/spaa/SitchinavaZ12",
+          "title": "A parallel buffer tree",
+          "booktitle": "SPAA",
+          "year": "2012",
+          "pages": "214-223",
+          "ee": "https://doi.org/10.1145/2312005.2312046",
+          "author": [
+            {
+              "#text": "Nodari Sitchinava",
+              "@pid": "51/947"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/spire/HongBGLZ24",
+          "title": "Another Virtue of Wavelet Forests",
+          "booktitle": "SPIRE",
+          "year": "2025",
+          "pages": "184-191",
+          "ee": "https://doi.org/10.1007/978-3-031-72200-4_14",
+          "author": [
+            {
+              "#text": "Aaron Hong",
+              "@pid": "343/7228"
+            },
+            {
+              "#text": "Christina Boucher",
+              "@pid": "04/4610"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Travis Gagie",
+              "@pid": "00/3487"
+            },
+            {
+              "#text": "Yansong Li",
+              "@pid": "90/2100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BoseMNSZ03",
+          "title": "Approximating Geometric Bottleneck Shortest Paths",
+          "booktitle": "STACS",
+          "year": "2003",
+          "pages": "38-49",
+          "ee": "https://doi.org/10.1007/3-540-36494-3_5",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Giri Narasimhan",
+              "@pid": "38/5085"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/swat/BrodalFMZ04",
+          "title": "Cache-Oblivious Data Structures and Algorithms for Undirected Breadth-First Search and Shortest Paths",
+          "booktitle": "SWAT",
+          "year": "2004",
+          "pages": "480-492",
+          "ee": "https://doi.org/10.1007/978-3-540-27810-8_41",
+          "author": [
+            {
+              "#text": "Gerth Stølting Brodal",
+              "@pid": "b/GerthStoltingBrodal"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Rolf Fagerberg",
+              "@pid": "f/RolfFagerberg"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/swat/Zeh04",
+          "title": "Connectivity of Graphs Under Edge Flips",
+          "booktitle": "SWAT",
+          "year": "2004",
+          "pages": "161-173",
+          "ee": "https://doi.org/10.1007/978-3-540-27810-8_15",
+          "author": {
+            "#text": "Norbert Zeh",
+            "@pid": "73/3395"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wabi/HickeyCMZ08",
+          "title": "NAPX: A Polynomial Time Approximation Scheme for the Noah's Ark Problem",
+          "booktitle": "WABI",
+          "year": "2008",
+          "pages": "76-86",
+          "ee": "https://doi.org/10.1007/978-3-540-87361-7_7",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Glenn Hickey",
+              "@pid": "78/60"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wabi/WhiddenZ09",
+          "title": "A Unifying View on Approximation and FPT of Agreement Forests",
+          "booktitle": "WABI",
+          "year": "2009",
+          "pages": "390-402",
+          "ee": "https://doi.org/10.1007/978-3-642-04241-6_32",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wads/ArgeMTZ01",
+          "title": "On External-Memory Planar Depth First Search",
+          "booktitle": "WADS",
+          "year": "2001",
+          "pages": "471-482",
+          "ee": "https://doi.org/10.1007/3-540-44634-6_43",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Laura Toma",
+              "@pid": "08/1529"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wads/MaheshwariSZ01",
+          "title": "I/O-Efficient Shortest Path Queries in Geometric Spanners",
+          "booktitle": "WADS",
+          "year": "2001",
+          "pages": "287-299",
+          "ee": "https://doi.org/10.1007/3-540-44634-6_27",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/waoa/BoseCCMSZ07",
+          "title": "Geometric Spanners with Small Chromatic Number",
+          "booktitle": "WAOA",
+          "year": "2008",
+          "pages": "75-88",
+          "ee": "https://doi.org/10.1007/978-3-540-77918-6_7",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Mathieu Couture",
+              "@pid": "76/4683"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wea/Cosgaya-LozanoZ09",
+          "title": "A Heuristic Strong Connectivity Algorithm for Large Graphs",
+          "booktitle": "SEA",
+          "year": "2009",
+          "pages": "113-124",
+          "ee": "https://doi.org/10.1007/978-3-642-02011-7_12",
+          "author": [
+            {
+              "#text": "Adan Cosgaya-Lozano",
+              "@pid": "45/4003"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wea/FerresSHZ15",
+          "title": "Parallel Construction of Succinct Trees",
+          "booktitle": "SEA",
+          "year": "2015",
+          "pages": "3-14",
+          "ee": "https://doi.org/10.1007/978-3-319-20086-6_1",
+          "author": [
+            {
+              "#text": "José Fuentes-Sepúlveda",
+              "@pid": "163/9785"
+            },
+            {
+              "#text": "Leo Ferres",
+              "@pid": "61/3588"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wea/WhiddenBZ10",
+          "title": "Fast FPT Algorithms for Computing Rooted Agreement Forests: Theory and Experiments",
+          "booktitle": "SEA",
+          "year": "2010",
+          "pages": "141-153",
+          "ee": "https://doi.org/10.1007/978-3-642-13193-6_13",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Robert G. Beiko",
+              "@pid": "57/5209"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/www/SaeidiMZ22",
+          "title": "Biomedical Word Sense Disambiguation with Contextualized Representation Learning",
+          "booktitle": "WWW (Companion Volume)",
+          "year": "2022",
+          "pages": "843-848",
+          "ee": "https://doi.org/10.1145/3487553.3524703",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aam/IerselJJMZ21",
+          "title": "A unifying characterization of tree-based networks and orchard networks using cherry covers",
+          "journal": "Adv. Appl. Math.",
+          "year": "2021",
+          "pages": "102222",
+          "ee": "https://doi.org/10.1016/J.AAM.2021.102222",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/DillabaughHMZ17",
+          "title": "I/O-Efficient Path Traversal in Succinct Planar Graphs",
+          "journal": "Algorithmica",
+          "year": "2017",
+          "pages": "714-755",
+          "ee": "https://doi.org/10.1007/S00453-015-0086-7",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Craig Dillabaugh",
+              "@pid": "73/1311"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/GovindarajanLMZ06",
+          "title": "I/O-Efficient Well-Separated Pair Decomposition and Applications",
+          "journal": "Algorithmica",
+          "year": "2006",
+          "pages": "585-614",
+          "ee": "https://doi.org/10.1007/S00453-005-1197-3",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Sathish Govindarajan",
+              "@pid": "25/1300"
+            },
+            {
+              "#text": "Tamás Lukovszki",
+              "@pid": "00/1607"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/IerselJJMZ22",
+          "title": "A Practical Fixed-Parameter Algorithm for Constructing Tree-Child Networks from Multiple Binary Trees",
+          "journal": "Algorithmica",
+          "year": "2022",
+          "pages": "917-960",
+          "ee": "https://doi.org/10.1007/S00453-021-00914-8",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/MaheshwariZ09",
+          "title": "I/O-Efficient Algorithms for Graphs of Bounded Treewidth",
+          "journal": "Algorithmica",
+          "year": "2009",
+          "pages": "413-469",
+          "ee": "https://doi.org/10.1007/S00453-007-9131-5",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/WhiddenBZ16",
+          "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests of Multifurcating Trees",
+          "journal": "Algorithmica",
+          "year": "2016",
+          "pages": "1019-1054",
+          "ee": "https://doi.org/10.1007/S00453-015-9983-Z",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Robert G. Beiko",
+              "@pid": "57/5209"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/AfshaniHZ10",
+          "title": "A general approach for cache-oblivious range reporting and approximate range counting",
+          "journal": "Comput. Geom.",
+          "year": "2010",
+          "pages": "700-712",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2010.04.003",
+          "author": [
+            {
+              "#text": "Chris H. Hamilton",
+              "@pid": "59/53"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/BoseCCMSZ09",
+          "title": "Geometric spanners with small chromatic number",
+          "journal": "Comput. Geom.",
+          "year": "2009",
+          "pages": "134-146",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2008.04.003",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Mathieu Couture",
+              "@pid": "76/4683"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/BoseMNSZ04",
+          "title": "Approximating geometric bottleneck shortest paths",
+          "journal": "Comput. Geom.",
+          "year": "2004",
+          "pages": "233-249",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2004.04.003",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Giri Narasimhan",
+              "@pid": "38/5085"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/HeZ19",
+          "title": "Editorial: Special issue on the 26th Canadian Conference on Computational Geometry (CCCG)",
+          "journal": "Comput. Geom.",
+          "year": "2019",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2018.08.001",
+          "author": [
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/MaheshwariSZ08",
+          "title": "I/O-efficient algorithms for computing planar geometric spanners",
+          "journal": "Comput. Geom.",
+          "year": "2008",
+          "pages": "252-271",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2007.07.007",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/Zeh10",
+          "title": "Editorial",
+          "journal": "Comput. Geom.",
+          "year": "2010",
+          "pages": "329-330",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2009.06.007",
+          "author": {
+            "#text": "Norbert Zeh",
+            "@pid": "73/3395"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0711-0114",
+          "title": "Geometric Spanners With Small Chromatic Number",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.0711.0114",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Mathieu Couture",
+              "@pid": "76/4683"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            },
+            {
+              "#text": "Prosenjit Bose",
+              "@pid": "b/PBose"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0805-1661",
+          "title": "NAPX: A Polynomial Time Approximation Scheme for the Noah's Ark Problem",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0805.1661",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Glenn Hickey",
+              "@pid": "78/60"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1108-2664",
+          "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1108.2664",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Robert G. Beiko",
+              "@pid": "57/5209"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1305-0512",
+          "title": "Fixed-Parameter and Approximation Algorithms for Maximum Agreement Forests of Multifurcating Trees",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1305.0512",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Robert G. Beiko",
+              "@pid": "57/5209"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1907-08474",
+          "title": "A Practical Fixed-Parameter Algorithm for Constructing Tree-Child Networks from Multiple Binary Trees",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.08474",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2001-11631",
+          "title": "Enhancement of Short Text Clustering by Iterative Classification",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.11631",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Magdalena Jankowska",
+              "@pid": "60/2700"
+            },
+            {
+              "#text": "Md. Rashadul Hasan Rakib",
+              "@pid": "179/7517"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2211-00378",
+          "title": "A Near-Linear Kernel for Two-Parsimony Distance",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.00378",
+          "author": [
+            {
+              "#text": "Elise Deen",
+              "@pid": "332/1830"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yuki Murakami",
+              "@pid": "38/1298"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-03240",
+          "title": "Sum-of-Local-Effects Data Structures for Separable Graphs",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.03240",
+          "author": [
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Travis Gagie",
+              "@pid": "00/3487"
+            },
+            {
+              "#text": "Xing Lyu",
+              "@pid": "271/4914"
+            },
+            {
+              "#text": "Yakov Nekrich",
+              "@pid": "n/YakovNekrich"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2308-07809",
+          "title": "Another virtue of wavelet forests?",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2308.07809",
+          "author": [
+            {
+              "#text": "Aaron Hong",
+              "@pid": "343/7228"
+            },
+            {
+              "#text": "Christina Boucher",
+              "@pid": "04/4610"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Travis Gagie",
+              "@pid": "00/3487"
+            },
+            {
+              "#text": "Yansong Li",
+              "@pid": "90/2100"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2408-10769",
+          "title": "A Wild Sheep Chase Through an Orchard",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2408.10769",
+          "author": [
+            {
+              "#text": "Jordan Dempsey",
+              "@pid": "386/3510"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-08440",
+          "title": "A Simple 4-Approximation Algorithm for Maximum Agreement Forests on Multiple Unrooted Binary Trees",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.08440",
+          "author": [
+            {
+              "#text": "Jordan Dempsey",
+              "@pid": "386/3510"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2508-21749",
+          "title": "When Many Trees Go to War",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2508.21749",
+          "author": [
+            {
+              "#text": "Mathias Weller",
+              "@pid": "64/7186"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-06903",
+          "title": "The First Known Problem That Is FPT with Respect to Node Scanwidth but Not Treewidth",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.06903",
+          "author": [
+            {
+              "#text": "Jannik Schestag",
+              "@pid": "234/7892"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-12959",
+          "title": "Limits of Kernelization and Parametrization for Phylogenetic Diversity with Dependencies",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.12959",
+          "author": [
+            {
+              "#text": "Jannik Schestag",
+              "@pid": "234/7892"
+            },
+            {
+              "#text": "Niels Holtgrefe",
+              "@pid": "372/3704"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-07000",
+          "title": "A Class of Unrooted Phylogenetic Networks Inspired by the Properties of Rooted Tree-Child Networks",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.07000",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Simone Linz",
+              "@pid": "73/6879"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-31597",
+          "title": "Orienting Unrooted Binary Networks Faster: Focus on the Generator",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.31597",
+          "author": [
+            {
+              "#text": "Jannik Schestag",
+              "@pid": "234/7892"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/IerselKLWZ14",
+          "title": "Hybridization Number on Three Trees",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1402.2136",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Nela Lekic",
+              "@pid": "22/10671"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Steven Kelk",
+              "@pid": "31/4697"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Rau-ChaplinVWYZ13",
+          "title": "QuPARA: Query-Driven Large-Scale Portfolio Aggregate Risk Analysis on MapReduce",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1308.3615",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Blesson Varghese",
+              "@pid": "32/7786"
+            },
+            {
+              "#text": "Duane Wilson",
+              "@pid": "87/9673"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Zhimin Yao",
+              "@pid": "133/8529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/HutchinsonMZ03",
+          "title": "An external memory data structure for shortest path queries",
+          "journal": "Discret. Appl. Math.",
+          "year": "2003",
+          "pages": "55-82",
+          "ee": "https://doi.org/10.1016/S0166-218X(02)00217-2",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "David A. Hutchinson",
+              "@pid": "h/DavidAHutchinson"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/AfshaniHZ11",
+          "title": "Cache-Oblivious Range Reporting with Optimal Queries Requires Superlinear Space",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2011",
+          "pages": "824-850",
+          "ee": "https://doi.org/10.1007/S00454-011-9347-7",
+          "author": [
+            {
+              "#text": "Chris H. Hamilton",
+              "@pid": "59/53"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peyman Afshani",
+              "@pid": "91/6116"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcga/NowakowskiZ06",
+          "title": "Boundary-optimal Triangulation Flooding",
+          "journal": "Int. J. Comput. Geom. Appl.",
+          "year": "2006",
+          "pages": "271-290",
+          "ee": "https://doi.org/10.1142/S0218195906002038",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Richard J. Nowakowski",
+              "@pid": "40/6020"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ipl/DempseyIJZ25",
+          "title": "A simple 4-approximation algorithm for maximum agreement forests on multiple unrooted binary trees",
+          "journal": "Inf. Process. Lett.",
+          "year": "2025",
+          "pages": "106572",
+          "ee": "https://doi.org/10.1016/J.IPL.2025.106572",
+          "author": [
+            {
+              "#text": "Jordan Dempsey",
+              "@pid": "386/3510"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ipl/MaheshwariSZ11",
+          "title": "Low-interference networks in metric spaces of bounded doubling dimension",
+          "journal": "Inf. Process. Lett.",
+          "year": "2011",
+          "pages": "1120-1123",
+          "ee": "https://doi.org/10.1016/J.IPL.2011.09.013",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Michiel H. M. Smid",
+              "@pid": "35/6715"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/iswa/SaeidiMMZ23",
+          "title": "Context-enhanced concept disambiguation in Wikification",
+          "journal": "Intell. Syst. Appl.",
+          "year": "2023",
+          "pages": "200246",
+          "ee": "https://doi.org/10.1016/J.ISWA.2023.200246",
+          "author": [
+            {
+              "#text": "Evangelos E. Milios",
+              "@pid": "m/EvangelosEMilios"
+            },
+            {
+              "#text": "Kaveh Mahdaviani",
+              "@pid": "28/3336"
+            },
+            {
+              "#text": "Mozhgan Saeidi",
+              "@pid": "261/8014"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/DeenIJJMZ24",
+          "title": "A near-linear kernel for bounded-state parsimony distance",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "2024",
+          "pages": "103477",
+          "ee": "https://doi.org/10.1016/J.JCSS.2023.103477",
+          "author": [
+            {
+              "#text": "Elise Deen",
+              "@pid": "332/1830"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jdim/BaltzerRZ07",
+          "title": "Storage and Indexing of Relational OLAP Views with Mixed Categorical and Continuous Dimensions",
+          "journal": "J. Digit. Inf. Manag.",
+          "year": "2007",
+          "pages": "180-190",
+          "author": [
+            {
+              "#text": "Andrew Rau-Chaplin",
+              "@pid": "r/ARauChaplin"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Oliver Baltzer",
+              "@pid": "88/4416"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jea/0001Z16",
+          "title": "Introduction to Special Issue ALENEX 2013",
+          "journal": "ACM J. Exp. Algorithmics",
+          "year": "2016",
+          "pages": "2.1:1-2.1:2",
+          "ee": "https://doi.org/10.1145/2966922",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Peter Sanders",
+              "@pid": "s/PeterSanders"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jea/AjwaniCZ11",
+          "title": "A topological sorting algorithm for large graphs",
+          "journal": "ACM J. Exp. Algorithmics",
+          "year": "2011",
+          "ee": "https://doi.org/10.1145/2133803.2330083",
+          "author": [
+            {
+              "#text": "Adan Cosgaya-Lozano",
+              "@pid": "45/4003"
+            },
+            {
+              "#text": "Deepak Ajwani",
+              "@pid": "24/2712"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jgaa/ArgeMTZ03",
+          "title": "On External-Memory Planar Depth First Search",
+          "journal": "J. Graph Algorithms Appl.",
+          "year": "2003",
+          "pages": "105-129",
+          "ee": "https://doi.org/10.7155/JGAA.00063",
+          "author": [
+            {
+              "#text": "Lars Arge",
+              "@pid": "a/LArge"
+            },
+            {
+              "#text": "Laura Toma",
+              "@pid": "08/1529"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jgaa/MaheshwariZ04",
+          "title": "I/O-Optimal Algorithms for Outerplanar Graphs",
+          "journal": "J. Graph Algorithms Appl.",
+          "year": "2004",
+          "pages": "47-87",
+          "ee": "https://doi.org/10.7155/JGAA.00082",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/MaheshwariZ08",
+          "title": "I/O-Efficient Planar Separators",
+          "journal": "SIAM J. Comput.",
+          "year": "2008",
+          "pages": "767-801",
+          "ee": "https://doi.org/10.1137/S0097539705446925",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/WhiddenBZ13",
+          "title": "Fixed-Parameter Algorithms for Maximum Agreement Forests",
+          "journal": "SIAM J. Comput.",
+          "year": "2013",
+          "pages": "1431-1466",
+          "ee": "https://doi.org/10.1137/110845045",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Robert G. Beiko",
+              "@pid": "57/5209"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamdm/IerselKLWZ16",
+          "title": "Hybridization Number on Three Rooted Binary Trees is EPT",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2016",
+          "pages": "1607-1631",
+          "ee": "https://doi.org/10.1137/15M1036579",
+          "author": [
+            {
+              "#text": "Chris Whidden",
+              "@pid": "49/1674"
+            },
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Nela Lekic",
+              "@pid": "22/10671"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Steven Kelk",
+              "@pid": "31/4697"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/MeyerZ12",
+          "title": "I/O-efficient shortest path algorithms for undirected graphs with random or bounded edge lengths",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2012",
+          "pages": "22:1-22:28",
+          "ee": "https://doi.org/10.1145/2229163.2229166",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcbb/HickeyBCMZ11",
+          "title": "An Approximation Algorithm for the Noah's Ark Problem with Random Feature Loss",
+          "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
+          "year": "2011",
+          "pages": "551-556",
+          "ee": "https://doi.org/10.1109/TCBB.2010.37",
+          "author": [
+            {
+              "#text": "Anil Maheshwari",
+              "@pid": "m/AnilMaheshwari"
+            },
+            {
+              "#text": "Glenn Hickey",
+              "@pid": "78/60"
+            },
+            {
+              "#text": "Mathieu Blanchette",
+              "@pid": "b/MathieuBlanchette"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Paz Carmi",
+              "@pid": "37/4802"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcbb/IerselJJMZ20",
+          "title": "Polynomial-Time Algorithms for Phylogenetic Inference Problems Involving Duplication and Reticulation",
+          "journal": "IEEE ACM Trans. Comput. Biol. Bioinform.",
+          "year": "2020",
+          "pages": "14-26",
+          "ee": "https://doi.org/10.1109/TCBB.2019.2934957",
+          "author": [
+            {
+              "#text": "Leo van Iersel",
+              "@pid": "53/5495"
+            },
+            {
+              "#text": "Mark Jones",
+              "@pid": "35/4186-1"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Remie Janssen",
+              "@pid": "205/2469"
+            },
+            {
+              "#text": "Yukihiro Murakami",
+              "@pid": "60/8762"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/SepulvedaFHZ17",
+          "title": "Parallel construction of succinct trees",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2017",
+          "pages": "1-22",
+          "ee": "https://doi.org/10.1016/J.TCS.2017.07.025",
+          "author": [
+            {
+              "#text": "José Fuentes-Sepúlveda",
+              "@pid": "163/9785"
+            },
+            {
+              "#text": "Leo Ferres",
+              "@pid": "61/3588"
+            },
+            {
+              "#text": "Meng He",
+              "@pid": "14/1268"
+            },
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "reference/algo/Zeh08",
+          "title": "I/O-model",
+          "journal": "Encyclopedia of Algorithms",
+          "year": "2008",
+          "ee": "https://doi.org/10.1007/978-0-387-30162-4_190",
+          "author": {
+            "#text": "Norbert Zeh",
+            "@pid": "73/3395"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "reference/algo/ZehM16",
+          "title": "I/O-Model",
+          "journal": "Encyclopedia of Algorithms",
+          "year": "2016",
+          "pages": "943-947",
+          "ee": "https://doi.org/10.1007/978-1-4939-2864-4_190",
+          "author": [
+            {
+              "#text": "Norbert Zeh",
+              "@pid": "73/3395"
+            },
+            {
+              "#text": "Ulrich Meyer",
+              "@pid": "m/UlrichMeyer-1"
+            }
+          ]
+        }
       }
     ]
   }

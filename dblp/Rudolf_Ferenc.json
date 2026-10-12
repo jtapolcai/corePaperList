@@ -1,2015 +1,3499 @@
 {
   "dblpperson": {
+    "@name": "Rudolf Ferenc",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/promise/FerencTLSG18",
-        "title": "A Public Unified Bug Dataset for Java.",
-        "pages": "12-21",
-        "year": "2018",
-        "booktitle": "PROMISE",
-        "ee": "https://www.wikidata.org/entity/Q131116724",
-        "url": "db/conf/promise/promise2018.html#FerencTLSG18",
-        "authors": [
-          "Rudolf Ferenc",
-          "ZoltÃ¡n TÃ³th",
-          "Gergely LadÃ¡nyi",
-          "IstvÃ¡n Siket",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/promise/KadarHFG16",
-        "title": "A Manually Validated Code Refactoring Dataset and Its Assessment Regarding Software Maintainability.",
-        "pages": "10:1-10:4",
-        "year": "2016",
-        "booktitle": "PROMISE",
-        "ee": "https://doi.org/10.1145/2972958.2972962",
-        "url": "db/conf/promise/promise2016.html#KadarHFG16",
-        "authors": [
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pppj/SchrettnerFFG10",
-        "title": "Visualization of software architecture graphs of Java systems: managing propagated low level dependencies.",
-        "pages": "148-157",
-        "year": "2010",
-        "booktitle": "PPPJ",
-        "ee": "https://doi.org/10.1145/1852761.1852783",
-        "url": "db/conf/pppj/pppj2010.html#SchrettnerFFG10",
-        "authors": [
-          "Lajos Schrettner",
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/trustcom/BanFSK15",
-        "title": "Prediction Models for Performance, Power, and Energy Efficiency of Software Executed on Heterogeneous Hardware.",
-        "pages": "178-183",
-        "year": "2015",
-        "booktitle": "TrustCom/BigDataSE/ISPA (3)",
-        "ee": "https://doi.org/10.1109/Trustcom.2015.629",
-        "url": "db/conf/trustcom/trustcom2015-3.html#BanFSK15",
-        "authors": [
-          "DÃ©nes BÃ¡n",
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket",
-          "Ãkos Kiss 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/BakotaHKFG11",
-        "title": "A probabilistic software quality model.",
-        "pages": "243-252",
-        "year": "2011",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2011.6080791",
-        "url": "db/conf/icsm/icsm2011.html#BakotaHKFG11",
-        "authors": [
-          "Tibor Bakota",
-          "PÃ©ter HegedÃ¼s",
-          "Peter Kortvelyesi",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/LiuPFGC09",
-        "title": "Modeling class cohesion as mixtures of latent topics.",
-        "pages": "233-242",
-        "year": "2009",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2009.5306318",
-        "url": "db/conf/icsm/icsm2009.html#LiuPFGC09",
-        "authors": [
-          "Yixun Liu",
-          "Denys Poshyvanyk",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "Nikos Chrisochoides"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/NagyVFGKK10",
-        "title": "MAGISTER: Quality assurance of Magic applications for software developers and end users.",
-        "pages": "1-6",
-        "year": "2010",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2010.5609550",
-        "url": "db/conf/icsm/icsm2010.html#NagyVFGKK10",
-        "authors": [
-          "Csaba Nagy 0001",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "Ferenc Kocsis",
-          "IstvÃ¡n KovÃ¡cs"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/BakotaFGRX06",
-        "title": "Towards Portable Metrics-based Models for Software Maintenance Problems.",
-        "pages": "483-486",
-        "year": "2006",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2006.69",
-        "url": "db/conf/icsm/icsm2006.html#BakotaFGRX06",
-        "authors": [
-          "Tibor Bakota",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "Claudio Riva",
-          "Jianli Xu"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/SzokeNHFG15",
-        "title": "Do automatic refactorings improve maintainability? An industrial case study.",
-        "pages": "429-438",
-        "year": "2015",
-        "booktitle": "ICSME",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2015.7332494",
-        "url": "db/conf/icsm/icsme2015.html#SzokeNHFG15",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Csaba Nagy 0001",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/BalanyiF03",
-        "title": "Mining Design Patterns from C++ Source Code.",
-        "pages": "305-314",
-        "year": "2003",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2003.1235436",
-        "url": "db/conf/icsm/icsm2003.html#BalanyiF03",
-        "authors": [
-          "Zsolt Balanyi",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/FerencBG04",
-        "title": "Fact Extraction and Code Auditing with Columbus and SourceAudit.",
-        "pages": "513",
-        "year": "2004",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2004.1357858",
-        "url": "db/conf/icsm/icsm2004.html#FerencBG04",
-        "authors": [
-          "Rudolf Ferenc",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/FerencBFL05",
-        "title": "Design Pattern Mining Enhanced by Machine Learning.",
-        "pages": "295-304",
-        "year": "2005",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2005.40",
-        "url": "db/conf/icsm/icsm2005.html#FerencBFL05",
-        "authors": [
-          "Rudolf Ferenc",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Janos Lele"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/BakotaHLKFG12",
-        "title": "A cost model based on software maintainability.",
-        "pages": "316-325",
-        "year": "2012",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2012.6405288",
-        "url": "db/conf/icsm/icsm2012.html#BakotaHLKFG12",
-        "authors": [
-          "Tibor Bakota",
-          "PÃ©ter HegedÃ¼s",
-          "Gergely LadÃ¡nyi",
-          "Peter Kortvelyesi",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/FerencBTG02",
-        "title": "Columbus - Reverse Engineering Tool and Schema for C++.",
-        "pages": "172-181",
-        "year": "2002",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2002.1167764",
-        "url": "db/conf/icsm/icsm2002.html#FerencBTG02",
-        "authors": [
-          "Rudolf Ferenc",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Mikko Tarkiainen",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/BakotaFG07",
-        "title": "Clone Smells in Software Evolution.",
-        "pages": "24-33",
-        "year": "2007",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2007.4362615",
-        "url": "db/conf/icsm/icsm2007.html#BakotaFG07",
-        "authors": [
-          "Tibor Bakota",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsm/FerencSG04",
-        "title": "Extracting Facts from Open Source Software.",
-        "pages": "60-69",
-        "year": "2004",
-        "booktitle": "ICSM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICSM.2004.1357790",
-        "url": "db/conf/icsm/icsm2004.html#FerencSG04",
-        "authors": [
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsoft/JaszSPSF19",
-        "title": "Systematic Comparison of Six Open-source Java Call Graph Construction Tools.",
-        "pages": "117-128",
-        "year": "2019",
-        "booktitle": "ICSOFT",
-        "ee": "https://doi.org/10.5220/0007929201170128",
-        "url": "db/conf/icsoft/icsoft2019.html#JaszSPSF19",
-        "authors": [
-          "Judit JÃ¡sz",
-          "IstvÃ¡n Siket",
-          "Edit Pengo",
-          "ZoltÃ¡n SÃ¡godi",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsoft/AladicsHF22",
-        "title": "A Vulnerability Introducing Commit Dataset for Java: An Improved SZZ based Approach.",
-        "pages": "68-78",
-        "year": "2022",
-        "booktitle": "ICSOFT",
-        "ee": "https://doi.org/10.5220/0011275200003266",
-        "url": "db/conf/icsoft/icsoft2022.html#AladicsHF22",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsoft/ViszkokHF21",
-        "title": "Improving Vulnerability Prediction of JavaScript Functions using Process Metrics.",
-        "pages": "185-195",
-        "year": "2021",
-        "booktitle": "ICSOFT",
-        "ee": "https://doi.org/10.5220/0010558501850195",
-        "url": "db/conf/icsoft/icsoft2021.html#ViszkokHF21",
-        "authors": [
-          "TamÃ¡s Viszkok",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsoft/AladicsHF22a",
-        "title": "An AST-Based Code Change Representation and Its Performance in Just-in-Time Vulnerability Prediction.",
-        "pages": "169-186",
-        "year": "2022",
-        "booktitle": "ICSOFT (Selected Papers)",
-        "ee": "https://doi.org/10.1007/978-3-031-37231-5_8",
-        "url": "db/conf/icsoft/icsoft2022s.html#AladicsHF22a",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icsoft/VidacsBF07",
-        "title": "Macro Impact Analysis Using Macro Slicing.",
-        "pages": "230-235",
-        "year": "2007",
-        "booktitle": "ICSOFT (SE)",
-        "url": "db/conf/icsoft/icsoft2007-2.html#VidacsBF07",
-        "authors": [
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icst/VancsicsGSMBF019",
-        "title": "Poster: Supporting JavaScript Experimentation with BugsJS.",
-        "pages": "375-378",
-        "year": "2019",
-        "booktitle": "ICST",
-        "ee": "https://doi.org/10.1109/ICST.2019.00046",
-        "url": "db/conf/icst/icst2019.html#VancsicsGSMBF019",
-        "authors": [
-          "BÃ©la Vancsics",
-          "PÃ©ter Gyimesi",
-          "Andrea Stocco 0001",
-          "Davood Mazinanian",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "Ali Mesbah 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icst/GyimesiVSMBF019",
-        "title": "BugsJS: a Benchmark of JavaScript Bugs.",
-        "pages": "90-101",
-        "year": "2019",
-        "booktitle": "ICST",
-        "ee": "https://doi.org/10.1109/ICST.2019.00019",
-        "url": "db/conf/icst/icst2019.html#GyimesiVSMBF019",
-        "authors": [
-          "PÃ©ter Gyimesi",
-          "BÃ©la Vancsics",
-          "Andrea Stocco 0001",
-          "Davood Mazinanian",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "Ali Mesbah 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/uic/GyimesiBSFBCSS16",
-        "title": "Enforcing Techniques and Transformation of C/C++ Source Code to Heterogeneous Hardware.",
-        "pages": "1173-1180",
-        "year": "2016",
-        "booktitle": "UIC/ATC/ScalCom/CBDCom/IoP/SmartWorld",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/UIC-ATC-ScalCom-CBDCom-IoP-SmartWorld.2016.0180",
-        "url": "db/conf/uic/uic2016.html#GyimesiBSFBCSS16",
-        "authors": [
-          "GÃ¡bor Gyimesi",
-          "DÃ©nes BÃ¡n",
-          "IstvÃ¡n Siket",
-          "Rudolf Ferenc",
-          "Silvano Brugnoni",
-          "Thomas Corbat",
-          "Peter Sommerlad",
-          "Toni Suter"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icse/BakotaBFG08",
-        "title": "Continuous software quality supervision using SourceInventory and Columbus.",
-        "pages": "931-932",
-        "year": "2008",
-        "booktitle": "ICSE Companion",
-        "ee": "https://doi.org/10.1145/1370175.1370193",
-        "url": "db/conf/icse/icsec2008.html#BakotaBFG08",
-        "authors": [
-          "Tibor Bakota",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icse/FerencHGABG19",
-        "title": "Challenging machine learning algorithms in predicting vulnerable JavaScript functions.",
-        "pages": "8-14",
-        "year": "2019",
-        "booktitle": "RAISE@ICSE",
-        "ee": "https://www.wikidata.org/entity/Q130912524",
-        "url": "db/conf/icse/raise2019.html#FerencHGABG19",
-        "authors": [
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s",
-          "PÃ©ter Gyimesi",
-          "GÃ¡bor Antal",
-          "DÃ©nes BÃ¡n",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/BartaMSF19",
-        "title": "Challenges of SonarQube Plug-In Maintenance.",
-        "pages": "574-578",
-        "year": "2019",
-        "booktitle": "SANER",
-        "ee": "https://doi.org/10.1109/SANER.2019.8667988",
-        "url": "db/conf/wcre/saner2019.html#BartaMSF19",
-        "authors": [
-          "Bence Barta",
-          "Gunter Manz",
-          "IstvÃ¡n Siket",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/SzokeNFG16",
-        "title": "Designing and Developing Automated Refactoring Transformations: An Experience Report.",
-        "pages": "693-697",
-        "year": "2016",
-        "booktitle": "SANER",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SANER.2016.17",
-        "url": "db/conf/wcre/saner2016.html#SzokeNFG16",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/FulopHFG08",
-        "title": "Towards a Benchmark for Evaluating Reverse Engineering Tools.",
-        "pages": "335-336",
-        "year": "2008",
-        "booktitle": "WCRE",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/WCRE.2008.18",
-        "url": "db/conf/wcre/wcre2008.html#FulopHFG08",
-        "authors": [
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/LadanyiTFK15",
-        "title": "A software quality model for RPG.",
-        "pages": "91-100",
-        "year": "2015",
-        "booktitle": "SANER",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SANER.2015.7081819",
-        "url": "db/conf/wcre/saner2015.html#LadanyiTFK15",
-        "authors": [
-          "Gergely LadÃ¡nyi",
-          "ZoltÃ¡n TÃ³th",
-          "Rudolf Ferenc",
-          "Tibor Keresztesi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/KadarHFG16",
-        "title": "A Code Refactoring Dataset and Its Assessment Regarding Software Maintainability.",
-        "pages": "599-603",
-        "year": "2016",
-        "booktitle": "SANER",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SANER.2016.42",
-        "url": "db/conf/wcre/saner2016.html#KadarHFG16",
-        "authors": [
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/FerencSHKG01",
-        "title": "Towards a Standard Schema for C/C++.",
-        "pages": "49-58",
-        "year": "2001",
-        "booktitle": "WCRE",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/WCRE.2001.957809",
-        "url": "db/conf/wcre/wcre2001.html#FerencSHKG01",
-        "authors": [
-          "Rudolf Ferenc",
-          "Susan Elliott Sim",
-          "Richard C. Holt",
-          "Rainer Koschke",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/VandorAHF24",
-        "title": "On the Usefulness of Python Structural Pattern Matching: An Empirical Study.",
-        "pages": "501-511",
-        "year": "2024",
-        "booktitle": "SANER",
-        "ee": "https://doi.org/10.1109/SANER60148.2024.00058",
-        "url": "db/conf/wcre/saner2024.html#VandorAHF24",
-        "authors": [
-          "Norbert VÃ¡ndor",
-          "GÃ¡bor Antal",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/FaragoHF15",
-        "title": "Cumulative code churn: Impact on maintainability.",
-        "pages": "141-150",
-        "year": "2015",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2015.7335410",
-        "url": "db/conf/scam/scam2015.html#FaragoHF15",
-        "authors": [
-          "Csaba FaragÃ³",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/FulopGF06",
-        "title": "Evaluating C++ Design Pattern Miner Tools.",
-        "pages": "127-138",
-        "year": "2006",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2006.13",
-        "url": "db/conf/scam/scam2006.html#FulopGF06",
-        "authors": [
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Tamas Gyovai",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/AntalHSBFM16",
-        "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments.",
-        "pages": "177-186",
-        "year": "2016",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2016.11",
-        "url": "db/conf/scam/scam2016.html#AntalHSBFM16",
-        "authors": [
-          "Gabor Antal",
-          "David Havas",
-          "IstvÃ¡n Siket",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "JÃ³zsef Mihalicza"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/SzokeNFFG15",
-        "title": "FaultBuster: An automatic code smell refactoring toolset.",
-        "pages": "253-258",
-        "year": "2015",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2015.7335422",
-        "url": "db/conf/scam/scam2015.html#SzokeNFFG15",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Csaba Nagy 0001",
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/JaszHMF22",
-        "title": "An End-to-End Framework for Repairing Potentially Vulnerable Source Code.",
-        "pages": "242-247",
-        "year": "2022",
-        "booktitle": "SCAM",
-        "ee": "https://doi.org/10.1109/SCAM55253.2022.00034",
-        "url": "db/conf/scam/scam2022.html#JaszHMF22",
-        "authors": [
-          "Judit JÃ¡sz",
-          "PÃ©ter HegedÃ¼s",
-          "Ãkos MilÃ¡nkovich",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/FerencLSGB14",
-        "title": "Source Meter Sonar Qube Plug-in.",
-        "pages": "77-82",
-        "year": "2014",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2014.31",
-        "url": "db/conf/scam/scam2014.html#FerencLSGB14",
-        "authors": [
-          "Rudolf Ferenc",
-          "Laszlo Lango",
-          "IstvÃ¡n Siket",
-          "Tibor GyimÃ³thy",
-          "Tibor Bakota"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/UjhaziFPG10",
-        "title": "New Conceptual Coupling and Cohesion Metrics for Object-Oriented Systems.",
-        "pages": "33-42",
-        "year": "2010",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2010.14",
-        "url": "db/conf/scam/scam2010.html#UjhaziFPG10",
-        "authors": [
-          "Bela Ujhazi",
-          "Rudolf Ferenc",
-          "Denys Poshyvanyk",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/AntalHTFG18",
-        "title": "[Research Paper] Static JavaScript Call Graphs: A Comparative Study.",
-        "pages": "177-186",
-        "year": "2018",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2018.00028",
-        "url": "db/conf/scam/scam2018.html#AntalHTFG18",
-        "authors": [
-          "Gabor Antal",
-          "PÃ©ter HegedÃ¼s",
-          "ZoltÃ¡n TÃ³th",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/SzokeANFG14",
-        "title": "Bulk Fixing Coding Issues and Its Effects on Software Quality: Is It Worth Refactoring?",
-        "pages": "95-104",
-        "year": "2014",
-        "booktitle": "SCAM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SCAM.2014.18",
-        "url": "db/conf/scam/scam2014.html#SzokeANFG14",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Gabor Antal",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/scam/RozsaAF22",
-        "title": "Don't DIY: Automatically transform legacy Python code to support structural pattern matching.",
-        "pages": "164-169",
-        "year": "2022",
-        "booktitle": "SCAM",
-        "ee": "https://doi.org/10.1109/SCAM55253.2022.00024",
-        "url": "db/conf/scam/scam2022.html#RozsaAF22",
-        "authors": [
-          "BalÃ¡zs RÃ³zsa",
-          "GÃ¡bor Antal",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ease/AntalBIFH25",
-        "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation.",
-        "pages": "1056-1065",
-        "year": "2025",
-        "booktitle": "EASE",
-        "ee": "https://doi.org/10.1145/3756681.3757075",
-        "url": "db/conf/ease/ease2025.html#AntalBIFH25",
-        "authors": [
-          "GÃ¡bor Antal",
-          "DÃ©nes BÃ¡n",
-          "Martin Isztin",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ease/AntalBFH25",
-        "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study.",
-        "pages": "696-700",
-        "year": "2025",
-        "booktitle": "EASE",
-        "ee": "https://doi.org/10.1145/3756681.3757078",
-        "url": "db/conf/ease/ease2025.html#AntalBFH25",
-        "authors": [
-          "GÃ¡bor Antal",
-          "Bence BogenfÃ¼rst",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ease/SagodiABIHF24",
-        "title": "Reality Check: Assessing GPT-4 in Fixing Real-World Software Vulnerabilities.",
-        "pages": "252-261",
-        "year": "2024",
-        "booktitle": "EASE",
-        "ee": "https://www.wikidata.org/entity/Q130802107",
-        "url": "db/conf/ease/ease2024.html#SagodiABIHF24",
-        "authors": [
-          "ZoltÃ¡n SÃ¡godi",
-          "GÃ¡bor Antal",
-          "Bence BogenfÃ¼rst",
-          "Martin Isztin",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/FritsiNFG13",
-        "title": "A Methodology and Framework for Automatic Layout Independent GUI Testing of Applications Developed in Magic xpa.",
-        "pages": "513-528",
-        "year": "2013",
-        "booktitle": "ICCSA (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-39643-4_37",
-        "url": "db/conf/iccsa/iccsa2013-2.html#FritsiNFG13",
-        "authors": [
-          "Daniel Fritsi",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/TothVF15",
-        "title": "Comparison of Static Analysis Tools for Quality Measurement of RPG Programs.",
-        "pages": "177-192",
-        "year": "2015",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-21413-9_13",
-        "url": "db/conf/iccsa/iccsa2015-5.html#TothVF15",
-        "authors": [
-          "ZoltÃ¡n TÃ³th",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/FaragoHF15",
-        "title": "Code Ownership: Impact on Maintainability.",
-        "pages": "3-19",
-        "year": "2015",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-21413-9_1",
-        "url": "db/conf/iccsa/iccsa2015-5.html#FaragoHF15",
-        "authors": [
-          "Csaba FaragÃ³",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/MosolygoVHF22",
-        "title": "A Line-Level Explainable Vulnerability Detection Approach for Java.",
-        "pages": "106-122",
-        "year": "2022",
-        "booktitle": "ICCSA (Workshops 4)",
-        "ee": "https://doi.org/10.1007/978-3-031-10542-5_8",
-        "url": "db/conf/iccsa/iccsa2022-w4.html#MosolygoVHF22",
-        "authors": [
-          "BalÃ¡zs MosolygÃ³",
-          "Norbert VÃ¡ndor",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/DevaiVFG14",
-        "title": "Service Layer for IDE Integration of C/C++ Preprocessor Related Analysis.",
-        "pages": "402-417",
-        "year": "2014",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-09156-3_29",
-        "url": "db/conf/iccsa/iccsa2014-5.html#DevaiVFG14",
-        "authors": [
-          "RichÃ¡rd DÃ©vai",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/NagyVFGKK11",
-        "title": "Complexity Measures in 4GL Environment.",
-        "pages": "293-309",
-        "year": "2011",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-642-21934-4_25",
-        "url": "db/conf/iccsa/iccsa2011-5.html#NagyVFGKK11",
-        "authors": [
-          "Csaba Nagy 0001",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "Ferenc Kocsis",
-          "IstvÃ¡n KovÃ¡cs"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/KadarHF15",
-        "title": "Adding Constraint Building Mechanisms to a Symbolic Execution Engine Developed for Detecting Runtime Errors.",
-        "pages": "20-35",
-        "year": "2015",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-21413-9_2",
-        "url": "db/conf/iccsa/iccsa2015-5.html#KadarHF15",
-        "authors": [
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/TothGF16",
-        "title": "A Public Bug Database of GitHub Projects and Its Application in Bug Prediction.",
-        "pages": "625-638",
-        "year": "2016",
-        "booktitle": "ICCSA (4)",
-        "ee": "https://doi.org/10.1007/978-3-319-42089-9_44",
-        "url": "db/conf/iccsa/iccsa2016-4.html#TothGF16",
-        "authors": [
-          "ZoltÃ¡n TÃ³th",
-          "PÃ©ter Gyimesi",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/AladicsJF21",
-        "title": "Bug Prediction Using Source Code Embedding Based on Doc2Vec.",
-        "pages": "382-397",
-        "year": "2021",
-        "booktitle": "ICCSA (7)",
-        "ee": "https://doi.org/10.1007/978-3-030-87007-2_27",
-        "url": "db/conf/iccsa/iccsa2021-7.html#AladicsJF21",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "Judit JÃ¡sz",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/FaragoHF14",
-        "title": "The Impact of Version Control Operations on the Quality Change of the Source Code.",
-        "pages": "353-369",
-        "year": "2014",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-09156-3_26",
-        "url": "db/conf/iccsa/iccsa2014-5.html#FaragoHF14",
-        "authors": [
-          "Csaba FaragÃ³",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/BanF14",
-        "title": "Recognizing Antipatterns and Analyzing Their Effects on Software Maintainability.",
-        "pages": "337-352",
-        "year": "2014",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-09156-3_25",
-        "url": "db/conf/iccsa/iccsa2014-5.html#BanF14",
-        "authors": [
-          "DÃ©nes BÃ¡n",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/SzokeNFG14",
-        "title": "A Case Study of Refactoring Large-Scale Industrial Systems to Efficiently Improve Source Code Quality.",
-        "pages": "524-540",
-        "year": "2014",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://www.wikidata.org/entity/Q63090156",
-        "url": "db/conf/iccsa/iccsa2014-5.html#SzokeNFG14",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/KadarHFG16",
-        "title": "Assessment of the Code Refactoring Dataset Regarding the Maintainability of Methods.",
-        "pages": "610-624",
-        "year": "2016",
-        "booktitle": "ICCSA (4)",
-        "ee": "https://doi.org/10.1007/978-3-319-42089-9_43",
-        "url": "db/conf/iccsa/iccsa2016-4.html#KadarHFG16",
-        "authors": [
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/MuhiSFFB13",
-        "title": "A Semi-automatic Usability Evaluation Framework.",
-        "pages": "529-542",
-        "year": "2013",
-        "booktitle": "ICCSA (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-39643-4_38",
-        "url": "db/conf/iccsa/iccsa2013-2.html#MuhiSFFB13",
-        "authors": [
-          "KornÃ©l Muhi",
-          "GÃ¡bor Szoke",
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Rudolf Ferenc",
-          "Ãgoston Berger"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/GyimesiGTF15",
-        "title": "Characterization of Source Code Defects by Data Mining Conducted on GitHub.",
-        "pages": "47-62",
-        "year": "2015",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-21413-9_4",
-        "url": "db/conf/iccsa/iccsa2015-5.html#GyimesiGTF15",
-        "authors": [
-          "PÃ©ter Gyimesi",
-          "GÃ¡bor Gyimesi",
-          "ZoltÃ¡n TÃ³th",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iccsa/SzamosvolgyiVTJ21",
-        "title": "Assessing Ensemble Learning Techniques in Bug Prediction.",
-        "pages": "368-381",
-        "year": "2021",
-        "booktitle": "ICCSA (7)",
-        "ee": "https://doi.org/10.1007/978-3-030-87007-2_26",
-        "url": "db/conf/iccsa/iccsa2021-7.html#SzamosvolgyiVTJ21",
-        "authors": [
-          "Zsolt JÃ¡nos SzamosvÃ¶lgyi",
-          "Endre TamÃ¡s VÃ¡radi",
-          "ZoltÃ¡n TÃ³th",
-          "Judit JÃ¡sz",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/SchrettnerHFFB10",
-        "title": "Development of a Methodology, Software -- Suite and Service for Supporting Software Architecture Reconstruction.",
-        "pages": "190-193",
-        "year": "2010",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2010.32",
-        "url": "db/conf/csmr/csmr2010.html#SchrettnerHFFB10",
-        "authors": [
-          "Lajos Schrettner",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Tibor Bakota"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/NagyVFGKK11",
-        "title": "Solutions for Reverse Engineering 4GL Applications, Recovering the Design of a Logistical Wholesale System.",
-        "pages": "343-346",
-        "year": "2011",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2011.66",
-        "url": "db/conf/csmr/csmr2011.html#NagyVFGKK11",
-        "authors": [
-          "Csaba Nagy 0001",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "Ferenc Kocsis",
-          "IstvÃ¡n KovÃ¡cs"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/VidacsBF04",
-        "title": "Columbus Schema for C/C++ Preprocessing.",
-        "pages": "75-84",
-        "year": "2004",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2004.1281408",
-        "url": "db/conf/csmr/csmr2004.html#VidacsBF04",
-        "authors": [
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/UjhelyiHVCSVF14",
-        "title": "Anti-pattern detection with model queries: A comparison of approaches.",
-        "pages": "293-302",
-        "year": "2014",
-        "booktitle": "CSMR-WCRE",
-        "ee": "https://www.wikidata.org/entity/Q57090058",
-        "url": "db/conf/csmr/csmr2014.html#UjhelyiHVCSVF14",
-        "authors": [
-          "ZoltÃ¡n Ujhelyi",
-          "Ãkos HorvÃ¡th 0001",
-          "DÃ¡niel VarrÃ³",
-          "Norbert Istvan CsiszÃ¡r",
-          "GÃ¡bor Szoke",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/KanellopoulosF10",
-        "title": "SQM 2010: Fourth International Workshop on System Quality and Maintainability.",
-        "pages": "268-269",
-        "year": "2010",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2010.53",
-        "url": "db/conf/csmr/csmr2010.html#KanellopoulosF10",
-        "authors": [
-          "Yiannis Kanellopoulos",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/TothNFS13",
-        "title": "Using Version Control History to Follow the Changes of Source Code Elements.",
-        "pages": "319-322",
-        "year": "2013",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2013.40",
-        "url": "db/conf/csmr/csmr2013.html#TothNFS13",
-        "authors": [
-          "ZoltÃ¡n TÃ³th",
-          "Gabor Novak",
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/FerencB02",
-        "title": "Data Exchange with the Columbus Schema for C++.",
-        "pages": "59-66",
-        "year": "2002",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2002.995790",
-        "url": "db/conf/csmr/csmr2002.html#FerencB02",
-        "authors": [
-          "Rudolf Ferenc",
-          "ÃrpÃ¡d BeszÃ©des"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/FulopFG08",
-        "title": "Towards a Benchmark for Evaluating Design Pattern Miner Tools.",
-        "pages": "143-152",
-        "year": "2008",
-        "booktitle": "CSMR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR.2008.4493309",
-        "url": "db/conf/csmr/csmr2008.html#FulopFG08",
-        "authors": [
-          "Lajos Jeno FÃ¼lÃ¶p",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/csmr/BakotaHSLF14",
-        "title": "Qualitygate SourceAudit: A tool for assessing the technical quality of software.",
-        "pages": "440-445",
-        "year": "2014",
-        "booktitle": "CSMR-WCRE",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CSMR-WCRE.2014.6747214",
-        "url": "db/conf/csmr/csmr2014.html#BakotaHSLF14",
-        "authors": [
-          "Tibor Bakota",
-          "PÃ©ter HegedÃ¼s",
-          "IstvÃ¡n Siket",
-          "Gergely LadÃ¡nyi",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fgit/Ferenc10",
-        "title": "Bug Forecast: A Method for Automatic Bug Prediction.",
-        "pages": "283-295",
-        "year": "2010",
-        "booktitle": "FGIT-ASEA",
-        "ee": "https://doi.org/10.1007/978-3-642-17578-7_28",
-        "url": "db/conf/fgit/asea2010.html#Ferenc10",
-        "authors": [
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fgit/HegedusBILFG11",
-        "title": "Source Code Metrics and Maintainability: A Case Study.",
-        "pages": "272-284",
-        "year": "2011",
-        "booktitle": "FGIT-ASEA/DRBC/EL",
-        "ee": "https://doi.org/10.1007/978-3-642-27207-3_28",
-        "url": "db/conf/fgit/asea2011.html#HegedusBILFG11",
-        "authors": [
-          "PÃ©ter HegedÃ¼s",
-          "Tibor Bakota",
-          "LÃ¡szlÃ³ IllÃ©s",
-          "Gergely LadÃ¡nyi",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/llm4code/AntalVF24",
-        "title": "Toward a New Era of Rapid Development: Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation.",
-        "pages": "84-87",
-        "year": "2024",
-        "booktitle": "LLM4CODE@ICSE",
-        "ee": "https://www.wikidata.org/entity/Q130802366",
-        "url": "db/conf/llm4code/llm4code2024.html#AntalVF24",
-        "authors": [
-          "GÃ¡bor Antal",
-          "RichÃ¡rd VozÃ¡r",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/array/FerencBGG20",
-        "title": "Deep learning in static, metric-based bug prediction.",
-        "pages": "100021",
-        "year": "2020",
-        "volume": "6",
-        "journal": "Array",
-        "ee": "https://doi.org/10.1016/j.array.2020.100021",
-        "url": "db/journals/array/array6.html#FerencBGG20",
-        "authors": [
-          "Rudolf Ferenc",
-          "DÃ©nes BÃ¡n",
-          "TamÃ¡s GrÃ³sz",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/smr/CapillaDF13",
-        "title": "A retrospective view of software maintenance and reengineering research - a selection of papers from European Conference on Software Maintenance and Reengineering 2010.",
-        "pages": "569-574",
-        "year": "2013",
-        "volume": "25",
-        "journal": "J. Softw. Evol. Process.",
-        "number": "6",
-        "ee": "https://doi.org/10.1002/smr.548",
-        "url": "db/journals/smr/smr25.html#CapillaDF13",
-        "authors": [
-          "Rafael Capilla",
-          "Juan C. DueÃ±as",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/smr/FerencKW13",
-        "title": "Introduction to the Special Issue of the 13th European Conference on Software Maintenance and Reengineering (CSMR 2009).",
-        "pages": "111-112",
-        "year": "2013",
-        "volume": "25",
-        "journal": "J. Softw. Evol. Process.",
-        "number": "2",
-        "ee": "https://doi.org/10.1002/smr.522",
-        "url": "db/journals/smr/smr25.html#FerencKW13",
-        "authors": [
-          "Rudolf Ferenc",
-          "Jens Knodel",
-          "Andreas Winter 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/KadarHF14",
-        "title": "Runtime Exception Detection in Java Programs Using Symbolic Execution.",
-        "pages": "331-352",
-        "year": "2014",
-        "volume": "21",
-        "journal": "Acta Cybern.",
-        "number": "3",
-        "ee": "https://doi.org/10.14232/actacyb.21.3.2014.4",
-        "url": "db/journals/actaC/actaC21.html#KadarHF14",
-        "authors": [
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/Ferenc17",
-        "title": "Preface.",
-        "pages": "439",
-        "year": "2017",
-        "volume": "23",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "ee": "https://doi.org/10.14232/actacyb.23.2.2017.1",
-        "url": "db/journals/actaC/actaC23.html#Ferenc17",
-        "authors": [
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/DevaiJNF14",
-        "title": "Designing and Implementing Control Flow Graph for Magic 4th Generation Language.",
-        "pages": "419-437",
-        "year": "2014",
-        "volume": "21",
-        "journal": "Acta Cybern.",
-        "number": "3",
-        "ee": "https://doi.org/10.14232/actacyb.21.3.2014.9",
-        "url": "db/journals/actaC/actaC21.html#DevaiJNF14",
-        "authors": [
-          "RichÃ¡rd DÃ©vai",
-          "Judit JÃ¡sz",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/FaragoHVF14",
-        "title": "Connection Between Version Control Operations and Quality Change of the Source Code.",
-        "pages": "585-607",
-        "year": "2014",
-        "volume": "21",
-        "journal": "Acta Cybern.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q110512214",
-        "url": "db/journals/actaC/actaC21.html#FaragoHVF14",
-        "authors": [
-          "Csaba FaragÃ³",
-          "PÃ©ter HegedÃ¼s",
-          "ÃdÃ¡m ZoltÃ¡n VÃ©gh",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/FerencGMP02",
-        "title": "Recognizing Design Patterns in C++ Programs with the Integration of Columbus and Maisa.",
-        "pages": "669-682",
-        "year": "2002",
-        "volume": "15",
-        "journal": "Acta Cybern.",
-        "number": "4",
-        "ee": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3603",
-        "url": "db/journals/actaC/actaC15.html#FerencGMP02",
-        "authors": [
-          "Rudolf Ferenc",
-          "Juha Gustafsson",
-          "LÃ¡szlÃ³ MÃ¼ller",
-          "Jukka Paakki"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/stvr/GyimesiVSMBFM21",
-        "title": "BUGSJS: a benchmark and taxonomy of JavaScript bugs.",
-        "year": "2021",
-        "volume": "31",
-        "journal": "Softw. Test. Verification Reliab.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q114234412",
-        "url": "db/journals/stvr/stvr31.html#GyimesiVSMBFM21",
-        "authors": [
-          "PÃ©ter Gyimesi",
-          "BÃ©la Vancsics",
-          "Andrea Stocco 0001",
-          "Davood Mazinanian",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "Ali Mesbah 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sqj/FerencTLSG20",
-        "title": "A public unified bug dataset for java and its assessment regarding metrics and bug prediction.",
-        "pages": "1447-1506",
-        "year": "2020",
-        "volume": "28",
-        "journal": "Softw. Qual. J.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q122459447",
-        "url": "db/journals/sqj/sqj28.html#FerencTLSG20",
-        "authors": [
-          "Rudolf Ferenc",
-          "ZoltÃ¡n TÃ³th",
-          "Gergely LadÃ¡nyi",
-          "IstvÃ¡n Siket",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sqj/KanellopoulosF12",
-        "title": "Introduction to the Software Quality and Maintainability special issue.",
-        "pages": "263-264",
-        "year": "2012",
-        "volume": "20",
-        "journal": "Softw. Qual. J.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q121106921",
-        "url": "db/journals/sqj/sqj20.html#KanellopoulosF12",
-        "authors": [
-          "Yiannis Kanellopoulos",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/SagodiSF24",
-        "title": "Methodology for Code Synthesis Evaluation of LLMs Presented by a Case Study of ChatGPT and Copilot.",
-        "pages": "72303-72316",
-        "year": "2024",
-        "volume": "12",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3403858",
-        "url": "db/journals/access/access12.html#SagodiSF24",
-        "authors": [
-          "ZoltÃ¡n SÃ¡godi",
-          "IstvÃ¡n Siket",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/SagodiPJSF22",
-        "title": "Static Call Graph Combination to Simulate Dynamic Call Graph Behavior.",
-        "pages": "131829-131840",
-        "year": "2022",
-        "volume": "10",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2022.3229182",
-        "url": "db/journals/access/access10.html#SagodiPJSF22",
-        "authors": [
-          "ZoltÃ¡n SÃ¡godi",
-          "Edit Pengo",
-          "Judit JÃ¡sz",
-          "IstvÃ¡n Siket",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/SagodiKHF25",
-        "title": "A Program Synthesis Dataset for LLM Temperature Analysis.",
-        "year": "2025",
-        "pages": "184022-184029",
-        "volume": "13",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/access.2025.3625443",
-        "url": "db/journals/access/access13.html#SagodiKHF25",
-        "authors": [
-          "ZoltÃ¡n SÃ¡godi",
-          "IstvÃ¡n KollÃ¡th",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/AntalVKMHF24",
-        "title": "PyBugHive: A Comprehensive Database of Manually Validated, Reproducible Python Bugs.",
-        "pages": "123739-123756",
-        "year": "2024",
-        "volume": "12",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3449106",
-        "url": "db/journals/access/access12.html#AntalVKMHF24",
-        "authors": [
-          "GÃ¡bor Antal",
-          "Norbert VÃ¡ndor",
-          "IstvÃ¡n KollÃ¡th",
-          "BalÃ¡zs MosolygÃ³",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/AntalHHLF23",
-        "title": "Is JavaScript Call Graph Extraction Solved Yet? A Comparative Study of Static and Dynamic Tools.",
-        "pages": "25266-25284",
-        "year": "2023",
-        "volume": "11",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2023.3255984",
-        "url": "db/journals/access/access11.html#AntalHHLF23",
-        "authors": [
-          "GÃ¡bor Antal",
-          "PÃ©ter HegedÃ¼s",
-          "ZoltÃ¡n Herczeg",
-          "GÃ¡bor LÃ³ki",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/HegedusF22",
-        "title": "Static Code Analysis Alarms Filtering Reloaded: A New Real-World Dataset and its ML-Based Utilization.",
-        "pages": "55090-55101",
-        "year": "2022",
-        "volume": "10",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2022.3176865",
-        "url": "db/journals/access/access10.html#HegedusF22",
-        "authors": [
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ese/PoshyvanykMFG09",
-        "title": "Using information retrieval based coupling measures for impact analysis.",
-        "pages": "5-32",
-        "year": "2009",
-        "volume": "14",
-        "journal": "Empir. Softw. Eng.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s10664-008-9088-2",
-        "url": "db/journals/ese/ese14.html#PoshyvanykMFG09",
-        "authors": [
-          "Denys Poshyvanyk",
-          "Andrian Marcus",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/VidacsGF06",
-        "title": "From C++ Refactorings to Graph Transformations.",
-        "year": "2006",
-        "volume": "3",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.3.10",
-        "url": "db/journals/eceasst/eceasst3.html#VidacsGF06",
-        "authors": [
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Martin Gogolla",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/eceasst/HegedusBLFF13",
-        "title": "A Drill-Down Approach for Measuring Maintainability at Source Code Element Level.",
-        "year": "2013",
-        "volume": "60",
-        "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
-        "ee": "https://doi.org/10.14279/tuj.eceasst.60.852",
-        "url": "db/journals/eceasst/eceasst60.html#HegedusBLFF13",
-        "authors": [
-          "PÃ©ter HegedÃ¼s",
-          "Tibor Bakota",
-          "Gergely LadÃ¡nyi",
-          "Csaba FaragÃ³",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/softx/FerencVAJH20",
-        "title": "Deep-water framework: The Swiss army knife of humans working with machine learning models.",
-        "pages": "100551",
-        "year": "2020",
-        "volume": "12",
-        "journal": "SoftwareX",
-        "ee": "https://doi.org/10.1016/j.softx.2020.100551",
-        "url": "db/journals/softx/softx12.html#FerencVAJH20",
-        "authors": [
-          "Rudolf Ferenc",
-          "TamÃ¡s Viszkok",
-          "TamÃ¡s Aladics",
-          "Judit JÃ¡sz",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/csur/BeszedesFGDK03",
-        "title": "Survey of code-size reduction methods.",
-        "pages": "223-267",
-        "year": "2003",
-        "volume": "35",
-        "journal": "ACM Comput. Surv.",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/937503.937504",
-        "url": "db/journals/csur/csur35.html#BeszedesFGDK03",
-        "authors": [
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy",
-          "AndrÃ© Dolenc",
-          "Konsta Karsisto"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/infsof/HegedusKFG18",
-        "title": "Empirical evaluation of software maintainability based on a manually validated refactoring dataset.",
-        "pages": "313-327",
-        "year": "2018",
-        "volume": "95",
-        "journal": "Inf. Softw. Technol.",
-        "ee": "https://www.wikidata.org/entity/Q113317018",
-        "url": "db/journals/infsof/infsof95.html#HegedusKFG18",
-        "authors": [
-          "PÃ©ter HegedÃ¼s",
-          "IstvÃ¡n KÃ¡dÃ¡r",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/infsof/UjhelyiSHCVVF15",
-        "title": "Performance comparison of query-based techniques for anti-pattern detection.",
-        "pages": "147-165",
-        "year": "2015",
-        "volume": "65",
-        "journal": "Inf. Softw. Technol.",
-        "ee": "https://www.wikidata.org/entity/Q57090055",
-        "url": "db/journals/infsof/infsof65.html#UjhelyiSHCVVF15",
-        "authors": [
-          "ZoltÃ¡n Ujhelyi",
-          "GÃ¡bor Szoke",
-          "Ãkos HorvÃ¡th 0001",
-          "Norbert Istvan CsiszÃ¡r",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "DÃ¡niel VarrÃ³",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jss/SzokeANFG17",
-        "title": "Empirical study on refactoring large-scale industrial systems and its effects on maintainability.",
-        "pages": "107-126",
-        "year": "2017",
-        "volume": "129",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://doi.org/10.1016/j.jss.2016.08.071",
-        "url": "db/journals/jss/jss129.html#SzokeANFG17",
-        "authors": [
-          "GÃ¡bor Szoke",
-          "Gabor Antal",
-          "Csaba Nagy 0001",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jss/FerencGGTG20",
-        "title": "An automatically created novel bug dataset and its validation in bug prediction.",
-        "pages": "110691",
-        "year": "2020",
-        "volume": "169",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://www.wikidata.org/entity/Q114154222",
-        "url": "db/journals/jss/jss169.html#FerencGGTG20",
-        "authors": [
-          "Rudolf Ferenc",
-          "PÃ©ter Gyimesi",
-          "GÃ¡bor Gyimesi",
-          "ZoltÃ¡n TÃ³th",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tse/GyimothyFS05",
-        "title": "Empirical Validation of Object-Oriented Metrics on Open Source Software for Fault Prediction.",
-        "pages": "897-910",
-        "year": "2005",
-        "volume": "31",
-        "journal": "IEEE Trans. Software Eng.",
-        "number": "10",
-        "ee": "https://www.wikidata.org/entity/Q114982831",
-        "url": "db/journals/tse/tse31.html#GyimothyFS05",
-        "authors": [
-          "Tibor GyimÃ³thy",
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tse/MarcusPF08",
-        "title": "Using the Conceptual Cohesion of Classes for Fault Prediction in Object-Oriented Systems.",
-        "pages": "287-300",
-        "year": "2008",
-        "volume": "34",
-        "journal": "IEEE Trans. Software Eng.",
-        "number": "2",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TSE.2007.70768",
-        "url": "db/journals/tse/tse34.html#MarcusPF08",
-        "authors": [
-          "Andrian Marcus",
-          "Denys Poshyvanyk",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/computers/AladicsHF24",
-        "title": "A Comparative Study of Commit Representations for JIT Vulnerability Prediction.",
-        "pages": "22",
-        "year": "2024",
-        "volume": "13",
-        "journal": "Comput.",
-        "number": "1",
-        "ee": "https://doi.org/10.3390/computers13010022",
-        "url": "db/journals/computers/computers13.html#AladicsHF24",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ieeesp/SabettaPLBSGBHFPPPMM24",
-        "title": "Known Vulnerabilities of Open Source Projects: Where Are the Fixes?",
-        "pages": "49-59",
-        "year": "2024",
-        "volume": "22",
-        "journal": "IEEE Secur. Priv.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/MSEC.2023.3343836",
-        "url": "db/journals/ieeesp/ieeesp22.html#SabettaPLBSGBHFPPPMM24",
-        "authors": [
-          "Antonino Sabetta",
-          "Serena Elisa Ponta",
-          "RocÃ­o Cabrera Lozoya",
-          "Michele Bezzi",
-          "Tommaso Sacchetti",
-          "Matteo Greco",
-          "GergÃ¶ Balogh",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc",
-          "Ranindya Paramitha",
-          "Ivan Pashchenko",
-          "Aurora Papotti",
-          "Ãkos MilÃ¡nkovich",
-          "Fabio Massacci"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ercim/ButtyanF22",
-        "title": "IoT Malware Detection with Machine Learning.",
-        "pages": "0",
-        "year": "2022",
-        "volume": "2022",
-        "journal": "ERCIM News",
-        "number": "129",
-        "ee": "https://ercim-news.ercim.eu/en129/special/iot-malware-detection-with-machine-learning",
-        "url": "db/journals/ercim/ercim2022.html#ButtyanF22",
-        "authors": [
-          "Levente ButtyÃ¡n",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ercim/SagodiHF24",
-        "title": "Increased Software Security with Large Language Models.",
-        "year": "2024",
-        "volume": "2024",
-        "journal": "ERCIM News",
-        "number": "139",
-        "ee": "https://ercim-news.ercim.eu/en139/special/increased-software-security-with-large-language-models",
-        "url": "db/journals/ercim/ercim2024.html#SagodiHF24",
-        "authors": [
-          "ZoltÃ¡n SÃ¡godi",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tjs/BanFSKG19",
-        "title": "Prediction models for performance, power, and energy efficiency of software executed on heterogeneous hardware.",
-        "pages": "4001-4025",
-        "year": "2019",
-        "volume": "75",
-        "journal": "J. Supercomput.",
-        "number": "8",
-        "ee": "https://doi.org/10.1007/s11227-018-2252-6",
-        "url": "db/journals/tjs/tjs75.html#BanFSKG19",
-        "authors": [
-          "DÃ©nes BÃ¡n",
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket",
-          "Ãkos Kiss 0001",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2511-10323",
-        "title": "A Large-Scale Collection Of (Non-)Actionable Static Code Analysis Reports.",
-        "year": "2025",
-        "volume": "abs/2511.10323",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2511.10323",
-        "url": "db/journals/corr/corr2511.html#abs-2511-10323",
-        "authors": [
-          "DÃ¡vid KÃ³szÃ³",
-          "TamÃ¡s Aladics",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2405-07244",
-        "title": "Enhanced Bug Prediction in JavaScript Programs with Hybrid Call-Graph Based Invocation Metrics.",
-        "year": "2024",
-        "volume": "abs/2405.07244",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2405.07244",
-        "url": "db/journals/corr/corr2405.html#abs-2405-07244",
-        "authors": [
-          "GÃ¡bor Antal",
-          "ZoltÃ¡n TÃ³th",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2604-18525",
-        "title": "Towards Better Static Code Analysis Reports: Sentence Transformer-based Filtering of Non-Actionable Alerts.",
-        "year": "2026",
-        "volume": "abs/2604.18525",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2604.18525",
-        "url": "db/journals/corr/corr2604.html#abs-2604-18525",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "Norbert VÃ¡ndor",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2404-14370",
-        "title": "Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation.",
-        "year": "2024",
-        "volume": "abs/2404.14370",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2404.14370",
-        "url": "db/journals/corr/corr2404.html#abs-2404-14370",
-        "authors": [
-          "GÃ¡bor Antal",
-          "RichÃ¡rd VozÃ¡r",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2011-01214",
-        "title": "Employing Partial Least Squares Regression with Discriminant Analysis for Bug Prediction.",
-        "year": "2020",
-        "volume": "abs/2011.01214",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2011.01214",
-        "url": "db/journals/corr/corr2011.html#abs-2011-01214",
-        "authors": [
-          "Rudolf Ferenc",
-          "IstvÃ¡n Siket",
-          "PÃ©ter HegedÃ¼s",
-          "RÃ³bert RajkÃ³"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2110-04951",
-        "title": "Bug Prediction Using Source Code Embedding Based on Doc2Vec.",
-        "year": "2021",
-        "volume": "abs/2110.04951",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2110.04951",
-        "url": "db/journals/corr/corr2110.html#abs-2110-04951",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "Judit JÃ¡sz",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2405-07206",
-        "title": "Static JavaScript Call Graphs: A Comparative Study.",
-        "year": "2024",
-        "volume": "abs/2405.07206",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2405.07206",
-        "url": "db/journals/corr/corr2405.html#abs-2405-07206",
-        "authors": [
-          "GÃ¡bor Antal",
-          "PÃ©ter HegedÃ¼s",
-          "ZoltÃ¡n TÃ³th",
-          "Rudolf Ferenc",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2405-07213",
-        "title": "Challenging Machine Learning Algorithms in Predicting Vulnerable JavaScript Functions.",
-        "year": "2024",
-        "volume": "abs/2405.07213",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2405.07213",
-        "url": "db/journals/corr/corr2405.html#abs-2405-07213",
-        "authors": [
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s",
-          "PÃ©ter Gyimesi",
-          "GÃ¡bor Antal",
-          "DÃ©nes BÃ¡n",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2506-11561",
-        "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study.",
-        "year": "2025",
-        "volume": "abs/2506.11561",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.11561",
-        "url": "db/journals/corr/corr2506.html#abs-2506-11561",
-        "authors": [
-          "GÃ¡bor Antal",
-          "Bence BogenfÃ¼rst",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2405-07204",
-        "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments.",
-        "year": "2024",
-        "volume": "abs/2405.07204",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2405.07204",
-        "url": "db/journals/corr/corr2405.html#abs-2405-07204",
-        "authors": [
-          "GÃ¡bor Antal",
-          "David Havas",
-          "IstvÃ¡n Siket",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Rudolf Ferenc",
-          "JÃ³zsef Mihalicza"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2506-11559",
-        "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation.",
-        "year": "2025",
-        "volume": "abs/2506.11559",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.11559",
-        "url": "db/journals/corr/corr2506.html#abs-2506-11559",
-        "authors": [
-          "GÃ¡bor Antal",
-          "DÃ©nes BÃ¡n",
-          "Martin Isztin",
-          "Rudolf Ferenc",
-          "PÃ©ter HegedÃ¼s"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2006-10158",
-        "title": "An Automatically Created Novel Bug Dataset and its Validation in Bug Prediction.",
-        "year": "2020",
-        "volume": "abs/2006.10158",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2006.10158",
-        "url": "db/journals/corr/corr2006.html#abs-2006-10158",
-        "authors": [
-          "Rudolf Ferenc",
-          "PÃ©ter Gyimesi",
-          "GÃ¡bor Gyimesi",
-          "ZoltÃ¡n TÃ³th",
-          "Tibor GyimÃ³thy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2105-07527",
-        "title": "Improving Vulnerability Prediction of JavaScript Functions Using Process Metrics.",
-        "year": "2021",
-        "volume": "abs/2105.07527",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2105.07527",
-        "url": "db/journals/corr/corr2105.html#abs-2105-07527",
-        "authors": [
-          "TamÃ¡s Viszkok",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2303-16591",
-        "title": "An AST-based Code Change Representation and its Performance in Just-in-time Vulnerability Prediction.",
-        "year": "2023",
-        "volume": "abs/2303.16591",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2303.16591",
-        "url": "db/journals/corr/corr2303.html#abs-2303-16591",
-        "authors": [
-          "TamÃ¡s Aladics",
-          "PÃ©ter HegedÃ¼s",
-          "Rudolf Ferenc"
-        ]
+        "informal": {
+          "@key": "books/sp/ess14/FerencHG14",
+          "title": "Software Product Quality Models",
+          "journal": "Evolving Software Systems",
+          "year": "2014",
+          "pages": "65-100",
+          "ee": "https://doi.org/10.1007/978-3-642-45398-4_3",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/x/p/FerencBG05",
+          "title": "Extracting Facts with Columbus from C++ Code",
+          "journal": "Tools for Software Maintenance and Reengineering",
+          "year": "2005",
+          "pages": "16-31",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/BakotaHSLF14",
+          "title": "Qualitygate SourceAudit: A tool for assessing the technical quality of software",
+          "booktitle": "CSMR-WCRE",
+          "year": "2014",
+          "pages": "440-445",
+          "ee": "https://doi.org/10.1109/CSMR-WCRE.2014.6747214",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/FerencB02",
+          "title": "Data Exchange with the Columbus Schema for C++",
+          "booktitle": "CSMR",
+          "year": "2002",
+          "pages": "59-66",
+          "ee": "https://doi.org/10.1109/CSMR.2002.995790",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/FulopFG08",
+          "title": "Towards a Benchmark for Evaluating Design Pattern Miner Tools",
+          "booktitle": "CSMR",
+          "year": "2008",
+          "pages": "143-152",
+          "ee": "https://doi.org/10.1109/CSMR.2008.4493309",
+          "author": [
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/KanellopoulosF10",
+          "title": "SQM 2010: Fourth International Workshop on System Quality and Maintainability",
+          "booktitle": "CSMR",
+          "year": "2010",
+          "pages": "268-269",
+          "ee": "https://doi.org/10.1109/CSMR.2010.53",
+          "author": [
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Yiannis Kanellopoulos",
+              "@pid": "51/964"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/NagyVFGKK11",
+          "title": "Solutions for Reverse Engineering 4GL Applications, Recovering the Design of a Logistical Wholesale System",
+          "booktitle": "CSMR",
+          "year": "2011",
+          "pages": "343-346",
+          "ee": "https://doi.org/10.1109/CSMR.2011.66",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Ferenc Kocsis",
+              "@pid": "39/2787"
+            },
+            {
+              "#text": "István Kovács",
+              "@pid": "36/1356"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/SchrettnerHFFB10",
+          "title": "Development of a Methodology, Software -- Suite and Service for Supporting Software Architecture Reconstruction",
+          "booktitle": "CSMR",
+          "year": "2010",
+          "pages": "190-193",
+          "ee": "https://doi.org/10.1109/CSMR.2010.32",
+          "author": [
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Lajos Schrettner",
+              "@pid": "85/9118"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/TothNFS13",
+          "title": "Using Version Control History to Follow the Changes of Source Code Elements",
+          "booktitle": "CSMR",
+          "year": "2013",
+          "pages": "319-322",
+          "ee": "https://doi.org/10.1109/CSMR.2013.40",
+          "author": [
+            {
+              "#text": "Gabor Novak",
+              "@pid": "128/5717"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/UjhelyiHVCSVF14",
+          "title": "Anti-pattern detection with model queries: A comparison of approaches",
+          "booktitle": "CSMR-WCRE",
+          "year": "2014",
+          "pages": "293-302",
+          "ee": "https://doi.org/10.1109/CSMR-WCRE.2014.6747181",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Norbert Istvan Csiszár",
+              "@pid": "163/9679"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ujhelyi",
+              "@pid": "93/8528"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csmr/VidacsBF04",
+          "title": "Columbus Schema for C/C++ Preprocessing",
+          "booktitle": "CSMR",
+          "year": "2004",
+          "pages": "75-84",
+          "ee": "https://doi.org/10.1109/CSMR.2004.1281408",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ease/AntalBFH25",
+          "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study",
+          "booktitle": "EASE",
+          "year": "2025",
+          "pages": "696-700",
+          "ee": "https://doi.org/10.1145/3756681.3757078",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ease/AntalBIFH25",
+          "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+          "booktitle": "EASE",
+          "year": "2025",
+          "pages": "1056-1065",
+          "ee": "https://doi.org/10.1145/3756681.3757075",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ease/SagodiABIHF24",
+          "title": "Reality Check: Assessing GPT-4 in Fixing Real-World Software Vulnerabilities",
+          "booktitle": "EASE",
+          "year": "2024",
+          "pages": "252-261",
+          "ee": "https://doi.org/10.1145/3661167.3661207",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fgit/Ferenc10",
+          "title": "Bug Forecast: A Method for Automatic Bug Prediction",
+          "booktitle": "FGIT-ASEA",
+          "year": "2010",
+          "pages": "283-295",
+          "ee": "https://doi.org/10.1007/978-3-642-17578-7_28",
+          "author": {
+            "#text": "Rudolf Ferenc",
+            "@pid": "f/RudolfFerenc"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fgit/HegedusBILFG11",
+          "title": "Source Code Metrics and Maintainability: A Case Study",
+          "booktitle": "FGIT-ASEA/DRBC/EL",
+          "year": "2011",
+          "pages": "272-284",
+          "ee": "https://doi.org/10.1007/978-3-642-27207-3_28",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "László Illés",
+              "@pid": "20/10567"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/AladicsJF21",
+          "title": "Bug Prediction Using Source Code Embedding Based on Doc2Vec",
+          "booktitle": "ICCSA (7)",
+          "year": "2021",
+          "pages": "382-397",
+          "ee": "https://doi.org/10.1007/978-3-030-87007-2_27",
+          "author": [
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/BanF14",
+          "title": "Recognizing Antipatterns and Analyzing Their Effects on Software Maintainability",
+          "booktitle": "ICCSA (5)",
+          "year": "2014",
+          "pages": "337-352",
+          "ee": "https://doi.org/10.1007/978-3-319-09156-3_25",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/DevaiVFG14",
+          "title": "Service Layer for IDE Integration of C/C++ Preprocessor Related Analysis",
+          "booktitle": "ICCSA (5)",
+          "year": "2014",
+          "pages": "402-417",
+          "ee": "https://doi.org/10.1007/978-3-319-09156-3_29",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Richárd Dévai",
+              "@pid": "147/6987"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/FaragoHF14",
+          "title": "The Impact of Version Control Operations on the Quality Change of the Source Code",
+          "booktitle": "ICCSA (5)",
+          "year": "2014",
+          "pages": "353-369",
+          "ee": "https://doi.org/10.1007/978-3-319-09156-3_26",
+          "author": [
+            {
+              "#text": "Csaba Faragó",
+              "@pid": "63/3723"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/FaragoHF15",
+          "title": "Code Ownership: Impact on Maintainability",
+          "booktitle": "ICCSA (5)",
+          "year": "2015",
+          "pages": "3-19",
+          "ee": "https://doi.org/10.1007/978-3-319-21413-9_1",
+          "author": [
+            {
+              "#text": "Csaba Faragó",
+              "@pid": "63/3723"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/FritsiNFG13",
+          "title": "A Methodology and Framework for Automatic Layout Independent GUI Testing of Applications Developed in Magic xpa",
+          "booktitle": "ICCSA (2)",
+          "year": "2013",
+          "pages": "513-528",
+          "ee": "https://doi.org/10.1007/978-3-642-39643-4_37",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Daniel Fritsi",
+              "@pid": "131/3133"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/GyimesiGTF15",
+          "title": "Characterization of Source Code Defects by Data Mining Conducted on GitHub",
+          "booktitle": "ICCSA (5)",
+          "year": "2015",
+          "pages": "47-62",
+          "ee": "https://doi.org/10.1007/978-3-319-21413-9_4",
+          "author": [
+            {
+              "#text": "Gábor Gyimesi",
+              "@pid": "163/9105"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/KadarHF15",
+          "title": "Adding Constraint Building Mechanisms to a Symbolic Execution Engine Developed for Detecting Runtime Errors",
+          "booktitle": "ICCSA (5)",
+          "year": "2015",
+          "pages": "20-35",
+          "ee": "https://doi.org/10.1007/978-3-319-21413-9_2",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/KadarHFG16",
+          "title": "Assessment of the Code Refactoring Dataset Regarding the Maintainability of Methods",
+          "booktitle": "ICCSA (4)",
+          "year": "2016",
+          "pages": "610-624",
+          "ee": "https://doi.org/10.1007/978-3-319-42089-9_43",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/MosolygoVHF22",
+          "title": "A Line-Level Explainable Vulnerability Detection Approach for Java",
+          "booktitle": "ICCSA (Workshops 4)",
+          "year": "2022",
+          "pages": "106-122",
+          "ee": "https://doi.org/10.1007/978-3-031-10542-5_8",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/MuhiSFFB13",
+          "title": "A Semi-automatic Usability Evaluation Framework",
+          "booktitle": "ICCSA (2)",
+          "year": "2013",
+          "pages": "529-542",
+          "ee": "https://doi.org/10.1007/978-3-642-39643-4_38",
+          "author": [
+            {
+              "#text": "Ágoston Berger",
+              "@pid": "131/3154"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Kornél Muhi",
+              "@pid": "131/3150"
+            },
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/NagyVFGKK11",
+          "title": "Complexity Measures in 4GL Environment",
+          "booktitle": "ICCSA (5)",
+          "year": "2011",
+          "pages": "293-309",
+          "ee": "https://doi.org/10.1007/978-3-642-21934-4_25",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Ferenc Kocsis",
+              "@pid": "39/2787"
+            },
+            {
+              "#text": "István Kovács",
+              "@pid": "36/1356"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/SzamosvolgyiVTJ21",
+          "title": "Assessing Ensemble Learning Techniques in Bug Prediction",
+          "booktitle": "ICCSA (7)",
+          "year": "2021",
+          "pages": "368-381",
+          "ee": "https://doi.org/10.1007/978-3-030-87007-2_26",
+          "author": [
+            {
+              "#text": "Endre Tamás Váradi",
+              "@pid": "301/6441"
+            },
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            },
+            {
+              "#text": "Zsolt János Szamosvölgyi",
+              "@pid": "301/6716"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/SzokeNFG14",
+          "title": "A Case Study of Refactoring Large-Scale Industrial Systems to Efficiently Improve Source Code Quality",
+          "booktitle": "ICCSA (5)",
+          "year": "2014",
+          "pages": "524-540",
+          "ee": "https://doi.org/10.1007/978-3-319-09156-3_37",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/TothGF16",
+          "title": "A Public Bug Database of GitHub Projects and Its Application in Bug Prediction",
+          "booktitle": "ICCSA (4)",
+          "year": "2016",
+          "pages": "625-638",
+          "ee": "https://doi.org/10.1007/978-3-319-42089-9_44",
+          "author": [
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccsa/TothVF15",
+          "title": "Comparison of Static Analysis Tools for Quality Measurement of RPG Programs",
+          "booktitle": "ICCSA (5)",
+          "year": "2015",
+          "pages": "177-192",
+          "ee": "https://doi.org/10.1007/978-3-319-21413-9_13",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/BakotaBFG08",
+          "title": "Continuous software quality supervision using SourceInventory and Columbus",
+          "booktitle": "ICSE Companion",
+          "year": "2008",
+          "pages": "931-932",
+          "ee": "https://doi.org/10.1145/1370175.1370193",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/FerencHGABG19",
+          "title": "Challenging machine learning algorithms in predicting vulnerable JavaScript functions",
+          "booktitle": "RAISE@ICSE",
+          "year": "2019",
+          "pages": "8-14",
+          "ee": "https://doi.org/10.1109/RAISE.2019.00010",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BakotaFG07",
+          "title": "Clone Smells in Software Evolution",
+          "booktitle": "ICSM",
+          "year": "2007",
+          "pages": "24-33",
+          "ee": "https://doi.org/10.1109/ICSM.2007.4362615",
+          "author": [
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BakotaFGRX06",
+          "title": "Towards Portable Metrics-based Models for Software Maintenance Problems",
+          "booktitle": "ICSM",
+          "year": "2006",
+          "pages": "483-486",
+          "ee": "https://doi.org/10.1109/ICSM.2006.69",
+          "author": [
+            {
+              "#text": "Claudio Riva",
+              "@pid": "25/2353"
+            },
+            {
+              "#text": "Jianli Xu",
+              "@pid": "05/2547"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BakotaHKFG11",
+          "title": "A probabilistic software quality model",
+          "booktitle": "ICSM",
+          "year": "2011",
+          "pages": "243-252",
+          "ee": "https://doi.org/10.1109/ICSM.2011.6080791",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Peter Kortvelyesi",
+              "@pid": "70/10504"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BakotaHLKFG12",
+          "title": "A cost model based on software maintainability",
+          "booktitle": "ICSM",
+          "year": "2012",
+          "pages": "316-325",
+          "ee": "https://doi.org/10.1109/ICSM.2012.6405288",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Peter Kortvelyesi",
+              "@pid": "70/10504"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/BalanyiF03",
+          "title": "Mining Design Patterns from C++ Source Code",
+          "booktitle": "ICSM",
+          "year": "2003",
+          "pages": "305-314",
+          "ee": "https://doi.org/10.1109/ICSM.2003.1235436",
+          "author": [
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zsolt Balanyi",
+              "@pid": "11/3866"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/FerencBFL05",
+          "title": "Design Pattern Mining Enhanced by Machine Learning",
+          "booktitle": "ICSM",
+          "year": "2005",
+          "pages": "295-304",
+          "ee": "https://doi.org/10.1109/ICSM.2005.40",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Janos Lele",
+              "@pid": "02/4058"
+            },
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/FerencBG04",
+          "title": "Fact Extraction and Code Auditing with Columbus and SourceAudit",
+          "booktitle": "ICSM",
+          "year": "2004",
+          "pages": "513",
+          "ee": "https://doi.org/10.1109/ICSM.2004.1357858",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/FerencBTG02",
+          "title": "Columbus - Reverse Engineering Tool and Schema for C++",
+          "booktitle": "ICSM",
+          "year": "2002",
+          "pages": "172-181",
+          "ee": "https://doi.org/10.1109/ICSM.2002.1167764",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Mikko Tarkiainen",
+              "@pid": "69/713"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/FerencSG04",
+          "title": "Extracting Facts from Open Source Software",
+          "booktitle": "ICSM",
+          "year": "2004",
+          "pages": "60-69",
+          "ee": "https://doi.org/10.1109/ICSM.2004.1357790",
+          "author": [
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/LiuPFGC09",
+          "title": "Modeling class cohesion as mixtures of latent topics",
+          "booktitle": "ICSM",
+          "year": "2009",
+          "pages": "233-242",
+          "ee": "https://doi.org/10.1109/ICSM.2009.5306318",
+          "author": [
+            {
+              "#text": "Denys Poshyvanyk",
+              "@pid": "02/320"
+            },
+            {
+              "#text": "Nikos Chrisochoides",
+              "@pid": "41/5222"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Yixun Liu",
+              "@pid": "23/6319"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/NagyVFGKK10",
+          "title": "MAGISTER: Quality assurance of Magic applications for software developers and end users",
+          "booktitle": "ICSM",
+          "year": "2010",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICSM.2010.5609550",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Ferenc Kocsis",
+              "@pid": "39/2787"
+            },
+            {
+              "#text": "István Kovács",
+              "@pid": "36/1356"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsm/SzokeNHFG15",
+          "title": "Do automatic refactorings improve maintainability? An industrial case study",
+          "booktitle": "ICSME",
+          "year": "2015",
+          "pages": "429-438",
+          "ee": "https://doi.org/10.1109/ICSM.2015.7332494",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsoft/AladicsHF22",
+          "title": "A Vulnerability Introducing Commit Dataset for Java: An Improved SZZ based Approach",
+          "booktitle": "ICSOFT",
+          "year": "2022",
+          "pages": "68-78",
+          "ee": "https://doi.org/10.5220/0011275200003266",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsoft/AladicsHF22a",
+          "title": "An AST-Based Code Change Representation and Its Performance in Just-in-Time Vulnerability Prediction",
+          "booktitle": "ICSOFT (Selected Papers)",
+          "year": "2023",
+          "pages": "169-186",
+          "ee": "https://doi.org/10.1007/978-3-031-37231-5_8",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsoft/JaszSPSF19",
+          "title": "Systematic Comparison of Six Open-source Java Call Graph Construction Tools",
+          "booktitle": "ICSOFT",
+          "year": "2019",
+          "pages": "117-128",
+          "ee": "https://doi.org/10.5220/0007929201170128",
+          "author": [
+            {
+              "#text": "Edit Pengo",
+              "@pid": "202/9856"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsoft/VidacsBF07",
+          "title": "Macro Impact Analysis Using Macro Slicing",
+          "booktitle": "ICSOFT (SE)",
+          "year": "2007",
+          "pages": "230-235",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icsoft/ViszkokHF21",
+          "title": "Improving Vulnerability Prediction of JavaScript Functions using Process Metrics",
+          "booktitle": "ICSOFT",
+          "year": "2021",
+          "pages": "185-195",
+          "ee": "https://doi.org/10.5220/0010558501850195",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Viszkok",
+              "@pid": "281/2869"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icst/GyimesiVSMBF019",
+          "title": "BugsJS: a Benchmark of JavaScript Bugs",
+          "booktitle": "ICST",
+          "year": "2019",
+          "pages": "90-101",
+          "ee": "https://doi.org/10.1109/ICST.2019.00019",
+          "author": [
+            {
+              "#text": "Ali Mesbah",
+              "@pid": "72/4471-1"
+            },
+            {
+              "#text": "Andrea Stocco",
+              "@pid": "64/1715-1"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Béla Vancsics",
+              "@pid": "165/8303"
+            },
+            {
+              "#text": "Davood Mazinanian",
+              "@pid": "153/5280"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icst/VancsicsGSMBF019",
+          "title": "Poster: Supporting JavaScript Experimentation with BugsJS",
+          "booktitle": "ICST",
+          "year": "2019",
+          "pages": "375-378",
+          "ee": "https://doi.org/10.1109/ICST.2019.00046",
+          "author": [
+            {
+              "#text": "Ali Mesbah",
+              "@pid": "72/4471-1"
+            },
+            {
+              "#text": "Andrea Stocco",
+              "@pid": "64/1715-1"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Béla Vancsics",
+              "@pid": "165/8303"
+            },
+            {
+              "#text": "Davood Mazinanian",
+              "@pid": "153/5280"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pppj/SchrettnerFFG10",
+          "title": "Visualization of software architecture graphs of Java systems: managing propagated low level dependencies",
+          "booktitle": "PPPJ",
+          "year": "2010",
+          "pages": "148-157",
+          "ee": "https://doi.org/10.1145/1852761.1852783",
+          "author": [
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Lajos Schrettner",
+              "@pid": "85/9118"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/promise/FerencTLSG18",
+          "title": "A Public Unified Bug Dataset for Java",
+          "booktitle": "PROMISE",
+          "year": "2018",
+          "pages": "12-21",
+          "ee": "https://doi.org/10.1145/3273934.3273936",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/promise/KadarHFG16",
+          "title": "A Manually Validated Code Refactoring Dataset and Its Assessment Regarding Software Maintainability",
+          "booktitle": "PROMISE",
+          "year": "2016",
+          "pages": "10:1-10:4",
+          "ee": "https://doi.org/10.1145/2972958.2972962",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/AntalHSBFM16",
+          "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments",
+          "booktitle": "SCAM",
+          "year": "2016",
+          "pages": "177-186",
+          "ee": "https://doi.org/10.1109/SCAM.2016.11",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "David Havas",
+              "@pid": "156/6337"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "József Mihalicza",
+              "@pid": "51/4196"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/AntalHTFG18",
+          "title": "[Research Paper] Static JavaScript Call Graphs: A Comparative Study",
+          "booktitle": "SCAM",
+          "year": "2018",
+          "pages": "177-186",
+          "ee": "https://doi.org/10.1109/SCAM.2018.00028",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/FaragoHF15",
+          "title": "Cumulative code churn: Impact on maintainability",
+          "booktitle": "SCAM",
+          "year": "2015",
+          "pages": "141-150",
+          "ee": "https://doi.org/10.1109/SCAM.2015.7335410",
+          "author": [
+            {
+              "#text": "Csaba Faragó",
+              "@pid": "63/3723"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/FerencLSGB14",
+          "title": "Source Meter Sonar Qube Plug-in",
+          "booktitle": "SCAM",
+          "year": "2014",
+          "pages": "77-82",
+          "ee": "https://doi.org/10.1109/SCAM.2014.31",
+          "author": [
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Laszlo Lango",
+              "@pid": "124/2169"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/FulopGF06",
+          "title": "Evaluating C++ Design Pattern Miner Tools",
+          "booktitle": "SCAM",
+          "year": "2006",
+          "pages": "127-138",
+          "ee": "https://doi.org/10.1109/SCAM.2006.13",
+          "author": [
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamas Gyovai",
+              "@pid": "63/3569"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/JaszHMF22",
+          "title": "An End-to-End Framework for Repairing Potentially Vulnerable Source Code",
+          "booktitle": "SCAM",
+          "year": "2022",
+          "pages": "242-247",
+          "ee": "https://doi.org/10.1109/SCAM55253.2022.00034",
+          "author": [
+            {
+              "#text": "Ákos Milánkovich",
+              "@pid": "117/3172"
+            },
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/RozsaAF22",
+          "title": "Don't DIY: Automatically transform legacy Python code to support structural pattern matching",
+          "booktitle": "SCAM",
+          "year": "2022",
+          "pages": "164-169",
+          "ee": "https://doi.org/10.1109/SCAM55253.2022.00024",
+          "author": [
+            {
+              "#text": "Balázs Rózsa",
+              "@pid": "338/4755"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/SzokeANFG14",
+          "title": "Bulk Fixing Coding Issues and Its Effects on Software Quality: Is It Worth Refactoring?",
+          "booktitle": "SCAM",
+          "year": "2014",
+          "pages": "95-104",
+          "ee": "https://doi.org/10.1109/SCAM.2014.18",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/SzokeNFFG15",
+          "title": "FaultBuster: An automatic code smell refactoring toolset",
+          "booktitle": "SCAM",
+          "year": "2015",
+          "pages": "253-258",
+          "ee": "https://doi.org/10.1109/SCAM.2015.7335422",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scam/UjhaziFPG10",
+          "title": "New Conceptual Coupling and Cohesion Metrics for Object-Oriented Systems",
+          "booktitle": "SCAM",
+          "year": "2010",
+          "pages": "33-42",
+          "ee": "https://doi.org/10.1109/SCAM.2010.14",
+          "author": [
+            {
+              "#text": "Bela Ujhazi",
+              "@pid": "58/9994"
+            },
+            {
+              "#text": "Denys Poshyvanyk",
+              "@pid": "02/320"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/trustcom/BanFSK15",
+          "title": "Prediction Models for Performance, Power, and Energy Efficiency of Software Executed on Heterogeneous Hardware",
+          "booktitle": "TrustCom/BigDataSE/ISPA (3)",
+          "year": "2015",
+          "pages": "178-183",
+          "ee": "https://doi.org/10.1109/TRUSTCOM.2015.629",
+          "author": [
+            {
+              "#text": "Ákos Kiss",
+              "@pid": "22/2413-1"
+            },
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/uic/GyimesiBSFBCSS16",
+          "title": "Enforcing Techniques and Transformation of C/C++ Source Code to Heterogeneous Hardware",
+          "booktitle": "UIC/ATC/ScalCom/CBDCom/IoP/SmartWorld",
+          "year": "2016",
+          "pages": "1173-1180",
+          "ee": "https://doi.org/10.1109/UIC-ATC-SCALCOM-CBDCOM-IOP-SMARTWORLD.2016.0180",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gábor Gyimesi",
+              "@pid": "163/9105"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Peter Sommerlad",
+              "@pid": "99/2276"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Silvano Brugnoni",
+              "@pid": "193/6162"
+            },
+            {
+              "#text": "Thomas Corbat",
+              "@pid": "98/6935"
+            },
+            {
+              "#text": "Toni Suter",
+              "@pid": "193/6184"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/BartaMSF19",
+          "title": "Challenges of SonarQube Plug-In Maintenance",
+          "booktitle": "SANER",
+          "year": "2019",
+          "pages": "574-578",
+          "ee": "https://doi.org/10.1109/SANER.2019.8667988",
+          "author": [
+            {
+              "#text": "Bence Barta",
+              "@pid": "237/8661"
+            },
+            {
+              "#text": "Gunter Manz",
+              "@pid": "237/8709"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/FerencSHKG01",
+          "title": "Towards a Standard Schema for C/C++",
+          "booktitle": "WCRE",
+          "year": "2001",
+          "pages": "49-58",
+          "ee": "https://doi.org/10.1109/WCRE.2001.957809",
+          "author": [
+            {
+              "#text": "Rainer Koschke",
+              "@pid": "84/6899"
+            },
+            {
+              "#text": "Richard C. Holt",
+              "@pid": "h/RichardCHolt"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Susan Elliott Sim",
+              "@pid": "21/3796"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/FulopHFG08",
+          "title": "Towards a Benchmark for Evaluating Reverse Engineering Tools",
+          "booktitle": "WCRE",
+          "year": "2008",
+          "pages": "335-336",
+          "ee": "https://doi.org/10.1109/WCRE.2008.18",
+          "author": [
+            {
+              "#text": "Lajos Jeno Fülöp",
+              "@pid": "58/2664"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/KadarHFG16",
+          "title": "A Code Refactoring Dataset and Its Assessment Regarding Software Maintainability",
+          "booktitle": "SANER",
+          "year": "2016",
+          "pages": "599-603",
+          "ee": "https://doi.org/10.1109/SANER.2016.42",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/LadanyiTFK15",
+          "title": "A software quality model for RPG",
+          "booktitle": "SANER",
+          "year": "2015",
+          "pages": "91-100",
+          "ee": "https://doi.org/10.1109/SANER.2015.7081819",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Keresztesi",
+              "@pid": "161/1114"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/SzokeNFG16",
+          "title": "Designing and Developing Automated Refactoring Transformations: An Experience Report",
+          "booktitle": "SANER",
+          "year": "2016",
+          "pages": "693-697",
+          "ee": "https://doi.org/10.1109/SANER.2016.17",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcre/VandorAHF24",
+          "title": "On the Usefulness of Python Structural Pattern Matching: An Empirical Study",
+          "booktitle": "SANER",
+          "year": "2024",
+          "pages": "501-511",
+          "ee": "https://doi.org/10.1109/SANER60148.2024.00058",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AntalHHLF23",
+          "title": "Is JavaScript Call Graph Extraction Solved Yet? A Comparative Study of Static and Dynamic Tools",
+          "journal": "IEEE Access",
+          "year": "2023",
+          "pages": "25266-25284",
+          "ee": "https://doi.org/10.1109/ACCESS.2023.3255984",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Lóki",
+              "@pid": "151/0623"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Herczeg",
+              "@pid": "97/2115"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AntalVKMHF24",
+          "title": "PyBugHive: A Comprehensive Database of Manually Validated, Reproducible Python Bugs",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "123739-123756",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3449106",
+          "author": [
+            {
+              "#text": "Balázs Mosolygó",
+              "@pid": "275/2776"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Kolláth",
+              "@pid": "385/2910"
+            },
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/HegedusF22",
+          "title": "Static Code Analysis Alarms Filtering Reloaded: A New Real-World Dataset and its ML-Based Utilization",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "55090-55101",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3176865",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/SagodiKHF25",
+          "title": "A Program Synthesis Dataset for LLM Temperature Analysis",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "184022-184029",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3625443",
+          "author": [
+            {
+              "#text": "István Kolláth",
+              "@pid": "385/2910"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/SagodiPJSF22",
+          "title": "Static Call Graph Combination to Simulate Dynamic Call Graph Behavior",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "131829-131840",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3229182",
+          "author": [
+            {
+              "#text": "Edit Pengo",
+              "@pid": "202/9856"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/SagodiSF24",
+          "title": "Methodology for Code Synthesis Evaluation of LLMs Presented by a Case Study of ChatGPT and Copilot",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "72303-72316",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3403858",
+          "author": [
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/DevaiJNF14",
+          "title": "Designing and Implementing Control Flow Graph for Magic 4th Generation Language",
+          "journal": "Acta Cybern.",
+          "year": "2014",
+          "pages": "419-437",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.3.2014.9",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Richárd Dévai",
+              "@pid": "147/6987"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/FaragoHVF14",
+          "title": "Connection Between Version Control Operations and Quality Change of the Source Code",
+          "journal": "Acta Cybern.",
+          "year": "2014",
+          "pages": "585-607",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.4.2014.4",
+          "author": [
+            {
+              "#text": "Ádám Zoltán Végh",
+              "@pid": "199/8039"
+            },
+            {
+              "#text": "Csaba Faragó",
+              "@pid": "63/3723"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Ferenc17",
+          "title": "Preface",
+          "journal": "Acta Cybern.",
+          "year": "2017",
+          "pages": "439",
+          "ee": "https://doi.org/10.14232/ACTACYB.23.2.2017.1",
+          "author": {
+            "#text": "Rudolf Ferenc",
+            "@pid": "f/RudolfFerenc"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/FerencGMP02",
+          "title": "Recognizing Design Patterns in C++ Programs with the Integration of Columbus and Maisa",
+          "journal": "Acta Cybern.",
+          "year": "2002",
+          "pages": "669-682",
+          "author": [
+            {
+              "#text": "Juha Gustafsson",
+              "@pid": "85/4080"
+            },
+            {
+              "#text": "Jukka Paakki",
+              "@pid": "p/JPaakki"
+            },
+            {
+              "#text": "László Müller",
+              "@pid": "00/2259"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/KadarHF14",
+          "title": "Runtime Exception Detection in Java Programs Using Symbolic Execution",
+          "journal": "Acta Cybern.",
+          "year": "2014",
+          "pages": "331-352",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.3.2014.4",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/array/FerencBGG20",
+          "title": "Deep learning in static, metric-based bug prediction",
+          "journal": "Array",
+          "year": "2020",
+          "pages": "100021",
+          "ee": "https://doi.org/10.1016/J.ARRAY.2020.100021",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Grósz",
+              "@pid": "133/1170"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computers/AladicsHF24",
+          "title": "A Comparative Study of Commit Representations for JIT Vulnerability Prediction",
+          "journal": "Comput.",
+          "year": "2024",
+          "pages": "22",
+          "ee": "https://doi.org/10.3390/COMPUTERS13010022",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2006-10158",
+          "title": "An Automatically Created Novel Bug Dataset and its Validation in Bug Prediction",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.10158",
+          "author": [
+            {
+              "#text": "Gábor Gyimesi",
+              "@pid": "163/9105"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2011-01214",
+          "title": "Employing Partial Least Squares Regression with Discriminant Analysis for Bug Prediction",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.01214",
+          "author": [
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Róbert Rajkó",
+              "@pid": "277/9479"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2105-07527",
+          "title": "Improving Vulnerability Prediction of JavaScript Functions Using Process Metrics",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2105.07527",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Viszkok",
+              "@pid": "281/2869"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-04951",
+          "title": "Bug Prediction Using Source Code Embedding Based on Doc2Vec",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.04951",
+          "author": [
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2303-16591",
+          "title": "An AST-based Code Change Representation and its Performance in Just-in-time Vulnerability Prediction",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2303.16591",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2404-14370",
+          "title": "Assessing GPT-4-Vision's Capabilities in UML-Based Code Generation",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2404.14370",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Richárd Vozár",
+              "@pid": "376/0620"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07204",
+          "title": "Transforming C++11 Code to C++03 to Support Legacy Compilation Environments",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07204",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "David Havas",
+              "@pid": "156/6337"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "József Mihalicza",
+              "@pid": "51/4196"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07206",
+          "title": "Static JavaScript Call Graphs: A Comparative Study",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07206",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07213",
+          "title": "Challenging Machine Learning Algorithms in Predicting Vulnerable JavaScript Functions",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07213",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-07244",
+          "title": "Enhanced Bug Prediction in JavaScript Programs with Hybrid Call-Graph Based Invocation Metrics",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.07244",
+          "author": [
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-11559",
+          "title": "Leveraging GPT-4 for Vulnerability-Witnessing Unit Test Generation",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.11559",
+          "author": [
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Martin Isztin",
+              "@pid": "377/9959"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-11561",
+          "title": "Identifying Helpful Context for LLM-based Vulnerability Repair: A Preliminary Study",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.11561",
+          "author": [
+            {
+              "#text": "Bence Bogenfürst",
+              "@pid": "378/0097"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-10323",
+          "title": "A Large-Scale Collection Of (Non-)Actionable Static Code Analysis Reports",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.10323",
+          "author": [
+            {
+              "#text": "Dávid Kószó",
+              "@pid": "255/4896"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-18525",
+          "title": "Towards Better Static Code Analysis Reports: Sentence Transformer-based Filtering of Non-Actionable Alerts",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.18525",
+          "author": [
+            {
+              "#text": "Norbert Vándor",
+              "@pid": "275/2769"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/csur/BeszedesFGDK03",
+          "title": "Survey of code-size reduction methods",
+          "journal": "ACM Comput. Surv.",
+          "year": "2003",
+          "pages": "223-267",
+          "ee": "https://doi.org/10.1145/937503.937504",
+          "author": [
+            {
+              "#text": "André Dolenc",
+              "@pid": "18/1591"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Konsta Karsisto",
+              "@pid": "00/2092"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/HegedusBLFF13",
+          "title": "A Drill-Down Approach for Measuring Maintainability at Source Code Element Level",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2013",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.60.852",
+          "author": [
+            {
+              "#text": "Csaba Faragó",
+              "@pid": "63/3723"
+            },
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Bakota",
+              "@pid": "16/5303"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/VidacsGF06",
+          "title": "From C++ Refactorings to Graph Transformations",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2006",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.3.10",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Martin Gogolla",
+              "@pid": "g/MartinGogolla"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/ButtyanF22",
+          "title": "IoT Malware Detection with Machine Learning",
+          "journal": "ERCIM News",
+          "year": "2022",
+          "pages": "0",
+          "author": [
+            {
+              "#text": "Levente Buttyán",
+              "@pid": "84/3267"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/SagodiHF24",
+          "title": "Increased Software Security with Large Language Models",
+          "journal": "ERCIM News",
+          "year": "2024",
+          "author": [
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ságodi",
+              "@pid": "249/0493"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ese/PoshyvanykMFG09",
+          "title": "Using information retrieval based coupling measures for impact analysis",
+          "journal": "Empir. Softw. Eng.",
+          "year": "2009",
+          "pages": "5-32",
+          "ee": "https://doi.org/10.1007/S10664-008-9088-2",
+          "author": [
+            {
+              "#text": "Andrian Marcus",
+              "@pid": "m/AndrianMarcus"
+            },
+            {
+              "#text": "Denys Poshyvanyk",
+              "@pid": "02/320"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ieeesp/SabettaPLBSGBHFPPPMM24",
+          "title": "Known Vulnerabilities of Open Source Projects: Where Are the Fixes?",
+          "journal": "IEEE Secur. Priv.",
+          "year": "2024",
+          "pages": "49-59",
+          "ee": "https://doi.org/10.1109/MSEC.2023.3343836",
+          "author": [
+            {
+              "#text": "Ákos Milánkovich",
+              "@pid": "117/3172"
+            },
+            {
+              "#text": "Antonino Sabetta",
+              "@pid": "05/4081"
+            },
+            {
+              "#text": "Aurora Papotti",
+              "@pid": "329/4857"
+            },
+            {
+              "#text": "Fabio Massacci",
+              "@pid": "59/6145"
+            },
+            {
+              "#text": "Gergö Balogh",
+              "@pid": "137/0554"
+            },
+            {
+              "#text": "Ivan Pashchenko",
+              "@pid": "204/3588"
+            },
+            {
+              "#text": "Matteo Greco",
+              "@pid": "252/0746"
+            },
+            {
+              "#text": "Michele Bezzi",
+              "@pid": "60/543"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Ranindya Paramitha",
+              "@pid": "326/7899"
+            },
+            {
+              "#text": "Rocío Cabrera Lozoya",
+              "@pid": "120/4475"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Serena Elisa Ponta",
+              "@pid": "74/7424"
+            },
+            {
+              "#text": "Tommaso Sacchetti",
+              "@pid": "337/8966"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/infsof/HegedusKFG18",
+          "title": "Empirical evaluation of software maintainability based on a manually validated refactoring dataset",
+          "journal": "Inf. Softw. Technol.",
+          "year": "2018",
+          "pages": "313-327",
+          "ee": "https://doi.org/10.1016/J.INFSOF.2017.11.012",
+          "author": [
+            {
+              "#text": "István Kádár",
+              "@pid": "163/9172"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/infsof/UjhelyiSHCVVF15",
+          "title": "Performance comparison of query-based techniques for anti-pattern detection",
+          "journal": "Inf. Softw. Technol.",
+          "year": "2015",
+          "pages": "147-165",
+          "ee": "https://doi.org/10.1016/J.INFSOF.2015.01.003",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Norbert Istvan Csiszár",
+              "@pid": "163/9679"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Zoltán Ujhelyi",
+              "@pid": "93/8528"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/FerencGGTG20",
+          "title": "An automatically created novel bug dataset and its validation in bug prediction",
+          "journal": "J. Syst. Softw.",
+          "year": "2020",
+          "pages": "110691",
+          "ee": "https://doi.org/10.1016/J.JSS.2020.110691",
+          "author": [
+            {
+              "#text": "Gábor Gyimesi",
+              "@pid": "163/9105"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/SzokeANFG17",
+          "title": "Empirical study on refactoring large-scale industrial systems and its effects on maintainability",
+          "journal": "J. Syst. Softw.",
+          "year": "2017",
+          "pages": "107-126",
+          "ee": "https://doi.org/10.1016/J.JSS.2016.08.071",
+          "author": [
+            {
+              "#text": "Csaba Nagy",
+              "@pid": "30/5528-1"
+            },
+            {
+              "#text": "Gabor Antal",
+              "@pid": "156/6366"
+            },
+            {
+              "#text": "Gábor Szoke",
+              "@pid": "131/3170"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/smr/CapillaDF13",
+          "title": "A retrospective view of software maintenance and reengineering research - a selection of papers from European Conference on Software Maintenance and Reengineering 2010",
+          "journal": "J. Softw. Evol. Process.",
+          "year": "2013",
+          "pages": "569-574",
+          "ee": "https://doi.org/10.1002/SMR.548",
+          "author": [
+            {
+              "#text": "Juan C. Dueñas",
+              "@pid": "58/6694"
+            },
+            {
+              "#text": "Rafael Capilla",
+              "@pid": "05/4705"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/smr/FerencKW13",
+          "title": "Introduction to the Special Issue of the 13th European Conference on Software Maintenance and Reengineering (CSMR 2009)",
+          "journal": "J. Softw. Evol. Process.",
+          "year": "2013",
+          "pages": "111-112",
+          "ee": "https://doi.org/10.1002/SMR.522",
+          "author": [
+            {
+              "#text": "Andreas Winter",
+              "@pid": "w/AndreasWinter"
+            },
+            {
+              "#text": "Jens Knodel",
+              "@pid": "94/3371"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/softx/FerencVAJH20",
+          "title": "Deep-water framework: The Swiss army knife of humans working with machine learning models",
+          "journal": "SoftwareX",
+          "year": "2020",
+          "pages": "100551",
+          "ee": "https://doi.org/10.1016/J.SOFTX.2020.100551",
+          "author": [
+            {
+              "#text": "Judit Jász",
+              "@pid": "93/5766"
+            },
+            {
+              "#text": "Péter Hegedüs",
+              "@pid": "33/1061"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tamás Aladics",
+              "@pid": "281/2834"
+            },
+            {
+              "#text": "Tamás Viszkok",
+              "@pid": "281/2869"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sqj/FerencTLSG20",
+          "title": "A public unified bug dataset for java and its assessment regarding metrics and bug prediction",
+          "journal": "Softw. Qual. J.",
+          "year": "2020",
+          "pages": "1447-1506",
+          "ee": "https://doi.org/10.1007/S11219-020-09515-0",
+          "author": [
+            {
+              "#text": "Gergely Ladányi",
+              "@pid": "44/10566"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Zoltán Tóth",
+              "@pid": "80/5281"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sqj/KanellopoulosF12",
+          "title": "Introduction to the Software Quality and Maintainability special issue",
+          "journal": "Softw. Qual. J.",
+          "year": "2012",
+          "pages": "263-264",
+          "ee": "https://doi.org/10.1007/S11219-012-9179-6",
+          "author": [
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Yiannis Kanellopoulos",
+              "@pid": "51/964"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/stvr/GyimesiVSMBFM21",
+          "title": "BUGSJS: a benchmark and taxonomy of JavaScript bugs",
+          "journal": "Softw. Test. Verification Reliab.",
+          "year": "2021",
+          "ee": "https://doi.org/10.1002/STVR.1751",
+          "author": [
+            {
+              "#text": "Ali Mesbah",
+              "@pid": "72/4471-1"
+            },
+            {
+              "#text": "Andrea Stocco",
+              "@pid": "64/1715-1"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Béla Vancsics",
+              "@pid": "165/8303"
+            },
+            {
+              "#text": "Davood Mazinanian",
+              "@pid": "153/5280"
+            },
+            {
+              "#text": "Péter Gyimesi",
+              "@pid": "163/9153"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tjs/BanFSKG19",
+          "title": "Prediction models for performance, power, and energy efficiency of software executed on heterogeneous hardware",
+          "journal": "J. Supercomput.",
+          "year": "2019",
+          "pages": "4001-4025",
+          "ee": "https://doi.org/10.1007/S11227-018-2252-6",
+          "author": [
+            {
+              "#text": "Ákos Kiss",
+              "@pid": "22/2413-1"
+            },
+            {
+              "#text": "Dénes Bán",
+              "@pid": "147/6936"
+            },
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tse/GyimothyFS05",
+          "title": "Empirical Validation of Object-Oriented Metrics on Open Source Software for Fault Prediction",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "2005",
+          "pages": "897-910",
+          "ee": "https://doi.org/10.1109/TSE.2005.112",
+          "author": [
+            {
+              "#text": "István Siket",
+              "@pid": "63/6881"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tse/MarcusPF08",
+          "title": "Using the Conceptual Cohesion of Classes for Fault Prediction in Object-Oriented Systems",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "2008",
+          "pages": "287-300",
+          "ee": "https://doi.org/10.1109/TSE.2007.70768",
+          "author": [
+            {
+              "#text": "Andrian Marcus",
+              "@pid": "m/AndrianMarcus"
+            },
+            {
+              "#text": "Denys Poshyvanyk",
+              "@pid": "02/320"
+            },
+            {
+              "#text": "Rudolf Ferenc",
+              "@pid": "f/RudolfFerenc"
+            }
+          ]
+        }
       }
     ]
   }

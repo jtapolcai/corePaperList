@@ -1,0 +1,588 @@
+{
+  "dblpperson": {
+    "@name": "Gábor Valasek",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/cvww/TothVH23",
+          "title": "3D Trajectory Registration for Sensor Calibration",
+          "booktitle": "CVWW",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eccv/BarathV22",
+          "title": "Space-Partitioning RANSAC",
+          "booktitle": "ECCV (32)",
+          "year": "2022",
+          "pages": "721-737",
+          "ee": "https://doi.org/10.1007/978-3-031-19824-3_42",
+          "author": [
+            {
+              "#text": "Daniel Barath",
+              "@pid": "166/4789"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BalintV18",
+          "title": "Accelerating Sphere Tracing",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2018",
+          "pages": "29-32",
+          "ee": "https://doi.org/10.2312/EGS.20181037",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanBV19",
+          "title": "Area Lights in Signed Distance Function Scenes",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2019",
+          "pages": "85-88",
+          "ee": "https://doi.org/10.2312/EGS.20191021",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanV20",
+          "title": "First Order Signed Distance Fields",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2020",
+          "pages": "33-36",
+          "ee": "https://doi.org/10.2312/EGS.20201011",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanV21",
+          "title": "Tetrahedral Interpolation on Regular Grids",
+          "booktitle": "Eurographics (Posters)",
+          "year": "2021",
+          "ee": "https://doi.org/10.2312/EGP.20211031",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanV22",
+          "title": "Hermite Interpolation of Heightmaps",
+          "booktitle": "Eurographics (Posters)",
+          "year": "2022",
+          "ee": "https://doi.org/10.2312/EGP.20221017",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanV23",
+          "title": "Automatic Step Size Relaxation in Sphere Tracing",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2023",
+          "pages": "57-60",
+          "ee": "https://doi.org/10.2312/EGS.20231014",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BanV23a",
+          "title": "Sparse Ferguson-Hermite Signed Distance Fields",
+          "booktitle": "Eurographics (Posters)",
+          "year": "2023",
+          "pages": "17-18",
+          "ee": "https://doi.org/10.2312/EGP.20231029",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/BeneV26",
+          "title": "Helper-Lane Optimized Triangulation of Polygons",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2026",
+          "ee": "https://doi.org/10.2312/EGS.20261028",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bene",
+              "@pid": "443/4179"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/KarikoV25",
+          "title": "Real-Time Rendering of Algebraic Surfaces",
+          "booktitle": "Eurographics (Posters)",
+          "year": "2025",
+          "ee": "https://doi.org/10.2312/EGP.20251026",
+          "author": [
+            {
+              "#text": "Csongor Csanád Karikó",
+              "@pid": "405/6680"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/SzenteKV26",
+          "title": "Robust Ray-Surface Intersections for Algebraic Surfaces",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2026",
+          "ee": "https://doi.org/10.2312/EGS.20261027",
+          "author": [
+            {
+              "#text": "Csongor Csanád Karikó",
+              "@pid": "405/6680"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Péter Szente",
+              "@pid": "443/4058"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/ValasekB22",
+          "title": "Quick Cone Map Generation on the GPU",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2022",
+          "pages": "13-16",
+          "ee": "https://doi.org/10.2312/EGS.20221021",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rt/BanVBV24",
+          "title": "Robust Cone Step Mapping",
+          "booktitle": "EGSR (ST)",
+          "year": "2024",
+          "ee": "https://doi.org/10.2312/SR.20241146",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            },
+            {
+              "#text": "Viktor A. Vad",
+              "@pid": "399/6560"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visigrapp/BanBV25",
+          "title": "Backface Distance Fields: Relaxing Signed Distance Fields",
+          "booktitle": "VISIGRAPP (1): GRAPP, HUCAPP, IVAPP",
+          "year": "2025",
+          "pages": "127-138",
+          "ee": "https://doi.org/10.5220/0013251700003912",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wacv/ZhengVBA25",
+          "title": "Multi-HexPlanes: A Lightweight Map Representation for Rendering and 3D Reconstruction",
+          "booktitle": "WACV",
+          "year": "2025",
+          "pages": "2021-2031",
+          "ee": "https://doi.org/10.1109/WACV61041.2025.00203",
+          "author": [
+            {
+              "#text": "Daniel Barath",
+              "@pid": "166/4789"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Iro Armeni",
+              "@pid": "132/5216"
+            },
+            {
+              "#text": "Jianhao Zheng",
+              "@pid": "309/6084"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/BalintVG19",
+          "title": "Operations on Signed Distance Functions",
+          "journal": "Acta Cybern.",
+          "year": "2019",
+          "pages": "17-28",
+          "ee": "https://doi.org/10.14232/ACTACYB.24.1.2019.3",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Lajos Gergó",
+              "@pid": "270/5157"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/BanV21",
+          "title": "Geometric Distance Fields of Plane Curves",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "187-203",
+          "ee": "https://doi.org/10.14232/ACTACYB.289248",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/KiglicsVBB24",
+          "title": "Quadratic Displacement Maps for Heightmap Rendering",
+          "journal": "Acta Cybern.",
+          "year": "2024",
+          "pages": "529-542",
+          "ee": "https://doi.org/10.14232/ACTACYB.299736",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Mátyás Kiglics",
+              "@pid": "311/5105"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/KlarV11",
+          "title": "Employing Pythagorean Hodograph Curves for Artistic Patterns",
+          "journal": "Acta Cybern.",
+          "year": "2011",
+          "pages": "101-110",
+          "ee": "https://doi.org/10.14232/ACTACYB.20.1.2011.8",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Gergely Klár",
+              "@pid": "122/8354"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/ValasekBL21",
+          "title": "Footvector Representation of Curves and Surfaces",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "555-573",
+          "ee": "https://doi.org/10.14232/ACTACYB.290145",
+          "author": [
+            {
+              "#text": "András Leitereg",
+              "@pid": "220/3071"
+            },
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/ValasekHJS13",
+          "title": "Geometric Newton-Raphson Methods for Plane Curves",
+          "journal": "Acta Cybern.",
+          "year": "2013",
+          "pages": "191-203",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.1.2013.14",
+          "author": [
+            {
+              "#text": "András Jámbori",
+              "@pid": "132/0276"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Jlia Horváth",
+              "@pid": "132/0222"
+            },
+            {
+              "#text": "Levente Sallai",
+              "@pid": "132/0189"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cagd/BalintBV24",
+          "title": "Computing the cut locus, Voronoi diagram, and signed distance function of polygons",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "2024",
+          "pages": "102388",
+          "ee": "https://doi.org/10.1016/J.CAGD.2024.102388",
+          "author": [
+            {
+              "#text": "Csaba Bálint",
+              "@pid": "224/3041"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cgf/BanV25",
+          "title": "Generalized Lipschitz Tracing of Implicit Surfaces",
+          "journal": "Comput. Graph. Forum",
+          "year": "2025",
+          "ee": "https://doi.org/10.1111/CGF.15202",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Róbert Bán",
+              "@pid": "241/1886"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cgf/ValasekH26",
+          "title": "Register-Efficient Linear-Time Evaluation in the Bernstein Basis",
+          "journal": "Comput. Graph. Forum",
+          "year": "2026",
+          "ee": "https://doi.org/10.1111/CGF.70403",
+          "author": [
+            {
+              "#text": "Anna Lili Horváth",
+              "@pid": "443/4202"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2111-12385",
+          "title": "Space-Partitioning RANSAC",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.12385",
+          "author": [
+            {
+              "#text": "Daniel Barath",
+              "@pid": "166/4789"
+            },
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gabor16a",
+          "title": "Nonlinear Geometric Models",
+          "journal": "",
+          "year": "2016",
+          "author": {
+            "#text": "Gábor Valasek",
+            "@pid": "122/8346"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,425 +1,1557 @@
 {
   "dblpperson": {
+    "@name": "Tamas Peni",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/PeniP15",
-        "title": "Analysis of large scale parameter-varying systems by using scaled diagonal dominance.",
-        "pages": "3091-3096",
-        "year": "2015",
-        "booktitle": "ECC",
-        "ee": "https://www.wikidata.org/entity/Q58750818",
-        "url": "db/conf/eucc/eucc2015.html#PeniP15",
-        "authors": [
-          "Tamas Peni",
-          "Harald Pfifer"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/LuspayKPV11",
+          "title": "Freeway ramp metering: An LPV set theoretical analysis",
+          "booktitle": "ACC",
+          "year": "2011",
+          "pages": "733-738",
+          "ee": "https://doi.org/10.1109/ACC.2011.5991406",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Tamás Luspay",
+              "@pid": "70/7934"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/PeniSB14",
-        "title": "Stable ℋ∞ controller design based on a novel parameterization of the controller set.",
-        "pages": "67-72",
-        "year": "2014",
-        "booktitle": "ECC",
-        "ee": "https://www.wikidata.org/entity/Q57735328",
-        "url": "db/conf/eucc/eucc2014.html#PeniSB14",
-        "authors": [
-          "Tamas Peni",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/PeniKB12",
+          "title": "Model recovery anti-windup control for linear discrete time systems with magnitude and rate saturation",
+          "booktitle": "ACC",
+          "year": "2012",
+          "pages": "1543-1548",
+          "ee": "https://doi.org/10.1109/ACC.2012.6315447",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/GozseLP0V16",
-        "title": "Model order reduction of LPV systems based on parameter varying modal decomposition.",
-        "pages": "7459-7464",
-        "year": "2016",
-        "booktitle": "CDC",
-        "ee": "https://doi.org/10.1109/CDC.2016.7799421",
-        "url": "db/conf/cdc/cdc2016.html#GozseLP0V16",
-        "authors": [
-          "IstvÃ¡n Gozse",
-          "TamÃ¡s Luspay",
-          "Tamas Peni",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "BÃ¡lint Vanek"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/PeniS15",
+          "title": "Computation of a lower bound for the induced ℒ2 norm of LPV systems",
+          "booktitle": "ACC",
+          "year": "2015",
+          "pages": "114-118",
+          "ee": "https://doi.org/10.1109/ACC.2015.7170721",
+          "author": [
+            {
+              "#text": "Peter J. Seiler",
+              "@pid": "48/185"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/PeniKBV08",
-        "title": "Constrained Hinfinity control for discrete-time LPV systems using interpolation.",
-        "pages": "4141-4146",
-        "year": "2008",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735688",
-        "url": "db/conf/cdc/cdc2008.html#PeniKBV08",
-        "authors": [
-          "Tamas Peni",
-          "BalÃ¡zs KulcsÃ¡r",
-          "Jozsef Bokor",
-          "Michel Verhaegen"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/PeniV0B14",
+          "title": "Supervisory fault tolerant control of the NASA AirStar aircraft",
+          "booktitle": "ACC",
+          "year": "2014",
+          "pages": "666-671",
+          "ee": "https://doi.org/10.1109/ACC.2014.6859264",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/LuspayPSV18",
-        "title": "A Model Decomposition Framework for LPV Systems.",
-        "pages": "5898-5903",
-        "year": "2018",
-        "booktitle": "CDC",
-        "ee": "https://doi.org/10.1109/CDC.2018.8618676",
-        "url": "db/conf/cdc/cdc2018.html#LuspayPSV18",
-        "authors": [
-          "TamÃ¡s Luspay",
-          "Tamas Peni",
-          "Peter J. Seiler",
-          "BÃ¡lint Vanek"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/PfiferP16",
+          "title": "Model reduction for linear parameter varying systems using scaled diagonal dominance",
+          "booktitle": "ACC",
+          "year": "2016",
+          "pages": "2808-2813",
+          "ee": "https://doi.org/10.1109/ACC.2016.7525344",
+          "author": [
+            {
+              "#text": "Harald Pfifer",
+              "@pid": "99/7139"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/PeniSVB13",
-        "title": "Model recovery anti-windup compensator design for magnitude and rate saturated LPV systems.",
-        "pages": "4479-4484",
-        "year": "2013",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735415",
-        "url": "db/conf/cdc/cdc2013.html#PeniSVB13",
-        "authors": [
-          "Tamas Peni",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "BÃ¡lint Vanek",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/VanekPBB05",
+          "title": "Practical approach to real-time trajectory tracking of UAV formations",
+          "booktitle": "ACC",
+          "year": "2005",
+          "pages": "122-127vol.1",
+          "ee": "https://doi.org/10.1109/ACC.2005.1469919",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Gary J. Balas",
+              "@pid": "25/5066"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/VanekPBB14",
-        "title": "Vision only sense and avoid: A probabilistic approach.",
-        "pages": "1204-1209",
-        "year": "2014",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2014.6859181",
-        "url": "db/conf/amcc/acc2014.html#VanekPBB14",
-        "authors": [
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "PÃ©ter Bauer",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/VanekPBB14",
+          "title": "Vision only sense and avoid: A probabilistic approach",
+          "booktitle": "ACC",
+          "year": "2014",
+          "pages": "1204-1209",
+          "ee": "https://doi.org/10.1109/ACC.2014.6859181",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/PeniS15",
-        "title": "Computation of a lower bound for the induced ℒ2 norm of LPV systems.",
-        "pages": "114-118",
-        "year": "2015",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2015.7170721",
-        "url": "db/conf/amcc/acc2015.html#PeniS15",
-        "authors": [
-          "Tamas Peni",
-          "Peter J. Seiler"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/GozseLP0V16",
+          "title": "Model order reduction of LPV systems based on parameter varying modal decomposition",
+          "booktitle": "CDC",
+          "year": "2016",
+          "pages": "7459-7464",
+          "ee": "https://doi.org/10.1109/CDC.2016.7799421",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "István Gozse",
+              "@pid": "139/6600"
+            },
+            {
+              "#text": "Tamás Luspay",
+              "@pid": "70/7934"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/PeniKB12",
-        "title": "Model recovery anti-windup control for linear discrete time systems with magnitude and rate saturation.",
-        "pages": "1543-1548",
-        "year": "2012",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2012.6315447",
-        "url": "db/conf/amcc/acc2012.html#PeniKB12",
-        "authors": [
-          "Tamas Peni",
-          "BalÃ¡zs KulcsÃ¡r",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/LuspayPSV18",
+          "title": "A Model Decomposition Framework for LPV Systems",
+          "booktitle": "CDC",
+          "year": "2018",
+          "pages": "5898-5903",
+          "ee": "https://doi.org/10.1109/CDC.2018.8618676",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Peter J. Seiler",
+              "@pid": "48/185"
+            },
+            {
+              "#text": "Tamás Luspay",
+              "@pid": "70/7934"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/PfiferP16",
-        "title": "Model reduction for linear parameter varying systems using scaled diagonal dominance.",
-        "pages": "2808-2813",
-        "year": "2016",
-        "booktitle": "ACC",
-        "ee": "https://www.wikidata.org/entity/Q58750754",
-        "url": "db/conf/amcc/acc2016.html#PfiferP16",
-        "authors": [
-          "Harald Pfifer",
-          "Tamas Peni"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/PeniKBV08",
+          "title": "Constrained Hinfinity control for discrete-time LPV systems using interpolation",
+          "booktitle": "CDC",
+          "year": "2008",
+          "pages": "4141-4146",
+          "ee": "https://doi.org/10.1109/CDC.2008.4738674",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Michel Verhaegen",
+              "@pid": "91/602"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/PeniV0B14",
-        "title": "Supervisory fault tolerant control of the NASA AirStar aircraft.",
-        "pages": "666-671",
-        "year": "2014",
-        "booktitle": "ACC",
-        "ee": "https://www.wikidata.org/entity/Q57735333",
-        "url": "db/conf/amcc/acc2014.html#PeniV0B14",
-        "authors": [
-          "Tamas Peni",
-          "BÃ¡lint Vanek",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/PeniSVB13",
+          "title": "Model recovery anti-windup compensator design for magnitude and rate saturated LPV systems",
+          "booktitle": "CDC",
+          "year": "2013",
+          "pages": "4479-4484",
+          "ee": "https://doi.org/10.1109/CDC.2013.6760579",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BauerVPZPZB14",
-        "title": "Aircraft trajectory tracking with large sideslip angles for sense and avoid intruder state estimation.",
-        "pages": "1287-1292",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://www.wikidata.org/entity/Q57735269",
-        "url": "db/conf/med/med2014.html#BauerVPZPZB14",
-        "authors": [
-          "PÃ©ter Bauer",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "TamÃ¡s Zsedrovits",
-          "Borbala Jani Matyasne Pencz",
-          "Ãkos ZarÃ¡ndy",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/PolczKPS19",
+          "title": "Passivity analysis of rational LPV systems using Finsler's lemma",
+          "booktitle": "CDC",
+          "year": "2019",
+          "pages": "3793-3798",
+          "ee": "https://doi.org/10.1109/CDC40024.2019.9029877",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BauerVPFPZB15",
-        "title": "Monocular image parameter-based aircraft sense and avoid.",
-        "pages": "630-637",
-        "year": "2015",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2015.7158817",
-        "url": "db/conf/med/med2015.html#BauerVPFPZB15",
-        "authors": [
-          "PÃ©ter Bauer",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "Anna Futaki",
-          "Borbala Jani Matyasne Pencz",
-          "Ãkos ZarÃ¡ndy",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecctd/ZsedrovitsZVPBR11",
+          "title": "Visual Detection and Implementation Aspects of a UAV See and Avoid System",
+          "booktitle": "ECCTD",
+          "year": "2011",
+          "pages": "472-475",
+          "ee": "https://doi.org/10.1109/ECCTD.2011.6043389",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/l4dc/GyorokHKPST25",
-        "title": "Orthogonal projection-based regularization for efficient model augmentation.",
-        "pages": "166-178",
-        "year": "2025",
-        "booktitle": "L4DC",
-        "ee": "https://proceedings.mlr.press/v283/gyorok25a.html",
-        "url": "db/conf/l4dc/l4dc2025.html#GyorokHKPST25",
-        "authors": [
-          "BendegÃºz M. GyÃ¶rÃ¶k",
-          "Jan H. Hoekstra",
-          "Johan Kon",
-          "Tamas Peni",
-          "Maarten Schoukens",
-          "Roland TÃ³th"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/AntalPT24",
+          "title": "Computationally Efficient Sampling-Based Algorithm for Stability Analysis of Nonlinear Systems",
+          "booktitle": "ECC",
+          "year": "2024",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.23919/ECC64448.2024.10590987",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecctd/ZsedrovitsZVPBR11",
-        "title": "Visual Detection and Implementation Aspects of a UAV See and Avoid System.",
-        "pages": "472-475",
-        "year": "2011",
-        "booktitle": "ECCTD",
-        "ee": "https://www.wikidata.org/entity/Q57735597",
-        "url": "db/conf/ecctd/ecctd2011.html#ZsedrovitsZVPBR11",
-        "authors": [
-          "TamÃ¡s Zsedrovits",
-          "Ãkos ZarÃ¡ndy",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "Jozsef Bokor",
-          "TamÃ¡s Roska"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/FlochPT24",
+          "title": "Gaussian-Process-Based Adaptive Trajectory Tracking Control for Autonomous Ground Vehicles",
+          "booktitle": "ECC",
+          "year": "2024",
+          "pages": "464-471",
+          "ee": "https://doi.org/10.23919/ECC64448.2024.10591248",
+          "author": [
+            {
+              "#text": "Kristóf Floch",
+              "@pid": "358/2080"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iscas/NagyKZZVPBR12",
-        "title": "Volume and power optimized high-performance system for UAV collision avoidance.",
-        "pages": "189-192",
-        "year": "2012",
-        "booktitle": "ISCAS",
-        "ee": "https://www.wikidata.org/entity/Q57735539",
-        "url": "db/conf/iscas/iscas2012.html#NagyKZZVPBR12",
-        "authors": [
-          "ZoltÃ¡n Nagy 0001",
-          "AndrÃ¡s Kiss",
-          "Ãkos ZarÃ¡ndy",
-          "TamÃ¡s Zsedrovits",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "Jozsef Bokor",
-          "TamÃ¡s Roska"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/PeniKB09",
+          "title": "An alternative formulation of the interpolation based constrained H∞ control of discrete-time LPV systems",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "3118-3123",
+          "ee": "https://doi.org/10.23919/ECC.2009.7074884",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iscas/ZsedrovitsZVPBR11",
-        "title": "Collision avoidance for UAV using visual detection.",
-        "pages": "2173-2176",
-        "year": "2011",
-        "booktitle": "ISCAS",
-        "ee": "https://doi.org/10.1109/ISCAS.2011.5938030",
-        "url": "db/conf/iscas/iscas2011.html#ZsedrovitsZVPBR11",
-        "authors": [
-          "TamÃ¡s Zsedrovits",
-          "Ãkos ZarÃ¡ndy",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "Jozsef Bokor",
-          "TamÃ¡s Roska"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/PeniP15",
+          "title": "Analysis of large scale parameter-varying systems by using scaled diagonal dominance",
+          "booktitle": "ECC",
+          "year": "2015",
+          "pages": "3091-3096",
+          "ee": "https://doi.org/10.1109/ECC.2015.7331008",
+          "author": [
+            {
+              "#text": "Harald Pfifer",
+              "@pid": "99/7139"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcst/PeniVLSB18",
-        "title": "Nullspace-Based Input Reconfiguration Architecture for Overactuated Aerial Vehicles.",
-        "pages": "1826-1833",
-        "year": "2018",
-        "volume": "26",
-        "journal": "IEEE Trans. Control. Syst. Technol.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/TCST.2017.2737622",
-        "url": "db/journals/tcst/tcst26.html#PeniVLSB18",
-        "authors": [
-          "Tamas Peni",
-          "BÃ¡lint Vanek",
-          "GyÃ¶rgy LiptÃ¡k",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/PeniSB14",
+          "title": "Stable ℋ∞ controller design based on a novel parameterization of the controller set",
+          "booktitle": "ECC",
+          "year": "2014",
+          "pages": "67-72",
+          "ee": "https://doi.org/10.1109/ECC.2014.6862279",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/arc/PeniS21",
-        "title": "Convex output feedback model predictive control for mitigation of COVID-19 pandemic.",
-        "pages": "543-553",
-        "year": "2021",
-        "volume": "52",
-        "journal": "Annu. Rev. Control.",
-        "ee": "https://doi.org/10.1016/j.arcontrol.2021.10.003",
-        "url": "db/journals/arc/arc52.html#PeniS21",
-        "authors": [
-          "Tamas Peni",
-          "GÃ¡bor SzederkÃ©nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icra/AntalPT25",
+          "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+          "booktitle": "ICRA",
+          "year": "2025",
+          "pages": "5209-5215",
+          "ee": "https://doi.org/10.1109/ICRA55743.2025.11127483",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tits/TettamantiLKPV14",
-        "title": "Robust Control for Urban Road Traffic Networks.",
-        "pages": "385-398",
-        "year": "2014",
-        "volume": "15",
-        "journal": "IEEE Trans. Intell. Transp. Syst.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TITS.2013.2281666",
-        "url": "db/journals/tits/tits15.html#TettamantiLKPV14",
-        "authors": [
-          "TamÃ¡s Tettamanti",
-          "TamÃ¡s Luspay",
-          "BalÃ¡zs KulcsÃ¡r",
-          "Tamas Peni",
-          "IstvÃ¡n Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/iscas/NagyKZZVPBR12",
+          "title": "Volume and power optimized high-performance system for UAV collision avoidance",
+          "booktitle": "ISCAS",
+          "year": "2012",
+          "pages": "189-192",
+          "ee": "https://doi.org/10.1109/ISCAS.2012.6271640",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejcon/PeniKB09",
-        "title": "Induced L2 Norm Improvement by Interpolating Controllers for Discrete-time LPV Systems.",
-        "pages": "545-559",
-        "year": "2009",
-        "volume": "15",
-        "journal": "Eur. J. Control",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q57735648",
-        "url": "db/journals/ejcon/ejcon15.html#PeniKB09",
-        "authors": [
-          "Tamas Peni",
-          "BalÃ¡zs KulcsÃ¡r",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/iscas/ZsedrovitsZVPBR11",
+          "title": "Collision avoidance for UAV using visual detection",
+          "booktitle": "ISCAS",
+          "year": "2011",
+          "pages": "2173-2176",
+          "ee": "https://doi.org/10.1109/ISCAS.2011.5938030",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jirs/ZsedrovitsZVPBR13",
-        "title": "Estimation of Relative Direction Angle of Distant, Approaching Airplane in Sense-and-Avoid.",
-        "pages": "407-415",
-        "year": "2013",
-        "volume": "69",
-        "journal": "J. Intell. Robotic Syst.",
-        "number": "1-4",
-        "ee": "https://www.wikidata.org/entity/Q57735387",
-        "url": "db/journals/jirs/jirs69.html#ZsedrovitsZVPBR13",
-        "authors": [
-          "TamÃ¡s Zsedrovits",
-          "Ãkos ZarÃ¡ndy",
-          "BÃ¡lint Vanek",
-          "Tamas Peni",
-          "Jozsef Bokor",
-          "TamÃ¡s Roska"
-        ]
+        "inproceedings": {
+          "@key": "conf/l4dc/GyorokHKPST25",
+          "title": "Orthogonal projection-based regularization for efficient model augmentation",
+          "booktitle": "L4DC",
+          "year": "2025",
+          "pages": "166-178",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Jan H. Hoekstra",
+              "@pid": "344/1657"
+            },
+            {
+              "#text": "Johan Kon",
+              "@pid": "307/5177"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/amcs/PeniVSB15",
-        "title": "Supervisory fault tolerant control of the GTM UAV using LPV methods.",
-        "pages": "117-131",
-        "year": "2015",
-        "volume": "25",
-        "journal": "Int. J. Appl. Math. Comput. Sci.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q57735259",
-        "url": "db/journals/amcs/amcs25.html#PeniVSB15",
-        "authors": [
-          "Tamas Peni",
-          "BÃ¡lint Vanek",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BauerVPFPZB15",
+          "title": "Monocular image parameter-based aircraft sense and avoid",
+          "booktitle": "MED",
+          "year": "2015",
+          "pages": "630-637",
+          "ee": "https://doi.org/10.1109/MED.2015.7158817",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Anna Futaki",
+              "@pid": "241/4729"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Borbala Jani Matyasne Pencz",
+              "@pid": "166/3161"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/PeniS14",
-        "title": "Computation of lower bounds for the induced L2 norm of LPV systems.",
-        "year": "2014",
-        "volume": "abs/1408.6809",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1408.6809",
-        "url": "db/journals/corr/corr1408.html#PeniS14",
-        "authors": [
-          "Tamas Peni",
-          "Peter J. Seiler"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BauerVPZPZB14",
+          "title": "Aircraft trajectory tracking with large sideslip angles for sense and avoid intruder state estimation",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "1287-1292",
+          "ee": "https://doi.org/10.1109/MED.2014.6961553",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Borbala Jani Matyasne Pencz",
+              "@pid": "166/3161"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/LuspayPGSV16",
-        "title": "Model reduction for LPV systems based on approximate modal decomposition.",
-        "year": "2016",
-        "volume": "abs/1609.06948",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1609.06948",
-        "url": "db/journals/corr/corr1609.html#LuspayPGSV16",
-        "authors": [
-          "TamÃ¡s Luspay",
-          "Tamas Peni",
-          "IstvÃ¡n Gozse",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "BÃ¡lint Vanek"
-        ]
+        "article": {
+          "@key": "journals/access/PeniCBRS22",
+          "title": "Optimizing Symptom Based Testing Strategies for Pandemic Mitigation",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "84934-84945",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3197587",
+          "author": [
+            {
+              "#text": "Balázs Csutak",
+              "@pid": "296/2344"
+            },
+            {
+              "#text": "Ferenc A. Bartha",
+              "@pid": "168/9534"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Gergely Röst",
+              "@pid": "33/6817"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amcs/NemethGP16",
+          "title": "Nonlinear analysis of vehicle control actuations based on controlled invariant sets",
+          "journal": "Int. J. Appl. Math. Comput. Sci.",
+          "year": "2016",
+          "pages": "31-43",
+          "ee": "https://doi.org/10.1515/AMCS-2016-0003",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amcs/PeniVSB15",
+          "title": "Supervisory fault tolerant control of the GTM UAV using LPV methods",
+          "journal": "Int. J. Appl. Math. Comput. Sci.",
+          "year": "2015",
+          "pages": "117-131",
+          "ee": "https://doi.org/10.1515/AMCS-2015-0009",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/arc/PeniS21",
+          "title": "Convex output feedback model predictive control for mitigation of COVID-19 pandemic",
+          "journal": "Annu. Rev. Control.",
+          "year": "2021",
+          "pages": "543-553",
+          "ee": "https://doi.org/10.1016/J.ARCONTROL.2021.10.003",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2209-14652",
+          "title": "Backflipping with Miniature Quadcopters by Gaussian Process Based Control and Planning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2209.14652",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2304-02444",
+          "title": "Payload Grasping and Transportation by a Quadrotor with a Hook-Based Manipulator",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2304.02444",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-09651",
+          "title": "Modelling, identification and geometric control of autonomous quadcopters for agile maneuvering",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.09651",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-13750",
+          "title": "Computationally Efficient Sampling-Based Algorithm for Stability Analysis of Nonlinear Systems",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.13750",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-11788",
+          "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.11788",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-05842",
+          "title": "Orthogonal projection-based regularization for efficient model augmentation",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.05842",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Jan H. Hoekstra",
+              "@pid": "344/1657"
+            },
+            {
+              "#text": "Johan Kon",
+              "@pid": "307/5177"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-14672",
+          "title": "Gaussian-Process-based Adaptive Tracking Control with Dynamic Active Learning for Autonomous Ground Vehicles",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.14672",
+          "author": [
+            {
+              "#text": "Kristóf Floch",
+              "@pid": "358/2080"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-01321",
+          "title": "Orthogonal-by-construction augmentation of physics-based input-output models",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.01321",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-11421",
+          "title": "Data-driven augmentation of first-principles models under constraint-free well-posedness and stability guarantees",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.11421",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Chris Verhoek",
+              "@pid": "268/5974"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roel Drenth",
+              "@pid": "435/1379"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-02370",
+          "title": "Robust Adaptive Predictive Control for Hook-Based Aerial Transportation Between Moving Platforms",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.02370",
+          "author": [
+            {
+              "#text": "Andrea Carron",
+              "@pid": "125/5537"
+            },
+            {
+              "#text": "Melanie Nicole Zeilinger",
+              "@pid": "41/7142"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-26626",
+          "title": "Efficient stochastic model-predictive control based on the meta-state-space representation",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.26626",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2607-17614",
+          "title": "Online learning of neural state-space models",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.17614",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LuspayPGSV16",
+          "title": "Model reduction for LPV systems based on approximate modal decomposition",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.06948",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "István Gozse",
+              "@pid": "139/6600"
+            },
+            {
+              "#text": "Tamás Luspay",
+              "@pid": "70/7934"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/PeniS14",
+          "title": "Computation of lower bounds for the induced L2 norm of LPV systems",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1408.6809",
+          "author": [
+            {
+              "#text": "Peter J. Seiler",
+              "@pid": "48/185"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/PeniKB09",
+          "title": "Induced L2 Norm Improvement by Interpolating Controllers for Discrete-time LPV Systems",
+          "journal": "Eur. J. Control",
+          "year": "2009",
+          "pages": "545-559",
+          "ee": "https://doi.org/10.3166/EJC.15.545-559",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/PolczPS18",
+          "title": "Improved algorithm for computing the domain of attraction of rational nonlinear systems",
+          "journal": "Eur. J. Control",
+          "year": "2018",
+          "pages": "53-67",
+          "ee": "https://doi.org/10.1016/J.EJCON.2017.10.003",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/PolczPS19",
+          "title": "Computational method for estimating the domain of attraction of discrete-time uncertain rational systems",
+          "journal": "Eur. J. Control",
+          "year": "2019",
+          "pages": "68-83",
+          "ee": "https://doi.org/10.1016/J.EJCON.2018.12.004",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/SzederkenyiPR21",
+          "title": "Control Theoretic Approach for COVID-19 Management",
+          "journal": "ERCIM News",
+          "year": "2021",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Gergely Röst",
+              "@pid": "33/6817"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ifacjsc/GyorokSPT26",
+          "title": "Orthogonal-by-construction augmentation of physics-based input-output models",
+          "journal": "IFAC J. Syst. Control.",
+          "year": "2026",
+          "pages": "100376",
+          "ee": "https://doi.org/10.1016/J.IFACSC.2026.100376",
+          "author": [
+            {
+              "#text": "Bendegúz M. Györök",
+              "@pid": "397/4172"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jirs/ZsedrovitsZVPBR13",
+          "title": "Estimation of Relative Direction Angle of Distant, Approaching Airplane in Sense-and-Avoid",
+          "journal": "J. Intell. Robotic Syst.",
+          "year": "2013",
+          "pages": "407-415",
+          "ee": "https://doi.org/10.1007/S10846-012-9721-6",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ral/AntalCZTP26",
+          "title": "Robust Adaptive Predictive Control for Hook-Based Aerial Transportation Between Moving Platforms",
+          "journal": "IEEE Robotics Autom. Lett.",
+          "year": "2026",
+          "pages": "12352-12359",
+          "ee": "https://doi.org/10.1109/LRA.2026.3730216",
+          "author": [
+            {
+              "#text": "Andrea Carron",
+              "@pid": "125/5537"
+            },
+            {
+              "#text": "Melanie Nicole Zeilinger",
+              "@pid": "41/7142"
+            },
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scl/PolczPKS20",
+          "title": "Induced L2-gain computation for rational LPV systems using Finsler's lemma and minimal generators",
+          "journal": "Syst. Control. Lett.",
+          "year": "2020",
+          "pages": "104738",
+          "ee": "https://doi.org/10.1016/J.SYSCONLE.2020.104738",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/AntalPT24",
+          "title": "Backflipping With Miniature Quadcopters by Gaussian-Process-Based Control and Planning",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2024",
+          "pages": "3-14",
+          "ee": "https://doi.org/10.1109/TCST.2023.3297744",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/AntalPT25",
+          "title": "Autonomous Hook-Based Grasping and Transportation With Quadcopters",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2025",
+          "pages": "980-990",
+          "ee": "https://doi.org/10.1109/TCST.2025.3529356",
+          "author": [
+            {
+              "#text": "Péter Antal",
+              "@pid": "04/859"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/FlochPT26",
+          "title": "Gaussian-Process-Based Adaptive Tracking Control With Dynamic Active Learning for Autonomous Ground Vehicles",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2026",
+          "pages": "800-812",
+          "ee": "https://doi.org/10.1109/TCST.2025.3632358",
+          "author": [
+            {
+              "#text": "Kristóf Floch",
+              "@pid": "358/2080"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/PeniVLSB18",
+          "title": "Nullspace-Based Input Reconfiguration Architecture for Overactuated Aerial Vehicles",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2018",
+          "pages": "1826-1833",
+          "ee": "https://doi.org/10.1109/TCST.2017.2737622",
+          "author": [
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "György Lipták",
+              "@pid": "164/0580"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/TettamantiLKPV14",
+          "title": "Robust Control for Urban Road Traffic Networks",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2014",
+          "pages": "385-398",
+          "ee": "https://doi.org/10.1109/TITS.2013.2281666",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Tamás Luspay",
+              "@pid": "70/7934"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Tettamanti",
+              "@pid": "142/0455"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/VargaPKPP23",
+          "title": "Data-Driven Distance Metrics for Kriging-Short-Term Urban Traffic State Prediction",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2023",
+          "pages": "6268-6279",
+          "ee": "https://doi.org/10.1109/TITS.2023.3251022",
+          "author": [
+            {
+              "#text": "Balázs Kulcsár",
+              "@pid": "44/7141"
+            },
+            {
+              "#text": "Balázs Varga",
+              "@pid": "36/5418"
+            },
+            {
+              "#text": "Luigi Pariota",
+              "@pid": "124/5427"
+            },
+            {
+              "#text": "Mike Pereira",
+              "@pid": "284/0990"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
       }
     ]
   }

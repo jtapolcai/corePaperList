@@ -1,0 +1,2253 @@
+{
+  "dblpperson": {
+    "@name": "Gábor Szárnyas",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/adbis/MartonSV17",
+          "title": "Formalising openCypher Graph Queries in Relational Algebra",
+          "booktitle": "ADBIS",
+          "year": "2017",
+          "pages": "182-196",
+          "ee": "https://doi.org/10.1007/978-3-319-66917-5_13",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/VarroSSH18",
+          "title": "Towards the Automated Generation of Consistent, Diverse, Scalable and Realistic Graph Models",
+          "booktitle": "Graph Transformation, Specifications, and Nets",
+          "year": "2018",
+          "pages": "285-312",
+          "ee": "https://doi.org/10.1007/978-3-319-75396-6_16",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Oszkár Semeráth",
+              "@pid": "134/9441"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cidr/WoldeSSB23",
+          "title": "DuckPGQ: Efficient Property Graph Queries in an analytical RDBMS",
+          "booktitle": "CIDR",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Daniel ten Wolde",
+              "@pid": "351/9539"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Tavneet Singh",
+              "@pid": "290/3971"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/grades/SzarnyasPAMPKEB18",
+          "title": "An early look at the LDBC social network benchmark's business intelligence workload",
+          "booktitle": "GRADES/NDA@SIGMOD/PODS",
+          "year": "2018",
+          "pages": "9:1-9:11",
+          "ee": "https://doi.org/10.1145/3210259.3210268",
+          "author": [
+            {
+              "#text": "Alex Averbuch",
+              "@pid": "119/6895"
+            },
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            },
+            {
+              "#text": "Marcus Paradies",
+              "@pid": "31/8766"
+            },
+            {
+              "#text": "Moritz Kaufmann",
+              "@pid": "117/4884"
+            },
+            {
+              "#text": "Orri Erling",
+              "@pid": "47/2397"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Vlad Haprian",
+              "@pid": "220/5968"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpec/ElekesNSADS20",
+          "title": "A GraphBLAS solution to the SIGMOD 2014 Programming Contest using multi-source BFS",
+          "booktitle": "HPEC",
+          "year": "2020",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/HPEC43674.2020.9286186",
+          "author": [
+            {
+              "#text": "Attila Nagy",
+              "@pid": "08/415"
+            },
+            {
+              "#text": "Dávid Sándor",
+              "@pid": "282/7843"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iiswc/AzadABBCDDDDFGG20",
+          "title": "Evaluation of Graph Analytics Frameworks Using the GAP Benchmark Suite",
+          "booktitle": "IISWC",
+          "year": "2020",
+          "pages": "216-227",
+          "ee": "https://doi.org/10.1109/IISWC50251.2020.00029",
+          "author": [
+            {
+              "#text": "Andrew Lumsdaine",
+              "@pid": "13/566"
+            },
+            {
+              "#text": "Ariful Azad",
+              "@pid": "79/8436"
+            },
+            {
+              "#text": "Bálint Hegyi",
+              "@pid": "218/7563"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Gurbinder Gill",
+              "@pid": "220/9120"
+            },
+            {
+              "#text": "Henry A. Gabb",
+              "@pid": "06/636"
+            },
+            {
+              "#text": "Jesun Sahariar Firoz",
+              "@pid": "32/7483"
+            },
+            {
+              "#text": "Jinhao Chen",
+              "@pid": "119/0908"
+            },
+            {
+              "#text": "Keshav Pingali",
+              "@pid": "71/5735"
+            },
+            {
+              "#text": "Kevin Deweese",
+              "@pid": "142/8789"
+            },
+            {
+              "#text": "Luke Dalessandro",
+              "@pid": "35/2924"
+            },
+            {
+              "#text": "Mark P. Blanco",
+              "@pid": "183/8632"
+            },
+            {
+              "#text": "Mohsen Mahmoudi Aznaveh",
+              "@pid": "128/5498"
+            },
+            {
+              "#text": "Ramesh Peri",
+              "@pid": "26/3936"
+            },
+            {
+              "#text": "Roshan Dathathri",
+              "@pid": "135/5410"
+            },
+            {
+              "#text": "Scott Beamer",
+              "@pid": "95/7061"
+            },
+            {
+              "#text": "Scott McMillan",
+              "@pid": "04/3187"
+            },
+            {
+              "#text": "Scott P. Kolodziej",
+              "@pid": "136/7223"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            },
+            {
+              "#text": "Timothy G. Mattson",
+              "@pid": "56/794"
+            },
+            {
+              "#text": "Tugsbayasgalan Manlaibaatar",
+              "@pid": "279/2136"
+            },
+            {
+              "#text": "Tze Meng Low",
+              "@pid": "33/6378"
+            },
+            {
+              "#text": "Upasana Sridhar",
+              "@pid": "231/3741"
+            },
+            {
+              "#text": "Yongzhe Zhang",
+              "@pid": "136/1021"
+            },
+            {
+              "#text": "Yunming Zhang",
+              "@pid": "136/1072"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/ElekesS20",
+          "title": "An incremental GraphBLAS solution for the 2018 TTC Social Media case study",
+          "booktitle": "IPDPS Workshops",
+          "year": "2020",
+          "pages": "203-206",
+          "ee": "https://doi.org/10.1109/IPDPSW50202.2020.00045",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/SzarnyasB0KMMW21",
+          "title": "LAGraph: Linear Algebra, Network Analysis Libraries, and the Study of Graph Algorithms",
+          "booktitle": "IPDPS Workshops",
+          "year": "2021",
+          "pages": "243-252",
+          "ee": "https://doi.org/10.1109/IPDPSW52791.2021.00046",
+          "author": [
+            {
+              "#text": "David A. Bader",
+              "@pid": "41/3005"
+            },
+            {
+              "#text": "Erik Welch",
+              "@pid": "289/6239"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "James Kitchen",
+              "@pid": "245/0359"
+            },
+            {
+              "#text": "Scott McMillan",
+              "@pid": "04/3187"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            },
+            {
+              "#text": "Timothy G. Mattson",
+              "@pid": "56/794"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/MakaiSRHV15",
+          "title": "Optimization of Incremental Queries in the Cloud",
+          "booktitle": "CloudMDE@MoDELS",
+          "year": "2016",
+          "pages": "1-6",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Jozsef Makai",
+              "@pid": "177/5778"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/Szarnyas16",
+          "title": "Scalable Graph Query Evaluation and Benchmarking with Realistic Models",
+          "booktitle": "SRC@MoDELS",
+          "year": "2017",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/SzarnyasIRHBV14",
+          "title": "IncQuery-D: A Distributed Incremental Model Query Framework in the Cloud",
+          "booktitle": "MoDELS",
+          "year": "2014",
+          "pages": "653-669",
+          "ee": "https://doi.org/10.1007/978-3-319-11653-2_40",
+          "author": [
+            {
+              "#text": "Benedek Izsó",
+              "@pid": "129/0257"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Dénes Harmath",
+              "@pid": "151/1359"
+            },
+            {
+              "#text": "Gábor Bergmann",
+              "@pid": "76/4726"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/SzarnyasKSV16",
+          "title": "Towards the characterization of realistic models: evaluation of multidisciplinary graph metrics",
+          "booktitle": "MoDELS",
+          "year": "2016",
+          "pages": "87-94",
+          "author": [
+            {
+              "#text": "Ágnes Salánki",
+              "@pid": "129/7225"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Zsolt Kovári",
+              "@pid": "194/4097"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sdl/MartonSB17",
+          "title": "Model-Driven Engineering of an OpenCypher Engine: Using Graph Queries to Compile Graph Queries",
+          "booktitle": "SDL Forum",
+          "year": "2017",
+          "pages": "80-98",
+          "ee": "https://doi.org/10.1007/978-3-319-68015-6_6",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            },
+            {
+              "#text": "Márton Búr",
+              "@pid": "166/0117"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/siamcsc/AznavehC0HKMS20",
+          "title": "Parallel GraphBLAS with OpenMP",
+          "booktitle": "CSC",
+          "year": "2020",
+          "pages": "138-148",
+          "ee": "https://doi.org/10.1137/1.9781611976229.14",
+          "author": [
+            {
+              "#text": "Bálint Hegyi",
+              "@pid": "218/7563"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jinhao Chen",
+              "@pid": "119/0908"
+            },
+            {
+              "#text": "Mohsen Aznaveh",
+              "@pid": "243/7503"
+            },
+            {
+              "#text": "Scott P. Kolodziej",
+              "@pid": "136/7223"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            },
+            {
+              "#text": "Timothy G. Mattson",
+              "@pid": "56/794"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmod/MhedhbiLKWS21",
+          "title": "LSQB: a large-scale subgraph query benchmark",
+          "booktitle": "GRADES-NDA@SIGMOD",
+          "year": "2021",
+          "pages": "8:1-8:11",
+          "ee": "https://doi.org/10.1145/3461837.3464516",
+          "author": [
+            {
+              "#text": "Amine Mhedhbi",
+              "@pid": "206/6790"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Laurens Kuiper",
+              "@pid": "296/9534"
+            },
+            {
+              "#text": "Matteo Lissandrini",
+              "@pid": "139/1128"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmod/Szarnyas18",
+          "title": "Incremental View Maintenance for Property Graph Queries",
+          "booktitle": "SIGMOD Conference",
+          "year": "2018",
+          "pages": "1843-1845",
+          "ee": "https://doi.org/10.1145/3183713.3183724",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmod/WaudbySPS20",
+          "title": "Supporting Dynamic Graphs and Temporal Entity Deletions in the LDBC Social Network Benchmark's Data Generator",
+          "booktitle": "GRADES-NDA@SIGMOD",
+          "year": "2020",
+          "pages": "8:1-8:8",
+          "ee": "https://doi.org/10.1145/3398682.3399165",
+          "author": [
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/IzsoSRV13",
+          "title": "IncQuery-D: incremental graph search in the cloud",
+          "booktitle": "BigMDE@STAF",
+          "year": "2013",
+          "pages": "4",
+          "ee": "https://doi.org/10.1145/2487766.2487772",
+          "author": [
+            {
+              "#text": "Benedek Izsó",
+              "@pid": "129/0257"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/IzsoSRV14",
+          "title": "MONDO-SAM: A Framework to Systematically Assess MDE Scalability",
+          "booktitle": "BigMDE@STAF",
+          "year": "2014",
+          "pages": "40-43",
+          "author": [
+            {
+              "#text": "Benedek Izsó",
+              "@pid": "129/0257"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/NagyS16",
+          "title": "Class Responsiblity Assignment Case: a Viatra-DSE Solution",
+          "booktitle": "TTC@STAF",
+          "year": "2016",
+          "pages": "39-44",
+          "author": [
+            {
+              "#text": "András Szabolcs Nagy",
+              "@pid": "150/8871"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/SteinSR15",
+          "title": "Java Refactoring Case: A VIATRA Solution",
+          "booktitle": "TTC@STAF",
+          "year": "2015",
+          "pages": "100-117",
+          "author": [
+            {
+              "#text": "Dániel Stein",
+              "@pid": "172/6520"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/SzarnyasBR15",
+          "title": "Train Benchmark Case: an EMF-INCQUERY Solution",
+          "booktitle": "TTC@STAF",
+          "year": "2015",
+          "pages": "157-166",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Márton Búr",
+              "@pid": "166/0117"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/SzarnyasSIDHUB14",
+          "title": "Movie Database Case: An EMF-IncQuery Solution",
+          "booktitle": "TTC@STAF",
+          "year": "2014",
+          "pages": "103-115",
+          "author": [
+            {
+              "#text": "Ábel Hegedüs",
+              "@pid": "05/9522"
+            },
+            {
+              "#text": "Benedek Izsó",
+              "@pid": "129/0257"
+            },
+            {
+              "#text": "Csaba Debreceni",
+              "@pid": "150/9036"
+            },
+            {
+              "#text": "Gábor Bergmann",
+              "@pid": "76/4726"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Oszkár Semeráth",
+              "@pid": "134/9441"
+            },
+            {
+              "#text": "Zoltán Ujhelyi",
+              "@pid": "93/8528"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/staf/SzarnyasSRV15",
+          "title": "The TTC 2015 Train Benchmark Case for Incremental Model Validation",
+          "booktitle": "TTC@STAF",
+          "year": "2015",
+          "pages": "129-141",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Oszkár Semeráth",
+              "@pid": "134/9441"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tpctc/PurojaWBS23",
+          "title": "The LDBC Social Network Benchmark Interactive Workload v2: A Transactional Graph Query Benchmark with Deep Delete Operations",
+          "booktitle": "TPCTC",
+          "year": "2024",
+          "pages": "107-123",
+          "ee": "https://doi.org/10.1007/978-3-031-68031-1_8",
+          "author": [
+            {
+              "#text": "David Püroja",
+              "@pid": "352/2694"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tpctc/SzarnyasBBDFGGGGHHIKKLL23",
+          "title": "The Linked Data Benchmark Council (LDBC): Driving Competition and Collaboration in the Graph Data Management Space",
+          "booktitle": "TPCTC",
+          "year": "2024",
+          "pages": "90-106",
+          "ee": "https://doi.org/10.1007/978-3-031-68031-1_7",
+          "author": [
+            {
+              "#text": "Alastair Green",
+              "@pid": "65/2807"
+            },
+            {
+              "#text": "Alexandru Iosup",
+              "@pid": "85/2489"
+            },
+            {
+              "#text": "Alin Deutsch",
+              "@pid": "d/AlinDeutsch"
+            },
+            {
+              "#text": "Altan Birler",
+              "@pid": "243/2475"
+            },
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Atanas Kiryakov",
+              "@pid": "49/4559"
+            },
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Bin Yang",
+              "@pid": "77/377-40"
+            },
+            {
+              "#text": "Bing Tong",
+              "@pid": "329/7221-1"
+            },
+            {
+              "#text": "Brad Bebee",
+              "@pid": "249/6360"
+            },
+            {
+              "#text": "Chen Zhang",
+              "@pid": "94/4084-10"
+            },
+            {
+              "#text": "David Püroja",
+              "@pid": "352/2694"
+            },
+            {
+              "#text": "Dávid Szakállas",
+              "@pid": "337/3052"
+            },
+            {
+              "#text": "Denise Gosnell",
+              "@pid": "352/2903"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "George Fletcher",
+              "@pid": "f/GeorgeHLFletcher"
+            },
+            {
+              "#text": "Heng Lin",
+              "@pid": "120/9589"
+            },
+            {
+              "#text": "Henry A. Gabb",
+              "@pid": "06/636"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Jan Hidders",
+              "@pid": "h/JanHidders"
+            },
+            {
+              "#text": "Jason Zhang",
+              "@pid": "75/4903"
+            },
+            {
+              "#text": "Keith W. Hare",
+              "@pid": "295/3446"
+            },
+            {
+              "#text": "Leonid Libkin",
+              "@pid": "l/LeonidLibkin"
+            },
+            {
+              "#text": "Mingxi Wu",
+              "@pid": "w/MingxiWu"
+            },
+            {
+              "#text": "Oskar van Rest",
+              "@pid": "130/9761"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Shipeng Qi",
+              "@pid": "175/0201"
+            },
+            {
+              "#text": "Tomas Kovatchev",
+              "@pid": "352/2630"
+            },
+            {
+              "#text": "Wenyuan Yu",
+              "@pid": "53/5676"
+            },
+            {
+              "#text": "Xiaojian Luo",
+              "@pid": "179/8239"
+            },
+            {
+              "#text": "Xinsheng Li",
+              "@pid": "62/10295"
+            },
+            {
+              "#text": "Yan Zhou",
+              "@pid": "60/5157-21"
+            },
+            {
+              "#text": "Zhihui Guo",
+              "@pid": "211/4401"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tpctc/WaudbySKMBS20",
+          "title": "Towards Testing ACID Compliance in the LDBC Social Network Benchmark",
+          "booktitle": "TPCTC",
+          "year": "2021",
+          "pages": "1-17",
+          "ee": "https://doi.org/10.1007/978-3-030-84924-5_1",
+          "author": [
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            },
+            {
+              "#text": "Karim Karimov",
+              "@pid": "298/9196"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wosp/Szarnyas24",
+          "title": "Linked Data Benchmark Council: 12 years of fostering competition in the graph processing space",
+          "booktitle": "ICPE (Companion)",
+          "year": "2024",
+          "pages": "97",
+          "ee": "https://doi.org/10.1145/3629527.3652889",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/www/0001SCBMN19",
+          "title": "How Representative Is a SPARQL Benchmark? An Analysis of RDF Triplestore Benchmarks",
+          "booktitle": "WWW",
+          "year": "2019",
+          "pages": "1623-1633",
+          "ee": "https://doi.org/10.1145/3308558.3313556",
+          "author": [
+            {
+              "#text": "Axel-Cyrille Ngonga Ngomo",
+              "@pid": "65/4336"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Lixi Conrads",
+              "@pid": "206/9656"
+            },
+            {
+              "#text": "Muhammad Saleem",
+              "@pid": "41/6317-2"
+            },
+            {
+              "#text": "Qaiser Mehmood",
+              "@pid": "134/9923"
+            },
+            {
+              "#text": "Syed Ahmad Chan Bukhari",
+              "@pid": "156/1066"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/SakrBVIAAAABBDV21",
+          "title": "The future is big graphs: a community view on graph processing systems",
+          "journal": "Commun. ACM",
+          "year": "2021",
+          "pages": "62-71",
+          "ee": "https://doi.org/10.1145/3434642",
+          "author": [
+            {
+              "#text": "Adriana Iamnitchi",
+              "@pid": "33/5916"
+            },
+            {
+              "#text": "Alexandru Iosup",
+              "@pid": "85/2489"
+            },
+            {
+              "#text": "Alexandru Uta",
+              "@pid": "154/4519"
+            },
+            {
+              "#text": "Ana Lucia Varbanescu",
+              "@pid": "62/3310"
+            },
+            {
+              "#text": "Angela Bonifati",
+              "@pid": "b/ABonifati"
+            },
+            {
+              "#text": "Antonino Tumeo",
+              "@pid": "53/3654"
+            },
+            {
+              "#text": "Bernhard Haslhofer",
+              "@pid": "85/3208"
+            },
+            {
+              "#text": "Christian Schulz",
+              "@pid": "10/1388-3"
+            },
+            {
+              "#text": "Da Yan",
+              "@pid": "81/9436-1"
+            },
+            {
+              "#text": "Eiko Yoneki",
+              "@pid": "12/6940"
+            },
+            {
+              "#text": "Emanuele Della Valle",
+              "@pid": "91/4526"
+            },
+            {
+              "#text": "Eric Peukert",
+              "@pid": "91/7933"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Hannes Voigt",
+              "@pid": "19/1082"
+            },
+            {
+              "#text": "Hsiang-Yun Wu",
+              "@pid": "11/7258"
+            },
+            {
+              "#text": "Hugo Kapp",
+              "@pid": "281/6816"
+            },
+            {
+              "#text": "Jan Hidders",
+              "@pid": "h/JanHidders"
+            },
+            {
+              "#text": "Joshua Shinavier",
+              "@pid": "27/3988"
+            },
+            {
+              "#text": "Juan F. Sequeda",
+              "@pid": "93/3423"
+            },
+            {
+              "#text": "Katja Hose",
+              "@pid": "h/KatjaHose"
+            },
+            {
+              "#text": "Khaled Ammar",
+              "@pid": "29/9884"
+            },
+            {
+              "#text": "Khuzaima Daudjee",
+              "@pid": "d/KhuzaimaDaudjee"
+            },
+            {
+              "#text": "M. Tamer Özsu",
+              "@pid": "o/MTamerOzsu"
+            },
+            {
+              "#text": "Maciej Besta",
+              "@pid": "136/7953"
+            },
+            {
+              "#text": "Marcelo Arenas",
+              "@pid": "76/6735"
+            },
+            {
+              "#text": "Matei Ripeanu",
+              "@pid": "93/24"
+            },
+            {
+              "#text": "Mohamed Ragab",
+              "@pid": "205/4727"
+            },
+            {
+              "#text": "Nikolay Yakovets",
+              "@pid": "92/9686"
+            },
+            {
+              "#text": "Olaf Hartig",
+              "@pid": "29/3132"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Petra Selmer",
+              "@pid": "50/7441"
+            },
+            {
+              "#text": "Renzo Angles",
+              "@pid": "36/2474"
+            },
+            {
+              "#text": "Riccardo Tommasini",
+              "@pid": "169/8184"
+            },
+            {
+              "#text": "Semih Salihoglu",
+              "@pid": "55/6560"
+            },
+            {
+              "#text": "Sherif Sakr",
+              "@pid": "s/SherifSakr"
+            },
+            {
+              "#text": "Stefan Plantikow",
+              "@pid": "93/3568"
+            },
+            {
+              "#text": "Stefania Dumbrava",
+              "@pid": "143/2670"
+            },
+            {
+              "#text": "Tim Hegeman",
+              "@pid": "139/4230"
+            },
+            {
+              "#text": "Vasiliki Kalavri",
+              "@pid": "132/6943"
+            },
+            {
+              "#text": "Walid G. Aref",
+              "@pid": "a/WGAref"
+            },
+            {
+              "#text": "Wim Martens",
+              "@pid": "95/3517"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-04108",
+          "title": "Incremental View Maintenance for Property Graph Queries",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.04108",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1806-07344",
+          "title": "Reducing Property Graph Queries to Relational Algebra for Incremental View Maintenance",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1806.07344",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Maginecz",
+              "@pid": "222/2633"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2001-02299",
+          "title": "The LDBC Social Network Benchmark",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.02299",
+          "author": [
+            {
+              "#text": "Alex Averbuch",
+              "@pid": "119/6895"
+            },
+            {
+              "#text": "Andrey Gubichev",
+              "@pid": "01/8701"
+            },
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "Josep Lluís Larriba-Pey",
+              "@pid": "03/5767"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            },
+            {
+              "#text": "Marcus Paradies",
+              "@pid": "31/8766"
+            },
+            {
+              "#text": "Minh-Duc Pham",
+              "@pid": "68/8510"
+            },
+            {
+              "#text": "Mirko Spasic",
+              "@pid": "118/0085"
+            },
+            {
+              "#text": "Moritz Kaufmann",
+              "@pid": "117/4884"
+            },
+            {
+              "#text": "Norbert Martínez-Bazan",
+              "@pid": "67/4822"
+            },
+            {
+              "#text": "Orri Erling",
+              "@pid": "47/2397"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Renzo Angles",
+              "@pid": "36/2474"
+            },
+            {
+              "#text": "Vlad Haprian",
+              "@pid": "220/5968"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2009-03780",
+          "title": "Graphs and matrices: A translation of \"Graphok és matrixok\" by Dénes Kőnig (1931)",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2009.03780",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-12243",
+          "title": "An analysis of the SIGMOD 2014 Programming Contest: Complex queries on the LDBC social network graph",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.12243",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2011-15028",
+          "title": "The LDBC Graphalytics Benchmark",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.15028",
+          "author": [
+            {
+              "#text": "Ahmed Musaafir",
+              "@pid": "229/2344"
+            },
+            {
+              "#text": "Alexandru Iosup",
+              "@pid": "85/2489"
+            },
+            {
+              "#text": "Alexandru Uta",
+              "@pid": "154/4519"
+            },
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Hassan Chafi",
+              "@pid": "94/3582"
+            },
+            {
+              "#text": "Ilie Gabriel Tanase",
+              "@pid": "116/0831"
+            },
+            {
+              "#text": "Lifeng Nai",
+              "@pid": "137/0588"
+            },
+            {
+              "#text": "Michael J. Anderson",
+              "@pid": "43/4755"
+            },
+            {
+              "#text": "Mihai Capota",
+              "@pid": "04/8524"
+            },
+            {
+              "#text": "Narayanan Sundaram",
+              "@pid": "30/3638"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Siegfried Depner",
+              "@pid": "169/1734"
+            },
+            {
+              "#text": "Stijn Heldens",
+              "@pid": "173/0734"
+            },
+            {
+              "#text": "Thomas Manhardt",
+              "@pid": "169/1749"
+            },
+            {
+              "#text": "Tim Hegeman",
+              "@pid": "139/4230"
+            },
+            {
+              "#text": "Wing Lung Ngai",
+              "@pid": "163/7031"
+            },
+            {
+              "#text": "Yinglong Xia",
+              "@pid": "61/3251"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2012-06171",
+          "title": "The Future is Big Graphs! A Community View on Graph Processing Systems",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2012.06171",
+          "author": [
+            {
+              "#text": "Adriana Iamnitchi",
+              "@pid": "33/5916"
+            },
+            {
+              "#text": "Alexandru Iosup",
+              "@pid": "85/2489"
+            },
+            {
+              "#text": "Alexandru Uta",
+              "@pid": "154/4519"
+            },
+            {
+              "#text": "Ana Lucia Varbanescu",
+              "@pid": "62/3310"
+            },
+            {
+              "#text": "Angela Bonifati",
+              "@pid": "b/ABonifati"
+            },
+            {
+              "#text": "Antonino Tumeo",
+              "@pid": "53/3654"
+            },
+            {
+              "#text": "Bernhard Haslhofer",
+              "@pid": "85/3208"
+            },
+            {
+              "#text": "Christian Schulz",
+              "@pid": "10/1388-3"
+            },
+            {
+              "#text": "Da Yan",
+              "@pid": "81/9436-1"
+            },
+            {
+              "#text": "Eiko Yoneki",
+              "@pid": "12/6940"
+            },
+            {
+              "#text": "Emanuele Della Valle",
+              "@pid": "91/4526"
+            },
+            {
+              "#text": "Eric Peukert",
+              "@pid": "91/7933"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Hannes Voigt",
+              "@pid": "19/1082"
+            },
+            {
+              "#text": "Hsiang-Yun Wu",
+              "@pid": "11/7258"
+            },
+            {
+              "#text": "Hugo Kapp",
+              "@pid": "281/6816"
+            },
+            {
+              "#text": "Jan Hidders",
+              "@pid": "h/JanHidders"
+            },
+            {
+              "#text": "Joshua Shinavier",
+              "@pid": "27/3988"
+            },
+            {
+              "#text": "Juan F. Sequeda",
+              "@pid": "93/3423"
+            },
+            {
+              "#text": "Katja Hose",
+              "@pid": "h/KatjaHose"
+            },
+            {
+              "#text": "Khaled Ammar",
+              "@pid": "29/9884"
+            },
+            {
+              "#text": "Khuzaima Daudjee",
+              "@pid": "d/KhuzaimaDaudjee"
+            },
+            {
+              "#text": "M. Tamer Özsu",
+              "@pid": "o/MTamerOzsu"
+            },
+            {
+              "#text": "Maciej Besta",
+              "@pid": "136/7953"
+            },
+            {
+              "#text": "Marcelo Arenas",
+              "@pid": "76/6735"
+            },
+            {
+              "#text": "Matei Ripeanu",
+              "@pid": "93/24"
+            },
+            {
+              "#text": "Mohamed Ragab",
+              "@pid": "205/4727"
+            },
+            {
+              "#text": "Nikolay Yakovets",
+              "@pid": "92/9686"
+            },
+            {
+              "#text": "Olaf Hartig",
+              "@pid": "29/3132"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Petra Selmer",
+              "@pid": "50/7441"
+            },
+            {
+              "#text": "Renzo Angles",
+              "@pid": "36/2474"
+            },
+            {
+              "#text": "Riccardo Tommasini",
+              "@pid": "169/8184"
+            },
+            {
+              "#text": "Semih Salihoglu",
+              "@pid": "55/6560"
+            },
+            {
+              "#text": "Sherif Sakr",
+              "@pid": "s/SherifSakr"
+            },
+            {
+              "#text": "Stefan Plantikow",
+              "@pid": "93/3568"
+            },
+            {
+              "#text": "Stefania Dumbrava",
+              "@pid": "143/2670"
+            },
+            {
+              "#text": "Tim Hegeman",
+              "@pid": "139/4230"
+            },
+            {
+              "#text": "Vasiliki Kalavri",
+              "@pid": "132/6943"
+            },
+            {
+              "#text": "Walid G. Aref",
+              "@pid": "a/WGAref"
+            },
+            {
+              "#text": "Wim Martens",
+              "@pid": "95/3517"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2104-01661",
+          "title": "LAGraph: Linear Algebra, Network Analysis Libraries, and the Study of Graph Algorithms",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2104.01661",
+          "author": [
+            {
+              "#text": "David A. Bader",
+              "@pid": "41/3005"
+            },
+            {
+              "#text": "Erik Welch",
+              "@pid": "289/6239"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "James Kitchen",
+              "@pid": "245/0359"
+            },
+            {
+              "#text": "Scott McMillan",
+              "@pid": "04/3187"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            },
+            {
+              "#text": "Timothy G. Mattson",
+              "@pid": "56/794"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-15975",
+          "title": "The LDBC Financial Benchmark",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.15975",
+          "author": [
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Bin Yang",
+              "@pid": "77/377-40"
+            },
+            {
+              "#text": "Bing Tong",
+              "@pid": "329/7221-1"
+            },
+            {
+              "#text": "Changyuan Wang",
+              "@pid": "179/0828"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Heng Lin",
+              "@pid": "120/9589"
+            },
+            {
+              "#text": "Henry A. Gabb",
+              "@pid": "06/636"
+            },
+            {
+              "#text": "Jiansong Zhang",
+              "@pid": "38/6831"
+            },
+            {
+              "#text": "Parviz Peiravi",
+              "@pid": "350/3998"
+            },
+            {
+              "#text": "Shipeng Qi",
+              "@pid": "175/0201"
+            },
+            {
+              "#text": "Yan Zhou",
+              "@pid": "60/5157-21"
+            },
+            {
+              "#text": "Youren Shen",
+              "@pid": "238/1867"
+            },
+            {
+              "#text": "Zheng Wang",
+              "@pid": "181/2834"
+            },
+            {
+              "#text": "Zhihui Guo",
+              "@pid": "211/4401"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-04350",
+          "title": "The Linked Data Benchmark Council (LDBC): Driving competition and collaboration in the graph data management space",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.04350",
+          "author": [
+            {
+              "#text": "Alastair Green",
+              "@pid": "65/2807"
+            },
+            {
+              "#text": "Alexandru Iosup",
+              "@pid": "85/2489"
+            },
+            {
+              "#text": "Alin Deutsch",
+              "@pid": "d/AlinDeutsch"
+            },
+            {
+              "#text": "Altan Birler",
+              "@pid": "243/2475"
+            },
+            {
+              "#text": "Arnau Prat-Pérez",
+              "@pid": "05/2347"
+            },
+            {
+              "#text": "Atanas Kiryakov",
+              "@pid": "49/4559"
+            },
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Bin Yang",
+              "@pid": "77/377-40"
+            },
+            {
+              "#text": "Bing Tong",
+              "@pid": "329/7221-1"
+            },
+            {
+              "#text": "Brad Bebee",
+              "@pid": "249/6360"
+            },
+            {
+              "#text": "Chen Zhang",
+              "@pid": "94/4084-10"
+            },
+            {
+              "#text": "David Püroja",
+              "@pid": "352/2694"
+            },
+            {
+              "#text": "Dávid Szakállas",
+              "@pid": "337/3052"
+            },
+            {
+              "#text": "Denise Gosnell",
+              "@pid": "352/2903"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "George Fletcher",
+              "@pid": "f/GeorgeHLFletcher"
+            },
+            {
+              "#text": "Heng Lin",
+              "@pid": "120/9589"
+            },
+            {
+              "#text": "Henry A. Gabb",
+              "@pid": "06/636"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Jan Hidders",
+              "@pid": "h/JanHidders"
+            },
+            {
+              "#text": "Jason Zhang",
+              "@pid": "75/4903"
+            },
+            {
+              "#text": "Keith W. Hare",
+              "@pid": "295/3446"
+            },
+            {
+              "#text": "Leonid Libkin",
+              "@pid": "l/LeonidLibkin"
+            },
+            {
+              "#text": "Mingxi Wu",
+              "@pid": "w/MingxiWu"
+            },
+            {
+              "#text": "Oskar van Rest",
+              "@pid": "130/9761"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Shipeng Qi",
+              "@pid": "175/0201"
+            },
+            {
+              "#text": "Tomas Kovatchev",
+              "@pid": "352/2630"
+            },
+            {
+              "#text": "Wenyuan Yu",
+              "@pid": "53/5676"
+            },
+            {
+              "#text": "Xiaojian Luo",
+              "@pid": "179/8239"
+            },
+            {
+              "#text": "Xinsheng Li",
+              "@pid": "62/10295"
+            },
+            {
+              "#text": "Yan Zhou",
+              "@pid": "60/5157-21"
+            },
+            {
+              "#text": "Zhihui Guo",
+              "@pid": "211/4401"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-04820",
+          "title": "The LDBC Social Network Benchmark Interactive workload v2: A transactional graph query benchmark with deep delete operations",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.04820",
+          "author": [
+            {
+              "#text": "David Püroja",
+              "@pid": "352/2694"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MartonSV17",
+          "title": "Formalising opencypher Graph Queries in Relational Algebra",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1705.02844",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eecs/SzarnyasMV17",
+          "title": "Evaluation of Optimization Strategies for Incremental Graph Queries",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2017",
+          "pages": "175-192",
+          "ee": "https://doi.org/10.3311/PPEE.9769",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Maginecz",
+              "@pid": "222/2633"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pvldb/QiTHLPYLGHBYSZLLZWSZCH25",
+          "title": "The LDBC Financial Benchmark: Transaction Workload",
+          "journal": "Proc. VLDB Endow.",
+          "year": "2025",
+          "pages": "3007-3020",
+          "ee": "https://doi.org/10.14778/3746405.3746424",
+          "author": [
+            {
+              "#text": "Bing Tong",
+              "@pid": "329/7221-1"
+            },
+            {
+              "#text": "Chuntao Hong",
+              "@pid": "62/6933"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Heng Lin",
+              "@pid": "120/9589"
+            },
+            {
+              "#text": "Jia Li",
+              "@pid": "23/6950-9"
+            },
+            {
+              "#text": "Jiatao Hu",
+              "@pid": "415/9985"
+            },
+            {
+              "#text": "Ke Huang",
+              "@pid": "40/4385"
+            },
+            {
+              "#text": "Lei Zou",
+              "@pid": "81/3390-1"
+            },
+            {
+              "#text": "Qiang Yin",
+              "@pid": "20/9622"
+            },
+            {
+              "#text": "Shipeng Qi",
+              "@pid": "175/0201"
+            },
+            {
+              "#text": "Songlin Lyu",
+              "@pid": "347/1908"
+            },
+            {
+              "#text": "Tao Lv",
+              "@pid": "69/5034"
+            },
+            {
+              "#text": "Wei Yuan",
+              "@pid": "67/2268"
+            },
+            {
+              "#text": "Wenguang Chen",
+              "@pid": "60/810"
+            },
+            {
+              "#text": "Xiaowei Zhu",
+              "@pid": "141/8790-1"
+            },
+            {
+              "#text": "Xujin Ba",
+              "@pid": "380/5941"
+            },
+            {
+              "#text": "Yan Zhou",
+              "@pid": "60/5157-21"
+            },
+            {
+              "#text": "Yongwei Wu",
+              "@pid": "38/880"
+            },
+            {
+              "#text": "Youren Shen",
+              "@pid": "238/1867"
+            },
+            {
+              "#text": "Yue Pang",
+              "@pid": "217/2646-1"
+            },
+            {
+              "#text": "Zhihui Guo",
+              "@pid": "211/4401"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pvldb/SzarnyasWSSBWZB22",
+          "title": "The LDBC Social Network Benchmark: Business Intelligence Workload",
+          "journal": "Proc. VLDB Endow.",
+          "year": "2022",
+          "pages": "877-890",
+          "ee": "https://doi.org/10.14778/3574245.3574270",
+          "author": [
+            {
+              "#text": "Altan Birler",
+              "@pid": "243/2475"
+            },
+            {
+              "#text": "Benjamin A. Steer",
+              "@pid": "201/4815"
+            },
+            {
+              "#text": "Dávid Szakállas",
+              "@pid": "337/3052"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Jack Waudby",
+              "@pid": "256/1560"
+            },
+            {
+              "#text": "Mingxi Wu",
+              "@pid": "w/MingxiWu"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            },
+            {
+              "#text": "Yuchen Zhang",
+              "@pid": "09/5661"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pvldb/WoldeSB23",
+          "title": "DuckPGQ: Bringing SQL/PGQ to DuckDB",
+          "journal": "Proc. VLDB Endow.",
+          "year": "2023",
+          "pages": "4034-4037",
+          "ee": "https://doi.org/10.14778/3611540.3611614",
+          "author": [
+            {
+              "#text": "Daniel ten Wolde",
+              "@pid": "351/9539"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Peter Boncz",
+              "@pid": "b/PeterABoncz"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/HinkelGSBTCJMNA22",
+          "title": "A cross-technology benchmark for incremental graph queries",
+          "journal": "Softw. Syst. Model.",
+          "year": "2022",
+          "pages": "755-804",
+          "ee": "https://doi.org/10.1007/S10270-021-00927-5",
+          "author": [
+            {
+              "#text": "Antonio García-Domínguez",
+              "@pid": "67/3580"
+            },
+            {
+              "#text": "Artur Boronat",
+              "@pid": "52/2602"
+            },
+            {
+              "#text": "Frédéric Jouault",
+              "@pid": "10/4610"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Georg Hinkel",
+              "@pid": "139/0974"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            },
+            {
+              "#text": "Massimo Tisi",
+              "@pid": "16/5025"
+            },
+            {
+              "#text": "René Schöne",
+              "@pid": "05/1700"
+            },
+            {
+              "#text": "Tamás Nyíri",
+              "@pid": "231/2703"
+            },
+            {
+              "#text": "Théo Le Calvar",
+              "@pid": "229/9065"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/SemerathBCLMSV21",
+          "title": "Automated generation of consistent, diverse and structurally realistic graph models",
+          "journal": "Softw. Syst. Model.",
+          "year": "2021",
+          "pages": "1713-1734",
+          "ee": "https://doi.org/10.1007/S10270-021-00884-Z",
+          "author": [
+            {
+              "#text": "Aren A. Babikian",
+              "@pid": "242/3911"
+            },
+            {
+              "#text": "Boqi Chen",
+              "@pid": "172/9949-1"
+            },
+            {
+              "#text": "Chuning Li",
+              "@pid": "303/9973"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Kristóf Marussy",
+              "@pid": "130/6479"
+            },
+            {
+              "#text": "Oszkár Semeráth",
+              "@pid": "134/9441"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/SzarnyasIRV18",
+          "title": "The Train Benchmark: cross-technology performance evaluation of continuous model queries",
+          "journal": "Softw. Syst. Model.",
+          "year": "2018",
+          "pages": "1365-1393",
+          "ee": "https://doi.org/10.1007/S10270-016-0571-8",
+          "author": [
+            {
+              "#text": "Benedek Izsó",
+              "@pid": "129/0257"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gabor19c",
+          "title": "Query, Analysis, and Benchmarking Techniques for Evolving Property Graphs of Software Systems",
+          "journal": "",
+          "year": "2019",
+          "author": {
+            "#text": "Gábor Szárnyas",
+            "@pid": "151/1414"
+          }
+        }
+      }
+    ]
+  }
+}

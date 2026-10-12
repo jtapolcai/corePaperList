@@ -1,45 +1,92 @@
 {
   "dblpperson": {
+    "@name": "Geza Herczegh",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/cidr/CsabaiTDJHPBS07",
-        "title": "Spatial Indexing of Large Multidimensional Databases.",
-        "pages": "207-218",
-        "year": "2007",
-        "booktitle": "CIDR",
-        "ee": "http://cidrdb.org/cidr2007/papers/cidr07p23.pdf",
-        "url": "db/conf/cidr/cidr2007.html#CsabaiTDJHPBS07",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Geza Herczegh",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/cidr/CsabaiTDJHPBS07",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "booktitle": "CIDR",
+          "year": "2007",
+          "pages": "207-218",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1209-6490",
-        "title": "Spatial Indexing of Large Multidimensional Databases",
-        "ee": "https://doi.org/10.48550/arXiv.1209.6490",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1209.6490",
-        "url": "db/journals/corr/corr1209.html#abs-1209-6490",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "Geza Herczegh",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1209-6490",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.6490",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       }
     ]
   }
