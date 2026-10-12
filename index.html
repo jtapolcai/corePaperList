@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Magyar CS Kutatók – Áttekintő</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {
     --bg: #f8f9fa;
@@ -26,7 +27,6 @@
 
   main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
 
-  /* Nav cards */
   .nav-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
   .nav-card {
     background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
@@ -34,13 +34,12 @@
     transition: box-shadow 0.15s, transform 0.15s;
     display: flex; flex-direction: column; gap: 0.35rem;
   }
-  .nav-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); text-decoration: none; }
+  .nav-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); }
   .nav-card .icon { font-size: 2rem; }
   .nav-card .title { font-weight: 600; font-size: 1rem; color: var(--accent); }
   .nav-card .desc { font-size: 0.85rem; color: var(--muted); }
 
-  /* Stat cards */
-  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
   .stat-card {
     background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
     padding: 1rem; text-align: center;
@@ -50,11 +49,16 @@
   .stat-card .val.red { color: var(--accent3); }
   .stat-card .lbl { font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }
 
-  /* Sections */
   .section-title { font-size: 1.1rem; font-weight: 600; margin: 1.75rem 0 0.75rem; border-bottom: 2px solid var(--border); padding-bottom: 0.35rem; }
 
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
   @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+
+  .chart-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
+    padding: 1.25rem; margin-bottom: 0;
+  }
+  .chart-card canvas { width: 100% !important; }
 
   table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem; overflow: hidden; }
   th { background: #f1f3f5; font-weight: 600; font-size: 0.85rem; padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
@@ -66,10 +70,6 @@
   .badge { display: inline-block; padding: 0.1em 0.5em; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; }
   .badge.theory { background: #cfe2ff; color: #084298; }
   .badge.applied { background: #d1e7dd; color: #0a3622; }
-
-  /* Progress bar */
-  .bar-wrap { background: #e9ecef; border-radius: 0.25rem; height: 0.6rem; margin-top: 0.3rem; }
-  .bar { height: 100%; border-radius: 0.25rem; background: var(--accent); }
 
   footer { text-align: center; font-size: 0.78rem; color: var(--muted); padding: 1rem; }
 </style>
@@ -83,7 +83,6 @@
 
 <main>
 
-  <!-- Navigation -->
   <div class="nav-cards">
     <a class="nav-card" href="authors_profile.html">
       <span class="icon">👤</span>
@@ -100,9 +99,13 @@
       <span class="title">Összehasonlító táblázat</span>
       <span class="desc">Szűrhető, rendezhető kutatói összehasonlítás</span>
     </a>
+    <a class="nav-card" href="journal_vs_conference_interactive.html">
+      <span class="icon">📰</span>
+      <span class="title">Folyóirat vs. konferencia</span>
+      <span class="desc">Interaktív összehasonlítás publikációs típusonként</span>
+    </a>
   </div>
 
-  <!-- Key stats -->
   <div class="section-title">Kulcsmutatók</div>
   <div class="stats-grid">
     <div class="stat-card">
@@ -111,23 +114,23 @@
     </div>
     <div class="stat-card">
       <div class="val green">562</div>
-      <div class="lbl">Magyarországon dolgozik<br>(48%)</div>
+      <div class="lbl">Magyarországon dolgozik (48%)</div>
     </div>
     <div class="stat-card">
       <div class="val red">190</div>
-      <div class="lbl">Külföldön dolgozik<br>(16%)</div>
+      <div class="lbl">Külföldön dolgozik (16%)</div>
     </div>
     <div class="stat-card">
       <div class="val">616</div>
-      <div class="lbl">CORE A* cikk<br>(összes egyedi)</div>
+      <div class="lbl">CORE A* cikk (összes egyedi)</div>
     </div>
     <div class="stat-card">
       <div class="val">1754</div>
-      <div class="lbl">CORE A* szerzőség<br>(szerző × cikk)</div>
+      <div class="lbl">CORE A* szerzőség (szerző × cikk)</div>
     </div>
     <div class="stat-card">
       <div class="val">1440</div>
-      <div class="lbl">Magyar CORE A* ekvivalens<br>(súlyozott)</div>
+      <div class="lbl">Magyar CORE A* ekvivalens (súlyozott)</div>
     </div>
     <div class="stat-card">
       <div class="val">209</div>
@@ -139,7 +142,11 @@
     </div>
   </div>
 
-  <!-- Distribution tables -->
+  <div class="section-title">CORE A* cikkek évente</div>
+  <div class="chart-card">
+    <canvas id="yearChart" height="90"></canvas>
+  </div>
+
   <div class="section-title">Eloszlások</div>
   <div class="two-col">
     <div>
@@ -162,23 +169,17 @@
 <tr><td>10-20 év</td><td class='num'>125</td></tr>
 <tr><td>20+ év</td><td class='num'>68</td></tr>
 <tr><td>25+ év</td><td class='num'>1</td></tr>
-<tr><td>unknown</td><td class='num'>328</td></tr></tbody>
+<tr><td>Ismeretlen</td><td class='num'>328</td></tr></tbody>
       </table>
     </div>
   </div>
 
-  <!-- Top researchers -->
-  <div class="section-title">Top 15 kutató CORE A* szerzőségek szerint</div>
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th>Kutató</th>
-        <th>Kategória</th>
-        <th class="num">CORE A*</th>
-      </tr>
-    </thead>
-    <tbody><tr><td class='rank'>1.</td><td>🌍 <a href="authors_profile.html#csaba-szepesvari">Csaba Szepesvári</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>147</td></tr>
+  <div class="section-title">Top 10 kutató CORE A* szerzőségek szerint</div>
+  <div class="two-col">
+    <div>
+      <table>
+        <thead><tr><th></th><th>Kutató (összes)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
+        <tbody><tr><td class='rank'>1.</td><td>🌍 <a href="authors_profile.html#csaba-szepesvari">Csaba Szepesvári</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>147</td></tr>
 <tr><td class='rank'>2.</td><td>🌍 <a href="authors_profile.html#eva-tardos">Éva Tardos</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>67</td></tr>
 <tr><td class='rank'>3.</td><td>🌍 <a href="authors_profile.html#barnabas-poczos">Barnabás Póczos</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>66</td></tr>
 <tr><td class='rank'>4.</td><td>🌍 <a href="authors_profile.html#zsolt-kira">Zsolt Kira</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>58</td></tr>
@@ -187,17 +188,119 @@
 <tr><td class='rank'>7.</td><td>🌍 <a href="authors_profile.html#andras-gyorgy-0001">András György 0001</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>46</td></tr>
 <tr><td class='rank'>8.</td><td>🌍 <a href="authors_profile.html#daniel-marx">Dániel Marx</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>41</td></tr>
 <tr><td class='rank'>9.</td><td>🌍 <a href="authors_profile.html#miklos-ajtai">Miklós Ajtai</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>35</td></tr>
-<tr><td class='rank'>10.</td><td>🌍 <a href="authors_profile.html#gergely-neu">Gergely Neu</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>31</td></tr>
-<tr><td class='rank'>11.</td><td>🌍 <a href="authors_profile.html#mario-szegedy">Mario Szegedy</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>30</td></tr>
-<tr><td class='rank'>12.</td><td>🌍 <a href="authors_profile.html#tamas-sarlos">Tamás Sarlós</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>27</td></tr>
-<tr><td class='rank'>13.</td><td>🇭🇺 <a href="authors_profile.html#laszlo-lovasz-0001">László Lovász 0001</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>27</td></tr>
-<tr><td class='rank'>14.</td><td>🌍 <a href="authors_profile.html#robert-busa-fekete">Róbert Busa-Fekete</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>26</td></tr>
-<tr><td class='rank'>15.</td><td>🌍 <a href="authors_profile.html#gabriela-csurka">Gabriela Csurka</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>25</td></tr></tbody>
-  </table>
+<tr><td class='rank'>10.</td><td>🌍 <a href="authors_profile.html#gergely-neu">Gergely Neu</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>31</td></tr></tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
+        <tbody><tr><td class='rank'>1.</td><td>🇭🇺 <a href="authors_profile.html#laszlo-lovasz-0001">László Lovász 0001</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>27</td></tr>
+<tr><td class='rank'>2.</td><td>🇭🇺 <a href="authors_profile.html#gabor-tardos">Gábor Tardos</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>22</td></tr>
+<tr><td class='rank'>3.</td><td>🇭🇺 <a href="authors_profile.html#janos-tapolcai">János Tapolcai</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>16</td></tr>
+<tr><td class='rank'>4.</td><td>🇭🇺 <a href="authors_profile.html#lajos-ronyai">Lajos Rónyai</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>14</td></tr>
+<tr><td class='rank'>5.</td><td>🇭🇺 <a href="authors_profile.html#gabor-retvari">Gábor Rétvári</a></td><td><span class="badge applied">Alkalmazott</span></td><td class='num'>10</td></tr>
+<tr><td class='rank'>6.</td><td>🇭🇺 <a href="authors_profile.html#andras-gilyen">András Gilyén</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>10</td></tr>
+<tr><td class='rank'>7.</td><td>🇭🇺 <a href="authors_profile.html#gabor-ivanyos">Gábor Ivanyos</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>8</td></tr>
+<tr><td class='rank'>8.</td><td>🇭🇺 <a href="authors_profile.html#andras-a-benczur">András A. Benczúr</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>7</td></tr>
+<tr><td class='rank'>9.</td><td>🇭🇺 <a href="authors_profile.html#miklos-maroti">Miklós Maróti</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>7</td></tr>
+<tr><td class='rank'>10.</td><td>🇭🇺 <a href="authors_profile.html#ildiko-schlotter">Ildikó Schlotter</a></td><td><span class="badge theory">Elmélet</span></td><td class='num'>7</td></tr></tbody>
+      </table>
+    </div>
+  </div>
 
 </main>
 
 <footer>Adatok forrása: DBLP, MTMT, MTA • Automatikusan generálva</footer>
+
+<script>
+(function() {
+  var years  = [1975, 1976, 1979, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
+  var hunT   = [2, 1, 0, 2, 3, 2, 2, 3, 8, 3, 8, 5, 3, 5, 3, 4, 2, 6, 5, 6, 2, 6, 2, 0, 5, 2, 6, 8, 4, 5, 3, 4, 1, 6, 5, 9, 9, 9, 7, 7, 3, 2, 7, 4, 8, 7, 10];
+  var hunA   = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 3, 1, 3, 0, 4, 6, 6, 6, 3, 2, 2, 5, 2, 2, 2, 1, 0, 1, 2, 1, 3, 3, 2, 3, 1, 2];
+  var allT   = [2, 1, 1, 2, 3, 2, 3, 4, 9, 5, 8, 5, 6, 7, 3, 4, 3, 6, 5, 6, 4, 7, 2, 2, 7, 4, 9, 9, 6, 7, 7, 8, 12, 6, 9, 11, 18, 14, 11, 13, 12, 11, 16, 11, 18, 16, 14];
+  var allA   = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 1, 3, 0, 4, 6, 7, 7, 3, 2, 2, 6, 3, 4, 3, 1, 1, 3, 4, 4, 6, 5, 6, 10, 4, 4];
+
+  var ctx = document.getElementById('yearChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: years,
+      datasets: [
+        {
+          label: 'Elméleti informatika – magyar cikkek',
+          data: hunT,
+          borderColor: '#c0392b',
+          backgroundColor: 'rgba(192,57,43,0.15)',
+          borderWidth: 2,
+          borderDash: [6, 4],
+          pointRadius: 2,
+          fill: true,
+          tension: 0.3,
+          order: 4,
+        },
+        {
+          label: 'Alkalmazott informatika – magyar cikkek',
+          data: hunA,
+          borderColor: '#1a3a9c',
+          backgroundColor: 'rgba(26,58,156,0.12)',
+          borderWidth: 2,
+          borderDash: [6, 4],
+          pointRadius: 2,
+          fill: true,
+          tension: 0.3,
+          order: 3,
+        },
+        {
+          label: 'Összes elméleti informatika cikk',
+          data: allT,
+          borderColor: '#c0392b',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 2,
+          fill: false,
+          tension: 0.3,
+          order: 2,
+        },
+        {
+          label: 'Összes alkalmazott informatika cikk',
+          data: allA,
+          borderColor: '#1a3a9c',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 2,
+          fill: false,
+          tension: 0.3,
+          order: 1,
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: { boxWidth: 24, font: { size: 12 } }
+        },
+        tooltip: { callbacks: {
+          title: function(items) { return items[0].label + '. év'; }
+        } }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Év' },
+          ticks: { maxTicksLimit: 14 }
+        },
+        y: {
+          title: { display: true, text: 'Core A* cikkek száma' },
+          beginAtZero: true,
+          ticks: { stepSize: 5 }
+        }
+      }
+    }
+  });
+})();
+</script>
 
 </body>
 </html>

@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Generate index.html — dashboard for the Hungarian CS Research Database."""
 import json
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 BASE = Path(__file__).parent
 AUTHORS_JSON = BASE / "authors.json"
 PROFILES_DIR = BASE / "profiles"
+HUN_PAPERS = BASE / "results" / "hungarian_papers_coreAstar.json"
+ABR_PAPERS = BASE / "results" / "already_abroad_papers_coreAstar.json"
 OUT = BASE / "index.html"
 
 WORKS_LABEL = {
@@ -22,12 +24,71 @@ WORKS_LABEL = {
 AGE_ORDER = ["0-5 év", "5-10 év", "10-20 év", "20+ év", "25+ év", "unknown"]
 
 
-def load() -> list:
+def load_authors() -> list:
     return json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
+
+
+def load_papers() -> tuple[dict, dict]:
+    hun = json.loads(HUN_PAPERS.read_text(encoding="utf-8")) if HUN_PAPERS.exists() else {}
+    abr = json.loads(ABR_PAPERS.read_text(encoding="utf-8")) if ABR_PAPERS.exists() else {}
+    return hun, abr
 
 
 def profile_count() -> int:
     return len([f for f in PROFILES_DIR.glob("*.json") if not f.stem.startswith("_")])
+
+
+def paper_category(paper: dict, name_cat: dict) -> str:
+    cats = {name_cat.get(n, "unknown") for n in paper.get("authors", [])}
+    cats.discard("unknown")
+    if not cats:
+        return "unknown"
+    if len(cats) == 1:
+        return cats.pop()
+    return "theory"  # mixed: theory wins (matches paper classification logic)
+
+
+def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
+    hun_theory: dict[int, int] = defaultdict(int)
+    hun_applied: dict[int, int] = defaultdict(int)
+    all_theory: dict[int, int] = defaultdict(int)
+    all_applied: dict[int, int] = defaultdict(int)
+
+    all_papers: dict = {}
+    all_papers.update(hun)
+    all_papers.update(abr)
+
+    for p in hun.values():
+        yr = int(p["year"])
+        cat = paper_category(p, name_cat)
+        if cat == "theory":
+            hun_theory[yr] += 1
+        elif cat == "applied":
+            hun_applied[yr] += 1
+
+    for p in all_papers.values():
+        yr = int(p["year"])
+        cat = paper_category(p, name_cat)
+        if cat == "theory":
+            all_theory[yr] += 1
+        elif cat == "applied":
+            all_applied[yr] += 1
+
+    years = sorted(
+        set(list(hun_theory) + list(hun_applied) + list(all_theory) + list(all_applied))
+    )
+    # exclude current incomplete year
+    import datetime
+    current_year = datetime.date.today().year
+    years = [y for y in years if y < current_year]
+
+    return {
+        "years": years,
+        "hun_theory": [hun_theory[y] for y in years],
+        "hun_applied": [hun_applied[y] for y in years],
+        "all_theory": [all_theory[y] for y in years],
+        "all_applied": [all_applied[y] for y in years],
+    }
 
 
 def compute_stats(authors: list) -> dict:
@@ -41,17 +102,22 @@ def compute_stats(authors: list) -> dict:
     astar_papers = sum(a.get("core_astar_papers", 0) or 0 for a in authors)
     hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
 
-    mtmt_cit = sum(a.get("mtmt_citations", 0) or 0 for a in authors)
-
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
     age_counter = Counter(a.get("age_group") or "unknown" for a in authors)
-    cat_counter = Counter(a.get("category") or "unknown" for a in authors)
 
-    top_astar = sorted(
+    top_all = sorted(
         [a for a in authors if (a.get("core_astar") or 0) > 0],
         key=lambda a: a.get("core_astar", 0) or 0,
         reverse=True,
-    )[:15]
+    )[:10]
+
+    top_hun = sorted(
+        [a for a in authors
+         if (a.get("core_astar") or 0) > 0
+         and (a.get("works") or "") in ("hungary", "company_hungary")],
+        key=lambda a: a.get("core_astar", 0) or 0,
+        reverse=True,
+    )[:10]
 
     return {
         "total": total,
@@ -62,11 +128,10 @@ def compute_stats(authors: list) -> dict:
         "astar_coauth": astar_coauth,
         "astar_papers": astar_papers,
         "hun_astar_eq": hun_astar_eq,
-        "mtmt_cit": mtmt_cit,
         "works_counter": dict(works_counter),
         "age_counter": dict(age_counter),
-        "cat_counter": dict(cat_counter),
-        "top_astar": top_astar,
+        "top_all": top_all,
+        "top_hun": top_hun,
         "profiles": profile_count(),
     }
 
@@ -75,8 +140,7 @@ def works_rows(works_counter: dict) -> str:
     rows = []
     for key in ["hungary", "company_hungary", "abroad", "company_abroad", "inactive", "retired", "unknown"]:
         n = works_counter.get(key, 0)
-        label = WORKS_LABEL.get(key, key)
-        rows.append(f"<tr><td>{label}</td><td class='num'>{n}</td></tr>")
+        rows.append(f"<tr><td>{WORKS_LABEL.get(key, key)}</td><td class='num'>{n}</td></tr>")
     return "\n".join(rows)
 
 
@@ -87,7 +151,7 @@ def age_rows(age_counter: dict) -> str:
         if n == 0:
             continue
         label = key if key != "unknown" else "Ismeretlen"
-        rows.append(f"<tr><td>{key}</td><td class='num'>{n}</td></tr>")
+        rows.append(f"<tr><td>{label}</td><td class='num'>{n}</td></tr>")
     return "\n".join(rows)
 
 
@@ -107,11 +171,7 @@ def top_rows(top: list) -> str:
             else ""
         )
         loc = "🇭🇺" if works in ("hungary", "company_hungary") else "🌍" if works in ("abroad", "company_abroad") else ""
-        profile_link = (
-            f'<a href="authors_profile.html#{slug}">{name}</a>'
-            if slug
-            else name
-        )
+        profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
         rows.append(
             f"<tr><td class='rank'>{i}.</td><td>{loc} {profile_link}</td>"
             f"<td>{cat_badge}</td><td class='num'>{astar}</td></tr>"
@@ -119,9 +179,15 @@ def top_rows(top: list) -> str:
     return "\n".join(rows)
 
 
-def render(s: dict) -> str:
+def render(s: dict, chart: dict) -> str:
     hun_pct = round(100 * s["hungary"] / s["total"]) if s["total"] else 0
     ab_pct = round(100 * s["abroad"] / s["total"]) if s["total"] else 0
+
+    chart_years_js = json.dumps(chart["years"])
+    chart_ht_js = json.dumps(chart["hun_theory"])
+    chart_ha_js = json.dumps(chart["hun_applied"])
+    chart_at_js = json.dumps(chart["all_theory"])
+    chart_aa_js = json.dumps(chart["all_applied"])
 
     return f"""<!DOCTYPE html>
 <html lang="hu">
@@ -129,6 +195,7 @@ def render(s: dict) -> str:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Magyar CS Kutatók – Áttekintő</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {{
     --bg: #f8f9fa;
@@ -151,7 +218,6 @@ def render(s: dict) -> str:
 
   main {{ max-width: 1100px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }}
 
-  /* Nav cards */
   .nav-cards {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }}
   .nav-card {{
     background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
@@ -159,13 +225,12 @@ def render(s: dict) -> str:
     transition: box-shadow 0.15s, transform 0.15s;
     display: flex; flex-direction: column; gap: 0.35rem;
   }}
-  .nav-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); text-decoration: none; }}
+  .nav-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); }}
   .nav-card .icon {{ font-size: 2rem; }}
   .nav-card .title {{ font-weight: 600; font-size: 1rem; color: var(--accent); }}
   .nav-card .desc {{ font-size: 0.85rem; color: var(--muted); }}
 
-  /* Stat cards */
-  .stats-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }}
+  .stats-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 1rem; margin-bottom: 2rem; }}
   .stat-card {{
     background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
     padding: 1rem; text-align: center;
@@ -175,11 +240,16 @@ def render(s: dict) -> str:
   .stat-card .val.red {{ color: var(--accent3); }}
   .stat-card .lbl {{ font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }}
 
-  /* Sections */
   .section-title {{ font-size: 1.1rem; font-weight: 600; margin: 1.75rem 0 0.75rem; border-bottom: 2px solid var(--border); padding-bottom: 0.35rem; }}
 
   .two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }}
   @media (max-width: 640px) {{ .two-col {{ grid-template-columns: 1fr; }} }}
+
+  .chart-card {{
+    background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
+    padding: 1.25rem; margin-bottom: 0;
+  }}
+  .chart-card canvas {{ width: 100% !important; }}
 
   table {{ width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem; overflow: hidden; }}
   th {{ background: #f1f3f5; font-weight: 600; font-size: 0.85rem; padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }}
@@ -191,10 +261,6 @@ def render(s: dict) -> str:
   .badge {{ display: inline-block; padding: 0.1em 0.5em; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 600; }}
   .badge.theory {{ background: #cfe2ff; color: #084298; }}
   .badge.applied {{ background: #d1e7dd; color: #0a3622; }}
-
-  /* Progress bar */
-  .bar-wrap {{ background: #e9ecef; border-radius: 0.25rem; height: 0.6rem; margin-top: 0.3rem; }}
-  .bar {{ height: 100%; border-radius: 0.25rem; background: var(--accent); }}
 
   footer {{ text-align: center; font-size: 0.78rem; color: var(--muted); padding: 1rem; }}
 </style>
@@ -208,7 +274,6 @@ def render(s: dict) -> str:
 
 <main>
 
-  <!-- Navigation -->
   <div class="nav-cards">
     <a class="nav-card" href="authors_profile.html">
       <span class="icon">👤</span>
@@ -225,9 +290,13 @@ def render(s: dict) -> str:
       <span class="title">Összehasonlító táblázat</span>
       <span class="desc">Szűrhető, rendezhető kutatói összehasonlítás</span>
     </a>
+    <a class="nav-card" href="journal_vs_conference_interactive.html">
+      <span class="icon">📰</span>
+      <span class="title">Folyóirat vs. konferencia</span>
+      <span class="desc">Interaktív összehasonlítás publikációs típusonként</span>
+    </a>
   </div>
 
-  <!-- Key stats -->
   <div class="section-title">Kulcsmutatók</div>
   <div class="stats-grid">
     <div class="stat-card">
@@ -236,23 +305,23 @@ def render(s: dict) -> str:
     </div>
     <div class="stat-card">
       <div class="val green">{s["hungary"]}</div>
-      <div class="lbl">Magyarországon dolgozik<br>({hun_pct}%)</div>
+      <div class="lbl">Magyarországon dolgozik ({hun_pct}%)</div>
     </div>
     <div class="stat-card">
       <div class="val red">{s["abroad"]}</div>
-      <div class="lbl">Külföldön dolgozik<br>({ab_pct}%)</div>
+      <div class="lbl">Külföldön dolgozik ({ab_pct}%)</div>
     </div>
     <div class="stat-card">
       <div class="val">{s["astar_papers"]}</div>
-      <div class="lbl">CORE A* cikk<br>(összes egyedi)</div>
+      <div class="lbl">CORE A* cikk (összes egyedi)</div>
     </div>
     <div class="stat-card">
       <div class="val">{s["astar_coauth"]}</div>
-      <div class="lbl">CORE A* szerzőség<br>(szerző × cikk)</div>
+      <div class="lbl">CORE A* szerzőség (szerző × cikk)</div>
     </div>
     <div class="stat-card">
       <div class="val">{s["hun_astar_eq"]:.0f}</div>
-      <div class="lbl">Magyar CORE A* ekvivalens<br>(súlyozott)</div>
+      <div class="lbl">Magyar CORE A* ekvivalens (súlyozott)</div>
     </div>
     <div class="stat-card">
       <div class="val">{s["theory"]}</div>
@@ -264,7 +333,11 @@ def render(s: dict) -> str:
     </div>
   </div>
 
-  <!-- Distribution tables -->
+  <div class="section-title">CORE A* cikkek évente</div>
+  <div class="chart-card">
+    <canvas id="yearChart" height="90"></canvas>
+  </div>
+
   <div class="section-title">Eloszlások</div>
   <div class="two-col">
     <div>
@@ -281,32 +354,127 @@ def render(s: dict) -> str:
     </div>
   </div>
 
-  <!-- Top researchers -->
-  <div class="section-title">Top 15 kutató CORE A* szerzőségek szerint</div>
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th>Kutató</th>
-        <th>Kategória</th>
-        <th class="num">CORE A*</th>
-      </tr>
-    </thead>
-    <tbody>{top_rows(s["top_astar"])}</tbody>
-  </table>
+  <div class="section-title">Top 10 kutató CORE A* szerzőségek szerint</div>
+  <div class="two-col">
+    <div>
+      <table>
+        <thead><tr><th></th><th>Kutató (összes)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
+        <tbody>{top_rows(s["top_all"])}</tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
+        <tbody>{top_rows(s["top_hun"])}</tbody>
+      </table>
+    </div>
+  </div>
 
 </main>
 
 <footer>Adatok forrása: DBLP, MTMT, MTA • Automatikusan generálva</footer>
+
+<script>
+(function() {{
+  var years  = {chart_years_js};
+  var hunT   = {chart_ht_js};
+  var hunA   = {chart_ha_js};
+  var allT   = {chart_at_js};
+  var allA   = {chart_aa_js};
+
+  var ctx = document.getElementById('yearChart').getContext('2d');
+  new Chart(ctx, {{
+    type: 'line',
+    data: {{
+      labels: years,
+      datasets: [
+        {{
+          label: 'Elméleti informatika – magyar cikkek',
+          data: hunT,
+          borderColor: '#c0392b',
+          backgroundColor: 'rgba(192,57,43,0.15)',
+          borderWidth: 2,
+          borderDash: [6, 4],
+          pointRadius: 2,
+          fill: true,
+          tension: 0.3,
+          order: 4,
+        }},
+        {{
+          label: 'Alkalmazott informatika – magyar cikkek',
+          data: hunA,
+          borderColor: '#1a3a9c',
+          backgroundColor: 'rgba(26,58,156,0.12)',
+          borderWidth: 2,
+          borderDash: [6, 4],
+          pointRadius: 2,
+          fill: true,
+          tension: 0.3,
+          order: 3,
+        }},
+        {{
+          label: 'Összes elméleti informatika cikk',
+          data: allT,
+          borderColor: '#c0392b',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 2,
+          fill: false,
+          tension: 0.3,
+          order: 2,
+        }},
+        {{
+          label: 'Összes alkalmazott informatika cikk',
+          data: allA,
+          borderColor: '#1a3a9c',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 2,
+          fill: false,
+          tension: 0.3,
+          order: 1,
+        }},
+      ]
+    }},
+    options: {{
+      responsive: true,
+      interaction: {{ mode: 'index', intersect: false }},
+      plugins: {{
+        legend: {{
+          position: 'top',
+          labels: {{ boxWidth: 24, font: {{ size: 12 }} }}
+        }},
+        tooltip: {{ callbacks: {{
+          title: function(items) {{ return items[0].label + '. év'; }}
+        }} }}
+      }},
+      scales: {{
+        x: {{
+          title: {{ display: true, text: 'Év' }},
+          ticks: {{ maxTicksLimit: 14 }}
+        }},
+        y: {{
+          title: {{ display: true, text: 'Core A* cikkek száma' }},
+          beginAtZero: true,
+          ticks: {{ stepSize: 5 }}
+        }}
+      }}
+    }}
+  }});
+}})();
+</script>
 
 </body>
 </html>"""
 
 
 def main():
-    authors = load()
+    authors = load_authors()
+    hun, abr = load_papers()
+    name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
     stats = compute_stats(authors)
-    html = render(stats)
+    chart = build_chart_data(hun, abr, name_cat)
+    html = render(stats, chart)
     OUT.write_text(html, encoding="utf-8")
     print(f"Generated {OUT}")
 
