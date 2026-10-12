@@ -55,7 +55,7 @@ GITHUB_BRANCH = "main"
 # Fields the user manually edits in profiles/{slug}.json
 EDITABLE_FIELDS = [
     "dblp_url", "mtmt_id", "mtmt_name", "mta_att_id", "mta_photo",
-    "category", "mtmt_status", "works", "affiliations",
+    "category", "mtmt_status", "works", "affiliations", "age_group",
     "linkedin", "homepage", "note",
 ]
 

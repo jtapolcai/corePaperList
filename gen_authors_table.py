@@ -39,9 +39,27 @@ def load_profiles(profiles_dir: Path) -> tuple[dict, set]:
 
 EDITABLE_FIELDS = [
     "dblp_url", "mtmt_id", "mtmt_name", "mta_att_id", "mta_photo",
-    "category", "mtmt_status", "works", "affiliations",
+    "category", "mtmt_status", "works", "affiliations", "age_group",
     "linkedin", "homepage", "note",
 ]
+
+
+def enrich_mta_photos(authors: list, profiles_dir: Path) -> list:
+    """Apply MTA photo URLs from profiles/_mta_photos.json cache."""
+    cache_file = profiles_dir / "_mta_photos.json"
+    if not cache_file.exists():
+        return authors
+    try:
+        cache = json.loads(cache_file.read_text(encoding="utf-8"))
+    except Exception:
+        return authors
+    for a in authors:
+        if a.get("mta_photo"):
+            continue
+        photo = cache.get(a.get("slug", ""), "")
+        if photo:
+            a["mta_photo"] = photo
+    return authors
 
 
 def to_itable_format(authors: list, profiles: dict) -> dict:
@@ -148,6 +166,7 @@ def _parse_institution(affiliations: str) -> str:
 def main():
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     profiles, _ = load_profiles(PROFILES_DIR)
+    authors = enrich_mta_photos(authors, PROFILES_DIR)
     data = to_itable_format(authors, profiles)
     print(f"Loaded {len(data)} authors from authors.json + profiles/")
 
