@@ -200,10 +200,27 @@ def main(data):
         <meta charset="utf-8">
         <title>Author Statistics</title>
         <style>
-            body {{
+            html, body {{
                 font-family: Arial, sans-serif;
-                margin: 10px;
+                margin: 0;
+                padding: 0;
                 font-size: 12px;
+                height: 100%;
+            }}
+            body {{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                box-sizing: border-box;
+            }}
+            h1 {{ margin: 0 0 6px 0; }}
+            .dataTables_wrapper {{
+                flex: 1;
+                min-height: 0;
+            }}
+            /* scrollHead must not clip sort arrows */
+            .dataTables_scrollHead {{
+                overflow: visible !important;
             }}
             .author-thumb {{
                 max-width: 40px;
@@ -372,6 +389,26 @@ def main(data):
                     }}
                 }});
                 
+                // Apply URL parameter filters (munkahely, tema, karrier, nev)
+                (function() {{
+                    var params = new URLSearchParams(window.location.search);
+                    var filterMap = {{'Munkahely': params.get('munkahely'), 'Téma': params.get('tema'), 'Karrier': params.get('karrier')}};
+                    var nev = params.get('nev');
+                    var filtered = false;
+                    table.columns().every(function() {{
+                        var title = $(this.header()).text().trim();
+                        var val = filterMap[title];
+                        if (val) {{
+                            this.search('^' + $.fn.dataTable.util.escapeRegex(val) + '$', true, false);
+                            // Also set the footer select value if present
+                            $('select', $(this.footer())).val(val);
+                            filtered = true;
+                        }}
+                    }});
+                    if (nev) {{ table.search(nev); filtered = true; }}
+                    if (filtered) table.draw();
+                }})();
+
                 // Position tooltips near mouse cursor
                 $(document).on('mousemove', '.tooltip-container', function(e) {{
                     var tooltip = $(this).find('.tooltip-text');

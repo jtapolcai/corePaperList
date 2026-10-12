@@ -19,14 +19,13 @@
                 box-sizing: border-box;
             }
             h1 { margin: 0 0 6px 0; }
-            /* Make the DataTables wrapper fill remaining viewport height */
             .dataTables_wrapper {
                 flex: 1;
-                overflow: auto;
                 min-height: 0;
             }
-            /* Prevent DataTables from splitting header/body — no scrollY */
-            .dataTables_scrollBody { overflow: visible !important; }
+            /* scrollHead must not clip sort arrows */
+            .dataTables_scrollHead { overflow: visible !important; }
+            .dataTables_scrollBody { overflow: auto !important; }
             .author-thumb {
                 max-width: 40px;
                 max-height: 40px;
@@ -65609,6 +65608,8 @@
                     "pageLength": 100,
                     "order": [[12, "desc"]],  // Sort by Core A* ekv. descending
                     "scrollX": true,
+                    "scrollY": "calc(100vh - 130px)",
+                    "scrollCollapse": true,
                     "autoWidth": true,
                     "initComplete": function() {
                         this.api().columns.adjust().draw();
@@ -65665,6 +65666,25 @@
                 // Force header realignment after fonts/images load
                 setTimeout(function() { table.columns.adjust(); }, 200);
                 $(window).on('resize', function() { table.columns.adjust(); });
+
+                // Apply URL parameter filters: ?munkahely=hungary&tema=applied&karrier=10-20+%C3%A9v&nev=name
+                (function() {
+                    var params = new URLSearchParams(window.location.search);
+                    var filterMap = {'Munkahely': params.get('munkahely'), 'Téma': params.get('tema'), 'Karrier': params.get('karrier')};
+                    var nev = params.get('nev');
+                    var filtered = false;
+                    table.columns().every(function() {
+                        var title = $(this.header()).text().trim();
+                        var val = filterMap[title];
+                        if (val) {
+                            this.search('^' + $.fn.dataTable.util.escapeRegex(val) + '$', true, false);
+                            $('select', $(this.footer())).val(val);
+                            filtered = true;
+                        }
+                    });
+                    if (nev) { table.search(nev); filtered = true; }
+                    if (filtered) table.draw();
+                })();
 
                 // Position tooltips near mouse cursor
                 $(document).on('mousemove', '.tooltip-container', function(e) {

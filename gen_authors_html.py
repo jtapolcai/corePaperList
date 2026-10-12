@@ -105,7 +105,24 @@ def merge(authors: list, profiles: dict) -> list:
     return authors
 
 
+def compute_ranks(authors: list) -> list:
+    """Add hung_astar_rank / hung_astar_total to each Hungarian author."""
+    hung = sorted(
+        [a for a in authors if a.get("works") == "hungary" and a.get("core_astar_equiv", 0) > 0],
+        key=lambda x: -x.get("core_astar_equiv", 0),
+    )
+    total = len(hung)
+    rank_map = {a["slug"]: i for i, a in enumerate(hung, 1)}
+    for a in authors:
+        r = rank_map.get(a.get("slug", ""))
+        if r is not None:
+            a["hung_astar_rank"] = r
+            a["hung_astar_total"] = total
+    return authors
+
+
 def generate(authors: list) -> str:
+    authors = compute_ranks(authors)
     data_json = json.dumps(authors, ensure_ascii=False)
 
     new_author_github_url = new_author_url()
@@ -308,6 +325,10 @@ function renderProfile(a) {{
 
   const astarUrl = `core_astar.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const aUrl     = `core_astar.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
+  const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary` : "";
+  const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}` : "";
+  const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}` : "";
+  const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
   const statsData = [
     ["Core A*",        a.core_astar,                    "",    astarUrl],
     ["Core A* eq.",    a.core_astar_equiv,              ".2f", astarUrl],
@@ -316,6 +337,9 @@ function renderProfile(a) {{
     ["Core A",         a.core_a,                        "",    aUrl],
     ["Citations",      a.mtmt_citations,                "",    ""],
     ["D1 eq.",         a.mtmt_d1_equiv,                 ".1f", ""],
+    ["Magyar rang",    hungRankStr,                     "",    hungTableUrl],
+    ["Kat. rang",      a.category_astar_rank,           "",    catTableUrl],
+    ["Életkor rang",   a.age_astar_rank,                "",    ageTableUrl],
   ].filter(([,v]) => v != null && v !== 0);
 
   const stats = statsData.length ? `<div class="section">
