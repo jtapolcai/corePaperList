@@ -22,7 +22,30 @@ OUT_FILE       = BASE / "core_astar.html"
 if len(sys.argv) > 1:
     OUT_FILE = Path(sys.argv[1])
 
+GITHUB_REPO   = "jtapolcai/corePaperList"
+GITHUB_BRANCH = "main"
+
 _DBLP_SUFFIX = re.compile(r"\s+\d{4}$")  # trailing " 0001", " 0002", etc.
+
+
+def slugify(name: str) -> str:
+    normalized = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", normalized.lower()).strip("-")
+
+
+def github_add_author_url(name: str, slug: str) -> str:
+    from urllib.parse import quote
+    template = json.dumps({
+        "name": name, "slug": slug,
+        "dblp_url": "", "mtmt_id": "", "mta_att_id": "", "mtmt_name": "",
+        "category": "theory", "mtmt_status": "", "works": "",
+        "affiliations": "", "homepage": "", "note": "",
+    }, ensure_ascii=False, indent=2)
+    encoded = quote(template, safe="")
+    return (
+        f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}"
+        f"?filename=profiles/{slug}.json&value={encoded}"
+    )
 
 
 def normalize(name: str) -> str:
@@ -65,7 +88,8 @@ def load_author_data() -> tuple[dict, dict]:
 
 
 def format_authors(authors: list, author_lookup: dict) -> str:
-    """Render author list as comma-separated HTML with profile links."""
+    """Render author list as comma-separated HTML with profile links.
+    Known authors link to their profile; unknown authors link to GitHub to add them."""
     parts = []
     for name in authors:
         display = clean_name(name)
@@ -78,7 +102,12 @@ def format_authors(authors: list, author_lookup: dict) -> str:
                 f'<a class="author-link" href="authors_profile.html#{slug}">{esc(display)}</a>'
             )
         else:
-            parts.append(esc(display))
+            new_slug = slugify(display)
+            add_url  = github_add_author_url(display, new_slug)
+            parts.append(
+                f'<a class="author-add" href="{add_url}" target="_blank" rel="noopener"'
+                f' title="{esc(display)} hozzáadása az adatbázishoz">{esc(display)}</a>'
+            )
     return ", ".join(parts)
 
 
@@ -223,6 +252,10 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
   border: 1px solid var(--border); background: var(--chip-bg); color: var(--text);
   transition: background 0.1s; user-select: none; }}
 .chip.active {{ background: var(--chip-active); color: var(--chip-active-text); border-color: transparent; }}
+#author-banner {{ display:none; padding: 0.35rem 1.5rem; font-size: 0.82rem; background: var(--accent-bg);
+  border-bottom: 1px solid var(--border); color: var(--accent); display: flex; align-items: center; gap: 0.5rem; }}
+#author-banner button {{ background: none; border: none; cursor: pointer; color: var(--accent);
+  font-size: 1rem; line-height: 1; padding: 0 0.2rem; }}
 #status {{ padding: 0.3rem 1.5rem; font-size: 0.78rem; color: var(--muted); border-bottom: 1px solid var(--border); }}
 #list {{ padding: 0.75rem 1.5rem 2rem; max-width: 920px; margin: 0 auto; }}
 .paper {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px;
@@ -234,6 +267,8 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .paper-meta {{ font-size: 0.8rem; color: var(--muted); margin-bottom: 0.35rem; }}
 .author-link {{ color: var(--accent); text-decoration: none; }}
 .author-link:hover {{ text-decoration: underline; }}
+.author-add {{ color: var(--muted); text-decoration: none; border-bottom: 1px dashed var(--muted); }}
+.author-add:hover {{ color: var(--accent); border-bottom-color: var(--accent); }}
 .paper-tags {{ display: flex; flex-wrap: wrap; gap: 0.2rem; }}
 .tag {{ display: inline-block; padding: 0.08rem 0.4rem; border-radius: 4px; font-size: 0.7rem; font-weight: 500; }}
 .tag-inst {{ background: var(--chip-bg); color: var(--text); }}
@@ -289,6 +324,10 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
   <span class="chip" data-group="topic" data-val="theory">Elmélet</span>
   <span class="chip" data-group="topic" data-val="applied">Alkalmazott</span>
 </div>
+<div id="author-banner" style="display:none">
+  <span id="author-banner-text"></span>
+  <button onclick="clearAuthorFilter()" title="Szűrő törlése">✕</button>
+</div>
 <div id="status"></div>
 <div id="list"></div>
 <div id="empty">Nincs a szűrőknek megfelelő cikk.</div>
@@ -312,6 +351,7 @@ const NAT_CLASS = {{
 let filterInst = "", filterNat = "", filterTopic = "";
 let searchQ = "", yearFrom = {min_year}, yearTo = 0;  // 0 = no upper limit
 let tierMode = "astar";
+let authorSlugFilter = "";  // set from URL param ?author=slug
 
 function setTier(mode) {{
   tierMode = mode;
@@ -348,6 +388,7 @@ function renderPaper(p) {{
 }}
 
 function matches(p) {{
+  if (authorSlugFilter && !p.authors_html.includes(`#${{authorSlugFilter}}`)) return false;
   if (filterInst  && !p.institutions.includes(filterInst)) return false;
   if (filterNat   && p.nationality !== filterNat) return false;
   if (filterTopic && p.topic !== filterTopic) return false;
@@ -385,7 +426,29 @@ document.getElementById("search").addEventListener("input", e => {{ searchQ = e.
 document.getElementById("year-from").addEventListener("input", e => {{ yearFrom = +e.target.value || {min_year}; render(); }});
 document.getElementById("year-to").addEventListener("input", e => {{ yearTo = +e.target.value || 0; render(); }});
 
-render();
+function clearAuthorFilter() {{
+  authorSlugFilter = "";
+  document.getElementById("author-banner").style.display = "none";
+  history.replaceState(null, "", window.location.pathname);
+  render();
+}}
+
+// Init from URL params (from author profile click-through)
+(function() {{
+  const p = new URLSearchParams(window.location.search);
+  const paramTier   = p.get("tier");
+  const paramAuthor = p.get("author");
+  const paramName   = p.get("name");
+  if (paramTier && ["astar","a","both"].includes(paramTier)) setTier(paramTier);
+  if (paramAuthor) {{
+    authorSlugFilter = paramAuthor;
+    const banner = document.getElementById("author-banner");
+    banner.style.display = "flex";
+    document.getElementById("author-banner-text").textContent =
+      "Szűrve: " + (paramName || paramAuthor);
+  }}
+  render();
+}})();
 </script>
 </body>
 </html>

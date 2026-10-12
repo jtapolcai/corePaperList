@@ -190,6 +190,8 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
   padding: 0.6rem 0.75rem; }}
 .stat-card .val {{ font-size: 1.25rem; font-weight: 700; color: var(--accent); }}
 .stat-card .lbl {{ font-size: 0.72rem; color: var(--muted); margin-top: 0.1rem; }}
+a.stat-link {{ text-decoration: none; cursor: pointer; display: block; transition: border-color 0.15s, background 0.15s; }}
+a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); }}
 .kv-table {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
 .kv-table td {{ padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; }}
 .kv-table td:first-child {{ color: var(--muted); width: 38%; white-space: nowrap; font-weight: 500; }}
@@ -304,23 +306,28 @@ function renderProfile(a) {{
 
   const note = a.note ? `<div class="profile-note">${{esc(a.note)}}</div>` : "";
 
+  const astarUrl = `core_astar.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
+  const aUrl     = `core_astar.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const statsData = [
-    ["Core A*", a.core_astar, ""],
-    ["Core A* eq.", a.core_astar_equiv, ".2f"],
-    ["1st Author eq.", a.first_author_core_astar_equiv, ".2f"],
-    ["HU eq.", a.hungarian_core_astar_equiv, ".2f"],
-    ["Core A", a.core_a, ""],
-    ["Citations", a.mtmt_citations, ""],
-    ["D1 eq.", a.mtmt_d1_equiv, ".1f"],
+    ["Core A*",        a.core_astar,                    "",    astarUrl],
+    ["Core A* eq.",    a.core_astar_equiv,              ".2f", astarUrl],
+    ["1st Author eq.", a.first_author_core_astar_equiv, ".2f", astarUrl],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    ".2f", astarUrl],
+    ["Core A",         a.core_a,                        "",    aUrl],
+    ["Citations",      a.mtmt_citations,                "",    ""],
+    ["D1 eq.",         a.mtmt_d1_equiv,                 ".1f", ""],
   ].filter(([,v]) => v != null && v !== 0);
 
   const stats = statsData.length ? `<div class="section">
     <h3>Metrics</h3>
     <div class="stats-grid">
-      ${{statsData.map(([lbl, v, fmt_]) => `<div class="stat-card">
-        <div class="val">${{typeof v === "number" && fmt_ ? v.toFixed(parseInt(fmt_)) : fmt(v)}}</div>
-        <div class="lbl">${{lbl}}</div>
-      </div>`).join("")}}
+      ${{statsData.map(([lbl, v, fmt_, url]) => {{
+        const valStr = typeof v === "number" && fmt_ ? v.toFixed(parseInt(fmt_)) : fmt(v);
+        const inner  = `<div class="val">${{valStr}}</div><div class="lbl">${{lbl}}</div>`;
+        return url
+          ? `<a class="stat-card stat-link" href="${{url}}" title="${{lbl}} cikkek listája">${{inner}}</a>`
+          : `<div class="stat-card">${{inner}}</div>`;
+      }}).join("")}}
     </div>
   </div>` : "";
 
@@ -441,13 +448,53 @@ handleHash();
 """
 
 
+def load_new_authors(profiles_dir: Path, existing_slugs: set) -> list:
+    """Profiles whose slug is NOT in authors.json are treated as new authors."""
+    new_authors = []
+    if not profiles_dir.exists():
+        return new_authors
+    for f in profiles_dir.glob("*.json"):
+        if f.stem.startswith("_") or f.stem in existing_slugs:
+            continue
+        try:
+            p = json.loads(f.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"Warning: {f}: {e}")
+            continue
+        if not p.get("name"):
+            continue
+        slug = f.stem
+        a = {k: None for k in [
+            "core_astar", "core_a", "core_astar_equiv", "first_author_core_astar_equiv",
+            "hungarian_core_astar_equiv", "core_b", "core_c", "mtmt_citations",
+            "mtmt_d1_equiv", "mtmt_d1", "mtmt_q1", "mtmt_q2", "mtmt_q3", "mtmt_q4",
+            "mtmt_journals", "mtmt_conferences", "dblp_institutions", "mtmt_affiliations",
+        ]}
+        a["slug"] = slug
+        for k in EDITABLE_FIELDS:
+            a[k] = p.get(k, "")
+        a["name"] = p.get("name", slug)
+        a["_has_profile"] = True
+        a["_github_edit_url"] = (
+            f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/profiles/{slug}.json"
+        )
+        new_authors.append(a)
+        print(f"  New author from profile: {a['name']} ({slug})")
+    return new_authors
+
+
 def main():
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     profiles = load_profiles(PROFILES_DIR)
     merged = merge(authors, profiles)
+
+    existing_slugs = {a["slug"] for a in authors}
+    new_authors = load_new_authors(PROFILES_DIR, existing_slugs)
+    merged.extend(new_authors)
+
     html = generate(merged)
     OUT_FILE.write_text(html, encoding="utf-8")
-    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles)")
+    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles, {len(new_authors)} new)")
 
 
 if __name__ == "__main__":
