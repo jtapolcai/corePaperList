@@ -12,6 +12,7 @@ if _src not in sys.path: sys.path.insert(0, _src)
 
 import json
 import os
+import re
 from pathlib import Path
 import requests
 import xmltodict
@@ -272,73 +273,174 @@ def check_if_dblp_id_corresponds_to_mtmt(mtmt_id: str,
         return dblp_record, mtmt_record
     return None, None
 
+SPARQL_URL = "https://sparql.dblp.org/sparql"
+SPARQL_TYPE_MAP = {
+    "https://dblp.org/rdf/schema#Inproceedings": "Conference and Workshop Papers",
+    "https://dblp.org/rdf/schema#Article": "Journal Articles",
+    "https://dblp.org/rdf/schema#Editorship": "Editorship",
+    "https://dblp.org/rdf/schema#Reference": "Reference Works",
+    "https://dblp.org/rdf/schema#Informal": "Informal and Other Publications",
+    "https://dblp.org/rdf/schema#Thesis": "Thesis",
+}
+
+
+def _sparql_count(pid):
+    """Return total publication count for a PID via SPARQL (cheap check)."""
+    query = (
+        "SELECT (COUNT(DISTINCT ?pub) AS ?n) WHERE { "
+        "?pub <https://dblp.org/rdf/schema#authoredBy> <https://dblp.org/pid/" + pid + "> }"
+    )
+    r = requests.post(SPARQL_URL, data={"query": query},
+                      headers={"Accept": "application/sparql-results+json"}, timeout=30)
+    r.raise_for_status()
+    bindings = r.json().get("results", {}).get("bindings", [])
+    return int(bindings[0]["n"]["value"]) if bindings else -1
+
+
+def _sparql_fetch(pid):
+    """Fetch all publications for a PID and return a hits list (same format as DBLP JSON)."""
+    author_uri = "https://dblp.org/pid/" + pid
+
+    pubs_query = (
+        "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
+        "SELECT DISTINCT ?pub ?type ?title ?year ?venue ?doi ?pages WHERE {\n"
+        "  ?pub dblp:authoredBy <" + author_uri + "> ;\n"
+        "       dblp:title ?title ; dblp:yearOfPublication ?year .\n"
+        "  OPTIONAL { ?pub a ?type .\n"
+        "    FILTER(STRSTARTS(STR(?type),\"https://dblp.org/rdf/schema#\")"
+        " && ?type != dblp:Publication) }\n"
+        "  OPTIONAL { ?pub dblp:publishedIn ?venue }\n"
+        "  OPTIONAL { ?pub dblp:doi ?doi }\n"
+        "  OPTIONAL { ?pub dblp:pagination ?pages }\n"
+        "}"
+    )
+    r = requests.post(SPARQL_URL, data={"query": pubs_query},
+                      headers={"Accept": "application/sparql-results+json"}, timeout=60)
+    r.raise_for_status()
+    bindings = r.json()["results"]["bindings"]
+
+    pubs = {}
+    for b in bindings:
+        uri = b["pub"]["value"]
+        if uri not in pubs:
+            pubs[uri] = b
+        elif "type" in b and ("Inproceedings" in b["type"]["value"] or "Article" in b["type"]["value"]):
+            pubs[uri] = b
+
+    if not pubs:
+        return []
+
+    authors_query = (
+        "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
+        "SELECT DISTINCT ?pub ?coAuthorName ?coAuthorPid WHERE {\n"
+        "  ?pub dblp:authoredBy <" + author_uri + "> .\n"
+        "  ?pub dblp:authoredBy ?co . ?co dblp:primaryCreatorName ?coAuthorName .\n"
+        "  BIND(REPLACE(STR(?co),\"https://dblp.org/pid/\",\"\") AS ?coAuthorPid)\n"
+        "}"
+    )
+    r2 = requests.post(SPARQL_URL, data={"query": authors_query},
+                       headers={"Accept": "application/sparql-results+json"}, timeout=60)
+    r2.raise_for_status()
+    pub_authors: dict = {}
+    seen_pairs: dict = {}
+    for b in r2.json()["results"]["bindings"]:
+        uri = b["pub"]["value"]
+        name = b["coAuthorName"]["value"]
+        apid = b["coAuthorPid"]["value"]
+        pub_authors.setdefault(uri, [])
+        seen_pairs.setdefault(uri, set())
+        if (name, apid) not in seen_pairs[uri]:
+            pub_authors[uri].append({"text": name, "@pid": apid})
+            seen_pairs[uri].add((name, apid))
+
+    hits = []
+    for uri, b in pubs.items():
+        rec_key = uri.replace("https://dblp.org/rec/", "")
+        raw_type = b.get("type", {}).get("value", "")
+        pub_type = SPARQL_TYPE_MAP.get(raw_type, "Informal and Other Publications")
+        doi_uri = b.get("doi", {}).get("value", "")
+        doi = doi_uri.replace("https://doi.org/", "") if doi_uri else ""
+        info = {
+            "type": pub_type,
+            "key": rec_key,
+            "title": b["title"]["value"].rstrip("."),
+            "venue": b.get("venue", {}).get("value", ""),
+            "year": b["year"]["value"],
+            "pages": b.get("pages", {}).get("value", ""),
+            "doi": doi,
+            "ee": doi_uri,
+            "url": uri,
+            "authors": {"author": pub_authors.get(uri, [])},
+        }
+        hits.append({"info": info})
+    return hits
+
+
 # search for an author
-def cache_DBLP_query(authors_data,force): 
+def cache_DBLP_query(authors_data, force):
     base_dir = Path(__file__).resolve().parent.parent
     dblp_dir = base_dir / "dblp"
     dblp_dir.mkdir(parents=True, exist_ok=True)
 
-    full_log = ""
+    counts_path = dblp_dir / "dblp_counts.json"
+    counts_cache = {}
+    if counts_path.exists():
+        try:
+            counts_cache = json.loads(counts_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
     counter = 0
-
     for author, author_cls in authors_data.items():
-        #if not author_cls.get("location"):
-        #    full_log += "{} is not working in Hungary\n".format(author)
-        #    continue
-
-        # we save the reuslts as dblp/author_name.json
         author_safe = google_author_sheet.remove_accents(author).replace(" ", "_")
         output_path = dblp_dir / "{}.json".format(author_safe)
 
-        if not force and Path(output_path).exists():
-            #print(f"Skip {author} (already exists)")
+        dblp_url_raw = author_cls.get("dblp_url", "").strip()
+        if not dblp_url_raw:
+            if not force and output_path.exists():
+                continue
+            print("No DBLP PID for {} — skip".format(author))
             continue
 
-        author_query = google_author_sheet.remove_accents(author)
-        if "dblp_url" in author_cls and author_cls.get("dblp_url", "").strip() != "":
-            pid = author_cls.get("dblp_url", "").strip()
-            if not pid.startswith("/"):
-                pid = "/" + pid
-            url = "https://dblp.org/pid{}.xml".format(pid)
-        else:
-            print("No pid for {}, using name search".format(author))
-            url = "https://dblp.org/search/publ/api?q=author:{}&h=1000&format=xml".format(quote(author_query))
-        
+        # Extract PID (strip leading slash and dblp.org prefix)
+        pid = re.sub(r"^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)/pid/", "", dblp_url_raw)
+        pid = pid.strip("/").rstrip(".html").rstrip(".xml")
+        if not pid:
+            continue
+
+        # Count check: skip if paper count unchanged and file exists
+        if not force and output_path.exists():
+            try:
+                total = _sparql_count(pid)
+                if total >= 0 and counts_cache.get(author_safe) == total:
+                    continue
+                counts_cache[author_safe] = total
+            except Exception as e:
+                print("Count check failed for {}: {}".format(author, e))
+                continue  # keep existing file, try next time
+
         try:
-            url = url.replace("https://dblp.org/", "https://dblp2.uni-trier.de/")
-
-            print("Fetching: {} {}".format(author, url))
+            print("Fetching via SPARQL: {}".format(author), flush=True)
+            hits = _sparql_fetch(pid)
             time.sleep(0.5)
-            username = os.getenv("DBLP_USER")
-            password = os.getenv("DBLP_PASS")
-            if username and password:
-                #print("Using authentication for DBLP")
-                response = requests.get(url, auth=(username, password), timeout=10)
-            else:
-                response = requests.get(url, timeout=10)
             counter += 1
-
             if counter % 50 == 0:
                 print("Pause after {} queries".format(counter))
                 time.sleep(30)
-            if counter % 1000 == 0:
-                print("Too many queries – exiting")
-                break
 
-            if response.status_code != 200:
-                raise Exception("HTTP error {}".format(response.status_code))
-
-            data = xmltodict.parse(response.content)
-            #data = response.json()
-            with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
+            result = {
+                "source": SPARQL_URL,
+                "result": {"hits": {"@total": str(len(hits)), "hit": hits}}
+            }
+            tmp = output_path.with_suffix(".json.tmp")
+            tmp.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+            tmp.replace(output_path)
+            counts_cache[author_safe] = len(hits)
+            print("{}: {} rekord".format(author, len(hits)), flush=True)
 
         except Exception as e:
-            print("Error with {}: {}".format(author,e))
+            print("Error with {}: {}".format(author, e))
             time.sleep(20)
 
-    # Log mentése
-    with open("results/log_dblp_fetch_log.txt", "w", encoding="utf-8") as f:
-        f.write(full_log)
-
+    counts_path.write_text(json.dumps(counts_cache, ensure_ascii=False, indent=2), encoding="utf-8")
     print("DBLP JSON lekérések kész, elmentve: dblp/")

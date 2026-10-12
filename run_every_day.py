@@ -212,7 +212,8 @@ if __name__ == "__main__":
     with open(out_no_page, 'w', encoding='utf-8') as f:
         json.dump(classify_paper.no_page_is_given, f, indent=2, ensure_ascii=False)
 
-    google_author_sheet.generate_author_google_sheet(authors_data)
+    if not os.getenv("SKIP_SHEET_WRITE"):
+        google_author_sheet.generate_author_google_sheet(authors_data)
 
     from src import generate_chart
     generate_chart.main()
