@@ -35,12 +35,23 @@ def load_profiles(profiles_dir: Path) -> dict:
 GITHUB_REPO = "jtapolcai/corePaperList"
 GITHUB_BRANCH = "main"
 
+PROFILE_TEMPLATE = """{
+  "homepage": "",
+  "note": "",
+  "highlight": false
+}"""
+
 
 def github_edit_url(slug: str, has_profile: bool) -> str:
     if has_profile:
         return f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/profiles/{slug}.json"
     else:
-        return f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}/profiles?filename={slug}.json"
+        from urllib.parse import quote
+        encoded = quote(PROFILE_TEMPLATE, safe="")
+        return (
+            f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}"
+            f"?filename=profiles/{slug}.json&value={encoded}"
+        )
 
 
 def merge(authors: list, profiles: dict) -> list:
@@ -310,8 +321,11 @@ function renderProfile(a) {{
         onerror="this.style.display='none'">`
     : "";
 
-  const editLabel = a._has_profile ? "✏️ Edit profile" : "✏️ Create profile";
-  const editBtn = `<a class="edit-btn" href="${{esc(a._github_edit_url)}}" target="_blank" rel="noopener">${{editLabel}}</a>`;
+  const editLabel = a._has_profile ? "✏️ Szerk. (GitHub)" : "✏️ Megjegyzés hozzáadása";
+  const editTitle = a._has_profile
+    ? "profiles/" + a.slug + ".json szerkesztése GitHubon"
+    : "Megjegyzést, honlapot adhat hozzá — megnyílik a GitHub szerkesztő, mentés után push + regenerálás szükséges";
+  const editBtn = `<a class="edit-btn" href="${{esc(a._github_edit_url)}}" target="_blank" rel="noopener" title="${{editTitle}}">${{editLabel}}</a>`;
 
   document.getElementById("profile").innerHTML = `
     <div class="profile-header">
