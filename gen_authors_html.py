@@ -240,6 +240,15 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
   padding:0.3rem 0.8rem; border-radius:6px; font-size:0.82rem; cursor:pointer;
   border:1px solid var(--border); text-decoration:none; background:var(--chip-bg); color:var(--text); }}
 #json-modal .modal-actions .primary {{ background:var(--accent); color:#fff; border-color:transparent; }}
+.mtmt-results {{ margin-top:0.4rem; border:1px solid var(--border); border-radius:6px; overflow:hidden; }}
+.mtmt-results-label {{ padding:0.3rem 0.6rem; font-size:0.72rem; color:var(--muted); background:var(--chip-bg); }}
+.mtmt-option {{ padding:0.4rem 0.6rem; cursor:pointer; font-size:0.8rem; border-top:1px solid var(--border); }}
+.mtmt-option:hover {{ background:var(--accent-bg); }}
+.mtmt-option.selected {{ background:var(--accent-bg); border-left:3px solid var(--accent); font-weight:600; }}
+.mtmt-loading, .mtmt-no-results {{ padding:0.4rem 0.6rem; font-size:0.8rem; color:var(--muted); }}
+.mta-hint {{ font-size:0.78rem; margin-top:0.25rem; }}
+.mta-hint a {{ color:var(--accent); text-decoration:none; }}
+.mta-hint a:hover {{ text-decoration:underline; }}
 
 @media (max-width: 640px) {{
   #app {{ flex-direction: column; height: auto; }}
@@ -321,6 +330,65 @@ function editField(key) {{
   if (!el) return;
   el.disabled = false;
   el.focus();
+  document.getElementById("edit-save-bar").style.display = "flex";
+
+  if (key === "mtmt_id") {{
+    const a = BY_SLUG[currentSlug];
+    if (a) searchMTMT(a.name || "");
+  }}
+  if (key === "mta_att_id") {{
+    const a = BY_SLUG[currentSlug];
+    if (a) {{
+      const name = (a.name || "").replace(/\\s+\\d{{4}}$/, "").trim();
+      const hint = document.getElementById("mta-hint");
+      if (hint) {{
+        hint.style.display = "";
+        hint.innerHTML = `<a href="https://mta.hu/koztestuleti_tagok?kereses=${{encodeURIComponent(name)}}" target="_blank" rel="noopener">🔍 Keresés az MTA adatbázisában →</a>`;
+      }}
+    }}
+  }}
+}}
+
+async function searchMTMT(fullName) {{
+  const container = document.getElementById("mtmt-results");
+  if (!container) return;
+  const cleanName = fullName.replace(/\\s+\\d{{4}}$/, "").trim();
+  const parts = cleanName.split(/\\s+/);
+  if (parts.length < 2) return;
+
+  container.style.display = "";
+  container.innerHTML = `<div class="mtmt-loading">Keresés az MTMT-ben…</div>`;
+
+  // Try last word (Western name order) then first word (Hungarian order)
+  const candidates = [...new Set([parts[parts.length - 1], parts[0]])];
+  const seen = new Map();
+  for (const fam of candidates) {{
+    try {{
+      const url = `https://m2.mtmt.hu/api/author?cond=familyName;eq;${{encodeURIComponent(fam)}}&format=json&size=25`;
+      const resp = await fetch(url, {{credentials: "omit"}});
+      const data = await resp.json();
+      for (const c of (data.content || [])) {{
+        if (!seen.has(c.mtid)) seen.set(c.mtid, c);
+      }}
+    }} catch(e) {{ /* ignore */ }}
+  }}
+
+  if (seen.size === 0) {{
+    container.innerHTML = `<div class="mtmt-no-results">Nem található az MTMT-ben.</div>`;
+    return;
+  }}
+  const items = [...seen.values()].map(c => {{
+    const safeLabel = esc(c.label || "");
+    return `<div class="mtmt-option" onclick="selectMTMT(${{c.mtid}}, this)"><strong>${{c.mtid}}</strong> — ${{safeLabel}}</div>`;
+  }}).join("");
+  container.innerHTML = `<div class="mtmt-results-label">Kattints a megfelelő szerzőre:</div>${{items}}`;
+}}
+
+function selectMTMT(mtid, el) {{
+  const input = document.querySelector('[data-edit="mtmt_id"]');
+  if (input) {{ input.value = String(mtid); input.disabled = false; }}
+  document.querySelectorAll(".mtmt-option").forEach(o => o.classList.remove("selected"));
+  el.classList.add("selected");
   document.getElementById("edit-save-bar").style.display = "flex";
 }}
 
@@ -468,7 +536,10 @@ function renderProfile(a) {{
     }} else {{
       ctrl = `<input type="text" data-edit="${{f.key}}" value="${{esc(val)}}" disabled class="edit-ctrl">`;
     }}
-    return `<tr><td>${{pencil}} ${{f.label}}</td><td>${{ctrl}}</td></tr>`;
+    let extra = "";
+    if (f.key === "mtmt_id")    extra = `<div id="mtmt-results" class="mtmt-results" style="display:none"></div>`;
+    if (f.key === "mta_att_id") extra = `<div id="mta-hint" class="mta-hint" style="display:none"></div>`;
+    return `<tr><td>${{pencil}} ${{f.label}}</td><td>${{ctrl}}${{extra}}</td></tr>`;
   }}).join("");
 
   // Read-only fields
