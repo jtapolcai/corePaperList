@@ -48,6 +48,10 @@ def github_add_author_url(name: str, slug: str) -> str:
     )
 
 
+GITHUB_REPO_CONST = GITHUB_REPO
+GITHUB_BRANCH_CONST = GITHUB_BRANCH
+
+
 def normalize(name: str) -> str:
     return unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower().strip()
 
@@ -103,10 +107,11 @@ def format_authors(authors: list, author_lookup: dict) -> str:
             )
         else:
             new_slug = slugify(display)
-            add_url  = github_add_author_url(display, new_slug)
             parts.append(
-                f'<a class="author-add" href="{add_url}" target="_blank" rel="noopener"'
-                f' title="{esc(display)} hozzáadása az adatbázishoz">{esc(display)}</a>'
+                f'<a class="author-add" href="javascript:void(0)"'
+                f' data-name="{esc(display)}" data-slug="{new_slug}"'
+                f' onclick="openAddModal(this)"'
+                f' title="{esc(display)} hozzáadása az adatbázishoz">➕ {esc(display)}</a>'
             )
     return ", ".join(parts)
 
@@ -281,6 +286,39 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .tag-mosthu {{ background: var(--tag-mosthu); color: var(--tag-mosthu-text); }}
 #empty {{ display: none; text-align: center; padding: 3rem; color: var(--muted); }}
 footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--muted); border-top: 1px solid var(--border); }}
+
+/* Add-author modal */
+#add-modal-overlay {{ display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:1000; align-items:center; justify-content:center; }}
+#add-modal-overlay.open {{ display:flex; }}
+#add-modal {{ background:var(--card); border:1px solid var(--border); border-radius:12px; width:min(600px,95vw);
+  max-height:90vh; overflow-y:auto; padding:1.5rem; box-shadow:0 20px 60px rgba(0,0,0,.3); position:relative; }}
+#add-modal h2 {{ font-size:1.1rem; font-weight:700; margin-bottom:1rem; }}
+.modal-section {{ margin-bottom:1rem; }}
+.modal-section h3 {{ font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase;
+  letter-spacing:.05em; margin-bottom:.4rem; }}
+.candidate-list {{ display:flex; flex-direction:column; gap:.3rem; max-height:160px; overflow-y:auto; }}
+.candidate {{ display:flex; align-items:center; gap:.5rem; padding:.35rem .6rem; border-radius:6px;
+  border:1px solid var(--border); cursor:pointer; font-size:.82rem; background:var(--bg); transition:background .1s; }}
+.candidate:hover, .candidate.selected {{ background:var(--accent-bg); border-color:var(--accent); color:var(--accent); }}
+.candidate-none {{ font-size:.82rem; color:var(--muted); padding:.3rem 0; }}
+.modal-field {{ display:flex; flex-direction:column; gap:.25rem; margin-bottom:.6rem; }}
+.modal-field label {{ font-size:.8rem; font-weight:600; color:var(--muted); }}
+.modal-field input, .modal-field select {{ padding:.35rem .6rem; border:1px solid var(--border); border-radius:6px;
+  background:var(--bg); color:var(--text); font-size:.85rem; width:100%; }}
+.modal-field input:focus, .modal-field select:focus {{ outline:2px solid var(--accent); border-color:transparent; }}
+.modal-hint {{ font-size:.75rem; color:var(--muted); margin-top:.15rem; }}
+.modal-hint a {{ color:var(--accent); }}
+.modal-actions {{ display:flex; gap:.5rem; justify-content:flex-end; margin-top:1rem; padding-top:1rem;
+  border-top:1px solid var(--border); }}
+.btn-primary {{ background:var(--accent); color:#fff; border:none; border-radius:6px;
+  padding:.45rem 1.1rem; font-size:.85rem; font-weight:600; cursor:pointer; }}
+.btn-primary:hover {{ opacity:.9; }}
+.btn-secondary {{ background:var(--chip-bg); color:var(--text); border:1px solid var(--border);
+  border-radius:6px; padding:.45rem 1.1rem; font-size:.85rem; cursor:pointer; }}
+.loading-dots::after {{ content:'.'; animation:dots 1.2s steps(3,end) infinite; }}
+@keyframes dots {{ 0%,20%{{content:'.';}} 40%{{content:'..';}} 60%,100%{{content:'...';}} }}
+#add-modal-close {{ position:absolute; top:.75rem; right:.75rem; background:none; border:none;
+  font-size:1.2rem; cursor:pointer; color:var(--muted); line-height:1; }}
 </style>
 </head>
 <body>
@@ -333,6 +371,237 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
 <div id="empty">Nincs a szűrőknek megfelelő cikk.</div>
 <footer>Adatok: <a href="https://dblp.org" style="color:var(--accent)">DBLP</a> ·
   <a href="https://github.com/jtapolcai/corePaperList" style="color:var(--accent)">corePaperList</a></footer>
+
+<!-- Add-author modal -->
+<div id="add-modal-overlay">
+  <div id="add-modal">
+    <button id="add-modal-close" onclick="closeAddModal()" title="Bezárás">✕</button>
+    <h2 id="modal-title">Szerző hozzáadása</h2>
+
+    <div class="modal-section">
+      <h3>DBLP profil</h3>
+      <div id="dblp-status" class="candidate-none loading-dots">Keresés</div>
+      <div id="dblp-list" class="candidate-list" style="display:none"></div>
+    </div>
+
+    <div class="modal-section">
+      <h3>MTMT profil</h3>
+      <div id="mtmt-status" class="candidate-none loading-dots">Keresés</div>
+      <div id="mtmt-list" class="candidate-list" style="display:none"></div>
+    </div>
+
+    <div class="modal-field">
+      <label>DBLP URL</label>
+      <input type="text" id="m-dblp-url" placeholder="https://dblp.org/pid/…">
+    </div>
+    <div class="modal-field">
+      <label>MTMT ID</label>
+      <input type="text" id="m-mtmt-id" placeholder="pl. 10012955">
+    </div>
+    <div class="modal-field">
+      <label>MTMT Név (MTMT-ben használt)</label>
+      <input type="text" id="m-mtmt-name" placeholder="Szerző MTMT neve">
+    </div>
+    <div class="modal-field">
+      <label>MTA köztestületi tag URL</label>
+      <input type="text" id="m-mta-att-id" placeholder="https://mta.hu/koztestuleti_tagok?PersonId=…">
+      <div class="modal-hint">
+        <a href="https://mta.hu/koztestuleti_tagok" target="_blank" rel="noopener">🔍 Keresés az MTA oldalán →</a>
+      </div>
+    </div>
+    <div class="modal-field">
+      <label>Kategória</label>
+      <select id="m-category">
+        <option value="">—</option>
+        <option value="theory">Elmélet</option>
+        <option value="applied">Alkalmazott</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>Munkahely</label>
+      <select id="m-works">
+        <option value="">—</option>
+        <option value="hungary">Hungary</option>
+        <option value="abroad">Abroad</option>
+        <option value="company_hungary">Company (HU)</option>
+        <option value="company_abroad">Company (külföld)</option>
+        <option value="inactive">Inaktív</option>
+        <option value="retired">Nyugdíjas</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>Affiliációk</label>
+      <input type="text" id="m-affiliations" placeholder="pl. BME-TMIT">
+    </div>
+    <div class="modal-field">
+      <label>Honlap</label>
+      <input type="text" id="m-homepage" placeholder="https://…">
+    </div>
+    <div class="modal-field">
+      <label>LinkedIn URL</label>
+      <input type="text" id="m-linkedin" placeholder="https://linkedin.com/in/…">
+      <div class="modal-hint" id="m-linkedin-hint"></div>
+    </div>
+    <div class="modal-field">
+      <label>Megjegyzés</label>
+      <input type="text" id="m-note" placeholder="">
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="closeAddModal()">Mégsem</button>
+      <button class="btn-primary" onclick="saveAddModal()">💾 Mentés GitHubra →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const GITHUB_REPO = "{GITHUB_REPO}";
+const GITHUB_BRANCH = "{GITHUB_BRANCH}";
+
+let _modalSlug = "";
+let _modalName = "";
+
+function openAddModal(el) {{
+  _modalName = el.dataset.name || el.textContent.replace("➕","").trim();
+  _modalSlug = el.dataset.slug || slugifyJS(_modalName);
+  document.getElementById("modal-title").textContent = "Hozzáadás: " + _modalName;
+  // Reset
+  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note"].forEach(id => {{
+    document.getElementById(id).value = "";
+  }});
+  document.getElementById("m-category").value = "";
+  document.getElementById("m-works").value = "";
+  document.getElementById("dblp-list").innerHTML = "";
+  document.getElementById("dblp-list").style.display = "none";
+  document.getElementById("dblp-status").textContent = "Keresés";
+  document.getElementById("dblp-status").style.display = "";
+  document.getElementById("mtmt-list").innerHTML = "";
+  document.getElementById("mtmt-list").style.display = "none";
+  document.getElementById("mtmt-status").textContent = "Keresés";
+  document.getElementById("mtmt-status").style.display = "";
+  // LinkedIn hint
+  const hint = document.getElementById("m-linkedin-hint");
+  hint.innerHTML = '<a href="https://www.linkedin.com/search/results/people/?keywords=' + encodeURIComponent(_modalName) + '" target="_blank" rel="noopener">🔍 Keresés LinkedIn-en →</a>';
+  document.getElementById("add-modal-overlay").classList.add("open");
+  // Fetch DBLP and MTMT in parallel
+  searchDblp(_modalName);
+  searchMtmt(_modalName);
+}}
+
+function closeAddModal() {{
+  document.getElementById("add-modal-overlay").classList.remove("open");
+}}
+
+function slugifyJS(name) {{
+  return name.toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}}
+
+async function searchDblp(name) {{
+  const statusEl = document.getElementById("dblp-status");
+  const listEl = document.getElementById("dblp-list");
+  try {{
+    const url = "https://dblp.org/search/author/api?q=" + encodeURIComponent(name) + "&format=json&h=8";
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const hits = data?.result?.hits?.hit || [];
+    statusEl.style.display = "none";
+    if (!hits.length) {{
+      statusEl.textContent = "Nem található DBLP-n";
+      statusEl.style.display = "";
+      return;
+    }}
+    listEl.innerHTML = hits.map(h => {{
+      const info = h.info || {{}};
+      const authorName = info.author || "";
+      const pid = info.url || "";
+      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\//,"") : "";
+      return `<div class="candidate" onclick="selectDblp(${{JSON.stringify(dblpUrl)}}, ${{JSON.stringify(authorName)}}, this)">
+        <span>🔗</span>
+        <span><strong>${{authorName}}</strong></span>
+        ${{dblpUrl ? '<a href="' + dblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a>' : ''}}
+      </div>`;
+    }}).join("");
+    listEl.style.display = "flex";
+  }} catch(e) {{
+    statusEl.textContent = "DBLP keresés sikertelen";
+    statusEl.style.display = "";
+  }}
+}}
+
+function selectDblp(url, name, el) {{
+  document.getElementById("m-dblp-url").value = url;
+  document.querySelectorAll("#dblp-list .candidate").forEach(c => c.classList.remove("selected"));
+  el.classList.add("selected");
+}}
+
+async function searchMtmt(name) {{
+  const statusEl = document.getElementById("mtmt-status");
+  const listEl = document.getElementById("mtmt-list");
+  // Try last word then first word as family name
+  const parts = name.trim().split(/\s+/);
+  const families = [...new Set([parts[parts.length-1], parts[0]])];
+  const seen = new Map();
+  for (const fam of families) {{
+    try {{
+      const url = "https://m2.mtmt.hu/api/author?cond=familyName;eq;" + encodeURIComponent(fam) + "&format=json&size=20";
+      const resp = await fetch(url);
+      const data = await resp.json();
+      for (const c of (data.content || [])) {{
+        if (c.mtid && !seen.has(c.mtid)) seen.set(c.mtid, c.label || "");
+      }}
+    }} catch(e) {{}}
+  }}
+  statusEl.style.display = "none";
+  if (!seen.size) {{
+    statusEl.textContent = "Nem található MTMT-n";
+    statusEl.style.display = "";
+    return;
+  }}
+  listEl.innerHTML = [...seen.entries()].map(([mtid, label]) =>
+    `<div class="candidate" onclick="selectMtmt(${{mtid}}, ${{JSON.stringify(label)}}, this)">
+      <span>📖</span>
+      <span><strong>${{label}}</strong> <span style="color:var(--muted);font-size:.75rem">(ID: ${{mtid}})</span></span>
+      <a href="https://m2.mtmt.hu/api/author/${{mtid}}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">MTMT →</a>
+    </div>`
+  ).join("");
+  listEl.style.display = "flex";
+}}
+
+function selectMtmt(mtid, label, el) {{
+  document.getElementById("m-mtmt-id").value = mtid;
+  document.getElementById("m-mtmt-name").value = label;
+  document.querySelectorAll("#mtmt-list .candidate").forEach(c => c.classList.remove("selected"));
+  el.classList.add("selected");
+}}
+
+function saveAddModal() {{
+  const obj = {{}};
+  obj.name = _modalName;
+  obj.slug = _modalSlug;
+  const fields = {{
+    dblp_url: "m-dblp-url", mtmt_id: "m-mtmt-id", mtmt_name: "m-mtmt-name",
+    mta_att_id: "m-mta-att-id", category: "m-category", works: "m-works",
+    affiliations: "m-affiliations", homepage: "m-homepage", linkedin: "m-linkedin", note: "m-note"
+  }};
+  for (const [key, id] of Object.entries(fields)) {{
+    const v = document.getElementById(id).value.trim();
+    if (v) obj[key] = v;
+  }}
+  const json = JSON.stringify(obj, null, 2);
+  const encoded = encodeURIComponent(json);
+  const url = "https://github.com/" + GITHUB_REPO + "/new/" + GITHUB_BRANCH
+    + "?filename=profiles/" + _modalSlug + ".json&value=" + encoded;
+  window.open(url, "_blank");
+  closeAddModal();
+}}
+
+// Close on overlay click
+document.getElementById("add-modal-overlay").addEventListener("click", function(e) {{
+  if (e.target === this) closeAddModal();
+}});
+</script>
 <script>
 const ALL_PAPERS = {papers_json};
 const N_ASTAR = {n_astar};
