@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests xmltodict unidecode pandas
+        run: pip install requests xmltodict unidecode pandas matplotlib
 
       - name: Run DBLP update and paper classification
         run: python3 run_every_day.py
