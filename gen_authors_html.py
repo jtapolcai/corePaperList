@@ -35,43 +35,80 @@ def load_profiles(profiles_dir: Path) -> dict:
 GITHUB_REPO = "jtapolcai/corePaperList"
 GITHUB_BRANCH = "main"
 
-PROFILE_TEMPLATE = """{
-  "homepage": "",
-  "note": "",
-  "highlight": false,
-  "mtmt_id": "",
-  "mta_att_id": ""
-}"""
+# Fields the user manually edits in profiles/{slug}.json
+EDITABLE_FIELDS = [
+    "dblp_url", "mtmt_id", "mta_att_id", "mtmt_name",
+    "category", "mtmt_status", "works", "affiliations",
+    "homepage", "note",
+]
 
 
-def github_edit_url(slug: str, has_profile: bool) -> str:
+def profile_template(author: dict) -> str:
+    """Build a JSON template pre-filled with the author's current values."""
+    obj = {k: author.get(k) or "" for k in EDITABLE_FIELDS}
+    return json.dumps(obj, ensure_ascii=False, indent=2)
+
+
+def github_edit_url(slug: str, author: dict, has_profile: bool) -> str:
+    from urllib.parse import quote
     if has_profile:
         return f"https://github.com/{GITHUB_REPO}/edit/{GITHUB_BRANCH}/profiles/{slug}.json"
-    else:
-        from urllib.parse import quote
-        encoded = quote(PROFILE_TEMPLATE, safe="")
-        return (
-            f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}"
-            f"?filename=profiles/{slug}.json&value={encoded}"
-        )
+    encoded = quote(profile_template(author), safe="")
+    return (
+        f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}"
+        f"?filename=profiles/{slug}.json&value={encoded}"
+    )
+
+
+NEW_AUTHOR_TEMPLATE = json.dumps({
+    "name": "",
+    "slug": "",
+    "dblp_url": "",
+    "mtmt_id": "",
+    "mta_att_id": "",
+    "mtmt_name": "",
+    "category": "theory",
+    "mtmt_status": "",
+    "works": "",
+    "affiliations": "",
+    "homepage": "",
+    "note": "",
+}, ensure_ascii=False, indent=2)
+
+
+def new_author_url() -> str:
+    from urllib.parse import quote
+    encoded = quote(NEW_AUTHOR_TEMPLATE, safe="")
+    return (
+        f"https://github.com/{GITHUB_REPO}/new/{GITHUB_BRANCH}"
+        f"?filename=profiles/_new_author.json&value={encoded}"
+    )
 
 
 def merge(authors: list, profiles: dict) -> list:
+    """Apply profile overrides directly onto author fields (no profile_ prefix)."""
     for a in authors:
         slug = a.get("slug", "")
         has_profile = slug in profiles
         a["_has_profile"] = has_profile
-        a["_github_edit_url"] = github_edit_url(slug, has_profile)
+        a["_github_edit_url"] = github_edit_url(slug, a, has_profile)
         if has_profile:
             p = profiles[slug]
-            for k, v in p.items():
-                if not k.startswith("_") and v:
-                    a[f"profile_{k}"] = v
+            for k in EDITABLE_FIELDS:
+                if k in p and p[k] not in (None, ""):
+                    a[k] = p[k]  # direct override, not prefixed
+            # Legacy support: profile_homepage / profile_note from old format
+            for k in ("homepage", "note"):
+                legacy = p.get(f"profile_{k}") or p.get(k)
+                if legacy:
+                    a[k] = legacy
     return authors
 
 
 def generate(authors: list) -> str:
     data_json = json.dumps(authors, ensure_ascii=False)
+
+    new_author_github_url = new_author_url()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -170,8 +207,12 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
 <div id="app">
   <div id="sidebar">
     <div id="sidebar-header">
-      <h1>Hungarian CS Authors</h1>
-      <input id="search" type="search" placeholder="Search name, affiliation…">
+      <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem">
+        <h1 style="flex:1">Hungarian CS Authors</h1>
+        <a href="{new_author_github_url}" target="_blank" rel="noopener"
+           class="edit-btn" title="Új szerző hozzáadása GitHubon (sablon nyílik meg)">+ Új szerző</a>
+      </div>
+      <input id="search" type="search" placeholder="Keresés (név, intézmény)…">
     </div>
     <div class="filter-row">
       <span class="chip active" data-group="cat" data-val="">All</span>
@@ -256,12 +297,12 @@ function renderProfile(a) {{
   document.getElementById("profile").style.display = "";
 
   const links = [];
-  if (a.profile_homepage) links.push(`<a href="${{esc(a.profile_homepage)}}" target="_blank">Homepage</a>`);
+  if (a.homepage) links.push(`<a href="${{esc(a.homepage)}}" target="_blank">Homepage</a>`);
   if (a.dblp_url) links.push(`<a href="${{esc(a.dblp_url)}}" target="_blank">DBLP</a>`);
   if (a.mtmt_id) links.push(`<a href="https://m2.mtmt.hu/api/author/${{a.mtmt_id}}" target="_blank">MTMT</a>`);
   if (a.mta_att_id && a.mta_att_id !== "-") links.push(`<a href="${{esc(a.mta_att_id)}}" target="_blank">MTA</a>`);
 
-  const note = a.profile_note ? `<div class="profile-note">${{esc(a.profile_note)}}</div>` : "";
+  const note = a.note ? `<div class="profile-note">${{esc(a.note)}}</div>` : "";
 
   const statsData = [
     ["Core A*", a.core_astar, ""],
@@ -323,11 +364,11 @@ function renderProfile(a) {{
         onerror="this.style.display='none'">`
     : "";
 
-  const editLabel = a._has_profile ? "✏️ Szerk. (GitHub)" : "✏️ Megjegyzés hozzáadása";
+  const editLabel = a._has_profile ? "✏️ Szerkesztés (GitHub)" : "✏️ Adatok javítása (GitHub)";
   const editTitle = a._has_profile
-    ? "profiles/" + a.slug + ".json szerkesztése GitHubon"
-    : "Megjegyzést, honlapot adhat hozzá — megnyílik a GitHub szerkesztő, mentés után push + regenerálás szükséges";
-  const editBtn = `<a class="edit-btn" href="${{esc(a._github_edit_url)}}" target="_blank" rel="noopener" title="${{editTitle}}">${{editLabel}}</a>`;
+    ? "profiles/" + a.slug + ".json szerkesztése GitHubon — megnyílik előtöltött adatokkal"
+    : "Előtöltött sablonnal nyílik meg a GitHub szerkesztő — dblp_url, mtmt_id, kategória stb. módosítható";
+  const editBtn = `<a class="edit-btn" href="${{a._github_edit_url}}" target="_blank" rel="noopener" title="${{editTitle}}">${{editLabel}}</a>`;
 
   document.getElementById("profile").innerHTML = `
     <div class="profile-header">

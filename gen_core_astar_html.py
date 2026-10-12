@@ -261,8 +261,8 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
   <div class="controls">
     <input id="search" type="search" placeholder="Cím, szerző, konferencia…">
     <div id="year-filter">
-      Év: <input id="year-from" type="number" value="{min_year}" min="{min_year}" max="{max_year}">
-      – <input id="year-to" type="number" value="{max_year}" min="{min_year}" max="{max_year}">
+      Év: <input id="year-from" type="number" value="{min_year}" min="{min_year}" max="2100" placeholder="tól">
+      – <input id="year-to" type="number" min="{min_year}" max="2100" placeholder="ig">
     </div>
   </div>
 </header>
@@ -310,7 +310,7 @@ const NAT_CLASS = {{
 }};
 
 let filterInst = "", filterNat = "", filterTopic = "";
-let searchQ = "", yearFrom = {min_year}, yearTo = {max_year};
+let searchQ = "", yearFrom = {min_year}, yearTo = 0;  // 0 = no upper limit
 let tierMode = "astar";
 
 function setTier(mode) {{
@@ -351,7 +351,8 @@ function matches(p) {{
   if (filterInst  && !p.institutions.includes(filterInst)) return false;
   if (filterNat   && p.nationality !== filterNat) return false;
   if (filterTopic && p.topic !== filterTopic) return false;
-  if (p.year < yearFrom || p.year > yearTo) return false;
+  if (p.year < yearFrom) return false;
+  if (yearTo && p.year > yearTo) return false;
   if (searchQ) {{
     const q = searchQ.toLowerCase();
     const hay = (p.title + " " + p.authors_html.replace(/<[^>]+>/g,"") + " " + p.venue).toLowerCase();
@@ -382,7 +383,7 @@ document.querySelectorAll(".chip").forEach(chip => {{
 }});
 document.getElementById("search").addEventListener("input", e => {{ searchQ = e.target.value.trim(); render(); }});
 document.getElementById("year-from").addEventListener("input", e => {{ yearFrom = +e.target.value || {min_year}; render(); }});
-document.getElementById("year-to").addEventListener("input", e => {{ yearTo = +e.target.value || {max_year}; render(); }});
+document.getElementById("year-to").addEventListener("input", e => {{ yearTo = +e.target.value || 0; render(); }});
 
 render();
 </script>
