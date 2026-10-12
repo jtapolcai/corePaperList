@@ -11,6 +11,8 @@ on:
       - "results/coreA.bib"
       - "gen_authors_html.py"
       - "gen_core_astar_html.py"
+      - "gen_authors_table.py"
+      - "src/create_itable.py"
 
 jobs:
   regenerate:
@@ -33,11 +35,17 @@ jobs:
       - name: Regenerate core_astar.html
         run: python3 gen_core_astar_html.py
 
+      - name: Install dependencies for authors_table
+        run: pip install pandas requests
+
+      - name: Regenerate authors_table.html
+        run: python3 gen_authors_table.py
+
       - name: Commit updated HTML if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add authors_profile.html core_astar.html
+          git add authors_profile.html core_astar.html authors_table.html
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
