@@ -218,9 +218,9 @@ def main(data):
                 flex: 1;
                 min-height: 0;
             }}
-            /* scrollHead must not clip sort arrows */
-            .dataTables_scrollHead {{
-                overflow: visible !important;
+            /* Extra top padding so sort arrows aren't clipped by scrollHead */
+            table.dataTable thead th {{
+                padding-top: 8px !important;
             }}
             .author-thumb {{
                 max-width: 40px;

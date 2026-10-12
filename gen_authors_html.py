@@ -214,6 +214,32 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
 .kv-table td:first-child {{ color: var(--muted); width: 38%; white-space: nowrap; font-weight: 500; }}
 .badge {{ display: inline-block; padding: 0.1rem 0.45rem; border-radius: 4px; font-size: 0.72rem;
   font-weight: 600; background: var(--chip-bg); color: var(--text); margin-right: 0.25rem; }}
+.pencil-btn {{ background: none; border: none; cursor: pointer; font-size: 0.72rem; padding: 0 0.2rem;
+  opacity: 0.4; line-height: 1; vertical-align: middle; }}
+.pencil-btn:hover {{ opacity: 1; }}
+.edit-ctrl {{ font-size: 0.82rem; border: 1px solid var(--border); border-radius: 4px;
+  background: var(--bg); color: var(--text); padding: 0.15rem 0.3rem; width: 100%; box-sizing: border-box; }}
+.edit-ctrl:disabled {{ border-color: transparent; background: transparent; cursor: default; }}
+.edit-ctrl:not(:disabled) {{ border-color: var(--accent); background: var(--card); }}
+#edit-save-bar {{ display: none; position: sticky; bottom: 0; left: 0; right: 0; z-index: 50;
+  background: var(--accent); color: #fff; padding: 0.6rem 1rem; gap: 0.75rem; align-items: center; }}
+#edit-save-bar button {{ background: #fff; color: var(--accent); border: none; border-radius: 6px;
+  padding: 0.3rem 0.9rem; font-weight: 700; cursor: pointer; font-size: 0.82rem; }}
+#edit-save-bar .cancel-btn {{ background: transparent; color: #fff; text-decoration: underline;
+  border: none; cursor: pointer; font-size: 0.82rem; }}
+#json-modal {{ display:none; position:fixed; inset:0; z-index:200; background:rgba(0,0,0,0.5);
+  align-items:center; justify-content:center; }}
+#json-modal-inner {{ background:var(--card); border-radius:10px; padding:1.25rem; max-width:540px;
+  width:90%; display:flex; flex-direction:column; gap:0.75rem; }}
+#json-modal h3 {{ font-size:0.95rem; margin:0; }}
+#json-modal textarea {{ font-family:monospace; font-size:0.78rem; border:1px solid var(--border);
+  border-radius:6px; padding:0.5rem; resize:vertical; min-height:180px; background:var(--bg);
+  color:var(--text); }}
+#json-modal .modal-actions {{ display:flex; gap:0.5rem; flex-wrap:wrap; }}
+#json-modal .modal-actions button, #json-modal .modal-actions a {{
+  padding:0.3rem 0.8rem; border-radius:6px; font-size:0.82rem; cursor:pointer;
+  border:1px solid var(--border); text-decoration:none; background:var(--chip-bg); color:var(--text); }}
+#json-modal .modal-actions .primary {{ background:var(--accent); color:#fff; border-color:transparent; }}
 
 @media (max-width: 640px) {{
   #app {{ flex-direction: column; height: auto; }}
@@ -223,6 +249,17 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
 </style>
 </head>
 <body>
+<div id="json-modal">
+  <div id="json-modal-inner">
+    <h3>Frissített profil — másold be a GitHub szerkesztőbe</h3>
+    <textarea id="json-modal-text" readonly rows="10"></textarea>
+    <div class="modal-actions">
+      <button class="primary" onclick="navigator.clipboard.writeText(document.getElementById('json-modal-text').value).then(()=>this.textContent='✓ Másolva!')">📋 Másolás</button>
+      <a id="json-modal-gh-link" href="#" target="_blank" rel="noopener">GitHub szerkesztő →</a>
+      <button onclick="document.getElementById('json-modal').style.display='none'">Bezárás</button>
+    </div>
+  </div>
+</div>
 <div id="app">
   <div id="sidebar">
     <div id="sidebar-header">
@@ -250,11 +287,18 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
     <div id="profile-area">
       <div id="empty-state">← Select an author</div>
       <div id="profile" style="display:none"></div>
+      <div id="edit-save-bar">
+        <span style="flex:1;font-size:0.85rem">Módosítások elmentése GitHubra</span>
+        <button onclick="saveEdits()">💾 Mentés →</button>
+        <button class="cancel-btn" onclick="cancelEdits()">Mégse</button>
+      </div>
     </div>
   </div>
 </div>
 <script>
 const AUTHORS = {data_json};
+const GITHUB_REPO   = "{GITHUB_REPO}";
+const GITHUB_BRANCH = "{GITHUB_BRANCH}";
 
 // Index by slug for fast hash-based routing
 const BY_SLUG = {{}};
@@ -270,6 +314,52 @@ function esc(s) {{
 function fmt(v, digits=0) {{
   if (v === null || v === undefined) return "–";
   return typeof v === "number" ? v.toFixed(digits) : String(v);
+}}
+
+function editField(key) {{
+  const el = document.querySelector(`[data-edit="${{key}}"]`);
+  if (!el) return;
+  el.disabled = false;
+  el.focus();
+  document.getElementById("edit-save-bar").style.display = "flex";
+}}
+
+function cancelEdits() {{
+  document.querySelectorAll("[data-edit]").forEach(el => {{
+    el.disabled = true;
+    // Reset to original value from current author
+    const a = BY_SLUG[currentSlug];
+    if (a) el.value = a[el.dataset.edit] || "";
+  }});
+  document.getElementById("edit-save-bar").style.display = "none";
+}}
+
+function saveEdits() {{
+  const tbl = document.getElementById("edit-kv-table");
+  if (!tbl) return;
+  const slug = tbl.dataset.slug;
+  const hasProfile = tbl.dataset.hasProfile === "1";
+  const editUrl = tbl.dataset.editUrl;
+
+  const updated = {{}};
+  document.querySelectorAll("[data-edit]").forEach(el => {{
+    const v = el.value.trim();
+    if (v) updated[el.dataset.edit] = v;
+  }});
+
+  const json = JSON.stringify(updated, null, 2);
+  const encoded = encodeURIComponent(json);
+
+  if (hasProfile) {{
+    // Existing profile: show modal with JSON to copy + link to editor
+    document.getElementById("json-modal-text").value = json;
+    document.getElementById("json-modal-gh-link").href = editUrl;
+    document.getElementById("json-modal").style.display = "flex";
+  }} else {{
+    // New profile: open GitHub new-file form pre-filled
+    const url = `https://github.com/${{GITHUB_REPO}}/new/${{GITHUB_BRANCH}}?filename=profiles/${{slug}}.json&value=${{encoded}}`;
+    window.open(url, "_blank");
+  }}
 }}
 
 function renderList() {{
@@ -355,26 +445,51 @@ function renderProfile(a) {{
     </div>
   </div>` : "";
 
-  const kvRows = [
-    ["Affiliations", a.affiliations],
-    ["Category", a.category],
-    ["Works", a.works],
-    ["DBLP institutions", a.dblp_institutions],
-    ["MTMT affiliations", a.mtmt_affiliations],
-    ["Research topic", a.research_topic || a.profile_research_focus],
-    ["Degree", a.degree],
-    ["PhD year", a.phd_year],
-    ["MTA membership", a.mta_membership],
-    ["Awards", a.awards],
-    ["Born", a.born],
-  ].filter(([,v]) => v);
+  // Editable fields with pencil buttons
+  const EDIT_FIELDS = [
+    {{key:"dblp_url",    label:"DBLP URL",      type:"text"}},
+    {{key:"mta_att_id",  label:"MTA URL",        type:"text"}},
+    {{key:"mtmt_id",     label:"MTMT ID",        type:"text"}},
+    {{key:"mtmt_name",   label:"MTMT név",       type:"text"}},
+    {{key:"category",    label:"Kategória",      type:"select", opts:["","theory","applied"]}},
+    {{key:"works",       label:"Munkahely",      type:"select", opts:["","hungary","abroad","company","inactive","retired"]}},
+    {{key:"mtmt_status", label:"MTMT státusz",   type:"select", opts:["","active","inactive"]}},
+    {{key:"affiliations",label:"Affiliációk",    type:"text"}},
+    {{key:"homepage",    label:"Honlap",         type:"text"}},
+    {{key:"note",        label:"Megjegyzés",     type:"text"}},
+  ];
+  const editRows = EDIT_FIELDS.map(f => {{
+    const val = String(a[f.key] || "");
+    const pencil = `<button class="pencil-btn" onclick="editField('${{f.key}}')" title="${{f.label}} szerkesztése">✏</button>`;
+    let ctrl;
+    if (f.type === "select") {{
+      const opts = f.opts.map(o => `<option value="${{o}}"${{o===val?" selected":""}}>${{o||"—"}}</option>`).join("");
+      ctrl = `<select data-edit="${{f.key}}" disabled class="edit-ctrl">${{opts}}</select>`;
+    }} else {{
+      ctrl = `<input type="text" data-edit="${{f.key}}" value="${{esc(val)}}" disabled class="edit-ctrl">`;
+    }}
+    return `<tr><td>${{pencil}} ${{f.label}}</td><td>${{ctrl}}</td></tr>`;
+  }}).join("");
 
-  const kv = kvRows.length ? `<div class="section">
+  // Read-only fields
+  const roRows = [
+    ["DBLP intézmények", a.dblp_institutions],
+    ["MTMT affiliációk", a.mtmt_affiliations],
+    ["Kutatási téma",    a.research_topic],
+    ["Fokozat",          a.degree],
+    ["PhD év",           a.phd_year],
+    ["Díjak",            a.awards],
+    ["Született",        a.born],
+  ].filter(([,v]) => v)
+   .map(([k,v]) => `<tr><td>${{k}}</td><td>${{esc(String(v))}}</td></tr>`).join("");
+
+  const kv = `<div class="section">
     <h3>Details</h3>
-    <table class="kv-table">
-      ${{kvRows.map(([k,v]) => `<tr><td>${{k}}</td><td>${{esc(String(v))}}</td></tr>`).join("")}}
+    <table class="kv-table" id="edit-kv-table" data-slug="${{a.slug}}" data-has-profile="${{a._has_profile ? "1" : "0"}}"
+           data-edit-url="${{esc(a._github_edit_url)}}">
+      ${{editRows}}${{roRows}}
     </table>
-  </div>` : "";
+  </div>`;
 
   const journalRows = [
     ["D1", a.mtmt_d1], ["Q1", a.mtmt_q1], ["Q2", a.mtmt_q2],
