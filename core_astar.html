@@ -288,6 +288,7 @@ function openAddModal(el) {
     dblpStatus.style.display = "none";
     dblpList.innerHTML = '<div class="candidate selected"><span>🔗</span><span><strong>' + _modalName + '</strong> — DBLP azonosító ismert</span><a href="' + knownDblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a></div>';
     dblpList.style.display = "flex";
+    enrichFromDblp(knownDblpUrl);
   } else {
     dblpList.style.display = "none";
     dblpStatus.textContent = "Keresés";
@@ -384,6 +385,105 @@ function selectMtmt(mtid, label, el) {
   document.getElementById("m-mtmt-name").value = label;
   document.querySelectorAll("#mtmt-list .candidate").forEach(c => c.classList.remove("selected"));
   el.classList.add("selected");
+  enrichFromMtmt(mtid, label);
+}
+
+const HU_INST = {
+  "BME": "BME", "Budapest University of Technology": "BME",
+  "ELTE": "ELTE", "Eötvös": "ELTE", "Loránd": "ELTE",
+  "SZTE": "SZTE", "Szegedi": "SZTE",
+  "Rényi": "Rényi", "RAMKI": "Rényi",
+  "SZTAKI": "SZTAKI", "HUN-REN": "SZTAKI",
+  "Ericsson": "Ericsson",
+  "Corvinus": "Corvinus",
+  "PPKE": "PPKE", "Pázmány": "PPKE",
+  "Miskolci": "ME", "Miskolc": "ME",
+  "Óbudai": "ÓE", "ÓE": "ÓE",
+  "GAMF": "KE", "Kecskeméti": "KE",
+  "Debrecen": "DE",
+  "Pécsi": "PTE", "PTE": "PTE",
+};
+
+const THEORY_KEYWORDS = ["Matematika", "Számítástudomány", "Kombinatorika", "Elmélet", "Algebra", "Analízis", "Valószínűség", "Statisztika", "Mathematics", "Combinatorics", "Theory", "Algebra", "Logic"];
+const APPLIED_KEYWORDS = ["Villamosmérnöki", "Informatika", "Hálózat", "Távközlés", "Irányítástechnika", "Electrical", "Network", "Telecommunication", "Computer Engineering"];
+
+function instAbbr(label) {
+  for (const [kw, abbr] of Object.entries(HU_INST)) {
+    if (label.includes(kw)) return abbr;
+  }
+  return null;
+}
+
+function parseAffiliationLabel(label) {
+  // e.g. "Schwarcz Tamás Bence - Operációkutatási Tanszék ELTE / TTK / Mat_I [2006-]"
+  const dash = label.indexOf(" - ");
+  if (dash < 0) return null;
+  const rest = label.slice(dash + 3);
+  const match = rest.match(/\[(\d{4})-(\d{4})?/);
+  const start = match ? match[1] : "";
+  const end   = match ? (match[2] || "") : "";
+  const abbr  = instAbbr(rest);
+  if (!abbr || !start) return null;
+  return abbr + " " + start + (end ? "-" + end : "-");
+}
+
+async function enrichFromMtmt(mtid, label) {
+  try {
+    const resp = await fetch("https://m2.mtmt.hu/api/author/" + mtid + "?format=json");
+    const data = await resp.json();
+    const c = Array.isArray(data.content) ? data.content[0] : data.content;
+    if (!c) return;
+
+    // Affiliations → m-affiliations (if not already filled)
+    const affs = (c.affiliations || [])
+      .map(a => parseAffiliationLabel(a.label || ""))
+      .filter(Boolean);
+    // Deduplicate keeping first occurrence
+    const seen = new Set();
+    const unique = affs.filter(a => {
+      const k = a.replace(/\d{4}.*/, "").trim();
+      return seen.has(k) ? false : seen.add(k);
+    });
+    if (unique.length && !document.getElementById("m-affiliations").value.trim()) {
+      document.getElementById("m-affiliations").value = unique.join("; ");
+    }
+
+    // works: if any affiliation is from a known HU institution → "hungary"
+    if (!document.getElementById("m-works").value) {
+      const isHu = affs.some(a => Object.values(HU_INST).some(abbr => a.startsWith(abbr)));
+      if (isHu) document.getElementById("m-works").value = "hungary";
+    }
+
+    // category from MTMT label discipline hint, e.g. "(Matematika)"
+    if (!document.getElementById("m-category").value) {
+      const disc = (label.match(/\(([^)]+)\)/) || [])[1] || "";
+      if (THEORY_KEYWORDS.some(k => disc.includes(k))) {
+        document.getElementById("m-category").value = "theory";
+      } else if (APPLIED_KEYWORDS.some(k => disc.includes(k))) {
+        document.getElementById("m-category").value = "applied";
+      }
+    }
+  } catch(e) { /* silent */ }
+}
+
+async function enrichFromDblp(dblpUrl) {
+  // Extract pid from URL: https://dblp.org/pid/238/1161 → 238/1161
+  const m = dblpUrl.match(/dblp\.org\/pid\/(.+)/);
+  if (!m) return;
+  const pid = m[1].replace(/\/$/, "");
+  try {
+    const url = "https://dblp.org/search/author/api?q=pid:" + encodeURIComponent(pid) + "&format=json&h=1";
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const hit = (data?.result?.hits?.hit || [])[0];
+    if (!hit) return;
+    const notes = hit.info?.notes?.note;
+    const noteArr = Array.isArray(notes) ? notes : (notes ? [notes] : []);
+    const aff = noteArr.filter(n => n["@type"] === "affiliation").map(n => n["#text"]).join("; ");
+    if (aff && !document.getElementById("m-affiliations").value.trim()) {
+      document.getElementById("m-affiliations").value = aff;
+    }
+  } catch(e) { /* silent */ }
 }
 
 function saveAddModal() {
