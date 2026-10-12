@@ -121,6 +121,34 @@ a.stat-link:hover { border-color: var(--accent); background: var(--accent-bg); }
 .mta-hint a, .linkedin-hint a { color:var(--accent); text-decoration:none; }
 .mta-hint a:hover, .linkedin-hint a:hover { text-decoration:underline; }
 
+/* Add-author modal */
+#add-modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:1000; align-items:center; justify-content:center; }
+#add-modal-overlay.open { display:flex; }
+#add-modal { background:var(--card); border:1px solid var(--border); border-radius:12px; width:min(600px,95vw);
+  max-height:90vh; overflow-y:auto; padding:1.5rem; box-shadow:0 20px 60px rgba(0,0,0,.3); position:relative; }
+#add-modal h2 { font-size:1.1rem; font-weight:700; margin-bottom:1rem; }
+.modal-section { margin-bottom:1rem; }
+.modal-section h3 { font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-bottom:.4rem; }
+.candidate-list { display:flex; flex-direction:column; gap:.3rem; max-height:160px; overflow-y:auto; }
+.candidate { display:flex; align-items:center; gap:.5rem; padding:.35rem .6rem; border-radius:6px;
+  border:1px solid var(--border); cursor:pointer; font-size:.82rem; background:var(--bg); transition:background .1s; }
+.candidate:hover, .candidate.selected { background:var(--accent-bg); border-color:var(--accent); color:var(--accent); }
+.candidate-none { font-size:.82rem; color:var(--muted); padding:.3rem 0; }
+.modal-field { display:flex; flex-direction:column; gap:.25rem; margin-bottom:.6rem; }
+.modal-field label { font-size:.8rem; font-weight:600; color:var(--muted); }
+.modal-field input, .modal-field select { padding:.35rem .6rem; border:1px solid var(--border); border-radius:6px;
+  background:var(--bg); color:var(--text); font-size:.85rem; width:100%; }
+.modal-field input:focus, .modal-field select:focus { outline:2px solid var(--accent); border-color:transparent; }
+.modal-hint { font-size:.75rem; color:var(--muted); margin-top:.15rem; }
+.modal-hint a { color:var(--accent); }
+.modal-actions { display:flex; gap:.5rem; justify-content:flex-end; margin-top:1rem; padding-top:1rem; border-top:1px solid var(--border); }
+.btn-primary { background:var(--accent); color:#fff; border:none; border-radius:6px; padding:.45rem 1.1rem; font-size:.85rem; font-weight:600; cursor:pointer; }
+.btn-primary:hover { opacity:.9; }
+.btn-secondary { background:var(--chip-bg); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:.45rem 1.1rem; font-size:.85rem; cursor:pointer; }
+.loading-dots::after { content:'.'; animation:dots 1.2s steps(3,end) infinite; }
+@keyframes dots { 0%,20%{content:'.';} 40%{content:'..';} 60%,100%{content:'...';} }
+#add-modal-close { position:absolute; top:.75rem; right:.75rem; background:none; border:none; font-size:1.2rem; cursor:pointer; color:var(--muted); line-height:1; }
+
 @media (max-width: 640px) {
   #app { flex-direction: column; height: auto; }
   #sidebar { width: 100%; max-height: 50vh; }
@@ -140,13 +168,103 @@ a.stat-link:hover { border-color: var(--accent); background: var(--accent-bg); }
     </div>
   </div>
 </div>
+<!-- Add-author modal -->
+<div id="add-modal-overlay">
+  <div id="add-modal">
+    <button id="add-modal-close" onclick="closeAddModal()" title="Bezárás">✕</button>
+    <h2 id="modal-title">Új szerző hozzáadása</h2>
+
+    <div class="modal-field">
+      <label>Szerző neve</label>
+      <div style="display:flex;gap:.4rem">
+        <input type="text" id="m-name" placeholder="pl. Gábor Tardos" style="flex:1"
+               onkeydown="if(event.key==='Enter') searchByName()">
+        <button class="btn-secondary" onclick="searchByName()">🔍 Keresés</button>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h3>DBLP profil</h3>
+      <div id="dblp-status" class="candidate-none">Adj meg nevet a kereséshez</div>
+      <div id="dblp-list" class="candidate-list" style="display:none"></div>
+    </div>
+
+    <div class="modal-section">
+      <h3>MTMT profil</h3>
+      <div id="mtmt-status" class="candidate-none">Adj meg nevet a kereséshez</div>
+      <div id="mtmt-list" class="candidate-list" style="display:none"></div>
+    </div>
+
+    <div class="modal-field">
+      <label>DBLP URL</label>
+      <input type="text" id="m-dblp-url" placeholder="https://dblp.org/pid/…">
+    </div>
+    <div class="modal-field">
+      <label>MTMT ID</label>
+      <input type="text" id="m-mtmt-id" placeholder="pl. 10012955">
+    </div>
+    <div class="modal-field">
+      <label>MTMT Név (MTMT-ben használt)</label>
+      <input type="text" id="m-mtmt-name" placeholder="Szerző MTMT neve">
+    </div>
+    <div class="modal-field">
+      <label>MTA köztestületi tag URL</label>
+      <input type="text" id="m-mta-att-id" placeholder="https://mta.hu/koztestuleti_tagok?PersonId=…">
+      <div class="modal-hint">
+        <a href="https://mta.hu/koztestuleti_tagok" target="_blank" rel="noopener">🔍 Keresés az MTA oldalán →</a>
+      </div>
+    </div>
+    <div class="modal-field">
+      <label>Kategória</label>
+      <select id="m-category">
+        <option value="">—</option>
+        <option value="theory">Elmélet</option>
+        <option value="applied">Alkalmazott</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>Munkahely</label>
+      <select id="m-works">
+        <option value="">—</option>
+        <option value="hungary">Hungary</option>
+        <option value="abroad">Abroad</option>
+        <option value="company_hungary">Company (HU)</option>
+        <option value="company_abroad">Company (külföld)</option>
+        <option value="inactive">Inaktív</option>
+        <option value="retired">Nyugdíjas</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label>Affiliációk</label>
+      <input type="text" id="m-affiliations" placeholder="pl. BME-TMIT">
+    </div>
+    <div class="modal-field">
+      <label>Honlap</label>
+      <input type="text" id="m-homepage" placeholder="https://…">
+    </div>
+    <div class="modal-field">
+      <label>LinkedIn URL</label>
+      <input type="text" id="m-linkedin" placeholder="https://linkedin.com/in/…">
+      <div class="modal-hint" id="m-linkedin-hint"></div>
+    </div>
+    <div class="modal-field">
+      <label>Megjegyzés</label>
+      <input type="text" id="m-note" placeholder="">
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="closeAddModal()">Mégsem</button>
+      <button class="btn-primary" onclick="saveAddModal()">💾 Mentés GitHubra →</button>
+    </div>
+  </div>
+</div>
+
 <div id="app">
   <div id="sidebar">
     <div id="sidebar-header">
       <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem">
         <h1 style="flex:1">Hungarian CS Authors</h1>
-        <a href="https://github.com/jtapolcai/corePaperList/new/main?filename=profiles/_new_author.json&value=%7B%0A%20%20%22name%22%3A%20%22%22%2C%0A%20%20%22slug%22%3A%20%22%22%2C%0A%20%20%22dblp_url%22%3A%20%22%22%2C%0A%20%20%22mtmt_id%22%3A%20%22%22%2C%0A%20%20%22mtmt_name%22%3A%20%22%22%2C%0A%20%20%22mta_att_id%22%3A%20%22%22%2C%0A%20%20%22mta_photo%22%3A%20%22%22%2C%0A%20%20%22category%22%3A%20%22theory%22%2C%0A%20%20%22mtmt_status%22%3A%20%22%22%2C%0A%20%20%22works%22%3A%20%22%22%2C%0A%20%20%22affiliations%22%3A%20%22%22%2C%0A%20%20%22linkedin%22%3A%20%22%22%2C%0A%20%20%22homepage%22%3A%20%22%22%2C%0A%20%20%22note%22%3A%20%22%22%0A%7D" target="_blank" rel="noopener"
-           class="edit-btn" title="Új szerző hozzáadása GitHubon (sablon nyílik meg)">+ Új szerző</a>
+        <button onclick="openNewAuthorModal()" class="edit-btn" title="Új szerző hozzáadása">+ Új szerző</button>
       </div>
       <input id="search" type="search" placeholder="Keresés (név, intézmény)…">
     </div>
@@ -548,6 +666,243 @@ window.addEventListener("hashchange", handleHash);
 // Init
 renderList();
 handleHash();
+
+// ── Add-author modal ──────────────────────────────────────────────────────────
+
+let _modalName = "", _modalSlug = "";
+
+function openNewAuthorModal() {
+  _modalName = ""; _modalSlug = "";
+  document.getElementById("modal-title").textContent = "Új szerző hozzáadása";
+  document.getElementById("m-name").value = "";
+  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note"].forEach(id => {
+    document.getElementById(id).value = "";
+  });
+  document.getElementById("m-category").value = "";
+  document.getElementById("m-works").value = "";
+  document.getElementById("dblp-list").style.display = "none";
+  document.getElementById("mtmt-list").style.display = "none";
+  document.getElementById("dblp-status").textContent = "Adj meg nevet a kereséshez";
+  document.getElementById("dblp-status").style.display = "";
+  document.getElementById("mtmt-status").textContent = "Adj meg nevet a kereséshez";
+  document.getElementById("mtmt-status").style.display = "";
+  document.getElementById("m-linkedin-hint").innerHTML = "";
+  document.getElementById("add-modal-overlay").classList.add("open");
+  setTimeout(() => document.getElementById("m-name").focus(), 50);
+}
+
+function closeAddModal() {
+  document.getElementById("add-modal-overlay").classList.remove("open");
+}
+
+function searchByName() {
+  const name = document.getElementById("m-name").value.trim();
+  if (!name) return;
+  _modalName = name;
+  _modalSlug = slugifyJS(name);
+  document.getElementById("dblp-list").innerHTML = "";
+  document.getElementById("dblp-list").style.display = "none";
+  document.getElementById("dblp-status").className = "candidate-none loading-dots";
+  document.getElementById("dblp-status").textContent = "Keresés";
+  document.getElementById("dblp-status").style.display = "";
+  document.getElementById("mtmt-list").innerHTML = "";
+  document.getElementById("mtmt-list").style.display = "none";
+  document.getElementById("mtmt-status").className = "candidate-none loading-dots";
+  document.getElementById("mtmt-status").textContent = "Keresés";
+  document.getElementById("mtmt-status").style.display = "";
+  document.getElementById("m-linkedin-hint").innerHTML =
+    '<a href="https://www.linkedin.com/search/results/people/?keywords=' + encodeURIComponent(name) + '" target="_blank" rel="noopener">🔍 Keresés LinkedIn-en →</a>';
+  searchDblp(name);
+  searchMtmt(name);
+}
+
+function slugifyJS(name) {
+  return name.toLowerCase()
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+async function searchDblp(name) {
+  const statusEl = document.getElementById("dblp-status");
+  const listEl = document.getElementById("dblp-list");
+  try {
+    const url = "https://dblp.org/search/author/api?q=" + encodeURIComponent(name) + "&format=json&h=8";
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const hits = data?.result?.hits?.hit || [];
+    statusEl.style.display = "none";
+    statusEl.className = "candidate-none";
+    if (!hits.length) {
+      statusEl.textContent = "Nem található DBLP-n";
+      statusEl.style.display = "";
+      return;
+    }
+    listEl.innerHTML = hits.map(h => {
+      const info = h.info || {};
+      const authorName = info.author || "";
+      const pid = info.url || "";
+      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\//,"") : "";
+      return `<div class="candidate" onclick="selectDblp(${JSON.stringify(dblpUrl)}, ${JSON.stringify(authorName)}, this)">
+        <span>🔗</span><span><strong>${authorName}</strong></span>
+        ${dblpUrl ? '<a href="' + dblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a>' : ''}
+      </div>`;
+    }).join("");
+    listEl.style.display = "flex";
+  } catch(e) {
+    statusEl.className = "candidate-none";
+    statusEl.textContent = "DBLP keresés sikertelen";
+    statusEl.style.display = "";
+  }
+}
+
+function selectDblp(url, name, el) {
+  document.getElementById("m-dblp-url").value = url;
+  document.querySelectorAll("#dblp-list .candidate").forEach(c => c.classList.remove("selected"));
+  el.classList.add("selected");
+  enrichFromDblp(url);
+}
+
+async function searchMtmt(name) {
+  const statusEl = document.getElementById("mtmt-status");
+  const listEl = document.getElementById("mtmt-list");
+  const parts = name.trim().split(/\s+/);
+  const families = [...new Set([parts[parts.length-1], parts[0]])];
+  const seen = new Map();
+  for (const fam of families) {
+    try {
+      const url = "https://m2.mtmt.hu/api/author?cond=familyName;eq;" + encodeURIComponent(fam) + "&format=json&size=20";
+      const resp = await fetch(url);
+      const data = await resp.json();
+      for (const c of (data.content || [])) {
+        if (c.mtid && !seen.has(c.mtid)) seen.set(c.mtid, c.label || "");
+      }
+    } catch(e) {}
+  }
+  statusEl.style.display = "none";
+  statusEl.className = "candidate-none";
+  if (!seen.size) {
+    statusEl.textContent = "Nem található MTMT-n";
+    statusEl.style.display = "";
+    return;
+  }
+  listEl.innerHTML = [...seen.entries()].map(([mtid, label]) => {
+    const safeLabel = label.replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+    return `<div class="candidate" data-mtid="${mtid}" data-label="${safeLabel}" onclick="selectMtmt(this)">
+      <span>📖</span>
+      <span><strong>${label}</strong> <span style="color:var(--muted);font-size:.75rem">(ID: ${mtid})</span></span>
+      <a href="https://m2.mtmt.hu/api/author/${mtid}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">MTMT →</a>
+    </div>`;
+  }).join("");
+  listEl.style.display = "flex";
+}
+
+function selectMtmt(el) {
+  const mtid = +el.dataset.mtid;
+  const label = el.dataset.label;
+  document.getElementById("m-mtmt-id").value = mtid;
+  document.getElementById("m-mtmt-name").value = label;
+  document.querySelectorAll("#mtmt-list .candidate").forEach(c => c.classList.remove("selected"));
+  el.classList.add("selected");
+  enrichFromMtmt(mtid, label);
+}
+
+const HU_INST = {
+  "BME": "BME", "Budapest University of Technology": "BME",
+  "ELTE": "ELTE", "Eötvös": "ELTE",
+  "SZTE": "SZTE", "Szegedi": "SZTE",
+  "Rényi": "Rényi", "RAMKI": "Rényi",
+  "SZTAKI": "SZTAKI", "HUN-REN": "SZTAKI",
+  "Ericsson": "Ericsson", "Corvinus": "Corvinus",
+  "PPKE": "PPKE", "Pázmány": "PPKE",
+  "Debrecen": "DE", "Pécsi": "PTE",
+};
+const THEORY_KW = ["Matematika","Számítástudomány","Kombinatorika","Elmélet","Algebra","Mathematics","Combinatorics","Theory","Logic"];
+const APPLIED_KW = ["Villamosmérnöki","Informatika","Hálózat","Távközlés","Electrical","Network","Computer Engineering"];
+
+function instAbbr(label) {
+  for (const [kw, abbr] of Object.entries(HU_INST)) {
+    if (label.includes(kw)) return abbr;
+  }
+  return null;
+}
+
+function parseAffLabel(label) {
+  const dash = label.indexOf(" - ");
+  if (dash < 0) return null;
+  const rest = label.slice(dash + 3);
+  const match = rest.match(/\[(\d{4})-(\d{4})?/);
+  const start = match ? match[1] : "";
+  const end   = match ? (match[2] || "") : "";
+  const abbr  = instAbbr(rest);
+  if (!abbr || !start) return null;
+  return abbr + " " + start + (end ? "-" + end : "-");
+}
+
+async function enrichFromMtmt(mtid, label) {
+  try {
+    const resp = await fetch("https://m2.mtmt.hu/api/author/" + mtid + "?format=json");
+    const data = await resp.json();
+    const c = Array.isArray(data.content) ? data.content[0] : data.content;
+    if (!c) return;
+    const affs = (c.affiliations || []).map(a => parseAffLabel(a.label || "")).filter(Boolean);
+    const seen = new Set();
+    const unique = affs.filter(a => { const k = a.replace(/\d{4}.*/, "").trim(); return seen.has(k) ? false : seen.add(k); });
+    if (unique.length && !document.getElementById("m-affiliations").value.trim())
+      document.getElementById("m-affiliations").value = unique.join("; ");
+    if (!document.getElementById("m-works").value) {
+      const isHu = affs.some(a => Object.values(HU_INST).some(abbr => a.startsWith(abbr)));
+      if (isHu) document.getElementById("m-works").value = "hungary";
+    }
+    if (!document.getElementById("m-category").value) {
+      const disc = (label.match(/\(([^)]+)\)/) || [])[1] || "";
+      if (THEORY_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "theory";
+      else if (APPLIED_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "applied";
+    }
+  } catch(e) {}
+}
+
+async function enrichFromDblp(dblpUrl) {
+  const m = dblpUrl.match(/dblp\.org\/pid\/(.+)/);
+  if (!m) return;
+  const pid = m[1].replace(/\/$/, "");
+  try {
+    const url = "https://dblp.org/search/author/api?q=pid:" + encodeURIComponent(pid) + "&format=json&h=1";
+    const resp = await fetch(url);
+    const data = await resp.json();
+    const hit = (data?.result?.hits?.hit || [])[0];
+    if (!hit) return;
+    const notes = hit.info?.notes?.note;
+    const noteArr = Array.isArray(notes) ? notes : (notes ? [notes] : []);
+    const aff = noteArr.filter(n => n["@type"] === "affiliation").map(n => n["#text"]).join("; ");
+    if (aff && !document.getElementById("m-affiliations").value.trim())
+      document.getElementById("m-affiliations").value = aff;
+  } catch(e) {}
+}
+
+function saveAddModal() {
+  const name = document.getElementById("m-name").value.trim() || _modalName;
+  if (!name) { alert("Add meg a szerző nevét!"); return; }
+  const slug = slugifyJS(name);
+  const obj = { name, slug };
+  const fields = {
+    dblp_url: "m-dblp-url", mtmt_id: "m-mtmt-id", mtmt_name: "m-mtmt-name",
+    mta_att_id: "m-mta-att-id", category: "m-category", works: "m-works",
+    affiliations: "m-affiliations", homepage: "m-homepage", linkedin: "m-linkedin", note: "m-note"
+  };
+  for (const [key, id] of Object.entries(fields)) {
+    const v = document.getElementById(id).value.trim();
+    if (v) obj[key] = v;
+  }
+  const json = JSON.stringify(obj, null, 2);
+  const encoded = encodeURIComponent(json);
+  const url = `https://github.com/${GITHUB_REPO}/new/${GITHUB_BRANCH}?filename=profiles/${slug}.json&value=${encoded}`;
+  window.open(url, "_blank");
+  closeAddModal();
+}
+
+document.getElementById("add-modal-overlay").addEventListener("click", function(e) {
+  if (e.target === this) closeAddModal();
+});
 </script>
 </body>
 </html>
