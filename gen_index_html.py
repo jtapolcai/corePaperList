@@ -335,7 +335,7 @@ def render(s: dict, chart: dict) -> str:
 
   <div class="section-title">CORE A* cikkek évente</div>
   <div class="chart-card">
-    <canvas id="yearChart" height="90"></canvas>
+    <canvas id="yearChart" height="220"></canvas>
   </div>
 
   <div class="section-title">Eloszlások</div>
