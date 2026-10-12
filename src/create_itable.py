@@ -334,6 +334,7 @@ def main(data):
     </head>
     <body>
         <h1>Author Statistics</h1>
+        <p style="margin-bottom:0.75rem"><a href="index.html">← Főoldal</a></p>
         {table}
         <script>
             $(document).ready(function() {{
