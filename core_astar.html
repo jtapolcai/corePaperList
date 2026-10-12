@@ -86,6 +86,10 @@ header h1 { font-size: 1.15rem; font-weight: 700; }
 .tag-mosthu { background: var(--tag-mosthu); color: var(--tag-mosthu-text); }
 #empty { display: none; text-align: center; padding: 3rem; color: var(--muted); }
 footer { text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--muted); border-top: 1px solid var(--border); }
+.section-header { display: flex; align-items: center; gap: 0.75rem; margin: 1rem 0 0.4rem;
+  font-size: 0.8rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.section-header::before, .section-header::after { content: ''; flex: 1; border-top: 1px solid var(--border); }
+.section-header:first-child { margin-top: 0; }
 
 /* Add-author modal */
 #add-modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:1000; align-items:center; justify-content:center; }
@@ -163,6 +167,12 @@ footer { text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mut
   <span class="chip active" data-group="topic" data-val="">Mind</span>
   <span class="chip" data-group="topic" data-val="theory">Elmélet</span>
   <span class="chip" data-group="topic" data-val="applied">Alkalmazott</span>
+</div>
+<div class="filter-row">
+  <span class="filter-label">Rendezés</span>
+  <span class="chip active" data-group="sort" data-val="year-desc">Év ↓</span>
+  <span class="chip" data-group="sort" data-val="year-asc">Év ↑</span>
+  <span class="chip" data-group="sort" data-val="venue">Konferencia</span>
 </div>
 <div id="author-banner" style="display:none">
   <span id="author-banner-text"></span>
@@ -555,6 +565,7 @@ let filterInst = "", filterNat = "", filterTopic = "";
 let searchQ = "", yearFrom = 1970, yearTo = 0;
 let tierMode = "astar";
 let authorSlugFilter = "";
+let sortMode = "year-desc";
 
 function setTier(mode) {
   tierMode = mode;
@@ -607,10 +618,31 @@ function matches(p) {
 
 function render() {
   const src = papers();
-  const visible = src.filter(matches);
-  document.getElementById("list").innerHTML = visible.map(renderPaper).join("");
+  let visible = src.filter(matches);
+
+  // Sort
+  if (sortMode === "year-asc") {
+    visible.sort((a,b) => a.year - b.year || a.venue.localeCompare(b.venue));
+  } else if (sortMode === "venue") {
+    visible.sort((a,b) => a.venue.localeCompare(b.venue) || b.year - a.year);
+  } else {
+    visible.sort((a,b) => b.year - a.year || a.venue.localeCompare(b.venue));
+  }
+
+  // Build HTML with section dividers
+  let html = "";
+  let lastGroup = null;
+  for (const p of visible) {
+    const group = sortMode === "venue" ? p.venue : String(p.year);
+    if (group !== lastGroup) {
+      html += `<div class="section-header"><span>${group}</span></div>`;
+      lastGroup = group;
+    }
+    html += renderPaper(p);
+  }
+
+  document.getElementById("list").innerHTML = html;
   document.getElementById("empty").style.display = visible.length ? "none" : "block";
-  const cnt = TIER_COUNTS[tierMode === "astar" ? "A*" : tierMode === "both" ? "all" : tierMode.toUpperCase()] || src.length;
   document.getElementById("status").textContent =
     visible.length + " / " + src.length + " cikk";
 }
@@ -623,6 +655,7 @@ document.querySelectorAll(".chip").forEach(chip => {
     if (g === "inst")  filterInst  = chip.dataset.val;
     if (g === "nat")   filterNat   = chip.dataset.val;
     if (g === "topic") filterTopic = chip.dataset.val;
+    if (g === "sort")  sortMode    = chip.dataset.val;
     render();
   });
 });
