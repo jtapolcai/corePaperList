@@ -321,6 +321,12 @@ def main(data):
                 text-align: center;
                 padding: 2px;
             }}
+            @keyframes rowflash {{
+                0%   {{ background-color: #fef08a; }}
+                60%  {{ background-color: #fef08a; }}
+                100% {{ background-color: inherit; }}
+            }}
+            .highlight-row td {{ animation: rowflash 2.5s ease forwards; }}
         </style>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -389,24 +395,39 @@ def main(data):
                     }}
                 }});
                 
-                // Apply URL parameter filters (munkahely, tema, karrier, nev)
+                // Apply URL parameter filters (munkahely, tema, karrier, nev, highlight)
                 (function() {{
                     var params = new URLSearchParams(window.location.search);
                     var filterMap = {{'Munkahely': params.get('munkahely'), 'Téma': params.get('tema'), 'Karrier': params.get('karrier')}};
                     var nev = params.get('nev');
+                    var highlight = params.get('highlight');
                     var filtered = false;
                     table.columns().every(function() {{
                         var title = $(this.header()).text().trim();
                         var val = filterMap[title];
                         if (val) {{
                             this.search('^' + $.fn.dataTable.util.escapeRegex(val) + '$', true, false);
-                            // Also set the footer select value if present
                             $('select', $(this.footer())).val(val);
                             filtered = true;
                         }}
                     }});
                     if (nev) {{ table.search(nev); filtered = true; }}
                     if (filtered) table.draw();
+                    if (highlight) {{
+                        var hlLower = highlight.toLowerCase();
+                        setTimeout(function() {{
+                            table.rows({{page: 'current'}}).every(function() {{
+                                var rowNode = this.node();
+                                var nameCell = $(rowNode).find('td').first().text().toLowerCase();
+                                if (nameCell.indexOf(hlLower) !== -1) {{
+                                    rowNode.scrollIntoView({{block: 'center', behavior: 'smooth'}});
+                                    $(rowNode).addClass('highlight-row');
+                                    setTimeout(function() {{ $(rowNode).removeClass('highlight-row'); }}, 2500);
+                                    return false;
+                                }}
+                            }});
+                        }}, 400);
+                    }}
                 }})();
 
                 // Position tooltips near mouse cursor

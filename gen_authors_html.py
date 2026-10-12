@@ -20,10 +20,15 @@ PROFILES_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else BASE / "profiles"
 OUT_FILE = BASE / "authors_profile.html"
 
 
-def load_profiles(profiles_dir: Path) -> dict:
+def load_profiles(profiles_dir: Path) -> tuple[dict, set]:
+    """Returns (profiles_dict, file_backed_slugs).
+    file_backed_slugs contains only slugs with actual per-author JSON files
+    (not bulk overrides), used to determine has_profile in the UI.
+    """
     profiles = {}
+    file_backed: set = set()
     if not profiles_dir.exists():
-        return profiles
+        return profiles, file_backed
     # Load bulk overrides first (lowest priority)
     bulk_file = profiles_dir / "_works_overrides.json"
     if bulk_file.exists():
@@ -38,9 +43,10 @@ def load_profiles(profiles_dir: Path) -> dict:
             continue
         try:
             profiles[f.stem] = {**profiles.get(f.stem, {}), **json.loads(f.read_text(encoding="utf-8"))}
+            file_backed.add(f.stem)
         except Exception as e:
             print(f"Warning: could not parse {f}: {e}")
-    return profiles
+    return profiles, file_backed
 
 
 GITHUB_REPO = "jtapolcai/corePaperList"
@@ -55,8 +61,8 @@ EDITABLE_FIELDS = [
 
 
 def profile_template(author: dict) -> str:
-    """Build a JSON template pre-filled with the author's current values."""
-    obj = {k: author.get(k) or "" for k in EDITABLE_FIELDS}
+    """Build a JSON template pre-filled with the author's current non-empty values."""
+    obj = {k: v for k in EDITABLE_FIELDS if (v := author.get(k) or "")}
     return json.dumps(obj, ensure_ascii=False, indent=2)
 
 
@@ -98,11 +104,11 @@ def new_author_url() -> str:
     )
 
 
-def merge(authors: list, profiles: dict) -> list:
+def merge(authors: list, profiles: dict, file_backed: set | None = None) -> list:
     """Apply profile overrides directly onto author fields (no profile_ prefix)."""
     for a in authors:
         slug = a.get("slug", "")
-        has_profile = slug in profiles
+        has_profile = slug in (file_backed if file_backed is not None else profiles)
         a["_has_profile"] = has_profile
         a["_github_edit_url"] = github_edit_url(slug, a, has_profile)
         if has_profile:
@@ -533,9 +539,10 @@ function renderProfile(a) {{
 
   const astarUrl = `core_astar.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const aUrl     = `core_astar.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
-  const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary` : "";
-  const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}` : "";
-  const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}` : "";
+  const cleanName     = (a.name || "").replace(/\s+\d{{4}}$/, "").trim();
+  const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary&highlight=${{encodeURIComponent(cleanName)}}` : "";
+  const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
+  const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
   const statsData = [
     ["Core A*",        a.core_astar,                    "",    astarUrl],
@@ -750,8 +757,8 @@ def load_new_authors(profiles_dir: Path, existing_slugs: set) -> list:
 
 def main():
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
-    profiles = load_profiles(PROFILES_DIR)
-    merged = merge(authors, profiles)
+    profiles, file_backed = load_profiles(PROFILES_DIR)
+    merged = merge(authors, profiles, file_backed)
 
     existing_slugs = {a["slug"] for a in authors}
     new_authors = load_new_authors(PROFILES_DIR, existing_slugs)
