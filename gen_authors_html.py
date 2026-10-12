@@ -24,11 +24,20 @@ def load_profiles(profiles_dir: Path) -> dict:
     profiles = {}
     if not profiles_dir.exists():
         return profiles
+    # Load bulk overrides first (lowest priority)
+    bulk_file = profiles_dir / "_works_overrides.json"
+    if bulk_file.exists():
+        try:
+            for slug, fields in json.loads(bulk_file.read_text(encoding="utf-8")).items():
+                profiles.setdefault(slug, {}).update(fields)
+        except Exception as e:
+            print(f"Warning: could not parse {bulk_file}: {e}")
+    # Per-author profiles override bulk (highest priority)
     for f in profiles_dir.glob("*.json"):
         if f.stem.startswith("_"):
             continue
         try:
-            profiles[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+            profiles[f.stem] = {**profiles.get(f.stem, {}), **json.loads(f.read_text(encoding="utf-8"))}
         except Exception as e:
             print(f"Warning: could not parse {f}: {e}")
     return profiles
