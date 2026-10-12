@@ -31,18 +31,22 @@ jobs:
 
       - name: Regenerate index.html
         run: python3 gen_index_html.py
+        continue-on-error: true
 
       - name: Regenerate authors_profile.html
         run: python3 gen_authors_html.py
+        continue-on-error: true
 
       - name: Regenerate core_papers.html
         run: python3 gen_core_papers_html.py
+        continue-on-error: true
 
       - name: Install pandas for authors_table
         run: pip install pandas
 
       - name: Regenerate authors_table.html
         run: python3 gen_authors_table.py
+        continue-on-error: true
 
       - name: Commit changes
         if: always()
