@@ -23,14 +23,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests xmltodict unidecode pandas
 
-      - name: Cache DBLP JSON files
-        uses: actions/cache@v4
-        with:
-          path: dblp/
-          key: dblp-cache-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: |
-            dblp-cache-${{ runner.os }}-
-
       - name: Run DBLP update and paper classification
         run: python3 run_every_day.py
         env:
@@ -55,7 +47,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results/ authors.json dblp/dblp_counts.json \
+          git add results/ authors.json dblp/ \
                   index.html authors_profile.html core_papers.html authors_table.html \
                   profiles/_mta_photos.json || true
           if git diff --cached --quiet; then
