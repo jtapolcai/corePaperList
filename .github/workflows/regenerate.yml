@@ -6,6 +6,7 @@ on:
     paths:
       - "profiles/**"
       - "authors.json"
+      - "results/*.json"
       - "results/coreAstar.bib"
       - "results/coreA.bib"
       - "gen_authors_html.py"
