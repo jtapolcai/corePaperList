@@ -7,11 +7,19 @@ Creates an x-y scatter plot comparing MTMT journal D1 equivalents vs Hungarian C
 
 import json
 import os
+import re
+import unicodedata
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from statistics import mean
 import csv
+
+
+def _slugify(s):
+    s = unicodedata.normalize("NFD", s or "")
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
 
@@ -232,28 +240,34 @@ def create_plot(data_points, author_label=False):
         scatter_hungary = ax.scatter(data_points['hungary'][0], data_points['hungary'][1], 
                   c='green', alpha=0.6, s=marker_size, label='Hungary')
         scatter_objects.append(scatter_hungary)
-        scatter_labels.append([f"{name}<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}" 
-                               for x, y, name in zip(data_points['hungary'][0], 
-                                                     data_points['hungary'][1], 
-                                                     data_points['hungary'][2])])
-    
+        scatter_labels.append([
+            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            for x, y, name in zip(data_points['hungary'][0],
+                                  data_points['hungary'][1],
+                                  data_points['hungary'][2])])
+
     if data_points['company'][0]:
-        scatter_company = ax.scatter(data_points['company'][0], data_points['company'][1], 
+        scatter_company = ax.scatter(data_points['company'][0], data_points['company'][1],
                   c='yellow', alpha=0.6, s=marker_size, label='Company', edgecolors='black', linewidth=0.5)
         scatter_objects.append(scatter_company)
-        scatter_labels.append([f"{name}<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}" 
-                               for x, y, name in zip(data_points['company'][0], 
-                                                     data_points['company'][1], 
-                                                     data_points['company'][2])])
-    
+        scatter_labels.append([
+            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            for x, y, name in zip(data_points['company'][0],
+                                  data_points['company'][1],
+                                  data_points['company'][2])])
+
     if data_points['abroad'][0]:
-        scatter_abroad = ax.scatter(data_points['abroad'][0], data_points['abroad'][1], 
+        scatter_abroad = ax.scatter(data_points['abroad'][0], data_points['abroad'][1],
                   c='red', alpha=0.6, s=marker_size, label='Abroad')
         scatter_objects.append(scatter_abroad)
-        scatter_labels.append([f"{name}<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}" 
-                               for x, y, name in zip(data_points['abroad'][0], 
-                                                     data_points['abroad'][1], 
-                                                     data_points['abroad'][2])])
+        scatter_labels.append([
+            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            for x, y, name in zip(data_points['abroad'][0],
+                                  data_points['abroad'][1],
+                                  data_points['abroad'][2])])
     
     # Set scale for both axes
     # For interactive HTML (mpld3), use linear scale as mpld3 doesn't handle log scale well

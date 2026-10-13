@@ -435,7 +435,7 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
   <div id="sidebar">
     <div id="sidebar-header">
       <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem">
-        <h1 style="flex:1">Hungarian CS Authors</h1>
+        <h1 style="flex:1"><a href="index.html" style="color:inherit;text-decoration:none" title="Főoldal">Hungarian CS Authors</a></h1>
         <button onclick="openNewAuthorModal()" class="edit-btn" title="Új szerző hozzáadása">+ Új szerző</button>
       </div>
       <input id="search" type="search" placeholder="Keresés (név, intézmény)…">
