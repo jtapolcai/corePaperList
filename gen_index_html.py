@@ -171,10 +171,10 @@ def compute_stats(authors: list) -> dict:
         "age_counter": dict(age_counter),
         "top_all": top_all,
         "top_hun": top_hun,
-        "top_hun_eq_all":    top_hun_eq(),
-        "top_hun_eq_st":     top_hun_eq(["ERC Starting"]),
-        "top_hun_eq_co":     top_hun_eq(["ERC Consolidator"]),
         "top_hun_eq_adv":    top_hun_eq(["ERC Advanced"]),
+        "top_hun_eq_co":     top_hun_eq(["ERC Consolidator"]),
+        "top_hun_eq_st":     top_hun_eq(["ERC Starting"]),
+        "top_hun_eq_nophd":  top_hun_eq(["no PhD"]),
         "profiles": profile_count(),
     }
 
@@ -431,32 +431,32 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
     </div>
   </div>
 
-  <div class="section-title">Top 10 kutató Core A* eq. szerint – Magyarország, ERC kariér szerint</div>
+  <div class="section-title">Top 10 kutató Core A* eq. szerint – Magyarország, ERC karrier szerint</div>
   <div class="two-col">
     <div>
       <table>
-        <thead><tr><th></th><th>Bármely karriér</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_all"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <thead><tr><th></th><th>ERC Advanced (12+ év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
-    <div>
-      <table>
-        <thead><tr><th></th><th>ERC Starting (≤7 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2)}</tbody>
-      </table>
-    </div>
-  </div>
-  <div class="two-col" style="margin-top:1.25rem">
     <div>
       <table>
         <thead><tr><th></th><th>ERC Consolidator (7–12 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
         <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
+  </div>
+  <div class="two-col" style="margin-top:1.25rem">
     <div>
       <table>
-        <thead><tr><th></th><th>ERC Advanced (12+ év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <thead><tr><th></th><th>ERC Starting (≤7 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2)}</tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th></th><th>no PhD</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_nophd"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
   </div>

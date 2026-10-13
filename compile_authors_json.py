@@ -157,6 +157,11 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
     first_equiv = r4(f_astar + f_a / 3 + f_b / 6 + f_c / 9 + f_nr / 15)
 
     phd_year = profile.get("phd_year")
+    first_pub_year = profile.get("openalex_first_pub_year")
+    phd_year_source = "exact"
+    if not phd_year and first_pub_year:
+        phd_year = first_pub_year + 5
+        phd_year_source = "estimated"
     years_since_phd = date.today().year - phd_year if phd_year else None
 
     if years_since_phd is None:
@@ -182,6 +187,7 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
         # Derived
         "years_since_phd": years_since_phd,
         "age_group": age_group,
+        "phd_year_source": phd_year_source,
     }
 
 

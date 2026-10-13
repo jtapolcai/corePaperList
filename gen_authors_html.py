@@ -605,25 +605,37 @@ function showToast(msg, duration) {{
   t._timer = setTimeout(() => t.style.display = "none", duration || 5000);
 }}
 
-function showFallbackToast(json, ghUrl) {{
+function showSavePanel(json, ghUrl) {{
   const t = document.getElementById("clipboard-toast");
   t.className = "fallback";
-  t.innerHTML = `<strong>Másold be a GitHub szerkesztőbe (Ctrl+A → Ctrl+V):</strong>
-    <textarea readonly onclick="this.select()">${{json}}</textarea>
+  t.innerHTML = `
+    <strong>1. Másold a JSON-t → 2. Nyisd meg a GitHub szerkesztőt → 3. Ctrl+A + Ctrl+V → 4. Commit</strong>
+    <textarea readonly onclick="this.select()" style="height:160px">${{json}}</textarea>
     <div class="toast-actions">
-      <button class="primary" onclick="navigator.clipboard.writeText(this.closest('#clipboard-toast').querySelector('textarea').value).then(()=>this.textContent='✓ Másolva!')">📋 Másolás</button>
-      <a href="${{ghUrl}}" target="_blank" rel="noopener">GitHub szerkesztő →</a>
+      <button class="primary" id="copy-and-open-btn">📋 Másolás + GitHub megnyitása</button>
       <button onclick="this.closest('#clipboard-toast').style.display='none'">✕</button>
     </div>`;
+  const btn = t.querySelector("#copy-and-open-btn");
+  btn.addEventListener("click", () => {{
+    const ta = t.querySelector("textarea");
+    // execCommand copy
+    ta.select();
+    const ok = document.execCommand("copy");
+    if (!ok) navigator.clipboard.writeText(json).catch(() => {{}});
+    btn.textContent = "✓ Másolva!";
+    setTimeout(() => window.open(ghUrl, "_blank"), 100);
+  }});
   t.style.display = "block";
   clearTimeout(t._timer);
+  // auto-select so user can Ctrl+C manually too
+  setTimeout(() => t.querySelector("textarea").select(), 50);
 }}
 
 // Fields computed by scripts — never write back to profile JSON
 const COMPUTED_FIELDS = new Set([
   "core_astar","core_a","core_b","core_c","no_core",
   "core_astar_equiv","hungarian_core_astar_equiv","first_author_core_astar_equiv",
-  "years_since_phd","age_group",
+  "years_since_phd","age_group","phd_year_source",
   "hung_astar_rank","hung_astar_total","category_astar_rank","age_astar_rank",
   "_has_profile","_github_edit_url",
 ]);
@@ -655,13 +667,7 @@ function saveEdits() {{
     }});
 
     const json = JSON.stringify(merged, null, 2);
-    navigator.clipboard.writeText(json).then(() => {{
-      window.open(editUrl, "_blank");
-      showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
-    }}).catch(() => {{
-      window.open(editUrl, "_blank");
-      showFallbackToast(json, editUrl);
-    }});
+    showSavePanel(json, editUrl);
   }} else {{
     // New profile: build minimal JSON and open GitHub new-file form
     const obj = {{}};

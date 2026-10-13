@@ -110,7 +110,7 @@ def fetch_author_details(oa_id):
     short_id = oa_id.split("/")[-1]
     data = oa_get(
         f"/authors/{short_id}",
-        {"select": "id,display_name,orcid,summary_stats,topics"},
+        {"select": "id,display_name,orcid,summary_stats,topics,counts_by_year"},
     )
     time.sleep(SLEEP)
     return data
@@ -310,11 +310,15 @@ def main():
         orcid = re.sub(r"^https?://orcid\.org/", "", orcid_url) if orcid_url else ""
         h_index = (author_data.get("summary_stats") or {}).get("h_index")
         topics = format_topics(author_data.get("topics", []))
+        counts_by_year = author_data.get("counts_by_year") or []
+        pub_years = [x["year"] for x in counts_by_year if x.get("works_count", 0) > 0]
+        first_pub_year = min(pub_years) if pub_years else None
 
         print(
             f"  {'DRY ' if args.dry_run else ''}OK [{method}] {name} → {short_id}"
             + (f" ORCID:{orcid}" if orcid else "")
             + f" h={h_index} topics={len(topics)}"
+            + (f" first_pub={first_pub_year}" if first_pub_year else "")
             + f" conf={confidence:.2f}"
         )
 
@@ -326,6 +330,8 @@ def main():
                 profile["openalex_h_index"] = h_index
             if topics:
                 profile["openalex_topics"] = topics
+            if first_pub_year is not None:
+                profile["openalex_first_pub_year"] = first_pub_year
             save_profile(path, profile)
 
         if method == "doi":
