@@ -400,9 +400,12 @@ async function searchMTMT(fullName) {
   }
   const items = [...seen.values()].map(c => {
     const safeLabel = esc(c.label || "");
-    return `<div class="mtmt-option" onclick="selectMTMT(${c.mtid}, ${JSON.stringify(c.label||'')}, this)"><strong>${c.mtid}</strong> — ${safeLabel}</div>`;
+    return `<div class="mtmt-option" data-mtid="${c.mtid}" data-label="${safeLabel}"><strong>${c.mtid}</strong> — ${safeLabel}</div>`;
   }).join("");
   container.innerHTML = `<div class="mtmt-results-label">Kattints a megfelelő szerzőre:</div>${items}`;
+  container.querySelectorAll(".mtmt-option").forEach(el => {
+    el.addEventListener("click", () => selectMTMT(el.dataset.mtid, el.dataset.label, el));
+  });
 }
 
 function selectMTMT(mtid, label, el) {
