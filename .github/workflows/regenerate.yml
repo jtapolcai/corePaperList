@@ -30,6 +30,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Compile authors.json from profiles
+        run: python3 compile_authors_json.py
+
       - name: Regenerate index.html (dashboard)
         run: python3 gen_index_html.py
 
@@ -49,7 +52,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html authors_profile.html core_papers.html authors_table.html profiles/_mta_photos.json
+          git add authors.json index.html authors_profile.html core_papers.html authors_table.html profiles/_mta_photos.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
