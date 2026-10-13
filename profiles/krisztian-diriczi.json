@@ -6,5 +6,61 @@
   "mtmt_status": "inactive",
   "works": "company_hungary",
   "affiliations": "ELTE",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5007453346",
+  "openalex_h_index": 2,
+  "openalex_topics": [
+    {
+      "id": "T10138",
+      "name": "Network Traffic and Congestion Control",
+      "count": 2,
+      "subfield": {
+        "id": "1705",
+        "name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T11598",
+      "name": "Internet Traffic Analysis and Secure E-voting",
+      "count": 2,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10524",
+      "name": "Traffic control and management",
+      "count": 1,
+      "subfield": {
+        "id": "2207",
+        "name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "22",
+        "name": "Engineering"
+      }
+    },
+    {
+      "id": "T10714",
+      "name": "Software-Defined Networks and 5G",
+      "count": 1,
+      "subfield": {
+        "id": "1705",
+        "name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }

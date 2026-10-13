@@ -5,5 +5,48 @@
   "category": "applied",
   "works": "hungary",
   "affiliations": "SZTAKI",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5156921178",
+  "openalex_h_index": 0,
+  "openalex_topics": [
+    {
+      "id": "T10462",
+      "name": "Reinforcement Learning in Robotics",
+      "count": 1,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10524",
+      "name": "Traffic control and management",
+      "count": 1,
+      "subfield": {
+        "id": "2207",
+        "name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "22",
+        "name": "Engineering"
+      }
+    },
+    {
+      "id": "T10805",
+      "name": "Vehicle Dynamics and Control Systems",
+      "count": 1,
+      "subfield": {
+        "id": "2203",
+        "name": "Automotive Engineering"
+      },
+      "field": {
+        "id": "22",
+        "name": "Engineering"
+      }
+    }
+  ]
 }

@@ -5,5 +5,48 @@
   "category": "applied",
   "works": "hungary",
   "affiliations": "BME",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5070658437",
+  "openalex_h_index": 1,
+  "openalex_topics": [
+    {
+      "id": "T11241",
+      "name": "Advanced Malware Detection Techniques",
+      "count": 1,
+      "subfield": {
+        "id": "1711",
+        "name": "Signal Processing"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T11424",
+      "name": "Security and Verification in Computing",
+      "count": 1,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T12034",
+      "name": "Digital and Cyber Forensics",
+      "count": 1,
+      "subfield": {
+        "id": "1710",
+        "name": "Information Systems"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }

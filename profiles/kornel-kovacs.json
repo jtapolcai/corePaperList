@@ -15,5 +15,74 @@
   "mtmt_q2": 1,
   "mtmt_q3": 2,
   "mtmt_affiliations": "MTA-SZTE Mesterséges Intelligencia Kutatócsoport SZTE / TTIK / INF [2016-2022]; MTA-SZTE Mesterséges Intelligencia Kutatócsoport SZTE / TTIK / ITCS [2007-2015]; Informatika Doktori Iskola SZTE / DI IDI [2008-]; HUN-REN-SZTE Mesterséges Intelligencia Kutatócsoport SZTE / TTIK / INF [2023-]; ELKH-SZTE Mesterséges Intelligencia Kutatócsoport SZTE / TTIK / INF [2022-2023]",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5061288526",
+  "openalex_h_index": 4,
+  "openalex_topics": [
+    {
+      "id": "T10057",
+      "name": "Face and Expression Recognition",
+      "count": 6,
+      "subfield": {
+        "id": "1707",
+        "name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T12676",
+      "name": "Machine Learning and ELM",
+      "count": 6,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T13141",
+      "name": "Statistical Methods and Applications",
+      "count": 6,
+      "subfield": {
+        "id": "2613",
+        "name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "26",
+        "name": "Mathematics"
+      }
+    },
+    {
+      "id": "T10201",
+      "name": "Speech Recognition and Synthesis",
+      "count": 5,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10860",
+      "name": "Speech and Audio Processing",
+      "count": 5,
+      "subfield": {
+        "id": "1711",
+        "name": "Signal Processing"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }

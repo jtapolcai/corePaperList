@@ -5,5 +5,48 @@
   "category": "theory",
   "works": "hungary",
   "affiliations": "ELTE",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5080948608",
+  "openalex_h_index": 1,
+  "openalex_topics": [
+    {
+      "id": "T10138",
+      "name": "Network Traffic and Congestion Control",
+      "count": 1,
+      "subfield": {
+        "id": "1705",
+        "name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10714",
+      "name": "Software-Defined Networks and 5G",
+      "count": 1,
+      "subfield": {
+        "id": "1705",
+        "name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10720",
+      "name": "Complexity and Algorithms in Graphs",
+      "count": 1,
+      "subfield": {
+        "id": "1703",
+        "name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }

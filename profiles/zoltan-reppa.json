@@ -4,5 +4,48 @@
   "dblp_url": "https://dblp.org/pid/315/2741",
   "works": "hungary",
   "affiliations": "SZTAKI",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5028813919",
+  "openalex_h_index": 1,
+  "openalex_topics": [
+    {
+      "id": "T11236",
+      "name": "Control Systems and Identification",
+      "count": 1,
+      "subfield": {
+        "id": "2207",
+        "name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "22",
+        "name": "Engineering"
+      }
+    },
+    {
+      "id": "T12205",
+      "name": "Time Series Analysis and Forecasting",
+      "count": 1,
+      "subfield": {
+        "id": "1711",
+        "name": "Signal Processing"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T13487",
+      "name": "Statistical and numerical algorithms",
+      "count": 1,
+      "subfield": {
+        "id": "2604",
+        "name": "Applied Mathematics"
+      },
+      "field": {
+        "id": "26",
+        "name": "Mathematics"
+      }
+    }
+  ]
 }

@@ -4,5 +4,48 @@
   "dblp_url": "https://dblp.org/pid/09/1402",
   "works": "hungary",
   "affiliations": "SZTE",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5087503077",
+  "openalex_h_index": 1,
+  "openalex_topics": [
+    {
+      "id": "T10126",
+      "name": "Logic, programming, and type systems",
+      "count": 1,
+      "subfield": {
+        "id": "1702",
+        "name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T11450",
+      "name": "Model-Driven Software Engineering Techniques",
+      "count": 1,
+      "subfield": {
+        "id": "1712",
+        "name": "Software"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T11567",
+      "name": "semigroups and automata theory",
+      "count": 1,
+      "subfield": {
+        "id": "1703",
+        "name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }

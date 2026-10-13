@@ -5,5 +5,48 @@
   "category": "applied",
   "works": "abroad",
   "affiliations": "Swisscom AG, Switzerland 2022-; TU BERLIN -2021",
-  "age_group": "0-5 év"
+  "age_group": "0-5 év",
+  "openalex_id": "A5079286245",
+  "openalex_h_index": 2,
+  "openalex_topics": [
+    {
+      "id": "T10714",
+      "name": "Software-Defined Networks and 5G",
+      "count": 3,
+      "subfield": {
+        "id": "1705",
+        "name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T10743",
+      "name": "Software Testing and Debugging Techniques",
+      "count": 3,
+      "subfield": {
+        "id": "1712",
+        "name": "Software"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "id": "T12326",
+      "name": "Network Packet Processing and Optimization",
+      "count": 3,
+      "subfield": {
+        "id": "1708",
+        "name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "17",
+        "name": "Computer Science"
+      }
+    }
+  ]
 }
