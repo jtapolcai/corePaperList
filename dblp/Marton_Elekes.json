@@ -3,117 +3,231 @@
     "@name": "Márton Elekes",
     "r": [
       {
+        "inproceedings": {
+          "@key": "conf/hpec/ElekesNSADS20",
+          "title": "A GraphBLAS solution to the SIGMOD 2014 Programming Contest using multi-source BFS",
+          "booktitle": "HPEC",
+          "year": "2020",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/HPEC43674.2020.9286186",
+          "author": [
+            {
+              "#text": "Attila Nagy",
+              "@pid": "08/415"
+            },
+            {
+              "#text": "Dávid Sándor",
+              "@pid": "282/7843"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            },
+            {
+              "#text": "Timothy A. Davis",
+              "@pid": "81/2844-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipps/ElekesS20",
+          "title": "An incremental GraphBLAS solution for the 2018 TTC Social Media case study",
+          "booktitle": "IPDPS Workshops",
+          "year": "2020",
+          "pages": "203-206",
+          "ee": "https://doi.org/10.1109/IPDPSW50202.2020.00045",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ladc/ElekesM21",
+          "title": "Towards Testing the UML PSSM Test Suite",
+          "booktitle": "LADC",
+          "year": "2021",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/LADC53747.2021.9672570",
+          "author": [
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-12243",
+          "title": "An analysis of the SIGMOD 2014 Programming Contest: Complex queries on the LDBC social network graph",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.12243",
+          "author": [
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2309-14884",
+          "title": "To Do or Not to Do: Semantics and Patterns for Do Activities in UML PSSM State Machines",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2309.14884",
+          "author": [
+            {
+              "#text": "Márton Elekes",
+              "@pid": "173/7470-1"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
+      },
+      {
         "article": {
-          "@key": "journals/apal/DarjiEKKV22",
-          "title": "The structure of random automorphisms of the random graph",
-          "journal": "Ann. Pure Appl. Log.",
+          "@key": "journals/sosym/HinkelGSBTCJMNA22",
+          "title": "A cross-technology benchmark for incremental graph queries",
+          "journal": "Softw. Syst. Model.",
           "year": "2022",
-          "pages": "103152",
-          "ee": "https://doi.org/10.1016/J.APAL.2022.103152",
+          "pages": "755-804",
+          "ee": "https://doi.org/10.1007/S10270-021-00927-5",
           "author": [
             {
-              "#text": "Kende Kalina",
-              "@pid": "325/7505"
+              "#text": "Antonio García-Domínguez",
+              "@pid": "67/3580"
+            },
+            {
+              "#text": "Artur Boronat",
+              "@pid": "52/2602"
+            },
+            {
+              "#text": "Frédéric Jouault",
+              "@pid": "10/4610"
+            },
+            {
+              "#text": "Gábor Szárnyas",
+              "@pid": "151/1414"
+            },
+            {
+              "#text": "Georg Hinkel",
+              "@pid": "139/0974"
+            },
+            {
+              "#text": "János Benjamin Antal",
+              "@pid": "220/5972"
+            },
+            {
+              "#text": "József Marton",
+              "@pid": "200/8204"
             },
             {
               "#text": "Márton Elekes",
-              "@pid": "173/7470-2"
+              "@pid": "173/7470-1"
             },
             {
-              "#text": "Udayan B. Darji",
-              "@pid": "99/8035"
+              "#text": "Massimo Tisi",
+              "@pid": "16/5025"
             },
             {
-              "#text": "Viktor Kiss",
-              "@pid": "149/2227"
+              "#text": "René Schöne",
+              "@pid": "05/1700"
             },
             {
-              "#text": "Zoltán Vidnyánszky",
-              "@pid": "95/11225"
+              "#text": "Tamás Nyíri",
+              "@pid": "231/2703"
+            },
+            {
+              "#text": "Théo Le Calvar",
+              "@pid": "229/9065"
             }
           ]
         }
       },
       {
         "article": {
-          "@key": "journals/dm/ElekesSSS17",
-          "title": "Decompositions of edge-colored infinite complete graphs into monochromatic paths",
-          "journal": "Discret. Math.",
-          "year": "2017",
-          "pages": "2053-2069",
-          "ee": "https://doi.org/10.1016/J.DISC.2016.09.028",
+          "@key": "journals/sqj/ElekesMM23",
+          "title": "Assessing the specification of modelling language semantics: a study on UML PSSM",
+          "journal": "Softw. Qual. J.",
+          "year": "2023",
+          "pages": "575-617",
+          "ee": "https://doi.org/10.1007/S11219-023-09617-5",
           "author": [
             {
-              "#text": "Dániel T. Soukup",
-              "@pid": "134/7579"
-            },
-            {
-              "#text": "Lajos Soukup",
-              "@pid": "06/2985"
-            },
-            {
               "#text": "Márton Elekes",
-              "@pid": "173/7470-2"
+              "@pid": "173/7470-1"
             },
             {
-              "#text": "Zoltán Szentmiklóssy",
-              "@pid": "73/4931"
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
             }
           ]
         }
       },
       {
         "article": {
-          "@key": "journals/jsyml/ElekesFKNPP22",
-          "title": "Games Characterizing Limsup Functions and Baire Class 1 Functions",
-          "journal": "J. Symb. Log.",
-          "year": "2022",
-          "pages": "1459-1473",
-          "ee": "https://doi.org/10.1017/JSL.2022.29",
-          "author": [
-            {
-              "#text": "Arkadi Predtetchinski",
-              "@pid": "75/11120"
-            },
-            {
-              "#text": "Donát Nagy",
-              "@pid": "340/7037"
-            },
-            {
-              "#text": "János Flesch",
-              "@pid": "68/2919"
-            },
-            {
-              "#text": "Márk Poór",
-              "@pid": "304/2037"
-            },
-            {
-              "#text": "Márton Elekes",
-              "@pid": "173/7470-2"
-            },
-            {
-              "#text": "Viktor Kiss",
-              "@pid": "149/2227"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/mlq/ElekesK15",
-          "title": "Decomposing the real line into Borel sets closed under addition",
-          "journal": "Math. Log. Q.",
-          "year": "2015",
-          "pages": "466-473",
-          "ee": "https://doi.org/10.1002/MALQ.201400100",
+          "@key": "journals/tse/ElekesMM24",
+          "title": "To Do or Not to Do: Semantics and Patterns for Do Activities in UML PSSM State Machines",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "2024",
+          "pages": "2124-2141",
+          "ee": "https://doi.org/10.1109/TSE.2024.3422845",
           "author": [
             {
               "#text": "Márton Elekes",
-              "@pid": "173/7470-2"
+              "@pid": "173/7470-1"
             },
             {
-              "#text": "Tamás Keleti",
-              "@pid": "126/6988"
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
             }
           ]
         }

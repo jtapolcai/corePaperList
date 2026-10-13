@@ -3,104 +3,1242 @@
     "@name": "Péter Kovács",
     "r": [
       {
-        "article": {
-          "@key": "journals/endm/DezsoJK10",
-          "title": "Column Generation Method for an Agent Scheduling Problem",
-          "journal": "Electron. Notes Discret. Math.",
-          "year": "2010",
-          "pages": "829-836",
-          "ee": "https://doi.org/10.1016/J.ENDM.2010.05.105",
+        "inproceedings": {
+          "@key": "conf/acssc/DozsaBBMK21",
+          "title": "Color classification of visually evoked potentials by means of Hermite functions",
+          "booktitle": "ACSCC",
+          "year": "2021",
+          "pages": "251-255",
+          "ee": "https://doi.org/10.1109/IEEECONF53345.2021.9723218",
           "author": [
             {
-              "#text": "Alpár Jüttner",
-              "@pid": "28/2741"
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
             },
             {
-              "#text": "Balázs Dezso",
-              "@pid": "89/8724"
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
             },
             {
               "#text": "Péter Kovács",
-              "@pid": "31/6800-2"
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
             }
           ]
         }
       },
       {
         "inproceedings": {
-          "@key": "journals/entcs/DezsoJK11",
-          "title": "LEMON - an Open Source C++ Graph Template Library",
-          "booktitle": "WGT",
-          "year": "2011",
-          "pages": "23-45",
-          "ee": "https://doi.org/10.1016/J.ENTCS.2011.06.003",
+          "@key": "conf/acssc/KovacsBMH17",
+          "title": "ECG segmentation using adaptive hermite functions",
+          "booktitle": "ACSSC",
+          "year": "2017",
+          "pages": "1476-1480",
+          "ee": "https://doi.org/10.1109/ACSSC.2017.8335601",
           "author": [
             {
-              "#text": "Alpár Jüttner",
-              "@pid": "28/2741"
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
             },
             {
-              "#text": "Balázs Dezso",
-              "@pid": "89/8724"
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
             },
             {
               "#text": "Péter Kovács",
-              "@pid": "31/6800-2"
+              "@pid": "31/6800-1"
             }
           ]
         }
       },
       {
-        "article": {
-          "@key": "journals/jcheminf/EnglertK14",
-          "title": "Making the most of approximate maximum common substructure search",
-          "journal": "J. Cheminformatics",
+        "inproceedings": {
+          "@key": "conf/cinc/GilianKS14",
+          "title": "Rhythm-based Accuracy Improvement of Heart Beat Detection Algorithms",
+          "booktitle": "CinC",
           "year": "2014",
-          "pages": "29",
-          "ee": "https://doi.org/10.1186/1758-2946-6-S1-P29",
+          "pages": "269-272",
           "author": [
             {
-              "#text": "Péter Englert",
-              "@pid": "151/2823"
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
             },
             {
               "#text": "Péter Kovács",
-              "@pid": "31/6800-2"
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Zoltán Gilián",
+              "@pid": "226/3044"
             }
           ]
         }
       },
       {
-        "article": {
-          "@key": "journals/jcisd/EnglertK15",
-          "title": "Efficient Heuristics for Maximum Common Substructure Search",
-          "journal": "J. Chem. Inf. Model.",
-          "year": "2015",
-          "pages": "941-955",
-          "ee": "https://doi.org/10.1021/ACS.JCIM.5B00036",
+        "inproceedings": {
+          "@key": "conf/cinc/KovacsS22",
+          "title": "Arrhythmia Detection Using Spiking Variable Projection Neural Networks",
+          "booktitle": "CinC",
+          "year": "2022",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.22489/CINC.2022.049",
           "author": [
             {
-              "#text": "Péter Englert",
-              "@pid": "151/2823"
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
             },
             {
               "#text": "Péter Kovács",
-              "@pid": "31/6800-2"
+              "@pid": "31/6800-1"
             }
           ]
         }
       },
       {
-        "article": {
-          "@key": "journals/oms/Kovacs15",
-          "title": "Minimum-cost flow algorithms: an experimental evaluation",
-          "journal": "Optim. Methods Softw.",
-          "year": "2015",
-          "pages": "94-127",
-          "ee": "https://doi.org/10.1080/10556788.2014.895828",
+        "inproceedings": {
+          "@key": "conf/cinc/SamieeK23",
+          "title": "ECG Decomposition Using Cascaded Spline Projection Residual Auto Encoders",
+          "booktitle": "CinC",
+          "year": "2023",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.22489/CINC.2023.227",
+          "author": [
+            {
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocast/BockKKHM19",
+          "title": "A Linear Parameter Varying ARX Model for Describing Biomedical Signal Couplings",
+          "booktitle": "EUROCAST (2)",
+          "year": "2020",
+          "pages": "339-346",
+          "ee": "https://doi.org/10.1007/978-3-030-45096-0_42",
+          "author": [
+            {
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Kyriaki Kostoglou",
+              "@pid": "123/8961"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocast/DozsaBK19",
+          "title": "Ensemble Learning for Heartbeat Classification Using Adaptive Orthogonal Transformations",
+          "booktitle": "EUROCAST (2)",
+          "year": "2020",
+          "pages": "355-363",
+          "ee": "https://doi.org/10.1007/978-3-030-45096-0_44",
+          "author": [
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocast/Kovacs17",
+          "title": "Rational Variable Projection Methods in ECG Signal Processing",
+          "booktitle": "EUROCAST (2)",
+          "year": "2018",
+          "pages": "196-203",
+          "ee": "https://doi.org/10.1007/978-3-319-74727-9_23",
           "author": {
             "#text": "Péter Kovács",
-            "@pid": "31/6800-2"
+            "@pid": "31/6800-1"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/AmonCKD25",
+          "title": "Spike Detection with Continuous Wavelet Transform Based Model Driven Machine Learning Methods",
+          "booktitle": "EUSIPCO",
+          "year": "2025",
+          "pages": "1797-1801",
+          "author": [
+            {
+              "#text": "Attila Miklós Ámon",
+              "@pid": "389/3790"
+            },
+            {
+              "#text": "Bram Cornelis",
+              "@pid": "86/8055"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/AmonF0D24",
+          "title": "Continuous Wavelet Transform Based Variable Projection Networks",
+          "booktitle": "EUSIPCO",
+          "year": "2024",
+          "pages": "1906-1910",
+          "author": [
+            {
+              "#text": "Attila Miklós Ámon",
+              "@pid": "389/3790"
+            },
+            {
+              "#text": "Kristian Fenech",
+              "@pid": "286/0836"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/BuiCKB25",
+          "title": "Transformer Encoder and Multi - Features Time2Vec for Financial Prediction",
+          "booktitle": "EUSIPCO",
+          "year": "2025",
+          "pages": "1682-1686",
+          "author": [
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Nguyen Duy Chien",
+              "@pid": "405/4839"
+            },
+            {
+              "#text": "Nguyen Kim Hai Bui",
+              "@pid": "405/1746"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/KovacsKG13",
+          "title": "Hyperbolic particle swarm optimization with application in rational identification",
+          "booktitle": "EUSIPCO",
+          "year": "2013",
+          "pages": "1-5",
+          "author": [
+            {
+              "#text": "Moncef Gabbouj",
+              "@pid": "08/6597"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Serkan Kiranyaz",
+              "@pid": "89/6384"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/SamieeKKGS15",
+          "title": "Sleep stage classification using sparse rational decomposition of single channel EEG records",
+          "booktitle": "EUSIPCO",
+          "year": "2015",
+          "pages": "1860-1864",
+          "ee": "https://doi.org/10.1109/EUSIPCO.2015.7362706",
+          "author": [
+            {
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
+            },
+            {
+              "#text": "Moncef Gabbouj",
+              "@pid": "08/6597"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Serkan Kiranyaz",
+              "@pid": "89/6384"
+            },
+            {
+              "#text": "Tapio Saramäki",
+              "@pid": "s/TapioSaramaki"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/GuzmanKH20",
+          "title": "Variable Projection for Multiple Frequency Estimation",
+          "booktitle": "ICASSP",
+          "year": "2020",
+          "pages": "4811-4815",
+          "ee": "https://doi.org/10.1109/ICASSP40776.2020.9052907",
+          "author": [
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Yuneisy E. Garcia Guzman",
+              "@pid": "226/0171"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/KovacsBDMH19",
+          "title": "Waveform Modeling by Adaptive Weighted Hermite Functions",
+          "booktitle": "ICASSP",
+          "year": "2019",
+          "pages": "1080-1084",
+          "ee": "https://doi.org/10.1109/ICASSP.2019.8683296",
+          "author": [
+            {
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/KovacsLTMBH20",
+          "title": "A Hybrid Approach for Thermographic Imaging With Deep Learning",
+          "booktitle": "ICASSP",
+          "year": "2020",
+          "pages": "4277-4281",
+          "ee": "https://doi.org/10.1109/ICASSP40776.2020.9053411",
+          "author": [
+            {
+              "#text": "Bernhard Lehner",
+              "@pid": "11/7371"
+            },
+            {
+              "#text": "Gregor Thummerer",
+              "@pid": "270/4146"
+            },
+            {
+              "#text": "Günther Mayr",
+              "@pid": "270/4755"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Peter Burgholzer",
+              "@pid": "157/8249"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/KovacsSG14",
+          "title": "On application of rational Discrete Short Time Fourier Transform in epileptic seizure classification",
+          "booktitle": "ICASSP",
+          "year": "2014",
+          "pages": "5839-5843",
+          "ee": "https://doi.org/10.1109/ICASSP.2014.6854723",
+          "author": [
+            {
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
+            },
+            {
+              "#text": "Moncef Gabbouj",
+              "@pid": "08/6597"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ictinnovations/DozsaK15",
+          "title": "ECG Signal Compression Using Adaptive Hermite Functions",
+          "booktitle": "ICT Innovations",
+          "year": "2016",
+          "pages": "245-254",
+          "ee": "https://doi.org/10.1007/978-3-319-25733-4_25",
+          "author": [
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/AuerPPKLH21",
+          "title": "Adaptive System Identification via Low-Rank Tensor Decomposition",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "139028-139042",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3118095",
+          "author": [
+            {
+              "#text": "Christina Auer",
+              "@pid": "236/3963"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Oliver Lang",
+              "@pid": "77/2481"
+            },
+            {
+              "#text": "Oliver Ploder",
+              "@pid": "203/9785"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Thomas Paireder",
+              "@pid": "236/4150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/DozsaJSVRSK24",
+          "title": "Road Type Classification Using Time-Frequency Representations of Tire Sensor Signals",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "53361-53372",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3382931",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "János Radó",
+              "@pid": "299/9161"
+            },
+            {
+              "#text": "János Volk",
+              "@pid": "299/9175"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Sandi Baressi Segota",
+              "@pid": "270/1429"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            },
+            {
+              "#text": "Vedran Jurdana",
+              "@pid": "303/5777"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amc/KovacsF19",
+          "title": "Nonlinear least-squares spline fitting with variable knots",
+          "journal": "Appl. Math. Comput.",
+          "year": "2019",
+          "pages": "490-501",
+          "ee": "https://doi.org/10.1016/J.AMC.2019.02.051",
+          "author": [
+            {
+              "#text": "Andrea M. Fekete",
+              "@pid": "240/2342"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cbm/KovacsBTHM22",
+          "title": "Diagnostic quality assessment for low-dimensional ECG representations",
+          "journal": "Comput. Biol. Medicine",
+          "year": "2022",
+          "pages": "106086",
+          "ee": "https://doi.org/10.1016/J.COMPBIOMED.2022.106086",
+          "author": [
+            {
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Thomas Tschoellitsch",
+              "@pid": "318/8805"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-00058",
+          "title": "Generalized Rational Variable Projection With Application in ECG Compression",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.00058",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Sándor Fridli",
+              "@pid": "23/5063"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-03847",
+          "title": "Nonlinear least-squares spline fitting with variable knots",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.03847",
+          "author": [
+            {
+              "#text": "Andrea M. Fekete",
+              "@pid": "240/2342"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2006-15590",
+          "title": "VPNet: Variable Projection Networks",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.15590",
+          "author": [
+            {
+              "#text": "Christian Huber",
+              "@pid": "79/9743"
+            },
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2108-09162",
+          "title": "Abnormal Road Surface Detection Using Wheel Sensor Data",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.09162",
+          "author": [
+            {
+              "#text": "Ádám Kisari",
+              "@pid": "211/5569"
+            },
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "János Radó",
+              "@pid": "299/9161"
+            },
+            {
+              "#text": "János Volk",
+              "@pid": "299/9175"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-01930",
+          "title": "Learning ECG signal features without backpropagation",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.01930",
+          "author": [
+            {
+              "#text": "Antal Jakovác",
+              "@pid": "312/6999"
+            },
+            {
+              "#text": "Marcell T. Kurbucz",
+              "@pid": "312/6926"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Péter Pósfay",
+              "@pid": "312/6636"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-01282",
+          "title": "Rational Gaussian wavelets and corresponding model driven neural networks",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.01282",
+          "author": [
+            {
+              "#text": "Attila Miklós Ámon",
+              "@pid": "389/3790"
+            },
+            {
+              "#text": "Kristian Fenech",
+              "@pid": "286/0836"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-13801",
+          "title": "Transformer Encoder and Multi-features Time2Vec for Financial Prediction",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.13801",
+          "author": [
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Nguyen Duy Chien",
+              "@pid": "405/4839"
+            },
+            {
+              "#text": "Nguyen Kim Hai Bui",
+              "@pid": "405/1746"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-03510",
+          "title": "Generalized rational Prony and Bernoulli methods",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.03510",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Matthias Voigt",
+              "@pid": "57/8904"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-26310",
+          "title": "Classification and detection of multiple UAVs using rational Gaussian wavelet neural networks",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.26310",
+          "author": [
+            {
+              "#text": "Attila Miklós Ámon",
+              "@pid": "389/3790"
+            },
+            {
+              "#text": "Ferenc Braun",
+              "@pid": "438/0745"
+            },
+            {
+              "#text": "Gergo Ungvári",
+              "@pid": "380/7168"
+            },
+            {
+              "#text": "János Volk",
+              "@pid": "299/9175"
+            },
+            {
+              "#text": "Péter Kackstädter",
+              "@pid": "438/1102"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dsp/SelimovicLKP22",
+          "title": "Improved parametrized multiple window spectrogram with application in ship navigation systems",
+          "journal": "Digit. Signal Process.",
+          "year": "2022",
+          "pages": "103491",
+          "ee": "https://doi.org/10.1016/J.DSP.2022.103491",
+          "author": [
+            {
+              "#text": "Denis Selimovic",
+              "@pid": "322/1342"
+            },
+            {
+              "#text": "Jasna Prpic-Orsic",
+              "@pid": "280/3606"
+            },
+            {
+              "#text": "Jonatan Lerga",
+              "@pid": "05/9345"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijns/BognarFHLHK25",
+          "title": "Deep Unfolded Variable Projection Networks",
+          "journal": "Int. J. Neural Syst.",
+          "year": "2025",
+          "pages": "2550053:1-2550053:18",
+          "ee": "https://doi.org/10.1142/S0129065725500534",
+          "author": [
+            {
+              "#text": "Christian Huber",
+              "@pid": "79/9743"
+            },
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Manuel Feindert",
+              "@pid": "425/5886"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Michael Lunglmayr",
+              "@pid": "09/6321"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijns/DozsaDCK24",
+          "title": "Variable Projection Support Vector Machines and Some Applications Using Adaptive Hermite Expansions",
+          "journal": "Int. J. Neural Syst.",
+          "year": "2024",
+          "pages": "2450004:1-2450004:22",
+          "ee": "https://doi.org/10.1142/S0129065724500047",
+          "author": [
+            {
+              "#text": "Bram Cornelis",
+              "@pid": "86/8055"
+            },
+            {
+              "#text": "Federico Deuschle",
+              "@pid": "370/7718"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijns/KovacsBHH22",
+          "title": "VPNET: Variable Projection Networks",
+          "journal": "Int. J. Neural Syst.",
+          "year": "2022",
+          "pages": "2150054:1-2150054:19",
+          "ee": "https://doi.org/10.1142/S0129065721500544",
+          "author": [
+            {
+              "#text": "Christian Huber",
+              "@pid": "79/9743"
+            },
+            {
+              "#text": "Gergo Bognar",
+              "@pid": "169/3551"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/kbs/SamieeKG17",
+          "title": "Epileptic seizure detection in long-term EEG records using sparse rational decomposition and local Gabor binary patterns feature extraction",
+          "journal": "Knowl. Based Syst.",
+          "year": "2017",
+          "pages": "228-240",
+          "ee": "https://doi.org/10.1016/J.KNOSYS.2016.11.023",
+          "author": [
+            {
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
+            },
+            {
+              "#text": "Moncef Gabbouj",
+              "@pid": "08/6597"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mlst/PosfayKKJ25",
+          "title": "Lightweight ECG signal classification via linear law-based feature extraction",
+          "journal": "Mach. Learn. Sci. Technol.",
+          "year": "2025",
+          "pages": "35001",
+          "ee": "https://doi.org/10.1088/2632-2153/ADE6C3",
+          "author": [
+            {
+              "#text": "Antal Jakovác",
+              "@pid": "312/6999"
+            },
+            {
+              "#text": "Marcell T. Kurbucz",
+              "@pid": "312/6926"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Péter Pósfay",
+              "@pid": "312/6636"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/spm/KovacsLTMBH22",
+          "title": "Surfing Virtual Waves to Thermal Tomography: From model- to deep learning-based reconstructions",
+          "journal": "IEEE Signal Process. Mag.",
+          "year": "2022",
+          "pages": "55-67",
+          "ee": "https://doi.org/10.1109/MSP.2021.3120978",
+          "author": [
+            {
+              "#text": "Bernhard Lehner",
+              "@pid": "11/7371"
+            },
+            {
+              "#text": "Gregor Thummerer",
+              "@pid": "270/4146"
+            },
+            {
+              "#text": "Günther Mayr",
+              "@pid": "270/4755"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Peter Burgholzer",
+              "@pid": "157/8249"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tbe/BockKLMH21",
+          "title": "ECG Beat Representation and Delineation by Means of Variable Projection",
+          "journal": "IEEE Trans. Biomed. Eng.",
+          "year": "2021",
+          "pages": "2997-3008",
+          "ee": "https://doi.org/10.1109/TBME.2021.3058781",
+          "author": [
+            {
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Mario Huemer",
+              "@pid": "87/983"
+            },
+            {
+              "#text": "Pablo Laguna",
+              "@pid": "48/5587"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tbe/SamieeKG15",
+          "title": "Epileptic Seizure Classification of EEG Time-Series Using Rational Discrete Short-Time Fourier Transform",
+          "journal": "IEEE Trans. Biomed. Eng.",
+          "year": "2015",
+          "pages": "541-552",
+          "ee": "https://doi.org/10.1109/TBME.2014.2360101",
+          "author": [
+            {
+              "#text": "Kaveh Samiee",
+              "@pid": "17/7731"
+            },
+            {
+              "#text": "Moncef Gabbouj",
+              "@pid": "08/6597"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tim/DozsaRVKSK22",
+          "title": "Road Abnormality Detection Using Piezoresistive Force Sensors and Adaptive Signal Models",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2022",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1109/TIM.2022.3194900",
+          "author": [
+            {
+              "#text": "Ádám Kisari",
+              "@pid": "211/5569"
+            },
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "János Radó",
+              "@pid": "299/9161"
+            },
+            {
+              "#text": "János Volk",
+              "@pid": "299/9175"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tnn/DozsaBMK25",
+          "title": "Weighted Hermite Variable Projection Networks for Classifying Visually Evoked Potentials",
+          "journal": "IEEE Trans. Neural Networks Learn. Syst.",
+          "year": "2025",
+          "pages": "12415-12428",
+          "ee": "https://doi.org/10.1109/TNNLS.2024.3475271",
+          "author": [
+            {
+              "#text": "Carl Böck",
+              "@pid": "196/2965"
+            },
+            {
+              "#text": "Jens Meier",
+              "@pid": "14/3813"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsp/AmonFKD25",
+          "title": "Rational Gaussian Wavelets and Corresponding Model Driven Neural Networks",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2025",
+          "pages": "3140-3155",
+          "ee": "https://doi.org/10.1109/TSP.2025.3592099",
+          "author": [
+            {
+              "#text": "Attila Miklós Ámon",
+              "@pid": "389/3790"
+            },
+            {
+              "#text": "Kristian Fenech",
+              "@pid": "286/0836"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsp/KovacsFS20",
+          "title": "Generalized Rational Variable Projection With Application in ECG Compression",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2020",
+          "pages": "478-492",
+          "ee": "https://doi.org/10.1109/TSP.2019.2961234",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Sándor Fridli",
+              "@pid": "23/5063"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Peter16c",
+          "title": "Transformation methods in signal processing",
+          "journal": "",
+          "year": "2016",
+          "author": {
+            "#text": "Péter Kovács",
+            "@pid": "31/6800-1"
           }
         }
       }

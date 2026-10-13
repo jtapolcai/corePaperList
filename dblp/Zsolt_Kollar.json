@@ -1,6 +1,667 @@
 {
   "dblpperson": {
     "@name": "Zsolt Kollár",
-    "r": []
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/amc/RetzlerSGK21",
+          "title": "Shooting methods for identification of nonlinear state-space grey-box models",
+          "booktitle": "AMC",
+          "year": "2022",
+          "pages": "207-212",
+          "ee": "https://doi.org/10.1109/AMC51637.2022.9729299",
+          "author": [
+            {
+              "#text": "András Retzler",
+              "@pid": "315/9648"
+            },
+            {
+              "#text": "Jan Swevers",
+              "@pid": "70/6971"
+            },
+            {
+              "#text": "Joris Gillis",
+              "@pid": "143/5795"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bmsb/GorlowK15",
+          "title": "Peak-to-average power ratio reduction for OFDM based on dynamic range compression",
+          "booktitle": "BMSB",
+          "year": "2015",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/BMSB.2015.7177197",
+          "author": [
+            {
+              "#text": "Stanislaw Gorlow",
+              "@pid": "86/10498"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/HoekstraCBSKT23",
+          "title": "Computationally Efficient Predictive Control Based on ANN State-Space Models",
+          "booktitle": "CDC",
+          "year": "2023",
+          "pages": "6336-6341",
+          "ee": "https://doi.org/10.1109/CDC49753.2023.10383724",
+          "author": [
+            {
+              "#text": "Bence Cseppento",
+              "@pid": "227/7484"
+            },
+            {
+              "#text": "Gerben Beintema",
+              "@pid": "262/0274"
+            },
+            {
+              "#text": "Jan H. Hoekstra",
+              "@pid": "344/1657"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crowncom/DattaGBFASK0NF11",
+          "title": "Flexible multicarrier PHY design for cognitive radio in White Space",
+          "booktitle": "CrownCom",
+          "year": "2011",
+          "pages": "141-145",
+          "ee": "https://doi.org/10.4108/ICST.CROWNCOM.2011.245865",
+          "author": [
+            {
+              "#text": "Dominique Noguet",
+              "@pid": "78/2630"
+            },
+            {
+              "#text": "Gerhard P. Fettweis",
+              "@pid": "f/GFettweis"
+            },
+            {
+              "#text": "Mario Schühler",
+              "@pid": "120/7753"
+            },
+            {
+              "#text": "Masayuki Ariyoshi",
+              "@pid": "01/6653"
+            },
+            {
+              "#text": "Matthieu Gautier",
+              "@pid": "54/168"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Rohit Datta",
+              "@pid": "84/10491"
+            },
+            {
+              "#text": "Vincent Berg",
+              "@pid": "81/2241"
+            },
+            {
+              "#text": "Yasunori Futatsugi",
+              "@pid": "119/9326"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csndsp/HusamK18",
+          "title": "Complexity Comparison of Filter Bank Multicarrier Transmitter Schemes",
+          "booktitle": "CSNDSP",
+          "year": "2018",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/CSNDSP.2018.8471795",
+          "author": [
+            {
+              "#text": "Al-amaireh Husam",
+              "@pid": "227/7358"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dsd/DattaFKH11",
+          "title": "FBMC and GFDM Interference Cancellation Schemes for Flexible Digital Radio PHY Design",
+          "booktitle": "DSD",
+          "year": "2011",
+          "pages": "335-339",
+          "ee": "https://doi.org/10.1109/DSD.2011.48",
+          "author": [
+            {
+              "#text": "Gerhard P. Fettweis",
+              "@pid": "f/GFettweis"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Rohit Datta",
+              "@pid": "84/10491"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fnms/BergKDHNF12",
+          "title": "Low ACLR communication systems for TVWS operation",
+          "booktitle": "Future Network & Mobile Summit",
+          "year": "2012",
+          "pages": "1-9",
+          "author": [
+            {
+              "#text": "Dominique Noguet",
+              "@pid": "78/2630"
+            },
+            {
+              "#text": "Gerhard P. Fettweis",
+              "@pid": "f/GFettweis"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Rohit Datta",
+              "@pid": "84/10491"
+            },
+            {
+              "#text": "Vincent Berg",
+              "@pid": "81/2241"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/radioelektronika/AlrwashdehK22",
+          "title": "Analysis of Quantization Noise in FFT Algorithms for Real-Valued Input Signals",
+          "booktitle": "RADIOELEKTRONIKA",
+          "year": "2022",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/RADIOELEKTRONIKA54537.2022.9764928",
+          "author": [
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/radioelektronika/AlrwashdehK22a",
+          "title": "Analysis of Fixed-Point Quantization Noise in Multicarrier Transmitter Schemes",
+          "booktitle": "RADIOELEKTRONIKA",
+          "year": "2022",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/RADIOELEKTRONIKA54537.2022.9764932",
+          "author": [
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/radioelektronika/KollarAL24",
+          "title": "Performance analysis of FBMC signals in the presence of DACs with limited range and resolution",
+          "booktitle": "RADIOELEKTRONIKA",
+          "year": "2024",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/RADIOELEKTRONIKA61599.2024.10524059",
+          "author": [
+            {
+              "#text": "László Leitold",
+              "@pid": "335/0792"
+            },
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/radioelektronika/TagelsirAK24",
+          "title": "Active Constellation Extension with Enlipping Technique for PAPR Reduction in FBMC-OQAM Systems",
+          "booktitle": "RADIOELEKTRONIKA",
+          "year": "2024",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/RADIOELEKTRONIKA61599.2024.10524051",
+          "author": [
+            {
+              "#text": "Husam Al-Amaireh",
+              "@pid": "367/3021"
+            },
+            {
+              "#text": "Zahraa Tagelsir",
+              "@pid": "369/1503"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vtc/Kollar011",
+          "title": "Physical Layer Considerations for Cognitive Radio: Modulation Techniques",
+          "booktitle": "VTC Spring",
+          "year": "2011",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECS.2011.5956489",
+          "author": [
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vtc/Kollar011a",
+          "title": "Physical Layer Considerations for Cognitive Radio: Synchronization Point of View",
+          "booktitle": "VTC Spring",
+          "year": "2011",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECS.2011.5956428",
+          "author": [
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/PlesznikKP22",
+          "title": "FPGA Realization of the Observer-Based Sliding Discrete Fourier Transform",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "29432-29442",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3153050",
+          "author": [
+            {
+              "#text": "Daejin Park",
+              "@pid": "119/5645"
+            },
+            {
+              "#text": "Ferenc Plesznik",
+              "@pid": "230/0825"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/automatica/RetzlerCSGLK22",
+          "title": "Improved crest factor minimization of multisine excitation signals using nonlinear optimization",
+          "journal": "Autom.",
+          "year": "2022",
+          "pages": "110654",
+          "ee": "https://doi.org/10.1016/J.AUTOMATICA.2022.110654",
+          "author": [
+            {
+              "#text": "András Retzler",
+              "@pid": "315/9648"
+            },
+            {
+              "#text": "Bence Cseppento",
+              "@pid": "227/7484"
+            },
+            {
+              "#text": "Jan Swevers",
+              "@pid": "70/6971"
+            },
+            {
+              "#text": "Joris Gillis",
+              "@pid": "143/5795"
+            },
+            {
+              "#text": "László Leitold",
+              "@pid": "335/0792"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/chinaf/KollarGHVK14",
+          "title": "Iterative signal reconstruction of deliberately clipped SMT signals",
+          "journal": "Sci. China Inf. Sci.",
+          "year": "2014",
+          "pages": "1-13",
+          "ee": "https://doi.org/10.1007/S11432-013-4921-7",
+          "author": [
+            {
+              "#text": "Dusan Kocur",
+              "@pid": "41/5198"
+            },
+            {
+              "#text": "Juraj Gazda",
+              "@pid": "126/4131"
+            },
+            {
+              "#text": "Lajos Varga",
+              "@pid": "142/3641"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2303-17305",
+          "title": "Computationally efficient predictive control based on ANN state-space models",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2303.17305",
+          "author": [
+            {
+              "#text": "Bence Cseppento",
+              "@pid": "227/7484"
+            },
+            {
+              "#text": "Gerben Beintema",
+              "@pid": "262/0274"
+            },
+            {
+              "#text": "Jan H. Hoekstra",
+              "@pid": "344/1657"
+            },
+            {
+              "#text": "Maarten Schoukens",
+              "@pid": "95/10501"
+            },
+            {
+              "#text": "Roland Tóth",
+              "@pid": "41/3302"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dsp/AlrwashdehCK23",
+          "title": "Quantization noise analysis in FBMC receivers and its effect on the BER performance",
+          "journal": "Digit. Signal Process.",
+          "year": "2023",
+          "pages": "104117",
+          "ee": "https://doi.org/10.1016/J.DSP.2023.104117",
+          "author": [
+            {
+              "#text": "Barna Csuka",
+              "@pid": "347/4673"
+            },
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dsp/AlrwashdehK22",
+          "title": "Analysis of quantization noise in FBMC transmitters",
+          "journal": "Digit. Signal Process.",
+          "year": "2022",
+          "pages": "103760",
+          "ee": "https://doi.org/10.1016/J.DSP.2022.103760",
+          "author": [
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eecs/CsukaK17",
+          "title": "R-DFT-based Parameter Estimation for WiGig",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2017",
+          "pages": "224-230",
+          "ee": "https://doi.org/10.3311/PPEE.9737",
+          "author": [
+            {
+              "#text": "Barna Csuka",
+              "@pid": "347/4673"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcnc/KollarH12",
+          "title": "PAPR Reduction of FBMC by Clipping and Its Iterative Compensation",
+          "journal": "J. Comput. Networks Commun.",
+          "year": "2012",
+          "pages": "382736:1-382736:11",
+          "ee": "https://doi.org/10.1155/2012/382736",
+          "author": [
+            {
+              "#text": "Péter Horváth",
+              "@pid": "80/587-2"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/phycomm/HusamK22",
+          "title": "Low complexity PPN-FBMC Receivers with improved sliding window equalizers",
+          "journal": "Phys. Commun.",
+          "year": "2022",
+          "pages": "101795",
+          "ee": "https://doi.org/10.1016/J.PHYCOM.2022.101795",
+          "author": [
+            {
+              "#text": "Al-amaireh Husam",
+              "@pid": "227/7358"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/phycomm/Kollar26",
+          "title": "Investigation of the effects of digital-to-analog converters on OFDM-based modulations with gaussian signal distribution",
+          "journal": "Phys. Commun.",
+          "year": "2026",
+          "pages": "102962",
+          "ee": "https://doi.org/10.1016/J.PHYCOM.2025.102962",
+          "author": {
+            "#text": "Zsolt Kollár",
+            "@pid": "82/10100"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigpro/HusamK21",
+          "title": "Optimization of Hopping DFT for FS-FBMC Receivers",
+          "journal": "Signal Process.",
+          "year": "2021",
+          "pages": "107983",
+          "ee": "https://doi.org/10.1016/J.SIGPRO.2021.107983",
+          "author": [
+            {
+              "#text": "Al-amaireh Husam",
+              "@pid": "227/7358"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/spl/AlrwashdehCK24",
+          "title": "Analysis of Quantization Noise in Fixed-Point HDFT Algorithms",
+          "journal": "IEEE Signal Process. Lett.",
+          "year": "2024",
+          "pages": "756-760",
+          "ee": "https://doi.org/10.1109/LSP.2024.3372782",
+          "author": [
+            {
+              "#text": "Balázs Czifra",
+              "@pid": "371/3809"
+            },
+            {
+              "#text": "Monther Alrwashdeh",
+              "@pid": "206/3749"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/spm/KollarPT18",
+          "title": "Observer-Based Recursive Sliding Discrete Fourier Transform [Tips & Tricks]",
+          "journal": "IEEE Signal Process. Mag.",
+          "year": "2018",
+          "pages": "100-106",
+          "ee": "https://doi.org/10.1109/MSP.2018.2853196",
+          "author": [
+            {
+              "#text": "Ferenc Plesznik",
+              "@pid": "230/0825"
+            },
+            {
+              "#text": "Simon Trumpf",
+              "@pid": "230/0987"
+            },
+            {
+              "#text": "Zsolt Kollár",
+              "@pid": "82/10100"
+            }
+          ]
+        }
+      }
+    ]
   }
 }

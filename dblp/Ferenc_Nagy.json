@@ -3,14 +3,61 @@
     "@name": "Ferenc Nagy",
     "r": [
       {
+        "article": {
+          "@key": "journals/cagd/NagyKH18",
+          "title": "New algorithm to find isoptic surfaces of polyhedral meshes",
+          "journal": "Comput. Aided Geom. Des.",
+          "year": "2018",
+          "pages": "90-99",
+          "ee": "https://doi.org/10.1016/J.CAGD.2018.04.001",
+          "author": [
+            {
+              "#text": "Ferenc Nagy",
+              "@pid": "25/4003-1"
+            },
+            {
+              "#text": "Miklós Hoffmann",
+              "@pid": "07/2404"
+            },
+            {
+              "#text": "Roland Kunkli",
+              "@pid": "11/8891"
+            }
+          ]
+        }
+      },
+      {
         "informal": {
-          "@key": "phd/hu/Ferenc11",
-          "title": "ALGORITMUSOK VÉLETLEN PARAMÉTEREI ÉS PROGRAMOK VÉLETLEN TESZTELÉSE",
+          "@key": "journals/corr/abs-2105-09762",
+          "title": "Interactive $G^1$ and $G^2$ Hermite Interpolation Using Extended Log-aesthetic Curves",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2105.09762",
+          "author": [
+            {
+              "#text": "Ferenc Nagy",
+              "@pid": "25/4003-1"
+            },
+            {
+              "#text": "Miklós Hoffmann",
+              "@pid": "07/2404"
+            },
+            {
+              "#text": "Norimasa Yoshida",
+              "@pid": "40/4171"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Ferenc22",
+          "title": "Izooptikus görbék és felületek a számítógépes geometriai modellezésben",
           "journal": "",
-          "year": "2011",
+          "year": "2022",
           "author": {
             "#text": "Ferenc Nagy",
-            "@pid": "25/4003-2"
+            "@pid": "25/4003-1"
           }
         }
       }
