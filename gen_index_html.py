@@ -8,9 +8,16 @@ from pathlib import Path
 BASE = Path(__file__).parent
 AUTHORS_JSON = BASE / "authors.json"
 PROFILES_DIR = BASE / "profiles"
-HUN_PAPERS = BASE / "results" / "hungarian_papers_coreAstar.json"
 ABR_PAPERS = BASE / "results" / "already_abroad_papers_coreAstar.json"
 OUT = BASE / "index.html"
+
+TIER_WEIGHTS = {"A*": 1.0, "A": 1 / 3, "B": 1 / 6, "C": 1 / 9}
+TIER_FILES = {
+    "A*": BASE / "results" / "hungarian_papers_coreAstar.json",
+    "A":  BASE / "results" / "hungarian_papers_coreA.json",
+    "B":  BASE / "results" / "hungarian_papers_coreB.json",
+    "C":  BASE / "results" / "hungarian_papers_coreC.json",
+}
 
 WORKS_LABEL = {
     "hungary": "Magyar intézmény",
@@ -35,10 +42,16 @@ def load_authors() -> list:
     return json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
 
 
-def load_papers() -> tuple[dict, dict]:
-    hun = json.loads(HUN_PAPERS.read_text(encoding="utf-8")) if HUN_PAPERS.exists() else {}
+def load_papers() -> tuple[dict, dict, dict]:
+    """Returns (astar_papers, abroad_papers, all_tier_papers).
+    all_tier_papers maps tier → {paper_key: paper_dict}.
+    """
+    all_tiers: dict[str, dict] = {}
+    for tier, path in TIER_FILES.items():
+        all_tiers[tier] = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    hun_astar = all_tiers.get("A*", {})
     abr = json.loads(ABR_PAPERS.read_text(encoding="utf-8")) if ABR_PAPERS.exists() else {}
-    return hun, abr
+    return hun_astar, abr, all_tiers
 
 
 def profile_count() -> int:
@@ -122,7 +135,7 @@ def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
     }
 
 
-def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
+def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers: dict | None = None) -> dict:
     total = len(authors)
     hungary = sum(1 for a in authors if (a.get("works") or "") in ("hungary", "company_hungary"))
     abroad = sum(1 for a in authors if (a.get("works") or "") in ("abroad", "company_abroad"))
@@ -130,7 +143,6 @@ def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
     applied = sum(1 for a in authors if a.get("category") == "applied")
 
     astar_papers = len(hun_papers) if hun_papers is not None else sum(a.get("core_astar_papers", 0) or 0 for a in authors)
-    hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
 
     # Hungarian-share weighted A* count: Σ_paper (hungarian_authors / total_authors)
     # Build PID→is_hungarian lookup from authors list
@@ -156,20 +168,35 @@ def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
             if pid:
                 hun_pid_paths.add(pid.lstrip("/"))
 
+    def _hu_share_for_paper(paper: dict) -> float:
+        paper_authors = paper.get("authors", [])
+        n_total = len(paper_authors)
+        if not n_total:
+            return 0.0
+        n_hun = 0
+        for entry in paper_authors:
+            name = entry[0] if isinstance(entry, list) else entry
+            pid  = (entry[1] if isinstance(entry, list) and len(entry) > 1 else "").lstrip("/")
+            if pid in hun_pid_paths or name in hun_names:
+                n_hun += 1
+        return n_hun / n_total
+
     astar_hu_share = 0.0
     if hun_papers:
         for paper in hun_papers.values():
-            paper_authors = paper.get("authors", [])
-            n_total = len(paper_authors)
-            if not n_total:
+            astar_hu_share += _hu_share_for_paper(paper)
+
+    # Weighted equiv across all tiers: Σ_paper (tier_weight × hungarian_authors/total_authors)
+    hun_astar_eq = 0.0
+    if all_tier_papers:
+        for tier, papers in all_tier_papers.items():
+            weight = TIER_WEIGHTS.get(tier, 0.0)
+            if not weight:
                 continue
-            n_hun = 0
-            for entry in paper_authors:
-                name = entry[0] if isinstance(entry, list) else entry
-                pid  = (entry[1] if isinstance(entry, list) and len(entry) > 1 else "").lstrip("/")
-                if pid in hun_pid_paths or name in hun_names:
-                    n_hun += 1
-            astar_hu_share += n_hun / n_total
+            for paper in papers.values():
+                hun_astar_eq += weight * _hu_share_for_paper(paper)
+    else:
+        hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
 
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
     age_counter = Counter(a.get("age_group") or "no PhD" for a in authors)
@@ -330,6 +357,31 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
   .stat-card .val.red {{ color: var(--accent3); }}
   .stat-card .lbl {{ font-size: 0.78rem; color: var(--muted); margin-top: 0.15rem; }}
 
+  .stat-card[data-tip] {{ cursor: help; position: relative; }}
+  .stat-card[data-tip]::after {{
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 0.4em 0.7em;
+    border-radius: 0.3em;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    width: max-content;
+    max-width: 240px;
+    text-align: left;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  }}
+  .stat-card[data-tip]:hover::after {{ opacity: 1; }}
+
   .section-title {{ font-size: 1.1rem; font-weight: 600; margin: 1.75rem 0 0.75rem; border-bottom: 2px solid var(--border); padding-bottom: 0.35rem; }}
 
   .two-col {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }}
@@ -399,35 +451,35 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
 
   <div class="section-title">Kulcsmutatók</div>
   <div class="stats-grid">
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Az adatbázisban nyilvántartott összes kutató száma, akiknek legalább egy CORE minősítésű cikke van.">
       <div class="val">{s["total"]}</div>
       <div class="lbl">Nyilvántartott kutató</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Jelenleg magyarországi intézménnyel rendelkező kutatók száma.">
       <div class="val green">{s["hungary"]}</div>
       <div class="lbl">Magyarországon dolgozik ({hun_pct}%)</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Jelenleg külföldi intézménnyel rendelkező, de korábban Magyarországon dolgozó kutatók száma.">
       <div class="val red">{s["abroad"]}</div>
       <div class="lbl">Külföldön dolgozik ({ab_pct}%)</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Az összes különböző CORE A* konferencia-cikk száma, amelynek legalább egy szerzője magyarországi intézménynél dolgozott a megjelenéskor.">
       <div class="val">{s["astar_papers"]}</div>
       <div class="lbl">CORE A* cikk (összes egyedi)</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Minden A* cikkre: (magyar szerzők száma / összes szerző száma). Összege az összes A* cikken.\n\nPélda: 4 szerzős cikknél 2 magyar → +0,5.">
       <div class="val">{s["astar_hu_share"]:.1f}</div>
       <div class="lbl">Magyar A* (szerzői arány)</div>
     </div>
-    <div class="stat-card">
-      <div class="val">{s["hun_astar_eq"]:.0f}</div>
+    <div class="stat-card" data-tip="Minden cikkre: tier_súly × (magyar szerzők / összes szerző).\n\nTier súlyok:\n  A* = 1\n  A  = 1/3\n  B  = 1/6\n  C  = 1/9">
+      <div class="val">{s["hun_astar_eq"]:.1f}</div>
       <div class="lbl">Magyar CORE A* ekvivalens (súlyozott)</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Elméletközpontú (algoritmusok, komplexitáselmélet stb.) kutatóként besorolt személyek száma.">
       <div class="val">{s["theory"]}</div>
       <div class="lbl">Elméleti informatikus</div>
     </div>
-    <div class="stat-card">
+    <div class="stat-card" data-tip="Alkalmazott informatikusként besorolt személyek száma (gépi tanulás, rendszerek, hálózatok stb.).">
       <div class="val">{s["applied"]}</div>
       <div class="lbl">Alkalmazott informatikus</div>
     </div>
@@ -600,9 +652,9 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
 
 def main():
     authors = load_authors()
-    hun, abr = load_papers()
+    hun, abr, all_tiers = load_papers()
     name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
-    stats = compute_stats(authors, hun_papers=hun)
+    stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers)
     chart = build_chart_data(hun, abr, name_cat)
     photo_map = load_photo_map()
     html = render(stats, chart, photo_map)
