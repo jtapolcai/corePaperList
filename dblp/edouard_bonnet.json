@@ -1,430 +1,5882 @@
 {
   "dblpperson": {
+    "@name": "Edouard Bonnet",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/soda/BonnetBGT24",
-        "title": "Factoring Pattern-Free Permutations into Separable ones.",
-        "pages": "752-779",
-        "year": "2024",
-        "booktitle": "SODA",
-        "ee": "https://doi.org/10.1137/1.9781611977912.30",
-        "url": "db/conf/soda/soda2024.html#BonnetBGT24",
-        "authors": [
-          "Edouard Bonnet",
-          "Romain Bourneuf",
-          "Colin Geniet",
-          "StÃ©phan ThomassÃ©"
-        ]
+        "informal": {
+          "@key": "books/hal/Bonnet24",
+          "title": "Twin-Width and Contraction Sequences",
+          "journal": "",
+          "year": "2024",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/soda/BonamyBDEGHTW23",
-        "title": "Sparse graphs with bounded induced cycle packing number have logarithmic treewidth.",
-        "pages": "3006-3028",
-        "year": "2023",
-        "booktitle": "SODA",
-        "ee": "https://doi.org/10.1137/1.9781611977554.ch116",
-        "url": "db/conf/soda/soda2023.html#BonamyBDEGHTW23",
-        "authors": [
-          "Marthe Bonamy",
-          "Edouard Bonnet",
-          "Hugues DÃ©prÃ©s",
-          "Louis Esperet",
-          "Colin Geniet",
-          "Claire Hilaire",
-          "StÃ©phan ThomassÃ©",
-          "Alexandra Wesolek"
-        ]
+        "inproceedings": {
+          "@key": "conf/acg/BonnetJS15",
+          "title": "Draws, Zugzwangs, and PSPACE-Completeness in the Slither Connection Game",
+          "booktitle": "ACG",
+          "year": "2015",
+          "pages": "160-176",
+          "ee": "https://doi.org/10.1007/978-3-319-27992-3_15",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/soda/BonnetDSZZ24",
-        "title": "Small But Unwieldy: A Lower Bound on Adjacency Labels for Small Classes.",
-        "pages": "1147-1165",
-        "year": "2024",
-        "booktitle": "SODA",
-        "ee": "https://doi.org/10.1137/1.9781611977912.44",
-        "url": "db/conf/soda/soda2024.html#BonnetDSZZ24",
-        "authors": [
-          "Edouard Bonnet",
-          "Julien Duron",
-          "John Sylvester 0001",
-          "Viktor Zamaraev",
-          "Maksim Zhukovskii"
-        ]
+        "inproceedings": {
+          "@key": "conf/cg/BonnetJS13",
+          "title": "Havannah and TwixT are PSPACE-complete",
+          "booktitle": "Computers and Games",
+          "year": "2014",
+          "pages": "175-186",
+          "ee": "https://doi.org/10.1007/978-3-319-09165-5_15",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cocoon/BonnetF0S15",
-        "title": "Complexity of Grundy Coloring and Its Variants.",
-        "pages": "109-120",
-        "year": "2015",
-        "booktitle": "COCOON",
-        "ee": "https://doi.org/10.1007/978-3-319-21398-9_9",
-        "url": "db/conf/cocoon/cocoon2015.html#BonnetF0S15",
-        "authors": [
-          "Edouard Bonnet",
-          "Florent Foucaud",
-          "Eun Jung Kim 0002",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/cocoon/BonnetF0S15",
+          "title": "Complexity of Grundy Coloring and Its Variants",
+          "booktitle": "COCOON",
+          "year": "2015",
+          "pages": "109-120",
+          "ee": "https://doi.org/10.1007/978-3-319-21398-9_9",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/focs/BonamyBBCT18",
-        "title": "EPTAS for Max Clique on Disks and Unit Balls.",
-        "pages": "568-579",
-        "year": "2018",
-        "booktitle": "FOCS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/FOCS.2018.00060",
-        "url": "db/conf/focs/focs2018.html#BonamyBBCT18",
-        "authors": [
-          "Marthe Bonamy",
-          "Edouard Bonnet",
-          "Nicolas Bousquet 0001",
-          "Pierre Charbit",
-          "StÃ©phan ThomassÃ©"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BiroBMMR17",
+          "title": "Fine-Grained Complexity of Coloring Unit Disks and Balls",
+          "booktitle": "SoCG",
+          "year": "2017",
+          "pages": "18:1-18:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2017.18",
+          "author": [
+            {
+              "#text": "Csaba Biró",
+              "@pid": "82/7603"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwoca/Abu-KhzamBS14",
-        "title": "On the Complexity of Various Parameterizations of Common Induced Subgraph Isomorphism.",
-        "pages": "1-12",
-        "year": "2014",
-        "booktitle": "IWOCA",
-        "ee": "https://doi.org/10.1007/978-3-319-19315-1_1",
-        "url": "db/conf/iwoca/iwoca2014.html#Abu-KhzamBS14",
-        "authors": [
-          "Faisal N. Abu-Khzam",
-          "Edouard Bonnet",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetG0RS18",
+          "title": "QPTAS and Subexponential Algorithm for Maximum Clique on Disk Graphs",
+          "booktitle": "SoCG",
+          "year": "2018",
+          "pages": "12:1-12:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2018.12",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcai/BonnetJS13",
-        "title": "On the Complexity of Trick-Taking Card Games.",
-        "year": "2013",
-        "booktitle": "IJCAI",
-        "ee": "http://ijcai.org/Abstract/13/079",
-        "url": "db/conf/ijcai/ijcai2013.html#BonnetJS13",
-        "pages": "482-488",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Jamain",
-          "Abdallah Saffidine"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetG18",
+          "title": "Orthogonal Terrain Guarding is NP-complete",
+          "booktitle": "SoCG",
+          "year": "2018",
+          "pages": "11:1-11:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2018.11",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/acg/BonnetJS15",
-        "title": "Draws, Zugzwangs, and PSPACE-Completeness in the Slither Connection Game.",
-        "pages": "160-176",
-        "year": "2015",
-        "booktitle": "ACG",
-        "ee": "https://doi.org/10.1007/978-3-319-27992-3_15",
-        "url": "db/conf/acg/acg2015.html#BonnetJS15",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Jamain",
-          "Abdallah Saffidine"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetH25",
+          "title": "On the Twin-Width of Smooth Manifolds",
+          "booktitle": "SoCG",
+          "year": "2025",
+          "pages": "23:1-23:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2025.23",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Kristóf Huszár",
+              "@pid": "211/7942"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/BonnetEPT13",
-        "title": "Multi-parameter Complexity Analysis for Constrained Size Graph Problems: Using Greediness for Parameterization.",
-        "pages": "66-77",
-        "year": "2013",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.1007/978-3-319-03898-8_7",
-        "url": "db/conf/iwpec/ipec2013.html#BonnetEPT13",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Vangelis Th. Paschos",
-          "Emeric Tourniaire"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetM17",
+          "title": "An Approximation Algorithm for the Art Gallery Problem",
+          "booktitle": "SoCG",
+          "year": "2017",
+          "pages": "20:1-20:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2017.20",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/BonnetE0P13",
-        "title": "On Subexponential and FPT-Time Inapproximability.",
-        "pages": "54-65",
-        "year": "2013",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.1007/978-3-319-03898-8_6",
-        "url": "db/conf/iwpec/ipec2013.html#BonnetE0P13",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Eun Jung Kim 0002",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetR25",
+          "title": "An 11/6-Approximation Algorithm for Vertex Cover on String Graphs",
+          "booktitle": "SoCG",
+          "year": "2025",
+          "pages": "24:1-24:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2025.24",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwpec/BonnetS15",
-        "title": "The Graph Motif Problem Parameterized by the Structure of the Input Graph.",
-        "pages": "319-330",
-        "year": "2015",
-        "booktitle": "IPEC",
-        "ee": "https://doi.org/10.4230/LIPIcs.IPEC.2015.319",
-        "url": "db/conf/iwpec/ipec2015.html#BonnetS15",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecai/BonnetS14",
+          "title": "On the Complexity of General Game Playing",
+          "booktitle": "CGW@ECAI",
+          "year": "2014",
+          "pages": "90-104",
+          "ee": "https://doi.org/10.1007/978-3-319-14923-3_7",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cg/BonnetJS13",
-        "title": "Havannah and TwixT are PSPACE-complete.",
-        "pages": "175-186",
-        "year": "2013",
-        "booktitle": "Computers and Games",
-        "ee": "https://www.wikidata.org/entity/Q55891786",
-        "url": "db/conf/cg/cg2013.html#BonnetJS13",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Jamain",
-          "Abdallah Saffidine"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/Bonnet26",
+          "title": "Answering Related Questions",
+          "booktitle": "ESA",
+          "year": "2026",
+          "pages": "73:1-73:20",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2026.73",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/BonnetE0P15",
-        "title": "On Subexponential and FPT-Time Inapproximability.",
-        "pages": "541-565",
-        "year": "2015",
-        "volume": "71",
-        "journal": "Algorithmica",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00453-014-9889-1",
-        "url": "db/journals/algorithmica/algorithmica71.html#BonnetE0P15",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Eun Jung Kim 0002",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetCDGK26",
+          "title": "Moderately Beyond Clique-Width: Reduced Component Max-Leaf and Related Parameters",
+          "booktitle": "ESA",
+          "year": "2026",
+          "pages": "50:1-50:16",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2026.50",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            },
+            {
+              "#text": "Yeonsu Chang",
+              "@pid": "339/8678"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithmica/BonnetEPT15",
-        "title": "Multi-parameter Analysis for Local Graph Partitioning Problems: Using Greediness for Parameterization.",
-        "pages": "566-580",
-        "year": "2015",
-        "volume": "71",
-        "journal": "Algorithmica",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00453-014-9920-6",
-        "url": "db/journals/algorithmica/algorithmica71.html#BonnetEPT15",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Vangelis Th. Paschos",
-          "Emeric Tourniaire"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetDGTW23",
+          "title": "Maximum Independent Set When Excluding an Induced Minor: K₁ + tK₂ and tC₃ ⊎ C₄",
+          "booktitle": "ESA",
+          "year": "2023",
+          "pages": "23:1-23:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2023.23",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jocg/BonnetGL19",
-        "title": "On the parameterized complexity of red-blue points separation.",
-        "pages": "181-206",
-        "year": "2019",
-        "volume": "10",
-        "journal": "J. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.20382/jocg.v10i1a7",
-        "url": "db/journals/jocg/jocg10.html#BonnetGL19",
-        "authors": [
-          "Edouard Bonnet",
-          "Panos Giannopoulos",
-          "Michael Lampis"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetEM16",
+          "title": "Fixed-Parameter Approximability of Boolean MinCSPs",
+          "booktitle": "ESA",
+          "year": "2016",
+          "pages": "18:1-18:18",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2016.18",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "László Egri",
+              "@pid": "02/6401"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/orl/BonnetP14",
-        "title": "Parameterized (in)approximability of subset problems.",
-        "pages": "222-225",
-        "year": "2014",
-        "volume": "42",
-        "journal": "Oper. Res. Lett.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.orl.2014.03.005",
-        "url": "db/journals/orl/orl42.html#BonnetP14",
-        "authors": [
-          "Edouard Bonnet",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetIJK19",
+          "title": "Fine-Grained Complexity of k-OPT in Bounded-Degree Graphs for Solving TSP",
+          "booktitle": "ESA",
+          "year": "2019",
+          "pages": "23:1-23:14",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2019.23",
+          "author": [
+            {
+              "#text": "Bart M. P. Jansen",
+              "@pid": "58/8776"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Lukasz Kowalik",
+              "@pid": "k/LukaszKowalik"
+            },
+            {
+              "#text": "Yoichi Iwata",
+              "@pid": "61/11063"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetEPS14",
-        "title": "On the approximation of maximum $k$-vertex cover in bipartite graphs.",
-        "year": "2014",
-        "volume": "abs/1409.6952",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1409.6952",
-        "url": "db/journals/corr/corr1409.html#BonnetEPS14",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Vangelis Th. Paschos",
-          "Georgios Stamoulis"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetM16",
+          "title": "Parameterized Hardness of Art Gallery Problems",
+          "booktitle": "ESA",
+          "year": "2016",
+          "pages": "19:1-19:17",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2016.19",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetEPT13",
-        "title": "Multi-parameter complexity analysis for constrained size graph problems: using greediness for parameterization.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1306.2217",
-        "volume": "abs/1306.2217",
-        "url": "db/journals/corr/corr1306.html#BonnetEPT13",
-        "authors": [
-          "Edouard Bonnet",
-          "Bruno Escoffier",
-          "Vangelis Th. Paschos",
-          "Emeric Tourniaire"
-        ]
+        "inproceedings": {
+          "@key": "conf/esa/BonnetTTW20",
+          "title": "An Algorithmic Weakening of the Erdős-Hajnal Conjecture",
+          "booktitle": "ESA",
+          "year": "2020",
+          "pages": "23:1-23:18",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2020.23",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Xuan Thang Tran",
+              "@pid": "263/7202"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetP14",
-        "title": "Sparsification and subexponential approximation.",
-        "year": "2014",
-        "volume": "abs/1402.2843",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1402.2843",
-        "url": "db/journals/corr/corr1402.html#BonnetP14",
-        "authors": [
-          "Edouard Bonnet",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/focs/BonamyBBCT18",
+          "title": "EPTAS for Max Clique on Disks and Unit Balls",
+          "booktitle": "FOCS",
+          "year": "2018",
+          "pages": "568-579",
+          "ee": "https://doi.org/10.1109/FOCS.2018.00060",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetJS14",
-        "title": "Havannah and TwixT are PSPACE-complete.",
-        "year": "2014",
-        "volume": "abs/1403.6518",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1403.6518",
-        "url": "db/journals/corr/corr1403.html#BonnetJS14",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Jamain",
-          "Abdallah Saffidine"
-        ]
+        "inproceedings": {
+          "@key": "conf/focs/Bonnet0TW20",
+          "title": "Twin-width I: tractable FO model checking",
+          "booktitle": "FOCS",
+          "year": "2020",
+          "pages": "601-612",
+          "ee": "https://doi.org/10.1109/FOCS46700.2020.00062",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetP13a",
-        "title": "Parameterized (in)approximability of subset problems.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1310.5576",
-        "volume": "abs/1310.5576",
-        "url": "db/journals/corr/corr1310.html#BonnetP13a",
-        "authors": [
-          "Edouard Bonnet",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/fsttcs/AgrawalBBBCMM0019",
+          "title": "Parameterized Streaming Algorithms for Min-Ones d-SAT",
+          "booktitle": "FSTTCS",
+          "year": "2019",
+          "pages": "8:1-8:20",
+          "ee": "https://doi.org/10.4230/LIPICS.FSTTCS.2019.8",
+          "author": [
+            {
+              "#text": "Akanksha Agrawal",
+              "@pid": "144/7801"
+            },
+            {
+              "#text": "Arindam Biswas",
+              "@pid": "82/2478-1"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "Radu Curticapean",
+              "@pid": "00/9960"
+            },
+            {
+              "#text": "Saket Saurabh",
+              "@pid": "11/5491"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Venkatesh Raman",
+              "@pid": "25/2134"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetPS13",
-        "title": "Multiparameterizations for max $k$-set cover and related satisfiability problems.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1309.4718",
-        "volume": "abs/1309.4718",
-        "url": "db/journals/corr/corr1309.html#BonnetPS13",
-        "authors": [
-          "Edouard Bonnet",
-          "Vangelis Th. Paschos",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/fsttcs/BonnetGM20",
+          "title": "Maximum Clique in Disk-Like Intersection Graphs",
+          "booktitle": "FSTTCS",
+          "year": "2020",
+          "pages": "17:1-17:18",
+          "ee": "https://doi.org/10.4230/LIPICS.FSTTCS.2020.17",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetS15",
-        "title": "The parameterized complexity of Graph Motif relatively to the structure of the input graph.",
-        "year": "2015",
-        "volume": "abs/1503.05110",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1503.05110",
-        "url": "db/journals/corr/corr1503.html#BonnetS15",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/AboulkerBPT25",
+          "title": "Induced Disjoint Paths Without an Induced Minor",
+          "booktitle": "ICALP",
+          "year": "2025",
+          "pages": "4:1-4:14",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2025.4",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Trotignon",
+              "@pid": "91/4388"
+            },
+            {
+              "#text": "Pierre Aboulker",
+              "@pid": "49/10966"
+            },
+            {
+              "#text": "Timothé Picavet",
+              "@pid": "291/6764"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetF0S14",
-        "title": "Complexity of Grundy coloring and its variants.",
-        "year": "2014",
-        "volume": "abs/1407.5336",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1407.5336",
-        "url": "db/journals/corr/corr1407.html#BonnetF0S14",
-        "authors": [
-          "Edouard Bonnet",
-          "Florent Foucaud",
-          "Eun Jung Kim 0002",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/BergeBD22",
+          "title": "Deciding Twin-Width at Most 4 Is NP-Complete",
+          "booktitle": "ICALP",
+          "year": "2022",
+          "pages": "18:1-18:20",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2022.18",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Pierre Bergé",
+              "@pid": "183/9173"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetS16",
-        "title": "A note on Edge Isoperimetric Numbers and Regular Graphs.",
-        "year": "2016",
-        "volume": "abs/1601.05190",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1601.05190",
-        "url": "db/journals/corr/corr1601.html#BonnetS16",
-        "authors": [
-          "Edouard Bonnet",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/BergougnouxBD25",
+          "title": "Mim-Width Is paraNP-Complete",
+          "booktitle": "ICALP",
+          "year": "2025",
+          "pages": "25:1-25:17",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2025.25",
+          "author": [
+            {
+              "#text": "Benjamin Bergougnoux",
+              "@pid": "195/6279"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/Abu-KhzamBS14",
-        "title": "On the Complexity of Various Parameterizations of Common Induced Subgraph Isomorphism.",
-        "year": "2014",
-        "volume": "abs/1412.1261",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1412.1261",
-        "url": "db/journals/corr/corr1412.html#Abu-KhzamBS14",
-        "authors": [
-          "Faisal N. Abu-Khzam",
-          "Edouard Bonnet",
-          "Florian Sikora"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/Bonnet21",
+          "title": "4 vs 7 Sparse Undirected Unweighted Diameter is SETH-Hard at Time n^{4/3}",
+          "booktitle": "ICALP",
+          "year": "2021",
+          "pages": "34:1-34:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2021.34",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BonnetLP15",
-        "title": "Time-Approximation Trade-offs for Inapproximable Problems.",
-        "year": "2015",
-        "volume": "abs/1502.05828",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1502.05828",
-        "url": "db/journals/corr/corr1502.html#BonnetLP15",
-        "authors": [
-          "Edouard Bonnet",
-          "Michael Lampis",
-          "Vangelis Th. Paschos"
-        ]
+        "inproceedings": {
+          "@key": "conf/icalp/BonnetBEGMPPT25",
+          "title": "Separability Properties of Monadically Dependent Graph Classes",
+          "booktitle": "ICALP",
+          "year": "2025",
+          "pages": "147:1-147:19",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2025.147",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Ioannis Eleftheriadis",
+              "@pid": "340/4034"
+            },
+            {
+              "#text": "Michal Pilipczuk",
+              "@pid": "61/8036"
+            },
+            {
+              "#text": "Nikolas Mählmann",
+              "@pid": "252/6708"
+            },
+            {
+              "#text": "Samuel Braunfeld",
+              "@pid": "135/8062"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            },
+            {
+              "#text": "Wojciech Przybyszewski",
+              "@pid": "313/2711"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/BonnetD0ZZ24",
+          "title": "Tight Bounds on Adjacency Labels for Monotone Graph Classes",
+          "booktitle": "ICALP",
+          "year": "2024",
+          "pages": "31:1-31:20",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2024.31",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maksim Zhukovskii",
+              "@pid": "77/11133"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/BonnetG0TW21",
+          "title": "Twin-width III: Max Independent Set, Min Dominating Set, and Coloring",
+          "booktitle": "ICALP",
+          "year": "2021",
+          "pages": "35:1-35:20",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2021.35",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/BonnetGKM26",
+          "title": "Fast Shortest Path in Graphs with Sparse Signed Tree Models and Applications",
+          "booktitle": "ICALP",
+          "year": "2026",
+          "pages": "40:1-40:23",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2026.40",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Sungmin Moon",
+              "@pid": "245/8253"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/BonnetGLRS17",
+          "title": "The Parameterized Complexity of Positional Games",
+          "booktitle": "ICALP",
+          "year": "2017",
+          "pages": "90:1-90:14",
+          "ee": "https://doi.org/10.4230/LIPICS.ICALP.2017.90",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Antonin Lambilliotte",
+              "@pid": "199/1788"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Serge Gaspers",
+              "@pid": "33/5862"
+            },
+            {
+              "#text": "Stefan Rümmele",
+              "@pid": "86/5471"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcai/Bonnet16",
+          "title": "The Complexity of Playing Durak",
+          "booktitle": "IJCAI",
+          "year": "2016",
+          "pages": "109-115",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcai/BonnetJS13",
+          "title": "On the Complexity of Trick-Taking Card Games",
+          "booktitle": "IJCAI",
+          "year": "2013",
+          "pages": "482-488",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/innovations/BonnetD0Z25",
+          "title": "Adjacency Labeling Schemes for Small Classes",
+          "booktitle": "ITCS",
+          "year": "2025",
+          "pages": "21:1-21:22",
+          "ee": "https://doi.org/10.4230/LIPICS.ITCS.2025.21",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/BonnetBTW19",
+          "title": "When Maximum Stable Set Can Be Solved in FPT Time",
+          "booktitle": "ISAAC",
+          "year": "2019",
+          "pages": "49:1-49:22",
+          "ee": "https://doi.org/10.4230/LIPICS.ISAAC.2019.49",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwoca/Abu-KhzamBS14",
+          "title": "On the Complexity of Various Parameterizations of Common Induced Subgraph Isomorphism",
+          "booktitle": "IWOCA",
+          "year": "2015",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1007/978-3-319-19315-1_1",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Faisal N. Abu-Khzam",
+              "@pid": "64/3320"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BergougnouxBBK20",
+          "title": "Close Relatives of Feedback Vertex Set Without Single-Exponential Algorithms Parameterized by Treewidth",
+          "booktitle": "IPEC",
+          "year": "2020",
+          "pages": "3:1-3:17",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2020.3",
+          "author": [
+            {
+              "#text": "Benjamin Bergougnoux",
+              "@pid": "195/6279"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BodlaenderBJKLM23",
+          "title": "Treewidth Is NP-Complete on Cubic Graphs",
+          "booktitle": "IPEC",
+          "year": "2023",
+          "pages": "7:1-7:13",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2023.7",
+          "author": [
+            {
+              "#text": "Dusan Knop",
+              "@pid": "161/2021"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hans L. Bodlaender",
+              "@pid": "b/HLBodlaender"
+            },
+            {
+              "#text": "Lars Jaffke",
+              "@pid": "160/8115"
+            },
+            {
+              "#text": "Martin Milanic",
+              "@pid": "93/6920"
+            },
+            {
+              "#text": "Ondrej Suchý",
+              "@pid": "57/1414"
+            },
+            {
+              "#text": "Paloma T. Lima",
+              "@pid": "198/0891"
+            },
+            {
+              "#text": "Sebastian Ordyniak",
+              "@pid": "88/3220"
+            },
+            {
+              "#text": "Sukanya Pandey",
+              "@pid": "283/7019"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/Bonnet0RTW21",
+          "title": "Twin-Width and Polynomial Kernels",
+          "booktitle": "IPEC",
+          "year": "2021",
+          "pages": "10:1-10:16",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2021.10",
+          "author": [
+            {
+              "#text": "Amadeus Reinald",
+              "@pid": "297/3871"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetBCTW18",
+          "title": "Parameterized Complexity of Independent Set in H-Free Graphs",
+          "booktitle": "IPEC",
+          "year": "2019",
+          "pages": "17:1-17:13",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2018.17",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetBKM17",
+          "title": "Generalized Feedback Vertex Set Problems on Bounded-Treewidth Graphs: Chordality Is the Key to Single-Exponential Parameterized Algorithms",
+          "booktitle": "IPEC",
+          "year": "2018",
+          "pages": "7:1-7:13",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2017.7",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetC0K0T22",
+          "title": "Twin-Width VIII: Delineation and Win-Wins",
+          "booktitle": "IPEC",
+          "year": "2022",
+          "pages": "9:1-9:18",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2022.9",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Noleen Köhler",
+              "@pid": "272/5476"
+            },
+            {
+              "#text": "Raul Lopes",
+              "@pid": "174/3138-1"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetD23",
+          "title": "Stretch-Width",
+          "booktitle": "IPEC",
+          "year": "2023",
+          "pages": "8:1-8:15",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2023.8",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetD23a",
+          "title": "PACE Solver Description: RedAlert - Heuristic Track",
+          "booktitle": "IPEC",
+          "year": "2023",
+          "pages": "40:1-40:5",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2023.40",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetE0P13",
+          "title": "On Subexponential and FPT-Time Inapproximability",
+          "booktitle": "IPEC",
+          "year": "2013",
+          "pages": "54-65",
+          "ee": "https://doi.org/10.1007/978-3-319-03898-8_6",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetEPT13",
+          "title": "Multi-parameter Complexity Analysis for Constrained Size Graph Problems: Using Greediness for Parameterization",
+          "booktitle": "IPEC",
+          "year": "2013",
+          "pages": "66-77",
+          "ee": "https://doi.org/10.1007/978-3-319-03898-8_7",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Emeric Tourniaire",
+              "@pid": "00/11286"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetGL17",
+          "title": "On the Parameterized Complexity of Red-Blue Points Separation",
+          "booktitle": "IPEC",
+          "year": "2018",
+          "pages": "8:1-8:13",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2017.8",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetN025",
+          "title": "Treedepth Inapproximability and Exponential ETH Lower Bound",
+          "booktitle": "IPEC",
+          "year": "2025",
+          "pages": "17:1-17:10",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2025.17",
+          "author": [
+            {
+              "#text": "Daniel Neuen",
+              "@pid": "176/5089"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Marek Sokolowski",
+              "@pid": "287/4919-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetP19",
+          "title": "Metric Dimension Parameterized by Treewidth",
+          "booktitle": "IPEC",
+          "year": "2019",
+          "pages": "5:1-5:15",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2019.5",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nidhi Purohit",
+              "@pid": "218/6907"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetS15",
+          "title": "The Graph Motif Problem Parameterized by the Structure of the Input Graph",
+          "booktitle": "IPEC",
+          "year": "2015",
+          "pages": "319-330",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2015.319",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwpec/BonnetS18",
+          "title": "The PACE 2018 Parameterized Algorithms and Computational Experiments Challenge: The Third Iteration",
+          "booktitle": "IPEC",
+          "year": "2019",
+          "pages": "26:1-26:15",
+          "ee": "https://doi.org/10.4230/LIPICS.IPEC.2018.26",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/latin/BonnetEPS16",
+          "title": "A 0.821-Ratio Purely Combinatorial Algorithm for Maximum k-vertex Cover in Bipartite Graphs",
+          "booktitle": "LATIN",
+          "year": "2016",
+          "pages": "235-248",
+          "ee": "https://doi.org/10.1007/978-3-662-49529-2_18",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Georgios Stamoulis",
+              "@pid": "116/7590"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lics/BonnetDGKMST22",
+          "title": "Model Checking on Interpretations of Classes of Bounded Local Cliquewidth",
+          "booktitle": "LICS",
+          "year": "2022",
+          "pages": "54:1-54:13",
+          "ee": "https://doi.org/10.1145/3531130.3533367",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jakub Gajarský",
+              "@pid": "11/11268"
+            },
+            {
+              "#text": "Jan Dreier",
+              "@pid": "151/6308"
+            },
+            {
+              "#text": "Nikolas Mählmann",
+              "@pid": "252/6708"
+            },
+            {
+              "#text": "Pierre Simon",
+              "@pid": "35/9616"
+            },
+            {
+              "#text": "Stephan Kreutzer",
+              "@pid": "k/StephanKreutzer"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/BodirskyBS25",
+          "title": "Temporal Valued Constraint Satisfaction Problems",
+          "booktitle": "MFCS",
+          "year": "2025",
+          "pages": "24:1-24:19",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2025.24",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Manuel Bodirsky",
+              "@pid": "b/ManuelBodirsky"
+            },
+            {
+              "#text": "Zaneta Semanisinová",
+              "@pid": "332/6768"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/BonnetD0Z24",
+          "title": "Symmetric-Difference (Degeneracy) and Signed Tree Models",
+          "booktitle": "MFCS",
+          "year": "2024",
+          "pages": "32:1-32:16",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2024.32",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recomb/BonnetRS18",
+          "title": "Designing RNA Secondary Structures Is Hard",
+          "booktitle": "RECOMB",
+          "year": "2018",
+          "pages": "248-250",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sea2/BonnetFW19",
+          "title": "Constraint Generation Algorithm for the Minimum Connectivity Inference Problem",
+          "booktitle": "SEA²",
+          "year": "2019",
+          "pages": "167-183",
+          "ee": "https://doi.org/10.1007/978-3-030-34029-2_12",
+          "author": [
+            {
+              "#text": "Diana-Elena Falamas",
+              "@pid": "247/9674"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/BonamyBDEGHTW23",
+          "title": "Sparse graphs with bounded induced cycle packing number have logarithmic treewidth",
+          "booktitle": "SODA",
+          "year": "2023",
+          "pages": "3006-3028",
+          "ee": "https://doi.org/10.1137/1.9781611977554.CH116",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Claire Hilaire",
+              "@pid": "304/3120"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Louis Esperet",
+              "@pid": "18/3681"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/BonnetBGT24",
+          "title": "Factoring Pattern-Free Permutations into Separable ones",
+          "booktitle": "SODA",
+          "year": "2024",
+          "pages": "752-779",
+          "ee": "https://doi.org/10.1137/1.9781611977912.30",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Romain Bourneuf",
+              "@pid": "329/5862"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/BonnetDSZZ24",
+          "title": "Small But Unwieldy: A Lower Bound on Adjacency Labels for Small Classes",
+          "booktitle": "SODA",
+          "year": "2024",
+          "pages": "1147-1165",
+          "ee": "https://doi.org/10.1137/1.9781611977912.44",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maksim Zhukovskii",
+              "@pid": "77/11133"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/BonnetGKTW21",
+          "title": "Twin-width II: small classes",
+          "booktitle": "SODA",
+          "year": "2021",
+          "pages": "1977-1996",
+          "ee": "https://doi.org/10.1137/1.9781611976465.118",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/soda/BonnetKRT22",
+          "title": "Twin-width VI: the lens of contraction sequences",
+          "booktitle": "SODA",
+          "year": "2022",
+          "pages": "1036-1056",
+          "ee": "https://doi.org/10.1137/1.9781611977073.45",
+          "author": [
+            {
+              "#text": "Amadeus Reinald",
+              "@pid": "297/3871"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/AboulkerB0S20",
+          "title": "Grundy Coloring & Friends, Half-Graphs, Bicliques",
+          "booktitle": "STACS",
+          "year": "2020",
+          "pages": "58:1-58:18",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2020.58",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pierre Aboulker",
+              "@pid": "49/10966"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BergeBDW23",
+          "title": "Approximating Highly Inapproximable Problems on Graphs of Bounded Twin-Width",
+          "booktitle": "STACS",
+          "year": "2023",
+          "pages": "10:1-10:15",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2023.10",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Pierre Bergé",
+              "@pid": "183/9173"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/Bonnet21",
+          "title": "Inapproximability of Diameter in Super-Linear Time: Beyond the 5/3 Ratio",
+          "booktitle": "STACS",
+          "year": "2021",
+          "pages": "17:1-17:13",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2021.17",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BonnetCM20",
+          "title": "Maximum Matchings in Geometric Intersection Graphs",
+          "booktitle": "STACS",
+          "year": "2020",
+          "pages": "31:1-31:17",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2020.31",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            },
+            {
+              "#text": "Wolfgang Mulzer",
+              "@pid": "m/WolfgangMulzer"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BonnetGMT23",
+          "title": "Twin-Width V: Linear Minors, Modular Counting, and Matrix Multiplication",
+          "booktitle": "STACS",
+          "year": "2023",
+          "pages": "15:1-15:16",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2023.15",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Ugo Giocanti",
+              "@pid": "284/9064"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BonnetLP16",
+          "title": "Time-Approximation Trade-offs for Inapproximable Problems",
+          "booktitle": "STACS",
+          "year": "2016",
+          "pages": "22:1-22:14",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2016.22",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BonnetMR17",
+          "title": "Complexity of Token Swapping and its Variants",
+          "booktitle": "STACS",
+          "year": "2017",
+          "pages": "16:1-16:14",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2017.16",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/Bonnet25",
+          "title": "Treewidth Inapproximability and Tight ETH Lower Bound",
+          "booktitle": "STOC",
+          "year": "2025",
+          "pages": "2130-2135",
+          "ee": "https://doi.org/10.1145/3717823.3718117",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/BonnetGMSTT22",
+          "title": "Twin-width IV: ordered graphs and matrices",
+          "booktitle": "STOC",
+          "year": "2022",
+          "pages": "924-937",
+          "ee": "https://doi.org/10.1145/3519935.3520037",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Pierre Simon",
+              "@pid": "35/9616"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            },
+            {
+              "#text": "Ugo Giocanti",
+              "@pid": "284/9064"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/BonnetKLLM26",
+          "title": "Separator Theorem for Minor-Free Graphs in Linear Time",
+          "booktitle": "STOC",
+          "year": "2026",
+          "pages": "61-71",
+          "ee": "https://doi.org/10.1145/3798129.3800727",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hung Le",
+              "@pid": "45/466-1"
+            },
+            {
+              "#text": "Jason Li",
+              "@pid": "12/975-6"
+            },
+            {
+              "#text": "Tomás Masarík",
+              "@pid": "167/4065"
+            },
+            {
+              "#text": "Tuukka Korhonen",
+              "@pid": "204/2613"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/swat/BonnetCMPR26",
+          "title": "QPTAS for MWIS and Finding Large Sparse Induced Subgraphs in Graphs with Few Independent Long Holes",
+          "booktitle": "SWAT",
+          "year": "2026",
+          "pages": "9:1-9:14",
+          "ee": "https://doi.org/10.4230/LIPICS.SWAT.2026.9",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jadwiga Czyzewska",
+              "@pid": "341/1389"
+            },
+            {
+              "#text": "Marcin Pilipczuk",
+              "@pid": "09/4636"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tomás Masarík",
+              "@pid": "167/4065"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/BonnetBKM16",
+          "title": "Parameterized Vertex Deletion Problems for Hereditary Graph Classes with a Block Property",
+          "booktitle": "WG",
+          "year": "2016",
+          "pages": "233-244",
+          "ee": "https://doi.org/10.1007/978-3-662-53536-3_20",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/BonnetCD23",
+          "title": "Cutting Barnette Graphs Perfectly is Hard",
+          "booktitle": "WG",
+          "year": "2023",
+          "pages": "116-129",
+          "ee": "https://doi.org/10.1007/978-3-031-43380-1_9",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/BonnetR18",
+          "title": "Optimality Program in Segment and String Graphs",
+          "booktitle": "WG",
+          "year": "2018",
+          "pages": "79-90",
+          "ee": "https://doi.org/10.1007/978-3-030-00256-5_7",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BonnetD23",
+          "title": "RedAlert",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.5281/ZENODO.8079499",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/acta/BonnetP18",
+          "title": "Sparsification and subexponential approximation",
+          "journal": "Acta Informatica",
+          "year": "2018",
+          "pages": "1-15",
+          "ee": "https://doi.org/10.1007/S00236-016-0281-2",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/AboulkerBKS23",
+          "title": "Grundy Coloring and Friends, Half-Graphs, Bicliques",
+          "journal": "Algorithmica",
+          "year": "2023",
+          "pages": "1-28",
+          "ee": "https://doi.org/10.1007/S00453-022-01001-2",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pierre Aboulker",
+              "@pid": "49/10966"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetBCTW20",
+          "title": "Parameterized Complexity of Independent Set in H-Free Graphs",
+          "journal": "Algorithmica",
+          "year": "2020",
+          "pages": "2360-2394",
+          "ee": "https://doi.org/10.1007/S00453-020-00730-6",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetBKM19",
+          "title": "Generalized Feedback Vertex Set Problems on Bounded-Treewidth Graphs: Chordality is the Key to Single-Exponential Parameterized Algorithms",
+          "journal": "Algorithmica",
+          "year": "2019",
+          "pages": "3890-3935",
+          "ee": "https://doi.org/10.1007/S00453-019-00579-4",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetCMP20",
+          "title": "The Inverse Voronoi Problem in Graphs I: Hardness",
+          "journal": "Algorithmica",
+          "year": "2020",
+          "pages": "3018-3040",
+          "ee": "https://doi.org/10.1007/S00453-020-00716-4",
+          "author": [
+            {
+              "#text": "Bojan Mohar",
+              "@pid": "08/3382"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hebert Pérez-Rosés",
+              "@pid": "82/246"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetCMP21",
+          "title": "The Inverse Voronoi Problem in Graphs II: Trees",
+          "journal": "Algorithmica",
+          "year": "2021",
+          "pages": "1165-1200",
+          "ee": "https://doi.org/10.1007/S00453-020-00774-8",
+          "author": [
+            {
+              "#text": "Bojan Mohar",
+              "@pid": "08/3382"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hebert Pérez-Rosés",
+              "@pid": "82/246"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetDGTW26",
+          "title": "Maximum Independent Set when Excluding an Induced Minor: K1 + tK2 and $tC_3 \\uplus C_4$",
+          "journal": "Algorithmica",
+          "year": "2026",
+          "pages": "16",
+          "ee": "https://doi.org/10.1007/S00453-025-01356-2",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetE0P15",
+          "title": "On Subexponential and FPT-Time Inapproximability",
+          "journal": "Algorithmica",
+          "year": "2015",
+          "pages": "541-565",
+          "ee": "https://doi.org/10.1007/S00453-014-9889-1",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetEPT15",
+          "title": "Multi-parameter Analysis for Local Graph Partitioning Problems: Using Greediness for Parameterization",
+          "journal": "Algorithmica",
+          "year": "2015",
+          "pages": "566-580",
+          "ee": "https://doi.org/10.1007/S00453-014-9920-6",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Emeric Tourniaire",
+              "@pid": "00/11286"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetKRTW22",
+          "title": "Twin-width and Polynomial Kernels",
+          "journal": "Algorithmica",
+          "year": "2022",
+          "pages": "3300-3337",
+          "ee": "https://doi.org/10.1007/S00453-022-00965-5",
+          "author": [
+            {
+              "#text": "Amadeus Reinald",
+              "@pid": "297/3871"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetMR18",
+          "title": "Complexity of Token Swapping and Its Variants",
+          "journal": "Algorithmica",
+          "year": "2018",
+          "pages": "2656-2682",
+          "ee": "https://doi.org/10.1007/S00453-017-0387-0",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetP21",
+          "title": "Metric Dimension Parameterized By Treewidth",
+          "journal": "Algorithmica",
+          "year": "2021",
+          "pages": "2606-2633",
+          "ee": "https://doi.org/10.1007/S00453-021-00808-9",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nidhi Purohit",
+              "@pid": "218/6907"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetR19",
+          "title": "Optimality Program in Segment and String Graphs",
+          "journal": "Algorithmica",
+          "year": "2019",
+          "pages": "3047-3073",
+          "ee": "https://doi.org/10.1007/S00453-019-00568-7",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/anor/BonnetC21",
+          "title": "The complexity of mixed-connectivity",
+          "journal": "Ann. Oper. Res.",
+          "year": "2021",
+          "pages": "25-35",
+          "ee": "https://doi.org/10.1007/S10479-021-04330-7",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorics/BodlaenderBJKLMOPS25",
+          "title": "Treewidth is NP-Complete on Cubic Graphs",
+          "journal": "Electron. J. Comb.",
+          "year": "2025",
+          "ee": "https://doi.org/10.37236/13205",
+          "author": [
+            {
+              "#text": "Dusan Knop",
+              "@pid": "161/2021"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hans L. Bodlaender",
+              "@pid": "b/HLBodlaender"
+            },
+            {
+              "#text": "Lars Jaffke",
+              "@pid": "160/8115"
+            },
+            {
+              "#text": "Martin Milanic",
+              "@pid": "93/6920"
+            },
+            {
+              "#text": "Ondrej Suchý",
+              "@pid": "57/1414"
+            },
+            {
+              "#text": "Paloma T. Lima",
+              "@pid": "198/0891"
+            },
+            {
+              "#text": "Sebastian Ordyniak",
+              "@pid": "88/3220"
+            },
+            {
+              "#text": "Sukanya Pandey",
+              "@pid": "283/7019"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorics/BonnetFNSSTT25",
+          "title": "Graphs without a 3-Connected Subgraph are 4-Colourable",
+          "journal": "Electron. J. Comb.",
+          "year": "2025",
+          "ee": "https://doi.org/10.37236/13181",
+          "author": [
+            {
+              "#text": "Alex D. Scott",
+              "@pid": "s/AlexDScott"
+            },
+            {
+              "#text": "Carl Feghali",
+              "@pid": "143/7115"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Trotignon",
+              "@pid": "91/4388"
+            },
+            {
+              "#text": "Paul D. Seymour",
+              "@pid": "52/1135"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Tung Nguyen",
+              "@pid": "89/5721-4"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combtheory/BonnetGKTW22",
+          "title": "Twin-width II: small classes",
+          "journal": "Comb. Theory",
+          "year": "2022",
+          "ee": "https://doi.org/10.5070/C62257876",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1710-00386",
+          "title": "Orthogonal Terrain Guarding is NP-complete",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1710.00386",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1710-00637",
+          "title": "On the Parameterized Complexity of Red-Blue Points Separation",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1710.00637",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1710-11513",
+          "title": "Designing RNA Secondary Structures is Hard",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1710.11513",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-05010",
+          "title": "QPTAS and Subexponential Algorithm for Maximum Clique on Disk Graphs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.05010",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-08907",
+          "title": "Optimality Program in Segment and String Graphs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.08907",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1803-01822",
+          "title": "EPTAS for Max Clique on Disks and Unit Balls",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1803.01822",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1810-04620",
+          "title": "Parameterized Complexity of Independent Set in H-Free Graphs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1810.04620",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1811-12547",
+          "title": "The inverse Voronoi problem in graphs",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1811.12547",
+          "author": [
+            {
+              "#text": "Bojan Mohar",
+              "@pid": "08/3382"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hebert Pérez-Rosés",
+              "@pid": "82/246"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1907-08093",
+          "title": "Metric Dimension Parameterized by Treewidth",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.08093",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nidhi Purohit",
+              "@pid": "218/6907"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-09325",
+          "title": "Fine-Grained Complexity of k-OPT in Bounded-Degree Graphs for Solving TSP",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.09325",
+          "author": [
+            {
+              "#text": "Bart M. P. Jansen",
+              "@pid": "58/8776"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Lukasz Kowalik",
+              "@pid": "k/LukaszKowalik"
+            },
+            {
+              "#text": "Yoichi Iwata",
+              "@pid": "61/11063"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-09586",
+          "title": "Constraint Generation Algorithm for the Minimum Connectivity Inference Problem",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.09586",
+          "author": [
+            {
+              "#text": "Diana-Elena Falamas",
+              "@pid": "247/9674"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1909-01986",
+          "title": "Parameterized Intractability of Even Set and Shortest Vector Problem",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1909.01986",
+          "author": [
+            {
+              "#text": "Arnab Bhattacharyya",
+              "@pid": "64/574"
+            },
+            {
+              "#text": "Bingkai Lin",
+              "@pid": "07/9670"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Karthik C. S.",
+              "@pid": "70/9222"
+            },
+            {
+              "#text": "László Egri",
+              "@pid": "02/6401"
+            },
+            {
+              "#text": "Pasin Manurangsi",
+              "@pid": "133/2059"
+            },
+            {
+              "#text": "Suprovat Ghoshal",
+              "@pid": "164/7272"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1909-08426",
+          "title": "When Maximum Stable Set can be solved in FPT time",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1909.08426",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1910-02123",
+          "title": "Maximum Matchings in Geometric Intersection Graphs",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1910.02123",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            },
+            {
+              "#text": "Wolfgang Mulzer",
+              "@pid": "m/WolfgangMulzer"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2001-03794",
+          "title": "Grundy Coloring & friends, Half-Graphs, Bicliques",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.03794",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pierre Aboulker",
+              "@pid": "49/10966"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-02583",
+          "title": "Maximum Clique in Disk-Like Intersection Graphs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.02583",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2004-12166",
+          "title": "An algorithmic weakening of the Erdős-Hajnal conjecture",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.12166",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Xuan Thang Tran",
+              "@pid": "263/7202"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2004-14789",
+          "title": "Twin-width I: tractable FO model checking",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.14789",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2006-09877",
+          "title": "Twin-width II: small classes",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.09877",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-14161",
+          "title": "Twin-width III: Max Independent Set and Coloring",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.14161",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-14179",
+          "title": "Close relatives of Feedback Vertex Set without single-exponential algorithms parameterized by treewidth",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.14179",
+          "author": [
+            {
+              "#text": "Benjamin Bergougnoux",
+              "@pid": "195/6279"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2008-11315",
+          "title": "Inapproximability of Diameter in super-linear time: Beyond the 5/3 ratio",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2008.11315",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-04799",
+          "title": "The Complexity of Mixed-Connectivity",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.04799",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2101-02312",
+          "title": "4 vs 7 sparse undirected unweighted Diameter is SETH-hard at time n4/3",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.02312",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-03117",
+          "title": "Twin-width IV: ordered graphs and matrices",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.03117",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Pierre Simon",
+              "@pid": "35/9616"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            },
+            {
+              "#text": "Ugo Giocanti",
+              "@pid": "284/9064"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-06880",
+          "title": "Twin-width and permutations",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.06880",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jaroslav Nesetril",
+              "@pid": "n/JaroslavNesetril"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Sebastian Siebertz",
+              "@pid": "44/11534"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2107-02882",
+          "title": "Twin-width and polynomial kernels",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.02882",
+          "author": [
+            {
+              "#text": "Amadeus Reinald",
+              "@pid": "297/3871"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-15419",
+          "title": "EPTAS and Subexponential Algorithm for Maximum Clique on Disk and Unit Ball Graphs",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.15419",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2111-00282",
+          "title": "Twin-width VI: the lens of contraction sequences",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.00282",
+          "author": [
+            {
+              "#text": "Amadeus Reinald",
+              "@pid": "297/3871"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2112-08953",
+          "title": "Deciding twin-width at most 4 is NP-complete",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.08953",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Pierre Bergé",
+              "@pid": "183/9173"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-11858",
+          "title": "Reduced bandwidth: a qualitative strengthening of twin-width in minor-closed classes (and beyond)",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.11858",
+          "author": [
+            {
+              "#text": "David R. Wood",
+              "@pid": "w/DavidRWood"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-13014",
+          "title": "Model Checking on Interpretations of Classes of Bounded Local Cliquewidth",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.13014",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jakub Gajarský",
+              "@pid": "11/11268"
+            },
+            {
+              "#text": "Jan Dreier",
+              "@pid": "151/6308"
+            },
+            {
+              "#text": "Nikolas Mählmann",
+              "@pid": "252/6708"
+            },
+            {
+              "#text": "Pierre Simon",
+              "@pid": "35/9616"
+            },
+            {
+              "#text": "Stephan Kreutzer",
+              "@pid": "k/StephanKreutzer"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-00722",
+          "title": "Twin-width VIII: delineation and win-wins",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.00722",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Noleen Köhler",
+              "@pid": "272/5476"
+            },
+            {
+              "#text": "Raul Lopes",
+              "@pid": "174/3138-1"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-07670",
+          "title": "Twin-width can be exponential in treewidth",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.07670",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-12330",
+          "title": "Twin-width VII: groups",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.12330",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Romain Tessera",
+              "@pid": "50/9560"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2206-00594",
+          "title": "Sparse graphs with bounded induced cycle packing number have logarithmic treewidth",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.00594",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Claire Hilaire",
+              "@pid": "304/3120"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Louis Esperet",
+              "@pid": "18/3681"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2207-07708",
+          "title": "Approximating Highly Inapproximable Problems on Graphs of Bounded Twin-Width",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2207.07708",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Pierre Bergé",
+              "@pid": "183/9173"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2209-12023",
+          "title": "Twin-width V: linear minors, modular counting, and matrix multiplication",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2209.12023",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Ugo Giocanti",
+              "@pid": "284/9064"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2301-04217",
+          "title": "Neighbourhood complexity of graphs of bounded twin-width",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2301.04217",
+          "author": [
+            {
+              "#text": "Aline Parreau",
+              "@pid": "57/8037"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Tuomo Lehtilä",
+              "@pid": "204/4320"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2301-10031",
+          "title": "Treewidth is NP-Complete on Cubic Graphs (and related results)",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2301.10031",
+          "author": [
+            {
+              "#text": "Dusan Knop",
+              "@pid": "161/2021"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hans L. Bodlaender",
+              "@pid": "b/HLBodlaender"
+            },
+            {
+              "#text": "Lars Jaffke",
+              "@pid": "160/8115"
+            },
+            {
+              "#text": "Martin Milanic",
+              "@pid": "93/6920"
+            },
+            {
+              "#text": "Ondrej Suchý",
+              "@pid": "57/1414"
+            },
+            {
+              "#text": "Paloma T. Lima",
+              "@pid": "198/0891"
+            },
+            {
+              "#text": "Sebastian Ordyniak",
+              "@pid": "88/3220"
+            },
+            {
+              "#text": "Sukanya Pandey",
+              "@pid": "283/7019"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-08182",
+          "title": "Maximum Independent Set when excluding an induced minor: K1 + tK2 and tC3 ⊎ C4",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.08182",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-11667",
+          "title": "Cutting Barnette graphs perfectly is hard",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.11667",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-12023",
+          "title": "Stretch-width",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.12023",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-11225",
+          "title": "Small But Unwieldy",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.11225",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maksim Zhukovskii",
+              "@pid": "77/11133"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2308-02981",
+          "title": "Factoring Pattern-Free Permutations into Separable ones",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2308.02981",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Romain Bourneuf",
+              "@pid": "329/5862"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-20522",
+          "title": "Tight bounds on adjacency labels for monotone graph classes",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.20522",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maksim Zhukovskii",
+              "@pid": "77/11133"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-07962",
+          "title": "Treewidth is Polynomial in Maximum Degree on Graphs Excluding a Planar Induced Minor",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.07962",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jedrzej Hodor",
+              "@pid": "299/7879"
+            },
+            {
+              "#text": "Tomás Masarík",
+              "@pid": "167/4065"
+            },
+            {
+              "#text": "Tuukka Korhonen",
+              "@pid": "204/2613"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-06338",
+          "title": "Graphs without a 3-connected subgraph are 4-colorable",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.06338",
+          "author": [
+            {
+              "#text": "Carl Feghali",
+              "@pid": "143/7115"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Trotignon",
+              "@pid": "91/4388"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-09011",
+          "title": "Symmetric-Difference (Degeneracy) and Signed Tree Models",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.09011",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2405-13797",
+          "title": "Sparse Induced Subgraphs of Large Treewidth",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.13797",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-11628",
+          "title": "Treewidth Inapproximability and Tight ETH Lower Bound",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.11628",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2407-10174",
+          "title": "On the twin-width of smooth manifolds",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2407.10174",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Kristóf Huszár",
+              "@pid": "211/7942"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-04821",
+          "title": "Adjacency Labeling Schemes for Small Classes",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.04821",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-07285",
+          "title": "Temporal Valued Constraint Satisfaction Problems",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.07285",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Manuel Bodirsky",
+              "@pid": "b/ManuelBodirsky"
+            },
+            {
+              "#text": "Zaneta Semanisinová",
+              "@pid": "332/6768"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-18820",
+          "title": "An 11/6-Approximation Algorithm for Vertex Cover on String Graphs",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.18820",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-05638",
+          "title": "Mim-Width is paraNP-complete",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.05638",
+          "author": [
+            {
+              "#text": "Benjamin Bergougnoux",
+              "@pid": "195/6279"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-10633",
+          "title": "Answering Related Questions",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.10633",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-05289",
+          "title": "Induced Disjoint Paths Without an Induced Minor",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.05289",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Trotignon",
+              "@pid": "91/4388"
+            },
+            {
+              "#text": "Pierre Aboulker",
+              "@pid": "49/10966"
+            },
+            {
+              "#text": "Timothé Picavet",
+              "@pid": "291/6764"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-14775",
+          "title": "Every Graph is Essential to Large Treewidth",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.14775",
+          "author": [
+            {
+              "#text": "Bogdan Alecu",
+              "@pid": "217/7664"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Trotignon",
+              "@pid": "91/4388"
+            },
+            {
+              "#text": "Pedro Bureo Villafana",
+              "@pid": "400/8906"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-21115",
+          "title": "Induced Minors and Region Intersection Graphs",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.21115",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Robert Hickingbotham",
+              "@pid": "278/2495"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-11144",
+          "title": "Separability Properties of Monadically Dependent Graph Classes",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.11144",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Ioannis Eleftheriadis",
+              "@pid": "340/4034"
+            },
+            {
+              "#text": "Michal Pilipczuk",
+              "@pid": "61/8036"
+            },
+            {
+              "#text": "Nikolas Mählmann",
+              "@pid": "252/6708"
+            },
+            {
+              "#text": "Samuel Braunfeld",
+              "@pid": "135/8062"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            },
+            {
+              "#text": "Wojciech Przybyszewski",
+              "@pid": "313/2711"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-13818",
+          "title": "Treedepth Inapproximability and Exponential ETH Lower Bound",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.13818",
+          "author": [
+            {
+              "#text": "Daniel Neuen",
+              "@pid": "176/5089"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Marek Sokolowski",
+              "@pid": "287/4919-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-01587",
+          "title": "Separator Theorem for Minor-Free Graphs in Linear Time",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.01587",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hung Le",
+              "@pid": "45/466-1"
+            },
+            {
+              "#text": "Jason Li",
+              "@pid": "12/975-6"
+            },
+            {
+              "#text": "Tomás Masarík",
+              "@pid": "167/4065"
+            },
+            {
+              "#text": "Tuukka Korhonen",
+              "@pid": "204/2613"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-01857",
+          "title": "Excluding a Forest Induced Minor",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.01857",
+          "author": [
+            {
+              "#text": "Benjamin Duhamel",
+              "@pid": "425/0583"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Robert Hickingbotham",
+              "@pid": "278/2495"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-23680",
+          "title": "Coloring Hardness on Low Twin-Width Graphs",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.23680",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-16605",
+          "title": "Fast Shortest Path in Graphs With Sparse Signed Tree Models and Applications",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.16605",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Sungmin Moon",
+              "@pid": "245/8253"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-18317",
+          "title": "QPTAS for MWIS and finding large sparse induced subgraphs in graphs with few independent long holes",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.18317",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jadwiga Czyzewska",
+              "@pid": "341/1389"
+            },
+            {
+              "#text": "Marcin Pilipczuk",
+              "@pid": "09/4636"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tomás Masarík",
+              "@pid": "167/4065"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-11318",
+          "title": "Coarse Balanced Separators in Fat-Minor-Free Graphs",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.11318",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hung Le",
+              "@pid": "45/466-1"
+            },
+            {
+              "#text": "Marcin Pilipczuk",
+              "@pid": "09/4636"
+            },
+            {
+              "#text": "Michal Pilipczuk",
+              "@pid": "61/8036"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-19138",
+          "title": "Moderately beyond clique-width: reduced component max-leaf and related parameters",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.19138",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            },
+            {
+              "#text": "Yeonsu Chang",
+              "@pid": "339/8678"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2607-00244",
+          "title": "Independent Set Hardness in Graphs of Bounded Twin-Width and Low-Radius Merge-Width",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.00244",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maël Dumas",
+              "@pid": "293/7232"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2607-01770",
+          "title": "Faster Parameterized Broadcasting",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.01770",
+          "author": [
+            {
+              "#text": "Carl Feghali",
+              "@pid": "143/7115"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Manolis Vasilakis",
+              "@pid": "308/6135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-06493",
+          "title": "Tight Inapproximability of Max Independent Set in Triangle-Free Graphs",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.06493",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-19468",
+          "title": "Large Finite Point Sets Have 4 Collinear Points or a 6-Clique",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.19468",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-25212",
+          "title": "Time-Optimal APSP and Matrix Multiplication in Classes of Linear Neighborhood Complexity",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.25212",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Marcin Pilipczuk",
+              "@pid": "09/4636"
+            },
+            {
+              "#text": "Marek Sokolowski",
+              "@pid": "287/4919-1"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-11285",
+          "title": "Max Independent Set Remains NP-hard when Excluding a Planar Induced Minor",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.11285",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Yeonsu Chang",
+              "@pid": "339/8678"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-23777",
+          "title": "Arc Kayles is PSPACE-complete",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.23777",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Abu-KhzamBS14",
+          "title": "On the Complexity of Various Parameterizations of Common Induced Subgraph Isomorphism",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1412.1261",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Faisal N. Abu-Khzam",
+              "@pid": "64/3320"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetBKM16",
+          "title": "Parameterized vertex deletion problems for hereditary graph classes with a block property",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1603.05945",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetBKM17",
+          "title": "Generalized feedback vertex set problems on bounded-treewidth graphs: chordality is the key to single-exponential parameterized algorithms",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1704.06757",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetEM16",
+          "title": "Fixed-parameter Approximability of Boolean MinCSPs",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1601.04935",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "László Egri",
+              "@pid": "02/6401"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetEPS14",
+          "title": "On the approximation of maximum $k$-vertex cover in bipartite graphs",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1409.6952",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Georgios Stamoulis",
+              "@pid": "116/7590"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetEPT13",
+          "title": "Multi-parameter complexity analysis for constrained size graph problems: using greediness for parameterization",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1306.2217",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Emeric Tourniaire",
+              "@pid": "00/11286"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetF0S14",
+          "title": "Complexity of Grundy coloring and its variants",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1407.5336",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetGLRS17",
+          "title": "The Parameterized Complexity of Positional Games",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1704.08536",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Antonin Lambilliotte",
+              "@pid": "199/1788"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Serge Gaspers",
+              "@pid": "33/5862"
+            },
+            {
+              "#text": "Stefan Rümmele",
+              "@pid": "86/5471"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetJS14",
+          "title": "Havannah and TwixT are PSPACE-complete",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1403.6518",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetJS16",
+          "title": "On the Complexity of Connection Games",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1605.04715",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetLP15",
+          "title": "Time-Approximation Trade-offs for Inapproximable Problems",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1502.05828",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16",
+          "title": "Flip Distance to a Non-crossing Perfect Matching",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1601.05989",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16a",
+          "title": "The Parameterized Hardness of the Art Gallery Problem",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1603.08116",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16b",
+          "title": "An Approximation Algorithm for the Art Gallery Problem",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.05527",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetMR16",
+          "title": "Complexity of Token Swapping and its Variants",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.07676",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetP13a",
+          "title": "Parameterized (in)approximability of subset problems",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1310.5576",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetP14",
+          "title": "Sparsification and subexponential approximation",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1402.2843",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetPS13",
+          "title": "Multiparameterizations for max $k$-set cover and related satisfiability problems",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1309.4718",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetS15",
+          "title": "The parameterized complexity of Graph Motif relatively to the structure of the input graph",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1503.05110",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetS16",
+          "title": "A note on Edge Isoperimetric Numbers and Regular Graphs",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1601.05190",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/BonnetFKS18",
+          "title": "Complexity of Grundy coloring and its variants",
+          "journal": "Discret. Appl. Math.",
+          "year": "2018",
+          "pages": "99-114",
+          "ee": "https://doi.org/10.1016/J.DAM.2017.12.022",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/BonnetS17",
+          "title": "The Graph Motif problem parameterized by the structure of the input graph",
+          "journal": "Discret. Appl. Math.",
+          "year": "2017",
+          "pages": "78-94",
+          "ee": "https://doi.org/10.1016/J.DAM.2016.11.016",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/BonnetCM23",
+          "title": "Maximum Matchings in Geometric Intersection Graphs",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2023",
+          "pages": "550-579",
+          "ee": "https://doi.org/10.1007/S00454-023-00564-3",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Sergio Cabello",
+              "@pid": "74/2172"
+            },
+            {
+              "#text": "Wolfgang Mulzer",
+              "@pid": "m/WolfgangMulzer"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/disopt/BonnetEPS18",
+          "title": "Purely combinatorial approximation algorithms for maximum k-vertex cover in bipartite graphs",
+          "journal": "Discret. Optim.",
+          "year": "2018",
+          "pages": "26-56",
+          "ee": "https://doi.org/10.1016/J.DISOPT.2017.09.001",
+          "author": [
+            {
+              "#text": "Bruno Escoffier",
+              "@pid": "96/3761"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Georgios Stamoulis",
+              "@pid": "116/7590"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/eccc/BhattacharyyaBE19",
+          "title": "Parameterized Intractability of Even Set and Shortest Vector Problem",
+          "journal": "Electron. Colloquium Comput. Complex.",
+          "year": "2019",
+          "author": [
+            {
+              "#text": "Arnab Bhattacharyya",
+              "@pid": "64/574"
+            },
+            {
+              "#text": "Bingkai Lin",
+              "@pid": "07/9670"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Karthik C. S.",
+              "@pid": "70/9222"
+            },
+            {
+              "#text": "László Egri",
+              "@pid": "02/6401"
+            },
+            {
+              "#text": "Pasin Manurangsi",
+              "@pid": "133/2059"
+            },
+            {
+              "#text": "Suprovat Ghoshal",
+              "@pid": "164/7272"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejc/BonnetCKKLT26",
+          "title": "Twin-width VIIIa: Delineation",
+          "journal": "Eur. J. Comb.",
+          "year": "2026",
+          "pages": "104430",
+          "ee": "https://doi.org/10.1016/J.EJC.2026.104430",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Noleen Köhler",
+              "@pid": "272/5476"
+            },
+            {
+              "#text": "Raul Lopes",
+              "@pid": "174/3138-1"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejc/BonnetFLP24",
+          "title": "Neighbourhood complexity of graphs of bounded twin-width",
+          "journal": "Eur. J. Comb.",
+          "year": "2024",
+          "pages": "103772",
+          "ee": "https://doi.org/10.1016/J.EJC.2023.103772",
+          "author": [
+            {
+              "#text": "Aline Parreau",
+              "@pid": "57/8037"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florent Foucaud",
+              "@pid": "74/8036"
+            },
+            {
+              "#text": "Tuomo Lehtilä",
+              "@pid": "204/4320"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/igt/BonnetH25",
+          "title": "Induced Minors and Region Intersection Graphs",
+          "journal": "Innov. Graph Theory",
+          "year": "2025",
+          "pages": "313-327",
+          "ee": "https://doi.org/10.5802/IGT.15",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Robert Hickingbotham",
+              "@pid": "278/2495"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijfcs/BonnetS16",
+          "title": "A Note on Edge Isoperimetric Numbers and Regular Graphs",
+          "journal": "Int. J. Found. Comput. Sci.",
+          "year": "2016",
+          "pages": "771-774",
+          "ee": "https://doi.org/10.1142/S0129054116500283",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ipl/Bonnet26",
+          "title": "Coloring hardness on low twin-width graphs",
+          "journal": "Inf. Process. Lett.",
+          "year": "2026",
+          "pages": "106646",
+          "ee": "https://doi.org/10.1016/J.IPL.2026.106646",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ita/BonnetPS16",
+          "title": "Parameterized exact and approximation algorithms for maximum k-set cover and related satisfiability problems",
+          "journal": "RAIRO Theor. Informatics Appl.",
+          "year": "2016",
+          "pages": "227-240",
+          "ee": "https://doi.org/10.1051/ITA/2016022",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/BhattacharyyaBE21",
+          "title": "Parameterized Intractability of Even Set and Shortest Vector Problem",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "16:1-16:40",
+          "ee": "https://doi.org/10.1145/3444942",
+          "author": [
+            {
+              "#text": "Arnab Bhattacharyya",
+              "@pid": "64/574"
+            },
+            {
+              "#text": "Bingkai Lin",
+              "@pid": "07/9670"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Karthik C. S.",
+              "@pid": "70/9222"
+            },
+            {
+              "#text": "László Egri",
+              "@pid": "02/6401"
+            },
+            {
+              "#text": "Pasin Manurangsi",
+              "@pid": "133/2059"
+            },
+            {
+              "#text": "Suprovat Ghoshal",
+              "@pid": "164/7272"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/BonamyBBCGKRST21",
+          "title": "EPTAS and Subexponential Algorithm for Maximum Clique on Disk and Unit Ball Graphs",
+          "journal": "J. ACM",
+          "year": "2021",
+          "pages": "9:1-9:38",
+          "ee": "https://doi.org/10.1145/3433160",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Nicolas Bousquet",
+              "@pid": "10/1734-1"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Pierre Charbit",
+              "@pid": "71/6622"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/BonnetGMSTT24",
+          "title": "Twin-Width IV: Ordered Graphs and Matrices",
+          "journal": "J. ACM",
+          "year": "2024",
+          "pages": "21",
+          "ee": "https://doi.org/10.1145/3651151",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Pierre Simon",
+              "@pid": "35/9616"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            },
+            {
+              "#text": "Szymon Torunczyk",
+              "@pid": "29/7757"
+            },
+            {
+              "#text": "Ugo Giocanti",
+              "@pid": "284/9064"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/BonnetKTW22",
+          "title": "Twin-width I: Tractable FO Model Checking",
+          "journal": "J. ACM",
+          "year": "2022",
+          "pages": "3:1-3:46",
+          "ee": "https://doi.org/10.1145/3486655",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcb/BonnetRS20",
+          "title": "Designing RNA Secondary Structures Is Hard",
+          "journal": "J. Comput. Biol.",
+          "year": "2020",
+          "pages": "302-316",
+          "ee": "https://doi.org/10.1089/CMB.2019.0420",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcss/BonnetLP18",
+          "title": "Time-approximation trade-offs for inapproximable problems",
+          "journal": "J. Comput. Syst. Sci.",
+          "year": "2018",
+          "pages": "171-180",
+          "ee": "https://doi.org/10.1016/J.JCSS.2017.09.009",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jctb/BonamyBDEGHTW24",
+          "title": "Sparse graphs with bounded induced cycle packing number have logarithmic treewidth",
+          "journal": "J. Comb. Theory B",
+          "year": "2024",
+          "pages": "215-249",
+          "ee": "https://doi.org/10.1016/J.JCTB.2024.03.003",
+          "author": [
+            {
+              "#text": "Alexandra Wesolek",
+              "@pid": "273/4052"
+            },
+            {
+              "#text": "Claire Hilaire",
+              "@pid": "304/3120"
+            },
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            },
+            {
+              "#text": "Louis Esperet",
+              "@pid": "18/3681"
+            },
+            {
+              "#text": "Marthe Bonamy",
+              "@pid": "42/11199"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jctb/Bonnet25",
+          "title": "Sparse induced subgraphs of large treewidth",
+          "journal": "J. Comb. Theory B",
+          "year": "2025",
+          "pages": "184-203",
+          "ee": "https://doi.org/10.1016/J.JCTB.2025.03.002",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jctb/BonnetD23",
+          "title": "Twin-width can be exponential in treewidth",
+          "journal": "J. Comb. Theory B",
+          "year": "2023",
+          "pages": "1-14",
+          "ee": "https://doi.org/10.1016/J.JCTB.2023.01.003",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Hugues Déprés",
+              "@pid": "276/4674"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jctb/BonnetKW26",
+          "title": "Reduced bandwidth: A qualitative strengthening of twin-width in minor-closed classes (and beyond)",
+          "journal": "J. Comb. Theory B",
+          "year": "2026",
+          "pages": "27-66",
+          "ee": "https://doi.org/10.1016/J.JCTB.2025.11.010",
+          "author": [
+            {
+              "#text": "David R. Wood",
+              "@pid": "w/DavidRWood"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "O-joung Kwon",
+              "@pid": "143/7283"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/BiroBMMR18",
+          "title": "Fine-grained complexity of coloring unit disks and balls",
+          "journal": "J. Comput. Geom.",
+          "year": "2018",
+          "pages": "47-80",
+          "ee": "https://doi.org/10.20382/JOCG.V9I2A4",
+          "author": [
+            {
+              "#text": "Csaba Biró",
+              "@pid": "82/7603"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/BonnetG19",
+          "title": "Orthogonal Terrain Guarding is NP-complete",
+          "journal": "J. Comput. Geom.",
+          "year": "2019",
+          "pages": "21-44",
+          "ee": "https://doi.org/10.20382/JOCG.V10I2A3",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/BonnetGL19",
+          "title": "On the parameterized complexity of red-blue points separation",
+          "journal": "J. Comput. Geom.",
+          "year": "2019",
+          "pages": "181-206",
+          "ee": "https://doi.org/10.20382/JOCG.V10I1A7",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Michael Lampis",
+              "@pid": "88/6157"
+            },
+            {
+              "#text": "Panos Giannopoulos",
+              "@pid": "88/2945"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/lmcs/BonnetNMST24",
+          "title": "Twin-width and permutations",
+          "journal": "Log. Methods Comput. Sci.",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/LMCS-20(3:4)2024",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Jaroslav Nesetril",
+              "@pid": "n/JaroslavNesetril"
+            },
+            {
+              "#text": "Patrice Ossona de Mendez",
+              "@pid": "58/2221"
+            },
+            {
+              "#text": "Sebastian Siebertz",
+              "@pid": "44/11534"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/orl/BonnetP14",
+          "title": "Parameterized (in)approximability of subset problems",
+          "journal": "Oper. Res. Lett.",
+          "year": "2014",
+          "pages": "222-225",
+          "ee": "https://doi.org/10.1016/J.ORL.2014.03.005",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rairo/BonnetP17",
+          "title": "Dual parameterization and parameterized approximability of subset graph problems",
+          "journal": "RAIRO Oper. Res.",
+          "year": "2017",
+          "pages": "261-266",
+          "ee": "https://doi.org/10.1051/RO/2016018",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Vangelis Th. Paschos",
+              "@pid": "97/3615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/BonnetDSZZ24",
+          "title": "Small but Unwieldy: A Lower Bound on Adjacency Labels for Small Classes",
+          "journal": "SIAM J. Comput.",
+          "year": "2024",
+          "pages": "1578-1601",
+          "ee": "https://doi.org/10.1137/23M1618661",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "John Sylvester",
+              "@pid": "94/2696-1"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            },
+            {
+              "#text": "Maksim Zhukovskii",
+              "@pid": "77/11133"
+            },
+            {
+              "#text": "Victor Zamaraev",
+              "@pid": "57/10717"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/BonnetGKTW24",
+          "title": "Twin-Width III: Max Independent Set, Min Dominating Set, and Coloring",
+          "journal": "SIAM J. Comput.",
+          "year": "2024",
+          "pages": "1602-1640",
+          "ee": "https://doi.org/10.1137/21M142188X",
+          "author": [
+            {
+              "#text": "Colin Geniet",
+              "@pid": "267/9627"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Rémi Watrigant",
+              "@pid": "116/7602"
+            },
+            {
+              "#text": "Stéphan Thomassé",
+              "@pid": "78/5708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/Bonnet22",
+          "title": "4 vs 7 Sparse Undirected Unweighted Diameter Is SETH-hard at Time n4/3",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2022",
+          "pages": "11:1-11:14",
+          "ee": "https://doi.org/10.1145/3494540",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/BonnetM20",
+          "title": "Parameterized Hardness of Art Gallery Problems",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2020",
+          "pages": "42:1-42:23",
+          "ee": "https://doi.org/10.1145/3398684",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/Abu-KhzamBS17",
+          "title": "On the complexity of various parameterizations of common induced subgraph isomorphism",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2017",
+          "pages": "69-78",
+          "ee": "https://doi.org/10.1016/J.TCS.2017.07.010",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Faisal N. Abu-Khzam",
+              "@pid": "64/3320"
+            },
+            {
+              "#text": "Florian Sikora",
+              "@pid": "32/6121"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/BonnetCD24",
+          "title": "Cutting Barnette graphs perfectly is hard",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2024",
+          "pages": "114701",
+          "ee": "https://doi.org/10.1016/J.TCS.2024.114701",
+          "author": [
+            {
+              "#text": "Dibyayan Chakraborty",
+              "@pid": "144/1379"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Julien Duron",
+              "@pid": "340/4080"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/BonnetJS16",
+          "title": "On the complexity of connection games",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2016",
+          "pages": "2-28",
+          "ee": "https://doi.org/10.1016/J.TCS.2016.06.033",
+          "author": [
+            {
+              "#text": "Abdallah Saffidine",
+              "@pid": "99/7599"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Florian Jamain",
+              "@pid": "133/1980"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hal/Bonnet14",
+          "title": "Positive and Negative Results in Approximation and Parameterized Complexity. (Résultats Positifs et Négatifs en Approximation et Complexité Paramétrée)",
+          "journal": "",
+          "year": "2014",
+          "author": {
+            "#text": "Édouard Bonnet",
+            "@pid": "131/6607"
+          }
+        }
       }
     ]
   }
