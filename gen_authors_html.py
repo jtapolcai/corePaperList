@@ -264,19 +264,19 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
   padding: 0.3rem 0.9rem; font-weight: 700; cursor: pointer; font-size: 0.82rem; }}
 #edit-save-bar .cancel-btn {{ background: transparent; color: #fff; text-decoration: underline;
   border: none; cursor: pointer; font-size: 0.82rem; }}
-#json-modal {{ display:none; position:fixed; inset:0; z-index:200; background:rgba(0,0,0,0.5);
-  align-items:center; justify-content:center; }}
-#json-modal-inner {{ background:var(--card); border-radius:10px; padding:1.25rem; max-width:540px;
-  width:90%; display:flex; flex-direction:column; gap:0.75rem; }}
-#json-modal h3 {{ font-size:0.95rem; margin:0; }}
-#json-modal textarea {{ font-family:monospace; font-size:0.78rem; border:1px solid var(--border);
-  border-radius:6px; padding:0.5rem; resize:vertical; min-height:180px; background:var(--bg);
-  color:var(--text); }}
-#json-modal .modal-actions {{ display:flex; gap:0.5rem; flex-wrap:wrap; }}
-#json-modal .modal-actions button, #json-modal .modal-actions a {{
-  padding:0.3rem 0.8rem; border-radius:6px; font-size:0.82rem; cursor:pointer;
+#clipboard-toast {{ display:none; position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%);
+  background:#1d4ed8; color:#fff; padding:.65rem 1.3rem; border-radius:10px; font-size:.84rem;
+  z-index:300; box-shadow:0 4px 16px rgba(0,0,0,.35); white-space:nowrap; pointer-events:none; }}
+#clipboard-toast.fallback {{ background:var(--card); color:var(--text); border:1px solid var(--border);
+  max-width:92vw; white-space:normal; pointer-events:all; }}
+#clipboard-toast textarea {{ font-family:monospace; font-size:.75rem; width:100%; min-height:120px;
+  border:1px solid var(--border); border-radius:6px; padding:.4rem; background:var(--bg);
+  color:var(--text); margin-top:.5rem; resize:vertical; }}
+#clipboard-toast .toast-actions {{ display:flex; gap:.5rem; margin-top:.5rem; flex-wrap:wrap; }}
+#clipboard-toast .toast-actions button, #clipboard-toast .toast-actions a {{
+  padding:.3rem .8rem; border-radius:6px; font-size:.8rem; cursor:pointer;
   border:1px solid var(--border); text-decoration:none; background:var(--chip-bg); color:var(--text); }}
-#json-modal .modal-actions .primary {{ background:var(--accent); color:#fff; border-color:transparent; }}
+#clipboard-toast .toast-actions .primary {{ background:var(--accent); color:#fff; border-color:transparent; }}
 .mtmt-results {{ margin-top:0.4rem; border:1px solid var(--border); border-radius:6px; overflow:hidden; }}
 .mtmt-results-label {{ padding:0.3rem 0.6rem; font-size:0.72rem; color:var(--muted); background:var(--chip-bg); }}
 .mtmt-option {{ padding:0.4rem 0.6rem; cursor:pointer; font-size:0.8rem; border-top:1px solid var(--border); }}
@@ -323,17 +323,7 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
 </style>
 </head>
 <body>
-<div id="json-modal">
-  <div id="json-modal-inner">
-    <h3>Frissített profil — másold be a GitHub szerkesztőbe</h3>
-    <textarea id="json-modal-text" readonly rows="10"></textarea>
-    <div class="modal-actions">
-      <button class="primary" onclick="navigator.clipboard.writeText(document.getElementById('json-modal-text').value).then(()=>this.textContent='✓ Másolva!')">📋 Másolás</button>
-      <a id="json-modal-gh-link" href="#" target="_blank" rel="noopener">GitHub szerkesztő →</a>
-      <button onclick="document.getElementById('json-modal').style.display='none'">Bezárás</button>
-    </div>
-  </div>
-</div>
+<div id="clipboard-toast"></div>
 <!-- Add-author modal -->
 <div id="add-modal-overlay">
   <div id="add-modal">
@@ -575,6 +565,29 @@ function cancelEdits() {{
   document.getElementById("edit-save-bar").style.display = "none";
 }}
 
+function showToast(msg, duration) {{
+  const t = document.getElementById("clipboard-toast");
+  t.className = "";
+  t.textContent = msg;
+  t.style.display = "block";
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.style.display = "none", duration || 5000);
+}}
+
+function showFallbackToast(json, ghUrl) {{
+  const t = document.getElementById("clipboard-toast");
+  t.className = "fallback";
+  t.innerHTML = `<strong>Másold be a GitHub szerkesztőbe (Ctrl+A → Ctrl+V):</strong>
+    <textarea readonly onclick="this.select()">${{json}}</textarea>
+    <div class="toast-actions">
+      <button class="primary" onclick="navigator.clipboard.writeText(this.closest('#clipboard-toast').querySelector('textarea').value).then(()=>this.textContent='✓ Másolva!')">📋 Másolás</button>
+      <a href="${{ghUrl}}" target="_blank" rel="noopener">GitHub szerkesztő →</a>
+      <button onclick="this.closest('#clipboard-toast').style.display='none'">✕</button>
+    </div>`;
+  t.style.display = "block";
+  clearTimeout(t._timer);
+}}
+
 function saveEdits() {{
   const tbl = document.getElementById("edit-kv-table");
   if (!tbl) return;
@@ -592,14 +605,20 @@ function saveEdits() {{
   const encoded = encodeURIComponent(json);
 
   if (hasProfile) {{
-    // Existing profile: show modal with JSON to copy + link to editor
-    document.getElementById("json-modal-text").value = json;
-    document.getElementById("json-modal-gh-link").href = editUrl;
-    document.getElementById("json-modal").style.display = "flex";
+    // Existing profile: copy JSON to clipboard, open editor, show toast
+    navigator.clipboard.writeText(json).then(() => {{
+      window.open(editUrl, "_blank");
+      showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
+    }}).catch(() => {{
+      // Clipboard blocked (e.g. file:// or sandboxed) — show fallback with textarea
+      window.open(editUrl, "_blank");
+      showFallbackToast(json, editUrl);
+    }});
   }} else {{
-    // New profile: open GitHub new-file form pre-filled
+    // New profile: open GitHub new-file form pre-filled (no clipboard needed)
     const url = `https://github.com/${{GITHUB_REPO}}/new/${{GITHUB_BRANCH}}?filename=profiles/${{slug}}.json&value=${{encoded}}`;
     window.open(url, "_blank");
+    showToast("GitHub lap megnyílt — töltsd ki és commitold!", 4000);
   }}
 }}
 
