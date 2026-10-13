@@ -163,6 +163,7 @@ footer { text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mut
   <span class="chip" data-group="nat" data-val="all_hungarian">Teljesen magyar</span>
   <span class="chip" data-group="nat" data-val="mostly_hungarian">Főleg magyar</span>
   <span class="chip" data-group="nat" data-val="international">Nemzetközi</span>
+  <span class="chip" data-group="nat" data-val="no_hungarian">Nincs magyar</span>
 </div>
 <div class="filter-row">
   <span class="filter-label">Téma</span>
@@ -643,7 +644,10 @@ function renderPaper(p) {
 function matches(p) {
   if (authorSlugFilter && !p.authors_html.includes(`#${authorSlugFilter}`)) return false;
   if (filterInst  && !p.institutions.includes(filterInst)) return false;
-  if (filterNat   && p.nationality !== filterNat) return false;
+  if (filterNat) {
+    if (filterNat === "no_hungarian") { if (p.nationality !== "") return false; }
+    else { if (p.nationality !== filterNat) return false; }
+  }
   if (filterTopic && p.topic !== filterTopic) return false;
   if (p.year < yearFrom) return false;
   if (yearTo && p.year > yearTo) return false;
