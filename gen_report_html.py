@@ -101,11 +101,32 @@ all_astar_authors = sum(1 for a in authors if a.get("core_astar", 0) > 0)
 
 gen_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-# PDF download info
+hu_pdf_url = meta.get("hu_pdf_url", "")
+en_pdf_url = meta.get("en_pdf_url", "")
 hu_pdf_date = meta.get("hu_pdf_date", "")
 en_pdf_date = meta.get("en_pdf_date", "")
-hu_pdf_label = f"Utoljára frissítve: {hu_pdf_date}" if hu_pdf_date else "Dátum ismeretlen"
-en_pdf_label = f"Last updated: {en_pdf_date}" if en_pdf_date else "Date unknown"
+hu_pdf_label = f"Utoljára frissítve: {hu_pdf_date}" if hu_pdf_date else ""
+en_pdf_label = f"Last updated: {en_pdf_date}" if en_pdf_date else ""
+show_pdf_section = bool(hu_pdf_url or en_pdf_url)
+
+def _pdf_card(title, url, date_label):
+    date_html = f'<span class="pdf-date">{date_label}</span>' if date_label else ""
+    return f'<div class="pdf-card"><h3>{title}</h3>{date_html}<a href="{url}">{"PDF letöltése" if "hu" in url else "Download PDF"}</a></div>'
+
+if show_pdf_section:
+    cards = ""
+    if hu_pdf_url:
+        cards += _pdf_card("Magyar nyelvű jelentés", hu_pdf_url, hu_pdf_label)
+    if en_pdf_url:
+        cards += _pdf_card("English Report", en_pdf_url, en_pdf_label)
+    pdf_section_html = f"""
+<h2>Letölthető jelentések</h2>
+<div class="pdf-section">
+  <p style="margin:0 0 4px;color:var(--muted);font-size:0.85rem;">A PDF-ek LaTeX-ből fordítva, manuálisan töltve fel.</p>
+  <div class="pdf-grid">{cards}</div>
+</div>"""
+else:
+    pdf_section_html = ""
 
 # --- Embed data as JSON ---
 chart_data = json.dumps({
@@ -264,24 +285,7 @@ footer {{
 <h2>CORE A* cikkek évente — Külföldre ment kutatók</h2>
 <div class="chart-wrap"><canvas id="chart-abroad-astar"></canvas></div>
 
-<h2>Letölthető jelentések</h2>
-<div class="pdf-section">
-  <p style="margin:0 0 4px;color:var(--muted);font-size:0.85rem;">
-    A PDF-ek LaTeX-ből fordítva, manuálisan töltve fel.
-  </p>
-  <div class="pdf-grid">
-    <div class="pdf-card">
-      <h3>Magyar nyelvű jelentés</h3>
-      <span class="pdf-date">{hu_pdf_label}</span>
-      <a href="report_hu.pdf">PDF letöltése</a>
-    </div>
-    <div class="pdf-card">
-      <h3>English Report</h3>
-      <span class="pdf-date">{en_pdf_label}</span>
-      <a href="report_en.pdf">Download PDF</a>
-    </div>
-  </div>
-</div>
+{pdf_section_html}
 
 </div><!-- /container -->
 
