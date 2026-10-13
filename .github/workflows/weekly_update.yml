@@ -30,6 +30,11 @@ jobs:
         env:
           SKIP_SHEET_WRITE: "1"
 
+      - name: Compile authors.json from profiles + results
+        id: compile
+        run: python3 compile_authors_json.py
+        continue-on-error: true
+
       - name: Regenerate index.html
         id: index
         run: python3 gen_index_html.py
@@ -58,9 +63,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add results/ authors.json dblp/ \
-                  index.html authors_profile.html core_papers.html authors_table.html \
-                  profiles/_mta_photos.json || true
+          git add results/ authors.json dblp/ profiles/ \
+                  index.html authors_profile.html core_papers.html authors_table.html || true
           if git diff --cached --quiet; then
             echo "Nincs változás"
           else
@@ -74,6 +78,7 @@ jobs:
         run: |
           FAILED=""
           [ "${{ steps.dblp.outcome }}"    = "failure" ] && FAILED="$FAILED dblp"
+          [ "${{ steps.compile.outcome }}" = "failure" ] && FAILED="$FAILED compile_authors"
           [ "${{ steps.index.outcome }}"   = "failure" ] && FAILED="$FAILED index.html"
           [ "${{ steps.authors.outcome }}" = "failure" ] && FAILED="$FAILED authors_profile.html"
           [ "${{ steps.core.outcome }}"    = "failure" ] && FAILED="$FAILED core_papers.html"

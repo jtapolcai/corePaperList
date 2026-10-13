@@ -658,7 +658,7 @@ function renderProfile(a) {{
   const astarUrl = `core_papers.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const bothUrl  = `core_papers.html?author=${{a.slug}}&tier=both&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const aUrl     = `core_papers.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
-  const cleanName     = (a.name || "").replace(/\s+\d{{4}}$/, "").trim();
+  const cleanName     = (a.name || "").replace(/\\s+\\d{{4}}$/, "").trim();
   const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
@@ -908,7 +908,7 @@ async function searchDblp(name) {{
       const info = h.info || {{}};
       const authorName = info.author || "";
       const pid = info.url || "";
-      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\//,"") : "";
+      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\\//,"") : "";
       return `<div class="candidate" onclick="selectDblp(${{JSON.stringify(dblpUrl)}}, ${{JSON.stringify(authorName)}}, this)">
         <span>🔗</span><span><strong>${{authorName}}</strong></span>
         ${{dblpUrl ? '<a href="' + dblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a>' : ''}}
@@ -932,7 +932,7 @@ function selectDblp(url, name, el) {{
 async function searchMtmt(name) {{
   const statusEl = document.getElementById("mtmt-status");
   const listEl = document.getElementById("mtmt-list");
-  const parts = name.trim().split(/\s+/);
+  const parts = name.trim().split(/\\s+/);
   const families = [...new Set([parts[parts.length-1], parts[0]])];
   const seen = new Map();
   for (const fam of families) {{
@@ -997,7 +997,7 @@ function parseAffLabel(label) {{
   const dash = label.indexOf(" - ");
   if (dash < 0) return null;
   const rest = label.slice(dash + 3);
-  const match = rest.match(/\[(\d{{4}})-(\d{{4}})?/);
+  const match = rest.match(/\\[(\\d{{4}})-(\\d{{4}})?/);
   const start = match ? match[1] : "";
   const end   = match ? (match[2] || "") : "";
   const abbr  = instAbbr(rest);
@@ -1013,7 +1013,7 @@ async function enrichFromMtmt(mtid, label) {{
     if (!c) return;
     const affs = (c.affiliations || []).map(a => parseAffLabel(a.label || "")).filter(Boolean);
     const seen = new Set();
-    const unique = affs.filter(a => {{ const k = a.replace(/\d{{4}}.*/, "").trim(); return seen.has(k) ? false : seen.add(k); }});
+    const unique = affs.filter(a => {{ const k = a.replace(/\\d{{4}}.*/, "").trim(); return seen.has(k) ? false : seen.add(k); }});
     if (unique.length && !document.getElementById("m-affiliations").value.trim())
       document.getElementById("m-affiliations").value = unique.join("; ");
     if (!document.getElementById("m-works").value) {{
@@ -1021,7 +1021,7 @@ async function enrichFromMtmt(mtid, label) {{
       if (isHu) document.getElementById("m-works").value = "hungary";
     }}
     if (!document.getElementById("m-category").value) {{
-      const disc = (label.match(/\(([^)]+)\)/) || [])[1] || "";
+      const disc = (label.match(/\\(([^)]+)\\)/) || [])[1] || "";
       if (THEORY_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "theory";
       else if (APPLIED_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "applied";
     }}
@@ -1029,9 +1029,9 @@ async function enrichFromMtmt(mtid, label) {{
 }}
 
 async function enrichFromDblp(dblpUrl) {{
-  const m = dblpUrl.match(/dblp\.org\/pid\/(.+)/);
+  const m = dblpUrl.match(/dblp\\.org\\/pid\\/(.+)/);
   if (!m) return;
-  const pid = m[1].replace(/\/$/, "");
+  const pid = m[1].replace(/\\/$/, "");
   try {{
     const url = "https://dblp.org/search/author/api?q=pid:" + encodeURIComponent(pid) + "&format=json&h=1";
     const resp = await fetch(url);
