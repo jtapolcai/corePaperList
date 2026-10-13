@@ -146,6 +146,8 @@ def paper_topic(authors: list, author_lookup: dict, slug_category: dict) -> str:
     """Majority vote of known authors' categories → 'theory' | 'applied' | ''."""
     theory = applied = 0
     for name in authors:
+        if isinstance(name, list):
+            name = name[0] if name else ""
         slug = (
             author_lookup.get(normalize(name))
             or author_lookup.get(normalize(clean_name(name)))
@@ -566,7 +568,7 @@ async function searchDblp(name) {{
       const info = h.info || {{}};
       const authorName = info.author || "";
       const pid = info.url || "";
-      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\//,"") : "";
+      const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\\//,"") : "";
       return `<div class="candidate" onclick="selectDblp(${{JSON.stringify(dblpUrl)}}, ${{JSON.stringify(authorName)}}, this)">
         <span>🔗</span>
         <span><strong>${{authorName}}</strong></span>
@@ -590,7 +592,7 @@ async function searchMtmt(name) {{
   const statusEl = document.getElementById("mtmt-status");
   const listEl = document.getElementById("mtmt-list");
   // Try last word then first word as family name
-  const parts = name.trim().split(/\s+/);
+  const parts = name.trim().split(/\\s+/);
   const families = [...new Set([parts[parts.length-1], parts[0]])];
   const seen = new Map();
   for (const fam of families) {{
@@ -661,7 +663,7 @@ function parseAffiliationLabel(label) {{
   const dash = label.indexOf(" - ");
   if (dash < 0) return null;
   const rest = label.slice(dash + 3);
-  const match = rest.match(/\[(\d{{4}})-(\d{{4}})?/);
+  const match = rest.match(/\\[(\\d{{4}})-(\\d{{4}})?/);
   const start = match ? match[1] : "";
   const end   = match ? (match[2] || "") : "";
   const abbr  = instAbbr(rest);
@@ -683,7 +685,7 @@ async function enrichFromMtmt(mtid, label) {{
     // Deduplicate keeping first occurrence
     const seen = new Set();
     const unique = affs.filter(a => {{
-      const k = a.replace(/\d{{4}}.*/, "").trim();
+      const k = a.replace(/\\d{{4}}.*/, "").trim();
       return seen.has(k) ? false : seen.add(k);
     }});
     if (unique.length && !document.getElementById("m-affiliations").value.trim()) {{
@@ -698,7 +700,7 @@ async function enrichFromMtmt(mtid, label) {{
 
     // category from MTMT label discipline hint, e.g. "(Matematika)"
     if (!document.getElementById("m-category").value) {{
-      const disc = (label.match(/\(([^)]+)\)/) || [])[1] || "";
+      const disc = (label.match(/\\(([^)]+)\\)/) || [])[1] || "";
       if (THEORY_KEYWORDS.some(k => disc.includes(k))) {{
         document.getElementById("m-category").value = "theory";
       }} else if (APPLIED_KEYWORDS.some(k => disc.includes(k))) {{
@@ -710,9 +712,9 @@ async function enrichFromMtmt(mtid, label) {{
 
 async function enrichFromDblp(dblpUrl) {{
   // Extract pid from URL: https://dblp.org/pid/238/1161 → 238/1161
-  const m = dblpUrl.match(/dblp\.org\/pid\/(.+)/);
+  const m = dblpUrl.match(/dblp\\.org\\/pid\\/(.+)/);
   if (!m) return;
-  const pid = m[1].replace(/\/$/, "");
+  const pid = m[1].replace(/\\/$/, "");
   try {{
     const url = "https://dblp.org/search/author/api?q=pid:" + encodeURIComponent(pid) + "&format=json&h=1";
     const resp = await fetch(url);
