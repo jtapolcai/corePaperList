@@ -786,9 +786,9 @@ function renderProfile(a) {{
   const calcSrc   = null;
   const statsData = [
     ["Core A*",        a.core_astar,                    0,    a.core_astar > 0 ? astarUrl : "", dblpSrc],
-    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
-    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
-    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
+    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_equiv > 0 ? bothUrl : "",  calcSrc],
+    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.first_author_core_astar_equiv > 0 ? bothUrl : "",  calcSrc],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.hungarian_core_astar_equiv > 0 ? bothUrl : "",  calcSrc],
     ["Core A",         a.core_a,                        0, a.core_a > 0 ? aUrl : "",            dblpSrc],
     ["MTMT idézet",    a.mtmt_citations,                0, "", mtmtSrc],
     ["D1 eq.",         a.mtmt_d1_equiv,                 1, "", mtmtSrc],
