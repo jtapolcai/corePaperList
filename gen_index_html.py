@@ -22,12 +22,12 @@ WORKS_LABEL = {
     "unknown": "Ismeretlen",
 }
 
-AGE_ORDER = ["ERC Starting", "ERC Consolidator", "ERC Advanced", "unknown"]
+AGE_ORDER = ["ERC Starting", "ERC Consolidator", "ERC Advanced", "no PhD"]
 AGE_LABEL = {
     "ERC Starting": "ERC Starting (≤7 év PhD után)",
     "ERC Consolidator": "ERC Consolidator (7–12 év)",
     "ERC Advanced": "ERC Advanced (12+ év)",
-    "unknown": "Ismeretlen",
+    "no PhD": "no PhD (nincs megadva)",
 }
 
 
@@ -134,7 +134,7 @@ def compute_stats(authors: list) -> dict:
     hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
 
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
-    age_counter = Counter(a.get("age_group") or "unknown" for a in authors)
+    age_counter = Counter(a.get("age_group") or "no PhD" for a in authors)
 
     top_all = sorted(
         [a for a in authors if (a.get("core_astar") or 0) > 0],

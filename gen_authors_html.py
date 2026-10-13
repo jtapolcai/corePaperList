@@ -443,7 +443,7 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
     </div>
     <div class="filter-row">
       <span class="chip active" data-group="age" data-val="">Karriér: mind</span>
-      <span class="chip" data-group="age" data-val="unknown">Ismeretlen</span>
+      <span class="chip" data-group="age" data-val="no PhD">no PhD</span>
       <span class="chip" data-group="age" data-val="ERC Starting">Starting</span>
       <span class="chip" data-group="age" data-val="ERC Consolidator">Consolidator</span>
       <span class="chip" data-group="age" data-val="ERC Advanced">Advanced</span>

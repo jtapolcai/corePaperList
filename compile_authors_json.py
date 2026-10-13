@@ -160,7 +160,7 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
     years_since_phd = date.today().year - phd_year if phd_year else None
 
     if years_since_phd is None:
-        age_group = "unknown"
+        age_group = "no PhD"
     elif years_since_phd <= 7:
         age_group = "ERC Starting"
     elif years_since_phd <= 12:
