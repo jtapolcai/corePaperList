@@ -451,27 +451,46 @@ function saveEdits() {
   const hasProfile = tbl.dataset.hasProfile === "1";
   const editUrl = tbl.dataset.editUrl;
 
-  const updated = {};
+  // Collect changes from edit fields
+  const changes = {};
   document.querySelectorAll("[data-edit]").forEach(el => {
     const v = el.value.trim();
-    if (v) updated[el.dataset.edit] = v;
+    changes[el.dataset.edit] = v;  // keep empty too, to allow clearing
   });
 
-  const json = JSON.stringify(updated, null, 2);
-  const encoded = encodeURIComponent(json);
-
   if (hasProfile) {
-    // Existing profile: copy JSON to clipboard, open editor, show toast
-    navigator.clipboard.writeText(json).then(() => {
-      window.open(editUrl, "_blank");
-      showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
-    }).catch(() => {
-      // Clipboard blocked (e.g. file:// or sandboxed) — show fallback with textarea
-      window.open(editUrl, "_blank");
-      showFallbackToast(json, editUrl);
-    });
+    // Fetch current profile JSON, merge changes in, copy merged result to clipboard
+    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/profiles/${slug}.json`;
+    fetch(rawUrl)
+      .then(r => r.ok ? r.json() : {})
+      .catch(() => ({}))
+      .then(existing => {
+        const merged = Object.assign({}, existing);
+        for (const [k, v] of Object.entries(changes)) {
+          if (v === "") {
+            delete merged[k];  // clear field if emptied
+          } else {
+            // Convert phd_year to integer if numeric
+            merged[k] = (k === "phd_year" && /^\d+$/.test(v)) ? parseInt(v, 10) : v;
+          }
+        }
+        const json = JSON.stringify(merged, null, 2);
+        navigator.clipboard.writeText(json).then(() => {
+          window.open(editUrl, "_blank");
+          showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
+        }).catch(() => {
+          window.open(editUrl, "_blank");
+          showFallbackToast(json, editUrl);
+        });
+      });
   } else {
-    // New profile: open GitHub new-file form pre-filled (no clipboard needed)
+    // New profile: build minimal JSON and open GitHub new-file form
+    const obj = {};
+    for (const [k, v] of Object.entries(changes)) {
+      if (v) obj[k] = v;
+    }
+    const json = JSON.stringify(obj, null, 2);
+    const encoded = encodeURIComponent(json);
     const url = `https://github.com/${GITHUB_REPO}/new/${GITHUB_BRANCH}?filename=profiles/${slug}.json&value=${encoded}`;
     window.open(url, "_blank");
     showToast("GitHub lap megnyílt — töltsd ki és commitold!", 4000);
