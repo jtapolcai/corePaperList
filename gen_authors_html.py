@@ -709,7 +709,7 @@ function saveEdits() {{
 }}
 
 function stripAccents(s) {{
-  return (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+  return (s||"").normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
 }}
 
 function renderList() {{
@@ -1054,7 +1054,7 @@ function searchByName() {{
 
 function slugifyJS(name) {{
   return name.toLowerCase()
-    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .normalize("NFD").replace(/[\\u0300-\\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }}
 
