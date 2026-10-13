@@ -72,17 +72,19 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
-def load_author_data() -> tuple[dict, dict, dict, dict]:
+def load_author_data() -> tuple[dict, dict, dict, dict, set]:
     """
-    Returns (name_to_slug, slug_to_category, name_to_dblp_url, pid_to_slug).
+    Returns (name_to_slug, slug_to_category, name_to_dblp_url, pid_to_slug, hu_names).
+    hu_names: set of normalized names of authors currently working in Hungary.
     pid_to_slug maps bare DBLP PIDs (e.g. '96/3128') to slugs for exact disambiguation.
     """
     if not AUTHORS_JSON.exists():
-        return {}, {}, {}, {}
+        return {}, {}, {}, {}, set()
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     lookup   = {}
     category = {}
     pid_to_slug: dict = {}
+    hu_names: set = set()
     for a in authors:
         slug = a["slug"]
         name = a["name"]
@@ -96,6 +98,10 @@ def load_author_data() -> tuple[dict, dict, dict, dict]:
                 if alias:
                     lookup.setdefault(normalize(alias), slug)
         category[slug] = a.get("category") or ""
+        if (a.get("works") or "") in ("hungary", "company_hungary"):
+            hu_names.add(normalize(name))
+            if stripped != name:
+                hu_names.add(normalize(stripped))
         # Extract bare PID from dblp_url, e.g. 'https://dblp.org/pid/96/3128' → '96/3128'
         dblp_url = a.get("dblp_url", "")
         pid_match = re.search(r"/pid/(.+?)(?:\.html)?$", dblp_url)
@@ -108,7 +114,7 @@ def load_author_data() -> tuple[dict, dict, dict, dict]:
             pid_map = json.loads(AUTHOR_PIDS_JSON.read_text(encoding="utf-8"))
         except Exception:
             pass
-    return lookup, category, pid_map, pid_to_slug
+    return lookup, category, pid_map, pid_to_slug, hu_names
 
 
 def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = None,
@@ -185,7 +191,17 @@ def paper_topic(authors: list, author_lookup: dict, slug_category: dict) -> str:
     return "theory" if theory >= applied else "applied"
 
 
-def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_category: dict, pid_map: dict | None = None) -> list[dict]:
+def count_hu_authors(authors: list, hu_names: set) -> int:
+    """Count authors currently working in Hungary."""
+    count = 0
+    for entry in authors:
+        name = entry[0] if isinstance(entry, list) else entry
+        if normalize(clean_name(name)) in hu_names or normalize(name) in hu_names:
+            count += 1
+    return count
+
+
+def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_category: dict, pid_map: dict | None = None, hu_names: set | None = None) -> list[dict]:
     """Load and merge papers from one or more JSON files."""
     merged = {}
     for f in json_files:
@@ -199,6 +215,7 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
         doi = e.get("doi", "").strip()
         ee  = e.get("ee",  "").strip()
         link = doi if doi else ee
+        hu_count = count_hu_authors(authors, hu_names) if hu_names is not None else 0
         papers.append({
             "key":          key,
             "title":        e.get("title", "").rstrip("."),
@@ -210,6 +227,7 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
             "nationality":  kw["nationality"],
             "topic":        topic,
             "tier":         label,
+            "hu_count":     hu_count,
         })
     papers.sort(key=lambda p: -p["year"])
     return papers
@@ -228,6 +246,7 @@ def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list
             "nationality":  p["nationality"],
             "topic":        p["topic"],
             "tier":         p["tier"],
+            "hu_count":     p.get("hu_count", 0),
         }
 
     all_papers = papers_astar + papers_a + papers_b + papers_c + papers_norank
@@ -405,12 +424,11 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
   <span class="chip" data-group="inst" data-val="Ericsson">Ericsson</span>
 </div>
 <div class="filter-row">
-  <span class="filter-label">Csapat</span>
-  <span class="chip active" data-group="nat" data-val="">Mind</span>
-  <span class="chip" data-group="nat" data-val="all_hungarian">Teljesen magyar</span>
-  <span class="chip" data-group="nat" data-val="mostly_hungarian">Főleg magyar</span>
-  <span class="chip" data-group="nat" data-val="international">Nemzetközi</span>
-  <span class="chip" data-group="nat" data-val="no_hungarian">Nincs magyar</span>
+  <span class="filter-label">Affiliációk</span>
+  <span class="chip" data-group="nat" data-val="összes">Összes</span>
+  <span class="chip active" data-group="nat" data-val="van_magyar">Van magyar</span>
+  <span class="chip" data-group="nat" data-val="mind_magyar">Mind magyar</span>
+  <span class="chip" data-group="nat" data-val="egy_magyar">Egy magyar</span>
 </div>
 <div class="filter-row">
   <span class="filter-label">Téma</span>
@@ -843,7 +861,7 @@ const NAT_CLASS = {{
   international: "tag-intl"
 }};
 
-let filterInst = "", filterNat = "", filterTopic = "";
+let filterInst = "", filterNat = "van_magyar", filterTopic = "";
 let searchQ = "", yearFrom = {min_year}, yearTo = 0;
 let tierMode = "astar";
 let authorSlugFilter = "";
@@ -891,10 +909,10 @@ function renderPaper(p) {{
 function matches(p) {{
   if (authorSlugFilter && !p.authors_html.includes(`#${{authorSlugFilter}}`)) return false;
   if (filterInst  && !p.institutions.includes(filterInst)) return false;
-  if (filterNat) {{
-    if (filterNat === "no_hungarian") {{ if (p.nationality !== "") return false; }}
-    else {{ if (p.nationality !== filterNat) return false; }}
-  }}
+  if (filterNat === "van_magyar")  {{ if (p.hu_count < 1) return false; }}
+  else if (filterNat === "mind_magyar") {{ if (p.nationality !== "all_hungarian") return false; }}
+  else if (filterNat === "egy_magyar")  {{ if (p.hu_count !== 1) return false; }}
+  // "összes" or "" → no filter
   if (filterTopic && p.topic !== filterTopic) return false;
   if (p.year < yearFrom) return false;
   if (yearTo && p.year > yearTo) return false;
@@ -993,22 +1011,22 @@ def load_existing_profiles(profiles_dir: Path) -> set:
 
 
 def main():
-    author_lookup, slug_category, pid_map, pid_to_slug = load_author_data()
+    author_lookup, slug_category, pid_map, pid_to_slug, hu_names = load_author_data()
     print(f"Loaded {len(author_lookup)} author name entries, {len(pid_to_slug)} DBLP PIDs for linking")
 
-    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category, pid_map)
+    papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category, pid_map, hu_names)
     print(f"Core A*: {len(papers_astar)} papers")
 
-    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category, pid_map)
+    papers_a = load_papers([JSON_HUN_A, JSON_ABR_A], "A", author_lookup, slug_category, pid_map, hu_names)
     print(f"Core A:  {len(papers_a)} papers")
 
-    papers_b = load_papers([JSON_HUN_B, JSON_ABR_B], "B", author_lookup, slug_category, pid_map)
+    papers_b = load_papers([JSON_HUN_B, JSON_ABR_B], "B", author_lookup, slug_category, pid_map, hu_names)
     print(f"Core B:  {len(papers_b)} papers")
 
-    papers_c = load_papers([JSON_HUN_C, JSON_ABR_C], "C", author_lookup, slug_category, pid_map)
+    papers_c = load_papers([JSON_HUN_C, JSON_ABR_C], "C", author_lookup, slug_category, pid_map, hu_names)
     print(f"Core C:  {len(papers_c)} papers")
 
-    papers_norank = load_papers([JSON_HUN_NR, JSON_ABR_NR], "NR", author_lookup, slug_category, pid_map)
+    papers_norank = load_papers([JSON_HUN_NR, JSON_ABR_NR], "NR", author_lookup, slug_category, pid_map, hu_names)
     print(f"No rank: {len(papers_norank)} papers")
 
     existing = load_existing_profiles(BASE / "profiles")
