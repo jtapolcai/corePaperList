@@ -420,22 +420,33 @@ def create_plot(data_points, author_label=False):
     return fig
 
 def main(authors_data):
-
-    
     print("Extracting data points...")
     data_points = extract_data_points(authors_data)
-    
-    # Print statistics
-    total_points = (len(data_points['hungary'][0]) + 
-                   len(data_points['company'][0]) + 
+
+    total_points = (len(data_points['hungary'][0]) +
+                   len(data_points['company'][0]) +
                    len(data_points['abroad'][0]))
-    
+
+    # Fall back to full_authors_data.json when authors_data lacks MTMT fields
+    if total_points == 0:
+        full = load_authors_data()
+        if full:
+            # Merge works/category from authors_data into full so colours stay correct
+            for name, info in full.items():
+                if name in authors_data:
+                    info.setdefault("works", authors_data[name].get("works", ""))
+                    info.setdefault("category", authors_data[name].get("category", ""))
+            data_points = extract_data_points(full)
+            total_points = (len(data_points['hungary'][0]) +
+                           len(data_points['company'][0]) +
+                           len(data_points['abroad'][0]))
+
     print(f"Data points by category:")
     print(f"  Hungary: {len(data_points['hungary'][0])} authors")
     print(f"  Company: {len(data_points['company'][0])} authors")
     print(f"  Abroad: {len(data_points['abroad'][0])} authors")
     print(f"  Total: {total_points} authors")
-    
+
     if total_points == 0:
         print("Warning: No valid data points found. Make sure authors have both mtmt_journal D1 eqvivalents and Hungarian Core A* equivalent values.")
         return
