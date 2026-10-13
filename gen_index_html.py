@@ -129,10 +129,47 @@ def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
     theory = sum(1 for a in authors if a.get("category") == "theory")
     applied = sum(1 for a in authors if a.get("category") == "applied")
 
-    astar_coauth = sum(a.get("core_astar", 0) or 0 for a in authors)
-    # Count unique A* papers directly from the results JSON (authors.json has no per-author paper count)
     astar_papers = len(hun_papers) if hun_papers is not None else sum(a.get("core_astar_papers", 0) or 0 for a in authors)
     hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
+
+    # Hungarian-share weighted A* count: Σ_paper (hungarian_authors / total_authors)
+    # Build PID→is_hungarian lookup from authors list
+    hun_pids: set[str] = set()
+    for a in authors:
+        if (a.get("works") or "") in ("hungary", "company_hungary"):
+            slug = a.get("slug", "")
+            # PIDs stored as "/pid/path" in DBLP data — use slug as fallback key
+            if slug:
+                hun_pids.add(slug)
+    # Map author name → is_hungarian for name-based lookup
+    hun_names: set[str] = {
+        a["name"] for a in authors
+        if (a.get("works") or "") in ("hungary", "company_hungary") and a.get("name")
+    }
+    # PID (numeric path) → is_hungarian from profiles
+    import re as _re
+    hun_pid_paths: set[str] = set()
+    for a in authors:
+        if (a.get("works") or "") in ("hungary", "company_hungary"):
+            dblp = a.get("dblp_url", "")
+            pid = _re.sub(r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '', dblp).strip().rstrip("/").removesuffix(".html")
+            if pid:
+                hun_pid_paths.add(pid.lstrip("/"))
+
+    astar_hu_share = 0.0
+    if hun_papers:
+        for paper in hun_papers.values():
+            paper_authors = paper.get("authors", [])
+            n_total = len(paper_authors)
+            if not n_total:
+                continue
+            n_hun = 0
+            for entry in paper_authors:
+                name = entry[0] if isinstance(entry, list) else entry
+                pid  = (entry[1] if isinstance(entry, list) and len(entry) > 1 else "").lstrip("/")
+                if pid in hun_pid_paths or name in hun_names:
+                    n_hun += 1
+            astar_hu_share += n_hun / n_total
 
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
     age_counter = Counter(a.get("age_group") or "no PhD" for a in authors)
@@ -165,7 +202,7 @@ def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
         "abroad": abroad,
         "theory": theory,
         "applied": applied,
-        "astar_coauth": astar_coauth,
+        "astar_hu_share": round(astar_hu_share, 1),
         "astar_papers": astar_papers,
         "hun_astar_eq": hun_astar_eq,
         "works_counter": dict(works_counter),
@@ -379,8 +416,8 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
       <div class="lbl">CORE A* cikk (összes egyedi)</div>
     </div>
     <div class="stat-card">
-      <div class="val">{s["astar_coauth"]}</div>
-      <div class="lbl">CORE A* szerzőség (szerző × cikk)</div>
+      <div class="val">{s["astar_hu_share"]:.1f}</div>
+      <div class="lbl">Magyar A* (szerzői arány)</div>
     </div>
     <div class="stat-card">
       <div class="val">{s["hun_astar_eq"]:.0f}</div>
