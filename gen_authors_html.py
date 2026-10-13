@@ -708,8 +708,12 @@ function saveEdits() {{
   }}
 }}
 
+function stripAccents(s) {{
+  return (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+}}
+
 function renderList() {{
-  const q = searchQ.toLowerCase();
+  const q = stripAccents(searchQ);
   const filtered = AUTHORS.filter(a => {{
     if (filterCat && a.category !== filterCat) return false;
     if (filterWorks) {{
@@ -721,7 +725,7 @@ function renderList() {{
       if ((a.age_group || "") !== filterAge) return false;
     }}
     if (q) {{
-      const hay = ((a.name||"")+" "+(a.affiliations||"")+" "+(a.mtmt_affiliations||"")+" "+(a.dblp_institutions||"")).toLowerCase();
+      const hay = stripAccents((a.name||"")+" "+(a.affiliations||"")+" "+(a.mtmt_affiliations||"")+" "+(a.dblp_institutions||""));
       if (!hay.includes(q)) return false;
     }}
     return true;
@@ -770,7 +774,7 @@ function renderProfile(a) {{
   const note = a.note ? `<div class="profile-note">${{esc(a.note)}}</div>` : "";
 
   const astarUrl = `core_papers.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
-  const bothUrl  = `core_papers.html?author=${{a.slug}}&tier=both&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
+  const bothUrl  = `core_papers.html?author=${{a.slug}}&tier=both&sort=tier&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const aUrl     = `core_papers.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const cleanName     = (a.name || "").replace(/\\s+\\d{{4}}$/, "").trim();
   const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary&highlight=${{encodeURIComponent(cleanName)}}` : "";
