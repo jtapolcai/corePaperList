@@ -24,20 +24,24 @@ jobs:
         run: pip install requests xmltodict unidecode pandas matplotlib
 
       - name: Run DBLP update and paper classification
+        id: dblp
         run: python3 run_every_day.py
         continue-on-error: true
         env:
           SKIP_SHEET_WRITE: "1"
 
       - name: Regenerate index.html
+        id: index
         run: python3 gen_index_html.py
         continue-on-error: true
 
       - name: Regenerate authors_profile.html
+        id: authors
         run: python3 gen_authors_html.py
         continue-on-error: true
 
       - name: Regenerate core_papers.html
+        id: core
         run: python3 gen_core_papers_html.py
         continue-on-error: true
 
@@ -45,6 +49,7 @@ jobs:
         run: pip install pandas
 
       - name: Regenerate authors_table.html
+        id: table
         run: python3 gen_authors_table.py
         continue-on-error: true
 
@@ -62,4 +67,18 @@ jobs:
             git commit -m "Weekly DBLP update $(date -u +'%Y-%m-%d') [skip ci]"
             git pull --rebase --autostash origin main
             git push
+          fi
+
+      - name: Check for failures
+        if: always()
+        run: |
+          FAILED=""
+          [ "${{ steps.dblp.outcome }}"    = "failure" ] && FAILED="$FAILED dblp"
+          [ "${{ steps.index.outcome }}"   = "failure" ] && FAILED="$FAILED index.html"
+          [ "${{ steps.authors.outcome }}" = "failure" ] && FAILED="$FAILED authors_profile.html"
+          [ "${{ steps.core.outcome }}"    = "failure" ] && FAILED="$FAILED core_papers.html"
+          [ "${{ steps.table.outcome }}"   = "failure" ] && FAILED="$FAILED authors_table.html"
+          if [ -n "$FAILED" ]; then
+            echo "::error::A következő lépések hibával végződtek:$FAILED"
+            exit 1
           fi
