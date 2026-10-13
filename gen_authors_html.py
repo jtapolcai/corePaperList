@@ -55,8 +55,8 @@ GITHUB_BRANCH = "main"
 # Fields the user manually edits in profiles/{slug}.json
 EDITABLE_FIELDS = [
     "dblp_url", "mtmt_id", "mtmt_name", "mta_att_id", "mta_photo",
-    "category", "mtmt_status", "works", "affiliations", "age_group",
-    "linkedin", "homepage", "note",
+    "category", "mtmt_status", "works", "affiliations",
+    "linkedin", "homepage", "note", "phd_year",
 ]
 
 
@@ -206,6 +206,10 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
   border: 1px solid var(--border); background: var(--chip-bg); color: var(--text);
   transition: background 0.1s; user-select: none; }}
 .chip.active {{ background: var(--chip-active); color: var(--chip-active-text); border-color: transparent; }}
+.sort-row {{ align-items: center; gap: 0.5rem; }}
+.sort-row label {{ font-size: 0.72rem; color: var(--muted); white-space: nowrap; }}
+.sort-row select {{ font-size: 0.72rem; padding: 0.15rem 0.3rem; border: 1px solid var(--border);
+  border-radius: 4px; background: var(--chip-bg); color: var(--text); cursor: pointer; }}
 #list-count {{ padding: 0.35rem 0.75rem; font-size: 0.72rem; color: var(--muted);
   border-bottom: 1px solid var(--border); }}
 #author-list {{ flex: 1; overflow-y: auto; }}
@@ -437,6 +441,21 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
       <span class="chip" data-group="works" data-val="abroad">Abroad</span>
       <span class="chip" data-group="works" data-val="hungary">Hungary</span>
     </div>
+    <div class="filter-row">
+      <span class="chip active" data-group="age" data-val="">Karriér: mind</span>
+      <span class="chip" data-group="age" data-val="unknown">Ismeretlen</span>
+      <span class="chip" data-group="age" data-val="ERC Starting">Starting</span>
+      <span class="chip" data-group="age" data-val="ERC Consolidator">Consolidator</span>
+      <span class="chip" data-group="age" data-val="ERC Advanced">Advanced</span>
+    </div>
+    <div class="filter-row sort-row">
+      <label for="sort-select">Sorrend:</label>
+      <select id="sort-select">
+        <option value="astar_equiv">Core A* eq.</option>
+        <option value="astar">Core A*</option>
+        <option value="name">Név</option>
+      </select>
+    </div>
     <div id="list-count"></div>
     <div id="author-list"></div>
   </div>
@@ -461,7 +480,7 @@ const GITHUB_BRANCH = "{GITHUB_BRANCH}";
 const BY_SLUG = {{}};
 AUTHORS.forEach(a => BY_SLUG[a.slug] = a);
 
-let filterCat = "", filterWorks = "", searchQ = "";
+let filterCat = "", filterWorks = "", filterAge = "", sortBy = "astar_equiv", searchQ = "";
 let currentSlug = "";
 
 function esc(s) {{
@@ -634,6 +653,9 @@ function renderList() {{
       if (filterWorks === "abroad" && !w.includes("abroad")) return false;
       if (filterWorks === "hungary" && w.includes("abroad")) return false;
     }}
+    if (filterAge) {{
+      if ((a.age_group || "") !== filterAge) return false;
+    }}
     if (q) {{
       const hay = ((a.name||"")+" "+(a.affiliations||"")+" "+(a.mtmt_affiliations||"")+" "+(a.dblp_institutions||"")).toLowerCase();
       if (!hay.includes(q)) return false;
@@ -641,10 +663,16 @@ function renderList() {{
     return true;
   }});
 
-  document.getElementById("list-count").textContent = filtered.length + " / " + AUTHORS.length + " author";
+  const sorted = [...filtered].sort((a, b) => {{
+    if (sortBy === "name") return (a.name||"").localeCompare(b.name||"", "hu");
+    if (sortBy === "astar") return (b.core_astar||0) - (a.core_astar||0);
+    return (b.core_astar_equiv||0) - (a.core_astar_equiv||0);
+  }});
+
+  document.getElementById("list-count").textContent = sorted.length + " / " + AUTHORS.length + " author";
 
   const el = document.getElementById("author-list");
-  el.innerHTML = filtered.map(a => {{
+  el.innerHTML = sorted.map(a => {{
     const active = a.slug === currentSlug ? " active" : "";
     const astar = a.core_astar != null ? `${{a.core_astar}} A*` : "";
     const cat = a.category ? `<span class="badge">${{esc(a.category)}}</span>` : "";
@@ -740,6 +768,7 @@ function renderProfile(a) {{
     {{key:"linkedin",    label:"LinkedIn URL",   type:"text"}},
     {{key:"homepage",    label:"Honlap",         type:"text"}},
     {{key:"note",        label:"Megjegyzés",     type:"text"}},
+    {{key:"phd_year",    label:"PhD éve",        type:"text"}},
   ];
   const editRows = EDIT_FIELDS.map(f => {{
     const val = String(a[f.key] || "");
@@ -767,7 +796,6 @@ function renderProfile(a) {{
     ["MTMT affiliációk", a.mtmt_affiliations],
     ["Kutatási téma",    a.research_topic],
     ["Fokozat",          a.degree],
-    ["PhD év",           a.phd_year],
     ["Díjak",            a.awards],
     ["Született",        a.born],
   ].filter(([,v]) => v)
@@ -845,12 +873,18 @@ document.querySelectorAll(".chip").forEach(chip => {{
     chip.classList.add("active");
     if (group === "cat") filterCat = chip.dataset.val;
     if (group === "works") filterWorks = chip.dataset.val;
+    if (group === "age") filterAge = chip.dataset.val;
     renderList();
   }});
 }});
 
 document.getElementById("search").addEventListener("input", e => {{
   searchQ = e.target.value.trim();
+  renderList();
+}});
+
+document.getElementById("sort-select").addEventListener("change", e => {{
+  sortBy = e.target.value;
   renderList();
 }});
 

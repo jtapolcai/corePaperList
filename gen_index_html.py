@@ -22,7 +22,13 @@ WORKS_LABEL = {
     "unknown": "Ismeretlen",
 }
 
-AGE_ORDER = ["0-5 év", "5-10 év", "10-20 év", "20+ év", "25+ év", "unknown"]
+AGE_ORDER = ["ERC Starting", "ERC Consolidator", "ERC Advanced", "unknown"]
+AGE_LABEL = {
+    "ERC Starting": "ERC Starting (≤7 év PhD után)",
+    "ERC Consolidator": "ERC Consolidator (7–12 év)",
+    "ERC Advanced": "ERC Advanced (12+ év)",
+    "unknown": "Ismeretlen",
+}
 
 
 def load_authors() -> list:
@@ -144,6 +150,14 @@ def compute_stats(authors: list) -> dict:
         reverse=True,
     )[:10]
 
+    def top_hun_eq(age_groups=None):
+        pool = [a for a in authors
+                if (a.get("core_astar_equiv") or 0) > 0
+                and (a.get("works") or "") in ("hungary", "company_hungary")]
+        if age_groups:
+            pool = [a for a in pool if (a.get("age_group") or "") in age_groups]
+        return sorted(pool, key=lambda a: a.get("core_astar_equiv", 0) or 0, reverse=True)[:10]
+
     return {
         "total": total,
         "hungary": hungary,
@@ -157,6 +171,10 @@ def compute_stats(authors: list) -> dict:
         "age_counter": dict(age_counter),
         "top_all": top_all,
         "top_hun": top_hun,
+        "top_hun_eq_all":    top_hun_eq(),
+        "top_hun_eq_st":     top_hun_eq(["ERC Starting"]),
+        "top_hun_eq_co":     top_hun_eq(["ERC Consolidator"]),
+        "top_hun_eq_adv":    top_hun_eq(["ERC Advanced"]),
         "profiles": profile_count(),
     }
 
@@ -175,17 +193,18 @@ def age_rows(age_counter: dict) -> str:
         n = age_counter.get(key, 0)
         if n == 0:
             continue
-        label = key if key != "unknown" else "Ismeretlen"
+        label = AGE_LABEL.get(key, key)
         rows.append(f"<tr><td>{label}</td><td class='num'>{n}</td></tr>")
     return "\n".join(rows)
 
 
-def top_rows(top: list, photo_map: dict) -> str:
+def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits: int = 0) -> str:
     rows = []
     for i, a in enumerate(top, 1):
         name = a.get("name", "")
         slug = a.get("slug", "")
-        astar = a.get("core_astar", 0) or 0
+        val = a.get(value_field, 0) or 0
+        val_str = f"{val:.{digits}f}" if isinstance(val, float) else str(val)
         works = a.get("works", "") or ""
         cat = a.get("category", "") or ""
         cat_badge = (
@@ -205,7 +224,7 @@ def top_rows(top: list, photo_map: dict) -> str:
         rows.append(
             f"<tr><td class='rank'>{i}.</td>"
             f"<td class='name-cell'>{photo_cell}{loc} {profile_link}</td>"
-            f"<td>{cat_badge}</td><td class='num'>{astar}</td></tr>"
+            f"<td>{cat_badge}</td><td class='num'>{val_str}</td></tr>"
         )
     return "\n".join(rows)
 
@@ -408,6 +427,36 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
       <table>
         <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
         <tbody>{top_rows(s["top_hun"], photo_map)}</tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section-title">Top 10 kutató Core A* eq. szerint – Magyarország, ERC kariér szerint</div>
+  <div class="two-col">
+    <div>
+      <table>
+        <thead><tr><th></th><th>Bármely karriér</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_all"], photo_map, "core_astar_equiv", 2)}</tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th></th><th>ERC Starting (≤7 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2)}</tbody>
+      </table>
+    </div>
+  </div>
+  <div class="two-col" style="margin-top:1.25rem">
+    <div>
+      <table>
+        <thead><tr><th></th><th>ERC Consolidator (7–12 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2)}</tbody>
+      </table>
+    </div>
+    <div>
+      <table>
+        <thead><tr><th></th><th>ERC Advanced (12+ év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
+        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
   </div>

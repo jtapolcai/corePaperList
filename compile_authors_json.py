@@ -159,6 +159,15 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
     phd_year = profile.get("phd_year")
     years_since_phd = date.today().year - phd_year if phd_year else None
 
+    if years_since_phd is None:
+        age_group = "unknown"
+    elif years_since_phd <= 7:
+        age_group = "ERC Starting"
+    elif years_since_phd <= 12:
+        age_group = "ERC Consolidator"
+    else:
+        age_group = "ERC Advanced"
+
     return {
         **profile,
         # Computed stats (overwrite whatever was in the profile)
@@ -172,6 +181,7 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
         "first_author_core_astar_equiv": first_equiv,
         # Derived
         "years_since_phd": years_since_phd,
+        "age_group": age_group,
     }
 
 
