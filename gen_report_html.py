@@ -84,8 +84,7 @@ abroad_astar_counts = papers_by_year_and_category("already_abroad_papers_coreAst
 hung_a_counts = papers_by_year_and_category("hungarian_papers_coreA.json")
 
 hung_astar_series = make_year_series(hung_astar_counts)
-abroad_astar_total_counts = papers_by_year_total("already_abroad_papers_coreAstar.json")
-abroad_astar_series = make_total_series(abroad_astar_total_counts)
+abroad_astar_series = make_year_series(abroad_astar_counts)
 
 # Key statistics
 total_hung_astar = sum(
@@ -336,32 +335,7 @@ function stackedBarChart(canvasId, series, title) {{
 }}
 
 stackedBarChart("chart-hung-astar", DATA.hung_astar);
-
-// Abroad: simple single-color bar (no theory/applied split in data)
-(function() {{
-  const ctx = document.getElementById("chart-abroad-astar").getContext("2d");
-  new Chart(ctx, {{
-    type: "bar",
-    data: {{
-      labels: DATA.abroad_astar.years,
-      datasets: [{{
-        label: "CORE A* cikkek",
-        data: DATA.abroad_astar.total,
-        backgroundColor: "#9467bd",
-      }}]
-    }},
-    options: {{
-      responsive: true,
-      plugins: {{
-        legend: {{ labels: {{ color: textColor }} }},
-      }},
-      scales: {{
-        x: {{ ticks: {{ color: textColor, maxRotation: 45, autoSkipPadding: 8 }}, grid: {{ color: gridColor }} }},
-        y: {{ beginAtZero: true, ticks: {{ color: textColor }}, grid: {{ color: gridColor }} }},
-      }},
-    }}
-  }});
-}})();
+stackedBarChart("chart-abroad-astar", DATA.abroad_astar);
 </script>
 </body>
 </html>

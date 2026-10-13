@@ -608,6 +608,10 @@ function selectDblp(url, name, el) {{
   document.getElementById("m-dblp-url").value = url;
   document.querySelectorAll("#dblp-list .candidate").forEach(c => c.classList.remove("selected"));
   el.classList.add("selected");
+  if (name) {{
+    _modalName = name;
+    _modalSlug = slugifyJS(name);
+  }}
 }}
 
 async function searchMtmt(name) {{
@@ -748,6 +752,11 @@ async function enrichFromDblp(dblpUrl) {{
     const data = await resp.json();
     const hit = (data?.result?.hits?.hit || [])[0];
     if (!hit) return;
+    const dblpName = hit.info?.author || "";
+    if (dblpName) {{
+      _modalName = dblpName;
+      _modalSlug = slugifyJS(dblpName);
+    }}
     const notes = hit.info?.notes?.note;
     const noteArr = Array.isArray(notes) ? notes : (notes ? [notes] : []);
     const aff = noteArr.filter(n => n["@type"] === "affiliation").map(n => n["#text"]).join("; ");
