@@ -67,7 +67,7 @@ def classify_author(author_name: str, pid: str, year: int) -> Dict[str, str]:
                 if not _name:
                     continue
                 _url = _a.get('dblp_url', '')
-                _pid = _re.sub(r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '', _url).strip()
+                _pid = _re.sub(r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '', _url).strip().rstrip('/').removesuffix('.html').removesuffix('.xml')
                 if _pid:
                     pid_to_name[_pid] = _name
                 _works = _a.get('works')

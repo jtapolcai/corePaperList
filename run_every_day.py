@@ -54,7 +54,7 @@ def load_authors_from_profiles():
         dblp_pid = re.sub(
             r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '',
             dblp_url_full,
-        ).strip()
+        ).strip().rstrip('/').removesuffix('.html').removesuffix('.xml')
 
         affiliations = a.get('affiliations', '')
         institution = affiliations if isinstance(affiliations, str) else (affiliations[0] if affiliations else '')
