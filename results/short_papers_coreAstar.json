@@ -205,6 +205,41 @@
     "classfiied": [],
     "short_paper_reason": "Identified as short paper"
   },
+  "conf/emnlp/LelkesLSCR23": {
+    "key": "conf/emnlp/LelkesLSCR23",
+    "title": "SDOH-NLI: a Dataset for Inferring Social Determinants of Health from Clinical Notes",
+    "venue": "EMNLP (Findings)",
+    "year": "2023",
+    "pages": "4789-4798",
+    "doi": "",
+    "ee": "https://doi.org/10.18653/V1/2023.FINDINGS-EMNLP.317",
+    "url": "",
+    "crossref": "conf/emnlp/LelkesLSCR23",
+    "authors": [
+      [
+        "Ádám Dániel Lelkes",
+        "147/5184"
+      ],
+      [
+        "Alvin Rajkomar",
+        "194/0088"
+      ],
+      [
+        "Eric Loreaux",
+        "280/3578"
+      ],
+      [
+        "Ming-Jun Chen",
+        "90/5839"
+      ],
+      [
+        "Tal Schuster",
+        "190/7491"
+      ]
+    ],
+    "classfiied": [],
+    "short_paper_reason": "Identified as short paper"
+  },
   "conf/iccv/FodorSJEGL21": {
     "key": "conf/iccv/FodorSJEGL21",
     "title": "Multimodal Sentiment and Personality Perception Under Speech: A Comparison of Transformer-based Architectures",
@@ -660,6 +695,70 @@
     "ee": "https://doi.org/10.1109/AST.2017.4",
     "url": "",
     "crossref": "conf/icse/HodovanKG17",
+    "authors": [
+      [
+        "Ákos Kiss",
+        "22/2413-1"
+      ],
+      [
+        "Renáta Hodován",
+        "07/9089"
+      ],
+      [
+        "Tibor Gyimóthy",
+        "23/234"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "University of Szeged, Hungary",
+      "all_hungarian",
+      "theory"
+    ],
+    "short_paper_reason": "Identified as short paper"
+  },
+  "conf/sigsoft/0001HG18": {
+    "key": "conf/sigsoft/0001HG18",
+    "title": "HDDr: a recursive variant of the hierarchical Delta debugging algorithm",
+    "venue": "A-TEST@ESEC/SIGSOFT FSE",
+    "year": "2018",
+    "pages": "16-22",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3278186.3278189",
+    "url": "",
+    "crossref": "conf/sigsoft/0001HG18",
+    "authors": [
+      [
+        "Ákos Kiss",
+        "22/2413-1"
+      ],
+      [
+        "Renáta Hodován",
+        "07/9089"
+      ],
+      [
+        "Tibor Gyimóthy",
+        "23/234"
+      ]
+    ],
+    "classfiied": [
+      "SZTE",
+      "University of Szeged, Hungary",
+      "all_hungarian",
+      "theory"
+    ],
+    "short_paper_reason": "Identified as short paper"
+  },
+  "conf/sigsoft/Hodovan0G18": {
+    "key": "conf/sigsoft/Hodovan0G18",
+    "title": "Grammarinator: a grammar-based open source fuzzer",
+    "venue": "A-TEST@ESEC/SIGSOFT FSE",
+    "year": "2018",
+    "pages": "45-48",
+    "doi": "",
+    "ee": "https://doi.org/10.1145/3278186.3278193",
+    "url": "",
+    "crossref": "conf/sigsoft/Hodovan0G18",
     "authors": [
       [
         "Ákos Kiss",
@@ -3942,6 +4041,37 @@
     ],
     "short_paper_reason": "Identified as short paper"
   },
+  "conf/emnlp/AshokKPP23": {
+    "key": "conf/emnlp/AshokKPP23",
+    "title": "The student becomes the master: Outperforming GPT3 on Scientific Factual Error Correction",
+    "venue": "EMNLP (Findings)",
+    "year": "2023",
+    "pages": "6762-6778",
+    "doi": "",
+    "ee": "https://doi.org/10.18653/V1/2023.FINDINGS-EMNLP.451",
+    "url": "",
+    "crossref": "conf/emnlp/AshokKPP23",
+    "authors": [
+      [
+        "Atharva Kulkarni",
+        "261/0205"
+      ],
+      [
+        "Barnabás Póczos",
+        "15/4829"
+      ],
+      [
+        "Dhananjay Ashok",
+        "277/0892"
+      ],
+      [
+        "Hai Pham",
+        "24/5403"
+      ]
+    ],
+    "classfiied": [],
+    "short_paper_reason": "Identified as short paper"
+  },
   "conf/iclr/ChangLYP19": {
     "key": "conf/iclr/ChangLYP19",
     "title": "Kernel Change-point Detection with Auxiliary Deep Generative Models",
@@ -4275,41 +4405,6 @@
       [
         "Mirco Musolesi",
         "54/5541"
-      ]
-    ],
-    "classfiied": [],
-    "short_paper_reason": "Identified as short paper"
-  },
-  "conf/wsdm/Derr0RSP23": {
-    "key": "conf/wsdm/Derr0RSP23",
-    "title": "The 3rd International Workshop on Machine Learning on Graphs (MLoG)",
-    "venue": "WSDM",
-    "year": "2023",
-    "pages": "1271-1272",
-    "doi": "",
-    "ee": "https://doi.org/10.1145/3539597.3572706",
-    "url": "",
-    "crossref": "conf/wsdm/Derr0RSP23",
-    "authors": [
-      [
-        "Benedek Rozemberczki",
-        "215/3742"
-      ],
-      [
-        "Neil Shah",
-        "71/7771"
-      ],
-      [
-        "Shirui Pan",
-        "91/8171"
-      ],
-      [
-        "Tyler Derr",
-        "207/7927"
-      ],
-      [
-        "Yao Ma",
-        "212/7871"
       ]
     ],
     "classfiied": [],
@@ -5726,6 +5821,33 @@
     "classfiied": [],
     "short_paper_reason": "Identified as short paper"
   },
+  "conf/iwqos/FodorEP05": {
+    "key": "conf/iwqos/FodorEP05",
+    "title": "Closing the Gap Between Industry, Academia and Users: Is There a Need for QoS in Wireless Systems?",
+    "venue": "IWQoS",
+    "year": "2005",
+    "pages": "375-378",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/11499169_37",
+    "url": "",
+    "crossref": "conf/iwqos/FodorEP05",
+    "authors": [
+      [
+        "David Partain",
+        "25/5098"
+      ],
+      [
+        "Gábor Fodor",
+        "14/5281"
+      ],
+      [
+        "Karim El-Malki",
+        "47/2943"
+      ]
+    ],
+    "classfiied": [],
+    "short_paper_reason": "Identified as short paper"
+  },
   "conf/atal/SzekelyBFGHJKMNRSB06": {
     "key": "conf/atal/SzekelyBFGHJKMNRSB06",
     "title": "CSC: Criticality-Sensitive Coordination",
@@ -6458,37 +6580,6 @@
     "classfiied": [],
     "short_paper_reason": "Identified as short paper"
   },
-  "conf/cvpr/NeuenschwanderFSK94": {
-    "key": "conf/cvpr/NeuenschwanderFSK94",
-    "title": "Initializing snakes [object delineation]",
-    "venue": "CVPR",
-    "year": "1994",
-    "pages": "658-663",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/CVPR.1994.323783",
-    "url": "",
-    "crossref": "conf/cvpr/NeuenschwanderFSK94",
-    "authors": [
-      [
-        "Gábor Székely",
-        "41/1233"
-      ],
-      [
-        "Olaf Kübler",
-        "27/5657"
-      ],
-      [
-        "Pascal Fua",
-        "f/PFua"
-      ],
-      [
-        "Walter M. Neuenschwander",
-        "34/6832"
-      ]
-    ],
-    "classfiied": [],
-    "short_paper_reason": "Identified as short paper"
-  },
   "conf/iccv/KollerGSD95": {
     "key": "conf/iccv/KollerGSD95",
     "title": "Multiscale Detection of Curvilinear Structures in 2D and 3D Image Data",
@@ -6661,29 +6752,6 @@
       "international",
       "applied"
     ],
-    "short_paper_reason": "Identified as short paper"
-  },
-  "conf/cvpr/RuanaidhC99": {
-    "key": "conf/cvpr/RuanaidhC99",
-    "title": "A Bayesian Approach To Spread Spectrum Watermark Detection and Secure Copyright Protection for Digital Image Libraries",
-    "venue": "CVPR",
-    "year": "1999",
-    "pages": "1207-1212",
-    "doi": "",
-    "ee": "https://doi.org/10.1109/CVPR.1999.786940",
-    "url": "",
-    "crossref": "conf/cvpr/RuanaidhC99",
-    "authors": [
-      [
-        "Gabriela Csurka",
-        "c/GabrielaCsurka"
-      ],
-      [
-        "Joseph Ó Ruanaidh",
-        "37/1839"
-      ]
-    ],
-    "classfiied": [],
     "short_paper_reason": "Identified as short paper"
   },
   "conf/eccv/CsurkaHLV24": {
@@ -8179,57 +8247,6 @@
     ],
     "short_paper_reason": "Identified as short paper"
   },
-  "conf/ifaamas/DelemazureFJKPP26": {
-    "key": "conf/ifaamas/DelemazureFJKPP26",
-    "title": "Detecting Approximate Clones under Approval Voting",
-    "venue": "AAMAS",
-    "year": "2026",
-    "pages": "3441-3443",
-    "doi": "",
-    "ee": "",
-    "url": "",
-    "crossref": "conf/ifaamas/DelemazureFJKPP26",
-    "authors": [
-      [
-        "Dusan Knop",
-        "161/2021"
-      ],
-      [
-        "Ildikó Schlotter",
-        "09/515"
-      ],
-      [
-        "Jan Pokorný",
-        "148/8475-1"
-      ],
-      [
-        "Kristýna Pekárková",
-        "268/4581"
-      ],
-      [
-        "Lukasz Janeczko",
-        "323/7982"
-      ],
-      [
-        "Piotr Faliszewski",
-        "58/2379"
-      ],
-      [
-        "Simon Schierreich",
-        "270/0149"
-      ],
-      [
-        "Theo Delemazure",
-        "265/5708"
-      ]
-    ],
-    "classfiied": [
-      "BME-SZIT -2011; MTA KRTK 2012-",
-      "international",
-      "theory"
-    ],
-    "short_paper_reason": "Identified as short paper"
-  },
   "conf/sigmetrics/HorvathSH20": {
     "key": "conf/sigmetrics/HorvathSH20",
     "title": "Mean Field Analysis of Join-Below-Threshold Load Balancing for Resource Sharing Servers",
@@ -8417,6 +8434,37 @@
       ]
     ],
     "classfiied": [],
+    "short_paper_reason": "Identified as short paper"
+  },
+  "conf/dsn/BondavalliMM08": {
+    "key": "conf/dsn/BondavalliMM08",
+    "title": "International Workshop on Resilience Assessment and Dependability Benchmarking (RADB 2008)",
+    "venue": "DSN",
+    "year": "2008",
+    "pages": "542-543",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/DSN.2008.4630125",
+    "url": "",
+    "crossref": "conf/dsn/BondavalliMM08",
+    "authors": [
+      [
+        "Aad P. A. van Moorsel",
+        "45/6478"
+      ],
+      [
+        "Andrea Bondavalli",
+        "31/4416"
+      ],
+      [
+        "István Majzik",
+        "40/2013"
+      ]
+    ],
+    "classfiied": [
+      "BME",
+      "international",
+      "applied"
+    ],
     "short_paper_reason": "Identified as short paper"
   },
   "conf/dsn/MadeiraM09": {
@@ -8645,41 +8693,6 @@
     ],
     "short_paper_reason": "Identified as short paper"
   },
-  "conf/oopsla/ZhangBKS21": {
-    "key": "conf/oopsla/ZhangBKS21",
-    "title": "Differential-FORMULA: towards a semantic backplane for incremental modeling",
-    "venue": "DSM@SPLASH",
-    "year": "2021",
-    "pages": "51-60",
-    "doi": "",
-    "ee": "https://doi.org/10.1145/3486603.3486779",
-    "url": "",
-    "crossref": "conf/oopsla/ZhangBKS21",
-    "authors": [
-      [
-        "Daniel Balasubramanian",
-        "42/5805"
-      ],
-      [
-        "Janos Sztipanovits",
-        "62/685"
-      ],
-      [
-        "Qishen Zhang",
-        "157/7566"
-      ],
-      [
-        "Tamás Kecskés",
-        "148/6337"
-      ]
-    ],
-    "classfiied": [
-      "SZTE",
-      "international",
-      "applied"
-    ],
-    "short_paper_reason": "Identified as short paper"
-  },
   "conf/infocom/TapolcaiHBR13": {
     "key": "conf/infocom/TapolcaiHBR13",
     "title": "On achieving all-optical failure restoration via monitoring trails",
@@ -8864,6 +8877,33 @@
       [
         "Laszlo A. Belady",
         "b/LaszloABelady"
+      ]
+    ],
+    "classfiied": [],
+    "short_paper_reason": "Identified as short paper"
+  },
+  "conf/cvpr/ErtugrulJC18": {
+    "key": "conf/cvpr/ErtugrulJC18",
+    "title": "FACSCaps: Pose-Independent Facial Action Coding With Capsules",
+    "venue": "CVPR Workshops",
+    "year": "2018",
+    "pages": "2130-2139",
+    "doi": "",
+    "ee": "https://doi.org/10.1109/CVPRW.2018.00287",
+    "url": "",
+    "crossref": "conf/cvpr/ErtugrulJC18",
+    "authors": [
+      [
+        "Itir Önal",
+        "135/8878"
+      ],
+      [
+        "Jeffrey F. Cohn",
+        "54/1171"
+      ],
+      [
+        "László A. Jeni",
+        "35/7547"
       ]
     ],
     "classfiied": [],
