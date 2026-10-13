@@ -73,13 +73,38 @@ jobs:
         run: python3 gen_authors_table.py
         continue-on-error: true
 
+      - name: Install LaTeX
+        run: sudo apt-get install -y texlive-latex-extra texlive-lang-european texlive-fonts-recommended
+
+      - name: Compile PDF report
+        id: pdf
+        run: |
+          cd doc
+          pdflatex -interaction=nonstopmode report.tex
+          pdflatex -interaction=nonstopmode report.tex
+        continue-on-error: true
+
+      - name: Update report_meta.json with PDF date
+        if: steps.pdf.outcome == 'success'
+        run: |
+          python3 - <<'EOF'
+          import json, datetime, pathlib
+          p = pathlib.Path('report_meta.json')
+          meta = json.loads(p.read_text()) if p.exists() else {}
+          meta['hu_pdf_url'] = 'doc/report.pdf'
+          meta['hu_pdf_date'] = datetime.date.today().isoformat()
+          p.write_text(json.dumps(meta, indent=2) + '\n')
+          EOF
+        continue-on-error: true
+
       - name: Commit changes
         if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/ authors.json dblp/ profiles/ figures/ \
-                  index.html authors_profile.html core_papers.html authors_table.html report.html || true
+                  index.html authors_profile.html core_papers.html authors_table.html report.html \
+                  doc/report.pdf report_meta.json || true
           if git diff --cached --quiet; then
             echo "Nincs változás"
           else
@@ -101,6 +126,7 @@ jobs:
           [ "${{ steps.authors.outcome }}" = "failure" ] && FAILED="$FAILED authors_profile.html"
           [ "${{ steps.core.outcome }}"    = "failure" ] && FAILED="$FAILED core_papers.html"
           [ "${{ steps.table.outcome }}"   = "failure" ] && FAILED="$FAILED authors_table.html"
+          [ "${{ steps.pdf.outcome }}"    = "failure" ] && FAILED="$FAILED pdf"
           if [ -n "$FAILED" ]; then
             echo "::error::A következő lépések hibával végződtek:$FAILED"
             exit 1
