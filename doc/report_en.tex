@@ -1,0 +1,276 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{url}
+\usepackage{caption}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes, fit}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.18}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+\newcommand{\hh}[1]{${}^{\!1}\!/_{#1}$}
+\newcount\currentyear \currentyear=\year
+
+\title{The Role of the CORE Conference Ranking\\in Hungarian Research Evaluation Practice}
+\author{János Tapolcai, Doctor of the Hungarian Academy of Sciences}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This study examines the role of top-tier conference publications in Hungarian computer science research. We show that the national scientometric practice—currently journal-oriented—diverges from international norms, creating incentive distortions in researcher evaluation. By linking multiple databases (iCore, DBLP, MTMT, MTA-ATT), we mapped Hungarian-affiliated CORE A\!* and A conference papers, their temporal and thematic distribution, and author trajectories. Results indicate earlier and stronger international presence in theoretical fields, while applied areas show higher outmigration. We recommend recognizing CORE A\!* papers as equivalent to D1 and CORE A papers as equivalent to Q1 journals in national evaluation systems.
+\par\medskip
+\textbf{Keywords:} CORE conference ranking; scientometrics; computer science; Hungarian affiliation.
+\end{abstract}
+
+\section{Introduction}
+
+The publication culture in computer science differs substantially from other disciplines. According to the German Research Foundation (DFG) \cite{DFG2022Publishing}, computer science is the only discipline where conference publications play a particularly important role, while journals account for a smaller share. In contrast, in other fields the dominant results appear primarily in journals (see Figure~\ref{fig:tudomanyok}).
+
+\input{dfg_publication_types_table.tex}
+
+The popularity of conferences is partly due to their rigorous review schedules: fixed deadlines govern submission, camera-ready versions and author responses. Serving on a prestigious conference programme committee carries significant prestige in computer science, so even leading researchers take on this role.
+Top conferences play a particularly prominent role\footnote{The ELLIS Society, a European network of excellence for AI researchers, evaluates members based on leading conferences—not journals; see \url{https://ellis.eu/members/become-member}} in researcher evaluation, especially in the Anglo-Saxon academic culture \cite{fortnow2009time,vardi2009conferences}.
+Conferences also employ software tools designed to support teamwork: online discussions, mutual reviewer evaluations, and dynamic expansion of the reviewer pool (an accepted paper may receive up to six reviews).
+However, strict deadlines have their limitations and will never fully replace the kind of thorough journal review where a referee examines a paper line by line—including proof details—sometimes over the course of years.
+
+The fast, high-quality review process emerged primarily from the needs of industry. Accordingly, major technology companies invest substantial resources in sponsoring these events, which aligns with researchers' interests: appearing at a top conference greatly increases the visibility and professional impact of a result. As a consequence, conferences have emerged in computer science that surpass even the leading journals in novelty and prestige.
+
+The CORE conference ranking helps navigate this competitive landscape. The CORE list has existed since 2006, developed with the involvement of the Australian Academy of Science and professional bodies. The rating system distinguishes four main categories (A\!*, A, B, C) and is updated every few years. The ranking focuses on review quality, referee expertise, citation impact, community engagement and the conferences' professional prestige.
+
+\input{rank_table.tex}
+
+Figure~\ref{fig:core_boundaries} compares the Norwegian journal ranking \cite{NorwegianRegister2025} and the SCImago Journal Rank (SJR) categories with the CORE conference ranking \cite{coreweb}. The ``share'' columns show the estimated proportion of papers in each category. For journals, the number of papers per category is unavailable, so the proportion of journals is shown instead. For conferences, proportions were computed from the DBLP database, analysing a total of $3{,}365{,}568$ papers published since 2000. Essentially all A and A\!* conferences were identified in DBLP, 434 of 614 B-category conferences, and approximately half of C-category conferences. Papers from conferences not indexed by DBLP were estimated proportionally.
+
+The highest category, A\!*, is more selective than D1 and essentially corresponds to Norwegian level~2. These conference papers are very similar in scope and quality to a D1 journal article: the main text is typically nine pages with an appendix of unlimited length, and the acceptance rate ranges from 10\% to 20\%.
+
+CORE~A represents high quality; in terms of selectivity it falls between D1 and Q1 journals. CORE~B still indicates quality publications, roughly corresponding to the lower range of Q1 and Q2. Finally, CORE~C is comparable to the lower Q2 and upper Q3 range.
+
+\section{Conference Publications in Hungarian Science}
+
+In Hungarian scientometric practice, the recognition of high-quality conference papers has not yet matured. To our knowledge, currently only two doctoral schools—the SZTE Doctoral School of Informatics and the BME Doctoral School of Mathematics—explicitly consider quality conference publications in candidate evaluation. At the level of the Hungarian Academy of Sciences (MTA) doctorate, in the case of Section~III (Mathematics), top-tier conference papers count only among highlighted citations, defined using the CORE A and A\!* ranking. The prevailing journal-oriented evaluation approach in Hungary does not reflect international computer science publication norms; as a result, a study published at an A\!* conference representing significant research achievement may not receive adequate recognition.
+
+In MTMT2, top-ranked conferences are not separately labelled, although this feature is expected to appear in the development of MTMT3. Hungarian CS researchers can currently track only the conferences of their own narrow subfield, and until now no comprehensive picture of national performance has been available. To fill this gap, we collected CORE A\!* and A conference papers by Hungarian researchers.
+
+\section{Hungarian Presence at CORE A\!* and A Conferences}
+
+We mapped the publications of Hungarian researchers using automated data collection (linking iCore, DBLP, MTMT and MTA-ATT). A paper counts as Hungarian-affiliated if at least one author lists a Hungarian affiliation. Importantly, for CORE classification we consider only papers from the main track of each conference, since the distinction between accompanying events (workshops, poster and demo sessions, doctoral symposia) is crucial. Many authors tend to list workshop, demo or poster papers as ``main conference papers'', so manual filtering was necessary. The filtering also requires some expert knowledge: for example, a poster does not always imply a satellite event. At some A\!* conferences (e.g.\ ICSE), only a few dozen of several thousand attendees can present in the main track, while others appear as posters—even though their papers went through the same rigorous review process.
+
+Our goal was to identify how many high-quality Hungarian CS results are produced and where they appear. We divided papers into two categories: theoretical (MTA Section~III) and applied (MTA Section~VI) computer science.
+The full list is available at \url{http://lendulet.tmit.bme.hu/lendulet_website/corea}.
+
+\input{figures/hungarian_summary_table.tex}
+
+Table~\ref{tab:hungarian_core_summary} shows the number of CORE A\!* and A conference papers with Hungarian affiliation. Slightly more theoretical papers were found at the CORE A\!* level, and twice as many applied CS papers at the CORE A level.
+
+We also examined the temporal distribution of papers. The CORE list has existed since 2006; for earlier years the 2006 version was used as the reference.
+
+\begin{figure}[htbp]
+\centering
+\pgfplotstableread[col sep=comma]{figures/hungarian_coreAstar_by_year.csv}\hungarianAstar
+\pgfplotstableread[col sep=comma]{figures/already_abroad_coreAstar_by_year.csv}\abroadAstar
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.95\textwidth,
+    height=8cm,
+    xlabel={Year},
+    ylabel={Number of Core A$*$ papers},
+    legend style={at={(0.01,0.99)}, anchor=north west, legend columns=1, draw=none},
+    xtick=data,
+    enlarge x limits=0.05,
+    ymin=0, ymax=45,xmax=\the\currentyear,
+    xtick={1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025},
+    xticklabel style={/pgf/number format/1000 sep={}},
+]
+\addplot[thick, red!70!black, fill=red!40, fill opacity=0.3, mark=none, area legend]
+    table[x=Year, y=3] {\hungarianAstar}
+    \closedcycle;
+\addplot[thick, blue!70!black, fill=blue!40, fill opacity=0.3, mark=none, area legend]
+    table[x=Year, y=6] {\hungarianAstar}
+    \closedcycle;
+\addplot[thick, red, mark=none]
+    table[x=Year, y=3] {\abroadAstar};
+\addplot[thick, blue, mark=none]
+    table[x=Year, y=6] {\abroadAstar};
+\legend{
+  Theoretical CS (Hungarian affiliation),
+  Applied CS (Hungarian affiliation),
+  Theoretical CS (all papers by same authors),
+  Applied CS (all papers by same authors)
+}
+\end{axis}
+\end{tikzpicture}
+\caption{Annual distribution of CORE A\!* conference papers with Hungarian affiliation. The solid line shows the total number of CORE A\!* papers by the same authors, including papers published with a foreign affiliation.}
+\label{fig:hungarian_astar_stacked}
+\end{figure}
+
+In theoretical CS conferences, Hungarian presence appeared considerably earlier—already in the 1970s and 1980s—while in applied conferences Hungarian researchers only began to appear from the 1990s onwards. Although the number of publications with a Hungarian affiliation shows only moderate growth, the total number of CORE A\!* papers by the same authors has risen dramatically. This clearly signals the significant potential within Hungarian CS research: Hungarian researchers excel rapidly once placed in an international environment that incentivises CORE A\!* participation.
+
+We also examined which CORE A\!* and A conferences had at least one paper with Hungarian affiliation (see Table~\ref{tab:conference_pies_summary}). Nearly half of all conferences have already featured at least one Hungarian researcher. The number of theoretical CORE A\!* and A conferences is considerably smaller; overall, there are approximately 3.8 times more CORE~A conferences than CORE A\!*.
+
+\input{figures/conference_pies_summary.tex}
+
+\section{Challenges for Hungarian CS Researchers}
+
+Hungarian researchers face a dilemma at the beginning of their career: those who wish to succeed in Hungary must increase their journal publication count for the sake of obtaining a doctorate and later winning grants. Those who wish to build an international CS career must prioritise obtaining CORE A\!* (or A) conference papers, ideally as first author. We note that at the Technion, for example, a prerequisite for a doctoral defence is a first-author CORE A\!* conference paper.
+
+We also collected data on the proportion of researchers who actively publish at CORE A and A\!* conferences and who subsequently choose a foreign research career; see Table~\ref{tab:excellence_summary}. A researcher is considered active if they updated their MTMT profile in the last three years, do not list a foreign university affiliation on their homepage, and are not employed at a domestic or international industrial workplace according to their LinkedIn profile. If a researcher is no longer active in the domestic research community, we distinguish whether they continue abroad or have joined a Hungarian company and left academia. One fundamental aim of doctoral training is to provide highly trained graduates for Hungarian industry.
+
+We divided researchers into four levels based on their conference activity: Entry, Rising, International (Established abroad), and Established. Each author was placed in the highest level achieved. To define levels, we introduce the CORE A\!*-equivalent publication count metric:
+\begin{equation}
+\textrm{A\!*\ equivalent\ publications} = \mathrm{A^*} + \frac{\mathrm{A}}{3} + \frac{\mathrm{B}}{6} + \frac{\mathrm{C}}{9} + \frac{\textrm{unranked}}{15} \enspace .
+\label{eq:weights1}
+\end{equation}
+
+The factor of $\frac{1}{3}$ for~A was derived by estimating the marginal effort needed to step up from CORE~A to A\!*. From Table~\ref{fig:core_boundaries}, A\!* covers only 6\% of the full conference landscape, while ``at least~A'' covers the top $6+11=17\%$; reaching A\!* is therefore a rarer and more valuable achievement. Assuming a rational researcher works on a paper until the expected marginal benefit—improvement in visibility, reputation and career prospects—exceeds the additional effort, at least $>17/6\simeq 3$ times more ``creative energy'' is required for an A\!* paper than for an~A paper. We note that this reasoning yields a lower bound on the factor, assuming the pursuit of A\!* is not purely competitive signalling.
+
+Table~\ref{tab:excellence_summary} summarises how many CORE A\!*-equivalent publications are required for each level. Experience suggests that even the Rising level provides a strong chance of obtaining a foreign research position, while the Established level is competitive at leading universities and research institutes worldwide.
+
+\input{figures/excellence_summary_table.tex}
+
+Based on the table, in theoretical CS the domestic research community retains researchers better at the Rising and International levels. This is partly because theoretical CS reached the CORE A\!* level earlier than applied CS, giving domestic support and evaluation systems more time to adapt. However, Established researchers in both areas are retained at home only in small proportions.
+
+Considerably fewer theoretical researchers have taken positions at Hungarian companies—mostly at Morgan Stanley. An entire generation of researchers left academia when Google opened its Hungarian research centre, though they now mostly work abroad. Applied researchers primarily moved to Ericsson or small Hungarian start-ups.
+
+More Established researchers were found in theoretical CS than in applied CS, while the reverse is true at lower levels. We note that applied research typically requires larger research groups, so publications in this area tend to have more authors, which may also influence the statistical proportions.
+
+Figure~\ref{fig:journal_vs_conference} shows researchers' conference activity (vertical axis) against their journal publication activity (horizontal axis), both on logarithmic scales. Journal papers are weighted using the same logic as conference papers:
+\begin{equation}
+\textrm{D1\ equivalent\ publications} = D1 + \frac{Q1}{2.5} + \frac{Q2}{5} + \frac{Q3}{7.5} + \frac{Q4}{10} \enspace.
+\label{eq:weights2}
+\end{equation}
+Points are coloured by the researcher's current workplace. It is clearly visible that the vast majority of researchers active in conference publishing work abroad; those who remain in Hungary typically also publish journal papers in parallel.
+
+\input{figures/journal_vs_conference_plot.tex}
+
+\section{The Impact of Computer Science on Research}
+
+Although the problem may appear to affect only a narrow discipline—computer science—its impact in fact extends to all of Hungarian science. Today, virtually no research is conducted without computers, and success frequently depends on CS expertise. While researchers in most disciplines have gradually acquired the ability to use computational methods, the lack of access to specialist CS knowledge represents a significant competitive disadvantage.
+
+We highlight three key areas:
+\begin{enumerate}
+\item \textbf{Computational interpretation of data and artificial intelligence:} Modern research is increasingly data-driven, with results often based on complex models and statistical methods. Selecting appropriate models, understanding their limitations, and correctly interpreting results require deep CS and mathematical knowledge. Without this, misleading or erroneous conclusions are easily drawn.
+
+\item \textbf{Computer science as project management:} Modern research is frequently organised as a complex, multi-phase project involving multiple participants (data collection, preprocessing, modelling, validation, reproduction). CS tools and methods (version control, automated data processing, workflow and pipeline managers) enable effective project management, transparency and reproducibility.
+
+\item \textbf{CS knowledge in computationally intensive tasks:} Processing large datasets and running numerical simulations requires specialised technical competencies (parallelisation, efficient data structures, GPU and cluster usage, numerical stability). Without this knowledge, achieving research results may be significantly slowed or even rendered impossible.
+\end{enumerate}
+
+With the explosion of machine learning, virtually every scientific discipline now depends increasingly on CS methods \cite{hajkowicz2023artificial}.
+In parallel, CS research continuously seeks new application domains. This is illustrated in Figure~\ref{fig:core-combined}, where the dashed blue lines mark those CORE~A conferences that focus specifically on applied artificial intelligence. Figure~\ref{fig:szofelho} shows a word cloud generated from the 2024 call-for-papers of CORE A\!* conferences, illustrating the strong emphasis on applications.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth, trim={0 0 0 25}, clip]{figures/Osszesitett_szofelho_coraAstar.png}
+  \caption{Word cloud from the calls for papers of CORE A\!* conferences (2024).}
+  \label{fig:szofelho}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\pgfplotstableread[col sep=semicolon]{figures/core_combined_by_year_full_short_transposed.csv}\coredata
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.85\textwidth,
+    height=8cm,
+    xlabel={Year},
+    ylabel={Number of papers},
+    legend style={at={(1.2,0.01)}, anchor=south east, legend columns=1, draw=none},
+    xtick=data,
+    enlarge x limits=0.05,
+    ymode=log,
+    xtick={1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025},
+    xticklabel style={/pgf/number format/1000 sep={}},
+]
+\addplot[thick, blue, dashed, mark=none]
+  table[x=Year, y={A* (selected) full}] {\coredata};
+\addlegendentry{A\!* (AI)}
+
+\addplot[thick, blue!70!black, mark=none]
+  table[x=Year, y={A* (other) full}] {\coredata};
+\addlegendentry{A\!* (other)}
+
+\addplot[thick, green!20!black, mark=none]
+  table[x=Year, y={Core A full}] {\coredata};
+\addlegendentry{Core A}
+
+\addplot[thick, orange, mark=none]
+  table[x=Year, y={Core B full}] {\coredata};
+\addlegendentry{Core B}
+
+\addplot[thick, red, mark=none]
+  table[x=Year, y={Core C full}] {\coredata};
+\addlegendentry{Core C}
+
+\addplot[thick, black, dotted, mark=none]
+  table[x=Year, y={no_rank}] {\coredata};
+\addlegendentry{Other}
+\end{axis}
+\end{tikzpicture}
+\caption{Number of published CORE papers per year. Among CORE A\!* conferences, 9 AI-focused venues are highlighted separately (AAAI, ACL, ICML, NeurIPS, ICLR, IJAI, IJCAI, CVPR, EMNLP).}
+\label{fig:core-combined}
+\end{figure}
+
+\section{The Impact of CORE A\!* Conferences on University Rankings}
+
+Finally, we examined the impact of CORE A\!* conferences on university rankings. University ranking scores are composed of several factors. The direct effect of CORE A\!* and A conferences through publication indicators is minimal, since their numbers are small; however, their influence may be reflected in the academic reputation indicator. This indicator is computed from expert surveys. While we cannot directly know why an expert ranks one university above another, we investigated whether academic reputation correlates with presence at CORE A\!* conferences.
+
+To this end, we downloaded the programmes of CORE A\!* conferences, converted them to text format, and searched for university names as character strings. In the figure below, the horizontal axis shows the academic reputation score and the vertical axis shows the number of string matches. The correlation result is striking—indeed, remarkable.
+
+\begin{figure}[h]
+  \centering
+  \input{figures/university_ranking_plot.tex}
+  \caption{Impact of CORE A\!* conferences on university rankings.}
+\end{figure}
+
+\section{The Second Life of CORE A\!* Papers}
+
+Currently, researchers frequently must revise already-accepted conference papers into journal versions in a ``second round'', solely to receive recognition in the domestic system—even when the original conference was a more prestigious venue. This practice creates a kind of ``double bookkeeping'', generating unnecessary work and distorted incentives.
+
+Table~\ref{tab:sjr_rating_summary} shows how often a journal publication with the same title appeared alongside the conference paper, and what SJR classification these received in MTMT. 77\% of conference papers are not submitted to a journal at all, or appear with a different title (and extended content). CORE A\!* conference papers most frequently appear in D1-level journals, while for CORE A papers this is less common: the majority appear in Q2 journals.
+
+\input{figures/sjr_rating_table.tex}
+
+\section{Recommendations}\label{sec:recommendations}
+
+We see the solution in the acceptance and promotion of CS conferences. The CORE ranking is the most widely used international conference ranking, though not the only one. In China, several universities operate direct funding schemes for publications at CORE A\!* and A conferences, and have developed their own ranking that differs only minimally from CORE. We believe the CORE ranking is fundamentally reliable, contains no serious classification errors, while continuously maintaining such a list would require significant financial and human resources. The size of the Hungarian CS research community does not justify creating a separate national ranking.
+
+Since the introduction of the Chinese system, the presence of Chinese researchers at CORE A\!* and A conferences has noticeably increased, while their presence at B and C conferences remains minimal. Direct funding has operated in China for years; overall, the CORE list has stood the test of time.
+
+In Hungary, the next step would be to reduce the journal-publication pressure within the CS research community—whether in doctoral schools, habilitation and MTA decisions, performance indicators of foundation universities, or grant evaluation systems.
+
+It would also be beneficial to reconsider the funding system. Following the open-access model, young researchers should be financially supported in attending leading conferences (at minimum, conference registration and travel costs), so that they confidently submit papers to these venues. The review process itself often brings significant professional development, even in the case of rejection. Moreover, these conferences carry substantial visibility within the international research community.
+
+\section{Acknowledgements}
+
+We are grateful to \textbf{Márk Jelasity} and \textbf{Lajos Rónyai} for their contributions, professional advice and support in preparing this study. We also thank colleagues \textit{András István Seress} and \textit{YZ} for their valuable feedback on various parts of the paper, and \textit{Lívia Nagy} for her help with MTA ATT data collection.
+
+\section{Summary}
+
+The journal-centric approach in Hungary ignores the fact that in many subfields of computer science, the world's leading researchers publish their results not in journals but at top conferences. This distortion particularly affects young researchers, who must decide: should they follow international publication norms and build international networks, or align with domestic evaluation logic and ``journal-ify'' their results? The latter consumes their research time and may simultaneously reduce their international visibility.
+
+High-quality CS research exists in Hungary, but publication expectations and funding structures do not adequately support participation in internationally relevant venues. The publication and evaluation system should therefore reflect this reality. We recommend that:
+\begin{itemize}
+  \item CORE A\!* conference papers be automatically recognised as equivalent to D1 journal articles,
+  \item CORE A conference papers be recognised as equivalent to Q1 journals.
+\end{itemize}
+
+Computer science today is no longer a separate discipline but permeates the entirety of engineering, natural science, and applied research. In the long term, it is in the interest of the entire Hungarian research ecosystem to integrate the leading publication venues of computer science into its evaluation practice.
+
+Retaining young researchers at home, maintaining a regular presence at international excellence venues, and appropriately recognising high-quality work would strengthen the competitiveness of the entire Hungarian research community.
+
+This would allow the performance of Hungarian researchers to be evaluated using a uniform, internationally accepted logic, without requiring them to meet parallel and contradictory requirements.
+
+\bibliographystyle{apalike}
+\bibliography{irodalom}
+
+\end{document}

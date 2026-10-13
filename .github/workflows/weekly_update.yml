@@ -76,23 +76,35 @@ jobs:
       - name: Install LaTeX
         run: sudo apt-get install -y texlive-latex-extra texlive-lang-european texlive-fonts-recommended
 
-      - name: Compile PDF report
-        id: pdf
+      - name: Compile Hungarian PDF
+        id: pdf_hu
         run: |
           cd doc
           pdflatex -interaction=nonstopmode report.tex
           pdflatex -interaction=nonstopmode report.tex
         continue-on-error: true
 
-      - name: Update report_meta.json with PDF date
-        if: steps.pdf.outcome == 'success'
+      - name: Compile English PDF
+        id: pdf_en
+        run: |
+          cd doc
+          pdflatex -interaction=nonstopmode report_en.tex
+          pdflatex -interaction=nonstopmode report_en.tex
+        continue-on-error: true
+
+      - name: Update report_meta.json with PDF dates
         run: |
           python3 - <<'EOF'
-          import json, datetime, pathlib
+          import json, datetime, pathlib, os
           p = pathlib.Path('report_meta.json')
           meta = json.loads(p.read_text()) if p.exists() else {}
-          meta['hu_pdf_url'] = 'doc/report.pdf'
-          meta['hu_pdf_date'] = datetime.date.today().isoformat()
+          today = datetime.date.today().isoformat()
+          if pathlib.Path('doc/report.pdf').exists():
+              meta['hu_pdf_url'] = 'doc/report.pdf'
+              meta['hu_pdf_date'] = today
+          if pathlib.Path('doc/report_en.pdf').exists():
+              meta['en_pdf_url'] = 'doc/report_en.pdf'
+              meta['en_pdf_date'] = today
           p.write_text(json.dumps(meta, indent=2) + '\n')
           EOF
         continue-on-error: true
@@ -104,7 +116,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/ authors.json dblp/ profiles/ figures/ \
                   index.html authors_profile.html core_papers.html authors_table.html report.html \
-                  doc/report.pdf report_meta.json || true
+                  doc/report.pdf doc/report_en.pdf report_meta.json || true
           if git diff --cached --quiet; then
             echo "Nincs változás"
           else
@@ -126,7 +138,8 @@ jobs:
           [ "${{ steps.authors.outcome }}" = "failure" ] && FAILED="$FAILED authors_profile.html"
           [ "${{ steps.core.outcome }}"    = "failure" ] && FAILED="$FAILED core_papers.html"
           [ "${{ steps.table.outcome }}"   = "failure" ] && FAILED="$FAILED authors_table.html"
-          [ "${{ steps.pdf.outcome }}"    = "failure" ] && FAILED="$FAILED pdf"
+          [ "${{ steps.pdf_hu.outcome }}"  = "failure" ] && FAILED="$FAILED pdf_hu"
+          [ "${{ steps.pdf_en.outcome }}"  = "failure" ] && FAILED="$FAILED pdf_en"
           if [ -n "$FAILED" ]; then
             echo "::error::A következő lépések hibával végződtek:$FAILED"
             exit 1
