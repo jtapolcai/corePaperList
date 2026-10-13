@@ -4,157 +4,172 @@
     "r": [
       {
         "inproceedings": {
-          "@key": "conf/iswcs/TakacsKKB05",
-          "title": "Forward information - a general approach for scalable audiovisual service delivery",
-          "booktitle": "ISWCS",
-          "year": "2005",
-          "pages": "158-162",
-          "ee": "https://doi.org/10.1109/ISWCS.2005.1547677",
+          "@key": "conf/coginfocom/Kovacs16",
+          "title": "Comparing the aggregation capability of the MPT communications library and multipath TCP",
+          "booktitle": "CogInfoCom",
+          "year": "2016",
+          "pages": "157-162",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2016.7804542",
+          "author": {
+            "#text": "Ákos Kovács",
+            "@pid": "39/1307-1"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsp/Kovacs17",
+          "title": "Comparison of different Linux containers",
+          "booktitle": "TSP",
+          "year": "2017",
+          "pages": "47-51",
+          "ee": "https://doi.org/10.1109/TSP.2017.8075934",
+          "author": {
+            "#text": "Ákos Kovács",
+            "@pid": "39/1307-1"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsp/KovacsL15",
+          "title": "Modelling of virtualized servers",
+          "booktitle": "TSP",
+          "year": "2015",
+          "pages": "241-245",
+          "ee": "https://doi.org/10.1109/TSP.2015.7296260",
           "author": [
             {
               "#text": "Ákos Kovács",
-              "@pid": "39/1307-2"
+              "@pid": "39/1307-1"
             },
             {
-              "#text": "Attila Takács",
-              "@pid": "57/1070"
-            },
-            {
-              "#text": "Franz Kalleitner",
-              "@pid": "91/522"
-            },
-            {
-              "#text": "Hermann Brand",
-              "@pid": "08/1047"
+              "#text": "Gábor Lencse",
+              "@pid": "97/5081"
             }
           ]
         }
       },
       {
         "inproceedings": {
-          "@key": "conf/lcn/TakacsKK05",
-          "title": "A General Signalling Approach for Local Adaptation",
-          "booktitle": "LCN",
-          "year": "2005",
-          "pages": "523-524",
-          "ee": "https://doi.org/10.1109/LCN.2005.5",
+          "@key": "conf/tsp/KovacsL15a",
+          "title": "Modelling of virtualized servers",
+          "booktitle": "TSP",
+          "year": "2015",
+          "pages": "421-425",
+          "ee": "https://doi.org/10.1109/TSP.2015.7296296",
           "author": [
             {
               "#text": "Ákos Kovács",
-              "@pid": "39/1307-2"
+              "@pid": "39/1307-1"
             },
             {
-              "#text": "Attila Takács",
-              "@pid": "57/1070"
-            },
-            {
-              "#text": "Franz Kalleitner",
-              "@pid": "91/522"
+              "#text": "Gábor Lencse",
+              "@pid": "97/5081"
             }
           ]
         }
       },
       {
-        "article": {
-          "@key": "journals/cn/KovacsG09",
-          "title": "Cross-layer optimized wireless multicast for layered media",
-          "journal": "Comput. Networks",
-          "year": "2009",
-          "pages": "1062-1072",
-          "ee": "https://doi.org/10.1016/J.COMNET.2008.12.008",
+        "inproceedings": {
+          "@key": "conf/tsp/KovacsL19",
+          "title": "Evaluation of Layer 3 Multipath Solutions using Container Technologies",
+          "booktitle": "TSP",
+          "year": "2019",
+          "pages": "207-211",
+          "ee": "https://doi.org/10.1109/TSP.2019.8768820",
           "author": [
             {
               "#text": "Ákos Kovács",
-              "@pid": "39/1307-2"
+              "@pid": "39/1307-1"
             },
             {
-              "#text": "István Gódor",
-              "@pid": "63/6494"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/comcom/KovacsGRB10",
-          "title": "Cross-layer quality-based resource reservation for scalable multimedia",
-          "journal": "Comput. Commun.",
-          "year": "2010",
-          "pages": "283-292",
-          "ee": "https://doi.org/10.1016/J.COMCOM.2009.09.006",
-          "author": [
-            {
-              "#text": "Ákos Kovács",
-              "@pid": "39/1307-2"
-            },
-            {
-              "#text": "István Gódor",
-              "@pid": "63/6494"
-            },
-            {
-              "#text": "Sándor Rácz",
-              "@pid": "07/6609"
-            },
-            {
-              "#text": "Tamás Borsos",
-              "@pid": "64/6146"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/jcp/TakacsKGKBESS06",
-          "title": "The Layer-Independent Descriptor Concept",
-          "journal": "J. Comput.",
-          "year": "2006",
-          "pages": "23-32",
-          "ee": "https://doi.org/10.4304/JCP.1.2.23-32",
-          "author": [
-            {
-              "#text": "Ákos Kovács",
-              "@pid": "39/1307-2"
-            },
-            {
-              "#text": "Attila Takács",
-              "@pid": "57/1070"
-            },
-            {
-              "#text": "Frank Sjöberg",
-              "@pid": "65/4973"
-            },
-            {
-              "#text": "Franz Kalleitner",
-              "@pid": "91/522"
-            },
-            {
-              "#text": "Hermann Brand",
-              "@pid": "08/1047"
-            },
-            {
-              "#text": "István Gódor",
-              "@pid": "63/6494"
-            },
-            {
-              "#text": "Marcus Ek",
-              "@pid": "77/1564"
-            },
-            {
-              "#text": "Tomas Stefansson",
-              "@pid": "44/5572"
+              "#text": "Gábor Lencse",
+              "@pid": "97/5081"
             }
           ]
         }
       },
       {
         "informal": {
-          "@key": "phd/hu/Akos11",
-          "title": "Cross-Layer Communication in Multimedia Delivery Systems",
+          "@key": "journals/corr/abs-2605-29518",
+          "title": "Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.29518",
+          "author": [
+            {
+              "#text": "Ákos Kovács",
+              "@pid": "39/1307-1"
+            },
+            {
+              "#text": "Erno Horváth",
+              "@pid": "167/2307"
+            },
+            {
+              "#text": "Miklós Unger",
+              "@pid": "311/1734"
+            },
+            {
+              "#text": "Nobert Markó",
+              "@pid": "359/7994"
+            },
+            {
+              "#text": "Rudolf Krecht",
+              "@pid": "359/8117"
+            },
+            {
+              "#text": "Tamás Budai",
+              "@pid": "333/7971"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/network/KrechtBHKMU23",
+          "title": "Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions",
+          "journal": "IEEE Netw.",
+          "year": "2023",
+          "pages": "282-288",
+          "ee": "https://doi.org/10.1109/MNET.007.2300023",
+          "author": [
+            {
+              "#text": "Ákos Kovács",
+              "@pid": "39/1307-1"
+            },
+            {
+              "#text": "Erno Horváth",
+              "@pid": "167/2307"
+            },
+            {
+              "#text": "Miklós Unger",
+              "@pid": "311/1734"
+            },
+            {
+              "#text": "Nobert Markó",
+              "@pid": "359/7994"
+            },
+            {
+              "#text": "Rudolf Krecht",
+              "@pid": "359/8117"
+            },
+            {
+              "#text": "Tamás Budai",
+              "@pid": "333/7971"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Akos22",
+          "title": "Felhő alapú infrastruktúrák kiegészítő szolgáltatásainak vizsgálata",
           "journal": "",
-          "year": "2011",
+          "year": "2022",
           "author": {
             "#text": "Ákos Kovács",
-            "@pid": "39/1307-2"
+            "@pid": "39/1307-1"
           }
         }
       }

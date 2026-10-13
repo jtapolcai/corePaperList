@@ -3,91 +3,1215 @@
     "@name": "Zoltán Nagy",
     "r": [
       {
-        "article": {
-          "@key": "journals/jbi/ColomboMBPEFNLVA10",
-          "title": "An ontological modeling approach to cerebrovascular disease studies: The NEUROWEB case",
-          "journal": "J. Biomed. Informatics",
-          "year": "2010",
-          "pages": "469-484",
-          "ee": "https://doi.org/10.1016/J.JBI.2009.12.005",
+        "inproceedings": {
+          "@key": "conf/ddecs/FejerNBSRD19",
+          "title": "FPGA-based SIFT implementation for wearable computing",
+          "booktitle": "DDECS",
+          "year": "2019",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/DDECS.2019.8724653",
           "author": [
             {
-              "#text": "Aad van der Lugt",
-              "@pid": "01/6838"
+              "#text": "Attila Fejér",
+              "@pid": "242/0142"
             },
             {
-              "#text": "Daniele Merico",
-              "@pid": "50/250"
+              "#text": "Aymar de Rugy",
+              "@pid": "15/4505"
             },
             {
-              "#text": "Flavio De Paoli",
-              "@pid": "13/6218"
+              "#text": "Jean-Philippe Domenger",
+              "@pid": "15/3869"
             },
             {
-              "#text": "Gianluca Colombo",
-              "@pid": "22/6364"
+              "#text": "Jenny Benois-Pineau",
+              "@pid": "59/4268"
             },
             {
-              "#text": "Giorgio Boncoraglio",
-              "@pid": "21/8425"
-            },
-            {
-              "#text": "Giuseppe Frisoni",
-              "@pid": "09/6232"
-            },
-            {
-              "#text": "István Vassányi",
-              "@pid": "98/3619"
-            },
-            {
-              "#text": "John Ellul",
-              "@pid": "71/8425"
-            },
-            {
-              "#text": "Marco Antoniotti",
-              "@pid": "03/6130"
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
             },
             {
               "#text": "Zoltán Nagy",
-              "@pid": "61/2764-4"
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/BorbelyKVNS13",
+          "title": "Analysis of myoelectric signals using a Field Programmable SoC",
+          "booktitle": "ECCTD",
+          "year": "2013",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2013.6662255",
+          "author": [
+            {
+              "#text": "Bence J. Borbely",
+              "@pid": "137/3006"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            },
+            {
+              "#text": "Zsolt Vörösházi",
+              "@pid": "05/6381"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/KincsesNOSM09",
+          "title": "Implementation of a parallel SAD based wavefront sensor architecture on FPGA",
+          "booktitle": "ECCTD",
+          "year": "2009",
+          "pages": "823-826",
+          "ee": "https://doi.org/10.1109/ECCTD.2009.5275110",
+          "author": [
+            {
+              "#text": "György Mezo",
+              "@pid": "30/9941"
+            },
+            {
+              "#text": "László Orzó",
+              "@pid": "47/3499"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/KissNC17",
+          "title": "Fast evaluation of magnetic fields with multipole method implemented on FPGA",
+          "booktitle": "ECCTD",
+          "year": "2017",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2017.8093253",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "György Csaba",
+              "@pid": "96/3399"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/KissNSRCHP13",
+          "title": "FPGA-implementation of a holographic pattern-matching algorithm",
+          "booktitle": "ECCTD",
+          "year": "2013",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2013.6662210",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "György Csaba",
+              "@pid": "96/3399"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Wolfgang Porod",
+              "@pid": "40/1419"
+            },
+            {
+              "#text": "Xiaobo Sharon Hu",
+              "@pid": "h/XiaoboSharonHu"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/KocsardiNS07",
+          "title": "Emulated digital CNN solution for two dimensional compressible flows",
+          "booktitle": "ECCTD",
+          "year": "2007",
+          "pages": "288-291",
+          "ee": "https://doi.org/10.1109/ECCTD.2007.4529593",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/NagyKKC09",
+          "title": "Computational fluid flow simulation on body fitted mesh geometry with IBM cell broadband engine architecture",
+          "booktitle": "ECCTD",
+          "year": "2009",
+          "pages": "827-830",
+          "ee": "https://doi.org/10.1109/ECCTD.2009.5275111",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/NagyKKS07",
+          "title": "CNN model on cell multiprocessor array",
+          "booktitle": "ECCTD",
+          "year": "2007",
+          "pages": "276-279",
+          "ee": "https://doi.org/10.1109/ECCTD.2007.4529590",
+          "author": [
+            {
+              "#text": "László Kék",
+              "@pid": "76/7935"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/NemesBNLS13",
+          "title": "Implementation trade-offs of the density matrix renormalization group algorithm on kilo-processor architectures",
+          "booktitle": "ECCTD",
+          "year": "2013",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2013.6662251",
+          "author": [
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Gergely Barcza",
+              "@pid": "137/2997"
+            },
+            {
+              "#text": "Ors Legeza",
+              "@pid": "137/3058"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/NemesNS11",
+          "title": "Efficient mapping of mathematical expressions to FPGAs: Exploring different design methodologies",
+          "booktitle": "ECCTD",
+          "year": "2011",
+          "pages": "717-720",
+          "ee": "https://doi.org/10.1109/ECCTD.2011.6043644",
+          "author": [
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/SchafferNKF17",
+          "title": "FPGA-based real-time multichannel neural dataset generation",
+          "booktitle": "ECCTD",
+          "year": "2017",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2017.8093235",
+          "author": [
+            {
+              "#text": "Laszlo Schäffer",
+              "@pid": "206/8179"
+            },
+            {
+              "#text": "Richárd Fiáth",
+              "@pid": "36/10796"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecctd/SonkolyNCNS07",
+          "title": "CNN-UM based transversely isotropic elastic wave propagation simulation",
+          "booktitle": "ECCTD",
+          "year": "2007",
+          "pages": "284-287",
+          "ee": "https://doi.org/10.1109/ECCTD.2007.4529592",
+          "author": [
+            {
+              "#text": "István Noé",
+              "@pid": "272/6557"
+            },
+            {
+              "#text": "José M. Carcione",
+              "@pid": "00/10374"
+            },
+            {
+              "#text": "Péter Sonkoly",
+              "@pid": "263/4593"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fpl/NagyNHKCS12",
+          "title": "FPGA based acceleration of computational fluid flow simulation on unstructured mesh geometry",
+          "booktitle": "FPL",
+          "year": "2012",
+          "pages": "128-135",
+          "ee": "https://doi.org/10.1109/FPL.2012.6339276",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icecsys/NagyS02",
+          "title": "Configurable multi-layer CNN-UM emulator on FPGA using distributed arithmetic",
+          "booktitle": "ICECS",
+          "year": "2002",
+          "pages": "1251-1254",
+          "ee": "https://doi.org/10.1109/ICECS.2002.1046481",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icvs/ZarandyNVZKN13",
+          "title": "A Five-Camera Vision System for UAV Visual Attitude Calculation and Collision Warning",
+          "booktitle": "ICVS",
+          "year": "2013",
+          "pages": "11-20",
+          "ee": "https://doi.org/10.1007/978-3-642-39402-7_2",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Máté Németh",
+              "@pid": "132/1898"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcnn/NagyS04",
+          "title": "Emulated digital CNN-UM implementation of a barotropic ocean model",
+          "booktitle": "IJCNN",
+          "year": "2004",
+          "pages": "3137-3142",
+          "ee": "https://doi.org/10.1109/IJCNN.2004.1381176",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/KissNSCHP15",
+          "title": "Emulating massively parallel non-Boolean operators on FPGA",
+          "booktitle": "ISCAS",
+          "year": "2015",
+          "pages": "1981-1984",
+          "ee": "https://doi.org/10.1109/ISCAS.2015.7169063",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "György Csaba",
+              "@pid": "96/3399"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Wolfgang Porod",
+              "@pid": "40/1419"
+            },
+            {
+              "#text": "Xiaobo Sharon Hu",
+              "@pid": "h/XiaoboSharonHu"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/LaszloNGRAS15",
+          "title": "Analysis of parallel processor architectures for the solution of the Black-Scholes PDE",
+          "booktitle": "ISCAS",
+          "year": "2015",
+          "pages": "1977-1980",
+          "ee": "https://doi.org/10.1109/ISCAS.2015.7169062",
+          "author": [
+            {
+              "#text": "Endre László",
+              "@pid": "129/5492"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Jeremy Appleyard",
+              "@pid": "161/9036"
+            },
+            {
+              "#text": "Michael B. Giles",
+              "@pid": "00/7270"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/NagyKKC09",
+          "title": "Supersonic Flow Simulation on IBM Cell Processor based Emulated Digital Cellular Neural Networks",
+          "booktitle": "ISCAS",
+          "year": "2009",
+          "pages": "1225-1228",
+          "ee": "https://doi.org/10.1109/ISCAS.2009.5117983",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/NagyKZZVPBR12",
+          "title": "Volume and power optimized high-performance system for UAV collision avoidance",
+          "booktitle": "ISCAS",
+          "year": "2012",
+          "pages": "189-192",
+          "ee": "https://doi.org/10.1109/ISCAS.2012.6271640",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            },
+            {
+              "#text": "Tamás Roska",
+              "@pid": "92/2532"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/NagyVS06",
+          "title": "An advanced emulated digital retina model on FPGA to implement a real-time test environment",
+          "booktitle": "ISCAS",
+          "year": "2006",
+          "ee": "https://doi.org/10.1109/ISCAS.2006.1692993",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            },
+            {
+              "#text": "Zsolt Vörösházi",
+              "@pid": "05/6381"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/SchafferNKF17",
+          "title": "FPGA-based neural probe positioning to improve spike sorting with OSort algorithm",
+          "booktitle": "ISCAS",
+          "year": "2017",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ISCAS.2017.8050608",
+          "author": [
+            {
+              "#text": "Laszlo Schäffer",
+              "@pid": "206/8179"
+            },
+            {
+              "#text": "Richárd Fiáth",
+              "@pid": "36/10796"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscas/ZarandyNPNZ15",
+          "title": "Cellular sensor-processor array based visual collision warning sensor",
+          "booktitle": "ISCAS",
+          "year": "2015",
+          "pages": "1973-1976",
+          "ee": "https://doi.org/10.1109/ISCAS.2015.7169061",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Borbala Jani Matyasne Pencz",
+              "@pid": "166/3161"
+            },
+            {
+              "#text": "Máté Németh",
+              "@pid": "132/1898"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
             }
           ]
         }
       },
       {
         "article": {
-          "@key": "journals/ker/ColomboMNPAM09",
-          "title": "Ontological modeling at a domain interface: bridging clinical and biomolecular knowledge",
-          "journal": "Knowl. Eng. Rev.",
-          "year": "2009",
-          "pages": "205-224",
-          "ee": "https://doi.org/10.1017/S0269888909990026",
+          "@key": "journals/concurrency/NagyNHCKRS14",
+          "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2014",
+          "pages": "615-643",
+          "ee": "https://doi.org/10.1002/CPE.3022",
           "author": [
             {
-              "#text": "Daniele Merico",
-              "@pid": "50/250"
+              "#text": "András Kiss",
+              "@pid": "05/7937"
             },
             {
-              "#text": "Flavio De Paoli",
-              "@pid": "13/6218"
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
             },
             {
-              "#text": "Giancarlo Mauri",
-              "@pid": "79/4374"
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
             },
             {
-              "#text": "Gianluca Colombo",
-              "@pid": "22/6364"
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
             },
             {
-              "#text": "Marco Antoniotti",
-              "@pid": "03/6130"
+              "#text": "Miklós Ruszinkó",
+              "@pid": "74/538"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
             },
             {
               "#text": "Zoltán Nagy",
-              "@pid": "61/2764-4"
+              "@pid": "61/2764-1"
             }
           ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/NagyNHCKRS14",
+          "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1408.5715",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Miklós Ruszinkó",
+              "@pid": "74/538"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cphysics/NemesBNLS14",
+          "title": "The density matrix renormalization group algorithm on kilo-processor architectures: Implementation and trade-offs",
+          "journal": "Comput. Phys. Commun.",
+          "year": "2014",
+          "pages": "1570-1581",
+          "ee": "https://doi.org/10.1016/J.CPC.2014.02.021",
+          "author": [
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Gergely Barcza",
+              "@pid": "137/2997"
+            },
+            {
+              "#text": "Ors Legeza",
+              "@pid": "137/3058"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejasp/KocsardiNCS09",
+          "title": "Simulation of Two-Dimensional Supersonic Flows on Emulated-Digital CNN-UM",
+          "journal": "EURASIP J. Adv. Signal Process.",
+          "year": "2009",
+          "ee": "https://doi.org/10.1155/2009/923404",
+          "author": [
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejasp/VoroshaziNS09",
+          "title": "FPGA-Based Real Time, Multichannel Emulated-Digital Retina Model Implementation",
+          "journal": "EURASIP J. Adv. Signal Process.",
+          "year": "2009",
+          "ee": "https://doi.org/10.1155/2009/749838",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            },
+            {
+              "#text": "Zsolt Vörösházi",
+              "@pid": "05/6381"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/KocsardiNCS08",
+          "title": "Supersonic Flow Simulation on Emulated Digital Cellular Neural Networks",
+          "journal": "ERCIM News",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/NagyKKKS08",
+          "title": "Exploitation of Cell Multi-Processor Array in Solution of Spatio-Temporal Dynamics",
+          "journal": "ERCIM News",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "László Kék",
+              "@pid": "76/7935"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcta/FejerNBSRD21",
+          "title": "Implementation of Scale Invariant Feature Transform detector on FPGA for low-power wearable devices for prostheses control",
+          "journal": "Int. J. Circuit Theory Appl.",
+          "year": "2021",
+          "pages": "2255-2273",
+          "ee": "https://doi.org/10.1002/CTA.3025",
+          "author": [
+            {
+              "#text": "Attila Fejér",
+              "@pid": "242/0142"
+            },
+            {
+              "#text": "Aymar de Rugy",
+              "@pid": "15/4505"
+            },
+            {
+              "#text": "Jean-Philippe Domenger",
+              "@pid": "15/3869"
+            },
+            {
+              "#text": "Jenny Benois-Pineau",
+              "@pid": "59/4268"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcta/KocsardiNCS09",
+          "title": "Simulation of 2D inviscid, adiabatic, compressible flows on emulated digital CNN-UM",
+          "journal": "Int. J. Circuit Theory Appl.",
+          "year": "2009",
+          "pages": "569-585",
+          "ee": "https://doi.org/10.1002/CTA.565",
+          "author": [
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Sándor Kocsárdi",
+              "@pid": "04/7935"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcta/NagyKKKS08",
+          "title": "Toward exploitation of cell multi-processor array in time-consuming applications by using CNN model",
+          "journal": "Int. J. Circuit Theory Appl.",
+          "year": "2008",
+          "pages": "605-622",
+          "ee": "https://doi.org/10.1002/CTA.508",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "László Kék",
+              "@pid": "76/7935"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcta/NagyVS06",
+          "title": "Emulated digital CNN-UM solution of partial differential equations",
+          "journal": "Int. J. Circuit Theory Appl.",
+          "year": "2006",
+          "pages": "445-470",
+          "ee": "https://doi.org/10.1002/CTA.363",
+          "author": [
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            },
+            {
+              "#text": "Zsolt Vörösházi",
+              "@pid": "05/6381"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcta/VoroshaziKNS08",
+          "title": "Implementation of embedded emulated-digital CNN-UM global analogic programming unit on FPGA and its application",
+          "journal": "Int. J. Circuit Theory Appl.",
+          "year": "2008",
+          "pages": "589-603",
+          "ee": "https://doi.org/10.1002/CTA.507",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            },
+            {
+              "#text": "Zsolt Vörösházi",
+              "@pid": "05/6381"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jimaging/FejerNBSRD22",
+          "title": "Hybrid FPGA-CPU-Based Architecture for Object Recognition in Visual Servoing of Arm Prosthesis",
+          "journal": "J. Imaging",
+          "year": "2022",
+          "pages": "44",
+          "ee": "https://doi.org/10.3390/JIMAGING8020044",
+          "author": [
+            {
+              "#text": "Attila Fejér",
+              "@pid": "242/0142"
+            },
+            {
+              "#text": "Aymar de Rugy",
+              "@pid": "15/4505"
+            },
+            {
+              "#text": "Jean-Philippe Domenger",
+              "@pid": "15/3869"
+            },
+            {
+              "#text": "Jenny Benois-Pineau",
+              "@pid": "59/4268"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jrtip/ZarandyNNKSZ16",
+          "title": "A real-time multi-camera vision system for UAV collision warning and navigation",
+          "journal": "J. Real Time Image Process.",
+          "year": "2016",
+          "pages": "709-724",
+          "ee": "https://doi.org/10.1007/S11554-014-0449-3",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Levente Santha",
+              "@pid": "190/6755"
+            },
+            {
+              "#text": "Máté Németh",
+              "@pid": "132/1898"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tbe/SchafferNKFU21",
+          "title": "Spatial Information Based OSort for Real-Time Spike Sorting Using FPGA",
+          "journal": "IEEE Trans. Biomed. Eng.",
+          "year": "2021",
+          "pages": "99-108",
+          "ee": "https://doi.org/10.1109/TBME.2020.2996281",
+          "author": [
+            {
+              "#text": "István Ulbert",
+              "@pid": "21/8751"
+            },
+            {
+              "#text": "Laszlo Schäffer",
+              "@pid": "206/8179"
+            },
+            {
+              "#text": "Richárd Fiáth",
+              "@pid": "36/10796"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vlsisp/KincsesONMS11",
+          "title": "High-Speed, SAD Based Wavefront Sensor Architecture Implementation on FPGA",
+          "journal": "J. Signal Process. Syst.",
+          "year": "2011",
+          "pages": "279-290",
+          "ee": "https://doi.org/10.1007/S11265-010-0487-4",
+          "author": [
+            {
+              "#text": "György Mezo",
+              "@pid": "30/9941"
+            },
+            {
+              "#text": "László Orzó",
+              "@pid": "47/3499"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Kincses",
+              "@pid": "85/6727"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Zoltan08",
+          "title": "Emulált digitális CNN-UM architektúra megvalósítása újrakonfigurálható áramkörökön és alkalmazásai",
+          "journal": "",
+          "year": "2008",
+          "author": {
+            "#text": "Zoltán Nagy",
+            "@pid": "61/2764-1"
+          }
         }
       }
     ]

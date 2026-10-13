@@ -4,196 +4,486 @@
     "r": [
       {
         "inproceedings": {
-          "@key": "conf/dais/SzaboTBJB19",
-          "title": "Stunner: A Smart Phone Trace for Developing Decentralized Edge Systems",
-          "booktitle": "DAIS",
-          "year": "2019",
-          "pages": "108-115",
-          "ee": "https://doi.org/10.1007/978-3-030-22496-7_7",
+          "@key": "conf/adbis/OriS18",
+          "title": "EAM Based Approach to Support IT Planning for Digital Transformation in Public Organizations",
+          "booktitle": "ADBIS (Short Papers and Workshops)",
+          "year": "2018",
+          "pages": "377-387",
+          "ee": "https://doi.org/10.1007/978-3-030-00063-9_35",
           "author": [
             {
-              "#text": "Árpád Berta",
-              "@pid": "149/0221"
-            },
-            {
-              "#text": "Krisztián Téglás",
-              "@pid": "242/3270"
-            },
-            {
-              "#text": "Márk Jelasity",
-              "@pid": "99/618"
-            },
-            {
-              "#text": "Vilmos Bilicki",
-              "@pid": "84/7508"
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
             },
             {
               "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
+              "@pid": "73/2909-3"
             }
           ]
         }
       },
       {
         "inproceedings": {
-          "@key": "conf/middleware/Berta0J20",
-          "title": "Modeling Peer-to-Peer Connections over a Smartphone Network",
-          "booktitle": "DICG@Middleware",
+          "@key": "conf/bis/CsakiS0CG21",
+          "title": "Reconsidering the Challenges of BIS Education in Light of the COVID Pandemic",
+          "booktitle": "BIS (Workshops)",
+          "year": "2022",
+          "pages": "61-72",
+          "ee": "https://doi.org/10.1007/978-3-031-04216-4_6",
+          "author": [
+            {
+              "#text": "András Gábor",
+              "@pid": "32/4143"
+            },
+            {
+              "#text": "Csaba Csáki",
+              "@pid": "18/3665"
+            },
+            {
+              "#text": "Ildikó Szabó",
+              "@pid": "14/3249"
+            },
+            {
+              "#text": "Olga Csillik",
+              "@pid": "52/7222"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bled/Feher0V17",
+          "title": "Analysing Digital Transformation among Hungarian Organizations",
+          "booktitle": "Bled eConference",
+          "year": "2017",
+          "pages": "40",
+          "author": [
+            {
+              "#text": "Krisztián Varga",
+              "@pid": "133/2611"
+            },
+            {
+              "#text": "Péter Fehér",
+              "@pid": "72/1783"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bpm/OriS19",
+          "title": "A Conceptual Blueprint for Enterprise Architecture Model-Driven Business Process Optimization",
+          "booktitle": "BPM (Blockchain and CEE Forum)",
+          "year": "2019",
+          "pages": "234-248",
+          "ee": "https://doi.org/10.1007/978-3-030-30429-4_16",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/closer/FeherS11",
+          "title": "Exploring the Relationship between Business and IT Architecture and to Develop a Measurement Model for Business Critical Services",
+          "booktitle": "CLOSER",
+          "year": "2011",
+          "pages": "319-322",
+          "author": [
+            {
+              "#text": "Péter Fehér",
+              "@pid": "72/1783"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/closer/KoFS14",
+          "title": "Challenges of Capacity Modelling in Complex IT Architectures",
+          "booktitle": "CLOSER",
+          "year": "2014",
+          "pages": "543-550",
+          "ee": "https://doi.org/10.5220/0004851505430550",
+          "author": [
+            {
+              "#text": "Andrea Ko",
+              "@pid": "73/2019"
+            },
+            {
+              "#text": "Péter Fehér",
+              "@pid": "72/1783"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/coginfocom/AbbasKS23",
+          "title": "B2B Financial Sector Behavior Concerning Cognitive Chatbots. Personalized Contextual Chatbots in Financial Sector",
+          "booktitle": "CogInfoCom",
+          "year": "2023",
+          "pages": "85-90",
+          "ee": "https://doi.org/10.1109/COGINFOCOM59411.2023.10397514",
+          "author": [
+            {
+              "#text": "Andrea Ko",
+              "@pid": "73/2019"
+            },
+            {
+              "#text": "Sayyed Khawar Abbas",
+              "@pid": "369/1277"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/edoc/OriS17",
+          "title": "Pattern-Based Analysis of Business-IT Mismatches in EA Models: Insights from a Case Study",
+          "booktitle": "EDOC Workshops",
+          "year": "2017",
+          "pages": "92-99",
+          "ee": "https://doi.org/10.1109/EDOCW.2017.23",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eewc/OriS19",
+          "title": "Analysing Strategic Alignment Problems Using Inter-domain Matches of Enterprise Architecture Models",
+          "booktitle": "EEWC",
           "year": "2020",
-          "pages": "43-48",
-          "ee": "https://doi.org/10.1145/3428662.3428791",
+          "pages": "135-146",
+          "ee": "https://doi.org/10.1007/978-3-030-37933-9_9",
           "author": [
             {
-              "#text": "Árpád Berta",
-              "@pid": "149/0221"
-            },
-            {
-              "#text": "Márk Jelasity",
-              "@pid": "99/618"
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
             },
             {
               "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/egose/Ori018",
+          "title": "Analysing Strategic Misalignment in Public Administration",
+          "booktitle": "EGOSE",
+          "year": "2019",
+          "pages": "183-197",
+          "ee": "https://doi.org/10.1007/978-3-030-13283-5_14",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/egov/KoG015",
+          "title": "Innovative eHealth Services - PISCES Solution",
+          "booktitle": "EGOVIS",
+          "year": "2015",
+          "pages": "206-219",
+          "ee": "https://doi.org/10.1007/978-3-319-22389-6_15",
+          "author": [
+            {
+              "#text": "András Gábor",
+              "@pid": "32/4143"
+            },
+            {
+              "#text": "Andrea Ko",
+              "@pid": "73/2019"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/egov/KoGS13",
+          "title": "Policy Making Improvement through Social Learning",
+          "booktitle": "EGOVIS/EDEM",
+          "year": "2013",
+          "pages": "226-240",
+          "ee": "https://doi.org/10.1007/978-3-642-40160-2_18",
+          "author": [
+            {
+              "#text": "András Gábor",
+              "@pid": "32/4143"
+            },
+            {
+              "#text": "Andrea Ko",
+              "@pid": "73/2019"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/egovis/OriS18",
+          "title": "Discovering and Analyzing Alignment Problems in a Public Organization",
+          "booktitle": "EGOVIS",
+          "year": "2018",
+          "pages": "71-85",
+          "ee": "https://doi.org/10.1007/978-3-319-98349-3_6",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icegov/KoGS11",
+          "title": "Policy modeling in risk-driven environment",
+          "booktitle": "ICEGOV",
+          "year": "2011",
+          "pages": "195-203",
+          "ee": "https://doi.org/10.1145/2072069.2072101",
+          "author": [
+            {
+              "#text": "András Gábor",
+              "@pid": "32/4143"
+            },
+            {
+              "#text": "Andrea Ko",
+              "@pid": "73/2019"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iceis/OriMS18",
+          "title": "Formal Modelling Approach of Enterprise Architecture - Hypergraph based Representation of Business Information Systems",
+          "booktitle": "ICEIS (2)",
+          "year": "2018",
+          "pages": "727-735",
+          "ee": "https://doi.org/10.5220/0006804607270735",
+          "author": [
+            {
+              "#text": "Bálint Molnár",
+              "@pid": "117/6087"
+            },
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/AntalS23",
+          "title": "Application of Artificial Intelligence in Heuristic Models for Process Improvement",
+          "booktitle": "SKIMA",
+          "year": "2023",
+          "pages": "255-260",
+          "ee": "https://doi.org/10.1109/SKIMA59232.2023.10387343",
+          "author": [
+            {
+              "#text": "Kristóf Antal",
+              "@pid": "368/3148"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/CsakiSG22",
+          "title": "Problem-based Redesign of the BIS Curriculum",
+          "booktitle": "SKIMA",
+          "year": "2022",
+          "pages": "280-284",
+          "ee": "https://doi.org/10.1109/SKIMA57145.2022.10029650",
+          "author": [
+            {
+              "#text": "András Gábor",
+              "@pid": "32/4143"
+            },
+            {
+              "#text": "Csaba Csáki",
+              "@pid": "18/3665"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/Feher018",
+          "title": "Digitalization in the Public Sector - Findings of a Hungarian Survey",
+          "booktitle": "SKIMA",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/SKIMA.2018.8631534",
+          "author": [
+            {
+              "#text": "Péter Fehér",
+              "@pid": "72/1783"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/JaroenwanitLS22",
+          "title": "Drivers of Farmers' Continuance Intention on Smart Farming and Sustainability in Thailand",
+          "booktitle": "SKIMA",
+          "year": "2022",
+          "pages": "164-169",
+          "ee": "https://doi.org/10.1109/SKIMA57145.2022.10029670",
+          "author": [
+            {
+              "#text": "Pensri Jaroenwanit",
+              "@pid": "340/3364"
+            },
+            {
+              "#text": "Watis Leelapatra",
+              "@pid": "16/2495"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/OriS19",
+          "title": "Towards Dynamic Fit Assessment for Strategic Alignment using Enterprise Architecture Models",
+          "booktitle": "SKIMA",
+          "year": "2019",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/SKIMA47702.2019.8982388",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/skima/SzaboO17",
+          "title": "Information strategy challenges in the digital era how enterprise architecture management can support strategic IS planning",
+          "booktitle": "SKIMA",
+          "year": "2017",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/SKIMA.2017.8294114",
+          "author": [
+            {
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-3"
             }
           ]
         }
       },
       {
         "article": {
-          "@key": "journals/actaC/SzaboB21",
-          "title": "Access Control of EHR Records in a Heterogeneous Cloud Infrastructure",
-          "journal": "Acta Cybern.",
-          "year": "2021",
-          "pages": "485-516",
-          "ee": "https://doi.org/10.14232/ACTACYB.290283",
-          "author": [
-            {
-              "#text": "Vilmos Bilicki",
-              "@pid": "84/7508"
-            },
-            {
-              "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/actaC/SzaboHB24",
-          "title": "Patient Flow Analysis with a Custom Simulation Engine",
-          "journal": "Acta Cybern.",
+          "@key": "journals/isem/OriS24",
+          "title": "A systematic literature review on business-IT misalignment research",
+          "journal": "Inf. Syst. E Bus. Manag.",
           "year": "2024",
-          "pages": "637-669",
-          "ee": "https://doi.org/10.14232/ACTACYB.299391",
+          "pages": "139-169",
+          "ee": "https://doi.org/10.1007/S10257-023-00664-W",
           "author": [
             {
-              "#text": "Emoke Adrienn Hompoth",
-              "@pid": "340/9087"
-            },
-            {
-              "#text": "Vilmos Bilicki",
-              "@pid": "84/7508"
+              "#text": "Dóra Ori",
+              "@pid": "169/3024"
             },
             {
               "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/fi/SzaboB23",
-          "title": "A New Approach to Web Application Security: Utilizing GPT Language Models for Source Code Inspection",
-          "journal": "Future Internet",
-          "year": "2023",
-          "pages": "326",
-          "ee": "https://doi.org/10.3390/FI15100326",
-          "author": [
-            {
-              "#text": "Vilmos Bilicki",
-              "@pid": "84/7508"
-            },
-            {
-              "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
-            }
-          ]
-        }
-      },
-      {
-        "article": {
-          "@key": "journals/sensors/NagyDFRHSDBVHMVGLBS23",
-          "title": "The Actigraphy-Based Identification of Premorbid Latent Liability of Schizophrenia and Bipolar Disorder",
-          "journal": "Sensors",
-          "year": "2023",
-          "pages": "958",
-          "ee": "https://doi.org/10.3390/S23020958",
-          "author": [
-            {
-              "#text": "Ádám Nagy",
-              "@pid": "271/3921"
-            },
-            {
-              "#text": "András Búzás",
-              "@pid": "268/0989"
-            },
-            {
-              "#text": "András Dér",
-              "@pid": "268/1176"
-            },
-            {
-              "#text": "Anh Tuan Hoang",
-              "@pid": "33/1519"
-            },
-            {
-              "#text": "Bálint Maczák",
-              "@pid": "340/9473"
-            },
-            {
-              "#text": "Emese Rudics",
-              "@pid": "340/9453"
-            },
-            {
-              "#text": "Emoke Adrienn Hompoth",
-              "@pid": "340/9087"
-            },
-            {
-              "#text": "Gergely Vadai",
-              "@pid": "146/0882"
-            },
-            {
-              "#text": "István Szendi",
-              "@pid": "226/1931"
-            },
-            {
-              "#text": "József Dombi",
-              "@pid": "27/6119"
-            },
-            {
-              "#text": "Martin Patrik Fülep",
-              "@pid": "341/0013"
-            },
-            {
-              "#text": "Szandra László",
-              "@pid": "341/0355"
-            },
-            {
-              "#text": "Vilmos Bilicki",
-              "@pid": "84/7508"
-            },
-            {
-              "#text": "Zoltan Gingl",
-              "@pid": "46/7999"
-            },
-            {
-              "#text": "Zoltán Szabó",
-              "@pid": "73/2909-9"
-            },
-            {
-              "#text": "Zsolt János Viharos",
-              "@pid": "62/6178"
+              "@pid": "73/2909-3"
             }
           ]
         }

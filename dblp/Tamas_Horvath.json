@@ -3,25 +3,108 @@
     "@name": "Tamás Horváth",
     "r": [
       {
-        "article": {
-          "@key": "journals/access/BuzasHD22",
-          "title": "A Novel Approach in Heart-Rate-Variability Analysis Based on Modified Poincaré Plots",
-          "journal": "IEEE Access",
-          "year": "2022",
-          "pages": "36606-36615",
-          "ee": "https://doi.org/10.1109/ACCESS.2022.3162234",
+        "inproceedings": {
+          "@key": "conf/pts/HorvathS07",
+          "title": "A Framework for Testing AIS Implementations",
+          "booktitle": "TestCom/FATES",
+          "year": "2007",
+          "pages": "186-198",
+          "ee": "https://doi.org/10.1007/978-3-540-73066-8_13",
           "author": [
             {
-              "#text": "András Búzás",
-              "@pid": "268/0989"
+              "#text": "Tamás Horváth",
+              "@pid": "55/6464-4"
             },
             {
-              "#text": "András Dér",
-              "@pid": "268/1176"
+              "#text": "Tibor Sulyán",
+              "@pid": "93/3245"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sccg/AbbasSSHF01",
+          "title": "Quadratic Interpolation in Hardware Phong Shading and Texture Mapping",
+          "booktitle": "SCCG",
+          "year": "2001",
+          "pages": "181-189",
+          "author": [
+            {
+              "#text": "Ali Mohamed Abbas",
+              "@pid": "56/5232"
+            },
+            {
+              "#text": "Gábor Szijártó",
+              "@pid": "73/3135"
+            },
+            {
+              "#text": "László Szirmay-Kalos",
+              "@pid": "16/3751"
             },
             {
               "#text": "Tamás Horváth",
-              "@pid": "318/4599"
+              "@pid": "55/6464-4"
+            },
+            {
+              "#text": "Tibor Fóris",
+              "@pid": "40/6854"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cgf/HorvathMRS92",
+          "title": "Ray Coherence Between a Sphere and a Convex Polyhedron",
+          "journal": "Comput. Graph. Forum",
+          "year": "1992",
+          "pages": "163-172",
+          "ee": "https://doi.org/10.1111/1467-8659.1120163",
+          "author": [
+            {
+              "#text": "Gábor Márton",
+              "@pid": "27/1978"
+            },
+            {
+              "#text": "László Szirmay-Kalos",
+              "@pid": "16/3751"
+            },
+            {
+              "#text": "Peter Risztics",
+              "@pid": "22/3702"
+            },
+            {
+              "#text": "Tamás Horváth",
+              "@pid": "55/6464-4"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsa/Szirmay-KalosMFH00",
+          "title": "Development of process visualization systems: An object-oriented approach",
+          "journal": "J. Syst. Archit.",
+          "year": "2000",
+          "pages": "275-296",
+          "ee": "https://doi.org/10.1016/S1383-7621(99)00002-8",
+          "author": [
+            {
+              "#text": "Gábor Márton",
+              "@pid": "27/1978"
+            },
+            {
+              "#text": "László Szirmay-Kalos",
+              "@pid": "16/3751"
+            },
+            {
+              "#text": "Tamás Horváth",
+              "@pid": "55/6464-4"
+            },
+            {
+              "#text": "Tibor Fóris",
+              "@pid": "40/6854"
             }
           ]
         }
