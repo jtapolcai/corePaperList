@@ -689,6 +689,25 @@ function render() {
   document.getElementById("empty").style.display = visible.length ? "none" : "block";
   document.getElementById("status").textContent =
     visible.length + " / " + src.length + " cikk";
+  updateURL();
+}
+
+function activateChip(group, val) {
+  document.querySelectorAll(`.chip[data-group="${group}"]`).forEach(c => {
+    c.classList.toggle("active", c.dataset.val === val);
+  });
+}
+
+function updateURL() {
+  const p = new URLSearchParams();
+  if (tierMode !== "astar")      p.set("tier",  tierMode);
+  if (filterNat)                 p.set("nat",   filterNat);
+  if (filterInst)                p.set("inst",  filterInst);
+  if (filterTopic)               p.set("topic", filterTopic);
+  if (sortMode !== "year-desc")  p.set("sort",  sortMode);
+  if (authorSlugFilter)          p.set("author", authorSlugFilter);
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : window.location.pathname);
 }
 
 document.querySelectorAll(".chip").forEach(chip => {
@@ -710,18 +729,38 @@ document.getElementById("year-to").addEventListener("input", e => { yearTo = +e.
 function clearAuthorFilter() {
   authorSlugFilter = "";
   document.getElementById("author-banner").style.display = "none";
-  history.replaceState(null, "", window.location.pathname);
   render();
 }
 
 (function() {
   const p = new URLSearchParams(window.location.search);
   const paramTier   = p.get("tier");
+  const paramSort   = p.get("sort");
+  const paramNat    = p.get("nat");
+  const paramInst   = p.get("inst");
+  const paramTopic  = p.get("topic");
   const paramAuthor = p.get("author");
   const paramName   = p.get("name");
-  if (paramTier && ["astar","a","b","c","nr","both"].includes(paramTier)) setTier(paramTier);
-  const paramSort = p.get("sort");
-  if (paramSort && ["year-desc","year-asc","venue","tier"].includes(paramSort)) sortMode = paramSort;
+
+  if (paramTier && ["astar","a","b","c","nr","both"].includes(paramTier)) {
+    setTier(paramTier);
+  }
+  if (paramSort && ["year-desc","year-asc","venue","tier"].includes(paramSort)) {
+    sortMode = paramSort;
+    activateChip("sort", sortMode);
+  }
+  if (paramNat !== null) {
+    filterNat = paramNat;
+    activateChip("nat", filterNat);
+  }
+  if (paramInst) {
+    filterInst = paramInst;
+    activateChip("inst", filterInst);
+  }
+  if (paramTopic) {
+    filterTopic = paramTopic;
+    activateChip("topic", filterTopic);
+  }
   if (paramAuthor) {
     authorSlugFilter = paramAuthor;
     const banner = document.getElementById("author-banner");
