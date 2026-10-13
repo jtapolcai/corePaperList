@@ -450,14 +450,22 @@ function showSavePanel(json, ghUrl) {
       <button onclick="this.closest('#clipboard-toast').style.display='none'">✕</button>
     </div>`;
   const btn = t.querySelector("#copy-and-open-btn");
-  btn.addEventListener("click", () => {
-    const ta = t.querySelector("textarea");
-    // execCommand copy
-    ta.select();
-    const ok = document.execCommand("copy");
-    if (!ok) navigator.clipboard.writeText(json).catch(() => {});
+  btn.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(json);
+    } catch {
+      // execCommand fallback: fresh focused textarea
+      const copyTa = document.createElement("textarea");
+      copyTa.value = json;
+      copyTa.style.cssText = "position:fixed;top:0;left:0;width:1px;height:1px;opacity:0.01";
+      document.body.appendChild(copyTa);
+      copyTa.focus();
+      copyTa.select();
+      document.execCommand("copy");
+      document.body.removeChild(copyTa);
+    }
     btn.textContent = "✓ Másolva!";
-    setTimeout(() => window.open(ghUrl, "_blank"), 100);
+    setTimeout(() => window.open(ghUrl, "_blank"), 150);
   });
   t.style.display = "block";
   clearTimeout(t._timer);
