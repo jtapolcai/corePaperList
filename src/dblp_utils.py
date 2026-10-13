@@ -522,8 +522,13 @@ def cache_DBLP_query(authors_data, force):
             tmp = output_path.with_suffix(".json.tmp")
             tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             tmp.replace(output_path)
-            counts_cache[author_safe] = len(r_list)
-            print("{}: {} rekord".format(author, len(r_list)), flush=True)
+            new_count = len(r_list)
+            prev_count = counts_cache.get(author_safe)
+            counts_cache[author_safe] = new_count
+            if prev_count is not None and prev_count != new_count:
+                print("{}: {} rekord (volt: {})".format(author, new_count, prev_count), flush=True)
+            else:
+                print("{}: {} rekord".format(author, new_count), flush=True)
 
         except Exception as e:
             print("Error with {}: {}".format(author, e))

@@ -321,7 +321,7 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
         rank = parts[1]
         # Normalize rank labels: any variant containing 'UNRANK' maps to 'no_rank'
         rank_norm = rank.strip()
-        if 'UNRANK' in rank_norm.upper():
+        if 'UNRANK' in rank_norm.upper() or rank_norm not in ('A*', 'A', 'B', 'C', 'no_rank'):
             rank_norm = 'no_rank'
         if year!=2013:
             average_rank += rank_to_value.get(rank_norm, 0)
@@ -541,7 +541,7 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
         short_paper = True
         search_log += f"\n Short paper {paper_str}"
         record["short_paper_reason"] = "Identified as short paper" #short_paper_reason
-        rank = short_paper_rank[rank]
+        rank = short_paper_rank.get(rank, 'no_rank')
     else:
         search_log += f"\n Full paper {paper_str}"
     return key, record, rank, foreign_paper, short_paper, search_log, original_rank
