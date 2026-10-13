@@ -453,6 +453,15 @@ function showFallbackToast(json, ghUrl) {
   clearTimeout(t._timer);
 }
 
+// Fields computed by scripts — never write back to profile JSON
+const COMPUTED_FIELDS = new Set([
+  "core_astar","core_a","core_b","core_c","no_core",
+  "core_astar_equiv","hungarian_core_astar_equiv","first_author_core_astar_equiv",
+  "years_since_phd","age_group",
+  "hung_astar_rank","hung_astar_total","category_astar_rank","age_astar_rank",
+  "_has_profile","_github_edit_url",
+]);
+
 function saveEdits() {
   const tbl = document.getElementById("edit-kv-table");
   if (!tbl) return;
@@ -460,44 +469,40 @@ function saveEdits() {
   const hasProfile = tbl.dataset.hasProfile === "1";
   const editUrl = tbl.dataset.editUrl;
 
-  // Collect changes from edit fields
-  const changes = {};
-  document.querySelectorAll("[data-edit]").forEach(el => {
-    const v = el.value.trim();
-    changes[el.dataset.edit] = v;  // keep empty too, to allow clearing
-  });
-
   if (hasProfile) {
-    // Fetch current profile JSON, merge changes in, copy merged result to clipboard
-    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/profiles/${slug}.json`;
-    fetch(rawUrl)
-      .then(r => r.ok ? r.json() : {})
-      .catch(() => ({}))
-      .then(existing => {
-        const merged = Object.assign({}, existing);
-        for (const [k, v] of Object.entries(changes)) {
-          if (v === "") {
-            delete merged[k];  // clear field if emptied
-          } else {
-            // Convert phd_year to integer if numeric
-            merged[k] = (k === "phd_year" && /^\d+$/.test(v)) ? parseInt(v, 10) : v;
-          }
-        }
-        const json = JSON.stringify(merged, null, 2);
-        navigator.clipboard.writeText(json).then(() => {
-          window.open(editUrl, "_blank");
-          showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
-        }).catch(() => {
-          window.open(editUrl, "_blank");
-          showFallbackToast(json, editUrl);
-        });
-      });
+    // Build base from in-memory AUTHORS data (no async fetch needed)
+    const base = BY_SLUG[slug] || {};
+    const merged = {};
+    for (const [k, v] of Object.entries(base)) {
+      if (!COMPUTED_FIELDS.has(k)) merged[k] = v;
+    }
+
+    // Apply edits from the form fields
+    document.querySelectorAll("[data-edit]").forEach(el => {
+      const v = el.value.trim();
+      const k = el.dataset.edit;
+      if (v === "" || v === "-") {
+        delete merged[k];
+      } else {
+        merged[k] = (k === "phd_year" && /^\d+$/.test(v)) ? parseInt(v, 10) : v;
+      }
+    });
+
+    const json = JSON.stringify(merged, null, 2);
+    navigator.clipboard.writeText(json).then(() => {
+      window.open(editUrl, "_blank");
+      showToast("📋 JSON másolva! A GitHub szerkesztőben: Ctrl+A → Ctrl+V → Commit changes");
+    }).catch(() => {
+      window.open(editUrl, "_blank");
+      showFallbackToast(json, editUrl);
+    });
   } else {
     // New profile: build minimal JSON and open GitHub new-file form
     const obj = {};
-    for (const [k, v] of Object.entries(changes)) {
-      if (v) obj[k] = v;
-    }
+    document.querySelectorAll("[data-edit]").forEach(el => {
+      const v = el.value.trim();
+      if (v && v !== "-") obj[el.dataset.edit] = v;
+    });
     const json = JSON.stringify(obj, null, 2);
     const encoded = encodeURIComponent(json);
     const url = `https://github.com/${GITHUB_REPO}/new/${GITHUB_BRANCH}?filename=profiles/${slug}.json&value=${encoded}`;
@@ -635,7 +640,6 @@ function renderProfile(a) {
   const editRows = EDIT_FIELDS.map(f => {
     const raw = a[f.key];
     const val = (raw === null || raw === undefined || raw === "-") ? "" : String(raw);
-    if (!val && f.type !== "select") return "";  // hide empty text fields
     const pencil = `<button class="pencil-btn" onclick="editField('${f.key}')" title="${f.label} szerkesztése">✏</button>`;
     let ctrl;
     if (f.type === "select") {
