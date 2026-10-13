@@ -329,9 +329,9 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
         if not return_average_rank:
             if first_year is None:
                 first_year = year
-                if pub_year <= first_year:
+                if pub_year < first_year:
                     return_average_rank=True
-        if pub_year <= year and not return_average_rank:
+        if pub_year < year and not return_average_rank:
             # Historical special case retained
             if year == 2013 and rank_norm == "A*":
                 return rank_norm, short_paper, acronym_row
