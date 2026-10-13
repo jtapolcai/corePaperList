@@ -480,7 +480,7 @@ function showSavePanel(json, ghUrl) {
 const COMPUTED_FIELDS = new Set([
   "core_astar","core_a","core_b","core_c","no_core",
   "core_astar_equiv","hungarian_core_astar_equiv","first_author_core_astar_equiv",
-  "years_since_phd","age_group","phd_year_source",
+  "years_since_phd","phd_year_source",
   "hung_astar_rank","hung_astar_total","category_astar_rank","age_astar_rank",
   "_has_profile","_github_edit_url",
 ]);
@@ -510,6 +510,20 @@ function saveEdits() {
         merged[k] = (k === "phd_year" && /^\d+$/.test(v)) ? parseInt(v, 10) : v;
       }
     });
+
+    // Compute age_group client-side so the saved profile is immediately correct
+    const ADVANCED_DEGREES = ["kandidátus","levelező tag","rendes tag","tudomány doktora","MTA doktora"];
+    const deg = base.degree || "";
+    if (ADVANCED_DEGREES.some(d => deg.startsWith(d))) {
+      merged.age_group = "ERC Advanced";
+    } else if (merged.phd_year) {
+      const yrs = new Date().getFullYear() - merged.phd_year;
+      if (yrs <= 7) merged.age_group = "ERC Starting";
+      else if (yrs <= 12) merged.age_group = "ERC Consolidator";
+      else merged.age_group = "ERC Advanced";
+    } else {
+      delete merged.age_group;
+    }
 
     const json = JSON.stringify(merged, null, 2);
     showSavePanel(json, editUrl);
