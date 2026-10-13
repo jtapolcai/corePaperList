@@ -656,6 +656,7 @@ function renderProfile(a) {{
   const note = a.note ? `<div class="profile-note">${{esc(a.note)}}</div>` : "";
 
   const astarUrl = `core_papers.html?author=${{a.slug}}&tier=astar&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
+  const bothUrl  = `core_papers.html?author=${{a.slug}}&tier=both&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const aUrl     = `core_papers.html?author=${{a.slug}}&tier=a&name=${{encodeURIComponent(a.name.replace(/\\s+\\d{{4}}$/,""))}}`;
   const cleanName     = (a.name || "").replace(/\s+\d{{4}}$/, "").trim();
   const hungTableUrl  = a.works === "hungary" ? `authors_table.html?munkahely=hungary&highlight=${{encodeURIComponent(cleanName)}}` : "";
@@ -664,9 +665,9 @@ function renderProfile(a) {{
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
   const statsData = [
     ["Core A*",        a.core_astar,                    0,    a.core_astar_papers > 0 ? astarUrl : ""],
-    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_papers > 0 ? astarUrl : ""],
-    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar_papers > 0 ? astarUrl : ""],
-    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar_papers > 0 ? astarUrl : ""],
+    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_papers > 0 ? bothUrl : ""],
+    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar_papers > 0 ? bothUrl : ""],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar_papers > 0 ? bothUrl : ""],
     ["Core A",         a.core_a,                        0, a.core_a_papers > 0 ? aUrl : ""],
     ["Citations",      a.mtmt_citations,                0, ""],
     ["D1 eq.",         a.mtmt_d1_equiv,                 1, ""],

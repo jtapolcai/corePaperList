@@ -804,6 +804,7 @@ const TIER_SETS = {{
 
 const TIER_TAG_CLASS = {{ "A*": "astar", "A": "a", "B": "b", "C": "c", "NR": "nr" }};
 const TIER_LABEL     = {{ "A*": "★ A*",   "A": "A", "B": "B", "C": "C", "NR": "Egyéb" }};
+const TIER_EQ_WEIGHT = {{ "A*": 1, "A": 1/3, "B": 1/6, "C": 1/9, "NR": 1/15 }};
 
 const NAT_LABEL = {{
   all_hungarian: "Teljesen magyar",
@@ -843,8 +844,13 @@ function renderPaper(p) {{
   const tierTag = showTierTag
     ? `<span class="tag tag-tier-${{TIER_TAG_CLASS[p.tier] || ''}}">${{TIER_LABEL[p.tier] || p.tier}}</span>`
     : "";
+  const eqWeight = TIER_EQ_WEIGHT[p.tier];
+  const eqTag = authorSlugFilter && eqWeight !== undefined
+    ? `<span class="tag tag-tier-${{TIER_TAG_CLASS[p.tier] || ''}}" title="A* ekvivalens súly">A* eq: ${{eqWeight % 1 === 0 ? eqWeight : eqWeight.toFixed(4).replace(/\\.?0+$/, "")}}</span>`
+    : "";
   const tags = [
     tierTag,
+    eqTag,
     ...p.institutions.map(i => `<span class="tag tag-inst">${{i}}</span>`),
     p.nationality ? `<span class="tag ${{NAT_CLASS[p.nationality] || ''}}">${{NAT_LABEL[p.nationality] || p.nationality}}</span>` : "",
     p.topic ? `<span class="tag tag-${{p.topic}}">${{p.topic === "theory" ? "Elmélet" : "Alkalmazott"}}</span>` : "",
