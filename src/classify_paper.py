@@ -315,7 +315,7 @@ def core_rank(venue_name: str, venue_crossref, venue_dblp: str, pub_year: int) -
             continue
         # Defensive parse; skip if year not int
         try:
-            year = int(parts[0].replace("CORE", "").replace("ERA", ""))
+            year = int(parts[0].replace("ICORE", "").replace("CORE", "").replace("ERA", ""))
         except ValueError:
             continue
         rank = parts[1]
