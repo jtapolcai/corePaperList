@@ -45,6 +45,20 @@ def papers_by_year_and_category(filename):
     return counts
 
 
+def papers_by_year_total(filename):
+    papers = load_json(os.path.join(RESULTS_DIR, filename), {})
+    counts = defaultdict(int)
+    for paper in papers.values():
+        try:
+            year = int(paper.get("year", 0))
+        except (ValueError, TypeError):
+            continue
+        if year < 1970 or year > 2030:
+            continue
+        counts[year] += 1
+    return counts
+
+
 def make_year_series(counts):
     years = sorted(counts.keys())
     return {
@@ -53,6 +67,11 @@ def make_year_series(counts):
         "applied": [counts[y]["applied"] for y in years],
         "unknown": [counts[y]["unknown"] for y in years],
     }
+
+
+def make_total_series(counts):
+    years = sorted(counts.keys())
+    return {"years": years, "total": [counts[y] for y in years]}
 
 
 # --- Load data ---
@@ -65,15 +84,8 @@ abroad_astar_counts = papers_by_year_and_category("already_abroad_papers_coreAst
 hung_a_counts = papers_by_year_and_category("hungarian_papers_coreA.json")
 
 hung_astar_series = make_year_series(hung_astar_counts)
-abroad_astar_series = make_year_series(abroad_astar_counts)
-
-# Top 20 authors by hungarian_core_astar_equiv
-top_authors = [a for a in authors if a.get("hungarian_core_astar_equiv", 0) > 0]
-top_authors.sort(key=lambda a: a.get("hungarian_core_astar_equiv", 0), reverse=True)
-top20 = top_authors[:20]
-top20_names = [a.get("name", a.get("slug", "?")) for a in top20]
-top20_astar = [round(a.get("hungarian_core_astar_equiv", 0), 2) for a in top20]
-top20_works = [a.get("works", "") for a in top20]
+abroad_astar_total_counts = papers_by_year_total("already_abroad_papers_coreAstar.json")
+abroad_astar_series = make_total_series(abroad_astar_total_counts)
 
 # Key statistics
 total_hung_astar = sum(
@@ -99,9 +111,6 @@ en_pdf_label = f"Last updated: {en_pdf_date}" if en_pdf_date else "Date unknown"
 chart_data = json.dumps({
     "hung_astar": hung_astar_series,
     "abroad_astar": abroad_astar_series,
-    "top20_names": top20_names,
-    "top20_astar": top20_astar,
-    "top20_works": top20_works,
 }, ensure_ascii=False)
 
 stats = json.dumps({
@@ -255,9 +264,6 @@ footer {{
 <h2>CORE A* cikkek évente — Külföldre ment kutatók</h2>
 <div class="chart-wrap"><canvas id="chart-abroad-astar"></canvas></div>
 
-<h2>Top 20 kutató (magyarországi CORE A* ekvivalens pontszám)</h2>
-<div class="chart-wrap" style=""><canvas id="chart-top20" style="max-height:480px"></canvas></div>
-
 <h2>Letölthető jelentések</h2>
 <div class="pdf-section">
   <p style="margin:0 0 4px;color:var(--muted);font-size:0.85rem;">
@@ -267,12 +273,12 @@ footer {{
     <div class="pdf-card">
       <h3>Magyar nyelvű jelentés</h3>
       <span class="pdf-date">{hu_pdf_label}</span>
-      <a href="report.pdf">PDF letöltése</a>
+      <a href="report_hu.pdf">PDF letöltése</a>
     </div>
     <div class="pdf-card">
       <h3>English Report</h3>
       <span class="pdf-date">{en_pdf_label}</span>
-      <a href="report_flat_en.pdf">Download PDF</a>
+      <a href="report_en.pdf">Download PDF</a>
     </div>
   </div>
 </div>
@@ -326,44 +332,28 @@ function stackedBarChart(canvasId, series, title) {{
 }}
 
 stackedBarChart("chart-hung-astar", DATA.hung_astar);
-stackedBarChart("chart-abroad-astar", DATA.abroad_astar);
 
-// Top-20 horizontal bar
+// Abroad: simple single-color bar (no theory/applied split in data)
 (function() {{
-  const works_colors = DATA.top20_works.map(w =>
-    w === "hungary" ? "#2ca02c" :
-    w === "abroad" || w === "company_abroad" ? "#9467bd" : "#aaaaaa"
-  );
-  const ctx = document.getElementById("chart-top20").getContext("2d");
+  const ctx = document.getElementById("chart-abroad-astar").getContext("2d");
   new Chart(ctx, {{
     type: "bar",
     data: {{
-      labels: DATA.top20_names,
+      labels: DATA.abroad_astar.years,
       datasets: [{{
-        label: "Magyar A* ekvivalens",
-        data: DATA.top20_astar,
-        backgroundColor: works_colors,
+        label: "CORE A* cikkek",
+        data: DATA.abroad_astar.total,
+        backgroundColor: "#9467bd",
       }}]
     }},
     options: {{
-      indexAxis: "y",
       responsive: true,
       plugins: {{
-        legend: {{ display: false }},
-        tooltip: {{
-          callbacks: {{
-            afterLabel: ctx => {{
-              const w = DATA.top20_works[ctx.dataIndex];
-              return w === "hungary" ? "(Magyarország)" :
-                     w === "abroad" ? "(Külföld)" :
-                     w === "company_abroad" ? "(Cég, külföld)" : "";
-            }}
-          }}
-        }}
+        legend: {{ labels: {{ color: textColor }} }},
       }},
       scales: {{
-        x: {{ beginAtZero: true, ticks: {{ color: textColor }}, grid: {{ color: gridColor }} }},
-        y: {{ ticks: {{ color: textColor, font: {{ size: 12 }} }}, grid: {{ color: gridColor }} }},
+        x: {{ ticks: {{ color: textColor, maxRotation: 45, autoSkipPadding: 8 }}, grid: {{ color: gridColor }} }},
+        y: {{ beginAtZero: true, ticks: {{ color: textColor }}, grid: {{ color: gridColor }} }},
       }},
     }}
   }});

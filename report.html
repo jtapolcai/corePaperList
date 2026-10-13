@@ -120,7 +120,7 @@ footer {
   <div class="container">
     <span class="lang-switch">HU | <a href="report_en.html" style="color:#fff">EN</a></span>
     <h1>Magyar CS kutatók — CORE A* konferencia elemzés</h1>
-    <p>Generálva: 2026-10-13 04:54 UTC · <a href="https://jtapolcai.github.io/corePaperList/" style="color:#fff">Vissza a főoldalra</a></p>
+    <p>Generálva: 2026-10-13 09:25 UTC · <a href="https://jtapolcai.github.io/corePaperList/" style="color:#fff">Vissza a főoldalra</a></p>
   </div>
 </header>
 <div class="container">
@@ -140,9 +140,6 @@ footer {
 <h2>CORE A* cikkek évente — Külföldre ment kutatók</h2>
 <div class="chart-wrap"><canvas id="chart-abroad-astar"></canvas></div>
 
-<h2>Top 20 kutató (magyarországi CORE A* ekvivalens pontszám)</h2>
-<div class="chart-wrap" style=""><canvas id="chart-top20" style="max-height:480px"></canvas></div>
-
 <h2>Letölthető jelentések</h2>
 <div class="pdf-section">
   <p style="margin:0 0 4px;color:var(--muted);font-size:0.85rem;">
@@ -152,12 +149,12 @@ footer {
     <div class="pdf-card">
       <h3>Magyar nyelvű jelentés</h3>
       <span class="pdf-date">Dátum ismeretlen</span>
-      <a href="report.pdf">PDF letöltése</a>
+      <a href="report_hu.pdf">PDF letöltése</a>
     </div>
     <div class="pdf-card">
       <h3>English Report</h3>
       <span class="pdf-date">Last updated: 2026-10-13</span>
-      <a href="report_flat_en.pdf">Download PDF</a>
+      <a href="report_en.pdf">Download PDF</a>
     </div>
   </div>
 </div>
@@ -170,8 +167,8 @@ footer {
 </footer>
 
 <script>
-const DATA = {"hung_astar": {"years": [1975, 1976, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "theory": [2, 1, 3, 3, 2, 4, 7, 4, 7, 7, 3, 3, 2, 6, 1, 7, 5, 8, 2, 4, 1, 4, 1, 7, 8, 2, 4, 2, 3, 1, 6, 3, 8, 9, 9, 5, 8, 4, 2, 4, 6, 7, 10, 13, 9], "applied": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 2, 2, 1, 6, 7, 5, 3, 4, 3, 3, 3, 7, 5, 1, 5, 4, 5, 8, 7, 10, 7, 9, 9, 11, 9], "unknown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, "abroad_astar": {"years": [1972, 1973, 1978, 1979, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "theory": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "applied": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], "unknown": [1, 1, 1, 2, 1, 1, 3, 2, 8, 5, 5, 8, 3, 9, 12, 13, 8, 9, 10, 5, 7, 10, 16, 12, 11, 14, 17, 21, 15, 15, 22, 20, 32, 18, 37, 28, 31, 28, 34, 41, 43, 38, 49, 61, 68, 62, 81, 68, 79, 45]}, "top20_names": ["Dániel Marx", "Lin Chen", "János Tapolcai", "György Turán", "T. László Kóczy", "Dániel Varró", "Gábor Tardos", "Gábor Rétvári", "Márk Jelasity", "Imre Rudas", "Roland Toth", "András A. Benczúr", "János Pach", "Tibor Gyimóthy", "András Lörincz", "Dániel Baráth", "Lajos Rónyai", "Csaba Szepesvári", "Peter Gaspar", "Róbert Busa-Fekete"], "top20_astar": [34.41, 26.9, 26.17, 25.2, 25.17, 24.74, 24.73, 21.51, 21.46, 20.27, 20.12, 19.94, 19.6, 19.08, 18.47, 17.11, 16.11, 15.93, 15.4, 15.33], "top20_works": ["abroad", "", "hungary", "abroad", "hungary", "abroad", "hungary", "hungary", "hungary", "hungary", "abroad", "hungary", "abroad", "hungary", "retired", "abroad", "hungary", "abroad", "hungary", "abroad"]};
-const STATS = {"total_hung_astar": 359, "total_hung_astar_theory": 217, "total_hung_astar_applied": 142, "total_abroad_astar": 1134, "active_authors": 138, "all_astar_authors": 356};
+const DATA = {"hung_astar": {"years": [1975, 1976, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "theory": [2, 1, 3, 3, 2, 4, 7, 4, 7, 7, 3, 3, 2, 6, 1, 7, 5, 8, 2, 4, 1, 4, 1, 7, 8, 2, 4, 2, 3, 1, 6, 3, 8, 9, 9, 5, 8, 4, 2, 4, 6, 7, 10, 13, 9], "applied": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 4, 2, 2, 1, 6, 7, 5, 3, 4, 3, 3, 3, 7, 5, 1, 5, 4, 5, 8, 7, 10, 7, 9, 9, 11, 9], "unknown": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, "abroad_astar": {"years": [1972, 1973, 1978, 1979, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "total": [1, 1, 1, 2, 1, 2, 4, 2, 8, 5, 6, 8, 3, 9, 12, 13, 8, 9, 10, 5, 7, 10, 16, 12, 11, 14, 17, 21, 15, 15, 22, 20, 32, 18, 37, 28, 31, 28, 34, 41, 43, 38, 49, 61, 68, 62, 81, 68, 80, 45]}};
+const STATS = {"total_hung_astar": 359, "total_hung_astar_theory": 217, "total_hung_astar_applied": 142, "total_abroad_astar": 1134, "active_authors": 136, "all_astar_authors": 356};
 
 // Fill stats
 document.getElementById("stat-hung-astar").textContent = STATS.total_hung_astar;
@@ -211,44 +208,28 @@ function stackedBarChart(canvasId, series, title) {
 }
 
 stackedBarChart("chart-hung-astar", DATA.hung_astar);
-stackedBarChart("chart-abroad-astar", DATA.abroad_astar);
 
-// Top-20 horizontal bar
+// Abroad: simple single-color bar (no theory/applied split in data)
 (function() {
-  const works_colors = DATA.top20_works.map(w =>
-    w === "hungary" ? "#2ca02c" :
-    w === "abroad" || w === "company_abroad" ? "#9467bd" : "#aaaaaa"
-  );
-  const ctx = document.getElementById("chart-top20").getContext("2d");
+  const ctx = document.getElementById("chart-abroad-astar").getContext("2d");
   new Chart(ctx, {
     type: "bar",
     data: {
-      labels: DATA.top20_names,
+      labels: DATA.abroad_astar.years,
       datasets: [{
-        label: "Magyar A* ekvivalens",
-        data: DATA.top20_astar,
-        backgroundColor: works_colors,
+        label: "CORE A* cikkek",
+        data: DATA.abroad_astar.total,
+        backgroundColor: "#9467bd",
       }]
     },
     options: {
-      indexAxis: "y",
       responsive: true,
       plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            afterLabel: ctx => {
-              const w = DATA.top20_works[ctx.dataIndex];
-              return w === "hungary" ? "(Magyarország)" :
-                     w === "abroad" ? "(Külföld)" :
-                     w === "company_abroad" ? "(Cég, külföld)" : "";
-            }
-          }
-        }
+        legend: { labels: { color: textColor } },
       },
       scales: {
-        x: { beginAtZero: true, ticks: { color: textColor }, grid: { color: gridColor } },
-        y: { ticks: { color: textColor, font: { size: 12 } }, grid: { color: gridColor } },
+        x: { ticks: { color: textColor, maxRotation: 45, autoSkipPadding: 8 }, grid: { color: gridColor } },
+        y: { beginAtZero: true, ticks: { color: textColor }, grid: { color: gridColor } },
       },
     }
   });
