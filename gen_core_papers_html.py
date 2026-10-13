@@ -139,7 +139,11 @@ def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = No
             )
         else:
             new_slug = slugify(display)
-            dblp_url = pid_map.get(name) or pid_map.get(display) or ""
+            # Use PID hint to construct DBLP URL when available
+            if pid_hint:
+                dblp_url = f"https://dblp.org/pid/{pid_hint}"
+            else:
+                dblp_url = pid_map.get(name) or pid_map.get(display) or ""
             parts.append(
                 f'<a class="author-add" href="javascript:void(0)"'
                 f' data-name="{esc(display)}" data-slug="{new_slug}"'
@@ -609,13 +613,18 @@ function selectDblp(url, name, el) {{
 async function searchMtmt(name) {{
   const statusEl = document.getElementById("mtmt-status");
   const listEl = document.getElementById("mtmt-list");
-  // Try last word then first word as family name
+  // Try (lastWord=family + firstWord=given) then (firstWord=family + lastWord=given) then family-only fallback
   const parts = name.trim().split(/\\s+/);
-  const families = [...new Set([parts[parts.length-1], parts[0]])];
   const seen = new Map();
-  for (const fam of families) {{
+  const queries = parts.length >= 2 ? [
+    [parts[parts.length-1], parts[0]],   // Western order: last=family, first=given
+    [parts[0], parts[parts.length-1]],   // Hungarian order: first=family, last=given
+  ] : [[parts[0], ""]];
+  for (const [fam, given] of queries) {{
     try {{
-      const url = "https://m2.mtmt.hu/api/author?cond=familyName;eq;" + encodeURIComponent(fam) + "&format=json&size=20";
+      let url = "https://m2.mtmt.hu/api/author?cond=familyName;eq;" + encodeURIComponent(fam);
+      if (given) url += "&cond=givenName;eq;" + encodeURIComponent(given);
+      url += "&format=json&size=20";
       const resp = await fetch(url);
       const data = await resp.json();
       for (const c of (data.content || [])) {{
