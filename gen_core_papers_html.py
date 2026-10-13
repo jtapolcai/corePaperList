@@ -395,6 +395,7 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
 <body>
 <header>
   <div class="header-row">
+    <a href="index.html" style="font-size:0.82rem;color:var(--muted);text-decoration:none;white-space:nowrap">← Főoldal</a>
     <h1>CORE Rangsorolt Cikkek — Magyar CS Kutatók</h1>
     <div class="tier-toggle">
       <span class="toggle-btn active" id="btn-astar" onclick="setTier('astar')">★ A*</span>
