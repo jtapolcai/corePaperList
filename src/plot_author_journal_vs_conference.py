@@ -241,8 +241,9 @@ def create_plot(data_points, author_label=False):
                   c='green', alpha=0.6, s=marker_size, label='Hungary')
         scatter_objects.append(scatter_hungary)
         scatter_labels.append([
-            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<strong style="color:#1a6bbf">{name}</strong>'
             f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            f'<br><span style="font-size:.85em;color:#555">(kattints a profilhoz)</span>'
             for x, y, name in zip(data_points['hungary'][0],
                                   data_points['hungary'][1],
                                   data_points['hungary'][2])])
@@ -252,8 +253,9 @@ def create_plot(data_points, author_label=False):
                   c='yellow', alpha=0.6, s=marker_size, label='Company', edgecolors='black', linewidth=0.5)
         scatter_objects.append(scatter_company)
         scatter_labels.append([
-            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<strong style="color:#1a6bbf">{name}</strong>'
             f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            f'<br><span style="font-size:.85em;color:#555">(kattints a profilhoz)</span>'
             for x, y, name in zip(data_points['company'][0],
                                   data_points['company'][1],
                                   data_points['company'][2])])
@@ -263,8 +265,9 @@ def create_plot(data_points, author_label=False):
                   c='red', alpha=0.6, s=marker_size, label='Abroad')
         scatter_objects.append(scatter_abroad)
         scatter_labels.append([
-            f'<a href="../authors_profile.html#{_slugify(name)}" target="_parent" style="font-weight:bold;color:#1a6bbf;text-decoration:none">{name}</a>'
+            f'<strong style="color:#1a6bbf">{name}</strong>'
             f'<br>Journal D1: {x:.2f}<br>Core A*: {y:.2f}'
+            f'<br><span style="font-size:.85em;color:#555">(kattints a profilhoz)</span>'
             for x, y, name in zip(data_points['abroad'][0],
                                   data_points['abroad'][1],
                                   data_points['abroad'][2])])
@@ -304,12 +307,51 @@ def create_plot(data_points, author_label=False):
         try:
             import mpld3
             from mpld3 import plugins
-            
+            from mpld3.utils import get_id
+
+            class ClickNavigatePlugin(plugins.PluginBase):
+                """Navigate to author profile page on point click."""
+                JAVASCRIPT = """
+                mpld3.register_plugin("clicknavigate", ClickNavigatePlugin);
+                ClickNavigatePlugin.prototype = Object.create(mpld3.Plugin.prototype);
+                ClickNavigatePlugin.prototype.constructor = ClickNavigatePlugin;
+                ClickNavigatePlugin.prototype.requiredProps = ["id", "urls"];
+                ClickNavigatePlugin.prototype.defaultProps = {};
+                function ClickNavigatePlugin(fig, props) {
+                    mpld3.Plugin.call(this, fig, props);
+                }
+                ClickNavigatePlugin.prototype.draw = function() {
+                    var obj = mpld3.get_element(this.props.id);
+                    var urls = this.props.urls;
+                    obj.elements()
+                        .style("cursor", "pointer")
+                        .on("click", function(d, i) {
+                            window.location.href = urls[i];
+                        });
+                };
+                """
+                def __init__(self, points, urls):
+                    self.dict_ = {
+                        "type": "clicknavigate",
+                        "id": get_id(points),
+                        "urls": urls,
+                    }
+
             print(f"\nGenerating interactive HTML with mpld3...")
             print(f"  Scatter objects: {len(scatter_objects)}")
-            
-            # Add interactive tooltips to each scatter plot using the stored objects
-            for scatter, tooltip_labels in zip(scatter_objects, scatter_labels):
+
+            # Collect per-scatter click URLs (parallel to scatter_labels)
+            scatter_urls = []
+            for category, (xs, ys, names) in [
+                ("hungary", data_points["hungary"]),
+                ("company", data_points["company"]),
+                ("abroad", data_points["abroad"]),
+            ]:
+                if xs:
+                    scatter_urls.append([f"authors_profile.html#{_slugify(n)}" for n in names])
+
+            # Add interactive tooltips and click navigation to each scatter
+            for scatter, tooltip_labels, click_urls in zip(scatter_objects, scatter_labels, scatter_urls):
                 print(f"  Adding tooltip for {len(tooltip_labels)} points")
                 tooltip = plugins.PointHTMLTooltip(scatter, tooltip_labels,
                                                    voffset=10, hoffset=10,
@@ -325,6 +367,7 @@ def create_plot(data_points, author_label=False):
                                                    }
                                                    """)
                 plugins.connect(fig, tooltip)
+                plugins.connect(fig, ClickNavigatePlugin(scatter, click_urls))
             
             # Save interactive HTML
             output_html = 'figures/journal_vs_conference_interactive.html'

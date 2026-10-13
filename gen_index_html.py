@@ -122,7 +122,7 @@ def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
     }
 
 
-def compute_stats(authors: list) -> dict:
+def compute_stats(authors: list, hun_papers: dict | None = None) -> dict:
     total = len(authors)
     hungary = sum(1 for a in authors if (a.get("works") or "") in ("hungary", "company_hungary"))
     abroad = sum(1 for a in authors if (a.get("works") or "") in ("abroad", "company_abroad"))
@@ -130,7 +130,8 @@ def compute_stats(authors: list) -> dict:
     applied = sum(1 for a in authors if a.get("category") == "applied")
 
     astar_coauth = sum(a.get("core_astar", 0) or 0 for a in authors)
-    astar_papers = sum(a.get("core_astar_papers", 0) or 0 for a in authors)
+    # Count unique A* papers directly from the results JSON (authors.json has no per-author paper count)
+    astar_papers = len(hun_papers) if hun_papers is not None else sum(a.get("core_astar_papers", 0) or 0 for a in authors)
     hun_astar_eq = sum(a.get("hungarian_core_astar_equiv", 0) or 0 for a in authors)
 
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
@@ -563,7 +564,7 @@ def main():
     authors = load_authors()
     hun, abr = load_papers()
     name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
-    stats = compute_stats(authors)
+    stats = compute_stats(authors, hun_papers=hun)
     chart = build_chart_data(hun, abr, name_cat)
     photo_map = load_photo_map()
     html = render(stats, chart, photo_map)
