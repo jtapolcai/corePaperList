@@ -253,6 +253,15 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
 .stat-card .src a:hover, .stat-card .src .src-link:hover {{ opacity: 1; }}
 a.stat-link {{ text-decoration: none; cursor: pointer; display: block; transition: border-color 0.15s, background 0.15s; }}
 a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); }}
+.topics-section {{ margin: 0.75rem 0 0; }}
+.topics-section h4 {{ font-size: 0.72rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.4rem; }}
+.topic-chips {{ display: flex; flex-wrap: wrap; gap: 0.35rem; }}
+.topic-chip {{ display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.2rem 0.55rem; border-radius: 999px;
+  font-size: 0.72rem; background: var(--chip-bg); border: 1px solid var(--border); color: var(--text);
+  text-decoration: none; transition: background 0.12s; }}
+.topic-chip:hover {{ background: var(--chip-active); color: var(--chip-active-text); border-color: transparent; }}
+.topic-chip .tc-count {{ font-size: 0.65rem; color: var(--muted); }}
+.topic-chip:hover .tc-count {{ color: inherit; opacity: 0.75; }}
 .kv-table {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
 .kv-table td {{ padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--border); vertical-align: top; }}
 .kv-table td:first-child {{ color: var(--muted); width: 38%; white-space: nowrap; font-weight: 500; }}
@@ -842,6 +851,34 @@ function renderProfile(a) {{
     </table>
   </div>` : "";
 
+  const topicsHtml = (() => {{
+    const topics = a.openalex_topics;
+    if (!topics || !topics.length) return "";
+    // Group by field
+    const byField = {{}};
+    for (const t of topics) {{
+      const fn = t.field ? t.field.name : "Egyéb";
+      if (!byField[fn]) byField[fn] = [];
+      byField[fn].push(t);
+    }}
+    const rows = Object.entries(byField).map(([field, ts]) => {{
+      const chips = ts.map(t => {{
+        const url = `https://openalex.org/topics/${{t.id}}`;
+        return `<a class="topic-chip" href="${{url}}" target="_blank" rel="noopener" title="${{esc(t.subfield ? t.subfield.name : "")}}">
+          ${{esc(t.name)}}<span class="tc-count">${{t.count}}</span>
+        </a>`;
+      }}).join("");
+      return `<div style="margin-bottom:0.5rem">
+        <div style="font-size:0.68rem;color:var(--muted);margin-bottom:0.2rem">${{esc(field)}}</div>
+        <div class="topic-chips">${{chips}}</div>
+      </div>`;
+    }}).join("");
+    return `<div class="topics-section">
+      <h4>OpenAlex kutatási területek</h4>
+      ${{rows}}
+    </div>`;
+  }})();
+
   const photo = a.mta_photo
     ? `<img src="${{esc(a.mta_photo)}}" class="profile-photo" alt="MTA photo"
         onerror="this.style.display='none'">`
@@ -866,6 +903,7 @@ function renderProfile(a) {{
     </div>
     ${{note}}
     ${{stats}}
+    ${{topicsHtml}}
     ${{kv}}
     ${{journals}}
   `;
