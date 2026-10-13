@@ -451,6 +451,11 @@ footer {{ text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--mu
       <div id="mtmt-list" class="candidate-list" style="display:none"></div>
     </div>
 
+    <div class="modal-field" id="m-name-row" style="background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:.5rem .7rem;">
+      <label style="font-size:.75rem;color:var(--muted);margin-bottom:.2rem;">Végleges név (DBLP alapján automatikusan töltődik)</label>
+      <div id="m-name-display" style="font-weight:700;font-size:1rem;color:var(--text)">—</div>
+      <div id="m-slug-display" style="font-size:.72rem;color:var(--muted);margin-top:.1rem;font-family:monospace"></div>
+    </div>
     <div class="modal-field">
       <label>DBLP URL</label>
       <input type="text" id="m-dblp-url" placeholder="https://dblp.org/pid/…">
@@ -523,11 +528,19 @@ const EXISTING_PROFILES = new Set({existing_profiles_json});
 let _modalSlug = "";
 let _modalName = "";
 
+function _updateNameDisplay() {{
+  const nameEl = document.getElementById("m-name-display");
+  const slugEl = document.getElementById("m-slug-display");
+  if (nameEl) nameEl.textContent = _modalName || "—";
+  if (slugEl) slugEl.textContent = _modalSlug ? "slug: " + _modalSlug : "";
+  document.getElementById("modal-title").textContent = "Hozzáadás: " + (_modalName || "…");
+}}
+
 function openAddModal(el) {{
   _modalName = el.dataset.name || el.textContent.replace("➕","").trim();
   _modalSlug = el.dataset.slug || slugifyJS(_modalName);
   const knownDblpUrl = el.dataset.dblpUrl || "";
-  document.getElementById("modal-title").textContent = "Hozzáadás: " + _modalName;
+  _updateNameDisplay();
   // Reset
   ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note"].forEach(id => {{
     document.getElementById(id).value = "";
@@ -611,6 +624,7 @@ function selectDblp(url, name, el) {{
   if (name) {{
     _modalName = name;
     _modalSlug = slugifyJS(name);
+    _updateNameDisplay();
   }}
 }}
 
@@ -756,6 +770,7 @@ async function enrichFromDblp(dblpUrl) {{
     if (dblpName) {{
       _modalName = dblpName;
       _modalSlug = slugifyJS(dblpName);
+      _updateNameDisplay();
     }}
     const notes = hit.info?.notes?.note;
     const noteArr = Array.isArray(notes) ? notes : (notes ? [notes] : []);
