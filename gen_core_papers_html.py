@@ -72,15 +72,17 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
-def load_author_data() -> tuple[dict, dict, dict]:
+def load_author_data() -> tuple[dict, dict, dict, dict]:
     """
-    Returns (name_to_slug, slug_to_category, name_to_dblp_url) from authors.json + author_pids.json.
+    Returns (name_to_slug, slug_to_category, name_to_dblp_url, pid_to_slug).
+    pid_to_slug maps bare DBLP PIDs (e.g. '96/3128') to slugs for exact disambiguation.
     """
     if not AUTHORS_JSON.exists():
-        return {}, {}, {}
+        return {}, {}, {}, {}
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
     lookup   = {}
     category = {}
+    pid_to_slug: dict = {}
     for a in authors:
         slug = a["slug"]
         name = a["name"]
@@ -94,6 +96,11 @@ def load_author_data() -> tuple[dict, dict, dict]:
                 if alias:
                     lookup.setdefault(normalize(alias), slug)
         category[slug] = a.get("category") or ""
+        # Extract bare PID from dblp_url, e.g. 'https://dblp.org/pid/96/3128' → '96/3128'
+        dblp_url = a.get("dblp_url", "")
+        pid_match = re.search(r"/pid/(.+?)(?:\.html)?$", dblp_url)
+        if pid_match:
+            pid_to_slug[pid_match.group(1).strip("/")] = slug
     # Build name → DBLP URL from author_pids.json (scraped pids)
     pid_map: dict = {}
     if AUTHOR_PIDS_JSON.exists():
@@ -101,20 +108,29 @@ def load_author_data() -> tuple[dict, dict, dict]:
             pid_map = json.loads(AUTHOR_PIDS_JSON.read_text(encoding="utf-8"))
         except Exception:
             pass
-    return lookup, category, pid_map
+    return lookup, category, pid_map, pid_to_slug
 
 
-def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = None) -> str:
+def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = None,
+                   pid_to_slug: dict | None = None) -> str:
     """Render author list as comma-separated HTML with profile links.
-    Known authors link to their profile; unknown authors open the add-author modal."""
+    Known authors link to their profile; unknown authors open the add-author modal.
+    When author entry is [name, dblp_pid], uses PID for exact disambiguation."""
     parts = []
     pid_map = pid_map or {}
-    for name in authors:
-        if isinstance(name, list):
-            name = name[0] if name else ""
+    pid_to_slug = pid_to_slug or {}
+    for entry in authors:
+        pid_hint = None
+        if isinstance(entry, list):
+            name = entry[0] if entry else ""
+            pid_hint = entry[1] if len(entry) > 1 else None
+        else:
+            name = entry
         display = clean_name(name)
+        # PID-based lookup first (exact disambiguation), then name-based fallback
         slug = (
-            author_lookup.get(normalize(name))
+            (pid_to_slug.get(pid_hint) if pid_hint else None)
+            or author_lookup.get(normalize(name))
             or author_lookup.get(normalize(display))
         )
         if slug:
@@ -195,12 +211,12 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
     return papers
 
 
-def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], papers_norank: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None) -> str:
+def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], papers_norank: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None, pid_to_slug: dict | None = None) -> str:
     def paper_obj(p):
         return {
             "key":          p["key"],
             "title":        p["title"],
-            "authors_html": format_authors(p["authors"], author_lookup, pid_map),
+            "authors_html": format_authors(p["authors"], author_lookup, pid_map, pid_to_slug),
             "venue":        p["venue"],
             "year":         p["year"],
             "doi":          p["doi"],
@@ -929,8 +945,8 @@ def load_existing_profiles(profiles_dir: Path) -> set:
 
 
 def main():
-    author_lookup, slug_category, pid_map = load_author_data()
-    print(f"Loaded {len(author_lookup)} author name entries for linking, {len(pid_map)} DBLP pids")
+    author_lookup, slug_category, pid_map, pid_to_slug = load_author_data()
+    print(f"Loaded {len(author_lookup)} author name entries, {len(pid_to_slug)} DBLP PIDs for linking")
 
     papers_astar = load_papers([JSON_HUN_ASTAR, JSON_ABR_ASTAR], "A*", author_lookup, slug_category, pid_map)
     print(f"Core A*: {len(papers_astar)} papers")
@@ -948,7 +964,7 @@ def main():
     print(f"No rank: {len(papers_norank)} papers")
 
     existing = load_existing_profiles(BASE / "profiles")
-    html_out = generate_html(papers_astar, papers_a, papers_b, papers_c, papers_norank, author_lookup, existing, pid_map)
+    html_out = generate_html(papers_astar, papers_a, papers_b, papers_c, papers_norank, author_lookup, existing, pid_map, pid_to_slug)
     OUT_FILE.write_text(html_out, encoding="utf-8")
     print(f"Generated {OUT_FILE}")
 
