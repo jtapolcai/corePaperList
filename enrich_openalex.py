@@ -253,6 +253,10 @@ def main():
             stats["already"] += 1
             continue
 
+        if profile.get("openalex_status") == "not_found" and not args.force:
+            stats["skipped"] += 1
+            continue
+
         name = profile.get("name", "")
         slug = profile.get("slug", fname[:-5])
         dblp_url = profile.get("dblp_url", "")
@@ -290,6 +294,9 @@ def main():
         if not oa_id:
             print(f"  FAIL  {name} ({slug})")
             stats["failed"] += 1
+            if not args.dry_run:
+                profile["openalex_status"] = "not_found"
+                save_profile(path, profile)
             done += 1
             if args.limit and done >= args.limit:
                 break

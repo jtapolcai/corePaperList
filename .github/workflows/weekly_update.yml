@@ -35,10 +35,7 @@ jobs:
         run: python3 compile_authors_json.py
         continue-on-error: true
 
-      - name: Enrich profiles with OpenAlex data
-        id: openalex
-        run: python3 -u enrich_openalex.py
-        continue-on-error: true
+      # OpenAlex enrichment runs locally (~twice a year), not in CI
 
       - name: Generate report figure CSVs
         id: report_data
@@ -131,7 +128,6 @@ jobs:
           FAILED=""
           [ "${{ steps.dblp.outcome }}"    = "failure" ] && FAILED="$FAILED dblp"
           [ "${{ steps.compile.outcome }}"      = "failure" ] && FAILED="$FAILED compile_authors"
-          [ "${{ steps.openalex.outcome }}"     = "failure" ] && FAILED="$FAILED openalex"
           [ "${{ steps.report_data.outcome }}" = "failure" ] && FAILED="$FAILED report_data"
           [ "${{ steps.report_html.outcome }}" = "failure" ] && FAILED="$FAILED report.html"
           [ "${{ steps.index.outcome }}"        = "failure" ] && FAILED="$FAILED index.html"

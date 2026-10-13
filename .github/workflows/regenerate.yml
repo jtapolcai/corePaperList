@@ -30,17 +30,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Enrich new profiles with OpenAlex data
-        run: python3 enrich_openalex.py
-        continue-on-error: true
-
-      - name: Backfill first_pub_year for profiles missing it
-        run: python3 backfill_first_pub_year.py
-        continue-on-error: true
-
       - name: Compile authors.json from profiles
         run: python3 compile_authors_json.py
 
