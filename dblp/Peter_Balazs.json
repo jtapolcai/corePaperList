@@ -1,272 +1,3127 @@
 {
   "dblpperson": {
+    "@name": "Péter Balázs",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icassp/AbbasiHBLPZ25",
-        "title": "Robust Multicomponent Tracking of Ultrasonic Vocalizations.",
-        "pages": "1-5",
-        "year": "2025",
-        "booktitle": "ICASSP",
-        "ee": "https://doi.org/10.1109/ICASSP49660.2025.10890025",
-        "url": "db/conf/icassp/icassp2025.html#AbbasiHBLPZ25",
-        "authors": [
-          "Reyhaneh Abbasi",
-          "Nicki Holighaus",
-          "Peter Balazs",
-          "Vincent Lostanlen",
-          "Dustin J. Penn",
-          "Sarah M. Zala"
-        ]
+        "inproceedings": {
+          "@key": "conf/acivs/BalazsG08",
+          "title": "Decision Trees in Binary Tomography for Supporting the Reconstruction of hv-Convex Connected Images",
+          "booktitle": "ACIVS",
+          "year": "2008",
+          "pages": "433-443",
+          "ee": "https://doi.org/10.1007/978-3-540-88458-3_39",
+          "author": [
+            {
+              "#text": "Mihály Gara",
+              "@pid": "47/1354"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icassp/NenovNB23",
-        "title": "Faster Than Fast: Accelerating the Griffin-Lim Algorithm.",
-        "pages": "1-5",
-        "year": "2023",
-        "booktitle": "ICASSP",
-        "ee": "https://doi.org/10.1109/ICASSP49357.2023.10097224",
-        "url": "db/conf/icassp/icassp2023.html#NenovNB23",
-        "authors": [
-          "Rossen Nenov",
-          "Dang-Khoa Nguyen",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/acivs/NemethB13",
+          "title": "Restoration of Blurred Binary Images Using Discrete Tomography",
+          "booktitle": "ACIVS",
+          "year": "2013",
+          "pages": "80-90",
+          "ee": "https://doi.org/10.1007/978-3-319-02895-8_8",
+          "author": [
+            {
+              "#text": "József Németh",
+              "@pid": "20/8105"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcci/EckertHEB24",
-        "title": "Invertibility of ReLU-Layers: A Practical Approach.",
-        "pages": "423-429",
-        "year": "2024",
-        "booktitle": "IJCCI",
-        "ee": "https://doi.org/10.5220/0012951300003837",
-        "url": "db/conf/ijcci/ijcci2024.html#EckertHEB24",
-        "authors": [
-          "Hannah Eckert",
-          "Daniel Haider",
-          "Martin Ehler",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/acivs/VargaBN10",
+          "title": "Projection Selection Algorithms for Discrete Tomography",
+          "booktitle": "ACIVS (1)",
+          "year": "2010",
+          "pages": "390-401",
+          "ee": "https://doi.org/10.1007/978-3-642-17688-3_37",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ssp/LostanlenZHLEB25",
-        "title": "Residual Hybrid Filterbanks.",
-        "pages": "126-130",
-        "year": "2025",
-        "booktitle": "SSP",
-        "ee": "https://doi.org/10.1109/SSP64130.2025.11073345",
-        "url": "db/conf/ssp/ssp2025.html#LostanlenZHLEB25",
-        "authors": [
-          "Vincent Lostanlen",
-          "Xiran Zhang",
-          "Daniel Haider",
-          "Mathieu Lagrange",
-          "Martin Ehler",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/caip/LekoDB19",
+          "title": "Uncertainty Based Adaptive Projection Selection Strategy for Binary Tomographic Reconstruction",
+          "booktitle": "CAIP (2)",
+          "year": "2019",
+          "pages": "74-84",
+          "ee": "https://doi.org/10.1007/978-3-030-29891-3_7",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Szilveszter Domány",
+              "@pid": "247/5306"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/interspeech/HaiderPLEB24",
-        "title": "Hold Me Tight: Stable Encoder-Decoder Design for Speech Enhancement.",
-        "year": "2024",
-        "booktitle": "INTERSPEECH",
-        "ee": "https://doi.org/10.21437/Interspeech.2024-1622",
-        "url": "db/conf/interspeech/interspeech2024.html#HaiderPLEB24",
-        "authors": [
-          "Daniel Haider",
-          "Felix Perfler",
-          "Vincent Lostanlen",
-          "Martin Ehler",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/caip/SzucsB19",
+          "title": "Binary Tomography Using Variants of Local Binary Patterns as Texture Priors",
+          "booktitle": "CAIP (1)",
+          "year": "2019",
+          "pages": "141-154",
+          "ee": "https://doi.org/10.1007/978-3-030-29888-3_12",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tsp/NenovNBB24",
-        "title": "Accelerated Griffin-Lim Algorithm: A Fast and Provably Converging Numerical Method for Phase Retrieval.",
-        "pages": "190-202",
-        "year": "2024",
-        "volume": "72",
-        "journal": "IEEE Trans. Signal Process.",
-        "ee": "https://doi.org/10.1109/tsp.2023.3339232",
-        "url": "db/journals/tsp/tsp72.html#NenovNBB24",
-        "authors": [
-          "Rossen Nenov",
-          "Dang-Khoa Nguyen",
-          "Peter Balazs",
-          "Radu Ioan Bot"
-        ]
+        "inproceedings": {
+          "@key": "conf/ciarp/HantosB13",
+          "title": "Reconstruction and Enumeration of hv-Convex Polyominoes with Given Horizontal Projection",
+          "booktitle": "CIARP (1)",
+          "year": "2013",
+          "pages": "100-107",
+          "ee": "https://doi.org/10.1007/978-3-642-41822-8_13",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ploscb/AbbasiBMNZP22",
-        "title": "Capturing the songs of mice with an improved detection and classification method for ultrasonic vocalizations (BootSnap).",
-        "year": "2022",
-        "volume": "18",
-        "journal": "PLoS Comput. Biol.",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q112688009",
-        "url": "db/journals/ploscb/ploscb18.html#AbbasiBMNZP22",
-        "authors": [
-          "Reyhaneh Abbasi",
-          "Peter Balazs",
-          "Maria Adelaide Marconi",
-          "Doris Nicolakis",
-          "Sarah M. Zala",
-          "Dustin J. Penn"
-        ]
+        "inproceedings": {
+          "@key": "conf/ciarp/HantosB14",
+          "title": "Fast Heuristics for Eliminating Switching Components in Binary Matrices by 0-1 Flips",
+          "booktitle": "CIARP",
+          "year": "2014",
+          "pages": "62-69",
+          "ee": "https://doi.org/10.1007/978-3-319-12568-8_8",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tit/TaubockRB26",
-        "title": "Frame Multipliers and Compressive Sensing.",
-        "pages": "1393-1410",
-        "year": "2026",
-        "volume": "72",
-        "journal": "IEEE Trans. Inf. Theory",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/TIT.2025.3616817",
-        "url": "db/journals/tit/tit72.html#TaubockRB26",
-        "authors": [
-          "Georg TaubÃ¶ck",
-          "Shristi Rajbamshi",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/ciarp/TasiNB13",
+          "title": "Directional Convexity Measure for Binary Tomography",
+          "booktitle": "CIARP (2)",
+          "year": "2013",
+          "pages": "9-16",
+          "ee": "https://doi.org/10.1007/978-3-642-41827-3_2",
+          "author": [
+            {
+              "#text": "László G. Nyúl",
+              "@pid": "20/2898"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tamás Sámuel Tasi",
+              "@pid": "133/9462"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2505-07709",
-        "title": "ISAC: An Invertible and Stable Auditory Filter Bank with Customizable Kernels for ML Integration.",
-        "year": "2025",
-        "volume": "abs/2505.07709",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2505.07709",
-        "url": "db/journals/corr/corr2505.html#abs-2505-07709",
-        "authors": [
-          "Daniel Haider",
-          "Felix Perfler",
-          "Peter Balazs",
-          "Clara Hollomey",
-          "Nicki Holighaus"
-        ]
+        "inproceedings": {
+          "@key": "conf/cmmr/NecciariBKYLSM11",
+          "title": "Auditory Time-Frequency Masking: Psychoacoustical Data and Application to Audio Representations",
+          "booktitle": "CMMR/FRSM",
+          "year": "2012",
+          "pages": "146-171",
+          "ee": "https://doi.org/10.1007/978-3-642-31980-8_12",
+          "author": [
+            {
+              "#text": "Bernhard Laback",
+              "@pid": "00/8308"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Richard Kronland-Martinet",
+              "@pid": "92/6785"
+            },
+            {
+              "#text": "Sabine Meunier",
+              "@pid": "116/5484"
+            },
+            {
+              "#text": "Sølvi Ystad",
+              "@pid": "55/1112"
+            },
+            {
+              "#text": "Sophie Savel",
+              "@pid": "116/5683"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2608-10054",
-        "title": "Training Set Synthesis for Bioacoustic Denoising: A Case Study With Mice.",
-        "year": "2026",
-        "volume": "abs/2608.10054",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2608.10054",
-        "url": "db/journals/corr/corr2608.html#abs-2608-10054",
-        "authors": [
-          "Reyhaneh Abbasi",
-          "Peter Balazs",
-          "Vincent Lostanlen",
-          "Clara Hollomey",
-          "Dustin J. Penn",
-          "Sarah M. Zala",
-          "Nicki Holighaus"
-        ]
+        "inproceedings": {
+          "@key": "conf/cmmr/PrusaSHWB13",
+          "title": "The Large Time-Frequency Analysis Toolbox 2.0",
+          "booktitle": "CMMR",
+          "year": "2014",
+          "pages": "419-442",
+          "ee": "https://doi.org/10.1007/978-3-319-12976-1_25",
+          "author": [
+            {
+              "#text": "Christoph Wiesmeyr",
+              "@pid": "95/7060"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2410-00169",
-        "title": "(Almost) Smooth Sailing: Towards Numerical Stability of Neural Networks Through Differentiable Regularization of the Condition Number.",
-        "year": "2024",
-        "volume": "abs/2410.00169",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2410.00169",
-        "url": "db/journals/corr/corr2410.html#abs-2410-00169",
-        "authors": [
-          "Rossen Nenov",
-          "Daniel Haider",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/compimage/LekoB18",
+          "title": "Sequential Projection Selection Methods for Binary Tomography",
+          "booktitle": "CompIMAGE",
+          "year": "2019",
+          "pages": "70-81",
+          "ee": "https://doi.org/10.1007/978-3-030-20805-9_7",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2412-00954",
-        "title": "Construction of generalized samplets in Banach spaces.",
-        "year": "2024",
-        "volume": "abs/2412.00954",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2412.00954",
-        "url": "db/journals/corr/corr2412.html#abs-2412-00954",
-        "authors": [
-          "Peter Balazs",
-          "Michael D. Multerer"
-        ]
+        "inproceedings": {
+          "@key": "conf/compimage/SzucsB18",
+          "title": "Variants of Simulated Annealing for Strip Constrained Binary Tomography",
+          "booktitle": "CompIMAGE",
+          "year": "2019",
+          "pages": "82-92",
+          "ee": "https://doi.org/10.1007/978-3-030-20805-9_8",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2306-12504",
-        "title": "Accelerated Griffin-Lim algorithm: A fast and provably converging numerical method for phase retrieval.",
-        "year": "2023",
-        "volume": "abs/2306.12504",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2306.12504",
-        "url": "db/journals/corr/corr2306.html#abs-2306-12504",
-        "authors": [
-          "Rossen Nenov",
-          "Dang-Khoa Nguyen",
-          "Peter Balazs",
-          "Radu Ioan Bot"
-        ]
+        "inproceedings": {
+          "@key": "conf/compimage/VargaBN10",
+          "title": "Direction-Dependency of a Binary Tomographic Reconstruction Algorithm",
+          "booktitle": "CompIMAGE",
+          "year": "2010",
+          "pages": "242-253",
+          "ee": "https://doi.org/10.1007/978-3-642-12712-0_22",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2212-00947",
-        "title": "Quantitative bounds for unconditional pairs of frames.",
-        "year": "2022",
-        "volume": "abs/2212.00947",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2212.00947",
-        "url": "db/journals/corr/corr2212.html#abs-2212-00947",
-        "authors": [
-          "Peter Balazs",
-          "Daniel Freeman",
-          "Roxana Popescu",
-          "Michael Speckbacher"
-        ]
+        "inproceedings": {
+          "@key": "conf/compimage/VargaBN12",
+          "title": "An energy minimization reconstruction algorithm for multivalued discrete tomography",
+          "booktitle": "CompIMAGE",
+          "year": "2012",
+          "pages": "179-185",
+          "ee": "https://doi.org/10.1201/B12753-33",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2507-06152",
-        "title": "Aliasing in Convnets: A Frame-Theoretic Perspective.",
-        "year": "2025",
-        "volume": "abs/2507.06152",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2507.06152",
-        "url": "db/journals/corr/corr2507.html#abs-2507-06152",
-        "authors": [
-          "Daniel Haider",
-          "Vincent Lostanlen",
-          "Martin Ehler",
-          "Nicki Holighaus",
-          "Peter Balazs"
-        ]
+        "inproceedings": {
+          "@key": "conf/dgci/Balazs05",
+          "title": "Reconstruction of Decomposable Discrete Sets from Four Projections",
+          "booktitle": "DGCI",
+          "year": "2005",
+          "pages": "104-114",
+          "ee": "https://doi.org/10.1007/978-3-540-31965-8_10",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/axioms/BalazsBH22",
-        "title": "Frame-Related Sequences in Chains and Scales of Hilbert Spaces.",
-        "pages": "180",
-        "year": "2022",
-        "volume": "11",
-        "journal": "Axioms",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q114581708",
-        "url": "db/journals/axioms/axioms11.html#BalazsBH22",
-        "authors": [
-          "Peter Balazs",
-          "Giorgia Bellomonte",
-          "Hessam Hosseinnezhad"
-        ]
+        "inproceedings": {
+          "@key": "conf/dgci/Balazs06",
+          "title": "The Number of Line-Convex Directed Polyominoes Having the Same Orthogonal Projections",
+          "booktitle": "DGCI",
+          "year": "2006",
+          "pages": "77-85",
+          "ee": "https://doi.org/10.1007/11907350_7",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dgci/BalazsB16",
+          "title": "A Measure of Q-Convexity",
+          "booktitle": "DGCI",
+          "year": "2016",
+          "pages": "219-230",
+          "ee": "https://doi.org/10.1007/978-3-319-32360-2_17",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dgci/BalazsB17",
+          "title": "A New Shape Descriptor Based on a Q-convexity Measure",
+          "booktitle": "DGCI",
+          "year": "2017",
+          "pages": "267-278",
+          "ee": "https://doi.org/10.1007/978-3-319-66272-5_22",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dgci/BalazsBK03",
+          "title": "A Fast Algorithm for Reconstructing hv-Convex 8-Connected but Not 4-Connected Discrete Sets",
+          "booktitle": "DGCI",
+          "year": "2003",
+          "pages": "388-397",
+          "ee": "https://doi.org/10.1007/978-3-540-39966-7_37",
+          "author": [
+            {
+              "#text": "Attila Kuba",
+              "@pid": "34/3996"
+            },
+            {
+              "#text": "Emese Balogh",
+              "@pid": "35/91"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dgci/BrunettiBBS19",
+          "title": "A Spatial Convexity Descriptor for Object Enlacement",
+          "booktitle": "DGCI",
+          "year": "2019",
+          "pages": "330-342",
+          "ee": "https://doi.org/10.1007/978-3-030-14085-4_26",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Péter Bodnár",
+              "@pid": "124/2628"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/DerrienNB15",
+          "title": "A quasi-orthogonal, invertible, and perceptually relevant time-frequency transform for audio coding",
+          "booktitle": "EUSIPCO",
+          "year": "2015",
+          "pages": "799-803",
+          "ee": "https://doi.org/10.1109/EUSIPCO.2015.7362493",
+          "author": [
+            {
+              "#text": "Olivier Derrien",
+              "@pid": "67/1912"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/HaiderBH21",
+          "title": "Phase-Based Signal Representations for Scattering",
+          "booktitle": "EUSIPCO",
+          "year": "2021",
+          "pages": "6-10",
+          "ee": "https://doi.org/10.23919/EUSIPCO54536.2021.9616285",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/RajbamshiTBA19",
+          "title": "Random Gabor Multipliers for Compressive Sensing: A Simulation Study",
+          "booktitle": "EUSIPCO",
+          "year": "2019",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.23919/EUSIPCO.2019.8903092",
+          "author": [
+            {
+              "#text": "Georg Tauböck",
+              "@pid": "85/316"
+            },
+            {
+              "#text": "Luís Daniel Abreu",
+              "@pid": "38/7411"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Shristi Rajbamshi",
+              "@pid": "253/6261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eusipco/RajbamshiTHB21",
+          "title": "Audio Inpainting via $\\ell_{1}$-Minimization and Dictionary Learning",
+          "booktitle": "EUSIPCO",
+          "year": "2021",
+          "pages": "2149-2153",
+          "ee": "https://doi.org/10.23919/EUSIPCO54536.2021.9616132",
+          "author": [
+            {
+              "#text": "Georg Tauböck",
+              "@pid": "85/316"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Shristi Rajbamshi",
+              "@pid": "253/6261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/AbbasiHBLPZ25",
+          "title": "Robust Multicomponent Tracking of Ultrasonic Vocalizations",
+          "booktitle": "ICASSP",
+          "year": "2025",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ICASSP49660.2025.10890025",
+          "author": [
+            {
+              "#text": "Dustin J. Penn",
+              "@pid": "327/0234"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Reyhaneh Abbasi",
+              "@pid": "327/0197"
+            },
+            {
+              "#text": "Sarah M. Zala",
+              "@pid": "326/9652"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/BalazsFHK06",
+          "title": "Double Preconditioning for the Gabor Frame Operator",
+          "booktitle": "ICASSP (3)",
+          "year": "2006",
+          "pages": "408-411",
+          "ee": "https://doi.org/10.1109/ICASSP.2006.1660677",
+          "author": [
+            {
+              "#text": "Günther Kracher",
+              "@pid": "41/6563"
+            },
+            {
+              "#text": "Hans G. Feichtinger",
+              "@pid": "67/8859"
+            },
+            {
+              "#text": "Mario Hampejs",
+              "@pid": "01/3718"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/ChardonNB14",
+          "title": "Perceptual matching pursuit with Gabor dictionaries and time-frequency masking",
+          "booktitle": "ICASSP",
+          "year": "2014",
+          "pages": "3102-3106",
+          "ee": "https://doi.org/10.1109/ICASSP.2014.6854171",
+          "author": [
+            {
+              "#text": "Gilles Chardon",
+              "@pid": "120/6783"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/EnzingerBMB11",
+          "title": "A logarithmic based pole-zero vocal tract model estimation for speaker verification",
+          "booktitle": "ICASSP",
+          "year": "2011",
+          "pages": "4820-4823",
+          "ee": "https://doi.org/10.1109/ICASSP.2011.5947434",
+          "author": [
+            {
+              "#text": "Damián Marelli",
+              "@pid": "45/5220"
+            },
+            {
+              "#text": "Ewald Enzinger",
+              "@pid": "50/9877"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Timo Becker",
+              "@pid": "05/9234"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/MajdakBKD11",
+          "title": "A time-frequency method for increasing the signal-to-noise ratio in system identification with exponential sweeps",
+          "booktitle": "ICASSP",
+          "year": "2011",
+          "pages": "3812-3815",
+          "ee": "https://doi.org/10.1109/ICASSP.2011.5947182",
+          "author": [
+            {
+              "#text": "Monika Dörfler",
+              "@pid": "06/9875"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Piotr Majdak",
+              "@pid": "82/7822"
+            },
+            {
+              "#text": "Wolfgang Kreuzer",
+              "@pid": "06/1903"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/MarelliFBM08",
+          "title": "An iterative method for approximating LTI systems using subbands",
+          "booktitle": "ICASSP",
+          "year": "2008",
+          "pages": "3533-3536",
+          "ee": "https://doi.org/10.1109/ICASSP.2008.4518414",
+          "author": [
+            {
+              "#text": "Damián Marelli",
+              "@pid": "45/5220"
+            },
+            {
+              "#text": "Minyue Fu",
+              "@pid": "38/3704"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Piotr Majdak",
+              "@pid": "82/7822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/NecciariBHS13",
+          "title": "The ERBlet transform: An auditory-based time-frequency representation with perfect reconstruction",
+          "booktitle": "ICASSP",
+          "year": "2013",
+          "pages": "498-502",
+          "ee": "https://doi.org/10.1109/ICASSP.2013.6637697",
+          "author": [
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icassp/NenovNB23",
+          "title": "Faster Than Fast: Accelerating the Griffin-Lim Algorithm",
+          "booktitle": "ICASSP",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ICASSP49357.2023.10097224",
+          "author": [
+            {
+              "#text": "Dang-Khoa Nguyen",
+              "@pid": "245/4005"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Rossen Nenov",
+              "@pid": "350/1512"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciap/BodnarBN17",
+          "title": "A Convexity Measure for Gray-Scale Images Based on hv-Convexity",
+          "booktitle": "ICIAP (1)",
+          "year": "2017",
+          "pages": "586-594",
+          "ee": "https://doi.org/10.1007/978-3-319-68560-1_52",
+          "author": [
+            {
+              "#text": "László G. Nyúl",
+              "@pid": "20/2898"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Péter Bodnár",
+              "@pid": "124/2628"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciar/BalazsB12",
+          "title": "A Central Reconstruction Based Strategy for Selecting Projection Angles in Binary Tomography",
+          "booktitle": "ICIAR (1)",
+          "year": "2012",
+          "pages": "382-391",
+          "ee": "https://doi.org/10.1007/978-3-642-31295-3_45",
+          "author": [
+            {
+              "#text": "Kees Joost Batenburg",
+              "@pid": "30/6502"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciar/BalazsS18",
+          "title": "Reconstruction of Binary Images with Fixed Number of Strips",
+          "booktitle": "ICIAR",
+          "year": "2018",
+          "pages": "11-19",
+          "ee": "https://doi.org/10.1007/978-3-319-93000-8_2",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciar/BodnarB17",
+          "title": "An Improved Directional Convexity Measure for Binary Images",
+          "booktitle": "ICIAR",
+          "year": "2017",
+          "pages": "278-285",
+          "ee": "https://doi.org/10.1007/978-3-319-59876-5_31",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Péter Bodnár",
+              "@pid": "124/2628"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciar/LekoBV18",
+          "title": "Projection Selection for Binary Tomographic Reconstruction Using Global Uncertainty",
+          "booktitle": "ICIAR",
+          "year": "2018",
+          "pages": "3-10",
+          "ee": "https://doi.org/10.1007/978-3-319-93000-8_1",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iciar/SzucsB19",
+          "title": "An Improved Simulated Annealing Approach for Reconstructing Binary Images with Fixed Number of Strips",
+          "booktitle": "ICIAR (1)",
+          "year": "2019",
+          "pages": "174-185",
+          "ee": "https://doi.org/10.1007/978-3-030-27202-9_15",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/HaiderEB23",
+          "title": "Convex Geometry of ReLU-layers, Injectivity on the Ball and Local Reconstruction",
+          "booktitle": "ICML",
+          "year": "2023",
+          "pages": "12339-12350",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcci/EckertHEB24",
+          "title": "Invertibility of ReLU-Layers: A Practical Approach",
+          "booktitle": "IJCCI",
+          "year": "2024",
+          "pages": "423-429",
+          "ee": "https://doi.org/10.5220/0012951300003837",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Hannah Eckert",
+              "@pid": "392/6507"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/imspa/HantosB13",
+          "title": "A uniqueness result for reconstructing hv-convex polyominoes from horizontal and vertical projections and morphological skeleton",
+          "booktitle": "ISPA",
+          "year": "2013",
+          "pages": "795-800",
+          "ee": "https://doi.org/10.1109/ISPA.2013.6703845",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/interspeech/HaiderPLEB24",
+          "title": "Hold Me Tight: Stable Encoder-Decoder Design for Speech Enhancement",
+          "booktitle": "INTERSPEECH",
+          "year": "2024",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2024-1622",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Felix Perfler",
+              "@pid": "386/1921"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/interspeech/HuangB19",
+          "title": "Harmonic-Aligned Frame Mask Based on Non-Stationary Gabor Transform with Application to Content-Dependent Speaker Comparison",
+          "booktitle": "INTERSPEECH",
+          "year": "2019",
+          "pages": "151-155",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2019-1327",
+          "author": [
+            {
+              "#text": "Feng Huang",
+              "@pid": "19/6809-2"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isvc/Balazs08",
+          "title": "Reconstruction of Binary Images with Few Disjoint Components from Two Projections",
+          "booktitle": "ISVC (2)",
+          "year": "2008",
+          "pages": "1147-1156",
+          "ee": "https://doi.org/10.1007/978-3-540-89646-3_114",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isvc/HantosB10",
+          "title": "Image Enhancement by Median Filters in Algebraic Reconstruction Methods: An Experimental Study",
+          "booktitle": "ISVC (3)",
+          "year": "2010",
+          "pages": "339-348",
+          "ee": "https://doi.org/10.1007/978-3-642-17277-9_35",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isvc/HantosB14",
+          "title": "A Fast Algorithm for Reconstructing hv-Convex Binary Images from Their Horizontal Projection",
+          "booktitle": "ISVC (2)",
+          "year": "2014",
+          "pages": "789-798",
+          "ee": "https://doi.org/10.1007/978-3-319-14364-4_76",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isvc/VargaOB16",
+          "title": "Image Enhancement by Volume Limitation in Binary Tomography",
+          "booktitle": "ISVC (1)",
+          "year": "2016",
+          "pages": "213-222",
+          "ee": "https://doi.org/10.1007/978-3-319-50835-1_20",
+          "author": [
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Zoltán Ozsvár",
+              "@pid": "132/0175"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/Balazs08",
+          "title": "On the Number of hv-Convex Discrete Sets",
+          "booktitle": "IWCIA",
+          "year": "2008",
+          "pages": "112-123",
+          "ee": "https://doi.org/10.1007/978-3-540-78275-9_10",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/Balazs09",
+          "title": "Reconstruction of Canonical hv-Convex Discrete Sets from Horizontal and Vertical Projections",
+          "booktitle": "IWCIA",
+          "year": "2009",
+          "pages": "280-288",
+          "ee": "https://doi.org/10.1007/978-3-642-10210-3_22",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/BalazsBB25",
+          "title": "Rotational and Rotation-Free Multidirectional Q-Concavity Shape Descriptors",
+          "booktitle": "IWCIA",
+          "year": "2026",
+          "pages": "200-213",
+          "ee": "https://doi.org/10.1007/978-3-032-19347-6_13",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Péter Bodnár",
+              "@pid": "124/2628"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/BrunettiBB17",
+          "title": "Extension of a One-Dimensional Convexity Measure to Two Dimensions",
+          "booktitle": "IWCIA",
+          "year": "2017",
+          "pages": "105-116",
+          "ee": "https://doi.org/10.1007/978-3-319-59108-7_9",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Péter Bodnár",
+              "@pid": "124/2628"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/HantosBP12",
+          "title": "Binary Image Reconstruction from Two Projections and Skeletal Information",
+          "booktitle": "IWCIA",
+          "year": "2012",
+          "pages": "263-273",
+          "ee": "https://doi.org/10.1007/978-3-642-34732-0_20",
+          "author": [
+            {
+              "#text": "Kálmán Palágyi",
+              "@pid": "17/2160"
+            },
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/LekoB20",
+          "title": "Transmission Based Adaptive Automatic Tube Voltage Selection for Computed Tomography",
+          "booktitle": "IWCIA",
+          "year": "2020",
+          "pages": "199-208",
+          "ee": "https://doi.org/10.1007/978-3-030-51002-2_14",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/SzucsB20",
+          "title": "Local Q-Convexity Histograms for Shape Analysis",
+          "booktitle": "IWCIA",
+          "year": "2020",
+          "pages": "245-257",
+          "ee": "https://doi.org/10.1007/978-3-030-51002-2_18",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/VargaLB20",
+          "title": "Grayscale Uncertainty of Projection Geometries and Projections Sets",
+          "booktitle": "IWCIA",
+          "year": "2020",
+          "pages": "123-138",
+          "ee": "https://doi.org/10.1007/978-3-030-51002-2_9",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mlsp/HuangB17",
+          "title": "Dictionary learning for pitch estimation in speech signals",
+          "booktitle": "MLSP",
+          "year": "2017",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MLSP.2017.8168173",
+          "author": [
+            {
+              "#text": "Feng Huang",
+              "@pid": "19/6809-2"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scia/Balazs07",
+          "title": "Generation and Empirical Investigation of hv -Convex Discrete Sets",
+          "booktitle": "SCIA",
+          "year": "2007",
+          "pages": "344-353",
+          "ee": "https://doi.org/10.1007/978-3-540-73040-8_35",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/scia/BalazsG09",
+          "title": "An Evolutionary Approach for Object-Based Image Reconstruction Using Learnt Priors",
+          "booktitle": "SCIA",
+          "year": "2009",
+          "pages": "520-529",
+          "ee": "https://doi.org/10.1007/978-3-642-02230-2_53",
+          "author": [
+            {
+              "#text": "Mihály Gara",
+              "@pid": "47/1354"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssp/LostanlenZHLEB25",
+          "title": "Residual Hybrid Filterbanks",
+          "booktitle": "SSP",
+          "year": "2025",
+          "pages": "126-130",
+          "ee": "https://doi.org/10.1109/SSP64130.2025.11073345",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Mathieu Lagrange",
+              "@pid": "87/3503"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            },
+            {
+              "#text": "Xiran Zhang",
+              "@pid": "250/4220"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wadgmm/GaraTB10",
+          "title": "Machine Learning as a Preprocessing Phase in Discrete Tomography",
+          "booktitle": "WADGMM",
+          "year": "2012",
+          "pages": "109-124",
+          "ee": "https://doi.org/10.1007/978-3-642-32313-3_8",
+          "author": [
+            {
+              "#text": "Mihály Gara",
+              "@pid": "47/1354"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tamás Sámuel Tasi",
+              "@pid": "133/9462"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/waspaa/LostanlenHHLBE23",
+          "title": "Fitting Auditory Filterbanks with Multiresolution Neural Networks",
+          "booktitle": "WASPAA",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/WASPAA58266.2023.10248131",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Han Han",
+              "@pid": "45/11276"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Mathieu Lagrange",
+              "@pid": "87/3503"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/waspaa/PerraudinBS13",
+          "title": "A fast Griffin-Lim algorithm",
+          "booktitle": "WASPAA",
+          "year": "2013",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/WASPAA.2013.6701851",
+          "author": [
+            {
+              "#text": "Nathanaël Perraudin",
+              "@pid": "139/7579"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/Balazs08",
+          "title": "On the Ambiguity of Reconstructing hv-Convex Binary Matrices with Decomposable Configurations",
+          "journal": "Acta Cybern.",
+          "year": "2008",
+          "pages": "367-377",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/OzsvarB13",
+          "title": "An Empirical Study of Reconstructing hv-Convex Binary Matrices from Horizontal and Vertical Projections",
+          "journal": "Acta Cybern.",
+          "year": "2013",
+          "pages": "149-163",
+          "ee": "https://doi.org/10.14232/ACTACYB.21.1.2013.11",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Zoltán Ozsvár",
+              "@pid": "132/0175"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/VargaBN11",
+          "title": "Projection Selection Dependency in Binary Tomography",
+          "journal": "Acta Cybern.",
+          "year": "2011",
+          "pages": "167-187",
+          "ee": "https://doi.org/10.14232/ACTACYB.20.1.2011.12",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amai/HantosIBP15",
+          "title": "Binary image reconstruction from a small number of projections and the morphological skeleton",
+          "journal": "Ann. Math. Artif. Intell.",
+          "year": "2015",
+          "pages": "195-216",
+          "ee": "https://doi.org/10.1007/S10472-014-9440-8",
+          "author": [
+            {
+              "#text": "Kálmán Palágyi",
+              "@pid": "17/2160"
+            },
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Szabolcs Iván",
+              "@pid": "09/1881"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amc/PerraudinHSB18",
+          "title": "Designing Gabor windows using convex optimization",
+          "journal": "Appl. Math. Comput.",
+          "year": "2018",
+          "pages": "266-287",
+          "ee": "https://doi.org/10.1016/J.AMC.2018.01.035",
+          "author": [
+            {
+              "#text": "Nathanaël Perraudin",
+              "@pid": "139/7579"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/axioms/BalazsBH22",
+          "title": "Frame-Related Sequences in Chains and Scales of Hilbert Spaces",
+          "journal": "Axioms",
+          "year": "2022",
+          "pages": "180",
+          "ee": "https://doi.org/10.3390/AXIOMS11040180",
+          "author": [
+            {
+              "#text": "Giorgia Bellomonte",
+              "@pid": "263/6695"
+            },
+            {
+              "#text": "Hessam Hosseinnezhad",
+              "@pid": "319/6300"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/KorshunovaJLRBK20",
+          "title": "Image-based material characterization of complex microarchitectured additively manufactured structures",
+          "journal": "Comput. Math. Appl.",
+          "year": "2020",
+          "pages": "2462-2480",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2020.07.018",
+          "author": [
+            {
+              "#text": "Dan Reznik",
+              "@pid": "14/24"
+            },
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "John N. Jomo",
+              "@pid": "201/4650"
+            },
+            {
+              "#text": "Nina Korshunova",
+              "@pid": "255/6085"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Stefan Kollmannsberger",
+              "@pid": "121/5375"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cmbbeiv/VargaBN15",
+          "title": "Discrete tomographic reconstruction via adaptive weighting of gradient descents",
+          "journal": "Comput. methods Biomech. Biomed. Eng. Imaging Vis.",
+          "year": "2015",
+          "pages": "101-109",
+          "ee": "https://doi.org/10.1080/21681163.2013.853624",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1109-6651",
+          "title": "Sound Analysis and Synthesis Adaptive in Time and Two Frequency Bands",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1109.6651",
+          "author": [
+            {
+              "#text": "Axel Röbel",
+              "@pid": "34/3702"
+            },
+            {
+              "#text": "Marco Liuni",
+              "@pid": "85/768"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1904-10380",
+          "title": "Harmonic-aligned Frame Mask Based on Non-stationary Gabor Transform with Application to Content-dependent Speaker Comparison",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1904.10380",
+          "author": [
+            {
+              "#text": "Feng Huang",
+              "@pid": "19/6809-2"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1912-07415",
+          "title": "Image-based material characterization of complex microarchitectured additively manufactured structures",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.07415",
+          "author": [
+            {
+              "#text": "Dan Reznik",
+              "@pid": "14/24"
+            },
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "John N. Jomo",
+              "@pid": "201/4650"
+            },
+            {
+              "#text": "Nina Korshunova",
+              "@pid": "255/6085"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Stefan Kollmannsberger",
+              "@pid": "121/5375"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-07479",
+          "title": "Audio Inpainting via 𝓁1-Minimization and Dictionary Learning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.07479",
+          "author": [
+            {
+              "#text": "Georg Tauböck",
+              "@pid": "85/316"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Shristi Rajbamshi",
+              "@pid": "253/6261"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-07484",
+          "title": "Phase-Based Signal Representations for Scattering",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.07484",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2202-12380",
+          "title": "Fast Matching Pursuit with Multi-Gabor Dictionaries",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.12380",
+          "author": [
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2212-00947",
+          "title": "Quantitative bounds for unconditional pairs of frames",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2212.00947",
+          "author": [
+            {
+              "#text": "Daniel Freeman",
+              "@pid": "186/4047"
+            },
+            {
+              "#text": "Michael Speckbacher",
+              "@pid": "320/8383"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Roxana Popescu",
+              "@pid": "335/1465"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-12504",
+          "title": "Accelerated Griffin-Lim algorithm: A fast and provably converging numerical method for phase retrieval",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.12504",
+          "author": [
+            {
+              "#text": "Dang-Khoa Nguyen",
+              "@pid": "245/4005"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Radu Ioan Bot",
+              "@pid": "97/436"
+            },
+            {
+              "#text": "Rossen Nenov",
+              "@pid": "350/1512"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-09672",
+          "title": "Convex Geometry of ReLU-layers, Injectivity on the Ball and Local Reconstruction",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.09672",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-13821",
+          "title": "Fitting Auditory Filterbanks with Multiresolution Neural Networks",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.13821",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Han Han",
+              "@pid": "45/11276"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Mathieu Lagrange",
+              "@pid": "87/3503"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2309-05855",
+          "title": "Energy Preservation and Stability of Random Filterbanks",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2309.05855",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-15856",
+          "title": "Injectivity of ReLU-layers: Perspectives from Frame Theory",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.15856",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2408-17358",
+          "title": "Hold Me Tight: Stable Encoder-Decoder Design for Speech Enhancement",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2408.17358",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Felix Perfler",
+              "@pid": "386/1921"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2410-00169",
+          "title": "(Almost) Smooth Sailing: Towards Numerical Stability of Neural Networks Through Differentiable Regularization of the Condition Number",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.00169",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Rossen Nenov",
+              "@pid": "350/1512"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2412-00954",
+          "title": "Construction of generalized samplets in Banach spaces",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2412.00954",
+          "author": [
+            {
+              "#text": "Michael D. Multerer",
+              "@pid": "239/2478"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-07709",
+          "title": "ISAC: An Invertible and Stable Auditory Filter Bank with Customizable Kernels for ML Integration",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.07709",
+          "author": [
+            {
+              "#text": "Clara Hollomey",
+              "@pid": "317/5438"
+            },
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Felix Perfler",
+              "@pid": "386/1921"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-06152",
+          "title": "Aliasing in Convnets: A Frame-Theoretic Perspective",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.06152",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-10054",
+          "title": "Training Set Synthesis for Bioacoustic Denoising: A Case Study With Mice",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.10054",
+          "author": [
+            {
+              "#text": "Clara Hollomey",
+              "@pid": "317/5438"
+            },
+            {
+              "#text": "Dustin J. Penn",
+              "@pid": "327/0234"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Reyhaneh Abbasi",
+              "@pid": "327/0197"
+            },
+            {
+              "#text": "Sarah M. Zala",
+              "@pid": "326/9652"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BalazsHNS16",
+          "title": "Frame Theory for Signal Processing in Psychoacoustics",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.00966",
+          "author": [
+            {
+              "#text": "Diana Stoeva",
+              "@pid": "190/7154"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/NecciariHBP16",
+          "title": "A Perceptually Motivated Filter Bank with Perfect Reconstruction for Audio Signal Processing",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1601.06652",
+          "author": [
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Thibaud Necciari",
+              "@pid": "116/5519"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/PerraudinHMB16",
+          "title": "Audio inpainting with similarity graphs",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.06667",
+          "author": [
+            {
+              "#text": "Nathanaël Perraudin",
+              "@pid": "139/7579"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Piotr Majdak",
+              "@pid": "82/7822"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/PrusaBS16",
+          "title": "A Non-iterative Method for (Re)Construction of Phase from STFT Magnitude",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.00291",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cvgip/VargaBN11",
+          "title": "Direction-dependency of binary tomographic reconstruction algorithms",
+          "journal": "Graph. Model.",
+          "year": "2011",
+          "pages": "365-375",
+          "ee": "https://doi.org/10.1016/J.GMOD.2011.06.006",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cviu/BatenburgPBS13",
+          "title": "Dynamic angle selection in binary tomography",
+          "journal": "Comput. Vis. Image Underst.",
+          "year": "2013",
+          "pages": "306-318",
+          "ee": "https://doi.org/10.1016/J.CVIU.2012.07.005",
+          "author": [
+            {
+              "#text": "Jan Sijbers",
+              "@pid": "04/13"
+            },
+            {
+              "#text": "Kees Joost Batenburg",
+              "@pid": "30/6502"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Willem Jan Palenstijn",
+              "@pid": "93/5126"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cviu/VargaNNB14",
+          "title": "Local and global uncertainty in binary tomographic reconstruction",
+          "journal": "Comput. Vis. Image Underst.",
+          "year": "2014",
+          "pages": "52-62",
+          "ee": "https://doi.org/10.1016/J.CVIU.2014.05.006",
+          "author": [
+            {
+              "#text": "Antal Nagy",
+              "@pid": "41/3293"
+            },
+            {
+              "#text": "László G. Nyúl",
+              "@pid": "20/2898"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/Balazs09",
+          "title": "A benchmark set for the reconstruction of hv-convex discrete sets",
+          "journal": "Discret. Appl. Math.",
+          "year": "2009",
+          "pages": "3447-3456",
+          "ee": "https://doi.org/10.1016/J.DAM.2009.02.019",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/Balazs13",
+          "title": "Complexity results for reconstructing binary images with disjoint components from horizontal and vertical projections",
+          "journal": "Discret. Appl. Math.",
+          "year": "2013",
+          "pages": "2224-2235",
+          "ee": "https://doi.org/10.1016/J.DAM.2013.02.004",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/BalazsBK05",
+          "title": "Reconstruction of 8-connected but not 4-connected hv-convex discrete sets",
+          "journal": "Discret. Appl. Math.",
+          "year": "2005",
+          "pages": "149-168",
+          "ee": "https://doi.org/10.1016/J.DAM.2004.09.009",
+          "author": [
+            {
+              "#text": "Attila Kuba",
+              "@pid": "34/3996"
+            },
+            {
+              "#text": "Emese Balogh",
+              "@pid": "35/91"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ei/BalazsKKMPJ21",
+          "title": "Anwendung von Rahmen-Multiplikatoren für die Extraktion von Kurvenquietschen von Zugsaufnahmen",
+          "journal": "Elektrotech. Informationstechnik",
+          "year": "2021",
+          "pages": "206-211",
+          "ee": "https://doi.org/10.1007/S00502-021-00880-7",
+          "author": [
+            {
+              "#text": "Christian H. Kasess",
+              "@pid": "32/3605"
+            },
+            {
+              "#text": "Florent Jaillet",
+              "@pid": "97/8762"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Thomas Maly",
+              "@pid": "42/5951"
+            },
+            {
+              "#text": "Wolfgang Kreuzer",
+              "@pid": "06/1903"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/endm/Balazs05",
+          "title": "Reconstruction of Discrete Sets from Four Projections: Strong Decomposability",
+          "journal": "Electron. Notes Discret. Math.",
+          "year": "2005",
+          "pages": "329-345",
+          "ee": "https://doi.org/10.1016/J.ENDM.2005.05.072",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/BalazsOTN15",
+          "title": "A Measure of Directional Convexity Inspired by Binary Tomography",
+          "journal": "Fundam. Informaticae",
+          "year": "2015",
+          "pages": "151-167",
+          "ee": "https://doi.org/10.3233/FI-2015-1269",
+          "author": [
+            {
+              "#text": "László G. Nyúl",
+              "@pid": "20/2898"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tamás Sámuel Tasi",
+              "@pid": "133/9462"
+            },
+            {
+              "#text": "Zoltán Ozsvár",
+              "@pid": "132/0175"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/HantosB13",
+          "title": "The Reconstruction of Polyominoes from Horizontal and Vertical Projections and Morphological Skeleton is NP-complete",
+          "journal": "Fundam. Informaticae",
+          "year": "2013",
+          "pages": "343-359",
+          "ee": "https://doi.org/10.3233/FI-2013-868",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/HantosB14",
+          "title": "Random Generation of hv-Convex Polyominoes with Given Horizontal Projection",
+          "journal": "Fundam. Informaticae",
+          "year": "2014",
+          "pages": "103-115",
+          "ee": "https://doi.org/10.3233/FI-2014-1114",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/HantosB15",
+          "title": "Eliminating Switching Components in Binary Matrices by 0-1 Flips and Column Permutations",
+          "journal": "Fundam. Informaticae",
+          "year": "2015",
+          "pages": "135-150",
+          "ee": "https://doi.org/10.3233/FI-2015-1268",
+          "author": [
+            {
+              "#text": "Norbert Hantos",
+              "@pid": "74/8738"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fuin/LekoB20",
+          "title": "Scale Invariance in Projection Selection Using Binary Tomography",
+          "journal": "Fundam. Informaticae",
+          "year": "2020",
+          "pages": "129-142",
+          "ee": "https://doi.org/10.3233/FI-2020-1897",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijsm/Balazs08",
+          "title": "Discrete Tomographic Reconstruction of Binary Images with Disjoint Components Using Shape Information",
+          "journal": "Int. J. Shape Model.",
+          "year": "2008",
+          "pages": "189-207",
+          "ee": "https://doi.org/10.1142/S0218654308001142",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijwmip/Balazs08",
+          "title": "Hilbert-Schmidt Operators and Frames - Classification, Best Approximation by Multipliers and Algorithms",
+          "journal": "Int. J. Wavelets Multiresolution Inf. Process.",
+          "year": "2008",
+          "pages": "315-330",
+          "ee": "https://doi.org/10.1142/S0219691308002379",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijwmip/BalazsAG10",
+          "title": "Weighted and Controlled Frames: Mutual Relationship and First Numerical Properties",
+          "journal": "Int. J. Wavelets Multiresolution Inf. Process.",
+          "year": "2010",
+          "pages": "109-132",
+          "ee": "https://doi.org/10.1142/S0219691310003377",
+          "author": [
+            {
+              "#text": "Anna Grybos",
+              "@pid": "56/10027"
+            },
+            {
+              "#text": "Jean-Pierre Antoine",
+              "@pid": "05/9634"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijwmip/SondergaardTB12",
+          "title": "The Linear Time Frequency Analysis Toolbox",
+          "journal": "Int. J. Wavelets Multiresolution Inf. Process.",
+          "year": "2012",
+          "ee": "https://doi.org/10.1142/S0219691312500324",
+          "author": [
+            {
+              "#text": "Bruno Torrésani",
+              "@pid": "01/6643"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ivc/Balazs07",
+          "title": "A decomposition technique for reconstructing discrete sets from four projections",
+          "journal": "Image Vis. Comput.",
+          "year": "2007",
+          "pages": "1609-1619",
+          "ee": "https://doi.org/10.1016/J.IMAVIS.2006.06.015",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ivc/LukicB24",
+          "title": "Moment preserving tomographic image reconstruction model",
+          "journal": "Image Vis. Comput.",
+          "year": "2024",
+          "pages": "105036",
+          "ee": "https://doi.org/10.1016/J.IMAVIS.2024.105036",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tibor Lukic",
+              "@pid": "67/3020"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/BalazsDJHV11",
+          "title": "Theory, implementation and applications of nonstationary Gabor frames",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2011",
+          "pages": "1481-1496",
+          "ee": "https://doi.org/10.1016/J.CAM.2011.09.011",
+          "author": [
+            {
+              "#text": "Florent Jaillet",
+              "@pid": "97/8762"
+            },
+            {
+              "#text": "Gino Angelo M. Velasco",
+              "@pid": "46/6302"
+            },
+            {
+              "#text": "Monika Dörfler",
+              "@pid": "06/9875"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmiv/BalazsB19",
+          "title": "A Q-Convexity Vector Descriptor for Image Analysis",
+          "journal": "J. Math. Imaging Vis.",
+          "year": "2019",
+          "pages": "193-203",
+          "ee": "https://doi.org/10.1007/S10851-018-0844-7",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmiv/BalazsB20",
+          "title": "A Measure of Q-convexity for Shape Analysis",
+          "journal": "J. Math. Imaging Vis.",
+          "year": "2020",
+          "pages": "1121-1135",
+          "ee": "https://doi.org/10.1007/S10851-020-00962-9",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Sara Brunetti",
+              "@pid": "18/3511"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jstsp/TaubockRB21",
+          "title": "Dictionary Learning for Sparse Audio Inpainting",
+          "journal": "IEEE J. Sel. Top. Signal Process.",
+          "year": "2021",
+          "pages": "104-119",
+          "ee": "https://doi.org/10.1109/JSTSP.2020.3046422",
+          "author": [
+            {
+              "#text": "Georg Tauböck",
+              "@pid": "85/316"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Shristi Rajbamshi",
+              "@pid": "253/6261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/AbbasiBMNZP22",
+          "title": "Capturing the songs of mice with an improved detection and classification method for ultrasonic vocalizations (BootSnap)",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2022",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1010049",
+          "author": [
+            {
+              "#text": "Doris Nicolakis",
+              "@pid": "327/0222"
+            },
+            {
+              "#text": "Dustin J. Penn",
+              "@pid": "327/0234"
+            },
+            {
+              "#text": "Maria Adelaide Marconi",
+              "@pid": "327/0194"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Reyhaneh Abbasi",
+              "@pid": "327/0197"
+            },
+            {
+              "#text": "Sarah M. Zala",
+              "@pid": "326/9652"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/LukicB16",
+          "title": "Binary tomography reconstruction based on shape orientation",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2016",
+          "pages": "18-24",
+          "ee": "https://doi.org/10.1016/J.PATREC.2016.04.010",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tibor Lukic",
+              "@pid": "67/3020"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/spl/HaiderLEB24",
+          "title": "Instabilities in Convnets for Raw Audio",
+          "journal": "IEEE Signal Process. Lett.",
+          "year": "2024",
+          "pages": "1084-1088",
+          "ee": "https://doi.org/10.1109/LSP.2024.3386492",
+          "author": [
+            {
+              "#text": "Daniel Haider",
+              "@pid": "308/3971"
+            },
+            {
+              "#text": "Martin Ehler",
+              "@pid": "84/8069"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Vincent Lostanlen",
+              "@pid": "168/8508"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/spm/BalazsDKT13",
+          "title": "Adapted and Adaptive Linear Time-Frequency Representations: A Synthesis Point of View",
+          "journal": "IEEE Signal Process. Mag.",
+          "year": "2013",
+          "pages": "20-31",
+          "ee": "https://doi.org/10.1109/MSP.2013.2266075",
+          "author": [
+            {
+              "#text": "Bruno Torrésani",
+              "@pid": "01/6643"
+            },
+            {
+              "#text": "Matthieu Kowalski",
+              "@pid": "94/7055"
+            },
+            {
+              "#text": "Monika Dörfler",
+              "@pid": "06/9875"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/taslp/BalazsLED10",
+          "title": "Time-Frequency Sparsity by Removing Perceptually Irrelevant Components Using a Simple Model of Simultaneous Masking",
+          "journal": "IEEE Trans. Speech Audio Process.",
+          "year": "2010",
+          "pages": "34-49",
+          "ee": "https://doi.org/10.1109/TASL.2009.2023164",
+          "author": [
+            {
+              "#text": "Bernhard Laback",
+              "@pid": "00/8308"
+            },
+            {
+              "#text": "Gerhard Eckel",
+              "@pid": "50/3799"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Werner A. Deutsch",
+              "@pid": "96/8307"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/taslp/MarelliB10",
+          "title": "On Pole-Zero Model Estimation Methods Minimizing a Logarithmic Criterion for Speech Analysis",
+          "journal": "IEEE Trans. Speech Audio Process.",
+          "year": "2010",
+          "pages": "237-248",
+          "ee": "https://doi.org/10.1109/TASL.2009.2025544",
+          "author": [
+            {
+              "#text": "Damián Marelli",
+              "@pid": "45/5220"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/taslp/PerraudinHMB18",
+          "title": "Inpainting of Long Audio Segments With Similarity Graphs",
+          "journal": "IEEE ACM Trans. Audio Speech Lang. Process.",
+          "year": "2018",
+          "pages": "1079-1090",
+          "ee": "https://doi.org/10.1109/TASLP.2018.2809864",
+          "author": [
+            {
+              "#text": "Nathanaël Perraudin",
+              "@pid": "139/7579"
+            },
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Piotr Majdak",
+              "@pid": "82/7822"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/taslp/PrusaBS17",
+          "title": "A Noniterative Method for Reconstruction of Phase From STFT Magnitude",
+          "journal": "IEEE ACM Trans. Audio Speech Lang. Process.",
+          "year": "2017",
+          "pages": "1154-1164",
+          "ee": "https://doi.org/10.1109/TASLP.2017.2678166",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Peter L. Søndergaard",
+              "@pid": "74/421"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/Balazs08",
+          "title": "A framework for generating some discrete sets with disjoint components by using uniform distributions",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2008",
+          "pages": "15-23",
+          "ee": "https://doi.org/10.1016/J.TCS.2008.06.010",
+          "author": {
+            "#text": "Péter Balázs",
+            "@pid": "69/5612"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/TaubockRB26",
+          "title": "Frame Multipliers and Compressive Sensing",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "2026",
+          "pages": "1393-1410",
+          "ee": "https://doi.org/10.1109/TIT.2025.3616817",
+          "author": [
+            {
+              "#text": "Georg Tauböck",
+              "@pid": "85/316"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Shristi Rajbamshi",
+              "@pid": "253/6261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toms/PrusaHB21",
+          "title": "Fast Matching Pursuit with Multi-Gabor Dictionaries",
+          "journal": "ACM Trans. Math. Softw.",
+          "year": "2021",
+          "pages": "24:1-24:20",
+          "ee": "https://doi.org/10.1145/3447958",
+          "author": [
+            {
+              "#text": "Nicki Holighaus",
+              "@pid": "02/10577"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Zdenek Prusa",
+              "@pid": "34/10426"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsp/BalazsFHK06",
+          "title": "Double Preconditioning for Gabor Frames",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2006",
+          "pages": "4597-4610",
+          "ee": "https://doi.org/10.1109/TSP.2006.882100",
+          "author": [
+            {
+              "#text": "Günther Kracher",
+              "@pid": "41/6563"
+            },
+            {
+              "#text": "Hans G. Feichtinger",
+              "@pid": "67/8859"
+            },
+            {
+              "#text": "Mario Hampejs",
+              "@pid": "01/3718"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsp/NenovNBB24",
+          "title": "Accelerated Griffin-Lim Algorithm: A Fast and Provably Converging Numerical Method for Phase Retrieval",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2024",
+          "pages": "190-202",
+          "ee": "https://doi.org/10.1109/TSP.2023.3339232",
+          "author": [
+            {
+              "#text": "Dang-Khoa Nguyen",
+              "@pid": "245/4005"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Radu Ioan Bot",
+              "@pid": "97/436"
+            },
+            {
+              "#text": "Rossen Nenov",
+              "@pid": "350/1512"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vc/LukicB22",
+          "title": "Limited-view binary tomography reconstruction assisted by shape centroid",
+          "journal": "Vis. Comput.",
+          "year": "2022",
+          "pages": "695-705",
+          "ee": "https://doi.org/10.1007/S00371-020-02044-8",
+          "author": [
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            },
+            {
+              "#text": "Tibor Lukic",
+              "@pid": "67/3020"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vc/SzucsB22",
+          "title": "Local Q-concavity histograms for binary image classification and reconstruction",
+          "journal": "Vis. Comput.",
+          "year": "2022",
+          "pages": "4221-4234",
+          "ee": "https://doi.org/10.1007/S00371-021-02290-4",
+          "author": [
+            {
+              "#text": "Judit Szücs",
+              "@pid": "221/3416"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vc/VargaLB23",
+          "title": "Grayscale uncertainty and errors of tomographic reconstructions based on projection geometries and projection sets",
+          "journal": "Vis. Comput.",
+          "year": "2023",
+          "pages": "1557-1569",
+          "ee": "https://doi.org/10.1007/S00371-022-02428-Y",
+          "author": [
+            {
+              "#text": "Gábor Lékó",
+              "@pid": "221/3415"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "24/8014"
+            },
+            {
+              "#text": "Péter Balázs",
+              "@pid": "69/5612"
+            }
+          ]
+        }
       }
     ]
   }

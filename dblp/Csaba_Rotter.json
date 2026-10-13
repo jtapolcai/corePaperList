@@ -1,367 +1,645 @@
 {
   "dblpperson": {
+    "@name": "Csaba Rotter",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icin/NguyenDHR19",
-        "title": "An Approach to Apply Reinforcement Learning for a VNF Scaling Problem.",
-        "pages": "94-99",
-        "year": "2019",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2019.8685866",
-        "url": "db/conf/icin/icin2019.html#NguyenDHR19",
-        "authors": [
-          "Hai T. Nguyen",
-          "Tien Van Do 0001",
-          "Attila Hegyi",
-          "Csaba Rotter"
-        ]
+        "inproceedings": {
+          "@key": "conf/csndsp/VargaHRJ18",
+          "title": "Providing Ultra-Reliable Low Latency Services for 5G with Unattended Datacenters",
+          "booktitle": "CSNDSP",
+          "year": "2018",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/CSNDSP.2018.8471756",
+          "author": [
+            {
+              "#text": "Attila Hilt",
+              "@pid": "20/10474"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Gabor Jaro",
+              "@pid": "201/9275"
+            },
+            {
+              "#text": "József Varga",
+              "@pid": "55/3536"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/RotterINFCH17",
-        "title": "Telecom strategies for service discovery in microservice environments.",
-        "pages": "214-218",
-        "year": "2017",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2017.7899414",
-        "url": "db/conf/icin/icin2017.html#RotterINFCH17",
-        "authors": [
-          "Csaba Rotter",
-          "Janos Illes",
-          "Gabor Nyiri",
-          "LÃ³rÃ¡nt Farkas",
-          "Gergely CsatÃ¡ri",
-          "Gergo Huszty"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DoDKGRN18",
+          "title": "Demo of a big switch abstraction for service function chaining",
+          "booktitle": "ICIN",
+          "year": "2018",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.1109/ICIN.2018.8401616",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "István Kispál",
+              "@pid": "280/3990"
+            },
+            {
+              "#text": "Lorant Nemeth",
+              "@pid": "222/5791"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Nándor Galambosi",
+              "@pid": "193/2397"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DoVDFRT15",
-        "title": "Building block components to control a data rate in the Apache Hadoop compute platform.",
-        "pages": "23-29",
-        "year": "2015",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2015.7073802",
-        "url": "db/conf/icin/icin2015.html#DoVDFRT15",
-        "authors": [
-          "Tien Van Do 0001",
-          "Binh Thai Vu",
-          "Nam H. Do",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter",
-          "TamÃ¡s TarjÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DoDKGRN18a",
+          "title": "A big switch abstraction to support service function chaining in cloud infrastructure",
+          "booktitle": "ICIN",
+          "year": "2018",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ICIN.2018.8401620",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "István Kispál",
+              "@pid": "280/3990"
+            },
+            {
+              "#text": "Lorant Nemeth",
+              "@pid": "222/5791"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Nándor Galambosi",
+              "@pid": "193/2397"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DoDKGRN18",
-        "title": "Demo of a big switch abstraction for service function chaining.",
-        "pages": "1-3",
-        "year": "2018",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2018.8401616",
-        "url": "db/conf/icin/icin2018.html#DoDKGRN18",
-        "authors": [
-          "Nam H. Do",
-          "Tien Van Do 0001",
-          "IstvÃ¡n KispÃ¡l",
-          "NÃ¡ndor Galambosi",
-          "Csaba Rotter",
-          "Lorant Nemeth"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DoDTFR16",
+          "title": "Data I/O Provision for Spark Applications in a Mesos Cluster",
+          "booktitle": "ICIN",
+          "year": "2016",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            },
+            {
+              "#text": "Xuan T. Tran",
+              "@pid": "132/5839"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DoDKGRN18a",
-        "title": "A big switch abstraction to support service function chaining in cloud infrastructure.",
-        "pages": "1-5",
-        "year": "2018",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2018.8401620",
-        "url": "db/conf/icin/icin2018.html#DoDKGRN18a",
-        "authors": [
-          "Tien Van Do 0001",
-          "Nam H. Do",
-          "IstvÃ¡n KispÃ¡l",
-          "NÃ¡ndor Galambosi",
-          "Csaba Rotter",
-          "Lorant Nemeth"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DoDTFR17",
+          "title": "A scalable routing mechanism for stateful microservices",
+          "booktitle": "ICIN",
+          "year": "2017",
+          "pages": "72-78",
+          "ee": "https://doi.org/10.1109/ICIN.2017.7899252",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            },
+            {
+              "#text": "Xuan T. Tran",
+              "@pid": "132/5839"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DoDTFR17",
-        "title": "A scalable routing mechanism for stateful microservices.",
-        "pages": "72-78",
-        "year": "2017",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN.2017.7899252",
-        "url": "db/conf/icin/icin2017.html#DoDTFR17",
-        "authors": [
-          "Nam H. Do",
-          "Tien Van Do 0001",
-          "Xuan Thi Tran",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DoVDFRT15",
+          "title": "Building block components to control a data rate in the Apache Hadoop compute platform",
+          "booktitle": "ICIN",
+          "year": "2015",
+          "pages": "23-29",
+          "ee": "https://doi.org/10.1109/ICIN.2015.7073802",
+          "author": [
+            {
+              "#text": "Binh Thai Vu",
+              "@pid": "144/8540"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tamás Tarjányi",
+              "@pid": "153/1861"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/RotterCFNJS16",
-        "title": "Using Linux Containers in Telecom Applications.",
-        "year": "2016",
-        "booktitle": "ICIN",
-        "ee": "https://dl.ifip.org/db/conf/icin/icin2016/1570229487.pdf",
-        "url": "db/conf/icin/icin2016.html#RotterCFNJS16",
-        "authors": [
-          "Csaba Rotter",
-          "Gergely CsatÃ¡ri",
-          "LÃ³rÃ¡nt Farkas",
-          "Gabor Nyiri",
-          "Laszlo Janosi",
-          "Robert Springer"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/NguyenDHR19",
+          "title": "An Approach to Apply Reinforcement Learning for a VNF Scaling Problem",
+          "booktitle": "ICIN",
+          "year": "2019",
+          "pages": "94-99",
+          "ee": "https://doi.org/10.1109/ICIN.2019.8685866",
+          "author": [
+            {
+              "#text": "Attila Hegyi",
+              "@pid": "199/3885"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Hai T. Nguyen",
+              "@pid": "143/6677"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DoDTFR16",
-        "title": "Data I/O Provision for Spark Applications in a Mesos Cluster.",
-        "year": "2016",
-        "booktitle": "ICIN",
-        "ee": "https://dl.ifip.org/db/conf/icin/icin2016/1570229517.pdf",
-        "url": "db/conf/icin/icin2016.html#DoDTFR16",
-        "authors": [
-          "Nam H. Do",
-          "Tien Van Do 0001",
-          "Xuan Thi Tran",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/RotterCFNJS16",
+          "title": "Using Linux Containers in Telecom Applications",
+          "booktitle": "ICIN",
+          "year": "2016",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Gabor Nyiri",
+              "@pid": "198/7961"
+            },
+            {
+              "#text": "Gergely Csatári",
+              "@pid": "157/7721"
+            },
+            {
+              "#text": "Laszlo Janosi",
+              "@pid": "374/8270"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Robert Springer",
+              "@pid": "98/6923"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sofsem/MartinezLPRS18",
-        "title": "Multivendor Deployment Integration for Future Mobile Networks.",
-        "pages": "351-364",
-        "year": "2018",
-        "booktitle": "SOFSEM",
-        "ee": "https://doi.org/10.1007/978-3-319-73117-9_25",
-        "url": "db/conf/sofsem/sofsem2018.html#MartinezLPRS18",
-        "authors": [
-          "Manuel Perez Martinez",
-          "TÃ­mea LÃ¡szlÃ³",
-          "Norbert Pataki",
-          "Csaba Rotter",
-          "Csaba Szalai"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/RotterINFCH17",
+          "title": "Telecom strategies for service discovery in microservice environments",
+          "booktitle": "ICIN",
+          "year": "2017",
+          "pages": "214-218",
+          "ee": "https://doi.org/10.1109/ICIN.2017.7899414",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Gabor Nyiri",
+              "@pid": "198/7961"
+            },
+            {
+              "#text": "Gergely Csatári",
+              "@pid": "157/7721"
+            },
+            {
+              "#text": "Gergo Huszty",
+              "@pid": "198/7901"
+            },
+            {
+              "#text": "Janos Illes",
+              "@pid": "198/7951"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/trustcom/TranDDFR15",
-        "title": "Provision of Disk I/O Guarantee for MapReduce Applications.",
-        "pages": "161-166",
-        "year": "2015",
-        "booktitle": "TrustCom/BigDataSE/ISPA (2)",
-        "ee": "https://doi.org/10.1109/Trustcom.2015.576",
-        "url": "db/conf/trustcom/trustcom2015-2.html#TranDDFR15",
-        "authors": [
-          "Xuan Thi Tran",
-          "Tien Van Do 0001",
-          "Nam H. Do",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter"
-        ]
+        "inproceedings": {
+          "@key": "conf/sofsem/MartinezLPRS18",
+          "title": "Multivendor Deployment Integration for Future Mobile Networks",
+          "booktitle": "SOFSEM",
+          "year": "2018",
+          "pages": "351-364",
+          "ee": "https://doi.org/10.1007/978-3-319-73117-9_25",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Csaba Szalai",
+              "@pid": "08/9381"
+            },
+            {
+              "#text": "Manuel Perez Martinez",
+              "@pid": "212/3867"
+            },
+            {
+              "#text": "Norbert Pataki",
+              "@pid": "71/7055"
+            },
+            {
+              "#text": "Tímea László",
+              "@pid": "212/3871"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/csndsp/VargaHRJ18",
-        "title": "Providing Ultra-Reliable Low Latency Services for 5G with Unattended Datacenters.",
-        "pages": "1-4",
-        "year": "2018",
-        "booktitle": "CSNDSP",
-        "ee": "https://doi.org/10.1109/CSNDSP.2018.8471756",
-        "url": "db/conf/csndsp/csndsp2018.html#VargaHRJ18",
-        "authors": [
-          "JÃ³zsef Varga",
-          "Attila Hilt",
-          "Csaba Rotter",
-          "Gabor Jaro"
-        ]
+        "inproceedings": {
+          "@key": "conf/trustcom/TranDDFR15",
+          "title": "Provision of Disk I/O Guarantee for MapReduce Applications",
+          "booktitle": "TrustCom/BigDataSE/ISPA (2)",
+          "year": "2015",
+          "pages": "161-166",
+          "ee": "https://doi.org/10.1109/TRUSTCOM.2015.576",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            },
+            {
+              "#text": "Xuan T. Tran",
+              "@pid": "132/5839"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/DoDRLBB25",
-        "title": "Properties of Horizontal Pod Autoscaling Algorithms and Application for Scaling Cloud-Native Network Functions.",
-        "pages": "1889-1898",
-        "year": "2025",
-        "volume": "22",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/TNSM.2025.3532121",
-        "url": "db/journals/tnsm/tnsm22.html#DoDRLBB25",
-        "authors": [
-          "Tien Van Do 0001",
-          "Nam H. Do",
-          "Csaba Rotter",
-          "T. V. Lakshman",
-          "Csaba BirÃ³",
-          "TamÃ¡s BÃ©rczes"
-        ]
+        "article": {
+          "@key": "journals/access/NguyenDR21",
+          "title": "Scaling UPF Instances in 5G/6G Core With Deep Reinforcement Learning",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "165892-165906",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3135315",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Hai T. Nguyen",
+              "@pid": "143/6677"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/TranDRH18",
-        "title": "A New Data Layout Scheme for Energy-Efficient MapReduce Processing Tasks.",
-        "pages": "285-298",
-        "year": "2018",
-        "volume": "16",
-        "journal": "J. Grid Comput.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10723-018-9433-7",
-        "url": "db/journals/grid/grid16.html#TranDRH18",
-        "authors": [
-          "Xuan T. Tran",
-          "Tien Van Do 0001",
-          "Csaba Rotter",
-          "Dosam Hwang"
-        ]
+        "article": {
+          "@key": "journals/access/RotterD21",
+          "title": "A Queueing Model for Threshold-Based Scaling of UPF Instances in 5G Core",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "81443-81453",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3085955",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/DoDFR20",
-        "title": "Provisioning Input and Output Data Rates in Data Processing Frameworks.",
-        "pages": "491-506",
-        "year": "2020",
-        "volume": "18",
-        "journal": "J. Grid Comput.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s10723-020-09508-0",
-        "url": "db/journals/grid/grid18.html#DoDFR20",
-        "authors": [
-          "Nam H. Do",
-          "Tien Van Do 0001",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter"
-        ]
+        "informal": {
+          "@key": "journals/corr/DoVDFRT14",
+          "title": "Building Block Components to Control a Data Rate in the Apache Hadoop Compute Platform",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1410.6146",
+          "author": [
+            {
+              "#text": "Binh Thai Vu",
+              "@pid": "144/8540"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tamás Tarjányi",
+              "@pid": "153/1861"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/NguyenDR21",
-        "title": "Scaling UPF Instances in 5G/6G Core With Deep Reinforcement Learning.",
-        "pages": "165892-165906",
-        "year": "2021",
-        "volume": "9",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2021.3135315",
-        "url": "db/journals/access/access9.html#NguyenDR21",
-        "authors": [
-          "Hai T. Nguyen",
-          "Tien Van Do 0001",
-          "Csaba Rotter"
-        ]
+        "article": {
+          "@key": "journals/grid/DoDFR20",
+          "title": "Provisioning Input and Output Data Rates in Data Processing Frameworks",
+          "journal": "J. Grid Comput.",
+          "year": "2020",
+          "pages": "491-506",
+          "ee": "https://doi.org/10.1007/S10723-020-09508-0",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Lóránt Farkas",
+              "@pid": "93/249"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/RotterD21",
-        "title": "A Queueing Model for Threshold-Based Scaling of UPF Instances in 5G Core.",
-        "pages": "81443-81453",
-        "year": "2021",
-        "volume": "9",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2021.3085955",
-        "url": "db/journals/access/access9.html#RotterD21",
-        "authors": [
-          "Csaba Rotter",
-          "Tien Van Do 0001"
-        ]
+        "article": {
+          "@key": "journals/grid/TranDRH18",
+          "title": "A New Data Layout Scheme for Energy-Efficient MapReduce Processing Tasks",
+          "journal": "J. Grid Comput.",
+          "year": "2018",
+          "pages": "285-298",
+          "ee": "https://doi.org/10.1007/S10723-018-9433-7",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Dosam Hwang",
+              "@pid": "91/6746"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            },
+            {
+              "#text": "Xuan T. Tran",
+              "@pid": "132/5839"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/simpra/DoDNRHH19",
-        "title": "Comparison of scheduling algorithms for multiple mobile computing edge clouds.",
-        "pages": "104-118",
-        "year": "2019",
-        "volume": "93",
-        "journal": "Simul. Model. Pract. Theory",
-        "ee": "https://doi.org/10.1016/j.simpat.2018.10.005",
-        "url": "db/journals/simpra/simpra93.html#DoDNRHH19",
-        "authors": [
-          "Tien Van Do 0001",
-          "Nam H. Do",
-          "Hai T. Nguyen",
-          "Csaba Rotter",
-          "Attila Hegyi",
-          "PÃ©ter Hegyi"
-        ]
+        "article": {
+          "@key": "journals/jnca/NguyenDR21",
+          "title": "Optimizing the resource usage of actor-based systems",
+          "journal": "J. Netw. Comput. Appl.",
+          "year": "2021",
+          "pages": "103143",
+          "ee": "https://doi.org/10.1016/J.JNCA.2021.103143",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Hai T. Nguyen",
+              "@pid": "143/6677"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jnca/NguyenDR21",
-        "title": "Optimizing the resource usage of actor-based systems.",
-        "pages": "103143",
-        "year": "2021",
-        "volume": "190",
-        "journal": "J. Netw. Comput. Appl.",
-        "ee": "https://doi.org/10.1016/j.jnca.2021.103143",
-        "url": "db/journals/jnca/jnca190.html#NguyenDR21",
-        "authors": [
-          "Hai T. Nguyen",
-          "Tien Van Do 0001",
-          "Csaba Rotter"
-        ]
+        "article": {
+          "@key": "journals/jss/DoR12",
+          "title": "Comparison of scheduling schemes for on-demand IaaS requests",
+          "journal": "J. Syst. Softw.",
+          "year": "2012",
+          "pages": "1400-1408",
+          "ee": "https://doi.org/10.1016/J.JSS.2012.01.019",
+          "author": [
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jss/DoR12",
-        "title": "Comparison of scheduling schemes for on-demand IaaS requests.",
-        "pages": "1400-1408",
-        "year": "2012",
-        "volume": "85",
-        "journal": "J. Syst. Softw.",
-        "number": "6",
-        "ee": "https://doi.org/10.1016/j.jss.2012.01.019",
-        "url": "db/journals/jss/jss85.html#DoR12",
-        "authors": [
-          "Tien Van Do 0001",
-          "Csaba Rotter"
-        ]
+        "article": {
+          "@key": "journals/simpra/DoDNRHH19",
+          "title": "Comparison of scheduling algorithms for multiple mobile computing edge clouds",
+          "journal": "Simul. Model. Pract. Theory",
+          "year": "2019",
+          "pages": "104-118",
+          "ee": "https://doi.org/10.1016/J.SIMPAT.2018.10.005",
+          "author": [
+            {
+              "#text": "Attila Hegyi",
+              "@pid": "199/3885"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Hai T. Nguyen",
+              "@pid": "143/6677"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "Péter Hegyi",
+              "@pid": "80/516"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tii/NguyenNDR23",
-        "title": "Efficient Multi-UAV Assisted Data Gathering Schemes for Maximizing the Operation Time of Wireless Sensor Networks in Precision Farming.",
-        "pages": "11664-11674",
-        "year": "2023",
-        "volume": "19",
-        "journal": "IEEE Trans. Ind. Informatics",
-        "number": "12",
-        "ee": "https://doi.org/10.1109/TII.2023.3248616",
-        "url": "db/journals/tii/tii19.html#NguyenNDR23",
-        "authors": [
-          "Khanh-Van Nguyen",
-          "Chi-Hieu Nguyen",
-          "Tien Van Do 0001",
-          "Csaba Rotter"
-        ]
+        "article": {
+          "@key": "journals/tii/NguyenNDR23",
+          "title": "Efficient Multi-UAV Assisted Data Gathering Schemes for Maximizing the Operation Time of Wireless Sensor Networks in Precision Farming",
+          "journal": "IEEE Trans. Ind. Informatics",
+          "year": "2023",
+          "pages": "11664-11674",
+          "ee": "https://doi.org/10.1109/TII.2023.3248616",
+          "author": [
+            {
+              "#text": "Chi-Hieu Nguyen",
+              "@pid": "242/7336"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Khanh-Van Nguyen",
+              "@pid": "147/2871"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/DoVDFRT14",
-        "title": "Building Block Components to Control a Data Rate in the Apache Hadoop Compute Platform.",
-        "year": "2014",
-        "volume": "abs/1410.6146",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1410.6146",
-        "url": "db/journals/corr/corr1410.html#DoVDFRT14",
-        "authors": [
-          "Tien Van Do 0001",
-          "Binh Thai Vu",
-          "Nam H. Do",
-          "LÃ³rÃ¡nt Farkas",
-          "Csaba Rotter",
-          "TamÃ¡s TarjÃ¡nyi"
-        ]
+        "article": {
+          "@key": "journals/tnsm/DoDRLBB25",
+          "title": "Properties of Horizontal Pod Autoscaling Algorithms and Application for Scaling Cloud-Native Network Functions",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2025",
+          "pages": "1889-1898",
+          "ee": "https://doi.org/10.1109/TNSM.2025.3532121",
+          "author": [
+            {
+              "#text": "Csaba Biró",
+              "@pid": "82/7603"
+            },
+            {
+              "#text": "Csaba Rotter",
+              "@pid": "78/11326"
+            },
+            {
+              "#text": "Nam H. Do",
+              "@pid": "69/2209"
+            },
+            {
+              "#text": "T. V. Lakshman",
+              "@pid": "43/2247"
+            },
+            {
+              "#text": "Tamás Bérczes",
+              "@pid": "130/9754"
+            },
+            {
+              "#text": "Tien Van Do",
+              "@pid": "47/1424"
+            }
+          ]
+        }
       }
     ]
   }

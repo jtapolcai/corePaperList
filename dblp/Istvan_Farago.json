@@ -1,0 +1,1672 @@
+{
+  "dblpperson": {
+    "@name": "István Faragó",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/fdm/CsomosFF14",
+          "title": "Operator Semigroups for Convergence Analysis",
+          "booktitle": "FDM",
+          "year": "2015",
+          "pages": "38-49",
+          "ee": "https://doi.org/10.1007/978-3-319-20239-6_4",
+          "author": [
+            {
+              "#text": "Imre Fekete",
+              "@pid": "147/7325"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Petra Csomós",
+              "@pid": "12/3837"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fdm/ZlatevDFGH18",
+          "title": "Stability Properties of Repeated Richardson Extrapolation Applied Together with Some Implicit Runge-Kutta Methods",
+          "booktitle": "FDM",
+          "year": "2019",
+          "pages": "114-125",
+          "ee": "https://doi.org/10.1007/978-3-030-11539-5_11",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fdm/ZlatevDFGH18a",
+          "title": "Absolute Stability and Implementation of the Two-Times Repeated Richardson Extrapolation Together with Explicit Runge-Kutta Methods",
+          "booktitle": "FDM",
+          "year": "2019",
+          "pages": "678-686",
+          "ee": "https://doi.org/10.1007/978-3-030-11539-5_80",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpc2/FaragoD19",
+          "title": "Two Epidemic Propagation Models and Their Properties",
+          "booktitle": "HPC",
+          "year": "2021",
+          "pages": "209-220",
+          "ee": "https://doi.org/10.1007/978-3-030-55347-0_18",
+          "author": [
+            {
+              "#text": "Fanni Dorner",
+              "@pid": "273/0902"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/BayleyegnFH21",
+          "title": "On the Consistency Order of Runge-Kutta Methods Combined with Active Richardson Extrapolation",
+          "booktitle": "LSSC",
+          "year": "2022",
+          "pages": "101-108",
+          "ee": "https://doi.org/10.1007/978-3-030-97549-4_11",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Teshome Bayleyegn",
+              "@pid": "273/0864"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/BotchevFH03",
+          "title": "Testing Weighted Splitting Schemes on a One-Column Transport-Chemistry Model",
+          "booktitle": "LSSC",
+          "year": "2004",
+          "pages": "295-302",
+          "ee": "https://doi.org/10.1007/978-3-540-24588-9_33",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Mike A. Botchev",
+              "@pid": "08/9308"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/Farago05",
+          "title": "Operator Splittings and Numerical Methods",
+          "booktitle": "LSSC",
+          "year": "2006",
+          "pages": "347-354",
+          "ee": "https://doi.org/10.1007/11666806_39",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/Farago09",
+          "title": "Matrix and Discrete Maximum Principles",
+          "booktitle": "LSSC",
+          "year": "2010",
+          "pages": "563-570",
+          "ee": "https://doi.org/10.1007/978-3-642-12535-5_67",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/FaragoGZ07",
+          "title": "Parallelization of Advection-Diffusion-Chemistry Modules",
+          "booktitle": "LSSC",
+          "year": "2008",
+          "pages": "28-39",
+          "ee": "https://doi.org/10.1007/978-3-540-78827-0_3",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/FaragoH01",
+          "title": "The Mathemathical Background of Operator Splitting and the Effect of Non-commutativity",
+          "booktitle": "LSSC",
+          "year": "2001",
+          "pages": "264-271",
+          "ee": "https://doi.org/10.1007/3-540-45346-6_27",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/FaragoH07",
+          "title": "On the Richardson Extrapolation as Applied to the Sequential Splitting Method",
+          "booktitle": "LSSC",
+          "year": "2008",
+          "pages": "184-191",
+          "ee": "https://doi.org/10.1007/978-3-540-78827-0_19",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/FaragoST23",
+          "title": "A Nonstandard Finite Difference Method for a General Epidemic Model",
+          "booktitle": "LSSC",
+          "year": "2024",
+          "pages": "299-306",
+          "ee": "https://doi.org/10.1007/978-3-031-56208-2_30",
+          "author": [
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "Gabriella Svantnerné Sebestyén",
+              "@pid": "369/3043"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/KaratsonF01",
+          "title": "Sobolev Space Preconditioning for Mixed Nonlinear Elliptic Boundary Value Problems",
+          "booktitle": "LSSC",
+          "year": "2001",
+          "pages": "104-112",
+          "ee": "https://doi.org/10.1007/3-540-45346-6_9",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "János Karátson",
+              "@pid": "05/4836"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/ZlatevDFGH19",
+          "title": "Studying the Influence of Climate Changes on European Ozone Levels",
+          "booktitle": "LSSC",
+          "year": "2020",
+          "pages": "391-399",
+          "ee": "https://doi.org/10.1007/978-3-030-41032-2_45",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/ZlatevDFGH21",
+          "title": "Running an Atmospheric Chemistry Scheme from a Large Air Pollution Model by Using Advanced Versions of the Richardson Extrapolation",
+          "booktitle": "LSSC",
+          "year": "2022",
+          "pages": "188-197",
+          "ee": "https://doi.org/10.1007/978-3-030-97549-4_22",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lssc/ZlatevFH09",
+          "title": "On Some Stability Properties of the Richardson Extrapolation Applied Together with the theta-Method",
+          "booktitle": "LSSC",
+          "year": "2010",
+          "pages": "54-66",
+          "ee": "https://doi.org/10.1007/978-3-642-12535-5_5",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/naa/Farago00",
+          "title": "Proper Weak Regular Splitting for M-Matrices",
+          "booktitle": "NAA",
+          "year": "2001",
+          "pages": "285-291",
+          "ee": "https://doi.org/10.1007/3-540-45262-1_34",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/naa/Farago04",
+          "title": "Splitting Methods and Their Application to the Abstract Cauchy Problems",
+          "booktitle": "NAA",
+          "year": "2005",
+          "pages": "35-45",
+          "ee": "https://doi.org/10.1007/978-3-540-31852-1_4",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/naa/Farago08",
+          "title": "Qualitative Analysis of the Crank-Nicolson Method for the Heat Conduction Equation",
+          "booktitle": "NAA",
+          "year": "2009",
+          "pages": "44-55",
+          "ee": "https://doi.org/10.1007/978-3-642-00464-3_5",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/naa/Farago12",
+          "title": "Note on the Convergence of the Implicit Euler Method",
+          "booktitle": "NAA",
+          "year": "2013",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1007/978-3-642-41515-9_1",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/naa/FaragoF16",
+          "title": "Convergence of Alternant Theta-Method with Applications",
+          "booktitle": "NAA",
+          "year": "2017",
+          "pages": "58-69",
+          "ee": "https://doi.org/10.1007/978-3-319-57099-0_6",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zénó Farkas",
+              "@pid": "186/3630"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nma/BayleyegnFH22",
+          "title": "On the Consistency and Convergence of Repeated Richardson Extrapolation",
+          "booktitle": "NMA",
+          "year": "2023",
+          "pages": "48-58",
+          "ee": "https://doi.org/10.1007/978-3-031-32412-3_5",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Teshome Bayleyegn",
+              "@pid": "273/0864"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nma/Farago06",
+          "title": "New Operator Splitting Methods and Their Analysis",
+          "booktitle": "Numerical Methods and Applications",
+          "year": "2007",
+          "pages": "443-450",
+          "ee": "https://doi.org/10.1007/978-3-540-70942-8_53",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nma/FilipovFA22",
+          "title": "Mathematical Modelling of Nonlinear Heat Conduction with Relaxing Boundary Conditions",
+          "booktitle": "NMA",
+          "year": "2023",
+          "pages": "146-158",
+          "ee": "https://doi.org/10.1007/978-3-031-32412-3_13",
+          "author": [
+            {
+              "#text": "Ana Avdzhieva",
+              "@pid": "188/4089"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Stefan M. Filipov",
+              "@pid": "157/9637"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nma/ZlatevDFGHO10",
+          "title": "Richardson Extrapolated Numerical Methods for Treatment of One-Dimensional Advection Equations",
+          "booktitle": "NMA",
+          "year": "2011",
+          "pages": "198-206",
+          "ee": "https://doi.org/10.1007/978-3-642-18466-6_23",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Tzvetan Ostromsky",
+              "@pid": "35/5997"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/FeketeF13",
+          "title": "A stability approach for reaction-diffusion problems",
+          "booktitle": "SACI",
+          "year": "2013",
+          "pages": "191-195",
+          "ee": "https://doi.org/10.1109/SACI.2013.6608965",
+          "author": [
+            {
+              "#text": "Imre Fekete",
+              "@pid": "147/7325"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amc/FaragoKS13",
+          "title": "On continuous and discrete maximum principles for elliptic problems with the third boundary condition",
+          "journal": "Appl. Math. Comput.",
+          "year": "2013",
+          "pages": "7215-7224",
+          "ee": "https://doi.org/10.1016/J.AMC.2011.05.043",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Sergey Korotov",
+              "@pid": "03/2360"
+            },
+            {
+              "#text": "Tamás Szabó",
+              "@pid": "55/6968"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amc/FaragoM23",
+          "title": "Some qualitative properties of the discrete models for malaria propagation",
+          "journal": "Appl. Math. Comput.",
+          "year": "2023",
+          "pages": "127628",
+          "ee": "https://doi.org/10.1016/J.AMC.2022.127628",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Rahele Mosleh",
+              "@pid": "334/2963"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amc/MandalF21",
+          "title": "Operator splitting and error analysis in malaria modeling",
+          "journal": "Appl. Math. Comput.",
+          "year": "2021",
+          "pages": "126446",
+          "ee": "https://doi.org/10.1016/J.AMC.2021.126446",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Parna Mandal",
+              "@pid": "299/4759"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/appml/FaragoH08",
+          "title": "Relationship between vanishing splitting errors and pairwise commutativity",
+          "journal": "Appl. Math. Lett.",
+          "year": "2008",
+          "pages": "10-14",
+          "ee": "https://doi.org/10.1016/J.AML.2007.02.008",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/appml/FilipovGF17",
+          "title": "Shooting-projection method for two-point boundary value problems",
+          "journal": "Appl. Math. Lett.",
+          "year": "2017",
+          "pages": "10-15",
+          "ee": "https://doi.org/10.1016/J.AML.2017.04.002",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan D. Gospodinov",
+              "@pid": "157/9635"
+            },
+            {
+              "#text": "Stefan M. Filipov",
+              "@pid": "157/9637"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/axioms/FilipovHAF23",
+          "title": "A Coupled PDE-ODE Model for Nonlinear Transient Heat Transfer with Convection Heating at the Boundary: Numerical Solution by Implicit Time Discretization and Sequential Decoupling",
+          "journal": "Axioms",
+          "year": "2023",
+          "pages": "323",
+          "ee": "https://doi.org/10.3390/AXIOMS12040323",
+          "author": [
+            {
+              "#text": "Ana Avdzhieva",
+              "@pid": "188/4089"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Jordan Hristov",
+              "@pid": "196/7917"
+            },
+            {
+              "#text": "Stefan M. Filipov",
+              "@pid": "157/9637"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cce/KristonIFS10",
+          "title": "Simulation of the transient behavior of fuel cells by using operator splitting techniques for real-time applications",
+          "journal": "Comput. Chem. Eng.",
+          "year": "2010",
+          "pages": "339-348",
+          "ee": "https://doi.org/10.1016/J.COMPCHEMENG.2009.11.006",
+          "author": [
+            {
+              "#text": "Ákos Kriston",
+              "@pid": "05/8801"
+            },
+            {
+              "#text": "György Inzelt",
+              "@pid": "75/8801"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Tamás Szabó",
+              "@pid": "55/6968"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/CsomosFF15",
+          "title": "Numerical stability for nonlinear evolution equations",
+          "journal": "Comput. Math. Appl.",
+          "year": "2015",
+          "pages": "2752-2761",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2015.05.023",
+          "author": [
+            {
+              "#text": "Imre Fekete",
+              "@pid": "147/7325"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Petra Csomós",
+              "@pid": "12/3837"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoGH08",
+          "title": "Additive and iterative operator splitting methods and their numerical investigation",
+          "journal": "Comput. Math. Appl.",
+          "year": "2008",
+          "pages": "2266-2279",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2007.11.017",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "Boglárka Gnandt",
+              "@pid": "63/8865"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoGHZ13",
+          "title": "Efficient numerical methods for scientific applications: Introduction",
+          "journal": "Comput. Math. Appl.",
+          "year": "2013",
+          "pages": "297-300",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2013.01.001",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoGHZ14",
+          "title": "Efficient algorithms for large scale scientific computations: Introduction",
+          "journal": "Comput. Math. Appl.",
+          "year": "2014",
+          "pages": "2085-2087",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2014.05.021",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoHZ08",
+          "title": "Special issue on advanced numerical algorithms for large-scale computations: Introduction",
+          "journal": "Comput. Math. Appl.",
+          "year": "2008",
+          "pages": "2183-2184",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2007.11.015",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoHZ10",
+          "title": "Efficient implementation of stable Richardson Extrapolation algorithms",
+          "journal": "Comput. Math. Appl.",
+          "year": "2010",
+          "pages": "2309-2325",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2010.08.025",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FaragoHZ13",
+          "title": "The convergence of diagonally implicit Runge-Kutta methods combined with Richardson extrapolation",
+          "journal": "Comput. Math. Appl.",
+          "year": "2013",
+          "pages": "395-401",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2012.04.016",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/FeketeF14",
+          "title": "Stability concepts and their applications",
+          "journal": "Comput. Math. Appl.",
+          "year": "2014",
+          "pages": "2158-2170",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2014.02.024",
+          "author": [
+            {
+              "#text": "Imre Fekete",
+              "@pid": "147/7325"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/TakacsHF20",
+          "title": "Space dependent models for studying the spread of some diseases",
+          "journal": "Comput. Math. Appl.",
+          "year": "2020",
+          "pages": "395-404",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2019.07.001",
+          "author": [
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cma/ZlatevDFGHO14",
+          "title": "Application of Richardson extrapolation for multi-dimensional advection equations",
+          "journal": "Comput. Math. Appl.",
+          "year": "2014",
+          "pages": "2279-2293",
+          "ee": "https://doi.org/10.1016/J.CAMWA.2014.02.028",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Tzvetan Ostromsky",
+              "@pid": "35/5997"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cmam/TakacsFHR22",
+          "title": "Qualitative Properties of Space-Dependent SIR Models with Constant Delay and Their Numerical Solutions",
+          "journal": "Comput. Methods Appl. Math.",
+          "year": "2022",
+          "pages": "713-728",
+          "ee": "https://doi.org/10.1515/CMAM-2021-0208",
+          "author": [
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "Dusan Repovs",
+              "@pid": "87/5637"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cmam/ZlatevDFGH20",
+          "title": "Explicit Runge-Kutta Methods Combined with Advanced Versions of the Richardson Extrapolation",
+          "journal": "Comput. Methods Appl. Math.",
+          "year": "2020",
+          "pages": "739-762",
+          "ee": "https://doi.org/10.1515/CMAM-2019-0016",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-03104",
+          "title": "The linearization methods as a basis to derive the relaxation and the shooting methods",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.03104",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Stefan M. Filipov",
+              "@pid": "157/9637"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2112-06808",
+          "title": "Qualitative properties of space-dependent SIR models with constant delay and their numerical solutions",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.06808",
+          "author": [
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "Dusan Repovs",
+              "@pid": "87/5637"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-10549",
+          "title": "High-order reliable numerical methods for epidemic models with non-constant recruitment rate",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.10549",
+          "author": [
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "Gabriella Svantnerné Sebestyén",
+              "@pid": "369/3043"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcse/FaragoG07",
+          "title": "Iterative operator-splitting methods for linear problems",
+          "journal": "Int. J. Comput. Sci. Eng.",
+          "year": "2007",
+          "pages": "255-263",
+          "ee": "https://doi.org/10.1504/IJCSE.2007.018264",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Jürgen Geiser",
+              "@pid": "11/6384"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/FaragoH16",
+          "title": "On some qualitatively adequate discrete space-time models of epidemic propagation",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2016",
+          "pages": "45-54",
+          "ee": "https://doi.org/10.1016/J.CAM.2015.03.030",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/FaragoH18",
+          "title": "Qualitative properties of some discrete models of disease propagation",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2018",
+          "pages": "486-500",
+          "ee": "https://doi.org/10.1016/J.CAM.2017.09.024",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/FaragoHMZ10",
+          "title": "Special Issue on Advanced Computational Algorithms: Introduction",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2010",
+          "pages": "345-347",
+          "ee": "https://doi.org/10.1016/J.CAM.2010.05.036",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Svetozar Margenov",
+              "@pid": "61/1147"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/FarkasFKP17",
+          "title": "Improvement of accuracy of multi-scale models of Li-ion batteries by applying operator splitting techniques",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2017",
+          "pages": "59-79",
+          "ee": "https://doi.org/10.1016/J.CAM.2016.03.029",
+          "author": [
+            {
+              "#text": "Á. Kriston",
+              "@pid": "186/3565"
+            },
+            {
+              "#text": "Andreas Pfrang",
+              "@pid": "254/4799"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zénó Farkas",
+              "@pid": "186/3630"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/FilipovGF19",
+          "title": "Replacing the finite difference methods for nonlinear two-point boundary value problems by successive application of the linear shooting method",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2019",
+          "pages": "46-60",
+          "ee": "https://doi.org/10.1016/J.CAM.2019.03.004",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan D. Gospodinov",
+              "@pid": "157/9635"
+            },
+            {
+              "#text": "Stefan M. Filipov",
+              "@pid": "157/9637"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/Sebestyen-PalFH16",
+          "title": "Stability of patterns and of constant steady states for a cross-diffusion system",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2016",
+          "pages": "208-216",
+          "ee": "https://doi.org/10.1016/J.CAM.2015.03.041",
+          "author": [
+            {
+              "#text": "Gheorghe Sebestyen",
+              "@pid": "41/1274"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Mihály Klincsik",
+              "@pid": "170/8756"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            },
+            {
+              "#text": "Robert Kersner",
+              "@pid": "32/6198"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/ZlatevDFF18",
+          "title": "Numerical Methods for Advanced Scientific Models: Editorial Introduction",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2018",
+          "pages": "421-423",
+          "ee": "https://doi.org/10.1016/J.CAM.2018.04.001",
+          "author": [
+            {
+              "#text": "Imre Fekete",
+              "@pid": "147/7325"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Pasqua D'Ambra",
+              "@pid": "97/334"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/ZlatevDFGH17",
+          "title": "Stability of the Richardson Extrapolation combined with some implicit Runge-Kutta methods",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2017",
+          "pages": "224-240",
+          "ee": "https://doi.org/10.1016/J.CAM.2016.03.018",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Krassimir Georgiev",
+              "@pid": "11/6451"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/ZlatevDFSV20",
+          "title": "Advanced numerical methods for complex scientific and engineering problems: Editorial introduction",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2020",
+          "pages": "112596",
+          "ee": "https://doi.org/10.1016/J.CAM.2019.112596",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Lubin G. Vulkov",
+              "@pid": "09/1848"
+            },
+            {
+              "#text": "Pasqua D'Ambra",
+              "@pid": "97/334"
+            },
+            {
+              "#text": "V. V. Shaidurov",
+              "@pid": "68/4686"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/ZlatevFH10",
+          "title": "Stability of the Richardson Extrapolation applied together with the θ-method",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2010",
+          "pages": "507-517",
+          "ee": "https://doi.org/10.1016/J.CAM.2010.05.052",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mcm/CsomosF08",
+          "title": "Error analysis of the numerical solution of split differential equations",
+          "journal": "Math. Comput. Model.",
+          "year": "2008",
+          "pages": "1090-1106",
+          "ee": "https://doi.org/10.1016/J.MCM.2007.12.014",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Petra Csomós",
+              "@pid": "12/3837"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mcs/DimovFHZ04",
+          "title": "Operator splitting and commutativity analysis in the Danish Eulerian Model",
+          "journal": "Math. Comput. Simul.",
+          "year": "2004",
+          "pages": "217-233",
+          "ee": "https://doi.org/10.1016/J.MATCOM.2004.06.017",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Zahari Zlatev",
+              "@pid": "z/ZahariZlatev"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mcs/Farago10",
+          "title": "Discrete maximum principle for finite element parabolic models in higher dimensions",
+          "journal": "Math. Comput. Simul.",
+          "year": "2010",
+          "pages": "1601-1611",
+          "ee": "https://doi.org/10.1016/J.MATCOM.2009.01.017",
+          "author": {
+            "#text": "István Faragó",
+            "@pid": "20/767"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mcs/FaragoKK17",
+          "title": "Discrete nonnegativity for nonlinear cooperative parabolic PDE systems with non-monotone coupling",
+          "journal": "Math. Comput. Simul.",
+          "year": "2017",
+          "pages": "37-53",
+          "ee": "https://doi.org/10.1016/J.MATCOM.2016.03.015",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "János Karátson",
+              "@pid": "05/4836"
+            },
+            {
+              "#text": "Sergey Korotov",
+              "@pid": "03/2360"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mma/BayleyegnFH23",
+          "title": "On the Consistency and convergence of Classical Richardson extrapolation as Applied to Explicit One-Step Methods",
+          "journal": "Math. Model. Anal.",
+          "year": "2023",
+          "pages": "42-52",
+          "ee": "https://doi.org/10.3846/MMA.2023.16283",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Teshome Bayleyegn",
+              "@pid": "273/0864"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/nla/AxelssonFK02",
+          "title": "Sobolev space preconditioning for Newton's method using domain decomposition",
+          "journal": "Numer. Linear Algebra Appl.",
+          "year": "2002",
+          "pages": "585-598",
+          "ee": "https://doi.org/10.1002/NLA.293",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "János Karátson",
+              "@pid": "05/4836"
+            },
+            {
+              "#text": "Owe Axelsson",
+              "@pid": "28/5541"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/nm/HorvathFK19",
+          "title": "Qualitative properties of discrete nonlinear parabolic operators",
+          "journal": "Numerische Mathematik",
+          "year": "2019",
+          "pages": "529-554",
+          "ee": "https://doi.org/10.1007/S00211-019-01062-6",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "János Karátson",
+              "@pid": "05/4836"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/paapp/CsomosDFHO07",
+          "title": "Computational complexity of weighted splitting schemes on parallel computers",
+          "journal": "Int. J. Parallel Emergent Distributed Syst.",
+          "year": "2007",
+          "pages": "137-147",
+          "ee": "https://doi.org/10.1080/17445760601111517",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Ivan Tomov Dimov",
+              "@pid": "d/IvanTomovDimov"
+            },
+            {
+              "#text": "Petra Csomós",
+              "@pid": "12/3837"
+            },
+            {
+              "#text": "Tzvetan Ostromsky",
+              "@pid": "35/5997"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pmh/BayleyegnFH24",
+          "title": "On the convergence of multiple Richardson extrapolation combined with explicit Runge-Kutta methods",
+          "journal": "Period. Math. Hung.",
+          "year": "2024",
+          "pages": "335-353",
+          "ee": "https://doi.org/10.1007/S10998-023-00557-Y",
+          "author": [
+            {
+              "#text": "Ágnes Havasi",
+              "@pid": "50/1180"
+            },
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Teshome Bayleyegn",
+              "@pid": "273/0864"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamnum/KaratsonF03",
+          "title": "Variable Preconditioning via Quasi-Newton Methods for Nonlinear Problems in Hilbert Space",
+          "journal": "SIAM J. Numer. Anal.",
+          "year": "2003",
+          "pages": "1242-1262",
+          "ee": "https://doi.org/10.1137/S0036142901384277",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "János Karátson",
+              "@pid": "05/4836"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamsc/FaragoH06",
+          "title": "Discrete Maximum Principle and Adequate Discretizations of Linear Parabolic Problems",
+          "journal": "SIAM J. Sci. Comput.",
+          "year": "2006",
+          "pages": "2313-2336",
+          "ee": "https://doi.org/10.1137/050627241",
+          "author": [
+            {
+              "#text": "István Faragó",
+              "@pid": "20/767"
+            },
+            {
+              "#text": "Róbert Horváth",
+              "@pid": "11/1832"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

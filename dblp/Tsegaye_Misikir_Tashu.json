@@ -1,394 +1,609 @@
 {
   "dblpperson": {
+    "@name": "Tsegaye Misikir Tashu",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/its/TashuSH19",
-        "title": "Reducing Annotation Effort in Automatic Essay Evaluation Using Locality Sensitive Hashing.",
-        "pages": "186-192",
-        "year": "2019",
-        "booktitle": "ITS",
-        "ee": "https://doi.org/10.1007/978-3-030-22244-4_23",
-        "url": "db/conf/its/its2019.html#TashuSH19",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "DÃ¡vid SzabÃ³",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/besc/FerganT23",
+          "title": "Course Review Sentiment Analysis: A Comparative Study Of Machine Learning and Deep Learning Methods",
+          "booktitle": "BESC",
+          "year": "2023",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/BESC59560.2023.10386515",
+          "author": [
+            {
+              "#text": "Ekin Fergan",
+              "@pid": "393/9361"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/its/TashuEH19",
-        "title": "Intelligent On-line Exam Management and Evaluation System.",
-        "pages": "105-111",
-        "year": "2019",
-        "booktitle": "ITS",
-        "ee": "https://doi.org/10.1007/978-3-030-22244-4_14",
-        "url": "db/conf/its/its2019.html#TashuEH19",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Julius P. Esclamado",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/coling/TashuKSV25",
+          "title": "Cross-Lingual Document Recommendations with Transformer-Based Representations: Evaluating Multilingual Models and Mapping Techniques",
+          "booktitle": "COLING Workshops",
+          "year": "2025",
+          "pages": "39-47",
+          "author": [
+            {
+              "#text": "Eduard-Raul Kontos",
+              "@pid": "366/6176"
+            },
+            {
+              "#text": "Matias Valdenegro-Toro",
+              "@pid": "185/4072"
+            },
+            {
+              "#text": "Matthia Sabatelli",
+              "@pid": "160/6434"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/intellisys/TashuH19",
-        "title": "Semantic-Based Feedback Recommendation for Automatic Essay Evaluation.",
-        "pages": "334-346",
-        "year": "2019",
-        "booktitle": "IntelliSys (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-29513-4_24",
-        "url": "db/conf/intellisys/intellisys2019-2.html#TashuH19",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/coling/TudorT25",
+          "title": "Mapping Cross-Lingual Sentence Representations for Low-Resource Language Pairs Using Pre-trained Language Models",
+          "booktitle": "COLING Workshops",
+          "year": "2025",
+          "pages": "249-257",
+          "author": [
+            {
+              "#text": "Andreea Ioana Tudor",
+              "@pid": "412/0273"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icpr/TashuH20",
-        "title": "Attention-Based Multi-modal Emotion Recognition from Art.",
-        "pages": "604-612",
-        "year": "2020",
-        "booktitle": "ICPR Workshops (3)",
-        "ee": "https://doi.org/10.1007/978-3-030-68796-0_43",
-        "url": "db/conf/icpr/icpr2020w3.html#TashuH20",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/csedu/TashuH18",
+          "title": "Pair-Wise: Automatic Essay Evaluation using Word Mover's Distance",
+          "booktitle": "CSEDU (1)",
+          "year": "2018",
+          "pages": "59-66",
+          "ee": "https://doi.org/10.5220/0006679200590066",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/csedu/TashuH18a",
-        "title": "A Layered Approach to Automatic Essay Evaluation Using Word-Embedding.",
-        "pages": "77-94",
-        "year": "2018",
-        "booktitle": "CSEDU (Selected Papers)",
-        "ee": "https://doi.org/10.1007/978-3-030-21151-6_5",
-        "url": "db/conf/csedu/csedu2018s.html#TashuH18a",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/csedu/TashuH18a",
+          "title": "A Layered Approach to Automatic Essay Evaluation Using Word-Embedding",
+          "booktitle": "CSEDU (Selected Papers)",
+          "year": "2019",
+          "pages": "77-94",
+          "ee": "https://doi.org/10.1007/978-3-030-21151-6_5",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/csedu/TashuH18",
-        "title": "Pair-Wise: Automatic Essay Evaluation using Word Mover's Distance.",
-        "pages": "59-66",
-        "year": "2018",
-        "booktitle": "CSEDU (1)",
-        "ee": "https://doi.org/10.5220/0006679200590066",
-        "url": "db/conf/csedu/csedu2018-1.html#TashuH18",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/icpr/TashuH20",
+          "title": "Attention-Based Multi-modal Emotion Recognition from Art",
+          "booktitle": "ICPR Workshops (3)",
+          "year": "2021",
+          "pages": "604-612",
+          "ee": "https://doi.org/10.1007/978-3-030-68796-0_43",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ideal/LenzTH21",
-        "title": "Learning Inter-Lingual Document Representations via Concept Compression.",
-        "pages": "268-276",
-        "year": "2021",
-        "booktitle": "IDEAL",
-        "ee": "https://doi.org/10.1007/978-3-030-91608-4_27",
-        "url": "db/conf/ideal/ideal2021.html#LenzTH21",
-        "authors": [
-          "Marc Lenz",
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/ideal/LenzTH21",
+          "title": "Learning Inter-Lingual Document Representations via Concept Compression",
+          "booktitle": "IDEAL",
+          "year": "2021",
+          "pages": "268-276",
+          "ee": "https://doi.org/10.1007/978-3-030-91608-4_27",
+          "author": [
+            {
+              "#text": "Marc Lenz",
+              "@pid": "307/8235"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ideal/TashuH22",
-        "title": "Synonym-Based Essay Generation and Augmentation for Robust Automatic Essay Scoring.",
-        "pages": "12-21",
-        "year": "2022",
-        "booktitle": "IDEAL",
-        "ee": "https://doi.org/10.1007/978-3-031-21753-1_2",
-        "url": "db/conf/ideal/ideal2022.html#TashuH22",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/ideal/SalamonTH21",
+          "title": "Linear Concept Approximation for Multilingual Document Recommendation",
+          "booktitle": "IDEAL",
+          "year": "2021",
+          "pages": "147-156",
+          "ee": "https://doi.org/10.1007/978-3-030-91608-4_15",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            },
+            {
+              "#text": "Vilmos Tibor Salamon",
+              "@pid": "307/8483"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ideal/SalamonTH21",
-        "title": "Linear Concept Approximation for Multilingual Document Recommendation.",
-        "pages": "147-156",
-        "year": "2021",
-        "booktitle": "IDEAL",
-        "ee": "https://doi.org/10.1007/978-3-030-91608-4_15",
-        "url": "db/conf/ideal/ideal2021.html#SalamonTH21",
-        "authors": [
-          "Vilmos Tibor Salamon",
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/ideal/TashuH22",
+          "title": "Synonym-Based Essay Generation and Augmentation for Robust Automatic Essay Scoring",
+          "booktitle": "IDEAL",
+          "year": "2022",
+          "pages": "12-21",
+          "ee": "https://doi.org/10.1007/978-3-031-21753-1_2",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/semco/TashuH20",
-        "title": "SmartScore-Short Answer Scoring Made Easy Using Sem-LSH.",
-        "pages": "145-149",
-        "year": "2020",
-        "booktitle": "ICSC",
-        "ee": "https://doi.org/10.1109/ICSC.2020.00028",
-        "url": "db/conf/semco/icsc2020.html#TashuH20",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/intellisys/TashuH19",
+          "title": "Semantic-Based Feedback Recommendation for Automatic Essay Evaluation",
+          "booktitle": "IntelliSys (2)",
+          "year": "2020",
+          "pages": "334-346",
+          "ee": "https://doi.org/10.1007/978-3-030-29513-4_24",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/semco/Tashu20",
-        "title": "Off-Topic Essay Detection Using C-BGRU Siamese.",
-        "pages": "221-225",
-        "year": "2020",
-        "booktitle": "ICSC",
-        "ee": "https://doi.org/10.1109/ICSC.2020.00046",
-        "url": "db/conf/semco/icsc2020.html#Tashu20",
-        "authors": [
-          "Tsegaye Misikir Tashu"
-        ]
+        "inproceedings": {
+          "@key": "conf/itat/MahajanBT24",
+          "title": "A Dynamic Session-Based Recommender System with Graph Neural Networks",
+          "booktitle": "ITAT",
+          "year": "2024",
+          "pages": "31-36",
+          "author": [
+            {
+              "#text": "Ermiyas Birihanu Belachew",
+              "@pid": "358/6596"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            },
+            {
+              "#text": "Vrushali Mahajan",
+              "@pid": "387/6772"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coling/TudorT25",
-        "title": "Mapping Cross-Lingual Sentence Representations for Low-Resource Language Pairs Using Pre-trained Language Models.",
-        "pages": "249-257",
-        "year": "2025",
-        "booktitle": "COLING Workshops",
-        "ee": "https://aclanthology.org/2025.loreslm-1.20/",
-        "url": "db/conf/coling/coling2025w.html#TudorT25",
-        "authors": [
-          "Andreea Ioana Tudor",
-          "Tsegaye Misikir Tashu"
-        ]
+        "inproceedings": {
+          "@key": "conf/itat/TosayevaBT23",
+          "title": "Pattern Recognition and Context Prediction of COVID-19 cases in European Countries",
+          "booktitle": "ITAT",
+          "year": "2023",
+          "pages": "50-57",
+          "author": [
+            {
+              "#text": "Arzu Tosayeva",
+              "@pid": "330/3825"
+            },
+            {
+              "#text": "Ermiyas Birihanu Belachew",
+              "@pid": "358/6596"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coling/TashuKSV25",
-        "title": "Cross-Lingual Document Recommendations with Transformer-Based Representations: Evaluating Multilingual Models and Mapping Techniques.",
-        "pages": "39-47",
-        "year": "2025",
-        "booktitle": "COLING Workshops",
-        "ee": "https://aclanthology.org/2025.sumeval-2.4/",
-        "url": "db/conf/coling/coling2025w.html#TashuKSV25",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Eduard-Raul Kontos",
-          "Matthia Sabatelli",
-          "Matias Valdenegro-Toro"
-        ]
+        "inproceedings": {
+          "@key": "conf/itat/ZolotarevaTH20",
+          "title": "Abstractive Text Summarization using Transfer Learning",
+          "booktitle": "ITAT",
+          "year": "2020",
+          "pages": "75-80",
+          "author": [
+            {
+              "#text": "Ekaterina Zolotareva",
+              "@pid": "278/1089"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/itat/MahajanBT24",
-        "title": "A Dynamic Session-Based Recommender System with Graph Neural Networks.",
-        "pages": "31-36",
-        "year": "2024",
-        "booktitle": "ITAT",
-        "ee": "https://ceur-ws.org/Vol-3792/paper3.pdf",
-        "url": "db/conf/itat/itat2024.html#MahajanBT24",
-        "authors": [
-          "Vrushali Mahajan",
-          "Ermiyas Birihanu",
-          "Tsegaye Misikir Tashu"
-        ]
+        "inproceedings": {
+          "@key": "conf/its/TashuEH19",
+          "title": "Intelligent On-line Exam Management and Evaluation System",
+          "booktitle": "ITS",
+          "year": "2019",
+          "pages": "105-111",
+          "ee": "https://doi.org/10.1007/978-3-030-22244-4_14",
+          "author": [
+            {
+              "#text": "Julius P. Esclamado",
+              "@pid": "241/8743"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/itat/ZolotarevaTH20",
-        "title": "Abstractive Text Summarization using Transfer Learning.",
-        "pages": "75-80",
-        "year": "2020",
-        "booktitle": "ITAT",
-        "ee": "https://ceur-ws.org/Vol-2718/paper28.pdf",
-        "url": "db/conf/itat/itat2020.html#ZolotarevaTH20",
-        "authors": [
-          "Ekaterina Zolotareva",
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/its/TashuSH19",
+          "title": "Reducing Annotation Effort in Automatic Essay Evaluation Using Locality Sensitive Hashing",
+          "booktitle": "ITS",
+          "year": "2019",
+          "pages": "186-192",
+          "ee": "https://doi.org/10.1007/978-3-030-22244-4_23",
+          "author": [
+            {
+              "#text": "Dávid Szabó",
+              "@pid": "117/0572"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/itat/TosayevaBT23",
-        "title": "Pattern Recognition and Context Prediction of COVID-19 cases in European Countries.",
-        "pages": "50-57",
-        "year": "2023",
-        "booktitle": "ITAT",
-        "ee": "https://ceur-ws.org/Vol-3498/paper6.pdf",
-        "url": "db/conf/itat/itat2023.html#TosayevaBT23",
-        "authors": [
-          "Arzu Tosayeva",
-          "Ermiyas Birihanu",
-          "Tsegaye Misikir Tashu"
-        ]
+        "inproceedings": {
+          "@key": "conf/semco/Tashu20",
+          "title": "Off-Topic Essay Detection Using C-BGRU Siamese",
+          "booktitle": "ICSC",
+          "year": "2020",
+          "pages": "221-225",
+          "ee": "https://doi.org/10.1109/ICSC.2020.00046",
+          "author": {
+            "#text": "Tsegaye Misikir Tashu",
+            "@pid": "219/0966"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/besc/FerganT23",
-        "title": "Course Review Sentiment Analysis: A Comparative Study Of Machine Learning and Deep Learning Methods.",
-        "pages": "1-7",
-        "year": "2023",
-        "booktitle": "BESC",
-        "ee": "https://doi.org/10.1109/BESC59560.2023.10386515",
-        "url": "db/conf/besc/besc2023.html#FerganT23",
-        "authors": [
-          "Ekin Fergan",
-          "Tsegaye Misikir Tashu"
-        ]
+        "inproceedings": {
+          "@key": "conf/semco/TashuH20",
+          "title": "SmartScore-Short Answer Scoring Made Easy Using Sem-LSH",
+          "booktitle": "ICSC",
+          "year": "2020",
+          "pages": "145-149",
+          "ee": "https://doi.org/10.1109/ICSC.2020.00028",
+          "author": [
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/swevo/PeskaTH19",
-        "title": "Swarm intelligence techniques in recommender systems - A review of recent research.",
-        "pages": "201-219",
-        "year": "2019",
-        "volume": "48",
-        "journal": "Swarm Evol. Comput.",
-        "ee": "https://doi.org/10.1016/j.swevo.2019.04.003",
-        "url": "db/journals/swevo/swevo48.html#PeskaTH19",
-        "authors": [
-          "Ladislav Peska",
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "article": {
+          "@key": "journals/asc/TashuLH23",
+          "title": "NCC: Neural concept compression for multilingual document recommendation",
+          "journal": "Appl. Soft Comput.",
+          "year": "2023",
+          "pages": "110348",
+          "ee": "https://doi.org/10.1016/J.ASOC.2023.110348",
+          "author": [
+            {
+              "#text": "Marc Lenz",
+              "@pid": "307/8235"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/asc/TashuLH23",
-        "title": "NCC: Neural concept compression for multilingual document recommendation.",
-        "pages": "110348",
-        "year": "2023",
-        "volume": "142",
-        "journal": "Appl. Soft Comput.",
-        "ee": "https://doi.org/10.1016/j.asoc.2023.110348",
-        "url": "db/journals/asc/asc142.html#TashuLH23",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Marc Lenz",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2206-08232",
+          "title": "Deep Learning Architecture for Automatic Essay Scoring",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.08232",
+          "author": [
+            {
+              "#text": "Chandresh Maurya",
+              "@pid": "303/4435"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jimaging/TashuHH21",
-        "title": "Multimodal Emotion Recognition from Art Using Sequential Co-Attention.",
-        "pages": "157",
-        "year": "2021",
-        "volume": "7",
-        "journal": "J. Imaging",
-        "number": "8",
-        "ee": "https://www.wikidata.org/entity/Q124958485",
-        "url": "db/journals/jimaging/jimaging7.html#TashuHH21",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Sakina Hajiyeva",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2207-03305",
+          "title": "Multimodal E-Commerce Product Classification Using Hierarchical Fusion",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2207.03305",
+          "author": [
+            {
+              "#text": "Péter Kiss",
+              "@pid": "121/9639"
+            },
+            {
+              "#text": "Sara Fattouh",
+              "@pid": "324/2242"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2509-19557",
-        "title": "Confidence Calibration in Large Language Model-Based Entity Matching.",
-        "year": "2025",
-        "volume": "abs/2509.19557",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2509.19557",
-        "url": "db/journals/corr/corr2509.html#abs-2509-19557",
-        "authors": [
-          "Iris Kamsteeg",
-          "Juan Cardenas-Cartagena",
-          "Floris van Beers",
-          "Gineke A. ten Holt",
-          "Tsegaye Misikir Tashu",
-          "Matias Valdenegro-Toro"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2207-03317",
+          "title": "Multimodal Feature Extraction for Memes Sentiment Classification",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2207.03317",
+          "author": [
+            {
+              "#text": "Sofiane Ouaari",
+              "@pid": "324/2162"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2207-03305",
-        "title": "Multimodal E-Commerce Product Classification Using Hierarchical Fusion.",
-        "year": "2022",
-        "volume": "abs/2207.03305",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2207.03305",
-        "url": "db/journals/corr/corr2207.html#abs-2207-03305",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Sara Fattouh",
-          "PÃ©ter Kiss",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2401-06583",
+          "title": "Mapping Transformer Leveraged Embeddings for Cross-Lingual Document Representation",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2401.06583",
+          "author": [
+            {
+              "#text": "Eduard-Raul Kontos",
+              "@pid": "366/6176"
+            },
+            {
+              "#text": "Matias Valdenegro-Toro",
+              "@pid": "185/4072"
+            },
+            {
+              "#text": "Matthia Sabatelli",
+              "@pid": "160/6434"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2206-08232",
-        "title": "Deep Learning Architecture for Automatic Essay Scoring.",
-        "year": "2022",
-        "volume": "abs/2206.08232",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2206.08232",
-        "url": "db/journals/corr/corr2206.html#abs-2206-08232",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Chandresh Kumar Maurya",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2409-04795",
+          "title": "Phrase-Level Adversarial Training for Mitigating Bias in Neural Network-based Automatic Essay Scoring",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.04795",
+          "author": [
+            {
+              "#text": "Haddad Philip",
+              "@pid": "387/1699"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2207-03317",
-        "title": "Multimodal Feature Extraction for Memes Sentiment Classification.",
-        "year": "2022",
-        "volume": "abs/2207.03317",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2207.03317",
-        "url": "db/journals/corr/corr2207.html#abs-2207-03317",
-        "authors": [
-          "Sofiane Ouaari",
-          "Tsegaye Misikir Tashu",
-          "TomÃ¡s HorvÃ¡th"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2509-19557",
+          "title": "Confidence Calibration in Large Language Model-Based Entity Matching",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2509.19557",
+          "author": [
+            {
+              "#text": "Floris van Beers",
+              "@pid": "242/4176"
+            },
+            {
+              "#text": "Gineke A. ten Holt",
+              "@pid": "92/6526"
+            },
+            {
+              "#text": "Iris Kamsteeg",
+              "@pid": "417/8527"
+            },
+            {
+              "#text": "Juan Cardenas-Cartagena",
+              "@pid": "339/5096"
+            },
+            {
+              "#text": "Matias Valdenegro-Toro",
+              "@pid": "185/4072"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2401-06583",
-        "title": "Mapping Transformer Leveraged Embeddings for Cross-Lingual Document Representation.",
-        "year": "2024",
-        "volume": "abs/2401.06583",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2401.06583",
-        "url": "db/journals/corr/corr2401.html#abs-2401-06583",
-        "authors": [
-          "Tsegaye Misikir Tashu",
-          "Eduard-Raul Kontos",
-          "Matthia Sabatelli",
-          "Matias Valdenegro-Toro"
-        ]
+        "article": {
+          "@key": "journals/jimaging/TashuHH21",
+          "title": "Multimodal Emotion Recognition from Art Using Sequential Co-Attention",
+          "journal": "J. Imaging",
+          "year": "2021",
+          "pages": "157",
+          "ee": "https://doi.org/10.3390/JIMAGING7080157",
+          "author": [
+            {
+              "#text": "Sakina Hajiyeva",
+              "@pid": "303/4788"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2409-04795",
-        "title": "Phrase-Level Adversarial Training for Mitigating Bias in Neural Network-based Automatic Essay Scoring.",
-        "year": "2024",
-        "volume": "abs/2409.04795",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2409.04795",
-        "url": "db/journals/corr/corr2409.html#abs-2409-04795",
-        "authors": [
-          "Haddad Philip",
-          "Tsegaye Misikir Tashu"
-        ]
+        "article": {
+          "@key": "journals/swevo/PeskaTH19",
+          "title": "Swarm intelligence techniques in recommender systems - A review of recent research",
+          "journal": "Swarm Evol. Comput.",
+          "year": "2019",
+          "pages": "201-219",
+          "ee": "https://doi.org/10.1016/J.SWEVO.2019.04.003",
+          "author": [
+            {
+              "#text": "Ladislav Peska",
+              "@pid": "31/10716"
+            },
+            {
+              "#text": "Tomás Horváth",
+              "@pid": "40/3600"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Misikir21",
+          "title": "Semantic-based Automatic Short Essay Evaluation and Recommendation System",
+          "journal": "",
+          "year": "2021",
+          "author": {
+            "#text": "Tsegaye Misikir Tashu",
+            "@pid": "219/0966"
+          }
+        }
       }
     ]
   }

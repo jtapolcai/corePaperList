@@ -1,19 +1,5987 @@
 {
   "dblpperson": {
+    "@name": "Laura Kovács",
     "r": [
       {
-        "type": "article",
-        "key": "journals/corr/abs-2605-16472",
-        "title": "Certificate-Aware Property-Directed Reachability.",
-        "year": "2026",
-        "volume": "abs/2605.16472",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2605.16472",
-        "url": "db/journals/corr/corr2605.html#abs-2605-16472",
-        "authors": [
-          "Arman Ferdowsi",
-          "Laura Kovacs"
-        ]
+        "inproceedings": {
+          "@key": "conf/aplas/HoderHKV12",
+          "title": "Vinter: A Vampire-Based Tool for Interpolation",
+          "booktitle": "APLAS",
+          "year": "2012",
+          "pages": "148-156",
+          "ee": "https://doi.org/10.1007/978-3-642-35182-2_11",
+          "author": [
+            {
+              "#text": "Andreas Holzer",
+              "@pid": "90/6802"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Krystof Hoder",
+              "@pid": "54/7401"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/arecca/EisenhoferK023",
+          "title": "Embedding the Connection Calculus in Satisfiability Modulo Theories",
+          "booktitle": "AReCCa@TABLEAUX",
+          "year": "2024",
+          "pages": "54-63",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/atva/BartocciKS19",
+          "title": "Automatic Generation of Moment-Based Invariants for Prob-Solvable Loops",
+          "booktitle": "ATVA",
+          "year": "2019",
+          "pages": "255-276",
+          "ee": "https://doi.org/10.1007/978-3-030-31784-3_15",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/atva/BiereKKZ13",
+          "title": "SmacC: A Retargetable Symbolic Execution Engine",
+          "booktitle": "ATVA",
+          "year": "2013",
+          "pages": "482-486",
+          "ee": "https://doi.org/10.1007/978-3-319-02444-8_40",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/atva/GuptaKKV14",
+          "title": "Extensional Crisis and Proving Identity",
+          "booktitle": "ATVA",
+          "year": "2014",
+          "pages": "185-200",
+          "ee": "https://doi.org/10.1007/978-3-319-11936-6_14",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Ashutosh Gupta",
+              "@pid": "65/3925"
+            },
+            {
+              "#text": "Bernhard Kragl",
+              "@pid": "138/6924"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/HajduHKRV22",
+          "title": "Getting Saturated with Induction",
+          "booktitle": "Principles of Systems Design",
+          "year": "2022",
+          "pages": "306-322",
+          "ee": "https://doi.org/10.1007/978-3-031-22337-2_15",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/MoosbruggerMBK25",
+          "title": "Polar: An Algebraic Analyzer for (Probabilistic) Loops",
+          "booktitle": "Principles of Verification (1)",
+          "year": "2024",
+          "pages": "179-200",
+          "ee": "https://doi.org/10.1007/978-3-031-75783-9_8",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/BiereDKV14",
+          "title": "SAT solving experiments in Vampire",
+          "booktitle": "Vampire Workshop",
+          "year": "2016",
+          "pages": "29-32",
+          "ee": "https://doi.org/10.29007/5L47",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Ioan Dragan",
+              "@pid": "146/0280"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/ChenKR16",
+          "title": "Theory-Specific Reasoning about Loops with Arrays using Vampire",
+          "booktitle": "Vampire@IJCAR",
+          "year": "2017",
+          "pages": "16-32",
+          "ee": "https://doi.org/10.29007/QK21",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            },
+            {
+              "#text": "Yuting Chen",
+              "@pid": "21/6510"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/CoutelierKRR23",
+          "title": "SAT-Based Subsumption Resolution",
+          "booktitle": "CADE",
+          "year": "2023",
+          "pages": "190-206",
+          "ee": "https://doi.org/10.1007/978-3-031-38499-8_11",
+          "author": [
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/GleissK017",
+          "title": "Splitting Proofs for Interpolation",
+          "booktitle": "CADE",
+          "year": "2017",
+          "pages": "291-309",
+          "ee": "https://doi.org/10.1007/978-3-319-63046-5_18",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/GleissKR20",
+          "title": "Subsumption Demodulation in First-Order Theorem Proving",
+          "booktitle": "IJCAR (1)",
+          "year": "2020",
+          "pages": "297-315",
+          "ee": "https://doi.org/10.1007/978-3-030-51074-9_17",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/HajduCKV25",
+          "title": "Term Ordering Diagrams",
+          "booktitle": "CADE",
+          "year": "2025",
+          "pages": "552-569",
+          "ee": "https://doi.org/10.1007/978-3-031-99984-0_29",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/HajduKV25",
+          "title": "Partial Redundancy in Saturation",
+          "booktitle": "CADE",
+          "year": "2025",
+          "pages": "532-551",
+          "ee": "https://doi.org/10.1007/978-3-031-99984-0_28",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/HoderKV10",
+          "title": "Interpolation and Symbol Elimination in Vampire",
+          "booktitle": "IJCAR",
+          "year": "2010",
+          "pages": "188-195",
+          "ee": "https://doi.org/10.1007/978-3-642-14203-1_16",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Krystof Hoder",
+              "@pid": "54/7401"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/HozzovaKNV23",
+          "title": "Program Synthesis in Saturation",
+          "booktitle": "CADE",
+          "year": "2023",
+          "pages": "307-324",
+          "ee": "https://doi.org/10.1007/978-3-031-38499-8_18",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Chase Norman",
+              "@pid": "303/3066"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/HozzovaKV21",
+          "title": "Integer Induction in Saturation",
+          "booktitle": "CADE",
+          "year": "2021",
+          "pages": "361-377",
+          "ee": "https://doi.org/10.1007/978-3-030-79876-5_21",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/KotelnikovKV18",
+          "title": "A FOOLish Encoding of the Next State Relations of Imperative Programs",
+          "booktitle": "IJCAR",
+          "year": "2018",
+          "pages": "405-421",
+          "ee": "https://doi.org/10.1007/978-3-319-94205-6_27",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/Kovacs08",
+          "title": "Aligator: A Mathematica Package for Invariant Generation (System Description)",
+          "booktitle": "IJCAR",
+          "year": "2008",
+          "pages": "275-282",
+          "ee": "https://doi.org/10.1007/978-3-540-71070-7_22",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/KovacsMV11",
+          "title": "On Transfinite Knuth-Bendix Orders",
+          "booktitle": "CADE",
+          "year": "2011",
+          "pages": "384-399",
+          "ee": "https://doi.org/10.1007/978-3-642-22438-6_29",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Georg Moser",
+              "@pid": "32/2607"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/KovacsR15",
+          "title": "Reasoning About Loops Using Vampire",
+          "booktitle": "Vampire Workshop",
+          "year": "2016",
+          "pages": "52-62",
+          "ee": "https://doi.org/10.29007/TCVJ",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cade/KovacsV09",
+          "title": "Interpolation and Symbol Elimination",
+          "booktitle": "CADE",
+          "year": "2009",
+          "pages": "199-213",
+          "ee": "https://doi.org/10.1007/978-3-642-02959-2_17",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cav/BartekBCHHHKRRRSSV25",
+          "title": "The Vampire Diary",
+          "booktitle": "CAV (3)",
+          "year": "2025",
+          "pages": "57-71",
+          "ee": "https://doi.org/10.1007/978-3-031-98682-6_4",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Filip Bártek",
+              "@pid": "281/5411"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Matthias Hetzenberger",
+              "@pid": "409/8250"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cav/EladRIKS21",
+          "title": "Summing up Smart Transitions",
+          "booktitle": "CAV (1)",
+          "year": "2021",
+          "pages": "317-340",
+          "ee": "https://doi.org/10.1007/978-3-030-81685-8_15",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Neil Immerman",
+              "@pid": "i/NeilImmerman"
+            },
+            {
+              "#text": "Neta Elad",
+              "@pid": "292/8081"
+            },
+            {
+              "#text": "Shmuel Sagiv",
+              "@pid": "s/SSagiv"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cav/KovacsV13",
+          "title": "First-Order Theorem Proving and Vampire",
+          "booktitle": "CAV",
+          "year": "2013",
+          "pages": "1-35",
+          "ee": "https://doi.org/10.1007/978-3-642-39799-8_1",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccs/BruggerKKR023",
+          "title": "CheckMate: Automated Game-Theoretic Security Reasoning",
+          "booktitle": "CCS",
+          "year": "2023",
+          "pages": "1407-1421",
+          "ee": "https://doi.org/10.1145/3576915.3623183",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lea Salome Brugger",
+              "@pid": "318/9924"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cpp/KotelnikovKRV16",
+          "title": "The vampire and the FOOL",
+          "booktitle": "CPP",
+          "year": "2016",
+          "pages": "37-48",
+          "ee": "https://doi.org/10.1145/2854065.2854071",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csfw/RainAKM23",
+          "title": "Towards a Game-Theoretic Security Analysis of Off-Chain Protocols",
+          "booktitle": "CSF",
+          "year": "2023",
+          "pages": "107-122",
+          "ee": "https://doi.org/10.1109/CSF57540.2023.00003",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            },
+            {
+              "#text": "Zeta Avarikioti",
+              "@pid": "183/6375"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csl/Kovacs17",
+          "title": "First-Order Interpolation and Grey Areas of Proofs (Invited Talk)",
+          "booktitle": "CSL",
+          "year": "2017",
+          "pages": "3:1-3:1",
+          "ee": "https://doi.org/10.4230/LIPICS.CSL.2017.3",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csr/Kovacs08",
+          "title": "Invariant Generation for P-Solvable Loops with Assignments",
+          "booktitle": "CSR",
+          "year": "2008",
+          "pages": "349-359",
+          "ee": "https://doi.org/10.1007/978-3-540-79709-8_35",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ershov/DraganK14",
+          "title": "Lingva: Generating and Proving Program Properties Using Symbol Elimination",
+          "booktitle": "Ershov Memorial Conference",
+          "year": "2015",
+          "pages": "67-75",
+          "ee": "https://doi.org/10.1007/978-3-662-46823-4_6",
+          "author": [
+            {
+              "#text": "Ioan Dragan",
+              "@pid": "146/0280"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ershov/KnoopKZ11",
+          "title": "Symbolic Loop Bound Computation for WCET Analysis",
+          "booktitle": "Ershov Memorial Conference",
+          "year": "2012",
+          "pages": "227-242",
+          "ee": "https://doi.org/10.1007/978-3-642-29709-0_20",
+          "author": [
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ershov/Kovacs09",
+          "title": "A Complete Invariant Generation Approach for P-solvable Loops",
+          "booktitle": "Ershov Memorial Conference",
+          "year": "2010",
+          "pages": "242-256",
+          "ee": "https://doi.org/10.1007/978-3-642-11486-1_21",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esop/CernyHKRZ15",
+          "title": "Segment Abstraction for Worst-Case Execution Time Analysis",
+          "booktitle": "ESOP",
+          "year": "2015",
+          "pages": "105-131",
+          "ee": "https://doi.org/10.1007/978-3-662-46669-8_5",
+          "author": [
+            {
+              "#text": "Arjun Radhakrishna",
+              "@pid": "88/8037"
+            },
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Pavol Cerný",
+              "@pid": "34/6556"
+            },
+            {
+              "#text": "Thomas A. Henzinger",
+              "@pid": "h/ThomasAHenzinger"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esop/MoosbruggerBKK21",
+          "title": "Automated Termination Analysis of Polynomial Probabilistic Programs",
+          "booktitle": "ESOP",
+          "year": "2021",
+          "pages": "491-518",
+          "ee": "https://doi.org/10.1007/978-3-030-72019-3_18",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Joost-Pieter Katoen",
+              "@pid": "k/JoostPieterKatoen"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fase/KovacsV09",
+          "title": "Finding Loop Invariants for Programs over Arrays Using a Theorem Prover",
+          "booktitle": "FASE",
+          "year": "2009",
+          "pages": "470-485",
+          "ee": "https://doi.org/10.1007/978-3-642-00593-0_33",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fm/Kovacs23",
+          "title": "Symbolic Computation in Automated Program Reasoning",
+          "booktitle": "FM",
+          "year": "2023",
+          "pages": "3-9",
+          "ee": "https://doi.org/10.1007/978-3-031-27481-7_1",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fm/MoosbruggerBKK21",
+          "title": "The Probabilistic Termination Tool Amber",
+          "booktitle": "FM",
+          "year": "2021",
+          "pages": "667-675",
+          "ee": "https://doi.org/10.1007/978-3-030-90870-6_36",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Joost-Pieter Katoen",
+              "@pid": "k/JoostPieterKatoen"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/BartheEGGKM19",
+          "title": "Verifying Relational Properties using Trace Logic",
+          "booktitle": "FMCAD",
+          "year": "2019",
+          "pages": "170-178",
+          "ee": "https://doi.org/10.23919/FMCAD.2019.8894277",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Gilles Barthe",
+              "@pid": "b/GBarthe"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            },
+            {
+              "#text": "Renate Eilers",
+              "@pid": "229/9275"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/GeorgiouGBRKR22",
+          "title": "The Rapid Software Verification Framework",
+          "booktitle": "FMCAD",
+          "year": "2022",
+          "pages": "255-260",
+          "ee": "https://doi.org/10.34727/2022/ISBN.978-3-85448-053-2_32",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/GeorgiouGK20",
+          "title": "Trace Logic for Inductive Loop Reasoning",
+          "booktitle": "FMCAD",
+          "year": "2020",
+          "pages": "255-263",
+          "ee": "https://doi.org/10.34727/2020/ISBN.978-3-85448-042-6_33",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/HajduHKV21",
+          "title": "Induction with Recursive Definitions in Superposition",
+          "booktitle": "FMCAD",
+          "year": "2021",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.34727/2021/ISBN.978-3-85448-046-4_34",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/RathBK22",
+          "title": "First-Order Subsumption via SAT Solving",
+          "booktitle": "FMCAD",
+          "year": "2022",
+          "pages": "160-169",
+          "ee": "https://doi.org/10.34727/2022/ISBN.978-3-85448-053-2_22",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fscd/Kovacs26",
+          "title": "Saturation-Guided Inductive Synthesis (Invited Talk)",
+          "booktitle": "FSCD",
+          "year": "2026",
+          "pages": "2:1-2:3",
+          "ee": "https://doi.org/10.4230/LIPICS.FSCD.2026.2",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gcai/KotelnikovK0V16",
+          "title": "A Clausal Normal Form Translation for FOOL",
+          "booktitle": "GCAI",
+          "year": "2016",
+          "pages": "53-71",
+          "ee": "https://doi.org/10.29007/LTKK",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hvc/ClaessenKKL17",
+          "title": "A Supervisory Control Algorithm Based on Property-Directed Reachability",
+          "booktitle": "Haifa Verification Conference",
+          "year": "2017",
+          "pages": "115-130",
+          "ee": "https://doi.org/10.1007/978-3-319-70389-3_8",
+          "author": [
+            {
+              "#text": "Bengt Lennartson",
+              "@pid": "17/3343"
+            },
+            {
+              "#text": "Jonatan Kilhamn",
+              "@pid": "208/4582"
+            },
+            {
+              "#text": "Koen Claessen",
+              "@pid": "74/2610"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hvc/ShoaeiKL14",
+          "title": "Supervisory Control of Discrete-Event Systems via IC3",
+          "booktitle": "Haifa Verification Conference",
+          "year": "2014",
+          "pages": "252-266",
+          "ee": "https://doi.org/10.1007/978-3-319-13338-6_19",
+          "author": [
+            {
+              "#text": "Bengt Lennartson",
+              "@pid": "17/3343"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Mohammad Reza Shoaei",
+              "@pid": "34/10385"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse-formalise/KingKK25",
+          "title": "Llm-Based Generation of Weakest Preconditions and Precise Array Invariants",
+          "booktitle": "FormaliSE",
+          "year": "2025",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/FORMALISE66629.2025.00016",
+          "author": [
+            {
+              "#text": "Daragh King",
+              "@pid": "381/5372"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Vasileios Koutavas",
+              "@pid": "82/544"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ictac/BartocciKS20",
+          "title": "Analysis of Bayesian Networks via Prob-Solvable Loops",
+          "booktitle": "ICTAC",
+          "year": "2020",
+          "pages": "221-241",
+          "ee": "https://doi.org/10.1007/978-3-030-64276-1_12",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifm/GleissKS19",
+          "title": "Interactive Visualization of Saturation Attempts in Vampire",
+          "booktitle": "IFM",
+          "year": "2019",
+          "pages": "504-513",
+          "ee": "https://doi.org/10.1007/978-3-030-34968-4_28",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lena Schnedlitz",
+              "@pid": "253/3970"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifm/HumenbergerBK20",
+          "title": "Algebra-Based Loop Synthesis",
+          "booktitle": "IFM",
+          "year": "2020",
+          "pages": "440-459",
+          "ee": "https://doi.org/10.1007/978-3-030-63461-2_24",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifm/Kovacs16",
+          "title": "Symbolic Computation and Automated Reasoning for Program Analysis",
+          "booktitle": "IFM",
+          "year": "2016",
+          "pages": "20-27",
+          "ee": "https://doi.org/10.1007/978-3-319-33693-0_2",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifm/MoosbruggerMK23",
+          "title": "Automated Sensitivity Analysis for Probabilistic Loops",
+          "booktitle": "iFM",
+          "year": "2024",
+          "pages": "21-39",
+          "ee": "https://doi.org/10.1007/978-3-031-47705-8_2",
+          "author": [
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifm/RainKRK25",
+          "title": "Game Modeling of Blockchain Protocols",
+          "booktitle": "iFM",
+          "year": "2026",
+          "pages": "359-377",
+          "ee": "https://doi.org/10.1007/978-3-032-10794-7_18",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcar/HaderKIGK24",
+          "title": "MCSat-Based Finite Field Reasoning in the Yices2 SMT Solver (Short Paper)",
+          "booktitle": "IJCAR (1)",
+          "year": "2024",
+          "pages": "386-395",
+          "ee": "https://doi.org/10.1007/978-3-031-63498-7_23",
+          "author": [
+            {
+              "#text": "Ahmed Irfan",
+              "@pid": "149/3835"
+            },
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Stéphane Lengrand",
+              "@pid": "03/6304"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcar/HajduHKW26",
+          "title": "Completeness of Synthesis Under Realizability Assumptions Using Superposition",
+          "booktitle": "IJCAR (1)",
+          "year": "2026",
+          "pages": "22-40",
+          "ee": "https://doi.org/10.1007/978-3-032-32589-1_2",
+          "author": [
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcar/HajduKRV24",
+          "title": "Reducibility Constraints in Superposition",
+          "booktitle": "IJCAR (1)",
+          "year": "2024",
+          "pages": "115-132",
+          "ee": "https://doi.org/10.1007/978-3-031-63498-7_8",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcar/HozzovaAHKVW24",
+          "title": "Synthesis of Recursive Programs in Saturation",
+          "booktitle": "IJCAR (1)",
+          "year": "2024",
+          "pages": "154-171",
+          "ee": "https://doi.org/10.1007/978-3-031-63498-7_10",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ijcar/KovacsHHV24",
+          "title": "Induction in Saturation",
+          "booktitle": "IJCAR (1)",
+          "year": "2024",
+          "pages": "21-29",
+          "ee": "https://doi.org/10.1007/978-3-031-63498-7_2",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isola/JebeleanKP04",
+          "title": "Experimental Program Verification in the Theorema System",
+          "booktitle": "ISoLA (Preliminary proceedings)",
+          "year": "2004",
+          "pages": "92-99",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj Popov",
+              "@pid": "46/453"
+            },
+            {
+              "#text": "Tudor Jebelean",
+              "@pid": "31/4122"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isola/KovacsPJ06",
+          "title": "Combining Logic and Algebraic Techniques for Program Verification in Theorema",
+          "booktitle": "ISoLA",
+          "year": "2006",
+          "pages": "67-74",
+          "ee": "https://doi.org/10.1109/ISOLA.2006.46",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj Popov",
+              "@pid": "46/453"
+            },
+            {
+              "#text": "Tudor Jebelean",
+              "@pid": "31/4122"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/issac/HumenbergerJK17",
+          "title": "Automated Generation of Non-Linear Loop Invariants Utilizing Hypergeometric Sequences",
+          "booktitle": "ISSAC",
+          "year": "2017",
+          "pages": "221-228",
+          "ee": "https://doi.org/10.1145/3087604.3087623",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/issac/KenisonKV23",
+          "title": "From Polynomial Invariants to Linear Loops",
+          "booktitle": "ISSAC",
+          "year": "2023",
+          "pages": "398-406",
+          "ee": "https://doi.org/10.1145/3597066.3597109",
+          "author": [
+            {
+              "#text": "Anton Varonka",
+              "@pid": "245/4089"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/issac/Kovacs23",
+          "title": "Algebra-Based Loop Analysis",
+          "booktitle": "ISSAC",
+          "year": "2023",
+          "pages": "41-42",
+          "ee": "https://doi.org/10.1145/3597066.3597150",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/issep/LandmanRKF23",
+          "title": "Reshaping Unplugged Computer Science Workshops for Primary School Education",
+          "booktitle": "ISSEP",
+          "year": "2023",
+          "pages": "139-151",
+          "ee": "https://doi.org/10.1007/978-3-031-44900-0_11",
+          "author": [
+            {
+              "#text": "Gerald Futschek",
+              "@pid": "f/GeraldFutschek"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martina Landman",
+              "@pid": "350/5412"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/itp/BodingbauerHKPR26",
+          "title": "Lean on Vampire Proofs (Short Paper)",
+          "booktitle": "ITP",
+          "year": "2026",
+          "pages": "36:1-36:9",
+          "ee": "https://doi.org/10.4230/LIPICS.ITP.2026.36",
+          "author": [
+            {
+              "#text": "Axel Polaczek",
+              "@pid": "433/1717"
+            },
+            {
+              "#text": "Jonas Bodingbauer",
+              "@pid": "433/1963"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/AhrendtKR15",
+          "title": "Reasoning About Loops Using Vampire in KeY",
+          "booktitle": "LPAR",
+          "year": "2015",
+          "pages": "434-443",
+          "ee": "https://doi.org/10.1007/978-3-662-48899-7_30",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            },
+            {
+              "#text": "Wolfgang Ahrendt",
+              "@pid": "91/1275"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/BhayatKKS23",
+          "title": "Refining Unification with Abstraction",
+          "booktitle": "LPAR",
+          "year": "2023",
+          "pages": "36-47",
+          "ee": "https://doi.org/10.29007/H65J",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Konstantin Korovin",
+              "@pid": "k/KonstantinKorovin"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/BlancGKK13",
+          "title": "Tree Interpolation in Vampire",
+          "booktitle": "LPAR",
+          "year": "2013",
+          "pages": "173-181",
+          "ee": "https://doi.org/10.1007/978-3-642-45221-5_13",
+          "author": [
+            {
+              "#text": "Ashutosh Gupta",
+              "@pid": "65/3925"
+            },
+            {
+              "#text": "Bernhard Kragl",
+              "@pid": "138/6924"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Régis Blanc",
+              "@pid": "37/8883"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/BlancHHK10",
+          "title": "ABC: Algebraic Bound Computation for Loops",
+          "booktitle": "LPAR (Dakar)",
+          "year": "2010",
+          "pages": "103-118",
+          "ee": "https://doi.org/10.1007/978-3-642-17511-4_7",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Régis Blanc",
+              "@pid": "37/8883"
+            },
+            {
+              "#text": "Thibaud Hottelier",
+              "@pid": "68/3297"
+            },
+            {
+              "#text": "Thomas A. Henzinger",
+              "@pid": "h/ThomasAHenzinger"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/GeorgiouHK24",
+          "title": "Saturating Sorting without Sorts",
+          "booktitle": "LPAR",
+          "year": "2024",
+          "pages": "88-105",
+          "ee": "https://doi.org/10.29007/RG9Z",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/GleissKR18",
+          "title": "Loop Analysis by Quantification over Iterations",
+          "booktitle": "LPAR",
+          "year": "2018",
+          "pages": "381-399",
+          "ee": "https://doi.org/10.29007/269P",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/HaderRK23",
+          "title": "SMT Solving over Finite Field Arithmetic",
+          "booktitle": "LPAR",
+          "year": "2023",
+          "pages": "238-256",
+          "ee": "https://doi.org/10.29007/4N6W",
+          "author": [
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/HajduK024",
+          "title": "Rewriting and Inductive Reasoning",
+          "booktitle": "LPAR",
+          "year": "2024",
+          "pages": "278-294",
+          "ee": "https://doi.org/10.29007/VBFP",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/HenzingerHK08",
+          "title": "Valigator: A Verification Tool with Bound and Invariant Generation",
+          "booktitle": "LPAR",
+          "year": "2008",
+          "pages": "333-342",
+          "ee": "https://doi.org/10.1007/978-3-540-89439-1_24",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thibaud Hottelier",
+              "@pid": "68/3297"
+            },
+            {
+              "#text": "Thomas A. Henzinger",
+              "@pid": "h/ThomasAHenzinger"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/HenzingerHKR10",
+          "title": "Aligators for Arrays (Tool Paper)",
+          "booktitle": "LPAR (Yogyakarta)",
+          "year": "2010",
+          "pages": "348-356",
+          "ee": "https://doi.org/10.1007/978-3-642-16242-8_25",
+          "author": [
+            {
+              "#text": "Andrey Rybalchenko",
+              "@pid": "r/AndreyRybalchenko"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thibaud Hottelier",
+              "@pid": "68/3297"
+            },
+            {
+              "#text": "Thomas A. Henzinger",
+              "@pid": "h/ThomasAHenzinger"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/KnoopKZ12",
+          "title": "r-TuBound: Loop Bounds for WCET Analysis (Tool Paper)",
+          "booktitle": "LPAR",
+          "year": "2012",
+          "pages": "435-444",
+          "ee": "https://doi.org/10.1007/978-3-642-28717-6_34",
+          "author": [
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/KovacsV17",
+          "title": "First-Order Interpolation and Interpolating Proof Systems",
+          "booktitle": "LPAR",
+          "year": "2017",
+          "pages": "49-64",
+          "ee": "https://doi.org/10.29007/1QB8",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/RainBKK024",
+          "title": "Scaling CheckMate for Game-Theoretic Security",
+          "booktitle": "LPAR",
+          "year": "2024",
+          "pages": "222-231",
+          "ee": "https://doi.org/10.29007/LLNQ",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lea Salome Brugger",
+              "@pid": "318/9924"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lpar/SchoisswohlKK24",
+          "title": "VIRAS: Conflict-Driven Quantifier Elimination for Integer-Real Arithmetic",
+          "booktitle": "LPAR",
+          "year": "2024",
+          "pages": "147-164",
+          "ee": "https://doi.org/10.29007/KG4V",
+          "author": [
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Konstantin Korovin",
+              "@pid": "k/KonstantinKorovin"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/Kovacs23",
+          "title": "Algebraic Reasoning for (Un)Solvable Loops (Invited Talk)",
+          "booktitle": "MFCS",
+          "year": "2023",
+          "pages": "4:1-4:2",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2023.4",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/micai/BiereDKV14",
+          "title": "Experimenting with SAT Solvers in Vampire",
+          "booktitle": "MICAI (1)",
+          "year": "2014",
+          "pages": "431-442",
+          "ee": "https://doi.org/10.1007/978-3-319-13647-9_39",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Ioan Dragan",
+              "@pid": "146/0280"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/micai/HoderKV11",
+          "title": "Case Studies on Invariant Generation Using a Saturation Theorem Prover",
+          "booktitle": "MICAI (1)",
+          "year": "2011",
+          "pages": "1-15",
+          "ee": "https://doi.org/10.1007/978-3-642-25324-9_1",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Krystof Hoder",
+              "@pid": "54/7401"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/micai/KovacsMV13",
+          "title": "The Inverse Method for Many-Valued Logics",
+          "booktitle": "MICAI (1)",
+          "year": "2013",
+          "pages": "12-23",
+          "ee": "https://doi.org/10.1007/978-3-642-45114-0_2",
+          "author": [
+            {
+              "#text": "Andrei Mantsivoda",
+              "@pid": "46/4372"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/micai/KovacsRS13",
+          "title": "A Parametric Interpolation Framework for First-Order Theories",
+          "booktitle": "MICAI (1)",
+          "year": "2013",
+          "pages": "24-40",
+          "ee": "https://doi.org/10.1007/978-3-642-45114-0_3",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Natasha Sharygina",
+              "@pid": "12/2269"
+            },
+            {
+              "#text": "Simone Rollini",
+              "@pid": "88/8857"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/BhayatGEKR22",
+          "title": "Lemmaless Induction in Trace Logic",
+          "booktitle": "CICM",
+          "year": "2022",
+          "pages": "191-208",
+          "ee": "https://doi.org/10.1007/978-3-031-16681-5_14",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/HajduHKSV20",
+          "title": "Induction with Generalization in Superposition Reasoning",
+          "booktitle": "CICM",
+          "year": "2020",
+          "pages": "123-137",
+          "ee": "https://doi.org/10.1007/978-3-030-53518-6_8",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/HajduHKSV21",
+          "title": "Inductive Benchmarks for Automated Reasoning",
+          "booktitle": "CICM",
+          "year": "2021",
+          "pages": "124-129",
+          "ee": "https://doi.org/10.1007/978-3-030-81097-9_9",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/HajduHKVWZ25",
+          "title": "Synthesis Benchmarks for Automated Reasoning",
+          "booktitle": "CICM",
+          "year": "2026",
+          "pages": "21-28",
+          "ee": "https://doi.org/10.1007/978-3-032-07021-0_2",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Richard Steven Zilincík",
+              "@pid": "413/7076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/HozzovaKR21",
+          "title": "Automated Generation of Exam Sheets for Automated Deduction",
+          "booktitle": "CICM",
+          "year": "2021",
+          "pages": "185-196",
+          "ee": "https://doi.org/10.1007/978-3-030-81097-9_15",
+          "author": [
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/HumenbergerJK18",
+          "title": "Aligator.jl - A Julia Package for Loop Invariant Generation",
+          "booktitle": "CICM",
+          "year": "2018",
+          "pages": "111-117",
+          "ee": "https://doi.org/10.1007/978-3-319-96812-4_10",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/KotelnikovKV15",
+          "title": "A First Class Boolean Sort in First-Order Theorem Proving and TPTP",
+          "booktitle": "CICM",
+          "year": "2015",
+          "pages": "71-86",
+          "ee": "https://doi.org/10.1007/978-3-319-20615-8_5",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mkm/KovacsLS20",
+          "title": "Formalizing Graph Trail Properties in Isabelle/HOL",
+          "booktitle": "CICM",
+          "year": "2020",
+          "pages": "190-205",
+          "ee": "https://doi.org/10.1007/978-3-030-53518-6_12",
+          "author": [
+            {
+              "#text": "Hanna Lachnitt",
+              "@pid": "270/6060"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/paar/HajduKRV22",
+          "title": "The Vampire Approach to Induction (short paper)",
+          "booktitle": "PAAR@IJCAR",
+          "year": "2022",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/popl/HoderKV12",
+          "title": "Playing in the grey area of proofs",
+          "booktitle": "POPL",
+          "year": "2012",
+          "pages": "259-272",
+          "ee": "https://doi.org/10.1145/2103656.2103689",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Krystof Hoder",
+              "@pid": "54/7401"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/popl/KovacsRV17",
+          "title": "Coming to terms with quantified reasoning",
+          "booktitle": "POPL",
+          "year": "2017",
+          "pages": "260-270",
+          "ee": "https://doi.org/10.1145/3093333.3009887",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qest/KarimiMSKBB22",
+          "title": "Distribution Estimation for Probabilistic Loops",
+          "booktitle": "QEST",
+          "year": "2022",
+          "pages": "26-42",
+          "ee": "https://doi.org/10.1007/978-3-031-16336-4_2",
+          "author": [
+            {
+              "#text": "Ahmad Karimi",
+              "@pid": "127/6736"
+            },
+            {
+              "#text": "Efstathia Bura",
+              "@pid": "05/2485"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qestformats/WinklerK25",
+          "title": "Positive Almost-Sure Termination of Polynomial Random Walks",
+          "booktitle": "QEST+FORMATS",
+          "year": "2026",
+          "pages": "275-292",
+          "ee": "https://doi.org/10.1007/978-3-032-05792-1_15",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lorenz Winkler",
+              "@pid": "405/8883"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/RelMiCS/KovacsV23",
+          "title": "What Else is Undecidable About Loops?",
+          "booktitle": "RAMiCS",
+          "year": "2023",
+          "pages": "176-193",
+          "ee": "https://doi.org/10.1007/978-3-031-28083-2_11",
+          "author": [
+            {
+              "#text": "Anton Varonka",
+              "@pid": "245/4089"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rtns/BonenfantCMKKZ12",
+          "title": "FFX: a portable WCET annotation language",
+          "booktitle": "RTNS",
+          "year": "2012",
+          "pages": "91-100",
+          "ee": "https://doi.org/10.1145/2392987.2392999",
+          "author": [
+            {
+              "#text": "Armelle Bonenfant",
+              "@pid": "61/6235"
+            },
+            {
+              "#text": "Hugues Cassé",
+              "@pid": "46/5584"
+            },
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marianne De Michiel",
+              "@pid": "05/320"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rtns/KnoopKZ13",
+          "title": "WCET squeezing: on-demand feasibility refinement for proven precise WCET-bounds",
+          "booktitle": "RTNS",
+          "year": "2013",
+          "pages": "161-170",
+          "ee": "https://doi.org/10.1145/2516821.2516847",
+          "author": [
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sas/AmrollahiBKKMS22",
+          "title": "Solving Invariant Generation for Unsolvable Loops",
+          "booktitle": "SAS",
+          "year": "2022",
+          "pages": "19-43",
+          "ee": "https://doi.org/10.1007/978-3-031-22308-2_3",
+          "author": [
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sat/CoutelierFK24",
+          "title": "Lazy Reimplication in Chronological Backtracking",
+          "booktitle": "SAT",
+          "year": "2024",
+          "pages": "9:1-9:19",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2024.9",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sat/CoutelierHK26",
+          "title": "Generalizing CDCL with Graph Backtracking",
+          "booktitle": "SAT",
+          "year": "2026",
+          "pages": "14:1-14:18",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2026.14",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sat/Kovacs26",
+          "title": "SAT in Saturation: A Satisfied Match (Invited Talk)",
+          "booktitle": "SAT",
+          "year": "2026",
+          "pages": "1:1-1:2",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2026.1",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smt/BjornerEK22",
+          "title": "User-Propagators for Custom Theories in SMT Solving",
+          "booktitle": "SMT",
+          "year": "2022",
+          "pages": "71-79",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smt/HaderK22",
+          "title": "An SMT Approach for Solving Polynomials over Finite Fields",
+          "booktitle": "SMT",
+          "year": "2022",
+          "pages": "90-98",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sp/JeanteurKMR24",
+          "title": "CryptoVampire: Automated Reasoning for the Complete Symbolic Attacker Cryptographic Model",
+          "booktitle": "SP",
+          "year": "2024",
+          "pages": "3165-3183",
+          "ee": "https://doi.org/10.1109/SP54263.2024.00246",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Simon Jeanteur",
+              "@pid": "348/0273"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/HitarthKKV24",
+          "title": "Linear Loop Synthesis for Quadratic Invariants",
+          "booktitle": "STACS",
+          "year": "2024",
+          "pages": "41:1-41:18",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2024.41",
+          "author": [
+            {
+              "#text": "Anton Varonka",
+              "@pid": "245/4089"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "S. Hitarth",
+              "@pid": "329/4136"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/Kovacs26",
+          "title": "Moments in Time: Algebraic Analysis for Solvable Loops (Invited Talk)",
+          "booktitle": "STACS",
+          "year": "2026",
+          "pages": "2:1-2:2",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2026.2",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/DamestaniK019",
+          "title": "Superposition Reasoning about Quantified Bitvector Formulas",
+          "booktitle": "SYNASC",
+          "year": "2019",
+          "pages": "95-99",
+          "ee": "https://doi.org/10.1109/SYNASC49474.2019.00022",
+          "author": [
+            {
+              "#text": "David Damestani",
+              "@pid": "262/7059"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/DraganKKV13",
+          "title": "Bound Propagation for Arithmetic Reasoning in Vampire",
+          "booktitle": "SYNASC",
+          "year": "2013",
+          "pages": "169-176",
+          "ee": "https://doi.org/10.1109/SYNASC.2013.30",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Ioan Dragan",
+              "@pid": "146/0280"
+            },
+            {
+              "#text": "Konstantin Korovin",
+              "@pid": "k/KonstantinKorovin"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/Kovacs11",
+          "title": "Symbol Elimination in Program Analysis",
+          "booktitle": "SYNASC",
+          "year": "2011",
+          "pages": "12",
+          "ee": "https://doi.org/10.1109/SYNASC.2011.60",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/KovacsJ05",
+          "title": "An Algorithm for Automated Generation of Invariants for Loops with Conditionals",
+          "booktitle": "SYNASC",
+          "year": "2005",
+          "pages": "245-249",
+          "ee": "https://doi.org/10.1109/SYNASC.2005.19",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Tudor Jebelean",
+              "@pid": "31/4122"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/KovacsPK12",
+          "title": "Solving Robust Glucose-Insulin Control by Dixon Resultant Computations",
+          "booktitle": "SYNASC",
+          "year": "2012",
+          "pages": "53-61",
+          "ee": "https://doi.org/10.1109/SYNASC.2012.54",
+          "author": [
+            {
+              "#text": "Béla Paláncz",
+              "@pid": "86/9"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/KovacsV09",
+          "title": "Finding Loop Invariants for Programs over Arrays Using a Theorem Prover",
+          "booktitle": "SYNASC",
+          "year": "2009",
+          "pages": "10",
+          "ee": "https://doi.org/10.1109/SYNASC.2009.66",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/synasc/KovasznaiGK19",
+          "title": "Portfolio SAT and SMT Solving of Cardinality Constraints in Sensor Network Optimization",
+          "booktitle": "SYNASC",
+          "year": "2019",
+          "pages": "85-91",
+          "ee": "https://doi.org/10.1109/SYNASC49474.2019.00021",
+          "author": [
+            {
+              "#text": "Gergely Kovásznai",
+              "@pid": "09/5156"
+            },
+            {
+              "#text": "Krisztián Gajdár",
+              "@pid": "262/7265"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tableaux/EisenhoferARK23",
+          "title": "Non-Classical Logics in Satisfiability Modulo Theories",
+          "booktitle": "TABLEAUX",
+          "year": "2023",
+          "pages": "24-36",
+          "ee": "https://doi.org/10.1007/978-3-031-43513-3_2",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Ruba Alassaf",
+              "@pid": "210/5126"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tableaux/EisenhoferRK25",
+          "title": "Finding Connections via Satisfiability Solving",
+          "booktitle": "TABLEAUX",
+          "year": "2026",
+          "pages": "82-102",
+          "ee": "https://doi.org/10.1007/978-3-032-06085-3_5",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tableaux/EisenhoferSBK25",
+          "title": "On Solving String Equations via Powers and Parikh Images",
+          "booktitle": "TABLEAUX",
+          "year": "2026",
+          "pages": "120-138",
+          "ee": "https://doi.org/10.1007/978-3-032-06085-3_7",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            },
+            {
+              "#text": "Theodor Seiser",
+              "@pid": "417/2308"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tableaux/RawsonEK25",
+          "title": "Constraint Learning for Non-confluent Proof Search",
+          "booktitle": "TABLEAUX",
+          "year": "2026",
+          "pages": "103-119",
+          "ee": "https://doi.org/10.1007/978-3-032-06085-3_6",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BartocciKS20",
+          "title": "Mora - Automatic Generation of Moment-Based Invariants",
+          "booktitle": "TACAS (1)",
+          "year": "2020",
+          "pages": "492-498",
+          "ee": "https://doi.org/10.1007/978-3-030-45190-5_28",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/HoderKV11",
+          "title": "Invariant Generation in Vampire",
+          "booktitle": "TACAS",
+          "year": "2011",
+          "pages": "60-64",
+          "ee": "https://doi.org/10.1007/978-3-642-19835-9_7",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Krystof Hoder",
+              "@pid": "54/7401"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/KorovinKRSV23",
+          "title": "ALASCA: Reasoning in Quantified Linear Arithmetic",
+          "booktitle": "TACAS (1)",
+          "year": "2023",
+          "pages": "647-665",
+          "ee": "https://doi.org/10.1007/978-3-031-30823-9_33",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Konstantin Korovin",
+              "@pid": "k/KonstantinKorovin"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/Kovacs08",
+          "title": "Reasoning Algebraically About P-Solvable Loops",
+          "booktitle": "TACAS",
+          "year": "2008",
+          "pages": "249-264",
+          "ee": "https://doi.org/10.1007/978-3-540-78800-3_18",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vmcai/BjornerEK23",
+          "title": "Satisfiability Modulo Custom Theories in Z3",
+          "booktitle": "VMCAI",
+          "year": "2023",
+          "pages": "91-105",
+          "ee": "https://doi.org/10.1007/978-3-031-24950-1_5",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vmcai/HenzingerHKV10",
+          "title": "Invariant and Type Inference for Matrices",
+          "booktitle": "VMCAI",
+          "year": "2010",
+          "pages": "163-179",
+          "ee": "https://doi.org/10.1007/978-3-642-11319-2_14",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thibaud Hottelier",
+              "@pid": "68/3297"
+            },
+            {
+              "#text": "Thomas A. Henzinger",
+              "@pid": "h/ThomasAHenzinger"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vmcai/HumenbergerJK18",
+          "title": "Invariant Generation for Multi-Path Loops with Polynomial Assignments",
+          "booktitle": "VMCAI",
+          "year": "2018",
+          "pages": "226-246",
+          "ee": "https://doi.org/10.1007/978-3-319-73721-8_11",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vmcai/HumenbergerK21",
+          "title": "Algebra-Based Synthesis of Loops and Their Invariants (Invited Paper)",
+          "booktitle": "VMCAI",
+          "year": "2021",
+          "pages": "17-28",
+          "ee": "https://doi.org/10.1007/978-3-030-67067-2_2",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vstte/RathEKBK24",
+          "title": "PolySAT: Word-level Bit-vector Reasoning in Z3",
+          "booktitle": "VSTTE",
+          "year": "2025",
+          "pages": "47-69",
+          "ee": "https://doi.org/10.1007/978-3-031-86695-1_4",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcet/BiereKKZ13",
+          "title": "The Auspicious Couple: Symbolic Execution and WCET Analysis",
+          "booktitle": "WCET",
+          "year": "2013",
+          "pages": "53-63",
+          "ee": "https://doi.org/10.4230/OASICS.WCET.2013.53",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/10/MoosbruggerSBK22",
+          "title": "This is the Moment for Probabilistic Loops - Artifact (Polar)",
+          "journal": "",
+          "year": "2022",
+          "ee": "https://doi.org/10.5281/ZENODO.6807521",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/10/MoosbruggerSBK22a",
+          "title": "This is the Moment for Probabilistic Loops - Artifact (Polar)",
+          "journal": "",
+          "year": "2022",
+          "ee": "https://doi.org/10.5281/ZENODO.6818551",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/10/MoosbruggerSBK22b",
+          "title": "This is the Moment for Probabilistic Loops - Artifact (Polar)",
+          "journal": "",
+          "year": "2022",
+          "ee": "https://doi.org/10.5281/ZENODO.6821589",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/10/MoosbruggerSBK22c",
+          "title": "This is the Moment for Probabilistic Loops - Artifact (Polar)",
+          "journal": "",
+          "year": "2022",
+          "ee": "https://doi.org/10.5281/ZENODO.7055030",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BartekBCHHHKRRRSSV25",
+          "title": "Vampire",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15205674",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Filip Bártek",
+              "@pid": "281/5411"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Matthias Hetzenberger",
+              "@pid": "409/8250"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BartekBCHHHKRRRSSV25a",
+          "title": "Vampire",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15207788",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Filip Bártek",
+              "@pid": "281/5411"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Matthias Hetzenberger",
+              "@pid": "409/8250"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/HozzovaHKWZV25",
+          "title": "Synthesis Benchmarks for Automated Reasoning",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.16967257",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Richard Steven Zilincík",
+              "@pid": "413/7076"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/RainKRK25",
+          "title": "Game Modeling of Blockchain Protocols - artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.16925288",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/WinklerK25",
+          "title": "QEST+FORMATS 2025 artifact: Positive Almost-Sure Termination of Polynomial Random Walks",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15256102",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lorenz Winkler",
+              "@pid": "405/8883"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/WinklerK25a",
+          "title": "QEST+FORMATS 2025 artifact: Positive Almost-Sure Termination of Polynomial Random Walks",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15257958",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lorenz Winkler",
+              "@pid": "405/8883"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/KovacsP26",
+          "title": "Thousands of Problems to Lean",
+          "journal": "",
+          "year": "2026",
+          "ee": "https://doi.org/10.5281/ZENODO.20679549",
+          "author": [
+            {
+              "#text": "Axel Polaczek",
+              "@pid": "433/1717"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amai/SchreckIK19",
+          "title": "Foreword - Formalization of geometry, automated and interactive geometric reasoning",
+          "journal": "Ann. Math. Artif. Intell.",
+          "year": "2019",
+          "pages": "71-72",
+          "ee": "https://doi.org/10.1007/S10472-019-9617-2",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Pascal Schreck",
+              "@pid": "73/670"
+            },
+            {
+              "#text": "Tetsuo Ida",
+              "@pid": "i/TetsuoIda"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1711-02503",
+          "title": "Splitting Proofs for Interpolation",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1711.02503",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1711-06501",
+          "title": "A Supervisory Control Algorithm Based on Property-Directed Reachability",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1711.06501",
+          "author": [
+            {
+              "#text": "Bengt Lennartson",
+              "@pid": "17/3343"
+            },
+            {
+              "#text": "Jonatan Kilhamn",
+              "@pid": "208/4582"
+            },
+            {
+              "#text": "Koen Claessen",
+              "@pid": "74/2610"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1801-03967",
+          "title": "Invariant Generation for Multi-Path Loops with Polynomial Assignments",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1801.03967",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1808-05394",
+          "title": "Aligator.jl - A Julia Package for Loop Invariant Generation",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1808.05394",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-02835",
+          "title": "Automatic Generation of Moment-Based Invariants for Prob-Solvable Loops",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.02835",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-08747",
+          "title": "Lonely Points in Simplices",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.08747",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Manuel Kauers",
+              "@pid": "k/ManuelKauers"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1906-09899",
+          "title": "Verifying Relational Properties using Trace Logic",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1906.09899",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Gilles Barthe",
+              "@pid": "b/GBarthe"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            },
+            {
+              "#text": "Renate Eilers",
+              "@pid": "229/9275"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2001-04100",
+          "title": "Interactive Visualization of Saturation Attempts in Vampire",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.04100",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lena Schnedlitz",
+              "@pid": "253/3970"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2001-10213",
+          "title": "Subsumption Demodulation in First-Order Theorem Proving",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.10213",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2004-11787",
+          "title": "Algebra-based Loop Synthesis",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.11787",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-09450",
+          "title": "Analysis of Bayesian Networks via Prob-Solvable Loops",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.09450",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2008-01387",
+          "title": "Trace Logic for Inductive Loop Reasoning",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2008.01387",
+          "author": [
+            {
+              "#text": "Bernhard Gleiss",
+              "@pid": "202/7764"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-03444",
+          "title": "Automated Termination Analysis of Polynomial Probabilistic Programs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.03444",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Joost-Pieter Katoen",
+              "@pid": "k/JoostPieterKatoen"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-03599",
+          "title": "Algebra-based Synthesis of Loops and their Invariants (Invited Paper)",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.03599",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-03607",
+          "title": "Formalizing Graph Trail Properties in Isabelle/HOL",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.03607",
+          "author": [
+            {
+              "#text": "Hanna Lachnitt",
+              "@pid": "270/6060"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-03908",
+          "title": "MORA - Automatic Generation of Moment-Based Invariants",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.03908",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2105-07663",
+          "title": "Summing Up Smart Transitions",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2105.07663",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Neil Immerman",
+              "@pid": "i/NeilImmerman"
+            },
+            {
+              "#text": "Neta Elad",
+              "@pid": "292/8081"
+            },
+            {
+              "#text": "Shmuel Sagiv",
+              "@pid": "s/SSagiv"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2106-05066",
+          "title": "Automating Induction by Reflection",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2106.05066",
+          "author": [
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/abs-2107-07669",
+          "title": "Automating Induction by Reflection",
+          "booktitle": "LFMTP",
+          "year": "2021",
+          "pages": "39-54",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.07669",
+          "author": [
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2107-13072",
+          "title": "The Probabilistic Termination Tool Amber",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.13072",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Joost-Pieter Katoen",
+              "@pid": "k/JoostPieterKatoen"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2109-07429",
+          "title": "Towards a Game-Theoretic Security Analysis of Off-Chain Protocols",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2109.07429",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            },
+            {
+              "#text": "Zeta Avarikioti",
+              "@pid": "183/6375"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-07185",
+          "title": "This is the Moment for Probabilistic Loops",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.07185",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2206-06943",
+          "title": "Solving Invariant Generation for Unsolvable Loops",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.06943",
+          "author": [
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2206-11495",
+          "title": "Algebra-Based Reasoning for Loop Synthesis",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.11495",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-06323",
+          "title": "From Polynomial Invariants to Linear Loops",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.06323",
+          "author": [
+            {
+              "#text": "Anton Varonka",
+              "@pid": "245/4089"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-00028",
+          "title": "SMT Solving over Finite Field Arithmetic",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.00028",
+          "author": [
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-12173",
+          "title": "CryptoVampire: Automated Reasoning for the Complete Symbolic Attacker Cryptographic Model",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.12173",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Simon Jeanteur",
+              "@pid": "348/0273"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2305-15259",
+          "title": "Automated Sensitivity Analysis for Probabilistic Loops",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2305.15259",
+          "author": [
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2306-01597",
+          "title": "(Un)Solvable Loop Analysis",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.01597",
+          "author": [
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2307-10902",
+          "title": "Strong Invariants Are Hard: On the Hardness of Strongest Polynomial Invariants for (Probabilistic) Programs",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.10902",
+          "author": [
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-05120",
+          "title": "Linear Loop Synthesis for Quadratic Invariants",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.05120",
+          "author": [
+            {
+              "#text": "Anton Varonka",
+              "@pid": "245/4089"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "S. Hitarth",
+              "@pid": "329/4136"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2401-17832",
+          "title": "SAT-Based Subsumption Resolution",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2401.17832",
+          "author": [
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-10610",
+          "title": "Spanning Matrices via Satisfiability Solving",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.10610",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-17927",
+          "title": "MCSat-based Finite Field Reasoning in the Yices2 SMT Solver",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.17927",
+          "author": [
+            {
+              "#text": "Ahmed Irfan",
+              "@pid": "149/3835"
+            },
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Stéphane Lengrand",
+              "@pid": "03/6304"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-18954",
+          "title": "Getting Saturated with Induction",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.18954",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-18962",
+          "title": "Program Synthesis in Saturation",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.18962",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Chase Norman",
+              "@pid": "303/3066"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2402-19199",
+          "title": "Rewriting and Inductive Reasoning",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.19199",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2403-03712",
+          "title": "Saturating Sorting without Sorts",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.03712",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Pamina Georgiou",
+              "@pid": "243/5762"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2403-10310",
+          "title": "Scaling Game-Theoretic Security Reasoning",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.10310",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lea Salome Brugger",
+              "@pid": "318/9924"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-04696",
+          "title": "PolySAT: Word-level Bit-vector Reasoning in Z3",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.04696",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2412-16058",
+          "title": "SAT Solving for Variants of First-Order Subsumption",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2412.16058",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-07457",
+          "title": "Lazy Reimplication in Chronological Backtracking",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.07457",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-19575",
+          "title": "Positive Almost-Sure Termination of Polynomial Random Walks",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.19575",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lorenz Winkler",
+              "@pid": "405/8883"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-22181",
+          "title": "Term Ordering Diagrams",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.22181",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-22213",
+          "title": "Partial Redundancy in Saturation",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.22213",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-03030",
+          "title": "The Vampire Diary",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.03030",
+          "author": [
+            {
+              "#text": "Ahmed Bhayat",
+              "@pid": "231/8207"
+            },
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Filip Bártek",
+              "@pid": "281/5411"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Johannes Schoisswohl",
+              "@pid": "270/6026"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Suda",
+              "@pid": "24/5175-1"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Matthias Hetzenberger",
+              "@pid": "409/8250"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-05272",
+          "title": "FuzzFeed: An Automatic Approach to Weakest Precondition Generation using LLMs and Fuzzing",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.05272",
+          "author": [
+            {
+              "#text": "Daragh King",
+              "@pid": "381/5372"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Vasileios Koutavas",
+              "@pid": "82/544"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2507-19827",
+          "title": "Synthesis Benchmarks for Automated Reasoning",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2507.19827",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            },
+            {
+              "#text": "Richard Steven Zilincík",
+              "@pid": "413/7076"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-15816",
+          "title": "A Neurosymbolic Approach to Loop Invariant Generation via Weakest Precondition Reasoning",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.15816",
+          "author": [
+            {
+              "#text": "Daragh King",
+              "@pid": "381/5372"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Vasileios Koutavas",
+              "@pid": "82/544"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-14573",
+          "title": "Polar: An Algebraic Analyzer for (Probabilistic) Loops",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.14573",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-05258",
+          "title": "Constraint Learning for Non-confluent Proof Search",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.05258",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-05273",
+          "title": "On Solving String Equations via Powers and Parikh Images",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.05273",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            },
+            {
+              "#text": "Theodor Seiser",
+              "@pid": "417/2308"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-06345",
+          "title": "Finding Connections via Satisfiability Solving",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.06345",
+          "author": [
+            {
+              "#text": "Clemens Eisenhofer",
+              "@pid": "313/2473"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-26342",
+          "title": "Lean on Vampire Proofs (Short Paper)",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.26342",
+          "author": [
+            {
+              "#text": "Axel Polaczek",
+              "@pid": "433/1717"
+            },
+            {
+              "#text": "Jonas Bodingbauer",
+              "@pid": "433/1963"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-19683",
+          "title": "Completeness of Synthesis under Realizability Assumptions using Superposition",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.19683",
+          "author": [
+            {
+              "#text": "Eva Maria Wagner",
+              "@pid": "381/0054"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Márton Hajdú",
+              "@pid": "270/6061"
+            },
+            {
+              "#text": "Petra Hozzová",
+              "@pid": "270/6036"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-28220",
+          "title": "Generalizing CDCL with Graph Backtracking",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.28220",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2607-03777",
+          "title": "A Modern View on MCSat",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.03777",
+          "author": [
+            {
+              "#text": "Daniela Kaufmann",
+              "@pid": "208/7313"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Theo Jauschneg",
+              "@pid": "442/4561"
+            },
+            {
+              "#text": "Thomas Hader",
+              "@pid": "327/1815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-02446",
+          "title": "Polynomial Invariants for Probabilistic Transition Systems with Unbounded Support",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.02446",
+          "author": [
+            {
+              "#text": "Anne Schreuder",
+              "@pid": "251/9098"
+            },
+            {
+              "#text": "C.-H. Luke Ong",
+              "@pid": "o/CHLukeOng"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Lorenz Winkler",
+              "@pid": "405/8883"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HumenbergerJK17",
+          "title": "Automated Generation of Non-Linear Loop Invariants Utilizing Hypergeometric Sequences",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1705.02863",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KotelnikovKRV15",
+          "title": "The Vampire and the FOOL",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1510.04821",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Giles Reger",
+              "@pid": "118/0099"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KotelnikovKV15",
+          "title": "A First Class Boolean Sort in First-Order Theorem Proving and TPTP",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1505.01682",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Evgenii Kotelnikov",
+              "@pid": "39/11063"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Kovacs17",
+          "title": "Symbolic Computation and Automated Reasoning for Program Analysis",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1704.03202",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KovacsRV16",
+          "title": "Coming to Terms with Quantified Reasoning",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.02908",
+          "author": [
+            {
+              "#text": "Andrei Voronkov",
+              "@pid": "v/AndreiVoronkov"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Simon Robillard",
+              "@pid": "145/9554"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/BeyersdorffKMSK24",
+          "title": "SAT and Interactions (Dagstuhl Seminar 24421)",
+          "journal": "Dagstuhl Reports",
+          "year": "2024",
+          "pages": "22-38",
+          "ee": "https://doi.org/10.4230/DAGREP.14.10.22",
+          "author": [
+            {
+              "#text": "Kaspar Kasche",
+              "@pid": "370/0166"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martina Seidl",
+              "@pid": "75/2935"
+            },
+            {
+              "#text": "Meena Mahajan",
+              "@pid": "72/1636"
+            },
+            {
+              "#text": "Olaf Beyersdorff",
+              "@pid": "91/2292"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/BjornerCKM12",
+          "title": "Games and Decisions for Rigorous Systems Engineering (Dagstuhl Seminar 12461)",
+          "journal": "Dagstuhl Reports",
+          "year": "2012",
+          "pages": "45-65",
+          "ee": "https://doi.org/10.4230/DAGREP.2.11.45",
+          "author": [
+            {
+              "#text": "Krishnendu Chatterjee",
+              "@pid": "92/5602"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            },
+            {
+              "#text": "Rupak Majumdar",
+              "@pid": "71/1981"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/JaroschekKK23",
+          "title": "Lonely Points in Simplices",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2023",
+          "pages": "4-25",
+          "ee": "https://doi.org/10.1007/S00454-022-00428-2",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Manuel Kauers",
+              "@pid": "k/ManuelKauers"
+            },
+            {
+              "#text": "Maximilian Jaroschek",
+              "@pid": "125/1968"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/Kovacs14",
+          "title": "Symbol Elimination for Automated Generation of Program Properties",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2014",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.70.974",
+          "author": {
+            "#text": "Laura Kovács",
+            "@pid": "k/LauraKovacs"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fac/HumenbergerABK22",
+          "title": "Algebra-Based Reasoning for Loop Synthesis",
+          "journal": "Formal Aspects Comput.",
+          "year": "2022",
+          "pages": "1-31",
+          "ee": "https://doi.org/10.1145/3527458",
+          "author": [
+            {
+              "#text": "Andreas Humenberger",
+              "@pid": "181/7377"
+            },
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fac/KosmatovK26",
+          "title": "Introduction to the Special Collection on iFM 2024",
+          "journal": "Formal Aspects Comput.",
+          "year": "2026",
+          "pages": "14:1-14:2",
+          "ee": "https://doi.org/10.1145/3816002",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolai Kosmatov",
+              "@pid": "98/3847"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fmsd/AmrollahiBKKMS25",
+          "title": "(Un)Solvable loop analysis",
+          "journal": "Formal Methods Syst. Des.",
+          "year": "2025",
+          "pages": "163-194",
+          "ee": "https://doi.org/10.1007/S10703-024-00455-0",
+          "author": [
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fmsd/AmrollahiBKKMS25a",
+          "title": "Correction: (Un)Solvable loop analysis",
+          "journal": "Formal Methods Syst. Des.",
+          "year": "2025",
+          "pages": "373-374",
+          "ee": "https://doi.org/10.1007/S10703-024-00465-Y",
+          "author": [
+            {
+              "#text": "Daneshvar Amrollahi",
+              "@pid": "322/5092"
+            },
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "George Kenison",
+              "@pid": "267/5393"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fmsd/CoutelierRRBK25",
+          "title": "SAT solving for variants of first-order subsumption",
+          "journal": "Formal Methods Syst. Des.",
+          "year": "2025",
+          "pages": "27-70",
+          "ee": "https://doi.org/10.1007/S10703-024-00454-1",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Jakob Rath",
+              "@pid": "192/5995"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Robin Coutelier",
+              "@pid": "356/2135"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fmsd/MoosbruggerBKK22",
+          "title": "The probabilistic termination tool amber",
+          "journal": "Formal Methods Syst. Des.",
+          "year": "2022",
+          "pages": "90-109",
+          "ee": "https://doi.org/10.1007/S10703-023-00424-Z",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Joost-Pieter Katoen",
+              "@pid": "k/JoostPieterKatoen"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JeanteurKMR24",
+          "title": "CryptoVampire: Automated Reasoning for the Complete Symbolic Attacker Cryptographic Model",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2024",
+          "pages": "534",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Matteo Maffei",
+              "@pid": "25/3571"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Simon Jeanteur",
+              "@pid": "348/0273"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/japll/BuchbergerCJKKNPPRR06",
+          "title": "Theorema: Towards computer-aided mathematical theory exploration",
+          "journal": "J. Appl. Log.",
+          "year": "2006",
+          "pages": "470-504",
+          "ee": "https://doi.org/10.1016/J.JAL.2005.10.006",
+          "author": [
+            {
+              "#text": "Adrian Craciun",
+              "@pid": "86/1778"
+            },
+            {
+              "#text": "Bruno Buchberger",
+              "@pid": "80/4001"
+            },
+            {
+              "#text": "Florina Piroi",
+              "@pid": "52/1991"
+            },
+            {
+              "#text": "Judit Robu",
+              "@pid": "99/1808"
+            },
+            {
+              "#text": "Koji Nakagawa",
+              "@pid": "19/2210"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Markus Rosenkranz",
+              "@pid": "54/5063"
+            },
+            {
+              "#text": "Nikolaj Popov",
+              "@pid": "46/453"
+            },
+            {
+              "#text": "Temur Kutsia",
+              "@pid": "k/TemurKutsia"
+            },
+            {
+              "#text": "Tudor Jebelean",
+              "@pid": "31/4122"
+            },
+            {
+              "#text": "Wolfgang Windsteiger",
+              "@pid": "50/2144"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/japll/KovacsK12",
+          "title": "Special issue on Automated Specification and Verification of Web Systems",
+          "journal": "J. Appl. Log.",
+          "year": "2012",
+          "pages": "1",
+          "ee": "https://doi.org/10.1016/J.JAL.2011.11.001",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Temur Kutsia",
+              "@pid": "k/TemurKutsia"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jlp/KovacsPST13",
+          "title": "Special issue on Automated Specification and Verification of Web Systems",
+          "journal": "J. Log. Algebraic Methods Program.",
+          "year": "2013",
+          "pages": "241-242",
+          "ee": "https://doi.org/10.1016/J.JLAP.2013.05.007",
+          "author": [
+            {
+              "#text": "Francesco Tiezzi",
+              "@pid": "80/4174-1"
+            },
+            {
+              "#text": "Josep Silva",
+              "@pid": "27/409"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Rosario Pugliese",
+              "@pid": "p/RosarioPugliese"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsc/BjornerK12",
+          "title": "Foreword",
+          "journal": "J. Symb. Comput.",
+          "year": "2012",
+          "pages": "1413-1415",
+          "ee": "https://doi.org/10.1016/J.JSC.2011.12.047",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsc/BouhoulaBKK15",
+          "title": "Special issue on symbolic computation in software science",
+          "journal": "J. Symb. Comput.",
+          "year": "2015",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1016/J.JSC.2014.09.027",
+          "author": [
+            {
+              "#text": "Adel Bouhoula",
+              "@pid": "56/4435"
+            },
+            {
+              "#text": "Bruno Buchberger",
+              "@pid": "80/4001"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Temur Kutsia",
+              "@pid": "k/TemurKutsia"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsc/GieseIK10",
+          "title": "Introduction",
+          "journal": "J. Symb. Comput.",
+          "year": "2010",
+          "pages": "1097-1100",
+          "ee": "https://doi.org/10.1016/J.JSC.2010.06.002",
+          "author": [
+            {
+              "#text": "Andrew Ireland",
+              "@pid": "54/4624"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Martin Giese",
+              "@pid": "g/MartinGiese"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsc/KnoopKZ17",
+          "title": "Replacing conjectures by positive knowledge: Inferring proven precise worst-case execution time bounds using symbolic execution",
+          "journal": "J. Symb. Comput.",
+          "year": "2017",
+          "pages": "101-124",
+          "ee": "https://doi.org/10.1016/J.JSC.2016.07.023",
+          "author": [
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Jens Knoop",
+              "@pid": "k/JensKnoop"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mics/DavenportKZ19",
+          "title": "Foreword",
+          "journal": "Math. Comput. Sci.",
+          "year": "2019",
+          "pages": "459-460",
+          "ee": "https://doi.org/10.1007/S11786-019-00411-W",
+          "author": [
+            {
+              "#text": "Daniela Zaharie",
+              "@pid": "z/DanielaZaharie"
+            },
+            {
+              "#text": "James H. Davenport",
+              "@pid": "28/1296"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pacmpl/BocevskaKKR025",
+          "title": "Divide and Conquer: A Compositional Approach to Game-Theoretic Security",
+          "journal": "Proc. ACM Program. Lang.",
+          "year": "2025",
+          "pages": "1949-1973",
+          "ee": "https://doi.org/10.1145/3763120",
+          "author": [
+            {
+              "#text": "Anja Petkovic Komel",
+              "@pid": "319/2410"
+            },
+            {
+              "#text": "Ivana Bocevska",
+              "@pid": "426/2399"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Michael Rawson",
+              "@pid": "203/2360-1"
+            },
+            {
+              "#text": "Sophie Rain",
+              "@pid": "292/7625"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pacmpl/MoosbruggerSBK22",
+          "title": "This is the moment for probabilistic loops",
+          "journal": "Proc. ACM Program. Lang.",
+          "year": "2022",
+          "pages": "1497-1525",
+          "ee": "https://doi.org/10.1145/3563341",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pacmpl/MullnerMK24",
+          "title": "Strong Invariants Are Hard: On the Hardness of Strongest Polynomial Invariants for (Probabilistic) Programs",
+          "journal": "Proc. ACM Program. Lang.",
+          "year": "2024",
+          "pages": "882-910",
+          "ee": "https://doi.org/10.1145/3632872",
+          "author": [
+            {
+              "#text": "Julian Müllner",
+              "@pid": "348/5288"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Marcel Moosbrugger",
+              "@pid": "276/0643"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sttt/KingKK26",
+          "title": "LLMs and fuzzing in tandem: a new approach to automatically generating weakest preconditions",
+          "journal": "Int. J. Softw. Tools Technol. Transf.",
+          "year": "2026",
+          "pages": "317-328",
+          "ee": "https://doi.org/10.1007/S10009-026-00844-2",
+          "author": [
+            {
+              "#text": "Daragh King",
+              "@pid": "381/5372"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Vasileios Koutavas",
+              "@pid": "82/544"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/StankovicBK22",
+          "title": "Moment-based analysis of Bayesian network properties",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2022",
+          "pages": "113-133",
+          "ee": "https://doi.org/10.1016/J.TCS.2021.12.021",
+          "author": [
+            {
+              "#text": "Ezio Bartocci",
+              "@pid": "b/EzioBartocci"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Miroslav Stankovic",
+              "@pid": "241/5425"
+            }
+          ]
+        }
       }
     ]
   }

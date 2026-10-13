@@ -1,1862 +1,3099 @@
 {
   "dblpperson": {
+    "@name": "Tillmann Miltzow",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/nips/BertschingerHJM23",
-        "title": "Training Fully Connected Neural Networks is ∃R-Complete.",
-        "year": "2023",
-        "booktitle": "NeurIPS",
-        "ee": "http://papers.nips.cc/paper_files/paper/2023/hash/71c31ebf577ffdad5f4a74156daad518-Abstract-Conference.html",
-        "url": "db/conf/nips/neurips2023.html#BertschingerHJM23",
-        "authors": [
-          "Daniel Bertschinger",
-          "Christoph Hertrich",
-          "Paul Jungeblut",
-          "Tillmann Miltzow",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/nips/AbrahamsenKM21",
-        "title": "Training Neural Networks is ER-complete.",
-        "pages": "18293-18306",
-        "year": "2021",
-        "booktitle": "NeurIPS",
-        "ee": "https://proceedings.neurips.cc/paper/2021/hash/9813b270ed0288e7c0388f0fd4ec68f5-Abstract.html",
-        "url": "db/conf/nips/neurips2021.html#AbrahamsenKM21",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mfcs/KirnMMB26",
-        "title": "On Equivalent Characterizations of the Polynomial Hierarchy in Abstract Models of Computation.",
-        "pages": "63:1-63:17",
-        "year": "2026",
-        "booktitle": "MFCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.MFCS.2026.63",
-        "url": "db/conf/mfcs/mfcs2026.html#KirnMMB26",
-        "authors": [
-          "Jeremy C. Kirn",
-          "Lucas Meijer",
-          "Tillmann Miltzow",
-          "Hans L. Bodlaender"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mfcs/HoffmannKM15",
-        "title": "Upper and Lower Bounds on Long Dual Paths in Line Arrangements.",
-        "pages": "407-419",
-        "year": "2015",
-        "booktitle": "MFCS (2)",
-        "ee": "https://doi.org/10.1007/978-3-662-48054-0_34",
-        "url": "db/conf/mfcs/mfcs2015-2.html#HoffmannKM15",
-        "authors": [
-          "Udo Hoffmann",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/MiltzowNORTU16",
-        "title": "Approximation and Hardness of Token Swapping.",
-        "pages": "66:1-66:15",
-        "year": "2016",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.4230/LIPIcs.ESA.2016.66",
-        "url": "db/conf/esa/esa2016.html#MiltzowNORTU16",
-        "authors": [
-          "Tillmann Miltzow",
-          "Lothar Narins",
-          "Yoshio Okamoto",
-          "GÃ¼nter Rote",
-          "Antonis Thomas",
-          "Takeaki Uno"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/HoffmannKM14",
-        "title": "Halving Balls in Deterministic Linear Time.",
-        "pages": "566-578",
-        "year": "2014",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.1007/978-3-662-44777-2_47",
-        "url": "db/conf/esa/esa2014.html#HoffmannKM14",
-        "authors": [
-          "Michael Hoffmann 0001",
-          "Vincent Kusters",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esa/BonnetM16",
-        "title": "Parameterized Hardness of Art Gallery Problems.",
-        "pages": "19:1-19:17",
-        "year": "2016",
-        "booktitle": "ESA",
-        "ee": "https://doi.org/10.4230/LIPIcs.ESA.2016.19",
-        "url": "db/conf/esa/esa2016.html#BonnetM16",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/gd/LubiwMM18",
-        "title": "The Complexity of Drawing a Graph in a Polygonal Region.",
-        "pages": "387-401",
-        "year": "2018",
-        "booktitle": "GD",
-        "ee": "https://doi.org/10.1007/978-3-030-04414-5_28",
-        "url": "db/conf/gd/gd2018.html#LubiwMM18",
-        "authors": [
-          "Anna Lubiw",
-          "Tillmann Miltzow",
-          "Debajyoti Mondal"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/gd/BertschingerMKMW23",
-        "title": "The Complexity of Recognizing Geometric Hypergraphs.",
-        "pages": "163-179",
-        "year": "2023",
-        "booktitle": "GD (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-49272-3_12",
-        "url": "db/conf/gd/gd2023-1.html#BertschingerMKMW23",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fsttcs/AgrawalBBBCMM0019",
-        "title": "Parameterized Streaming Algorithms for Min-Ones d-SAT.",
-        "pages": "8:1-8:20",
-        "year": "2019",
-        "booktitle": "FSTTCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.FSTTCS.2019.8",
-        "url": "db/conf/fsttcs/fsttcs2019.html#AgrawalBBBCMM0019",
-        "authors": [
-          "Akanksha Agrawal 0001",
-          "Arindam Biswas 0001",
-          "Ãdouard Bonnet",
-          "Nick Brettell",
-          "Radu Curticapean",
-          "DÃ¡niel Marx",
-          "Tillmann Miltzow",
-          "Venkatesh Raman 0001",
-          "Saket Saurabh 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fsttcs/BonnetGM20",
-        "title": "Maximum Clique in Disk-Like Intersection Graphs.",
-        "pages": "17:1-17:18",
-        "year": "2020",
-        "booktitle": "FSTTCS",
-        "ee": "https://doi.org/10.4230/LIPIcs.FSTTCS.2020.17",
-        "url": "db/conf/fsttcs/fsttcs2020.html#BonnetGM20",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Nicolas Grelier",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/Abrahamsen0KLMU21",
-        "title": "Chasing Puppies: Mobile Beacon Routing on Closed Curves.",
-        "pages": "5:1-5:19",
-        "year": "2021",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2021.5",
-        "url": "db/conf/compgeom/compgeom2021.html#Abrahamsen0KLMU21",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Jeff Erickson 0001",
-          "Irina Kostitsyna",
-          "Maarten LÃ¶ffler",
-          "Tillmann Miltzow",
-          "JÃ©rÃ´me Urhausen",
-          "Jordi L. Vermeulen",
-          "Giovanni Viglietta"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/ApfelbaumBFPM10",
-        "title": "Points with large quadrant-depth.",
-        "pages": "358-364",
-        "year": "2010",
-        "booktitle": "SCG",
-        "ee": "https://doi.org/10.1145/1810959.1811018",
-        "url": "db/conf/compgeom/compgeom2010.html#ApfelbaumBFPM10",
-        "authors": [
-          "Roel Apfelbaum",
-          "Itay Ben-Dan",
-          "Stefan Felsner",
-          "Rom Pinchasi",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/AbrahamsenKM23",
-        "title": "Geometric Embeddability of Complexes Is ∃ℝ-Complete.",
-        "pages": "1:1-1:19",
-        "year": "2023",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2023.1",
-        "url": "db/conf/compgeom/compgeom2023.html#AbrahamsenKM23",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/MarxM16",
-        "title": "Peeling and Nibbling the Cactus: Subexponential-Time Algorithms for Counting Triangulations and Related Problems.",
-        "pages": "52:1-52:16",
-        "year": "2016",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2016.52",
-        "url": "db/conf/compgeom/compgeom2016.html#MarxM16",
-        "authors": [
-          "DÃ¡niel Marx",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/BonnetM17",
-        "title": "An Approximation Algorithm for the Art Gallery Problem.",
-        "pages": "20:1-20:15",
-        "year": "2017",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2017.20",
-        "url": "db/conf/compgeom/compgeom2017.html#BonnetM17",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/AbrahamsenAM17",
-        "title": "Irrational Guards are Sometimes Needed.",
-        "pages": "3:1-3:15",
-        "year": "2017",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2017.3",
-        "url": "db/conf/compgeom/compgeom2017.html#AbrahamsenAM17",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Anna Adamaszek",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/MiltzowPSSW20",
-        "title": "Hiding Sliding Cubes: Why Reconfiguring Modular Robots Is Not Easy (Media Exposition).",
-        "pages": "78:1-78:5",
-        "year": "2020",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2020.78",
-        "url": "db/conf/compgeom/compgeom2020.html#MiltzowPSSW20",
-        "authors": [
-          "Tillmann Miltzow",
-          "Irene Parada",
-          "Willem Sonke",
-          "Bettina Speckmann",
-          "Jules Wulms"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/BiroBMMR17",
-        "title": "Fine-Grained Complexity of Coloring Unit Disks and Balls.",
-        "pages": "18:1-18:16",
-        "year": "2017",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2017.18",
-        "url": "db/conf/compgeom/compgeom2017.html#BiroBMMR17",
-        "authors": [
-          "Csaba BirÃ³",
-          "Ãdouard Bonnet",
-          "DÃ¡niel Marx",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/BergMS24",
-        "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain.",
-        "pages": "17:1-17:16",
-        "year": "2024",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2024.17",
-        "url": "db/conf/compgeom/compgeom2024.html#BergMS24",
-        "authors": [
-          "Sarita de Berg",
-          "Tillmann Miltzow",
-          "Frank Staals"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/HengeveldM21",
-        "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem.",
-        "pages": "44:1-44:16",
-        "year": "2021",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2021.44",
-        "url": "db/conf/compgeom/compgeom2021.html#HengeveldM21",
-        "authors": [
-          "Simon B. Hengeveld",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/compgeom/JungeblutKM22",
-        "title": "The Complexity of the Hausdorff Distance.",
-        "pages": "48:1-48:17",
-        "year": "2022",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2022.48",
-        "url": "db/conf/compgeom/compgeom2022.html#JungeblutKM22",
-        "authors": [
-          "Paul Jungeblut",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wg/CardinalFMTV17",
-        "title": "Intersection Graphs of Rays and Grounded Segments.",
-        "pages": "153-166",
-        "year": "2017",
-        "booktitle": "WG",
-        "ee": "https://doi.org/10.1007/978-3-319-68705-6_12",
-        "url": "db/conf/wg/wg2017.html#CardinalFMTV17",
-        "authors": [
-          "Jean Cardinal",
-          "Stefan Felsner",
-          "Tillmann Miltzow",
-          "Casey Tompkins",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wg/HoffmannMWW24",
-        "title": "Recognition of Unit Segment and Polyline Graphs is $\\exists \\mathbb {R} $-Complete.",
-        "pages": "266-281",
-        "year": "2024",
-        "booktitle": "WG",
-        "ee": "https://doi.org/10.1007/978-3-031-75409-8_19",
-        "url": "db/conf/wg/wg2024.html#HoffmannMWW24",
-        "authors": [
-          "Michael Hoffmann 0001",
-          "Tillmann Miltzow",
-          "Simon Weber 0001",
-          "Lasse Wulf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wg/DobbinsKMR18",
-        "title": "∀∃ℝ-Completeness and Area-Universality.",
-        "pages": "164-175",
-        "year": "2018",
-        "booktitle": "WG",
-        "ee": "https://doi.org/10.1007/978-3-030-00256-5_14",
-        "url": "db/conf/wg/wg2018.html#DobbinsKMR18",
-        "authors": [
-          "Michael Gene Dobbins",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/stacs/BonnetMR17",
-        "title": "Complexity of Token Swapping and its Variants.",
-        "pages": "16:1-16:14",
-        "year": "2017",
-        "booktitle": "STACS",
-        "ee": "https://doi.org/10.4230/LIPIcs.STACS.2017.16",
-        "url": "db/conf/stacs/stacs2017.html#BonnetMR17",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/stoc/AbrahamsenAM18",
-        "title": "The art gallery problem is ∃ ℝ-complete.",
-        "pages": "65-73",
-        "year": "2018",
-        "booktitle": "STOC",
-        "ee": "https://www.wikidata.org/entity/Q130966490",
-        "url": "db/conf/stoc/stoc2018.html#AbrahamsenAM18",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Anna Adamaszek",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/focs/MiltzowS21",
-        "title": "On Classifying Continuous Constraint Satisfaction problems.",
-        "pages": "781-791",
-        "year": "2021",
-        "booktitle": "FOCS",
-        "ee": "https://doi.org/10.1109/FOCS52979.2021.00081",
-        "url": "db/conf/focs/focs2021.html#MiltzowS21",
-        "authors": [
-          "Tillmann Miltzow",
-          "Reinier F. Schmiermann"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/focs/AbrahamsenMS20",
-        "title": "Framework for ER-Completeness of Two-Dimensional Packing Problems.",
-        "pages": "1014-1021",
-        "year": "2020",
-        "booktitle": "FOCS",
-        "ee": "https://doi.org/10.1109/FOCS46700.2020.00098",
-        "url": "db/conf/focs/focs2020.html#AbrahamsenMS20",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Tillmann Miltzow",
-          "Nadja Seiferth"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/focs/0001HM20",
-        "title": "Smoothing the gap between NP and ER.",
-        "pages": "1022-1033",
-        "year": "2020",
-        "booktitle": "FOCS",
-        "ee": "https://doi.org/10.1109/FOCS46700.2020.00099",
-        "url": "db/conf/focs/focs2020.html#0001HM20",
-        "authors": [
-          "Jeff Erickson 0001",
-          "Ivor van der Hoog",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sosa/BertschingerMMS22",
-        "title": "Topological Art in Simple Galleries.",
-        "pages": "87-116",
-        "year": "2022",
-        "booktitle": "SOSA",
-        "ee": "https://doi.org/10.1137/1.9781611977066.8",
-        "url": "db/conf/sosa/sosa2022.html#BertschingerMMS22",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Tillmann Miltzow",
-          "Patrick Schnider",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/isaac/KreveldMOSV20",
-        "title": "Between Shapes, Using the Hausdorff Distance.",
-        "pages": "13:1-13:16",
-        "year": "2020",
-        "booktitle": "ISAAC",
-        "ee": "https://doi.org/10.4230/LIPIcs.ISAAC.2020.13",
-        "url": "db/conf/isaac/isaac2020.html#KreveldMOSV20",
-        "authors": [
-          "Marc J. van Kreveld",
-          "Tillmann Miltzow",
-          "Tim Ophelders",
-          "Willem Sonke",
-          "Jordi L. Vermeulen"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fun/AsinowskiKM14",
-        "title": "Counting Houses of Pareto Optimal Matchings in the House Allocation Problem.",
-        "pages": "301-312",
-        "year": "2014",
-        "booktitle": "FUN",
-        "ee": "https://doi.org/10.1007/978-3-319-07890-8_26",
-        "url": "db/conf/fun/fun2014.html#AsinowskiKM14",
-        "authors": [
-          "Andrei Asinowski",
-          "BalÃ¡zs Keszegh",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fun/Miltzow12",
-        "title": "Tron, a Combinatorial Game on Abstract Graphs.",
-        "pages": "293-304",
-        "year": "2012",
-        "booktitle": "FUN",
-        "ee": "https://doi.org/10.1007/978-3-642-30347-0_29",
-        "url": "db/conf/fun/fun2012.html#Miltzow12",
-        "authors": [
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wads/BanyassadyHKLM17",
-        "title": "Obedient Plane Drawings for Disk Intersection Graphs.",
-        "pages": "73-84",
-        "year": "2017",
-        "booktitle": "WADS",
-        "ee": "https://doi.org/10.1007/978-3-319-62127-2_7",
-        "url": "db/conf/wads/wads2017.html#BanyassadyHKLM17",
-        "authors": [
-          "Bahareh Banyassady",
-          "Michael Hoffmann 0001",
-          "Boris Klemz",
-          "Maarten LÃ¶ffler",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/latin/ForsterKMPTV24",
-        "title": "Geometric Thickness of Multigraphs is ∃ ℝ-Complete.",
-        "pages": "336-349",
-        "year": "2024",
-        "booktitle": "LATIN (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-55598-5_22",
-        "url": "db/conf/latin/latin2024-1.html#ForsterKMPTV24",
-        "authors": [
-          "Henry FÃ¶rster",
-          "Philipp Kindermann",
-          "Tillmann Miltzow",
-          "Irene Parada",
-          "Soeren Terziadis",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/AichholzerMP13",
-        "title": "Extreme point and halving edge search in abstract order types.",
-        "pages": "970-978",
-        "year": "2013",
-        "volume": "46",
-        "journal": "Comput. Geom.",
-        "number": "8",
-        "ee": "https://www.wikidata.org/entity/Q43120036",
-        "url": "db/journals/comgeo/comgeo46.html#AichholzerMP13",
-        "authors": [
-          "Oswin Aichholzer",
-          "Tillmann Miltzow",
-          "Alexander Pilz"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/KreveldMOSV22",
-        "title": "Between shapes, using the Hausdorff distance.",
-        "pages": "101817",
-        "year": "2022",
-        "volume": "100",
-        "journal": "Comput. Geom.",
-        "ee": "https://doi.org/10.1016/j.comgeo.2021.101817",
-        "url": "db/journals/comgeo/comgeo100.html#KreveldMOSV22",
-        "authors": [
-          "Marc J. van Kreveld",
-          "Tillmann Miltzow",
-          "Tim Ophelders",
-          "Willem Sonke",
-          "Jordi L. Vermeulen"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/comgeo/AichholzerMP14",
-        "title": "Reprint of: Extreme point and halving edge search in abstract order types.",
-        "pages": "518-526",
-        "year": "2014",
-        "volume": "47",
-        "journal": "Comput. Geom.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.comgeo.2013.11.002",
-        "url": "db/journals/comgeo/comgeo47.html#AichholzerMP14",
-        "authors": [
-          "Oswin Aichholzer",
-          "Tillmann Miltzow",
-          "Alexander Pilz"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/talg/BonnetM20",
-        "title": "Parameterized Hardness of Art Gallery Problems.",
-        "pages": "42:1-42:23",
-        "year": "2020",
-        "volume": "16",
-        "journal": "ACM Trans. Algorithms",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3398684",
-        "url": "db/journals/talg/talg16.html#BonnetM20",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/talg/BergMS26",
-        "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain.",
-        "year": "2026",
-        "pages": "25:1-25:27",
-        "volume": "22",
-        "journal": "ACM Trans. Algorithms",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/3802821",
-        "url": "db/journals/talg/talg22.html#BergMS26",
-        "authors": [
-          "Sarita de Berg",
-          "Tillmann Miltzow",
-          "Frank Staals"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dmtcs/GrelierIMS21",
-        "title": "On the VC-dimension of half-spaces with respect to convex sets.",
-        "year": "2021",
-        "volume": "23",
-        "journal": "Discret. Math. Theor. Comput. Sci.",
-        "number": "3",
-        "ee": "https://doi.org/10.46298/dmtcs.6631",
-        "url": "db/journals/dmtcs/dmtcs23.html#GrelierIMS21",
-        "authors": [
-          "Nicolas Grelier",
-          "Saeed Gh. Ilchi",
-          "Tillmann Miltzow",
-          "Shakhar Smorodinsky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dmtcs/0002MM24",
-        "title": "Representing Matroids over the Reals is ∃ℝ-complete.",
-        "year": "2024",
-        "volume": "26",
-        "journal": "Discret. Math. Theor. Comput. Sci.",
-        "number": "2",
-        "ee": "https://doi.org/10.46298/dmtcs.10810",
-        "url": "db/journals/dmtcs/dmtcs26.html#0002MM24",
-        "authors": [
-          "Eun Jung Kim 0002",
-          "Arnaud de Mesmay",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dmtcs/HengeveldM23",
-        "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem.",
-        "year": "2023",
-        "volume": "25",
-        "journal": "Discret. Math. Theor. Comput. Sci.",
-        "number": "2",
-        "ee": "https://doi.org/10.46298/dmtcs.9225",
-        "url": "db/journals/dmtcs/dmtcs25.html#HengeveldM23",
-        "authors": [
-          "Simon B. Hengeveld",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dmtcs/Biniaz0LMMMNTT22",
-        "title": "Token Swapping on Trees.",
-        "year": "2022",
-        "volume": "24",
-        "journal": "Discret. Math. Theor. Comput. Sci.",
-        "number": "2",
-        "ee": "https://doi.org/10.46298/dmtcs.8383",
-        "url": "db/journals/dmtcs/dmtcs24.html#Biniaz0LMMMNTT22",
-        "authors": [
-          "Ahmad Biniaz",
-          "Kshitij Jain 0001",
-          "Anna Lubiw",
-          "Zuzana MasÃ¡rovÃ¡",
-          "Tillmann Miltzow",
-          "Debajyoti Mondal",
-          "Anurag Murty Naredla",
-          "Josef Tkadlec",
-          "Alexi Turcotte"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/ForsterKMPTV26",
-        "title": "Geometric Thickness of Multigraphs is $\\exists \\mathbb {R}$-Complete.",
-        "pages": "3",
-        "year": "2026",
-        "volume": "88",
-        "journal": "Algorithmica",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00453-025-01351-7",
-        "url": "db/journals/algorithmica/algorithmica88.html#ForsterKMPTV26",
-        "authors": [
-          "Henry FÃ¶rster",
-          "Philipp Kindermann",
-          "Tillmann Miltzow",
-          "Irene Parada",
-          "Soeren Terziadis",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/algorithmica/BonnetMR18",
-        "title": "Complexity of Token Swapping and Its Variants.",
-        "pages": "2656-2682",
-        "year": "2018",
-        "volume": "80",
-        "journal": "Algorithmica",
-        "number": "9",
-        "ee": "https://www.wikidata.org/entity/Q59610428",
-        "url": "db/journals/algorithmica/algorithmica80.html#BonnetMR18",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/siamcomp/EricksonHM24",
-        "title": "Smoothing the Gap Between NP and ER.",
-        "pages": "S20-102",
-        "year": "2024",
-        "volume": "53",
-        "journal": "SIAM J. Comput.",
-        "number": "6",
-        "ee": "https://doi.org/10.1137/20m1385287",
-        "url": "db/journals/siamcomp/siamcomp53.html#EricksonHM24",
-        "authors": [
-          "Jeff Erickson 0001",
-          "Ivor van der Hoog",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/combinatorics/AichholzerAM15",
-        "title": "Disjoint Compatibility Graph of Non-Crossing Matchings of Points in Convex Position.",
-        "pages": "1",
-        "year": "2015",
-        "volume": "22",
-        "journal": "Electron. J. Comb.",
-        "number": "1",
-        "ee": "https://doi.org/10.37236/4403",
-        "url": "db/journals/combinatorics/combinatorics22.html#AichholzerAM15",
-        "authors": [
-          "Oswin Aichholzer",
-          "Andrei Asinowski",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jgaa/CardinalFMTV18",
-        "title": "Intersection Graphs of Rays and Grounded Segments.",
-        "pages": "273-295",
-        "year": "2018",
-        "volume": "22",
-        "journal": "J. Graph Algorithms Appl.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q129510890",
-        "url": "db/journals/jgaa/jgaa22.html#CardinalFMTV18",
-        "authors": [
-          "Jean Cardinal",
-          "Stefan Felsner",
-          "Tillmann Miltzow",
-          "Casey Tompkins",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jgaa/LubiwMM22",
-        "title": "The Complexity of Drawing a Graph in a Polygonal Region.",
-        "pages": "421-446",
-        "year": "2022",
-        "volume": "26",
-        "journal": "J. Graph Algorithms Appl.",
-        "number": "4",
-        "ee": "https://doi.org/10.7155/jgaa.00602",
-        "url": "db/journals/jgaa/jgaa26.html#LubiwMM22",
-        "authors": [
-          "Anna Lubiw",
-          "Tillmann Miltzow",
-          "Debajyoti Mondal"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jocg/AsinowskiMR15",
-        "title": "Quasi-parallel segments and characterization of unique bichromatic matchings.",
-        "pages": "185-219",
-        "year": "2015",
-        "volume": "6",
-        "journal": "J. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.20382/jocg.v6i1a8",
-        "url": "db/journals/jocg/jocg6.html#AsinowskiMR15",
-        "authors": [
-          "Andrei Asinowski",
-          "Tillmann Miltzow",
-          "GÃ¼nter Rote"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jocg/0001KM20",
-        "title": "Halving balls by a hyperplane in deterministic linear time.",
-        "pages": "576-614",
-        "year": "2020",
-        "volume": "11",
-        "journal": "J. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.20382/jocg.v11i1a23",
-        "url": "db/journals/jocg/jocg11.html#0001KM20",
-        "authors": [
-          "Michael Hoffmann 0001",
-          "Vincent Kusters",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jocg/BiroBMMR18",
-        "title": "Fine-grained complexity of coloring unit disks and balls.",
-        "pages": "47-80",
-        "year": "2018",
-        "volume": "9",
-        "journal": "J. Comput. Geom.",
-        "number": "2",
-        "ee": "https://doi.org/10.20382/jocg.v9i2a4",
-        "url": "db/journals/jocg/jocg9.html#BiroBMMR18",
-        "authors": [
-          "Csaba BirÃ³",
-          "Ãdouard Bonnet",
-          "DÃ¡niel Marx",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jocg/ApfelbaumBFMPUZ11",
-        "title": "Points with Large Quadrant Depth.",
-        "pages": "128-143",
-        "year": "2011",
-        "volume": "2",
-        "journal": "J. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.20382/jocg.v2i1a7",
-        "url": "db/journals/jocg/jocg2.html#ApfelbaumBFMPUZ11",
-        "authors": [
-          "Roel Apfelbaum",
-          "Itay Ben-Dan",
-          "Stefan Felsner",
-          "Tillmann Miltzow",
-          "Rom Pinchasi",
-          "Torsten Ueckerdt",
-          "Ran Ziv"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/theoretics/AbrahamsenMS24",
-        "title": "Framework for ∃ ℝ-Completeness of Two-Dimensional Packing Problems.",
-        "year": "2024",
-        "volume": "3",
-        "journal": "TheoretiCS",
-        "ee": "https://doi.org/10.46298/theoretics.24.11",
-        "url": "db/journals/theoretics/theoretics3.html#AbrahamsenMS24",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Tillmann Miltzow",
-          "Nadja Seiferth"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/theoretics/MiltzowS24",
-        "title": "On Classifying Continuous Constraint Satisfaction Problems.",
-        "year": "2024",
-        "volume": "3",
-        "journal": "TheoretiCS",
-        "ee": "https://doi.org/10.46298/theoretics.24.10",
-        "url": "db/journals/theoretics/theoretics3.html#MiltzowS24",
-        "authors": [
-          "Tillmann Miltzow",
-          "Reinier F. Schmiermann"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcg/JungeblutKM24",
-        "title": "The Complexity of the Hausdorff Distance.",
-        "pages": "177-213",
-        "year": "2024",
-        "volume": "71",
-        "journal": "Discret. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00454-023-00562-5",
-        "url": "db/journals/dcg/dcg71.html#JungeblutKM24",
-        "authors": [
-          "Paul Jungeblut",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcg/BertschingerMMSW24",
-        "title": "Topological Art in Simple Galleries.",
-        "pages": "1092-1130",
-        "year": "2024",
-        "volume": "71",
-        "journal": "Discret. Comput. Geom.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00454-023-00540-x",
-        "url": "db/journals/dcg/dcg71.html#BertschingerMMSW24",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Tillmann Miltzow",
-          "Patrick Schnider",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcg/DobbinsKMR23",
-        "title": "Completeness for the Complexity Class $\\forall \\exists \\mathbb {R}$ and Area-Universality.",
-        "pages": "154-188",
-        "year": "2023",
-        "volume": "70",
-        "journal": "Discret. Comput. Geom.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00454-022-00381-0",
-        "url": "db/journals/dcg/dcg70.html#DobbinsKMR23",
-        "authors": [
-          "Michael Gene Dobbins",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/igt/BertschingerMKMW25",
-        "title": "The Complexity of Recognizing Geometric Hypergraphs.",
-        "year": "2025",
-        "pages": "157-190",
-        "volume": "2",
-        "journal": "Innov. Graph Theory",
-        "ee": "https://doi.org/10.5802/igt.9",
-        "url": "db/journals/igt/igt2.html#BertschingerMKMW25",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dm/AsinowskiKM16",
-        "title": "Counting houses of Pareto optimal matchings in the house allocation problem.",
-        "pages": "2919-2932",
-        "year": "2016",
-        "volume": "339",
-        "journal": "Discret. Math.",
-        "number": "12",
-        "ee": "https://doi.org/10.1016/j.disc.2016.05.027",
-        "url": "db/journals/dm/dm339.html#AsinowskiKM16",
-        "authors": [
-          "Andrei Asinowski",
-          "BalÃ¡zs Keszegh",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dm/MiltzowSX15",
-        "title": "Counting K4-subdivisions.",
-        "pages": "2387-2392",
-        "year": "2015",
-        "volume": "338",
-        "journal": "Discret. Math.",
-        "number": "12",
-        "ee": "https://doi.org/10.1016/j.disc.2015.06.004",
-        "url": "db/journals/dm/dm338.html#MiltzowSX15",
-        "authors": [
-          "Tillmann Miltzow",
-          "Jens M. Schmidt",
-          "Mingji Xia"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jacm/AbrahamsenAM22",
-        "title": "The Art Gallery Problem is ∃ℝ-complete.",
-        "pages": "4:1-4:70",
-        "year": "2022",
-        "volume": "69",
-        "journal": "J. ACM",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q130963703",
-        "url": "db/journals/jacm/jacm69.html#AbrahamsenAM22",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Anna Adamaszek",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jacm/AbrahamsenKM25",
-        "title": "Geometric Embeddability of Complexes is ∃ℝ-complete.",
-        "pages": "9:1-9:26",
-        "year": "2025",
-        "volume": "72",
-        "journal": "J. ACM",
-        "number": "1",
-        "ee": "https://doi.org/10.1145/3707201",
-        "url": "db/journals/jacm/jacm72.html#AbrahamsenKM25",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2112-04343",
-        "title": "The Complexity of the Hausdorff Distance.",
-        "year": "2021",
-        "volume": "abs/2112.04343",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2112.04343",
-        "url": "db/journals/corr/corr2112.html#abs-2112-04343",
-        "authors": [
-          "Paul Jungeblut",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2401-02172",
-        "title": "Recognition of Unit Segment and Polyline Graphs is ∃R-Complete.",
-        "year": "2024",
-        "volume": "abs/2401.02172",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2401.02172",
-        "url": "db/journals/corr/corr2401.html#abs-2401-02172",
-        "authors": [
-          "Michael Hoffmann 0001",
-          "Tillmann Miltzow",
-          "Simon Weber 0001",
-          "Lasse Wulf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2103-09811",
-        "title": "Chasing Puppies: Mobile Beacon Routing on Closed Curves.",
-        "year": "2021",
-        "volume": "abs/2103.09811",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2103.09811",
-        "url": "db/journals/corr/corr2103.html#abs-2103-09811",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Jeff Erickson 0001",
-          "Irina Kostitsyna",
-          "Maarten LÃ¶ffler",
-          "Tillmann Miltzow",
-          "JÃ©rÃ´me Urhausen",
-          "Jordi L. Vermeulen",
-          "Giovanni Viglietta"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2407-18006",
-        "title": "The Existential Theory of the Reals as a Complexity Class: A Compendium.",
-        "year": "2024",
-        "volume": "abs/2407.18006",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2407.18006",
-        "url": "db/journals/corr/corr2407.html#abs-2407-18006",
-        "authors": [
-          "Marcus Schaefer 0001",
-          "Jean Cardinal",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1907-04645",
-        "title": "Smoothed Analysis of Order Types.",
-        "year": "2019",
-        "volume": "abs/1907.04645",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.04645",
-        "url": "db/journals/corr/corr1907.html#abs-1907-04645",
-        "authors": [
-          "Ivor van der Hoog",
-          "Tillmann Miltzow",
-          "Martijn van Schaik"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2603-29427",
-        "title": "Beyond Bits: An Introduction to Computation over the Reals.",
-        "year": "2026",
-        "volume": "abs/2603.29427",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2603.29427",
-        "url": "db/journals/corr/corr2603.html#abs-2603-29427",
-        "authors": [
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2003-02583",
-        "title": "Maximum Clique in Disk-Like Intersection Graphs.",
-        "year": "2020",
-        "volume": "abs/2003.02583",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2003.02583",
-        "url": "db/journals/corr/corr2003.html#abs-2003-02583",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Nicolas Grelier",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1802-06699",
-        "title": "The Complexity of Drawing a Graph in a Polygonal Region.",
-        "year": "2018",
-        "volume": "abs/1802.06699",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1802.06699",
-        "url": "db/journals/corr/corr1802.html#abs-1802-06699",
-        "authors": [
-          "Anna Lubiw",
-          "Tillmann Miltzow",
-          "Debajyoti Mondal"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/BonnetMR16",
-        "title": "Complexity of Token Swapping and its Variants.",
-        "year": "2016",
-        "volume": "abs/1607.07676",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1607.07676",
-        "url": "db/journals/corr/corr1607.html#BonnetMR16",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/AsinowskiKM14",
-        "title": "Counting One-sided Exchange Stable Matchings.",
-        "year": "2014",
-        "volume": "abs/1401.5354",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1401.5354",
-        "url": "db/journals/corr/corr1401.html#AsinowskiKM14",
-        "authors": [
-          "Andrei Asinowski",
-          "BalÃ¡zs Keszegh",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/MiltzowSX14",
-        "title": "Counting K_4-Subdivisions.",
-        "year": "2014",
-        "volume": "abs/1411.4819",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1411.4819",
-        "url": "db/journals/corr/corr1411.html#MiltzowSX14",
-        "authors": [
-          "Tillmann Miltzow",
-          "Jens M. Schmidt",
-          "Mingji Xia"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1907-01241",
-        "title": "On the VC-dimension of convex sets and half-spaces.",
-        "year": "2019",
-        "volume": "abs/1907.01241",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.01241",
-        "url": "db/journals/corr/corr1907.html#abs-1907-01241",
-        "authors": [
-          "Nicolas Grelier",
-          "Saeed Gh. Ilchi",
-          "Tillmann Miltzow",
-          "Shakhar Smorodinsky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/MiltzowNORTU16",
-        "title": "Tight Exact and Approximate Algorithmic Results on Token Swapping.",
-        "year": "2016",
-        "volume": "abs/1602.05150",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1602.05150",
-        "url": "db/journals/corr/corr1602.html#MiltzowNORTU16",
-        "authors": [
-          "Tillmann Miltzow",
-          "Lothar Narins",
-          "Yoshio Okamoto",
-          "GÃ¼nter Rote",
-          "Antonis Thomas",
-          "Takeaki Uno"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2212-01211",
-        "title": "Sometimes Two Irrational Guards are Needed.",
-        "year": "2022",
-        "volume": "abs/2212.01211",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2212.01211",
-        "url": "db/journals/corr/corr2212.html#abs-2212-01211",
-        "authors": [
-          "Lucas Meijer",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2108-04007",
-        "title": "Topological Art in Simple Galleries.",
-        "year": "2021",
-        "volume": "abs/2108.04007",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2108.04007",
-        "url": "db/journals/corr/corr2108.html#abs-2108-04007",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Tillmann Miltzow",
-          "Patrick Schnider",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2510-05894",
-        "title": "On Equivalent Characterizations of NP in Abstract Models of Computation.",
-        "year": "2025",
-        "volume": "abs/2510.05894",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2510.05894",
-        "url": "db/journals/corr/corr2510.html#abs-2510-05894",
-        "authors": [
-          "Jeremy C. Kirn",
-          "Lucas Meijer",
-          "Tillmann Miltzow",
-          "Hans L. Bodlaender"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1712-05142",
-        "title": "∀∃R-completeness and area-universality.",
-        "year": "2017",
-        "volume": "abs/1712.05142",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1712.05142",
-        "url": "db/journals/corr/corr1712.html#abs-1712-05142",
-        "authors": [
-          "Michael Gene Dobbins",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Pawel Rzazewski"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2101-07554",
-        "title": "Local Complexity of Polygons.",
-        "year": "2021",
-        "volume": "abs/2101.07554",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2101.07554",
-        "url": "db/journals/corr/corr2101.html#abs-2101-07554",
-        "authors": [
-          "Fabian Klute",
-          "Meghana M. Reddy",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/BonnetM16b",
-        "title": "An Approximation Algorithm for the Art Gallery Problem.",
-        "year": "2016",
-        "volume": "abs/1607.05527",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1607.05527",
-        "url": "db/journals/corr/corr1607.html#BonnetM16b",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2302-13597",
-        "title": "The Complexity of Recognizing Geometric Hypergraphs.",
-        "year": "2023",
-        "volume": "abs/2302.13597",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2302.13597",
-        "url": "db/journals/corr/corr2302.html#abs-2302-13597",
-        "authors": [
-          "Daniel Bertschinger",
-          "Nicolas El Maalouly",
-          "Linda Kleist",
-          "Tillmann Miltzow",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/HoffmannKM14",
-        "title": "Halving Balls in Deterministic Linear Time.",
-        "year": "2014",
-        "volume": "abs/1405.1894",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1405.1894",
-        "url": "db/journals/corr/corr1405.html#HoffmannKM14",
-        "authors": [
-          "Michael Hoffmann 0001",
-          "Vincent Kusters",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2312-05010",
-        "title": "Geometric Thickness of Multigraphs is ∃R-complete.",
-        "year": "2023",
-        "volume": "abs/2312.05010",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.05010",
-        "url": "db/journals/corr/corr2312.html#abs-2312-05010",
-        "authors": [
-          "Henry FÃ¶rster",
-          "Philipp Kindermann",
-          "Tillmann Miltzow",
-          "Irene Parada",
-          "Soeren Terziadis",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/MarxM16",
-        "title": "Peeling and Nibbling the Cactus: Subexponential-Time Algorithms for Counting Triangulations and Related Problems.",
-        "year": "2016",
-        "volume": "abs/1603.07340",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1603.07340",
-        "url": "db/journals/corr/corr1603.html#MarxM16",
-        "authors": [
-          "DÃ¡niel Marx",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1211-2118",
-        "title": "Trees in simple Polygons",
-        "ee": "https://doi.org/10.48550/arXiv.1211.2118",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1211.2118",
-        "url": "db/journals/corr/corr1211.html#abs-1211-2118",
-        "authors": [
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2102-09798",
-        "title": "Training Neural Networks is ER-complete.",
-        "year": "2021",
-        "volume": "abs/2102.09798",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2102.09798",
-        "url": "db/journals/corr/corr2102.html#abs-2102-09798",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1110-3211",
-        "title": "Tron, a combinatorial Game on abstract Graphs",
-        "ee": "https://doi.org/10.48550/arXiv.1110.3211",
-        "year": "2011",
-        "journal": "CoRR",
-        "volume": "abs/1110.3211",
-        "url": "db/journals/corr/corr1110.html#abs-1110-3211",
-        "authors": [
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1811-01177",
-        "title": "Smoothed Analysis of the Art Gallery Problem.",
-        "year": "2018",
-        "volume": "abs/1811.01177",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1811.01177",
-        "url": "db/journals/corr/corr1811.html#abs-1811-01177",
-        "authors": [
-          "Michael Gene Dobbins",
-          "Andreas F. Holmsen",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1908-02213",
-        "title": "A Universality Theorem for Nested Polytopes.",
-        "year": "2019",
-        "volume": "abs/1908.02213",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1908.02213",
-        "url": "db/journals/corr/corr1908.html#abs-1908-02213",
-        "authors": [
-          "Michael Gene Dobbins",
-          "Andreas F. Holmsen",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1903-06981",
-        "title": "Token Swapping on Trees.",
-        "year": "2019",
-        "volume": "abs/1903.06981",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1903.06981",
-        "url": "db/journals/corr/corr1903.html#abs-1903-06981",
-        "authors": [
-          "Ahmad Biniaz",
-          "Kshitij Jain 0001",
-          "Anna Lubiw",
-          "Zuzana MasÃ¡rovÃ¡",
-          "Tillmann Miltzow",
-          "Debajyoti Mondal",
-          "Anurag Murty Naredla",
-          "Josef Tkadlec",
-          "Alexi Turcotte"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2009-14719",
-        "title": "Between Shapes, Using the Hausdorff Distance.",
-        "year": "2020",
-        "volume": "abs/2009.14719",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2009.14719",
-        "url": "db/journals/corr/corr2009.html#abs-2009-14719",
-        "authors": [
-          "Marc J. van Kreveld",
-          "Tillmann Miltzow",
-          "Tim Ophelders",
-          "Willem Sonke",
-          "Jordi L. Vermeulen"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2208-06687",
-        "title": "Avoider-Enforcer Game is NP-hard.",
-        "year": "2022",
-        "volume": "abs/2208.06687",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2208.06687",
-        "url": "db/journals/corr/corr2208.html#abs-2208-06687",
-        "authors": [
-          "Tillmann Miltzow",
-          "Milos Stojakovic"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/AichholzerAM14",
-        "title": "Disjoint compatibility graph of non-crossing matchings of points in convex position.",
-        "year": "2014",
-        "volume": "abs/1403.5546",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1403.5546",
-        "url": "db/journals/corr/corr1403.html#AichholzerAM14",
-        "authors": [
-          "Oswin Aichholzer",
-          "Andrei Asinowski",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2204-01368",
-        "title": "Training Fully Connected Neural Networks is ∃R-Complete.",
-        "year": "2022",
-        "volume": "abs/2204.01368",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2204.01368",
-        "url": "db/journals/corr/corr2204.html#abs-2204-01368",
-        "authors": [
-          "Daniel Bertschinger",
-          "Christoph Hertrich",
-          "Paul Jungeblut",
-          "Tillmann Miltzow",
-          "Simon Weber 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1206-6360",
-        "title": "Augmenting a Geometric Matching is NP-complete",
-        "ee": "https://doi.org/10.48550/arXiv.1206.6360",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1206.6360",
-        "url": "db/journals/corr/corr1206.html#abs-1206-6360",
-        "authors": [
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2303-00666",
-        "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain.",
-        "year": "2023",
-        "volume": "abs/2303.00666",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2303.00666",
-        "url": "db/journals/corr/corr2303.html#abs-2303-00666",
-        "authors": [
-          "Sarita de Berg",
-          "Tillmann Miltzow",
-          "Frank Staals"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/AbrahamsenAM17",
-        "title": "Irrational Guards are Sometimes Needed.",
-        "year": "2017",
-        "volume": "abs/1701.05475",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1701.05475",
-        "url": "db/journals/corr/corr1701.html#AbrahamsenAM17",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Anna Adamaszek",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1912-02278",
-        "title": "A Framework for Robust Realistic Geometric Computations.",
-        "year": "2019",
-        "volume": "abs/1912.02278",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1912.02278",
-        "url": "db/journals/corr/corr1912.html#abs-1912-02278",
-        "authors": [
-          "Jeff Erickson 0001",
-          "Ivor van der Hoog",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/BonnetM16a",
-        "title": "The Parameterized Hardness of the Art Gallery Problem.",
-        "year": "2016",
-        "volume": "abs/1603.08116",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1603.08116",
-        "url": "db/journals/corr/corr1603.html#BonnetM16a",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2007-06920",
-        "title": "A Practical Algorithm with Performance Guarantees for the Art~Gallery Problem.",
-        "year": "2020",
-        "volume": "abs/2007.06920",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2007.06920",
-        "url": "db/journals/corr/corr2007.html#abs-2007-06920",
-        "authors": [
-          "Simon B. Hengeveld",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2108-02585",
-        "title": "Geometric Embeddability of Complexes is ∃R-complete.",
-        "year": "2021",
-        "volume": "abs/2108.02585",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2108.02585",
-        "url": "db/journals/corr/corr2108.html#abs-2108-02585",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/AbrahamsenAM17a",
-        "title": "The Art Gallery Problem is ∃ℝ-complete.",
-        "year": "2017",
-        "volume": "abs/1704.06969",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1704.06969",
-        "url": "db/journals/corr/corr1704.html#AbrahamsenAM17a",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Anna Adamaszek",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2004-07558",
-        "title": "Framework for ∃R-Completeness of Two-Dimensional Packing Problems.",
-        "year": "2020",
-        "volume": "abs/2004.07558",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2004.07558",
-        "url": "db/journals/corr/corr2004.html#abs-2004-07558",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Tillmann Miltzow",
-          "Nadja Seiferth"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2512-02779",
-        "title": "Devil's Games and Qℝ: Continuous Games complete for the First-Order Theory of the Reals.",
-        "year": "2025",
-        "volume": "abs/2512.02779",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2512.02779",
-        "url": "db/journals/corr/corr2512.html#abs-2512-02779",
-        "authors": [
-          "Lucas Meijer",
-          "Arnaud de Mesmay",
-          "Tillmann Miltzow",
-          "Marcus Schaefer 0001",
-          "Jack Stade"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2106-02397",
-        "title": "On Classifying Continuous Constraint Satisfaction problems.",
-        "year": "2021",
-        "volume": "abs/2106.02397",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2106.02397",
-        "url": "db/journals/corr/corr2106.html#abs-2106-02397",
-        "authors": [
-          "Tillmann Miltzow",
-          "Reinier F. Schmiermann"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1302-4400",
-        "title": "Quasi-Parallel Segments and Characterization of Unique Bichromatic Matchings",
-        "ee": "https://doi.org/10.48550/arXiv.1302.4400",
-        "year": "2013",
-        "journal": "CoRR",
-        "volume": "abs/1302.4400",
-        "url": "db/journals/corr/corr1302.html#abs-1302-4400",
-        "authors": [
-          "Andrei Asinowski",
-          "Tillmann Miltzow",
-          "GÃ¼nter Rote"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/BonnetM16",
-        "title": "Flip Distance to a Non-crossing Perfect Matching.",
-        "year": "2016",
-        "volume": "abs/1601.05989",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1601.05989",
-        "url": "db/journals/corr/corr1601.html#BonnetM16",
-        "authors": [
-          "Ãdouard Bonnet",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2301-03221",
-        "title": "Representing Matroids over the Reals is ∃R-complete.",
-        "year": "2023",
-        "volume": "abs/2301.03221",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2301.03221",
-        "url": "db/journals/corr/corr2301.html#abs-2301-03221",
-        "authors": [
-          "Eunjung Kim 0002",
-          "Arnaud de Mesmay",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/CardinalFMTV16",
-        "title": "Intersection Graphs of Rays and Grounded Segments.",
-        "year": "2016",
-        "volume": "abs/1612.03638",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1612.03638",
-        "url": "db/journals/corr/corr1612.html#CardinalFMTV16",
-        "authors": [
-          "Jean Cardinal",
-          "Stefan Felsner",
-          "Tillmann Miltzow",
-          "Casey Tompkins",
-          "Birgit Vogtenhuber"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/HoffmannKM15",
-        "title": "Upper and Lower Bounds on Long Dual-Paths in Line Arrangements.",
-        "year": "2015",
-        "volume": "abs/1506.03728",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1506.03728",
-        "url": "db/journals/corr/corr1506.html#HoffmannKM15",
-        "authors": [
-          "Udo Hoffmann",
-          "Linda Kleist",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1912-08674",
-        "title": "Dynamic Toolbox for ETRINV.",
-        "year": "2019",
-        "volume": "abs/1912.08674",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1912.08674",
-        "url": "db/journals/corr/corr1912.html#abs-1912-08674",
-        "authors": [
-          "Mikkel Abrahamsen",
-          "Tillmann Miltzow"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2502-09279",
-        "title": "Oracle Separations for RPH.",
-        "year": "2025",
-        "volume": "abs/2502.09279",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2502.09279",
-        "url": "db/journals/corr/corr2502.html#abs-2502-09279",
-        "authors": [
-          "Thekla Hamm",
-          "Lucas Meijer",
-          "Tillmann Miltzow",
-          "Subhasree Patro"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/Abrahamsen0KLMU21",
+          "title": "Chasing Puppies: Mobile Beacon Routing on Closed Curves",
+          "booktitle": "SoCG",
+          "year": "2021",
+          "pages": "5:1-5:19",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2021.5",
+          "author": [
+            {
+              "#text": "Giovanni Viglietta",
+              "@pid": "60/8409"
+            },
+            {
+              "#text": "Irina Kostitsyna",
+              "@pid": "46/5483"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Jérôme Urhausen",
+              "@pid": "153/1299"
+            },
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Maarten Löffler",
+              "@pid": "46/6428"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/AbrahamsenAM17",
+          "title": "Irrational Guards are Sometimes Needed",
+          "booktitle": "SoCG",
+          "year": "2017",
+          "pages": "3:1-3:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2017.3",
+          "author": [
+            {
+              "#text": "Anna Adamaszek",
+              "@pid": "43/1826"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/AbrahamsenKM23",
+          "title": "Geometric Embeddability of Complexes Is ∃ℝ-Complete",
+          "booktitle": "SoCG",
+          "year": "2023",
+          "pages": "1:1-1:19",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2023.1",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/ApfelbaumBFPM10",
+          "title": "Points with large quadrant-depth",
+          "booktitle": "SCG",
+          "year": "2010",
+          "pages": "358-364",
+          "ee": "https://doi.org/10.1145/1810959.1811018",
+          "author": [
+            {
+              "#text": "Itay Ben-Dan",
+              "@pid": "44/7614"
+            },
+            {
+              "#text": "Roel Apfelbaum",
+              "@pid": "89/629"
+            },
+            {
+              "#text": "Rom Pinchasi",
+              "@pid": "36/4562"
+            },
+            {
+              "#text": "Stefan Felsner",
+              "@pid": "09/2980"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/BergMS24",
+          "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain",
+          "booktitle": "SoCG",
+          "year": "2024",
+          "pages": "17:1-17:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2024.17",
+          "author": [
+            {
+              "#text": "Frank Staals",
+              "@pid": "41/10735"
+            },
+            {
+              "#text": "Sarita de Berg",
+              "@pid": "302/4665"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/BiroBMMR17",
+          "title": "Fine-Grained Complexity of Coloring Unit Disks and Balls",
+          "booktitle": "SoCG",
+          "year": "2017",
+          "pages": "18:1-18:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2017.18",
+          "author": [
+            {
+              "#text": "Csaba Biró",
+              "@pid": "82/7603"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/BonnetM17",
+          "title": "An Approximation Algorithm for the Art Gallery Problem",
+          "booktitle": "SoCG",
+          "year": "2017",
+          "pages": "20:1-20:15",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2017.20",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/HengeveldM21",
+          "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem",
+          "booktitle": "SoCG",
+          "year": "2021",
+          "pages": "44:1-44:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2021.44",
+          "author": [
+            {
+              "#text": "Simon B. Hengeveld",
+              "@pid": "270/1994"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/JungeblutKM22",
+          "title": "The Complexity of the Hausdorff Distance",
+          "booktitle": "SoCG",
+          "year": "2022",
+          "pages": "48:1-48:17",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2022.48",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Paul Jungeblut",
+              "@pid": "229/4297"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/MarxM16",
+          "title": "Peeling and Nibbling the Cactus: Subexponential-Time Algorithms for Counting Triangulations and Related Problems",
+          "booktitle": "SoCG",
+          "year": "2016",
+          "pages": "52:1-52:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2016.52",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compgeom/MiltzowPSSW20",
+          "title": "Hiding Sliding Cubes: Why Reconfiguring Modular Robots Is Not Easy (Media Exposition)",
+          "booktitle": "SoCG",
+          "year": "2020",
+          "pages": "78:1-78:5",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2020.78",
+          "author": [
+            {
+              "#text": "Bettina Speckmann",
+              "@pid": "s/BettinaSpeckmann"
+            },
+            {
+              "#text": "Irene Parada",
+              "@pid": "181/3984"
+            },
+            {
+              "#text": "Jules Wulms",
+              "@pid": "155/4361"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Willem Sonke",
+              "@pid": "167/0776"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/BonnetM16",
+          "title": "Parameterized Hardness of Art Gallery Problems",
+          "booktitle": "ESA",
+          "year": "2016",
+          "pages": "19:1-19:17",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2016.19",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/HoffmannKM14",
+          "title": "Halving Balls in Deterministic Linear Time",
+          "booktitle": "ESA",
+          "year": "2014",
+          "pages": "566-578",
+          "ee": "https://doi.org/10.1007/978-3-662-44777-2_47",
+          "author": [
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Vincent Kusters",
+              "@pid": "76/9060"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esa/MiltzowNORTU16",
+          "title": "Approximation and Hardness of Token Swapping",
+          "booktitle": "ESA",
+          "year": "2016",
+          "pages": "66:1-66:15",
+          "ee": "https://doi.org/10.4230/LIPICS.ESA.2016.66",
+          "author": [
+            {
+              "#text": "Antonis Thomas",
+              "@pid": "36/8695"
+            },
+            {
+              "#text": "Günter Rote",
+              "@pid": "r/GunterRote"
+            },
+            {
+              "#text": "Lothar Narins",
+              "@pid": "176/5460"
+            },
+            {
+              "#text": "Takeaki Uno",
+              "@pid": "72/3856"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Yoshio Okamoto",
+              "@pid": "14/837"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/0001HM20",
+          "title": "Smoothing the gap between NP and ER",
+          "booktitle": "FOCS",
+          "year": "2020",
+          "pages": "1022-1033",
+          "ee": "https://doi.org/10.1109/FOCS46700.2020.00099",
+          "author": [
+            {
+              "#text": "Ivor van der Hoog",
+              "@pid": "200/8577"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/AbrahamsenMS20",
+          "title": "Framework for ER-Completeness of Two-Dimensional Packing Problems",
+          "booktitle": "FOCS",
+          "year": "2020",
+          "pages": "1014-1021",
+          "ee": "https://doi.org/10.1109/FOCS46700.2020.00098",
+          "author": [
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Nadja Seiferth",
+              "@pid": "175/1623"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/focs/MiltzowS21",
+          "title": "On Classifying Continuous Constraint Satisfaction problems",
+          "booktitle": "FOCS",
+          "year": "2022",
+          "pages": "781-791",
+          "ee": "https://doi.org/10.1109/FOCS52979.2021.00081",
+          "author": [
+            {
+              "#text": "Reinier F. Schmiermann",
+              "@pid": "294/5077"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fsttcs/AgrawalBBBCMM0019",
+          "title": "Parameterized Streaming Algorithms for Min-Ones d-SAT",
+          "booktitle": "FSTTCS",
+          "year": "2019",
+          "pages": "8:1-8:20",
+          "ee": "https://doi.org/10.4230/LIPICS.FSTTCS.2019.8",
+          "author": [
+            {
+              "#text": "Akanksha Agrawal",
+              "@pid": "144/7801"
+            },
+            {
+              "#text": "Arindam Biswas",
+              "@pid": "82/2478-1"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nick Brettell",
+              "@pid": "163/1776"
+            },
+            {
+              "#text": "Radu Curticapean",
+              "@pid": "00/9960"
+            },
+            {
+              "#text": "Saket Saurabh",
+              "@pid": "11/5491"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Venkatesh Raman",
+              "@pid": "25/2134"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fsttcs/BonnetGM20",
+          "title": "Maximum Clique in Disk-Like Intersection Graphs",
+          "booktitle": "FSTTCS",
+          "year": "2020",
+          "pages": "17:1-17:18",
+          "ee": "https://doi.org/10.4230/LIPICS.FSTTCS.2020.17",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fun/AsinowskiKM14",
+          "title": "Counting Houses of Pareto Optimal Matchings in the House Allocation Problem",
+          "booktitle": "FUN",
+          "year": "2014",
+          "pages": "301-312",
+          "ee": "https://doi.org/10.1007/978-3-319-07890-8_26",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Balázs Keszegh",
+              "@pid": "00/1907"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fun/Miltzow12",
+          "title": "Tron, a Combinatorial Game on Abstract Graphs",
+          "booktitle": "FUN",
+          "year": "2012",
+          "pages": "293-304",
+          "ee": "https://doi.org/10.1007/978-3-642-30347-0_29",
+          "author": {
+            "#text": "Tillmann Miltzow",
+            "@pid": "37/8210"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gd/BertschingerMKMW23",
+          "title": "The Complexity of Recognizing Geometric Hypergraphs",
+          "booktitle": "GD (1)",
+          "year": "2023",
+          "pages": "163-179",
+          "ee": "https://doi.org/10.1007/978-3-031-49272-3_12",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gd/LubiwMM18",
+          "title": "The Complexity of Drawing a Graph in a Polygonal Region",
+          "booktitle": "GD",
+          "year": "2018",
+          "pages": "387-401",
+          "ee": "https://doi.org/10.1007/978-3-030-04414-5_28",
+          "author": [
+            {
+              "#text": "Anna Lubiw",
+              "@pid": "34/4423"
+            },
+            {
+              "#text": "Debajyoti Mondal",
+              "@pid": "90/8236"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isaac/KreveldMOSV20",
+          "title": "Between Shapes, Using the Hausdorff Distance",
+          "booktitle": "ISAAC",
+          "year": "2020",
+          "pages": "13:1-13:16",
+          "ee": "https://doi.org/10.4230/LIPICS.ISAAC.2020.13",
+          "author": [
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Marc J. van Kreveld",
+              "@pid": "k/MarcJvanKreveld"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Tim Ophelders",
+              "@pid": "166/1257"
+            },
+            {
+              "#text": "Willem Sonke",
+              "@pid": "167/0776"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/latin/ForsterKMPTV24",
+          "title": "Geometric Thickness of Multigraphs is ∃ ℝ-Complete",
+          "booktitle": "LATIN (1)",
+          "year": "2024",
+          "pages": "336-349",
+          "ee": "https://doi.org/10.1007/978-3-031-55598-5_22",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Henry Förster",
+              "@pid": "180/6420"
+            },
+            {
+              "#text": "Irene Parada",
+              "@pid": "181/3984"
+            },
+            {
+              "#text": "Philipp Kindermann",
+              "@pid": "130/4006"
+            },
+            {
+              "#text": "Soeren Terziadis",
+              "@pid": "239/4033"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/HoffmannKM15",
+          "title": "Upper and Lower Bounds on Long Dual Paths in Line Arrangements",
+          "booktitle": "MFCS (2)",
+          "year": "2015",
+          "pages": "407-419",
+          "ee": "https://doi.org/10.1007/978-3-662-48054-0_34",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Udo Hoffmann",
+              "@pid": "88/2890"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfcs/KirnMMB26",
+          "title": "On Equivalent Characterizations of the Polynomial Hierarchy in Abstract Models of Computation",
+          "booktitle": "MFCS",
+          "year": "2026",
+          "pages": "63:1-63:17",
+          "ee": "https://doi.org/10.4230/LIPICS.MFCS.2026.63",
+          "author": [
+            {
+              "#text": "Hans L. Bodlaender",
+              "@pid": "b/HLBodlaender"
+            },
+            {
+              "#text": "Jeremy C. Kirn",
+              "@pid": "419/6310"
+            },
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/AbrahamsenKM21",
+          "title": "Training Neural Networks is ER-complete",
+          "booktitle": "NeurIPS",
+          "year": "2021",
+          "pages": "18293-18306",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/BertschingerHJM23",
+          "title": "Training Fully Connected Neural Networks is ∃R-Complete",
+          "booktitle": "NeurIPS",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Paul Jungeblut",
+              "@pid": "229/4297"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sosa/BertschingerMMS22",
+          "title": "Topological Art in Simple Galleries",
+          "booktitle": "SOSA",
+          "year": "2022",
+          "pages": "87-116",
+          "ee": "https://doi.org/10.1137/1.9781611977066.8",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Patrick Schnider",
+              "@pid": "195/5907"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stacs/BonnetMR17",
+          "title": "Complexity of Token Swapping and its Variants",
+          "booktitle": "STACS",
+          "year": "2017",
+          "pages": "16:1-16:14",
+          "ee": "https://doi.org/10.4230/LIPICS.STACS.2017.16",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/stoc/AbrahamsenAM18",
+          "title": "The art gallery problem is ∃ ℝ-complete",
+          "booktitle": "STOC",
+          "year": "2018",
+          "pages": "65-73",
+          "ee": "https://doi.org/10.1145/3188745.3188868",
+          "author": [
+            {
+              "#text": "Anna Adamaszek",
+              "@pid": "43/1826"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wads/BanyassadyHKLM17",
+          "title": "Obedient Plane Drawings for Disk Intersection Graphs",
+          "booktitle": "WADS",
+          "year": "2017",
+          "pages": "73-84",
+          "ee": "https://doi.org/10.1007/978-3-319-62127-2_7",
+          "author": [
+            {
+              "#text": "Bahareh Banyassady",
+              "@pid": "137/6949"
+            },
+            {
+              "#text": "Boris Klemz",
+              "@pid": "147/3314"
+            },
+            {
+              "#text": "Maarten Löffler",
+              "@pid": "46/6428"
+            },
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/CardinalFMTV17",
+          "title": "Intersection Graphs of Rays and Grounded Segments",
+          "booktitle": "WG",
+          "year": "2017",
+          "pages": "153-166",
+          "ee": "https://doi.org/10.1007/978-3-319-68705-6_12",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Casey Tompkins",
+              "@pid": "173/5814"
+            },
+            {
+              "#text": "Jean Cardinal",
+              "@pid": "85/4356"
+            },
+            {
+              "#text": "Stefan Felsner",
+              "@pid": "09/2980"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/DobbinsKMR18",
+          "title": "∀∃ℝ-Completeness and Area-Universality",
+          "booktitle": "WG",
+          "year": "2018",
+          "pages": "164-175",
+          "ee": "https://doi.org/10.1007/978-3-030-00256-5_14",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Michael Gene Dobbins",
+              "@pid": "145/3281"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wg/HoffmannMWW24",
+          "title": "Recognition of Unit Segment and Polyline Graphs is $\\exists \\mathbb {R} $-Complete",
+          "booktitle": "WG",
+          "year": "2025",
+          "pages": "266-281",
+          "ee": "https://doi.org/10.1007/978-3-031-75409-8_19",
+          "author": [
+            {
+              "#text": "Lasse Wulf",
+              "@pid": "223/9905"
+            },
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/BonnetMR18",
+          "title": "Complexity of Token Swapping and Its Variants",
+          "journal": "Algorithmica",
+          "year": "2018",
+          "pages": "2656-2682",
+          "ee": "https://doi.org/10.1007/S00453-017-0387-0",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/ForsterKMPTV26",
+          "title": "Geometric Thickness of Multigraphs is $\\exists \\mathbb {R}$-Complete",
+          "journal": "Algorithmica",
+          "year": "2026",
+          "pages": "3",
+          "ee": "https://doi.org/10.1007/S00453-025-01351-7",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Henry Förster",
+              "@pid": "180/6420"
+            },
+            {
+              "#text": "Irene Parada",
+              "@pid": "181/3984"
+            },
+            {
+              "#text": "Philipp Kindermann",
+              "@pid": "130/4006"
+            },
+            {
+              "#text": "Soeren Terziadis",
+              "@pid": "239/4033"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/combinatorics/AichholzerAM15",
+          "title": "Disjoint Compatibility Graph of Non-Crossing Matchings of Points in Convex Position",
+          "journal": "Electron. J. Comb.",
+          "year": "2015",
+          "pages": "1",
+          "ee": "https://doi.org/10.37236/4403",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Oswin Aichholzer",
+              "@pid": "33/289"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/AichholzerMP13",
+          "title": "Extreme point and halving edge search in abstract order types",
+          "journal": "Comput. Geom.",
+          "year": "2013",
+          "pages": "970-978",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2013.05.001",
+          "author": [
+            {
+              "#text": "Alexander Pilz",
+              "@pid": "29/7186"
+            },
+            {
+              "#text": "Oswin Aichholzer",
+              "@pid": "33/289"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/AichholzerMP14",
+          "title": "Reprint of: Extreme point and halving edge search in abstract order types",
+          "journal": "Comput. Geom.",
+          "year": "2014",
+          "pages": "518-526",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2013.11.002",
+          "author": [
+            {
+              "#text": "Alexander Pilz",
+              "@pid": "29/7186"
+            },
+            {
+              "#text": "Oswin Aichholzer",
+              "@pid": "33/289"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comgeo/KreveldMOSV22",
+          "title": "Between shapes, using the Hausdorff distance",
+          "journal": "Comput. Geom.",
+          "year": "2022",
+          "pages": "101817",
+          "ee": "https://doi.org/10.1016/J.COMGEO.2021.101817",
+          "author": [
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Marc J. van Kreveld",
+              "@pid": "k/MarcJvanKreveld"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Tim Ophelders",
+              "@pid": "166/1257"
+            },
+            {
+              "#text": "Willem Sonke",
+              "@pid": "167/0776"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/AbrahamsenAM17",
+          "title": "Irrational Guards are Sometimes Needed",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1701.05475",
+          "author": [
+            {
+              "#text": "Anna Adamaszek",
+              "@pid": "43/1826"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/AbrahamsenAM17a",
+          "title": "The Art Gallery Problem is ∃ℝ-complete",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1704.06969",
+          "author": [
+            {
+              "#text": "Anna Adamaszek",
+              "@pid": "43/1826"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1110-3211",
+          "title": "Tron, a combinatorial Game on abstract Graphs",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1110.3211",
+          "author": {
+            "#text": "Tillmann Miltzow",
+            "@pid": "37/8210"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1206-6360",
+          "title": "Augmenting a Geometric Matching is NP-complete",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1206.6360",
+          "author": {
+            "#text": "Tillmann Miltzow",
+            "@pid": "37/8210"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1211-2118",
+          "title": "Trees in simple Polygons",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1211.2118",
+          "author": {
+            "#text": "Tillmann Miltzow",
+            "@pid": "37/8210"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1302-4400",
+          "title": "Quasi-Parallel Segments and Characterization of Unique Bichromatic Matchings",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1302.4400",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Günter Rote",
+              "@pid": "r/GunterRote"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-05142",
+          "title": "∀∃R-completeness and area-universality",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.05142",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Michael Gene Dobbins",
+              "@pid": "145/3281"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1802-06699",
+          "title": "The Complexity of Drawing a Graph in a Polygonal Region",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1802.06699",
+          "author": [
+            {
+              "#text": "Anna Lubiw",
+              "@pid": "34/4423"
+            },
+            {
+              "#text": "Debajyoti Mondal",
+              "@pid": "90/8236"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1811-01177",
+          "title": "Smoothed Analysis of the Art Gallery Problem",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1811.01177",
+          "author": [
+            {
+              "#text": "Andreas F. Holmsen",
+              "@pid": "47/6853"
+            },
+            {
+              "#text": "Michael Gene Dobbins",
+              "@pid": "145/3281"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1903-06981",
+          "title": "Token Swapping on Trees",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1903.06981",
+          "author": [
+            {
+              "#text": "Ahmad Biniaz",
+              "@pid": "41/8409"
+            },
+            {
+              "#text": "Alexi Turcotte",
+              "@pid": "207/6547"
+            },
+            {
+              "#text": "Anna Lubiw",
+              "@pid": "34/4423"
+            },
+            {
+              "#text": "Anurag Murty Naredla",
+              "@pid": "231/6335"
+            },
+            {
+              "#text": "Debajyoti Mondal",
+              "@pid": "90/8236"
+            },
+            {
+              "#text": "Josef Tkadlec",
+              "@pid": "97/2911"
+            },
+            {
+              "#text": "Kshitij Jain",
+              "@pid": "206/7063"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Zuzana Masárová",
+              "@pid": "201/8115"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1907-01241",
+          "title": "On the VC-dimension of convex sets and half-spaces",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.01241",
+          "author": [
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Saeed Gh. Ilchi",
+              "@pid": "244/2266"
+            },
+            {
+              "#text": "Shakhar Smorodinsky",
+              "@pid": "65/4137"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1907-04645",
+          "title": "Smoothed Analysis of Order Types",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.04645",
+          "author": [
+            {
+              "#text": "Ivor van der Hoog",
+              "@pid": "200/8577"
+            },
+            {
+              "#text": "Martijn van Schaik",
+              "@pid": "244/9734"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-02213",
+          "title": "A Universality Theorem for Nested Polytopes",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.02213",
+          "author": [
+            {
+              "#text": "Andreas F. Holmsen",
+              "@pid": "47/6853"
+            },
+            {
+              "#text": "Michael Gene Dobbins",
+              "@pid": "145/3281"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1912-02278",
+          "title": "A Framework for Robust Realistic Geometric Computations",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.02278",
+          "author": [
+            {
+              "#text": "Ivor van der Hoog",
+              "@pid": "200/8577"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1912-08674",
+          "title": "Dynamic Toolbox for ETRINV",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1912.08674",
+          "author": [
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2003-02583",
+          "title": "Maximum Clique in Disk-Like Intersection Graphs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.02583",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2004-07558",
+          "title": "Framework for ∃R-Completeness of Two-Dimensional Packing Problems",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.07558",
+          "author": [
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Nadja Seiferth",
+              "@pid": "175/1623"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-06920",
+          "title": "A Practical Algorithm with Performance Guarantees for the Art~Gallery Problem",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.06920",
+          "author": [
+            {
+              "#text": "Simon B. Hengeveld",
+              "@pid": "270/1994"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2009-14719",
+          "title": "Between Shapes, Using the Hausdorff Distance",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2009.14719",
+          "author": [
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Marc J. van Kreveld",
+              "@pid": "k/MarcJvanKreveld"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Tim Ophelders",
+              "@pid": "166/1257"
+            },
+            {
+              "#text": "Willem Sonke",
+              "@pid": "167/0776"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2101-07554",
+          "title": "Local Complexity of Polygons",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.07554",
+          "author": [
+            {
+              "#text": "Fabian Klute",
+              "@pid": "215/1505"
+            },
+            {
+              "#text": "Meghana M. Reddy",
+              "@pid": "239/3334"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-09798",
+          "title": "Training Neural Networks is ER-complete",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.09798",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-09811",
+          "title": "Chasing Puppies: Mobile Beacon Routing on Closed Curves",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.09811",
+          "author": [
+            {
+              "#text": "Giovanni Viglietta",
+              "@pid": "60/8409"
+            },
+            {
+              "#text": "Irina Kostitsyna",
+              "@pid": "46/5483"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Jérôme Urhausen",
+              "@pid": "153/1299"
+            },
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Maarten Löffler",
+              "@pid": "46/6428"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2106-02397",
+          "title": "On Classifying Continuous Constraint Satisfaction problems",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2106.02397",
+          "author": [
+            {
+              "#text": "Reinier F. Schmiermann",
+              "@pid": "294/5077"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2108-02585",
+          "title": "Geometric Embeddability of Complexes is ∃R-complete",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.02585",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2108-04007",
+          "title": "Topological Art in Simple Galleries",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.04007",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Patrick Schnider",
+              "@pid": "195/5907"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2112-04343",
+          "title": "The Complexity of the Hausdorff Distance",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2112.04343",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Paul Jungeblut",
+              "@pid": "229/4297"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-01368",
+          "title": "Training Fully Connected Neural Networks is ∃R-Complete",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.01368",
+          "author": [
+            {
+              "#text": "Christoph Hertrich",
+              "@pid": "234/8939"
+            },
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Paul Jungeblut",
+              "@pid": "229/4297"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2208-06687",
+          "title": "Avoider-Enforcer Game is NP-hard",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2208.06687",
+          "author": [
+            {
+              "#text": "Milos Stojakovic",
+              "@pid": "95/1156"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2212-01211",
+          "title": "Sometimes Two Irrational Guards are Needed",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2212.01211",
+          "author": [
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2301-03221",
+          "title": "Representing Matroids over the Reals is ∃R-complete",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2301.03221",
+          "author": [
+            {
+              "#text": "Arnaud de Mesmay",
+              "@pid": "30/10045"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-13597",
+          "title": "The Complexity of Recognizing Geometric Hypergraphs",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.13597",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2303-00666",
+          "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2303.00666",
+          "author": [
+            {
+              "#text": "Frank Staals",
+              "@pid": "41/10735"
+            },
+            {
+              "#text": "Sarita de Berg",
+              "@pid": "302/4665"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-05010",
+          "title": "Geometric Thickness of Multigraphs is ∃R-complete",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.05010",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Henry Förster",
+              "@pid": "180/6420"
+            },
+            {
+              "#text": "Irene Parada",
+              "@pid": "181/3984"
+            },
+            {
+              "#text": "Philipp Kindermann",
+              "@pid": "130/4006"
+            },
+            {
+              "#text": "Soeren Terziadis",
+              "@pid": "239/4033"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2401-02172",
+          "title": "Recognition of Unit Segment and Polyline Graphs is ∃R-Complete",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2401.02172",
+          "author": [
+            {
+              "#text": "Lasse Wulf",
+              "@pid": "223/9905"
+            },
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2407-18006",
+          "title": "The Existential Theory of the Reals as a Complexity Class: A Compendium",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2407.18006",
+          "author": [
+            {
+              "#text": "Jean Cardinal",
+              "@pid": "85/4356"
+            },
+            {
+              "#text": "Marcus Schaefer",
+              "@pid": "46/4811"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2502-09279",
+          "title": "Oracle Separations for RPH",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2502.09279",
+          "author": [
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Subhasree Patro",
+              "@pid": "254/2839"
+            },
+            {
+              "#text": "Thekla Hamm",
+              "@pid": "247/7186"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-05894",
+          "title": "On Equivalent Characterizations of NP in Abstract Models of Computation",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.05894",
+          "author": [
+            {
+              "#text": "Hans L. Bodlaender",
+              "@pid": "b/HLBodlaender"
+            },
+            {
+              "#text": "Jeremy C. Kirn",
+              "@pid": "419/6310"
+            },
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-02779",
+          "title": "Devil's Games and Qℝ: Continuous Games complete for the First-Order Theory of the Reals",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.02779",
+          "author": [
+            {
+              "#text": "Arnaud de Mesmay",
+              "@pid": "30/10045"
+            },
+            {
+              "#text": "Jack Stade",
+              "@pid": "314/6582"
+            },
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Marcus Schaefer",
+              "@pid": "46/4811"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2603-29427",
+          "title": "Beyond Bits: An Introduction to Computation over the Reals",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.29427",
+          "author": {
+            "#text": "Tillmann Miltzow",
+            "@pid": "37/8210"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-26749",
+          "title": "The Nesting Bird Box Problem is ER-complete: Sharp Hardness Results for the Hidden Set Problem",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.26749",
+          "author": [
+            {
+              "#text": "Johanna Ockenfels",
+              "@pid": "401/7456"
+            },
+            {
+              "#text": "Lucas Meijer",
+              "@pid": "335/1605"
+            },
+            {
+              "#text": "Milos Stojakovic",
+              "@pid": "95/1156"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/AichholzerAM14",
+          "title": "Disjoint compatibility graph of non-crossing matchings of points in convex position",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1403.5546",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Oswin Aichholzer",
+              "@pid": "33/289"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/AsinowskiKM14",
+          "title": "Counting One-sided Exchange Stable Matchings",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1401.5354",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Balázs Keszegh",
+              "@pid": "00/1907"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16",
+          "title": "Flip Distance to a Non-crossing Perfect Matching",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1601.05989",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16a",
+          "title": "The Parameterized Hardness of the Art Gallery Problem",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1603.08116",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetM16b",
+          "title": "An Approximation Algorithm for the Art Gallery Problem",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.05527",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BonnetMR16",
+          "title": "Complexity of Token Swapping and its Variants",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1607.07676",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/CardinalFMTV16",
+          "title": "Intersection Graphs of Rays and Grounded Segments",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1612.03638",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Casey Tompkins",
+              "@pid": "173/5814"
+            },
+            {
+              "#text": "Jean Cardinal",
+              "@pid": "85/4356"
+            },
+            {
+              "#text": "Stefan Felsner",
+              "@pid": "09/2980"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HoffmannKM14",
+          "title": "Halving Balls in Deterministic Linear Time",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1405.1894",
+          "author": [
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Vincent Kusters",
+              "@pid": "76/9060"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HoffmannKM15",
+          "title": "Upper and Lower Bounds on Long Dual-Paths in Line Arrangements",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1506.03728",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Udo Hoffmann",
+              "@pid": "88/2890"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MarxM16",
+          "title": "Peeling and Nibbling the Cactus: Subexponential-Time Algorithms for Counting Triangulations and Related Problems",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1603.07340",
+          "author": [
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MiltzowNORTU16",
+          "title": "Tight Exact and Approximate Algorithmic Results on Token Swapping",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1602.05150",
+          "author": [
+            {
+              "#text": "Antonis Thomas",
+              "@pid": "36/8695"
+            },
+            {
+              "#text": "Günter Rote",
+              "@pid": "r/GunterRote"
+            },
+            {
+              "#text": "Lothar Narins",
+              "@pid": "176/5460"
+            },
+            {
+              "#text": "Takeaki Uno",
+              "@pid": "72/3856"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Yoshio Okamoto",
+              "@pid": "14/837"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/MiltzowSX14",
+          "title": "Counting K_4-Subdivisions",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1411.4819",
+          "author": [
+            {
+              "#text": "Jens M. Schmidt",
+              "@pid": "50/430"
+            },
+            {
+              "#text": "Mingji Xia",
+              "@pid": "22/4171"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/AbrahamsenKKM25",
+          "title": "Precision in Geometric Algorithms (Dagstuhl Seminar 25372)",
+          "journal": "Dagstuhl Reports",
+          "year": "2025",
+          "pages": "21-37",
+          "ee": "https://doi.org/10.4230/DAGREP.15.9.21",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Sándor Kisfaludi-Bak",
+              "@pid": "153/1825"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/BertschingerMMSW24",
+          "title": "Topological Art in Simple Galleries",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2024",
+          "pages": "1092-1130",
+          "ee": "https://doi.org/10.1007/S00454-023-00540-X",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Patrick Schnider",
+              "@pid": "195/5907"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/DobbinsKMR23",
+          "title": "Completeness for the Complexity Class $\\forall \\exists \\mathbb {R}$ and Area-Universality",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2023",
+          "pages": "154-188",
+          "ee": "https://doi.org/10.1007/S00454-022-00381-0",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Michael Gene Dobbins",
+              "@pid": "145/3281"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcg/JungeblutKM24",
+          "title": "The Complexity of the Hausdorff Distance",
+          "journal": "Discret. Comput. Geom.",
+          "year": "2024",
+          "pages": "177-213",
+          "ee": "https://doi.org/10.1007/S00454-023-00562-5",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Paul Jungeblut",
+              "@pid": "229/4297"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dm/AsinowskiKM16",
+          "title": "Counting houses of Pareto optimal matchings in the house allocation problem",
+          "journal": "Discret. Math.",
+          "year": "2016",
+          "pages": "2919-2932",
+          "ee": "https://doi.org/10.1016/J.DISC.2016.05.027",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Balázs Keszegh",
+              "@pid": "00/1907"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dm/MiltzowSX15",
+          "title": "Counting K4-subdivisions",
+          "journal": "Discret. Math.",
+          "year": "2015",
+          "pages": "2387-2392",
+          "ee": "https://doi.org/10.1016/J.DISC.2015.06.004",
+          "author": [
+            {
+              "#text": "Jens M. Schmidt",
+              "@pid": "50/430"
+            },
+            {
+              "#text": "Mingji Xia",
+              "@pid": "22/4171"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dmtcs/0002MM24",
+          "title": "Representing Matroids over the Reals is ∃ℝ-complete",
+          "journal": "Discret. Math. Theor. Comput. Sci.",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/DMTCS.10810",
+          "author": [
+            {
+              "#text": "Arnaud de Mesmay",
+              "@pid": "30/10045"
+            },
+            {
+              "#text": "Eun Jung Kim",
+              "@pid": "87/5080-2"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dmtcs/Biniaz0LMMMNTT22",
+          "title": "Token Swapping on Trees",
+          "journal": "Discret. Math. Theor. Comput. Sci.",
+          "year": "2022",
+          "ee": "https://doi.org/10.46298/DMTCS.8383",
+          "author": [
+            {
+              "#text": "Ahmad Biniaz",
+              "@pid": "41/8409"
+            },
+            {
+              "#text": "Alexi Turcotte",
+              "@pid": "207/6547"
+            },
+            {
+              "#text": "Anna Lubiw",
+              "@pid": "34/4423"
+            },
+            {
+              "#text": "Anurag Murty Naredla",
+              "@pid": "231/6335"
+            },
+            {
+              "#text": "Debajyoti Mondal",
+              "@pid": "90/8236"
+            },
+            {
+              "#text": "Josef Tkadlec",
+              "@pid": "97/2911"
+            },
+            {
+              "#text": "Kshitij Jain",
+              "@pid": "206/7063"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Zuzana Masárová",
+              "@pid": "201/8115"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dmtcs/GrelierIMS21",
+          "title": "On the VC-dimension of half-spaces with respect to convex sets",
+          "journal": "Discret. Math. Theor. Comput. Sci.",
+          "year": "2021",
+          "ee": "https://doi.org/10.46298/DMTCS.6631",
+          "author": [
+            {
+              "#text": "Nicolas Grelier",
+              "@pid": "182/2150"
+            },
+            {
+              "#text": "Saeed Gh. Ilchi",
+              "@pid": "244/2266"
+            },
+            {
+              "#text": "Shakhar Smorodinsky",
+              "@pid": "65/4137"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dmtcs/HengeveldM23",
+          "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem",
+          "journal": "Discret. Math. Theor. Comput. Sci.",
+          "year": "2023",
+          "ee": "https://doi.org/10.46298/DMTCS.9225",
+          "author": [
+            {
+              "#text": "Simon B. Hengeveld",
+              "@pid": "270/1994"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/igt/BertschingerMKMW25",
+          "title": "The Complexity of Recognizing Geometric Hypergraphs",
+          "journal": "Innov. Graph Theory",
+          "year": "2025",
+          "pages": "157-190",
+          "ee": "https://doi.org/10.5802/IGT.9",
+          "author": [
+            {
+              "#text": "Daniel Bertschinger",
+              "@pid": "258/5126"
+            },
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Nicolas El Maalouly",
+              "@pid": "299/1764"
+            },
+            {
+              "#text": "Simon Weber",
+              "@pid": "31/9828-1"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/AbrahamsenAM22",
+          "title": "The Art Gallery Problem is ∃ℝ-complete",
+          "journal": "J. ACM",
+          "year": "2022",
+          "pages": "4:1-4:70",
+          "ee": "https://doi.org/10.1145/3486220",
+          "author": [
+            {
+              "#text": "Anna Adamaszek",
+              "@pid": "43/1826"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jacm/AbrahamsenKM25",
+          "title": "Geometric Embeddability of Complexes is ∃ℝ-complete",
+          "journal": "J. ACM",
+          "year": "2025",
+          "pages": "9:1-9:26",
+          "ee": "https://doi.org/10.1145/3707201",
+          "author": [
+            {
+              "#text": "Linda Kleist",
+              "@pid": "154/5457"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jgaa/CardinalFMTV18",
+          "title": "Intersection Graphs of Rays and Grounded Segments",
+          "journal": "J. Graph Algorithms Appl.",
+          "year": "2018",
+          "pages": "273-295",
+          "ee": "https://doi.org/10.7155/JGAA.00470",
+          "author": [
+            {
+              "#text": "Birgit Vogtenhuber",
+              "@pid": "95/3225"
+            },
+            {
+              "#text": "Casey Tompkins",
+              "@pid": "173/5814"
+            },
+            {
+              "#text": "Jean Cardinal",
+              "@pid": "85/4356"
+            },
+            {
+              "#text": "Stefan Felsner",
+              "@pid": "09/2980"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jgaa/LubiwMM22",
+          "title": "The Complexity of Drawing a Graph in a Polygonal Region",
+          "journal": "J. Graph Algorithms Appl.",
+          "year": "2022",
+          "pages": "421-446",
+          "ee": "https://doi.org/10.7155/JGAA.00602",
+          "author": [
+            {
+              "#text": "Anna Lubiw",
+              "@pid": "34/4423"
+            },
+            {
+              "#text": "Debajyoti Mondal",
+              "@pid": "90/8236"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/0001KM20",
+          "title": "Halving balls by a hyperplane in deterministic linear time",
+          "journal": "J. Comput. Geom.",
+          "year": "2020",
+          "pages": "576-614",
+          "ee": "https://doi.org/10.20382/JOCG.V11I1A23",
+          "author": [
+            {
+              "#text": "Michael Hoffmann",
+              "@pid": "h/MichaelHoffmann"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Vincent Kusters",
+              "@pid": "76/9060"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/Abrahamsen0KLMU21",
+          "title": "Chasing Puppies: Mobile Beacon Routing on Closed Curves",
+          "journal": "J. Comput. Geom.",
+          "year": "2021",
+          "pages": "115-150",
+          "ee": "https://doi.org/10.20382/JOCG.V13I2A7",
+          "author": [
+            {
+              "#text": "Giovanni Viglietta",
+              "@pid": "60/8409"
+            },
+            {
+              "#text": "Irina Kostitsyna",
+              "@pid": "46/5483"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Jérôme Urhausen",
+              "@pid": "153/1299"
+            },
+            {
+              "#text": "Jordi L. Vermeulen",
+              "@pid": "202/1209"
+            },
+            {
+              "#text": "Maarten Löffler",
+              "@pid": "46/6428"
+            },
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/ApfelbaumBFMPUZ11",
+          "title": "Points with Large Quadrant Depth",
+          "journal": "J. Comput. Geom.",
+          "year": "2011",
+          "pages": "128-143",
+          "ee": "https://doi.org/10.20382/JOCG.V2I1A7",
+          "author": [
+            {
+              "#text": "Itay Ben-Dan",
+              "@pid": "44/7614"
+            },
+            {
+              "#text": "Ran Ziv",
+              "@pid": "65/6120"
+            },
+            {
+              "#text": "Roel Apfelbaum",
+              "@pid": "89/629"
+            },
+            {
+              "#text": "Rom Pinchasi",
+              "@pid": "36/4562"
+            },
+            {
+              "#text": "Stefan Felsner",
+              "@pid": "09/2980"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            },
+            {
+              "#text": "Torsten Ueckerdt",
+              "@pid": "87/2203"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/AsinowskiMR15",
+          "title": "Quasi-parallel segments and characterization of unique bichromatic matchings",
+          "journal": "J. Comput. Geom.",
+          "year": "2015",
+          "pages": "185-219",
+          "ee": "https://doi.org/10.20382/JOCG.V6I1A8",
+          "author": [
+            {
+              "#text": "Andrei Asinowski",
+              "@pid": "91/5656"
+            },
+            {
+              "#text": "Günter Rote",
+              "@pid": "r/GunterRote"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jocg/BiroBMMR18",
+          "title": "Fine-grained complexity of coloring unit disks and balls",
+          "journal": "J. Comput. Geom.",
+          "year": "2018",
+          "pages": "47-80",
+          "ee": "https://doi.org/10.20382/JOCG.V9I2A4",
+          "author": [
+            {
+              "#text": "Csaba Biró",
+              "@pid": "82/7603"
+            },
+            {
+              "#text": "Dániel Marx",
+              "@pid": "95/1832"
+            },
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Pawel Rzazewski",
+              "@pid": "63/9303"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamcomp/EricksonHM24",
+          "title": "Smoothing the Gap Between NP and ER",
+          "journal": "SIAM J. Comput.",
+          "year": "2024",
+          "pages": "S20-102",
+          "ee": "https://doi.org/10.1137/20M1385287",
+          "author": [
+            {
+              "#text": "Ivor van der Hoog",
+              "@pid": "200/8577"
+            },
+            {
+              "#text": "Jeff Erickson",
+              "@pid": "e/JeffErickson"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/BergMS26",
+          "title": "Towards Space Efficient Two-Point Shortest Path Queries in a Polygonal Domain",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2026",
+          "pages": "25:1-25:27",
+          "ee": "https://doi.org/10.1145/3802821",
+          "author": [
+            {
+              "#text": "Frank Staals",
+              "@pid": "41/10735"
+            },
+            {
+              "#text": "Sarita de Berg",
+              "@pid": "302/4665"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/talg/BonnetM20",
+          "title": "Parameterized Hardness of Art Gallery Problems",
+          "journal": "ACM Trans. Algorithms",
+          "year": "2020",
+          "pages": "42:1-42:23",
+          "ee": "https://doi.org/10.1145/3398684",
+          "author": [
+            {
+              "#text": "Édouard Bonnet",
+              "@pid": "131/6607"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/theoretics/AbrahamsenMS24",
+          "title": "Framework for ∃ ℝ-Completeness of Two-Dimensional Packing Problems",
+          "journal": "TheoretiCS",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/THEORETICS.24.11",
+          "author": [
+            {
+              "#text": "Mikkel Abrahamsen",
+              "@pid": "129/6231"
+            },
+            {
+              "#text": "Nadja Seiferth",
+              "@pid": "175/1623"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/theoretics/MiltzowS24",
+          "title": "On Classifying Continuous Constraint Satisfaction Problems",
+          "journal": "TheoretiCS",
+          "year": "2024",
+          "ee": "https://doi.org/10.46298/THEORETICS.24.10",
+          "author": [
+            {
+              "#text": "Reinier F. Schmiermann",
+              "@pid": "294/5077"
+            },
+            {
+              "#text": "Tillmann Miltzow",
+              "@pid": "37/8210"
+            }
+          ]
+        }
       }
     ]
   }

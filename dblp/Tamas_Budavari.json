@@ -1,572 +1,1708 @@
 {
   "dblpperson": {
+    "@name": "Tamas Budavari",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/edbt/DobosSBBCTMTJ11",
-        "title": "Array requirements for scientific applications and an implementation for microsoft SQL server.",
-        "pages": "13-19",
-        "year": "2011",
-        "booktitle": "EDBT/ICDT Array Databases Workshop",
-        "ee": "https://doi.org/10.1145/1966895.1966897",
-        "url": "db/conf/edbt/array2011.html#DobosSBBCTMTJ11",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Alexander S. Szalay",
-          "JosÃ© A. Blakeley",
-          "Tamas Budavari",
-          "IstvÃ¡n Csabai",
-          "Dragan Tomic",
-          "Milos Milovanovic",
-          "Marko Tintor",
-          "Andrija Jovanovic"
-        ]
+        "inproceedings": {
+          "@key": "conf/cidr/CsabaiTDJHPBS07",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "booktitle": "CIDR",
+          "year": "2007",
+          "pages": "207-218",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cidr/MalikS03",
-        "title": "SkyQuery: A Web Service Approach to Federate Databases.",
-        "year": "2003",
-        "booktitle": "CIDR",
-        "ee": "http://www-db.cs.wisc.edu/cidr/cidr2003/program/p17.pdf",
-        "url": "db/conf/cidr/cidr2003.html#MalikS03",
-        "authors": [
-          "Tanu Malik",
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Ani Thakar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cidr/MalikS03",
+          "title": "SkyQuery: A Web Service Approach to Federate Databases",
+          "booktitle": "CIDR",
+          "year": "2003",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cidr/CsabaiTDJHPBS07",
-        "title": "Spatial Indexing of Large Multidimensional Databases.",
-        "pages": "207-218",
-        "year": "2007",
-        "booktitle": "CIDR",
-        "ee": "http://cidrdb.org/cidr2007/papers/cidr07p23.pdf",
-        "url": "db/conf/cidr/cidr2007.html#CsabaiTDJHPBS07",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Geza Herczegh",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/edbt/DobosSBBCTMTJ11",
+          "title": "Array requirements for scientific applications and an implementation for microsoft SQL server",
+          "booktitle": "EDBT/ICDT Array Databases Workshop",
+          "year": "2011",
+          "pages": "13-19",
+          "ee": "https://doi.org/10.1145/1966895.1966897",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrija Jovanovic",
+              "@pid": "86/10357"
+            },
+            {
+              "#text": "Dragan Tomic",
+              "@pid": "05/1556"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "José A. Blakeley",
+              "@pid": "79/2594"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Marko Tintor",
+              "@pid": "52/10358"
+            },
+            {
+              "#text": "Milos Milovanovic",
+              "@pid": "32/3467"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icde/MadhyasthaBBVB24",
-        "title": "T-Rex (Tree-Rectangles): Reformulating Decision Tree Traversal as Hyperrectangle Enclosure.",
-        "pages": "1792-1804",
-        "year": "2024",
-        "booktitle": "ICDE",
-        "ee": "https://doi.org/10.1109/ICDE60146.2024.00145",
-        "url": "db/conf/icde/icde2024.html#MadhyasthaBBVB24",
-        "authors": [
-          "Meghana Madhyastha",
-          "Tamas Budavari",
-          "Vladimir Braverman",
-          "Joshua T. Vogelstein",
-          "Randal C. Burns"
-        ]
+        "inproceedings": {
+          "@key": "conf/eScience/CareyBAS16",
+          "title": "DOT-K: A distributed online top-K elements algorithm using extreme value statistics",
+          "booktitle": "eScience",
+          "year": "2016",
+          "pages": "130-136",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2016.7870893",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nicholas Carey",
+              "@pid": "196/2934"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensornets/FangHSCGMLCGBTS21",
-        "title": "Wireless Sensor Network for in situ Soil Moisture Monitoring.",
-        "pages": "25-36",
-        "year": "2021",
-        "booktitle": "SENSORNETS",
-        "ee": "https://doi.org/10.5220/0010261500250036",
-        "url": "db/conf/sensornets/sensornets2021.html#FangHSCGMLCGBTS21",
-        "authors": [
-          "Jianing Fang",
-          "Chuheng Hu",
-          "Nour Smaoui",
-          "Douglas Carlson",
-          "Jayant Gupchup",
-          "Razvan Musaloiu-Elefteri",
-          "Chieh-Jan Mike Liang",
-          "Marcus Chang",
-          "Omprakash Gnawali",
-          "Tamas Budavari",
-          "Andreas Terzis",
-          "Katalin Szlavecz",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/eScience/GuBGB22",
+          "title": "Towards Optimal Line of Sight Coverage",
+          "booktitle": "e-Science",
+          "year": "2022",
+          "pages": "137-147",
+          "ee": "https://doi.org/10.1109/ESCIENCE55777.2022.00028",
+          "author": [
+            {
+              "#text": "Amanda Galante",
+              "@pid": "253/9404"
+            },
+            {
+              "#text": "Peter Gu",
+              "@pid": "160/3784"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ssdbm/DobosBLSC12",
-        "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases.",
-        "pages": "159-167",
-        "year": "2012",
-        "booktitle": "SSDBM",
-        "ee": "https://doi.org/10.1007/978-3-642-31235-9_10",
-        "url": "db/conf/ssdbm/ssdbm2012.html#DobosBLSC12",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Tamas Budavari",
-          "Nolan Li",
-          "Alexander S. Szalay",
-          "IstvÃ¡n Csabai"
-        ]
+        "inproceedings": {
+          "@key": "conf/eScience/LiuIYNLSBBBW15",
+          "title": "Streaming Algorithms for Halo Finders",
+          "booktitle": "e-Science",
+          "year": "2015",
+          "pages": "342-351",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2015.73",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Lin Yang",
+              "@pid": "166/6264"
+            },
+            {
+              "#text": "Mark Neyrinck",
+              "@pid": "170/0526"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Xin Wang",
+              "@pid": "10/5630"
+            },
+            {
+              "#text": "Zaoxing Liu",
+              "@pid": "166/6255"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ssdbm/DobosCSBL13",
-        "title": "Graywulf: a platform for federated scientific databases and services.",
-        "pages": "30:1-30:12",
-        "year": "2013",
-        "booktitle": "SSDBM",
-        "ee": "https://doi.org/10.1145/2484838.2484863",
-        "url": "db/conf/ssdbm/ssdbm2013.html#DobosCSBL13",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "IstvÃ¡n Csabai",
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Nolan Li"
-        ]
+        "inproceedings": {
+          "@key": "conf/icde/MadhyasthaBBVB24",
+          "title": "T-Rex (Tree-Rectangles): Reformulating Decision Tree Traversal as Hyperrectangle Enclosure",
+          "booktitle": "ICDE",
+          "year": "2024",
+          "pages": "1792-1804",
+          "ee": "https://doi.org/10.1109/ICDE60146.2024.00145",
+          "author": [
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "Meghana Madhyastha",
+              "@pid": "210/3471"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ssdbm/CrankshawBFBSW13",
-        "title": "Inverted indices for particle tracking in petascale cosmological simulations.",
-        "pages": "25:1-25:10",
-        "year": "2013",
-        "booktitle": "SSDBM",
-        "ee": "https://doi.org/10.1145/2484838.2484882",
-        "url": "db/conf/ssdbm/ssdbm2013.html#CrankshawBFBSW13",
-        "authors": [
-          "Daniel Crankshaw",
-          "Randal C. Burns",
-          "Bridget Falck",
-          "Tamas Budavari",
-          "Alexander S. Szalay",
-          "Jie Wang 0075"
-        ]
+        "inproceedings": {
+          "@key": "conf/sc/DeelmanPKSSGHGVASBNOBMRP03",
+          "title": "Grid-Based Galaxy Morphology Analysis for the National Virtual Observatory",
+          "booktitle": "SC",
+          "year": "2003",
+          "pages": "47",
+          "ee": "https://doi.org/10.1145/1048935.1050197",
+          "author": [
+            {
+              "#text": "Antonio Volpicelli",
+              "@pid": "12/1127"
+            },
+            {
+              "#text": "Arnold H. Rots",
+              "@pid": "23/427"
+            },
+            {
+              "#text": "Carl Kesselman",
+              "@pid": "06/4477"
+            },
+            {
+              "#text": "David Bohlender",
+              "@pid": "33/5644"
+            },
+            {
+              "#text": "Ewa Deelman",
+              "@pid": "d/EwaDeelman"
+            },
+            {
+              "#text": "Gretchen Greene",
+              "@pid": "34/5581"
+            },
+            {
+              "#text": "Gurmeet Singh",
+              "@pid": "43/33"
+            },
+            {
+              "#text": "James Annis",
+              "@pid": "99/2261"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Mei-Hui Su",
+              "@pid": "94/5637"
+            },
+            {
+              "#text": "Niall Gaffney",
+              "@pid": "40/6698"
+            },
+            {
+              "#text": "Olga Pevunova",
+              "@pid": "43/6046"
+            },
+            {
+              "#text": "Raymond Plante",
+              "@pid": "38/1282"
+            },
+            {
+              "#text": "Robert J. Hanisch",
+              "@pid": "74/2602"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tom McGlynn",
+              "@pid": "84/986"
+            },
+            {
+              "#text": "Vijay Sekhri",
+              "@pid": "97/886"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ssdbm/LemsonBS11",
-        "title": "Implementing a General Spatial Indexing Library for Relational Databases of Large Numerical Simulations.",
-        "pages": "509-526",
-        "year": "2011",
-        "booktitle": "SSDBM",
-        "ee": "https://doi.org/10.1007/978-3-642-22351-8_34",
-        "url": "db/conf/ssdbm/ssdbm2011.html#LemsonBS11",
-        "authors": [
-          "Gerard Lemson",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/sc/MishinBSA12",
+          "title": "Incremental and Parallel Analytics on Astrophysical Data Streams",
+          "booktitle": "SC Companion",
+          "year": "2012",
+          "pages": "1078-1086",
+          "ee": "https://doi.org/10.1109/SC.COMPANION.2012.130",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Dmitry Mishin",
+              "@pid": "16/5190"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sc/WangPBMBMS10",
-        "title": "JAWS: Job-Aware Workload Scheduling for the Exploration of Turbulence Simulations.",
-        "pages": "1-11",
-        "year": "2010",
-        "booktitle": "SC",
-        "ee": "http://dl.acm.org/citation.cfm?id=1884684",
-        "url": "db/conf/sc/sc2010.html#WangPBMBMS10",
-        "authors": [
-          "Xiaodan Wang",
-          "Eric A. Perlman",
-          "Randal C. Burns",
-          "Tanu Malik",
-          "Tamas Budavari",
-          "Charles Meneveau",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/sc/WangPBMBMS10",
+          "title": "JAWS: Job-Aware Workload Scheduling for the Exploration of Turbulence Simulations",
+          "booktitle": "SC",
+          "year": "2010",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1109/SC.2010.31",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Eric A. Perlman",
+              "@pid": "93/2783"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            },
+            {
+              "#text": "Xiaodan Wang",
+              "@pid": "26/6760"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sc/DeelmanPKSSGHGVASBNOBMRP03",
-        "title": "Grid-Based Galaxy Morphology Analysis for the National Virtual Observatory.",
-        "pages": "47",
-        "year": "2003",
-        "booktitle": "SC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SC.2003.10022",
-        "url": "db/conf/sc/sc2003.html#DeelmanPKSSGHGVASBNOBMRP03",
-        "authors": [
-          "Ewa Deelman",
-          "Raymond Plante",
-          "Carl Kesselman",
-          "Gurmeet Singh",
-          "Mei-Hui Su",
-          "Gretchen Greene",
-          "Robert J. Hanisch",
-          "Niall Gaffney",
-          "Antonio Volpicelli",
-          "James Annis",
-          "Vijay Sekhri",
-          "Tamas Budavari",
-          "MarÃ­a A. Nieto-Santisteban",
-          "William O'Mullane",
-          "David Bohlender",
-          "Tom McGlynn",
-          "Arnold H. Rots",
-          "Olga Pevunova"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensornets/FangHSCGMLCGBTS21",
+          "title": "Wireless Sensor Network for in situ Soil Moisture Monitoring",
+          "booktitle": "SENSORNETS",
+          "year": "2021",
+          "pages": "25-36",
+          "ee": "https://doi.org/10.5220/0010261500250036",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Chieh-Jan Mike Liang",
+              "@pid": "92/445"
+            },
+            {
+              "#text": "Chuheng Hu",
+              "@pid": "286/1016"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Jianing Fang",
+              "@pid": "286/1080"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Marcus Chang",
+              "@pid": "40/6485"
+            },
+            {
+              "#text": "Nour Smaoui",
+              "@pid": "222/8094"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sc/MishinBSA12",
-        "title": "Incremental and Parallel Analytics on Astrophysical Data Streams.",
-        "pages": "1078-1086",
-        "year": "2012",
-        "booktitle": "SC Companion",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SC.Companion.2012.130",
-        "url": "db/conf/sc/sc2012c.html#MishinBSA12",
-        "authors": [
-          "Dmitry Mishin",
-          "Tamas Budavari",
-          "Alexander S. Szalay",
-          "Yanif Ahmad"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/CrankshawBFBSW13",
+          "title": "Inverted indices for particle tracking in petascale cosmological simulations",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "25:1-25:10",
+          "ee": "https://doi.org/10.1145/2484838.2484882",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Bridget Falck",
+              "@pid": "132/8672"
+            },
+            {
+              "#text": "Daniel Crankshaw",
+              "@pid": "132/8701"
+            },
+            {
+              "#text": "Jie Wang",
+              "@pid": "29/5259-75"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eScience/LiuIYNLSBBBW15",
-        "title": "Streaming Algorithms for Halo Finders.",
-        "pages": "342-351",
-        "year": "2015",
-        "booktitle": "e-Science",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/eScience.2015.73",
-        "url": "db/conf/eScience/eScience2015.html#LiuIYNLSBBBW15",
-        "authors": [
-          "Zaoxing Liu",
-          "Nikita Ivkin",
-          "Lin Yang 0011",
-          "Mark Neyrinck",
-          "Gerard Lemson",
-          "Alexander S. Szalay",
-          "Vladimir Braverman",
-          "Tamas Budavari",
-          "Randal C. Burns",
-          "Xin Wang"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosBLSC12",
+          "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases",
+          "booktitle": "SSDBM",
+          "year": "2012",
+          "pages": "159-167",
+          "ee": "https://doi.org/10.1007/978-3-642-31235-9_10",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eScience/CareyBAS16",
-        "title": "DOT-K: A distributed online top-K elements algorithm using extreme value statistics.",
-        "pages": "130-136",
-        "year": "2016",
-        "booktitle": "eScience",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/eScience.2016.7870893",
-        "url": "db/conf/eScience/eScience2016.html#CareyBAS16",
-        "authors": [
-          "Nicholas Carey",
-          "Tamas Budavari",
-          "Yanif Ahmad",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosCSBL13",
+          "title": "Graywulf: a platform for federated scientific databases and services",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "30:1-30:12",
+          "ee": "https://doi.org/10.1145/2484838.2484863",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cse/BudavariDS13",
-        "title": "SkyQuery: Federating Astronomy Archives.",
-        "pages": "12-20",
-        "year": "2013",
-        "volume": "15",
-        "journal": "Comput. Sci. Eng.",
-        "number": "3",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/MCSE.2013.41",
-        "url": "db/journals/cse/cse15.html#BudavariDS13",
-        "authors": [
-          "Tamas Budavari",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosCSBS14",
+          "title": "Point cloud databases",
+          "booktitle": "SSDBM",
+          "year": "2014",
+          "pages": "33:1-33:4",
+          "ee": "https://doi.org/10.1145/2618243.2618275",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ascom/IvkinLYKLNSBB18",
-        "title": "Scalable streaming tools for analyzing N-body simulations: Finding halos and investigating excursion sets in one pass.",
-        "pages": "166-179",
-        "year": "2018",
-        "volume": "23",
-        "journal": "Astron. Comput.",
-        "ee": "https://doi.org/10.1016/j.ascom.2018.04.003",
-        "url": "db/journals/ascom/ascom23.html#IvkinLYKLNSBB18",
-        "authors": [
-          "Nikita Ivkin",
-          "Zaoxing Liu",
-          "Lin F. Yang",
-          "S. S. Kumar 0004",
-          "Gerard Lemson",
-          "Mark Neyrinck",
-          "Alexander S. Szalay",
-          "Vladimir Braverman",
-          "Tamas Budavari"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/KondorDCBVBS14",
+          "title": "Efficient classification of billions of points into complex geographic regions using hierarchical triangular mesh",
+          "booktitle": "SSDBM",
+          "year": "2014",
+          "pages": "4:1-4:4",
+          "ee": "https://doi.org/10.1145/2618243.2618245",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "András Bodor",
+              "@pid": "123/6320"
+            },
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ascom/Szalai-GindlLKC18",
-        "title": "GPU-accelerated hierarchical Bayesian estimation of luminosity functions using flux-limited observations with photometric noise.",
-        "pages": "247-256",
-        "year": "2018",
-        "volume": "25",
-        "journal": "Astron. Comput.",
-        "ee": "https://www.wikidata.org/entity/Q129079474",
-        "url": "db/journals/ascom/ascom25.html#Szalai-GindlLKC18",
-        "authors": [
-          "JÃ¡nos M. Szalai-Gindl",
-          "T. J. Loredo",
-          "B. C. Kelly",
-          "IstvÃ¡n Csabai",
-          "Tamas Budavari",
-          "LÃ¡szlÃ³ Dobos 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/ssdbm/LemsonBS11",
+          "title": "Implementing a General Spatial Indexing Library for Relational Databases of Large Numerical Simulations",
+          "booktitle": "SSDBM",
+          "year": "2011",
+          "pages": "509-526",
+          "ee": "https://doi.org/10.1007/978-3-642-22351-8_34",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-DB-0211023",
-        "title": "SkyQuery: A WebService Approach to Federate Databases",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0211023",
-        "year": "2002",
-        "journal": "CoRR",
-        "volume": "cs.DB/0211023",
-        "url": "db/journals/corr/corr0211.html#cs-DB-0211023",
-        "authors": [
-          "Tanu Malik",
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Ani Thakar"
-        ]
+        "article": {
+          "@key": "journals/ascom/AccomazziBFGMOW13",
+          "title": "Astronomy and Computing: A new journal for the astronomical computing community",
+          "journal": "Astron. Comput.",
+          "year": "2013",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2012.10.001",
+          "author": [
+            {
+              "#text": "Alberto Accomazzi",
+              "@pid": "66/31"
+            },
+            {
+              "#text": "Andreas Wicenec",
+              "@pid": "119/5002"
+            },
+            {
+              "#text": "Christopher J. Fluke",
+              "@pid": "67/8317"
+            },
+            {
+              "#text": "Michael Wise",
+              "@pid": "120/7371"
+            },
+            {
+              "#text": "Norman Gray",
+              "@pid": "06/3282"
+            },
+            {
+              "#text": "Robert G. Mann",
+              "@pid": "99/3447"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-DB-0208015",
-        "title": "Spatial Clustering of Galaxies in Large Datasets",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0208015",
-        "year": "2002",
-        "journal": "CoRR",
-        "volume": "cs.DB/0208015",
-        "url": "db/journals/corr/corr0208.html#cs-DB-0208015",
-        "authors": [
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Andrew J. Connolly",
-          "Jim Gray 0001",
-          "Takahiko Matsubara",
-          "Adrian Pope",
-          "Istvan Szapudi"
-        ]
+        "article": {
+          "@key": "journals/ascom/Beck0BSC17",
+          "title": "Photo-z-SQL: Integrated, flexible photometric redshift computation in a database",
+          "journal": "Astron. Comput.",
+          "year": "2017",
+          "pages": "34-44",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2017.03.002",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Róbert Beck",
+              "@pid": "155/3573"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-cs-0701172",
-        "title": "Cross-Matching Multiple Spatial Observations and Dealing with Missing Data",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0701172",
-        "year": "2007",
-        "journal": "CoRR",
-        "volume": "abs/cs/0701172",
-        "url": "db/journals/corr/corr0701.html#abs-cs-0701172",
-        "authors": [
-          "Jim Gray 0001",
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Robert Lupton",
-          "MarÃ­a A. Nieto-Santisteban",
-          "Ani Thakar"
-        ]
+        "article": {
+          "@key": "journals/ascom/IvkinLYKLNSBB18",
+          "title": "Scalable streaming tools for analyzing N-body simulations: Finding halos and investigating excursion sets in one pass",
+          "journal": "Astron. Comput.",
+          "year": "2018",
+          "pages": "166-179",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2018.04.003",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Lin Yang",
+              "@pid": "166/6264"
+            },
+            {
+              "#text": "Mark Neyrinck",
+              "@pid": "170/0526"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "S. S. Kumar",
+              "@pid": "286/1791"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Zaoxing Liu",
+              "@pid": "166/6255"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1210-8030",
-        "title": "Astronomy and Computing: a New Journal for the Astronomical Computing Community",
-        "ee": "https://doi.org/10.48550/arXiv.1210.8030",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1210.8030",
-        "url": "db/journals/corr/corr1210.html#abs-1210-8030",
-        "authors": [
-          "Alberto Accomazzi",
-          "Tamas Budavari",
-          "Christopher J. Fluke",
-          "Norman Gray",
-          "Robert G. Mann",
-          "William O'Mullane",
-          "Andreas Wicenec",
-          "Michael Wise"
-        ]
+        "article": {
+          "@key": "journals/ascom/LeeB17",
+          "title": "Faster catalog matching on Graphics Processing Units",
+          "journal": "Astron. Comput.",
+          "year": "2017",
+          "pages": "155-159",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2017.08.001",
+          "author": [
+            {
+              "#text": "Matthias A. Lee",
+              "@pid": "140/4051"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1209-6490",
-        "title": "Spatial Indexing of Large Multidimensional Databases",
-        "ee": "https://doi.org/10.48550/arXiv.1209.6490",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1209.6490",
-        "url": "db/journals/corr/corr1209.html#abs-1209-6490",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "Geza Herczegh",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "article": {
+          "@key": "journals/ascom/LeeBWG17",
+          "title": "Robust statistics for image deconvolution",
+          "journal": "Astron. Comput.",
+          "year": "2017",
+          "pages": "15-21",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2017.09.002",
+          "author": [
+            {
+              "#text": "Charles Gulian",
+              "@pid": "210/2449"
+            },
+            {
+              "#text": "Matthias A. Lee",
+              "@pid": "140/4051"
+            },
+            {
+              "#text": "Richard L. White",
+              "@pid": "48/603"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2302-02030",
-        "title": "Learning the Night Sky with Deep Generative Priors.",
-        "year": "2023",
-        "volume": "abs/2302.02030",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2302.02030",
-        "url": "db/journals/corr/corr2302.html#abs-2302-02030",
-        "authors": [
-          "Fausto Navarro",
-          "Daniel Hall",
-          "Tamas Budavari",
-          "Yashil Sukurdeep"
-        ]
+        "article": {
+          "@key": "journals/ascom/MallinarBL17",
+          "title": "Probabilistic cross-identification of galaxies with realistic clustering",
+          "journal": "Astron. Comput.",
+          "year": "2017",
+          "pages": "83-86",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2017.06.001",
+          "author": [
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Neil Mallinar",
+              "@pid": "213/8278"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1711-02793",
-        "title": "Robust Statistics for Image Deconvolution.",
-        "year": "2017",
-        "volume": "abs/1711.02793",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1711.02793",
-        "url": "db/journals/corr/corr1711.html#abs-1711-02793",
-        "authors": [
-          "Matthias A. Lee",
-          "Tamas Budavari",
-          "Richard L. White",
-          "Charles Gulian"
-        ]
+        "article": {
+          "@key": "journals/ascom/SukurdeepNB25",
+          "title": "AstroClearNet: Deep image prior for multi-frame astronomical image restoration",
+          "journal": "Astron. Comput.",
+          "year": "2025",
+          "pages": "100999",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2025.100999",
+          "author": [
+            {
+              "#text": "Fausto Navarro",
+              "@pid": "339/7043"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yashil Sukurdeep",
+              "@pid": "256/1692"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-DC-0208014",
-        "title": "Web Services for the Virtual Observatory",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0208014",
-        "year": "2002",
-        "journal": "CoRR",
-        "volume": "cs.DC/0208014",
-        "url": "db/journals/corr/corr0208.html#cs-DC-0208014",
-        "authors": [
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "Tanu Malik",
-          "Jim Gray 0001",
-          "Ani Thakar"
-        ]
+        "article": {
+          "@key": "journals/ascom/Szalai-GindlLKC18",
+          "title": "GPU-accelerated hierarchical Bayesian estimation of luminosity functions using flux-limited observations with photometric noise",
+          "journal": "Astron. Comput.",
+          "year": "2018",
+          "pages": "247-256",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2018.10.004",
+          "author": [
+            {
+              "#text": "B. C. Kelly",
+              "@pid": "286/1625"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "T. J. Loredo",
+              "@pid": "286/1175"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-DB-0403017",
-        "title": "Extending the SDSS Batch Query System to the National Virtual Observatory Grid",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0403017",
-        "year": "2004",
-        "journal": "CoRR",
-        "volume": "cs.DB/0403017",
-        "url": "db/journals/corr/corr0403.html#cs-DB-0403017",
-        "authors": [
-          "MarÃ­a A. Nieto-Santisteban",
-          "William O'Mullane",
-          "Jim Gray 0001",
-          "Nolan Li",
-          "Tamas Budavari",
-          "Alexander S. Szalay",
-          "Aniruddha R. Thakar"
-        ]
+        "article": {
+          "@key": "journals/ascom/TimalsinaBMBL22",
+          "title": "DeepForge for astronomy: Deep learning SDSS redshifts from images",
+          "journal": "Astron. Comput.",
+          "year": "2022",
+          "pages": "100601",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2022.100601",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "K. Moore",
+              "@pid": "290/0303"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Umesh Timalsina",
+              "@pid": "250/1022"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/DobosSBCL13",
-        "title": "Graywulf: A platform for federated scientific databases and services.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1308.1440",
-        "volume": "abs/1308.1440",
-        "url": "db/journals/corr/corr1308.html#DobosSBCL13",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Alexander S. Szalay",
-          "Tamas Budavari",
-          "IstvÃ¡n Csabai",
-          "Nolan Li"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1110-1729",
+          "title": "Array Requirements for Scientific Applications and an Implementation for Microsoft SQL Server",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1110.1729",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrija Jovanovic",
+              "@pid": "86/10357"
+            },
+            {
+              "#text": "Dragan Tomic",
+              "@pid": "05/1556"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "José A. Blakeley",
+              "@pid": "79/2594"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Marko Tintor",
+              "@pid": "52/10358"
+            },
+            {
+              "#text": "Milos Milovanovic",
+              "@pid": "32/3467"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1110-1729",
-        "title": "Array Requirements for Scientific Applications and an Implementation for Microsoft SQL Server",
-        "ee": "https://doi.org/10.48550/arXiv.1110.1729",
-        "year": "2011",
-        "journal": "CoRR",
-        "volume": "abs/1110.1729",
-        "url": "db/journals/corr/corr1110.html#abs-1110-1729",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Alexander S. Szalay",
-          "JosÃ© A. Blakeley",
-          "Tamas Budavari",
-          "IstvÃ¡n Csabai",
-          "Dragan Tomic",
-          "Milos Milovanovic",
-          "Marko Tintor",
-          "Andrija Jovanovic"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1206-5021",
+          "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1206.5021",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1206-5021",
-        "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases.",
-        "ee": "https://doi.org/10.48550/arXiv.1206.5021",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1206.5021",
-        "url": "db/journals/corr/corr1206.html#abs-1206-5021",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Tamas Budavari",
-          "Nolan Li",
-          "Alexander S. Szalay",
-          "IstvÃ¡n Csabai"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1209-6490",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.6490",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2102-10260",
-        "title": "Wireless sensor network for in situ soil moisture monitoring.",
-        "year": "2021",
-        "volume": "abs/2102.10260",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2102.10260",
-        "url": "db/journals/corr/corr2102.html#abs-2102-10260",
-        "authors": [
-          "Jianing Fang",
-          "Chuheng Hu",
-          "Nour Smaoui",
-          "Douglas Carlson",
-          "Jayant Gupchup",
-          "Razvan Musaloiu-Elefteri",
-          "Chieh-Jan Mike Liang",
-          "Marcus Chang",
-          "Omprakash Gnawali",
-          "Tamas Budavari",
-          "Andreas Terzis",
-          "Katalin Szlavecz",
-          "Alexander S. Szalay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1210-8030",
+          "title": "Astronomy and Computing: a New Journal for the Astronomical Computing Community",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1210.8030",
+          "author": [
+            {
+              "#text": "Alberto Accomazzi",
+              "@pid": "66/31"
+            },
+            {
+              "#text": "Andreas Wicenec",
+              "@pid": "119/5002"
+            },
+            {
+              "#text": "Christopher J. Fluke",
+              "@pid": "67/8317"
+            },
+            {
+              "#text": "Michael Wise",
+              "@pid": "120/7371"
+            },
+            {
+              "#text": "Norman Gray",
+              "@pid": "06/3282"
+            },
+            {
+              "#text": "Robert G. Mann",
+              "@pid": "99/3447"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1711-02793",
+          "title": "Robust Statistics for Image Deconvolution",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1711.02793",
+          "author": [
+            {
+              "#text": "Charles Gulian",
+              "@pid": "210/2449"
+            },
+            {
+              "#text": "Matthias A. Lee",
+              "@pid": "140/4051"
+            },
+            {
+              "#text": "Richard L. White",
+              "@pid": "48/603"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-10260",
+          "title": "Wireless sensor network for in situ soil moisture monitoring",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.10260",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Chieh-Jan Mike Liang",
+              "@pid": "92/445"
+            },
+            {
+              "#text": "Chuheng Hu",
+              "@pid": "286/1016"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Jianing Fang",
+              "@pid": "286/1080"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Marcus Chang",
+              "@pid": "40/6485"
+            },
+            {
+              "#text": "Nour Smaoui",
+              "@pid": "222/8094"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2302-02030",
+          "title": "Learning the Night Sky with Deep Generative Priors",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2302.02030",
+          "author": [
+            {
+              "#text": "Daniel Hall",
+              "@pid": "304/7061"
+            },
+            {
+              "#text": "Fausto Navarro",
+              "@pid": "339/7043"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yashil Sukurdeep",
+              "@pid": "256/1692"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-06463",
+          "title": "AstroClearNet: Deep image prior for multi-frame astronomical image restoration",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.06463",
+          "author": [
+            {
+              "#text": "Fausto Navarro",
+              "@pid": "339/7043"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yashil Sukurdeep",
+              "@pid": "256/1692"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-15021",
+          "title": "Generalization from Low- to Moderate-Resolution Spectra with Neural Networks for Stellar Parameter Estimation: A Case Study with DESI",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.15021",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Rosemary F. G. Wyse",
+              "@pid": "431/1908"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Viska Wei",
+              "@pid": "278/7858"
+            },
+            {
+              "#text": "Xiaosheng Zhao",
+              "@pid": "347/9366"
+            },
+            {
+              "#text": "Yang Huang",
+              "@pid": "88/2275"
+            },
+            {
+              "#text": "Yuan-Sen Ting",
+              "@pid": "296/4181"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701172",
+          "title": "Cross-Matching Multiple Spatial Observations and Dealing with Missing Data",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701172",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Robert Lupton",
+              "@pid": "75/531"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BeckDBSC16",
+          "title": "Photo-z-SQL: integrated, flexible photometric redshift computation in a database",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.01560",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Róbert Beck",
+              "@pid": "155/3573"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0208015",
+          "title": "Spatial Clustering of Galaxies in Large Datasets",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208015",
+          "author": [
+            {
+              "#text": "Adrian Pope",
+              "@pid": "43/2739"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrew J. Connolly",
+              "@pid": "117/4231"
+            },
+            {
+              "#text": "Istvan Szapudi",
+              "@pid": "11/2912"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Takahiko Matsubara",
+              "@pid": "27/3939"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0211023",
+          "title": "SkyQuery: A WebService Approach to Federate Databases",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0211023",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0403017",
+          "title": "Extending the SDSS Batch Query System to the National Virtual Observatory Grid",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0403017",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DC-0208014",
+          "title": "Web Services for the Virtual Observatory",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208014",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DobosSBCL13",
+          "title": "Graywulf: A platform for federated scientific databases and services",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1308.1440",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DobosVVTEVBK16",
+          "title": "The Footprint Database and Web Services of the Herschel Space Observatory",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1606.03957",
+          "author": [
+            {
+              "#text": "Csaba Kiss",
+              "@pid": "27/646"
+            },
+            {
+              "#text": "David Teyssier",
+              "@pid": "182/2528"
+            },
+            {
+              "#text": "Erika Varga-Verebélyi",
+              "@pid": "182/2287"
+            },
+            {
+              "#text": "Eva Verdugo",
+              "@pid": "182/2529"
+            },
+            {
+              "#text": "Ivan Valtchanov",
+              "@pid": "182/2200"
+            },
+            {
+              "#text": "Katrina Exter",
+              "@pid": "182/2484"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KondorDCBVBS14",
+          "title": "Efficient classification of billions of points into complex geographic regions using hierarchical triangular mesh",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1410.0709",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "András Bodor",
+              "@pid": "123/6320"
+            },
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/LawlorBM16",
+          "title": "Mapping the Similarities of Spectra: Global and Locally-biased Approaches to SDSS Galaxy Data",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1609.03932",
+          "author": [
+            {
+              "#text": "David Lawlor",
+              "@pid": "117/3476"
+            },
+            {
+              "#text": "Michael W. Mahoney",
+              "@pid": "10/6978"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/BudavariDS13",
+          "title": "SkyQuery: Federating Astronomy Archives",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2013",
+          "pages": "12-20",
+          "ee": "https://doi.org/10.1109/MCSE.2013.41",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sp/BrollTVBLS20",
+          "title": "A Machine Learning Gateway for Scientific Workflow Design",
+          "journal": "Sci. Program.",
+          "year": "2020",
+          "pages": "8867380:1-8867380:15",
+          "ee": "https://doi.org/10.1155/2020/8867380",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Manuel E. Acacio",
+              "@pid": "15/5905"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Umesh Timalsina",
+              "@pid": "250/1022"
+            }
+          ]
+        }
       }
     ]
   }

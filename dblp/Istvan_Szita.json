@@ -1,438 +1,699 @@
 {
   "dblpperson": {
+    "@name": "Istvan Szita",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/aiide/ChaslotBSS08",
-        "title": "Monte-Carlo Tree Search: A New Framework for Game AI.",
-        "year": "2008",
-        "booktitle": "AIIDE",
-        "url": "db/conf/aiide/aiide2008.html#ChaslotBSS08",
-        "ee": "http://www.aaai.org/Library/AIIDE/2008/aiide08-036.php",
-        "authors": [
-          "Guillaume Chaslot",
-          "Sander Bakkes",
-          "Istvan Szita",
-          "Pieter Spronck"
-        ]
+        "informal": {
+          "@key": "books/sp/12/Szita12",
+          "title": "Reinforcement Learning in Games",
+          "journal": "Reinforcement Learning",
+          "year": "2012",
+          "pages": "539-577",
+          "ee": "https://doi.org/10.1007/978-3-642-27645-3_17",
+          "author": {
+            "#text": "István Szita",
+            "@pid": "51/6034"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icann/SzitaGL06",
-        "title": "Reinforcement Learning with Echo State Networks.",
-        "pages": "830-839",
-        "year": "2006",
-        "booktitle": "ICANN (1)",
-        "ee": "https://doi.org/10.1007/11840817_86",
-        "url": "db/conf/icann/icann2006-1.html#SzitaGL06",
-        "authors": [
-          "Istvan Szita",
-          "Viktor Gyenes",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/acg/SzitaCS09",
+          "title": "Monte-Carlo Tree Search in Settlers of Catan",
+          "booktitle": "ACG",
+          "year": "2010",
+          "pages": "21-32",
+          "ee": "https://doi.org/10.1007/978-3-642-12993-3_3",
+          "author": [
+            {
+              "#text": "Guillaume Chaslot",
+              "@pid": "30/7032"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Pieter Spronck",
+              "@pid": "90/4265"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecai/SzitaTL02",
-        "title": "Reinforcement Learning Integrated with a Non-Markovian Controller.",
-        "pages": "365-369",
-        "year": "2002",
-        "booktitle": "ECAI",
-        "url": "db/conf/ecai/ecai2002.html#SzitaTL02",
-        "authors": [
-          "Istvan Szita",
-          "BÃ¡lint TakÃ¡cs",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/aiide/ChaslotBSS08",
+          "title": "Monte-Carlo Tree Search: A New Framework for Game AI",
+          "booktitle": "AIIDE",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "Guillaume Chaslot",
+              "@pid": "30/7032"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Pieter Spronck",
+              "@pid": "90/4265"
+            },
+            {
+              "#text": "Sander Bakkes",
+              "@pid": "80/2083"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/uai/WalshSDL09",
-        "title": "Exploring compact reinforcement-learning representations with linear regression.",
-        "pages": "591-598",
-        "year": "2009",
-        "booktitle": "UAI",
-        "ee": "https://www.auai.org/uai2009/papers/UAI2009_0137_63d573cf0e7d454d9e3e3eb713845209.pdf",
-        "url": "db/conf/uai/uai2009.html#WalshSDL09",
-        "authors": [
-          "Thomas J. Walsh 0001",
-          "Istvan Szita",
-          "Carlos Diuk",
-          "Michael L. Littman"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecai/SzitaTL02",
+          "title": "Reinforcement Learning Integrated with a Non-Markovian Controller",
+          "booktitle": "ECAI",
+          "year": "2002",
+          "pages": "365-369",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/acg/SzitaCS09",
-        "title": "Monte-Carlo Tree Search in Settlers of Catan.",
-        "pages": "21-32",
-        "year": "2009",
-        "booktitle": "ACG",
-        "ee": "https://doi.org/10.1007/978-3-642-12993-3_3",
-        "url": "db/conf/acg/acg2009.html#SzitaCS09",
-        "authors": [
-          "Istvan Szita",
-          "Guillaume Chaslot",
-          "Pieter Spronck"
-        ]
+        "inproceedings": {
+          "@key": "conf/icann/SzitaGL06",
+          "title": "Reinforcement Learning with Echo State Networks",
+          "booktitle": "ICANN (1)",
+          "year": "2006",
+          "pages": "830-839",
+          "ee": "https://doi.org/10.1007/11840817_86",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Viktor Gyenes",
+              "@pid": "69/2259"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcnn/TakacsSL04",
-        "title": "An algorithm for finding reliably schedulable plans.",
-        "pages": "2257-2261",
-        "year": "2004",
-        "booktitle": "IJCNN",
-        "ee": "https://doi.org/10.1109/IJCNN.2004.1380973",
-        "url": "db/conf/ijcnn/ijcnn2004.html#TakacsSL04",
-        "authors": [
-          "BÃ¡lint TakÃ¡cs",
-          "Istvan Szita",
-          "AndrÃ¡s Lorincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icml/SzitaL08",
+          "title": "The many faces of optimism: a unifying approach",
+          "booktitle": "ICML",
+          "year": "2008",
+          "pages": "1048-1055",
+          "ee": "https://doi.org/10.1145/1390156.1390288",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcnn/SzitaL04",
-        "title": "Simple algorithm for recurrent neural networks that can learn sequence completion.",
-        "year": "2004",
-        "booktitle": "IJCNN",
-        "ee": "https://doi.org/10.1109/IJCNN.2004.1379895",
-        "url": "db/conf/ijcnn/ijcnn2004.html#SzitaL04",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s Lorincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icml/SzitaL09",
+          "title": "Optimistic initialization and greediness lead to polynomial time learning in factored MDPs",
+          "booktitle": "ICML",
+          "year": "2009",
+          "pages": "1001-1008",
+          "ee": "https://doi.org/10.1145/1553374.1553502",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icml/SzitaL08",
-        "title": "The many faces of optimism: a unifying approach.",
-        "pages": "1048-1055",
-        "year": "2008",
-        "booktitle": "ICML",
-        "ee": "https://doi.org/10.1145/1390156.1390288",
-        "url": "db/conf/icml/icml2008.html#SzitaL08",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/icml/SzitaS10",
+          "title": "Model-based reinforcement learning with nearly tight exploration complexity bounds",
+          "booktitle": "ICML",
+          "year": "2010",
+          "pages": "1031-1038",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icml/SzitaL09",
-        "title": "Optimistic initialization and greediness lead to polynomial time learning in factored MDPs.",
-        "pages": "1001-1008",
-        "year": "2009",
-        "booktitle": "ICML",
-        "ee": "https://doi.org/10.1145/1553374.1553502",
-        "url": "db/conf/icml/icml2009.html#SzitaL09",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcnn/SzitaL04",
+          "title": "Simple algorithm for recurrent neural networks that can learn sequence completion",
+          "booktitle": "IJCNN",
+          "year": "2004",
+          "ee": "https://doi.org/10.1109/IJCNN.2004.1379895",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icml/SzitaS10",
-        "title": "Model-based reinforcement learning with nearly tight exploration complexity bounds.",
-        "pages": "1031-1038",
-        "year": "2010",
-        "booktitle": "ICML",
-        "ee": "https://icml.cc/Conferences/2010/papers/546.pdf",
-        "url": "db/conf/icml/icml2010.html#SzitaS10",
-        "authors": [
-          "Istvan Szita",
-          "Csaba SzepesvÃ¡ri"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcnn/TakacsSL04",
+          "title": "An algorithm for finding reliably schedulable plans",
+          "booktitle": "IJCNN",
+          "year": "2004",
+          "pages": "2257-2261",
+          "ee": "https://doi.org/10.1109/IJCNN.2004.1380973",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jair/SzitaL07",
-        "title": "Learning to Play Using Low-Complexity Rule-Based Policies: Illustrations through Ms. Pac-Man.",
-        "pages": "659-684",
-        "year": "2007",
-        "volume": "30",
-        "journal": "J. Artif. Intell. Res.",
-        "ee": "https://www.wikidata.org/entity/Q113424370",
-        "url": "db/journals/jair/jair30.html#SzitaL07",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "conf/uai/WalshSDL09",
+          "title": "Exploring compact reinforcement-learning representations with linear regression",
+          "booktitle": "UAI",
+          "year": "2009",
+          "pages": "591-598",
+          "author": [
+            {
+              "#text": "Carlos Diuk",
+              "@pid": "34/2772"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Michael L. Littman",
+              "@pid": "l/MLLittman"
+            },
+            {
+              "#text": "Thomas J. Walsh",
+              "@pid": "90/6261"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cogsr/LorinczPS03",
-        "title": "Event-learning and robust policy heuristics.",
-        "pages": "319-337",
-        "year": "2003",
-        "volume": "4",
-        "journal": "Cogn. Syst. Res.",
-        "number": "4",
-        "ee": "https://doi.org/10.1016/S1389-0417(03)00014-7",
-        "url": "db/journals/cogsr/cogsr4.html#LorinczPS03",
-        "authors": [
-          "AndrÃ¡s LÃ¶rincz",
-          "Imre PÃ³lik",
-          "Istvan Szita"
-        ]
+        "article": {
+          "@key": "journals/actaC/SzitaL08",
+          "title": "Factored Value Iteration Converges",
+          "journal": "Acta Cybern.",
+          "year": "2008",
+          "pages": "615-635",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/neco/SzitaL06",
-        "title": "Learning Tetris Using the Noisy Cross-Entropy Method.",
-        "pages": "2936-2941",
-        "year": "2006",
-        "volume": "18",
-        "journal": "Neural Comput.",
-        "number": "12",
-        "ee": "https://www.wikidata.org/entity/Q51930656",
-        "url": "db/journals/neco/neco18.html#SzitaL06",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "article": {
+          "@key": "journals/cogsr/LorinczPS03",
+          "title": "Event-learning and robust policy heuristics",
+          "journal": "Cogn. Syst. Res.",
+          "year": "2003",
+          "pages": "319-337",
+          "ee": "https://doi.org/10.1016/S1389-0417(03)00014-7",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Imre Pólik",
+              "@pid": "49/7604"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/neco/SzitaL04",
-        "title": "Kalman Filter Control Embedded into the Reinforcement Learning Framework.",
-        "pages": "491-499",
-        "year": "2004",
-        "volume": "16",
-        "journal": "Neural Comput.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q52001419",
-        "url": "db/journals/neco/neco16.html#SzitaL04",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0801-1988",
+          "title": "Online variants of the cross-entropy method",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0801.1988",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/SzitaL08",
-        "title": "Factored Value Iteration Converges.",
-        "pages": "615-635",
-        "year": "2008",
-        "volume": "18",
-        "journal": "Acta Cybern.",
-        "number": "4",
-        "ee": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3741",
-        "url": "db/journals/actaC/actaC18.html#SzitaL08",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0801-2069",
+          "title": "Factored Value Iteration Converges",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0801.2069",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tciaig/SzitaPS09",
-        "title": "Effective and Diverse Adaptive Game AI.",
-        "pages": "16-27",
-        "year": "2009",
-        "volume": "1",
-        "journal": "IEEE Trans. Comput. Intell. AI Games",
-        "number": "1",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TCIAIG.2009.2018706",
-        "url": "db/journals/tciaig/tciaig1.html#SzitaPS09",
-        "authors": [
-          "Istvan Szita",
-          "Marc J. V. Ponsen",
-          "Pieter Spronck"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0810-3451",
+          "title": "The many faces of optimism - Extended version",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0810.3451",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jmlr/SzitaTL02",
-        "title": "MDPs: Learning in Varying Environments.",
-        "pages": "145-174",
-        "year": "2002",
-        "volume": "3",
-        "journal": "J. Mach. Learn. Res.",
-        "ee": "https://jmlr.org/papers/v3/szita02a.html",
-        "url": "db/journals/jmlr/jmlr3.html#SzitaTL02",
-        "authors": [
-          "Istvan Szita",
-          "BÃ¡lint TakÃ¡cs",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0904-3352",
+          "title": "Optimistic Initialization and Greediness Lead to Polynomial Time Learning in Factored MDPs - Extended Version",
+          "journal": "CoRR",
+          "year": "2009",
+          "ee": "https://doi.org/10.48550/ARXIV.0904.3352",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/icga/ChaslotWSH08",
-        "title": "Cross-Entropy for Monte-Carlo Tree Search.",
-        "pages": "145-156",
-        "year": "2008",
-        "volume": "31",
-        "journal": "ICGA J.",
-        "number": "3",
-        "url": "db/journals/icga/icga31.html#ChaslotWSH08",
-        "authors": [
-          "Guillaume Chaslot",
-          "Mark H. M. Winands",
-          "Istvan Szita",
-          "H. Jaap van den Herik"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1205-2606",
+          "title": "Exploring compact reinforcement-learning representations with linear regression",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1205.2606",
+          "author": [
+            {
+              "#text": "Carlos Diuk",
+              "@pid": "34/2772"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Michael L. Littman",
+              "@pid": "l/MLLittman"
+            },
+            {
+              "#text": "Thomas J. Walsh",
+              "@pid": "90/6261"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0801-2069",
-        "title": "Factored Value Iteration Converges",
-        "ee": "https://doi.org/10.48550/arXiv.0801.2069",
-        "year": "2008",
-        "journal": "CoRR",
-        "volume": "abs/0801.2069",
-        "url": "db/journals/corr/corr0801.html#abs-0801-2069",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-cs-0610170",
+          "title": "Low-complexity modular policies: learning to play Pac-Man and a new framework beyond MDPs",
+          "journal": "CoRR",
+          "year": "2006",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0610170",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-cs-0610170",
-        "title": "Low-complexity modular policies: learning to play Pac-Man and a new framework beyond MDPs",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0610170",
-        "year": "2006",
-        "journal": "CoRR",
-        "volume": "abs/cs/0610170",
-        "url": "db/journals/corr/corr0610.html#abs-cs-0610170",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/cs-AI-0212025",
+          "title": "Searching for Plannable Domains can Speed up Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0212025",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1205-2606",
-        "title": "Exploring compact reinforcement-learning representations with linear regression",
-        "ee": "https://doi.org/10.48550/arXiv.1205.2606",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1205.2606",
-        "url": "db/journals/corr/corr1205.html#abs-1205-2606",
-        "authors": [
-          "Thomas J. Walsh 0001",
-          "Istvan Szita",
-          "Carlos Diuk",
-          "Michael L. Littman"
-        ]
+        "informal": {
+          "@key": "journals/corr/cs-AI-0301006",
+          "title": "Temporal plannability by variance of the episode length",
+          "journal": "CoRR",
+          "year": "2003",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0301006",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0801-1988",
-        "title": "Online variants of the cross-entropy method",
-        "ee": "https://doi.org/10.48550/arXiv.0801.1988",
-        "year": "2008",
-        "journal": "CoRR",
-        "volume": "abs/0801.1988",
-        "url": "db/journals/corr/corr0801.html#abs-0801-1988",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/cs-AI-0410004",
+          "title": "Applying Policy Iteration for Training Recurrent Neural Networks",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS.AI/0410004",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-LG-0306120",
-        "title": "Reinforcement Learning with Linear Function Approximation and LQ control Converges",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0306120",
-        "year": "2003",
-        "journal": "CoRR",
-        "volume": "cs.LG/0306120",
-        "url": "db/journals/corr/corr0306.html#cs-LG-0306120",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/cs-LG-0301007",
+          "title": "Kalman filter control in the reinforcement learning framework",
+          "journal": "CoRR",
+          "year": "2003",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0301007",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-LG-0301007",
-        "title": "Kalman filter control in the reinforcement learning framework",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0301007",
-        "year": "2003",
-        "journal": "CoRR",
-        "volume": "cs.LG/0301007",
-        "url": "db/journals/corr/corr0301.html#cs-LG-0301007",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "informal": {
+          "@key": "journals/corr/cs-LG-0306120",
+          "title": "Reinforcement Learning with Linear Function Approximation and LQ control Converges",
+          "journal": "CoRR",
+          "year": "2003",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0306120",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0810-3451",
-        "title": "The many faces of optimism - Extended version",
-        "ee": "https://doi.org/10.48550/arXiv.0810.3451",
-        "year": "2008",
-        "journal": "CoRR",
-        "volume": "abs/0810.3451",
-        "url": "db/journals/corr/corr0810.html#abs-0810-3451",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "article": {
+          "@key": "journals/icga/ChaslotWSH08",
+          "title": "Cross-Entropy for Monte-Carlo Tree Search",
+          "journal": "ICGA J.",
+          "year": "2008",
+          "pages": "145-156",
+          "author": [
+            {
+              "#text": "Guillaume Chaslot",
+              "@pid": "30/7032"
+            },
+            {
+              "#text": "H. Jaap van den Herik",
+              "@pid": "h/HJaapvandenHerik"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Mark H. M. Winands",
+              "@pid": "32/436"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-AI-0212025",
-        "title": "Searching for Plannable Domains can Speed up Reinforcement Learning",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0212025",
-        "year": "2002",
-        "journal": "CoRR",
-        "volume": "cs.AI/0212025",
-        "url": "db/journals/corr/corr0212.html#cs-AI-0212025",
-        "authors": [
-          "Istvan Szita",
-          "BÃ¡lint TakÃ¡cs",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "article": {
+          "@key": "journals/ijon/SzitaL06",
+          "title": "PIRANHA: Policy iteration for recurrent artificial neural networks with hidden activities",
+          "journal": "Neurocomputing",
+          "year": "2006",
+          "pages": "577-591",
+          "ee": "https://doi.org/10.1016/J.NEUCOM.2005.09.017",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-AI-0301006",
-        "title": "Temporal plannability by variance of the episode length",
-        "ee": "https://doi.org/10.48550/arXiv.cs/0301006",
-        "year": "2003",
-        "journal": "CoRR",
-        "volume": "cs.AI/0301006",
-        "url": "db/journals/corr/corr0301.html#cs-AI-0301006",
-        "authors": [
-          "BÃ¡lint TakÃ¡cs",
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "article": {
+          "@key": "journals/jair/SzitaL07",
+          "title": "Learning to Play Using Low-Complexity Rule-Based Policies: Illustrations through Ms. Pac-Man",
+          "journal": "J. Artif. Intell. Res.",
+          "year": "2007",
+          "pages": "659-684",
+          "ee": "https://doi.org/10.1613/JAIR.2368",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0904-3352",
-        "title": "Optimistic Initialization and Greediness Lead to Polynomial Time Learning in Factored MDPs - Extended Version",
-        "ee": "https://doi.org/10.48550/arXiv.0904.3352",
-        "year": "2009",
-        "journal": "CoRR",
-        "volume": "abs/0904.3352",
-        "url": "db/journals/corr/corr0904.html#abs-0904-3352",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "inproceedings": {
+          "@key": "journals/jmlr/SzitaS11",
+          "title": "Agnostic KWIK learning and efficient approximate reinforcement learning",
+          "booktitle": "COLT",
+          "year": "2011",
+          "pages": "739-772",
+          "author": [
+            {
+              "#text": "Csaba Szepesvári",
+              "@pid": "62/567"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/cs-AI-0410004",
-        "title": "Applying Policy Iteration for Training Recurrent Neural Networks",
-        "ee": "https://doi.org/10.48550/arXiv.cs.AI/0410004",
-        "year": "2004",
-        "journal": "CoRR",
-        "volume": "cs.AI/0410004",
-        "url": "db/journals/corr/corr0410.html#cs-AI-0410004",
-        "authors": [
-          "Istvan Szita",
-          "AndrÃ¡s LÃ¶rincz"
-        ]
+        "article": {
+          "@key": "journals/jmlr/SzitaTL02",
+          "title": "MDPs: Learning in Varying Environments",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2002",
+          "pages": "145-174",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "Bálint Takács",
+              "@pid": "38/962"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/neco/SzitaL04",
+          "title": "Kalman Filter Control Embedded into the Reinforcement Learning Framework",
+          "journal": "Neural Comput.",
+          "year": "2004",
+          "pages": "491-499",
+          "ee": "https://doi.org/10.1162/089976604772744884",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/neco/SzitaL06",
+          "title": "Learning Tetris Using the Noisy Cross-Entropy Method",
+          "journal": "Neural Comput.",
+          "year": "2006",
+          "pages": "2936-2941",
+          "ee": "https://doi.org/10.1162/NECO.2006.18.12.2936",
+          "author": [
+            {
+              "#text": "András Lörincz",
+              "@pid": "81/2260"
+            },
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tciaig/SzitaPS09",
+          "title": "Effective and Diverse Adaptive Game AI",
+          "journal": "IEEE Trans. Comput. Intell. AI Games",
+          "year": "2009",
+          "pages": "16-27",
+          "ee": "https://doi.org/10.1109/TCIAIG.2009.2018706",
+          "author": [
+            {
+              "#text": "István Szita",
+              "@pid": "51/6034"
+            },
+            {
+              "#text": "Marc J. V. Ponsen",
+              "@pid": "06/356"
+            },
+            {
+              "#text": "Pieter Spronck",
+              "@pid": "90/4265"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Istvan08b",
+          "title": "Megerősítéses tanulás komplex környezetekben",
+          "journal": "",
+          "year": "2008",
+          "author": {
+            "#text": "István Szita",
+            "@pid": "51/6034"
+          }
+        }
       }
     ]
   }

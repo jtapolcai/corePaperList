@@ -1,146 +1,968 @@
 {
   "dblpperson": {
+    "@name": "Balázs Aczél",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/cogsci/PalfiSSKZSAW17",
-        "title": "Interpreting nonsignificant findings in psychological research.",
-        "year": "2017",
-        "booktitle": "CogSci",
-        "ee": "https://escholarship.org/uc/item/8d8620sv",
-        "url": "db/conf/cogsci/cogsci2017.html#PalfiSSKZSAW17",
-        "authors": [
-          "Bence Palfi",
-          "Aba Szollosi",
-          "Barnabas Szaszi",
-          "Marton Kovacs",
-          "Mark Zrubka",
-          "PÃ©ter SzÃ©csi",
-          "Balazs Aczel",
-          "Eric-Jan Wagenmakers"
-        ]
+        "inproceedings": {
+          "@key": "conf/cogsci/AczelBFS13",
+          "title": "Measuring individual differences in cognitive biases",
+          "booktitle": "CogSci",
+          "year": "2013",
+          "author": [
+            {
+              "#text": "Aba Szollosi",
+              "@pid": "176/3202"
+            },
+            {
+              "#text": "Andrei Foldes",
+              "@pid": "143/8688"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Bence Bagó",
+              "@pid": "143/8817"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cogsci/AczelBFS13",
-        "title": "Measuring individual differences in cognitive biases.",
-        "year": "2013",
-        "booktitle": "CogSci",
-        "ee": "https://mindmodeling.org/cogsci2013/papers/0684/index.html",
-        "url": "db/conf/cogsci/cogsci2013.html#AczelBFS13",
-        "authors": [
-          "Balazs Aczel",
-          "Bence BagÃ³",
-          "Andrei Foldes",
-          "Aba Szollosi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cogsci/PalfiSSKZSAW17",
+          "title": "Interpreting nonsignificant findings in psychological research",
+          "booktitle": "CogSci",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Aba Szollosi",
+              "@pid": "176/3202"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Barnabas Szaszi",
+              "@pid": "212/4415"
+            },
+            {
+              "#text": "Bence Palfi",
+              "@pid": "212/4417"
+            },
+            {
+              "#text": "Eric-Jan Wagenmakers",
+              "@pid": "38/1454"
+            },
+            {
+              "#text": "Mark Zrubka",
+              "@pid": "212/4050"
+            },
+            {
+              "#text": "Marton Kovacs",
+              "@pid": "212/4198"
+            },
+            {
+              "#text": "Péter Szécsi",
+              "@pid": "221/1505"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/isu/KovacsHAA21",
-        "title": "Tenzing and the importance of tool development for research efficiency.",
-        "pages": "123-130",
-        "year": "2021",
-        "volume": "41",
-        "journal": "Inf. Serv. Use",
-        "number": "1-2",
-        "ee": "https://www.wikidata.org/entity/Q109367612",
-        "url": "db/journals/isu/isu41.html#KovacsHAA21",
-        "authors": [
-          "Marton Kovacs",
-          "Alex O. Holcombe",
-          "Frederik Aust",
-          "Balazs Aczel"
-        ]
+        "informal": {
+          "@key": "data/12/BuchananCHICJPBTVMVMTWO24",
+          "title": "SemanticPriming/SPAML: SPAML v1.0.1 Data Release",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.10888833",
+          "author": [
+            {
+              "#text": "Abigail Sanders",
+              "@pid": "428/2770"
+            },
+            {
+              "#text": "Aishwarya Iyer",
+              "@pid": "93/152"
+            },
+            {
+              "#text": "Alexandra Kosachenko",
+              "@pid": "428/2745"
+            },
+            {
+              "#text": "Ali H. Al-Hoorie",
+              "@pid": "311/1763"
+            },
+            {
+              "#text": "Amanda Kaser",
+              "@pid": "428/2981"
+            },
+            {
+              "#text": "Ambrosini Ettore",
+              "@pid": "428/3100"
+            },
+            {
+              "#text": "Andrei Dumbrava",
+              "@pid": "54/10144"
+            },
+            {
+              "#text": "Anjali Thapar",
+              "@pid": "428/3027"
+            },
+            {
+              "#text": "Anna Borghi",
+              "@pid": "428/2798"
+            },
+            {
+              "#text": "Anna E. Van't Veer",
+              "@pid": "428/2888"
+            },
+            {
+              "#text": "Anna Kuzminska",
+              "@pid": "428/3072"
+            },
+            {
+              "#text": "Asil Ali Özdogru",
+              "@pid": "403/4340"
+            },
+            {
+              "#text": "Aslan Karaaslan",
+              "@pid": "428/3004"
+            },
+            {
+              "#text": "Aspasia Eleni Paltoglou",
+              "@pid": "428/2877"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Barnaby J. W. Dixson",
+              "@pid": "260/4448"
+            },
+            {
+              "#text": "Bastian Jaeger",
+              "@pid": "428/2846"
+            },
+            {
+              "#text": "Belgüzar Nilay Türkan",
+              "@pid": "428/2998"
+            },
+            {
+              "#text": "Bernhard Angele",
+              "@pid": "360/6605"
+            },
+            {
+              "#text": "Bradley J. Baker",
+              "@pid": "428/3007"
+            },
+            {
+              "#text": "Bruno Schivinski",
+              "@pid": "422/8781"
+            },
+            {
+              "#text": "Cameron Brick",
+              "@pid": "428/3067"
+            },
+            {
+              "#text": "Carlota Batres",
+              "@pid": "428/3053"
+            },
+            {
+              "#text": "Carmel Levitan",
+              "@pid": "428/2786"
+            },
+            {
+              "#text": "Chiara Fini",
+              "@pid": "413/1547"
+            },
+            {
+              "#text": "Chin Wen Cong",
+              "@pid": "428/2984"
+            },
+            {
+              "#text": "Chris Isloi",
+              "@pid": "428/2944"
+            },
+            {
+              "#text": "Christophe Blaison",
+              "@pid": "428/3035"
+            },
+            {
+              "#text": "Christopher L. Aberson",
+              "@pid": "323/3257"
+            },
+            {
+              "#text": "Christopher R. Chartier",
+              "@pid": "428/2810"
+            },
+            {
+              "#text": "Claudia Mazzuca",
+              "@pid": "346/9514"
+            },
+            {
+              "#text": "Claus Lamm",
+              "@pid": "02/4260"
+            },
+            {
+              "#text": "Dauren Kasanov",
+              "@pid": "403/9033"
+            },
+            {
+              "#text": "David C. Vaidis",
+              "@pid": "428/2761"
+            },
+            {
+              "#text": "David Moreau",
+              "@pid": "211/3851"
+            },
+            {
+              "#text": "David Willinger",
+              "@pid": "261/9415"
+            },
+            {
+              "#text": "Debora I. Burin",
+              "@pid": "294/5929"
+            },
+            {
+              "#text": "Dermot Lynott",
+              "@pid": "48/2922"
+            },
+            {
+              "#text": "Dina Abdel Salam El-Dakhs",
+              "@pid": "326/7574"
+            },
+            {
+              "#text": "Dominique Muller",
+              "@pid": "176/3091"
+            },
+            {
+              "#text": "Ekaterina Pronizius",
+              "@pid": "428/2955"
+            },
+            {
+              "#text": "Elif Gizem Demirag Burak",
+              "@pid": "428/3026"
+            },
+            {
+              "#text": "Emily Higgins",
+              "@pid": "428/2758"
+            },
+            {
+              "#text": "Erin M. Buchanan",
+              "@pid": "259/8763"
+            },
+            {
+              "#text": "Erin Sievers",
+              "@pid": "428/3113"
+            },
+            {
+              "#text": "Ernest Baskin",
+              "@pid": "428/3045"
+            },
+            {
+              "#text": "Ewa Ilczuk",
+              "@pid": "428/3047"
+            },
+            {
+              "#text": "Ewa Szumowska",
+              "@pid": "216/7394"
+            },
+            {
+              "#text": "Fatima Zahra Sahli",
+              "@pid": "428/2759"
+            },
+            {
+              "#text": "Flavio Azevedo",
+              "@pid": "342/2964"
+            },
+            {
+              "#text": "Francesca Foroni",
+              "@pid": "428/2884"
+            },
+            {
+              "#text": "Fredrik Sigfrids",
+              "@pid": "428/3087"
+            },
+            {
+              "#text": "Gerit Pfuhl",
+              "@pid": "167/0738"
+            },
+            {
+              "#text": "Gianni Ribeiro",
+              "@pid": "428/2825"
+            },
+            {
+              "#text": "Glenn Williams",
+              "@pid": "428/2848"
+            },
+            {
+              "#text": "Guanxiong Huang",
+              "@pid": "170/4473"
+            },
+            {
+              "#text": "Günce Yavuz",
+              "@pid": "428/2915"
+            },
+            {
+              "#text": "Heather D. Flowe",
+              "@pid": "428/3114"
+            },
+            {
+              "#text": "Hendrik Godbersen",
+              "@pid": "428/2940"
+            },
+            {
+              "#text": "Izuchukwu Ndukaihe",
+              "@pid": "403/6253"
+            },
+            {
+              "#text": "Jacek Buczny",
+              "@pid": "341/5142"
+            },
+            {
+              "#text": "Jack Taylor",
+              "@pid": "275/7870"
+            },
+            {
+              "#text": "Jackson Lu",
+              "@pid": "428/2750"
+            },
+            {
+              "#text": "Jacob Keech",
+              "@pid": "428/2813"
+            },
+            {
+              "#text": "Jan Philipp Röer",
+              "@pid": "305/5527"
+            },
+            {
+              "#text": "Jason Geller",
+              "@pid": "239/0360"
+            },
+            {
+              "#text": "John Protzko",
+              "@pid": "364/5334"
+            },
+            {
+              "#text": "Jordan W. Suchow",
+              "@pid": "80/10539"
+            },
+            {
+              "#text": "José Luis Ulloa",
+              "@pid": "62/3884"
+            },
+            {
+              "#text": "Joseph McFall",
+              "@pid": "428/2948"
+            },
+            {
+              "#text": "Juan Carlos Oliveros-Chacana",
+              "@pid": "428/2920"
+            },
+            {
+              "#text": "Julia Valeiro Paterlini",
+              "@pid": "428/2823"
+            },
+            {
+              "#text": "K. D. Valentine",
+              "@pid": "228/5792"
+            },
+            {
+              "#text": "Kate Mulgrew",
+              "@pid": "428/2867"
+            },
+            {
+              "#text": "Kathleen L. Schmidt",
+              "@pid": "195/1792"
+            },
+            {
+              "#text": "Kelly Cuccolo",
+              "@pid": "428/3097"
+            },
+            {
+              "#text": "Kelly Wolfe",
+              "@pid": "428/2936"
+            },
+            {
+              "#text": "Kim Peters",
+              "@pid": "131/2991"
+            },
+            {
+              "#text": "Klara Malinakova",
+              "@pid": "428/2943"
+            },
+            {
+              "#text": "Krystian Barzykowski",
+              "@pid": "428/3110"
+            },
+            {
+              "#text": "Laura Stevens",
+              "@pid": "213/1714"
+            },
+            {
+              "#text": "Leigh Ann Vaughn",
+              "@pid": "428/2899"
+            },
+            {
+              "#text": "Leticìa Rettore Micheli",
+              "@pid": "159/8100"
+            },
+            {
+              "#text": "Luis Carlos Pereira Monteiro",
+              "@pid": "316/5491"
+            },
+            {
+              "#text": "Luisa Batalha",
+              "@pid": "428/3048"
+            },
+            {
+              "#text": "Lukas Novak",
+              "@pid": "130/6263"
+            },
+            {
+              "#text": "Madeleine Ingham",
+              "@pid": "428/3098"
+            },
+            {
+              "#text": "Magdalena Senderecka",
+              "@pid": "345/4468"
+            },
+            {
+              "#text": "Mahmoud Elsherif",
+              "@pid": "342/3115"
+            },
+            {
+              "#text": "Mai Helmy",
+              "@pid": "225/8674"
+            },
+            {
+              "#text": "Maital Neta",
+              "@pid": "04/141"
+            },
+            {
+              "#text": "Maja Becker",
+              "@pid": "428/3054"
+            },
+            {
+              "#text": "Manuel Perea",
+              "@pid": "54/7495"
+            },
+            {
+              "#text": "María Fernández-López",
+              "@pid": "428/2959"
+            },
+            {
+              "#text": "Maria Montefinese",
+              "@pid": "211/3495"
+            },
+            {
+              "#text": "Marietta Papadatou-Pastou",
+              "@pid": "214/4647"
+            },
+            {
+              "#text": "Martin Martinez",
+              "@pid": "144/4889"
+            },
+            {
+              "#text": "Martin R. Vasilev",
+              "@pid": "360/6190"
+            },
+            {
+              "#text": "Marton Aron Varga",
+              "@pid": "428/2740"
+            },
+            {
+              "#text": "Max Korbmacher",
+              "@pid": "346/1688"
+            },
+            {
+              "#text": "Mehmet Peker",
+              "@pid": "428/3109"
+            },
+            {
+              "#text": "Melissa Colloff",
+              "@pid": "428/2932"
+            },
+            {
+              "#text": "Michal Parzuchowski",
+              "@pid": "149/6873"
+            },
+            {
+              "#text": "Miguel A. Vadillo",
+              "@pid": "35/8095"
+            },
+            {
+              "#text": "Miroslav Sirota",
+              "@pid": "176/3599"
+            },
+            {
+              "#text": "Muhammad Mussaffa Butt",
+              "@pid": "428/2894"
+            },
+            {
+              "#text": "Natalia Irrazabal",
+              "@pid": "428/2889"
+            },
+            {
+              "#text": "Neil Lewis Jr",
+              "@pid": "428/2803"
+            },
+            {
+              "#text": "Nicholas Coles",
+              "@pid": "428/3030"
+            },
+            {
+              "#text": "Nicholas Maxwell",
+              "@pid": "49/11115"
+            },
+            {
+              "#text": "Niels van Berkel",
+              "@pid": "139/3792"
+            },
+            {
+              "#text": "Nienke Böhm",
+              "@pid": "428/2766"
+            },
+            {
+              "#text": "Nwadiogo C. Arinze",
+              "@pid": "403/3439"
+            },
+            {
+              "#text": "Ogeday Coker",
+              "@pid": "428/2883"
+            },
+            {
+              "#text": "Oguz A. Acar",
+              "@pid": "419/9677"
+            },
+            {
+              "#text": "Otto Loberg",
+              "@pid": "225/0691"
+            },
+            {
+              "#text": "Patrícia Arriaga",
+              "@pid": "177/8687"
+            },
+            {
+              "#text": "Patrícia Garrido-Vásquez",
+              "@pid": "428/2783"
+            },
+            {
+              "#text": "Paulo Roberto dos Santos Ferreira",
+              "@pid": "428/2870"
+            },
+            {
+              "#text": "Peter Mallik",
+              "@pid": "428/2742"
+            },
+            {
+              "#text": "Peter Tavel",
+              "@pid": "428/2913"
+            },
+            {
+              "#text": "Philip A. Grim II",
+              "@pid": "353/7365"
+            },
+            {
+              "#text": "Radka ZIdkova",
+              "@pid": "428/2819"
+            },
+            {
+              "#text": "Raluca Szekely-Copîndean",
+              "@pid": "428/2839"
+            },
+            {
+              "#text": "Robert Ross",
+              "@pid": "23/3891"
+            },
+            {
+              "#text": "Roxana-Elena Morariu",
+              "@pid": "428/2737"
+            },
+            {
+              "#text": "Rumandeep K. Hayre",
+              "@pid": "428/2879"
+            },
+            {
+              "#text": "Sandra Geiger",
+              "@pid": "428/2917"
+            },
+            {
+              "#text": "Sarah E. Fisher",
+              "@pid": "428/2780"
+            },
+            {
+              "#text": "Sarah E. MacPherson",
+              "@pid": "87/7264"
+            },
+            {
+              "#text": "Sau-Chin Chen",
+              "@pid": "428/2840"
+            },
+            {
+              "#text": "Savannah C. Lewis",
+              "@pid": "428/3094"
+            },
+            {
+              "#text": "Sezin Öner",
+              "@pid": "428/3051"
+            },
+            {
+              "#text": "Stefan Stieger",
+              "@pid": "67/3252"
+            },
+            {
+              "#text": "Steven Verheyen",
+              "@pid": "162/7516"
+            },
+            {
+              "#text": "Susana Ruiz-Fernandez",
+              "@pid": "428/2791"
+            },
+            {
+              "#text": "Suzanne Stewart",
+              "@pid": "428/2815"
+            },
+            {
+              "#text": "Tess Atkinson",
+              "@pid": "428/3060"
+            },
+            {
+              "#text": "Théo Besson",
+              "@pid": "428/3096"
+            },
+            {
+              "#text": "Thomas Rhys Evans",
+              "@pid": "428/3046"
+            },
+            {
+              "#text": "Tia Bennett",
+              "@pid": "428/2900"
+            },
+            {
+              "#text": "Tiago Lima",
+              "@pid": "64/9492"
+            },
+            {
+              "#text": "Tijana Vesic Pavlovic",
+              "@pid": "428/3077"
+            },
+            {
+              "#text": "Timo B. Roettger",
+              "@pid": "185/9628"
+            },
+            {
+              "#text": "Tolga Ergiyen",
+              "@pid": "428/2800"
+            },
+            {
+              "#text": "Tom Heyman",
+              "@pid": "124/7111"
+            },
+            {
+              "#text": "Ulrich Tran",
+              "@pid": "428/2875"
+            },
+            {
+              "#text": "Vanessa Era",
+              "@pid": "319/3181"
+            },
+            {
+              "#text": "William E. Davis",
+              "@pid": "397/1668"
+            },
+            {
+              "#text": "Wolf Vanpaemel",
+              "@pid": "47/8699"
+            },
+            {
+              "#text": "Yoann Julliard",
+              "@pid": "428/3011"
+            },
+            {
+              "#text": "Yuri G. Pavlov",
+              "@pid": "323/2075"
+            },
+            {
+              "#text": "Zainab Alsuhaibani",
+              "@pid": "428/3031"
+            },
+            {
+              "#text": "Zdenek Meier",
+              "@pid": "428/2939"
+            },
+            {
+              "#text": "Zoran Pavlovic",
+              "@pid": "299/3396"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/chb/MathurRLGARLNMB20",
-        "title": "Uncanny but not confusing: Multisite study of perceptual category confusion in the Uncanny Valley.",
-        "pages": "21-30",
-        "year": "2020",
-        "volume": "103",
-        "journal": "Comput. Hum. Behav.",
-        "ee": "https://doi.org/10.1016/j.chb.2019.08.029",
-        "url": "db/journals/chb/chb103.html#MathurRLGARLNMB20",
-        "authors": [
-          "Maya B. Mathur",
-          "David B. Reichling",
-          "Francesca Lunardini",
-          "Alice Geminiani",
-          "Alberto Antonietti",
-          "Peter A. M. Ruijten",
-          "Carmel A. Levitan",
-          "Gideon Nave",
-          "Dylan Manfredi",
-          "Brandy Bessette-Symons",
-          "Attila Szuts",
-          "Balazs Aczel"
-        ]
+        "article": {
+          "@key": "journals/aiethics/KnochelSAAABEGHHIKLLPRV25",
+          "title": "Core principles of responsible generative AI usage in research",
+          "journal": "AI Ethics",
+          "year": "2025",
+          "pages": "6371-6377",
+          "ee": "https://doi.org/10.1007/S43681-025-00768-8",
+          "author": [
+            {
+              "#text": "Ali H. Al-Hoorie",
+              "@pid": "311/1763"
+            },
+            {
+              "#text": "Alice Giannini",
+              "@pid": "262/5259"
+            },
+            {
+              "#text": "Anco Peeters",
+              "@pid": "257/9509"
+            },
+            {
+              "#text": "Atakan M. Akil",
+              "@pid": "419/9122"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Don van Ravenzwaaij",
+              "@pid": "152/0742"
+            },
+            {
+              "#text": "Evelien Heyselaar",
+              "@pid": "176/1782"
+            },
+            {
+              "#text": "Florian Buehler",
+              "@pid": "342/6099"
+            },
+            {
+              "#text": "Konrad J. Schweizer",
+              "@pid": "419/9001"
+            },
+            {
+              "#text": "Mahmoud Elsherif",
+              "@pid": "342/3115"
+            },
+            {
+              "#text": "Marek A. Vranka",
+              "@pid": "365/2034"
+            },
+            {
+              "#text": "Marton Kovacs",
+              "@pid": "212/4198"
+            },
+            {
+              "#text": "Meng Liu",
+              "@pid": "41/7841"
+            },
+            {
+              "#text": "Mohammad Hosseini",
+              "@pid": "64/5820-3"
+            },
+            {
+              "#text": "Oguz A. Acar",
+              "@pid": "419/9677"
+            },
+            {
+              "#text": "Tim-Dorian Knöchel",
+              "@pid": "419/9143"
+            },
+            {
+              "#text": "Vinodh Ilangovan",
+              "@pid": "419/9551"
+            },
+            {
+              "#text": "Yu-Fang Yang",
+              "@pid": "62/10264"
+            },
+            {
+              "#text": "Yuki Yamada",
+              "@pid": "71/2963"
+            },
+            {
+              "#text": "Zhicheng Lin",
+              "@pid": "127/8068"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/aiethics/KnochelSAAABEGHHIKLLPRV25",
-        "title": "Core principles of responsible generative AI usage in research.",
-        "pages": "6371-6377",
-        "year": "2025",
-        "volume": "5",
-        "journal": "AI Ethics",
-        "number": "6",
-        "ee": "https://doi.org/10.1007/s43681-025-00768-8",
-        "url": "db/journals/aiethics/aiethics5.html#KnochelSAAABEGHHIKLLPRV25",
-        "authors": [
-          "Tim-Dorian KnÃ¶chel",
-          "Konrad J. Schweizer",
-          "Oguz A. Acar",
-          "Atakan M. Akil",
-          "Ali H. Al-Hoorie",
-          "Florian Buehler",
-          "Mahmoud Elsherif",
-          "Alice Giannini",
-          "Evelien Heyselaar",
-          "Mohammad Hosseini 0003",
-          "Vinodh Ilangovan",
-          "Marton Kovacs",
-          "Zhicheng Lin",
-          "Meng Liu",
-          "Anco Peeters",
-          "Don van Ravenzwaaij",
-          "Marek A. Vranka",
-          "Yuki Yamada",
-          "Yu-Fang Yang",
-          "Balazs Aczel"
-        ]
+        "article": {
+          "@key": "journals/chb/MathurRLGARLNMB20",
+          "title": "Uncanny but not confusing: Multisite study of perceptual category confusion in the Uncanny Valley",
+          "journal": "Comput. Hum. Behav.",
+          "year": "2020",
+          "pages": "21-30",
+          "ee": "https://doi.org/10.1016/J.CHB.2019.08.029",
+          "author": [
+            {
+              "#text": "Alberto Antonietti",
+              "@pid": "160/4542"
+            },
+            {
+              "#text": "Alice Geminiani",
+              "@pid": "171/8768"
+            },
+            {
+              "#text": "Attila Szuts",
+              "@pid": "254/5043"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Brandy Bessette-Symons",
+              "@pid": "254/5002"
+            },
+            {
+              "#text": "Carmel A. Levitan",
+              "@pid": "175/9776"
+            },
+            {
+              "#text": "David B. Reichling",
+              "@pid": "88/6011"
+            },
+            {
+              "#text": "Dylan Manfredi",
+              "@pid": "254/4833"
+            },
+            {
+              "#text": "Francesca Lunardini",
+              "@pid": "171/9694"
+            },
+            {
+              "#text": "Gideon Nave",
+              "@pid": "125/0437"
+            },
+            {
+              "#text": "Maya B. Mathur",
+              "@pid": "45/360"
+            },
+            {
+              "#text": "Peter A. M. Ruijten",
+              "@pid": "116/7177"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-03759",
-        "title": "How should the advent of large language models affect the practice of science?",
-        "year": "2023",
-        "volume": "abs/2312.03759",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.03759",
-        "url": "db/journals/corr/corr2312.html#abs-2312-03759",
-        "authors": [
-          "Marcel Binz",
-          "Stephan Alaniz",
-          "Adina Roskies",
-          "Balazs Aczel",
-          "Carl T. Bergstrom",
-          "Colin Allen",
-          "Daniel Schad",
-          "Dirk U. Wulff",
-          "Jevin D. West",
-          "Qiong Zhang",
-          "Richard M. Shiffrin",
-          "Samuel J. Gershman",
-          "Ven Popov",
-          "Emily M. Bender",
-          "Marco Marelli",
-          "Matthew M. Botvinick",
-          "Zeynep Akata",
-          "Eric Schulz"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2312-03759",
+          "title": "How should the advent of large language models affect the practice of science?",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.03759",
+          "author": [
+            {
+              "#text": "Adina Roskies",
+              "@pid": "363/7457"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Carl T. Bergstrom",
+              "@pid": "16/6289"
+            },
+            {
+              "#text": "Colin Allen",
+              "@pid": "62/4679"
+            },
+            {
+              "#text": "Daniel Schad",
+              "@pid": "363/7460"
+            },
+            {
+              "#text": "Dirk U. Wulff",
+              "@pid": "176/2951"
+            },
+            {
+              "#text": "Emily M. Bender",
+              "@pid": "55/5638"
+            },
+            {
+              "#text": "Eric Schulz",
+              "@pid": "124/0016"
+            },
+            {
+              "#text": "Jevin D. West",
+              "@pid": "18/2701"
+            },
+            {
+              "#text": "Marcel Binz",
+              "@pid": "212/5102"
+            },
+            {
+              "#text": "Marco Marelli",
+              "@pid": "12/1638"
+            },
+            {
+              "#text": "Matt M. Botvinick",
+              "@pid": "98/5712"
+            },
+            {
+              "#text": "Qiong Zhang",
+              "@pid": "06/3351"
+            },
+            {
+              "#text": "Richard M. Shiffrin",
+              "@pid": "93/6989"
+            },
+            {
+              "#text": "Samuel Gershman",
+              "@pid": "44/10432"
+            },
+            {
+              "#text": "Stephan Alaniz",
+              "@pid": "217/1919"
+            },
+            {
+              "#text": "Vencislav Popov",
+              "@pid": "176/1635"
+            },
+            {
+              "#text": "Zeynep Akata",
+              "@pid": "117/4838"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/isu/KovacsHAA21",
+          "title": "Tenzing and the importance of tool development for research efficiency",
+          "journal": "Inf. Serv. Use",
+          "year": "2021",
+          "pages": "123-130",
+          "ee": "https://doi.org/10.3233/ISU-210109",
+          "author": [
+            {
+              "#text": "Alex O. Holcombe",
+              "@pid": "152/2404"
+            },
+            {
+              "#text": "Balazs Aczel",
+              "@pid": "176/3740"
+            },
+            {
+              "#text": "Frederik Aust",
+              "@pid": "310/9737"
+            },
+            {
+              "#text": "Marton Kovacs",
+              "@pid": "212/4198"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,280 +1,477 @@
 {
   "dblpperson": {
+    "@name": "Viktor Csuvik",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icsr/KicsiVCHBK18",
-        "title": "Supporting Product Line Adoption by Combining Syntactic and Textual Feature Extraction.",
-        "pages": "148-163",
-        "year": "2018",
-        "booktitle": "ICSR",
-        "ee": "https://doi.org/10.1007/978-3-319-90421-4_10",
-        "url": "db/conf/icsr/icsr2018.html#KicsiVCHBK18",
-        "authors": [
-          "AndrÃ¡s Kicsi",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Viktor Csuvik",
-          "Ferenc HorvÃ¡th",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Ferenc Kocsis"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/CsuvikKV19",
+          "title": "Evaluation of Textual Similarity Techniques in Code Level Traceability",
+          "booktitle": "ICCSA (4)",
+          "year": "2019",
+          "pages": "529-543",
+          "ee": "https://doi.org/10.1007/978-3-030-24305-0_40",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse-apr/HorvathCGV23",
-        "title": "An Extensive Study on Model Architecture and Program Representation in the Domain of Learning-based Automated Program Repair.",
-        "pages": "31-38",
-        "year": "2023",
-        "booktitle": "APR@ICSE",
-        "ee": "https://doi.org/10.1109/APR59189.2023.00013",
-        "url": "db/conf/icse-apr/icse-apr2023.html#HorvathCGV23",
-        "authors": [
-          "DÃ¡niel HorvÃ¡th 0001",
-          "Viktor Csuvik",
-          "Tibor GyimÃ³thy",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/KicsiCVBG18",
+          "title": "Feature Level Complexity and Coupling Analysis in 4GL Systems",
+          "booktitle": "ICCSA (5)",
+          "year": "2018",
+          "pages": "438-453",
+          "ee": "https://doi.org/10.1007/978-3-319-95174-4_35",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse-apr/LajkoCV22",
-        "title": "Towards JavaScript program repair with Generative Pre-trained Transformer (GPT-2).",
-        "pages": "61-68",
-        "year": "2022",
-        "booktitle": "APR@ICSE",
-        "ee": "https://www.wikidata.org/entity/Q130802215",
-        "url": "db/conf/icse-apr/icse-apr2022.html#LajkoCV22",
-        "authors": [
-          "MÃ¡rk LajkÃ³",
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccsa/LajkoHCV22",
+          "title": "Fine-Tuning GPT-2 to Patch Programs, Is It Worth It?",
+          "booktitle": "ICCSA (Workshops 4)",
+          "year": "2022",
+          "pages": "79-91",
+          "ee": "https://doi.org/10.1007/978-3-031-10542-5_6",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse-apr/CsuvikHLV21",
-        "title": "Exploring Plausible Patches Using Source Code Embeddings in JavaScript.",
-        "pages": "11-18",
-        "year": "2021",
-        "booktitle": "APR@ICSE",
-        "ee": "https://doi.org/10.1109/APR52552.2021.00010",
-        "url": "db/conf/icse-apr/icse-apr2021.html#CsuvikHLV21",
-        "authors": [
-          "Viktor Csuvik",
-          "DÃ¡niel HorvÃ¡th 0001",
-          "MÃ¡rk LajkÃ³",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse-apr/CsuvikHLV21",
+          "title": "Exploring Plausible Patches Using Source Code Embeddings in JavaScript",
+          "booktitle": "APR@ICSE",
+          "year": "2021",
+          "pages": "11-18",
+          "ee": "https://doi.org/10.1109/APR52552.2021.00010",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse-apr/LajkoCGV24",
-        "title": "Automated Program Repair with the GPT Family, Including GPT-2, GPT-3 and CodeX.",
-        "pages": "34-41",
-        "year": "2024",
-        "booktitle": "APR",
-        "ee": "https://www.wikidata.org/entity/Q130802101",
-        "url": "db/conf/icse-apr/icse-apr2024.html#LajkoCGV24",
-        "authors": [
-          "MÃ¡rk LajkÃ³",
-          "Viktor Csuvik",
-          "Tibor GyimÃ³thy",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse-apr/HorvathCGV23",
+          "title": "An Extensive Study on Model Architecture and Program Representation in the Domain of Learning-based Automated Program Repair",
+          "booktitle": "APR@ICSE",
+          "year": "2023",
+          "pages": "31-38",
+          "ee": "https://doi.org/10.1109/APR59189.2023.00013",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icsoft/CsuvikGV23",
-        "title": "Can ChatGPT Fix My Code?",
-        "pages": "478-485",
-        "year": "2023",
-        "booktitle": "ICSOFT",
-        "ee": "https://doi.org/10.5220/0012120800003538",
-        "url": "db/conf/icsoft/icsoft2023.html#CsuvikGV23",
-        "authors": [
-          "Viktor Csuvik",
-          "Tibor GyimÃ³thy",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse-apr/LajkoCGV24",
+          "title": "Automated Program Repair with the GPT Family, Including GPT-2, GPT-3 and CodeX",
+          "booktitle": "APR",
+          "year": "2024",
+          "pages": "34-41",
+          "ee": "https://doi.org/10.1145/3643788.3648021",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icsoft/CsuvikHV24",
-        "title": "Feature Extraction, Learning and Selection in Support of Patch Correctness Assessment.",
-        "pages": "23-34",
-        "year": "2024",
-        "booktitle": "ICSOFT",
-        "ee": "https://doi.org/10.5220/0012746900003753",
-        "url": "db/conf/icsoft/icsoft2024.html#CsuvikHV24",
-        "authors": [
-          "Viktor Csuvik",
-          "DÃ¡niel HorvÃ¡th 0001",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse-apr/LajkoCV22",
+          "title": "Towards JavaScript program repair with Generative Pre-trained Transformer (GPT-2)",
+          "booktitle": "APR@ICSE",
+          "year": "2022",
+          "pages": "61-68",
+          "ee": "https://doi.org/10.1145/3524459.3527350",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/msr/CsuvikV22",
-        "title": "FixJS: A Dataset of Bug-fixing JavaScript Commits.",
-        "pages": "712-716",
-        "year": "2022",
-        "booktitle": "MSR",
-        "ee": "https://www.wikidata.org/entity/Q131115458",
-        "url": "db/conf/msr/msr2022.html#CsuvikV22",
-        "authors": [
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse/CsuvikKV19",
+          "title": "Source code level word embeddings in aiding semantic test-to-code traceability",
+          "booktitle": "SST@ICSE",
+          "year": "2019",
+          "pages": "29-36",
+          "ee": "https://doi.org/10.1109/SST.2019.00016",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse/CsuvikKV19",
-        "title": "Source code level word embeddings in aiding semantic test-to-code traceability.",
-        "pages": "29-36",
-        "year": "2019",
-        "booktitle": "SST@ICSE",
-        "ee": "https://www.wikidata.org/entity/Q130894575",
-        "url": "db/conf/icse/sst2019.html#CsuvikKV19",
-        "authors": [
-          "Viktor Csuvik",
-          "AndrÃ¡s Kicsi",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsoft/CsuvikGV23",
+          "title": "Can ChatGPT Fix My Code?",
+          "booktitle": "ICSOFT",
+          "year": "2023",
+          "pages": "478-485",
+          "ee": "https://doi.org/10.5220/0012120800003538",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wcre/CsuvikABHG24",
-        "title": "On the Stability and Applicability of Deep Learning in Fault Localization.",
-        "pages": "546-555",
-        "year": "2024",
-        "booktitle": "SANER",
-        "ee": "https://doi.org/10.1109/SANER60148.2024.00062",
-        "url": "db/conf/wcre/saner2024.html#CsuvikABHG24",
-        "authors": [
-          "Viktor Csuvik",
-          "Roland Aszmann",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Ferenc HorvÃ¡th",
-          "Tibor GyimÃ³thy"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsoft/CsuvikHV24",
+          "title": "Feature Extraction, Learning and Selection in Support of Patch Correctness Assessment",
+          "booktitle": "ICSOFT",
+          "year": "2024",
+          "pages": "23-34",
+          "ee": "https://doi.org/10.5220/0012746900003753",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccsa/KicsiCVBG18",
-        "title": "Feature Level Complexity and Coupling Analysis in 4GL Systems.",
-        "pages": "438-453",
-        "year": "2018",
-        "booktitle": "ICCSA (5)",
-        "ee": "https://doi.org/10.1007/978-3-319-95174-4_35",
-        "url": "db/conf/iccsa/iccsa2018-5.html#KicsiCVBG18",
-        "authors": [
-          "AndrÃ¡s Kicsi",
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Tibor GyimÃ³thy"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsr/KicsiVCHBK18",
+          "title": "Supporting Product Line Adoption by Combining Syntactic and Textual Feature Extraction",
+          "booktitle": "ICSR",
+          "year": "2018",
+          "pages": "148-163",
+          "ee": "https://doi.org/10.1007/978-3-319-90421-4_10",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Ferenc Horváth",
+              "@pid": "150/7797"
+            },
+            {
+              "#text": "Ferenc Kocsis",
+              "@pid": "39/2787"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccsa/LajkoHCV22",
-        "title": "Fine-Tuning GPT-2 to Patch Programs, Is It Worth It?",
-        "pages": "79-91",
-        "year": "2022",
-        "booktitle": "ICCSA (Workshops 4)",
-        "ee": "https://doi.org/10.1007/978-3-031-10542-5_6",
-        "url": "db/conf/iccsa/iccsa2022-w4.html#LajkoHCV22",
-        "authors": [
-          "MÃ¡rk LajkÃ³",
-          "DÃ¡niel HorvÃ¡th 0001",
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/msr/CsuvikV22",
+          "title": "FixJS: A Dataset of Bug-fixing JavaScript Commits",
+          "booktitle": "MSR",
+          "year": "2022",
+          "pages": "712-716",
+          "ee": "https://doi.org/10.1145/3524842.3528480",
+          "author": [
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccsa/CsuvikKV19",
-        "title": "Evaluation of Textual Similarity Techniques in Code Level Traceability.",
-        "pages": "529-543",
-        "year": "2019",
-        "booktitle": "ICCSA (4)",
-        "ee": "https://doi.org/10.1007/978-3-030-24305-0_40",
-        "url": "db/conf/iccsa/iccsa2019-4.html#CsuvikKV19",
-        "authors": [
-          "Viktor Csuvik",
-          "AndrÃ¡s Kicsi",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/wcre/CsuvikABHG24",
+          "title": "On the Stability and Applicability of Deep Learning in Fault Localization",
+          "booktitle": "SANER",
+          "year": "2024",
+          "pages": "546-555",
+          "ee": "https://doi.org/10.1109/SANER60148.2024.00062",
+          "author": [
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Ferenc Horváth",
+              "@pid": "150/7797"
+            },
+            {
+              "#text": "Roland Aszmann",
+              "@pid": "377/9821"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/KicsiCV21",
-        "title": "Large Scale Evaluation of Natural Language Processing Based Test-to-Code Traceability Approaches.",
-        "pages": "79089-79104",
-        "year": "2021",
-        "volume": "9",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2021.3083923",
-        "url": "db/journals/access/access9.html#KicsiCV21",
-        "authors": [
-          "AndrÃ¡s Kicsi",
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "article": {
+          "@key": "journals/access/KicsiCV21",
+          "title": "Large Scale Evaluation of Natural Language Processing Based Test-to-Code Traceability Approaches",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "79089-79104",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3083923",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jss/KicsiCVHBGK19",
-        "title": "Feature analysis using information retrieval, community detection and structural analysis methods in product line adoption.",
-        "pages": "70-90",
-        "year": "2019",
-        "volume": "155",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://www.wikidata.org/entity/Q123208930",
-        "url": "db/journals/jss/jss155.html#KicsiCVHBGK19",
-        "authors": [
-          "AndrÃ¡s Kicsi",
-          "Viktor Csuvik",
-          "LÃ¡szlÃ³ VidÃ¡cs",
-          "Ferenc HorvÃ¡th",
-          "ÃrpÃ¡d BeszÃ©des",
-          "Tibor GyimÃ³thy",
-          "Ferenc Kocsis"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2103-16846",
+          "title": "Exploring Plausible Patches Using Source Code Embeddings in JavaScript",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.16846",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tse/CsuvikHLV25",
-        "title": "GenProgJS: A Baseline System for Test-Based Automated Repair of JavaScript Programs.",
-        "pages": "325-343",
-        "year": "2025",
-        "volume": "51",
-        "journal": "IEEE Trans. Software Eng.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/TSE.2024.3497798",
-        "url": "db/journals/tse/tse51.html#CsuvikHLV25",
-        "authors": [
-          "Viktor Csuvik",
-          "DÃ¡niel HorvÃ¡th 0001",
-          "MÃ¡rk LajkÃ³",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "article": {
+          "@key": "journals/jss/KicsiCVHBGK19",
+          "title": "Feature analysis using information retrieval, community detection and structural analysis methods in product line adoption",
+          "journal": "J. Syst. Softw.",
+          "year": "2019",
+          "pages": "70-90",
+          "ee": "https://doi.org/10.1016/J.JSS.2019.05.001",
+          "author": [
+            {
+              "#text": "András Kicsi",
+              "@pid": "204/8422"
+            },
+            {
+              "#text": "Árpád Beszédes",
+              "@pid": "60/670"
+            },
+            {
+              "#text": "Ferenc Horváth",
+              "@pid": "150/7797"
+            },
+            {
+              "#text": "Ferenc Kocsis",
+              "@pid": "39/2787"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Tibor Gyimóthy",
+              "@pid": "23/234"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2103-16846",
-        "title": "Exploring Plausible Patches Using Source Code Embeddings in JavaScript.",
-        "year": "2021",
-        "volume": "abs/2103.16846",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2103.16846",
-        "url": "db/journals/corr/corr2103.html#abs-2103-16846",
-        "authors": [
-          "Viktor Csuvik",
-          "DÃ¡niel HorvÃ¡th 0001",
-          "MÃ¡rk LajkÃ³",
-          "LÃ¡szlÃ³ VidÃ¡cs"
-        ]
+        "article": {
+          "@key": "journals/tse/CsuvikHLV25",
+          "title": "GenProgJS: A Baseline System for Test-Based Automated Repair of JavaScript Programs",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "2025",
+          "pages": "325-343",
+          "ee": "https://doi.org/10.1109/TSE.2024.3497798",
+          "author": [
+            {
+              "#text": "Dániel Horváth",
+              "@pid": "83/7257-1"
+            },
+            {
+              "#text": "László Vidács",
+              "@pid": "21/5882"
+            },
+            {
+              "#text": "Márk Lajkó",
+              "@pid": "289/2023"
+            },
+            {
+              "#text": "Viktor Csuvik",
+              "@pid": "219/1665"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,0 +1,6092 @@
+{
+  "dblpperson": {
+    "@name": "A. Sandor Szalay",
+    "r": [
+      {
+        "informal": {
+          "@key": "books/mk/04/Szalay004",
+          "title": "Scientific Data Federation",
+          "journal": "The Grid 2, 2nd Edition",
+          "year": "2004",
+          "pages": "95-108",
+          "ee": "https://doi.org/10.1016/B978-155860933-4/50011-0",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/ms/4paradigm2009/SzalayB09",
+          "title": "Gray's laws: database-centric computing in science",
+          "journal": "The Fourth Paradigm",
+          "year": "2009",
+          "pages": "5-11",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "José A. Blakeley",
+              "@pid": "79/2594"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/adbis/Szalay18",
+          "title": "Database-Centric Scientific Computing - (In Memoriam Jim Gray)",
+          "booktitle": "ADBIS",
+          "year": "2018",
+          "pages": "3-19",
+          "ee": "https://doi.org/10.1007/978-3-319-98398-1_1",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/adl/AdamBSDL99",
+          "title": "Digital Sky - Panel",
+          "booktitle": "ADL",
+          "year": "1999",
+          "pages": "148",
+          "ee": "https://doi.org/10.1109/ADL.1999.777709",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "George Djorgoski",
+              "@pid": "14/283"
+            },
+            {
+              "#text": "George Lake",
+              "@pid": "00/213"
+            },
+            {
+              "#text": "J. H. Bredekamp",
+              "@pid": "59/4588"
+            },
+            {
+              "#text": "Nabil R. Adam",
+              "@pid": "a/NRAdam"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/astroinf/HeapST16",
+          "title": "The WFIRST Science Archive and Analysis Center",
+          "booktitle": "Astroinformatics",
+          "year": "2016",
+          "pages": "373-378",
+          "ee": "https://doi.org/10.1017/S1743921317002058",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Sara R. Heap",
+              "@pid": "226/0416"
+            },
+            {
+              "#text": "Wfirst Science Archive Team",
+              "@pid": "226/0402"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bigdataconf/WeiIBS20",
+          "title": "Sketch and Scale Geo-distributed tSNE and UMAP",
+          "booktitle": "IEEE BigData",
+          "year": "2020",
+          "pages": "996-1003",
+          "ee": "https://doi.org/10.1109/BIGDATA50022.2020.9377843",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "Viska Wei",
+              "@pid": "278/7858"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cidr/CsabaiTDJHPBS07",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "booktitle": "CIDR",
+          "year": "2007",
+          "pages": "207-218",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cidr/MalikS03",
+          "title": "SkyQuery: A Web Service Approach to Federate Databases",
+          "booktitle": "CIDR",
+          "year": "2003",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cidr/Nieto-SantistebanGSATO05",
+          "title": "When Database Systems Meet the Grid",
+          "booktitle": "CIDR",
+          "year": "2005",
+          "pages": "154-161",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "James Annis",
+              "@pid": "99/2261"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/clade/BargaFGNSS08",
+          "title": "Efficient scheduling of scientific workflows in a high performance computing cluster",
+          "booktitle": "CLADE",
+          "year": "2008",
+          "pages": "63-68",
+          "ee": "https://doi.org/10.1145/1383529.1383545",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Dan Fay",
+              "@pid": "53/6403"
+            },
+            {
+              "#text": "Dean Guo",
+              "@pid": "87/4211"
+            },
+            {
+              "#text": "Roger S. Barga",
+              "@pid": "b/RogerSBarga"
+            },
+            {
+              "#text": "Steven J. Newhouse",
+              "@pid": "120/2316"
+            },
+            {
+              "#text": "Yogesh L. Simmhan",
+              "@pid": "s/YogeshSimmhan"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dmkd/ChaudharySM02",
+          "title": "Very Fast Outlier Detection in Large Multidimensional Data Sets",
+          "booktitle": "DMKD",
+          "year": "2002",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Amitabh Chaudhary",
+              "@pid": "92/3600"
+            },
+            {
+              "#text": "Andrew W. Moore",
+              "@pid": "95/2279"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/edbt/DobosSBBCTMTJ11",
+          "title": "Array requirements for scientific applications and an implementation for microsoft SQL server",
+          "booktitle": "EDBT/ICDT Array Databases Workshop",
+          "year": "2011",
+          "pages": "13-19",
+          "ee": "https://doi.org/10.1145/1966895.1966897",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrija Jovanovic",
+              "@pid": "86/10357"
+            },
+            {
+              "#text": "Dragan Tomic",
+              "@pid": "05/1556"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "José A. Blakeley",
+              "@pid": "79/2594"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Marko Tintor",
+              "@pid": "52/10358"
+            },
+            {
+              "#text": "Milos Milovanovic",
+              "@pid": "32/3467"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/emnlp/XuWZCSHB25",
+          "title": "Self-Ensemble: Mitigating Confidence Distortion for Large Language Models",
+          "booktitle": "EMNLP (Findings)",
+          "year": "2025",
+          "pages": "16603-16615",
+          "ee": "https://doi.org/10.18653/V1/2025.FINDINGS-EMNLP.902",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Guanchu Wang",
+              "@pid": "213/0985"
+            },
+            {
+              "#text": "Guangyao Zheng",
+              "@pid": "340/8392"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Xia Ben Hu",
+              "@pid": "256/9406"
+            },
+            {
+              "#text": "Yu-Neng Chuang",
+              "@pid": "207/7875"
+            },
+            {
+              "#text": "Zicheng Xu",
+              "@pid": "324/6952"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/CareyBAS16",
+          "title": "DOT-K: A distributed online top-K elements algorithm using extreme value statistics",
+          "booktitle": "eScience",
+          "year": "2016",
+          "pages": "130-136",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2016.7870893",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nicholas Carey",
+              "@pid": "196/2934"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/GelderloosSHL16",
+          "title": "A fast algorithm for neutrally-buoyant Lagrangian particles in numerical ocean modeling",
+          "booktitle": "eScience",
+          "year": "2016",
+          "pages": "381-388",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2016.7870923",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Renske Gelderloos",
+              "@pid": "196/2964"
+            },
+            {
+              "#text": "Thomas W. N. Haine",
+              "@pid": "196/2925"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/GuGST06",
+          "title": "Distributing the Sloan Digital Sky Survey Using UDT and Sector",
+          "booktitle": "e-Science",
+          "year": "2006",
+          "pages": "56",
+          "ee": "https://doi.org/10.1109/E-SCIENCE.2006.261140",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Robert L. Grossman",
+              "@pid": "g/RobertLGrossman"
+            },
+            {
+              "#text": "Yunhong Gu",
+              "@pid": "83/6524"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/LiuIYNLSBBBW15",
+          "title": "Streaming Algorithms for Halo Finders",
+          "booktitle": "e-Science",
+          "year": "2015",
+          "pages": "342-351",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2015.73",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Lin Yang",
+              "@pid": "166/6264"
+            },
+            {
+              "#text": "Mark Neyrinck",
+              "@pid": "170/0526"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Xin Wang",
+              "@pid": "10/5630"
+            },
+            {
+              "#text": "Zaoxing Liu",
+              "@pid": "166/6255"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/SimmhanBILS08",
+          "title": "On Building Scientific Workflow Systems for Data Management in the Cloud",
+          "booktitle": "eScience",
+          "year": "2008",
+          "pages": "434-435",
+          "ee": "https://doi.org/10.1109/ESCIENCE.2008.150",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Catharine van Ingen",
+              "@pid": "i/CatharinevanIngen"
+            },
+            {
+              "#text": "Edward D. Lazowska",
+              "@pid": "l/EDLazowska"
+            },
+            {
+              "#text": "Roger S. Barga",
+              "@pid": "b/RogerSBarga"
+            },
+            {
+              "#text": "Yogesh L. Simmhan",
+              "@pid": "s/YogeshSimmhan"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eScience/SimmhanISBH09",
+          "title": "Building Reliable Data Pipelines for Managing Community Data Using Scientific Workflows",
+          "booktitle": "eScience",
+          "year": "2009",
+          "pages": "321-328",
+          "ee": "https://doi.org/10.1109/E-SCIENCE.2009.52",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Catharine van Ingen",
+              "@pid": "i/CatharinevanIngen"
+            },
+            {
+              "#text": "Jim Heasley",
+              "@pid": "76/1473"
+            },
+            {
+              "#text": "Roger S. Barga",
+              "@pid": "b/RogerSBarga"
+            },
+            {
+              "#text": "Yogesh L. Simmhan",
+              "@pid": "s/YogeshSimmhan"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/europar/SzalayHKP09",
+          "title": "Introduction",
+          "booktitle": "Euro-Par",
+          "year": "2009",
+          "pages": "347-348",
+          "ee": "https://doi.org/10.1007/978-3-642-03869-3_34",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alfons Kemper",
+              "@pid": "k/AlfonsKemper"
+            },
+            {
+              "#text": "Djoerd Hiemstra",
+              "@pid": "19/3140"
+            },
+            {
+              "#text": "Manuel Prieto",
+              "@pid": "p/ManuelPrietoMatias"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ewsn/GupchupCMST10",
+          "title": "Phoenix: An Epidemic Approach to Time Reconstruction",
+          "booktitle": "EWSN",
+          "year": "2010",
+          "pages": "17-32",
+          "ee": "https://doi.org/10.1007/978-3-642-11917-0_2",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ewsn/GupchupMST09",
+          "title": "Sundial: Using Sunlight to Reconstruct Global Timestamps",
+          "booktitle": "EWSN",
+          "year": "2009",
+          "pages": "183-198",
+          "ee": "https://doi.org/10.1007/978-3-642-00224-3_12",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fast/HuangZWDS11",
+          "title": "Just-in-Time Analytics on Large File Systems",
+          "booktitle": "FAST",
+          "year": "2011",
+          "pages": "217-230",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gautam Das",
+              "@pid": "07/1181"
+            },
+            {
+              "#text": "H. Howie Huang",
+              "@pid": "39/560"
+            },
+            {
+              "#text": "Nan Zhang",
+              "@pid": "z/NanZhang4"
+            },
+            {
+              "#text": "Wei Wang",
+              "@pid": "35/7092-82"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fast/ZhengMBVPS15",
+          "title": "FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs",
+          "booktitle": "FAST",
+          "year": "2015",
+          "pages": "45-58",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Carey E. Priebe",
+              "@pid": "32/2677"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Disa Mhembere",
+              "@pid": "139/0765"
+            },
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hicss/SimmhanBINDLSSWH09",
+          "title": "GrayWulf: Scalable Software Architecture for Data Intensive Computing",
+          "booktitle": "HICSS",
+          "year": "2009",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/HICSS.2009.235",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Catharine van Ingen",
+              "@pid": "i/CatharinevanIngen"
+            },
+            {
+              "#text": "Jim Heasley",
+              "@pid": "76/1473"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Michael Shipway",
+              "@pid": "98/3382"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Roger S. Barga",
+              "@pid": "b/RogerSBarga"
+            },
+            {
+              "#text": "Sue Werner",
+              "@pid": "17/6151"
+            },
+            {
+              "#text": "Yogesh L. Simmhan",
+              "@pid": "s/YogeshSimmhan"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hicss/SzalayBvWBFHHNTIW09",
+          "title": "GrayWulf: Scalable Clustered Architecture for Data Intensive Computing",
+          "booktitle": "HICSS",
+          "year": "2009",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/HICSS.2009.234",
+          "author": [
+            {
+              "#text": "Alainna Wonders",
+              "@pid": "02/1277"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Anthony J. G. Hey",
+              "@pid": "h/AnthonyJGHey"
+            },
+            {
+              "#text": "Catharine van Ingen",
+              "@pid": "i/CatharinevanIngen"
+            },
+            {
+              "#text": "Dan Fay",
+              "@pid": "53/6403"
+            },
+            {
+              "#text": "Gordon Bell",
+              "@pid": "b/GBell"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Heasley",
+              "@pid": "76/1473"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hotstorage/ZhengBS12",
+          "title": "A Parallel Page Cache: IOPS and Caching for Multicore Systems",
+          "booktitle": "HotStorage",
+          "year": "2012",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpdc/GrossmanGMSSW10",
+          "title": "An overview of the Open Science Data Cloud",
+          "booktitle": "HPDC",
+          "year": "2010",
+          "pages": "377-384",
+          "ee": "https://doi.org/10.1145/1851476.1851533",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Joe Mambretti",
+              "@pid": "12/680"
+            },
+            {
+              "#text": "Kevin P. White",
+              "@pid": "86/3260"
+            },
+            {
+              "#text": "Michal Sabala",
+              "@pid": "57/3161"
+            },
+            {
+              "#text": "Robert L. Grossman",
+              "@pid": "g/RobertLGrossman"
+            },
+            {
+              "#text": "Yunhong Gu",
+              "@pid": "83/6524"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpdc/Szalay12",
+          "title": "Data-intensive discoveries in science: the fourth paradigm",
+          "booktitle": "DICT@HPDC",
+          "year": "2012",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1145/2286996.2286998",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpdc/ThakarS10",
+          "title": "Migrating a (large) science database to the cloud",
+          "booktitle": "HPDC",
+          "year": "2010",
+          "pages": "430-434",
+          "ee": "https://doi.org/10.1145/1851476.1851539",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpec/MishinBCS14",
+          "title": "Real time change point detection by incremental PCA in large scale sensor data",
+          "booktitle": "HPEC",
+          "year": "2014",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/HPEC.2014.7040959",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Dmitry Mishin",
+              "@pid": "16/5190"
+            },
+            {
+              "#text": "Ferenc Czako",
+              "@pid": "158/4920"
+            },
+            {
+              "#text": "Kieran Brantner-Magee",
+              "@pid": "158/4891"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccnc/MohammadmoradiG17",
+          "title": "Accurately initializing real time clocks to provide synchronized time in sensor networks",
+          "booktitle": "ICNC",
+          "year": "2017",
+          "pages": "486-490",
+          "ee": "https://doi.org/10.1109/ICCNC.2017.7876177",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Hessam Mohammadmoradi",
+              "@pid": "161/6204"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icde/StonebrakerAKS12",
+          "title": "The Future of Scientific Data Bases",
+          "booktitle": "ICDE",
+          "year": "2012",
+          "pages": "7-8",
+          "ee": "https://doi.org/10.1109/ICDE.2012.151",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Anastasia Ailamaki",
+              "@pid": "a/AnastassiaAilamaki"
+            },
+            {
+              "#text": "Jeremy Kepner",
+              "@pid": "25/6583"
+            },
+            {
+              "#text": "Michael Stonebraker",
+              "@pid": "s/MichaelStonebraker"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icws/OMullaneLNST05",
+          "title": "Batch is Back: CasJobs, Serving Multi-TB Data on the Web",
+          "booktitle": "ICWS",
+          "year": "2005",
+          "pages": "33-40",
+          "ee": "https://doi.org/10.1109/ICWS.2005.29",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipres/EhlingPMVSDCSH06",
+          "title": "Digital Data Preservation and Curation: A Collaboration Among Libraries, Publishers, and the Virtual Observatory - A pilot project aimed at preserving, curating, and enabling access to digital data and associated electronic journals content",
+          "booktitle": "iPRES",
+          "year": "2006",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ethan Vishniac",
+              "@pid": "129/1181"
+            },
+            {
+              "#text": "G. Sayeed Choudhury",
+              "@pid": "93/485"
+            },
+            {
+              "#text": "Julie Steffen",
+              "@pid": "129/1184"
+            },
+            {
+              "#text": "Raymond Plante",
+              "@pid": "38/1282"
+            },
+            {
+              "#text": "Robert J. Hanisch",
+              "@pid": "74/2602"
+            },
+            {
+              "#text": "Robert Milkey",
+              "@pid": "129/1192"
+            },
+            {
+              "#text": "Teresa Ehling",
+              "@pid": "129/1198"
+            },
+            {
+              "#text": "Tim DiLauro",
+              "@pid": "02/5054"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isvd/Aragon-CalvoSS10",
+          "title": "Geometry of the Cosmic Web: Minkowski Functionals from the Delaunay Tessellation",
+          "booktitle": "ISVD",
+          "year": "2010",
+          "pages": "235-243",
+          "ee": "https://doi.org/10.1109/ISVD.2010.33",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Miguel A. Aragon-Calvo",
+              "@pid": "50/7660"
+            },
+            {
+              "#text": "Sergei F. Shandarin",
+              "@pid": "64/8395"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/jcdl/Szalay08",
+          "title": "Scientific publishing in the era of petabye data",
+          "booktitle": "JCDL",
+          "year": "2008",
+          "pages": "261-262",
+          "ee": "https://doi.org/10.1145/1378889.1378932",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/jcs/LiVASSMSB26",
+          "title": "Real-Time Multi-Target Detection and Tracking with mmWave 5G NR Waveforms on RFSoC",
+          "booktitle": "JC&S",
+          "year": "2026",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.1109/JCS69321.2026.11366008",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Dominic A. Schupke",
+              "@pid": "43/5035"
+            },
+            {
+              "#text": "Hian Zing Voon",
+              "@pid": "427/6014"
+            },
+            {
+              "#text": "Holger Boche",
+              "@pid": "39/3615"
+            },
+            {
+              "#text": "Nunzio Sciammetta",
+              "@pid": "320/9129"
+            },
+            {
+              "#text": "Ullrich J. Mönich",
+              "@pid": "94/3910"
+            },
+            {
+              "#text": "Vlad-Costin Andrei",
+              "@pid": "297/5032"
+            },
+            {
+              "#text": "Xinyang Li",
+              "@pid": "00/6131"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ldav/Szalay16",
+          "title": "Keynote speaker: Exascale numerical laboratories",
+          "booktitle": "LDAV",
+          "year": "2016",
+          "ee": "https://doi.org/10.1109/LDAV.2016.7874303",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/ZhangKLPGEAWSTS22",
+          "title": "A Light-Weight Interpretable Model for Nuclei Detection and Weakly-Supervised Segmentation",
+          "booktitle": "MOVI@MICCAI",
+          "year": "2022",
+          "pages": "145-155",
+          "ee": "https://doi.org/10.1007/978-3-031-16961-8_15",
+          "author": [
+            {
+              "#text": "Adam Kortylewski",
+              "@pid": "161/0772"
+            },
+            {
+              "#text": "Alan L. Yuille",
+              "@pid": "y/AlanLYuille"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Benjamin Green",
+              "@pid": "304/8750"
+            },
+            {
+              "#text": "Elizabeth Engle",
+              "@pid": "304/8588"
+            },
+            {
+              "#text": "Guillermo Almodovar",
+              "@pid": "304/8605"
+            },
+            {
+              "#text": "Janis Taube",
+              "@pid": "304/8554"
+            },
+            {
+              "#text": "Qing Liu",
+              "@pid": "53/4481-17"
+            },
+            {
+              "#text": "Ryan Walk",
+              "@pid": "304/8944"
+            },
+            {
+              "#text": "Seyoun Park",
+              "@pid": "51/6144"
+            },
+            {
+              "#text": "Sigfredo Soto-Diaz",
+              "@pid": "304/8896"
+            },
+            {
+              "#text": "Yixiao Zhang",
+              "@pid": "210/9944-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mss/HuangLST11",
+          "title": "Performance modeling and analysis of flash-based storage devices",
+          "booktitle": "MSST",
+          "year": "2011",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1109/MSST.2011.5937213",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "H. Howie Huang",
+              "@pid": "39/560"
+            },
+            {
+              "#text": "Shan Li",
+              "@pid": "15/1152"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pvm/GivelbergSKB11",
+          "title": "MPI-DB, A Parallel Database Services Software Library for Scientific Computing",
+          "booktitle": "EuroMPI",
+          "year": "2011",
+          "pages": "339-341",
+          "ee": "https://doi.org/10.1007/978-3-642-24449-0_43",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Edward Givelberg",
+              "@pid": "23/6295"
+            },
+            {
+              "#text": "Kalin Kanov",
+              "@pid": "56/10106"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sac/HedgecockVLKAST10",
+          "title": "Mobile air pollution monitoring network",
+          "booktitle": "SAC",
+          "year": "2010",
+          "pages": "795-796",
+          "ee": "https://doi.org/10.1145/1774088.1774253",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Akram Aldroubi",
+              "@pid": "17/988"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/GrossmanGSCHMSTvW06",
+          "title": "Bandwidth challenge - Transporting sloan digital sky survey data using SECTOR",
+          "booktitle": "SC",
+          "year": "2006",
+          "pages": "242",
+          "ee": "https://doi.org/10.1145/1188455.1188709",
+          "author": [
+            {
+              "#text": "Alainna Wonders",
+              "@pid": "02/1277"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "David Hanley",
+              "@pid": "94/3645"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Joe Mambretti",
+              "@pid": "12/680"
+            },
+            {
+              "#text": "Michal Sabala",
+              "@pid": "57/3161"
+            },
+            {
+              "#text": "Robert L. Grossman",
+              "@pid": "g/RobertLGrossman"
+            },
+            {
+              "#text": "Shirley Connelly",
+              "@pid": "53/3113"
+            },
+            {
+              "#text": "Yunhong Gu",
+              "@pid": "83/6524"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/KanovBEMS12",
+          "title": "Data-intensive spatial filtering in large numerical simulation datasets",
+          "booktitle": "SC",
+          "year": "2012",
+          "pages": "60",
+          "ee": "https://doi.org/10.1109/SC.2012.41",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Gregory L. Eyink",
+              "@pid": "120/7483"
+            },
+            {
+              "#text": "Kalin Kanov",
+              "@pid": "56/10106"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/KanovPBAS11",
+          "title": "I/O streaming evaluation of batch queries for data-intensive computational turbulence",
+          "booktitle": "SC",
+          "year": "2011",
+          "pages": "29:1-29:10",
+          "ee": "https://doi.org/10.1145/2063384.2063423",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Eric A. Perlman",
+              "@pid": "93/2783"
+            },
+            {
+              "#text": "Kalin Kanov",
+              "@pid": "56/10106"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/MalikBCS06",
+          "title": "Data management and query - Estimating query result sizes for proxy caching in scientific database federations",
+          "booktitle": "SC",
+          "year": "2006",
+          "pages": "102",
+          "ee": "https://doi.org/10.1145/1188455.1188562",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nitesh V. Chawla",
+              "@pid": "c/NiteshVChawla"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/MishinBSA12",
+          "title": "Incremental and Parallel Analytics on Astrophysical Data Streams",
+          "booktitle": "SC Companion",
+          "year": "2012",
+          "pages": "1078-1086",
+          "ee": "https://doi.org/10.1109/SC.COMPANION.2012.130",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Dmitry Mishin",
+              "@pid": "16/5190"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/RaicuFS06",
+          "title": "Poster reception - Harnessing grid resources to enable the dynamic analysis of large astronomy datasets",
+          "booktitle": "SC",
+          "year": "2006",
+          "pages": "150",
+          "ee": "https://doi.org/10.1145/1188455.1188611",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ian T. Foster",
+              "@pid": "f/IanTFoster"
+            },
+            {
+              "#text": "Ioan Raicu",
+              "@pid": "94/3254"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/WangPBMBMS10",
+          "title": "JAWS: Job-Aware Workload Scheduling for the Exploration of Turbulence Simulations",
+          "booktitle": "SC",
+          "year": "2010",
+          "pages": "1-11",
+          "ee": "https://doi.org/10.1109/SC.2010.31",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Eric A. Perlman",
+              "@pid": "93/2783"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            },
+            {
+              "#text": "Xiaodan Wang",
+              "@pid": "26/6760"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sc/ZhengBS13",
+          "title": "Toward millions of file system IOPS on low-cost, commodity hardware",
+          "booktitle": "SC",
+          "year": "2013",
+          "pages": "69:1-69:12",
+          "ee": "https://doi.org/10.1145/2503210.2503225",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensornets/FangHSCGMLCGBTS21",
+          "title": "Wireless Sensor Network for in situ Soil Moisture Monitoring",
+          "booktitle": "SENSORNETS",
+          "year": "2021",
+          "pages": "25-36",
+          "ee": "https://doi.org/10.5220/0010261500250036",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Chieh-Jan Mike Liang",
+              "@pid": "92/445"
+            },
+            {
+              "#text": "Chuheng Hu",
+              "@pid": "286/1016"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Jianing Fang",
+              "@pid": "286/1080"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Marcus Chang",
+              "@pid": "40/6485"
+            },
+            {
+              "#text": "Nour Smaoui",
+              "@pid": "222/8094"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/MohammadmoradiG14",
+          "title": "Robust time synchronization in wireless sensor networks using real time clock",
+          "booktitle": "SenSys",
+          "year": "2014",
+          "pages": "356-357",
+          "ee": "https://doi.org/10.1145/2668332.2668365",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Hessam Mohammadmoradi",
+              "@pid": "161/6204"
+            },
+            {
+              "#text": "Nir Rattner",
+              "@pid": "161/6126"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/OzerGSTMSBC06",
+          "title": "Data analysis tools for sensor-based science",
+          "booktitle": "SenSys",
+          "year": "2006",
+          "pages": "341-342",
+          "ee": "https://doi.org/10.1145/1182807.1182844",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Joshua Cogan",
+              "@pid": "29/469"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Stuart Ozer",
+              "@pid": "32/3542"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmod/SzalayGKT00",
+          "title": "Designing and Mining Multi-Terabyte Astronomy Archives: The Sloan Digital Sky Survey",
+          "booktitle": "SIGMOD Conference",
+          "year": "2000",
+          "pages": "451-462",
+          "ee": "https://doi.org/10.1145/342009.335439",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Donald R. Slutz",
+              "@pid": "33/6589"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            },
+            {
+              "#text": "Robert J. Brunner",
+              "@pid": "38/603"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmod/SzalayGTKMRSv02",
+          "title": "The SDSS skyserver: public access to the sloan digital sky server data",
+          "booktitle": "SIGMOD Conference",
+          "year": "2002",
+          "pages": "570-581",
+          "ee": "https://doi.org/10.1145/564691.564758",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/BurnsLBGDRRMBKKSKPCWLSVV13",
+          "title": "The open connectome project data cluster: scalable analysis and vision for high-throughput neuroscience",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "27:1-27:11",
+          "ee": "https://doi.org/10.1145/2484838.2484870",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Daniel R. Berger",
+              "@pid": "51/1657"
+            },
+            {
+              "#text": "Davi Bock",
+              "@pid": "47/2606"
+            },
+            {
+              "#text": "Dean Kleissas",
+              "@pid": "131/6569"
+            },
+            {
+              "#text": "Eric A. Perlman",
+              "@pid": "93/2783"
+            },
+            {
+              "#text": "Jeff Lichtman",
+              "@pid": "70/6445"
+            },
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "Karl Deisseroth",
+              "@pid": "73/11128"
+            },
+            {
+              "#text": "Kunal Lillaney",
+              "@pid": "131/6760"
+            },
+            {
+              "#text": "Kwanghun Chung",
+              "@pid": "73/8762"
+            },
+            {
+              "#text": "Logan Grosenick",
+              "@pid": "05/2346"
+            },
+            {
+              "#text": "Michael M. Kazhdan",
+              "@pid": "68/6770"
+            },
+            {
+              "#text": "Narayanan Kasthuri",
+              "@pid": "127/7210"
+            },
+            {
+              "#text": "Nicholas C. Weiler",
+              "@pid": "131/6582"
+            },
+            {
+              "#text": "Priya Manavalan",
+              "@pid": "131/6481"
+            },
+            {
+              "#text": "R. Clay Reid",
+              "@pid": "15/4938"
+            },
+            {
+              "#text": "R. Jacob Vogelstein",
+              "@pid": "29/5640"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Stephen J. Smith",
+              "@pid": "83/5500"
+            },
+            {
+              "#text": "William R. Gray Roncal",
+              "@pid": "129/9138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/CrankshawBFBSW13",
+          "title": "Inverted indices for particle tracking in petascale cosmological simulations",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "25:1-25:10",
+          "ee": "https://doi.org/10.1145/2484838.2484882",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Bridget Falck",
+              "@pid": "132/8672"
+            },
+            {
+              "#text": "Daniel Crankshaw",
+              "@pid": "132/8701"
+            },
+            {
+              "#text": "Jie Wang",
+              "@pid": "29/5259-75"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosBLSC12",
+          "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases",
+          "booktitle": "SSDBM",
+          "year": "2012",
+          "pages": "159-167",
+          "ee": "https://doi.org/10.1007/978-3-642-31235-9_10",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosCSBL13",
+          "title": "Graywulf: a platform for federated scientific databases and services",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "30:1-30:12",
+          "ee": "https://doi.org/10.1145/2484838.2484863",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/DobosCSBS14",
+          "title": "Point cloud databases",
+          "booktitle": "SSDBM",
+          "year": "2014",
+          "pages": "33:1-33:4",
+          "ee": "https://doi.org/10.1145/2618243.2618275",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/KondorDCBVBS14",
+          "title": "Efficient classification of billions of points into complex geographic regions using hierarchical triangular mesh",
+          "booktitle": "SSDBM",
+          "year": "2014",
+          "pages": "4:1-4:4",
+          "ee": "https://doi.org/10.1145/2618243.2618245",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "András Bodor",
+              "@pid": "123/6320"
+            },
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/LemsonBS11",
+          "title": "Implementing a General Spatial Indexing Library for Relational Databases of Large Numerical Simulations",
+          "booktitle": "SSDBM",
+          "year": "2011",
+          "pages": "509-526",
+          "ee": "https://doi.org/10.1007/978-3-642-22351-8_34",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/NutanongCASW13",
+          "title": "Adaptive exploration for large-scale protein analysis in the molecular dynamics database",
+          "booktitle": "SSDBM",
+          "year": "2013",
+          "pages": "45:1-45:4",
+          "ee": "https://doi.org/10.1145/2484838.2484872",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nick Carey",
+              "@pid": "132/8568"
+            },
+            {
+              "#text": "Sarana Nutanong",
+              "@pid": "32/1518"
+            },
+            {
+              "#text": "Thomas B. Woolf",
+              "@pid": "37/5857"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ssdbm/Szalay08",
+          "title": "New Challenges in Petascale Scientific Databases",
+          "booktitle": "SSDBM",
+          "year": "2008",
+          "pages": "1",
+          "ee": "https://doi.org/10.1007/978-3-540-69497-7_1",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/supercomputer/HamiltonBMJLPS17",
+          "title": "Extreme Event Analysis in Next Generation Simulation Architectures",
+          "booktitle": "ISC High Performance",
+          "year": "2017",
+          "pages": "277-293",
+          "ee": "https://doi.org/10.1007/978-3-319-58667-0_15",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "John Patchett",
+              "@pid": "44/6866"
+            },
+            {
+              "#text": "Perry Johnson",
+              "@pid": "201/1270"
+            },
+            {
+              "#text": "Peter Lindstrom",
+              "@pid": "89/4312"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Stephen Hamilton",
+              "@pid": "88/3250"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wdas/GraySTKSSv02",
+          "title": "Data Mining the SDSS SkyServer Database",
+          "booktitle": "WDAS",
+          "year": "2002",
+          "pages": "189-208",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Donald R. Slutz",
+              "@pid": "33/6589"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wsc/ElmegreenSS14",
+          "title": "The future of computerized decision making",
+          "booktitle": "WSC",
+          "year": "2014",
+          "pages": "943-949",
+          "ee": "https://doi.org/10.1109/WSC.2014.7019954",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Bruce G. Elmegreen",
+              "@pid": "26/3486"
+            },
+            {
+              "#text": "Susan M. Sanchez",
+              "@pid": "17/5182"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wsc/Szalay14",
+          "title": "From simulations to interactive numerical laboratories",
+          "booktitle": "WSC",
+          "year": "2014",
+          "pages": "875-886",
+          "ee": "https://doi.org/10.1109/WSC.2014.7019948",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ascom/Beck0BSC17",
+          "title": "Photo-z-SQL: Integrated, flexible photometric redshift computation in a database",
+          "journal": "Astron. Comput.",
+          "year": "2017",
+          "pages": "34-44",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2017.03.002",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Róbert Beck",
+              "@pid": "155/3573"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ascom/IvkinLYKLNSBB18",
+          "title": "Scalable streaming tools for analyzing N-body simulations: Finding halos and investigating excursion sets in one pass",
+          "journal": "Astron. Comput.",
+          "year": "2018",
+          "pages": "166-179",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2018.04.003",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "Lin Yang",
+              "@pid": "166/6264"
+            },
+            {
+              "#text": "Mark Neyrinck",
+              "@pid": "170/0526"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "S. S. Kumar",
+              "@pid": "286/1791"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Zaoxing Liu",
+              "@pid": "166/6255"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ascom/RaczSDCS19",
+          "title": "StePS: A multi-GPU cosmological N-body Code for compactified simulations",
+          "journal": "Astron. Comput.",
+          "year": "2019",
+          "pages": "100303",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2019.100303",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gábor Rácz",
+              "@pid": "150/7799"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Istvan Szapudi",
+              "@pid": "11/2912"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ascom/Taghizadeh-Popp20",
+          "title": "SciServer: A science platform for astronomy and beyond",
+          "journal": "Astron. Comput.",
+          "year": "2020",
+          "pages": "100412",
+          "ee": "https://doi.org/10.1016/J.ASCOM.2020.100412",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "C. Chhetri",
+              "@pid": "284/3898"
+            },
+            {
+              "#text": "Dmitry Medvedev",
+              "@pid": "45/6927"
+            },
+            {
+              "#text": "Gerard Lemson",
+              "@pid": "84/2447"
+            },
+            {
+              "#text": "J. W. Kim",
+              "@pid": "31/2252"
+            },
+            {
+              "#text": "Joseph Booker",
+              "@pid": "284/4312"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Manuchehr Taghizadeh-Popp",
+              "@pid": "271/0315"
+            },
+            {
+              "#text": "Mike Rippin",
+              "@pid": "121/5545"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/WiltonLFS18",
+          "title": "Arioc: GPU-accelerated alignment of short bisulfite-treated reads",
+          "journal": "Bioinform.",
+          "year": "2018",
+          "pages": "2673-2675",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTY167",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrew P. Feinberg",
+              "@pid": "145/5253"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            },
+            {
+              "#text": "Xin Li",
+              "@pid": "09/1365-131"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/WiltonS22",
+          "title": "Performance optimization in DNA short-read alignment",
+          "journal": "Bioinform.",
+          "year": "2022",
+          "pages": "2081-2087",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTAC066",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/WiltonS23",
+          "title": "Short-read aligner performance in germline variant identification",
+          "journal": "Bioinform.",
+          "year": "2023",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTAD480",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/WiltonWSS19",
+          "title": "The Terabase Search Engine: a large-scale relational database of short-read sequences",
+          "journal": "Bioinform.",
+          "year": "2019",
+          "pages": "665-670",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTY657",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            },
+            {
+              "#text": "Sarah J. Wheelan",
+              "@pid": "05/1131"
+            },
+            {
+              "#text": "Steven Salzberg",
+              "@pid": "s/StevenSalzberg"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/AgrawalABBCCDFFGGGHHHIKKMMOORSSSW09",
+          "title": "The Claremont report on database research",
+          "journal": "Commun. ACM",
+          "year": "2009",
+          "pages": "56-65",
+          "ee": "https://doi.org/10.1145/1516046.1516062",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alon Y. Halevy",
+              "@pid": "h/AlonYHalevy"
+            },
+            {
+              "#text": "Anastasia Ailamaki",
+              "@pid": "a/AnastassiaAilamaki"
+            },
+            {
+              "#text": "AnHai Doan",
+              "@pid": "d/AnHaiDoan"
+            },
+            {
+              "#text": "Beng Chin Ooi",
+              "@pid": "o/BengChinOoi"
+            },
+            {
+              "#text": "Daniela Florescu",
+              "@pid": "70/3007"
+            },
+            {
+              "#text": "Donald Kossmann",
+              "@pid": "k/DonaldKossmann"
+            },
+            {
+              "#text": "Eric A. Brewer",
+              "@pid": "b/EricABrewer"
+            },
+            {
+              "#text": "Gerhard Weikum",
+              "@pid": "w/GerhardWeikum"
+            },
+            {
+              "#text": "Hector Garcia-Molina",
+              "@pid": "g/HGarciaMolina"
+            },
+            {
+              "#text": "Henry F. Korth",
+              "@pid": "k/HenryFKorth"
+            },
+            {
+              "#text": "Johannes Gehrke",
+              "@pid": "g/JohannesGehrke"
+            },
+            {
+              "#text": "Joseph M. Hellerstein",
+              "@pid": "h/JosephMHellerstein"
+            },
+            {
+              "#text": "Laura M. Haas",
+              "@pid": "h/LauraMHaas"
+            },
+            {
+              "#text": "Le Gruenwald",
+              "@pid": "g/LeGruenwald"
+            },
+            {
+              "#text": "Michael J. Carey",
+              "@pid": "31/3455"
+            },
+            {
+              "#text": "Michael J. Franklin",
+              "@pid": "f/MJFranklin"
+            },
+            {
+              "#text": "Michael Stonebraker",
+              "@pid": "s/MichaelStonebraker"
+            },
+            {
+              "#text": "Philip A. Bernstein",
+              "@pid": "b/PhilipABernstein"
+            },
+            {
+              "#text": "Raghu Ramakrishnan",
+              "@pid": "r/RaghuRamakrishnan"
+            },
+            {
+              "#text": "Rakesh Agrawal",
+              "@pid": "a/RAgrawal"
+            },
+            {
+              "#text": "Roger Magoulas",
+              "@pid": "22/4992"
+            },
+            {
+              "#text": "Samuel Madden",
+              "@pid": "m/SamuelMadden"
+            },
+            {
+              "#text": "Sunita Sarawagi",
+              "@pid": "s/SunitaSarawagi"
+            },
+            {
+              "#text": "Surajit Chaudhuri",
+              "@pid": "c/SurajitChaudhuri"
+            },
+            {
+              "#text": "Tim O'Reilly",
+              "@pid": "90/3808"
+            },
+            {
+              "#text": "Yannis E. Ioannidis",
+              "@pid": "i/YEIoannidis"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/BermanRHCDEFMRS18",
+          "title": "Realizing the potential of data science",
+          "journal": "Commun. ACM",
+          "year": "2018",
+          "pages": "67-72",
+          "ee": "https://doi.org/10.1145/3188721",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Brent Hailpern",
+              "@pid": "h/BrentHailpern"
+            },
+            {
+              "#text": "Deborah Estrin",
+              "@pid": "e/DeborahEstrin"
+            },
+            {
+              "#text": "Francine Berman",
+              "@pid": "b/FBerman"
+            },
+            {
+              "#text": "Henrik I. Christensen",
+              "@pid": "c/HIChristensen"
+            },
+            {
+              "#text": "Margaret Martonosi",
+              "@pid": "m/MargaretMartonosi"
+            },
+            {
+              "#text": "Michael J. Franklin",
+              "@pid": "f/MJFranklin"
+            },
+            {
+              "#text": "Padma Raghavan",
+              "@pid": "96/6134"
+            },
+            {
+              "#text": "Rob A. Rutenbar",
+              "@pid": "r/RobARutenbar"
+            },
+            {
+              "#text": "Susan B. Davidson",
+              "@pid": "d/SBDavidson"
+            },
+            {
+              "#text": "Victoria Stodden",
+              "@pid": "43/4675"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/GrayS02",
+          "title": "The world-wide telescope",
+          "journal": "Commun. ACM",
+          "year": "2002",
+          "pages": "50-55",
+          "ee": "https://doi.org/10.1145/581571.581572",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/Szalay08",
+          "title": "Jim Gray, astronomer",
+          "journal": "Commun. ACM",
+          "year": "2008",
+          "pages": "58-65",
+          "ee": "https://doi.org/10.1145/1400214.1400231",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cluster/RaicuFWZIBZSCLa10",
+          "title": "Middleware support for many-task computing",
+          "journal": "Clust. Comput.",
+          "year": "2010",
+          "pages": "291-314",
+          "ee": "https://doi.org/10.1007/S10586-010-0132-9",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alok N. Choudhary",
+              "@pid": "c/AlokNChoudhary"
+            },
+            {
+              "#text": "Amitabh Chaudhary",
+              "@pid": "92/3600"
+            },
+            {
+              "#text": "Christopher Moretti",
+              "@pid": "18/5229"
+            },
+            {
+              "#text": "Douglas Thain",
+              "@pid": "83/1871"
+            },
+            {
+              "#text": "Ian T. Foster",
+              "@pid": "f/IanTFoster"
+            },
+            {
+              "#text": "Ioan Raicu",
+              "@pid": "94/3254"
+            },
+            {
+              "#text": "Kamil Iskra",
+              "@pid": "74/6622"
+            },
+            {
+              "#text": "Mike Wilde",
+              "@pid": "49/355"
+            },
+            {
+              "#text": "Pete Beckman",
+              "@pid": "75/2988"
+            },
+            {
+              "#text": "Philip Little",
+              "@pid": "53/4863"
+            },
+            {
+              "#text": "Yong Zhao",
+              "@pid": "14/1356-9"
+            },
+            {
+              "#text": "Zhao Zhang",
+              "@pid": "87/6853-7"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/BellGS06",
+          "title": "Petascale Computational Systems",
+          "journal": "Computer",
+          "year": "2006",
+          "pages": "110-112",
+          "ee": "https://doi.org/10.1109/MC.2006.29",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gordon Bell",
+              "@pid": "b/GBell"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/GortonGSW08",
+          "title": "Data-Intensive Computing in the 21st Century",
+          "journal": "Computer",
+          "year": "2008",
+          "pages": "30-32",
+          "ee": "https://doi.org/10.1109/MC.2008.122",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ian Gorton",
+              "@pid": "74/3329"
+            },
+            {
+              "#text": "Paul Greenfield",
+              "@pid": "78/5798"
+            },
+            {
+              "#text": "Roy Williams",
+              "@pid": "w/RoyWilliams"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0808-3535",
+          "title": "Data Diffusion: Dynamic Resource Provision and Data-Aware Scheduling for Data Intensive Applications",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0808.3535",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ian T. Foster",
+              "@pid": "f/IanTFoster"
+            },
+            {
+              "#text": "Ioan Raicu",
+              "@pid": "94/3254"
+            },
+            {
+              "#text": "Yong Zhao",
+              "@pid": "14/1356-9"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0808-3546",
+          "title": "Accelerating Large-scale Data Exploration through Data Diffusion",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0808.3546",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ian T. Foster",
+              "@pid": "f/IanTFoster"
+            },
+            {
+              "#text": "Ioan Raicu",
+              "@pid": "94/3254"
+            },
+            {
+              "#text": "Yong Zhao",
+              "@pid": "14/1356-9"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0901-3923",
+          "title": "Model-Based Event Detection in Wireless Sensor Networks",
+          "journal": "CoRR",
+          "year": "2009",
+          "ee": "https://doi.org/10.48550/ARXIV.0901.3923",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1110-1729",
+          "title": "Array Requirements for Scientific Applications and an Implementation for Microsoft SQL Server",
+          "journal": "CoRR",
+          "year": "2011",
+          "ee": "https://doi.org/10.48550/ARXIV.1110.1729",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrija Jovanovic",
+              "@pid": "86/10357"
+            },
+            {
+              "#text": "Dragan Tomic",
+              "@pid": "05/1556"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "José A. Blakeley",
+              "@pid": "79/2594"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Marko Tintor",
+              "@pid": "52/10358"
+            },
+            {
+              "#text": "Milos Milovanovic",
+              "@pid": "32/3467"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1206-5021",
+          "title": "SkyQuery: An Implementation of a Parallel Probabilistic Join Engine for Cross-Identification of Multiple Astronomical Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1206.5021",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1207-0170",
+          "title": "Single parameter galaxy classification: The Principal Curve through the multi-dimensional space of galaxy properties",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1207.0170",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Manuchehr Taghizadeh-Popp",
+              "@pid": "271/0315"
+            },
+            {
+              "#text": "Sébastien Heinis",
+              "@pid": "117/3716"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1209-6490",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.6490",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1210-3325",
+          "title": "Vortices within vortices: hierarchical nature of vortex tubes in turbulence",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1210.3325",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Cristian Constantin Lalescu",
+              "@pid": "28/4996"
+            },
+            {
+              "#text": "Gregory L. Eyink",
+              "@pid": "120/7483"
+            },
+            {
+              "#text": "Kai Bürger",
+              "@pid": "88/5021"
+            },
+            {
+              "#text": "Marc Treib",
+              "@pid": "76/9838"
+            },
+            {
+              "#text": "Rüdiger Westermann",
+              "@pid": "w/RudigerWestermann"
+            },
+            {
+              "#text": "Sue Werner",
+              "@pid": "17/6151"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1901-09670",
+          "title": "Sundial: Using Sunlight to Reconstruct Global Timestamps",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1901.09670",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1902-00808",
+          "title": "Phoenix: An Epidemic Approach to Time Reconstruction",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1902.00808",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2002-10218",
+          "title": "Baryon acoustic oscillations reconstruction using convolutional neural networks",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2002.10218",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Baojiu Li",
+              "@pid": "259/3168"
+            },
+            {
+              "#text": "Bridget Falck",
+              "@pid": "132/8672"
+            },
+            {
+              "#text": "Jie Wang",
+              "@pid": "29/5259-75"
+            },
+            {
+              "#text": "Mark Neyrinck",
+              "@pid": "170/0526"
+            },
+            {
+              "#text": "Tian-Xiang Mao",
+              "@pid": "259/3053"
+            },
+            {
+              "#text": "Yan-Chuan Cai",
+              "@pid": "259/3031"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2011-06103",
+          "title": "Sketch and Scale: Geo-distributed tSNE and UMAP",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.06103",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Nikita Ivkin",
+              "@pid": "170/0251"
+            },
+            {
+              "#text": "Viska Wei",
+              "@pid": "278/7858"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2102-10260",
+          "title": "Wireless sensor network for in situ soil moisture monitoring",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.10260",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Chieh-Jan Mike Liang",
+              "@pid": "92/445"
+            },
+            {
+              "#text": "Chuheng Hu",
+              "@pid": "286/1016"
+            },
+            {
+              "#text": "Douglas Carlson",
+              "@pid": "77/7821"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Jianing Fang",
+              "@pid": "286/1080"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Marcus Chang",
+              "@pid": "40/6485"
+            },
+            {
+              "#text": "Nour Smaoui",
+              "@pid": "222/8094"
+            },
+            {
+              "#text": "Omprakash Gnawali",
+              "@pid": "30/3112"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-13846",
+          "title": "A Light-weight Interpretable CompositionalNetwork for Nuclei Detection and Weakly-supervised Segmentation",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.13846",
+          "author": [
+            {
+              "#text": "Adam Kortylewski",
+              "@pid": "161/0772"
+            },
+            {
+              "#text": "Alan L. Yuille",
+              "@pid": "y/AlanLYuille"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Benjamin Green",
+              "@pid": "304/8750"
+            },
+            {
+              "#text": "Elizabeth Engle",
+              "@pid": "304/8588"
+            },
+            {
+              "#text": "Guillermo Almodovar",
+              "@pid": "304/8605"
+            },
+            {
+              "#text": "Janis Taube",
+              "@pid": "304/8554"
+            },
+            {
+              "#text": "Qing Liu",
+              "@pid": "53/4481-17"
+            },
+            {
+              "#text": "Ryan Walk",
+              "@pid": "304/8944"
+            },
+            {
+              "#text": "Seyoun Park",
+              "@pid": "51/6144"
+            },
+            {
+              "#text": "Sigfredo Soto-Diaz",
+              "@pid": "304/8896"
+            },
+            {
+              "#text": "Yixiao Zhang",
+              "@pid": "210/9944-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2208-04682",
+          "title": "Playing catch-up in building an open research commons",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2208.04682",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Amy Brand",
+              "@pid": "36/11081"
+            },
+            {
+              "#text": "Barend Mons",
+              "@pid": "81/3332"
+            },
+            {
+              "#text": "Bonnie Carroll",
+              "@pid": "326/5380"
+            },
+            {
+              "#text": "Christine R. Kirkpatrick",
+              "@pid": "232/3214"
+            },
+            {
+              "#text": "George Strawn",
+              "@pid": "58/5183"
+            },
+            {
+              "#text": "Ian T. Foster",
+              "@pid": "f/IanTFoster"
+            },
+            {
+              "#text": "Mary Lee Kennedy",
+              "@pid": "72/8752"
+            },
+            {
+              "#text": "Michael Stebbins",
+              "@pid": "326/5649"
+            },
+            {
+              "#text": "Philip E. Bourne",
+              "@pid": "b/PhilipEBourne"
+            },
+            {
+              "#text": "Ramanathan V. Guha",
+              "@pid": "g/RamanathanVGuha"
+            },
+            {
+              "#text": "Robert J. Hanisch",
+              "@pid": "74/2602"
+            },
+            {
+              "#text": "Sallie Ann Keller",
+              "@pid": "326/5730"
+            },
+            {
+              "#text": "Sarah M. Nusser",
+              "@pid": "326/5863"
+            },
+            {
+              "#text": "Vivien Bonazzi",
+              "@pid": "25/2908"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-01951",
+          "title": "Self-ensemble: Mitigating Confidence Distortion for Large Language Models",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.01951",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Guanchu Wang",
+              "@pid": "213/0985"
+            },
+            {
+              "#text": "Guangyao Zheng",
+              "@pid": "340/8392"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Xia Ben Hu",
+              "@pid": "256/9406"
+            },
+            {
+              "#text": "Yu-Neng Chuang",
+              "@pid": "207/7875"
+            },
+            {
+              "#text": "Zicheng Xu",
+              "@pid": "324/6952"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-00640",
+          "title": "DTS: Enhancing Large Reasoning Models via Decoding Tree Sketching",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.00640",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Guanchu Wang",
+              "@pid": "213/0985"
+            },
+            {
+              "#text": "Guangyao Zheng",
+              "@pid": "340/8392"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Yu-Neng Chuang",
+              "@pid": "207/7875"
+            },
+            {
+              "#text": "Zicheng Xu",
+              "@pid": "324/6952"
+            },
+            {
+              "#text": "Zirui Liu",
+              "@pid": "196/8629-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-15021",
+          "title": "Generalization from Low- to Moderate-Resolution Spectra with Neural Networks for Stellar Parameter Estimation: A Case Study with DESI",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.15021",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Rosemary F. G. Wyse",
+              "@pid": "431/1908"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Viska Wei",
+              "@pid": "278/7858"
+            },
+            {
+              "#text": "Xiaosheng Zhao",
+              "@pid": "347/9366"
+            },
+            {
+              "#text": "Yang Huang",
+              "@pid": "88/2275"
+            },
+            {
+              "#text": "Yuan-Sen Ting",
+              "@pid": "296/4181"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-22305",
+          "title": "Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.22305",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Guanchu Wang",
+              "@pid": "213/0985"
+            },
+            {
+              "#text": "Hoang Anh Duy Le",
+              "@pid": "408/8819"
+            },
+            {
+              "#text": "Oren Gal",
+              "@pid": "77/7734"
+            },
+            {
+              "#text": "Ruixuan Zhang",
+              "@pid": "180/1823"
+            },
+            {
+              "#text": "Vladimir Braverman",
+              "@pid": "14/4758"
+            },
+            {
+              "#text": "Xiuyi Lou",
+              "@pid": "440/2842"
+            },
+            {
+              "#text": "Yu-Neng Chuang",
+              "@pid": "207/7875"
+            },
+            {
+              "#text": "Zhaozhuo Xu",
+              "@pid": "195/4352"
+            },
+            {
+              "#text": "Zicheng Xu",
+              "@pid": "324/6952"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0502008",
+          "title": "Scientific Data Management in the Coming Decade",
+          "journal": "CoRR",
+          "year": "2005",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0502008",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "David J. DeWitt",
+              "@pid": "d/DJDeWitt"
+            },
+            {
+              "#text": "David T. Liu",
+              "@pid": "l/DavidTLiu"
+            },
+            {
+              "#text": "Gerd Heber",
+              "@pid": "30/1517"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0502011",
+          "title": "Where the Rubber Meets the Sky: Bridging the Gap between Databases and Science",
+          "journal": "CoRR",
+          "year": "2005",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0502011",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0502018",
+          "title": "When Database Systems Meet the Grid",
+          "journal": "CoRR",
+          "year": "2005",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0502018",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "James Annis",
+              "@pid": "99/2261"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0502072",
+          "title": "Batch is back: CasJobs, serving multi-TB data on the Web",
+          "journal": "CoRR",
+          "year": "2005",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0502072",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0604112",
+          "title": "Designing a Multi-petabyte Database for LSST",
+          "journal": "CoRR",
+          "year": "2006",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0604112",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrew Hanushevsky",
+              "@pid": "93/914"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Ghaleb Abdulla",
+              "@pid": "11/3661"
+            },
+            {
+              "#text": "Jacek Becla",
+              "@pid": "60/1926"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Sergei Nikolaev",
+              "@pid": "88/1669"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701163",
+          "title": "Using Table Valued Functions in SQL Server 2005 To Implement a Spatial Data Library",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701163",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gyorgy Fekete",
+              "@pid": "67/3771"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701164",
+          "title": "Indexing the Sphere with the Hierarchical Triangular Mesh",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701164",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "George Fekete",
+              "@pid": "34/1800"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Kukol",
+              "@pid": "90/433"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701165",
+          "title": "Petascale Computational Systems",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701165",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gordon Bell",
+              "@pid": "b/GBell"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701167",
+          "title": "Large-Scale Query and XMatch, Entering the Parallel Zone",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701167",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701170",
+          "title": "Life Under Your Feet: An End-to-End Soil Ecology Sensor Network, Database, Web Server, and Analysis Service",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701170",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Joshua Cogan",
+              "@pid": "29/469"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Sam Small",
+              "@pid": "62/3777"
+            },
+            {
+              "#text": "Stuart Ozer",
+              "@pid": "32/3542"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701171",
+          "title": "The Zones Algorithm for Finding Points-Near-a-Point or Cross-Matching Spatial Datasets",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701171",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701172",
+          "title": "Cross-Matching Multiple Spatial Observations and Dealing with Missing Data",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701172",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Robert Lupton",
+              "@pid": "75/531"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0701173",
+          "title": "SkyServer Traffic Report - The First Five Years",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0701173",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Bill Boroski",
+              "@pid": "07/4586"
+            },
+            {
+              "#text": "Brian Yanny",
+              "@pid": "26/2507"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Svetlana Lebedeva",
+              "@pid": "00/6197"
+            },
+            {
+              "#text": "Vik Singh",
+              "@pid": "26/6223"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BeckDBSC16",
+          "title": "Photo-z-SQL: integrated, flexible photometric redshift computation in a database",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1611.01560",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Róbert Beck",
+              "@pid": "155/3573"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BurnsRKLMPBBCGKWDKLRSSVV13",
+          "title": "The Open Connectome Project Data Cluster: Scalable Analysis and Vision for High-Throughput Neuroscience",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1306.3543",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Daniel R. Berger",
+              "@pid": "51/1657"
+            },
+            {
+              "#text": "Davi Bock",
+              "@pid": "47/2606"
+            },
+            {
+              "#text": "Dean Kleissas",
+              "@pid": "131/6569"
+            },
+            {
+              "#text": "Eric A. Perlman",
+              "@pid": "93/2783"
+            },
+            {
+              "#text": "Jeff Lichtman",
+              "@pid": "70/6445"
+            },
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "Karl Deisseroth",
+              "@pid": "73/11128"
+            },
+            {
+              "#text": "Kunal Lillaney",
+              "@pid": "131/6760"
+            },
+            {
+              "#text": "Kwanghun Chung",
+              "@pid": "73/8762"
+            },
+            {
+              "#text": "Logan Grosenick",
+              "@pid": "05/2346"
+            },
+            {
+              "#text": "Michael M. Kazhdan",
+              "@pid": "68/6770"
+            },
+            {
+              "#text": "Narayanan Kasthuri",
+              "@pid": "127/7210"
+            },
+            {
+              "#text": "Nicholas C. Weiler",
+              "@pid": "131/6582"
+            },
+            {
+              "#text": "Priya Manavalan",
+              "@pid": "131/6481"
+            },
+            {
+              "#text": "R. Clay Reid",
+              "@pid": "15/4938"
+            },
+            {
+              "#text": "R. Jacob Vogelstein",
+              "@pid": "29/5640"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Stephen J. Smith",
+              "@pid": "83/5500"
+            },
+            {
+              "#text": "William R. Gray Roncal",
+              "@pid": "129/9138"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0202014",
+          "title": "Data Mining the SDSS SkyServer Database",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0202014",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Donald R. Slutz",
+              "@pid": "33/6589"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0208013",
+          "title": "Petabyte Scale Data Mining: Dream or Reality?",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208013",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0208015",
+          "title": "Spatial Clustering of Galaxies in Large Datasets",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208015",
+          "author": [
+            {
+              "#text": "Adrian Pope",
+              "@pid": "43/2739"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andrew J. Connolly",
+              "@pid": "117/4231"
+            },
+            {
+              "#text": "Istvan Szapudi",
+              "@pid": "11/2912"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Takahiko Matsubara",
+              "@pid": "27/3939"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0211023",
+          "title": "SkyQuery: A WebService Approach to Federate Databases",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0211023",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0403017",
+          "title": "Extending the SDSS Batch Query System to the National Virtual Observatory Grid",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0403017",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0403018",
+          "title": "The World Wide Telescope: An Archetype for Online Science",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0403018",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0403020",
+          "title": "The Sloan Digital Sky Survey Science Archive: Migrating a Multi-Terabyte Astronomical Archive from Object to Relational DBMS",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0403020",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-0408031",
+          "title": "There Goes the Neighborhood: Relational Algebra for Spatial Data Search",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.CS.DB/0408031",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Arnold H. Rots",
+              "@pid": "23/427"
+            },
+            {
+              "#text": "Gerd Heber",
+              "@pid": "30/1517"
+            },
+            {
+              "#text": "Gyorgy Fekete",
+              "@pid": "67/3771"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            },
+            {
+              "#text": "William O'Mullane",
+              "@pid": "05/1998"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DB-9907009",
+          "title": "Designing and Mining Multi-Terabyte Astronomy Archives: The Sloan Digital Sky Survey",
+          "journal": "CoRR",
+          "year": "1999",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/9907009",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DC-0208014",
+          "title": "Web Services for the Virtual Observatory",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208014",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DL-0111015",
+          "title": "The SDSS SkyServer, Public Access to the Sloan Digital Sky Server Data",
+          "journal": "CoRR",
+          "year": "2001",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0111015",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DL-0202013",
+          "title": "The SDSS SkyServer: Public Access to the Sloan Digital Sky Server Data",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0202013",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            },
+            {
+              "#text": "Tanu Malik",
+              "@pid": "m/TanuMalik"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-DL-0208012",
+          "title": "Online Scientific Data Curation, Publication, and Archiving",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208012",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Christopher Stoughton",
+              "@pid": "06/4897"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/cs-NI-0208011",
+          "title": "TeraScale SneakerNet: Using Inexpensive Disks for Backup, Archiving, and Data Exchange",
+          "journal": "CoRR",
+          "year": "2002",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0208011",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jan vandenBerg",
+              "@pid": "16/1558"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Tom Barclay",
+              "@pid": "b/TomBarclay"
+            },
+            {
+              "#text": "Wyman Chong",
+              "@pid": "85/5011"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DobosSBCL13",
+          "title": "Graywulf: A platform for federated scientific databases and services",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1308.1440",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Nolan Li",
+              "@pid": "85/3328"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KondorDCBVBS14",
+          "title": "Efficient classification of billions of points into complex geographic regions using hierarchical triangular mesh",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1410.0709",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "András Bodor",
+              "@pid": "123/6320"
+            },
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/QuinnABDSW15",
+          "title": "Delivering SKA Science",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1501.05367",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Wicenec",
+              "@pid": "119/5002"
+            },
+            {
+              "#text": "Ian Bird",
+              "@pid": "87/1604"
+            },
+            {
+              "#text": "Peter Quinn",
+              "@pid": "157/8473"
+            },
+            {
+              "#text": "Richard Dodson",
+              "@pid": "157/8203"
+            },
+            {
+              "#text": "Tim Axelrod",
+              "@pid": "157/8196"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ZhengBS15",
+          "title": "Optimize Unsynchronized Garbage Collection in an SSD Array",
+          "journal": "CoRR",
+          "year": "2015",
+          "ee": "https://doi.org/10.48550/ARXIV.1506.07566",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ZhengBVPS16",
+          "title": "An SSD-based eigensolver for spectral analysis on billion-node graphs",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1602.01421",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Carey E. Priebe",
+              "@pid": "32/2677"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ZhengMBS14",
+          "title": "FlashGraph: Processing Billion-Node Graphs on an Array of Commodity SSDs",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1408.0500",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            },
+            {
+              "#text": "Disa Mhembere",
+              "@pid": "139/0765"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ZhengST14",
+          "title": "Hadoop in Low-Power Processors",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1408.2284",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Da Zheng",
+              "@pid": "116/7577-4"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/AlexanderHS11",
+          "title": "Big Data [Guest editorial]",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2011",
+          "pages": "10-13",
+          "ee": "https://doi.org/10.1109/MCSE.2011.99",
+          "author": [
+            {
+              "#text": "Adolfy Hoisie",
+              "@pid": "45/317"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Francis J. Alexander",
+              "@pid": "71/10469"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/BudavariDS13",
+          "title": "SkyQuery: Federating Astronomy Archives",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2013",
+          "pages": "12-20",
+          "ee": "https://doi.org/10.1109/MCSE.2013.41",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/RaddickTSS14",
+          "title": "Ten Years of SkyServer I: Tracking Web and SQL e-Science Usage",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2014",
+          "pages": "22-31",
+          "ee": "https://doi.org/10.1109/MCSE.2014.34",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Rafael Duarte Coelho dos Santos",
+              "@pid": "115/4568"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/RaddickTSS14a",
+          "title": "Ten Years of SkyServer II: How Astronomers and the Public Have Embraced e-Science",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2014",
+          "pages": "32-40",
+          "ee": "https://doi.org/10.1109/MCSE.2014.32",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "M. Jordan Raddick",
+              "@pid": "175/7284"
+            },
+            {
+              "#text": "Rafael Duarte Coelho dos Santos",
+              "@pid": "115/4568"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/Szalay11",
+          "title": "Extreme Data-Intensive Scientific Computing",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2011",
+          "pages": "34-41",
+          "ee": "https://doi.org/10.1109/MCSE.2011.74",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/Szalay99",
+          "title": "The Sloan Digital Sky Survey",
+          "journal": "Comput. Sci. Eng.",
+          "year": "1999",
+          "pages": "54-62",
+          "ee": "https://doi.org/10.1109/5992.753047",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/SzalayTG08",
+          "title": "The sqlLoader Data-Loading Pipeline",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2008",
+          "pages": "38-48",
+          "ee": "https://doi.org/10.1109/MCSE.2008.18",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/ThakarSFG08",
+          "title": "The Catalog Archive Server Database Management System",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2008",
+          "pages": "30-37",
+          "ee": "https://doi.org/10.1109/MCSE.2008.15",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "George Fekete",
+              "@pid": "34/1800"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cse/ThakarSKG03",
+          "title": "Migrating a multiterabyte archive from object to relational databases",
+          "journal": "Comput. Sci. Eng.",
+          "year": "2003",
+          "pages": "16-29",
+          "ee": "https://doi.org/10.1109/MCISE.2003.1225857",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Peter Z. Kunszt",
+              "@pid": "25/5416"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/debu/GrayS04",
+          "title": "Where the Rubber Meets the Sky: Bridging the Gap between Databases and Science",
+          "journal": "IEEE Data Eng. Bull.",
+          "year": "2004",
+          "pages": "3-11",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/debu/Szalay13",
+          "title": "From Large Simulations to Interactive Numerical Laboratories",
+          "journal": "IEEE Data Eng. Bull.",
+          "year": "2013",
+          "pages": "41-53",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fgcs/GrossmanGHSMSTKYLKS06",
+          "title": "Data mining middleware for wide-area high-performance networks",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2006",
+          "pages": "940-948",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2006.03.024",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "David Hanley",
+              "@pid": "94/3645"
+            },
+            {
+              "#text": "Joe Mambretti",
+              "@pid": "12/680"
+            },
+            {
+              "#text": "Kazumi Kumazoe",
+              "@pid": "21/6463"
+            },
+            {
+              "#text": "Michal Sabala",
+              "@pid": "57/3161"
+            },
+            {
+              "#text": "Minsun Lee",
+              "@pid": "08/6288"
+            },
+            {
+              "#text": "Robert L. Grossman",
+              "@pid": "g/RobertLGrossman"
+            },
+            {
+              "#text": "Woojin Seok",
+              "@pid": "14/6450"
+            },
+            {
+              "#text": "Yoonjoo Kwon",
+              "@pid": "74/6227"
+            },
+            {
+              "#text": "Yuji Oie",
+              "@pid": "12/3808"
+            },
+            {
+              "#text": "Yunhong Gu",
+              "@pid": "83/6524"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fgcs/SzalayB99",
+          "title": "Astronomical archives of the future: a Virtual Observatory",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "1999",
+          "pages": "63-72",
+          "ee": "https://doi.org/10.1016/S0167-739X(99)00036-9",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Robert J. Brunner",
+              "@pid": "38/603"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/frai/PantojaSMWKBGHCCSHZEARDPPJGCCSHRTK23",
+          "title": "First Organoid Intelligence (OI) workshop to form an OI community",
+          "journal": "Frontiers Artif. Intell.",
+          "year": "2023",
+          "ee": "https://doi.org/10.3389/FRAI.2023.1116870",
+          "author": [
+            {
+              "#text": "Akwasi Akwaboah",
+              "@pid": "330/5734"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alexandra Maertens",
+              "@pid": "294/0474"
+            },
+            {
+              "#text": "Alysson R. Muotri",
+              "@pid": "300/4202"
+            },
+            {
+              "#text": "Andre Levchenko",
+              "@pid": "75/3619"
+            },
+            {
+              "#text": "Bart L. Paulhamus",
+              "@pid": "79/8877"
+            },
+            {
+              "#text": "Ben Cappiello",
+              "@pid": "341/7702"
+            },
+            {
+              "#text": "Brett J. Kagan",
+              "@pid": "341/7955"
+            },
+            {
+              "#text": "Brian Caffo",
+              "@pid": "88/10169"
+            },
+            {
+              "#text": "Caroline Krall",
+              "@pid": "341/6911"
+            },
+            {
+              "#text": "Christa Whelan Habela",
+              "@pid": "341/6811"
+            },
+            {
+              "#text": "Cynthia A. Berlinicke",
+              "@pid": "176/9882"
+            },
+            {
+              "#text": "Daniel Tornero",
+              "@pid": "341/7077"
+            },
+            {
+              "#text": "David H. Gracias",
+              "@pid": "62/11408"
+            },
+            {
+              "#text": "Donald J. Zack",
+              "@pid": "29/4203"
+            },
+            {
+              "#text": "Dowlette-Mary Alam El Din",
+              "@pid": "341/6972"
+            },
+            {
+              "#text": "Eric J. Hill",
+              "@pid": "341/7824"
+            },
+            {
+              "#text": "Erik C. Johnson",
+              "@pid": "136/5159"
+            },
+            {
+              "#text": "Fang Han",
+              "@pid": "33/4395"
+            },
+            {
+              "#text": "Fenna Sillé",
+              "@pid": "341/7515"
+            },
+            {
+              "#text": "Frederic Gilbert",
+              "@pid": "96/5719-3"
+            },
+            {
+              "#text": "Itzy E. Morales Pantoja",
+              "@pid": "341/7836"
+            },
+            {
+              "#text": "J. Lomax Boyd",
+              "@pid": "341/7106"
+            },
+            {
+              "#text": "J. Lowry Curley",
+              "@pid": "341/7696"
+            },
+            {
+              "#text": "Jeffrey Kahn",
+              "@pid": "286/5234"
+            },
+            {
+              "#text": "Jens C. Schwamborn",
+              "@pid": "341/7911"
+            },
+            {
+              "#text": "Jesse D. Plotkin",
+              "@pid": "341/7852"
+            },
+            {
+              "#text": "Joshua T. Vogelstein",
+              "@pid": "04/700"
+            },
+            {
+              "#text": "July Carolina Romero",
+              "@pid": "341/7817"
+            },
+            {
+              "#text": "Karl J. Wahlin",
+              "@pid": "341/7833"
+            },
+            {
+              "#text": "Kathrin Herrmann",
+              "@pid": "196/2051"
+            },
+            {
+              "#text": "Katya Tsaioun",
+              "@pid": "341/7916"
+            },
+            {
+              "#text": "Lena Smirnova",
+              "@pid": "311/4649"
+            },
+            {
+              "#text": "Paul Roach",
+              "@pid": "286/2862"
+            },
+            {
+              "#text": "Qi Huang",
+              "@pid": "46/4397"
+            },
+            {
+              "#text": "Rabih E. Jabbour",
+              "@pid": "27/6906"
+            },
+            {
+              "#text": "Raha M. Dastgheyb",
+              "@pid": "257/2462"
+            },
+            {
+              "#text": "Ralph Etienne-Cummings",
+              "@pid": "e/RalphEtienneCummings"
+            },
+            {
+              "#text": "Rheinallt Parri",
+              "@pid": "341/7849"
+            },
+            {
+              "#text": "Thomas Hartung",
+              "@pid": "73/2446"
+            },
+            {
+              "#text": "Timothy D. Harris",
+              "@pid": "255/9097"
+            },
+            {
+              "#text": "Tzahi Cohen-Karni",
+              "@pid": "341/7571"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijdc/ChoudhuryDSVHSMEP07",
+          "title": "Digital Data Preservation for Scholarly Publications in Astronomy",
+          "journal": "Int. J. Digit. Curation",
+          "year": "2007",
+          "pages": "20-30",
+          "ee": "https://doi.org/10.2218/IJDC.V2I2.26",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Ethan Vishniac",
+              "@pid": "129/1181"
+            },
+            {
+              "#text": "G. Sayeed Choudhury",
+              "@pid": "93/485"
+            },
+            {
+              "#text": "Julie Steffen",
+              "@pid": "129/1184"
+            },
+            {
+              "#text": "Raymond Plante",
+              "@pid": "38/1282"
+            },
+            {
+              "#text": "Robert J. Hanisch",
+              "@pid": "74/2602"
+            },
+            {
+              "#text": "Robert Milkey",
+              "@pid": "129/1192"
+            },
+            {
+              "#text": "Teresa Ehling",
+              "@pid": "129/1198"
+            },
+            {
+              "#text": "Tim DiLauro",
+              "@pid": "02/5054"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijhpca/AschMBBBBBCCSDD18",
+          "title": "Big data and extreme-scale computing",
+          "journal": "Int. J. High Perform. Comput. Appl.",
+          "year": "2018",
+          "pages": "435-479",
+          "ee": "https://doi.org/10.1177/1094342018778123",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alok N. Choudhary",
+              "@pid": "c/AlokNChoudhary"
+            },
+            {
+              "#text": "Anshu Dubey",
+              "@pid": "79/6344"
+            },
+            {
+              "#text": "Bernd Mohr",
+              "@pid": "m/BerndMohr"
+            },
+            {
+              "#text": "Bronis R. de Supinski",
+              "@pid": "85/5840"
+            },
+            {
+              "#text": "D. Martin Swany",
+              "@pid": "44/3811"
+            },
+            {
+              "#text": "Daniel A. Reed",
+              "@pid": "87/2101"
+            },
+            {
+              "#text": "David E. Keyes",
+              "@pid": "27/854"
+            },
+            {
+              "#text": "Ewa Deelman",
+              "@pid": "d/EwaDeelman"
+            },
+            {
+              "#text": "Franck Cappello",
+              "@pid": "c/FranckCappello"
+            },
+            {
+              "#text": "François Bodin",
+              "@pid": "62/1166"
+            },
+            {
+              "#text": "Gaël Varoquaux",
+              "@pid": "36/7585"
+            },
+            {
+              "#text": "Geoffrey C. Fox",
+              "@pid": "f/GeoffreyFox"
+            },
+            {
+              "#text": "H. Fu",
+              "@pid": "68/1472"
+            },
+            {
+              "#text": "Igor Zacharov",
+              "@pid": "145/3795"
+            },
+            {
+              "#text": "J.-F. Lavignon",
+              "@pid": "223/3423"
+            },
+            {
+              "#text": "Jack J. Dongarra",
+              "@pid": "d/JackDongarra"
+            },
+            {
+              "#text": "Jean-Pierre Vilotte",
+              "@pid": "130/7340"
+            },
+            {
+              "#text": "Joel H. Saltz",
+              "@pid": "s/JoelHSaltz"
+            },
+            {
+              "#text": "Kate Keahey",
+              "@pid": "k/KatarzynaKeahey"
+            },
+            {
+              "#text": "Mark Asch",
+              "@pid": "62/10869"
+            },
+            {
+              "#text": "Micah D. Beck",
+              "@pid": "b/MicahBeck"
+            },
+            {
+              "#text": "Michael A. Heroux",
+              "@pid": "21/1024"
+            },
+            {
+              "#text": "Pete Beckman",
+              "@pid": "75/2988"
+            },
+            {
+              "#text": "Rick L. Stevens",
+              "@pid": "s/RickLStevens"
+            },
+            {
+              "#text": "Robert W. Wisniewski",
+              "@pid": "01/6137"
+            },
+            {
+              "#text": "Rosa M. Badia",
+              "@pid": "88/929"
+            },
+            {
+              "#text": "S. Requena",
+              "@pid": "223/3354"
+            },
+            {
+              "#text": "Satoshi Matsuoka",
+              "@pid": "57/4464"
+            },
+            {
+              "#text": "Sergi Girona",
+              "@pid": "35/4428"
+            },
+            {
+              "#text": "T. Bidot",
+              "@pid": "223/3606"
+            },
+            {
+              "#text": "Terry Moore",
+              "@pid": "47/6885"
+            },
+            {
+              "#text": "Thomas C. Schulthess",
+              "@pid": "98/2642"
+            },
+            {
+              "#text": "William Gropp",
+              "@pid": "g/WilliamGropp"
+            },
+            {
+              "#text": "William T. Kramer",
+              "@pid": "28/5204"
+            },
+            {
+              "#text": "William Tang",
+              "@pid": "13/1559"
+            },
+            {
+              "#text": "Y. Lu",
+              "@pid": "11/4801"
+            },
+            {
+              "#text": "Yutaka Ishikawa",
+              "@pid": "97/6217"
+            },
+            {
+              "#text": "Z. Xu",
+              "@pid": "92/6887"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijsnet/TerzisMCSSGOLGB10",
+          "title": "Wireless sensor networks for soil science",
+          "journal": "Int. J. Sens. Networks",
+          "year": "2010",
+          "pages": "53-70",
+          "ee": "https://doi.org/10.1504/IJSNET.2010.031850",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Chieh-Jan Mike Liang",
+              "@pid": "92/445"
+            },
+            {
+              "#text": "Jayant Gupchup",
+              "@pid": "27/981"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Joshua Cogan",
+              "@pid": "29/469"
+            },
+            {
+              "#text": "Katalin Szlavecz",
+              "@pid": "36/5986"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Razvan Musaloiu-Elefteri",
+              "@pid": "77/2271"
+            },
+            {
+              "#text": "Stuart Ozer",
+              "@pid": "32/3542"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/nature/EyinkVLAKBBMS13",
+          "title": "Flux-freezing breakdown in high-conductivity magnetohydrodynamic turbulence",
+          "journal": "Nat.",
+          "year": "2013",
+          "pages": "466-469",
+          "ee": "https://doi.org/10.1038/NATURE12128",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Cristian Constantin Lalescu",
+              "@pid": "28/4996"
+            },
+            {
+              "#text": "Ethan Vishniac",
+              "@pid": "129/1181"
+            },
+            {
+              "#text": "Gregory L. Eyink",
+              "@pid": "120/7483"
+            },
+            {
+              "#text": "Hussein Aluie",
+              "@pid": "196/6623"
+            },
+            {
+              "#text": "Kai Bürger",
+              "@pid": "88/5021"
+            },
+            {
+              "#text": "Kalin Kanov",
+              "@pid": "56/10106"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pervasive/BalazinskaDFGGHLNST07",
+          "title": "Data Management in the Worldwide Sensor Web",
+          "journal": "IEEE Pervasive Comput.",
+          "year": "2007",
+          "pages": "30-40",
+          "ee": "https://doi.org/10.1109/MPRV.2007.27",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Amol Deshpande",
+              "@pid": "d/AmolDeshpande"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "Magdalena Balazinska",
+              "@pid": "b/MagdalenaBalazinska"
+            },
+            {
+              "#text": "Mark H. Hansen",
+              "@pid": "h/MarkHHansen"
+            },
+            {
+              "#text": "Michael J. Franklin",
+              "@pid": "f/MJFranklin"
+            },
+            {
+              "#text": "Michael Liebhold",
+              "@pid": "02/59"
+            },
+            {
+              "#text": "Phillip B. Gibbons",
+              "@pid": "g/PhillipBGibbons"
+            },
+            {
+              "#text": "Suman Nath",
+              "@pid": "85/6293"
+            },
+            {
+              "#text": "Vincent Tao",
+              "@pid": "75/3420"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/WiltonS20",
+          "title": "Arioc: High-concurrency short-read alignment on multiple GPUs",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2020",
+          "pages": "1008383",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1008383",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Richard Wilton",
+              "@pid": "73/5395"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigmod/AgrawalABBCCDFFGGGHHHIKKMMOORSSSW08",
+          "title": "The Claremont report on database research",
+          "journal": "SIGMOD Rec.",
+          "year": "2008",
+          "pages": "9-19",
+          "ee": "https://doi.org/10.1145/1462571.1462573",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Alon Y. Halevy",
+              "@pid": "h/AlonYHalevy"
+            },
+            {
+              "#text": "Anastasia Ailamaki",
+              "@pid": "a/AnastassiaAilamaki"
+            },
+            {
+              "#text": "AnHai Doan",
+              "@pid": "d/AnHaiDoan"
+            },
+            {
+              "#text": "Beng Chin Ooi",
+              "@pid": "o/BengChinOoi"
+            },
+            {
+              "#text": "Daniela Florescu",
+              "@pid": "70/3007"
+            },
+            {
+              "#text": "Donald Kossmann",
+              "@pid": "k/DonaldKossmann"
+            },
+            {
+              "#text": "Eric A. Brewer",
+              "@pid": "b/EricABrewer"
+            },
+            {
+              "#text": "Gerhard Weikum",
+              "@pid": "w/GerhardWeikum"
+            },
+            {
+              "#text": "Hector Garcia-Molina",
+              "@pid": "g/HGarciaMolina"
+            },
+            {
+              "#text": "Henry F. Korth",
+              "@pid": "k/HenryFKorth"
+            },
+            {
+              "#text": "Johannes Gehrke",
+              "@pid": "g/JohannesGehrke"
+            },
+            {
+              "#text": "Joseph M. Hellerstein",
+              "@pid": "h/JosephMHellerstein"
+            },
+            {
+              "#text": "Laura M. Haas",
+              "@pid": "h/LauraMHaas"
+            },
+            {
+              "#text": "Le Gruenwald",
+              "@pid": "g/LeGruenwald"
+            },
+            {
+              "#text": "Michael J. Carey",
+              "@pid": "31/3455"
+            },
+            {
+              "#text": "Michael J. Franklin",
+              "@pid": "f/MJFranklin"
+            },
+            {
+              "#text": "Michael Stonebraker",
+              "@pid": "s/MichaelStonebraker"
+            },
+            {
+              "#text": "Philip A. Bernstein",
+              "@pid": "b/PhilipABernstein"
+            },
+            {
+              "#text": "Raghu Ramakrishnan",
+              "@pid": "r/RaghuRamakrishnan"
+            },
+            {
+              "#text": "Rakesh Agrawal",
+              "@pid": "a/RAgrawal"
+            },
+            {
+              "#text": "Roger Magoulas",
+              "@pid": "22/4992"
+            },
+            {
+              "#text": "Samuel Madden",
+              "@pid": "m/SamuelMadden"
+            },
+            {
+              "#text": "Sunita Sarawagi",
+              "@pid": "s/SunitaSarawagi"
+            },
+            {
+              "#text": "Surajit Chaudhuri",
+              "@pid": "c/SurajitChaudhuri"
+            },
+            {
+              "#text": "Tim O'Reilly",
+              "@pid": "90/3808"
+            },
+            {
+              "#text": "Yannis E. Ioannidis",
+              "@pid": "i/YEIoannidis"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigmod/AhmadBKMST10",
+          "title": "Scientific data management at the Johns Hopkins institute for data intensive engineering and science",
+          "journal": "SIGMOD Rec.",
+          "year": "2010",
+          "pages": "18-23",
+          "ee": "https://doi.org/10.1145/1942776.1942782",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Michael M. Kazhdan",
+              "@pid": "68/6770"
+            },
+            {
+              "#text": "Randal C. Burns",
+              "@pid": "b/RandalCBurns"
+            },
+            {
+              "#text": "Yanif Ahmad",
+              "@pid": "99/770"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigmod/GrayLNSDH05",
+          "title": "Scientific data management in the coming decade",
+          "journal": "SIGMOD Rec.",
+          "year": "2005",
+          "pages": "34-41",
+          "ee": "https://doi.org/10.1145/1107499.1107503",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "David J. DeWitt",
+              "@pid": "d/DJDeWitt"
+            },
+            {
+              "#text": "David T. Liu",
+              "@pid": "l/DavidTLiu"
+            },
+            {
+              "#text": "Gerd Heber",
+              "@pid": "30/1517"
+            },
+            {
+              "#text": "Jim Gray",
+              "@pid": "g/JimGray"
+            },
+            {
+              "#text": "María A. Nieto-Santisteban",
+              "@pid": "36/723"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigmod/Szalay08",
+          "title": "The Sloan Digital Sky Survey and beyond",
+          "journal": "SIGMOD Rec.",
+          "year": "2008",
+          "pages": "61-66",
+          "ee": "https://doi.org/10.1145/1379387.1379407",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigops/SzalayBHTW10",
+          "title": "Low-power amdahl-balanced blades for data intensive computing",
+          "journal": "ACM SIGOPS Oper. Syst. Rev.",
+          "year": "2010",
+          "pages": "71-75",
+          "ee": "https://doi.org/10.1145/1740390.1740407",
+          "author": [
+            {
+              "#text": "Alainna White",
+              "@pid": "17/8783"
+            },
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Gordon Bell",
+              "@pid": "b/GBell"
+            },
+            {
+              "#text": "H. Howie Huang",
+              "@pid": "39/560"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sp/ThakarSCT11",
+          "title": "Large science databases - are cloud services ready for them?",
+          "journal": "Sci. Program.",
+          "year": "2011",
+          "pages": "147-159",
+          "ee": "https://doi.org/10.3233/SPR-2011-0325",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Andreas Terzis",
+              "@pid": "12/6664"
+            },
+            {
+              "#text": "Ani Thakar",
+              "@pid": "t/AniThakar"
+            },
+            {
+              "#text": "Kenneth Church",
+              "@pid": "c/KennethWardChurch"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tc/HuangZWDS12",
+          "title": "Just-in-Time Analytics on Large File Systems",
+          "journal": "IEEE Trans. Computers",
+          "year": "2012",
+          "pages": "1651-1664",
+          "ee": "https://doi.org/10.1109/TC.2011.186",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Gautam Das",
+              "@pid": "07/1181"
+            },
+            {
+              "#text": "H. Howie Huang",
+              "@pid": "39/560"
+            },
+            {
+              "#text": "Nan Zhang",
+              "@pid": "z/NanZhang4"
+            },
+            {
+              "#text": "Wei Wang",
+              "@pid": "35/7092-82"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvcg/Szalay10",
+          "title": "VisWeek Capstone Address",
+          "journal": "IEEE Trans. Vis. Comput. Graph.",
+          "year": "2010",
+          "ee": "https://doi.org/10.1109/TVCG.2010.219",
+          "author": {
+            "#text": "Alex Szalay",
+            "@pid": "s/AlexanderSSzalay"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvcg/TreibBRMSW12",
+          "title": "Turbulence Visualization at the Terascale on Desktop PCs",
+          "journal": "IEEE Trans. Vis. Comput. Graph.",
+          "year": "2012",
+          "pages": "2169-2177",
+          "ee": "https://doi.org/10.1109/TVCG.2012.274",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Charles Meneveau",
+              "@pid": "48/6497"
+            },
+            {
+              "#text": "Florian Reichl",
+              "@pid": "118/2759"
+            },
+            {
+              "#text": "Kai Bürger",
+              "@pid": "88/5021"
+            },
+            {
+              "#text": "Marc Treib",
+              "@pid": "76/9838"
+            },
+            {
+              "#text": "Rüdiger Westermann",
+              "@pid": "w/RudigerWestermann"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

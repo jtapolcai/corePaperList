@@ -1,50 +1,66 @@
 {
   "dblpperson": {
+    "@name": "Anita Habók",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/compsystech/NguyenH21",
-        "title": "A study on Vietnamese undergraduates' level of digital skills and the frequency of using digital tools in the EFL context.",
-        "pages": "171-175",
-        "year": "2021",
-        "booktitle": "CompSysTech",
-        "ee": "https://doi.org/10.1145/3472410.3472425",
-        "url": "db/conf/compsystech/compsystech2021.html#NguyenH21",
-        "authors": [
-          "Lan Anh Thuy Nguyen",
-          "Anita Habok"
-        ]
+        "inproceedings": {
+          "@key": "conf/compsystech/NguyenH21",
+          "title": "A study on Vietnamese undergraduates' level of digital skills and the frequency of using digital tools in the EFL context",
+          "booktitle": "CompSysTech",
+          "year": "2021",
+          "pages": "171-175",
+          "ee": "https://doi.org/10.1145/3472410.3472425",
+          "author": [
+            {
+              "#text": "Anita Habok",
+              "@pid": "304/7289"
+            },
+            {
+              "#text": "Lan Anh Thuy Nguyen",
+              "@pid": "304/7097"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jche/NguyenH26",
-        "title": "Digital literacy of English majors: subjective versus objective assessment.",
-        "year": "2026",
-        "pages": "558-587",
-        "volume": "38",
-        "journal": "J. Comput. High. Educ.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s12528-025-09448-2",
-        "url": "db/journals/jche/jche38.html#NguyenH26",
-        "authors": [
-          "Lan Anh Thuy Nguyen",
-          "Anita Habok"
-        ]
+        "article": {
+          "@key": "journals/caeai/NabhanH26",
+          "title": "Language teachers' AI literacy: A psychometric study based on the ED-AI framework",
+          "journal": "Comput. Educ. Artif. Intell.",
+          "year": "2026",
+          "pages": "100583",
+          "ee": "https://doi.org/10.1016/J.CAEAI.2026.100583",
+          "author": [
+            {
+              "#text": "Anita Habok",
+              "@pid": "304/7289"
+            },
+            {
+              "#text": "Salim Nabhan",
+              "@pid": "431/7019"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/caeai/NabhanH26",
-        "title": "Language teachers' AI literacy: A psychometric study based on the ED-AI framework.",
-        "year": "2026",
-        "pages": "100583",
-        "volume": "10",
-        "journal": "Comput. Educ. Artif. Intell.",
-        "ee": "https://doi.org/10.1016/j.caeai.2026.100583",
-        "url": "db/journals/caeai/caeai10.html#NabhanH26",
-        "authors": [
-          "Salim Nabhan",
-          "Anita Habok"
-        ]
+        "article": {
+          "@key": "journals/jche/NguyenH26",
+          "title": "Digital literacy of English majors: subjective versus objective assessment",
+          "journal": "J. Comput. High. Educ.",
+          "year": "2026",
+          "pages": "558-587",
+          "ee": "https://doi.org/10.1007/S12528-025-09448-2",
+          "author": [
+            {
+              "#text": "Anita Habok",
+              "@pid": "304/7289"
+            },
+            {
+              "#text": "Lan Anh Thuy Nguyen",
+              "@pid": "304/7097"
+            }
+          ]
+        }
       }
     ]
   }

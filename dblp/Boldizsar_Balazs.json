@@ -1,19 +1,89 @@
 {
   "dblpperson": {
+    "@name": "Boldizsar Balazs",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icra/BalazsV18",
-        "title": "Coordinated Dense Aerial Traffic with Self-Driving Drones.",
-        "pages": "6365-6372",
-        "year": "2018",
-        "booktitle": "ICRA",
-        "ee": "https://doi.org/10.1109/ICRA.2018.8461073",
-        "url": "db/conf/icra/icra2018.html#BalazsV18",
-        "authors": [
-          "Boldizsar Balazs",
-          "GÃ¡bor VÃ¡sÃ¡rhelyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icra/BalazsV18",
+          "title": "Coordinated Dense Aerial Traffic with Self-Driving Drones",
+          "booktitle": "ICRA",
+          "year": "2018",
+          "pages": "6365-6372",
+          "ee": "https://doi.org/10.1109/ICRA.2018.8461073",
+          "author": [
+            {
+              "#text": "Boldizsar Balazs",
+              "@pid": "226/6447"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-11207",
+          "title": "Decentralized traffic management of autonomous drones",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.11207",
+          "author": [
+            {
+              "#text": "Boldizsar Balazs",
+              "@pid": "226/6447"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/swarm/BalazsVSNV25",
+          "title": "Decentralized traffic management of autonomous drones",
+          "journal": "Swarm Intell.",
+          "year": "2025",
+          "pages": "29-53",
+          "ee": "https://doi.org/10.1007/S11721-024-00241-Y",
+          "author": [
+            {
+              "#text": "Boldizsar Balazs",
+              "@pid": "226/6447"
+            },
+            {
+              "#text": "Gábor Vásárhelyi",
+              "@pid": "142/2958"
+            },
+            {
+              "#text": "Gergo Somorjai",
+              "@pid": "142/2907"
+            },
+            {
+              "#text": "Tamás Nepusz",
+              "@pid": "38/8248"
+            },
+            {
+              "#text": "Tamás Vicsek",
+              "@pid": "79/1620"
+            }
+          ]
+        }
       }
     ]
   }

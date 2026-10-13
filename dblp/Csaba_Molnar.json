@@ -1,66 +1,117 @@
 {
   "dblpperson": {
+    "@name": "Csaba Molnar",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/isvc/MolnarMH16",
-        "title": "An Object Splitting Model Using Higher-Order Active Contours for Single-Cell Segmentation.",
-        "pages": "24-34",
-        "year": "2016",
-        "booktitle": "ISVC (1)",
-        "ee": "https://doi.org/10.1007/978-3-319-50835-1_3",
-        "url": "db/conf/isvc/isvc2016-1.html#MolnarMH16",
-        "authors": [
-          "JÃ³zsef MolnÃ¡r",
-          "Csaba Molnar",
-          "PÃ©ter HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/dicta/MolnarKJ15",
+          "title": "A New Model for the Segmentation of Multiple, Overlapping, Near-Circular Objects",
+          "booktitle": "DICTA",
+          "year": "2015",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/DICTA.2015.7371219",
+          "author": [
+            {
+              "#text": "Csaba Molnar",
+              "@pid": "126/0704"
+            },
+            {
+              "#text": "Ian H. Jermyn",
+              "@pid": "j/IanHJermyn"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icpr/MolnarKJ12",
-        "title": "A multi-layer phase field model for extracting multiple near-circular objects.",
-        "pages": "1427-1430",
-        "year": "2012",
-        "booktitle": "ICPR",
-        "ee": "https://ieeexplore.ieee.org/document/6460409/",
-        "url": "db/conf/icpr/icpr2012.html#MolnarKJ12",
-        "authors": [
-          "Csaba Molnar",
-          "Zoltan Kato",
-          "Ian Jermyn"
-        ]
+        "inproceedings": {
+          "@key": "conf/icpr/MolnarKJ12",
+          "title": "A multi-layer phase field model for extracting multiple near-circular objects",
+          "booktitle": "ICPR",
+          "year": "2012",
+          "pages": "1427-1430",
+          "author": [
+            {
+              "#text": "Csaba Molnar",
+              "@pid": "126/0704"
+            },
+            {
+              "#text": "Ian H. Jermyn",
+              "@pid": "j/IanHJermyn"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wacv/MoinarSMH16",
-        "title": "Active contours for selective object segmentation.",
-        "pages": "1-9",
-        "year": "2016",
-        "booktitle": "WACV",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/WACV.2016.7477572",
-        "url": "db/conf/wacv/wacv2016.html#MoinarSMH16",
-        "authors": [
-          "JÃ³zsef MolnÃ¡r",
-          "Adam Istvan Szucs",
-          "Csaba Molnar",
-          "PÃ©ter HorvÃ¡th"
-        ]
+        "inproceedings": {
+          "@key": "conf/isvc/MolnarMH16",
+          "title": "An Object Splitting Model Using Higher-Order Active Contours for Single-Cell Segmentation",
+          "booktitle": "ISVC (1)",
+          "year": "2016",
+          "pages": "24-34",
+          "ee": "https://doi.org/10.1007/978-3-319-50835-1_3",
+          "author": [
+            {
+              "#text": "Csaba Molnar",
+              "@pid": "126/0704"
+            },
+            {
+              "#text": "József Molnár",
+              "@pid": "51/3911"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "132/8240"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/dicta/MolnarKJ15",
-        "title": "A New Model for the Segmentation of Multiple, Overlapping, Near-Circular Objects.",
-        "pages": "1-5",
-        "year": "2015",
-        "booktitle": "DICTA",
-        "ee": "https://doi.org/10.1109/DICTA.2015.7371219",
-        "url": "db/conf/dicta/dicta2015.html#MolnarKJ15",
-        "authors": [
-          "Csaba Molnar",
-          "Zoltan Kato",
-          "Ian H. Jermyn"
-        ]
+        "inproceedings": {
+          "@key": "conf/wacv/MoinarSMH16",
+          "title": "Active contours for selective object segmentation",
+          "booktitle": "WACV",
+          "year": "2016",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/WACV.2016.7477572",
+          "author": [
+            {
+              "#text": "Adam Istvan Szucs",
+              "@pid": "180/6463"
+            },
+            {
+              "#text": "Csaba Molnar",
+              "@pid": "126/0704"
+            },
+            {
+              "#text": "József Molnár",
+              "@pid": "51/3911"
+            },
+            {
+              "#text": "Péter Horváth",
+              "@pid": "132/8240"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Csaba20a",
+          "title": "Variational methods for shape modelling",
+          "journal": "",
+          "year": "2020",
+          "author": {
+            "#text": "Csaba Molnar",
+            "@pid": "126/0704"
+          }
+        }
       }
     ]
   }

@@ -1,20 +1,26 @@
 {
   "dblpperson": {
+    "@name": "Attila Kossa",
     "r": [
       {
-        "type": "article",
-        "key": "journals/softx/FlochK23",
-        "title": "Motion Tracker Beta: A GUI based open-source motion tracking application.",
-        "pages": "101424",
-        "year": "2023",
-        "volume": "23",
-        "journal": "SoftwareX",
-        "ee": "https://doi.org/10.1016/j.softx.2023.101424",
-        "url": "db/journals/softx/softx23.html#FlochK23",
-        "authors": [
-          "KristÃ³f Floch",
-          "Attila Kossa"
-        ]
+        "article": {
+          "@key": "journals/softx/FlochK23",
+          "title": "Motion Tracker Beta: A GUI based open-source motion tracking application",
+          "journal": "SoftwareX",
+          "year": "2023",
+          "pages": "101424",
+          "ee": "https://doi.org/10.1016/J.SOFTX.2023.101424",
+          "author": [
+            {
+              "#text": "Attila Kossa",
+              "@pid": "358/1928"
+            },
+            {
+              "#text": "Kristóf Floch",
+              "@pid": "358/2080"
+            }
+          ]
+        }
       }
     ]
   }

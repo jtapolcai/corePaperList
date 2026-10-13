@@ -1,109 +1,430 @@
 {
   "dblpperson": {
+    "@name": "Tamas Sebok",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/LakiMHSCV11",
-        "title": "Spotter: A model based active geolocation service.",
-        "pages": "3173-3181",
-        "year": "2011",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFCOM.2011.5935165",
-        "url": "db/conf/infocom/infocom2011.html#LakiMHSCV11",
-        "authors": [
-          "SÃ¡ndor Laki",
-          "PÃ©ter MÃ¡tray",
-          "PÃ©ter HÃ¡ga",
-          "Tamas Sebok",
-          "IstvÃ¡n Csabai",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/0001SBHSKKSCV13",
+          "title": "A multi-terabyte relational database for geo-tagged social network data",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "289-294",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719259",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Bodnár",
+              "@pid": "137/8106"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/KondorC0SBHSKV13",
-        "title": "Using Robust PCA to estimate regional characteristics of language use from geo-tagged Twitter messages.",
-        "pages": "393-398",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719277",
-        "url": "db/conf/coginfocom/coginfocom2013.html#KondorC0SBHSKV13",
-        "authors": [
-          "DÃ¡niel Kondor",
-          "IstvÃ¡n Csabai",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "JÃ¡nos SzÃ¼le",
-          "Norbert Barankai",
-          "TamÃ¡s Hanyecz",
-          "Tamas Sebok",
-          "ZsÃ³fia Kallus",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/KallusBK0HSSSVC13",
+          "title": "Regional properties of global communication as reflected in aggregated Twitter data",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "429-434",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719285",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Norbert Barankai",
+              "@pid": "119/4935"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/DobosSBHSKKSCV13",
-        "title": "A multi-terabyte relational database for geo-tagged social network data.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1311.0841",
-        "volume": "abs/1311.0841",
-        "url": "db/journals/corr/corr1311.html#DobosSBHSKKSCV13",
-        "authors": [
-          "LÃ¡szlÃ³ Dobos 0001",
-          "JÃ¡nos SzÃ¼le",
-          "TamÃ¡s BodnÃ¡r",
-          "TamÃ¡s Hanyecz",
-          "Tamas Sebok",
-          "DÃ¡niel Kondor",
-          "ZsÃ³fia Kallus",
-          "JÃ³zsef StÃ©ger",
-          "IstvÃ¡n Csabai",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/KondorC0SBHSKV13",
+          "title": "Using Robust PCA to estimate regional characteristics of language use from geo-tagged Twitter messages",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "393-398",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719277",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Norbert Barankai",
+              "@pid": "119/4935"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/KallusBKDHSSSVC13",
-        "title": "Regional properties of global communication as reflected in aggregated Twitter data.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1311.1484",
-        "volume": "abs/1311.1484",
-        "url": "db/journals/corr/corr1311.html#KallusBKDHSSSVC13",
-        "authors": [
-          "ZsÃ³fia Kallus",
-          "Norbert Barankai",
-          "DÃ¡niel Kondor",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "TamÃ¡s Hanyecz",
-          "JÃ¡nos SzÃ¼le",
-          "JÃ³zsef StÃ©ger",
-          "Tamas Sebok",
-          "GÃ¡bor Vattay",
-          "IstvÃ¡n Csabai"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/LakiMHSCV11",
+          "title": "Spotter: A model based active geolocation service",
+          "booktitle": "INFOCOM",
+          "year": "2011",
+          "pages": "3173-3181",
+          "ee": "https://doi.org/10.1109/INFCOM.2011.5935165",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/KondorCDSBHSKV13",
-        "title": "Using Robust PCA to estimate regional characteristics of language use from geo-tagged Twitter messages.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1311.1169",
-        "volume": "abs/1311.1169",
-        "url": "db/journals/corr/corr1311.html#KondorCDSBHSKV13",
-        "authors": [
-          "DÃ¡niel Kondor",
-          "IstvÃ¡n Csabai",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "JÃ¡nos SzÃ¼le",
-          "Norbert Barankai",
-          "TamÃ¡s Hanyecz",
-          "Tamas Sebok",
-          "ZsÃ³fia Kallus",
-          "GÃ¡bor Vattay"
-        ]
+        "inproceedings": {
+          "@key": "conf/tridentcom/SebokKLMSSDCV14",
+          "title": "Network Measurement Virtual Observatory: An Integrated Database Environment for Internet Research and Experimentation",
+          "booktitle": "TRIDENTCOM",
+          "year": "2014",
+          "pages": "65-74",
+          "ee": "https://doi.org/10.1007/978-3-319-13326-3_7",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BokanyiKDSSCV16",
+          "title": "Race, Religion and the City: Twitter Word Frequency Patterns Reveal Dominant Demographic Dimensions in the United States",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1605.02951",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Eszter Bokányi",
+              "@pid": "180/5549"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/DobosSBHSKKSCV13",
+          "title": "A multi-terabyte relational database for geo-tagged social network data",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1311.0841",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Tamás Bodnár",
+              "@pid": "137/8106"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KallusBKDHSSSVC13",
+          "title": "Regional properties of global communication as reflected in aggregated Twitter data",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1311.1484",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Norbert Barankai",
+              "@pid": "119/4935"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KondorCDSBHSKV13",
+          "title": "Using Robust PCA to estimate regional characteristics of language use from geo-tagged Twitter messages",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1311.1169",
+          "author": [
+            {
+              "#text": "Dániel Kondor",
+              "@pid": "133/8342"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "János Szüle",
+              "@pid": "122/4901"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Norbert Barankai",
+              "@pid": "119/4935"
+            },
+            {
+              "#text": "Tamás Hanyecz",
+              "@pid": "137/8119"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
       }
     ]
   }

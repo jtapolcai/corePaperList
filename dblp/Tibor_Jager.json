@@ -1,1998 +1,3244 @@
 {
   "dblpperson": {
+    "@name": "Tibor Jager",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ndss/JagerPS13",
-        "title": "One Bad Apple: Backwards Compatibility Attacks on State-of-the-Art Cryptography.",
-        "year": "2013",
-        "booktitle": "NDSS",
-        "ee": "https://www.ndss-symposium.org/ndss2013/one-bad-apple-backwards-compatibility-attacks-state-art-cryptography",
-        "url": "db/conf/ndss/ndss2013.html#JagerPS13",
-        "authors": [
-          "Tibor Jager",
-          "Kenneth G. Paterson",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esorics/GajekJMS08",
-        "title": "A Browser-Based Kerberos Authentication Scheme.",
-        "pages": "115-129",
-        "year": "2008",
-        "booktitle": "ESORICS",
-        "ee": "https://doi.org/10.1007/978-3-540-88313-5_8",
-        "url": "db/conf/esorics/esorics2008.html#GajekJMS08",
-        "authors": [
-          "Sebastian Gajek",
-          "Tibor Jager",
-          "Mark Manulis",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esorics/JagerSS15",
-        "title": "Practical Invalid Curve Attacks on TLS-ECDH.",
-        "pages": "407-425",
-        "year": "2015",
-        "booktitle": "ESORICS (1)",
-        "ee": "https://doi.org/10.1007/978-3-319-24174-6_21",
-        "url": "db/conf/esorics/esorics2015-1.html#JagerSS15",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esorics/ChvojkaJSS21",
-        "title": "Versatile and Sustainable Timed-Release Encryption and Sequential Time-Lock Puzzles (Extended Abstract).",
-        "pages": "64-85",
-        "year": "2021",
-        "booktitle": "ESORICS (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-88428-4_4",
-        "url": "db/conf/esorics/esorics2021-2.html#ChvojkaJSS21",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager",
-          "Daniel Slamanig",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/esorics/JagerSS12",
-        "title": "Bleichenbacher's Attack Strikes again: Breaking PKCS#1 v1.5 in XML Encryption.",
-        "pages": "752-769",
-        "year": "2012",
-        "booktitle": "ESORICS",
-        "ee": "https://www.wikidata.org/entity/Q56805459",
-        "url": "db/conf/esorics/esorics2012.html#JagerSS12",
-        "authors": [
-          "Tibor Jager",
-          "Sebastian Schinzel",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/DarupJ19",
-        "title": "Encrypted Cloud-based Control using Secret Sharing with One-time Pads.",
-        "pages": "7215-7221",
-        "year": "2019",
-        "booktitle": "CDC",
-        "ee": "https://doi.org/10.1109/CDC40024.2019.9029342",
-        "url": "db/conf/cdc/cdc2019.html#DarupJ19",
-        "authors": [
-          "Moritz Schulze Darup",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/tcc/HofheinzJ16",
-        "title": "Verifiable Random Functions from Standard Assumptions.",
-        "pages": "336-362",
-        "year": "2016",
-        "booktitle": "TCC (A1)",
-        "ee": "https://doi.org/10.1007/978-3-662-49096-9_14",
-        "url": "db/conf/tcc/tcc2016a1.html#HofheinzJ16",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/tcc/JagerSSW17",
-        "title": "Multi-key Authenticated Encryption with Corruptions: Reductions Are Lossy.",
-        "pages": "409-441",
-        "year": "2017",
-        "booktitle": "TCC (1)",
-        "ee": "https://doi.org/10.1007/978-3-319-70500-2_14",
-        "url": "db/conf/tcc/tcc2017-1.html#JagerSSW17",
-        "authors": [
-          "Tibor Jager",
-          "Martijn Stam",
-          "Ryan Stanley-Oakes",
-          "Bogdan Warinschi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/tcc/BaderHJKL15",
-        "title": "Tightly-Secure Authenticated Key Exchange.",
-        "pages": "629-658",
-        "year": "2015",
-        "booktitle": "TCC (1)",
-        "ee": "https://www.wikidata.org/entity/Q59163663",
-        "url": "db/conf/tcc/tcc2015-1.html#BaderHJKL15",
-        "authors": [
-          "Christoph Bader",
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Yong Li 0021"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/tcc/HofheinzJR16",
-        "title": "Public-Key Encryption with Simulation-Based Selective-Opening Security and Compact Ciphertexts.",
-        "pages": "146-168",
-        "year": "2016",
-        "booktitle": "TCC (B2)",
-        "ee": "https://doi.org/10.1007/978-3-662-53644-5_6",
-        "url": "db/conf/tcc/tcc2016b2.html#HofheinzJR16",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/tcc/Jager15",
-        "title": "Verifiable Random Functions from Weaker Assumptions.",
-        "pages": "121-143",
-        "year": "2015",
-        "booktitle": "TCC (2)",
-        "ee": "https://doi.org/10.1007/978-3-662-46497-7_5",
-        "url": "db/conf/tcc/tcc2015-2.html#Jager15",
-        "authors": [
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ctrsa/GellertJLN22",
-        "title": "On Fingerprinting Attacks and Length-Hiding Encryption.",
-        "pages": "345-369",
-        "year": "2022",
-        "booktitle": "CT-RSA",
-        "ee": "https://doi.org/10.1007/978-3-030-95312-6_15",
-        "url": "db/conf/ctrsa/ctrsa2022.html#GellertJLN22",
-        "authors": [
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001",
-          "Tom Neuschulten"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sicherheit/JagerJS08",
-        "title": "Nutzung von selbstsignierten Client-Zertifikaten zur Authentifikation bei SSL/TLS.",
-        "pages": "127-136",
-        "year": "2008",
-        "booktitle": "Sicherheit",
-        "url": "db/conf/sicherheit/sicherheit2008.html#JagerJS08",
-        "ee": "https://dl.gi.de/handle/20.500.12116/21471",
-        "authors": [
-          "Tibor Jager",
-          "Heiko JÃ¤kel",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icaart/GuptaRDHPJ22",
-        "title": "Automated Information Leakage Detection: A New Method Combining Machine Learning and Hypothesis Testing with an Application to Side-channel Detection in Cryptographic Protocols.",
-        "pages": "152-163",
-        "year": "2022",
-        "booktitle": "ICAART (2)",
-        "ee": "https://doi.org/10.5220/0010793000003116",
-        "url": "db/conf/icaart/icaart2022-2.html#GuptaRDHPJ22",
-        "authors": [
-          "Pritha Gupta",
-          "Arunselvan Ramaswamy",
-          "Jan Peter Drees",
-          "Eyke HÃ¼llermeier",
-          "Claudia Priesterjahn",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cans/HorstGJS16",
-        "title": "Breaking PPTP VPNs via RADIUS Encryption.",
-        "pages": "159-175",
-        "year": "2016",
-        "booktitle": "CANS",
-        "ee": "https://doi.org/10.1007/978-3-319-48965-0_10",
-        "url": "db/conf/cans/cans2016.html#HorstGJS16",
-        "authors": [
-          "Matthias Horst",
-          "Martin Grothe",
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cans/DallmeierDGHJKN20",
-        "title": "Forward-Secure 0-RTT Goes Live: Implementation and Performance Analysis in QUIC.",
-        "pages": "211-231",
-        "year": "2020",
-        "booktitle": "CANS",
-        "ee": "https://doi.org/10.1007/978-3-030-65411-5_11",
-        "url": "db/conf/cans/cans2020.html#DallmeierDGHJKN20",
-        "authors": [
-          "Fynn Dallmeier",
-          "Jan Peter Drees",
-          "Kai Gellert",
-          "Tobias Handirk",
-          "Tibor Jager",
-          "Jonas Klauke",
-          "Simon Nachtigall",
-          "Timo Renzelmann",
-          "Rudi Wolf"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/HofheinzJK12",
-        "title": "Waters Signatures with Optimal Security Reduction.",
-        "pages": "66-83",
-        "year": "2012",
-        "booktitle": "Public Key Cryptography",
-        "ee": "https://doi.org/10.1007/978-3-642-30057-8_5",
-        "url": "db/conf/pkc/pkc2012.html#HofheinzJK12",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Edward Knapp"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/ChvojkaJ23",
-        "title": "Simple, Fast, Efficient, and Tightly-Secure Non-malleable Non-interactive Timed Commitments.",
-        "pages": "500-529",
-        "year": "2023",
-        "booktitle": "Public Key Cryptography (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-31368-4_18",
-        "url": "db/conf/pkc/pkc2023-1.html#ChvojkaJ23",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/HeuerJKS15",
-        "title": "On the Selective Opening Security of Practical Public-Key Encryption Schemes.",
-        "pages": "27-51",
-        "year": "2015",
-        "booktitle": "Public Key Cryptography",
-        "ee": "https://www.wikidata.org/entity/Q59163647",
-        "url": "db/conf/pkc/pkc2015.html#HeuerJKS15",
-        "authors": [
-          "Felix Heuer",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/HaralambievJKS10",
-        "title": "Simple and Efficient Public-Key Encryption from Computational Diffie-Hellman in the Standard Model.",
-        "pages": "1-18",
-        "year": "2010",
-        "booktitle": "Public Key Cryptography",
-        "ee": "https://www.wikidata.org/entity/Q59163711",
-        "url": "db/conf/pkc/pkc2010.html#HaralambievJKS10",
-        "authors": [
-          "Kristiyan Haralambiev",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Victor Shoup"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/BergsmaJS15",
-        "title": "One-Round Key Exchange with Strong Security: An Efficient and Generic Construction in the Standard Model.",
-        "pages": "477-494",
-        "year": "2015",
-        "booktitle": "Public Key Cryptography",
-        "ee": "https://doi.org/10.1007/978-3-662-46447-2_21",
-        "url": "db/conf/pkc/pkc2015.html#BergsmaJS15",
-        "authors": [
-          "Florian Bergsma",
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/DiemertGJL21",
-        "title": "More Efficient Digital Signatures with Tight Multi-user Security.",
-        "pages": "1-31",
-        "year": "2021",
-        "booktitle": "Public Key Cryptography (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-75248-4_1",
-        "url": "db/conf/pkc/pkc2021-2.html#DiemertGJL21",
-        "authors": [
-          "Denis Diemert",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/JagerKN21",
-        "title": "Efficient Adaptively-Secure IB-KEMs and VRFs via Near-Collision Resistance.",
-        "pages": "596-626",
-        "year": "2021",
-        "booktitle": "Public Key Cryptography (1)",
-        "ee": "https://doi.org/10.1007/978-3-030-75245-3_22",
-        "url": "db/conf/pkc/pkc2021-1.html#JagerKN21",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek",
-          "David Niehues"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkc/BemmannCJ21",
-        "title": "Subversion-Resilient Public Key Encryption with Practical Watchdogs.",
-        "pages": "627-658",
-        "year": "2021",
-        "booktitle": "Public Key Cryptography (1)",
-        "ee": "https://doi.org/10.1007/978-3-030-75245-3_23",
-        "url": "db/conf/pkc/pkc2021-1.html#BemmannCJ21",
-        "authors": [
-          "Pascal Bemmann",
-          "Rongmao Chen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icalp/AltmannJR08",
-        "title": "On Black-Box Ring Extraction and Integer Factorization.",
-        "pages": "437-448",
-        "year": "2008",
-        "booktitle": "ICALP (2)",
-        "ee": "https://doi.org/10.1007/978-3-540-70583-3_36",
-        "url": "db/conf/icalp/icalp2008-2.html#AltmannJR08",
-        "authors": [
-          "Kristina Altmann",
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/AviramGJ19",
-        "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT.",
-        "pages": "117-150",
-        "year": "2019",
-        "booktitle": "EUROCRYPT (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-17656-3_5",
-        "url": "db/conf/eurocrypt/eurocrypt2019-2.html#AviramGJ19",
-        "authors": [
-          "Nimrod Aviram",
-          "Kai Gellert",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/DavisDGJ22",
-        "title": "On the Concrete Security of TLS 1.3 PSK Mode.",
-        "pages": "876-906",
-        "year": "2022",
-        "booktitle": "EUROCRYPT (2)",
-        "ee": "https://doi.org/10.1007/978-3-031-07085-3_30",
-        "url": "db/conf/eurocrypt/eurocrypt2022-2.html#DavisDGJ22",
-        "authors": [
-          "Hannah Davis",
-          "Denis Diemert",
-          "Felix GÃ¼nther 0001",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/0001HJL17",
-        "title": "0-RTT Key Exchange with Full Forward Secrecy.",
-        "pages": "519-548",
-        "year": "2017",
-        "booktitle": "EUROCRYPT (3)",
-        "ee": "https://doi.org/10.1007/978-3-319-56617-7_18",
-        "url": "db/conf/eurocrypt/eurocrypt2017-3.html#0001HJL17",
-        "authors": [
-          "Felix GÃ¼nther 0001",
-          "Britta Hale",
-          "Tibor Jager",
-          "Sebastian Lauer"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/JagerKRS21",
-        "title": "Tightly-Secure Authenticated Key Exchange, Revisited.",
-        "pages": "117-146",
-        "year": "2021",
-        "booktitle": "EUROCRYPT (1)",
-        "ee": "https://doi.org/10.1007/978-3-030-77870-5_5",
-        "url": "db/conf/eurocrypt/eurocrypt2021-1.html#JagerKRS21",
-        "authors": [
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Doreen Riepel",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/DerlerJSS18",
-        "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange.",
-        "pages": "425-455",
-        "year": "2018",
-        "booktitle": "EUROCRYPT (3)",
-        "ee": "https://doi.org/10.1007/978-3-319-78372-7_14",
-        "url": "db/conf/eurocrypt/eurocrypt2018-3.html#DerlerJSS18",
-        "authors": [
-          "David Derler",
-          "Tibor Jager",
-          "Daniel Slamanig",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/BaderJLS16",
-        "title": "On the Impossibility of Tight Cryptographic Reductions.",
-        "pages": "273-304",
-        "year": "2016",
-        "booktitle": "EUROCRYPT (2)",
-        "ee": "https://doi.org/10.1007/978-3-662-49896-5_10",
-        "url": "db/conf/eurocrypt/eurocrypt2016-2.html#BaderJLS16",
-        "authors": [
-          "Christoph Bader",
-          "Tibor Jager",
-          "Yong Li 0021",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eurocrypt/BohlHJKSS13",
-        "title": "Practical Signatures from Standard Assumptions.",
-        "pages": "461-485",
-        "year": "2013",
-        "booktitle": "EUROCRYPT",
-        "ee": "https://doi.org/10.1007/978-3-642-38348-9_28",
-        "url": "db/conf/eurocrypt/eurocrypt2013.html#BohlHJKSS13",
-        "authors": [
-          "Florian BÃ¶hl",
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Jessica Koch",
-          "Jae Hong Seo",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/provsec/JagerS08",
-        "title": "On the Equivalence of Generic Group Models.",
-        "pages": "200-209",
-        "year": "2008",
-        "booktitle": "ProvSec",
-        "ee": "https://doi.org/10.1007/978-3-540-88733-1_14",
-        "url": "db/conf/provsec/provsec2008.html#JagerS08",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/FleischhackerJS14",
-        "title": "On Tight Security Proofs for Schnorr Signatures.",
-        "pages": "512-531",
-        "year": "2014",
-        "booktitle": "ASIACRYPT (1)",
-        "ee": "https://doi.org/10.1007/978-3-662-45611-8_27",
-        "url": "db/conf/asiacrypt/asiacrypt2014-1.html#FleischhackerJS14",
-        "authors": [
-          "Nils Fleischhacker",
-          "Tibor Jager",
-          "Dominique SchrÃ¶der"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/BoydDKGJM21",
-        "title": "Symmetric Key Exchange with Full Forward Security and Robust Synchronization.",
-        "pages": "681-710",
-        "year": "2021",
-        "booktitle": "ASIACRYPT (4)",
-        "ee": "https://doi.org/10.1007/978-3-030-92068-5_23",
-        "url": "db/conf/asiacrypt/asiacrypt2021-4.html#BoydDKGJM21",
-        "authors": [
-          "Colin Boyd",
-          "Gareth T. Davies",
-          "Bor de Kock",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lise Millerjord"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/JagerS09",
-        "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model.",
-        "pages": "399-416",
-        "year": "2009",
-        "booktitle": "ASIACRYPT",
-        "ee": "https://doi.org/10.1007/978-3-642-10366-7_24",
-        "url": "db/conf/asiacrypt/asiacrypt2009.html#JagerS09",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/JagerK18",
-        "title": "Short Digital Signatures and ID-KEMs via Truncation Collision Resistance.",
-        "pages": "221-250",
-        "year": "2018",
-        "booktitle": "ASIACRYPT (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-03329-3_8",
-        "url": "db/conf/asiacrypt/asiacrypt2018-2.html#JagerK18",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/JagerR10",
-        "title": "The Semi-Generic Group Model and Applications to Pairing-Based Cryptography.",
-        "pages": "539-556",
-        "year": "2010",
-        "booktitle": "ASIACRYPT",
-        "ee": "https://doi.org/10.1007/978-3-642-17373-8_31",
-        "url": "db/conf/asiacrypt/asiacrypt2010.html#JagerR10",
-        "authors": [
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/HofheinzJK11",
-        "title": "Short Signatures from Weaker Assumptions.",
-        "pages": "647-666",
-        "year": "2011",
-        "booktitle": "ASIACRYPT",
-        "ee": "https://www.wikidata.org/entity/Q59163697",
-        "url": "db/conf/asiacrypt/asiacrypt2011.html#HofheinzJK11",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Eike Kiltz"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/JagerKSS10",
-        "title": "Generic Compilers for Authenticated Key Exchange.",
-        "pages": "232-249",
-        "year": "2010",
-        "booktitle": "ASIACRYPT",
-        "ee": "https://doi.org/10.1007/978-3-642-17373-8_14",
-        "url": "db/conf/asiacrypt/asiacrypt2010.html#JagerKSS10",
-        "authors": [
-          "Tibor Jager",
-          "Florian Kohlar",
-          "Sven SchÃ¤ge",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/HofheinzJKSWZ16",
-        "title": "How to Generate and Use Universal Samplers.",
-        "pages": "715-744",
-        "year": "2016",
-        "booktitle": "ASIACRYPT (2)",
-        "ee": "https://doi.org/10.1007/978-3-662-53890-6_24",
-        "url": "db/conf/asiacrypt/asiacrypt2016-2.html#HofheinzJKSWZ16",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Dakshita Khurana",
-          "Amit Sahai",
-          "Brent Waters",
-          "Mark Zhandry"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/DiemertGJL21",
-        "title": "Digital Signatures with Memory-Tight Security in the Multi-challenge Setting.",
-        "pages": "403-433",
-        "year": "2021",
-        "booktitle": "ASIACRYPT (4)",
-        "ee": "https://doi.org/10.1007/978-3-030-92068-5_14",
-        "url": "db/conf/asiacrypt/asiacrypt2021-4.html#DiemertGJL21",
-        "authors": [
-          "Denis Diemert",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/asiacrypt/JagerKP18",
-        "title": "Simple and More Efficient PRFs with Tight Security from LWE and Matrix-DDH.",
-        "pages": "490-518",
-        "year": "2018",
-        "booktitle": "ASIACRYPT (3)",
-        "ee": "https://doi.org/10.1007/978-3-030-03332-3_18",
-        "url": "db/conf/asiacrypt/asiacrypt2018-3.html#JagerKP18",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek",
-          "Jiaxin Pan 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/Cohn-GordonCGJJ19",
-        "title": "Highly Efficient Key Exchange Protocols with Optimal Tightness.",
-        "pages": "767-797",
-        "year": "2019",
-        "booktitle": "CRYPTO (3)",
-        "ee": "https://doi.org/10.1007/978-3-030-26954-8_25",
-        "url": "db/conf/crypto/crypto2019-3.html#Cohn-GordonCGJJ19",
-        "authors": [
-          "Katriel Cohn-Gordon",
-          "Cas Cremers",
-          "Kristian GjÃ¸steen",
-          "HÃ¥kon Jacobsen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/JagerKSS12",
-        "title": "On the Security of TLS-DHE in the Standard Model.",
-        "pages": "273-293",
-        "year": "2012",
-        "booktitle": "CRYPTO",
-        "ee": "https://doi.org/10.1007/978-3-642-32009-5_17",
-        "url": "db/conf/crypto/crypto2012.html#JagerKSS12",
-        "authors": [
-          "Tibor Jager",
-          "Florian Kohlar",
-          "Sven SchÃ¤ge",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/HanJKLPRS21",
-        "title": "Authenticated Key Exchange and Signatures with Tight Security in the Standard Model.",
-        "pages": "670-700",
-        "year": "2021",
-        "booktitle": "CRYPTO (4)",
-        "ee": "https://www.wikidata.org/entity/Q126176071",
-        "url": "db/conf/crypto/crypto2021-4.html#HanJKLPRS21",
-        "authors": [
-          "Shuai Han 0001",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Shengli Liu 0001",
-          "Jiaxin Pan 0001",
-          "Doreen Riepel",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/HeitjohannHJ25",
-        "title": "Rerandomizable Garbling, Revisited.",
-        "pages": "619-651",
-        "year": "2025",
-        "booktitle": "CRYPTO (4)",
-        "ee": "https://doi.org/10.1007/978-3-032-01884-7_20",
-        "url": "db/conf/crypto/crypto2025-4.html#HeitjohannHJ25",
-        "authors": [
-          "Raphael Heitjohann",
-          "Jonas von der Heyden",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/HofheinzJ12",
-        "title": "Tightly Secure Signatures and Public-Key Encryption.",
-        "pages": "590-607",
-        "year": "2012",
-        "booktitle": "CRYPTO",
-        "ee": "https://doi.org/10.1007/978-3-642-32009-5_35",
-        "url": "db/conf/crypto/crypto2012.html#HofheinzJ12",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/GellertGJJ23",
-        "title": "On Optimal Tightness for Key Exchange with Full Forward Secrecy via Key Confirmation.",
-        "pages": "297-329",
-        "year": "2023",
-        "booktitle": "CRYPTO (4)",
-        "ee": "https://doi.org/10.1007/978-3-031-38551-3_10",
-        "url": "db/conf/crypto/crypto2023-4.html#GellertGJJ23",
-        "authors": [
-          "Kai Gellert",
-          "Kristian GjÃ¸steen",
-          "HÃ¥kon Jacobsen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/GjosteenJ18",
-        "title": "Practical and Tightly-Secure Digital Signatures and Authenticated Key Exchange.",
-        "pages": "95-125",
-        "year": "2018",
-        "booktitle": "CRYPTO (2)",
-        "ee": "https://doi.org/10.1007/978-3-319-96881-0_4",
-        "url": "db/conf/crypto/crypto2018-2.html#GjosteenJ18",
-        "authors": [
-          "Kristian GjÃ¸steen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/crypto/DaviesFGHHHJ23",
-        "title": "Security Analysis of the WhatsApp End-to-End Encrypted Backup Protocol.",
-        "pages": "330-361",
-        "year": "2023",
-        "booktitle": "CRYPTO (4)",
-        "ee": "https://doi.org/10.1007/978-3-031-38551-3_11",
-        "url": "db/conf/crypto/crypto2023-4.html#DaviesFGHHHJ23",
-        "authors": [
-          "Gareth T. Davies",
-          "Sebastian H. Faller",
-          "Kai Gellert",
-          "Tobias Handirk",
-          "Julia Hesse",
-          "MÃ¡tÃ© HorvÃ¡th",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ccs/JagerK018",
-        "title": "On the Security of the PKCS#1 v1.5 Signature Scheme.",
-        "pages": "1195-1208",
-        "year": "2018",
-        "booktitle": "CCS",
-        "ee": "https://doi.org/10.1145/3243734.3243798",
-        "url": "db/conf/ccs/ccs2018.html#JagerK018",
-        "authors": [
-          "Tibor Jager",
-          "Saqib A. Kakvi",
-          "Alexander May 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ccs/JagerSS15",
-        "title": "On the Security of TLS 1.3 and QUIC Against Weaknesses in PKCS#1 v1.5 Encryption.",
-        "pages": "1185-1196",
-        "year": "2015",
-        "booktitle": "CCS",
-        "ee": "https://www.wikidata.org/entity/Q130851569",
-        "url": "db/conf/ccs/ccs2015.html#JagerSS15",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ccs/JagerJ11",
-        "title": "How to break XML encryption.",
-        "pages": "413-422",
-        "year": "2011",
-        "booktitle": "CCS",
-        "ee": "https://www.wikidata.org/entity/Q130851560",
-        "url": "db/conf/ccs/ccs2011.html#JagerJ11",
-        "authors": [
-          "Tibor Jager",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ccs/DreesGHJKPRS21",
-        "title": "Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!",
-        "pages": "169-180",
-        "year": "2021",
-        "booktitle": "AISec@CCS",
-        "ee": "https://doi.org/10.1145/3474369.3486868",
-        "url": "db/conf/ccs/aisec2021.html#DreesGHJKPRS21",
-        "authors": [
-          "Jan Peter Drees",
-          "Pritha Gupta",
-          "Eyke HÃ¼llermeier",
-          "Tibor Jager",
-          "Alexander Konze",
-          "Claudia Priesterjahn",
-          "Arunselvan Ramaswamy",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/acns/HaleJLS17",
-        "title": "Simple Security Definitions for and Constructions of 0-RTT Key Exchange.",
-        "pages": "20-38",
-        "year": "2017",
-        "booktitle": "ACNS",
-        "ee": "https://doi.org/10.1007/978-3-319-61204-1_2",
-        "url": "db/conf/acns/acns2017.html#HaleJLS17",
-        "authors": [
-          "Britta Hale",
-          "Tibor Jager",
-          "Sebastian Lauer",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/acns/ChvojkaJK20",
-        "title": "Offline Witness Encryption with Semi-adaptive Security.",
-        "pages": "231-250",
-        "year": "2020",
-        "booktitle": "ACNS (1)",
-        "ee": "https://doi.org/10.1007/978-3-030-57808-4_12",
-        "url": "db/conf/acns/acns2020-1.html#ChvojkaJK20",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager",
-          "Saqib A. Kakvi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/acns/BemmannBDEJ23",
-        "title": "Subversion-Resilient Authenticated Encryption Without Random Oracles.",
-        "pages": "460-483",
-        "year": "2023",
-        "booktitle": "ACNS",
-        "ee": "https://doi.org/10.1007/978-3-031-33491-7_17",
-        "url": "db/conf/acns/acns2023.html#BemmannBDEJ23",
-        "authors": [
-          "Pascal Bemmann",
-          "Sebastian Berndt 0001",
-          "Denis Diemert",
-          "Thomas Eisenbarth 0001",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sacrypt/JagerN19",
-        "title": "On the Real-World Instantiability of Admissible Hash Functions and Efficient Verifiable Random Functions.",
-        "pages": "303-332",
-        "year": "2019",
-        "booktitle": "SAC",
-        "ee": "https://doi.org/10.1007/978-3-030-38471-5_13",
-        "url": "db/conf/sacrypt/sacrypt2019.html#JagerN19",
-        "authors": [
-          "Tibor Jager",
-          "David Niehues"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dud/Jager14",
-        "title": "Die Zukunft der Kryptographie.",
-        "pages": "445-451",
-        "year": "2014",
-        "volume": "38",
-        "journal": "Datenschutz und Datensicherheit",
-        "number": "7",
-        "ee": "https://doi.org/10.1007/s11623-014-0204-8",
-        "url": "db/journals/dud/dud38.html#Jager14",
-        "authors": [
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/GuntherHJL17",
-        "title": "0-RTT Key Exchange with Full Forward Secrecy.",
-        "pages": "223",
-        "year": "2017",
-        "volume": "2017",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2017/223",
-        "url": "db/journals/iacr/iacr2017.html#GuntherHJL17",
-        "authors": [
-          "Felix GÃ¼nther 0001",
-          "Britta Hale",
-          "Tibor Jager",
-          "Sebastian Lauer"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/AviramGJ19",
-        "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT.",
-        "pages": "228",
-        "year": "2019",
-        "volume": "2019",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2019/228",
-        "url": "db/journals/iacr/iacr2019.html#AviramGJ19",
-        "authors": [
-          "Nimrod Aviram",
-          "Kai Gellert",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/Cohn-GordonCGJJ19",
-        "title": "Highly Efficient Key Exchange Protocols with Optimal Tightness - Enabling real-world deployments with theoretically sound parameters.",
-        "pages": "737",
-        "year": "2019",
-        "volume": "2019",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2019/737",
-        "url": "db/journals/iacr/iacr2019.html#Cohn-GordonCGJJ19",
-        "authors": [
-          "Katriel Cohn-Gordon",
-          "Cas Cremers",
-          "Kristian GjÃ¸steen",
-          "HÃ¥kon Jacobsen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKM18",
-        "title": "On the Security of the PKCS#1 v1.5 Signature Scheme.",
-        "pages": "855",
-        "year": "2018",
-        "volume": "2018",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2018/855",
-        "url": "db/journals/iacr/iacr2018.html#JagerKM18",
-        "authors": [
-          "Tibor Jager",
-          "Saqib A. Kakvi",
-          "Alexander May 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BoydDKGJM21",
-        "title": "Symmetric Key Exchange with Full Forward Security and Robust Synchronization.",
-        "pages": "702",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/702",
-        "url": "db/journals/iacr/iacr2021.html#BoydDKGJM21",
-        "authors": [
-          "Colin Boyd",
-          "Gareth T. Davies",
-          "Bor de Kock",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lise Millerjord"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/ChvojkaJK19",
-        "title": "Offline Witness Encryption with Semi-Adaptive Security.",
-        "pages": "1337",
-        "year": "2019",
-        "volume": "2019",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2019/1337",
-        "url": "db/journals/iacr/iacr2019.html#ChvojkaJK19",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager",
-          "Saqib A. Kakvi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerS09",
-        "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model.",
-        "pages": "621",
-        "year": "2009",
-        "volume": "2009",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2009/621",
-        "url": "db/journals/iacr/iacr2009.html#JagerS09",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DiemertGJL21a",
-        "title": "Digital Signatures with Memory-Tight Security in the Multi-Challenge Setting.",
-        "pages": "1220",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/1220",
-        "url": "db/journals/iacr/iacr2021.html#DiemertGJL21a",
-        "authors": [
-          "Denis Diemert",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DiemertJ20",
-        "title": "On the Tight Security of TLS 1.3: Theoretically-Sound Cryptographic Parameters for Real-World Deployments.",
-        "pages": "726",
-        "year": "2020",
-        "volume": "2020",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2020/726",
-        "url": "db/journals/iacr/iacr2020.html#DiemertJ20",
-        "authors": [
-          "Denis Diemert",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DavisDGJ22",
-        "title": "On the Concrete Security of TLS 1.3 PSK Mode.",
-        "pages": "246",
-        "year": "2022",
-        "volume": "2022",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2022/246",
-        "url": "db/journals/iacr/iacr2022.html#DavisDGJ22",
-        "authors": [
-          "Hannah Davis",
-          "Denis Diemert",
-          "Felix GÃ¼nther 0001",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HofheinzJ11",
-        "title": "Waters Signatures with Optimal Security Reduction.",
-        "pages": "703",
-        "year": "2011",
-        "volume": "2011",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2011/703",
-        "url": "db/journals/iacr/iacr2011.html#HofheinzJ11",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BohlHJKS13",
-        "title": "Confined Guessing: New Signatures From Standard Assumptions.",
-        "pages": "171",
-        "year": "2013",
-        "volume": "2013",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2013/171",
-        "url": "db/journals/iacr/iacr2013.html#BohlHJKS13",
-        "authors": [
-          "Florian BÃ¶hl",
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Jessica Koch",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HeuerJKS16",
-        "title": "On the Selective Opening Security of Practical Public-Key Encryption Schemes.",
-        "pages": "342",
-        "year": "2016",
-        "volume": "2016",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2016/342",
-        "url": "db/journals/iacr/iacr2016.html#HeuerJKS16",
-        "authors": [
-          "Felix Heuer",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/ChvojkaJ22",
-        "title": "Simple, Fast, Efficient, and Tightly-Secure Non-Malleable Non-Interactive Timed Commitments.",
-        "pages": "1498",
-        "year": "2022",
-        "volume": "2022",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2022/1498",
-        "url": "db/journals/iacr/iacr2022.html#ChvojkaJ22",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HaralambievJKS10",
-        "title": "Simple and Efficient Public-Key Encryption from Computational Diffie-Hellman in the Standard Model.",
-        "pages": "33",
-        "year": "2010",
-        "volume": "2010",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2010/033",
-        "url": "db/journals/iacr/iacr2010.html#HaralambievJKS10",
-        "authors": [
-          "Kristiyan Haralambiev",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Victor Shoup"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HanJKLPRS21",
-        "title": "Authenticated Key Exchange and Signatures with Tight Security in the Standard Model.",
-        "pages": "863",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/863",
-        "url": "db/journals/iacr/iacr2021.html#HanJKLPRS21",
-        "authors": [
-          "Shuai Han 0001",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Shengli Liu 0001",
-          "Jiaxin Pan 0001",
-          "Doreen Riepel",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerS08",
-        "title": "The Generic Hardness of Subset Membership Problems under the Factoring Assumption.",
-        "pages": "482",
-        "year": "2008",
-        "volume": "2008",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2008/482",
-        "url": "db/journals/iacr/iacr2008.html#JagerS08",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BaderHJKL14",
-        "title": "Tightly-Secure Authenticated Key Exchange.",
-        "pages": "797",
-        "year": "2014",
-        "volume": "2014",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2014/797",
-        "url": "db/journals/iacr/iacr2014.html#BaderHJKL14",
-        "authors": [
-          "Christoph Bader",
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Yong Li 0021"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKRS20",
-        "title": "Tightly-Secure Authenticated Key Exchange, Revisited.",
-        "pages": "1279",
-        "year": "2020",
-        "volume": "2020",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2020/1279",
-        "url": "db/journals/iacr/iacr2020.html#JagerKRS20",
-        "authors": [
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Doreen Riepel",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/ChvojkaJSS20",
-        "title": "Generic Constructions of Incremental and Homomorphic Timed-Release Encryption.",
-        "pages": "739",
-        "year": "2020",
-        "volume": "2020",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2020/739",
-        "url": "db/journals/iacr/iacr2020.html#ChvojkaJSS20",
-        "authors": [
-          "Peter Chvojka",
-          "Tibor Jager",
-          "Daniel Slamanig",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HaleJLS15",
-        "title": "Speeding: On Low-Latency Key Exchange.",
-        "pages": "1214",
-        "year": "2015",
-        "volume": "2015",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2015/1214",
-        "url": "db/journals/iacr/iacr2015.html#HaleJLS15",
-        "authors": [
-          "Britta Hale",
-          "Tibor Jager",
-          "Sebastian Lauer",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HeitjohannHJ25",
-        "title": "Rerandomizable Garbling, Revisited.",
-        "pages": "843",
-        "year": "2025",
-        "volume": "2025",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2025/843",
-        "url": "db/journals/iacr/iacr2025.html#HeitjohannHJ25",
-        "authors": [
-          "Raphael Heitjohann",
-          "Jonas von der Heyden",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HofheinzJ15",
-        "title": "Verifiable Random Functions from Standard Assumptions.",
-        "pages": "1048",
-        "year": "2015",
-        "volume": "2015",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2015/1048",
-        "url": "db/journals/iacr/iacr2015.html#HofheinzJ15",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerK17",
-        "title": "Continuous Collision Resistance and its Applications.",
-        "pages": "61",
-        "year": "2017",
-        "volume": "2017",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2017/061",
-        "url": "db/journals/iacr/iacr2017.html#JagerK17",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HofheinzJ12",
-        "title": "Tightly Secure Signatures and Public-Key Encryption.",
-        "pages": "311",
-        "year": "2012",
-        "volume": "2012",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2012/311",
-        "url": "db/journals/iacr/iacr2012.html#HofheinzJ12",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerSSW17",
-        "title": "Multi-Key Authenticated Encryption with Corruptions: Reductions are Lossy.",
-        "pages": "495",
-        "year": "2017",
-        "volume": "2017",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2017/495",
-        "url": "db/journals/iacr/iacr2017.html#JagerSSW17",
-        "authors": [
-          "Tibor Jager",
-          "Martijn Stam",
-          "Ryan Stanley-Oakes",
-          "Bogdan Warinschi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BergsmaJS15",
-        "title": "One-Round Key Exchange with Strong Security: An Efficient and Generic Construction in the Standard Model.",
-        "pages": "15",
-        "year": "2015",
-        "volume": "2015",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2015/015",
-        "url": "db/journals/iacr/iacr2015.html#BergsmaJS15",
-        "authors": [
-          "Florian Bergsma",
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DallmeierDGHJKN20",
-        "title": "Forward-Secure 0-RTT Goes Live: Implementation and Performance Analysis in QUIC.",
-        "pages": "824",
-        "year": "2020",
-        "volume": "2020",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2020/824",
-        "url": "db/journals/iacr/iacr2020.html#DallmeierDGHJKN20",
-        "authors": [
-          "Fynn Dallmeier",
-          "Jan Peter Drees",
-          "Kai Gellert",
-          "Tobias Handirk",
-          "Tibor Jager",
-          "Jonas Klauke",
-          "Simon Nachtigall",
-          "Timo Renzelmann",
-          "Rudi Wolf"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HofheinzJR16",
-        "title": "Public-Key Encryption with Simulation-Based Selective-Opening Security and Compact Ciphertexts.",
-        "pages": "180",
-        "year": "2016",
-        "volume": "2016",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2016/180",
-        "url": "db/journals/iacr/iacr2016.html#HofheinzJR16",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/GellertJ0N21",
-        "title": "On Fingerprinting Attacks and Length-Hiding Encryption.",
-        "pages": "1027",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/1027",
-        "url": "db/journals/iacr/iacr2021.html#GellertJ0N21",
-        "authors": [
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001",
-          "Tom Neuschulten"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BemmannBDEJ23",
-        "title": "Subversion-Resilient Authenticated Encryption without Random Oracles.",
-        "pages": "764",
-        "year": "2023",
-        "volume": "2023",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2023/764",
-        "url": "db/journals/iacr/iacr2023.html#BemmannBDEJ23",
-        "authors": [
-          "Pascal Bemmann",
-          "Sebastian Berndt 0001",
-          "Denis Diemert",
-          "Thomas Eisenbarth 0001",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/HofheinzJK11",
-        "title": "Short Signatures From Weaker Assumptions.",
-        "pages": "296",
-        "year": "2011",
-        "volume": "2011",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2011/296",
-        "url": "db/journals/iacr/iacr2011.html#HofheinzJK11",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Eike Kiltz"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerN19",
-        "title": "On the Real-World Instantiability of Admissible Hash Functions and Efficient Verifiable Random Functions.",
-        "pages": "1335",
-        "year": "2019",
-        "volume": "2019",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2019/1335",
-        "url": "db/journals/iacr/iacr2019.html#JagerN19",
-        "authors": [
-          "Tibor Jager",
-          "David Niehues"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/GellertGJJ23",
-        "title": "On Optimal Tightness for Key Exchange with Full Forward Secrecy via Key Confirmation.",
-        "pages": "854",
-        "year": "2023",
-        "volume": "2023",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2023/854",
-        "url": "db/journals/iacr/iacr2023.html#GellertGJJ23",
-        "authors": [
-          "Kai Gellert",
-          "Kristian GjÃ¸steen",
-          "HÃ¥kon Jacobsen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/Jager14",
-        "title": "Verifiable Random Functions from Weaker Assumptions.",
-        "pages": "799",
-        "year": "2014",
-        "volume": "2014",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2014/799",
-        "url": "db/journals/iacr/iacr2014.html#Jager14",
-        "authors": [
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/GjosteenJ18",
-        "title": "Practical and Tightly-Secure Digital Signatures and Authenticated Key Exchange.",
-        "pages": "543",
-        "year": "2018",
-        "volume": "2018",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2018/543",
-        "url": "db/journals/iacr/iacr2018.html#GjosteenJ18",
-        "authors": [
-          "Kristian GjÃ¸steen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DerlerJSS18",
-        "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange.",
-        "pages": "199",
-        "year": "2018",
-        "volume": "2018",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2018/199",
-        "url": "db/journals/iacr/iacr2018.html#DerlerJSS18",
-        "authors": [
-          "David Derler",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Daniel Slamanig",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/FleischhackerJS13",
-        "title": "Unconditional Tightness Bounds for Generic Reductions: The Exact Security of Schnorr Signatures, Revisited.",
-        "pages": "418",
-        "year": "2013",
-        "volume": "2013",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2013/418",
-        "url": "db/journals/iacr/iacr2013.html#FleischhackerJS13",
-        "authors": [
-          "Nils Fleischhacker",
-          "Tibor Jager",
-          "Dominique SchrÃ¶der"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DreesGHJKPRS21",
-        "title": "Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!",
-        "pages": "591",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/591",
-        "url": "db/journals/iacr/iacr2021.html#DreesGHJKPRS21",
-        "authors": [
-          "Jan Peter Drees",
-          "Pritha Gupta",
-          "Eyke HÃ¼llermeier",
-          "Tibor Jager",
-          "Alexander Konze",
-          "Claudia Priesterjahn",
-          "Arunselvan Ramaswamy",
-          "Juraj Somorovsky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DaviesFGHHHJ23",
-        "title": "Security Analysis of the WhatsApp End-to-End Encrypted Backup Protocol.",
-        "pages": "843",
-        "year": "2023",
-        "volume": "2023",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2023/843",
-        "url": "db/journals/iacr/iacr2023.html#DaviesFGHHHJ23",
-        "authors": [
-          "Gareth T. Davies",
-          "Sebastian H. Faller",
-          "Kai Gellert",
-          "Tobias Handirk",
-          "Julia Hesse",
-          "MÃ¡tÃ© HorvÃ¡th",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKSS10",
-        "title": "Generic Compilers for Authenticated Key Exchange (Full Version).",
-        "pages": "621",
-        "year": "2010",
-        "volume": "2010",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2010/621",
-        "url": "db/journals/iacr/iacr2010.html#JagerKSS10",
-        "authors": [
-          "Tibor Jager",
-          "Florian Kohlar",
-          "Sven SchÃ¤ge",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BaoJKNNP26",
-        "title": "Beyond 128 Bits: The Concrete Security of EKE.",
-        "pages": "1053",
-        "year": "2026",
-        "volume": "2026",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2026/1053",
-        "url": "db/journals/iacr/iacr2026.html#BaoJKNNP26",
-        "authors": [
-          "Jiawei Bao",
-          "Tibor Jager",
-          "Eike Kiltz",
-          "Aysan Nishaburi",
-          "Samin Nooripoor",
-          "Jiaxin Pan 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKSS11",
-        "title": "A Standard-Model Security Analysis of TLS-DHE.",
-        "pages": "219",
-        "year": "2011",
-        "volume": "2011",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2011/219",
-        "url": "db/journals/iacr/iacr2011.html#JagerKSS11",
-        "authors": [
-          "Tibor Jager",
-          "Florian Kohlar",
-          "Sven SchÃ¤ge",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/DiemertGJL21",
-        "title": "More Efficient Digital Signatures with Tight Multi-User Security.",
-        "pages": "235",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/235",
-        "url": "db/journals/iacr/iacr2021.html#DiemertGJL21",
-        "authors": [
-          "Denis Diemert",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Lin Lyu 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BaderJLS15",
-        "title": "On the Impossibility of Tight Cryptographic Reductions.",
-        "pages": "374",
-        "year": "2015",
-        "volume": "2015",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2015/374",
-        "url": "db/journals/iacr/iacr2015.html#BaderJLS15",
-        "authors": [
-          "Christoph Bader",
-          "Tibor Jager",
-          "Yong Li 0021",
-          "Sven SchÃ¤ge"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKP18",
-        "title": "Simple and More Efficient PRFs with Tight Security from LWE and Matrix-DDH.",
-        "pages": "826",
-        "year": "2018",
-        "volume": "2018",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2018/826",
-        "url": "db/journals/iacr/iacr2018.html#JagerKP18",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek",
-          "Jiaxin Pan 0001"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/AltmannJR08",
-        "title": "On Black-Box Ring Extraction and Integer Factorization.",
-        "pages": "156",
-        "year": "2008",
-        "volume": "2008",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "http://eprint.iacr.org/2008/156",
-        "url": "db/journals/iacr/iacr2008.html#AltmannJR08",
-        "authors": [
-          "Kristina Altmann",
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/JagerKN21",
-        "title": "Efficient Adaptively-Secure IB-KEMs and VRFs via Near-Collision Resistance.",
-        "pages": "160",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/160",
-        "url": "db/journals/iacr/iacr2021.html#JagerKN21",
-        "authors": [
-          "Tibor Jager",
-          "Rafael Kurek",
-          "David Niehues"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iacr/BemmannCJ21",
-        "title": "Subversion-Resilient Public Key Encryption with Practical Watchdogs.",
-        "pages": "230",
-        "year": "2021",
-        "volume": "2021",
-        "journal": "IACR Cryptol. ePrint Arch.",
-        "ee": "https://eprint.iacr.org/2021/230",
-        "url": "db/journals/iacr/iacr2021.html#BemmannCJ21",
-        "authors": [
-          "Pascal Bemmann",
-          "Rongmao Chen",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tsg/HeydenSBAZJD25",
-        "title": "Privacy-Preserving Power Flow Analysis via Secure Multi-Party Computation.",
-        "pages": "344-355",
-        "year": "2025",
-        "volume": "16",
-        "journal": "IEEE Trans. Smart Grid",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TSG.2024.3453491",
-        "url": "db/journals/tsg/tsg16.html#HeydenSBAZJD25",
-        "authors": [
-          "Jonas von der Heyden",
-          "Nils SchlÃ¼ter",
-          "Philipp Binfet",
-          "Martin Asman",
-          "Markus Zdrallek",
-          "Tibor Jager",
-          "Moritz Schulze Darup"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/DerlerGJSS21",
-        "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange.",
-        "pages": "13",
-        "year": "2021",
-        "volume": "34",
-        "journal": "J. Cryptol.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q121295915",
-        "url": "db/journals/joc/joc34.html#DerlerGJSS21",
-        "authors": [
-          "David Derler",
-          "Kai Gellert",
-          "Tibor Jager",
-          "Daniel Slamanig",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/FleischhackerJS19",
-        "title": "On Tight Security Proofs for Schnorr Signatures.",
-        "pages": "566-599",
-        "year": "2019",
-        "volume": "32",
-        "journal": "J. Cryptol.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q113906164",
-        "url": "db/journals/joc/joc32.html#FleischhackerJS19",
-        "authors": [
-          "Nils Fleischhacker",
-          "Tibor Jager",
-          "Dominique SchrÃ¶der"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/BohlHJKS15",
-        "title": "Confined Guessing: New Signatures From Standard Assumptions.",
-        "pages": "176-208",
-        "year": "2015",
-        "volume": "28",
-        "journal": "J. Cryptol.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s00145-014-9183-z",
-        "url": "db/journals/joc/joc28.html#BohlHJKS15",
-        "authors": [
-          "Florian BÃ¶hl",
-          "Dennis Hofheinz",
-          "Tibor Jager",
-          "Jessica Koch",
-          "Christoph Striecks"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/AviramGJ21",
-        "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT.",
-        "pages": "20",
-        "year": "2021",
-        "volume": "34",
-        "journal": "J. Cryptol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00145-021-09385-0",
-        "url": "db/journals/joc/joc34.html#AviramGJ21",
-        "authors": [
-          "Nimrod Aviram",
-          "Kai Gellert",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/DiemertJ21",
-        "title": "On the Tight Security of TLS 1.3: Theoretically Sound Cryptographic Parameters for Real-World Deployments.",
-        "pages": "30",
-        "year": "2021",
-        "volume": "34",
-        "journal": "J. Cryptol.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q114850017",
-        "url": "db/journals/joc/joc34.html#DiemertJ21",
-        "authors": [
-          "Denis Diemert",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/JagerS13",
-        "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model.",
-        "pages": "225-245",
-        "year": "2013",
-        "volume": "26",
-        "journal": "J. Cryptol.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s00145-012-9120-y",
-        "url": "db/journals/joc/joc26.html#JagerS13",
-        "authors": [
-          "Tibor Jager",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/joc/JagerKSS17",
-        "title": "Authenticated Confidential Channel Establishment and the Security of TLS-DHE.",
-        "pages": "1276-1324",
-        "year": "2017",
-        "volume": "30",
-        "journal": "J. Cryptol.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s00145-016-9248-2",
-        "url": "db/journals/joc/joc30.html#JagerKSS17",
-        "authors": [
-          "Tibor Jager",
-          "Florian Kohlar",
-          "Sven SchÃ¤ge",
-          "JÃ¶rg Schwenk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcc/LiuJKW18",
-        "title": "How to build time-lock encryption.",
-        "pages": "2549-2586",
-        "year": "2018",
-        "volume": "86",
-        "journal": "Des. Codes Cryptogr.",
-        "number": "11",
-        "ee": "https://www.wikidata.org/entity/Q121302343",
-        "url": "db/journals/dcc/dcc86.html#LiuJKW18",
-        "authors": [
-          "Jia Liu 0003",
-          "Tibor Jager",
-          "Saqib A. Kakvi",
-          "Bogdan Warinschi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dcc/HofheinzJ16",
-        "title": "Tightly secure signatures and public-key encryption.",
-        "pages": "29-61",
-        "year": "2016",
-        "volume": "80",
-        "journal": "Des. Codes Cryptogr.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q120912515",
-        "url": "db/journals/dcc/dcc80.html#HofheinzJ16",
-        "authors": [
-          "Dennis Hofheinz",
-          "Tibor Jager"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/iet-ifs/HeuerJSK16",
-        "title": "Selective opening security of practical public-key encryption schemes.",
-        "pages": "304-318",
-        "year": "2016",
-        "volume": "10",
-        "journal": "IET Inf. Secur.",
-        "number": "6",
-        "ee": "https://www.wikidata.org/entity/Q60220899",
-        "url": "db/journals/iet-ifs/iet-ifs10.html#HeuerJSK16",
-        "authors": [
-          "Felix Heuer",
-          "Tibor Jager",
-          "Sven SchÃ¤ge",
-          "Eike Kiltz"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/popets/JagerR16",
-        "title": "Black-Box Accumulation: Collecting Incentives in a Privacy-Preserving Way.",
-        "pages": "62-82",
-        "year": "2016",
-        "volume": "2016",
-        "journal": "Proc. Priv. Enhancing Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1515/popets-2016-0016",
-        "url": "db/journals/popets/popets2016.html#JagerR16",
-        "authors": [
-          "Tibor Jager",
-          "Andy Rupp"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2411-14557",
-        "title": "Privacy-Preserving Power Flow Analysis via Secure Multi-Party Computation.",
-        "year": "2024",
-        "volume": "abs/2411.14557",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2411.14557",
-        "url": "db/journals/corr/corr2411.html#abs-2411-14557",
-        "authors": [
-          "Jonas von der Heyden",
-          "Nils SchlÃ¼ter",
-          "Philipp Binfet",
-          "Martin Asman",
-          "Markus Zdrallek",
-          "Tibor Jager",
-          "Moritz Schulze Darup"
-        ]
+        "inproceedings": {
+          "@key": "conf/acns/BemmannBDEJ23",
+          "title": "Subversion-Resilient Authenticated Encryption Without Random Oracles",
+          "booktitle": "ACNS",
+          "year": "2023",
+          "pages": "460-483",
+          "ee": "https://doi.org/10.1007/978-3-031-33491-7_17",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Pascal Bemmann",
+              "@pid": "202/2416"
+            },
+            {
+              "#text": "Sebastian Berndt",
+              "@pid": "154/6431"
+            },
+            {
+              "#text": "Thomas Eisenbarth",
+              "@pid": "72/817"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acns/ChvojkaJK20",
+          "title": "Offline Witness Encryption with Semi-adaptive Security",
+          "booktitle": "ACNS (1)",
+          "year": "2020",
+          "pages": "231-250",
+          "ee": "https://doi.org/10.1007/978-3-030-57808-4_12",
+          "author": [
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Saqib A. Kakvi",
+              "@pid": "54/7251"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acns/HaleJLS17",
+          "title": "Simple Security Definitions for and Constructions of 0-RTT Key Exchange",
+          "booktitle": "ACNS",
+          "year": "2017",
+          "pages": "20-38",
+          "ee": "https://doi.org/10.1007/978-3-319-61204-1_2",
+          "author": [
+            {
+              "#text": "Britta Hale",
+              "@pid": "167/7329"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sebastian Lauer",
+              "@pid": "174/0896"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/BoydDKGJM21",
+          "title": "Symmetric Key Exchange with Full Forward Security and Robust Synchronization",
+          "booktitle": "ASIACRYPT (4)",
+          "year": "2021",
+          "pages": "681-710",
+          "ee": "https://doi.org/10.1007/978-3-030-92068-5_23",
+          "author": [
+            {
+              "#text": "Bor de Kock",
+              "@pid": "275/3369"
+            },
+            {
+              "#text": "Colin Boyd",
+              "@pid": "b/ColinBoyd"
+            },
+            {
+              "#text": "Gareth T. Davies",
+              "@pid": "134/7582"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lise Millerjord",
+              "@pid": "294/0785"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/DiemertGJL21",
+          "title": "Digital Signatures with Memory-Tight Security in the Multi-challenge Setting",
+          "booktitle": "ASIACRYPT (4)",
+          "year": "2021",
+          "pages": "403-433",
+          "ee": "https://doi.org/10.1007/978-3-030-92068-5_14",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/FleischhackerJS14",
+          "title": "On Tight Security Proofs for Schnorr Signatures",
+          "booktitle": "ASIACRYPT (1)",
+          "year": "2014",
+          "pages": "512-531",
+          "ee": "https://doi.org/10.1007/978-3-662-45611-8_27",
+          "author": [
+            {
+              "#text": "Dominique Schröder",
+              "@pid": "52/6199"
+            },
+            {
+              "#text": "Nils Fleischhacker",
+              "@pid": "78/10700"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/HofheinzJK11",
+          "title": "Short Signatures from Weaker Assumptions",
+          "booktitle": "ASIACRYPT",
+          "year": "2011",
+          "pages": "647-666",
+          "ee": "https://doi.org/10.1007/978-3-642-25385-0_35",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/HofheinzJKSWZ16",
+          "title": "How to Generate and Use Universal Samplers",
+          "booktitle": "ASIACRYPT (2)",
+          "year": "2016",
+          "pages": "715-744",
+          "ee": "https://doi.org/10.1007/978-3-662-53890-6_24",
+          "author": [
+            {
+              "#text": "Amit Sahai",
+              "@pid": "s/AmitSahai"
+            },
+            {
+              "#text": "Brent Waters",
+              "@pid": "w/BrentWaters"
+            },
+            {
+              "#text": "Dakshita Khurana",
+              "@pid": "40/10125"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Mark Zhandry",
+              "@pid": "39/10308"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/JagerK18",
+          "title": "Short Digital Signatures and ID-KEMs via Truncation Collision Resistance",
+          "booktitle": "ASIACRYPT (2)",
+          "year": "2018",
+          "pages": "221-250",
+          "ee": "https://doi.org/10.1007/978-3-030-03329-3_8",
+          "author": [
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/JagerKP18",
+          "title": "Simple and More Efficient PRFs with Tight Security from LWE and Matrix-DDH",
+          "booktitle": "ASIACRYPT (3)",
+          "year": "2018",
+          "pages": "490-518",
+          "ee": "https://doi.org/10.1007/978-3-030-03332-3_18",
+          "author": [
+            {
+              "#text": "Jiaxin Pan",
+              "@pid": "02/8828"
+            },
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/JagerKSS10",
+          "title": "Generic Compilers for Authenticated Key Exchange",
+          "booktitle": "ASIACRYPT",
+          "year": "2010",
+          "pages": "232-249",
+          "ee": "https://doi.org/10.1007/978-3-642-17373-8_14",
+          "author": [
+            {
+              "#text": "Florian Kohlar",
+              "@pid": "96/7948"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/JagerR10",
+          "title": "The Semi-Generic Group Model and Applications to Pairing-Based Cryptography",
+          "booktitle": "ASIACRYPT",
+          "year": "2010",
+          "pages": "539-556",
+          "ee": "https://doi.org/10.1007/978-3-642-17373-8_31",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/asiacrypt/JagerS09",
+          "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model",
+          "booktitle": "ASIACRYPT",
+          "year": "2009",
+          "pages": "399-416",
+          "ee": "https://doi.org/10.1007/978-3-642-10366-7_24",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cans/DallmeierDGHJKN20",
+          "title": "Forward-Secure 0-RTT Goes Live: Implementation and Performance Analysis in QUIC",
+          "booktitle": "CANS",
+          "year": "2020",
+          "pages": "211-231",
+          "ee": "https://doi.org/10.1007/978-3-030-65411-5_11",
+          "author": [
+            {
+              "#text": "Fynn Dallmeier",
+              "@pid": "270/7444"
+            },
+            {
+              "#text": "Jan Peter Drees",
+              "@pid": "276/9648"
+            },
+            {
+              "#text": "Jonas Klauke",
+              "@pid": "270/6930"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Rudi Wolf",
+              "@pid": "270/7168"
+            },
+            {
+              "#text": "Simon Nachtigall",
+              "@pid": "270/6915"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Timo Renzelmann",
+              "@pid": "270/7142"
+            },
+            {
+              "#text": "Tobias Handirk",
+              "@pid": "256/9210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cans/HorstGJS16",
+          "title": "Breaking PPTP VPNs via RADIUS Encryption",
+          "booktitle": "CANS",
+          "year": "2016",
+          "pages": "159-175",
+          "ee": "https://doi.org/10.1007/978-3-319-48965-0_10",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Martin Grothe",
+              "@pid": "179/6553"
+            },
+            {
+              "#text": "Matthias Horst",
+              "@pid": "188/4857"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccs/DreesGHJKPRS21",
+          "title": "Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!",
+          "booktitle": "AISec@CCS",
+          "year": "2021",
+          "pages": "169-180",
+          "ee": "https://doi.org/10.1145/3474369.3486868",
+          "author": [
+            {
+              "#text": "Alexander Konze",
+              "@pid": "294/0780"
+            },
+            {
+              "#text": "Arunselvan Ramaswamy",
+              "@pid": "01/8772"
+            },
+            {
+              "#text": "Claudia Priesterjahn",
+              "@pid": "40/7908"
+            },
+            {
+              "#text": "Eyke Hüllermeier",
+              "@pid": "h/EykeHullermeier"
+            },
+            {
+              "#text": "Jan Peter Drees",
+              "@pid": "276/9648"
+            },
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Pritha Gupta",
+              "@pid": "217/3542"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccs/JagerJ11",
+          "title": "How to break XML encryption",
+          "booktitle": "CCS",
+          "year": "2011",
+          "pages": "413-422",
+          "ee": "https://doi.org/10.1145/2046707.2046756",
+          "author": [
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccs/JagerK018",
+          "title": "On the Security of the PKCS#1 v1.5 Signature Scheme",
+          "booktitle": "CCS",
+          "year": "2018",
+          "pages": "1195-1208",
+          "ee": "https://doi.org/10.1145/3243734.3243798",
+          "author": [
+            {
+              "#text": "Alexander May",
+              "@pid": "62/1898"
+            },
+            {
+              "#text": "Saqib A. Kakvi",
+              "@pid": "54/7251"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccs/JagerSS15",
+          "title": "On the Security of TLS 1.3 and QUIC Against Weaknesses in PKCS#1 v1.5 Encryption",
+          "booktitle": "CCS",
+          "year": "2015",
+          "pages": "1185-1196",
+          "ee": "https://doi.org/10.1145/2810103.2813657",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/DarupJ19",
+          "title": "Encrypted Cloud-based Control using Secret Sharing with One-time Pads",
+          "booktitle": "CDC",
+          "year": "2019",
+          "pages": "7215-7221",
+          "ee": "https://doi.org/10.1109/CDC40024.2019.9029342",
+          "author": [
+            {
+              "#text": "Moritz Schulze Darup",
+              "@pid": "75/11046"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/Cohn-GordonCGJJ19",
+          "title": "Highly Efficient Key Exchange Protocols with Optimal Tightness",
+          "booktitle": "CRYPTO (3)",
+          "year": "2019",
+          "pages": "767-797",
+          "ee": "https://doi.org/10.1007/978-3-030-26954-8_25",
+          "author": [
+            {
+              "#text": "Cas Cremers",
+              "@pid": "17/2282"
+            },
+            {
+              "#text": "Håkon Jacobsen",
+              "@pid": "146/7930"
+            },
+            {
+              "#text": "Katriel Cohn-Gordon",
+              "@pid": "177/2254"
+            },
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/DaviesFGHHHJ23",
+          "title": "Security Analysis of the WhatsApp End-to-End Encrypted Backup Protocol",
+          "booktitle": "CRYPTO (4)",
+          "year": "2023",
+          "pages": "330-361",
+          "ee": "https://doi.org/10.1007/978-3-031-38551-3_11",
+          "author": [
+            {
+              "#text": "Gareth T. Davies",
+              "@pid": "134/7582"
+            },
+            {
+              "#text": "Julia Hesse",
+              "@pid": "146/7916"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Máté Horváth",
+              "@pid": "156/9112"
+            },
+            {
+              "#text": "Sebastian H. Faller",
+              "@pid": "303/4711"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Tobias Handirk",
+              "@pid": "256/9210"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/GellertGJJ23",
+          "title": "On Optimal Tightness for Key Exchange with Full Forward Secrecy via Key Confirmation",
+          "booktitle": "CRYPTO (4)",
+          "year": "2023",
+          "pages": "297-329",
+          "ee": "https://doi.org/10.1007/978-3-031-38551-3_10",
+          "author": [
+            {
+              "#text": "Håkon Jacobsen",
+              "@pid": "146/7930"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/GjosteenJ18",
+          "title": "Practical and Tightly-Secure Digital Signatures and Authenticated Key Exchange",
+          "booktitle": "CRYPTO (2)",
+          "year": "2018",
+          "pages": "95-125",
+          "ee": "https://doi.org/10.1007/978-3-319-96881-0_4",
+          "author": [
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/HanJKLPRS21",
+          "title": "Authenticated Key Exchange and Signatures with Tight Security in the Standard Model",
+          "booktitle": "CRYPTO (4)",
+          "year": "2021",
+          "pages": "670-700",
+          "ee": "https://doi.org/10.1007/978-3-030-84259-8_23",
+          "author": [
+            {
+              "#text": "Doreen Riepel",
+              "@pid": "277/3602"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Jiaxin Pan",
+              "@pid": "02/8828"
+            },
+            {
+              "#text": "Shengli Liu",
+              "@pid": "22/2080-1"
+            },
+            {
+              "#text": "Shuai Han",
+              "@pid": "59/9242-1"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/HeitjohannHJ25",
+          "title": "Rerandomizable Garbling, Revisited",
+          "booktitle": "CRYPTO (4)",
+          "year": "2025",
+          "pages": "619-651",
+          "ee": "https://doi.org/10.1007/978-3-032-01884-7_20",
+          "author": [
+            {
+              "#text": "Jonas von der Heyden",
+              "@pid": "300/1936"
+            },
+            {
+              "#text": "Raphael Heitjohann",
+              "@pid": "298/9094"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/HofheinzJ12",
+          "title": "Tightly Secure Signatures and Public-Key Encryption",
+          "booktitle": "CRYPTO",
+          "year": "2012",
+          "pages": "590-607",
+          "ee": "https://doi.org/10.1007/978-3-642-32009-5_35",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/crypto/JagerKSS12",
+          "title": "On the Security of TLS-DHE in the Standard Model",
+          "booktitle": "CRYPTO",
+          "year": "2012",
+          "pages": "273-293",
+          "ee": "https://doi.org/10.1007/978-3-642-32009-5_17",
+          "author": [
+            {
+              "#text": "Florian Kohlar",
+              "@pid": "96/7948"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ctrsa/GellertJLN22",
+          "title": "On Fingerprinting Attacks and Length-Hiding Encryption",
+          "booktitle": "CT-RSA",
+          "year": "2022",
+          "pages": "345-369",
+          "ee": "https://doi.org/10.1007/978-3-030-95312-6_15",
+          "author": [
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Tom Neuschulten",
+              "@pid": "300/9926"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esorics/ChvojkaJSS21",
+          "title": "Versatile and Sustainable Timed-Release Encryption and Sequential Time-Lock Puzzles (Extended Abstract)",
+          "booktitle": "ESORICS (2)",
+          "year": "2021",
+          "pages": "64-85",
+          "ee": "https://doi.org/10.1007/978-3-030-88428-4_4",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Daniel Slamanig",
+              "@pid": "72/5883"
+            },
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esorics/GajekJMS08",
+          "title": "A Browser-Based Kerberos Authentication Scheme",
+          "booktitle": "ESORICS",
+          "year": "2008",
+          "pages": "115-129",
+          "ee": "https://doi.org/10.1007/978-3-540-88313-5_8",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Mark Manulis",
+              "@pid": "62/484"
+            },
+            {
+              "#text": "Sebastian Gajek",
+              "@pid": "04/3293"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esorics/JagerSS12",
+          "title": "Bleichenbacher's Attack Strikes again: Breaking PKCS#1 v1.5 in XML Encryption",
+          "booktitle": "ESORICS",
+          "year": "2012",
+          "pages": "752-769",
+          "ee": "https://doi.org/10.1007/978-3-642-33167-1_43",
+          "author": [
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Sebastian Schinzel",
+              "@pid": "43/11495"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/esorics/JagerSS15",
+          "title": "Practical Invalid Curve Attacks on TLS-ECDH",
+          "booktitle": "ESORICS (1)",
+          "year": "2015",
+          "pages": "407-425",
+          "ee": "https://doi.org/10.1007/978-3-319-24174-6_21",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/0001HJL17",
+          "title": "0-RTT Key Exchange with Full Forward Secrecy",
+          "booktitle": "EUROCRYPT (3)",
+          "year": "2017",
+          "pages": "519-548",
+          "ee": "https://doi.org/10.1007/978-3-319-56617-7_18",
+          "author": [
+            {
+              "#text": "Britta Hale",
+              "@pid": "167/7329"
+            },
+            {
+              "#text": "Felix Günther",
+              "@pid": "34/10042"
+            },
+            {
+              "#text": "Sebastian Lauer",
+              "@pid": "174/0896"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/AviramGJ19",
+          "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT",
+          "booktitle": "EUROCRYPT (2)",
+          "year": "2019",
+          "pages": "117-150",
+          "ee": "https://doi.org/10.1007/978-3-030-17656-3_5",
+          "author": [
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Nimrod Aviram",
+              "@pid": "18/1188"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/BaderJLS16",
+          "title": "On the Impossibility of Tight Cryptographic Reductions",
+          "booktitle": "EUROCRYPT (2)",
+          "year": "2016",
+          "pages": "273-304",
+          "ee": "https://doi.org/10.1007/978-3-662-49896-5_10",
+          "author": [
+            {
+              "#text": "Christoph Bader",
+              "@pid": "146/4578"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Yong Li",
+              "@pid": "93/2334-21"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/BohlHJKSS13",
+          "title": "Practical Signatures from Standard Assumptions",
+          "booktitle": "EUROCRYPT",
+          "year": "2013",
+          "pages": "461-485",
+          "ee": "https://doi.org/10.1007/978-3-642-38348-9_28",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Florian Böhl",
+              "@pid": "63/10733"
+            },
+            {
+              "#text": "Jae Hong Seo",
+              "@pid": "38/6152"
+            },
+            {
+              "#text": "Jessica Koch",
+              "@pid": "128/5291"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/DavisDGJ22",
+          "title": "On the Concrete Security of TLS 1.3 PSK Mode",
+          "booktitle": "EUROCRYPT (2)",
+          "year": "2022",
+          "pages": "876-906",
+          "ee": "https://doi.org/10.1007/978-3-031-07085-3_30",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Felix Günther",
+              "@pid": "34/10042"
+            },
+            {
+              "#text": "Hannah Davis",
+              "@pid": "143/7116"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/DerlerJSS18",
+          "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange",
+          "booktitle": "EUROCRYPT (3)",
+          "year": "2018",
+          "pages": "425-455",
+          "ee": "https://doi.org/10.1007/978-3-319-78372-7_14",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Daniel Slamanig",
+              "@pid": "72/5883"
+            },
+            {
+              "#text": "David Derler",
+              "@pid": "117/1764"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurocrypt/JagerKRS21",
+          "title": "Tightly-Secure Authenticated Key Exchange, Revisited",
+          "booktitle": "EUROCRYPT (1)",
+          "year": "2021",
+          "pages": "117-146",
+          "ee": "https://doi.org/10.1007/978-3-030-77870-5_5",
+          "author": [
+            {
+              "#text": "Doreen Riepel",
+              "@pid": "277/3602"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icaart/GuptaRDHPJ22",
+          "title": "Automated Information Leakage Detection: A New Method Combining Machine Learning and Hypothesis Testing with an Application to Side-channel Detection in Cryptographic Protocols",
+          "booktitle": "ICAART (2)",
+          "year": "2022",
+          "pages": "152-163",
+          "ee": "https://doi.org/10.5220/0010793000003116",
+          "author": [
+            {
+              "#text": "Arunselvan Ramaswamy",
+              "@pid": "01/8772"
+            },
+            {
+              "#text": "Claudia Priesterjahn",
+              "@pid": "40/7908"
+            },
+            {
+              "#text": "Eyke Hüllermeier",
+              "@pid": "h/EykeHullermeier"
+            },
+            {
+              "#text": "Jan Peter Drees",
+              "@pid": "276/9648"
+            },
+            {
+              "#text": "Pritha Gupta",
+              "@pid": "217/3542"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icalp/AltmannJR08",
+          "title": "On Black-Box Ring Extraction and Integer Factorization",
+          "booktitle": "ICALP (2)",
+          "year": "2008",
+          "pages": "437-448",
+          "ee": "https://doi.org/10.1007/978-3-540-70583-3_36",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Kristina Altmann",
+              "@pid": "32/561"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ndss/JagerPS13",
+          "title": "One Bad Apple: Backwards Compatibility Attacks on State-of-the-Art Cryptography",
+          "booktitle": "NDSS",
+          "year": "2013",
+          "author": [
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Kenneth G. Paterson",
+              "@pid": "39/780"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/BemmannCJ21",
+          "title": "Subversion-Resilient Public Key Encryption with Practical Watchdogs",
+          "booktitle": "Public Key Cryptography (1)",
+          "year": "2021",
+          "pages": "627-658",
+          "ee": "https://doi.org/10.1007/978-3-030-75245-3_23",
+          "author": [
+            {
+              "#text": "Pascal Bemmann",
+              "@pid": "202/2416"
+            },
+            {
+              "#text": "Rongmao Chen",
+              "@pid": "164/2718"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/BergsmaJS15",
+          "title": "One-Round Key Exchange with Strong Security: An Efficient and Generic Construction in the Standard Model",
+          "booktitle": "Public Key Cryptography",
+          "year": "2015",
+          "pages": "477-494",
+          "ee": "https://doi.org/10.1007/978-3-662-46447-2_21",
+          "author": [
+            {
+              "#text": "Florian Bergsma",
+              "@pid": "153/5739"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/ChvojkaJ23",
+          "title": "Simple, Fast, Efficient, and Tightly-Secure Non-malleable Non-interactive Timed Commitments",
+          "booktitle": "Public Key Cryptography (1)",
+          "year": "2023",
+          "pages": "500-529",
+          "ee": "https://doi.org/10.1007/978-3-031-31368-4_18",
+          "author": [
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/DiemertGJL21",
+          "title": "More Efficient Digital Signatures with Tight Multi-user Security",
+          "booktitle": "Public Key Cryptography (2)",
+          "year": "2021",
+          "pages": "1-31",
+          "ee": "https://doi.org/10.1007/978-3-030-75248-4_1",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/HaralambievJKS10",
+          "title": "Simple and Efficient Public-Key Encryption from Computational Diffie-Hellman in the Standard Model",
+          "booktitle": "Public Key Cryptography",
+          "year": "2010",
+          "pages": "1-18",
+          "ee": "https://doi.org/10.1007/978-3-642-13013-7_1",
+          "author": [
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Kristiyan Haralambiev",
+              "@pid": "75/8178"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Victor Shoup",
+              "@pid": "s/VShoup"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/HeuerJKS15",
+          "title": "On the Selective Opening Security of Practical Public-Key Encryption Schemes",
+          "booktitle": "Public Key Cryptography",
+          "year": "2015",
+          "pages": "27-51",
+          "ee": "https://doi.org/10.1007/978-3-662-46447-2_2",
+          "author": [
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Felix Heuer",
+              "@pid": "160/1568"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/HofheinzJK12",
+          "title": "Waters Signatures with Optimal Security Reduction",
+          "booktitle": "Public Key Cryptography",
+          "year": "2012",
+          "pages": "66-83",
+          "ee": "https://doi.org/10.1007/978-3-642-30057-8_5",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Edward Knapp",
+              "@pid": "68/8638"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkc/JagerKN21",
+          "title": "Efficient Adaptively-Secure IB-KEMs and VRFs via Near-Collision Resistance",
+          "booktitle": "Public Key Cryptography (1)",
+          "year": "2021",
+          "pages": "596-626",
+          "ee": "https://doi.org/10.1007/978-3-030-75245-3_22",
+          "author": [
+            {
+              "#text": "David Niehues",
+              "@pid": "256/2963"
+            },
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/provsec/JagerS08",
+          "title": "On the Equivalence of Generic Group Models",
+          "booktitle": "ProvSec",
+          "year": "2008",
+          "pages": "200-209",
+          "ee": "https://doi.org/10.1007/978-3-540-88733-1_14",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sacrypt/JagerN19",
+          "title": "On the Real-World Instantiability of Admissible Hash Functions and Efficient Verifiable Random Functions",
+          "booktitle": "SAC",
+          "year": "2020",
+          "pages": "303-332",
+          "ee": "https://doi.org/10.1007/978-3-030-38471-5_13",
+          "author": [
+            {
+              "#text": "David Niehues",
+              "@pid": "256/2963"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sicherheit/JagerJS08",
+          "title": "Nutzung von selbstsignierten Client-Zertifikaten zur Authentifikation bei SSL/TLS",
+          "booktitle": "Sicherheit",
+          "year": "2008",
+          "pages": "127-136",
+          "author": [
+            {
+              "#text": "Heiko Jäkel",
+              "@pid": "67/4199"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tcc/BaderHJKL15",
+          "title": "Tightly-Secure Authenticated Key Exchange",
+          "booktitle": "TCC (1)",
+          "year": "2015",
+          "pages": "629-658",
+          "ee": "https://doi.org/10.1007/978-3-662-46494-6_26",
+          "author": [
+            {
+              "#text": "Christoph Bader",
+              "@pid": "146/4578"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Yong Li",
+              "@pid": "93/2334-21"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tcc/HofheinzJ16",
+          "title": "Verifiable Random Functions from Standard Assumptions",
+          "booktitle": "TCC (A1)",
+          "year": "2016",
+          "pages": "336-362",
+          "ee": "https://doi.org/10.1007/978-3-662-49096-9_14",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tcc/HofheinzJR16",
+          "title": "Public-Key Encryption with Simulation-Based Selective-Opening Security and Compact Ciphertexts",
+          "booktitle": "TCC (B2)",
+          "year": "2016",
+          "pages": "146-168",
+          "ee": "https://doi.org/10.1007/978-3-662-53644-5_6",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tcc/Jager15",
+          "title": "Verifiable Random Functions from Weaker Assumptions",
+          "booktitle": "TCC (2)",
+          "year": "2015",
+          "pages": "121-143",
+          "ee": "https://doi.org/10.1007/978-3-662-46497-7_5",
+          "author": {
+            "#text": "Tibor Jager",
+            "@pid": "53/1548"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tcc/JagerSSW17",
+          "title": "Multi-key Authenticated Encryption with Corruptions: Reductions Are Lossy",
+          "booktitle": "TCC (1)",
+          "year": "2017",
+          "pages": "409-441",
+          "ee": "https://doi.org/10.1007/978-3-319-70500-2_14",
+          "author": [
+            {
+              "#text": "Bogdan Warinschi",
+              "@pid": "09/6076"
+            },
+            {
+              "#text": "Martijn Stam",
+              "@pid": "82/4585"
+            },
+            {
+              "#text": "Ryan Stanley-Oakes",
+              "@pid": "179/6838"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2411-14557",
+          "title": "Privacy-Preserving Power Flow Analysis via Secure Multi-Party Computation",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2411.14557",
+          "author": [
+            {
+              "#text": "Jonas von der Heyden",
+              "@pid": "300/1936"
+            },
+            {
+              "#text": "Markus Zdrallek",
+              "@pid": "134/4852"
+            },
+            {
+              "#text": "Martin Asman",
+              "@pid": "364/2736"
+            },
+            {
+              "#text": "Moritz Schulze Darup",
+              "@pid": "75/11046"
+            },
+            {
+              "#text": "Nils Schlüter",
+              "@pid": "283/2844"
+            },
+            {
+              "#text": "Philipp Binfet",
+              "@pid": "308/6025"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcc/HofheinzJ16",
+          "title": "Tightly secure signatures and public-key encryption",
+          "journal": "Des. Codes Cryptogr.",
+          "year": "2016",
+          "pages": "29-61",
+          "ee": "https://doi.org/10.1007/S10623-015-0062-X",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dcc/LiuJKW18",
+          "title": "How to build time-lock encryption",
+          "journal": "Des. Codes Cryptogr.",
+          "year": "2018",
+          "pages": "2549-2586",
+          "ee": "https://doi.org/10.1007/S10623-018-0461-X",
+          "author": [
+            {
+              "#text": "Bogdan Warinschi",
+              "@pid": "09/6076"
+            },
+            {
+              "#text": "Jia Liu",
+              "@pid": "49/1245-3"
+            },
+            {
+              "#text": "Saqib A. Kakvi",
+              "@pid": "54/7251"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dud/Jager14",
+          "title": "Die Zukunft der Kryptographie",
+          "journal": "Datenschutz und Datensicherheit",
+          "year": "2014",
+          "pages": "445-451",
+          "ee": "https://doi.org/10.1007/S11623-014-0204-8",
+          "author": {
+            "#text": "Tibor Jager",
+            "@pid": "53/1548"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/AltmannJR08",
+          "title": "On Black-Box Ring Extraction and Integer Factorization",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2008",
+          "pages": "156",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Kristina Altmann",
+              "@pid": "32/561"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/AviramGJ19",
+          "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2019",
+          "pages": "228",
+          "author": [
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Nimrod Aviram",
+              "@pid": "18/1188"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BaderHJKL14",
+          "title": "Tightly-Secure Authenticated Key Exchange",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2014",
+          "pages": "797",
+          "author": [
+            {
+              "#text": "Christoph Bader",
+              "@pid": "146/4578"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Yong Li",
+              "@pid": "93/2334-21"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BaderJLS15",
+          "title": "On the Impossibility of Tight Cryptographic Reductions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2015",
+          "pages": "374",
+          "author": [
+            {
+              "#text": "Christoph Bader",
+              "@pid": "146/4578"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Yong Li",
+              "@pid": "93/2334-21"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BaoJKNNP26",
+          "title": "Beyond 128 Bits: The Concrete Security of EKE",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2026",
+          "pages": "1053",
+          "author": [
+            {
+              "#text": "Aysan Nishaburi",
+              "@pid": "418/5469"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Jiawei Bao",
+              "@pid": "356/1366"
+            },
+            {
+              "#text": "Jiaxin Pan",
+              "@pid": "02/8828"
+            },
+            {
+              "#text": "Samin Nooripoor",
+              "@pid": "436/6269"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BemmannBDEJ23",
+          "title": "Subversion-Resilient Authenticated Encryption without Random Oracles",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2023",
+          "pages": "764",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Pascal Bemmann",
+              "@pid": "202/2416"
+            },
+            {
+              "#text": "Sebastian Berndt",
+              "@pid": "154/6431"
+            },
+            {
+              "#text": "Thomas Eisenbarth",
+              "@pid": "72/817"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BemmannCJ21",
+          "title": "Subversion-Resilient Public Key Encryption with Practical Watchdogs",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "230",
+          "author": [
+            {
+              "#text": "Pascal Bemmann",
+              "@pid": "202/2416"
+            },
+            {
+              "#text": "Rongmao Chen",
+              "@pid": "164/2718"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BergsmaJS15",
+          "title": "One-Round Key Exchange with Strong Security: An Efficient and Generic Construction in the Standard Model",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2015",
+          "pages": "15",
+          "author": [
+            {
+              "#text": "Florian Bergsma",
+              "@pid": "153/5739"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BohlHJKS13",
+          "title": "Confined Guessing: New Signatures From Standard Assumptions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2013",
+          "pages": "171",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Florian Böhl",
+              "@pid": "63/10733"
+            },
+            {
+              "#text": "Jessica Koch",
+              "@pid": "128/5291"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/BoydDKGJM21",
+          "title": "Symmetric Key Exchange with Full Forward Security and Robust Synchronization",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "702",
+          "author": [
+            {
+              "#text": "Bor de Kock",
+              "@pid": "275/3369"
+            },
+            {
+              "#text": "Colin Boyd",
+              "@pid": "b/ColinBoyd"
+            },
+            {
+              "#text": "Gareth T. Davies",
+              "@pid": "134/7582"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lise Millerjord",
+              "@pid": "294/0785"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/ChvojkaJ22",
+          "title": "Simple, Fast, Efficient, and Tightly-Secure Non-Malleable Non-Interactive Timed Commitments",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2022",
+          "pages": "1498",
+          "author": [
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/ChvojkaJK19",
+          "title": "Offline Witness Encryption with Semi-Adaptive Security",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2019",
+          "pages": "1337",
+          "author": [
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Saqib A. Kakvi",
+              "@pid": "54/7251"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/ChvojkaJSS20",
+          "title": "Generic Constructions of Incremental and Homomorphic Timed-Release Encryption",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2020",
+          "pages": "739",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Daniel Slamanig",
+              "@pid": "72/5883"
+            },
+            {
+              "#text": "Peter Chvojka",
+              "@pid": "256/9281"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/Cohn-GordonCGJJ19",
+          "title": "Highly Efficient Key Exchange Protocols with Optimal Tightness - Enabling real-world deployments with theoretically sound parameters",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2019",
+          "pages": "737",
+          "author": [
+            {
+              "#text": "Cas Cremers",
+              "@pid": "17/2282"
+            },
+            {
+              "#text": "Håkon Jacobsen",
+              "@pid": "146/7930"
+            },
+            {
+              "#text": "Katriel Cohn-Gordon",
+              "@pid": "177/2254"
+            },
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DallmeierDGHJKN20",
+          "title": "Forward-Secure 0-RTT Goes Live: Implementation and Performance Analysis in QUIC",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2020",
+          "pages": "824",
+          "author": [
+            {
+              "#text": "Fynn Dallmeier",
+              "@pid": "270/7444"
+            },
+            {
+              "#text": "Jan Peter Drees",
+              "@pid": "276/9648"
+            },
+            {
+              "#text": "Jonas Klauke",
+              "@pid": "270/6930"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Rudi Wolf",
+              "@pid": "270/7168"
+            },
+            {
+              "#text": "Simon Nachtigall",
+              "@pid": "270/6915"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Timo Renzelmann",
+              "@pid": "270/7142"
+            },
+            {
+              "#text": "Tobias Handirk",
+              "@pid": "256/9210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DaviesFGHHHJ23",
+          "title": "Security Analysis of the WhatsApp End-to-End Encrypted Backup Protocol",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2023",
+          "pages": "843",
+          "author": [
+            {
+              "#text": "Gareth T. Davies",
+              "@pid": "134/7582"
+            },
+            {
+              "#text": "Julia Hesse",
+              "@pid": "146/7916"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Máté Horváth",
+              "@pid": "156/9112"
+            },
+            {
+              "#text": "Sebastian H. Faller",
+              "@pid": "303/4711"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Tobias Handirk",
+              "@pid": "256/9210"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DavisDGJ22",
+          "title": "On the Concrete Security of TLS 1.3 PSK Mode",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2022",
+          "pages": "246",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Felix Günther",
+              "@pid": "34/10042"
+            },
+            {
+              "#text": "Hannah Davis",
+              "@pid": "143/7116"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DerlerJSS18",
+          "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2018",
+          "pages": "199",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Daniel Slamanig",
+              "@pid": "72/5883"
+            },
+            {
+              "#text": "David Derler",
+              "@pid": "117/1764"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DiemertGJL21",
+          "title": "More Efficient Digital Signatures with Tight Multi-User Security",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "235",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DiemertGJL21a",
+          "title": "Digital Signatures with Memory-Tight Security in the Multi-Challenge Setting",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "1220",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DiemertJ20",
+          "title": "On the Tight Security of TLS 1.3: Theoretically-Sound Cryptographic Parameters for Real-World Deployments",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2020",
+          "pages": "726",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/DreesGHJKPRS21",
+          "title": "Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "591",
+          "author": [
+            {
+              "#text": "Alexander Konze",
+              "@pid": "294/0780"
+            },
+            {
+              "#text": "Arunselvan Ramaswamy",
+              "@pid": "01/8772"
+            },
+            {
+              "#text": "Claudia Priesterjahn",
+              "@pid": "40/7908"
+            },
+            {
+              "#text": "Eyke Hüllermeier",
+              "@pid": "h/EykeHullermeier"
+            },
+            {
+              "#text": "Jan Peter Drees",
+              "@pid": "276/9648"
+            },
+            {
+              "#text": "Juraj Somorovsky",
+              "@pid": "27/8331"
+            },
+            {
+              "#text": "Pritha Gupta",
+              "@pid": "217/3542"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/FleischhackerJS13",
+          "title": "Unconditional Tightness Bounds for Generic Reductions: The Exact Security of Schnorr Signatures, Revisited",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2013",
+          "pages": "418",
+          "author": [
+            {
+              "#text": "Dominique Schröder",
+              "@pid": "52/6199"
+            },
+            {
+              "#text": "Nils Fleischhacker",
+              "@pid": "78/10700"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/GellertGJJ23",
+          "title": "On Optimal Tightness for Key Exchange with Full Forward Secrecy via Key Confirmation",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2023",
+          "pages": "854",
+          "author": [
+            {
+              "#text": "Håkon Jacobsen",
+              "@pid": "146/7930"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/GellertJ0N21",
+          "title": "On Fingerprinting Attacks and Length-Hiding Encryption",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "1027",
+          "author": [
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Lin Lyu",
+              "@pid": "187/5546-1"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Tom Neuschulten",
+              "@pid": "300/9926"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/GjosteenJ18",
+          "title": "Practical and Tightly-Secure Digital Signatures and Authenticated Key Exchange",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2018",
+          "pages": "543",
+          "author": [
+            {
+              "#text": "Kristian Gjøsteen",
+              "@pid": "90/4628"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/GuntherHJL17",
+          "title": "0-RTT Key Exchange with Full Forward Secrecy",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2017",
+          "pages": "223",
+          "author": [
+            {
+              "#text": "Britta Hale",
+              "@pid": "167/7329"
+            },
+            {
+              "#text": "Felix Günther",
+              "@pid": "34/10042"
+            },
+            {
+              "#text": "Sebastian Lauer",
+              "@pid": "174/0896"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HaleJLS15",
+          "title": "Speeding: On Low-Latency Key Exchange",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2015",
+          "pages": "1214",
+          "author": [
+            {
+              "#text": "Britta Hale",
+              "@pid": "167/7329"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sebastian Lauer",
+              "@pid": "174/0896"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HanJKLPRS21",
+          "title": "Authenticated Key Exchange and Signatures with Tight Security in the Standard Model",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "863",
+          "author": [
+            {
+              "#text": "Doreen Riepel",
+              "@pid": "277/3602"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Jiaxin Pan",
+              "@pid": "02/8828"
+            },
+            {
+              "#text": "Shengli Liu",
+              "@pid": "22/2080-1"
+            },
+            {
+              "#text": "Shuai Han",
+              "@pid": "59/9242-1"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HaralambievJKS10",
+          "title": "Simple and Efficient Public-Key Encryption from Computational Diffie-Hellman in the Standard Model",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2010",
+          "pages": "33",
+          "author": [
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Kristiyan Haralambiev",
+              "@pid": "75/8178"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            },
+            {
+              "#text": "Victor Shoup",
+              "@pid": "s/VShoup"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HeitjohannHJ25",
+          "title": "Rerandomizable Garbling, Revisited",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2025",
+          "pages": "843",
+          "author": [
+            {
+              "#text": "Jonas von der Heyden",
+              "@pid": "300/1936"
+            },
+            {
+              "#text": "Raphael Heitjohann",
+              "@pid": "298/9094"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HeuerJKS16",
+          "title": "On the Selective Opening Security of Practical Public-Key Encryption Schemes",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2016",
+          "pages": "342",
+          "author": [
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Felix Heuer",
+              "@pid": "160/1568"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HofheinzJ11",
+          "title": "Waters Signatures with Optimal Security Reduction",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2011",
+          "pages": "703",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HofheinzJ12",
+          "title": "Tightly Secure Signatures and Public-Key Encryption",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2012",
+          "pages": "311",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HofheinzJ15",
+          "title": "Verifiable Random Functions from Standard Assumptions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2015",
+          "pages": "1048",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HofheinzJK11",
+          "title": "Short Signatures From Weaker Assumptions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2011",
+          "pages": "296",
+          "author": [
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HofheinzJR16",
+          "title": "Public-Key Encryption with Simulation-Based Selective-Opening Security and Compact Ciphertexts",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2016",
+          "pages": "180",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/Jager14",
+          "title": "Verifiable Random Functions from Weaker Assumptions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2014",
+          "pages": "799",
+          "author": {
+            "#text": "Tibor Jager",
+            "@pid": "53/1548"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerK17",
+          "title": "Continuous Collision Resistance and its Applications",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2017",
+          "pages": "61",
+          "author": [
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKM18",
+          "title": "On the Security of the PKCS#1 v1.5 Signature Scheme",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2018",
+          "pages": "855",
+          "author": [
+            {
+              "#text": "Alexander May",
+              "@pid": "62/1898"
+            },
+            {
+              "#text": "Saqib A. Kakvi",
+              "@pid": "54/7251"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKN21",
+          "title": "Efficient Adaptively-Secure IB-KEMs and VRFs via Near-Collision Resistance",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2021",
+          "pages": "160",
+          "author": [
+            {
+              "#text": "David Niehues",
+              "@pid": "256/2963"
+            },
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKP18",
+          "title": "Simple and More Efficient PRFs with Tight Security from LWE and Matrix-DDH",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2018",
+          "pages": "826",
+          "author": [
+            {
+              "#text": "Jiaxin Pan",
+              "@pid": "02/8828"
+            },
+            {
+              "#text": "Rafael Kurek",
+              "@pid": "195/3327"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKRS20",
+          "title": "Tightly-Secure Authenticated Key Exchange, Revisited",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2020",
+          "pages": "1279",
+          "author": [
+            {
+              "#text": "Doreen Riepel",
+              "@pid": "277/3602"
+            },
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKSS10",
+          "title": "Generic Compilers for Authenticated Key Exchange (Full Version)",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2010",
+          "pages": "621",
+          "author": [
+            {
+              "#text": "Florian Kohlar",
+              "@pid": "96/7948"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerKSS11",
+          "title": "A Standard-Model Security Analysis of TLS-DHE",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2011",
+          "pages": "219",
+          "author": [
+            {
+              "#text": "Florian Kohlar",
+              "@pid": "96/7948"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerN19",
+          "title": "On the Real-World Instantiability of Admissible Hash Functions and Efficient Verifiable Random Functions",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2019",
+          "pages": "1335",
+          "author": [
+            {
+              "#text": "David Niehues",
+              "@pid": "256/2963"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerS08",
+          "title": "The Generic Hardness of Subset Membership Problems under the Factoring Assumption",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2008",
+          "pages": "482",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerS09",
+          "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2009",
+          "pages": "621",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/JagerSSW17",
+          "title": "Multi-Key Authenticated Encryption with Corruptions: Reductions are Lossy",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2017",
+          "pages": "495",
+          "author": [
+            {
+              "#text": "Bogdan Warinschi",
+              "@pid": "09/6076"
+            },
+            {
+              "#text": "Martijn Stam",
+              "@pid": "82/4585"
+            },
+            {
+              "#text": "Ryan Stanley-Oakes",
+              "@pid": "179/6838"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/iet-ifs/HeuerJSK16",
+          "title": "Selective opening security of practical public-key encryption schemes",
+          "journal": "IET Inf. Secur.",
+          "year": "2016",
+          "pages": "304-318",
+          "ee": "https://doi.org/10.1049/IET-IFS.2015.0507",
+          "author": [
+            {
+              "#text": "Eike Kiltz",
+              "@pid": "k/EikeKiltz"
+            },
+            {
+              "#text": "Felix Heuer",
+              "@pid": "160/1568"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/AviramGJ21",
+          "title": "Session Resumption Protocols and Efficient Forward Security for TLS 1.3 0-RTT",
+          "journal": "J. Cryptol.",
+          "year": "2021",
+          "pages": "20",
+          "ee": "https://doi.org/10.1007/S00145-021-09385-0",
+          "author": [
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Nimrod Aviram",
+              "@pid": "18/1188"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/BohlHJKS15",
+          "title": "Confined Guessing: New Signatures From Standard Assumptions",
+          "journal": "J. Cryptol.",
+          "year": "2015",
+          "pages": "176-208",
+          "ee": "https://doi.org/10.1007/S00145-014-9183-Z",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Dennis Hofheinz",
+              "@pid": "74/3914"
+            },
+            {
+              "#text": "Florian Böhl",
+              "@pid": "63/10733"
+            },
+            {
+              "#text": "Jessica Koch",
+              "@pid": "128/5291"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/DerlerGJSS21",
+          "title": "Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange",
+          "journal": "J. Cryptol.",
+          "year": "2021",
+          "pages": "13",
+          "ee": "https://doi.org/10.1007/S00145-021-09374-3",
+          "author": [
+            {
+              "#text": "Christoph Striecks",
+              "@pid": "128/5113"
+            },
+            {
+              "#text": "Daniel Slamanig",
+              "@pid": "72/5883"
+            },
+            {
+              "#text": "David Derler",
+              "@pid": "117/1764"
+            },
+            {
+              "#text": "Kai Gellert",
+              "@pid": "237/1554"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/DiemertJ21",
+          "title": "On the Tight Security of TLS 1.3: Theoretically Sound Cryptographic Parameters for Real-World Deployments",
+          "journal": "J. Cryptol.",
+          "year": "2021",
+          "pages": "30",
+          "ee": "https://doi.org/10.1007/S00145-021-09388-X",
+          "author": [
+            {
+              "#text": "Denis Diemert",
+              "@pid": "224/4380"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/FleischhackerJS19",
+          "title": "On Tight Security Proofs for Schnorr Signatures",
+          "journal": "J. Cryptol.",
+          "year": "2019",
+          "pages": "566-599",
+          "ee": "https://doi.org/10.1007/S00145-019-09311-5",
+          "author": [
+            {
+              "#text": "Dominique Schröder",
+              "@pid": "52/6199"
+            },
+            {
+              "#text": "Nils Fleischhacker",
+              "@pid": "78/10700"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/JagerKSS17",
+          "title": "Authenticated Confidential Channel Establishment and the Security of TLS-DHE",
+          "journal": "J. Cryptol.",
+          "year": "2017",
+          "pages": "1276-1324",
+          "ee": "https://doi.org/10.1007/S00145-016-9248-2",
+          "author": [
+            {
+              "#text": "Florian Kohlar",
+              "@pid": "96/7948"
+            },
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Sven Schäge",
+              "@pid": "04/2350"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joc/JagerS13",
+          "title": "On the Analysis of Cryptographic Assumptions in the Generic Ring Model",
+          "journal": "J. Cryptol.",
+          "year": "2013",
+          "pages": "225-245",
+          "ee": "https://doi.org/10.1007/S00145-012-9120-Y",
+          "author": [
+            {
+              "#text": "Jörg Schwenk",
+              "@pid": "58/5730"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/popets/JagerR16",
+          "title": "Black-Box Accumulation: Collecting Incentives in a Privacy-Preserving Way",
+          "journal": "Proc. Priv. Enhancing Technol.",
+          "year": "2016",
+          "pages": "62-82",
+          "ee": "https://doi.org/10.1515/POPETS-2016-0016",
+          "author": [
+            {
+              "#text": "Andy Rupp",
+              "@pid": "68/2219"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsg/HeydenSBAZJD25",
+          "title": "Privacy-Preserving Power Flow Analysis via Secure Multi-Party Computation",
+          "journal": "IEEE Trans. Smart Grid",
+          "year": "2025",
+          "pages": "344-355",
+          "ee": "https://doi.org/10.1109/TSG.2024.3453491",
+          "author": [
+            {
+              "#text": "Jonas von der Heyden",
+              "@pid": "300/1936"
+            },
+            {
+              "#text": "Markus Zdrallek",
+              "@pid": "134/4852"
+            },
+            {
+              "#text": "Martin Asman",
+              "@pid": "364/2736"
+            },
+            {
+              "#text": "Moritz Schulze Darup",
+              "@pid": "75/11046"
+            },
+            {
+              "#text": "Nils Schlüter",
+              "@pid": "283/2844"
+            },
+            {
+              "#text": "Philipp Binfet",
+              "@pid": "308/6025"
+            },
+            {
+              "#text": "Tibor Jager",
+              "@pid": "53/1548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/dnb/Jager12",
+          "title": "On black-box models of computation in cryptology",
+          "journal": "",
+          "year": "2012",
+          "pages": "1-86",
+          "author": {
+            "#text": "Tibor Jager",
+            "@pid": "53/1548"
+          }
+        }
       }
     ]
   }

@@ -1,457 +1,1879 @@
 {
   "dblpperson": {
+    "@name": "András Faragó",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/mobicom/MeghanathanF04",
-        "title": "Looking at protocol efficiency from a new angle: stability - delay analysis.",
-        "pages": "51-55",
-        "year": "2004",
-        "booktitle": "Mobility Management & Wireless Access Protocols",
-        "ee": "https://doi.org/10.1145/1023783.1023793",
-        "url": "db/conf/mobicom/mobiwac2004.html#MeghanathanF04",
-        "authors": [
-          "Natarajan Meghanathan",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaim/Farago18",
+          "title": "A New Algorithm Design Technique for Hard Problems, Building on Methods of Complexity Theory",
+          "booktitle": "AAIM",
+          "year": "2018",
+          "pages": "281-292",
+          "ee": "https://doi.org/10.1007/978-3-030-04618-7_23",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cats/Farago09",
-        "title": "Structural Properties of Random Graph Models.",
-        "pages": "129-136",
-        "year": "2009",
-        "booktitle": "CATS",
-        "ee": "http://crpit.scem.westernsydney.edu.au/abstracts/CRPITV94Farago.html",
-        "url": "db/conf/cats/cats2009.html#Farago09",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/ACMse/MeghanathanF05",
+          "title": "Power sensitive power control in ad networks",
+          "booktitle": "ACM Southeast Regional Conference (2)",
+          "year": "2005",
+          "pages": "81-86",
+          "ee": "https://doi.org/10.1145/1167253.1167272",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Natarajan Meghanathan",
+              "@pid": "12/3598"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hpsr/Farago15",
-        "title": "Topology analysis of multi-hop wireless networks.",
-        "pages": "239-244",
-        "year": "2015",
-        "booktitle": "HPSR",
-        "ee": "https://doi.org/10.1109/HPSR.2015.7483113",
-        "url": "db/conf/hpsr/hpsr2015.html#Farago15",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/cats/Farago09",
+          "title": "Structural Properties of Random Graph Models",
+          "booktitle": "CATS",
+          "year": "2009",
+          "pages": "129-136",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mobihoc/ParkWWTWF07",
-        "title": "A dominating and absorbent set in a wireless ad-hoc network with different transmission ranges.",
-        "pages": "22-31",
-        "year": "2007",
-        "booktitle": "MobiHoc",
-        "ee": "https://doi.org/10.1145/1288107.1288111",
-        "url": "db/conf/mobihoc/mobihoc2007.html#ParkWWTWF07",
-        "authors": [
-          "Myung Ah Park",
-          "James Willson",
-          "Chen Wang 0059",
-          "My T. Thai",
-          "Weili Wu 0001",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccn/Farago05",
+          "title": "New analytical results on ad hoc network connectivity",
+          "booktitle": "Communications and Computer Networks",
+          "year": "2005",
+          "pages": "126-131",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/qest/Farago09",
-        "title": "Quantifying the Trade-off Between the Level of Connectivity and Local Complexity in Random Wireless Network Topologies.",
-        "pages": "237-246",
-        "year": "2009",
-        "booktitle": "QEST",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/QEST.2009.44",
-        "url": "db/conf/qest/qest2009.html#Farago09",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/cic/Farago06",
+          "title": "Towards the Integration of Reliability and Traffic Engineering",
+          "booktitle": "Communications in Computing",
+          "year": "2006",
+          "pages": "28-34",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/WangPWFD08",
-        "title": "Fault-Tolerant Dual Power Management in Wireless Sensor Networks.",
-        "pages": "436-441",
-        "year": "2008",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOCOM.2008.ECP.91",
-        "url": "db/conf/globecom/globecom2008.html#WangPWFD08",
-        "authors": [
-          "Chen Wang 0059",
-          "Myung Ah Park",
-          "James Willson",
-          "Andras Farago",
-          "Ding-Zhu Du"
-        ]
+        "inproceedings": {
+          "@key": "conf/cic/Farago07",
+          "title": "Methods for Handling Non-Markovian Performance Models",
+          "booktitle": "Communications in Computing",
+          "year": "2007",
+          "pages": "97-103",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/Farago09",
-        "title": "Analysis of Fundamental Limits for Partial Connectivity in Wireless Networks.",
-        "pages": "1-6",
-        "year": "2009",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOCOM.2009.5425846",
-        "url": "db/conf/globecom/globecom2009.html#Farago09",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/cic/WangF06",
+          "title": "On-line Algorithm for Server Selection of Video Streaming over P2P Networks",
+          "booktitle": "Communications in Computing",
+          "year": "2006",
+          "pages": "121-127",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Hao Wang",
+              "@pid": "181/2812"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/globecom/BasagniFNT09",
-        "title": "Increased Connectivity at Lower Cost: The Case for Multi-Radio Nodes in Multi-Hop Wireless Networks.",
-        "pages": "1-6",
-        "year": "2009",
-        "booktitle": "GLOBECOM",
-        "ee": "https://doi.org/10.1109/GLOCOM.2009.5425728",
-        "url": "db/conf/globecom/globecom2009.html#BasagniFNT09",
-        "authors": [
-          "Stefano Basagni",
-          "Andras Farago",
-          "Maurizio A. Nanni",
-          "Dung T. Tran"
-        ]
+        "inproceedings": {
+          "@key": "conf/dcfs/Farago08",
+          "title": "On the Descriptional Complexity of Path Optimization in Graphs",
+          "booktitle": "DCFS",
+          "year": "2008",
+          "pages": "207-215",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cic/WangF06",
-        "title": "On-line Algorithm for Server Selection of Video Streaming over P2P Networks.",
-        "pages": "121-127",
-        "year": "2006",
-        "booktitle": "Communications in Computing",
-        "url": "db/conf/cic/cic2006.html#WangF06",
-        "authors": [
-          "Hao Wang",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/dcsp/FaragoBHSHAS95",
+          "title": "Enhancing ATM Network Performance by Optimizing the Virtual Network Configuration",
+          "booktitle": "Data Communications and their Performance",
+          "year": "1996",
+          "pages": "401-414",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "B. Stavenow",
+              "@pid": "60/4960"
+            },
+            {
+              "#text": "László Ast",
+              "@pid": "17/4645"
+            },
+            {
+              "#text": "Sándor Székely",
+              "@pid": "20/4461"
+            },
+            {
+              "#text": "Søren Blaabjerg",
+              "@pid": "71/2416"
+            },
+            {
+              "#text": "Tamás Henk",
+              "@pid": "08/4422"
+            },
+            {
+              "#text": "W. Holender",
+              "@pid": "84/1367"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cic/Farago06",
-        "title": "Towards the Integration of Reliability and Traffic Engineering.",
-        "pages": "28-34",
-        "year": "2006",
-        "booktitle": "Communications in Computing",
-        "url": "db/conf/cic/cic2006.html#Farago06",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/dialm/Farago02",
+          "title": "Scalable analysis and design of ad hoc networks via random graph theory",
+          "booktitle": "DIAL-M",
+          "year": "2002",
+          "pages": "43-50",
+          "ee": "https://doi.org/10.1145/570810.570816",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cic/Farago07",
-        "title": "Methods for Handling Non-Markovian Performance Models.",
-        "pages": "97-103",
-        "year": "2007",
-        "booktitle": "Communications in Computing",
-        "url": "db/conf/cic/cic2007.html#Farago07",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/dialm/Farago04",
+          "title": "On the fundamental limits of topology control",
+          "booktitle": "DIALM-POMC",
+          "year": "2004",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1145/1022630.1022632",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ACMse/MeghanathanF05",
-        "title": "Power sensitive power control in ad networks.",
-        "pages": "81-86",
-        "year": "2005",
-        "booktitle": "ACM Southeast Regional Conference (2)",
-        "ee": "https://doi.org/10.1145/1167253.1167272",
-        "url": "db/conf/ACMse/ACMse2005-2.html#MeghanathanF05",
-        "authors": [
-          "Natarajan Meghanathan",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/dialm/Farago12",
+          "title": "Network analysis under perturbations",
+          "booktitle": "FOMC",
+          "year": "2012",
+          "pages": "4",
+          "ee": "https://doi.org/10.1145/2335470.2335474",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ism/WangFV05",
-        "title": "Video Streaming Over Multi-hop Wireless Networks.",
-        "pages": "624-629",
-        "year": "2005",
-        "booktitle": "ISM",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ISM.2005.121",
-        "url": "db/conf/ism/ism2005.html#WangFV05",
-        "authors": [
-          "Hao Wang",
-          "Andras Farago",
-          "Subbarayan Venkatesan"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/Farago13",
+          "title": "Network reliability analysis with unreliable information",
+          "booktitle": "DRCN",
+          "year": "2013",
+          "pages": "258-265",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/Farago13",
-        "title": "Network reliability analysis with unreliable information.",
-        "pages": "258-265",
-        "year": "2013",
-        "booktitle": "DRCN",
-        "ee": "https://ieeexplore.ieee.org/document/6529869/",
-        "url": "db/conf/drcn/drcn2013.html#Farago13",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/epew/Farago06",
+          "title": "On the Convergence Rate of Quasi Lumpable Markov Chains",
+          "booktitle": "EPEW",
+          "year": "2006",
+          "pages": "138-147",
+          "ee": "https://doi.org/10.1007/11777830_10",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mlmta/Farago07",
-        "title": "Learning Path Metrics from Observed Choices.",
-        "pages": "163-169",
-        "year": "2007",
-        "booktitle": "MLMTA",
-        "url": "db/conf/mlmta/mlmta2007.html#Farago07",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/fcs/Farago05",
+          "title": "Finding Dense Subgraphs Efficiently",
+          "booktitle": "FCS",
+          "year": "2005",
+          "pages": "73-79",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lcn/ParkF07",
-        "title": "Minimum Frequencies for the Virtual Maximum MAC Capacity in a Multichannel Ad-Hoc Network.",
-        "pages": "725-730",
-        "year": "2007",
-        "booktitle": "LCN",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/LCN.2007.118",
-        "url": "db/conf/lcn/lcn2007.html#ParkF07",
-        "authors": [
-          "Myung Ah Park",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/fcs/Farago05a",
+          "title": "Almost Surely Almost Exact Optimization in Random Graphs",
+          "booktitle": "FCS",
+          "year": "2005",
+          "pages": "94-100",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fcs/Farago05",
-        "title": "Finding Dense Subgraphs Efficiently.",
-        "pages": "73-79",
-        "year": "2005",
-        "booktitle": "FCS",
-        "url": "db/conf/fcs/fcs2005.html#Farago05",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/fcs/Farago06",
+          "title": "Speeeding Up Markov Chain Monte Carlo Algorithms",
+          "booktitle": "FCS",
+          "year": "2006",
+          "pages": "102-108",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fcs/Farago05a",
-        "title": "Almost Surely Almost Exact Optimization in Random Graphs.",
-        "pages": "94-100",
-        "year": "2005",
-        "booktitle": "FCS",
-        "url": "db/conf/fcs/fcs2005.html#Farago05a",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/fcs/Farago07",
+          "title": "Sampling from Independence Systems",
+          "booktitle": "FCS",
+          "year": "2007",
+          "pages": "27-33",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fcs/Farago06",
-        "title": "Speeeding Up Markov Chain Monte Carlo Algorithms.",
-        "pages": "102-108",
-        "year": "2006",
-        "booktitle": "FCS",
-        "url": "db/conf/fcs/fcs2006.html#Farago06",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/fcs/Farago08",
+          "title": "On Disjoint Connecting Paths and Unsplittable Flow",
+          "booktitle": "FCS",
+          "year": "2008",
+          "pages": "44-50",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fcs/Farago07",
-        "title": "Sampling from Independence Systems.",
-        "pages": "27-33",
-        "year": "2007",
-        "booktitle": "FCS",
-        "url": "db/conf/fcs/fcs2007.html#Farago07",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/BasagniFNT09",
+          "title": "Increased Connectivity at Lower Cost: The Case for Multi-Radio Nodes in Multi-Hop Wireless Networks",
+          "booktitle": "GLOBECOM",
+          "year": "2009",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GLOCOM.2009.5425728",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Dung T. Tran",
+              "@pid": "83/2106"
+            },
+            {
+              "#text": "Maurizio A. Nanni",
+              "@pid": "51/7912"
+            },
+            {
+              "#text": "Stefano Basagni",
+              "@pid": "99/2059"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fcs/Farago08",
-        "title": "On Disjoint Connecting Paths and Unsplittable Flow.",
-        "pages": "44-50",
-        "year": "2008",
-        "booktitle": "FCS",
-        "url": "db/conf/fcs/fcs2008.html#Farago08",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/Farago04",
+          "title": "Availability estimation of routes, trees and subnetworks for end-to-end QoS",
+          "booktitle": "GLOBECOM",
+          "year": "2004",
+          "pages": "3583-3587",
+          "ee": "https://doi.org/10.1109/GLOCOM.2004.1379034",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sigmobile/Farago97",
-        "title": "Broadband integrated networks: Mischa Schwartz, Prentice Hall, 1996.",
-        "pages": "5",
-        "year": "1997",
-        "volume": "1",
-        "journal": "ACM SIGMOBILE Mob. Comput. Commun. Rev.",
-        "number": "1",
-        "ee": "https://doi.org/10.1145/583973.583978",
-        "url": "db/journals/sigmobile/sigmobile1.html#Farago97",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/Farago09",
+          "title": "Analysis of Fundamental Limits for Partial Connectivity in Wireless Networks",
+          "booktitle": "GLOBECOM",
+          "year": "2009",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GLOCOM.2009.5425846",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tcs/WangPWCFW08",
-        "title": "On approximate optimal dual power assignment for biconnectivity and edge-biconnectivity.",
-        "pages": "180-190",
-        "year": "2008",
-        "volume": "396",
-        "journal": "Theor. Comput. Sci.",
-        "number": "1-3",
-        "ee": "https://doi.org/10.1016/j.tcs.2008.01.029",
-        "url": "db/journals/tcs/tcs396.html#WangPWCFW08",
-        "authors": [
-          "Chen Wang 0059",
-          "Myung Ah Park",
-          "James Willson",
-          "Yongxi Cheng",
-          "Andras Farago",
-          "Weili Wu 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/FaragoMSZ00",
+          "title": "A new approach to MAC protocol optimization",
+          "booktitle": "GLOBECOM",
+          "year": "2000",
+          "pages": "1742-1746",
+          "ee": "https://doi.org/10.1109/GLOCOM.2000.891934",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Andrew D. Myers",
+              "@pid": "11/5918"
+            },
+            {
+              "#text": "Gergely V. Záruba",
+              "@pid": "39/3121"
+            },
+            {
+              "#text": "Violet R. Syrotiuk",
+              "@pid": "56/6720"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jsac/FaragoMSZ00",
-        "title": "Meta-MAC protocols: automatic combination of MAC protocols to optimize performance for unknown conditions.",
-        "pages": "1670-1681",
-        "year": "2000",
-        "volume": "18",
-        "journal": "IEEE J. Sel. Areas Commun.",
-        "number": "9",
-        "ee": "https://doi.org/10.1109/49.872955",
-        "url": "db/journals/jsac/jsac18.html#FaragoMSZ00",
-        "authors": [
-          "Andras Farago",
-          "Andrew D. Myers",
-          "Violet R. Syrotiuk",
-          "Gergely V. ZÃ¡ruba"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/WangPWFD08",
+          "title": "Fault-Tolerant Dual Power Management in Wireless Sensor Networks",
+          "booktitle": "GLOBECOM",
+          "year": "2008",
+          "pages": "436-441",
+          "ee": "https://doi.org/10.1109/GLOCOM.2008.ECP.91",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Chen Wang",
+              "@pid": "82/4206-59"
+            },
+            {
+              "#text": "Ding-Zhu Du",
+              "@pid": "d/DingZhuDu"
+            },
+            {
+              "#text": "James Willson",
+              "@pid": "95/4540"
+            },
+            {
+              "#text": "Myung Ah Park",
+              "@pid": "80/1557"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jsac/Farago09",
-        "title": "Scalability of Node Degrees in Random Wireless Network Topologies.",
-        "pages": "1238-1244",
-        "year": "2009",
-        "volume": "27",
-        "journal": "IEEE J. Sel. Areas Commun.",
-        "number": "7",
-        "ee": "https://doi.org/10.1109/JSAC.2009.090919",
-        "url": "db/journals/jsac/jsac27.html#Farago09",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/hpcc/FaragoB11",
+          "title": "Connecting Two Worlds: Physical Models and Graph Models of Wireless Network Topologies",
+          "booktitle": "HPCC",
+          "year": "2011",
+          "pages": "739-744",
+          "ee": "https://doi.org/10.1109/HPCC.2011.105",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Stefano Basagni",
+              "@pid": "99/2059"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jco/WangWPFW10",
-        "title": "On dual power assignment optimization for biconnectivity.",
-        "pages": "174-183",
-        "year": "2010",
-        "volume": "19",
-        "journal": "J. Comb. Optim.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10878-008-9173-x",
-        "url": "db/journals/jco/jco19.html#WangWPFW10",
-        "authors": [
-          "Chen Wang 0059",
-          "James Willson",
-          "Myung Ah Park",
-          "Andras Farago",
-          "Weili Wu 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/hpsr/Farago15",
+          "title": "Topology analysis of multi-hop wireless networks",
+          "booktitle": "HPSR",
+          "year": "2015",
+          "pages": "239-244",
+          "ee": "https://doi.org/10.1109/HPSR.2015.7483113",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/adhoc/MeghanathanF08",
-        "title": "On the stability of paths, Steiner trees and connected dominating sets in mobile ad hoc networks.",
-        "pages": "744-769",
-        "year": "2008",
-        "volume": "6",
-        "journal": "Ad Hoc Networks",
-        "number": "5",
-        "ee": "https://doi.org/10.1016/j.adhoc.2007.06.005",
-        "url": "db/journals/adhoc/adhoc6.html#MeghanathanF08",
-        "authors": [
-          "Natarajan Meghanathan",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/BahlCF97",
+          "title": "Optimizing Resource Utilization in Wireless Multimedia Networks",
+          "booktitle": "ICC (3)",
+          "year": "1997",
+          "pages": "1432-1437",
+          "ee": "https://doi.org/10.1109/ICC.1997.595025",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            },
+            {
+              "#text": "Paramvir Bahl",
+              "@pid": "b/ParamvirBahl"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/Farago16",
-        "title": "Roughly Polynomial Time: A Concept of Tractability Covering All Known Natural NP-complete Problems.",
-        "year": "2016",
-        "volume": "abs/1608.08679",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1608.08679",
-        "url": "db/journals/corr/corr1608.html#Farago16",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/Farago00",
+          "title": "Blocking Probability Estimation for General Under Incomplete Information",
+          "booktitle": "ICC (3)",
+          "year": "2000",
+          "pages": "1547-1551",
+          "ee": "https://doi.org/10.1109/ICC.2000.853755",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2101-10558",
-        "title": "Routing Packet Traffic via Enhanced Access Control List for Network Congestion Avoidance.",
-        "year": "2021",
-        "volume": "abs/2101.10558",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2101.10558",
-        "url": "db/journals/corr/corr2101.html#abs-2101-10558",
-        "authors": [
-          "Zohre Ranjbar-Mojaveri",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/FaragoUF03",
+          "title": "On incorporating dependent link failures in a traffic engineering model",
+          "booktitle": "ICC",
+          "year": "2003",
+          "pages": "309-312",
+          "ee": "https://doi.org/10.1109/ICC.2003.1204190",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Andrea Fumagalli",
+              "@pid": "83/4567"
+            },
+            {
+              "#text": "Ferenc Unghváry",
+              "@pid": "126/9401"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2012-02050",
-        "title": "A General Dependency Structure for Random Graphs and Its Effect on Monotone Properties.",
-        "year": "2020",
-        "volume": "abs/2012.02050",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2012.02050",
-        "url": "db/journals/corr/corr2012.html#abs-2012-02050",
-        "authors": [
-          "Zohre Ranjbar-Mojaveri",
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/FumagalliTUF02",
+          "title": "Shared path protection with differentiated reliability",
+          "booktitle": "ICC",
+          "year": "2002",
+          "pages": "2157-2161",
+          "ee": "https://doi.org/10.1109/ICC.2002.997229",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Andrea Fumagalli",
+              "@pid": "83/4567"
+            },
+            {
+              "#text": "Ferenc Unghváry",
+              "@pid": "126/9401"
+            },
+            {
+              "#text": "Marco Tacca",
+              "@pid": "32/5449"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2012-07152",
-        "title": "On Non-Markovian Performance Models.",
-        "year": "2020",
-        "volume": "abs/2012.07152",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2012.07152",
-        "url": "db/journals/corr/corr2012.html#abs-2012-07152",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/ZhangCF99",
+          "title": "Efficient load balancing for UBR traffic in ATM networks",
+          "booktitle": "ICC",
+          "year": "1999",
+          "pages": "474-478",
+          "ee": "https://doi.org/10.1109/ICC.1999.767985",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Hongbiao Zhang",
+              "@pid": "85/2310"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-11838",
-        "title": "Almost Uniform Sampling of Independent Sets in Polynomial Time - Implying NP=RP.",
-        "year": "2023",
-        "volume": "abs/2312.11838",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.11838",
-        "url": "db/journals/corr/corr2312.html#abs-2312-11838",
-        "authors": [
-          "Andras Farago"
-        ]
+        "inproceedings": {
+          "@key": "conf/iceis/ChenFZ12",
+          "title": "Exploring Structural Properties of Web Graphs through 3D Visualization",
+          "booktitle": "ICEIS (2)",
+          "year": "2012",
+          "pages": "233-238",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Kang Zhang",
+              "@pid": "29/177"
+            },
+            {
+              "#text": "Zhiming Chen",
+              "@pid": "25/2326"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icwn/Farago03",
+          "title": "A Mathematical Method for Analyzing the Effect of Different Protocol Layers on Routing in Ad Hoc Networks",
+          "booktitle": "International Conference on Wireless Networks",
+          "year": "2003",
+          "pages": "626-631",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/FaragoCB99",
+          "title": "Virtual Path Network Topology Optimization Using Random Graphs",
+          "booktitle": "INFOCOM",
+          "year": "1999",
+          "pages": "491-496",
+          "ee": "https://doi.org/10.1109/INFCOM.1999.751382",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            },
+            {
+              "#text": "Stefano Basagni",
+              "@pid": "99/2059"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infoscale/Farago09",
+          "title": "Local vs. Global Scalability in Ad Hoc and Sensor Networks",
+          "booktitle": "Infoscale",
+          "year": "2009",
+          "pages": "26-45",
+          "ee": "https://doi.org/10.1007/978-3-642-10485-5_3",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ISCApdcs/FaragoS01",
+          "title": "Algorithmic Problems in Power-Controlled Ad Hoc Networks",
+          "booktitle": "PDCS",
+          "year": "2001",
+          "pages": "177-182",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Violet R. Syrotiuk",
+              "@pid": "56/6720"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ism/WangFV05",
+          "title": "Video Streaming Over Multi-hop Wireless Networks",
+          "booktitle": "ISM",
+          "year": "2005",
+          "pages": "624-629",
+          "ee": "https://doi.org/10.1109/ISM.2005.121",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Hao Wang",
+              "@pid": "181/2812"
+            },
+            {
+              "#text": "S. Venkatesan",
+              "@pid": "43/5587-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lcn/ParkF07",
+          "title": "Minimum Frequencies for the Virtual Maximum MAC Capacity in a Multichannel Ad-Hoc Network",
+          "booktitle": "LCN",
+          "year": "2007",
+          "pages": "725-730",
+          "ee": "https://doi.org/10.1109/LCN.2007.118",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Myung Ah Park",
+              "@pid": "80/1557"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mascots/Farago02",
+          "title": "Network Level Capacity Planning with Efficiently Computable Global Optimum",
+          "booktitle": "MASCOTS",
+          "year": "2002",
+          "pages": "229-236",
+          "ee": "https://doi.org/10.1109/MASCOT.2002.1167082",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mlmta/Farago07",
+          "title": "Learning Path Metrics from Observed Choices",
+          "booktitle": "MLMTA",
+          "year": "2007",
+          "pages": "163-169",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobicom/FaragoS01",
+          "title": "Merit: A unified framework for routing protocol assessment in mobile Ad Hoc networks",
+          "booktitle": "MobiCom",
+          "year": "2001",
+          "pages": "53-60",
+          "ee": "https://doi.org/10.1145/381677.381683",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Violet R. Syrotiuk",
+              "@pid": "56/6720"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobicom/MeghanathanF04",
+          "title": "Looking at protocol efficiency from a new angle: stability - delay analysis",
+          "booktitle": "Mobility Management & Wireless Access Protocols",
+          "year": "2004",
+          "pages": "51-55",
+          "ee": "https://doi.org/10.1145/1023783.1023793",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Natarajan Meghanathan",
+              "@pid": "12/3598"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobihoc/ParkWWTWF07",
+          "title": "A dominating and absorbent set in a wireless ad-hoc network with different transmission ranges",
+          "booktitle": "MobiHoc",
+          "year": "2007",
+          "pages": "22-31",
+          "ee": "https://doi.org/10.1145/1288107.1288111",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Chen Wang",
+              "@pid": "82/4206-59"
+            },
+            {
+              "#text": "James Willson",
+              "@pid": "95/4540"
+            },
+            {
+              "#text": "My T. Thai",
+              "@pid": "63/4711"
+            },
+            {
+              "#text": "Myung Ah Park",
+              "@pid": "80/1557"
+            },
+            {
+              "#text": "Weili Wu",
+              "@pid": "w/WeiliWu"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/podc/Farago12",
+          "title": "Brief announcement: an obstacle to scalability in wireless networks",
+          "booktitle": "PODC",
+          "year": "2012",
+          "pages": "235-236",
+          "ee": "https://doi.org/10.1145/2332432.2332477",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qest/Farago09",
+          "title": "Quantifying the Trade-off Between the Level of Connectivity and Local Complexity in Random Wireless Network Topologies",
+          "booktitle": "QEST",
+          "year": "2009",
+          "pages": "237-246",
+          "ee": "https://doi.org/10.1109/QEST.2009.44",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saso/FaragoT10",
+          "title": "A Self-Tuning Protocol for Optimal Bandwidth Allocation in Wireless Networks",
+          "booktitle": "SASO",
+          "year": "2010",
+          "pages": "265-266",
+          "ee": "https://doi.org/10.1109/SASO.2010.22",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Dung T. Tran",
+              "@pid": "83/2106"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tamc/Farago11",
+          "title": "Low Distortion Metric Embedding into Constant Dimension",
+          "booktitle": "TAMC",
+          "year": "2011",
+          "pages": "114-123",
+          "ee": "https://doi.org/10.1007/978-3-642-20877-5_12",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wimob/MeghanathanF05",
+          "title": "An efficient algorithm for the optimal number of route transitions in mobile ad hoc networks",
+          "booktitle": "WiMob (3)",
+          "year": "2005",
+          "pages": "41-48",
+          "ee": "https://doi.org/10.1109/WIMOB.2005.1512883",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Natarajan Meghanathan",
+              "@pid": "12/3598"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wimob/MeghanathanF05a",
+          "title": "On the route refresh frequency for on-demand battery life routing in ad hoc networks",
+          "booktitle": "WiMob (3)",
+          "year": "2005",
+          "pages": "291-298",
+          "ee": "https://doi.org/10.1109/WIMOB.2005.1512916",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Natarajan Meghanathan",
+              "@pid": "12/3598"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aai/Farago08",
+          "title": "Algorithmic Challenges in Learning Path Metrics from Observed Choices",
+          "journal": "Appl. Artif. Intell.",
+          "year": "2008",
+          "pages": "749-760",
+          "ee": "https://doi.org/10.1080/08839510802164234",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/adhoc/MeghanathanF08",
+          "title": "On the stability of paths, Steiner trees and connected dominating sets in mobile ad hoc networks",
+          "journal": "Ad Hoc Networks",
+          "year": "2008",
+          "pages": "744-769",
+          "ee": "https://doi.org/10.1016/J.ADHOC.2007.06.005",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Natarajan Meghanathan",
+              "@pid": "12/3598"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithmica/Farago07",
+          "title": "On the Fundamental Limits of Topology Control in Ad Hoc Networks",
+          "journal": "Algorithmica",
+          "year": "2007",
+          "pages": "337-356",
+          "ee": "https://doi.org/10.1007/S00453-007-9078-6",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/AskarianXF16",
+          "title": "Utilizing Network Structure to Accelerate Markov Chain Monte Carlo Algorithms",
+          "journal": "Algorithms",
+          "year": "2016",
+          "pages": "50",
+          "ee": "https://doi.org/10.3390/A9030050",
+          "author": [
+            {
+              "#text": "Ahmad Askarian",
+              "@pid": "184/6787"
+            },
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/Farago21",
+          "title": "Decomposition of Random Sequences into Mixtures of Simpler Ones and Its Application in Network Analysis",
+          "journal": "Algorithms",
+          "year": "2021",
+          "pages": "336",
+          "ee": "https://doi.org/10.3390/A14110336",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/Farago21a",
+          "title": "A Meeting Point of Probability, Graphs, and Algorithms: The Lovász Local Lemma and Related Results - A Survey",
+          "journal": "Algorithms",
+          "year": "2021",
+          "pages": "355",
+          "ee": "https://doi.org/10.3390/A14120355",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/FaragoM19",
+          "title": "In Search of the Densest Subgraph",
+          "journal": "Algorithms",
+          "year": "2019",
+          "pages": "157",
+          "ee": "https://doi.org/10.3390/A12080157",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Zohre R. Mojaveri",
+              "@pid": "248/3815"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/FaragoM21",
+          "title": "Safe Approximation - An Efficient Solution for a Hard Routing Problem",
+          "journal": "Algorithms",
+          "year": "2021",
+          "pages": "48",
+          "ee": "https://doi.org/10.3390/A14020048",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Zohre R. Mojaveri",
+              "@pid": "248/3815"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cjtcs/Farago10",
+          "title": "On the Structure of Classes of Random Graphs",
+          "journal": "Chic. J. Theor. Comput. Sci.",
+          "year": "2010",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/compsys/Farago21",
+          "title": "The Impact of Edge Correlations in Random Networks",
+          "journal": "Complex Syst.",
+          "year": "2021",
+          "pages": "525-537",
+          "ee": "https://doi.org/10.25088/COMPLEXSYSTEMS.30.4.525",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cor/Farago08",
+          "title": "Efficient blocking probability computation of complex traffic flows for network dimensioning",
+          "journal": "Comput. Oper. Res.",
+          "year": "2008",
+          "pages": "3834-3847",
+          "ee": "https://doi.org/10.1016/J.COR.2007.02.009",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-06562",
+          "title": "A Simple Approximation for a Hard Routing Problem",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.06562",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-06564",
+          "title": "Utilizing Network Structure to Bound the Convergence Rate in Markov Chain Monte Carlo Algorithms",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.06564",
+          "author": [
+            {
+              "#text": "Ahmad Askarian",
+              "@pid": "184/6787"
+            },
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-06568",
+          "title": "Connectivity and Structure in Large Networks",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.06568",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-01443",
+          "title": "Job Edge-Fog Interconnection Network Creation Game in Internet of Things",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.01443",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Jason P. Jue",
+              "@pid": "28/4351"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1908-06541",
+          "title": "The Landscape of Minimum Label Cut (Hedge Connectivity) Problem",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1908.06541",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2011-02964",
+          "title": "Optimization of Virtual Networks",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2011.02964",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2012-02050",
+          "title": "A General Dependency Structure for Random Graphs and Its Effect on Monotone Properties",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2012.02050",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Zohre R. Mojaveri",
+              "@pid": "248/3815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2012-07152",
+          "title": "On Non-Markovian Performance Models",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2012.07152",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2101-10558",
+          "title": "Routing Packet Traffic via Enhanced Access Control List for Network Congestion Avoidance",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.10558",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Zohre R. Mojaveri",
+              "@pid": "248/3815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2103-06367",
+          "title": "Routing for Global Congestion Avoidance",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2103.06367",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Zohre R. Mojaveri",
+              "@pid": "248/3815"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-11838",
+          "title": "Almost Uniform Sampling of Independent Sets in Polynomial Time - Implying NP=RP",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.11838",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/Farago16",
+          "title": "Roughly Polynomial Time: A Concept of Tractability Covering All Known Natural NP-complete Problems",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1608.08679",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/Farago05",
+          "title": "On the typical case complexity of graph optimization",
+          "journal": "Discret. Appl. Math.",
+          "year": "2005",
+          "pages": "73-88",
+          "ee": "https://doi.org/10.1016/J.DAM.2005.05.007",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dam/FaragoSS03",
+          "title": "Inverse Optimization in High-speed Networks",
+          "journal": "Discret. Appl. Math.",
+          "year": "2003",
+          "pages": "83-98",
+          "ee": "https://doi.org/10.1016/S0166-218X(02)00235-4",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Áron Szentesi",
+              "@pid": "54/2121"
+            },
+            {
+              "#text": "Balázs Szviatovszki",
+              "@pid": "54/172"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcomsys/BahlCF98",
+          "title": "Resource assignment for integrated services in wireless ATM networks",
+          "journal": "Int. J. Commun. Syst.",
+          "year": "1998",
+          "pages": "29-41",
+          "ee": "https://doi.org/10.1002/(SICI)1099-1131(199801/02)11:1%3C29::AID-DAC353%3E3.0.CO;2-0",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            },
+            {
+              "#text": "Paramvir Bahl",
+              "@pid": "b/ParamvirBahl"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jco/WangWPFW10",
+          "title": "On dual power assignment optimization for biconnectivity",
+          "journal": "J. Comb. Optim.",
+          "year": "2010",
+          "pages": "174-183",
+          "ee": "https://doi.org/10.1007/S10878-008-9173-X",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Chen Wang",
+              "@pid": "82/4206-59"
+            },
+            {
+              "#text": "James Willson",
+              "@pid": "95/4540"
+            },
+            {
+              "#text": "Myung Ah Park",
+              "@pid": "80/1557"
+            },
+            {
+              "#text": "Weili Wu",
+              "@pid": "w/WeiliWu"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/ChlamtacFA94",
+          "title": "A topology transparent link activation protocol for mobile CDMA radio networks",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "1994",
+          "pages": "1426-1433",
+          "ee": "https://doi.org/10.1109/49.329334",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Hye Yeon Ahn",
+              "@pid": "138/6603"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/ChlamtacFZ96",
+          "title": "Lightpath (Wavelength) Routing in Large WDM Networks",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "1996",
+          "pages": "909-913",
+          "ee": "https://doi.org/10.1109/49.510914",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            },
+            {
+              "#text": "Tao Zhang",
+              "@pid": "15/4777-43"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/Farago09",
+          "title": "Scalability of Node Degrees in Random Wireless Network Topologies",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2009",
+          "pages": "1238-1244",
+          "ee": "https://doi.org/10.1109/JSAC.2009.090919",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/FaragoBAGH95",
+          "title": "A New Degree of Freedom in ATM Network Dimensioning: Optimizing the Logical Configuration",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "1995",
+          "pages": "1199-1206",
+          "ee": "https://doi.org/10.1109/49.414639",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Géza Gordos",
+              "@pid": "81/4377"
+            },
+            {
+              "#text": "László Ast",
+              "@pid": "17/4645"
+            },
+            {
+              "#text": "Søren Blaabjerg",
+              "@pid": "71/2416"
+            },
+            {
+              "#text": "Tamás Henk",
+              "@pid": "08/4422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/FaragoBHB97",
+          "title": "Analog Neural Optimization for ATM Resource Management",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "1997",
+          "pages": "156-164",
+          "ee": "https://doi.org/10.1109/49.552066",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Miklós Boda",
+              "@pid": "58/1963"
+            },
+            {
+              "#text": "Tamás Henk",
+              "@pid": "08/4422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/FaragoMSZ00",
+          "title": "Meta-MAC protocols: automatic combination of MAC protocols to optimize performance for unknown conditions",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2000",
+          "pages": "1670-1681",
+          "ee": "https://doi.org/10.1109/49.872955",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Andrew D. Myers",
+              "@pid": "11/5918"
+            },
+            {
+              "#text": "Gergely V. Záruba",
+              "@pid": "39/3121"
+            },
+            {
+              "#text": "Violet R. Syrotiuk",
+              "@pid": "56/6720"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mics/Farago08",
+          "title": "A General Tractable Density Concept for Graphs",
+          "journal": "Math. Comput. Sci.",
+          "year": "2008",
+          "pages": "689-699",
+          "ee": "https://doi.org/10.1007/S11786-007-0026-2",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/monet/FaragoS03",
+          "title": "MERIT: A Scalable Approach for Protocol Assessment",
+          "journal": "Mob. Networks Appl.",
+          "year": "2003",
+          "pages": "567-577",
+          "ee": "https://doi.org/10.1023/A:1025193929081",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Violet R. Syrotiuk",
+              "@pid": "56/6720"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pami/FaragoLL93",
+          "title": "Fast Nearest-Neighbor Search in Dissimilarity Spaces",
+          "journal": "IEEE Trans. Pattern Anal. Mach. Intell.",
+          "year": "1993",
+          "pages": "957-962",
+          "ee": "https://doi.org/10.1109/34.232083",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            },
+            {
+              "#text": "Tamás Linder",
+              "@pid": "56/2539"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pe/Farago11",
+          "title": "Asymptotically optimal trade-off between local and global connectivity in wireless networks",
+          "journal": "Perform. Evaluation",
+          "year": "2011",
+          "pages": "142-156",
+          "ee": "https://doi.org/10.1016/J.PEVA.2010.08.024",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigmobile/Farago97",
+          "title": "Broadband integrated networks: Mischa Schwartz, Prentice Hall, 1996",
+          "journal": "ACM SIGMOBILE Mob. Comput. Commun. Rev.",
+          "year": "1997",
+          "pages": "5",
+          "ee": "https://doi.org/10.1145/583973.583978",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/simulation/SzarkowiczFFH97",
+          "title": "Simulation Analysis of Routing Strategies in Multicasting Multiservice Loss Networks",
+          "journal": "Simul.",
+          "year": "1997",
+          "pages": "34-43",
+          "ee": "https://doi.org/10.1177/003754979706800108",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Gábor Fodor",
+              "@pid": "14/5281"
+            },
+            {
+              "#text": "Krzysztof Szarkowicz",
+              "@pid": "129/9330"
+            },
+            {
+              "#text": "Tamás Henk",
+              "@pid": "08/4422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tc/ChlamtacF94",
+          "title": "An Optimal Channel Access Protocol with Multiple Reception Capacity",
+          "journal": "IEEE Trans. Computers",
+          "year": "1994",
+          "pages": "480-484",
+          "ee": "https://doi.org/10.1109/12.278486",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/FaragoX20",
+          "title": "A new algorithm design technique for hard problems",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2020",
+          "pages": "45-56",
+          "ee": "https://doi.org/10.1016/J.TCS.2020.03.012",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Rupei Xu",
+              "@pid": "138/7303"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcs/WangPWCFW08",
+          "title": "On approximate optimal dual power assignment for biconnectivity and edge-biconnectivity",
+          "journal": "Theor. Comput. Sci.",
+          "year": "2008",
+          "pages": "180-190",
+          "ee": "https://doi.org/10.1016/J.TCS.2008.01.029",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Chen Wang",
+              "@pid": "82/4206-59"
+            },
+            {
+              "#text": "James Willson",
+              "@pid": "95/4540"
+            },
+            {
+              "#text": "Myung Ah Park",
+              "@pid": "80/1557"
+            },
+            {
+              "#text": "Weili Wu",
+              "@pid": "w/WeiliWu"
+            },
+            {
+              "#text": "Yongxi Cheng",
+              "@pid": "20/5033"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tit/FaragoL93",
+          "title": "Strong universal consistency of neural network classifiers",
+          "journal": "IEEE Trans. Inf. Theory",
+          "year": "1993",
+          "pages": "1146-1151",
+          "ee": "https://doi.org/10.1109/18.243433",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Gábor Lugosi",
+              "@pid": "70/3715"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/ChlamtacF94",
+          "title": "Making transmission schedules immune to topology changes in multi-hop packet radio networks",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "1994",
+          "pages": "23-29",
+          "ee": "https://doi.org/10.1109/90.282605",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/ChlamtacFZ94",
+          "title": "Optimizing the system of virtual paths",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "1994",
+          "pages": "581-587",
+          "ee": "https://doi.org/10.1109/90.365415",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            },
+            {
+              "#text": "Tao Zhang",
+              "@pid": "15/4777-43"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/ChlamtacFZ97",
+          "title": "Time-spread multiple-access (TSMA) protocols for multihop mobile radio networks",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "1997",
+          "pages": "804-812",
+          "ee": "https://doi.org/10.1109/90.650140",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Hongbiao Zhang",
+              "@pid": "85/2310"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/ChlamtacZFF98",
+          "title": "A deterministic approach to the end-to-end analysis of packet flows in connection-oriented networks",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "1998",
+          "pages": "422-431",
+          "ee": "https://doi.org/10.1109/90.720877",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Andrea Fumagalli",
+              "@pid": "83/4567"
+            },
+            {
+              "#text": "Hongbiao Zhang",
+              "@pid": "85/2310"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/winet/ChlamtacF99",
+          "title": "A new approach to the design and analysis of peer-to-peer mobile networks",
+          "journal": "Wirel. Networks",
+          "year": "1999",
+          "pages": "149-156",
+          "ee": "https://doi.org/10.1023/A:1019186624837",
+          "author": [
+            {
+              "#text": "András Faragó",
+              "@pid": "68/4393"
+            },
+            {
+              "#text": "Imrich Chlamtac",
+              "@pid": "c/ImrichChlamtac"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/winet/Farago95",
+          "title": "On the complexity of finding sparsest and densest parts in wireless networks",
+          "journal": "Wirel. Networks",
+          "year": "1995",
+          "pages": "221-226",
+          "ee": "https://doi.org/10.1007/BF01202544",
+          "author": {
+            "#text": "András Faragó",
+            "@pid": "68/4393"
+          }
+        }
       }
     ]
   }

@@ -1,224 +1,414 @@
 {
   "dblpperson": {
+    "@name": "Bence Graics",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/fmics/GraicsMM23",
-        "title": "Configurable Model-Based Test Generation for Distributed Controllers Using Declarative Model Queries and Model Checkers.",
-        "pages": "76-95",
-        "year": "2023",
-        "booktitle": "FMICS",
-        "ee": "https://doi.org/10.1007/978-3-031-43681-9_5",
-        "url": "db/conf/fmics/fmics2023.html#GraicsMM23",
-        "authors": [
-          "Bence Graics",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n Majzik"
-        ]
+        "inproceedings": {
+          "@key": "conf/facs2/GraicsMMM23",
+          "title": "Model-Based Testing of Asynchronously Communicating Distributed Controllers",
+          "booktitle": "FACS",
+          "year": "2024",
+          "pages": "23-44",
+          "ee": "https://doi.org/10.1007/978-3-031-52183-6_2",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse/MolnarGVMV18",
-        "title": "The Gamma statechart composition framework: : design, verification and code generation for component-based reactive systems.",
-        "pages": "113-116",
-        "year": "2018",
-        "booktitle": "ICSE (Companion Volume)",
-        "ee": "https://ieeexplore.ieee.org/document/8449458",
-        "url": "db/conf/icse/icse2018c.html#MolnarGVMV18",
-        "authors": [
-          "Vince MolnÃ¡r",
-          "Bence Graics",
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "IstvÃ¡n Majzik",
-          "DÃ¡niel VarrÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/fmics/GraicsMM23",
+          "title": "Configurable Model-Based Test Generation for Distributed Controllers Using Declarative Model Queries and Model Checkers",
+          "booktitle": "FMICS",
+          "year": "2023",
+          "pages": "76-95",
+          "ee": "https://doi.org/10.1007/978-3-031-43681-9_5",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/MolnarG0TCKDGKH24",
-        "title": "Towards the Formal Verification of SysML v2 Models.",
-        "pages": "1086-1095",
-        "year": "2024",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://www.wikidata.org/entity/Q130937949",
-        "url": "db/conf/models/models2024c.html#MolnarG0TCKDGKH24",
-        "authors": [
-          "Vince MolnÃ¡r",
-          "Bence Graics",
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "Stefano Tonetta",
-          "Luca Cristoforetti",
-          "Greg Kimberly",
-          "Pamela Dyer",
-          "Kristin Giammarco",
-          "Manfred KÃ¶the",
-          "John Hester",
-          "Jamie Smith",
-          "Christoph Grimm 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse/MolnarGVMV18",
+          "title": "The Gamma statechart composition framework: : design, verification and code generation for component-based reactive systems",
+          "booktitle": "ICSE (Companion Volume)",
+          "year": "2018",
+          "pages": "113-116",
+          "ee": "https://doi.org/10.1145/3183440.3183489",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/HorvathGHMMRAGK20",
-        "title": "Model checking as a service: towards pragmatic hidden formal methods.",
-        "pages": "37:1-37:5",
-        "year": "2020",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1145/3417990.3421407",
-        "url": "db/conf/models/models2020c.html#HorvathGHMMRAGK20",
-        "authors": [
-          "Benedek HorvÃ¡th",
-          "Bence Graics",
-          "Ãkos Hajdu",
-          "ZoltÃ¡n Micskei",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n RÃ¡th",
-          "Luigi Andolfato",
-          "Ivan Gomes",
-          "Robert Karban"
-        ]
+        "inproceedings": {
+          "@key": "conf/ladc/AlmeidaGCSM21",
+          "title": "Towards Simulation of CubeSat Operational Scenarios under a Cyber-Physical Systems View",
+          "booktitle": "LADC",
+          "year": "2021",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/LADC53747.2021.9672594",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Danilo Pallamin de Almeida",
+              "@pid": "312/0718"
+            },
+            {
+              "#text": "Fabiano Luis de Sousa",
+              "@pid": "04/5103"
+            },
+            {
+              "#text": "Fátima Mattiello-Francisco",
+              "@pid": "191/8147"
+            },
+            {
+              "#text": "Ronan Arraes Jardim Chagas",
+              "@pid": "173/2848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/facs2/GraicsMMM23",
-        "title": "Model-Based Testing of Asynchronously Communicating Distributed Controllers.",
-        "pages": "23-44",
-        "year": "2023",
-        "booktitle": "FACS",
-        "ee": "https://doi.org/10.1007/978-3-031-52183-6_2",
-        "url": "db/conf/facs2/facs2023.html#GraicsMMM23",
-        "authors": [
-          "Bence Graics",
-          "MilÃ¡n Mondok",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n Majzik"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/HorvathGHMMRAGK20",
+          "title": "Model checking as a service: towards pragmatic hidden formal methods",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2020",
+          "pages": "37:1-37:5",
+          "ee": "https://doi.org/10.1145/3417990.3421407",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Benedek Horváth",
+              "@pid": "154/4195"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Ivan Gomes",
+              "@pid": "277/3202"
+            },
+            {
+              "#text": "Luigi Andolfato",
+              "@pid": "142/5802"
+            },
+            {
+              "#text": "Robert Karban",
+              "@pid": "142/6087"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ladc/AlmeidaGCSM21",
-        "title": "Towards Simulation of CubeSat Operational Scenarios under a Cyber-Physical Systems View.",
-        "pages": "1-4",
-        "year": "2021",
-        "booktitle": "LADC",
-        "ee": "https://doi.org/10.1109/LADC53747.2021.9672594",
-        "url": "db/conf/ladc/ladc2021.html#AlmeidaGCSM21",
-        "authors": [
-          "Danilo Pallamin de Almeida",
-          "Bence Graics",
-          "Ronan Arraes Jardim Chagas",
-          "Fabiano Luis de Sousa",
-          "FÃ¡tima Mattiello-Francisco"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/MolnarG0TCKDGKH24",
+          "title": "Towards the Formal Verification of SysML v2 Models",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2024",
+          "pages": "1086-1095",
+          "ee": "https://doi.org/10.1145/3652620.3687820",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Christoph Grimm",
+              "@pid": "79/6092-1"
+            },
+            {
+              "#text": "Greg Kimberly",
+              "@pid": "96/3814"
+            },
+            {
+              "#text": "Jamie Smith",
+              "@pid": "117/5988"
+            },
+            {
+              "#text": "John Hester",
+              "@pid": "236/4590"
+            },
+            {
+              "#text": "Kristin Giammarco",
+              "@pid": "128/2025"
+            },
+            {
+              "#text": "Luca Cristoforetti",
+              "@pid": "90/5222"
+            },
+            {
+              "#text": "Manfred Köthe",
+              "@pid": "40/6043"
+            },
+            {
+              "#text": "Pamela Dyer",
+              "@pid": "389/2384"
+            },
+            {
+              "#text": "Stefano Tonetta",
+              "@pid": "t/StefanoTonetta"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/GraicsMVMV20",
-        "title": "Mixed-semantics composition of statecharts for the component-based design of reactive systems.",
-        "pages": "1483-1517",
-        "year": "2020",
-        "volume": "19",
-        "journal": "Softw. Syst. Model.",
-        "number": "6",
-        "ee": "https://doi.org/10.1007/s10270-020-00806-5",
-        "url": "db/journals/sosym/sosym19.html#GraicsMVMV20",
-        "authors": [
-          "Bence Graics",
-          "Vince MolnÃ¡r",
-          "AndrÃ¡s VÃ¶rÃ¶s 0001",
-          "IstvÃ¡n Majzik",
-          "DÃ¡niel VarrÃ³"
-        ]
+        "inproceedings": {
+          "@key": "journals/corr/abs-2004-13290",
+          "title": "Simulation-based Safety Assessment of High-level Reliability Models",
+          "booktitle": "MARS",
+          "year": "2020",
+          "pages": "240-260",
+          "ee": "https://doi.org/10.48550/ARXIV.2004.13290",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Kristóf Marussy",
+              "@pid": "130/6479"
+            },
+            {
+              "#text": "Simon József Nagy",
+              "@pid": "263/9846"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/se/HorvathMGHRHKTM23",
-        "title": "Pragmatic verification and validation of industrial executable SysML models.",
-        "pages": "693-714",
-        "year": "2023",
-        "volume": "26",
-        "journal": "Syst. Eng.",
-        "number": "6",
-        "ee": "https://doi.org/10.1002/sys.21679",
-        "url": "db/journals/se/se26.html#HorvathMGHRHKTM23",
-        "authors": [
-          "Benedek HorvÃ¡th",
-          "Vince MolnÃ¡r",
-          "Bence Graics",
-          "Ãkos Hajdu",
-          "IstvÃ¡n RÃ¡th",
-          "Ãkos HorvÃ¡th 0001",
-          "Robert Karban",
-          "Gelys Trancho",
-          "ZoltÃ¡n Micskei"
-        ]
+        "article": {
+          "@key": "journals/isse/GraicsMM26",
+          "title": "Integration test generation for state-based components in the Gamma framework",
+          "journal": "Innov. Syst. Softw. Eng.",
+          "year": "2026",
+          "pages": "25",
+          "ee": "https://doi.org/10.1007/S11334-026-00643-7",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/se/GraicsMM23",
-        "title": "Component-based specification, design and verification of adaptive systems.",
-        "pages": "567-589",
-        "year": "2023",
-        "volume": "26",
-        "journal": "Syst. Eng.",
-        "number": "5",
-        "ee": "https://doi.org/10.1002/sys.21675",
-        "url": "db/journals/se/se26.html#GraicsMM23",
-        "authors": [
-          "Bence Graics",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n Majzik"
-        ]
+        "article": {
+          "@key": "journals/scp/GraicsMMM25",
+          "title": "Model-based testing of asynchronously communicating distributed controllers using validated mappings to formal representations",
+          "journal": "Sci. Comput. Program.",
+          "year": "2025",
+          "pages": "103265",
+          "ee": "https://doi.org/10.1016/J.SCICO.2025.103265",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/scp/GraicsMMM25",
-        "title": "Model-based testing of asynchronously communicating distributed controllers using validated mappings to formal representations.",
-        "pages": "103265",
-        "year": "2025",
-        "volume": "242",
-        "journal": "Sci. Comput. Program.",
-        "ee": "https://doi.org/10.1016/j.scico.2025.103265",
-        "url": "db/journals/scp/scp242.html#GraicsMMM25",
-        "authors": [
-          "Bence Graics",
-          "MilÃ¡n Mondok",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n Majzik"
-        ]
+        "article": {
+          "@key": "journals/se/GraicsMM23",
+          "title": "Component-based specification, design and verification of adaptive systems",
+          "journal": "Syst. Eng.",
+          "year": "2023",
+          "pages": "567-589",
+          "ee": "https://doi.org/10.1002/SYS.21675",
+          "author": [
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/isse/GraicsMM26",
-        "title": "Integration test generation for state-based components in the Gamma framework.",
-        "year": "2026",
-        "pages": "25",
-        "volume": "22",
-        "journal": "Innov. Syst. Softw. Eng.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s11334-026-00643-7",
-        "url": "db/journals/isse/isse22.html#GraicsMM26",
-        "authors": [
-          "Bence Graics",
-          "Vince MolnÃ¡r",
-          "IstvÃ¡n Majzik"
-        ]
+        "article": {
+          "@key": "journals/se/HorvathMGHRHKTM23",
+          "title": "Pragmatic verification and validation of industrial executable SysML models",
+          "journal": "Syst. Eng.",
+          "year": "2023",
+          "pages": "693-714",
+          "ee": "https://doi.org/10.1002/SYS.21679",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Benedek Horváth",
+              "@pid": "154/4195"
+            },
+            {
+              "#text": "Gelys Trancho",
+              "@pid": "361/1093"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Robert Karban",
+              "@pid": "142/6087"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/corr/abs-2004-13290",
-        "title": "Simulation-based Safety Assessment of High-level Reliability Models.",
-        "booktitle": "MARS",
-        "year": "2020",
-        "pages": "240-260",
-        "ee": "https://doi.org/10.48550/arXiv.2004.13290",
-        "url": "db/series/eptcs/eptcs316.html#abs-2004-13290",
-        "authors": [
-          "Simon JÃ³zsef Nagy",
-          "Bence Graics",
-          "KristÃ³f Marussy",
-          "AndrÃ¡s VÃ¶rÃ¶s 0001"
-        ]
+        "article": {
+          "@key": "journals/sosym/GraicsMVMV20",
+          "title": "Mixed-semantics composition of statecharts for the component-based design of reactive systems",
+          "journal": "Softw. Syst. Model.",
+          "year": "2020",
+          "pages": "1483-1517",
+          "ee": "https://doi.org/10.1007/S10270-020-00806-5",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Bence Graics",
+              "@pid": "221/1515"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
       }
     ]
   }

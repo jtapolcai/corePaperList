@@ -1,55 +1,98 @@
 {
   "dblpperson": {
+    "@name": "Tibor Goldschwendt",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ismar/GoldschwendtASKP14",
-        "title": "The collaborative design platform - A protocol for a mixed reality installation for improved incorporation of laypeople in architecture.",
-        "pages": "337-338",
-        "year": "2014",
-        "booktitle": "ISMAR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ISMAR.2014.6948477",
-        "url": "db/conf/ismar/ismar2014.html#GoldschwendtASKP14",
-        "authors": [
-          "Tibor Goldschwendt",
-          "Christoph Anthes",
-          "Gerhard Schubert",
-          "Dieter KranzlmÃ¼ller",
-          "Frank Petzold"
-        ]
+        "inproceedings": {
+          "@key": "conf/ismar/GoldschwendtASKP14",
+          "title": "The collaborative design platform - A protocol for a mixed reality installation for improved incorporation of laypeople in architecture",
+          "booktitle": "ISMAR",
+          "year": "2014",
+          "pages": "337-338",
+          "ee": "https://doi.org/10.1109/ISMAR.2014.6948477",
+          "author": [
+            {
+              "#text": "Christoph Anthes",
+              "@pid": "37/933"
+            },
+            {
+              "#text": "Dieter Kranzlmüller",
+              "@pid": "k/DieterKranzlmuller"
+            },
+            {
+              "#text": "Frank Petzold",
+              "@pid": "23/6877"
+            },
+            {
+              "#text": "Gerhard Schubert",
+              "@pid": "153/5714"
+            },
+            {
+              "#text": "Tibor Goldschwendt",
+              "@pid": "153/5718"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vr/RenGCH16",
-        "title": "Evaluating wide-field-of-view augmented reality with mixed reality simulation.",
-        "pages": "93-102",
-        "year": "2016",
-        "booktitle": "VR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/VR.2016.7504692",
-        "url": "db/conf/vr/vr2016.html#RenGCH16",
-        "authors": [
-          "Donghao Ren",
-          "Tibor Goldschwendt",
-          "YunSuk Chang",
-          "Tobias HÃ¶llerer"
-        ]
+        "inproceedings": {
+          "@key": "conf/vr/RenGCH16",
+          "title": "Evaluating wide-field-of-view augmented reality with mixed reality simulation",
+          "booktitle": "VR",
+          "year": "2016",
+          "pages": "93-102",
+          "ee": "https://doi.org/10.1109/VR.2016.7504692",
+          "author": [
+            {
+              "#text": "Donghao Ren",
+              "@pid": "137/2147"
+            },
+            {
+              "#text": "Tibor Goldschwendt",
+              "@pid": "153/5718"
+            },
+            {
+              "#text": "Tobias Höllerer",
+              "@pid": "h/TobiasHollerer"
+            },
+            {
+              "#text": "YunSuk Chang",
+              "@pid": "182/7389"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vrst/GoldschwendtASKP14",
-        "title": "The collaborative design platform protocol: a protocol for a mixed reality installation for improved incorporation of laypeople in architecture.",
-        "pages": "239-240",
-        "year": "2014",
-        "booktitle": "VRST",
-        "ee": "https://doi.org/10.1145/2671015.2671137",
-        "url": "db/conf/vrst/vrst2014.html#GoldschwendtASKP14",
-        "authors": [
-          "Tibor Goldschwendt",
-          "Christoph Anthes",
-          "Gerhard Schubert",
-          "Dieter KranzlmÃ¼ller",
-          "Frank Petzold"
-        ]
+        "inproceedings": {
+          "@key": "conf/vrst/GoldschwendtASKP14",
+          "title": "The collaborative design platform protocol: a protocol for a mixed reality installation for improved incorporation of laypeople in architecture",
+          "booktitle": "VRST",
+          "year": "2014",
+          "pages": "239-240",
+          "ee": "https://doi.org/10.1145/2671015.2671137",
+          "author": [
+            {
+              "#text": "Christoph Anthes",
+              "@pid": "37/933"
+            },
+            {
+              "#text": "Dieter Kranzlmüller",
+              "@pid": "k/DieterKranzlmuller"
+            },
+            {
+              "#text": "Frank Petzold",
+              "@pid": "23/6877"
+            },
+            {
+              "#text": "Gerhard Schubert",
+              "@pid": "153/5714"
+            },
+            {
+              "#text": "Tibor Goldschwendt",
+              "@pid": "153/5718"
+            }
+          ]
+        }
       }
     ]
   }

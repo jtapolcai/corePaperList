@@ -1,35 +1,90 @@
 {
   "dblpperson": {
+    "@name": "Sándor Rózsa",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/sc/NewmanBMRVLLKSGLSTHMHMT12",
-        "title": "Efficient LHC Data Distribution across 100Gbps Networks.",
-        "pages": "1594-1599",
-        "year": "2012",
-        "booktitle": "SC Companion",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/SC.Companion.2012.336",
-        "url": "db/conf/sc/sc2012c.html#NewmanBMRVLLKSGLSTHMHMT12",
-        "authors": [
-          "Harvey B. Newman",
-          "Artur Barczyk",
-          "Azher Mughal",
-          "Sandor Rozsa",
-          "Ramiro Voicu",
-          "Iosif Legrand",
-          "Steven Lo",
-          "Dorian Kcira",
-          "Randall J. Sobie",
-          "Ian Gable",
-          "Colin Leavett-Brown",
-          "Yvan Savard",
-          "Thomas Tam",
-          "Marilyn Hay",
-          "Shawn McKee",
-          "Roy Hocket",
-          "Ben Meekhof",
-          "Sergio Timoteo"
-        ]
+        "inproceedings": {
+          "@key": "conf/sc/NewmanBMRVLLKSGLSTHMHMT12",
+          "title": "Efficient LHC Data Distribution across 100Gbps Networks",
+          "booktitle": "SC Companion",
+          "year": "2012",
+          "pages": "1594-1599",
+          "ee": "https://doi.org/10.1109/SC.COMPANION.2012.336",
+          "author": [
+            {
+              "#text": "Artur Barczyk",
+              "@pid": "129/5569"
+            },
+            {
+              "#text": "Azher Mughal",
+              "@pid": "129/5588"
+            },
+            {
+              "#text": "Ben Meekhof",
+              "@pid": "129/5707"
+            },
+            {
+              "#text": "C. Leavett-Brown",
+              "@pid": "22/8318"
+            },
+            {
+              "#text": "Dorian Kcira",
+              "@pid": "129/5762"
+            },
+            {
+              "#text": "Harvey B. Newman",
+              "@pid": "34/700"
+            },
+            {
+              "#text": "Ian Gable",
+              "@pid": "97/98"
+            },
+            {
+              "#text": "Iosif Legrand",
+              "@pid": "83/301"
+            },
+            {
+              "#text": "Marilyn Hay",
+              "@pid": "129/5540"
+            },
+            {
+              "#text": "Ramiro Voicu",
+              "@pid": "70/6299"
+            },
+            {
+              "#text": "Randall J. Sobie",
+              "@pid": "78/961"
+            },
+            {
+              "#text": "Roy Hocket",
+              "@pid": "129/5528"
+            },
+            {
+              "#text": "Sandor Rozsa",
+              "@pid": "129/5556"
+            },
+            {
+              "#text": "Sergio Timoteo",
+              "@pid": "129/5598"
+            },
+            {
+              "#text": "Shawn McKee",
+              "@pid": "88/5160"
+            },
+            {
+              "#text": "Steven Lo",
+              "@pid": "129/5412"
+            },
+            {
+              "#text": "Thomas Tam",
+              "@pid": "57/9718"
+            },
+            {
+              "#text": "Yvan Savard",
+              "@pid": "129/5713"
+            }
+          ]
+        }
       }
     ]
   }

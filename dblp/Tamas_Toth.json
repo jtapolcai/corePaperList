@@ -1,43 +1,537 @@
 {
   "dblpperson": {
+    "@name": "Tamás Tóth",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icc/FitzekTSPLSCM14",
-        "title": "Implementation and performance evaluation of distributed cloud storage solutions using random linear network coding.",
-        "pages": "249-254",
-        "year": "2014",
-        "booktitle": "ICC Workshops",
-        "ee": "https://doi.org/10.1109/ICCW.2014.6881204",
-        "url": "db/conf/icc/icc2014w.html#FitzekTSPLSCM14",
-        "authors": [
-          "Frank H. P. Fitzek",
-          "Tamas Toth",
-          "Aron Szabados",
-          "Morten VidebÃ¦k Pedersen",
-          "Daniel Enrique Lucani",
-          "MÃ¡rton Sipos",
-          "Hassan Charaf",
-          "Muriel MÃ©dard"
-        ]
+        "inproceedings": {
+          "@key": "conf/caip/FazekasHST05",
+          "title": "Neighborhood Sequences and Their Applications in the Digital Image Processing",
+          "booktitle": "CAIP",
+          "year": "2005",
+          "pages": "766-772",
+          "ee": "https://doi.org/10.1007/11556121_94",
+          "author": [
+            {
+              "#text": "András Hajdu",
+              "@pid": "41/4857"
+            },
+            {
+              "#text": "Attila Fazekas",
+              "@pid": "51/6542"
+            },
+            {
+              "#text": "István Sánta",
+              "@pid": "02/190"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1908-11319",
-        "title": "Machine Learning and the Internet of Things Enable Steam Flood Optimization for Improved Oil Production.",
-        "year": "2019",
-        "volume": "abs/1908.11319",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1908.11319",
-        "url": "db/journals/corr/corr1908.html#abs-1908-11319",
-        "authors": [
-          "Mi Yan",
-          "Jonathan C. MacDonald",
-          "Chris T. Reaume",
-          "Wesley Cobb",
-          "Tamas Toth",
-          "Sarah S. Karthigan"
-        ]
+        "inproceedings": {
+          "@key": "conf/depcos/TothVM13",
+          "title": "K-Induction Based Verification of Real-Time Safety Critical Systems",
+          "booktitle": "DepCoS-RELCOMEX",
+          "year": "2013",
+          "pages": "469-478",
+          "ee": "https://doi.org/10.1007/978-3-319-00945-2_43",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fmcad/TothHVMM17",
+          "title": "Theta: A framework for abstraction refinement-based model checking",
+          "booktitle": "FMCAD",
+          "year": "2017",
+          "pages": "176-179",
+          "ee": "https://doi.org/10.23919/FMCAD.2017.8102257",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/formats/TothM17",
+          "title": "Lazy Reachability Checking for Timed Automata Using Interpolants",
+          "booktitle": "FORMATS",
+          "year": "2017",
+          "pages": "264-280",
+          "ee": "https://doi.org/10.1007/978-3-319-65765-3_15",
+          "author": [
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/forte/HajduTVM16",
+          "title": "A Configurable CEGAR Framework with Interpolation-Based Refinements",
+          "booktitle": "FORTE",
+          "year": "2016",
+          "pages": "158-174",
+          "ee": "https://doi.org/10.1007/978-3-319-39570-8_11",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ieem/SebestyenT18",
+          "title": "Integrated Controlling Tool with Plan-fact Analysis",
+          "booktitle": "IEEM",
+          "year": "2018",
+          "pages": "731-735",
+          "ee": "https://doi.org/10.1109/IEEM.2018.8607326",
+          "author": [
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            },
+            {
+              "#text": "Zoltán Sebestyén",
+              "@pid": "33/8621"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/safecomp/TothV14",
+          "title": "Verification of a Real-Time Safety-Critical Protocol Using a Modelling Language with Formal Data and Behaviour Semantics",
+          "booktitle": "SAFECOMP Workshops",
+          "year": "2014",
+          "pages": "207-218",
+          "ee": "https://doi.org/10.1007/978-3-319-10557-4_24",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/serene/TothVM15",
+          "title": "A Decomposition Method for the Verification of a Real-Time Safety-Critical Protocol",
+          "booktitle": "SERENE",
+          "year": "2015",
+          "pages": "31-45",
+          "ee": "https://doi.org/10.1007/978-3-319-23129-7_3",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/spin/TothM18",
+          "title": "Lazy Reachability Checking for Timed Automata with Discrete Variables",
+          "booktitle": "SPIN",
+          "year": "2018",
+          "pages": "235-254",
+          "ee": "https://doi.org/10.1007/978-3-319-94111-0_14",
+          "author": [
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/acta/TothM22",
+          "title": "Configurable verification of timed automata with discrete variables",
+          "journal": "Acta Informatica",
+          "year": "2022",
+          "pages": "1-35",
+          "ee": "https://doi.org/10.1007/S00236-020-00393-4",
+          "author": [
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/abs-1708-07224",
+          "title": "Towards Evaluating Size Reduction Techniques for Software Model Checking",
+          "booktitle": "VPT@ETAPS",
+          "year": "2017",
+          "pages": "75-91",
+          "ee": "https://doi.org/10.48550/ARXIV.1708.07224",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Gyula Sallai",
+              "@pid": "17/2812"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/CzipoHTM17",
+          "title": "Exploiting Hierarchy in the Abstraction-Based Verification of Statecharts Using SMT Solvers",
+          "booktitle": "FESCA@ETAPS",
+          "year": "2017",
+          "pages": "31-45",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.07350",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Bence Czipó",
+              "@pid": "198/0525"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dss/RapcsakSTK00",
+          "title": "Evaluation of tenders in information technology",
+          "journal": "Decis. Support Syst.",
+          "year": "2000",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1016/S0167-9236(00)00078-6",
+          "author": [
+            {
+              "#text": "László Kétszeri",
+              "@pid": "276/0915"
+            },
+            {
+              "#text": "Tamás Rapcsák",
+              "@pid": "76/5136"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            },
+            {
+              "#text": "Zoltán Sági",
+              "@pid": "276/1071"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eceasst/FarkasTHV18",
+          "title": "Backward Reachability Analysis for Timed Automata with Data Variables",
+          "journal": "Electron. Commun. Eur. Assoc. Softw. Sci. Technol.",
+          "year": "2018",
+          "ee": "https://doi.org/10.14279/TUJ.ECEASST.76.1076",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Rebeka Farkas",
+              "@pid": "235/9723"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eecs/TothM17",
+          "title": "Formal Verification of Real-Time Systems with Data Processing",
+          "journal": "Period. Polytech. Electr. Eng. Comput. Sci.",
+          "year": "2017",
+          "pages": "166-174",
+          "ee": "https://doi.org/10.3311/PPEE.9766",
+          "author": [
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/joi/TothDCM24",
+          "title": "When career-boosting is on the line: Equity and inequality in grant evaluation, productivity, and the educational backgrounds of Marie Skłodowska-Curie Actions individual fellows in social sciences and humanities",
+          "journal": "J. Informetrics",
+          "year": "2024",
+          "pages": "101516",
+          "ee": "https://doi.org/10.1016/J.JOI.2024.101516",
+          "author": [
+            {
+              "#text": "Márton Demeter",
+              "@pid": "337/0041"
+            },
+            {
+              "#text": "Sándor Csuhai",
+              "@pid": "382/6302"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            },
+            {
+              "#text": "Zsolt Balázs Major",
+              "@pid": "326/5367"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jucs/HajduKTV06",
+          "title": "Applications of Neighborhood Sequence in Image Processing and Database Retrieval",
+          "journal": "J. Univers. Comput. Sci.",
+          "year": "2006",
+          "pages": "1240-1253",
+          "ee": "https://doi.org/10.3217/JUCS-012-09-1240",
+          "author": [
+            {
+              "#text": "András Hajdu",
+              "@pid": "41/4857"
+            },
+            {
+              "#text": "János Kormos",
+              "@pid": "72/298"
+            },
+            {
+              "#text": "Kristian Vereb",
+              "@pid": "88/5059"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/HajduT08",
+          "title": "Approximating non-metrical Minkowski distances in 2D",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2008",
+          "pages": "813-821",
+          "ee": "https://doi.org/10.1016/J.PATREC.2008.01.001",
+          "author": [
+            {
+              "#text": "András Hajdu",
+              "@pid": "41/4857"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scientometrics/DemeterT20",
+          "title": "The world-systemic network of global elite sociology: the western male monoculture at faculties of the top one-hundred sociology departments of the world",
+          "journal": "Scientometrics",
+          "year": "2020",
+          "pages": "2469-2495",
+          "ee": "https://doi.org/10.1007/S11192-020-03563-W",
+          "author": [
+            {
+              "#text": "Márton Demeter",
+              "@pid": "337/0041"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scientometrics/GoyanesDGTZ23",
+          "title": "Research patterns in communication (2009-2019): testing female representation and productivity differences, within the most cited authors and the field",
+          "journal": "Scientometrics",
+          "year": "2023",
+          "pages": "137-156",
+          "ee": "https://doi.org/10.1007/S11192-022-04575-4",
+          "author": [
+            {
+              "#text": "Aurea Grané",
+              "@pid": "17/8429"
+            },
+            {
+              "#text": "Homero Gil de Zúñiga",
+              "@pid": "26/9150"
+            },
+            {
+              "#text": "Manuel Goyanes",
+              "@pid": "145/0589"
+            },
+            {
+              "#text": "Márton Demeter",
+              "@pid": "337/0041"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scientometrics/GoyanesTH24",
+          "title": "Gender differences in google scholar representation and impact: an empirical analysis of political communication, journalism, health communication, and media psychology",
+          "journal": "Scientometrics",
+          "year": "2024",
+          "pages": "1719-1737",
+          "ee": "https://doi.org/10.1007/S11192-024-04945-0",
+          "author": [
+            {
+              "#text": "Gergo Háló",
+              "@pid": "357/4073"
+            },
+            {
+              "#text": "Manuel Goyanes",
+              "@pid": "145/0589"
+            },
+            {
+              "#text": "Tamás Tóth",
+              "@pid": "48/5150"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Tamas21b",
+          "title": "Abstraction Refinement-Based Verification of Timed Automata",
+          "journal": "",
+          "year": "2021",
+          "author": {
+            "#text": "Tamás Tóth",
+            "@pid": "48/5150"
+          }
+        }
       }
     ]
   }

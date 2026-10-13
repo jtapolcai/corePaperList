@@ -1,50 +1,74 @@
 {
   "dblpperson": {
+    "@name": "Csaba Krasznay",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ahfe/HamornikK17",
-        "title": "A Team-Level Perspective of Human Factors in Cyber Security: Security Operations Centers.",
-        "pages": "224-236",
-        "year": "2017",
-        "booktitle": "AHFE (9)",
-        "ee": "https://doi.org/10.1007/978-3-319-60585-2_21",
-        "url": "db/conf/ahfe/ahfe2017-9.html#HamornikK17",
-        "authors": [
-          "BalÃ¡zs PÃ©ter HÃ¡mornik",
-          "Csaba Krasznay"
-        ]
+        "inproceedings": {
+          "@key": "conf/ahfe/HamornikK17",
+          "title": "A Team-Level Perspective of Human Factors in Cyber Security: Security Operations Centers",
+          "booktitle": "AHFE (9)",
+          "year": "2018",
+          "pages": "224-236",
+          "ee": "https://doi.org/10.1007/978-3-319-60585-2_21",
+          "author": [
+            {
+              "#text": "Balázs Péter Hámornik",
+              "@pid": "164/5297"
+            },
+            {
+              "#text": "Csaba Krasznay",
+              "@pid": "297/7545"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cycon/KrasznayG21",
-        "title": "Possibilities and Limitations of Cyber Threat Intelligence in Energy Systems.",
-        "pages": "171-188",
-        "year": "2021",
-        "booktitle": "CyCon",
-        "ee": "https://doi.org/10.23919/CyCon51939.2021.9468289",
-        "url": "db/conf/cycon/cycon2021.html#KrasznayG21",
-        "authors": [
-          "Csaba Krasznay",
-          "GergÃ¶ GyebnÃ¡r"
-        ]
+        "inproceedings": {
+          "@key": "conf/cycon/KrasznayG21",
+          "title": "Possibilities and Limitations of Cyber Threat Intelligence in Energy Systems",
+          "booktitle": "CyCon",
+          "year": "2021",
+          "pages": "171-188",
+          "ee": "https://doi.org/10.23919/CYCON51939.2021.9468289",
+          "author": [
+            {
+              "#text": "Csaba Krasznay",
+              "@pid": "297/7545"
+            },
+            {
+              "#text": "Gergö Gyebnár",
+              "@pid": "297/7035"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/HuszarANK23",
-        "title": "Toward Fast and Accurate Violence Detection for Automated Video Surveillance Applications.",
-        "pages": "18772-18793",
-        "year": "2023",
-        "volume": "11",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2023.3245521",
-        "url": "db/journals/access/access11.html#HuszarANK23",
-        "authors": [
-          "Viktor DÃ©nes HuszÃ¡r",
-          "Vamsi Kiran Adhikarla",
-          "Imre NÃ©gyesi",
-          "Csaba Krasznay"
-        ]
+        "article": {
+          "@key": "journals/access/HuszarANK23",
+          "title": "Toward Fast and Accurate Violence Detection for Automated Video Surveillance Applications",
+          "journal": "IEEE Access",
+          "year": "2023",
+          "pages": "18772-18793",
+          "ee": "https://doi.org/10.1109/ACCESS.2023.3245521",
+          "author": [
+            {
+              "#text": "Csaba Krasznay",
+              "@pid": "297/7545"
+            },
+            {
+              "#text": "Imre Négyesi",
+              "@pid": "341/4827"
+            },
+            {
+              "#text": "Vamsi Kiran Adhikarla",
+              "@pid": "147/5049"
+            },
+            {
+              "#text": "Viktor Dénes Huszár",
+              "@pid": "306/2587"
+            }
+          ]
+        }
       }
     ]
   }

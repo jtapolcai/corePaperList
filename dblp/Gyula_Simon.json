@@ -1,928 +1,1451 @@
 {
   "dblpperson": {
+    "@name": "Gyula Simon",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/macro/SchneJS15",
-        "title": "Dynamic Models of a Home Refrigerator.",
-        "pages": "103-112",
-        "year": "2015",
-        "booktitle": "MACRo",
-        "ee": "https://doi.org/10.1515/macro-2015-0010",
-        "url": "db/conf/macro/macro2015.html#SchneJS15",
-        "authors": [
-          "TamÃ¡s SchnÃ©",
-          "SzilÃ¡rd JaskÃ³",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/KarsaiBPNPSK01",
+          "title": "Fault-Adaptive Control: A CBS Application",
+          "booktitle": "ECBS",
+          "year": "2001",
+          "pages": "205-",
+          "ee": "https://doi.org/10.1109/ECBS.2001.922423",
+          "author": [
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gautam Biswas",
+              "@pid": "15/6242"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Sriram Narasimhan",
+              "@pid": "53/1299"
+            },
+            {
+              "#text": "Tal Pasternak",
+              "@pid": "37/6176"
+            },
+            {
+              "#text": "Tamás Kovácsházy",
+              "@pid": "11/714"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/macro/KoszteczkyS15",
-        "title": "Sensor Fusion for Intrusion Detection With Sensor Networks.",
-        "pages": "275-282",
-        "year": "2015",
-        "booktitle": "MACRo",
-        "ee": "https://doi.org/10.1515/macro-2015-0027",
-        "url": "db/conf/macro/macro2015.html#KoszteczkyS15",
-        "authors": [
-          "Bencze Koszteczky",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/KoszteczkyS13",
+          "title": "Magnetic-based vehicle detection with sensor networks",
+          "booktitle": "I2MTC",
+          "year": "2013",
+          "pages": "265-270",
+          "ee": "https://doi.org/10.1109/I2MTC.2013.6555421",
+          "author": [
+            {
+              "#text": "Bencze Koszteczky",
+              "@pid": "224/9059"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensys/SimonMLBKNPSF04",
-        "title": "Sensor network-based countersniper system.",
-        "pages": "1-12",
-        "year": "2004",
-        "booktitle": "SenSys",
-        "ee": "https://doi.org/10.1145/1031495.1031497",
-        "url": "db/conf/sensys/sensys2004.html#SimonMLBKNPSF04",
-        "authors": [
-          "Gyula Simon",
-          "MiklÃ³s MarÃ³ti",
-          "Ãkos LÃ©deczi",
-          "GyÃ¶rgy Balogh",
-          "Branislav Kusy",
-          "AndrÃ¡s NÃ¡das",
-          "GÃ¡bor Pap",
-          "JÃ¡nos Sallai",
-          "Ken Frampton"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/KoszteczkyVS15",
+          "title": "Forest intrusion detection system with sensor network",
+          "booktitle": "I2MTC",
+          "year": "2015",
+          "pages": "1672-1676",
+          "ee": "https://doi.org/10.1109/I2MTC.2015.7151531",
+          "author": [
+            {
+              "#text": "Bencze Koszteczky",
+              "@pid": "224/9059"
+            },
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensys/MarotiKSL04",
-        "title": "The flooding time synchronization protocol.",
-        "pages": "39-49",
-        "year": "2004",
-        "booktitle": "SenSys",
-        "ee": "https://www.wikidata.org/entity/Q56475251",
-        "url": "db/conf/sensys/sensys2004.html#MarotiKSL04",
-        "authors": [
-          "MiklÃ³s MarÃ³ti",
-          "Branislav Kusy",
-          "Gyula Simon",
-          "Ãkos LÃ©deczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/RatosiVS21",
+          "title": "Measuring Camera Exposure Time Using Equivalent Sampling",
+          "booktitle": "I2MTC",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/I2MTC50364.2021.9459789",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icwn/MarotiKSL04",
-        "title": "Robust Multi-Hop Time Synchronization in Sensor Networks.",
-        "pages": "454-460",
-        "year": "2004",
-        "booktitle": "International Conference on Wireless Networks",
-        "url": "db/conf/icwn/icwn2004-1.html#MarotiKSL04",
-        "authors": [
-          "Miklos Maroti",
-          "Branislav Kusy",
-          "Gyula Simon",
-          "Ãkos LÃ©deczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/Simon24",
+          "title": "Enhanced Combined Weighted Method for TDOA-Based Localization",
+          "booktitle": "I2MTC",
+          "year": "2024",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/I2MTC60896.2024.10560551",
+          "author": {
+            "#text": "Gyula Simon",
+            "@pid": "63/18"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEssd/VakulyaS14",
-        "title": "Low power accelerometer based intrusion and tamper detector.",
-        "pages": "1-6",
-        "year": "2014",
-        "booktitle": "SSD",
-        "ee": "https://doi.org/10.1109/SSD.2014.6808878",
-        "url": "db/conf/IEEEssd/ssd2014.html#VakulyaS14",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/SmidlaS13",
+          "title": "Efficient accelerometer-based event detector in wireless sensor networks",
+          "booktitle": "I2MTC",
+          "year": "2013",
+          "pages": "732-736",
+          "ee": "https://doi.org/10.1109/I2MTC.2013.6555512",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "József Smidla",
+              "@pid": "190/1143"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwmn/RatosiS19",
-        "title": "Performance Analysis of the UFSOOK Protocol.",
-        "pages": "1-6",
-        "year": "2019",
-        "booktitle": "M&N",
-        "ee": "https://doi.org/10.1109/IWMN.2019.8805018",
-        "url": "db/conf/iwmn/ismn2019.html#RatosiS19",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/VakulyaS13",
+          "title": "Extended round-robin TDMA scheduling scheme for wireless sensor networks",
+          "booktitle": "I2MTC",
+          "year": "2013",
+          "pages": "253-258",
+          "ee": "https://doi.org/10.1109/I2MTC.2013.6555419",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwmn/SimonVR22",
-        "title": "On the Utilization of Equivalent Sampling in Undersampled Asynchronous Camera Communication Protocols.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "M&N",
-        "ee": "https://doi.org/10.1109/MN55117.2022.9887654",
-        "url": "db/conf/iwmn/ismn2022.html#SimonVR22",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya",
-          "MÃ¡rk RÃ¡tosi"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharS15",
+          "title": "Phase difference measurement of radio-interference signals with low-cost devices",
+          "booktitle": "I2MTC",
+          "year": "2015",
+          "pages": "1916-1920",
+          "ee": "https://doi.org/10.1109/I2MTC.2015.7151574",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwmn/VakulyaS13",
-        "title": "Low-power communication protocol for low duty cycle data acquisition applications.",
-        "pages": "58-62",
-        "year": "2013",
-        "booktitle": "M&N",
-        "ee": "https://doi.org/10.1109/IWMN.2013.6663777",
-        "url": "db/conf/iwmn/iwmn2013.html#VakulyaS13",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharS15a",
+          "title": "Radio interferometric tracking using redundant phase measurements",
+          "booktitle": "I2MTC",
+          "year": "2015",
+          "pages": "2003-2008",
+          "ee": "https://doi.org/10.1109/I2MTC.2015.7151590",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/qshine/MolnarSG08",
-        "title": "Robustness and performance analysis of a dynamic sensor network scheduling algorithm.",
-        "pages": "52",
-        "year": "2008",
-        "booktitle": "QSHINE",
-        "ee": "http://dl.acm.org/citation.cfm?id=1535642",
-        "url": "db/conf/qshine/qshine2008.html#MolnarSG08",
-        "authors": [
-          "MiklÃ³s MolnÃ¡r",
-          "Gyula Simon",
-          "LÃ¡szlÃ³ GÃ¶nczy"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharVS17",
+          "title": "Design of a VLC-based beaconing infrastructure for indoor localization applications",
+          "booktitle": "I2MTC",
+          "year": "2017",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/I2MTC.2017.7969837",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensornets/ZacharS14",
-        "title": "Radio-Interferometric Object Trajectory Estimation.",
-        "pages": "268-273",
-        "year": "2014",
-        "booktitle": "SENSORNETS",
-        "ee": "https://doi.org/10.5220/0004836002680273",
-        "url": "db/conf/sensornets/sensornets2014.html#ZacharS14",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/i2mtc/ZacharVS20",
+          "title": "Bearing estimation using Planar Circular Photodiode Arrays",
+          "booktitle": "I2MTC",
+          "year": "2020",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/I2MTC43012.2020.9128827",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensornets/ZacharS16",
-        "title": "Towards Distortion-tolerant Radio-interferometric Object Tracking.",
-        "pages": "207-213",
-        "year": "2016",
-        "booktitle": "SENSORNETS",
-        "ee": "https://doi.org/10.5220/0005761702070213",
-        "url": "db/conf/sensornets/sensornets2016.html#ZacharS16",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/icccn/KushwahaAVASKLS08",
+          "title": "Multi-Modal Target Tracking Using Heterogeneous Sensor Networks",
+          "booktitle": "ICCCN",
+          "year": "2008",
+          "pages": "136-143",
+          "ee": "https://doi.org/10.1109/ICCCN.2008.ECP.43",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Isaac Amundson",
+              "@pid": "35/287"
+            },
+            {
+              "#text": "Manish Kushwaha",
+              "@pid": "58/5016"
+            },
+            {
+              "#text": "Parvez Ahammad",
+              "@pid": "68/4244"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "S. Shankar Sastry",
+              "@pid": "s/ShankarSastry"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensornets/ZacharS15",
-        "title": "Prediction-aided Radio-interferometric Object Tracking.",
-        "pages": "161-168",
-        "year": "2015",
-        "booktitle": "SENSORNETS",
-        "ee": "https://doi.org/10.5220/0005241501610168",
-        "url": "db/conf/sensornets/sensornets2015.html#ZacharS15",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/icwn/MarotiKSL04",
+          "title": "Robust Multi-Hop Time Synchronization in Sensor Networks",
+          "booktitle": "International Conference on Wireless Networks",
+          "year": "2004",
+          "pages": "454-460",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icccn/KushwahaAVASKLS08",
-        "title": "Multi-Modal Target Tracking Using Heterogeneous Sensor Networks.",
-        "pages": "136-143",
-        "year": "2008",
-        "booktitle": "ICCCN",
-        "ee": "https://doi.org/10.1109/ICCCN.2008.ECP.43",
-        "url": "db/conf/icccn/icccn2008.html#KushwahaAVASKLS08",
-        "authors": [
-          "Manish Kushwaha",
-          "Isaac Amundson",
-          "PÃ©ter VÃ¶lgyesi",
-          "Parvez Ahammad",
-          "Gyula Simon",
-          "Xenofon D. Koutsoukos",
-          "Ãkos LÃ©deczi",
-          "Shankar Sastry 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEssd/VakulyaS14",
+          "title": "Low power accelerometer based intrusion and tamper detector",
+          "booktitle": "SSD",
+          "year": "2014",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/SSD.2014.6808878",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwsas/KarsaiLSPSK01",
-        "title": "An Approach to Self-adaptive Software Based on Supervisory Control.",
-        "pages": "24-38",
-        "ee": "https://doi.org/10.1007/3-540-36554-0_3",
-        "year": "2001",
-        "booktitle": "IWSAS",
-        "url": "db/conf/iwsas/iwsas2001.html#KarsaiLSPSK01",
-        "authors": [
-          "Gabor Karsai",
-          "Ãkos LÃ©deczi",
-          "Janos Sztipanovits",
-          "GÃ¡bor PÃ©celi",
-          "Gyula Simon",
-          "TamÃ¡s KovÃ¡cshÃ¡zy"
-        ]
+        "inproceedings": {
+          "@key": "conf/imcsit/VakulyaS08",
+          "title": "Energy efficient percolation-driven flood routing for large-scale sensor networks",
+          "booktitle": "IMCSIT",
+          "year": "2008",
+          "pages": "877-883",
+          "ee": "https://doi.org/10.1109/IMCSIT.2008.4747345",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwsas/SimonKP00",
-        "title": "Transient Management in Reconfigurable Systems.",
-        "pages": "90-98",
-        "ee": "https://doi.org/10.1007/3-540-44584-6_8",
-        "year": "2000",
-        "booktitle": "IWSAS",
-        "url": "db/conf/iwsas/iwsas2000.html#SimonKP00",
-        "authors": [
-          "Gyula Simon",
-          "TamÃ¡s KovÃ¡cshÃ¡zy",
-          "GÃ¡bor PÃ©celi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/RatosiS18",
+          "title": "Real-Time Localization and Tracking Using Visible Light Communication",
+          "booktitle": "IPIN",
+          "year": "2018",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/IPIN.2018.8533800",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/imcsit/VakulyaS08",
-        "title": "Energy efficient percolation-driven flood routing for large-scale sensor networks.",
-        "pages": "877-883",
-        "year": "2008",
-        "booktitle": "IMCSIT",
-        "ee": "https://doi.org/10.1109/IMCSIT.2008.4747345",
-        "url": "db/conf/imcsit/imcsit2008.html#VakulyaS08",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/RatosiS19",
+          "title": "Towards Robust VLC Beacon Identification in Camera Based Localization Systems",
+          "booktitle": "IPIN",
+          "year": "2019",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/IPIN.2019.8911767",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wises/SimonS06",
-        "title": "Acoustic source localization in sensor networks with low communication bandwidth.",
-        "pages": "155-163",
-        "year": "2006",
-        "booktitle": "WISES",
-        "ee": "https://doi.org/10.1109/WISES.2006.329125",
-        "url": "db/conf/wises/wises2006.html#SimonS06",
-        "authors": [
-          "Gyula Simon",
-          "LÃ¡szlÃ³ Sujbert"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/RatosiS21",
+          "title": "Fault Tolerant Indoor Positioning Based on Azimuth Measurements",
+          "booktitle": "IPIN-WiP",
+          "year": "2021",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/RatosiS18",
-        "title": "Real-Time Localization and Tracking Using Visible Light Communication.",
-        "pages": "1-8",
-        "year": "2018",
-        "booktitle": "IPIN",
-        "ee": "https://doi.org/10.1109/IPIN.2018.8533800",
-        "url": "db/conf/ipin/ipin2018.html#RatosiS18",
-        "authors": [
-          "Mark Ratosi",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/SimonV23",
+          "title": "Fast Calculation Method for Time Difference of Arrival-based Localization",
+          "booktitle": "IPIN",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IPIN57070.2023.10332489",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/SimonV23",
-        "title": "Fast Calculation Method for Time Difference of Arrival-based Localization.",
-        "pages": "1-5",
-        "year": "2023",
-        "booktitle": "IPIN",
-        "ee": "https://doi.org/10.1109/IPIN57070.2023.10332489",
-        "url": "db/conf/ipin/ipin2023.html#SimonV23",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipin/ZacharVS19",
+          "title": "Azimuth estimation for indoor localization using redundant planar circular photodiode array",
+          "booktitle": "IPIN (Short Papers/Work-in-Progress Papers)",
+          "year": "2019",
+          "pages": "149-156",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/RatosiS21",
-        "title": "Fault Tolerant Indoor Positioning Based on Azimuth Measurements.",
-        "year": "2021",
-        "booktitle": "IPIN-WiP",
-        "ee": "https://ceur-ws.org/Vol-3097/paper27.pdf",
-        "url": "db/conf/ipin/ipin2021wip.html#RatosiS21",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipsn/LedecziVMSBNKD05",
+          "title": "Multiple simultaneous acoustic source localization in urban terrain",
+          "booktitle": "IPSN",
+          "year": "2005",
+          "pages": "491-496",
+          "ee": "https://doi.org/10.1109/IPSN.2005.1440982",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/RatosiS19",
-        "title": "Towards Robust VLC Beacon Identification in Camera Based Localization Systems.",
-        "pages": "1-8",
-        "year": "2019",
-        "booktitle": "IPIN",
-        "ee": "https://doi.org/10.1109/IPIN.2019.8911767",
-        "url": "db/conf/ipin/ipin2019.html#RatosiS19",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwmn/RatosiS19",
+          "title": "Performance Analysis of the UFSOOK Protocol",
+          "booktitle": "M&N",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/IWMN.2019.8805018",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipin/ZacharVS19",
-        "title": "Azimuth estimation for indoor localization using redundant planar circular photodiode array.",
-        "pages": "149-156",
-        "year": "2019",
-        "booktitle": "IPIN (Short Papers/Work-in-Progress Papers)",
-        "ee": "https://ceur-ws.org/Vol-2498/short20.pdf",
-        "url": "db/conf/ipin/ipin2019s.html#ZacharVS19",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwmn/SimonVR22",
+          "title": "On the Utilization of Equivalent Sampling in Undersampled Asynchronous Camera Communication Protocols",
+          "booktitle": "M&N",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MN55117.2022.9887654",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/KarsaiBPNPSK01",
-        "title": "Fault-Adaptive Control: A CBS Application.",
-        "pages": "205-",
-        "year": "2001",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2001.922423",
-        "url": "db/conf/ecbs/ecbs2001.html#KarsaiBPNPSK01",
-        "authors": [
-          "Gabor Karsai",
-          "Gautam Biswas",
-          "Tal Pasternak",
-          "Sriram Narasimhan",
-          "GÃ¡bor PÃ©celi",
-          "Gyula Simon",
-          "TamÃ¡s KovÃ¡cshÃ¡zy"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwmn/VakulyaS13",
+          "title": "Low-power communication protocol for low duty cycle data acquisition applications",
+          "booktitle": "M&N",
+          "year": "2013",
+          "pages": "58-62",
+          "ee": "https://doi.org/10.1109/IWMN.2013.6663777",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/KoszteczkyS13",
-        "title": "Magnetic-based vehicle detection with sensor networks.",
-        "pages": "265-270",
-        "year": "2013",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2013.6555421",
-        "url": "db/conf/i2mtc/i2mtc2013.html#KoszteczkyS13",
-        "authors": [
-          "Bencze Koszteczky",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwsas/KarsaiLSPSK01",
+          "title": "An Approach to Self-adaptive Software Based on Supervisory Control",
+          "booktitle": "IWSAS",
+          "year": "2003",
+          "pages": "24-38",
+          "ee": "https://doi.org/10.1007/3-540-36554-0_3",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Tamás Kovácsházy",
+              "@pid": "11/714"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharVS17",
-        "title": "Design of a VLC-based beaconing infrastructure for indoor localization applications.",
-        "pages": "1-6",
-        "year": "2017",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2017.7969837",
-        "url": "db/conf/i2mtc/i2mtc2017.html#ZacharVS17",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwsas/SimonKP00",
+          "title": "Transient Management in Reconfigurable Systems",
+          "booktitle": "IWSAS",
+          "year": "2001",
+          "pages": "90-98",
+          "ee": "https://doi.org/10.1007/3-540-44584-6_8",
+          "author": [
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Tamás Kovácsházy",
+              "@pid": "11/714"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharVS20",
-        "title": "Bearing estimation using Planar Circular Photodiode Arrays.",
-        "pages": "1-5",
-        "year": "2020",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC43012.2020.9128827",
-        "url": "db/conf/i2mtc/i2mtc2020.html#ZacharVS20",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/macro/KoszteczkyS15",
+          "title": "Sensor Fusion for Intrusion Detection With Sensor Networks",
+          "booktitle": "MACRo",
+          "year": "2015",
+          "pages": "275-282",
+          "ee": "https://doi.org/10.1515/MACRO-2015-0027",
+          "author": [
+            {
+              "#text": "Bencze Koszteczky",
+              "@pid": "224/9059"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharS15a",
-        "title": "Radio interferometric tracking using redundant phase measurements.",
-        "pages": "2003-2008",
-        "year": "2015",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2015.7151590",
-        "url": "db/conf/i2mtc/i2mtc2015.html#ZacharS15a",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/macro/SchneJS15",
+          "title": "Dynamic Models of a Home Refrigerator",
+          "booktitle": "MACRo",
+          "year": "2015",
+          "pages": "103-112",
+          "ee": "https://doi.org/10.1515/MACRO-2015-0010",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            },
+            {
+              "#text": "Tamás Schné",
+              "@pid": "81/9339"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/RatosiVS21",
-        "title": "Measuring Camera Exposure Time Using Equivalent Sampling.",
-        "pages": "1-6",
-        "year": "2021",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC50364.2021.9459789",
-        "url": "db/conf/i2mtc/i2mtc2021.html#RatosiVS21",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/qshine/MolnarSG08",
+          "title": "Robustness and performance analysis of a dynamic sensor network scheduling algorithm",
+          "booktitle": "QSHINE",
+          "year": "2008",
+          "pages": "52",
+          "ee": "https://doi.org/10.4108/ICST.QSHINE2008.4091",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Miklós Molnár",
+              "@pid": "45/133"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/KoszteczkyVS15",
-        "title": "Forest intrusion detection system with sensor network.",
-        "pages": "1672-1676",
-        "year": "2015",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2015.7151531",
-        "url": "db/conf/i2mtc/i2mtc2015.html#KoszteczkyVS15",
-        "authors": [
-          "Bencze Koszteczky",
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensornets/ZacharS14",
+          "title": "Radio-Interferometric Object Trajectory Estimation",
+          "booktitle": "SENSORNETS",
+          "year": "2014",
+          "pages": "268-273",
+          "ee": "https://doi.org/10.5220/0004836002680273",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/Simon24",
-        "title": "Enhanced Combined Weighted Method for TDOA-Based Localization.",
-        "pages": "1-6",
-        "year": "2024",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC60896.2024.10560551",
-        "url": "db/conf/i2mtc/i2mtc2024.html#Simon24",
-        "authors": [
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensornets/ZacharS15",
+          "title": "Prediction-aided Radio-interferometric Object Tracking",
+          "booktitle": "SENSORNETS",
+          "year": "2015",
+          "pages": "161-168",
+          "ee": "https://doi.org/10.5220/0005241501610168",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/ZacharS15",
-        "title": "Phase difference measurement of radio-interference signals with low-cost devices.",
-        "pages": "1916-1920",
-        "year": "2015",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2015.7151574",
-        "url": "db/conf/i2mtc/i2mtc2015.html#ZacharS15",
-        "authors": [
-          "Gergely ZachÃ¡r",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensornets/ZacharS16",
+          "title": "Towards Distortion-tolerant Radio-interferometric Object Tracking",
+          "booktitle": "SENSORNETS",
+          "year": "2016",
+          "pages": "207-213",
+          "ee": "https://doi.org/10.5220/0005761702070213",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/SmidlaS13",
-        "title": "Efficient accelerometer-based event detector in wireless sensor networks.",
-        "pages": "732-736",
-        "year": "2013",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2013.6555512",
-        "url": "db/conf/i2mtc/i2mtc2013.html#SmidlaS13",
-        "authors": [
-          "JÃ³zsef Smidla",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensys/MarotiKSL04",
+          "title": "The flooding time synchronization protocol",
+          "booktitle": "SenSys",
+          "year": "2004",
+          "pages": "39-49",
+          "ee": "https://doi.org/10.1145/1031495.1031501",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/i2mtc/VakulyaS13",
-        "title": "Extended round-robin TDMA scheduling scheme for wireless sensor networks.",
-        "pages": "253-258",
-        "year": "2013",
-        "booktitle": "I2MTC",
-        "ee": "https://doi.org/10.1109/I2MTC.2013.6555419",
-        "url": "db/conf/i2mtc/i2mtc2013.html#VakulyaS13",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/sensys/SimonMLBKNPSF04",
+          "title": "Sensor network-based countersniper system",
+          "booktitle": "SenSys",
+          "year": "2004",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1145/1031495.1031497",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gábor Pap",
+              "@pid": "58/4702"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Ken Frampton",
+              "@pid": "30/4943"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipsn/LedecziVMSBNKD05",
-        "title": "Multiple simultaneous acoustic source localization in urban terrain.",
-        "pages": "491-496",
-        "year": "2005",
-        "booktitle": "IPSN",
-        "ee": "http://dl.acm.org/citation.cfm?id=1147771",
-        "url": "db/conf/ipsn/ipsn2005.html#LedecziVMSBNKD05",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "PÃ©ter VÃ¶lgyesi",
-          "Miklos Maroti",
-          "Gyula Simon",
-          "GyÃ¶rgy Balogh",
-          "AndrÃ¡s NÃ¡das",
-          "Branislav Kusy",
-          "Sebestyen DÃ³ra"
-        ]
+        "inproceedings": {
+          "@key": "conf/wises/SimonS06",
+          "title": "Acoustic source localization in sensor networks with low communication bandwidth",
+          "booktitle": "WISES",
+          "year": "2006",
+          "pages": "155-163",
+          "ee": "https://doi.org/10.1109/WISES.2006.329125",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Sujbert",
+              "@pid": "11/9645"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/RatosiS20",
-        "title": "Robust VLC Beacon Identification for Indoor Camera-Based Localization Systems.",
-        "pages": "2522",
-        "year": "2020",
-        "volume": "20",
-        "journal": "Sensors",
-        "number": "9",
-        "ee": "https://www.wikidata.org/entity/Q94514529",
-        "url": "db/journals/sensors/sensors20.html#RatosiS20",
-        "authors": [
-          "MÃ¡rk RÃ¡tosi",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/access/LedecziSVMHS26",
+          "title": "Acoustic Shooter Localization With Consistency-Function Fusion in Sparse Sensor Networks",
+          "journal": "IEEE Access",
+          "year": "2026",
+          "pages": "98191-98211",
+          "ee": "https://doi.org/10.1109/ACCESS.2026.3703320",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/SimonVR22",
-        "title": "The Way to Modern Shutter Speed Measurement Methods: A Historical Overview.",
-        "pages": "1871",
-        "year": "2022",
-        "volume": "22",
-        "journal": "Sensors",
-        "number": "5",
-        "ee": "https://doi.org/10.3390/s22051871",
-        "url": "db/journals/sensors/sensors22.html#SimonVR22",
-        "authors": [
-          "Gyula Simon",
-          "Gergely Vakulya",
-          "MÃ¡rk RÃ¡tosi"
-        ]
+        "article": {
+          "@key": "journals/computer/MarotiSLS04",
+          "title": "Shooter Localization in Urban Terrain",
+          "journal": "Computer",
+          "year": "2004",
+          "pages": "60-61",
+          "ee": "https://doi.org/10.1109/MC.2004.104",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/SimonZ24",
-        "title": "Fast and Fault-Tolerant Passive Hyperbolic Localization Using Sensor Consensus.",
-        "pages": "2891",
-        "year": "2024",
-        "volume": "24",
-        "journal": "Sensors",
-        "number": "9",
-        "ee": "https://doi.org/10.3390/s24092891",
-        "url": "db/journals/sensors/sensors24.html#SimonZ24",
-        "authors": [
-          "Gyula Simon",
-          "Gergely ZachÃ¡r"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-0710-3918",
+          "title": "Dependable k-coverage algorithms for sensor networks",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.0710.3918",
+          "author": [
+            {
+              "#text": "Bernard Cousin",
+              "@pid": "c/BernardCousin"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Miklós Molnár",
+              "@pid": "45/133"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/SmidlaS13",
-        "title": "Accelerometer-Based Event Detector for Low-Power Applications.",
-        "pages": "13978-13997",
-        "year": "2013",
-        "volume": "13",
-        "journal": "Sensors",
-        "number": "10",
-        "ee": "https://www.wikidata.org/entity/Q30446012",
-        "url": "db/journals/sensors/sensors13.html#SmidlaS13",
-        "authors": [
-          "JÃ³zsef Smidla",
-          "Gyula Simon"
-        ]
+        "inproceedings": {
+          "@key": "journals/entcs/AgrawalSK04",
+          "title": "Semantic Translation of Simulink/Stateflow Models to Hybrid Automata Using Graph Transformations",
+          "booktitle": "GT-VMT@ETAPS",
+          "year": "2004",
+          "pages": "43-56",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2004.02.055",
+          "author": [
+            {
+              "#text": "Aditya Agrawal",
+              "@pid": "53/4349"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tosn/LedecziNVBKSPDMMS05",
-        "title": "Countersniper system for urban warfare.",
-        "pages": "153-177",
-        "year": "2005",
-        "volume": "1",
-        "journal": "ACM Trans. Sens. Networks",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/1105688.1105689",
-        "url": "db/journals/tosn/tosn1.html#LedecziNVBKSPDMMS05",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "AndrÃ¡s NÃ¡das",
-          "PÃ©ter VÃ¶lgyesi",
-          "GyÃ¶rgy Balogh",
-          "Branislav Kusy",
-          "JÃ¡nos Sallai",
-          "GÃ¡bor Pap",
-          "Sebestyen DÃ³ra",
-          "KÃ¡roly MolnÃ¡r",
-          "MiklÃ³s MarÃ³ti",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/ijahuc/MolnarSG13",
+          "title": "Quasi-optimal scheduling algorithm for area coverage in multi-functional sensor networks",
+          "journal": "Int. J. Ad Hoc Ubiquitous Comput.",
+          "year": "2013",
+          "pages": "109-122",
+          "ee": "https://doi.org/10.1504/IJAHUC.2013.056418",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Miklós Molnár",
+              "@pid": "45/133"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/LedecziSVMHS26",
-        "title": "Acoustic Shooter Localization With Consistency-Function Fusion in Sparse Sensor Networks.",
-        "year": "2026",
-        "pages": "98191-98211",
-        "volume": "14",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2026.3703320",
-        "url": "db/journals/access/access14.html#LedecziSVMHS26",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "JÃ¡nos Sallai",
-          "PÃ©ter VÃ¶lgyesi",
-          "MiklÃ³s MarÃ³ti",
-          "Will Hedgecock",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/sensors/RatosiS20",
+          "title": "Robust VLC Beacon Identification for Indoor Camera-Based Localization Systems",
+          "journal": "Sensors",
+          "year": "2020",
+          "pages": "2522",
+          "ee": "https://doi.org/10.3390/S20092522",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/computer/MarotiSLS04",
-        "title": "Shooter Localization in Urban Terrain.",
-        "pages": "60-61",
-        "year": "2004",
-        "volume": "37",
-        "journal": "Computer",
-        "number": "8",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/MC.2004.104",
-        "url": "db/journals/computer/computer37.html#MarotiSLS04",
-        "authors": [
-          "Miklos Maroti",
-          "Gyula Simon",
-          "Ãkos LÃ©deczi",
-          "Janos Sztipanovits"
-        ]
+        "article": {
+          "@key": "journals/sensors/SimonVR22",
+          "title": "The Way to Modern Shutter Speed Measurement Methods: A Historical Overview",
+          "journal": "Sensors",
+          "year": "2022",
+          "pages": "1871",
+          "ee": "https://doi.org/10.3390/S22051871",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonPSS02",
-        "title": "An efficient nonlinear least square multisine fitting algorithm.",
-        "pages": "750-755",
-        "year": "2002",
-        "volume": "51",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "4",
-        "ee": "https://doi.org/10.1109/TIM.2002.803304",
-        "url": "db/journals/tim/tim51.html#SimonPSS02",
-        "authors": [
-          "Gyula Simon",
-          "Rik Pintelon",
-          "LÃ¡szlÃ³ Sujbert",
-          "Johan Schoukens"
-        ]
+        "article": {
+          "@key": "journals/sensors/SimonZ24",
+          "title": "Fast and Fault-Tolerant Passive Hyperbolic Localization Using Sensor Consensus",
+          "journal": "Sensors",
+          "year": "2024",
+          "pages": "2891",
+          "ee": "https://doi.org/10.3390/S24092891",
+          "author": [
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/Varkonyi-KoczySSF98",
-        "title": "A fast filter-bank for adaptive Fourier analysis.",
-        "pages": "1124-1128",
-        "year": "1998",
-        "volume": "47",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/19.746568",
-        "url": "db/journals/tim/tim47.html#Varkonyi-KoczySSF98",
-        "authors": [
-          "AnnamÃ¡ria R. VÃ¡rkonyi-KÃ³czy",
-          "Gyula Simon",
-          "LÃ¡szlÃ³ Sujbert",
-          "MÃ¡rk FÃ©k"
-        ]
+        "article": {
+          "@key": "journals/sensors/SmidlaS13",
+          "title": "Accelerometer-Based Event Detector for Low-Power Applications",
+          "journal": "Sensors",
+          "year": "2013",
+          "pages": "13978-13997",
+          "ee": "https://doi.org/10.3390/S131013978",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "József Smidla",
+              "@pid": "190/1143"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonR20",
-        "title": "Characterization and Measurement of Performance Properties of the UFSOOK Camera Communication Protocol.",
-        "pages": "7982-7989",
-        "year": "2020",
-        "volume": "69",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "10",
-        "ee": "https://doi.org/10.1109/TIM.2020.2981219",
-        "url": "db/journals/tim/tim69.html#SimonR20",
-        "authors": [
-          "Gyula Simon",
-          "MÃ¡rk RÃ¡tosi"
-        ]
+        "article": {
+          "@key": "journals/spm/SujbertSP20",
+          "title": "An Observer-Based Adaptive Fourier Analysis [Tips & Tricks]",
+          "journal": "IEEE Signal Process. Mag.",
+          "year": "2020",
+          "pages": "134-143",
+          "ee": "https://doi.org/10.1109/MSP.2020.2982167",
+          "author": [
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Sujbert",
+              "@pid": "11/9645"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonS00",
-        "title": "Robust broadband periodic excitation design.",
-        "pages": "270-274",
-        "year": "2000",
-        "volume": "49",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "2",
-        "ee": "https://doi.org/10.1109/19.843062",
-        "url": "db/journals/tim/tim49.html#SimonS00",
-        "authors": [
-          "Gyula Simon",
-          "Johan Schoukens"
-        ]
+        "article": {
+          "@key": "journals/tim/JaskoS11",
+          "title": "CSP-Based Sensor Network Architecture for Reconfigurable Measurement Systems",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2011",
+          "pages": "2104-2117",
+          "ee": "https://doi.org/10.1109/TIM.2011.2117210",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Szilárd Jaskó",
+              "@pid": "14/7620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonMGC08",
-        "title": "Robust k-Coverage Algorithms for Sensor Networks.",
-        "pages": "1741-1748",
-        "year": "2008",
-        "volume": "57",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "8",
-        "ee": "https://www.wikidata.org/entity/Q59413629",
-        "url": "db/journals/tim/tim57.html#SimonMGC08",
-        "authors": [
-          "Gyula Simon",
-          "MiklÃ³s MolnÃ¡r",
-          "LÃ¡szlÃ³ GÃ¶nczy",
-          "Bernard Cousin"
-        ]
+        "article": {
+          "@key": "journals/tim/KovacshazyPS01",
+          "title": "Transients in reconfigurable signal processing channels",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2001",
+          "pages": "936-940",
+          "ee": "https://doi.org/10.1109/19.948303",
+          "author": [
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Tamás Kovácsházy",
+              "@pid": "11/714"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/JaskoS11",
-        "title": "CSP-Based Sensor Network Architecture for Reconfigurable Measurement Systems.",
-        "pages": "2104-2117",
-        "year": "2011",
-        "volume": "60",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "6",
-        "ee": "https://doi.org/10.1109/TIM.2011.2117210",
-        "url": "db/journals/tim/tim60.html#JaskoS11",
-        "authors": [
-          "SzilÃ¡rd JaskÃ³",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/tim/SchoukensRSP03",
+          "title": "Fully automated spectral analysis of periodic signals",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2003",
+          "pages": "1021-1024",
+          "ee": "https://doi.org/10.1109/TIM.2003.814817",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Johan Schoukens",
+              "@pid": "52/5567"
+            },
+            {
+              "#text": "Rik Pintelon",
+              "@pid": "21/5525"
+            },
+            {
+              "#text": "Yves Rolain",
+              "@pid": "01/6061"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SchoukensRSP03",
-        "title": "Fully automated spectral analysis of periodic signals.",
-        "pages": "1021-1024",
-        "year": "2003",
-        "volume": "52",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "4",
-        "ee": "https://doi.org/10.1109/TIM.2003.814817",
-        "url": "db/journals/tim/tim52.html#SchoukensRSP03",
-        "authors": [
-          "Johan Schoukens",
-          "Yves Rolain",
-          "Gyula Simon",
-          "Rik Pintelon"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonMGC08",
+          "title": "Robust k-Coverage Algorithms for Sensor Networks",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2008",
+          "pages": "1741-1748",
+          "ee": "https://doi.org/10.1109/TIM.2008.922072",
+          "author": [
+            {
+              "#text": "Bernard Cousin",
+              "@pid": "c/BernardCousin"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Miklós Molnár",
+              "@pid": "45/133"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonZV17",
-        "title": "Lookup: Robust and Accurate Indoor Localization Using Visible Light Communication.",
-        "pages": "2337-2348",
-        "year": "2017",
-        "volume": "66",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "9",
-        "ee": "https://doi.org/10.1109/TIM.2017.2707878",
-        "url": "db/journals/tim/tim66.html#SimonZV17",
-        "authors": [
-          "Gyula Simon",
-          "Gergely ZachÃ¡r",
-          "Gergely Vakulya"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonPSS02",
+          "title": "An efficient nonlinear least square multisine fitting algorithm",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2002",
+          "pages": "750-755",
+          "ee": "https://doi.org/10.1109/TIM.2002.803304",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Johan Schoukens",
+              "@pid": "52/5567"
+            },
+            {
+              "#text": "László Sujbert",
+              "@pid": "11/9645"
+            },
+            {
+              "#text": "Rik Pintelon",
+              "@pid": "21/5525"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SujbertPS05",
-        "title": "Resonator-based nonparametric identification of linear systems.",
-        "pages": "386-390",
-        "year": "2005",
-        "volume": "54",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TIM.2004.840244",
-        "url": "db/journals/tim/tim54.html#SujbertPS05",
-        "authors": [
-          "LÃ¡szlÃ³ Sujbert",
-          "GÃ¡bor PÃ©celi",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonR20",
+          "title": "Characterization and Measurement of Performance Properties of the UFSOOK Camera Communication Protocol",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2020",
+          "pages": "7982-7989",
+          "ee": "https://doi.org/10.1109/TIM.2020.2981219",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/KovacshazyPS01",
-        "title": "Transients in reconfigurable signal processing channels.",
-        "pages": "936-940",
-        "year": "2001",
-        "volume": "50",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "4",
-        "ee": "https://doi.org/10.1109/19.948303",
-        "url": "db/journals/tim/tim50.html#KovacshazyPS01",
-        "authors": [
-          "TamÃ¡s KovÃ¡cshÃ¡zy",
-          "GÃ¡bor PÃ©celi",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonRV22",
+          "title": "Automatic Measurement of Digital Cameras' Exposure Time Using Equivalent Sampling",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2022",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/TIM.2022.3186372",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Mark Ratosi",
+              "@pid": "230/1096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/SimonRV22",
-        "title": "Automatic Measurement of Digital Cameras' Exposure Time Using Equivalent Sampling.",
-        "pages": "1-10",
-        "year": "2022",
-        "volume": "71",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "ee": "https://doi.org/10.1109/TIM.2022.3186372",
-        "url": "db/journals/tim/tim71.html#SimonRV22",
-        "authors": [
-          "Gyula Simon",
-          "MÃ¡rk RÃ¡tosi",
-          "Gergely Vakulya"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonS00",
+          "title": "Robust broadband periodic excitation design",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2000",
+          "pages": "270-274",
+          "ee": "https://doi.org/10.1109/19.843062",
+          "author": [
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Johan Schoukens",
+              "@pid": "52/5567"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tim/VakulyaS11",
-        "title": "Fast Adaptive Acoustic Localization for Sensor Networks.",
-        "pages": "1820-1829",
-        "year": "2011",
-        "volume": "60",
-        "journal": "IEEE Trans. Instrum. Meas.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/TIM.2011.2108074",
-        "url": "db/journals/tim/tim60.html#VakulyaS11",
-        "authors": [
-          "Gergely Vakulya",
-          "Gyula Simon"
-        ]
+        "article": {
+          "@key": "journals/tim/SimonZV17",
+          "title": "Lookup: Robust and Accurate Indoor Localization Using Visible Light Communication",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2017",
+          "pages": "2337-2348",
+          "ee": "https://doi.org/10.1109/TIM.2017.2707878",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gergely Zachár",
+              "@pid": "145/2665"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijahuc/MolnarSG13",
-        "title": "Quasi-optimal scheduling algorithm for area coverage in multi-functional sensor networks.",
-        "pages": "109-122",
-        "year": "2013",
-        "volume": "14",
-        "journal": "Int. J. Ad Hoc Ubiquitous Comput.",
-        "number": "2",
-        "ee": "https://doi.org/10.1504/IJAHUC.2013.056418",
-        "url": "db/journals/ijahuc/ijahuc14.html#MolnarSG13",
-        "authors": [
-          "MiklÃ³s MolnÃ¡r",
-          "Gyula Simon",
-          "LÃ¡szlÃ³ GÃ¶nczy"
-        ]
+        "article": {
+          "@key": "journals/tim/SujbertPS05",
+          "title": "Resonator-based nonparametric identification of linear systems",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2005",
+          "pages": "386-390",
+          "ee": "https://doi.org/10.1109/TIM.2004.840244",
+          "author": [
+            {
+              "#text": "Gábor Péceli",
+              "@pid": "51/1565"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Sujbert",
+              "@pid": "11/9645"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/spm/SujbertSP20",
-        "title": "An Observer-Based Adaptive Fourier Analysis [Tips & Tricks].",
-        "pages": "134-143",
-        "year": "2020",
-        "volume": "37",
-        "journal": "IEEE Signal Process. Mag.",
-        "number": "4",
-        "ee": "https://doi.org/10.1109/MSP.2020.2982167",
-        "url": "db/journals/spm/spm37.html#SujbertSP20",
-        "authors": [
-          "LÃ¡szlÃ³ Sujbert",
-          "Gyula Simon",
-          "GÃ¡bor PÃ©celi"
-        ]
+        "article": {
+          "@key": "journals/tim/VakulyaS11",
+          "title": "Fast Adaptive Acoustic Localization for Sensor Networks",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "2011",
+          "pages": "1820-1829",
+          "ee": "https://doi.org/10.1109/TIM.2011.2108074",
+          "author": [
+            {
+              "#text": "Gergely Vakulya",
+              "@pid": "55/8120"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "journals/entcs/AgrawalSK04",
-        "title": "Semantic Translation of Simulink/Stateflow Models to Hybrid Automata Using Graph Transformations.",
-        "pages": "43-56",
-        "year": "2004",
-        "booktitle": "GT-VMT@ETAPS",
-        "ee": "https://doi.org/10.1016/j.entcs.2004.02.055",
-        "url": "db/journals/entcs/entcs109.html#AgrawalSK04",
-        "authors": [
-          "Aditya Agrawal",
-          "Gyula Simon",
-          "Gabor Karsai"
-        ]
+        "article": {
+          "@key": "journals/tim/Varkonyi-KoczySSF98",
+          "title": "A fast filter-bank for adaptive Fourier analysis",
+          "journal": "IEEE Trans. Instrum. Meas.",
+          "year": "1998",
+          "pages": "1124-1128",
+          "ee": "https://doi.org/10.1109/19.746568",
+          "author": [
+            {
+              "#text": "Annamária R. Várkonyi-Kóczy",
+              "@pid": "97/6671"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "László Sujbert",
+              "@pid": "11/9645"
+            },
+            {
+              "#text": "Márk Fék",
+              "@pid": "36/1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-0710-3918",
-        "title": "Dependable k-coverage algorithms for sensor networks",
-        "ee": "https://doi.org/10.48550/arXiv.0710.3918",
-        "year": "2007",
-        "journal": "CoRR",
-        "volume": "abs/0710.3918",
-        "url": "db/journals/corr/corr0710.html#abs-0710-3918",
-        "authors": [
-          "Gyula Simon",
-          "MiklÃ³s MolnÃ¡r",
-          "LÃ¡szlÃ³ GÃ¶nczy",
-          "Bernard Cousin"
-        ]
+        "article": {
+          "@key": "journals/tosn/LedecziNVBKSPDMMS05",
+          "title": "Countersniper system for urban warfare",
+          "journal": "ACM Trans. Sens. Networks",
+          "year": "2005",
+          "pages": "153-177",
+          "ee": "https://doi.org/10.1145/1105688.1105689",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gábor Pap",
+              "@pid": "58/4702"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Károly Molnár",
+              "@pid": "53/1074"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
       }
     ]
   }

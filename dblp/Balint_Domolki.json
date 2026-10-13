@@ -1,0 +1,40 @@
+{
+  "dblpperson": {
+    "@name": "Bálint Dömölki",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/ac/Domolki79",
+          "title": "An Example of Hierarchical Program Specification",
+          "booktitle": "Abstract Software Specifications",
+          "year": "1980",
+          "pages": "333-353",
+          "ee": "https://doi.org/10.1007/3-540-10007-5_42",
+          "author": {
+            "#text": "Bálint Dömölki",
+            "@pid": "04/672"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip/DomolkiS83",
+          "title": "Prolog in Practice",
+          "booktitle": "IFIP Congress",
+          "year": "1983",
+          "pages": "627-636",
+          "author": [
+            {
+              "#text": "Bálint Dömölki",
+              "@pid": "04/672"
+            },
+            {
+              "#text": "Péter Szeredi",
+              "@pid": "s/PeterSzeredi"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

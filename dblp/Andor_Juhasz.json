@@ -1,21 +1,34 @@
 {
   "dblpperson": {
+    "@name": "Andor Juhasz",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/cvpr/CsurkaKJH20",
-        "title": "Estimating Low-Rank Region Likelihood Maps.",
-        "pages": "13773-13782",
-        "year": "2020",
-        "booktitle": "CVPR",
-        "ee": "https://doi.org/10.1109/CVPR42600.2020.01379",
-        "url": "db/conf/cvpr/cvpr2020.html#CsurkaKJH20",
-        "authors": [
-          "Gabriela Csurka",
-          "Zoltan Kato",
-          "Andor Juhasz",
-          "Martin Humenberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvpr/CsurkaKJH20",
+          "title": "Estimating Low-Rank Region Likelihood Maps",
+          "booktitle": "CVPR",
+          "year": "2020",
+          "pages": "13773-13782",
+          "ee": "https://doi.org/10.1109/CVPR42600.2020.01379",
+          "author": [
+            {
+              "#text": "Andor Juhasz",
+              "@pid": "272/1024"
+            },
+            {
+              "#text": "Gabriela Csurka",
+              "@pid": "c/GabrielaCsurka"
+            },
+            {
+              "#text": "Martin Humenberger",
+              "@pid": "53/2870"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       }
     ]
   }

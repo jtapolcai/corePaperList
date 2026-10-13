@@ -1,20 +1,38 @@
 {
   "dblpperson": {
+    "@name": "Attila Barna",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/iccv/BarnaKC25",
-        "title": "From Cosmos to Clinic: Interpretable Spatial Statistics for Histopathology Prognosis.",
-        "booktitle": "ICCVW",
-        "year": "2025",
-        "pages": "922-929",
-        "ee": "https://doi.org/10.1109/ICCVW69036.2025.00100",
-        "url": "db/conf/iccv/iccv2025w.html#BarnaKC25",
-        "authors": [
-          "Attila Barna",
-          "Oz Kilim",
-          "IstvÃ¡n Csabai"
-        ]
+        "inproceedings": {
+          "@key": "conf/sisy/MateNSKS16",
+          "title": "Legendárium navigator: Software system for supporting transylvanian tourism",
+          "booktitle": "SISY",
+          "year": "2016",
+          "pages": "233-238",
+          "ee": "https://doi.org/10.1109/SISY.2016.7601504",
+          "author": [
+            {
+              "#text": "Attila Barna Mate",
+              "@pid": "188/4411"
+            },
+            {
+              "#text": "Denes-Balint Kelemen-Feher",
+              "@pid": "188/4443"
+            },
+            {
+              "#text": "Károly Simon",
+              "@pid": "80/6719"
+            },
+            {
+              "#text": "Roland Nagy",
+              "@pid": "188/4408"
+            },
+            {
+              "#text": "Zsolt Szecsi",
+              "@pid": "171/1697"
+            }
+          ]
+        }
       }
     ]
   }

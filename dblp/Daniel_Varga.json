@@ -1,29 +1,966 @@
 {
   "dblpperson": {
+    "@name": "Dániel Varga",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/coling/Varga69",
-        "title": "Problem of Improving the Efficiency of Parsing Systems.",
-        "year": "1969",
-        "booktitle": "COLING",
-        "ee": "https://aclanthology.org/C69-6101/",
-        "url": "db/conf/coling/coling1969.html#Varga69",
-        "authors": [
-          "Daniel Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/acpr/VargaLSDVF19",
+          "title": "On Fast Point Cloud Matching with Key Points and Parameter Tuning",
+          "booktitle": "ACPR (1)",
+          "year": "2020",
+          "pages": "498-511",
+          "ee": "https://doi.org/10.1007/978-3-030-41404-7_35",
+          "author": [
+            {
+              "#text": "Bence Formanek",
+              "@pid": "188/5173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Péter Vaderna",
+              "@pid": "47/6999"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coling/Varga65",
-        "title": "Syntactic Analysis in the Case of Highly Inflecting Languages.",
-        "year": "1965",
-        "booktitle": "COLING",
-        "ee": "https://aclanthology.org/C65-1029/",
-        "url": "db/conf/coling/coling1965.html#Varga65",
-        "authors": [
-          "Daniel Varga"
-        ]
+        "inproceedings": {
+          "@key": "conf/adbis/VargaSL21",
+          "title": "The Descriptiveness of Feature Descriptors with Reduced Dimensionality",
+          "booktitle": "ADBIS (Short Papers)",
+          "year": "2021",
+          "pages": "317-322",
+          "ee": "https://doi.org/10.1007/978-3-030-85082-1_29",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lrec/HajlaouiKVSV14",
+          "title": "DCEP -Digital Corpus of the European Parliament",
+          "booktitle": "LREC",
+          "year": "2014",
+          "pages": "3164-3171",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "David Kolovratník",
+              "@pid": "48/10163"
+            },
+            {
+              "#text": "Jaakko Väyrynen",
+              "@pid": "14/9012"
+            },
+            {
+              "#text": "Najeh Hajlaoui",
+              "@pid": "47/5392"
+            },
+            {
+              "#text": "Ralf Steinberger",
+              "@pid": "54/1241"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lrec/HalacsyKNV08",
+          "title": "Parallel Creation of Gigaword Corpora for Medium Density Languages - an Interim Report",
+          "booktitle": "LREC",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "András Kornai",
+              "@pid": "99/1066"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Péter Halácsy",
+              "@pid": "55/6717"
+            },
+            {
+              "#text": "Péter Németh",
+              "@pid": "14/8163"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lrec/HalacsyKOTV06",
+          "title": "Using a morphological analyzer in high precision POS tagging of Hungarian",
+          "booktitle": "LREC",
+          "year": "2006",
+          "pages": "2245-2248",
+          "author": [
+            {
+              "#text": "András Kornai",
+              "@pid": "99/1066"
+            },
+            {
+              "#text": "Csaba Oravecz",
+              "@pid": "18/5683"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Péter Halácsy",
+              "@pid": "55/6717"
+            },
+            {
+              "#text": "Viktor Trón",
+              "@pid": "37/1755"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lrec/SteinbergerPWIE06",
+          "title": "The JRC-Acquis: A Multilingual Aligned Parallel Corpus with 20+ Languages",
+          "booktitle": "LREC",
+          "year": "2006",
+          "pages": "2142-2147",
+          "author": [
+            {
+              "#text": "Anna Widiger",
+              "@pid": "24/2882"
+            },
+            {
+              "#text": "Bruno Pouliquen",
+              "@pid": "59/506"
+            },
+            {
+              "#text": "Camelia Ignat",
+              "@pid": "76/3440"
+            },
+            {
+              "#text": "Dan Tufis",
+              "@pid": "28/2942"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Ralf Steinberger",
+              "@pid": "54/1241"
+            },
+            {
+              "#text": "Tomaz Erjavec",
+              "@pid": "69/5105"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/lrec/ZsederRVK12",
+          "title": "Rapid creation of large-scale corpora and frequency dictionaries",
+          "booktitle": "LREC",
+          "year": "2012",
+          "pages": "1462-1465",
+          "author": [
+            {
+              "#text": "András Kornai",
+              "@pid": "99/1066"
+            },
+            {
+              "#text": "Attila Zséder",
+              "@pid": "96/8154"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gábor Recski",
+              "@pid": "126/8037"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/ChristCBV25",
+          "title": "The Structure of Relation Decoding Linear Operators in Large Language Models",
+          "booktitle": "NeurIPS",
+          "year": "2025",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Becsó",
+              "@pid": "420/3330"
+            },
+            {
+              "#text": "Miranda Anna Christ",
+              "@pid": "420/3677"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/CsiszarikKMPV21",
+          "title": "Similarity and Matching of Neural Network Representations",
+          "booktitle": "NeurIPS",
+          "year": "2021",
+          "pages": "5656-5668",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Ákos K. Matszangosz",
+              "@pid": "189/6173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/BurkodiKVVK13",
+          "title": "Team Organization and Participation in the Eurobot 2012 Contest",
+          "booktitle": "ACE",
+          "year": "2013",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.3182/20130828-3-UK-2039.00044",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "István Vajk",
+              "@pid": "43/3279"
+            },
+            {
+              "#text": "László Csaba Burkodi",
+              "@pid": "154/9723"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tamás Gábor Kiss",
+              "@pid": "154/9759"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/CsorbaVTV12",
+          "title": "The RobonAUT Autonomous Mobile Robot Construction Contest",
+          "booktitle": "ACE",
+          "year": "2012",
+          "pages": "360-365",
+          "ee": "https://doi.org/10.3182/20120619-3-RU-2024.00031",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gábor Tevesz",
+              "@pid": "57/1648"
+            },
+            {
+              "#text": "István Vajk",
+              "@pid": "43/3279"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/KissBVVK13",
+          "title": "The RobonAUT Robot Construction Contest in 2013",
+          "booktitle": "ACE",
+          "year": "2013",
+          "pages": "186-191",
+          "ee": "https://doi.org/10.3182/20130828-3-UK-2039.00045",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "István Vajk",
+              "@pid": "43/3279"
+            },
+            {
+              "#text": "László Csaba Burkodi",
+              "@pid": "154/9723"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tamás Gábor Kiss",
+              "@pid": "154/9759"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/VargaCSBT12",
+          "title": "Educational Aspects of Designing Robot for Eurobot Contest",
+          "booktitle": "ACE",
+          "year": "2012",
+          "pages": "342-347",
+          "ee": "https://doi.org/10.3182/20120619-3-RU-2024.00074",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Dávid Szalóki",
+              "@pid": "151/7772"
+            },
+            {
+              "#text": "Gábor Tevesz",
+              "@pid": "57/1648"
+            },
+            {
+              "#text": "Kristóf Csorba",
+              "@pid": "82/5673"
+            },
+            {
+              "#text": "Zoltán Beck",
+              "@pid": "155/1852"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/semeval/FarkasSSV07",
+          "title": "GYDER: Maxent Metonymy Resolution",
+          "booktitle": "SemEval@ACL",
+          "year": "2007",
+          "pages": "161-164",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Eszter Simon",
+              "@pid": "08/7548"
+            },
+            {
+              "#text": "György Szarvas",
+              "@pid": "39/6822"
+            },
+            {
+              "#text": "Richárd Farkas",
+              "@pid": "31/149"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/VargaL18",
+          "title": "Scalable Surface Reconstruction in the Mobile Edge",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2018",
+          "pages": "84-86",
+          "ee": "https://doi.org/10.1145/3234200.3234243",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/SzalaiGindlV24",
+          "title": "FPFH Revisited: Histogram Resolutions, Improved Features, and Novel Representation",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "67325-67354",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3400591",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/VargaSAL22",
+          "title": "QBB: Quantile-Based Binarization of 3D Point Cloud Descriptors",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "67839-67850",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3186094",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "Márton Ambrus-Dobai",
+              "@pid": "323/8067"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/VargaSFVDL21",
+          "title": "Template Matching for 3D Objects in Large Point Clouds Using DBMS",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "76894-76907",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3082848",
+          "author": [
+            {
+              "#text": "Bence Formanek",
+              "@pid": "188/5173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Péter Vaderna",
+              "@pid": "47/6999"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/VargaS07",
+          "title": "Hungarian named entity recognition with a maximum entropy approach",
+          "journal": "Acta Cybern.",
+          "year": "2007",
+          "pages": "293-301",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Eszter Simon",
+              "@pid": "08/7548"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1712-09936",
+          "title": "Gradient Regularization Improves Accuracy of Discriminative Models",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1712.09936",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Zsolt Zombori",
+              "@pid": "79/1535"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1910-02760",
+          "title": "Negative Sampling in Variational Autoencoders",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1910.02760",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Beatrix Benko",
+              "@pid": "250/3146"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2007-07628",
+          "title": "Visualizing Transfer Learning",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.07628",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Katona",
+              "@pid": "270/1893"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Márton Csillag",
+              "@pid": "270/2148"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-14633",
+          "title": "Similarity and Matching of Neural Network Representations",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.14633",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Ákos K. Matszangosz",
+              "@pid": "189/6173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2308-11511",
+          "title": "Mode Combinability: Exploring Convex Combinations of Permutation Aligned Models",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2308.11511",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Márton Muntag",
+              "@pid": "355/3158"
+            },
+            {
+              "#text": "Melinda F. Kiss",
+              "@pid": "355/2083"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-15317",
+          "title": "Diverse beam search to find densest-known planar unit distance graphs",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.15317",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Owen Hammond-Lee",
+              "@pid": "381/4609"
+            },
+            {
+              "#text": "Pál Zsámboki",
+              "@pid": "354/7288"
+            },
+            {
+              "#text": "Peter Engel",
+              "@pid": "42/3044"
+            },
+            {
+              "#text": "Yiheng Su",
+              "@pid": "175/0199"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-26543",
+          "title": "The Structure of Relation Decoding Linear Operators in Large Language Models",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.26543",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Becsó",
+              "@pid": "420/3330"
+            },
+            {
+              "#text": "Miranda Anna Christ",
+              "@pid": "420/3677"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-cs-0609058",
+          "title": "The JRC-Acquis: A multilingual aligned parallel corpus with 20+ languages",
+          "journal": "CoRR",
+          "year": "2006",
+          "ee": "https://doi.org/10.48550/ARXIV.CS/0609058",
+          "author": [
+            {
+              "#text": "Anna Widiger",
+              "@pid": "24/2882"
+            },
+            {
+              "#text": "Bruno Pouliquen",
+              "@pid": "59/506"
+            },
+            {
+              "#text": "Camelia Ignat",
+              "@pid": "76/3440"
+            },
+            {
+              "#text": "Dan Tufis",
+              "@pid": "28/2942"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Ralf Steinberger",
+              "@pid": "54/1241"
+            },
+            {
+              "#text": "Tomaz Erjavec",
+              "@pid": "69/5105"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/iet-ipr/KotroczoVSFV26",
+          "title": "Localization With Approximate Nearest Neighbour Search",
+          "journal": "IET Image Process.",
+          "year": "2026",
+          "ee": "https://doi.org/10.1049/IPR2.70242",
+          "author": [
+            {
+              "#text": "Bence Formanek",
+              "@pid": "188/5173"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János M. Szalai-Gindl",
+              "@pid": "147/2926"
+            },
+            {
+              "#text": "Péter Vaderna",
+              "@pid": "47/6999"
+            },
+            {
+              "#text": "Roland Kotroczó",
+              "@pid": "361/0137"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mp/AmbrusCMVZ24",
+          "title": "The density of planar sets avoiding unit distances",
+          "journal": "Math. Program.",
+          "year": "2024",
+          "pages": "303-327",
+          "ee": "https://doi.org/10.1007/S10107-023-02012-9",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Ambrus",
+              "@pid": "46/4997"
+            },
+            {
+              "#text": "Máté Matolcsi",
+              "@pid": "94/8137"
+            },
+            {
+              "#text": "Pál Zsámboki",
+              "@pid": "354/7288"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/nn/CsiszarikKKMPV24",
+          "title": "Mode combinability: Exploring convex combinations of permutation aligned models",
+          "journal": "Neural Networks",
+          "year": "2024",
+          "pages": "106204",
+          "ee": "https://doi.org/10.1016/J.NEUNET.2024.106204",
+          "author": [
+            {
+              "#text": "Adrián Csiszárik",
+              "@pid": "211/7981"
+            },
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Papp",
+              "@pid": "39/1627"
+            },
+            {
+              "#text": "Márton Muntag",
+              "@pid": "355/3158"
+            },
+            {
+              "#text": "Melinda F. Kiss",
+              "@pid": "355/2083"
+            },
+            {
+              "#text": "Péter Korösi-Szabó",
+              "@pid": "304/8660"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/HegedusKutiSVAAR23",
+          "title": "3D Scanner-Based Identification of Welding Defects - Clustering the Results of Point Cloud Alignment",
+          "journal": "Sensors",
+          "year": "2023",
+          "pages": "2503",
+          "ee": "https://doi.org/10.3390/S23052503",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "János Abonyi",
+              "@pid": "85/4591"
+            },
+            {
+              "#text": "János Hegedüs-Kuti",
+              "@pid": "343/1751"
+            },
+            {
+              "#text": "József Szolosi",
+              "@pid": "343/1417"
+            },
+            {
+              "#text": "Mátyás Andó",
+              "@pid": "343/0745"
+            },
+            {
+              "#text": "Tamás Ruppert",
+              "@pid": "223/7498"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamdm/AmbrusBFV23",
+          "title": "Piercing the Chessboard",
+          "journal": "SIAM J. Discret. Math.",
+          "year": "2023",
+          "pages": "1457-1471",
+          "ee": "https://doi.org/10.1137/21M146048X",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "Gergely Ambrus",
+              "@pid": "46/4997"
+            },
+            {
+              "#text": "Imre Bárány",
+              "@pid": "91/3243"
+            },
+            {
+              "#text": "Peter Frankl",
+              "@pid": "76/1782"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Daniel13a",
+          "title": "Natural Language Processing of Large Parallel Corpora",
+          "journal": "",
+          "year": "2013",
+          "author": {
+            "#text": "Dániel Varga",
+            "@pid": "24/3190"
+          }
+        }
       }
     ]
   }

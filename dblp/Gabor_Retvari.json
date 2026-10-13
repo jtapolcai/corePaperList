@@ -1,0 +1,3105 @@
+{
+  "dblpperson": {
+    "@name": "Gábor Rétvári",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/asplos/MianoSRRA22",
+          "title": "Domain specific run time optimization for software data planes",
+          "booktitle": "ASPLOS",
+          "year": "2022",
+          "pages": "1148-1164",
+          "ee": "https://doi.org/10.1145/3503222.3507769",
+          "author": [
+            {
+              "#text": "Alireza Sanaee",
+              "@pid": "295/8830"
+            },
+            {
+              "#text": "Fulvio Risso",
+              "@pid": "49/1360"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            },
+            {
+              "#text": "Sebastiano Miano",
+              "@pid": "191/3336"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/broadnets/NemethR10",
+          "title": "Hybrid Demand Oblivious Routing: Hyper-cubic Partitions and Theoretical Upper Bounds",
+          "booktitle": "BROADNETS",
+          "year": "2012",
+          "pages": "84-100",
+          "ee": "https://doi.org/10.1007/978-3-642-30376-0_7",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cloudnet/RottenstreichKJ20",
+          "title": "Cooperative Rule Caching for SDN Switches",
+          "booktitle": "CloudNet",
+          "year": "2020",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/CLOUDNET51028.2020.9335795",
+          "author": [
+            {
+              "#text": "Ananya Joshi",
+              "@pid": "339/0027"
+            },
+            {
+              "#text": "Ariel Kulik",
+              "@pid": "08/5247"
+            },
+            {
+              "#text": "Daniel Sadoc Menasché",
+              "@pid": "44/4915"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Jennifer Rexford",
+              "@pid": "r/JenniferRexford"
+            },
+            {
+              "#text": "Ori Rottenstreich",
+              "@pid": "48/2092"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/coginfocom/TapolcaiHRB13",
+          "title": "Reduced information scenario for Shared Segment Protection",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "589-594",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719171",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conext/ChiesaRS16",
+          "title": "Lying Your Way to Better Traffic Engineering",
+          "booktitle": "CoNEXT",
+          "year": "2016",
+          "pages": "391-398",
+          "ee": "https://doi.org/10.1145/2999572.2999585",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Marco Chiesa",
+              "@pid": "78/9826"
+            },
+            {
+              "#text": "Michael Schapira",
+              "@pid": "15/5634"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conext/CsikorDKKSHP0R19",
+          "title": "Tuple space explosion: a denial-of-service attack against a software packet classifier",
+          "booktitle": "CoNEXT",
+          "year": "2019",
+          "pages": "292-304",
+          "ee": "https://doi.org/10.1145/3359989.3365431",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Dinil Mon Divakaran",
+              "@pid": "87/2495"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Min Suk Kang",
+              "@pid": "75/8333"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conext/NemethCR19",
+          "title": "Normal forms for match-action programs",
+          "booktitle": "CoNEXT",
+          "year": "2019",
+          "pages": "44-50",
+          "ee": "https://doi.org/10.1145/3359989.3365417",
+          "author": [
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Marco Chiesa",
+              "@pid": "78/9826"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conext/VassBRR20",
+          "title": "Compiling Packet Programs to Reconfigurable Switches: Theory and Algorithms",
+          "booktitle": "EuroP4@CoNEXT",
+          "year": "2020",
+          "pages": "28-35",
+          "ee": "https://doi.org/10.1145/3426744.3431332",
+          "author": [
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Costin Raiciu",
+              "@pid": "62/2645"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conext/VassFBR22",
+          "title": "Compiling packet programs to dRMT switches: theory and algorithms",
+          "booktitle": "EuroP4@CoNEXT",
+          "year": "2022",
+          "pages": "26-32",
+          "ee": "https://doi.org/10.1145/3565475.3569080",
+          "author": [
+            {
+              "#text": "Ádám Fraknói",
+              "@pid": "334/9025"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/drcn/NagyTR14",
+          "title": "On the design of Resilient IP Overlays",
+          "booktitle": "DRCN",
+          "year": "2014",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/DRCN.2014.6816147",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/drcn/RetvariCTEC11",
+          "title": "Optimizing IGP link costs for improving IP-level resilience",
+          "booktitle": "DRCN",
+          "year": "2011",
+          "pages": "62-69",
+          "ee": "https://doi.org/10.1109/DRCN.2011.6076886",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fia/CsikorRT13",
+          "title": "High Availability in the Future Internet",
+          "booktitle": "Future Internet Assembly",
+          "year": "2013",
+          "pages": "64-76",
+          "ee": "https://doi.org/10.1007/978-3-642-38082-2_6",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/globecom/CsernaiGRHC10",
+          "title": "The Skeleton of the Internet",
+          "booktitle": "GLOBECOM",
+          "year": "2010",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/GLOCOM.2010.5684319",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Márton Csernai",
+              "@pid": "11/8968"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/globecom/SimonNURFV11",
+          "title": "Autonomic DHCPv6 Architecture",
+          "booktitle": "GLOBECOM Workshops",
+          "year": "2011",
+          "pages": "620-624",
+          "ee": "https://doi.org/10.1109/GLOCOMW.2011.6162526",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Ferenc Ficsor",
+              "@pid": "44/11050"
+            },
+            {
+              "#text": "Ferenc Uzsak",
+              "@pid": "56/11051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Rolland Vida",
+              "@pid": "06/479"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hotnets/RetvariCKTCEP12",
+          "title": "Compressing IP forwarding tables for fun and profit",
+          "booktitle": "HotNets",
+          "year": "2012",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1145/2390231.2390232",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Zoltán Csernátony",
+              "@pid": "121/4182"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hotnets/RetvariSGKT14",
+          "title": "An Information-Theoretic Approach to Routing Scalability",
+          "booktitle": "HotNets",
+          "year": "2014",
+          "pages": "2:1-2:7",
+          "ee": "https://doi.org/10.1145/2670518.2673863",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Dávid Szabó",
+              "@pid": "117/0572"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hpsr/BifulcoR18",
+          "title": "A Survey on the Programmable Data Plane: Abstractions, Architectures, and Open Problems",
+          "booktitle": "HPSR",
+          "year": "2018",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/HPSR.2018.8850761",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Roberto Bifulco",
+              "@pid": "81/8239"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icc/RetvariBC07",
+          "title": "Routing-Independent Fairness in Capacitated Networks",
+          "booktitle": "ICC",
+          "year": "2007",
+          "pages": "6344-6349",
+          "ee": "https://doi.org/10.1109/ICC.2007.1050",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icnp/KorosiTMMR14",
+          "title": "Compressing IP Forwarding Tables: Realizing Information-Theoretical Space Bounds and Fast Lookups Simultaneously",
+          "booktitle": "ICNP",
+          "year": "2014",
+          "pages": "332-343",
+          "ee": "https://doi.org/10.1109/ICNP.2014.55",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Bence Mihálka",
+              "@pid": "155/8119"
+            },
+            {
+              "#text": "Gábor Mészáros",
+              "@pid": "129/3891"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icnp/TapolcaiRBBKE15",
+          "title": "Scalable and Efficient Multipath Routing: Complexity and Algorithms",
+          "booktitle": "ICNP",
+          "year": "2015",
+          "pages": "376-385",
+          "ee": "https://doi.org/10.1109/ICNP.2015.44",
+          "author": [
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Panna Kristof",
+              "@pid": "177/6673"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icumt/CsikorR12",
+          "title": "IP fast reroute with remote Loop-Free Alternates: The unit link cost case",
+          "booktitle": "ICUMT",
+          "year": "2012",
+          "pages": "663-669",
+          "ee": "https://doi.org/10.1109/ICUMT.2012.6459750",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icumt/NagyR11",
+          "title": "An evaluation of approximate network optimization methods for improving ip-level fast protection with loop-free alternates",
+          "booktitle": "ICUMT",
+          "year": "2011",
+          "pages": "1-7",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/SzalayNGKMNPRT19",
+          "title": "Industrial-Scale Stateless Network Functions",
+          "booktitle": "CLOUD",
+          "year": "2019",
+          "pages": "383-390",
+          "ee": "https://doi.org/10.1109/CLOUD.2019.00068",
+          "author": [
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Zoltán Lajos Kis",
+              "@pid": "75/4853"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip6-6/EnyediRC07",
+          "title": "A Novel Loop-Free IP Fast Reroute Algorithm",
+          "booktitle": "EUNICE",
+          "year": "2007",
+          "pages": "111-119",
+          "ee": "https://doi.org/10.1007/978-3-540-73530-4_14",
+          "author": [
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip6-6/MajdanRT14",
+          "title": "Development and Performance Evaluation of Fast Combinatorial Unranking Implementations",
+          "booktitle": "EUNICE",
+          "year": "2014",
+          "pages": "97-108",
+          "ee": "https://doi.org/10.1007/978-3-319-13488-8_10",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip6-6/MihalkaKR14",
+          "title": "Compressing Virtual Forwarding Information Bases Using the Trie-folding Algorithm",
+          "booktitle": "EUNICE",
+          "year": "2014",
+          "pages": "121-133",
+          "ee": "https://doi.org/10.1007/978-3-319-13488-8_12",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Bence Mihálka",
+              "@pid": "155/8119"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip6-6/ZuborKGR14",
+          "title": "On the Computational Complexity of Policy Routing",
+          "booktitle": "EUNICE",
+          "year": "2014",
+          "pages": "202-214",
+          "ee": "https://doi.org/10.1007/978-3-319-13488-8_19",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Márton Zubor",
+              "@pid": "158/7317"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/AddankiPPRSV23",
+          "title": "Self-Adjusting Partially Ordered Lists",
+          "booktitle": "INFOCOM",
+          "year": "2023",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/INFOCOM53939.2023.10228937",
+          "author": [
+            {
+              "#text": "Arash Pourdamghani",
+              "@pid": "236/5704"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Juan Vanerio",
+              "@pid": "195/8043"
+            },
+            {
+              "#text": "Maciej Pacut",
+              "@pid": "140/7532"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            },
+            {
+              "#text": "Vamsi Addanki",
+              "@pid": "224/2167"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/EnyediSRC09",
+          "title": "IP Fast ReRoute: Lightweight Not-Via without Additional Addresses",
+          "booktitle": "INFOCOM",
+          "year": "2009",
+          "pages": "2771-2775",
+          "ee": "https://doi.org/10.1109/INFCOM.2009.5062229",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Péter Szilágyi",
+              "@pid": "05/2204"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/NikolenkoKRBS16",
+          "title": "How to represent IPv6 forwarding tables on IPv4 or MPLS dataplanes",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2016",
+          "pages": "521-526",
+          "ee": "https://doi.org/10.1109/INFCOMW.2016.7562132",
+          "author": [
+            {
+              "#text": "Alexander Shalimov",
+              "@pid": "170/6827"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Kirill Kogan",
+              "@pid": "93/1311"
+            },
+            {
+              "#text": "Sergey I. Nikolenko",
+              "@pid": "50/1870"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/RetvariBC07",
+          "title": "Fairness in Capacitated Networks: A Polyhedral Approach",
+          "booktitle": "INFOCOM",
+          "year": "2007",
+          "pages": "1604-1612",
+          "ee": "https://doi.org/10.1109/INFCOM.2007.188",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/RetvariBCH05",
+          "title": "A precomputation scheme for minimum interference routing: the least-critical-path-first algorithm",
+          "booktitle": "INFOCOM",
+          "year": "2005",
+          "pages": "260-268",
+          "ee": "https://doi.org/10.1109/INFCOM.2005.1497897",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tamás Henk",
+              "@pid": "08/4422"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/RetvariN10",
+          "title": "Demand-Oblivious Routing: Distributed vs. Centralized Approaches",
+          "booktitle": "INFOCOM",
+          "year": "2010",
+          "pages": "1217-1225",
+          "ee": "https://doi.org/10.1109/INFCOM.2010.5461925",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/RetvariTEC11",
+          "title": "IP fast ReRoute: Loop Free Alternates revisited",
+          "booktitle": "INFOCOM",
+          "year": "2011",
+          "pages": "2948-2956",
+          "ee": "https://doi.org/10.1109/INFCOM.2011.5935135",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/TapolcaiR13",
+          "title": "Router virtualization for improving IP-level resilience",
+          "booktitle": "INFOCOM",
+          "year": "2013",
+          "pages": "935-943",
+          "ee": "https://doi.org/10.1109/INFCOM.2013.6566882",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/VassSR22",
+          "title": "Programmable Packet Scheduling With SP-PIFO: Theory, Algorithms and Evaluation",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/INFOCOMWKSHPS54753.2022.9798055",
+          "author": [
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Csaba Sarkadi",
+              "@pid": "322/9803"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscc/EnyediRC09",
+          "title": "On Finding maximally redundant trees in strictly linear time",
+          "booktitle": "ISCC",
+          "year": "2009",
+          "pages": "206-211",
+          "ee": "https://doi.org/10.1109/ISCC.2009.5202302",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscc/RetvariN10",
+          "title": "On optimal multipath rate-adaptive routing",
+          "booktitle": "ISCC",
+          "year": "2010",
+          "pages": "605-610",
+          "ee": "https://doi.org/10.1109/ISCC.2010.5546757",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iscc/RetvdriBC04",
+          "title": "A novel Lagrangian-relaxation to the minimum cost multicommodity flow problem and its application to OSPF traffic engineering",
+          "booktitle": "ISCC",
+          "year": "2004",
+          "pages": "957-962",
+          "ee": "https://doi.org/10.1109/ISCC.2004.1358664",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mace/RetvariNCS09",
+          "title": "OSPF for Implementing Self-adaptive Routing in Autonomic Networks: A Case Study",
+          "booktitle": "MACE",
+          "year": "2009",
+          "pages": "72-85",
+          "ee": "https://doi.org/10.1007/978-3-642-05006-0_6",
+          "author": [
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Ranganai Chaparadza",
+              "@pid": "05/7446"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mmns/Retvari03",
+          "title": "Minimum Interference Routing: The Precomputation Perspective",
+          "booktitle": "MMNS",
+          "year": "2003",
+          "pages": "246-258",
+          "ee": "https://doi.org/10.1007/978-3-540-39404-4_19",
+          "author": {
+            "#text": "Gábor Rétvári",
+            "@pid": "45/5812"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/BabarcziRRT22",
+          "title": "Routing on the Shortest Pairs of Disjoint Paths",
+          "booktitle": "IFIP Networking",
+          "year": "2022",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.23919/IFIPNETWORKING55013.2022.9829760",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Rónyai",
+              "@pid": "33/5156"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/CsikorTSPPR18",
+          "title": "HARMLESS: Cost-Effective Transitioning to SDN for Small Enterprises",
+          "booktitle": "Networking",
+          "year": "2018",
+          "pages": "208-216",
+          "ee": "https://doi.org/10.23919/IFIPNETWORKING.2018.8696504",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/EnyediRSC09",
+          "title": "IP Fast ReRoute: Lightweight Not-Via",
+          "booktitle": "Networking",
+          "year": "2009",
+          "pages": "157-168",
+          "ee": "https://doi.org/10.1007/978-3-642-01399-7_13",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Péter Szilágyi",
+              "@pid": "05/2204"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/LevaiVR24",
+          "title": "Programmable Real-Time Scheduling of Disaggregated Network Functions",
+          "booktitle": "IFIP Networking",
+          "year": "2024",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.23919/IFIPNETWORKING62109.2024.10619906",
+          "author": [
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/NemethKR13",
+          "title": "Optimal OSPF traffic engineering using legacy Equal Cost Multipath load balancing",
+          "booktitle": "Networking",
+          "year": "2013",
+          "pages": "1-9",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Krisztián Németh",
+              "@pid": "25/861"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/RetvariBC06",
+          "title": "On Improving the Accuracy of OSPF Traffic Engineering",
+          "booktitle": "Networking",
+          "year": "2006",
+          "pages": "51-62",
+          "ee": "https://doi.org/10.1007/11753810_5",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/networking/RetvariSB04",
+          "title": "On the Representability of Arbitrary Path Sets as Shortest Paths: Theory, Algorithms, and Complexity",
+          "booktitle": "NETWORKING",
+          "year": "2004",
+          "pages": "1180-1191",
+          "ee": "https://doi.org/10.1007/978-3-540-24693-0_97",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nsdi/AlcozVNARV25",
+          "title": "Everything Matters in Programmable Packet Scheduling",
+          "booktitle": "NSDI",
+          "year": "2025",
+          "pages": "1467-1485",
+          "author": [
+            {
+              "#text": "Albert Gran Alcoz",
+              "@pid": "263/3687"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Behnaz Arzani",
+              "@pid": "126/1063"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            },
+            {
+              "#text": "Pooria Namyar",
+              "@pid": "299/2232"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nsdi/LevaiNRR20",
+          "title": "Batchy: Batch-scheduling Data Flow Graphs with Service-level Objectives",
+          "booktitle": "NSDI",
+          "year": "2020",
+          "pages": "633-649",
+          "author": [
+            {
+              "#text": "Barath Raghavan",
+              "@pid": "22/3604"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/podc/GulyasKRBS12",
+          "title": "Brief announcement: network formation games can give rise to realistic networks",
+          "booktitle": "PODC",
+          "year": "2012",
+          "pages": "329-330",
+          "ee": "https://doi.org/10.1145/2332432.2332494",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Dávid Szabó",
+              "@pid": "117/0572"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/podc/RetvariGHCB11",
+          "title": "Compact policy routing",
+          "booktitle": "PODC",
+          "year": "2011",
+          "pages": "149-158",
+          "ee": "https://doi.org/10.1145/1993806.1993828",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Márton Csernai",
+              "@pid": "11/8968"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qofis/LevendovszkyFVR01",
+          "title": "QoS Routing with Incomplete Information by Analog Computing Algorithms",
+          "booktitle": "QofIS",
+          "year": "2001",
+          "pages": "127-137",
+          "ee": "https://doi.org/10.1007/3-540-45412-8_10",
+          "author": [
+            {
+              "#text": "Alpár Fancsali",
+              "@pid": "17/1729"
+            },
+            {
+              "#text": "Csaba Végsö",
+              "@pid": "87/1625"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rndm/LevaiR19",
+          "title": "Resilient Dataflow Graph Embedding for Programmable Software Switches",
+          "booktitle": "RNDM",
+          "year": "2019",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/RNDM48015.2019.8949149",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sand/KoppelerPLASR26",
+          "title": "More Bang for the Buck: Superlinear Scaling with Distributed Self-Adjusting Systems (Invited Talk)",
+          "booktitle": "SAND",
+          "year": "2026",
+          "pages": "3:1-3:28",
+          "ee": "https://doi.org/10.4230/LIPICS.SAND.2026.3",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Jonas Köppeler",
+              "@pid": "415/7705"
+            },
+            {
+              "#text": "Maciej Pacut",
+              "@pid": "140/7532"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            },
+            {
+              "#text": "Vamsi Addanki",
+              "@pid": "224/2167"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/CsikorRP0TR18",
+          "title": "Policy Injection: A Cloud Dataplane DoS Attack",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2018",
+          "pages": "147-149",
+          "ee": "https://doi.org/10.1145/3234200.3234250",
+          "author": [
+            {
+              "#text": "Christian Esteve Rothenberg",
+              "@pid": "70/2654"
+            },
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/LamagnaSRRC26",
+          "title": "Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology",
+          "booktitle": "SIGCOMM",
+          "year": "2026",
+          "pages": "2060-2066",
+          "ee": "https://doi.org/10.1145/3789240.3828749",
+          "author": [
+            {
+              "#text": "Albert Cabellos-Aparicio",
+              "@pid": "42/2223"
+            },
+            {
+              "#text": "Alberto Rodríguez-Natal",
+              "@pid": "128/1194"
+            },
+            {
+              "#text": "Berta Serracanta",
+              "@pid": "298/5442"
+            },
+            {
+              "#text": "Davide Lamagna",
+              "@pid": "443/6859"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/LevaiKR23",
+          "title": "Supercharge WebRTC: Accelerate TURN Services with eBPF/XDP",
+          "booktitle": "eBPF@SIGCOMM",
+          "year": "2023",
+          "pages": "70-76",
+          "ee": "https://doi.org/10.1145/3609021.3609296",
+          "author": [
+            {
+              "#text": "Balázs Edvárd Kreith",
+              "@pid": "354/6613"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/MianoRR0A20",
+          "title": "Automatic optimization of software data planes",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2020",
+          "pages": "27-29",
+          "ee": "https://doi.org/10.1145/3405837.3411379",
+          "author": [
+            {
+              "#text": "Andrew W. Moore",
+              "@pid": "95/2279-2"
+            },
+            {
+              "#text": "Fulvio Risso",
+              "@pid": "49/1360"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            },
+            {
+              "#text": "Sebastiano Miano",
+              "@pid": "191/3336"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/MolnarPEKCJKR16",
+          "title": "Dataplane Specialization for High-performance OpenFlow Software Switching",
+          "booktitle": "SIGCOMM",
+          "year": "2016",
+          "pages": "539-552",
+          "ee": "https://doi.org/10.1145/2934872.2934887",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Ferenc Juhász",
+              "@pid": "11/5322"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Molnár",
+              "@pid": "38/1117"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Zoltán Lajos Kis",
+              "@pid": "75/4853"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/RetvariTKMH13",
+          "title": "Compressing IP forwarding tables: towards entropy bounds and beyond",
+          "booktitle": "SIGCOMM",
+          "year": "2013",
+          "pages": "111-122",
+          "ee": "https://doi.org/10.1145/2534169.2486009",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/SzalayTRPCP17",
+          "title": "HARMLESS: Cost-Effective Transitioning to SDN",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2017",
+          "pages": "91-93",
+          "ee": "https://doi.org/10.1145/3123878.3131997",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/ThimmarajuR018",
+          "title": "Virtual Network Isolation: Are We There Yet?",
+          "booktitle": "SecSoN@SIGCOMM",
+          "year": "2018",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1145/3229616.3229618",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Kashyap Thimmaraju",
+              "@pid": "186/8118"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/ZerwasKHRKB019",
+          "title": "NetBOA: Self-Driving Network Benchmarking",
+          "booktitle": "NetAI@SIGCOMM",
+          "year": "2019",
+          "pages": "8-14",
+          "ee": "https://doi.org/10.1145/3341216.3342207",
+          "author": [
+            {
+              "#text": "Andreas Blenk",
+              "@pid": "147/1082"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Johannes Zerwas",
+              "@pid": "187/1014"
+            },
+            {
+              "#text": "Laurenz Henkel",
+              "@pid": "224/2129"
+            },
+            {
+              "#text": "Patrick Kalmbach",
+              "@pid": "193/6401"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            },
+            {
+              "#text": "Wolfgang Kellerer",
+              "@pid": "32/3203"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigmetrics/NemethR12",
+          "title": "Towards a statistical characterization of the competitiveness of oblivious routing",
+          "booktitle": "SIGMETRICS",
+          "year": "2012",
+          "pages": "387-388",
+          "ee": "https://doi.org/10.1145/2318857.2254806",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sosr/AntichiR20",
+          "title": "Full-stack SDN: The Next Big Challenge?",
+          "booktitle": "SOSR",
+          "year": "2020",
+          "pages": "48-54",
+          "ee": "https://doi.org/10.1145/3373360.3380834",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/usenix/ThimmarajuHR019",
+          "title": "MTS: Bringing Multi-Tenancy to Virtual Networking",
+          "booktitle": "USENIX ATC",
+          "year": "2019",
+          "pages": "521-536",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Kashyap Thimmaraju",
+              "@pid": "186/8118"
+            },
+            {
+              "#text": "Saad Hermak",
+              "@pid": "244/9204"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/SerracantaLRCR25",
+          "title": "On the Stability of the Kubernetes Horizontal Autoscaler Control Loop",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "7160-7166",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3526751",
+          "author": [
+            {
+              "#text": "Albert Cabellos-Aparicio",
+              "@pid": "42/2223"
+            },
+            {
+              "#text": "Alberto Rodríguez-Natal",
+              "@pid": "128/1194"
+            },
+            {
+              "#text": "Andor Lukács",
+              "@pid": "129/7224"
+            },
+            {
+              "#text": "Berta Serracanta",
+              "@pid": "298/5442"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cn/NemethKR17",
+          "title": "Optimal resource pooling over legacy equal-split load balancing schemes",
+          "journal": "Comput. Networks",
+          "year": "2017",
+          "pages": "243-265",
+          "ee": "https://doi.org/10.1016/J.COMNET.2017.08.017",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Krisztián Németh",
+              "@pid": "25/861"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comcom/CsikorTR13",
+          "title": "Optimizing IGP link costs for improving IP-level resilience with Loop-Free Alternates",
+          "journal": "Comput. Commun.",
+          "year": "2013",
+          "pages": "645-655",
+          "ee": "https://doi.org/10.1016/J.COMCOM.2012.09.004",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comsur/ChiesaKRRS21",
+          "title": "A Survey of Fast-Recovery Mechanisms in Packet-Switched Networks",
+          "journal": "IEEE Commun. Surv. Tutorials",
+          "year": "2021",
+          "pages": "1253-1301",
+          "ee": "https://doi.org/10.1109/COMST.2021.3063980",
+          "author": [
+            {
+              "#text": "Andrzej Kamisinski",
+              "@pid": "161/2033"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Jacek Rak",
+              "@pid": "89/5328"
+            },
+            {
+              "#text": "Marco Chiesa",
+              "@pid": "78/9826"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1305-5662",
+          "title": "Memory size bounds of prefix DAGs",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1305.5662",
+          "author": [
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2104-08949",
+          "title": "Online List Access with Precedence Constraints",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2104.08949",
+          "author": [
+            {
+              "#text": "Arash Pourdamghani",
+              "@pid": "236/5704"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Juan Vanerio",
+              "@pid": "195/8043"
+            },
+            {
+              "#text": "Maciej Pacut",
+              "@pid": "140/7532"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            },
+            {
+              "#text": "Vamsi Addanki",
+              "@pid": "224/2167"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2106-08833",
+          "title": "Dynamic Recompilation of Software Network Services with Morpheus",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2106.08833",
+          "author": [
+            {
+              "#text": "Alireza Sanaee",
+              "@pid": "295/8830"
+            },
+            {
+              "#text": "Fulvio Risso",
+              "@pid": "49/1360"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            },
+            {
+              "#text": "Sebastiano Miano",
+              "@pid": "191/3336"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2109-15090",
+          "title": "Self-Adjusting Packet Classification",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2109.15090",
+          "author": [
+            {
+              "#text": "Arash Pourdamghani",
+              "@pid": "236/5704"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Juan Vanerio",
+              "@pid": "195/8043"
+            },
+            {
+              "#text": "Maciej Pacut",
+              "@pid": "140/7532"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            },
+            {
+              "#text": "Vamsi Addanki",
+              "@pid": "224/2167"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2110-00631",
+          "title": "The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.00631",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Oliver Michel",
+              "@pid": "12/8224"
+            },
+            {
+              "#text": "Roberto Bifulco",
+              "@pid": "81/8239"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2308-00797",
+          "title": "Everything Matters in Programmable Packet Scheduling",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2308.00797",
+          "author": [
+            {
+              "#text": "Albert Gran Alcoz",
+              "@pid": "263/3687"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Laurent Vanbever",
+              "@pid": "51/7546"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2403-01862",
+          "title": "MTS: Bringing Multi-Tenancy to Virtual Networking",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.01862",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Kashyap Thimmaraju",
+              "@pid": "186/8118"
+            },
+            {
+              "#text": "Saad Hermak",
+              "@pid": "244/9204"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2608-20494",
+          "title": "Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.20494",
+          "author": [
+            {
+              "#text": "Albert Cabellos-Aparicio",
+              "@pid": "42/2223"
+            },
+            {
+              "#text": "Alberto Rodríguez-Natal",
+              "@pid": "128/1194"
+            },
+            {
+              "#text": "Berta Serracanta",
+              "@pid": "298/5442"
+            },
+            {
+              "#text": "Davide Lamagna",
+              "@pid": "443/6859"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/ChiesaRS16",
+          "title": "Lying Your Way to Better Traffic Engineering",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1610.02728",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Marco Chiesa",
+              "@pid": "78/9826"
+            },
+            {
+              "#text": "Michael Schapira",
+              "@pid": "15/5634"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/CsomaKRHBSAGHG17",
+          "title": "Routes Obey Hierarchy in Complex Networks",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1702.05912",
+          "author": [
+            {
+              "#text": "Alessandra Griffa",
+              "@pid": "138/7240"
+            },
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Andrea Avena-Koenigsberger",
+              "@pid": "138/7773"
+            },
+            {
+              "#text": "Attila Csoma",
+              "@pid": "149/9188"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Mariann Slíz",
+              "@pid": "195/6252"
+            },
+            {
+              "#text": "Patric Hagmann",
+              "@pid": "70/3658"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/GulyasBKRK14",
+          "title": "Complex Networks as Nash Equilibria of Navigation Games",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1412.7229",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Dmitri Krioukov",
+              "@pid": "155/6822"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/RetvariTKMH14",
+          "title": "Compressing IP Forwarding Tables: Towards Entropy Bounds and Beyond",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1402.1194",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/csur/MichelBRS21",
+          "title": "The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications",
+          "journal": "ACM Comput. Surv.",
+          "year": "2022",
+          "pages": "82:1-82:36",
+          "ee": "https://doi.org/10.1145/3447868",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Oliver Michel",
+              "@pid": "12/8224"
+            },
+            {
+              "#text": "Roberto Bifulco",
+              "@pid": "81/8239"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dc/RetvariGHCB13",
+          "title": "Compact policy routing",
+          "journal": "Distributed Comput.",
+          "year": "2013",
+          "pages": "309-320",
+          "ee": "https://doi.org/10.1007/S00446-012-0181-9",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Márton Csernai",
+              "@pid": "11/8968"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/icl/RetvariC04",
+          "title": "Practical OSPF traffic engineering",
+          "journal": "IEEE Commun. Lett.",
+          "year": "2004",
+          "pages": "689-691",
+          "ee": "https://doi.org/10.1109/LCOMM.2004.837629",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/LevaiPMVLNR18",
+          "title": "The Price for Programmability in the Software Data Plane: The Vendor Perspective",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2018",
+          "pages": "2621-2630",
+          "ee": "https://doi.org/10.1109/JSAC.2018.2871307",
+          "author": [
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "Péter Megyesi",
+              "@pid": "117/3201"
+            },
+            {
+              "#text": "Peter Vörös",
+              "@pid": "132/6357"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsac/TapolcaiRBB19",
+          "title": "Scalable and Efficient Multipath Routing via Redundant Trees",
+          "journal": "IEEE J. Sel. Areas Commun.",
+          "year": "2019",
+          "pages": "982-996",
+          "ee": "https://doi.org/10.1109/JSAC.2019.2906742",
+          "author": [
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/network/CsaszarERHS07",
+          "title": "Converging the Evolution of Router Architectures and IP Networks",
+          "journal": "IEEE Netw.",
+          "year": "2007",
+          "pages": "8-14",
+          "ee": "https://doi.org/10.1109/MNET.2007.386464",
+          "author": [
+            {
+              "#text": "András Császár",
+              "@pid": "54/6911"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Markus Hidell",
+              "@pid": "01/6677"
+            },
+            {
+              "#text": "Peter Sjödin",
+              "@pid": "14/2531"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/networks/NemethR15",
+          "title": "Rate-adaptive multipath routing: Distributed, centralized, and hybrid architectures",
+          "journal": "Networks",
+          "year": "2015",
+          "pages": "118-135",
+          "ee": "https://doi.org/10.1002/NET.21617",
+          "author": [
+            {
+              "#text": "Gábor Németh",
+              "@pid": "13/1431"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pacmnet/MostafaeiECSRB25",
+          "title": "Exp-PIFO: Scalable and Efficient Programmable Packet Scheduling",
+          "journal": "Proc. ACM Netw.",
+          "year": "2025",
+          "pages": "1-20",
+          "ee": "https://doi.org/10.1145/3749217",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Habib Mostafaei",
+              "@pid": "92/8328"
+            },
+            {
+              "#text": "Mohammad Ezzati",
+              "@pid": "421/4604"
+            },
+            {
+              "#text": "Pieter J. L. Cuijpers",
+              "@pid": "67/2571"
+            },
+            {
+              "#text": "Sem C. Borst",
+              "@pid": "b/SemCBorst"
+            },
+            {
+              "#text": "Stefan Schmid",
+              "@pid": "58/3289-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pieee/LinguaglossaLPR19",
+          "title": "Survey of Performance Acceleration Techniques for Network Function Virtualization",
+          "journal": "Proc. IEEE",
+          "year": "2019",
+          "pages": "746-764",
+          "ee": "https://doi.org/10.1109/JPROC.2019.2896848",
+          "author": [
+            {
+              "#text": "Dario Rossi",
+              "@pid": "14/3340"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Giuseppe Bianchi",
+              "@pid": "22/3090-1"
+            },
+            {
+              "#text": "Leonardo Linguaglossa",
+              "@pid": "151/7476"
+            },
+            {
+              "#text": "Michael Jarschel",
+              "@pid": "22/8852"
+            },
+            {
+              "#text": "Roberto Bifulco",
+              "@pid": "81/8239"
+            },
+            {
+              "#text": "Salvatore Pontarelli",
+              "@pid": "72/5613"
+            },
+            {
+              "#text": "Stanislav Lange",
+              "@pid": "133/3798"
+            },
+            {
+              "#text": "Thomas Zinner",
+              "@pid": "88/462"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pnc/FodorERC09",
+          "title": "Layer-preference policies in multi-layer GMPLS networks",
+          "journal": "Photonic Netw. Commun.",
+          "year": "2009",
+          "pages": "300-313",
+          "ee": "https://doi.org/10.1007/S11107-009-0193-Y",
+          "author": [
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Péter Fodor",
+              "@pid": "137/0372"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/telsys/CsikorR15",
+          "title": "On providing fast protection with remote loop-free alternates - Analyzing and Optimizing Unit Cost Networks",
+          "journal": "Telecommun. Syst.",
+          "year": "2015",
+          "pages": "485-502",
+          "ee": "https://doi.org/10.1007/S11235-015-0006-9",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/telsys/NagyTR14",
+          "title": "Optimization methods for improving IP-level fast protection for local shared risk groups with Loop-Free Alternates",
+          "journal": "Telecommun. Syst.",
+          "year": "2014",
+          "pages": "103-119",
+          "ee": "https://doi.org/10.1007/S11235-013-9822-Y",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tnsm/LevaiVR25",
+          "title": "Programmable Real-Time Scheduling of Disaggregated Network Functions: A Theoretical Model",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2025",
+          "pages": "485-498",
+          "ee": "https://doi.org/10.1109/TNSM.2025.3531989",
+          "author": [
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tnsm/NagyLNPAR26",
+          "title": "Elastic Scaling of Real-Time Communication Services",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2026",
+          "pages": "3393-3405",
+          "ee": "https://doi.org/10.1109/TNSM.2026.3674598",
+          "author": [
+            {
+              "#text": "Aurojit Panda",
+              "@pid": "55/925"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            },
+            {
+              "#text": "Tamás Lévai",
+              "@pid": "166/6943"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tnsm/RottenstreichKJ22",
+          "title": "Data Plane Cooperative Caching With Dependencies",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2022",
+          "pages": "2092-2106",
+          "ee": "https://doi.org/10.1109/TNSM.2021.3132275",
+          "author": [
+            {
+              "#text": "Ananya Joshi",
+              "@pid": "339/0027"
+            },
+            {
+              "#text": "Ariel Kulik",
+              "@pid": "08/5247"
+            },
+            {
+              "#text": "Daniel Sadoc Menasché",
+              "@pid": "44/4915"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Jennifer Rexford",
+              "@pid": "r/JenniferRexford"
+            },
+            {
+              "#text": "Ori Rottenstreich",
+              "@pid": "48/2092"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/ChiesaRS18",
+          "title": "Oblivious Routing in IP Networks",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2018",
+          "pages": "1292-1305",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Marco Chiesa",
+              "@pid": "78/9826"
+            },
+            {
+              "#text": "Michael Schapira",
+              "@pid": "15/5634"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/CsikorSRPPT20",
+          "title": "Transition to SDN is HARMLESS: Hybrid Architecture for Migrating Legacy Ethernet Switches to SDN",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2020",
+          "pages": "275-288",
+          "ee": "https://doi.org/10.1109/TNET.2019.2958762",
+          "author": [
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Levente Csikor",
+              "@pid": "90/10890"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/GulyasRHA15",
+          "title": "On the Scalability of Routing With Policies",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2015",
+          "pages": "1610-1618",
+          "ee": "https://doi.org/10.1109/TNET.2014.2345839",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Rachit Agarwal",
+              "@pid": "41/5447-1"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/KorosiGHBR20",
+          "title": "On the Memory Requirement of Hop-by-Hop Routing: Tight Bounds and Optimal Address Spaces",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2020",
+          "pages": "1353-1363",
+          "ee": "https://doi.org/10.1109/TNET.2020.2984761",
+          "author": [
+            {
+              "#text": "András Gulyás",
+              "@pid": "18/4170"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/MianoSRRA24",
+          "title": "Morpheus: A Run Time Compiler and Optimizer for Software Data Planes",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2024",
+          "pages": "2269-2284",
+          "ee": "https://doi.org/10.1109/TNET.2023.3346286",
+          "author": [
+            {
+              "#text": "Alireza Sanaee",
+              "@pid": "295/8830"
+            },
+            {
+              "#text": "Fulvio Risso",
+              "@pid": "49/1360"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "Gianni Antichi",
+              "@pid": "00/4948"
+            },
+            {
+              "#text": "Sebastiano Miano",
+              "@pid": "191/3336"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/NagyTR18",
+          "title": "Node Virtualization for IP Level Resilience",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2018",
+          "pages": "1250-1263",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Máté Nagy",
+              "@pid": "89/1932-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/RetvariBC07",
+          "title": "On shortest path representation",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2007",
+          "pages": "1293-1306",
+          "author": [
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/RetvariTKMH16",
+          "title": "Compressing IP Forwarding Tables: Towards Entropy Bounds and Beyond",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2016",
+          "pages": "149-162",
+          "ee": "https://doi.org/10.1109/TNET.2014.2357051",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/VassBFRR24",
+          "title": "Charting the Complexity Landscape of Compiling Packet Programs to Reconfigurable Switches",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2024",
+          "pages": "4519-4534",
+          "ee": "https://doi.org/10.1109/TNET.2024.3424337",
+          "author": [
+            {
+              "#text": "Ádám Fraknói",
+              "@pid": "334/9025"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Costin Raiciu",
+              "@pid": "62/2645"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

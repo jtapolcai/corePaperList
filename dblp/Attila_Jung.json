@@ -1,189 +1,274 @@
 {
   "dblpperson": {
+    "@name": "Attila Jung",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/compgeom/JungP25",
-        "title": "k-Dimensional Transversals for Fat Convex Sets.",
-        "pages": "61:1-61:12",
-        "year": "2025",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2025.61",
-        "url": "db/conf/compgeom/compgeom2025.html#JungP25",
-        "authors": [
-          "Attila Jung",
-          "DÃ¶mÃ¶tÃ¶r PÃ¡lvÃ¶lgyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cccg/Jung22",
+          "title": "Quantitative Helly-type Hypergraph Chains",
+          "booktitle": "CCCG",
+          "year": "2022",
+          "pages": "184-188",
+          "author": {
+            "#text": "Attila Jung",
+            "@pid": "305/1474"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/compgeom/AmbrusBFJN23",
-        "title": "On Helly Numbers of Exponential Lattices.",
-        "pages": "8:1-8:16",
-        "year": "2023",
-        "booktitle": "SoCG",
-        "ee": "https://doi.org/10.4230/LIPIcs.SoCG.2023.8",
-        "url": "db/conf/compgeom/compgeom2023.html#AmbrusBFJN23",
-        "authors": [
-          "Gergely Ambrus",
-          "Martin Balko",
-          "NÃ³ra Frankl",
-          "Attila Jung",
-          "MÃ¡rton NaszÃ³di"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/AmbrusBFJN23",
+          "title": "On Helly Numbers of Exponential Lattices",
+          "booktitle": "SoCG",
+          "year": "2023",
+          "pages": "8:1-8:16",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2023.8",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Gergely Ambrus",
+              "@pid": "46/4997"
+            },
+            {
+              "#text": "Martin Balko",
+              "@pid": "125/8673"
+            },
+            {
+              "#text": "Márton Naszódi",
+              "@pid": "60/831"
+            },
+            {
+              "#text": "Nóra Frankl",
+              "@pid": "220/0205"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cccg/Jung22",
-        "title": "Quantitative Helly-type Hypergraph Chains.",
-        "pages": "184-188",
-        "year": "2022",
-        "booktitle": "CCCG",
-        "url": "db/conf/cccg/cccg2022.html#Jung22",
-        "authors": [
-          "Attila Jung"
-        ]
+        "inproceedings": {
+          "@key": "conf/compgeom/JungP25",
+          "title": "k-Dimensional Transversals for Fat Convex Sets",
+          "booktitle": "SoCG",
+          "year": "2025",
+          "pages": "61:1-61:12",
+          "ee": "https://doi.org/10.4230/LIPICS.SOCG.2025.61",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Dömötör Pálvölgyi",
+              "@pid": "56/6527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/gc/Jung23",
-        "title": "Shadow Ratio of Hypergraphs with Bounded Degree.",
-        "pages": "40",
-        "year": "2023",
-        "volume": "39",
-        "journal": "Graphs Comb.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s00373-023-02634-y",
-        "url": "db/journals/gc/gc39.html#Jung23",
-        "authors": [
-          "Attila Jung"
-        ]
+        "article": {
+          "@key": "journals/combinatorics/Jung24",
+          "title": "Quantitative Helly-type Theorems via Hypergraph Chains",
+          "journal": "Electron. J. Comb.",
+          "year": "2024",
+          "ee": "https://doi.org/10.37236/11989",
+          "author": {
+            "#text": "Attila Jung",
+            "@pid": "305/1474"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/combinatorics/Jung24",
-        "title": "Quantitative Helly-type Theorems via Hypergraph Chains.",
-        "year": "2024",
-        "volume": "31",
-        "journal": "Electron. J. Comb.",
-        "number": "2",
-        "ee": "https://doi.org/10.37236/11989",
-        "url": "db/journals/combinatorics/combinatorics31.html#Jung24",
-        "authors": [
-          "Attila Jung"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2311-15646",
+          "title": "k-dimensional transversals for balls",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2311.15646",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Dömötör Pálvölgyi",
+              "@pid": "56/6527"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dm/BaratGJNP24",
-        "title": "The double Hall property and cycle covers in bipartite graphs.",
-        "pages": "114079",
-        "year": "2024",
-        "volume": "347",
-        "journal": "Discret. Math.",
-        "number": "9",
-        "ee": "https://doi.org/10.1016/j.disc.2024.114079",
-        "url": "db/journals/dm/dm347.html#BaratGJNP24",
-        "authors": [
-          "JÃ¡nos BarÃ¡t",
-          "Andrzej Grzesik",
-          "Attila Jung",
-          "ZoltÃ¡n LÃ³rÃ¡nt Nagy",
-          "DÃ¶mÃ¶tÃ¶r PÃ¡lvÃ¶lgyi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2402-12268",
+          "title": "The Quantitative Fractional Helly theorem",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2402.12268",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "István Tomon",
+              "@pid": "159/3509"
+            },
+            {
+              "#text": "Nóra Frankl",
+              "@pid": "220/0205"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/AmbrusBFJN24",
-        "title": "On Helly numbers of exponential lattices.",
-        "pages": "103884",
-        "year": "2024",
-        "volume": "116",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://doi.org/10.1016/j.ejc.2023.103884",
-        "url": "db/journals/ejc/ejc116.html#AmbrusBFJN24",
-        "authors": [
-          "Gergely Ambrus",
-          "Martin Balko",
-          "NÃ³ra Frankl",
-          "Attila Jung",
-          "MÃ¡rton NaszÃ³di"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2607-10751",
+          "title": "The VC dimension of partial concept classes via Radon's theorem",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.10751",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Grigory Ivanov",
+              "@pid": "257/4564"
+            },
+            {
+              "#text": "Márton Naszódi",
+              "@pid": "60/831"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ejc/JungN22",
-        "title": "Quantitative Fractional Helly and (p, q)-Theorems.",
-        "pages": "103424",
-        "year": "2022",
-        "volume": "99",
-        "journal": "Eur. J. Comb.",
-        "ee": "https://www.wikidata.org/entity/Q113875498",
-        "url": "db/journals/ejc/ejc99.html#JungN22",
-        "authors": [
-          "Attila Jung",
-          "MÃ¡rton NaszÃ³di"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2607-29403",
+          "title": "Strong invariants and Tverberg numbers in convexity spaces",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.29403",
+          "author": [
+            {
+              "#text": "Andreas F. Holmsen",
+              "@pid": "47/6853"
+            },
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Hong Liu",
+              "@pid": "29/5010"
+            },
+            {
+              "#text": "Minho Cho",
+              "@pid": "223/1381"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2607-10751",
-        "title": "The VC dimension of partial concept classes via Radon's theorem.",
-        "year": "2026",
-        "volume": "abs/2607.10751",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2607.10751",
-        "url": "db/journals/corr/corr2607.html#abs-2607-10751",
-        "authors": [
-          "Grigory Ivanov",
-          "Attila Jung",
-          "MÃ¡rton NaszÃ³di"
-        ]
+        "article": {
+          "@key": "journals/dm/BaratGJNP24",
+          "title": "The double Hall property and cycle covers in bipartite graphs",
+          "journal": "Discret. Math.",
+          "year": "2024",
+          "pages": "114079",
+          "ee": "https://doi.org/10.1016/J.DISC.2024.114079",
+          "author": [
+            {
+              "#text": "Andrzej Grzesik",
+              "@pid": "120/1410"
+            },
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Dömötör Pálvölgyi",
+              "@pid": "56/6527"
+            },
+            {
+              "#text": "János Barát",
+              "@pid": "39/6443"
+            },
+            {
+              "#text": "Zoltán Lóránt Nagy",
+              "@pid": "78/8650"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2607-29403",
-        "title": "Strong invariants and Tverberg numbers in convexity spaces.",
-        "year": "2026",
-        "volume": "abs/2607.29403",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2607.29403",
-        "url": "db/journals/corr/corr2607.html#abs-2607-29403",
-        "authors": [
-          "Minho Cho",
-          "Andreas F. Holmsen",
-          "Attila Jung",
-          "Hong Liu"
-        ]
+        "article": {
+          "@key": "journals/ejc/AmbrusBFJN24",
+          "title": "On Helly numbers of exponential lattices",
+          "journal": "Eur. J. Comb.",
+          "year": "2024",
+          "pages": "103884",
+          "ee": "https://doi.org/10.1016/J.EJC.2023.103884",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Gergely Ambrus",
+              "@pid": "46/4997"
+            },
+            {
+              "#text": "Martin Balko",
+              "@pid": "125/8673"
+            },
+            {
+              "#text": "Márton Naszódi",
+              "@pid": "60/831"
+            },
+            {
+              "#text": "Nóra Frankl",
+              "@pid": "220/0205"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2311-15646",
-        "title": "k-dimensional transversals for balls.",
-        "year": "2023",
-        "volume": "abs/2311.15646",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2311.15646",
-        "url": "db/journals/corr/corr2311.html#abs-2311-15646",
-        "authors": [
-          "Attila Jung",
-          "DÃ¶mÃ¶tÃ¶r PÃ¡lvÃ¶lgyi"
-        ]
+        "article": {
+          "@key": "journals/ejc/JungN22",
+          "title": "Quantitative Fractional Helly and (p, q)-Theorems",
+          "journal": "Eur. J. Comb.",
+          "year": "2022",
+          "pages": "103424",
+          "ee": "https://doi.org/10.1016/J.EJC.2021.103424",
+          "author": [
+            {
+              "#text": "Attila Jung",
+              "@pid": "305/1474"
+            },
+            {
+              "#text": "Márton Naszódi",
+              "@pid": "60/831"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2402-12268",
-        "title": "The Quantitative Fractional Helly theorem.",
-        "year": "2024",
-        "volume": "abs/2402.12268",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2402.12268",
-        "url": "db/journals/corr/corr2402.html#abs-2402-12268",
-        "authors": [
-          "NÃ³ra Frankl",
-          "Attila Jung",
-          "IstvÃ¡n Tomon"
-        ]
+        "article": {
+          "@key": "journals/gc/Jung23",
+          "title": "Shadow Ratio of Hypergraphs with Bounded Degree",
+          "journal": "Graphs Comb.",
+          "year": "2023",
+          "pages": "40",
+          "ee": "https://doi.org/10.1007/S00373-023-02634-Y",
+          "author": {
+            "#text": "Attila Jung",
+            "@pid": "305/1474"
+          }
+        }
       }
     ]
   }

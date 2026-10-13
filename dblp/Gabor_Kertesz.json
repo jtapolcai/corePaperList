@@ -1,51 +1,753 @@
 {
   "dblpperson": {
+    "@name": "Gabor Kertesz",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/saci/KerteszSV18",
-        "title": "Vehicle Image Matching Using Siamese Neural Networks with Multi-Directional Image Projections.",
-        "pages": "1-5",
-        "year": "2018",
-        "booktitle": "SACI",
-        "ee": "https://doi.org/10.1109/SACI.2018.8440917",
-        "url": "db/conf/saci/saci2018.html#KerteszSV18",
-        "authors": [
-          "Gabor Kertesz",
-          "SÃ¡ndor SzÃ©nÃ¡si",
-          "Zoltan Vamossy"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/SzantoSSDEKK22",
+          "title": "Utilization of IMU-Based Gesture Recognition in the Treatment of Diabetes",
+          "booktitle": "AQTR",
+          "year": "2022",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/AQTR55203.2022.9801950",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Gergo Strasser",
+              "@pid": "322/9916"
+            },
+            {
+              "#text": "György Eigner",
+              "@pid": "147/1941"
+            },
+            {
+              "#text": "László Szász",
+              "@pid": "322/9706"
+            },
+            {
+              "#text": "Lehel Dénes-Fazakas",
+              "@pid": "305/2484"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Marcell Szántó",
+              "@pid": "322/9696"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/saci/KerteszV15",
-        "title": "Current challenges in multi-view computer vision.",
-        "pages": "237-241",
-        "year": "2015",
-        "booktitle": "SACI",
-        "ee": "https://doi.org/10.1109/SACI.2015.7208206",
-        "url": "db/conf/saci/saci2015.html#KerteszV15",
-        "authors": [
-          "Gabor Kertesz",
-          "Zoltan Vamossy"
-        ]
+        "inproceedings": {
+          "@key": "conf/saci/CzakoKS25",
+          "title": "Turning LLM Activations Quantization-Friendly",
+          "booktitle": "SACI",
+          "year": "2025",
+          "pages": "211-216",
+          "ee": "https://doi.org/10.1109/SACI66288.2025.11030191",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/saci/KerteszKLSV16",
-        "title": "Multiprocessing of an individual-cell based model for parameter testing.",
-        "pages": "491-496",
-        "year": "2016",
-        "booktitle": "SACI",
-        "ee": "https://doi.org/10.1109/SACI.2016.7507427",
-        "url": "db/conf/saci/saci2016.html#KerteszKLSV16",
-        "authors": [
-          "Gabor Kertesz",
-          "DÃ¡niel Kiss",
-          "Anna Lovrics",
-          "SÃ¡ndor SzÃ©nÃ¡si",
-          "Zoltan Vamossy"
-        ]
+        "inproceedings": {
+          "@key": "conf/saci/GondaK23",
+          "title": "Birth time prediction based on uterus-activity using machine learning",
+          "booktitle": "SACI",
+          "year": "2023",
+          "pages": "461-466",
+          "ee": "https://doi.org/10.1109/SACI58269.2023.10158602",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Gréta Gonda",
+              "@pid": "351/1472"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/KerteszKLSV16",
+          "title": "Multiprocessing of an individual-cell based model for parameter testing",
+          "booktitle": "SACI",
+          "year": "2016",
+          "pages": "491-496",
+          "ee": "https://doi.org/10.1109/SACI.2016.7507427",
+          "author": [
+            {
+              "#text": "Anna Lovrics",
+              "@pid": "62/7518"
+            },
+            {
+              "#text": "Dániel Kiss",
+              "@pid": "335/5964"
+            },
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zoltán Vámossy",
+              "@pid": "99/7546"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/KerteszSV18",
+          "title": "Vehicle Image Matching Using Siamese Neural Networks with Multi-Directional Image Projections",
+          "booktitle": "SACI",
+          "year": "2018",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/SACI.2018.8440917",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zoltán Vámossy",
+              "@pid": "99/7546"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/KerteszSV19",
+          "title": "Multi-Directional Projection Transformations for Machine Learning based Object Matching",
+          "booktitle": "SACI",
+          "year": "2019",
+          "pages": "269-274",
+          "ee": "https://doi.org/10.1109/SACI46893.2019.9111566",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zoltán Vámossy",
+              "@pid": "99/7546"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/KerteszV15",
+          "title": "Current challenges in multi-view computer vision",
+          "booktitle": "SACI",
+          "year": "2015",
+          "pages": "237-241",
+          "ee": "https://doi.org/10.1109/SACI.2015.7208206",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zoltán Vámossy",
+              "@pid": "99/7546"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/KovacsK21",
+          "title": "Hungarian Traffic Sign Detection and Classification using Semi-Supervised Learning",
+          "booktitle": "SACI",
+          "year": "2021",
+          "pages": "437-442",
+          "ee": "https://doi.org/10.1109/SACI51354.2021.9465555",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sisy/SimonHSDKSKE24",
+          "title": "Enhancing Diabetes Management Through GRU Analysis of Physical Activity Effects",
+          "booktitle": "SISY",
+          "year": "2024",
+          "pages": "27-32",
+          "ee": "https://doi.org/10.1109/SISY62279.2024.10737589",
+          "author": [
+            {
+              "#text": "Ádám Hartvég",
+              "@pid": "374/5167"
+            },
+            {
+              "#text": "Barbara Simon",
+              "@pid": "17/9260"
+            },
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "György Eigner",
+              "@pid": "147/1941"
+            },
+            {
+              "#text": "László Szilágyi",
+              "@pid": "26/1064"
+            },
+            {
+              "#text": "Lehel Dénes-Fazakas",
+              "@pid": "305/2484"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Máté Siket",
+              "@pid": "234/0510"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smc/CzakoKS25",
+          "title": "SmoothRot: Combining Channel-Wise Scaling and Rotation for Quantization-Friendly LLMs",
+          "booktitle": "SMC",
+          "year": "2025",
+          "pages": "6461-6466",
+          "ee": "https://doi.org/10.1109/SMC58881.2025.11342731",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smc/Denes-FazakasSK22",
+          "title": "Control of Type 1 Diabetes Mellitus using direct reinforcement learning based controller",
+          "booktitle": "SMC",
+          "year": "2022",
+          "pages": "1512-1517",
+          "ee": "https://doi.org/10.1109/SMC53654.2022.9945084",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "György Eigner",
+              "@pid": "147/1941"
+            },
+            {
+              "#text": "László Szilágyi",
+              "@pid": "26/1064"
+            },
+            {
+              "#text": "Lehel Dénes-Fazakas",
+              "@pid": "305/2484"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Máté Siket",
+              "@pid": "234/0510"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sysose/KerteszF20",
+          "title": "One-Shot Re-identification using Image Projections in Deep Triplet Convolutional Network",
+          "booktitle": "SoSE",
+          "year": "2020",
+          "pages": "597-602",
+          "ee": "https://doi.org/10.1109/SOSE50414.2020.9130423",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Imre Felde",
+              "@pid": "155/4435"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/CzakoKS25",
+          "title": "Addressing Activation Outliers in LLMs: A Systematic Review of Post-Training Quantization Techniques",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "81917-81932",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3568702",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/RostamPCZGK26",
+          "title": "Automated Classification of EQ-5D Literature in PubMed Using Multi-Phase Learning and LLM-Assisted Co-Training",
+          "journal": "IEEE Access",
+          "year": "2026",
+          "pages": "81665-81685",
+          "ee": "https://doi.org/10.1109/ACCESS.2026.3697415",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "János Tibor Czere",
+              "@pid": "332/4773"
+            },
+            {
+              "#text": "László Gulácsi",
+              "@pid": "332/4274"
+            },
+            {
+              "#text": "Márta Péntek",
+              "@pid": "332/4511"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            },
+            {
+              "#text": "Zsombor Zrubka",
+              "@pid": "332/3853"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/RostamSK24",
+          "title": "Achieving Peak Performance for Large Language Models: A Systematic Review",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "96017-96050",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3424945",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aes/KerteszSV21",
+          "title": "Comparative analysis of image projection-based descriptors in Siamese neural networks",
+          "journal": "Adv. Eng. Softw.",
+          "year": "2021",
+          "pages": "102963",
+          "ee": "https://doi.org/10.1016/J.ADVENGSOFT.2020.102963",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zoltán Vámossy",
+              "@pid": "99/7546"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/Kertesz20",
+          "title": "Metric Embedding Learning on Multi-Directional Projections",
+          "journal": "Algorithms",
+          "year": "2020",
+          "pages": "133",
+          "ee": "https://doi.org/10.3390/A13060133",
+          "author": {
+            "#text": "Gabor Kertesz",
+            "@pid": "167/2686"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/algorithms/SzenasiK20",
+          "title": "Special Issue on Bio-Inspired Algorithms for Image Processing",
+          "journal": "Algorithms",
+          "year": "2020",
+          "pages": "320",
+          "ee": "https://doi.org/10.3390/A13120320",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2409-04833",
+          "title": "Achieving Peak Performance for Large Language Models: A Systematic Review",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2409.04833",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2412-00098",
+          "title": "Fine-Tuning Large Language Models for Scientific Text Classification: A Comparative Study",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2412.00098",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2504-19021",
+          "title": "Advancing Scientific Text Classification: Fine-Tuned Models with Dataset Expansion and Hard-Voting",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2504.19021",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-01967",
+          "title": "Turning LLM Activations Quantization-Friendly",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.01967",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2506-05413",
+          "title": "SmoothRot: Combining Channel-Wise Scaling and Rotation for Quantization-Friendly LLMs",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.05413",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2510-17892",
+          "title": "Advances in Pre-trained Language Models for Domain-Specific Text Classification: A Systematic Review",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.17892",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-21216",
+          "title": "EQ-5D Classification Using Biomedical Entity-Enriched Pre-trained Language Models and Multiple Instance Learning",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.21216",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-09927",
+          "title": "Trainable Smooth-Rotation Transforms with Learned Channel Scales for LLM Quantization",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.09927",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Patrik Czakó",
+              "@pid": "405/5217"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-19345",
+          "title": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.19345",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "János Tibor Czere",
+              "@pid": "332/4773"
+            },
+            {
+              "#text": "László Gulácsi",
+              "@pid": "332/4274"
+            },
+            {
+              "#text": "Márta Péntek",
+              "@pid": "332/4511"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            },
+            {
+              "#text": "Zsombor Zrubka",
+              "@pid": "332/3853"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcmse/SzenasiKFN21",
+          "title": "Statistical accident analysis supporting the control of autonomous vehicles",
+          "journal": "J. Comput. Methods Sci. Eng.",
+          "year": "2021",
+          "pages": "85-97",
+          "ee": "https://doi.org/10.3233/JCM-204186",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Imre Felde",
+              "@pid": "155/4435"
+            },
+            {
+              "#text": "László Nádai",
+              "@pid": "18/5526"
+            },
+            {
+              "#text": "Sándor Szénási",
+              "@pid": "147/4392"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/Kertesz22",
+          "title": "Deep Metric Learning Using Negative Sampling Probability Annealing",
+          "journal": "Sensors",
+          "year": "2022",
+          "pages": "7579",
+          "ee": "https://doi.org/10.3390/S22197579",
+          "author": {
+            "#text": "Gabor Kertesz",
+            "@pid": "167/2686"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tist/RostamK25",
+          "title": "Advances in Pre-trained Language Models for Domain-Specific Text Classification: A Systematic Review",
+          "journal": "ACM Trans. Intell. Syst. Technol.",
+          "year": "2025",
+          "pages": "124:1-124:41",
+          "ee": "https://doi.org/10.1145/3763002",
+          "author": [
+            {
+              "#text": "Gabor Kertesz",
+              "@pid": "167/2686"
+            },
+            {
+              "#text": "Zhyar Rzgar K. Rostam",
+              "@pid": "255/7144"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Gabor19",
+          "title": "Multi-Directional Image Projections with Fixed Resolution for Object Recognition and Matching",
+          "journal": "",
+          "year": "2019",
+          "author": {
+            "#text": "Gabor Kertesz",
+            "@pid": "167/2686"
+          }
+        }
       }
     ]
   }

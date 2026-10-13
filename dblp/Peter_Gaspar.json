@@ -1,1108 +1,4858 @@
 {
   "dblpperson": {
+    "@name": "Peter Gaspar",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/MihalyG16",
-        "title": "Robust and fault-tolerant control of in-wheel vehicles with cornering resistance minimization.",
-        "pages": "2590-2595",
-        "year": "2016",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.1109/ECC.2016.7810680",
-        "url": "db/conf/eucc/eucc2016.html#MihalyG16",
-        "authors": [
-          "Andras Mihaly",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/NemethG13",
-        "title": "Variable-geometry suspension design in driver assistance systems.",
-        "pages": "1481-1486",
-        "year": "2013",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2013.6669551",
-        "url": "db/conf/eucc/eucc2013.html#NemethG13",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/NemethG13a",
-        "title": "Analysis of vehicle actuators based on reachable sets.",
-        "pages": "3137-3142",
-        "year": "2013",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2013.6669735",
-        "url": "db/conf/eucc/eucc2013.html#NemethG13a",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/SzaboBGA18",
-        "title": "Control oriented modeling of an electro-pneumatic gearbox actuator.",
-        "pages": "2623-2628",
-        "year": "2018",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2018.8550589",
-        "url": "db/conf/eucc/eucc2018.html#SzaboBGA18",
-        "authors": [
-          "ÃdÃ¡m SzabÃ³",
-          "TamÃ¡s BÃ©csi",
-          "Peter Gaspar",
-          "SzilÃ¡rd Aradi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/VargaNG14",
-        "title": "Hierarchical design of electro-hydraulic actuator control for vehicle dynamic purposes.",
-        "pages": "999-1004",
-        "year": "2014",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.1109/ECC.2014.6862427",
-        "url": "db/conf/eucc/eucc2014.html#VargaNG14",
-        "authors": [
-          "BalÃ¡zs Varga",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/FenyesNG18",
-        "title": "Analysis of autonomous vehicle dynamics based on the big data approach.",
-        "pages": "219-224",
-        "year": "2018",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2018.8550426",
-        "url": "db/conf/eucc/eucc2018.html#FenyesNG18",
-        "authors": [
-          "Daniel Fenyes",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/eucc/NemethGS18",
-        "title": "Design and Verification of Autonomous Steering Control Based on Driver Modeling.",
-        "pages": "953-958",
-        "year": "2018",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2018.8550263",
-        "url": "db/conf/eucc/eucc2018.html#NemethGS18",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar",
-          "Gergely Santha"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/GasparNB12",
-        "title": "Design of a supervisory integrated control for driver assistance systems.",
-        "pages": "5022-5027",
-        "year": "2012",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735478",
-        "url": "db/conf/cdc/cdc2012.html#GasparNB12",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/GasparNBSD16",
-        "title": "The impact of suspension control on the controllability of the lateral vehicle dynamics.",
-        "pages": "1576-1581",
-        "year": "2016",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q59208142",
-        "url": "db/conf/cdc/cdc2016.html#GasparNBSD16",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor",
-          "Olivier Sename",
-          "Luc Dugard"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/NemethGB13",
-        "title": "Integrated control design based on driver-in-the-loop vehicle dynamics.",
-        "pages": "3517-3522",
-        "year": "2013",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735401",
-        "url": "db/conf/cdc/cdc2013.html#NemethGB13",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/NemethGB14",
-        "title": "Analysis of braking dynamics using parameter-dependent polynomial Control Lyapunov Functions.",
-        "pages": "2536-2541",
-        "year": "2014",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735237",
-        "url": "db/conf/cdc/cdc2014.html#NemethGB14",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/SzaboBGB13",
-        "title": "Elimination lemma and contractive extensions.",
-        "pages": "3049-3054",
-        "year": "2013",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735381",
-        "url": "db/conf/cdc/cdc2013.html#SzaboBGB13",
-        "authors": [
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Zsolt BirÃ³",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/GasparSB05",
-        "title": "The Design of an Integrated Control System in Heavy Vehicles Based on an LPV Method.",
-        "pages": "6722-6727",
-        "year": "2005",
-        "booktitle": "CDC/ECC",
-        "ee": "https://doi.org/10.1109/CDC.2005.1583242",
-        "url": "db/conf/cdc/cdc2005.html#GasparSB05",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/GasparSB08",
-        "title": "Design of reconfigurable and fault-tolerant suspension systems based on LPV methods.",
-        "pages": "5384-5389",
-        "year": "2008",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735691",
-        "url": "db/conf/cdc/cdc2008.html#GasparSB08",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/NemethG11a",
-        "title": "Integration of control design and variable geometry suspension construction for vehicle stability enhancement.",
-        "pages": "7452-7457",
-        "year": "2011",
-        "booktitle": "CDC/ECC",
-        "ee": "https://doi.org/10.1109/CDC.2011.6160441",
-        "url": "db/conf/cdc/cdc2011.html#NemethG11a",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/GasparSB11",
-        "title": "LPV design of reconfigurable and integrated control for road vehicles.",
-        "pages": "2505-2510",
-        "year": "2011",
-        "booktitle": "CDC/ECC",
-        "ee": "https://www.wikidata.org/entity/Q57735568",
-        "url": "db/conf/cdc/cdc2011.html#GasparSB11",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cdc/NemethG11",
-        "title": "Design of actuator interventions in the trajectory tracking for road vehicles.",
-        "pages": "7434-7439",
-        "year": "2011",
-        "booktitle": "CDC/ECC",
-        "ee": "https://doi.org/10.1109/CDC.2011.6160400",
-        "url": "db/conf/cdc/cdc2011.html#NemethG11",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/NemethGB15",
-        "title": "Improvement of the LPV-based vehicle control design considering the polynomial invariant set analysis.",
-        "pages": "1513-1518",
-        "year": "2015",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2015.7170947",
-        "url": "db/conf/amcc/acc2015.html#NemethGB15",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/GasparNB12",
-        "title": "Design of an integrated control for driver assistance systems based on LPV methods.",
-        "pages": "2916-2921",
-        "year": "2012",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2012.6315152",
-        "url": "db/conf/amcc/acc2012.html#GasparNB12",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/GasparN15",
-        "title": "Design of look-ahead cruise control using road and traffic conditions.",
-        "pages": "3447-3452",
-        "year": "2015",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2015.7171864",
-        "url": "db/conf/amcc/acc2015.html#GasparN15",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/ZinSGDB06",
-        "title": "An LPV/H~~ Active Suspension Control for Global Chassis Technology: Design and Performance Analysis.",
-        "pages": "2945-2950",
-        "year": "2006",
-        "booktitle": "ACC",
-        "ee": "https://www.wikidata.org/entity/Q57735808",
-        "url": "db/conf/amcc/acc2006.html#ZinSGDB06",
-        "authors": [
-          "Alessandro Zin",
-          "Olivier Sename",
-          "Peter Gaspar",
-          "Luc Dugard",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/RodonyiGB13",
-        "title": "Unfalsified uncertainty modeling for computing tight bounds on peak spacing errors in vehicle platoons.",
-        "pages": "3057-3062",
-        "year": "2013",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2013.6580300",
-        "url": "db/conf/amcc/acc2013.html#RodonyiGB13",
-        "authors": [
-          "GÃ¡bor RÃ¶dÃ¶nyi",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/amcc/GasparSB00",
-        "title": "Robust control synthesis to achieve a required loop shape-a generalized orthonormal basis function approach.",
-        "pages": "3840-3844",
-        "year": "2000",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2000.876941",
-        "url": "db/conf/amcc/acc2000.html#GasparSB00",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icinco/HegedusFTG23",
-        "title": "Lateral Control for Automated Vehicles Based on Model Predictive Control and Error-Based Ultra-Local Model.",
-        "pages": "142-149",
-        "year": "2023",
-        "booktitle": "ICINCO (2)",
-        "ee": "https://doi.org/10.5220/0012184500003543",
-        "url": "db/conf/icinco/icinco2023-2.html#HegedusFTG23",
-        "authors": [
-          "TamÃ¡s HegedÃ¼s",
-          "Daniel Fenyes",
-          "Vu Van Tan",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icinco/FenyesHTG23",
-        "title": "An Observer Design Method Using Ultra-Local Model for Autonomous Vehicles.",
-        "pages": "41-49",
-        "year": "2023",
-        "booktitle": "ICINCO (2)",
-        "ee": "https://doi.org/10.5220/0012184300003543",
-        "url": "db/conf/icinco/icinco2023-2.html#FenyesHTG23",
-        "authors": [
-          "Daniel Fenyes",
-          "TamÃ¡s HegedÃ¼s",
-          "Vu Van Tan",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icinco/RodonyiGBP12",
-        "title": "Design and Analysis of an Automated Heavy Vehicle Platoon.",
-        "pages": "31-37",
-        "year": "2012",
-        "booktitle": "ICINCO (2)",
-        "url": "db/conf/icinco/icinco2012-2.html#RodonyiGBP12",
-        "authors": [
-          "GÃ¡bor RÃ¶dÃ¶nyi",
-          "Peter Gaspar",
-          "Jozsef Bokor",
-          "LÃ¡szlÃ³ Palkovics"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/Gaspar17",
-        "title": "User Preferences Analysis Using Visual Stimuli.",
-        "pages": "436-440",
-        "year": "2017",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/3109859.3120955",
-        "url": "db/conf/recsys/recsys2017.html#Gaspar17",
-        "authors": [
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/enic/GasparS16",
-        "title": "Linking Multimedia to Microblogs for Metadata Extraction.",
-        "pages": "90-97",
-        "year": "2016",
-        "booktitle": "ENIC",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ENIC.2016.021",
-        "url": "db/conf/enic/enic2016.html#GasparS16",
-        "authors": [
-          "Peter Gaspar",
-          "Jakub Simko"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sisy/SzokeABG20",
-        "title": "Vehicle Control in Highway Traffic by Using Reinforcement Learning and Microscopic Traffic Simulation.",
-        "pages": "21-26",
-        "year": "2020",
-        "booktitle": "SISY",
-        "ee": "https://doi.org/10.1109/SISY50555.2020.9217076",
-        "url": "db/conf/sisy/sisy2020.html#SzokeABG20",
-        "authors": [
-          "Laszlo Szoke",
-          "SzilÃ¡rd Aradi",
-          "TamÃ¡s BÃ©csi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/saci/MihalyG14",
-        "title": "Identification of a linear driver model based on simulator experiments.",
-        "pages": "13-18",
-        "year": "2014",
-        "booktitle": "SACI",
-        "ee": "https://doi.org/10.1109/SACI.2014.6840057",
-        "url": "db/conf/saci/saci2014.html#MihalyG14",
-        "authors": [
-          "Andras Mihaly",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/acc/Gaspar0B07",
-        "title": "A grey-box identification of an LPV vehicle model for observer-based side slip angle estimation.",
-        "pages": "2961-2966",
-        "year": "2007",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.1109/ACC.2007.4282629",
-        "url": "db/conf/amcc/acc2007.html#Gaspar0B07",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aimech/NemethFGM17",
-        "title": "Analysis and robust control design of a steering system for autonomous vehicles.",
-        "pages": "535-540",
-        "year": "2017",
-        "booktitle": "AIM",
-        "ee": "https://doi.org/10.1109/AIM.2017.8014072",
-        "url": "db/conf/aimech/aim2017.html#NemethFGM17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "Peter Gaspar",
-          "Andras Mihaly"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aimech/MihalyKGN17",
-        "title": "Design of adaptive vehicle suspension using cloud-based road data.",
-        "pages": "529-534",
-        "year": "2017",
-        "booktitle": "AIM",
-        "ee": "https://doi.org/10.1109/AIM.2017.8014071",
-        "url": "db/conf/aimech/aim2017.html#MihalyKGN17",
-        "authors": [
-          "Andras Mihaly",
-          "ÃdÃ¡m Kisari",
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aimech/NemethG14",
-        "title": "Analysis and control of nonlinear actuator dynamics based on the sum of squares programming method.",
-        "pages": "233-238",
-        "year": "2014",
-        "booktitle": "AIM",
-        "ee": "https://doi.org/10.1109/AIM.2014.6878084",
-        "url": "db/conf/aimech/aim2014.html#NemethG14",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/NemethFGB17",
-        "title": "Control design of an electro-hydraulic actuator for variable-geometry suspension systems.",
-        "pages": "180-185",
-        "year": "2017",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2017.7984115",
-        "url": "db/conf/med/med2017.html#NemethFGB17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Daniel Fenyes",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/NemethBG18",
-        "title": "MPC-Based Coordinated Control Design for Look-Ahead Vehicles and Traffic Flow.",
-        "pages": "247-252",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8442707",
-        "url": "db/conf/med/med2018.html#NemethBG18",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Zsuzsanna Bede",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/NemethVG14",
-        "title": "Design of a variable-geometry suspension system to enhance road stability.",
-        "pages": "55-60",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2014.6961326",
-        "url": "db/conf/med/med2014.html#NemethVG14",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "BalÃ¡zs Varga",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/FenyesNAG18",
-        "title": "Side-slip Angle Estimation of Autonomous Road Vehicles Based on Big Data Analysis.",
-        "pages": "849-854",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8443010",
-        "url": "db/conf/med/med2018.html#FenyesNAG18",
-        "authors": [
-          "Daniel Fenyes",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Mate Asszonyi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/BakosGS14",
-        "title": "System architecture and hierarchical control for in-wheel electric motor vehicles.",
-        "pages": "24-29",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2014.6961321",
-        "url": "db/conf/med/med2014.html#BakosGS14",
-        "authors": [
-          "Adam Bakos",
-          "Peter Gaspar",
-          "Alexandros Soumelidis"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/GasparN14",
-        "title": "Design of look-ahead control for road vehicles using traffc information.",
-        "pages": "201-206",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2014.6961371",
-        "url": "db/conf/med/med2014.html#GasparN14",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/med/NemethFG18",
-        "title": "Anti-Lock Braking Control Design for Electric Vehicles Using LPV Methods.",
-        "pages": "511-516",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8442426",
-        "url": "db/conf/med/med2018.html#NemethFG18",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Mate Fazekas",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ccta/AradiBG18",
-        "title": "Policy Gradient Based Reinforcement Learning Approach for Autonomous Highway Driving.",
-        "pages": "670-675",
-        "year": "2018",
-        "booktitle": "CCTA",
-        "ee": "https://doi.org/10.1109/CCTA.2018.8511514",
-        "url": "db/conf/ccta/ccta2018.html#AradiBG18",
-        "authors": [
-          "SzilÃ¡rd Aradi",
-          "TamÃ¡s BÃ©csi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEisic/SzaboGB05",
-        "title": "Reference Tracking for Wiener Systems Using Dynamic Inversion.",
-        "pages": "1190-1194",
-        "year": "2005",
-        "booktitle": "ISIC",
-        "ee": "https://doi.org/10.1109/.2005.1467184",
-        "url": "db/conf/IEEEisic/isic2005.html#SzaboGB05",
-        "authors": [
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEisic/GasparSB05",
-        "title": "Gray-Box Continuous-Time Parameter Identification for Lpv Models with Vehicle Dynamics Applications.",
-        "pages": "393-398",
-        "year": "2005",
-        "booktitle": "ISIC",
-        "ee": "https://doi.org/10.1109/.2005.1467047",
-        "url": "db/conf/IEEEisic/isic2005.html#GasparSB05",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEisic/GasparSB05a",
-        "title": "Prediction Based Combined Control to Prevent the Rollover of Heavy Vehicles.",
-        "pages": "575-580",
-        "year": "2005",
-        "booktitle": "ISIC",
-        "ee": "https://doi.org/10.1109/.2005.1467078",
-        "url": "db/conf/IEEEisic/isic2005.html#GasparSB05a",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/PetresNGB08",
-        "title": "H℞ gain-scheduling based control of the heavy vehicle model, a TP model transformation based control.",
-        "pages": "1542-1547",
-        "year": "2008",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2008.4630577",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2008.html#PetresNGB08",
-        "authors": [
-          "ZoltÃ¡n Petres",
-          "Szabolcs Nagy",
-          "Peter Gaspar",
-          "PÃ©ter Baranyi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mtits/BecsiAG15",
-        "title": "Security issues and vulnerabilities in connected car systems.",
-        "pages": "477-482",
-        "year": "2015",
-        "booktitle": "MT-ITS",
-        "ee": "https://doi.org/10.1109/MTITS.2015.7223297",
-        "url": "db/conf/mtits/mtits2015.html#BecsiAG15",
-        "authors": [
-          "TamÃ¡s BÃ©csi",
-          "SzilÃ¡rd Aradi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mtits/MihalyNBG15",
-        "title": "Look-ahead cruise control design in VISSIM simulation environment.",
-        "pages": "52-57",
-        "year": "2015",
-        "booktitle": "MT-ITS",
-        "ee": "https://doi.org/10.1109/MTITS.2015.7223236",
-        "url": "db/conf/mtits/mtits2015.html#MihalyNBG15",
-        "authors": [
-          "Andras Mihaly",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Zsuzsanna Bede",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/rocond/GasparNB12",
-        "title": "Design of an LPV-Based Integrated Control for Driver Assistance Systems.",
-        "pages": "511-516",
-        "year": "2012",
-        "booktitle": "ROCOND",
-        "ee": "https://www.wikidata.org/entity/Q57735487",
-        "url": "db/conf/rocond/rocond2012.html#GasparNB12",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/rocond/GasparNB12a",
-        "title": "Design of Integrated Vehicle Control Using Driver Models.",
-        "pages": "517-522",
-        "year": "2012",
-        "booktitle": "ROCOND",
-        "ee": "https://www.wikidata.org/entity/Q57735493",
-        "url": "db/conf/rocond/rocond2012.html#GasparNB12a",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/rocond/RodonyiGBPAHK12",
-        "title": "Guaranteed Peaks of Spacing Errors in an Experimental Vehicle String.",
-        "pages": "759-764",
-        "year": "2012",
-        "booktitle": "ROCOND",
-        "ee": "https://www.wikidata.org/entity/Q57735507",
-        "url": "db/conf/rocond/rocond2012.html#RodonyiGBPAHK12",
-        "authors": [
-          "GÃ¡bor RÃ¶dÃ¶nyi",
-          "Peter Gaspar",
-          "Jozsef Bokor",
-          "LÃ¡szlÃ³ Palkovics",
-          "SzilÃ¡rd Aradi",
-          "ZoltÃ¡n Hankovszki",
-          "Roland KovÃ¡cs"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/rocond/NemethCVG12",
-        "title": "Design of Platoon Velocity Based on Multi-Criteria Optimization.",
-        "pages": "523-528",
-        "year": "2012",
-        "booktitle": "ROCOND",
-        "ee": "https://doi.org/10.3182/20120620-3-DK-2025.00072",
-        "url": "db/conf/rocond/rocond2012.html#NemethCVG12",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "AlfrÃ©d CsikÃ³s",
-          "IstvÃ¡n Varga",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mesa/SzaboBGA18",
-        "title": "Control design of an electro-pneumatic gearbox actuator.",
-        "pages": "1-6",
-        "year": "2018",
-        "booktitle": "MESA",
-        "ee": "https://doi.org/10.1109/MESA.2018.8449145",
-        "url": "db/conf/mesa/mesa2018.html#SzaboBGA18",
-        "authors": [
-          "ÃdÃ¡m SzabÃ³",
-          "TamÃ¡s BÃ©csi",
-          "Peter Gaspar",
-          "SzilÃ¡rd Aradi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mesa/BecsiAG14",
-        "title": "Design of an educational emulation framework for mechatronics control unit development.",
-        "pages": "1-5",
-        "year": "2014",
-        "booktitle": "MESA",
-        "ee": "https://doi.org/10.1109/MESA.2014.6935533",
-        "url": "db/conf/mesa/mesa2014.html#BecsiAG14",
-        "authors": [
-          "TamÃ¡s BÃ©csi",
-          "SzilÃ¡rd Aradi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/mesa/AradiBG14",
-        "title": "Experimental vehicle development for testing autonomous vehicle functions.",
-        "pages": "1-5",
-        "year": "2014",
-        "booktitle": "MESA",
-        "ee": "https://doi.org/10.1109/MESA.2014.6935534",
-        "url": "db/conf/mesa/mesa2014.html#AradiBG14",
-        "authors": [
-          "SzilÃ¡rd Aradi",
-          "TamÃ¡s BÃ©csi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEcca/NemethG12",
-        "title": "Control design based on the integration of steering and suspension systems.",
-        "pages": "382-387",
-        "year": "2012",
-        "booktitle": "CCA",
-        "ee": "https://doi.org/10.1109/CCA.2012.6402431",
-        "url": "db/conf/IEEEcca/IEEEcca2012.html#NemethG12",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEcca/GasparNB12",
-        "title": "Design of supervisory integrated control based on driver models in a simulation environment.",
-        "pages": "124-129",
-        "year": "2012",
-        "booktitle": "CCA",
-        "ee": "https://www.wikidata.org/entity/Q57735497",
-        "url": "db/conf/IEEEcca/IEEEcca2012.html#GasparNB12",
-        "authors": [
-          "Peter Gaspar",
-          "BalÃ¡zs NÃ©meth 0001",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEcca/VargaSGB08",
-        "title": "Implementation of dynamic inversion-based control of a pressurizer at the Paks NPP.",
-        "pages": "79-84",
-        "year": "2008",
-        "booktitle": "CCA",
-        "ee": "https://doi.org/10.1109/CCA.2008.4629677",
-        "url": "db/conf/IEEEcca/IEEEcca2008.html#VargaSGB08",
-        "authors": [
-          "IstvÃ¡n Varga",
-          "GÃ¡bor SzederkÃ©nyi",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/IEEEcca/SzaboGB12",
-        "title": "qLPV design method for multi-objective vehicle control.",
-        "pages": "1485-1490",
-        "year": "2012",
-        "booktitle": "CCA",
-        "ee": "https://www.wikidata.org/entity/Q57735536",
-        "url": "db/conf/IEEEcca/IEEEcca2012.html#SzaboGB12",
-        "authors": [
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/smap/MatlovicGMSB16",
-        "title": "Emotions detection using facial expressions recognition and EEG.",
-        "pages": "18-23",
-        "year": "2016",
-        "booktitle": "SMAP",
-        "ee": "https://www.wikidata.org/entity/Q59212644",
-        "url": "db/conf/smap/smap2016.html#MatlovicGMSB16",
-        "authors": [
-          "Tomas Matlovic",
-          "Peter Gaspar",
-          "RÃ³bert MÃ³ro",
-          "Jakub Simko",
-          "MÃ¡ria BielikovÃ¡"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/dsaa/GasparKKB19",
-        "title": "Improving the Personalized Recommendation in the Cold-start Scenarios.",
-        "pages": "606-607",
-        "year": "2019",
-        "booktitle": "DSAA",
-        "ee": "https://doi.org/10.1109/DSAA.2019.00079",
-        "url": "db/conf/dsaa/dsaa2019.html#GasparKKB19",
-        "authors": [
-          "Peter Gaspar",
-          "Michal Kompan",
-          "Matej Koncal",
-          "MÃ¡ria BielikovÃ¡"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/expert/KompanGMCB22",
-        "title": "Exploring Customer Price Preference and Product Profit Role in Recommender Systems.",
-        "pages": "89-98",
-        "year": "2022",
-        "volume": "37",
-        "journal": "IEEE Intell. Syst.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/MIS.2021.3092768",
-        "url": "db/journals/expert/expert37.html#KompanGMCB22",
-        "authors": [
-          "Michal Kompan",
-          "Peter Gaspar",
-          "Jakub Macina",
-          "Matus Cimerman",
-          "MÃ¡ria BielikovÃ¡"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/access/TanTVTMG24",
-        "title": "Optimizing a Hybrid Controller for Automotive Active Suspension System by Using Genetic Algorithms With Two High Level Parameters.",
-        "pages": "172451-172464",
-        "year": "2024",
-        "volume": "12",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3499352",
-        "url": "db/journals/access/access12.html#TanTVTMG24",
-        "authors": [
-          "Vu Van Tan",
-          "Do Trong Tu",
-          "Nguyen Van Vinh",
-          "Pham Tat Thang",
-          "Andras Mihaly",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tits/BecsiAG15",
-        "title": "Educational Frameworks for Vehicle Mechatronics.",
-        "pages": "3534-3542",
-        "year": "2015",
-        "volume": "16",
-        "journal": "IEEE Trans. Intell. Transp. Syst.",
-        "number": "6",
-        "ee": "https://doi.org/10.1109/TITS.2015.2480958",
-        "url": "db/journals/tits/tits16.html#BecsiAG15",
-        "authors": [
-          "TamÃ¡s BÃ©csi",
-          "SzilÃ¡rd Aradi",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tits/NemethG17",
-        "title": "The Relationship Between the Traffic Flow and the Look-Ahead Cruise Control.",
-        "pages": "1154-1164",
-        "year": "2017",
-        "volume": "18",
-        "journal": "IEEE Trans. Intell. Transp. Syst.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/TITS.2016.2599583",
-        "url": "db/journals/tits/tits18.html#NemethG17",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tvt/NemethG13",
-        "title": "Control Design of Variable-Geometry Suspension Considering the Construction System.",
-        "pages": "4104-4109",
-        "year": "2013",
-        "volume": "62",
-        "journal": "IEEE Trans. Veh. Technol.",
-        "number": "8",
-        "ee": "https://doi.org/10.1109/TVT.2013.2263156",
-        "url": "db/journals/tvt/tvt62.html#NemethG13",
-        "authors": [
-          "BalÃ¡zs NÃ©meth 0001",
-          "Peter Gaspar"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ejcon/DoumiatiSDMG013",
-        "title": "Integrated vehicle dynamics control via coordination of active front steering and rear braking.",
-        "pages": "121-143",
-        "year": "2013",
-        "volume": "19",
-        "journal": "Eur. J. Control",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q59208187",
-        "url": "db/journals/ejcon/ejcon19.html#DoumiatiSDMG013",
-        "authors": [
-          "Moustapha Doumiati",
-          "Olivier Sename",
-          "Luc Dugard",
-          "John Jairo Martinez Molina",
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ejcon/Poussot-VassalSGB07",
-        "title": "Discussion on: Combining Slip and Deceleration Control for Brake-by-wire Control Systems: A Sliding-mode Approach.",
-        "pages": "612-617",
-        "year": "2007",
-        "volume": "13",
-        "journal": "Eur. J. Control",
-        "number": "6",
-        "ee": "https://doi.org/10.3166/ejc.13.612-617",
-        "url": "db/journals/ejcon/ejcon13.html#Poussot-VassalSGB07",
-        "authors": [
-          "Charles Poussot-Vassal",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Peter Gaspar",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ejcon/GasparSB04",
-        "title": "The Design of a Combined Control Structure to Prevent the Rollover of Heavy Vehicles.",
-        "pages": "148-162",
-        "year": "2004",
-        "volume": "10",
-        "journal": "Eur. J. Control",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q57735901",
-        "url": "db/journals/ejcon/ejcon10.html#GasparSB04",
-        "authors": [
-          "Peter Gaspar",
-          "IstvÃ¡n SzÃ¡szi",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/amcs/GasparSB12",
-        "title": "LPV design of fault-tolerant control for road vehicles.",
-        "pages": "173-182",
-        "year": "2012",
-        "volume": "22",
-        "journal": "Int. J. Appl. Math. Comput. Sci.",
-        "number": "1",
-        "ee": "https://doi.org/10.2478/v10006-012-0013-x",
-        "url": "db/journals/amcs/amcs22.html#GasparSB12",
-        "authors": [
-          "Peter Gaspar",
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-2203-06641",
-        "title": "Exploring Customer Price Preference and Product Profit Role in Recommender Systems.",
-        "year": "2022",
-        "volume": "abs/2203.06641",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2203.06641",
-        "url": "db/journals/corr/corr2203.html#abs-2203-06641",
-        "authors": [
-          "Michal Kompan",
-          "Peter Gaspar",
-          "Jakub Macina",
-          "Matus Cimerman",
-          "MÃ¡ria BielikovÃ¡"
-        ]
+        "informal": {
+          "@key": "books/ws/18/KompanGB18",
+          "title": "Hybrid Collaborative Recommendations: Practical Considerations and Tools to Develop a Recommender",
+          "journal": "Collaborative Recommendations",
+          "year": "2018",
+          "pages": "127-172",
+          "ee": "https://doi.org/10.1142/9789813275355_0004",
+          "author": [
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Michal Kompan",
+              "@pid": "35/8468"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acc/Gaspar0B07",
+          "title": "A grey-box identification of an LPV vehicle model for observer-based side slip angle estimation",
+          "booktitle": "ACC",
+          "year": "2007",
+          "pages": "2961-2966",
+          "ee": "https://doi.org/10.1109/ACC.2007.4282629",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aimech/MihalyKGN17",
+          "title": "Design of adaptive vehicle suspension using cloud-based road data",
+          "booktitle": "AIM",
+          "year": "2017",
+          "pages": "529-534",
+          "ee": "https://doi.org/10.1109/AIM.2017.8014071",
+          "author": [
+            {
+              "#text": "Ádám Kisari",
+              "@pid": "211/5569"
+            },
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aimech/NemethFGM17",
+          "title": "Analysis and robust control design of a steering system for autonomous vehicles",
+          "booktitle": "AIM",
+          "year": "2017",
+          "pages": "535-540",
+          "ee": "https://doi.org/10.1109/AIM.2017.8014072",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aimech/NemethG14",
+          "title": "Analysis and control of nonlinear actuator dynamics based on the sum of squares programming method",
+          "booktitle": "AIM",
+          "year": "2014",
+          "pages": "233-238",
+          "ee": "https://doi.org/10.1109/AIM.2014.6878084",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aimech/NemethVG14",
+          "title": "Robust control design of an electro-hydraulic actuator",
+          "booktitle": "AIM",
+          "year": "2014",
+          "pages": "245-250",
+          "ee": "https://doi.org/10.1109/AIM.2014.6878086",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Varga",
+              "@pid": "36/5418"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/BudaiSNG25",
+          "title": "End-to-end Reinforcement Learning for Autonomous Racing: Bridging the sim-to-real gap",
+          "booktitle": "ACC",
+          "year": "2025",
+          "pages": "200-205",
+          "ee": "https://doi.org/10.23919/ACC63710.2025.11107738",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Csanád Budai",
+              "@pid": "414/3896"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Széles",
+              "@pid": "414/3662"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/FenyesNG20",
+          "title": "LPV-based autonomous vehicle control using the results of big data analysis on lateral dynamics",
+          "booktitle": "ACC",
+          "year": "2020",
+          "pages": "2250-2255",
+          "ee": "https://doi.org/10.23919/ACC45564.2020.9147548",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/Gaspar0B06",
+          "title": "Side force coefficient estimation for the design of active brake control",
+          "booktitle": "ACC",
+          "year": "2006",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ACC.2006.1657164",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/GasparN15",
+          "title": "Design of look-ahead cruise control using road and traffic conditions",
+          "booktitle": "ACC",
+          "year": "2015",
+          "pages": "3447-3452",
+          "ee": "https://doi.org/10.1109/ACC.2015.7171864",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/GasparNB12",
+          "title": "Design of an integrated control for driver assistance systems based on LPV methods",
+          "booktitle": "ACC",
+          "year": "2012",
+          "pages": "2916-2921",
+          "ee": "https://doi.org/10.1109/ACC.2012.6315152",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/GasparSB00",
+          "title": "Robust control synthesis to achieve a required loop shape-a generalized orthonormal basis function approach",
+          "booktitle": "ACC",
+          "year": "2000",
+          "pages": "3840-3844",
+          "ee": "https://doi.org/10.1109/ACC.2000.876941",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/HegedusFNG20",
+          "title": "Handling of tire pressure variation in autonomous vehicles: an integrated estimation and control design approach",
+          "booktitle": "ACC",
+          "year": "2020",
+          "pages": "2244-2249",
+          "ee": "https://doi.org/10.23919/ACC45564.2020.9147472",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/HegedusFNSG22",
+          "title": "Design of Model Free Control with tuning method on ultra-local model for lateral vehicle control purposes",
+          "booktitle": "ACC",
+          "year": "2022",
+          "pages": "4101-4106",
+          "ee": "https://doi.org/10.23919/ACC53348.2022.9867837",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/LelkoNG26",
+          "title": "An Integrated Design of Robust ℋ∞ Control with Proximal Policy Optimization for the Cooperation of Robot Vehicles",
+          "booktitle": "ACC",
+          "year": "2026",
+          "pages": "3475-3480",
+          "author": [
+            {
+              "#text": "Attila Lelkó",
+              "@pid": "310/0584"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethBG17",
+          "title": "Control design of traffic flow using look-ahead vehicles to increase energy efficiency",
+          "booktitle": "ACC",
+          "year": "2017",
+          "pages": "3530-3535",
+          "ee": "https://doi.org/10.23919/ACC.2017.7963493",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zsuzsanna Bede",
+              "@pid": "167/3804"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethG16",
+          "title": "The impact of traffic flow on the look-ahead cruise control",
+          "booktitle": "ACC",
+          "year": "2016",
+          "pages": "5988-5993",
+          "ee": "https://doi.org/10.1109/ACC.2016.7526609",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethG19",
+          "title": "Coordination of automated and human-driven vehicles in intersection scenarios",
+          "booktitle": "ACC",
+          "year": "2019",
+          "pages": "5278-5283",
+          "ee": "https://doi.org/10.23919/ACC.2019.8815140",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethGB15",
+          "title": "Improvement of the LPV-based vehicle control design considering the polynomial invariant set analysis",
+          "booktitle": "ACC",
+          "year": "2015",
+          "pages": "1513-1518",
+          "ee": "https://doi.org/10.1109/ACC.2015.7170947",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethGB16",
+          "title": "LPV-based integrated vehicle control design considering the nonlinear characteristics of the tire",
+          "booktitle": "ACC",
+          "year": "2016",
+          "pages": "6893-6898",
+          "ee": "https://doi.org/10.1109/ACC.2016.7526758",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethGFB17",
+          "title": "Robust control design for the integration of steering and torque vectoring using a variable-geometry suspension system",
+          "booktitle": "ACC",
+          "year": "2017",
+          "pages": "291-296",
+          "ee": "https://doi.org/10.23919/ACC.2017.7962968",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/NemethLHG24",
+          "title": "Stability Analysis and Control Design for Automated Vehicles Based on Data-Aided Model Augmentation",
+          "booktitle": "ACC",
+          "year": "2024",
+          "pages": "5030-5035",
+          "ee": "https://doi.org/10.23919/ACC60939.2024.10644758",
+          "author": [
+            {
+              "#text": "Attila Lelkó",
+              "@pid": "310/0584"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/RodonyiGB13",
+          "title": "Unfalsified uncertainty modeling for computing tight bounds on peak spacing errors in vehicle platoons",
+          "booktitle": "ACC",
+          "year": "2013",
+          "pages": "3057-3062",
+          "ee": "https://doi.org/10.1109/ACC.2013.6580300",
+          "author": [
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/ZinSGDB06",
+          "title": "An LPV/H~~ Active Suspension Control for Global Chassis Technology: Design and Performance Analysis",
+          "booktitle": "ACC",
+          "year": "2006",
+          "pages": "2945-2950",
+          "ee": "https://doi.org/10.1109/ACC.2006.1657167",
+          "author": [
+            {
+              "#text": "Alessandro Zin",
+              "@pid": "329/5213"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Luc Dugard",
+              "@pid": "56/7143"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ant/BoulmakoulFKGC20",
+          "title": "Fuzzy similarities for road environment-type detection by a connected vehicle from traffic sign probabilistic data",
+          "booktitle": "ANT/EDI40",
+          "year": "2020",
+          "pages": "59-66",
+          "ee": "https://doi.org/10.1016/J.PROCS.2020.03.139",
+          "author": [
+            {
+              "#text": "Azedine Boulmakoul",
+              "@pid": "64/3273"
+            },
+            {
+              "#text": "Ghyzlane Cherradi",
+              "@pid": "206/1609"
+            },
+            {
+              "#text": "Lamia Karim",
+              "@pid": "76/11470"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/case/FazekasGN21",
+          "title": "Improving the wheel odometry calibration of self-driving vehicles via detection of faulty segments",
+          "booktitle": "CASE",
+          "year": "2021",
+          "pages": "144-150",
+          "ee": "https://doi.org/10.1109/CASE49439.2021.9551452",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ccta/AradiBG18",
+          "title": "Policy Gradient Based Reinforcement Learning Approach for Autonomous Highway Driving",
+          "booktitle": "CCTA",
+          "year": "2018",
+          "pages": "670-675",
+          "ee": "https://doi.org/10.1109/CCTA.2018.8511514",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesHG24",
+          "title": "Enhanced LPV-based lateral control using ultra-local model-based slip angle estimation",
+          "booktitle": "CDC",
+          "year": "2024",
+          "pages": "7226-7231",
+          "ee": "https://doi.org/10.1109/CDC56724.2024.10885900",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesHN0G22",
+          "title": "Combined LPV and ultra-local model-based control design approach for autonomous vehicles",
+          "booktitle": "CDC",
+          "year": "2022",
+          "pages": "3303-3308",
+          "ee": "https://doi.org/10.1109/CDC51059.2022.9992983",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/FenyesNG21",
+          "title": "Data-driven modeling and control design in a hierarchical structure for a variable-geometry suspension test bed",
+          "booktitle": "CDC",
+          "year": "2021",
+          "pages": "5047-5052",
+          "ee": "https://doi.org/10.1109/CDC45484.2021.9683152",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GasparNB12",
+          "title": "Design of a supervisory integrated control for driver assistance systems",
+          "booktitle": "CDC",
+          "year": "2012",
+          "pages": "5022-5027",
+          "ee": "https://doi.org/10.1109/CDC.2012.6425929",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GasparNBSD16",
+          "title": "The impact of suspension control on the controllability of the lateral vehicle dynamics",
+          "booktitle": "CDC",
+          "year": "2016",
+          "pages": "1576-1581",
+          "ee": "https://doi.org/10.1109/CDC.2016.7798490",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Luc Dugard",
+              "@pid": "56/7143"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GasparSB05",
+          "title": "The Design of an Integrated Control System in Heavy Vehicles Based on an LPV Method",
+          "booktitle": "CDC/ECC",
+          "year": "2005",
+          "pages": "6722-6727",
+          "ee": "https://doi.org/10.1109/CDC.2005.1583242",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GasparSB08",
+          "title": "Design of reconfigurable and fault-tolerant suspension systems based on LPV methods",
+          "booktitle": "CDC",
+          "year": "2008",
+          "pages": "5384-5389",
+          "ee": "https://doi.org/10.1109/CDC.2008.4739132",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/GasparSB11",
+          "title": "LPV design of reconfigurable and integrated control for road vehicles",
+          "booktitle": "CDC/ECC",
+          "year": "2011",
+          "pages": "2505-2510",
+          "ee": "https://doi.org/10.1109/CDC.2011.6160435",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/NemethFGB16",
+          "title": "Trajectory tracking based on independently controlled variable-geometry suspension for in-wheel electric vehicles",
+          "booktitle": "CDC",
+          "year": "2016",
+          "pages": "1570-1575",
+          "ee": "https://doi.org/10.1109/CDC.2016.7798489",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/NemethG11",
+          "title": "Design of actuator interventions in the trajectory tracking for road vehicles",
+          "booktitle": "CDC/ECC",
+          "year": "2011",
+          "pages": "7434-7439",
+          "ee": "https://doi.org/10.1109/CDC.2011.6160400",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/NemethG11a",
+          "title": "Integration of control design and variable geometry suspension construction for vehicle stability enhancement",
+          "booktitle": "CDC/ECC",
+          "year": "2011",
+          "pages": "7452-7457",
+          "ee": "https://doi.org/10.1109/CDC.2011.6160441",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/NemethGB13",
+          "title": "Integrated control design based on driver-in-the-loop vehicle dynamics",
+          "booktitle": "CDC",
+          "year": "2013",
+          "pages": "3517-3522",
+          "ee": "https://doi.org/10.1109/CDC.2013.6760423",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/NemethGB14",
+          "title": "Analysis of braking dynamics using parameter-dependent polynomial Control Lyapunov Functions",
+          "booktitle": "CDC",
+          "year": "2014",
+          "pages": "2536-2541",
+          "ee": "https://doi.org/10.1109/CDC.2014.7039776",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/SzaboBGB13",
+          "title": "Elimination lemma and contractive extensions",
+          "booktitle": "CDC",
+          "year": "2013",
+          "pages": "3049-3054",
+          "ee": "https://doi.org/10.1109/CDC.2013.6760347",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            },
+            {
+              "#text": "Zsolt Biró",
+              "@pid": "125/5241"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/codit/FenyesHG25",
+          "title": "Control-Informed Neural Network for Controller Selection",
+          "booktitle": "CoDIT",
+          "year": "2025",
+          "pages": "2322-2327",
+          "ee": "https://doi.org/10.1109/CODIT66093.2025.11321745",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/codit/FenyesHNTG24",
+          "title": "An improved side-slip estimation algorithm based on ultra-local model technique for autonomous vehicles",
+          "booktitle": "CoDIT",
+          "year": "2024",
+          "pages": "1631-1636",
+          "ee": "https://doi.org/10.1109/CODIT62066.2024.10708469",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/codit/MihalyTSG25",
+          "title": "LPV supervised reinforcement learning based control for autonomous vehicles",
+          "booktitle": "CoDIT",
+          "year": "2025",
+          "pages": "1143-1148",
+          "ee": "https://doi.org/10.1109/CODIT66093.2025.11321603",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/coginfocom/FazekasGN20",
+          "title": "Vision-based motion estimation for vehicles on test track via cone markers",
+          "booktitle": "CogInfoCom",
+          "year": "2020",
+          "pages": "387-392",
+          "ee": "https://doi.org/10.1109/COGINFOCOM50765.2020.9237845",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dsaa/GasparKKB19",
+          "title": "Improving the Personalized Recommendation in the Cold-start Scenarios",
+          "booktitle": "DSAA",
+          "year": "2019",
+          "pages": "606-607",
+          "ee": "https://doi.org/10.1109/DSAA.2019.00079",
+          "author": [
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Matej Koncal",
+              "@pid": "257/8646"
+            },
+            {
+              "#text": "Michal Kompan",
+              "@pid": "35/8468"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/enic/GasparS16",
+          "title": "Linking Multimedia to Microblogs for Metadata Extraction",
+          "booktitle": "ENIC",
+          "year": "2016",
+          "pages": "90-97",
+          "ee": "https://doi.org/10.1109/ENIC.2016.021",
+          "author": [
+            {
+              "#text": "Jakub Simko",
+              "@pid": "09/8578"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/0002GNB09",
+          "title": "Control-oriented Qlpv modeling using TP Transformation",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "2640-2645",
+          "ee": "https://doi.org/10.23919/ECC.2009.7074804",
+          "author": [
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/AradiBG14",
+          "title": "Design of predictive optimization method for energy-efficient operation of trains",
+          "booktitle": "ECC",
+          "year": "2014",
+          "pages": "2490-2495",
+          "ee": "https://doi.org/10.1109/ECC.2014.6862208",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/BasarganJMG23",
+          "title": "Fault-tolerant control of semi-active suspension in case of oil leakage of magnetorheological damper",
+          "booktitle": "ECC",
+          "year": "2023",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ECC57647.2023.10178320",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Filip Jenis",
+              "@pid": "352/4799"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/BasarganMG21",
+          "title": "Fault-Tolerant Trajectory Tracking Control for Autonomous Vehicle Based on Camera and GPS",
+          "booktitle": "ECC",
+          "year": "2021",
+          "pages": "473-478",
+          "ee": "https://doi.org/10.23919/ECC54610.2021.9655065",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/BasarganMGS21",
+          "title": "Road adaptive semi-active suspension and cruise control through LPV technique",
+          "booktitle": "ECC",
+          "year": "2021",
+          "pages": "461-466",
+          "ee": "https://doi.org/10.23919/ECC54610.2021.9655165",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FarkasMG20",
+          "title": "Control methods for the coordination of autonomous vehicles at intersections",
+          "booktitle": "ECC",
+          "year": "2020",
+          "pages": "668-673",
+          "ee": "https://doi.org/10.23919/ECC51009.2020.9143762",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zsófia Farkas",
+              "@pid": "271/3208"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FazekasG26",
+          "title": "Wheel odometry & GNSS fusion with neural network-based tuning",
+          "booktitle": "ECC",
+          "year": "2026",
+          "pages": "2059-2064",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FeherABGS20",
+          "title": "Proving Ground Test of a DDPG-based Vehicle Trajectory Planner",
+          "booktitle": "ECC",
+          "year": "2020",
+          "pages": "332-337",
+          "ee": "https://doi.org/10.23919/ECC51009.2020.9143675",
+          "author": [
+            {
+              "#text": "Árpád Fehér",
+              "@pid": "249/0122"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesHNSG22",
+          "title": "Robust control design using ultra-local model-based approach for vehicle-oriented control problems",
+          "booktitle": "ECC",
+          "year": "2022",
+          "pages": "1746-1751",
+          "ee": "https://doi.org/10.23919/ECC55457.2022.9838107",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG18",
+          "title": "Analysis of autonomous vehicle dynamics based on the big data approach",
+          "booktitle": "ECC",
+          "year": "2018",
+          "pages": "219-224",
+          "ee": "https://doi.org/10.23919/ECC.2018.8550426",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG19",
+          "title": "Impact of big data on the design of MPC control for autonomous vehicles",
+          "booktitle": "ECC",
+          "year": "2019",
+          "pages": "4154-4159",
+          "ee": "https://doi.org/10.23919/ECC.2019.8795804",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/FenyesNG20",
+          "title": "LPV based data-driven modeling and control design for autonomous vehicles",
+          "booktitle": "ECC",
+          "year": "2020",
+          "pages": "1371-1376",
+          "ee": "https://doi.org/10.23919/ECC51009.2020.9143618",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/Gaspar0B09",
+          "title": "LPV-based reconfigurable chassis design",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "3634-3639",
+          "ee": "https://doi.org/10.23919/ECC.2009.7074964",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/GasparB99",
+          "title": "Multiobjective control design using an identified model",
+          "booktitle": "ECC",
+          "year": "1999",
+          "pages": "912-917",
+          "ee": "https://doi.org/10.23919/ECC.1999.7099423",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/GasparSB01",
+          "title": "A loop shaping design using weighted generalized orthonormal basis functions",
+          "booktitle": "ECC",
+          "year": "2001",
+          "pages": "3486-3491",
+          "ee": "https://doi.org/10.23919/ECC.2001.7076474",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/GasparSB03",
+          "title": "Robust servo control design for mechanical systems using mixed uncertainty modelling",
+          "booktitle": "ECC",
+          "year": "2003",
+          "pages": "342-347",
+          "ee": "https://doi.org/10.23919/ECC.2003.7084978",
+          "author": [
+            {
+              "#text": "István Szászi",
+              "@pid": "121/0019"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/GasparSB03a",
+          "title": "Brake control to prevent the rollover of heavy vehicles based on a linear parameter varying model",
+          "booktitle": "ECC",
+          "year": "2003",
+          "pages": "3100-3105",
+          "ee": "https://doi.org/10.23919/ECC.2003.7086515",
+          "author": [
+            {
+              "#text": "István Szászi",
+              "@pid": "121/0019"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/GasparSBB01",
+          "title": "Active suspension design based on mixed uncertainty modelling",
+          "booktitle": "ECC",
+          "year": "2001",
+          "pages": "3624-3629",
+          "ee": "https://doi.org/10.23919/ECC.2001.7076496",
+          "author": [
+            {
+              "#text": "Gary J. Balas",
+              "@pid": "25/5066"
+            },
+            {
+              "#text": "István Szászi",
+              "@pid": "121/0019"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/HegedusNFG26",
+          "title": "LQR-KAN Combined Control via Reinforcement Learning Distillation with Stability Guarantees",
+          "booktitle": "ECC",
+          "year": "2026",
+          "pages": "503-508",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/HegedusNG25",
+          "title": "Control Framework Using Physics-Informed Neural Network with Supervisory Algorithm for Road Vehicles",
+          "booktitle": "ECC",
+          "year": "2025",
+          "pages": "2211-2216",
+          "ee": "https://doi.org/10.23919/ECC65951.2025.11187190",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/LelkoNG21",
+          "title": "Stability and tracking performance analysis for control systems with feed-forward neural networks",
+          "booktitle": "ECC",
+          "year": "2021",
+          "pages": "1485-1490",
+          "ee": "https://doi.org/10.23919/ECC54610.2021.9654983",
+          "author": [
+            {
+              "#text": "Attila Lelkó",
+              "@pid": "310/0584"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/LelkoNG25",
+          "title": "Robust ℋ∞ Control Design with Learning Feature for Improving Vehicle Motion Performance Level",
+          "booktitle": "ECC",
+          "year": "2025",
+          "pages": "1463-1468",
+          "ee": "https://doi.org/10.23919/ECC65951.2025.11187148",
+          "author": [
+            {
+              "#text": "Attila Lelkó",
+              "@pid": "310/0584"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/MihalyG16",
+          "title": "Robust and fault-tolerant control of in-wheel vehicles with cornering resistance minimization",
+          "booktitle": "ECC",
+          "year": "2016",
+          "pages": "2590-2595",
+          "ee": "https://doi.org/10.1109/ECC.2016.7810680",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/MihalyG18",
+          "title": "Reconfiguration control of in-wheel electric vehicle based on battery state of charge",
+          "booktitle": "ECC",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ECC.2018.8550283",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/MihalyGB19",
+          "title": "Maximizing autonomous in-wheel electric vehicle battery state of charge with optimal control allocation",
+          "booktitle": "ECC",
+          "year": "2019",
+          "pages": "250-255",
+          "ee": "https://doi.org/10.23919/ECC.2019.8796288",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethCGV15",
+          "title": "Analysis of the urban network gating problem: An SOS programming approach",
+          "booktitle": "ECC",
+          "year": "2015",
+          "pages": "2652-2657",
+          "ee": "https://doi.org/10.1109/ECC.2015.7330938",
+          "author": [
+            {
+              "#text": "Alfréd Csikós",
+              "@pid": "155/6049"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethFAG22",
+          "title": "Hierarchical control design of automated vehicles for multi-vehicle scenarios in roundabouts",
+          "booktitle": "ECC",
+          "year": "2022",
+          "pages": "1964-1969",
+          "ee": "https://doi.org/10.23919/ECC55457.2022.9838101",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Antal",
+              "@pid": "326/1613"
+            },
+            {
+              "#text": "Zsófia Farkas",
+              "@pid": "271/3208"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethFBGS23",
+          "title": "LPV-Based Control Design with Guarantees: a Case Study for Automated Steering of Road Vehicles",
+          "booktitle": "ECC",
+          "year": "2023",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ECC57647.2023.10178394",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Bagoly",
+              "@pid": "352/4244"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethG13",
+          "title": "Variable-geometry suspension design in driver assistance systems",
+          "booktitle": "ECC",
+          "year": "2013",
+          "pages": "1481-1486",
+          "ee": "https://doi.org/10.23919/ECC.2013.6669551",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethG13a",
+          "title": "Analysis of vehicle actuators based on reachable sets",
+          "booktitle": "ECC",
+          "year": "2013",
+          "pages": "3137-3142",
+          "ee": "https://doi.org/10.23919/ECC.2013.6669735",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethGM16",
+          "title": "Analysis of interactions between look-ahead control and traffic speed",
+          "booktitle": "ECC",
+          "year": "2016",
+          "pages": "2459-2464",
+          "ee": "https://doi.org/10.1109/ECC.2016.7810659",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethGS18",
+          "title": "Design and Verification of Autonomous Steering Control Based on Driver Modeling",
+          "booktitle": "ECC",
+          "year": "2018",
+          "pages": "953-958",
+          "ee": "https://doi.org/10.23919/ECC.2018.8550263",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Gergely Santha",
+              "@pid": "231/1281"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethHG19",
+          "title": "Model Predictive Control Design for Overtaking Maneuvers for Multi-Vehicle Scenarios",
+          "booktitle": "ECC",
+          "year": "2019",
+          "pages": "744-749",
+          "ee": "https://doi.org/10.23919/ECC.2019.8796013",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethHG20",
+          "title": "Performance Guarantees on Machine-Learning-based Overtaking Strategies for Autonomous Vehicles",
+          "booktitle": "ECC",
+          "year": "2020",
+          "pages": "136-141",
+          "ee": "https://doi.org/10.23919/ECC51009.2020.9143802",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/NemethKHG25",
+          "title": "User-centered Method for Explaining Autonomous Vehicle Control Systems via Decision Trees",
+          "booktitle": "ECC",
+          "year": "2025",
+          "pages": "333-338",
+          "ee": "https://doi.org/10.23919/ECC65951.2025.11186928",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mihály Kopasz",
+              "@pid": "419/1434"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/RodonyiG13",
+          "title": "Model invalidation for repeated ℓ1-bounded linear time-varying uncertainty models",
+          "booktitle": "ECC",
+          "year": "2013",
+          "pages": "1347-1352",
+          "ee": "https://doi.org/10.23919/ECC.2013.6669672",
+          "author": [
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/SzaboBG26",
+          "title": "A data-based system representation: the coordinate-free case",
+          "booktitle": "ECC",
+          "year": "2026",
+          "pages": "1180-1187",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/SzaboBGA18",
+          "title": "Control oriented modeling of an electro-pneumatic gearbox actuator",
+          "booktitle": "ECC",
+          "year": "2018",
+          "pages": "2623-2628",
+          "ee": "https://doi.org/10.23919/ECC.2018.8550589",
+          "author": [
+            {
+              "#text": "Ádám Szabó",
+              "@pid": "293/5871"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eucc/VargaNG14",
+          "title": "Hierarchical design of electro-hydraulic actuator control for vehicle dynamic purposes",
+          "booktitle": "ECC",
+          "year": "2014",
+          "pages": "999-1004",
+          "ee": "https://doi.org/10.1109/ECC.2014.6862427",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Varga",
+              "@pid": "36/5418"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/PetresNGB08",
+          "title": "H℞ gain-scheduling based control of the heavy vehicle model, a TP model transformation based control",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2008",
+          "pages": "1542-1547",
+          "ee": "https://doi.org/10.1109/FUZZY.2008.4630577",
+          "author": [
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szabolcs Nagy",
+              "@pid": "43/7854"
+            },
+            {
+              "#text": "Zoltán Petres",
+              "@pid": "38/1185"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccad2/KnabSKGP26",
+          "title": "Foundation Model-Based Variable Speed Limit Control: A Training-Free Approach",
+          "booktitle": "ICCAD",
+          "year": "2026",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICCAD69956.2026.11643165",
+          "author": [
+            {
+              "#text": "Bálint Kövári",
+              "@pid": "264/3969"
+            },
+            {
+              "#text": "István Gellért Knáb",
+              "@pid": "382/7425"
+            },
+            {
+              "#text": "László Palkovics",
+              "@pid": "117/8714"
+            },
+            {
+              "#text": "Márk Stankovics",
+              "@pid": "446/1687"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccad2/MitrengaKG26",
+          "title": "Examining the Visual Capabilities of Multimodal Large Language Models for Automotive Applications",
+          "booktitle": "ICCAD",
+          "year": "2026",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/ICCAD69956.2026.11642952",
+          "author": [
+            {
+              "#text": "Bálint Kövári",
+              "@pid": "264/3969"
+            },
+            {
+              "#text": "Márk Mitrenga",
+              "@pid": "425/9794"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccve/AradiBGBH14",
+          "title": "Design of wireless gateway between on-board vehicle wired networks and mobile devices",
+          "booktitle": "ICCVE",
+          "year": "2014",
+          "pages": "612-617",
+          "ee": "https://doi.org/10.1109/ICCVE.2014.7297620",
+          "author": [
+            {
+              "#text": "Adam Hajdu",
+              "@pid": "186/0834"
+            },
+            {
+              "#text": "Gabor Barany",
+              "@pid": "186/0803"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccve/VargaRGB14",
+          "title": "Lyapunov-Krasovskii functionals for evaluating H∞ performance of platoons of communicating vehicles",
+          "booktitle": "ICCVE",
+          "year": "2014",
+          "pages": "590-595",
+          "ee": "https://doi.org/10.1109/ICCVE.2014.7297616",
+          "author": [
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Gabriella Szabó-Varga",
+              "@pid": "179/9696"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FazekasG25",
+          "title": "Calibration Architecture for the Nonlinear Wheel Odometry Model with Integrated Noise Compensation",
+          "booktitle": "ICINCO (2)",
+          "year": "2025",
+          "pages": "325-332",
+          "ee": "https://doi.org/10.5220/0013720800003982",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FazekasNG22",
+          "title": "Calibration of the Nonlinear Wheel Odometry Model with an Improved Genetic Algorithm Architecture",
+          "booktitle": "ICINCO",
+          "year": "2022",
+          "pages": "640-648",
+          "ee": "https://doi.org/10.5220/0011275700003271",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FeherAHBG19",
+          "title": "Hybrid DDPG Approach for Vehicle Motion Planning",
+          "booktitle": "ICINCO (1)",
+          "year": "2019",
+          "pages": "422-429",
+          "ee": "https://doi.org/10.5220/0007955504220429",
+          "author": [
+            {
+              "#text": "Árpád Fehér",
+              "@pid": "249/0122"
+            },
+            {
+              "#text": "Ferenc Hegedüs",
+              "@pid": "228/6675"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FenyesHTG23",
+          "title": "An Observer Design Method Using Ultra-Local Model for Autonomous Vehicles",
+          "booktitle": "ICINCO (2)",
+          "year": "2023",
+          "pages": "41-49",
+          "ee": "https://doi.org/10.5220/0012184300003543",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/FenyesNG18",
+          "title": "A Novel Big-data-based Estimation Method of Side-slip Angles for Autonomous Road Vehicles",
+          "booktitle": "ICINCO (1)",
+          "year": "2018",
+          "pages": "430-436",
+          "ee": "https://doi.org/10.5220/0006849504300436",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/HegedusFTG23",
+          "title": "Lateral Control for Automated Vehicles Based on Model Predictive Control and Error-Based Ultra-Local Model",
+          "booktitle": "ICINCO (2)",
+          "year": "2023",
+          "pages": "142-149",
+          "ee": "https://doi.org/10.5220/0012184500003543",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icinco/RodonyiGBP12",
+          "title": "Design and Analysis of an Automated Heavy Vehicle Platoon",
+          "booktitle": "ICINCO (2)",
+          "year": "2012",
+          "pages": "31-37",
+          "author": [
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "László Palkovics",
+              "@pid": "117/8714"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEcca/GasparNB12",
+          "title": "Design of supervisory integrated control based on driver models in a simulation environment",
+          "booktitle": "CCA",
+          "year": "2012",
+          "pages": "124-129",
+          "ee": "https://doi.org/10.1109/CCA.2012.6402430",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEcca/NemethG12",
+          "title": "Control design based on the integration of steering and suspension systems",
+          "booktitle": "CCA",
+          "year": "2012",
+          "pages": "382-387",
+          "ee": "https://doi.org/10.1109/CCA.2012.6402431",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEcca/SzaboGB12",
+          "title": "qLPV design method for multi-objective vehicle control",
+          "booktitle": "CCA",
+          "year": "2012",
+          "pages": "1485-1490",
+          "ee": "https://doi.org/10.1109/CCA.2012.6402669",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEcca/VargaSGB08",
+          "title": "Implementation of dynamic inversion-based control of a pressurizer at the Paks NPP",
+          "booktitle": "CCA",
+          "year": "2008",
+          "pages": "79-84",
+          "ee": "https://doi.org/10.1109/CCA.2008.4629677",
+          "author": [
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEisic/GasparSB05",
+          "title": "Gray-Box Continuous-Time Parameter Identification for Lpv Models with Vehicle Dynamics Applications",
+          "booktitle": "ISIC",
+          "year": "2005",
+          "pages": "393-398",
+          "ee": "https://doi.org/10.1109/.2005.1467047",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEisic/GasparSB05a",
+          "title": "Prediction Based Combined Control to Prevent the Rollover of Heavy Vehicles",
+          "booktitle": "ISIC",
+          "year": "2005",
+          "pages": "575-580",
+          "ee": "https://doi.org/10.1109/.2005.1467078",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/IEEEisic/SzaboGB05",
+          "title": "Reference Tracking for Wiener Systems Using Dynamic Inversion",
+          "booktitle": "ISIC",
+          "year": "2005",
+          "pages": "1190-1194",
+          "ee": "https://doi.org/10.1109/.2005.1467184",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/intsys/Fazekas0GG17",
+          "title": "Detecting Change in the Urban Road Environment Along a Route Based on Traffic Sign and Crossroad Data",
+          "booktitle": "INTSYS",
+          "year": "2018",
+          "pages": "252-262",
+          "ee": "https://doi.org/10.1007/978-3-319-93710-6_26",
+          "author": [
+            {
+              "#text": "Gábor Balázs",
+              "@pid": "186/7838-3"
+            },
+            {
+              "#text": "László Gerencsér",
+              "@pid": "21/3075"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iros/FazekasGN21",
+          "title": "Odometry Model Calibration for Self-Driving Vehicles with Noise Correction",
+          "booktitle": "IROS",
+          "year": "2021",
+          "pages": "8860-8865",
+          "ee": "https://doi.org/10.1109/IROS51168.2021.9635980",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ivs/BasarganMGS22",
+          "title": "LPV-Fuzzy control approach for road adaptive semi-active suspension system",
+          "booktitle": "IV",
+          "year": "2022",
+          "pages": "779-784",
+          "ee": "https://doi.org/10.1109/IV51971.2022.9827195",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ivs/FenyesHNG21",
+          "title": "Observer design with performance guarantees for vehicle control purposes via the integration of learning-based and LPV approaches",
+          "booktitle": "IV Workshops",
+          "year": "2021",
+          "pages": "122-127",
+          "ee": "https://doi.org/10.1109/IVWORKSHOPS54471.2021.9669224",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ivs/HaudrechySG26",
+          "title": "A ℋ∞ LPV Controller for Variable Time Headway in Heterogeneous Platoon",
+          "booktitle": "IV",
+          "year": "2026",
+          "pages": "539-544",
+          "ee": "https://doi.org/10.1109/IV66570.2026.11624002",
+          "author": [
+            {
+              "#text": "Maëlle Haudrechy",
+              "@pid": "443/0999"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/BakosGS14",
+          "title": "System architecture and hierarchical control for in-wheel electric motor vehicles",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "24-29",
+          "ee": "https://doi.org/10.1109/MED.2014.6961321",
+          "author": [
+            {
+              "#text": "Adam Bakos",
+              "@pid": "237/2199"
+            },
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/BasarganMGS20",
+          "title": "Integrated multi-criteria velocity and semi-active suspension control based on look-ahead road information",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "25-30",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9182953",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/BasarganMGS21",
+          "title": "Fault-tolerant semi-active suspension control for degradation in damper performance",
+          "booktitle": "MED",
+          "year": "2021",
+          "pages": "1191-1196",
+          "ee": "https://doi.org/10.1109/MED51440.2021.9480288",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/BasarganMGS22",
+          "title": "Integrated adaptive velocity and semi-active suspension control for different road profiles",
+          "booktitle": "MED",
+          "year": "2022",
+          "pages": "933-938",
+          "ee": "https://doi.org/10.1109/MED54222.2022.9837262",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Hakan Basargan",
+              "@pid": "247/4382"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/DoKTG20",
+          "title": "Frequency-shaping observer-based controller design for actuator degradation: Application to suspension system",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9183316",
+          "author": [
+            {
+              "#text": "Damien Koenig",
+              "@pid": "39/7138"
+            },
+            {
+              "#text": "Didier Theilliol",
+              "@pid": "66/125"
+            },
+            {
+              "#text": "Manh-Hung Do",
+              "@pid": "234/2160"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FarkasMG22",
+          "title": "MPC Control Strategy for Autonomous Vehicles Driving in Roundabouts",
+          "booktitle": "MED",
+          "year": "2022",
+          "pages": "939-944",
+          "ee": "https://doi.org/10.1109/MED54222.2022.9837120",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zsófia Farkas",
+              "@pid": "271/3208"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FazekasGN21",
+          "title": "Challenges of the Application of Front-Wheel Odometry for Vehicle Localization",
+          "booktitle": "MED",
+          "year": "2021",
+          "pages": "132-137",
+          "ee": "https://doi.org/10.1109/MED51440.2021.9480228",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FazekasNGS20",
+          "title": "Vehicle odometry model identification considering dynamic load transfers",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "19-24",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9182873",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesHNGKS20",
+          "title": "LPV control for autonomous vehicles using a machine learning-based tire pressure estimation",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "212-217",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9183106",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Damien Koenig",
+              "@pid": "39/7138"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesNAG18",
+          "title": "Side-slip Angle Estimation of Autonomous Road Vehicles Based on Big Data Analysis",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "849-854",
+          "ee": "https://doi.org/10.1109/MED.2018.8443010",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Mate Asszonyi",
+              "@pid": "237/2514"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/FenyesNG24",
+          "title": "An Improved Lateral Vehicle Control Design Using Ultra-Local Model-Based Slip Estimation",
+          "booktitle": "MED",
+          "year": "2024",
+          "pages": "310-315",
+          "ee": "https://doi.org/10.1109/MED61351.2024.10566193",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/GasparN14",
+          "title": "Design of look-ahead control for road vehicles using traffc information",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "201-206",
+          "ee": "https://doi.org/10.1109/MED.2014.6961371",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/HegedusFNG23",
+          "title": "Cooperation Strategy for Optimal Motion of Aerial and Ground Vehicles",
+          "booktitle": "MED",
+          "year": "2023",
+          "pages": "19-24",
+          "ee": "https://doi.org/10.1109/MED59994.2023.10185727",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/HegedusNG24",
+          "title": "Identification of Tire Characteristics Using Physics-Informed Neural Network for Road Vehicles",
+          "booktitle": "MED",
+          "year": "2024",
+          "pages": "706-711",
+          "ee": "https://doi.org/10.1109/MED61351.2024.10566225",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethBG18",
+          "title": "MPC-Based Coordinated Control Design for Look-Ahead Vehicles and Traffic Flow",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "247-252",
+          "ee": "https://doi.org/10.1109/MED.2018.8442707",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zsuzsanna Bede",
+              "@pid": "167/3804"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethFG18",
+          "title": "Anti-Lock Braking Control Design for Electric Vehicles Using LPV Methods",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "511-516",
+          "ee": "https://doi.org/10.1109/MED.2018.8442426",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethFGB17",
+          "title": "Control design of an electro-hydraulic actuator for variable-geometry suspension systems",
+          "booktitle": "MED",
+          "year": "2017",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.1109/MED.2017.7984115",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethG25",
+          "title": "Developing Explainable Approximating Representation for Intelligent Transportation Systems",
+          "booktitle": "MED",
+          "year": "2025",
+          "pages": "269-274",
+          "ee": "https://doi.org/10.1109/MED64031.2025.11073211",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/med/NemethVG14",
+          "title": "Design of a variable-geometry suspension system to enhance road stability",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "55-60",
+          "ee": "https://doi.org/10.1109/MED.2014.6961326",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Varga",
+              "@pid": "36/5418"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mesa/AradiBG14",
+          "title": "Experimental vehicle development for testing autonomous vehicle functions",
+          "booktitle": "MESA",
+          "year": "2014",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/MESA.2014.6935534",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mesa/BecsiAG14",
+          "title": "Design of an educational emulation framework for mechatronics control unit development",
+          "booktitle": "MESA",
+          "year": "2014",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/MESA.2014.6935533",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mesa/SzaboBGA18",
+          "title": "Control design of an electro-pneumatic gearbox actuator",
+          "booktitle": "MESA",
+          "year": "2018",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MESA.2018.8449145",
+          "author": [
+            {
+              "#text": "Ádám Szabó",
+              "@pid": "293/5871"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfi/FazekasGN20",
+          "title": "Identification of kinematic vehicle model parameters for localization purposes",
+          "booktitle": "MFI",
+          "year": "2020",
+          "pages": "373-380",
+          "ee": "https://doi.org/10.1109/MFI49285.2020.9235246",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mfi/FazekasGN21",
+          "title": "Estimation of wheel odometry model parameters with improved Gauss-Newton method",
+          "booktitle": "MFI",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MFI52462.2021.9591178",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mtits/BecsiAG15",
+          "title": "Security issues and vulnerabilities in connected car systems",
+          "booktitle": "MT-ITS",
+          "year": "2015",
+          "pages": "477-482",
+          "ee": "https://doi.org/10.1109/MTITS.2015.7223297",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mtits/MihalyNBG15",
+          "title": "Look-ahead cruise control design in VISSIM simulation environment",
+          "booktitle": "MT-ITS",
+          "year": "2015",
+          "pages": "52-57",
+          "ee": "https://doi.org/10.1109/MTITS.2015.7223236",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zsuzsanna Bede",
+              "@pid": "167/3804"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/Gaspar17",
+          "title": "User Preferences Analysis Using Visual Stimuli",
+          "booktitle": "RecSys",
+          "year": "2017",
+          "pages": "436-440",
+          "ee": "https://doi.org/10.1145/3109859.3120955",
+          "author": {
+            "#text": "Péter Gáspár",
+            "@pid": "93/7138"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/GasparKSB18",
+          "title": "Analysis of User Behavior in Interfaces with Recommended Items: An Eye-tracking Study",
+          "booktitle": "IntRS@RecSys",
+          "year": "2018",
+          "pages": "32-36",
+          "author": [
+            {
+              "#text": "Jakub Simko",
+              "@pid": "09/8578"
+            },
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Michal Kompan",
+              "@pid": "35/8468"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rocond/GasparNB12",
+          "title": "Design of an LPV-Based Integrated Control for Driver Assistance Systems",
+          "booktitle": "ROCOND",
+          "year": "2012",
+          "pages": "511-516",
+          "ee": "https://doi.org/10.3182/20120620-3-DK-2025.00056",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rocond/GasparNB12a",
+          "title": "Design of Integrated Vehicle Control Using Driver Models",
+          "booktitle": "ROCOND",
+          "year": "2012",
+          "pages": "517-522",
+          "ee": "https://doi.org/10.3182/20120620-3-DK-2025.00062",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rocond/NemethCVG12",
+          "title": "Design of Platoon Velocity Based on Multi-Criteria Optimization",
+          "booktitle": "ROCOND",
+          "year": "2012",
+          "pages": "523-528",
+          "ee": "https://doi.org/10.3182/20120620-3-DK-2025.00072",
+          "author": [
+            {
+              "#text": "Alfréd Csikós",
+              "@pid": "155/6049"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rocond/RodonyiGBPAHK12",
+          "title": "Guaranteed Peaks of Spacing Errors in an Experimental Vehicle String",
+          "booktitle": "ROCOND",
+          "year": "2012",
+          "pages": "759-764",
+          "ee": "https://doi.org/10.3182/20120620-3-DK-2025.00128",
+          "author": [
+            {
+              "#text": "Gábor Rödönyi",
+              "@pid": "82/10668"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "László Palkovics",
+              "@pid": "117/8714"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Roland Kovács",
+              "@pid": "22/6708"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Zoltán Hankovszki",
+              "@pid": "147/1932"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/FenyesNGPS19",
+          "title": "Study on a road surface estimation method based on big data analysis",
+          "booktitle": "SACI",
+          "year": "2019",
+          "pages": "57-62",
+          "ee": "https://doi.org/10.1109/SACI46893.2019.9111487",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Daniel Pup",
+              "@pid": "225/8476"
+            },
+            {
+              "#text": "Ferenc Szauter",
+              "@pid": "188/4446"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/MihalyG14",
+          "title": "Identification of a linear driver model based on simulator experiments",
+          "booktitle": "SACI",
+          "year": "2014",
+          "pages": "13-18",
+          "ee": "https://doi.org/10.1109/SACI.2014.6840057",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/saci/SzilassyNGSP19",
+          "title": "Robustness analysis and reconfiguration strategy of autonomous vehicles in intersections",
+          "booktitle": "SACI",
+          "year": "2019",
+          "pages": "45-50",
+          "ee": "https://doi.org/10.1109/SACI46893.2019.9111527",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Pup",
+              "@pid": "225/8476"
+            },
+            {
+              "#text": "Ferenc Szauter",
+              "@pid": "188/4446"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Péter Szilassy",
+              "@pid": "268/3973"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sisy/FazekasG24",
+          "title": "State Estimation Design and Tuning for Autonomous Vehicles in the Era of Data-Based Techniques",
+          "booktitle": "SISY",
+          "year": "2024",
+          "pages": "547-552",
+          "ee": "https://doi.org/10.1109/SISY62279.2024.10737596",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sisy/SzilassyNG20",
+          "title": "Predictive Speed Control for Automated Vehicles in Urban Area using Speed Zones",
+          "booktitle": "SISY",
+          "year": "2020",
+          "pages": "43-48",
+          "ee": "https://doi.org/10.1109/SISY50555.2020.9217096",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Péter Szilassy",
+              "@pid": "268/3973"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sisy/SzokeABG20",
+          "title": "Vehicle Control in Highway Traffic by Using Reinforcement Learning and Microscopic Traffic Simulation",
+          "booktitle": "SISY",
+          "year": "2020",
+          "pages": "21-26",
+          "ee": "https://doi.org/10.1109/SISY50555.2020.9217076",
+          "author": [
+            {
+              "#text": "Laszlo Szoke",
+              "@pid": "277/2432"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smap/MatlovicGMSB16",
+          "title": "Emotions detection using facial expressions recognition and EEG",
+          "booktitle": "SMAP",
+          "year": "2016",
+          "pages": "18-23",
+          "ee": "https://doi.org/10.1109/SMAP.2016.7753378",
+          "author": [
+            {
+              "#text": "Jakub Simko",
+              "@pid": "09/8578"
+            },
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Róbert Móro",
+              "@pid": "13/10717"
+            },
+            {
+              "#text": "Tomas Matlovic",
+              "@pid": "190/5353"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/syroco/BecsiAFSG18",
+          "title": "Highway Environment Model for Reinforcement Learning ⁎",
+          "booktitle": "SyRoCo",
+          "year": "2018",
+          "pages": "429-434",
+          "ee": "https://doi.org/10.1016/J.IFACOL.2018.11.596",
+          "author": [
+            {
+              "#text": "Árpád Fehér",
+              "@pid": "249/0122"
+            },
+            {
+              "#text": "János Szalay",
+              "@pid": "293/5607"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/syroco/BecsiASG18",
+          "title": "Policy gradient based Reinforcement learning control design of an electro-pneumatic gearbox actuator ⁎",
+          "booktitle": "SyRoCo",
+          "year": "2018",
+          "pages": "405-411",
+          "ee": "https://doi.org/10.1016/J.IFACOL.2018.11.577",
+          "author": [
+            {
+              "#text": "Ádám Szabó",
+              "@pid": "293/5871"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/syroco/ToroBAG18",
+          "title": "IMM Bernoulli Gaussian Particle Filter ⁎",
+          "booktitle": "SyRoCo",
+          "year": "2018",
+          "pages": "274-279",
+          "ee": "https://doi.org/10.1016/J.IFACOL.2018.11.554",
+          "author": [
+            {
+              "#text": "Olivér Töro",
+              "@pid": "284/5708"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/FazekasBG19",
+          "title": "A Heuristic Approach to Road Environment-type Detection from Traffic Sign Data",
+          "booktitle": "SysTol",
+          "year": "2019",
+          "pages": "288-293",
+          "ee": "https://doi.org/10.1109/SYSTOL.2019.8864736",
+          "author": [
+            {
+              "#text": "Gábor Balázs",
+              "@pid": "186/7838-3"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/FazekasGN21",
+          "title": "Parameter Identification of the Nonlinear Wheel Odometry Model with Batch Least Squares Method",
+          "booktitle": "SysTol",
+          "year": "2021",
+          "pages": "360-365",
+          "ee": "https://doi.org/10.1109/SYSTOL52990.2021.9595253",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/FenyesHG25",
+          "title": "Neural Network-Based Controller Combination for Automated Vehicles",
+          "booktitle": "SysTol",
+          "year": "2025",
+          "pages": "234-239",
+          "ee": "https://doi.org/10.1109/SYSTOL66549.2025.11267327",
+          "author": [
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Hegedüs",
+              "@pid": "99/11025"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/systol/NemethMG21",
+          "title": "Design of fault-tolerant cruise control in a hierarchical framework for connected automated vehicles",
+          "booktitle": "SysTol",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/SYSTOL52990.2021.9595194",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/BecsiSKAG20",
+          "title": "Reinforcement Learning Based Control Design for a Floating Piston Pneumatic Gearbox Actuator",
+          "journal": "IEEE Access",
+          "year": "2020",
+          "pages": "147295-147312",
+          "ee": "https://doi.org/10.1109/ACCESS.2020.3015576",
+          "author": [
+            {
+              "#text": "Ádám Szabó",
+              "@pid": "293/5871"
+            },
+            {
+              "#text": "Bálint Kövári",
+              "@pid": "264/3969"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/MarosiEFLBPNG22",
+          "title": "Toward Reference Architectures: A Cloud-Agnostic Data Analytics Platform Empowering Autonomous Systems",
+          "journal": "IEEE Access",
+          "year": "2022",
+          "pages": "60658-60673",
+          "ee": "https://doi.org/10.1109/ACCESS.2022.3180365",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Farkas",
+              "@pid": "05/10913"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Gianfranco Pedone",
+              "@pid": "86/5499"
+            },
+            {
+              "#text": "Márk Emodi",
+              "@pid": "228/0942"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Richárd Beregi",
+              "@pid": "243/5979"
+            },
+            {
+              "#text": "Róbert Lovas",
+              "@pid": "56/5349"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/TanTVTMG24",
+          "title": "Optimizing a Hybrid Controller for Automotive Active Suspension System by Using Genetic Algorithms With Two High Level Parameters",
+          "journal": "IEEE Access",
+          "year": "2024",
+          "pages": "172451-172464",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3499352",
+          "author": [
+            {
+              "#text": "Andras Mihaly",
+              "@pid": "147/1943"
+            },
+            {
+              "#text": "Do Trong Tu",
+              "@pid": "391/6832"
+            },
+            {
+              "#text": "Nguyen Van Vinh",
+              "@pid": "309/8246"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Pham Tat Thang",
+              "@pid": "391/7494"
+            },
+            {
+              "#text": "Vu Van Tan",
+              "@pid": "33/5162"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amcs/GasparSB12",
+          "title": "LPV design of fault-tolerant control for road vehicles",
+          "journal": "Int. J. Appl. Math. Comput. Sci.",
+          "year": "2012",
+          "pages": "173-182",
+          "ee": "https://doi.org/10.2478/V10006-012-0013-X",
+          "author": [
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amcs/HajduG16",
+          "title": "Reducing the mast vibration of single-mast stacker cranes by gain-scheduled control",
+          "journal": "Int. J. Appl. Math. Comput. Sci.",
+          "year": "2016",
+          "pages": "791-802",
+          "ee": "https://doi.org/10.1515/AMCS-2016-0056",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Sándor Hajdu",
+              "@pid": "194/0965"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/amcs/NemethGP16",
+          "title": "Nonlinear analysis of vehicle control actuations based on controlled invariant sets",
+          "journal": "Int. J. Appl. Math. Comput. Sci.",
+          "year": "2016",
+          "pages": "31-43",
+          "ee": "https://doi.org/10.1515/AMCS-2016-0003",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamas Peni",
+              "@pid": "17/7143"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/comintsys/CsuzdiBGT25",
+          "title": "Exact particle flow Daum-Huang filters for mobile robot localization in occupancy grid maps",
+          "journal": "Complex Intell. Syst.",
+          "year": "2025",
+          "ee": "https://doi.org/10.1007/S40747-025-01810-2",
+          "author": [
+            {
+              "#text": "Domonkos Csuzdi",
+              "@pid": "371/4150"
+            },
+            {
+              "#text": "Olivér Töro",
+              "@pid": "284/5708"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2203-06641",
+          "title": "Exploring Customer Price Preference and Product Profit Role in Recommender Systems",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2203.06641",
+          "author": [
+            {
+              "#text": "Jakub Macina",
+              "@pid": "204/6347"
+            },
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Matus Cimerman",
+              "@pid": "315/8979"
+            },
+            {
+              "#text": "Michal Kompan",
+              "@pid": "35/8468"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eaai/FazekasG24",
+          "title": "Wheel odometry model calibration with neural network-based weighting",
+          "journal": "Eng. Appl. Artif. Intell.",
+          "year": "2024",
+          "pages": "108631",
+          "ee": "https://doi.org/10.1016/J.ENGAPPAI.2024.108631",
+          "author": [
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/DoumiatiSDMG013",
+          "title": "Integrated vehicle dynamics control via coordination of active front steering and rear braking",
+          "journal": "Eur. J. Control",
+          "year": "2013",
+          "pages": "121-143",
+          "ee": "https://doi.org/10.1016/J.EJCON.2013.03.004",
+          "author": [
+            {
+              "#text": "John Jairo Martinez",
+              "@pid": "67/8129"
+            },
+            {
+              "#text": "Luc Dugard",
+              "@pid": "56/7143"
+            },
+            {
+              "#text": "Moustapha Doumiati",
+              "@pid": "156/0514"
+            },
+            {
+              "#text": "Olivier Sename",
+              "@pid": "53/4944"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/GasparSB04",
+          "title": "The Design of a Combined Control Structure to Prevent the Rollover of Heavy Vehicles",
+          "journal": "Eur. J. Control",
+          "year": "2004",
+          "pages": "148-162",
+          "ee": "https://doi.org/10.3166/EJC.10.148-162",
+          "author": [
+            {
+              "#text": "István Szászi",
+              "@pid": "121/0019"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/Poussot-VassalSGB07",
+          "title": "Discussion on: Combining Slip and Deceleration Control for Brake-by-wire Control Systems: A Sliding-mode Approach",
+          "journal": "Eur. J. Control",
+          "year": "2007",
+          "pages": "612-617",
+          "ee": "https://doi.org/10.3166/EJC.13.612-617",
+          "author": [
+            {
+              "#text": "Charles Poussot-Vassal",
+              "@pid": "57/7141"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/FazekasBG19",
+          "title": "Building upon Modularity in Artificial Neural Networks",
+          "journal": "ERCIM News",
+          "year": "2019",
+          "author": [
+            {
+              "#text": "Gábor Balázs",
+              "@pid": "186/7838-3"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/GasparSHSFB17",
+          "title": "Adding Autonomous Features to a Production Electric Car",
+          "journal": "ERCIM News",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/NemethG20",
+          "title": "Guaranteeing Performance Specifications for Vehicle Systems with Learning Agents through the Robust Control Theory",
+          "journal": "ERCIM News",
+          "year": "2020",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/SzalayETGV17",
+          "title": "RECAR: Hungarian Research Centre for Autonomous Road Vehicles is on the Way",
+          "journal": "ERCIM News",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Domokos Esztergár-Kiss",
+              "@pid": "167/3923"
+            },
+            {
+              "#text": "István Varga",
+              "@pid": "87/2017"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Tettamanti",
+              "@pid": "142/0455"
+            },
+            {
+              "#text": "Zsolt Szalay",
+              "@pid": "167/4410"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/expert/KompanGMCB22",
+          "title": "Exploring Customer Price Preference and Product Profit Role in Recommender Systems",
+          "journal": "IEEE Intell. Syst.",
+          "year": "2022",
+          "pages": "89-98",
+          "ee": "https://doi.org/10.1109/MIS.2021.3092768",
+          "author": [
+            {
+              "#text": "Jakub Macina",
+              "@pid": "204/6347"
+            },
+            {
+              "#text": "Mária Bieliková",
+              "@pid": "b/MariaBielikova"
+            },
+            {
+              "#text": "Matus Cimerman",
+              "@pid": "315/8979"
+            },
+            {
+              "#text": "Michal Kompan",
+              "@pid": "35/8468"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcon/FenyesNG22",
+          "title": "Design of LPV control for autonomous vehicles using the contributions of big data analysis",
+          "journal": "Int. J. Control",
+          "year": "2022",
+          "pages": "1802-1813",
+          "ee": "https://doi.org/10.1080/00207179.2021.1876922",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcon/GasparN16",
+          "title": "Integrated control design for driver assistance systems based on LPV methods",
+          "journal": "Int. J. Control",
+          "year": "2016",
+          "pages": "2420-2433",
+          "ee": "https://doi.org/10.1080/00207179.2016.1160292",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcon/NemethVG15",
+          "title": "Hierarchical design of an electro-hydraulic actuator based on robust LPV methods",
+          "journal": "Int. J. Control",
+          "year": "2015",
+          "pages": "1429-1440",
+          "ee": "https://doi.org/10.1080/00207179.2014.1002427",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Varga",
+              "@pid": "36/5418"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/FazekasGN21",
+          "title": "Calibration and Improvement of an Odometry Model with Dynamic Wheel and Lateral Dynamics Integration",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "337",
+          "ee": "https://doi.org/10.3390/S21020337",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Mate Fazekas",
+              "@pid": "237/2518"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/ToroBG21",
+          "title": "PHD Filter for Object Tracking in Road Traffic Applications Considering Varying Detectability",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "472",
+          "ee": "https://doi.org/10.3390/S21020472",
+          "author": [
+            {
+              "#text": "Olivér Töro",
+              "@pid": "284/5708"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/NemethFGB19",
+          "title": "Coordination of Independent Steering and Torque Vectoring in a Variable-Geometry Suspension System",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2019",
+          "pages": "2209-2220",
+          "ee": "https://doi.org/10.1109/TCST.2018.2867369",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Daniel Fenyes",
+              "@pid": "192/3321"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/BecsiAG15",
+          "title": "Educational Frameworks for Vehicle Mechatronics",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2015",
+          "pages": "3534-3542",
+          "ee": "https://doi.org/10.1109/TITS.2015.2480958",
+          "author": [
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/JeklDNSG25",
+          "title": "Scenario-Optimization-Based Velocity Planning of Autonomous Vehicles for Interacting With Pedestrians",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2025",
+          "pages": "5382-5395",
+          "ee": "https://doi.org/10.1109/TITS.2025.3531506",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Bence Jekl",
+              "@pid": "401/5505"
+            },
+            {
+              "#text": "Branimir Skugor",
+              "@pid": "124/0558"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Zvonimir Dabcevic",
+              "@pid": "401/4831"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/NemethG17",
+          "title": "The Relationship Between the Traffic Flow and the Look-Ahead Cruise Control",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2017",
+          "pages": "1154-1164",
+          "ee": "https://doi.org/10.1109/TITS.2016.2599583",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tits/SzokeABG22",
+          "title": "Skills to Drive: Successor Features for Autonomous Highway Pilot",
+          "journal": "IEEE Trans. Intell. Transp. Syst.",
+          "year": "2022",
+          "pages": "18707-18718",
+          "ee": "https://doi.org/10.1109/TITS.2022.3150493",
+          "author": [
+            {
+              "#text": "Laszlo Szoke",
+              "@pid": "277/2432"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tiv/LindenmaierABG25",
+          "title": "Semi-Automatic BEV Ground Truth Generation for Automotive Perception Systems",
+          "journal": "IEEE Trans. Intell. Veh.",
+          "year": "2025",
+          "pages": "1441-1454",
+          "ee": "https://doi.org/10.1109/TIV.2024.3419590",
+          "author": [
+            {
+              "#text": "László Lindenmaier",
+              "@pid": "324/7635"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tiv/LindenmaierABTG23",
+          "title": "Object-Level Data-Driven Sensor Simulation for Automotive Environment Perception",
+          "journal": "IEEE Trans. Intell. Veh.",
+          "year": "2023",
+          "pages": "4341-4356",
+          "ee": "https://doi.org/10.1109/TIV.2023.3287278",
+          "author": [
+            {
+              "#text": "László Lindenmaier",
+              "@pid": "324/7635"
+            },
+            {
+              "#text": "Olivér Töro",
+              "@pid": "284/5708"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvt/LindenmaierABTG22",
+          "title": "GM-PHD Filter Based Sensor Data Fusion for Automotive Frontal Perception System",
+          "journal": "IEEE Trans. Veh. Technol.",
+          "year": "2022",
+          "pages": "7215-7229",
+          "ee": "https://doi.org/10.1109/TVT.2022.3171040",
+          "author": [
+            {
+              "#text": "László Lindenmaier",
+              "@pid": "324/7635"
+            },
+            {
+              "#text": "Olivér Töro",
+              "@pid": "284/5708"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            },
+            {
+              "#text": "Szilárd Aradi",
+              "@pid": "155/5856"
+            },
+            {
+              "#text": "Tamás Bécsi",
+              "@pid": "167/4222"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvt/NemethG13",
+          "title": "Control Design of Variable-Geometry Suspension Considering the Construction System",
+          "journal": "IEEE Trans. Veh. Technol.",
+          "year": "2013",
+          "pages": "4104-4109",
+          "ee": "https://doi.org/10.1109/TVT.2013.2263156",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/sci/Gaspar09",
+          "title": "Model-Based Control Design of Integrated Vehicle Systems",
+          "journal": "Towards Intelligent Engineering and Information Technology",
+          "year": "2009",
+          "pages": "103-119",
+          "ee": "https://doi.org/10.1007/978-3-642-03737-5_8",
+          "author": {
+            "#text": "Péter Gáspár",
+            "@pid": "93/7138"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/sci/NemethG21",
+          "title": "Guaranteed Performances for Learning-Based Control Systems Using Robust Control Theory",
+          "journal": "Deep Learning for Unmanned Systems",
+          "year": "2021",
+          "pages": "109-142",
+          "ee": "https://doi.org/10.1007/978-3-030-77939-9_4",
+          "author": [
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Péter Gáspár",
+              "@pid": "93/7138"
+            }
+          ]
+        }
       }
     ]
   }

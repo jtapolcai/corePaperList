@@ -1,156 +1,600 @@
 {
   "dblpperson": {
+    "@name": "Kalman Tornai",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/isgt/TornaiODKPL17",
-        "title": "Recurrent neural network based user classification for smart grids.",
-        "pages": "1-5",
-        "year": "2017",
-        "booktitle": "ISGT",
-        "ee": "https://doi.org/10.1109/ISGT.2017.8086043",
-        "url": "db/conf/isgt/isgt2017.html#TornaiODKPL17",
-        "authors": [
-          "Kalman Tornai",
-          "Andras Olah",
-          "Rajmund Drenyovszki",
-          "Lorant Kovacs",
-          "Istvan PintÃ©r",
-          "JÃ¡nos Levendovszky"
-        ]
+        "inproceedings": {
+          "@key": "conf/icb/TornaiS19",
+          "title": "Gesture-based User Identity Verification as an Open Set Problem for Smartphones",
+          "booktitle": "ICB",
+          "year": "2019",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/ICB45273.2019.8987373",
+          "author": [
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Walter J. Scheirer",
+              "@pid": "80/4900"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icit2/LorinczOT18",
-        "title": "An effective neuron based method for process control in industrial environment.",
-        "pages": "69-74",
-        "year": "2018",
-        "booktitle": "ICIT",
-        "ee": "https://doi.org/10.1109/ICIT.2018.8352154",
-        "url": "db/conf/icit2/icit2018.html#LorinczOT18",
-        "authors": [
-          "Mate Lorincz",
-          "Andras Olah",
-          "Kalman Tornai"
-        ]
+        "inproceedings": {
+          "@key": "conf/icit2/LorinczOT18",
+          "title": "An effective neuron based method for process control in industrial environment",
+          "booktitle": "ICIT",
+          "year": "2018",
+          "pages": "69-74",
+          "ee": "https://doi.org/10.1109/ICIT.2018.8352154",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Mate Lorincz",
+              "@pid": "244/6022"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/PinterKDOT16",
-        "title": "Jensen-Shannon divergence based algorithm for adaptive segmentation and labelling of household's electricity power consumption data series.",
-        "pages": "1912-1916",
-        "year": "2016",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/SMC.2016.7844518",
-        "url": "db/conf/smc/smc2016.html#PinterKDOT16",
-        "authors": [
-          "Istvan PintÃ©r",
-          "Lorant Kovacs",
-          "Rajmund Drenyovszki",
-          "Andras Olah",
-          "Kalman Tornai"
-        ]
+        "inproceedings": {
+          "@key": "conf/isgt/TornaiODKPL17",
+          "title": "Recurrent neural network based user classification for smart grids",
+          "booktitle": "ISGT",
+          "year": "2017",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/ISGT.2017.8086043",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Istvan Pintér",
+              "@pid": "39/6956"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lorant Kovacs",
+              "@pid": "65/9173"
+            },
+            {
+              "#text": "Rajmund Drenyovszki",
+              "@pid": "185/0917"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vtc/LevendovszkyTTO11",
-        "title": "Novel Load Balancing Algorithms Ensuring Uniform Packet Loss Probabilities for WSN.",
-        "pages": "1-5",
-        "year": "2011",
-        "booktitle": "VTC Spring",
-        "ee": "https://www.wikidata.org/entity/Q58052397",
-        "url": "db/conf/vtc/vtc2011s.html#LevendovszkyTTO11",
-        "authors": [
-          "JÃ¡nos Levendovszky",
-          "Kalman Tornai",
-          "Gergely TreplÃ¡n",
-          "Andras Olah"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartgift/TornaiO16",
+          "title": "Clustering Power Consumption Data in Smart Grid",
+          "booktitle": "SmartGIFT",
+          "year": "2017",
+          "pages": "25-32",
+          "ee": "https://doi.org/10.1007/978-3-319-47729-9_3",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/kybernetika/DrenyovszkiKTOP17",
-        "title": "Bottom-up modeling of domestic appliances with Markov chains and semi-Markov processes.",
-        "pages": "1100-1117",
-        "year": "2017",
-        "volume": "53",
-        "journal": "Kybernetika",
-        "number": "6",
-        "ee": "https://doi.org/10.14736/kyb-2017-6-1100",
-        "url": "db/journals/kybernetika/kybernetika53.html#DrenyovszkiKTOP17",
-        "authors": [
-          "Rajmund Drenyovszki",
-          "Lorant Kovacs",
-          "Kalman Tornai",
-          "Andras Olah",
-          "Istvan PintÃ©r"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartgift/TornaiODKPL17",
+          "title": "Deep Learning Based Consumer Classification for Smart Grid",
+          "booktitle": "SmartGIFT",
+          "year": "2017",
+          "pages": "132-141",
+          "ee": "https://doi.org/10.1007/978-3-319-61813-5_13",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Istvan Pintér",
+              "@pid": "39/6956"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lorant Kovacs",
+              "@pid": "65/9173"
+            },
+            {
+              "#text": "Rajmund Drenyovszki",
+              "@pid": "185/0917"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ahswn/TornaiOL16",
-        "title": "Monitoring Scheme for Event and Danger Detection in Wireless Sensor Networks.",
-        "pages": "145-161",
-        "year": "2016",
-        "volume": "30",
-        "journal": "Ad Hoc Sens. Wirel. Networks",
-        "number": "1-2",
-        "ee": "http://www.oldcitypublishing.com/journals/ahswn-home/ahswn-issue-contents/ahswn-volume-30-number-1-2-2016/ahswn-30-1-2-p-145-161/",
-        "url": "db/journals/ahswn/ahswn30.html#TornaiOL16",
-        "authors": [
-          "Kalman Tornai",
-          "Andras Olah",
-          "JÃ¡nos Levendovszky"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartgreens/NemethT22",
+          "title": "SP4LC: A Method for Recognizing Power Consumers in a Smart Plug",
+          "booktitle": "SMARTGREENS",
+          "year": "2022",
+          "pages": "69-77",
+          "ee": "https://doi.org/10.5220/0010982800003203",
+          "author": [
+            {
+              "#text": "Dániel István Németh",
+              "@pid": "320/4137"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijdsn/TreplanTL11",
-        "title": "Quadratic Programming for TDMA Scheduling in Wireless Sensor Networks.",
-        "year": "2011",
-        "volume": "7",
-        "number": "1",
-        "journal": "Int. J. Distributed Sens. Networks",
-        "ee": "https://www.wikidata.org/entity/Q58052398",
-        "url": "db/journals/ijdsn/ijdsn7.html#TreplanTL11",
-        "authors": [
-          "Gergely TreplÃ¡n",
-          "Kalman Tornai",
-          "JÃ¡nos Levendovszky"
-        ]
+        "inproceedings": {
+          "@key": "conf/smartgreens/NemethT22a",
+          "title": "Fast Electrical Load Classification Using a Dimmer-Based Smart Plug",
+          "booktitle": "SMARTGREENS/VEHITS (Selected Papers)",
+          "year": "2023",
+          "pages": "68-89",
+          "ee": "https://doi.org/10.1007/978-3-031-37470-8_4",
+          "author": [
+            {
+              "#text": "Dániel István Németh",
+              "@pid": "320/4137"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1208-4583",
-        "title": "A novel Hopfield neural network approach for minimizing total weighted tardiness of jobs scheduled on identical machines",
-        "ee": "https://doi.org/10.48550/arXiv.1208.4583",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1208.4583",
-        "url": "db/journals/corr/corr1208.html#abs-1208-4583",
-        "authors": [
-          "Norbert Fogarasi",
-          "Kalman Tornai",
-          "JÃ¡nos Levendovszky"
-        ]
+        "inproceedings": {
+          "@key": "conf/smc/PinterKDOT16",
+          "title": "Jensen-Shannon divergence based algorithm for adaptive segmentation and labelling of household's electricity power consumption data series",
+          "booktitle": "SMC",
+          "year": "2016",
+          "pages": "1912-1916",
+          "ee": "https://doi.org/10.1109/SMC.2016.7844518",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Istvan Pintér",
+              "@pid": "39/6956"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lorant Kovacs",
+              "@pid": "65/9173"
+            },
+            {
+              "#text": "Rajmund Drenyovszki",
+              "@pid": "185/0917"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/KovacsDOLTP16",
-        "title": "A probabilistic demand side management approach by consumption admission control.",
-        "year": "2016",
-        "volume": "abs/1608.00546",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1608.00546",
-        "url": "db/journals/corr/corr1608.html#KovacsDOLTP16",
-        "authors": [
-          "Lorant Kovacs",
-          "Rajmund Drenyovszki",
-          "Andras Olah",
-          "JÃ¡nos Levendovszky",
-          "Kalman Tornai",
-          "Istvan PintÃ©r"
-        ]
+        "inproceedings": {
+          "@key": "conf/vtc/LevendovszkyTTO11",
+          "title": "Novel Load Balancing Algorithms Ensuring Uniform Packet Loss Probabilities for WSN",
+          "booktitle": "VTC Spring",
+          "year": "2011",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECS.2011.5956703",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Gergely Treplán",
+              "@pid": "87/9171"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/webist/HalaszDAJZT23",
+          "title": "Adapting Open-Set Recognition Method to Various Time-Series Data",
+          "booktitle": "WEBIST",
+          "year": "2023",
+          "pages": "595-601",
+          "ee": "https://doi.org/10.5220/0012265700003584",
+          "author": [
+            {
+              "#text": "András Halász",
+              "@pid": "362/7772"
+            },
+            {
+              "#text": "János Juhász",
+              "@pid": "167/3938"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lóránt Szabolcs Daubner",
+              "@pid": "362/7938"
+            },
+            {
+              "#text": "Nawar Al-Hemeary",
+              "@pid": "335/5760"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/HorvathOPSLRTZM25",
+          "title": "Anomaly Detection Algorithms for Real-Time Log Data Analysis at Scale",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "136288-136311",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3594469",
+          "author": [
+            {
+              "#text": "András Horváth",
+              "@pid": "26/7012"
+            },
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Attila Pintér",
+              "@pid": "413/5700"
+            },
+            {
+              "#text": "Bálint Siklósi",
+              "@pid": "270/3996"
+            },
+            {
+              "#text": "Gergely Lukács",
+              "@pid": "05/5771"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            },
+            {
+              "#text": "Zoltán Máthé",
+              "@pid": "62/2836"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ahswn/TornaiOL16",
+          "title": "Monitoring Scheme for Event and Danger Detection in Wireless Sensor Networks",
+          "journal": "Ad Hoc Sens. Wirel. Networks",
+          "year": "2016",
+          "pages": "145-161",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1208-4583",
+          "title": "A novel Hopfield neural network approach for minimizing total weighted tardiness of jobs scheduled on identical machines",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1208.4583",
+          "author": [
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Norbert Fogarasi",
+              "@pid": "117/9425"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-03737",
+          "title": "Hybrid ILM-NILM Smart Plug System",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.03737",
+          "author": [
+            {
+              "#text": "Dániel István Németh",
+              "@pid": "320/4137"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KovacsDOLTP16",
+          "title": "A probabilistic demand side management approach by consumption admission control",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1608.00546",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Istvan Pintér",
+              "@pid": "39/6956"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lorant Kovacs",
+              "@pid": "65/9173"
+            },
+            {
+              "#text": "Rajmund Drenyovszki",
+              "@pid": "185/0917"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijdsn/TreplanTL11",
+          "title": "Quadratic Programming for TDMA Scheduling in Wireless Sensor Networks",
+          "journal": "Int. J. Distributed Sens. Networks",
+          "year": "2011",
+          "ee": "https://doi.org/10.1155/2011/107062",
+          "author": [
+            {
+              "#text": "Gergely Treplán",
+              "@pid": "87/9171"
+            },
+            {
+              "#text": "János Levendovszky",
+              "@pid": "20/2114"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/kybernetika/DrenyovszkiKTOP17",
+          "title": "Bottom-up modeling of domestic appliances with Markov chains and semi-Markov processes",
+          "journal": "Kybernetika",
+          "year": "2017",
+          "pages": "1100-1117",
+          "ee": "https://doi.org/10.14736/KYB-2017-6-1100",
+          "author": [
+            {
+              "#text": "Andras Olah",
+              "@pid": "42/10097"
+            },
+            {
+              "#text": "Istvan Pintér",
+              "@pid": "39/6956"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Lorant Kovacs",
+              "@pid": "65/9173"
+            },
+            {
+              "#text": "Rajmund Drenyovszki",
+              "@pid": "185/0917"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/PolczRTJPCS25",
+          "title": "Smart epidemic control: A hybrid model blending ODEs and agent-based simulations for optimal, real-world intervention planning",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2025",
+          "pages": "1013028",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1013028",
+          "author": [
+            {
+              "#text": "Attila Csikász-Nagy",
+              "@pid": "62/1850"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "János Juhász",
+              "@pid": "167/3938"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Péter Polcz",
+              "@pid": "213/2115"
+            },
+            {
+              "#text": "Sándor Pongor",
+              "@pid": "87/3292"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/RegulyCJTBHKKCI22",
+          "title": "Microsimulation based quantitative analysis of COVID-19 management strategies",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2022",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1009693",
+          "author": [
+            {
+              "#text": "Attila Csikász-Nagy",
+              "@pid": "62/1850"
+            },
+            {
+              "#text": "Bence Keömley-Horváth",
+              "@pid": "326/9564"
+            },
+            {
+              "#text": "Dávid Csercsik",
+              "@pid": "49/8089"
+            },
+            {
+              "#text": "Gábor Szederkényi",
+              "@pid": "04/3482"
+            },
+            {
+              "#text": "Gergely Horváth",
+              "@pid": "95/1917"
+            },
+            {
+              "#text": "Gergely Röst",
+              "@pid": "33/6817"
+            },
+            {
+              "#text": "György Cserey",
+              "@pid": "91/5885"
+            },
+            {
+              "#text": "István Z. Reguly",
+              "@pid": "129/5523"
+            },
+            {
+              "#text": "János Juhász",
+              "@pid": "167/3938"
+            },
+            {
+              "#text": "Kalman Tornai",
+              "@pid": "79/10096"
+            },
+            {
+              "#text": "Kristóf Iván",
+              "@pid": "149/9366"
+            },
+            {
+              "#text": "Sándor Pongor",
+              "@pid": "87/3292"
+            },
+            {
+              "#text": "Tamás Kós",
+              "@pid": "326/9789"
+            },
+            {
+              "#text": "Zsófia Bujtár",
+              "@pid": "326/9785"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Kalman14",
+          "title": "Hatékony monitorozás és erŐforrásgazdálkodás érzékelŐ hálózatokkal",
+          "journal": "",
+          "year": "2014",
+          "author": {
+            "#text": "Kalman Tornai",
+            "@pid": "79/10096"
+          }
+        }
       }
     ]
   }

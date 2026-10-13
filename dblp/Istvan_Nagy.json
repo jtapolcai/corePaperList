@@ -1,266 +1,46 @@
 {
   "dblpperson": {
+    "@name": "István Nagy",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/iceccs/NagyCBERM12",
-        "title": "VPDSL: A DSL for Software in the Loop Simulations Covering Material Flow.",
-        "pages": "318-327",
-        "year": "2012",
-        "booktitle": "ICECCS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICECCS.2012.43",
-        "url": "db/conf/iceccs/iceccs2012.html#NagyCBERM12",
-        "authors": [
-          "Istvan Nagy 0001",
-          "Loek G. Cleophas",
-          "Mark van den Brand",
-          "Luc Engelen",
-          "Liviu Raulea",
-          "Ernest Xavier Lobo Mithun"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icas/MayerNBKBLB08",
-        "title": "Automation of Manual Tasks for Minimally Invasive Surgery.",
-        "pages": "260-265",
-        "year": "2008",
-        "booktitle": "ICAS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICAS.2008.16",
-        "url": "db/conf/icas/icas2008.html#MayerNBKBLB08",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Istvan Nagy 0002",
-          "Darius Burschka",
-          "Alois C. Knoll",
-          "Eva U. Braun",
-          "RÃ¼diger Lange",
-          "Robert Bauernschmitt"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/jit/NagyBA05",
-        "title": "Composing Aspects at Shared Join Points.",
-        "pages": "19-38",
-        "year": "2005",
-        "booktitle": "NODe/GSEM",
-        "url": "db/conf/jit/node2005.html#NagyBA05",
-        "ee": "http://subs.emis.de/LNI/Proceedings/Proceedings69/article3869.html",
-        "authors": [
-          "Istvan Nagy 0001",
-          "Lodewijk Bergmans",
-          "Mehmet Aksit"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/jit/NagyBHA05",
-        "title": "Utilizing Design Information in Aspect-Oriented Programming.",
-        "pages": "39-60",
-        "year": "2005",
-        "booktitle": "NODe/GSEM",
-        "url": "db/conf/jit/node2005.html#NagyBHA05",
-        "ee": "http://subs.emis.de/LNI/Proceedings/Proceedings69/article3870.html",
-        "authors": [
-          "Istvan Nagy 0001",
-          "Lodewijk Bergmans",
-          "Wilke Havinga",
-          "Mehmet Aksit"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iros/MayerGWNKS06",
-        "title": "A System for Robotic Heart Surgery that Learns to Tie Knots Using Recurrent Neural Networks.",
-        "pages": "543-548",
-        "year": "2006",
-        "booktitle": "IROS",
-        "ee": "https://www.wikidata.org/entity/Q56553346",
-        "url": "db/conf/iros/iros2006.html#MayerGWNKS06",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Faustino J. Gomez",
-          "Daan Wierstra",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "JÃ¼rgen Schmidhuber"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/iros/MayerNKSB04",
-        "title": "The Endo[PA]R system for minimally invasive robotic surgery.",
-        "pages": "3637-3642",
-        "year": "2004",
-        "booktitle": "IROS",
-        "ee": "https://doi.org/10.1109/IROS.2004.1389980",
-        "url": "db/conf/iros/iros2004.html#MayerNKSB04",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "Eva U. Schirmbeck",
-          "Robert Bauernschmitt"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aosd/HavingaNBA07",
-        "title": "A graph-based approach to modeling and detecting composition conflicts related to introductions.",
-        "pages": "85-95",
-        "year": "2007",
-        "booktitle": "AOSD",
-        "ee": "https://doi.org/10.1145/1218563.1218574",
-        "url": "db/conf/aosd/aosd2007.html#HavingaNBA07",
-        "authors": [
-          "Wilke Havinga",
-          "Istvan Nagy 0001",
-          "Lodewijk Bergmans",
-          "Mehmet Aksit"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aosd/HavingaNBA06",
-        "title": "Detecting and resolving ambiguities caused by inter-dependent introductions.",
-        "pages": "214-225",
-        "year": "2006",
-        "booktitle": "AOSD",
-        "ee": "https://doi.org/10.1145/1119655.1119684",
-        "url": "db/conf/aosd/aosd2006.html#HavingaNBA06",
-        "authors": [
-          "Wilke Havinga",
-          "Istvan Nagy 0001",
-          "Lodewijk Bergmans",
-          "Mehmet Aksit"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cbms/NagyKBSM04",
-        "title": "Real-Time Matching of Angiographies with In Situ Heart Image Sequences.",
-        "pages": "516-",
-        "year": "2004",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2004.1311767",
-        "url": "db/conf/cbms/cbms2004.html#NagyKBSM04",
-        "authors": [
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "Robert Bauernschmitt",
-          "Eva U. Schirmbeck",
-          "Hermann Georg Mayer"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/cbms/MayerNKSB05",
-        "title": "An Experimental System for Robotic Heart Surgery.",
-        "pages": "55-60",
-        "year": "2005",
-        "booktitle": "CBMS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CBMS.2005.25",
-        "url": "db/conf/cbms/cbms2005.html#MayerNKSB05",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "Eva U. Schirmbeck",
-          "Robert Bauernschmitt"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/wcre/SchoenmakersBNVS13",
-        "title": "Assessing the complexity of upgrading software modules.",
-        "pages": "433-440",
-        "year": "2013",
-        "booktitle": "WCRE",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/WCRE.2013.6671319",
-        "url": "db/conf/wcre/wcre2013.html#SchoenmakersBNVS13",
-        "authors": [
-          "Bram Schoenmakers",
-          "Niels van den Broek",
-          "Istvan Nagy 0001",
-          "Bogdan Vasilescu",
-          "Alexander Serebrenik"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/sle/StappersWRAN11",
-        "title": "Formalizing a Domain Specific Language Using SOS: An Industrial Case Study.",
-        "pages": "223-242",
-        "year": "2011",
-        "booktitle": "SLE",
-        "ee": "https://doi.org/10.1007/978-3-642-28830-2_13",
-        "url": "db/conf/sle/sle2011.html#StappersWRAN11",
-        "authors": [
-          "Frank P. M. Stappers",
-          "Sven Weber",
-          "Michel A. Reniers",
-          "Suzana Andova",
-          "Istvan Nagy 0001"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icra/MayerNKBLB07",
-        "title": "Adaptive Control for Human-Robot Skilltransfer: Trajectory Planning Based on Fluid Dynamics.",
-        "pages": "1800-1807",
-        "year": "2007",
-        "booktitle": "ICRA",
-        "ee": "https://www.wikidata.org/entity/Q56421013",
-        "url": "db/conf/icra/icra2007.html#MayerNKBLB07",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "Eva U. Braun",
-          "RÃ¼diger Lange",
-          "Robert Bauernschmitt"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/presence/MayerNKBBL07",
-        "title": "Haptic Feedback in a Telepresence System for Endoscopic Heart Surgery.",
-        "pages": "459-470",
-        "year": "2007",
-        "volume": "16",
-        "journal": "Presence Teleoperators Virtual Environ.",
-        "number": "5",
-        "ee": "https://doi.org/10.1162/pres.16.5.459",
-        "url": "db/journals/presence/presence16.html#MayerNKBBL07",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "Eva U. Braun",
-          "Robert Bauernschmitt",
-          "RÃ¼diger Lange"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ar/MayerGWNKS08",
-        "title": "A System for Robotic Heart Surgery that Learns to Tie Knots Using Recurrent Neural Networks.",
-        "pages": "1521-1537",
-        "year": "2008",
-        "volume": "22",
-        "journal": "Adv. Robotics",
-        "number": "13-14",
-        "ee": "https://www.wikidata.org/entity/Q58027151",
-        "url": "db/journals/ar/ar22.html#MayerGWNKS08",
-        "authors": [
-          "Hermann Georg Mayer",
-          "Faustino J. Gomez",
-          "Daan Wierstra",
-          "Istvan Nagy 0002",
-          "Alois C. Knoll",
-          "JÃ¼rgen Schmidhuber"
-        ]
+        "article": {
+          "@key": "journals/jaciii/ParocziNGKVSL12",
+          "title": "Augmented Reality Aspects of Object Recognition in Driver Support Systems",
+          "journal": "J. Adv. Comput. Intell. Intell. Informatics",
+          "year": "2012",
+          "pages": "284-296",
+          "ee": "https://doi.org/10.20965/JACIII.2012.P0284",
+          "author": [
+            {
+              "#text": "Adam Siegler",
+              "@pid": "117/0838"
+            },
+            {
+              "#text": "Csaba Gáspár-Papanek",
+              "@pid": "47/3084"
+            },
+            {
+              "#text": "Endre Varga",
+              "@pid": "46/4040"
+            },
+            {
+              "#text": "István Nagy",
+              "@pid": "03/1953-4"
+            },
+            {
+              "#text": "Peter Lucz",
+              "@pid": "117/0841"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            },
+            {
+              "#text": "Zsombor Paroczi",
+              "@pid": "117/0846"
+            }
+          ]
+        }
       }
     ]
   }

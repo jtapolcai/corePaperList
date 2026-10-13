@@ -1,85 +1,200 @@
 {
   "dblpperson": {
+    "@name": "Bálint Tillman",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/GjokaTM15",
-        "title": "Construction of simple graphs with a target joint degree matrix and beyond.",
-        "pages": "1553-1561",
-        "year": "2015",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFOCOM.2015.7218534",
-        "url": "db/conf/infocom/infocom2015.html#GjokaTM15",
-        "authors": [
-          "Minas Gjoka",
-          "Balint Tillman",
-          "Athina Markopoulou"
-        ]
+        "inproceedings": {
+          "@key": "conf/cig/JustesenTTR14",
+          "title": "Script- and cluster-based UCT for StarCraft",
+          "booktitle": "CIG",
+          "year": "2014",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/CIG.2014.6932900",
+          "author": [
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Julian Togelius",
+              "@pid": "47/767"
+            },
+            {
+              "#text": "Niels Justesen",
+              "@pid": "152/9549"
+            },
+            {
+              "#text": "Sebastian Risi",
+              "@pid": "81/7183"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cig/JustesenTTR14",
-        "title": "Script- and cluster-based UCT for StarCraft.",
-        "pages": "1-8",
-        "year": "2014",
-        "booktitle": "CIG",
-        "ee": "https://doi.org/10.1109/CIG.2014.6932900",
-        "url": "db/conf/cig/cig2014.html#JustesenTTR14",
-        "authors": [
-          "Niels Justesen",
-          "Balint Tillman",
-          "Julian Togelius",
-          "Sebastian Risi"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/GjokaTM15",
+          "title": "Construction of simple graphs with a target joint degree matrix and beyond",
+          "booktitle": "INFOCOM",
+          "year": "2015",
+          "pages": "1553-1561",
+          "ee": "https://doi.org/10.1109/INFOCOM.2015.7218534",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Minas Gjoka",
+              "@pid": "07/6989"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ton/TillmanMGB19",
-        "title": "2K+ Graph Construction Framework: Targeting Joint Degree Matrix and Beyond.",
-        "pages": "591-606",
-        "year": "2019",
-        "volume": "27",
-        "journal": "IEEE/ACM Trans. Netw.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q128172552",
-        "url": "db/journals/ton/ton27.html#TillmanMGB19",
-        "authors": [
-          "Balint Tillman",
-          "Athina Markopoulou",
-          "Minas Gjoka",
-          "Carter T. Butts"
-        ]
+        "inproceedings": {
+          "@key": "conf/kdd/TillmanMBG17",
+          "title": "Construction of Directed 2K Graphs",
+          "booktitle": "KDD",
+          "year": "2017",
+          "pages": "1115-1124",
+          "ee": "https://doi.org/10.1145/3097983.3098119",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Carter T. Butts",
+              "@pid": "00/7119"
+            },
+            {
+              "#text": "Minas Gjoka",
+              "@pid": "07/6989"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1907-13113",
-        "title": "A Federated Learning Approach for Mobile Packet Classification.",
-        "year": "2019",
-        "volume": "abs/1907.13113",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1907.13113",
-        "url": "db/journals/corr/corr1907.html#abs-1907-13113",
-        "authors": [
-          "Evita Bakopoulou",
-          "Balint Tillman",
-          "Athina Markopoulou"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1907-13113",
+          "title": "A Federated Learning Approach for Mobile Packet Classification",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1907.13113",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Evita Bakopoulou",
+              "@pid": "190/0697"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/TillmanMBG17",
-        "title": "Construction of Directed 2K Graphs.",
-        "year": "2017",
-        "volume": "abs/1703.07340",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1703.07340",
-        "url": "db/journals/corr/corr1703.html#TillmanMBG17",
-        "authors": [
-          "Balint Tillman",
-          "Athina Markopoulou",
-          "Carter T. Butts",
-          "Minas Gjoka"
-        ]
+        "informal": {
+          "@key": "journals/corr/TillmanMBG17",
+          "title": "Construction of Directed 2K Graphs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.07340",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Carter T. Butts",
+              "@pid": "00/7119"
+            },
+            {
+              "#text": "Minas Gjoka",
+              "@pid": "07/6989"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmc/BakopoulouTM22",
+          "title": "FedPacket: A Federated Learning Approach to Mobile Packet Classification",
+          "journal": "IEEE Trans. Mob. Comput.",
+          "year": "2022",
+          "pages": "3609-3628",
+          "ee": "https://doi.org/10.1109/TMC.2021.3058627",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Evita Bakopoulou",
+              "@pid": "190/0697"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ton/TillmanMGB19",
+          "title": "2K+ Graph Construction Framework: Targeting Joint Degree Matrix and Beyond",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2019",
+          "pages": "591-606",
+          "ee": "https://doi.org/10.1109/TNET.2019.2895853",
+          "author": [
+            {
+              "#text": "Athina Markopoulou",
+              "@pid": "82/5866"
+            },
+            {
+              "#text": "Balint Tillman",
+              "@pid": "152/9512"
+            },
+            {
+              "#text": "Carter T. Butts",
+              "@pid": "00/7119"
+            },
+            {
+              "#text": "Minas Gjoka",
+              "@pid": "07/6989"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/us/Tillman19",
+          "title": "Graph Construction using the dK-Series Framework",
+          "journal": "",
+          "year": "2019",
+          "author": {
+            "#text": "Balint Tillman",
+            "@pid": "152/9512"
+          }
+        }
       }
     ]
   }

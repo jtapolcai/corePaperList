@@ -1,238 +1,396 @@
 {
   "dblpperson": {
+    "@name": "György Dénes",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/siggraph/DenesMM18",
-        "title": "Exploiting the limitations of spatio-temporal vision for more efficient VR rendering.",
-        "pages": "21:1-21:2",
-        "year": "2018",
-        "booktitle": "SIGGRAPH Posters",
-        "ee": "https://www.wikidata.org/entity/Q130876709",
-        "url": "db/conf/siggraph/siggraph2018posters.html#DenesMM18",
-        "authors": [
-          "Gyorgy Denes",
-          "Kuba Maruszczyk",
-          "Rafal K. Mantiuk"
-        ]
+        "inproceedings": {
+          "@key": "conf/eurographics/EbelinCDOAA23",
+          "title": "Luminance-Preserving and Temporally Stable Daltonization",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2023",
+          "pages": "45-48",
+          "ee": "https://doi.org/10.2312/EGS.20231011",
+          "author": [
+            {
+              "#text": "Cyril Crassin",
+              "@pid": "81/1865"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Kalle Åström",
+              "@pid": "45/2097"
+            },
+            {
+              "#text": "Magnus Oskarsson",
+              "@pid": "43/2905"
+            },
+            {
+              "#text": "Pontus Ebelin",
+              "@pid": "348/6446"
+            },
+            {
+              "#text": "Tomas Akenine-Möller",
+              "@pid": "a/TomasAkenineMoller"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hvei/DenesAFM19",
-        "title": "A visual model for predicting chromatic banding artifacts.",
-        "year": "2019",
-        "booktitle": "HVEI",
-        "ee": "https://doi.org/10.2352/ISSN.2470-1173.2019.12.HVEI-212",
-        "url": "db/conf/hvei/hvei2019.html#DenesAFM19",
-        "authors": [
-          "Gyorgy Denes",
-          "George Ash",
-          "Huameng Fang",
-          "Rafal K. Mantiuk"
-        ]
+        "inproceedings": {
+          "@key": "conf/hvei/DenesAFM19",
+          "title": "A visual model for predicting chromatic banding artifacts",
+          "booktitle": "HVEI",
+          "year": "2019",
+          "ee": "https://doi.org/10.2352/ISSN.2470-1173.2019.12.HVEI-212",
+          "author": [
+            {
+              "#text": "George Ash",
+              "@pid": "240/7072"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Huameng Fang",
+              "@pid": "210/2900"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/hvei/DenesM20",
-        "title": "Predicting visible flicker in temporally changing images.",
-        "year": "2020",
-        "booktitle": "HVEI",
-        "ee": "https://doi.org/10.2352/ISSN.2470-1173.2020.11.HVEI-233",
-        "url": "db/conf/hvei/hvei2020.html#DenesM20",
-        "authors": [
-          "Gyorgy Denes",
-          "Rafal K. Mantiuk"
-        ]
+        "inproceedings": {
+          "@key": "conf/hvei/DenesM20",
+          "title": "Predicting visible flicker in temporally changing images",
+          "booktitle": "HVEI",
+          "year": "2020",
+          "ee": "https://doi.org/10.2352/ISSN.2470-1173.2020.11.HVEI-233",
+          "author": [
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eurographics/EbelinCDOAA23",
-        "title": "Luminance-Preserving and Temporally Stable Daltonization.",
-        "pages": "45-48",
-        "year": "2023",
-        "booktitle": "Eurographics (Short Papers)",
-        "ee": "https://doi.org/10.2312/egs.20231011",
-        "url": "db/conf/eurographics/eg-short2023.html#EbelinCDOAA23",
-        "authors": [
-          "Pontus Ebelin",
-          "Cyril Crassin",
-          "Gyorgy Denes",
-          "Magnus Oskarsson",
-          "Kalle ÃstrÃ¶m",
-          "Tomas Akenine-MÃ¶ller"
-        ]
+        "inproceedings": {
+          "@key": "conf/siggraph/DenesMM18",
+          "title": "Exploiting the limitations of spatio-temporal vision for more efficient VR rendering",
+          "booktitle": "SIGGRAPH Posters",
+          "year": "2018",
+          "pages": "21:1-21:2",
+          "ee": "https://doi.org/10.1145/3230744.3230760",
+          "author": [
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Kuba Maruszczyk",
+              "@pid": "224/6039"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/computers/JamilD24",
-        "title": "Investigating Color-Blind User-Interface Accessibility via Simulated Interfaces.",
-        "pages": "53",
-        "year": "2024",
-        "volume": "13",
-        "journal": "Comput.",
-        "number": "2",
-        "ee": "https://doi.org/10.3390/computers13020053",
-        "url": "db/journals/computers/computers13.html#JamilD24",
-        "authors": [
-          "Amaan Jamil",
-          "Gyorgy Denes"
-        ]
+        "article": {
+          "@key": "journals/caeai/Denes23",
+          "title": "A case study of using AI for General Certificate of Secondary Education (GCSE) grade prediction in a selective independent school in England",
+          "journal": "Comput. Educ. Artif. Intell.",
+          "year": "2023",
+          "pages": "100129",
+          "ee": "https://doi.org/10.1016/J.CAEAI.2023.100129",
+          "author": {
+            "#text": "Gyorgy Denes",
+            "@pid": "207/7786"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tap/EbelinDAAOM24",
-        "title": "Estimates of Temporal Edge Detection Filters in Human Vision.",
-        "pages": "7",
-        "year": "2024",
-        "volume": "21",
-        "journal": "ACM Trans. Appl. Percept.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q130809560",
-        "url": "db/journals/tap/tap21.html#EbelinDAAOM24",
-        "authors": [
-          "Pontus Ebelin",
-          "Gyorgy Denes",
-          "Tomas Akenine-MÃ¶ller",
-          "Kalle ÃstrÃ¶m",
-          "Magnus Oskarsson",
-          "William McIlhagga"
-        ]
+        "article": {
+          "@key": "journals/computers/JamilD24",
+          "title": "Investigating Color-Blind User-Interface Accessibility via Simulated Interfaces",
+          "journal": "Comput.",
+          "year": "2024",
+          "pages": "53",
+          "ee": "https://doi.org/10.3390/COMPUTERS13020053",
+          "author": [
+            {
+              "#text": "Amaan Jamil",
+              "@pid": "367/3258"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/caeai/Denes23",
-        "title": "A case study of using AI for General Certificate of Secondary Education (GCSE) grade prediction in a selective independent school in England.",
-        "pages": "100129",
-        "year": "2023",
-        "volume": "4",
-        "journal": "Comput. Educ. Artif. Intell.",
-        "ee": "https://doi.org/10.1016/j.caeai.2023.100129",
-        "url": "db/journals/caeai/caeai4.html#Denes23",
-        "authors": [
-          "Gyorgy Denes"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1710-07480",
+          "title": "HDR image reconstruction from a single exposure using deep CNNs",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1710.07480",
+          "author": [
+            {
+              "#text": "Gabriel Eilertsen",
+              "@pid": "132/5557"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Joel Kronander",
+              "@pid": "26/8698"
+            },
+            {
+              "#text": "Jonas Unger",
+              "@pid": "44/3986"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tog/MantiukDCKRBLP21",
-        "title": "FovVideoVDP: a visible difference predictor for wide field-of-view video.",
-        "pages": "49:1-49:19",
-        "year": "2021",
-        "volume": "40",
-        "journal": "ACM Trans. Graph.",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3450626.3459831",
-        "url": "db/journals/tog/tog40.html#MantiukDCKRBLP21",
-        "authors": [
-          "Rafal K. Mantiuk",
-          "Gyorgy Denes",
-          "Alexandre Chapiro",
-          "Anton Kaplanyan",
-          "Gizem Rufo",
-          "Romain Bachy",
-          "Trisha Lian",
-          "Anjul Patney"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2303-16776",
+          "title": "Supervised Learning for Table Tennis Match Prediction",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2303.16776",
+          "author": [
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Sophie Chiang",
+              "@pid": "344/2028"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tog/EilertsenKDMU17",
-        "title": "HDR image reconstruction from a single exposure using deep CNNs.",
-        "pages": "178:1-178:15",
-        "year": "2017",
-        "volume": "36",
-        "journal": "ACM Trans. Graph.",
-        "number": "6",
-        "ee": "https://www.wikidata.org/entity/Q130975111",
-        "url": "db/journals/tog/tog36.html#EilertsenKDMU17",
-        "authors": [
-          "Gabriel Eilertsen",
-          "Joel Kronander",
-          "Gyorgy Denes",
-          "Rafal K. Mantiuk",
-          "Jonas Unger"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2401-10357",
+          "title": "Measuring User Interface Accessibility for Color Blind Users",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2401.10357",
+          "author": [
+            {
+              "#text": "Amaan Jamil",
+              "@pid": "367/3258"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tog/DenesJMM20",
-        "title": "A perceptual model of motion quality for rendering with adaptive refresh-rate and resolution.",
-        "pages": "133",
-        "year": "2020",
-        "volume": "39",
-        "journal": "ACM Trans. Graph.",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3386569.3392411",
-        "url": "db/journals/tog/tog39.html#DenesJMM20",
-        "authors": [
-          "Gyorgy Denes",
-          "Akshay Jindal",
-          "Aliaksei Mikhailiuk",
-          "Rafal K. Mantiuk"
-        ]
+        "article": {
+          "@key": "journals/tap/EbelinDAAOM24",
+          "title": "Estimates of Temporal Edge Detection Filters in Human Vision",
+          "journal": "ACM Trans. Appl. Percept.",
+          "year": "2024",
+          "pages": "7",
+          "ee": "https://doi.org/10.1145/3639052",
+          "author": [
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Kalle Åström",
+              "@pid": "45/2097"
+            },
+            {
+              "#text": "Magnus Oskarsson",
+              "@pid": "43/2905"
+            },
+            {
+              "#text": "Pontus Ebelin",
+              "@pid": "348/6446"
+            },
+            {
+              "#text": "Tomas Akenine-Möller",
+              "@pid": "a/TomasAkenineMoller"
+            },
+            {
+              "#text": "William McIlhagga",
+              "@pid": "87/9115"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tvcg/DenesMAM19",
-        "title": "Temporal Resolution Multiplexing: Exploiting the limitations of spatio-temporal vision for more efficient VR rendering.",
-        "pages": "2072-2082",
-        "year": "2019",
-        "volume": "25",
-        "journal": "IEEE Trans. Vis. Comput. Graph.",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q91828421",
-        "url": "db/journals/tvcg/tvcg25.html#DenesMAM19",
-        "authors": [
-          "Gyorgy Denes",
-          "Kuba Maruszczyk",
-          "George Ash",
-          "Rafal K. Mantiuk"
-        ]
+        "article": {
+          "@key": "journals/tog/DenesJMM20",
+          "title": "A perceptual model of motion quality for rendering with adaptive refresh-rate and resolution",
+          "journal": "ACM Trans. Graph.",
+          "year": "2020",
+          "pages": "133",
+          "ee": "https://doi.org/10.1145/3386569.3392411",
+          "author": [
+            {
+              "#text": "Akshay Jindal",
+              "@pid": "199/6867"
+            },
+            {
+              "#text": "Aliaksei Mikhailiuk",
+              "@pid": "226/6935"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2303-16776",
-        "title": "Supervised Learning for Table Tennis Match Prediction.",
-        "year": "2023",
-        "volume": "abs/2303.16776",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2303.16776",
-        "url": "db/journals/corr/corr2303.html#abs-2303-16776",
-        "authors": [
-          "Sophie Chiang",
-          "Gyorgy Denes"
-        ]
+        "article": {
+          "@key": "journals/tog/EilertsenKDMU17",
+          "title": "HDR image reconstruction from a single exposure using deep CNNs",
+          "journal": "ACM Trans. Graph.",
+          "year": "2017",
+          "pages": "178:1-178:15",
+          "ee": "https://doi.org/10.1145/3130800.3130816",
+          "author": [
+            {
+              "#text": "Gabriel Eilertsen",
+              "@pid": "132/5557"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Joel Kronander",
+              "@pid": "26/8698"
+            },
+            {
+              "#text": "Jonas Unger",
+              "@pid": "44/3986"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2401-10357",
-        "title": "Measuring User Interface Accessibility for Color Blind Users.",
-        "year": "2024",
-        "volume": "abs/2401.10357",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2401.10357",
-        "url": "db/journals/corr/corr2401.html#abs-2401-10357",
-        "authors": [
-          "Amaan Jamil",
-          "Gyorgy Denes"
-        ]
+        "article": {
+          "@key": "journals/tog/MantiukDCKRBLP21",
+          "title": "FovVideoVDP: a visible difference predictor for wide field-of-view video",
+          "journal": "ACM Trans. Graph.",
+          "year": "2021",
+          "pages": "49:1-49:19",
+          "ee": "https://doi.org/10.1145/3450626.3459831",
+          "author": [
+            {
+              "#text": "Alexandre Chapiro",
+              "@pid": "58/3419"
+            },
+            {
+              "#text": "Anjul Patney",
+              "@pid": "60/6580"
+            },
+            {
+              "#text": "Anton Kaplanyan",
+              "@pid": "18/7866"
+            },
+            {
+              "#text": "Gizem Rufo",
+              "@pid": "246/4231"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            },
+            {
+              "#text": "Romain Bachy",
+              "@pid": "299/1181"
+            },
+            {
+              "#text": "Trisha Lian",
+              "@pid": "215/7017"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1710-07480",
-        "title": "HDR image reconstruction from a single exposure using deep CNNs.",
-        "year": "2017",
-        "volume": "abs/1710.07480",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1710.07480",
-        "url": "db/journals/corr/corr1710.html#abs-1710-07480",
-        "authors": [
-          "Gabriel Eilertsen",
-          "Joel Kronander",
-          "Gyorgy Denes",
-          "Rafal K. Mantiuk",
-          "Jonas Unger"
-        ]
+        "article": {
+          "@key": "journals/tvcg/DenesMAM19",
+          "title": "Temporal Resolution Multiplexing: Exploiting the limitations of spatio-temporal vision for more efficient VR rendering",
+          "journal": "IEEE Trans. Vis. Comput. Graph.",
+          "year": "2019",
+          "pages": "2072-2082",
+          "ee": "https://doi.org/10.1109/TVCG.2019.2898741",
+          "author": [
+            {
+              "#text": "George Ash",
+              "@pid": "240/7072"
+            },
+            {
+              "#text": "Gyorgy Denes",
+              "@pid": "207/7786"
+            },
+            {
+              "#text": "Kuba Maruszczyk",
+              "@pid": "224/6039"
+            },
+            {
+              "#text": "Rafal Mantiuk",
+              "@pid": "41/1369"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/ethos/Denes20",
+          "title": "Perceptual models for high-refresh-rate rendering",
+          "journal": "",
+          "year": "2020",
+          "ee": "https://doi.org/10.17863/CAM.54006",
+          "author": {
+            "#text": "Gyorgy Denes",
+            "@pid": "207/7786"
+          }
+        }
       }
     ]
   }

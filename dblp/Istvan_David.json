@@ -1,992 +1,1950 @@
 {
   "dblpperson": {
+    "@name": "István Dávid",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ict4s/ShajariD25",
-        "title": "Bridging the Silos of Digitalization and Sustainability by Twin Transition: A Multivocal Literature Review.",
-        "pages": "23-34",
-        "year": "2025",
-        "booktitle": "ICT4S",
-        "ee": "https://doi.org/10.1109/ICT4S68164.2025.00012",
-        "url": "db/conf/ict4s/ict4s2025.html#ShajariD25",
-        "authors": [
-          "Baran Shajari",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/annsim/DavidS22",
+          "title": "Devs Model Construction As A Reinforcement Learning Problem",
+          "booktitle": "ANNSIM",
+          "year": "2022",
+          "pages": "30-41",
+          "ee": "https://doi.org/10.23919/ANNSIM55834.2022.9859369",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/bpmds/DavidSS23",
-        "title": "Opportunities in Robotic Process Automation by and for Model-Driven Software Engineering.",
-        "pages": "285-293",
-        "year": "2023",
-        "booktitle": "BPMDS/EMMSAD@CAiSE",
-        "ee": "https://doi.org/10.1007/978-3-031-34241-7_20",
-        "url": "db/conf/bpmds/bpmds2023.html#DavidSS23",
-        "authors": [
-          "Istvan David",
-          "Vasco Sousa",
-          "Eugene Syriani"
-        ]
+        "inproceedings": {
+          "@key": "conf/bpmds/DavidSS23",
+          "title": "Opportunities in Robotic Process Automation by and for Model-Driven Software Engineering",
+          "booktitle": "BPMDS/EMMSAD@CAiSE",
+          "year": "2023",
+          "pages": "285-293",
+          "ee": "https://doi.org/10.1007/978-3-031-34241-7_20",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Vasco Sousa",
+              "@pid": "78/9170"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isola/DavidSGTZ24",
-        "title": "Interoperability of Digital Twins: Challenges, Success Factors, and Future Research Directions.",
-        "pages": "27-46",
-        "year": "2024",
-        "booktitle": "ISoLA (5)",
-        "ee": "https://doi.org/10.1007/978-3-031-75390-9_3",
-        "url": "db/conf/isola/isola2024-5.html#DavidSGTZ24",
-        "authors": [
-          "Istvan David",
-          "Guodong Shao",
-          "ClÃ¡udio Gomes 0001",
-          "Dawn M. Tilbury",
-          "Bassam Zarkout"
-        ]
+        "inproceedings": {
+          "@key": "conf/caise/DavidB24",
+          "title": "Infonomics of Autonomous Digital Twins",
+          "booktitle": "CAiSE",
+          "year": "2024",
+          "pages": "563-578",
+          "ee": "https://doi.org/10.1007/978-3-031-61057-8_33",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse/David25",
-        "title": "SusDevOps: Promoting Sustainability to a First Principle in Software Delivery.",
-        "pages": "106-110",
-        "year": "2025",
-        "booktitle": "NIER@ICSE",
-        "ee": "https://doi.org/10.1109/ICSE-NIER66352.2025.00027",
-        "url": "db/conf/icse/nier2025.html#David25",
-        "authors": [
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/cpsweek/VanherpenDDMMTQ16",
+          "title": "Ontological reasoning for consistency in the design of cyber-physical systems",
+          "booktitle": "CPPS@CPSWeek",
+          "year": "2016",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/CPPS.2016.7483922",
+          "author": [
+            {
+              "#text": "Ahsan Qamar",
+              "@pid": "137/2978"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            },
+            {
+              "#text": "Ken Vanherpen",
+              "@pid": "160/4324"
+            },
+            {
+              "#text": "Martin Törngren",
+              "@pid": "95/1411"
+            },
+            {
+              "#text": "Paul De Meulenaere",
+              "@pid": "94/10403"
+            },
+            {
+              "#text": "Pieter J. Mosterman",
+              "@pid": "78/1737"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wsc/GiabbanelliBDT25",
-        "title": "From Over-Reliance to Smart Integration: Using Large-Language Models as Translators Between Specialized Modeling and Simulation Tools.",
-        "pages": "1119-1130",
-        "year": "2025",
-        "booktitle": "WSC",
-        "ee": "https://doi.org/10.1109/WSC68292.2025.11338852",
-        "url": "db/conf/wsc/wsc2025.html#GiabbanelliBDT25",
-        "authors": [
-          "Philippe J. Giabbanelli",
-          "John Beverley",
-          "Istvan David",
-          "Andreas Tolk"
-        ]
+        "inproceedings": {
+          "@key": "conf/fedcsis/DavidSM22",
+          "title": "Extensible Conflict-Free Replicated Datatypes for Real-time Collaborative Software Engineering",
+          "booktitle": "FedCSIS",
+          "year": "2022",
+          "pages": "849-853",
+          "ee": "https://doi.org/10.15439/2022F99",
+          "author": [
+            {
+              "#text": "Constantin Masson",
+              "@pid": "211/0940"
+            },
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigsoft/ShajariLDD26",
-        "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction.",
-        "pages": "1851-1860",
-        "year": "2026",
-        "booktitle": "SIGSOFT FSE Companion",
-        "ee": "https://doi.org/10.1145/3803437.3806712",
-        "url": "db/conf/sigsoft/fse2026c.html#ShajariLDD26",
-        "authors": [
-          "Baran Shajari",
-          "Xiaoran Liu",
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/icmt/BergmannDHHRUV15",
+          "title": "Viatra 3: A Reactive Model Transformation Platform",
+          "booktitle": "ICMT",
+          "year": "2015",
+          "pages": "101-110",
+          "ee": "https://doi.org/10.1007/978-3-319-21155-8_8",
+          "author": [
+            {
+              "#text": "Ábel Hegedüs",
+              "@pid": "05/9522"
+            },
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Bergmann",
+              "@pid": "76/4726"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Zoltán Ujhelyi",
+              "@pid": "93/8528"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/annsim/DavidS22",
-        "title": "Devs Model Construction As A Reinforcement Learning Problem.",
-        "pages": "30-41",
-        "year": "2022",
-        "booktitle": "ANNSIM",
-        "ee": "https://doi.org/10.23919/ANNSIM55834.2022.9859369",
-        "url": "db/conf/annsim/annsim2022.html#DavidS22",
-        "authors": [
-          "Istvan David",
-          "Eugene Syriani"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsa/LiuD26",
+          "title": "A Reference Architecture of Reinforcement Learning Frameworks",
+          "booktitle": "ICSA",
+          "year": "2026",
+          "pages": "98-109",
+          "ee": "https://doi.org/10.1109/ICSA66085.2026.00016",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/LiuD26",
-        "title": "A Model-Driven Approach for Developing Families of Reinforcement Learning Environments.",
-        "pages": "327-338",
-        "year": "2026",
-        "booktitle": "MODELS",
-        "ee": "https://doi.org/10.1145/3822455.3830332",
-        "url": "db/conf/models/models2026.html#LiuD26",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse/David25",
+          "title": "SusDevOps: Promoting Sustainability to a First Principle in Software Delivery",
+          "booktitle": "NIER@ICSE",
+          "year": "2025",
+          "pages": "106-110",
+          "ee": "https://doi.org/10.1109/ICSE-NIER66352.2025.00027",
+          "author": {
+            "#text": "Istvan David",
+            "@pid": "151/1378"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidAS23",
-        "title": "2nd International Hands-On Workshop on Collaborative Modeling (HoWCoM 2023).",
-        "pages": "765-766",
-        "year": "2023",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00123",
-        "url": "db/conf/models/models2023c.html#DavidAS23",
-        "authors": [
-          "Istvan David",
-          "Antonio GarcÃ­a-DomÃ­nguez",
-          "Eugene Syriani"
-        ]
+        "inproceedings": {
+          "@key": "conf/ict4s/ShajariD25",
+          "title": "Bridging the Silos of Digitalization and Sustainability by Twin Transition: A Multivocal Literature Review",
+          "booktitle": "ICT4S",
+          "year": "2025",
+          "pages": "23-34",
+          "ee": "https://doi.org/10.1109/ICT4S68164.2025.00012",
+          "author": [
+            {
+              "#text": "Baran Shajari",
+              "@pid": "404/5460"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/MijalkovicODM25",
-        "title": "Towards Ontology-Driven User Experience Assessment of Collaborative Modeling Tools.",
-        "pages": "522-531",
-        "year": "2025",
-        "booktitle": "MODELS-C",
-        "ee": "https://doi.org/10.1109/MODELS-C68889.2025.00075",
-        "url": "db/conf/models/models2025c.html#MijalkovicODM25",
-        "authors": [
-          "Marko Mijalkovic",
-          "Vicheka Oeun",
-          "Istvan David",
-          "Sadaf Mustafiz"
-        ]
+        "inproceedings": {
+          "@key": "conf/isola/DavidSGTZ24",
+          "title": "Interoperability of Digital Twins: Challenges, Success Factors, and Future Research Directions",
+          "booktitle": "ISoLA (5)",
+          "year": "2025",
+          "pages": "27-46",
+          "ee": "https://doi.org/10.1007/978-3-031-75390-9_3",
+          "author": [
+            {
+              "#text": "Bassam Zarkout",
+              "@pid": "389/7263"
+            },
+            {
+              "#text": "Cláudio Gomes",
+              "@pid": "96/7136"
+            },
+            {
+              "#text": "Dawn M. Tilbury",
+              "@pid": "t/DawnMTilbury"
+            },
+            {
+              "#text": "Guodong Shao",
+              "@pid": "50/3012"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/IovinoDK23",
-        "title": "17th International Workshop on Models and Evolution Special Theme: Sustainability (ME 2023).",
-        "pages": "911-913",
-        "year": "2023",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00143",
-        "url": "db/conf/models/models2023c.html#IovinoDK23",
-        "authors": [
-          "Ludovico Iovino",
-          "Istvan David",
-          "Djamel Eddine Khelladi"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DagenaisD24",
+          "title": "Driving Requirements Evolution by Engineers' Opinions",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2024",
+          "pages": "920-929",
+          "ee": "https://doi.org/10.1145/3652620.3688566",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidB23",
-        "title": "Towards a Taxonomy of Digital Twin Evolution for Technical Sustainability.",
-        "pages": "934-938",
-        "year": "2023",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00147",
-        "url": "db/conf/models/models2023c.html#DavidB23",
-        "authors": [
-          "Istvan David",
-          "Dominik Bork"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DagenaisD25",
+          "title": "Complex Model Transformations by Reinforcement Learning with Uncertain Human Guidance",
+          "booktitle": "MODELS",
+          "year": "2025",
+          "pages": "209-220",
+          "ee": "https://doi.org/10.1109/MODELS67397.2025.00025",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/MichaelDB24",
-        "title": "Digital Twin Evolution for Sustainable Smart Ecosystems.",
-        "pages": "1061-1065",
-        "year": "2024",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1145/3652620.3688343",
-        "url": "db/conf/models/models2024c.html#MichaelDB24",
-        "authors": [
-          "Judith Michael",
-          "Istvan David",
-          "Dominik Bork"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/David16",
+          "title": "A Multi-Paradigm Modeling Foundation for Collaborative Multi-view Model/System Development",
+          "booktitle": "SRC@MoDELS",
+          "year": "2017",
+          "author": {
+            "#text": "Istvan David",
+            "@pid": "151/1378"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidAFMSL21",
-        "title": "Collaborative Model-Driven Software Engineering: A Systematic Update.",
-        "pages": "273-284",
-        "year": "2021",
-        "booktitle": "MoDELS",
-        "ee": "https://doi.org/10.1109/MODELS50736.2021.00035",
-        "url": "db/conf/models/models2021.html#DavidAFMSL21",
-        "authors": [
-          "Istvan David",
-          "Kousar Aslam",
-          "Sogol Faridmoayer",
-          "Ivano Malavolta",
-          "Eugene Syriani",
-          "Patricia Lago"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidAFMSL21",
+          "title": "Collaborative Model-Driven Software Engineering: A Systematic Update",
+          "booktitle": "MoDELS",
+          "year": "2021",
+          "pages": "273-284",
+          "ee": "https://doi.org/10.1109/MODELS50736.2021.00035",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ivano Malavolta",
+              "@pid": "35/1083"
+            },
+            {
+              "#text": "Kousar Aslam",
+              "@pid": "229/9030"
+            },
+            {
+              "#text": "Patricia Lago",
+              "@pid": "40/5357"
+            },
+            {
+              "#text": "Sogol Faridmoayer",
+              "@pid": "306/5587"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/ZechD26",
-        "title": "Model-Driven Data Contracts for Digital Twin Services.",
-        "pages": "407-413",
-        "year": "2026",
-        "booktitle": "MODELS",
-        "ee": "https://doi.org/10.1145/3822455.3838769",
-        "url": "db/conf/models/models2026.html#ZechD26",
-        "authors": [
-          "Philipp Zech",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidAS23",
+          "title": "2nd International Hands-On Workshop on Collaborative Modeling (HoWCoM 2023)",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2023",
+          "pages": "765-766",
+          "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00123",
+          "author": [
+            {
+              "#text": "Antonio García-Domínguez",
+              "@pid": "67/3580"
+            },
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/LiuD24",
-        "title": "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework.",
-        "pages": "401-412",
-        "year": "2024",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://www.wikidata.org/entity/Q130968172",
-        "url": "db/conf/models/models2024c.html#LiuD24",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidAWVLRSS23",
+          "title": "Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned",
+          "booktitle": "MODELS",
+          "year": "2023",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1109/MODELS58315.2023.00014",
+          "author": [
+            {
+              "#text": "Cong Vinh Vu",
+              "@pid": "364/4281"
+            },
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Houari Sahraoui",
+              "@pid": "s/HouariASahraoui"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kashif Riaz",
+              "@pid": "46/7018"
+            },
+            {
+              "#text": "Pascal Archambault",
+              "@pid": "364/4290"
+            },
+            {
+              "#text": "Quentin Wolak",
+              "@pid": "364/4288"
+            },
+            {
+              "#text": "Timothé Lalonde",
+              "@pid": "364/4282"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidSG21",
-        "title": "Preface to the 1st International Hands-on Workshop on Collaborative Modeling (HoWCoM 2021).",
-        "pages": "1-2",
-        "year": "2021",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00001",
-        "url": "db/conf/models/models2021c.html#DavidSG21",
-        "authors": [
-          "Istvan David",
-          "Eugene Syriani",
-          "Antonio GarcÃ­a-DomÃ­nguez"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidB23",
+          "title": "Towards a Taxonomy of Digital Twin Evolution for Technical Sustainability",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2023",
+          "pages": "934-938",
+          "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00147",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DagenaisD24",
-        "title": "Driving Requirements Evolution by Engineers' Opinions.",
-        "pages": "920-929",
-        "year": "2024",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1145/3652620.3688566",
-        "url": "db/conf/models/models2024c.html#DagenaisD24",
-        "authors": [
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidDGV16",
+          "title": "Engineering Process Transformation to Manage (In)consistency",
+          "booktitle": "COMMitMDE@MoDELS",
+          "year": "2016",
+          "pages": "7-16",
+          "author": [
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            },
+            {
+              "#text": "Klaas Gadeyne",
+              "@pid": "56/2239"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/RamdhanTDPL25",
-        "title": "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study.",
-        "pages": "174-180",
-        "year": "2025",
-        "booktitle": "MODELS-C",
-        "ee": "https://doi.org/10.1109/MODELS-C68889.2025.00034",
-        "url": "db/conf/models/models2025c.html#RamdhanTDPL25",
-        "authors": [
-          "Stefan Ramdhan",
-          "Winnie Trandinh",
-          "Istvan David",
-          "Vera Pantelic",
-          "Mark Lawford"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidDV15",
+          "title": "Towards Inconsistency Management by Process-Oriented Dependency Modeling",
+          "booktitle": "GEMOC+MPM@MoDELS",
+          "year": "2015",
+          "pages": "32-41",
+          "author": [
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidAWVLRSS23",
-        "title": "Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned.",
-        "pages": "1-12",
-        "year": "2023",
-        "booktitle": "MODELS",
-        "ee": "https://doi.org/10.1109/MODELS58315.2023.00014",
-        "url": "db/conf/models/models2023.html#DavidAWVLRSS23",
-        "authors": [
-          "Istvan David",
-          "Pascal Archambault",
-          "Quentin Wolak",
-          "Cong Vinh Vu",
-          "TimothÃ© Lalonde",
-          "Kashif Riaz",
-          "Eugene Syriani",
-          "Houari A. Sahraoui"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidGS21",
+          "title": "Inference of Simulation Models in Digital Twins by Reinforcement Learning",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2021",
+          "pages": "221-224",
+          "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00038",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Jessie Galasso",
+              "@pid": "167/4978"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidGS21",
-        "title": "Inference of Simulation Models in Digital Twins by Reinforcement Learning.",
-        "pages": "221-224",
-        "year": "2021",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00038",
-        "url": "db/conf/models/models2021c.html#DavidGS21",
-        "authors": [
-          "Istvan David",
-          "Jessie Galasso",
-          "Eugene Syriani"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidMVTBV17",
+          "title": "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes",
+          "booktitle": "MoDELS (Satellite Events)",
+          "year": "2017",
+          "pages": "145-154",
+          "author": [
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ken Vanherpen",
+              "@pid": "160/4324"
+            },
+            {
+              "#text": "Kristof Berx",
+              "@pid": "150/1360"
+            },
+            {
+              "#text": "Yentl Van Tendeloo",
+              "@pid": "139/8310"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/KaradumanDC21",
-        "title": "Modeling the Engineering Process of an Agent-based Production System: An Exemplar Study.",
-        "pages": "296-305",
-        "year": "2021",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00051",
-        "url": "db/conf/models/models2021c.html#KaradumanDC21",
-        "authors": [
-          "Burak Karaduman",
-          "Istvan David",
-          "Moharram Challenger"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidRV14",
+          "title": "Streaming Model Transformations By Complex Event Processing",
+          "booktitle": "MoDELS",
+          "year": "2014",
+          "pages": "68-83",
+          "ee": "https://doi.org/10.1007/978-3-319-11653-2_5",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/DagenaisD25",
-        "title": "Complex Model Transformations by Reinforcement Learning with Uncertain Human Guidance.",
-        "pages": "209-220",
-        "year": "2025",
-        "booktitle": "MODELS",
-        "ee": "https://doi.org/10.1109/MODELS67397.2025.00025",
-        "url": "db/conf/models/models2025.html#DagenaisD25",
-        "authors": [
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidSG21",
+          "title": "Preface to the 1st International Hands-on Workshop on Collaborative Modeling (HoWCoM 2021)",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2021",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00001",
+          "author": [
+            {
+              "#text": "Antonio García-Domínguez",
+              "@pid": "67/3580"
+            },
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/models/ManellangaD24",
-        "title": "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review.",
-        "pages": "645-654",
-        "year": "2024",
-        "booktitle": "MoDELS (Companion)",
-        "ee": "https://doi.org/10.1145/3652620.3688557",
-        "url": "db/conf/models/models2024c.html#ManellangaD24",
-        "authors": [
-          "Rajitha Manellanga",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidSVBBCV16",
+          "title": "Towards Inconsistency Tolerance by Quantification of Semantic Inconsistencies",
+          "booktitle": "COMMitMDE@MoDELS",
+          "year": "2016",
+          "pages": "35-44",
+          "author": [
+            {
+              "#text": "Antonio Cicchetti",
+              "@pid": "28/2455"
+            },
+            {
+              "#text": "Clark Verbrugge",
+              "@pid": "v/ClarkVerbrugge"
+            },
+            {
+              "#text": "Didier Buchs",
+              "@pid": "22/2483"
+            },
+            {
+              "#text": "Dominique Blouin",
+              "@pid": "08/8271"
+            },
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ken Vanherpen",
+              "@pid": "160/4324"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fedcsis/DavidSM22",
-        "title": "Extensible Conflict-Free Replicated Datatypes for Real-time Collaborative Software Engineering.",
-        "pages": "849-853",
-        "year": "2022",
-        "booktitle": "FedCSIS",
-        "ee": "https://doi.org/10.15439/2022F99",
-        "url": "db/conf/fedcsis/fedcsis2022.html#DavidSM22",
-        "authors": [
-          "Istvan David",
-          "Eugene Syriani",
-          "Constantin Masson"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/IovinoDK23",
+          "title": "17th International Workshop on Models and Evolution Special Theme: Sustainability (ME 2023)",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2023",
+          "pages": "911-913",
+          "ee": "https://doi.org/10.1109/MODELS-C59198.2023.00143",
+          "author": [
+            {
+              "#text": "Djamel Eddine Khelladi",
+              "@pid": "163/0131"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ludovico Iovino",
+              "@pid": "72/11439"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/caise/DavidB24",
-        "title": "Infonomics of Autonomous Digital Twins.",
-        "pages": "563-578",
-        "year": "2024",
-        "booktitle": "CAiSE",
-        "ee": "https://doi.org/10.1007/978-3-031-61057-8_33",
-        "url": "db/conf/caise/caise2024.html#DavidB24",
-        "authors": [
-          "Istvan David",
-          "Dominik Bork"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/KaradumanDC21",
+          "title": "Modeling the Engineering Process of an Agent-based Production System: An Exemplar Study",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2021",
+          "pages": "296-305",
+          "ee": "https://doi.org/10.1109/MODELS-C53483.2021.00051",
+          "author": [
+            {
+              "#text": "Burak Karaduman",
+              "@pid": "245/9246"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Moharram Challenger",
+              "@pid": "19/5082"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/modelsward/OakesPMDMDDMV22",
-        "title": "A Digital Twin Description Framework and Its Mapping to Asset Administration Shell.",
-        "pages": "1-24",
-        "year": "2022",
-        "booktitle": "MODELSWARD (Revised Selected Papers)",
-        "ee": "https://doi.org/10.1007/978-3-031-38821-7_1",
-        "url": "db/conf/modelsward/modelsward2022s.html#OakesPMDMDDMV22",
-        "authors": [
-          "Bentley Oakes",
-          "Ali Parsai",
-          "Bart Meyers",
-          "Istvan David",
-          "Simon Van Mierlo",
-          "Serge Demeyer",
-          "Joachim Denil",
-          "Paul De Meulenaere",
-          "Hans Vangheluwe"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/LiuD24",
+          "title": "AI Simulation by Digital Twins: Systematic Survey of the State of the Art and a Reference Framework",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2024",
+          "pages": "401-412",
+          "ee": "https://doi.org/10.1145/3652620.3688253",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icsa/LiuD26",
-        "title": "A Reference Architecture of Reinforcement Learning Frameworks.",
-        "booktitle": "ICSA",
-        "year": "2026",
-        "pages": "98-109",
-        "ee": "https://doi.org/10.1109/ICSA66085.2026.00016",
-        "url": "db/conf/icsa/icsa2026.html#LiuD26",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/LiuD26",
+          "title": "A Model-Driven Approach for Developing Families of Reinforcement Learning Environments",
+          "booktitle": "MODELS",
+          "year": "2026",
+          "pages": "327-338",
+          "ee": "https://doi.org/10.1145/3822455.3830332",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/LiuD26",
-        "title": "AI simulation by digital twins: systematic survey, reference framework, and mapping to a standardized architecture.",
-        "year": "2026",
-        "pages": "731-756",
-        "volume": "25",
-        "journal": "Softw. Syst. Model.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s10270-025-01306-0",
-        "url": "db/journals/sosym/sosym25.html#LiuD26",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/ManellangaD24",
+          "title": "Participatory and Collaborative Modeling of Sustainable Systems: A Systematic Review",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2024",
+          "pages": "645-654",
+          "ee": "https://doi.org/10.1145/3652620.3688557",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Rajitha Manellanga",
+              "@pid": "304/5948"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/DavidBB25",
-        "title": "Theme section on modeling and sustainability.",
-        "pages": "359",
-        "year": "2025",
-        "volume": "24",
-        "journal": "Softw. Syst. Model.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10270-025-01279-0",
-        "url": "db/journals/sosym/sosym24.html#DavidBB25",
-        "authors": [
-          "Istvan David",
-          "Ankica Barisic",
-          "Dominik Bork"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/MichaelDB24",
+          "title": "Digital Twin Evolution for Sustainable Smart Ecosystems",
+          "booktitle": "MoDELS (Companion)",
+          "year": "2024",
+          "pages": "1061-1065",
+          "ee": "https://doi.org/10.1145/3652620.3688343",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Judith Michael",
+              "@pid": "27/10220"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/DavidLPZCMRSH23",
-        "title": "Blended modeling in commercial and open-source model-driven software engineering tools: A systematic study.",
-        "pages": "415-447",
-        "year": "2023",
-        "volume": "22",
-        "journal": "Softw. Syst. Model.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q114389493",
-        "url": "db/journals/sosym/sosym22.html#DavidLPZCMRSH23",
-        "authors": [
-          "Istvan David",
-          "Malvina Latifaj",
-          "Jakob Pietron",
-          "Weixing Zhang",
-          "Federico Ciccozzi",
-          "Ivano Malavolta",
-          "Alexander Raschke",
-          "Jan-Philipp SteghÃ¶fer",
-          "Regina Hebig"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/MijalkovicODM25",
+          "title": "Towards Ontology-Driven User Experience Assessment of Collaborative Modeling Tools",
+          "booktitle": "MODELS-C",
+          "year": "2025",
+          "pages": "522-531",
+          "ee": "https://doi.org/10.1109/MODELS-C68889.2025.00075",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Marko Mijalkovic",
+              "@pid": "332/5914"
+            },
+            {
+              "#text": "Sadaf Mustafiz",
+              "@pid": "08/270"
+            },
+            {
+              "#text": "Vicheka Oeun",
+              "@pid": "425/6232"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/DavidBK24",
-        "title": "Circular systems engineering.",
-        "pages": "269-283",
-        "year": "2024",
-        "volume": "23",
-        "journal": "Softw. Syst. Model.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10270-024-01154-4",
-        "url": "db/journals/sosym/sosym23.html#DavidBK24",
-        "authors": [
-          "Istvan David",
-          "Dominik Bork",
-          "Gerti Kappel"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/RamdhanTDPL25",
+          "title": "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study",
+          "booktitle": "MODELS-C",
+          "year": "2025",
+          "pages": "174-180",
+          "ee": "https://doi.org/10.1109/MODELS-C68889.2025.00034",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Mark Lawford",
+              "@pid": "28/5160"
+            },
+            {
+              "#text": "Stefan Ramdhan",
+              "@pid": "369/4681"
+            },
+            {
+              "#text": "Vera Pantelic",
+              "@pid": "17/5966"
+            },
+            {
+              "#text": "Winnie Trandinh",
+              "@pid": "369/3745"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sosym/DavidS23",
-        "title": "Real-time collaborative multi-level modeling by conflict-free replicated data types.",
-        "pages": "1131-1150",
-        "year": "2023",
-        "volume": "22",
-        "journal": "Softw. Syst. Model.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s10270-022-01054-5",
-        "url": "db/journals/sosym/sosym22.html#DavidS23",
-        "authors": [
-          "Istvan David",
-          "Eugene Syriani"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/ZechD26",
+          "title": "Model-Driven Data Contracts for Digital Twin Services",
+          "booktitle": "MODELS",
+          "year": "2026",
+          "pages": "407-413",
+          "ee": "https://doi.org/10.1145/3822455.3838769",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Philipp Zech",
+              "@pid": "25/7853"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cais/BorkDEGPR24",
-        "title": "The Role of Modeling in the Analysis and Design of Sustainable Systems: A Panel Report.",
-        "pages": "41",
-        "year": "2024",
-        "volume": "54",
-        "journal": "Commun. Assoc. Inf. Syst.",
-        "ee": "https://aisel.aisnet.org/cais/vol54/iss1/41",
-        "url": "db/journals/cais/cais54.html#BorkDEGPR24",
-        "authors": [
-          "Dominik Bork",
-          "Istvan David",
-          "Sergio EspaÃ±a 0001",
-          "Giancarlo Guizzardi",
-          "Henderik A. Proper",
-          "Iris Reinhartz-Berger"
-        ]
+        "inproceedings": {
+          "@key": "conf/modelsward/OakesPMDMDDMV22",
+          "title": "A Digital Twin Description Framework and Its Mapping to Asset Administration Shell",
+          "booktitle": "MODELSWARD (Revised Selected Papers)",
+          "year": "2023",
+          "pages": "1-24",
+          "ee": "https://doi.org/10.1007/978-3-031-38821-7_1",
+          "author": [
+            {
+              "#text": "Ali Parsai",
+              "@pid": "155/2795"
+            },
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Bentley Oakes",
+              "@pid": "147/8495"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            },
+            {
+              "#text": "Paul De Meulenaere",
+              "@pid": "94/10403"
+            },
+            {
+              "#text": "Serge Demeyer",
+              "@pid": "d/SDemeyer"
+            },
+            {
+              "#text": "Simon Van Mierlo",
+              "@pid": "123/0834"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/software/MalavoltaGDRS22",
-        "title": "Engineering Mobile Apps for Disaster Management: The Case of COVID-19 Apps in the Google Play Store.",
-        "pages": "31-42",
-        "year": "2022",
-        "volume": "39",
-        "journal": "IEEE Softw.",
-        "number": "3",
-        "ee": "https://doi.org/10.1109/MS.2021.3129978",
-        "url": "db/journals/software/software39.html#MalavoltaGDRS22",
-        "authors": [
-          "Ivano Malavolta",
-          "Taher Ahmed Ghaleb",
-          "Istvan David",
-          "Jasper van Rooijen",
-          "MariÃ«lle Stoelinga"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigsoft/ShajariLDD26",
+          "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction",
+          "booktitle": "SIGSOFT FSE Companion",
+          "year": "2026",
+          "pages": "1851-1860",
+          "ee": "https://doi.org/10.1145/3803437.3806712",
+          "author": [
+            {
+              "#text": "Baran Shajari",
+              "@pid": "404/5460"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jss/DavidAML23",
-        "title": "Collaborative Model-Driven Software Engineering - A systematic survey of practices and needs in industry.",
-        "pages": "111626",
-        "year": "2023",
-        "volume": "199",
-        "journal": "J. Syst. Softw.",
-        "ee": "https://doi.org/10.1016/j.jss.2023.111626",
-        "url": "db/journals/jss/jss199.html#DavidAML23",
-        "authors": [
-          "Istvan David",
-          "Kousar Aslam",
-          "Ivano Malavolta",
-          "Patricia Lago"
-        ]
+        "inproceedings": {
+          "@key": "conf/sle/MeyersDDV16",
+          "title": "Automated testing support for reactive domain-specific modelling languages",
+          "booktitle": "SLE",
+          "year": "2016",
+          "pages": "181-194",
+          "author": [
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tosem/ChaabenBDS26",
-        "title": "On the Utility of Domain Modeling Assistance with Large Language Models.",
-        "year": "2026",
-        "pages": "112:1-112:38",
-        "volume": "35",
-        "journal": "ACM Trans. Softw. Eng. Methodol.",
-        "number": "4",
-        "ee": "https://doi.org/10.1145/3744920",
-        "url": "db/journals/tosem/tosem35.html#ChaabenBDS26",
-        "authors": [
-          "Meriem Ben Chaaben",
-          "Lola BurgueÃ±o",
-          "Istvan David",
-          "Houari A. Sahraoui"
-        ]
+        "inproceedings": {
+          "@key": "conf/springsim/MierloTDMGV18",
+          "title": "A multi-paradigm approach for modelling service interactions in model-driven engineering processes",
+          "booktitle": "SpringSim (Mod4Sim)",
+          "year": "2018",
+          "pages": "6:1-6:12",
+          "author": [
+            {
+              "#text": "Addis Gebremichael",
+              "@pid": "219/6468"
+            },
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Simon Van Mierlo",
+              "@pid": "123/0834"
+            },
+            {
+              "#text": "Yentl Van Tendeloo",
+              "@pid": "139/8310"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tse/KhanDVM23",
-        "title": "Code Cloning in Smart Contracts on the Ethereum Platform: An Extended Replication Study.",
-        "pages": "2006-2019",
-        "year": "2023",
-        "volume": "49",
-        "journal": "IEEE Trans. Software Eng.",
-        "number": "4",
-        "ee": "https://doi.org/10.1109/TSE.2022.3207428",
-        "url": "db/journals/tse/tse49.html#KhanDVM23",
-        "authors": [
-          "Faizan Khan",
-          "Istvan David",
-          "DÃ¡niel VarrÃ³",
-          "Shane McIntosh"
-        ]
+        "inproceedings": {
+          "@key": "conf/wsc/DavidVT18",
+          "title": "Translating Engineering Workflow Models to DEVS for Performance Evaluation",
+          "booktitle": "WSC",
+          "year": "2018",
+          "pages": "616-627",
+          "ee": "https://doi.org/10.1109/WSC.2018.8632470",
+          "author": [
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Yentl Van Tendeloo",
+              "@pid": "139/8310"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/simulation/DavidOGS25",
-        "title": "Modeling and simulation for software-intensive systems: from IoT to digital twins.",
-        "pages": "211-212",
-        "year": "2025",
-        "volume": "101",
-        "journal": "Simul.",
-        "number": "3",
-        "ee": "https://doi.org/10.1177/00375497251320110",
-        "url": "db/journals/simulation/simulation101.html#DavidOGS25",
-        "authors": [
-          "Istvan David",
-          "Bentley Oakes",
-          "ClÃ¡udio Gomes 0001",
-          "Guodong Shao"
-        ]
+        "inproceedings": {
+          "@key": "conf/wsc/GiabbanelliBDT25",
+          "title": "From Over-Reliance to Smart Integration: Using Large-Language Models as Translators Between Specialized Modeling and Simulation Tools",
+          "booktitle": "WSC",
+          "year": "2025",
+          "pages": "1119-1130",
+          "ee": "https://doi.org/10.1109/WSC68292.2025.11338852",
+          "author": [
+            {
+              "#text": "Andreas Tolk",
+              "@pid": "t/ATolk"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "John Beverley",
+              "@pid": "285/0752"
+            },
+            {
+              "#text": "Philippe J. Giabbanelli",
+              "@pid": "00/10687"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/vlc/SyrianiDK24",
-        "title": "Screening articles for systematic reviews with ChatGPT.",
-        "pages": "101287",
-        "year": "2024",
-        "volume": "80",
-        "journal": "J. Comput. Lang.",
-        "ee": "https://doi.org/10.1016/j.cola.2024.101287",
-        "url": "db/journals/vlc/vlc80.html#SyrianiDK24",
-        "authors": [
-          "Eugene Syriani",
-          "Istvan David",
-          "Gauransh Kumar"
-        ]
+        "article": {
+          "@key": "journals/cais/BorkDEGPR24",
+          "title": "The Role of Modeling in the Analysis and Design of Sustainable Systems: A Panel Report",
+          "journal": "Commun. Assoc. Inf. Syst.",
+          "year": "2024",
+          "pages": "41",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Giancarlo Guizzardi",
+              "@pid": "11/78"
+            },
+            {
+              "#text": "Henderik A. Proper",
+              "@pid": "p/ErikProper"
+            },
+            {
+              "#text": "Iris Reinhartz-Berger",
+              "@pid": "71/1374"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Sergio España",
+              "@pid": "16/2055"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/vlc/DavidVS23",
-        "title": "Model consistency as a heuristic for eventual correctness.",
-        "pages": "101223",
-        "year": "2023",
-        "volume": "76",
-        "journal": "J. Comput. Lang.",
-        "ee": "https://doi.org/10.1016/j.cola.2023.101223",
-        "url": "db/journals/vlc/vlc76.html#DavidVS23",
-        "authors": [
-          "Istvan David",
-          "Hans Vangheluwe",
-          "Eugene Syriani"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1204-2203",
+          "title": "A model-driven approach for processing complex events",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1204.2203",
+          "author": {
+            "#text": "Istvan David",
+            "@pid": "151/1378"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2602-14256",
-        "title": "Introduction to Digital Twins for the Smart Grid.",
-        "year": "2026",
-        "volume": "abs/2602.14256",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.14256",
-        "url": "db/journals/corr/corr2602.html#abs-2602-14256",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2205-11303",
+          "title": "Real-time Collaborative Multi-Level Modeling by Conflict-Free Replicated Data Types",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2205.11303",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2505-19916",
-        "title": "Systems of Twinned Systems: A Systematic Literature Review.",
-        "year": "2025",
-        "volume": "abs/2505.19916",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2505.19916",
-        "url": "db/journals/corr/corr2505.html#abs-2505-19916",
-        "authors": [
-          "Feyi Adesanya",
-          "Kanan Silva",
-          "Valdemar Vicente Graciano Neto",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2209-12661",
+          "title": "A Digital Twin Description Framework and its Mapping to Asset Administration Shell",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2209.12661",
+          "author": [
+            {
+              "#text": "Ali Parsai",
+              "@pid": "155/2795"
+            },
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Bentley Oakes",
+              "@pid": "147/8495"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Joachim Denil",
+              "@pid": "26/10404"
+            },
+            {
+              "#text": "Paul De Meulenaere",
+              "@pid": "94/10403"
+            },
+            {
+              "#text": "Serge Demeyer",
+              "@pid": "d/SDemeyer"
+            },
+            {
+              "#text": "Simon Van Mierlo",
+              "@pid": "123/0834"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2608-00366",
-        "title": "Artificial Intelligence and Modeling & Simulation: An Overview.",
-        "year": "2026",
-        "volume": "abs/2608.00366",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2608.00366",
-        "url": "db/journals/corr/corr2608.html#abs-2608-00366",
-        "authors": [
-          "Niclas Feldkamp",
-          "Philippe J. Giabbanelli",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2306-17808",
+          "title": "Circular Systems Engineering",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2306.17808",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Gerti Kappel",
+              "@pid": "k/GKappel"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2606-20324",
-        "title": "A Model-Driven Approach for Developing Families of Reinforcement Learning Environments.",
-        "year": "2026",
-        "volume": "abs/2606.20324",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2606.20324",
-        "url": "db/journals/corr/corr2606.html#abs-2606-20324",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2307-06464",
+          "title": "Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2307.06464",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Gauransh Kumar",
+              "@pid": "352/2603"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2307-06464",
-        "title": "Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews.",
-        "year": "2023",
-        "volume": "abs/2307.06464",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2307.06464",
-        "url": "db/journals/corr/corr2307.html#abs-2307-06464",
-        "authors": [
-          "Eugene Syriani",
-          "Istvan David",
-          "Gauransh Kumar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2312-14843",
+          "title": "SusDevOps: Promoting Sustainability to a First Principle in Software Engineering",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.14843",
+          "author": {
+            "#text": "Istvan David",
+            "@pid": "151/1378"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2403-07162",
-        "title": "Digital Twin Evolution for Sustainable Smart Ecosystems.",
-        "year": "2024",
-        "volume": "abs/2403.07162",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2403.07162",
-        "url": "db/journals/corr/corr2403.html#abs-2403-07162",
-        "authors": [
-          "Istvan David",
-          "Judith Michael",
-          "Dominik Bork"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2403-07162",
+          "title": "Digital Twin Evolution for Sustainable Smart Ecosystems",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2403.07162",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Judith Michael",
+              "@pid": "27/10220"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2602-15816",
-        "title": "Developing AI Agents with Simulated Data: Why, what, and how?",
-        "year": "2026",
-        "volume": "abs/2602.15816",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.15816",
-        "url": "db/journals/corr/corr2602.html#abs-2602-15816",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2405-17287",
+          "title": "Opinion-Guided Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2405.17287",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2405-17287",
-        "title": "Opinion-Guided Reinforcement Learning.",
-        "year": "2024",
-        "volume": "abs/2405.17287",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2405.17287",
-        "url": "db/journals/corr/corr2405.html#abs-2405-17287",
-        "authors": [
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2410-12577",
+          "title": "On the Utility of Domain Modeling Assistance with Large Language Models",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.12577",
+          "author": [
+            {
+              "#text": "Houari Sahraoui",
+              "@pid": "s/HouariASahraoui"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Loli Burgueño",
+              "@pid": "116/5369"
+            },
+            {
+              "#text": "Meriem Ben Chaaben",
+              "@pid": "336/2013"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2506-04267",
-        "title": "Bridging the Silos of Digitalization and Sustainability by Twin Transition: A Multivocal Literature Review.",
-        "year": "2025",
-        "volume": "abs/2506.04267",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.04267",
-        "url": "db/journals/corr/corr2506.html#abs-2506-04267",
-        "authors": [
-          "Baran Shajari",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2505-19916",
+          "title": "Systems of Twinned Systems: A Systematic Literature Review",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.19916",
+          "author": [
+            {
+              "#text": "Feyi Adesanya",
+              "@pid": "408/7436"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kanan Silva",
+              "@pid": "303/3490"
+            },
+            {
+              "#text": "Valdemar Vicente Graciano Neto",
+              "@pid": "151/3182"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2603-06413",
-        "title": "A Reference Architecture of Reinforcement Learning Frameworks.",
-        "year": "2026",
-        "volume": "abs/2603.06413",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2603.06413",
-        "url": "db/journals/corr/corr2603.html#abs-2603-06413",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2506-04267",
+          "title": "Bridging the Silos of Digitalization and Sustainability by Twin Transition: A Multivocal Literature Review",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.04267",
+          "author": [
+            {
+              "#text": "Baran Shajari",
+              "@pid": "404/5460"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2205-11303",
-        "title": "Real-time Collaborative Multi-Level Modeling by Conflict-Free Replicated Data Types.",
-        "year": "2022",
-        "volume": "abs/2205.11303",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2205.11303",
-        "url": "db/journals/corr/corr2205.html#abs-2205-11303",
-        "authors": [
-          "Istvan David",
-          "Eugene Syriani"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2506-06580",
+          "title": "AI Simulation by Digital Twins: Systematic Survey, Reference Framework, and Mapping to a Standardized Architecture",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.06580",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-14843",
-        "title": "SusDevOps: Promoting Sustainability to a First Principle in Software Engineering.",
-        "year": "2023",
-        "volume": "abs/2312.14843",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.14843",
-        "url": "db/journals/corr/corr2312.html#abs-2312-14843",
-        "authors": [
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2506-11141",
+          "title": "From over-reliance to smart integration: using Large-Language Models as translators between specialized modeling and simulation tools",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.11141",
+          "author": [
+            {
+              "#text": "Andreas Tolk",
+              "@pid": "t/ATolk"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "John Beverley",
+              "@pid": "285/0752"
+            },
+            {
+              "#text": "Philippe J. Giabbanelli",
+              "@pid": "00/10687"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2410-12577",
-        "title": "On the Utility of Domain Modeling Assistance with Large Language Models.",
-        "year": "2024",
-        "volume": "abs/2410.12577",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2410.12577",
-        "url": "db/journals/corr/corr2410.html#abs-2410-12577",
-        "authors": [
-          "Meriem Ben Chaaben",
-          "Lola BurgueÃ±o",
-          "Istvan David",
-          "Houari A. Sahraoui"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2506-20883",
+          "title": "Complex Model Transformations by Reinforcement Learning with Uncertain Human Guidance",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2506.20883",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2506-11141",
-        "title": "From over-reliance to smart integration: using Large-Language Models as translators between specialized modeling and simulation tools.",
-        "year": "2025",
-        "volume": "abs/2506.11141",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.11141",
-        "url": "db/journals/corr/corr2506.html#abs-2506-11141",
-        "authors": [
-          "Philippe J. Giabbanelli",
-          "John Beverley",
-          "Istvan David",
-          "Andreas Tolk"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2508-18662",
+          "title": "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2508.18662",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Mark Lawford",
+              "@pid": "28/5160"
+            },
+            {
+              "#text": "Stefan Ramdhan",
+              "@pid": "369/4681"
+            },
+            {
+              "#text": "Vera Pantelic",
+              "@pid": "17/5966"
+            },
+            {
+              "#text": "Winnie Trandinh",
+              "@pid": "369/3745"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2602-19390",
-        "title": "Artificial Intelligence for Modeling & Simulation in Digital Twins.",
-        "year": "2026",
-        "volume": "abs/2602.19390",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.19390",
-        "url": "db/journals/corr/corr2602.html#abs-2602-19390",
-        "authors": [
-          "Philipp Zech",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2602-14256",
+          "title": "Introduction to Digital Twins for the Smart Grid",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.14256",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2306-17808",
-        "title": "Circular Systems Engineering.",
-        "year": "2023",
-        "volume": "abs/2306.17808",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2306.17808",
-        "url": "db/journals/corr/corr2306.html#abs-2306-17808",
-        "authors": [
-          "Istvan David",
-          "Dominik Bork",
-          "Gerti Kappel"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2602-15816",
+          "title": "Developing AI Agents with Simulated Data: Why, what, and how?",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.15816",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2209-12661",
-        "title": "A Digital Twin Description Framework and its Mapping to Asset Administration Shell.",
-        "year": "2022",
-        "volume": "abs/2209.12661",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2209.12661",
-        "url": "db/journals/corr/corr2209.html#abs-2209-12661",
-        "authors": [
-          "Bentley Oakes",
-          "Ali Parsai",
-          "Bart Meyers",
-          "Istvan David",
-          "Simon Van Mierlo",
-          "Serge Demeyer",
-          "Joachim Denil",
-          "Paul De Meulenaere",
-          "Hans Vangheluwe"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2602-19390",
+          "title": "Artificial Intelligence for Modeling & Simulation in Digital Twins",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.19390",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Philipp Zech",
+              "@pid": "25/7853"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2508-18662",
-        "title": "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study.",
-        "year": "2025",
-        "volume": "abs/2508.18662",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2508.18662",
-        "url": "db/journals/corr/corr2508.html#abs-2508-18662",
-        "authors": [
-          "Stefan Ramdhan",
-          "Winnie Trandinh",
-          "Istvan David",
-          "Vera Pantelic",
-          "Mark Lawford"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2603-06413",
+          "title": "A Reference Architecture of Reinforcement Learning Frameworks",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2603.06413",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2506-06580",
-        "title": "AI Simulation by Digital Twins: Systematic Survey, Reference Framework, and Mapping to a Standardized Architecture.",
-        "year": "2025",
-        "volume": "abs/2506.06580",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.06580",
-        "url": "db/journals/corr/corr2506.html#abs-2506-06580",
-        "authors": [
-          "Xiaoran Liu",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2604-07535",
+          "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.07535",
+          "author": [
+            {
+              "#text": "Baran Shajari",
+              "@pid": "404/5460"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Kyanna Dagenais",
+              "@pid": "378/1472"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2607-28803",
-        "title": "Model-Driven Data Contracts for Digital Twin Services.",
-        "year": "2026",
-        "volume": "abs/2607.28803",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2607.28803",
-        "url": "db/journals/corr/corr2607.html#abs-2607-28803",
-        "authors": [
-          "Philipp Zech",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2606-20324",
+          "title": "A Model-Driven Approach for Developing Families of Reinforcement Learning Environments",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.20324",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2506-20883",
-        "title": "Complex Model Transformations by Reinforcement Learning with Uncertain Human Guidance.",
-        "year": "2025",
-        "volume": "abs/2506.20883",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2506.20883",
-        "url": "db/journals/corr/corr2506.html#abs-2506-20883",
-        "authors": [
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2607-28803",
+          "title": "Model-Driven Data Contracts for Digital Twin Services",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2607.28803",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Philipp Zech",
+              "@pid": "25/7853"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2604-07535",
-        "title": "Trust the AI, Doubt Yourself: The Effect of Urgency on Self-Confidence in Human-AI Interaction.",
-        "year": "2026",
-        "volume": "abs/2604.07535",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2604.07535",
-        "url": "db/journals/corr/corr2604.html#abs-2604-07535",
-        "authors": [
-          "Baran Shajari",
-          "Xiaoran Liu",
-          "Kyanna Dagenais",
-          "Istvan David"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2608-00366",
+          "title": "Artificial Intelligence and Modeling & Simulation: An Overview",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2608.00366",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Niclas Feldkamp",
+              "@pid": "159/1013"
+            },
+            {
+              "#text": "Philippe J. Giabbanelli",
+              "@pid": "00/10687"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/DavidAML23",
+          "title": "Collaborative Model-Driven Software Engineering - A systematic survey of practices and needs in industry",
+          "journal": "J. Syst. Softw.",
+          "year": "2023",
+          "pages": "111626",
+          "ee": "https://doi.org/10.1016/J.JSS.2023.111626",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ivano Malavolta",
+              "@pid": "35/1083"
+            },
+            {
+              "#text": "Kousar Aslam",
+              "@pid": "229/9030"
+            },
+            {
+              "#text": "Patricia Lago",
+              "@pid": "40/5357"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/simulation/DavidOGS25",
+          "title": "Modeling and simulation for software-intensive systems: from IoT to digital twins",
+          "journal": "Simul.",
+          "year": "2025",
+          "pages": "211-212",
+          "ee": "https://doi.org/10.1177/00375497251320110",
+          "author": [
+            {
+              "#text": "Bentley Oakes",
+              "@pid": "147/8495"
+            },
+            {
+              "#text": "Cláudio Gomes",
+              "@pid": "96/7136"
+            },
+            {
+              "#text": "Guodong Shao",
+              "@pid": "50/3012"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/software/MalavoltaGDRS22",
+          "title": "Engineering Mobile Apps for Disaster Management: The Case of COVID-19 Apps in the Google Play Store",
+          "journal": "IEEE Softw.",
+          "year": "2022",
+          "pages": "31-42",
+          "ee": "https://doi.org/10.1109/MS.2021.3129978",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ivano Malavolta",
+              "@pid": "35/1083"
+            },
+            {
+              "#text": "Jasper van Rooijen",
+              "@pid": "318/6409"
+            },
+            {
+              "#text": "Mariëlle Stoelinga",
+              "@pid": "20/3901"
+            },
+            {
+              "#text": "Taher Ahmed Ghaleb",
+              "@pid": "177/7048"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/DavidBB25",
+          "title": "Theme section on modeling and sustainability",
+          "journal": "Softw. Syst. Model.",
+          "year": "2025",
+          "pages": "359",
+          "ee": "https://doi.org/10.1007/S10270-025-01279-0",
+          "author": [
+            {
+              "#text": "Ankica Barisic",
+              "@pid": "09/11134"
+            },
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/DavidBK24",
+          "title": "Circular systems engineering",
+          "journal": "Softw. Syst. Model.",
+          "year": "2024",
+          "pages": "269-283",
+          "ee": "https://doi.org/10.1007/S10270-024-01154-4",
+          "author": [
+            {
+              "#text": "Dominik Bork",
+              "@pid": "142/8075"
+            },
+            {
+              "#text": "Gerti Kappel",
+              "@pid": "k/GKappel"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/DavidLPZCMRSH23",
+          "title": "Blended modeling in commercial and open-source model-driven software engineering tools: A systematic study",
+          "journal": "Softw. Syst. Model.",
+          "year": "2023",
+          "pages": "415-447",
+          "ee": "https://doi.org/10.1007/S10270-022-01010-3",
+          "author": [
+            {
+              "#text": "Alexander Raschke",
+              "@pid": "68/4311"
+            },
+            {
+              "#text": "Federico Ciccozzi",
+              "@pid": "36/10028"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ivano Malavolta",
+              "@pid": "35/1083"
+            },
+            {
+              "#text": "Jakob Pietron",
+              "@pid": "199/2423"
+            },
+            {
+              "#text": "Jan-Philipp Steghöfer",
+              "@pid": "16/7127"
+            },
+            {
+              "#text": "Malvina Latifaj",
+              "@pid": "293/6293"
+            },
+            {
+              "#text": "Regina Hebig",
+              "@pid": "63/9280"
+            },
+            {
+              "#text": "Weixing Zhang",
+              "@pid": "126/3273"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/DavidRV18",
+          "title": "Foundations for Streaming Model Transformations by Complex Event Processing",
+          "journal": "Softw. Syst. Model.",
+          "year": "2018",
+          "pages": "135-162",
+          "ee": "https://doi.org/10.1007/S10270-016-0533-1",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/DavidS23",
+          "title": "Real-time collaborative multi-level modeling by conflict-free replicated data types",
+          "journal": "Softw. Syst. Model.",
+          "year": "2023",
+          "pages": "1131-1150",
+          "ee": "https://doi.org/10.1007/S10270-022-01054-5",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sosym/LiuD26",
+          "title": "AI simulation by digital twins: systematic survey, reference framework, and mapping to a standardized architecture",
+          "journal": "Softw. Syst. Model.",
+          "year": "2026",
+          "pages": "731-756",
+          "ee": "https://doi.org/10.1007/S10270-025-01306-0",
+          "author": [
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Xiaoran Liu",
+              "@pid": "174/9941"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tosem/ChaabenBDS26",
+          "title": "On the Utility of Domain Modeling Assistance with Large Language Models",
+          "journal": "ACM Trans. Softw. Eng. Methodol.",
+          "year": "2026",
+          "pages": "112:1-112:38",
+          "ee": "https://doi.org/10.1145/3744920",
+          "author": [
+            {
+              "#text": "Houari Sahraoui",
+              "@pid": "s/HouariASahraoui"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Loli Burgueño",
+              "@pid": "116/5369"
+            },
+            {
+              "#text": "Meriem Ben Chaaben",
+              "@pid": "336/2013"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tse/KhanDVM23",
+          "title": "Code Cloning in Smart Contracts on the Ethereum Platform: An Extended Replication Study",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "2023",
+          "pages": "2006-2019",
+          "ee": "https://doi.org/10.1109/TSE.2022.3207428",
+          "author": [
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Faizan Khan",
+              "@pid": "157/8609"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Shane McIntosh",
+              "@pid": "31/8127"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vlc/DavidVS23",
+          "title": "Model consistency as a heuristic for eventual correctness",
+          "journal": "J. Comput. Lang.",
+          "year": "2023",
+          "pages": "101223",
+          "ee": "https://doi.org/10.1016/J.COLA.2023.101223",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/vlc/SyrianiDK24",
+          "title": "Screening articles for systematic reviews with ChatGPT",
+          "journal": "J. Comput. Lang.",
+          "year": "2024",
+          "pages": "101287",
+          "ee": "https://doi.org/10.1016/J.COLA.2024.101287",
+          "author": [
+            {
+              "#text": "Eugene Syriani",
+              "@pid": "84/1730"
+            },
+            {
+              "#text": "Gauransh Kumar",
+              "@pid": "352/2603"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/be/David19",
+          "title": "A foundation for inconsistency management in model-based systems engineering",
+          "journal": "",
+          "year": "2019",
+          "author": {
+            "#text": "Istvan David",
+            "@pid": "151/1378"
+          }
+        }
       }
     ]
   }

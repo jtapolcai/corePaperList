@@ -1,0 +1,291 @@
+{
+  "dblpperson": {
+    "@name": "Mihály Dobos-Kovács",
+    "r": [
+      {
+        "inproceedings": {
+          "@key": "conf/fase/CziborovaDMV26",
+          "title": "Unified Timing-Aware Program Verification",
+          "booktitle": "FASE",
+          "year": "2026",
+          "pages": "412-423",
+          "ee": "https://doi.org/10.1007/978-3-032-22774-4_21",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Dóra Cziborová",
+              "@pid": "433/9766"
+            },
+            {
+              "#text": "Kristóf Marussy",
+              "@pid": "130/6479"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ladc/Dobos-Kovacs022",
+          "title": "Evaluation of SMT solvers in abstraction-based software model checking",
+          "booktitle": "LADC",
+          "year": "2022",
+          "pages": "109-116",
+          "ee": "https://doi.org/10.1145/3569902.3570187",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ladc/Dobos-KovacsHV21",
+          "title": "Bitvector Support in the Theta Formal Verification Framework",
+          "booktitle": "LADC",
+          "year": "2021",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/LADC53747.2021.9672595",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/AdamBDHM22",
+          "title": "Theta: portfolio of CEGAR-based analyses with dynamic algorithm selection (Competition Contribution)",
+          "booktitle": "TACAS (2)",
+          "year": "2022",
+          "pages": "474-478",
+          "ee": "https://doi.org/10.1007/978-3-030-99527-0_34",
+          "author": [
+            {
+              "#text": "Ákos Hajdu",
+              "@pid": "150/7817"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziSMASTDM24",
+          "title": "EmergenTheta: Verification Beyond Abstraction Refinement (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "371-375",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_23",
+          "author": [
+            {
+              "#text": "Csanád Telbisz",
+              "@pid": "372/9792"
+            },
+            {
+              "#text": "Dániel Szekeres",
+              "@pid": "307/4639"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/BajcziTSADSMM24",
+          "title": "Theta: Abstraction Based Techniques for Verifying Concurrency (Competition Contribution)",
+          "booktitle": "TACAS (3)",
+          "year": "2024",
+          "pages": "412-417",
+          "ee": "https://doi.org/10.1007/978-3-031-57256-2_30",
+          "author": [
+            {
+              "#text": "Csanád Telbisz",
+              "@pid": "372/9792"
+            },
+            {
+              "#text": "Dániel Szekeres",
+              "@pid": "307/4639"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tacas/MondokTBKDM26",
+          "title": "EmergenTheta: Experimental Analyses within the Theta Framework (Competition Contribution)",
+          "booktitle": "TACAS (2)",
+          "year": "2026",
+          "pages": "510-515",
+          "ee": "https://doi.org/10.1007/978-3-032-22749-2_25",
+          "author": [
+            {
+              "#text": "Csanád Telbisz",
+              "@pid": "372/9792"
+            },
+            {
+              "#text": "Dániel Kovács",
+              "@pid": "403/8527"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Milán Mondok",
+              "@pid": "365/8812"
+            },
+            {
+              "#text": "Vince Molnár",
+              "@pid": "160/7803"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/abs-2404-15215",
+          "title": "Bottoms Up for CHCs: Novel Transformation of Linear Constrained Horn Clauses to Software Verification",
+          "booktitle": "LSFA/HCVS",
+          "year": "2024",
+          "pages": "105-117",
+          "ee": "https://doi.org/10.48550/ARXIV.2404.15215",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Márk Somorjai",
+              "@pid": "372/9765"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            },
+            {
+              "#text": "Zsófia Ádám",
+              "@pid": "288/1700"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/abs-2510-26431",
+          "title": "CHCVerif: A Portfolio-Based Solver for Constrained Horn Clauses",
+          "booktitle": "HCVS@CAV",
+          "year": "2025",
+          "pages": "40-51",
+          "ee": "https://doi.org/10.48550/ARXIV.2510.26431",
+          "author": [
+            {
+              "#text": "András Vörös",
+              "@pid": "145/5877"
+            },
+            {
+              "#text": "Levente Bajczi",
+              "@pid": "253/1882"
+            },
+            {
+              "#text": "Mihály Dobos-Kovács",
+              "@pid": "311/9992"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

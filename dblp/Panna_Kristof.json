@@ -1,23 +1,42 @@
 {
   "dblpperson": {
+    "@name": "Panna Kristof",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icnp/TapolcaiRBBKE15",
-        "title": "Scalable and Efficient Multipath Routing: Complexity and Algorithms.",
-        "pages": "376-385",
-        "year": "2015",
-        "booktitle": "ICNP",
-        "ee": "https://www.wikidata.org/entity/Q58032986",
-        "url": "db/conf/icnp/icnp2015.html#TapolcaiRBBKE15",
-        "authors": [
-          "JÃ¡nos Tapolcai",
-          "GÃ¡bor RÃ©tvÃ¡ri",
-          "PÃ©ter Babarczi",
-          "Erika R. BÃ©rczi-KovÃ¡cs",
-          "Panna Kristof",
-          "GÃ¡bor Enyedi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icnp/TapolcaiRBBKE15",
+          "title": "Scalable and Efficient Multipath Routing: Complexity and Algorithms",
+          "booktitle": "ICNP",
+          "year": "2015",
+          "pages": "376-385",
+          "ee": "https://doi.org/10.1109/ICNP.2015.44",
+          "author": [
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "Gábor Enyedi",
+              "@pid": "50/870"
+            },
+            {
+              "#text": "Gábor Rétvári",
+              "@pid": "45/5812"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Panna Kristof",
+              "@pid": "177/6673"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       }
     ]
   }

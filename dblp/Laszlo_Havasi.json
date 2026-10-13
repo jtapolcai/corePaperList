@@ -1,367 +1,908 @@
 {
   "dblpperson": {
+    "@name": "Laszlo Havasi",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/visapp/LosteinerHS09",
-        "title": "Locmax SIFT - Non-Statistical Dimension Reduction on Invariant Descriptors.",
-        "pages": "192-195",
-        "year": "2009",
-        "booktitle": "VISAPP (2)",
-        "url": "db/conf/visapp/visapp2009-2.html#LosteinerHS09",
-        "authors": [
-          "DÃ¡vid Losteiner",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/3dpvt/SzlavikHS04",
+          "title": "Image Matching based on Co-Motion Statistics",
+          "booktitle": "3DPVT",
+          "year": "2004",
+          "pages": "584-591",
+          "ee": "https://doi.org/10.1109/TDPVT.2004.1335292",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icip/HavasiS10",
-        "title": "A statistical method for object localization in multi-camera tracking.",
-        "pages": "3925-3928",
-        "year": "2010",
-        "booktitle": "ICIP",
-        "ee": "https://doi.org/10.1109/ICIP.2010.5650985",
-        "url": "db/conf/icip/icip2010.html#HavasiS10",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik"
-        ]
+        "inproceedings": {
+          "@key": "conf/acivs/HavasiSS05",
+          "title": "Use of Human Motion Biometrics for Multiple-View Registration",
+          "booktitle": "ACIVS",
+          "year": "2005",
+          "pages": "35-43",
+          "ee": "https://doi.org/10.1007/11558484_5",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icip/HavasiS06",
-        "title": "Use of Motion Statistics for Vanishing Point Estimation in Camera-Mirror Scenes.",
-        "pages": "2993-2996",
-        "year": "2006",
-        "booktitle": "ICIP",
-        "ee": "https://doi.org/10.1109/ICIP.2006.312966",
-        "url": "db/conf/icip/icip2006.html#HavasiS06",
-        "authors": [
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/acivs/SzlavikHS07",
+          "title": "Geometrical Scene Analysis Using Co-motion Statistics",
+          "booktitle": "ACIVS",
+          "year": "2007",
+          "pages": "968-979",
+          "ee": "https://doi.org/10.1007/978-3-540-74607-2_88",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icip/SzlavikSHB05",
-        "title": "Optimizing of searching co-motion point-pairs for statistical camera calibration.",
-        "pages": "II:1178-1181",
-        "year": "2005",
-        "booktitle": "ICIP (2)",
-        "ee": "https://doi.org/10.1109/ICIP.2005.1530271",
-        "url": "db/conf/icip/icip2005.html#SzlavikSHB05",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi",
-          "Laszlo Havasi",
-          "Csaba Benedek"
-        ]
+        "inproceedings": {
+          "@key": "conf/avss/BenedekHTSS05",
+          "title": "Motion-based flexible camera registration",
+          "booktitle": "AVSS",
+          "year": "2005",
+          "pages": "439-444",
+          "ee": "https://doi.org/10.1109/AVSS.2005.1577309",
+          "author": [
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icip/HavasiSS05",
-        "title": "Eigenwalks: walk detection and biometrics from symmetry patterns.",
-        "pages": "III:289-292",
-        "year": "2005",
-        "booktitle": "ICIP (3)",
-        "ee": "https://doi.org/10.1109/ICIP.2005.1530385",
-        "url": "db/conf/icip/icip2005.html#HavasiSS05",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/avss/KovacsUSHPS09",
+          "title": "Digital Video Event Detector Framework for Surveillance Applications",
+          "booktitle": "AVSS",
+          "year": "2009",
+          "pages": "565-570",
+          "ee": "https://doi.org/10.1109/AVSS.2009.36",
+          "author": [
+            {
+              "#text": "Ákos Utasi",
+              "@pid": "28/2831"
+            },
+            {
+              "#text": "István Petrás",
+              "@pid": "37/4261"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ict4justice/KovacsSBHPLULCS08",
-        "title": "Video Surveillance Framework for Crime Prevention and Event Indexing.",
-        "year": "2008",
-        "booktitle": "ICT4Justice",
-        "ee": "https://ceur-ws.org/Vol-463/paper1.pdf",
-        "url": "db/conf/ict4justice/ict4justice2008.html#KovacsSBHPLULCS08",
-        "authors": [
-          "Levente KovÃ¡cs",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Csaba Benedek",
-          "Laszlo Havasi",
-          "IstvÃ¡n PetrÃ¡s",
-          "DÃ¡vid Losteiner",
-          "Ãkos Utasi",
-          "Attila LicsÃ¡r",
-          "LÃ¡szlÃ³ CzÃºni",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbmi/HavasiSPVSK13",
+          "title": "Search in WikiImages using mobile phone",
+          "booktitle": "CBMI",
+          "year": "2013",
+          "pages": "219-222",
+          "ee": "https://doi.org/10.1109/CBMI.2013.6576586",
+          "author": [
+            {
+              "#text": "Domonkos Varga",
+              "@pid": "133/4973"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            },
+            {
+              "#text": "Máté Pataki",
+              "@pid": "73/5656"
+            },
+            {
+              "#text": "Mihaly Szabo",
+              "@pid": "133/5011"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tsd/HavasiS04",
-        "title": "HANDY: Sign Language Synthesis from Sublexical Elements Based on an XML Data Representation.",
-        "pages": "73-80",
-        "ee": "https://doi.org/10.1007/978-3-540-30120-2_10",
-        "year": "2004",
-        "booktitle": "TSD",
-        "url": "db/conf/tsd/tsd2004.html#HavasiS04",
-        "authors": [
-          "Laszlo Havasi",
-          "Helga M. SzabÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/cbmi/SzlavikKHBPULCS08",
+          "title": "Behavior and event detection for annotation and surveillance",
+          "booktitle": "CBMI",
+          "year": "2008",
+          "pages": "117-124",
+          "ee": "https://doi.org/10.1109/CBMI.2008.4564936",
+          "author": [
+            {
+              "#text": "Ákos Utasi",
+              "@pid": "28/2831"
+            },
+            {
+              "#text": "Attila Licsár",
+              "@pid": "69/2766"
+            },
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "István Petrás",
+              "@pid": "37/4261"
+            },
+            {
+              "#text": "László Czúni",
+              "@pid": "81/6403"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isvc/HavasiS05",
-        "title": "A Motion Capture System for Sign Language Synthesis: Overview and Related Issues.",
-        "pages": "636-641",
-        "year": "2005",
-        "booktitle": "ISVC",
-        "ee": "https://doi.org/10.1007/11595755_78",
-        "url": "db/conf/isvc/isvc2005.html#HavasiS05",
-        "authors": [
-          "Laszlo Havasi",
-          "Helga M. SzabÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/civr/PetrasBDPKSHSTGCC07",
+          "title": "Flexible test-bed for unusual behavior detection",
+          "booktitle": "CIVR",
+          "year": "2007",
+          "pages": "105-108",
+          "ee": "https://doi.org/10.1145/1282280.1282297",
+          "author": [
+            {
+              "#text": "A. Enis Çetin",
+              "@pid": "74/6604"
+            },
+            {
+              "#text": "B. Ugur Töreyin",
+              "@pid": "83/2799"
+            },
+            {
+              "#text": "Cristian Canton",
+              "@pid": "43/950"
+            },
+            {
+              "#text": "Csaba Beleznai",
+              "@pid": "88/4051"
+            },
+            {
+              "#text": "István Petrás",
+              "@pid": "37/4261"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Montse Pardàs",
+              "@pid": "51/5117"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Ugur Güdükbay",
+              "@pid": "26/4312"
+            },
+            {
+              "#text": "Yigithan Dedeoglu",
+              "@pid": "80/477"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbmi/SzlavikKHBPULCS08",
-        "title": "Behavior and event detection for annotation and surveillance.",
-        "pages": "117-124",
-        "year": "2008",
-        "booktitle": "CBMI",
-        "ee": "https://doi.org/10.1109/CBMI.2008.4564936",
-        "url": "db/conf/cbmi/cbmi2008.html#SzlavikKHBPULCS08",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Levente KovÃ¡cs",
-          "Laszlo Havasi",
-          "Csaba Benedek",
-          "IstvÃ¡n PetrÃ¡s",
-          "Ãkos Utasi",
-          "Attila LicsÃ¡r",
-          "LÃ¡szlÃ³ CzÃºni",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvpr/HavasiS11",
+          "title": "A method for object localization in a multiview multimodal camera system",
+          "booktitle": "CVPR Workshops",
+          "year": "2011",
+          "pages": "96-103",
+          "ee": "https://doi.org/10.1109/CVPRW.2011.5981796",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cbmi/HavasiSPVSK13",
-        "title": "Search in WikiImages using mobile phone.",
-        "pages": "219-222",
-        "year": "2013",
-        "booktitle": "CBMI",
-        "ee": "https://www.wikidata.org/entity/Q66708828",
-        "url": "db/conf/cbmi/cbmi2013.html#HavasiSPVSK13",
-        "authors": [
-          "Laszlo Havasi",
-          "Mihaly Szabo",
-          "MÃ¡tÃ© Pataki",
-          "Domonkos Varga",
-          "TamÃ¡s SzirÃ¡nyi",
-          "LÃ¡szlÃ³ KovÃ¡cs"
-        ]
+        "inproceedings": {
+          "@key": "conf/eusipco/HavasiSR06",
+          "title": "Adding geometrical terms to shadow detection process",
+          "booktitle": "EUSIPCO",
+          "year": "2006",
+          "pages": "1-5",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Michael Rudzsky",
+              "@pid": "60/6511"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/civr/PetrasBDPKSHSTGCC07",
-        "title": "Flexible test-bed for unusual behavior detection.",
-        "pages": "105-108",
-        "year": "2007",
-        "booktitle": "CIVR",
-        "ee": "https://doi.org/10.1145/1282280.1282297",
-        "url": "db/conf/civr/civr2007.html#PetrasBDPKSHSTGCC07",
-        "authors": [
-          "IstvÃ¡n PetrÃ¡s",
-          "Csaba Beleznai",
-          "Yigithan Dedeoglu",
-          "Montse PardÃ s",
-          "Levente KovÃ¡cs",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi",
-          "B. Ugur TÃ¶reyin",
-          "Ugur GÃ¼dÃ¼kbay",
-          "A. Enis Ãetin",
-          "Cristian Canton-Ferrer"
-        ]
+        "inproceedings": {
+          "@key": "conf/eusipco/SzlavikSHB05",
+          "title": "Random motion for camera calibration",
+          "booktitle": "EUSIPCO",
+          "year": "2005",
+          "pages": "1-4",
+          "author": [
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iciar/SzlavikHS04",
-        "title": "Estimation of Common Groundplane Based on Co-motion Statistics.",
-        "pages": "347-354",
-        "ee": "https://doi.org/10.1007/978-3-540-30126-4_43",
-        "year": "2004",
-        "booktitle": "ICIAR (2)",
-        "url": "db/conf/iciar/iciar2004-2.html#SzlavikHS04",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccvg/HavasiSS04",
+          "title": "Pedestrian Detection Using Derived Third-Order Symmetry of Legs - A novel method of motion-based information extraction from video image-sequences",
+          "booktitle": "ICCVG",
+          "year": "2006",
+          "pages": "733-739",
+          "ee": "https://doi.org/10.1007/1-4020-4179-9_106",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/avss/BenedekHTSS05",
-        "title": "Motion-based flexible camera registration.",
-        "pages": "439-444",
-        "year": "2005",
-        "booktitle": "AVSS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AVSS.2005.1577309",
-        "url": "db/conf/avss/avss2005.html#BenedekHTSS05",
-        "authors": [
-          "Csaba Benedek",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi",
-          "ZoltÃ¡n SzlÃ¡vik"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccvw/HavasiS09",
+          "title": "Using location and motion statistics for the localization of moving objects in multiple camera surveillance videos",
+          "booktitle": "ICCV Workshops",
+          "year": "2009",
+          "pages": "1275-1281",
+          "ee": "https://doi.org/10.1109/ICCVW.2009.5457464",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/avss/KovacsUSHPS09",
-        "title": "Digital Video Event Detector Framework for Surveillance Applications.",
-        "pages": "565-570",
-        "year": "2009",
-        "booktitle": "AVSS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AVSS.2009.36",
-        "url": "db/conf/avss/avss2009.html#KovacsUSHPS09",
-        "authors": [
-          "Levente KovÃ¡cs",
-          "Ãkos Utasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Laszlo Havasi",
-          "IstvÃ¡n PetrÃ¡s",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccvw/VargaSKSH15",
+          "title": "A Multi-View Pedestrian Tracking Method in an Uncalibrated Camera Network",
+          "booktitle": "ICCV Workshops",
+          "year": "2015",
+          "pages": "184-191",
+          "ee": "https://doi.org/10.1109/ICCVW.2015.33",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-3"
+            },
+            {
+              "#text": "Domonkos Varga",
+              "@pid": "133/4973"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "László Spórás",
+              "@pid": "144/4928"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mtits/VargaHS15",
-        "title": "Pedestrian detection in surveillance videos based on CS-LBP feature.",
-        "pages": "413-417",
-        "year": "2015",
-        "booktitle": "MT-ITS",
-        "ee": "https://doi.org/10.1109/MTITS.2015.7223288",
-        "url": "db/conf/mtits/mtits2015.html#VargaHS15",
-        "authors": [
-          "Domonkos Varga",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/iciar/SzlavikHS04",
+          "title": "Estimation of Common Groundplane Based on Co-motion Statistics",
+          "booktitle": "ICIAR (2)",
+          "year": "2004",
+          "pages": "347-354",
+          "ee": "https://doi.org/10.1007/978-3-540-30126-4_43",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/3dpvt/SzlavikHS04",
-        "title": "Image Matching based on Co-Motion Statistics.",
-        "pages": "584-591",
-        "year": "2004",
-        "booktitle": "3DPVT",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/TDPVT.2004.1335292",
-        "url": "db/conf/3dpvt/3dpvt2004.html#SzlavikHS04",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icip/HavasiS06",
+          "title": "Use of Motion Statistics for Vanishing Point Estimation in Camera-Mirror Scenes",
+          "booktitle": "ICIP",
+          "year": "2006",
+          "pages": "2993-2996",
+          "ee": "https://doi.org/10.1109/ICIP.2006.312966",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/acivs/SzlavikHS07",
-        "title": "Geometrical Scene Analysis Using Co-motion Statistics.",
-        "pages": "968-979",
-        "year": "2007",
-        "booktitle": "ACIVS",
-        "ee": "https://doi.org/10.1007/978-3-540-74607-2_88",
-        "url": "db/conf/acivs/acivs2007.html#SzlavikHS07",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "Laszlo Havasi",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icip/HavasiS10",
+          "title": "A statistical method for object localization in multi-camera tracking",
+          "booktitle": "ICIP",
+          "year": "2010",
+          "pages": "3925-3928",
+          "ee": "https://doi.org/10.1109/ICIP.2010.5650985",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/acivs/HavasiSS05",
-        "title": "Use of Human Motion Biometrics for Multiple-View Registration.",
-        "pages": "35-43",
-        "year": "2005",
-        "booktitle": "ACIVS",
-        "ee": "https://doi.org/10.1007/11558484_5",
-        "url": "db/conf/acivs/acivs2005.html#HavasiSS05",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icip/HavasiSS05",
+          "title": "Eigenwalks: walk detection and biometrics from symmetry patterns",
+          "booktitle": "ICIP (3)",
+          "year": "2005",
+          "pages": "III:289-292",
+          "ee": "https://doi.org/10.1109/ICIP.2005.1530385",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/prl/HavasiSS06",
-        "title": "Higher order symmetry for non-linear classification of human walk detection.",
-        "pages": "822-829",
-        "year": "2006",
-        "volume": "27",
-        "journal": "Pattern Recognit. Lett.",
-        "number": "7",
-        "ee": "https://doi.org/10.1016/j.patrec.2005.11.009",
-        "url": "db/journals/prl/prl27.html#HavasiSS06",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icip/SzlavikSHB05",
+          "title": "Optimizing of searching co-motion point-pairs for statistical camera calibration",
+          "booktitle": "ICIP (2)",
+          "year": "2005",
+          "pages": "II:1178-1181",
+          "ee": "https://doi.org/10.1109/ICIP.2005.1530271",
+          "author": [
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tip/HavasiSS09",
-        "title": "The Use of Vanishing Point for the Classification of Reflections From Foreground Mask in Videos.",
-        "pages": "1366-1372",
-        "year": "2009",
-        "volume": "18",
-        "journal": "IEEE Trans. Image Process.",
-        "number": "6",
-        "ee": "https://www.wikidata.org/entity/Q83648094",
-        "url": "db/journals/tip/tip18.html#HavasiSS09",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ict4justice/HavasiSKUBS09",
+          "title": "Validate Privacy Constraints in Surveillance Systems",
+          "booktitle": "ICT4Justice",
+          "year": "2010",
+          "pages": "81-88",
+          "author": [
+            {
+              "#text": "Ákos Utasi",
+              "@pid": "28/2831"
+            },
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tip/HavasiSS07",
-        "title": "Detection of Gait Characteristics for Scene Registration in Video Surveillance System.",
-        "pages": "503-510",
-        "year": "2007",
-        "volume": "16",
-        "journal": "IEEE Trans. Image Process.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q51924072",
-        "url": "db/journals/tip/tip16.html#HavasiSS07",
-        "authors": [
-          "Laszlo Havasi",
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ict4justice/KovacsSBHPLULCS08",
+          "title": "Video Surveillance Framework for Crime Prevention and Event Indexing",
+          "booktitle": "ICT4Justice",
+          "year": "2008",
+          "author": [
+            {
+              "#text": "Ákos Utasi",
+              "@pid": "28/2831"
+            },
+            {
+              "#text": "Attila Licsár",
+              "@pid": "69/2766"
+            },
+            {
+              "#text": "Csaba Benedek",
+              "@pid": "15/3579"
+            },
+            {
+              "#text": "Dávid Losteiner",
+              "@pid": "06/4112"
+            },
+            {
+              "#text": "István Petrás",
+              "@pid": "37/4261"
+            },
+            {
+              "#text": "László Czúni",
+              "@pid": "81/6403"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Levente Kovács",
+              "@pid": "99/5576"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tip/SzlavikSH07",
-        "title": "Stochastic View Registration of Overlapping Cameras Based on Arbitrary Motion.",
-        "pages": "710-720",
-        "year": "2007",
-        "volume": "16",
-        "journal": "IEEE Trans. Image Process.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q51920335",
-        "url": "db/journals/tip/tip16.html#SzlavikSH07",
-        "authors": [
-          "ZoltÃ¡n SzlÃ¡vik",
-          "TamÃ¡s SzirÃ¡nyi",
-          "Laszlo Havasi"
-        ]
+        "inproceedings": {
+          "@key": "conf/isvc/HavasiS05",
+          "title": "A Motion Capture System for Sign Language Synthesis: Overview and Related Issues",
+          "booktitle": "ISVC",
+          "year": "2005",
+          "pages": "636-641",
+          "ee": "https://doi.org/10.1007/11595755_78",
+          "author": [
+            {
+              "#text": "Helga M. Szabó",
+              "@pid": "38/1941"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iwcia/HavasiKSS14",
+          "title": "Calibrationless Sensor Fusion Using Linear Optimization for Depth Matching",
+          "booktitle": "IWCIA",
+          "year": "2014",
+          "pages": "158-170",
+          "ee": "https://doi.org/10.1007/978-3-319-07148-0_15",
+          "author": [
+            {
+              "#text": "Attila Kiss",
+              "@pid": "61/2457-3"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "László Spórás",
+              "@pid": "144/4928"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mtits/VargaHS15",
+          "title": "Pedestrian detection in surveillance videos based on CS-LBP feature",
+          "booktitle": "MT-ITS",
+          "year": "2015",
+          "pages": "413-417",
+          "ee": "https://doi.org/10.1109/MTITS.2015.7223288",
+          "author": [
+            {
+              "#text": "Domonkos Varga",
+              "@pid": "133/4973"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tsd/HavasiS04",
+          "title": "HANDY: Sign Language Synthesis from Sublexical Elements Based on an XML Data Representation",
+          "booktitle": "TSD",
+          "year": "2004",
+          "pages": "73-80",
+          "ee": "https://doi.org/10.1007/978-3-540-30120-2_10",
+          "author": [
+            {
+              "#text": "Helga M. Szabó",
+              "@pid": "38/1941"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visapp/CsordasHS15",
+          "title": "Detecting Objects Thrown over Fence in Outdoor Scenes",
+          "booktitle": "VISAPP (3)",
+          "year": "2015",
+          "pages": "593-599",
+          "ee": "https://doi.org/10.5220/0005315505930599",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Róbert Csordás",
+              "@pid": "166/4773"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visapp/LosteinerHS09",
+          "title": "Locmax SIFT - Non-Statistical Dimension Reduction on Invariant Descriptors",
+          "booktitle": "VISAPP (2)",
+          "year": "2009",
+          "pages": "192-195",
+          "author": [
+            {
+              "#text": "Dávid Losteiner",
+              "@pid": "06/4112"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/HavasiS16",
+          "title": "Multi-View Security and Surveillance at MTA SZTAKI",
+          "journal": "ERCIM News",
+          "year": "2016",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/ercim/MatetelkiHM13",
+          "title": "An e-Science Collaboration Platform for Effective Multimedia Research",
+          "journal": "ERCIM News",
+          "year": "2013",
+          "author": [
+            {
+              "#text": "András Micsik",
+              "@pid": "85/2382"
+            },
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Péter Mátételki",
+              "@pid": "48/7115"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/prl/HavasiSS06",
+          "title": "Higher order symmetry for non-linear classification of human walk detection",
+          "journal": "Pattern Recognit. Lett.",
+          "year": "2006",
+          "pages": "822-829",
+          "ee": "https://doi.org/10.1016/J.PATREC.2005.11.009",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/HavasiSS07",
+          "title": "Detection of Gait Characteristics for Scene Registration in Video Surveillance System",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2007",
+          "pages": "503-510",
+          "ee": "https://doi.org/10.1109/TIP.2006.888339",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/HavasiSS09",
+          "title": "The Use of Vanishing Point for the Classification of Reflections From Foreground Mask in Videos",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2009",
+          "pages": "1366-1372",
+          "ee": "https://doi.org/10.1109/TIP.2009.2017137",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/SzlavikSH07",
+          "title": "Stochastic View Registration of Overlapping Cameras Based on Arbitrary Motion",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2007",
+          "pages": "710-720",
+          "ee": "https://doi.org/10.1109/TIP.2007.891158",
+          "author": [
+            {
+              "#text": "László Havasi",
+              "@pid": "04/4767"
+            },
+            {
+              "#text": "Tamás Szirányi",
+              "@pid": "82/5404"
+            },
+            {
+              "#text": "Zoltán Szlávik",
+              "@pid": "84/963"
+            }
+          ]
+        }
       }
     ]
   }

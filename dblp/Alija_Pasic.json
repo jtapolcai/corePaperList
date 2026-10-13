@@ -1,682 +1,1325 @@
 {
   "dblpperson": {
+    "@name": "Alija Pasic",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ondm/MogyorosiP22",
-        "title": "Disaster-Resilient Network Upgrade.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "ONDM",
-        "ee": "https://doi.org/10.23919/ONDM54585.2022.9782864",
-        "url": "db/conf/ondm/ondm2022.html#MogyorosiP22",
-        "authors": [
-          "Ferenc MogyorÃ³si",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/BabarcziTPDH13",
+          "title": "New addressing scheme to increase reliability in MPLS with network coding",
+          "booktitle": "DRCN",
+          "year": "2013",
+          "pages": "36-43",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Pin-Han Ho",
+              "@pid": "53/4284"
+            },
+            {
+              "#text": "Sara Rahimi Darehchi",
+              "@pid": "131/0451"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icin/DobreffFBP24",
-        "title": "Empowering ISPs with Cloud Gaming User Experience Modeling: A NVIDIA GeForce NOW Use-Case.",
-        "pages": "202-209",
-        "year": "2024",
-        "booktitle": "ICIN",
-        "ee": "https://doi.org/10.1109/ICIN60470.2024.10494462",
-        "url": "db/conf/icin/icin2024.html#DobreffFBP24",
-        "authors": [
-          "Gergely Dobreff",
-          "DÃ¡niel Frey",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/PasicPMP20",
+          "title": "FRADIR Meets Availability",
+          "booktitle": "DRCN",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/DRCN48652.2020.1570603965",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Azra Pasic",
+              "@pid": "265/3586"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Lejla Pasic",
+              "@pid": "265/3578"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/LadoczkiTP19",
-        "title": "Demo Abstract: Monitoring-Flow Based Network Verification and Failure Localization in SDN.",
-        "pages": "995-996",
-        "year": "2019",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFCOMW.2019.8845090",
-        "url": "db/conf/infocom/infocom2019w.html#LadoczkiTP19",
-        "authors": [
-          "Bence LadÃ³czki",
-          "JÃ¡nos Tapolcai",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/icin/DobreffFBP24",
+          "title": "Empowering ISPs with Cloud Gaming User Experience Modeling: A NVIDIA GeForce NOW Use-Case",
+          "booktitle": "ICIN",
+          "year": "2024",
+          "pages": "202-209",
+          "ee": "https://doi.org/10.1109/ICIN60470.2024.10494462",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Dániel Frey",
+              "@pid": "373/3979"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/TapolcaiHPHR21",
-        "title": "On Network Topology Augmentation for Global Connectivity under Regional Failures.",
-        "pages": "1-10",
-        "year": "2021",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFOCOM42981.2021.9488879",
-        "url": "db/conf/infocom/infocom2021.html#TapolcaiHPHR21",
-        "authors": [
-          "JÃ¡nos Tapolcai",
-          "Zsombor L. HajdÃº",
-          "Alija Pasic",
-          "Pin-Han Ho",
-          "Lajos RÃ³nyai"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/LadoczkiTP19",
+          "title": "Demo Abstract: Monitoring-Flow Based Network Verification and Failure Localization in SDN",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2019",
+          "pages": "995-996",
+          "ee": "https://doi.org/10.1109/INFCOMW.2019.8845090",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/qomex/DobreffSLMVBP23",
-        "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring.",
-        "pages": "127-130",
-        "year": "2023",
-        "booktitle": "QoMEX",
-        "ee": "https://doi.org/10.1109/QoMEX58391.2023.10178470",
-        "url": "db/conf/qomex/qomex2023.html#DobreffSLMVBP23",
-        "authors": [
-          "Gergely Dobreff",
-          "MÃ¡rk Szalay",
-          "Bence LadÃ³czki",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Varga 0004",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/TapolcaiHPHR21",
+          "title": "On Network Topology Augmentation for Global Connectivity under Regional Failures",
+          "booktitle": "INFOCOM",
+          "year": "2021",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/INFOCOM42981.2021.9488879",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Rónyai",
+              "@pid": "33/5156"
+            },
+            {
+              "#text": "Pin-Han Ho",
+              "@pid": "53/4284"
+            },
+            {
+              "#text": "Zsombor L. Hajdú",
+              "@pid": "298/4071"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/PappISMRTP22",
-        "title": "TDoA based indoor positioning over small cell 5G networks.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS54207.2022.9789712",
-        "url": "db/conf/noms/noms2022.html#PappISMRTP22",
-        "authors": [
-          "ZsÃ³fia Papp",
-          "Garry Irvine",
-          "Roland Smith",
-          "Ferenc MogyorÃ³si",
-          "PÃ©ter Revisnyei",
-          "IstvÃ¡n TÃ¶ros",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwssip/DobreffSMVLBP23",
+          "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study",
+          "booktitle": "IWSSIP",
+          "year": "2023",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/RevisnyeiMPTP23",
-        "title": "Performance of a TDOA indoor positioning solution in real-world 5G network.",
-        "pages": "1-6",
-        "year": "2023",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS56928.2023.10154362",
-        "url": "db/conf/noms/noms2023.html#RevisnyeiMPTP23",
-        "authors": [
-          "PÃ©ter Revisnyei",
-          "Ferenc MogyorÃ³si",
-          "ZsÃ³fia Papp",
-          "IstvÃ¡n TÃ¶ros",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwssip/MolnarBP25",
+          "title": "Detecting service quality issues of adaptive streaming video traffic in mobile networks - a practical approach",
+          "booktitle": "IWSSIP",
+          "year": "2025",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/IWSSIP66997.2025.11151878",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rtsi/PasicPPB24",
-        "title": "Optimizing Partner Selection for Cooperative Solar Generation Forecasting.",
-        "pages": "248-253",
-        "year": "2024",
-        "booktitle": "RTSI",
-        "ee": "https://doi.org/10.1109/RTSI61910.2024.10761768",
-        "url": "db/conf/rtsi/rtsi2024.html#PasicPPB24",
-        "authors": [
-          "Lejla Pasic",
-          "Azra Pasic",
-          "Alija Pasic",
-          "JÃ³zsef BÃ­rÃ³"
-        ]
+        "inproceedings": {
+          "@key": "conf/mwcn/PasicB15",
+          "title": "Delay aware survivable routing with network coding in Software Defined Networks",
+          "booktitle": "RNDM@WMNC",
+          "year": "2015",
+          "pages": "41-47",
+          "ee": "https://doi.org/10.1109/RNDM.2015.7324307",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/BabarcziTPDH13",
-        "title": "New addressing scheme to increase reliability in MPLS with network coding.",
-        "pages": "36-43",
-        "year": "2013",
-        "booktitle": "DRCN",
-        "ee": "https://ieeexplore.ieee.org/document/6529880/",
-        "url": "db/conf/drcn/drcn2013.html#BabarcziTPDH13",
-        "authors": [
-          "PÃ©ter Babarczi",
-          "JÃ¡nos Tapolcai",
-          "Alija Pasic",
-          "Sara Rahimi Darehchi",
-          "Pin-Han Ho"
-        ]
+        "inproceedings": {
+          "@key": "conf/networking/MolnarBHMP26",
+          "title": "Predicting connection quality degradation by radio events in mobile networks using interpretable models",
+          "booktitle": "IFIP Networking",
+          "year": "2026",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/IFIPNETWORKING70592.2026.11579052",
+          "author": [
+            {
+              "#text": "Aitor Hernandez Herranz",
+              "@pid": "245/3704"
+            },
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            },
+            {
+              "#text": "Samie Mostafavi",
+              "@pid": "370/2695"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/PasicPMP20",
-        "title": "FRADIR Meets Availability.",
-        "pages": "1-6",
-        "year": "2020",
-        "booktitle": "DRCN",
-        "ee": "https://doi.org/10.1109/DRCN48652.2020.1570603965",
-        "url": "db/conf/drcn/drcn2020.html#PasicPMP20",
-        "authors": [
-          "Lejla Pasic",
-          "Azra Pasic",
-          "Ferenc MogyorÃ³si",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/networking/PasicTBBKR15",
+          "title": "Survivable routing meets diversity coding",
+          "booktitle": "Networking",
+          "year": "2015",
+          "pages": "1-9",
+          "ee": "https://doi.org/10.1109/IFIPNETWORKING.2015.7145330",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Rónyai",
+              "@pid": "33/5156"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Zoltán Király",
+              "@pid": "86/4854"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mwcn/PasicB15",
-        "title": "Delay aware survivable routing with network coding in Software Defined Networks.",
-        "pages": "41-47",
-        "year": "2015",
-        "booktitle": "RNDM@WMNC",
-        "ee": "https://doi.org/10.1109/RNDM.2015.7324307",
-        "url": "db/conf/mwcn/rndm2015.html#PasicB15",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Babarczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/PappISMRTP22",
+          "title": "TDoA based indoor positioning over small cell 5G networks",
+          "booktitle": "NOMS",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/NOMS54207.2022.9789712",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Garry Irvine",
+              "@pid": "322/3109"
+            },
+            {
+              "#text": "István Töros",
+              "@pid": "28/8214"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            },
+            {
+              "#text": "Roland Smith",
+              "@pid": "322/2974"
+            },
+            {
+              "#text": "Zsófia Papp",
+              "@pid": "322/3197"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwssip/MolnarBP25",
-        "title": "Detecting service quality issues of adaptive streaming video traffic in mobile networks - a practical approach.",
-        "pages": "1-5",
-        "year": "2025",
-        "booktitle": "IWSSIP",
-        "ee": "https://doi.org/10.1109/IWSSIP66997.2025.11151878",
-        "url": "db/conf/iwssip/iwssip2025.html#MolnarBP25",
-        "authors": [
-          "Marton Molnar",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/RevisnyeiMPTP23",
+          "title": "Performance of a TDOA indoor positioning solution in real-world 5G network",
+          "booktitle": "NOMS",
+          "year": "2023",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/NOMS56928.2023.10154362",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "István Töros",
+              "@pid": "28/8214"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            },
+            {
+              "#text": "Zsófia Papp",
+              "@pid": "322/3197"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwssip/DobreffSMVLBP23",
-        "title": "Predicting QoE for Delay-critical services in Mobile Networks: A video conferencing case study.",
-        "pages": "1-5",
-        "year": "2023",
-        "booktitle": "IWSSIP",
-        "ee": "https://doi.org/10.1109/IWSSIP58668.2023.10180263",
-        "url": "db/conf/iwssip/iwssip2023.html#DobreffSMVLBP23",
-        "authors": [
-          "Gergely Dobreff",
-          "MÃ¡rk Szalay",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Varga 0004",
-          "Bence LadÃ³czki",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/ondm/MogyorosiP22",
+          "title": "Disaster-Resilient Network Upgrade",
+          "booktitle": "ONDM",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ONDM54585.2022.9782864",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/GomesTEHKRSITAJ16",
-        "title": "A survey of strategies for communication networks to protect against large-scale natural disasters.",
-        "pages": "11-22",
-        "year": "2016",
-        "booktitle": "RNDM",
-        "ee": "https://www.wikidata.org/entity/Q58032964",
-        "url": "db/conf/rndm/rndm2016.html#GomesTEHKRSITAJ16",
-        "authors": [
-          "Teresa Gomes",
-          "JÃ¡nos Tapolcai",
-          "Christian Esposito 0001",
-          "David Hutchison 0001",
-          "Fernando A. Kuipers",
-          "Jacek Rak",
-          "Amaro de Sousa",
-          "Athanasios C. Iossifides",
-          "Rui Travanca",
-          "JoÃ£o AndrÃ©",
-          "LuÃ­sa Jorge",
-          "LÃºcia Martins",
-          "Patricia Ortiz Ugalde",
-          "Alija Pasic",
-          "Dimitrios P. Pezaros",
-          "Simon Jouet",
-          "Stefano Secci",
-          "Massimo Tornatore"
-        ]
+        "inproceedings": {
+          "@key": "conf/pkdd/CsanalosiDPMT20",
+          "title": "Low-Cost Optical Tracking of Soccer Players",
+          "booktitle": "MLSA@PKDD/ECML",
+          "year": "2020",
+          "pages": "28-39",
+          "ee": "https://doi.org/10.1007/978-3-030-64912-8_3",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gabor Csanalosi",
+              "@pid": "319/6983"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/PasicB16",
-        "title": "Switching link group Failure Localization via monitoring trails in all-optical networks.",
-        "pages": "92-99",
-        "year": "2016",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM.2016.7608273",
-        "url": "db/conf/rndm/rndm2016.html#PasicB16",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Babarczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/pkdd/DobreffRSSTP20",
+          "title": "Physical Performance Optimization in Football",
+          "booktitle": "MLSA@PKDD/ECML",
+          "year": "2020",
+          "pages": "51-61",
+          "ee": "https://doi.org/10.1007/978-3-030-64912-8_5",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gábor Schuth",
+              "@pid": "319/6965"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "György Szigeti",
+              "@pid": "319/6785"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/PasicGVGB18",
-        "title": "FRADIR: A Novel Framework for Disaster Resilience.",
-        "pages": "1-7",
-        "year": "2018",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM.2018.8489828",
-        "url": "db/conf/rndm/rndm2018.html#PasicGVGB18",
-        "authors": [
-          "Alija Pasic",
-          "Rita GirÃ£o-Silva",
-          "BÃ¡lazs Vass",
-          "Teresa Gomes",
-          "PÃ©ter Babarczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/qomex/DobreffSLMVBP23",
+          "title": "Data Collection Framework for End-to-End Radio and Transport Network Quality Monitoring",
+          "booktitle": "QoMEX",
+          "year": "2023",
+          "pages": "127-130",
+          "ee": "https://doi.org/10.1109/QOMEX58391.2023.10178470",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "László Varga",
+              "@pid": "352/3494"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Molnar",
+              "@pid": "319/6552"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/PasicGVGMBT19",
-        "title": "FRADIR-II: An Improved Framework for Disaster Resilience.",
-        "pages": "1-7",
-        "year": "2019",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM48015.2019.8949142",
-        "url": "db/conf/rndm/rndm2019.html#PasicGVGMBT19",
-        "authors": [
-          "Alija Pasic",
-          "Rita GirÃ£o-Silva",
-          "BÃ¡lazs Vass",
-          "Teresa Gomes",
-          "Ferenc MogyorÃ³si",
-          "PÃ©ter Babarczi",
-          "JÃ¡nos Tapolcai"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/BabarcziMP23",
+          "title": "Intelligent Control Plane Design for Virtual Software-Defined Networks",
+          "booktitle": "RNDM",
+          "year": "2023",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/RNDM59149.2023.10293099",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/PasicRM23",
-        "title": "Disaster-Resilient Upgrade of Interdependent Networks.",
-        "pages": "1-8",
-        "year": "2023",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM59149.2023.10293104",
-        "url": "db/conf/rndm/rndm2023.html#PasicRM23",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Revisnyei",
-          "Ferenc MogyorÃ³si"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/GomesTEHKRSITAJ16",
+          "title": "A survey of strategies for communication networks to protect against large-scale natural disasters",
+          "booktitle": "RNDM",
+          "year": "2016",
+          "pages": "11-22",
+          "ee": "https://doi.org/10.1109/RNDM.2016.7608263",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Amaro de Sousa",
+              "@pid": "02/5702"
+            },
+            {
+              "#text": "Athanasios C. Iossifides",
+              "@pid": "11/6049"
+            },
+            {
+              "#text": "Christian Esposito",
+              "@pid": "89/6036"
+            },
+            {
+              "#text": "David Hutchison",
+              "@pid": "h/DavidHutchison"
+            },
+            {
+              "#text": "Dimitrios P. Pezaros",
+              "@pid": "49/1051"
+            },
+            {
+              "#text": "Fernando A. Kuipers",
+              "@pid": "55/2512"
+            },
+            {
+              "#text": "Jacek Rak",
+              "@pid": "89/5328"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "João André",
+              "@pid": "151/7664"
+            },
+            {
+              "#text": "Lúcia Martins",
+              "@pid": "29/5341"
+            },
+            {
+              "#text": "Luísa Jorge",
+              "@pid": "57/2315"
+            },
+            {
+              "#text": "Massimo Tornatore",
+              "@pid": "11/6844"
+            },
+            {
+              "#text": "Patricia Ortiz Ugalde",
+              "@pid": "191/2221"
+            },
+            {
+              "#text": "Rui Travanca",
+              "@pid": "191/0199"
+            },
+            {
+              "#text": "Simon Jouet",
+              "@pid": "139/1448"
+            },
+            {
+              "#text": "Stefano Secci",
+              "@pid": "40/6812"
+            },
+            {
+              "#text": "Teresa Gomes",
+              "@pid": "38/5734"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/VassRP24",
-        "title": "Computing Safest $st$-Paths in Backbone Networks: Efficiently Solvable Cases and Fast Heuristics.",
-        "pages": "1-8",
-        "year": "2024",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM64105.2024.10820391",
-        "url": "db/conf/rndm/rndm2024.html#VassRP24",
-        "authors": [
-          "BalÃ¡zs Vass",
-          "PÃ©ter Revisnyei",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/PasicB16",
+          "title": "Switching link group Failure Localization via monitoring trails in all-optical networks",
+          "booktitle": "RNDM",
+          "year": "2016",
+          "pages": "92-99",
+          "ee": "https://doi.org/10.1109/RNDM.2016.7608273",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/BabarcziMP23",
-        "title": "Intelligent Control Plane Design for Virtual Software-Defined Networks.",
-        "pages": "1-8",
-        "year": "2023",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM59149.2023.10293099",
-        "url": "db/conf/rndm/rndm2023.html#BabarcziMP23",
-        "authors": [
-          "PÃ©ter Babarczi",
-          "Ferenc MogyorÃ³si",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/PasicGVGB18",
+          "title": "FRADIR: A Novel Framework for Disaster Resilience",
+          "booktitle": "RNDM",
+          "year": "2018",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/RNDM.2018.8489828",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Rita Girão-Silva",
+              "@pid": "30/6586"
+            },
+            {
+              "#text": "Teresa Gomes",
+              "@pid": "38/5734"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/rndm/TornatoreABBFHH16",
-        "title": "A survey on network resiliency methodologies against weather-based disruptions.",
-        "pages": "23-34",
-        "year": "2016",
-        "booktitle": "RNDM",
-        "ee": "https://doi.org/10.1109/RNDM.2016.7608264",
-        "url": "db/conf/rndm/rndm2016.html#TornatoreABBFHH16",
-        "authors": [
-          "Massimo Tornatore",
-          "JoÃ£o AndrÃ©",
-          "PÃ©ter Babarczi",
-          "Torsten Braun",
-          "Eirik Larsen FÃ¸lstad",
-          "Poul E. Heegaard",
-          "Ali Hmaity",
-          "Marija Furdek",
-          "LuÃ­sa Jorge",
-          "Wojciech Kmiecik",
-          "Carmen Mas Machuca",
-          "LÃºcia Martins",
-          "Carmo Medeiros",
-          "Francesco Musumeci 0001",
-          "Alija Pasic",
-          "Jacek Rak",
-          "Steven Simpson",
-          "Rui Travanca",
-          "Artemios G. Voyiatzis"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/PasicGVGMBT19",
+          "title": "FRADIR-II: An Improved Framework for Disaster Resilience",
+          "booktitle": "RNDM",
+          "year": "2019",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/RNDM48015.2019.8949142",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Rita Girão-Silva",
+              "@pid": "30/6586"
+            },
+            {
+              "#text": "Teresa Gomes",
+              "@pid": "38/5734"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pkdd/DobreffRSSTP20",
-        "title": "Physical Performance Optimization in Football.",
-        "pages": "51-61",
-        "year": "2020",
-        "booktitle": "MLSA@PKDD/ECML",
-        "ee": "https://doi.org/10.1007/978-3-030-64912-8_5",
-        "url": "db/conf/pkdd/mlsa2020.html#DobreffRSSTP20",
-        "authors": [
-          "Gergely Dobreff",
-          "PÃ©ter Revisnyei",
-          "GÃ¡bor Schuth",
-          "GyÃ¶rgy Szigeti",
-          "LÃ¡szlÃ³ Toka",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/PasicRM23",
+          "title": "Disaster-Resilient Upgrade of Interdependent Networks",
+          "booktitle": "RNDM",
+          "year": "2023",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/RNDM59149.2023.10293104",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pkdd/CsanalosiDPMT20",
-        "title": "Low-Cost Optical Tracking of Soccer Players.",
-        "pages": "28-39",
-        "year": "2020",
-        "booktitle": "MLSA@PKDD/ECML",
-        "ee": "https://doi.org/10.1007/978-3-030-64912-8_3",
-        "url": "db/conf/pkdd/mlsa2020.html#CsanalosiDPMT20",
-        "authors": [
-          "Gabor Csanalosi",
-          "Gergely Dobreff",
-          "Alija Pasic",
-          "Marton Molnar",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/TornatoreABBFHH16",
+          "title": "A survey on network resiliency methodologies against weather-based disruptions",
+          "booktitle": "RNDM",
+          "year": "2016",
+          "pages": "23-34",
+          "ee": "https://doi.org/10.1109/RNDM.2016.7608264",
+          "author": [
+            {
+              "#text": "Ali Hmaity",
+              "@pid": "174/9640"
+            },
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Artemios G. Voyiatzis",
+              "@pid": "01/1690"
+            },
+            {
+              "#text": "Carmen Mas Machuca",
+              "@pid": "m/CarmenMasMachuca"
+            },
+            {
+              "#text": "Carmo Medeiros",
+              "@pid": "191/2229"
+            },
+            {
+              "#text": "Eirik Larsen Følstad",
+              "@pid": "01/8282"
+            },
+            {
+              "#text": "Francesco Musumeci",
+              "@pid": "78/10585"
+            },
+            {
+              "#text": "Jacek Rak",
+              "@pid": "89/5328"
+            },
+            {
+              "#text": "João André",
+              "@pid": "151/7664"
+            },
+            {
+              "#text": "Lúcia Martins",
+              "@pid": "29/5341"
+            },
+            {
+              "#text": "Luísa Jorge",
+              "@pid": "57/2315"
+            },
+            {
+              "#text": "Marija Furdek",
+              "@pid": "19/10231"
+            },
+            {
+              "#text": "Massimo Tornatore",
+              "@pid": "11/6844"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Poul E. Heegaard",
+              "@pid": "10/3307"
+            },
+            {
+              "#text": "Rui Travanca",
+              "@pid": "191/0199"
+            },
+            {
+              "#text": "Steven Simpson",
+              "@pid": "59/1192"
+            },
+            {
+              "#text": "Torsten Braun",
+              "@pid": "b/TorstenBraun"
+            },
+            {
+              "#text": "Wojciech Kmiecik",
+              "@pid": "39/8239"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/networking/MolnarBHMP26",
-        "title": "Predicting connection quality degradation by radio events in mobile networks using interpretable models.",
-        "booktitle": "IFIP Networking",
-        "year": "2026",
-        "pages": "1-6",
-        "ee": "https://doi.org/10.23919/IFIPNetworking70592.2026.11579052",
-        "url": "db/conf/networking/networking2026.html#MolnarBHMP26",
-        "authors": [
-          "Marton Molnar",
-          "Attila BÃ¡der",
-          "Aitor Hernandez Herranz",
-          "Samie Mostafavi",
-          "Alija Pasic"
-        ]
+        "inproceedings": {
+          "@key": "conf/rndm/VassRP24",
+          "title": "Computing Safest $st$-Paths in Backbone Networks: Efficiently Solvable Cases and Fast Heuristics",
+          "booktitle": "RNDM",
+          "year": "2024",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/RNDM64105.2024.10820391",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/networking/PasicTBBKR15",
-        "title": "Survivable routing meets diversity coding.",
-        "pages": "1-9",
-        "year": "2015",
-        "booktitle": "Networking",
-        "ee": "https://www.wikidata.org/entity/Q58033034",
-        "url": "db/conf/networking/networking2015.html#PasicTBBKR15",
-        "authors": [
-          "Alija Pasic",
-          "JÃ¡nos Tapolcai",
-          "PÃ©ter Babarczi",
-          "Erika R. BÃ©rczi-KovÃ¡cs",
-          "ZoltÃ¡n KirÃ¡ly",
-          "Lajos RÃ³nyai"
-        ]
+        "inproceedings": {
+          "@key": "conf/rtsi/PasicPPB24",
+          "title": "Optimizing Partner Selection for Cooperative Solar Generation Forecasting",
+          "booktitle": "RTSI",
+          "year": "2024",
+          "pages": "248-253",
+          "ee": "https://doi.org/10.1109/RTSI61910.2024.10761768",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Azra Pasic",
+              "@pid": "265/3586"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Lejla Pasic",
+              "@pid": "265/3578"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/ZongorHPT19",
-        "title": "The Performance of Multi-Path TCP with Overlapping Paths.",
-        "pages": "116-118",
-        "year": "2019",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://doi.org/10.1145/3342280.3342328",
-        "url": "db/conf/sigcomm/p2019.html#ZongorHPT19",
-        "authors": [
-          "Lajos Zongor",
-          "ZalÃ¡n Heszberger",
-          "Alija Pasic",
-          "JÃ¡nos Tapolcai"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/ZongorHPT19",
+          "title": "The Performance of Multi-Path TCP with Overlapping Paths",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2019",
+          "pages": "116-118",
+          "ee": "https://doi.org/10.1145/3342280.3342328",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Zongor",
+              "@pid": "246/9069"
+            },
+            {
+              "#text": "Zalán Heszberger",
+              "@pid": "97/6474"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/MogyorosiRPPTVP22",
-        "title": "Positioning in 5G and 6G Networks - A Survey.",
-        "pages": "4757",
-        "year": "2022",
-        "volume": "22",
-        "journal": "Sensors",
-        "number": "13",
-        "ee": "https://doi.org/10.3390/s22134757",
-        "url": "db/journals/sensors/sensors22.html#MogyorosiRPPTVP22",
-        "authors": [
-          "Ferenc MogyorÃ³si",
-          "PÃ©ter Revisnyei",
-          "Azra Pasic",
-          "ZsÃ³fia Papp",
-          "IstvÃ¡n TÃ¶ros",
-          "PÃ¡l Varga",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/access/DobreffBP25",
+          "title": "A QoE and Availability-Aware Framework for Network Slice Placement and Resource Allocation",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "1481-1495",
+          "ee": "https://doi.org/10.1109/ACCESS.2024.3523900",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Báder",
+              "@pid": "63/1814"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/osn/PasicBK17",
-        "title": "Diversity coding-based survivable routing with QoS and differential delay bounds.",
-        "pages": "118-128",
-        "year": "2017",
-        "volume": "23",
-        "journal": "Opt. Switch. Netw.",
-        "ee": "https://doi.org/10.1016/j.osn.2016.06.005",
-        "url": "db/journals/osn/osn23.html#PasicBK17",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Babarczi",
-          "Attila KorÃ¶si"
-        ]
+        "article": {
+          "@key": "journals/access/PasicGMVGBRTR21",
+          "title": "eFRADIR: An Enhanced FRAmework for DIsaster Resilience",
+          "journal": "IEEE Access",
+          "year": "2021",
+          "pages": "13125-13148",
+          "ee": "https://doi.org/10.1109/ACCESS.2021.3050923",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Jacek Rak",
+              "@pid": "89/5328"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            },
+            {
+              "#text": "Rita Girão-Silva",
+              "@pid": "30/6586"
+            },
+            {
+              "#text": "Teresa Gomes",
+              "@pid": "38/5734"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/MogyorosiPCRKT21",
-        "title": "Adaptive Protection of Scientific Backbone Networks Using Machine Learning.",
-        "pages": "1064-1076",
-        "year": "2021",
-        "volume": "18",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TNSM.2021.3050964",
-        "url": "db/journals/tnsm/tnsm18.html#MogyorosiPCRKT21",
-        "authors": [
-          "Ferenc MogyorÃ³si",
-          "Alija Pasic",
-          "Richard Cziva",
-          "PÃ©ter Revisnyei",
-          "Zsolt Kenesi",
-          "JÃ¡nos Tapolcai"
-        ]
+        "article": {
+          "@key": "journals/cn/BabarcziPTNL15",
+          "title": "Instantaneous recovery of unicast connections in transport networks: Routing versus coding",
+          "journal": "Comput. Networks",
+          "year": "2015",
+          "pages": "68-80",
+          "ee": "https://doi.org/10.1016/J.COMNET.2015.02.010",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Bence Ladóczki",
+              "@pid": "163/4741"
+            },
+            {
+              "#text": "Felician Németh",
+              "@pid": "22/2016"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/MogyorosiBZBP22",
-        "title": "Resilient Control Plane Design for Virtualized 6G Core Networks.",
-        "pages": "2453-2467",
-        "year": "2022",
-        "volume": "19",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "number": "3",
-        "ee": "https://doi.org/10.1109/TNSM.2022.3193241",
-        "url": "db/journals/tnsm/tnsm19.html#MogyorosiBZBP22",
-        "authors": [
-          "Ferenc MogyorÃ³si",
-          "PÃ©ter Babarczi",
-          "Johannes Zerwas",
-          "Andreas Blenk",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/ijon/PasicPP26",
+          "title": "A novel, probability-based boolean feature selection algorithm",
+          "journal": "Neurocomputing",
+          "year": "2026",
+          "pages": "133804",
+          "ee": "https://doi.org/10.1016/J.NEUCOM.2026.133804",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Azra Pasic",
+              "@pid": "265/3586"
+            },
+            {
+              "#text": "Lejla Pasic",
+              "@pid": "265/3578"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tnsm/DobreffSP26",
-        "title": "A Framework for Disaster-Tolerant Slice Placement in Future Networks.",
-        "year": "2026",
-        "pages": "5788-5800",
-        "volume": "23",
-        "journal": "IEEE Trans. Netw. Serv. Manag.",
-        "ee": "https://doi.org/10.1109/TNSM.2026.3706661",
-        "url": "db/journals/tnsm/tnsm23.html#DobreffSP26",
-        "authors": [
-          "Gergely Dobreff",
-          "NÃ³ra SzlovencsÃ¡k",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/networks/PasicBT17",
+          "title": "Unambiguous switching link group failure localization in all-optical networks",
+          "journal": "Networks",
+          "year": "2017",
+          "pages": "327-341",
+          "ee": "https://doi.org/10.1002/NET.21779",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ton/PasicBTBKR20",
-        "title": "Minimum Cost Survivable Routing Algorithms for Generalized Diversity Coding.",
-        "pages": "289-300",
-        "year": "2020",
-        "volume": "28",
-        "journal": "IEEE/ACM Trans. Netw.",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/TNET.2019.2963574",
-        "url": "db/journals/ton/ton28.html#PasicBTBKR20",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Babarczi",
-          "JÃ¡nos Tapolcai",
-          "Erika R. BÃ©rczi-KovÃ¡cs",
-          "ZoltÃ¡n KirÃ¡ly",
-          "Lajos RÃ³nyai"
-        ]
+        "article": {
+          "@key": "journals/osn/PasicBK17",
+          "title": "Diversity coding-based survivable routing with QoS and differential delay bounds",
+          "journal": "Opt. Switch. Netw.",
+          "year": "2017",
+          "pages": "118-128",
+          "ee": "https://doi.org/10.1016/J.OSN.2016.06.005",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Attila Korösi",
+              "@pid": "43/3942"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ton/BabarcziTPRBM17",
-        "title": "Diversity Coding in Two-Connected Networks.",
-        "pages": "2308-2319",
-        "year": "2017",
-        "volume": "25",
-        "journal": "IEEE/ACM Trans. Netw.",
-        "number": "4",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TNET.2017.2684909",
-        "url": "db/journals/ton/ton25.html#BabarcziTPRBM17",
-        "authors": [
-          "PÃ©ter Babarczi",
-          "JÃ¡nos Tapolcai",
-          "Alija Pasic",
-          "Lajos RÃ³nyai",
-          "Erika R. BÃ©rczi-KovÃ¡cs",
-          "Muriel MÃ©dard"
-        ]
+        "article": {
+          "@key": "journals/sensors/MogyorosiRPPTVP22",
+          "title": "Positioning in 5G and 6G Networks - A Survey",
+          "journal": "Sensors",
+          "year": "2022",
+          "pages": "4757",
+          "ee": "https://doi.org/10.3390/S22134757",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Azra Pasic",
+              "@pid": "265/3586"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "István Töros",
+              "@pid": "28/8214"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            },
+            {
+              "#text": "Zsófia Papp",
+              "@pid": "322/3197"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/PasicGMVGBRTR21",
-        "title": "eFRADIR: An Enhanced FRAmework for DIsaster Resilience.",
-        "pages": "13125-13148",
-        "year": "2021",
-        "volume": "9",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2021.3050923",
-        "url": "db/journals/access/access9.html#PasicGMVGBRTR21",
-        "authors": [
-          "Alija Pasic",
-          "Rita GirÃ£o-Silva",
-          "Ferenc MogyorÃ³si",
-          "BalÃ¡zs Vass",
-          "Teresa Gomes",
-          "PÃ©ter Babarczi",
-          "PÃ©ter Revisnyei",
-          "JÃ¡nos Tapolcai",
-          "Jacek Rak"
-        ]
+        "article": {
+          "@key": "journals/tnsm/DobreffSP26",
+          "title": "A Framework for Disaster-Tolerant Slice Placement in Future Networks",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2026",
+          "pages": "5788-5800",
+          "ee": "https://doi.org/10.1109/TNSM.2026.3706661",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Gergely Dobreff",
+              "@pid": "270/3979"
+            },
+            {
+              "#text": "Nóra Szlovencsák",
+              "@pid": "440/7591"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/DobreffBP25",
-        "title": "A QoE and Availability-Aware Framework for Network Slice Placement and Resource Allocation.",
-        "pages": "1481-1495",
-        "year": "2025",
-        "volume": "13",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2024.3523900",
-        "url": "db/journals/access/access13.html#DobreffBP25",
-        "authors": [
-          "Gergely Dobreff",
-          "Attila BÃ¡der",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/tnsm/MogyorosiBZBP22",
+          "title": "Resilient Control Plane Design for Virtualized 6G Core Networks",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2022",
+          "pages": "2453-2467",
+          "ee": "https://doi.org/10.1109/TNSM.2022.3193241",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Andreas Blenk",
+              "@pid": "147/1082"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "Johannes Zerwas",
+              "@pid": "187/1014"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cn/BabarcziPTNL15",
-        "title": "Instantaneous recovery of unicast connections in transport networks: Routing versus coding.",
-        "pages": "68-80",
-        "year": "2015",
-        "volume": "82",
-        "journal": "Comput. Networks",
-        "ee": "https://www.wikidata.org/entity/Q58033006",
-        "url": "db/journals/cn/cn82.html#BabarcziPTNL15",
-        "authors": [
-          "PÃ©ter Babarczi",
-          "Alija Pasic",
-          "JÃ¡nos Tapolcai",
-          "Felician NÃ©meth",
-          "Bence LadÃ³czki"
-        ]
+        "article": {
+          "@key": "journals/tnsm/MogyorosiPCRKT21",
+          "title": "Adaptive Protection of Scientific Backbone Networks Using Machine Learning",
+          "journal": "IEEE Trans. Netw. Serv. Manag.",
+          "year": "2021",
+          "pages": "1064-1076",
+          "ee": "https://doi.org/10.1109/TNSM.2021.3050964",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Ferenc Mogyorósi",
+              "@pid": "204/2655"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Péter Revisnyei",
+              "@pid": "284/0376"
+            },
+            {
+              "#text": "Richard Cziva",
+              "@pid": "154/8209"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijon/PasicPP26",
-        "title": "A novel, probability-based boolean feature selection algorithm.",
-        "year": "2026",
-        "pages": "133804",
-        "volume": "691",
-        "journal": "Neurocomputing",
-        "ee": "https://doi.org/10.1016/j.neucom.2026.133804",
-        "url": "db/journals/ijon/ijon691.html#PasicPP26",
-        "authors": [
-          "Azra Pasic",
-          "Lejla Pasic",
-          "Alija Pasic"
-        ]
+        "article": {
+          "@key": "journals/ton/BabarcziTPRBM17",
+          "title": "Diversity Coding in Two-Connected Networks",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2017",
+          "pages": "2308-2319",
+          "ee": "https://doi.org/10.1109/TNET.2017.2684909",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Rónyai",
+              "@pid": "33/5156"
+            },
+            {
+              "#text": "Muriel Médard",
+              "@pid": "m/MurielMedard"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/networks/PasicBT17",
-        "title": "Unambiguous switching link group failure localization in all-optical networks.",
-        "pages": "327-341",
-        "year": "2017",
-        "volume": "70",
-        "journal": "Networks",
-        "number": "4",
-        "ee": "https://doi.org/10.1002/net.21779",
-        "url": "db/journals/networks/networks70.html#PasicBT17",
-        "authors": [
-          "Alija Pasic",
-          "PÃ©ter Babarczi",
-          "JÃ¡nos Tapolcai"
-        ]
+        "article": {
+          "@key": "journals/ton/PasicBTBKR20",
+          "title": "Minimum Cost Survivable Routing Algorithms for Generalized Diversity Coding",
+          "journal": "IEEE/ACM Trans. Netw.",
+          "year": "2020",
+          "pages": "289-300",
+          "ee": "https://doi.org/10.1109/TNET.2019.2963574",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Erika R. Kovács",
+              "@pid": "69/9972"
+            },
+            {
+              "#text": "János Tapolcai",
+              "@pid": "14/4896"
+            },
+            {
+              "#text": "Lajos Rónyai",
+              "@pid": "33/5156"
+            },
+            {
+              "#text": "Péter Babarczi",
+              "@pid": "06/8283"
+            },
+            {
+              "#text": "Zoltán Király",
+              "@pid": "86/4854"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/ccn/GomesMGTPV0NZR20",
+          "title": "Enhancing Availability for Critical Services",
+          "journal": "Guide to Disaster-Resilient Communication Networks",
+          "year": "2020",
+          "pages": "557-581",
+          "ee": "https://doi.org/10.1007/978-3-030-44685-7_22",
+          "author": [
+            {
+              "#text": "Alija Pasic",
+              "@pid": "131/0437"
+            },
+            {
+              "#text": "Balázs Vass",
+              "@pid": "185/5700"
+            },
+            {
+              "#text": "David Tipper",
+              "@pid": "58/4098"
+            },
+            {
+              "#text": "Jacek Rak",
+              "@pid": "89/5328"
+            },
+            {
+              "#text": "Lúcia Martins",
+              "@pid": "29/5341"
+            },
+            {
+              "#text": "Luís Garrote",
+              "@pid": "00/2510-1"
+            },
+            {
+              "#text": "Martin Zachariasen",
+              "@pid": "97/5868"
+            },
+            {
+              "#text": "Rita Girão-Silva",
+              "@pid": "30/6586"
+            },
+            {
+              "#text": "Teresa Gomes",
+              "@pid": "38/5734"
+            },
+            {
+              "#text": "Urbano Nunes",
+              "@pid": "88/3722"
+            }
+          ]
+        }
       }
     ]
   }

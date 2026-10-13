@@ -1,22 +1,30 @@
 {
   "dblpperson": {
+    "@name": "Andrea Bencsik",
     "r": [
       {
-        "type": "article",
-        "key": "journals/ijkm/BencsikJS24",
-        "title": "Beyond Corporate Division: Knowledge and Connections Lead to New Corporate Successes.",
-        "pages": "1-17",
-        "year": "2024",
-        "volume": "21",
-        "journal": "Int. J. Knowl. Manag.",
-        "number": "1",
-        "ee": "https://doi.org/10.4018/ijkm.363639",
-        "url": "db/journals/ijkm/ijkm21.html#BencsikJS24",
-        "authors": [
-          "Andrea Bencsik",
-          "Szonja Jenei",
-          "Szilvia MÃ³dosnÃ© Szalai"
-        ]
+        "article": {
+          "@key": "journals/ijkm/BencsikJS24",
+          "title": "Beyond Corporate Division: Knowledge and Connections Lead to New Corporate Successes",
+          "journal": "Int. J. Knowl. Manag.",
+          "year": "2024",
+          "pages": "1-17",
+          "ee": "https://doi.org/10.4018/IJKM.363639",
+          "author": [
+            {
+              "#text": "Andrea Bencsik",
+              "@pid": "403/5390"
+            },
+            {
+              "#text": "Szilvia Módosné Szalai",
+              "@pid": "403/5770"
+            },
+            {
+              "#text": "Szonja Jenei",
+              "@pid": "403/4350"
+            }
+          ]
+        }
       }
     ]
   }

@@ -1,1084 +1,1961 @@
 {
   "dblpperson": {
+    "@name": "Gabor Kecskemeti",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ucc/Kecskemeti0P14",
-        "title": "Fostering Energy-Awareness in Simulations behind Scientific Workflow Management Systems.",
-        "pages": "29-38",
-        "year": "2014",
-        "booktitle": "UCC",
-        "ee": "http://dl.acm.org/citation.cfm?id=2759992",
-        "url": "db/conf/ucc/ucc2014.html#Kecskemeti0P14",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Simon Ostermann 0001",
-          "Radu Prodan"
-        ]
+        "inproceedings": {
+          "@key": "conf/ccgrid/MaioKP16",
+          "title": "An Improved Model for Live Migration in Data Centre Simulators",
+          "booktitle": "CCGrid",
+          "year": "2016",
+          "pages": "527-530",
+          "ee": "https://doi.org/10.1109/CCGRID.2016.41",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Vincenzo De Maio",
+              "@pid": "167/7912"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ucc/MaioKP16",
-        "title": "An improved model for live migration in data centre simulators.",
-        "pages": "108-117",
-        "year": "2016",
-        "booktitle": "UCC",
-        "ee": "https://ieeexplore.ieee.org/document/7881622/",
-        "url": "db/conf/ucc/ucc2016.html#MaioKP16",
-        "authors": [
-          "Vincenzo De Maio",
-          "Gabor Kecskemeti",
-          "Radu Prodan"
-        ]
+        "inproceedings": {
+          "@key": "conf/cf/KecskemetiKN17",
+          "title": "Cloud Workload Prediction by Means of Simulations",
+          "booktitle": "Conf. Computing Frontiers",
+          "year": "2017",
+          "pages": "279-282",
+          "ee": "https://doi.org/10.1145/3075564.3075589",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/closer/KecskemetiMK18",
-        "title": "Cost-efficient Datacentre Consolidation for Cloud Federations.",
-        "pages": "213-220",
-        "year": "2018",
-        "booktitle": "CLOSER",
-        "ee": "https://doi.org/10.5220/0006775302130220",
-        "url": "db/conf/closer/closer2018.html#KecskemetiMK18",
-        "authors": [
-          "Gabor Kecskemeti",
-          "AndrÃ¡s MÃ¡rkus",
-          "Attila KertÃ©sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/closer/KecskemetiMK18",
+          "title": "Cost-efficient Datacentre Consolidation for Cloud Federations",
+          "booktitle": "CLOSER",
+          "year": "2018",
+          "pages": "213-220",
+          "ee": "https://doi.org/10.5220/0006775302130220",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/closer/KecskemetiMK18a",
-        "title": "Towards Pricing-Aware Consolidation Methods for Cloud Datacenters.",
-        "pages": "152-167",
-        "year": "2018",
-        "booktitle": "CLOSER (Selected Papers)",
-        "ee": "https://doi.org/10.1007/978-3-030-29193-8_8",
-        "url": "db/conf/closer/closer2018s.html#KecskemetiMK18a",
-        "authors": [
-          "Gabor Kecskemeti",
-          "AndrÃ¡s MÃ¡rkus",
-          "Attila KertÃ©sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/closer/KecskemetiMK18a",
+          "title": "Towards Pricing-Aware Consolidation Methods for Cloud Datacenters",
+          "booktitle": "CLOSER (Selected Papers)",
+          "year": "2019",
+          "pages": "152-167",
+          "ee": "https://doi.org/10.1007/978-3-030-29193-8_8",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/grid/TerstyanszkyKDWKK06",
-        "title": "Service-Oriented Production Grids and User Support.",
-        "pages": "323-324",
-        "year": "2006",
-        "booktitle": "GRID",
-        "ee": "http://dl.acm.org/citation.cfm?id=1513987",
-        "url": "db/conf/grid/grid2006.html#TerstyanszkyKDWKK06",
-        "authors": [
-          "GÃ¡bor TerstyÃ¡nszky",
-          "TamÃ¡s Kiss",
-          "Thierry Delaitre",
-          "Stephen C. Winter",
-          "PÃ©ter Kacsuk",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/0001KP14",
+          "title": "Fostering energy-awareness in scientific cloud users",
+          "booktitle": "CloudNet",
+          "year": "2014",
+          "pages": "149-154",
+          "ee": "https://doi.org/10.1109/CLOUDNET.2014.6968984",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Simon Ostermann",
+              "@pid": "33/7684-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/grid/KissTKIDWKS05",
-        "title": "Legacy code support for production grids.",
-        "pages": "278-283",
-        "year": "2005",
-        "booktitle": "GRID",
-        "ee": "http://dl.acm.org/citation.cfm?id=1253508",
-        "url": "db/conf/grid/grid2005.html#KissTKIDWKS05",
-        "authors": [
-          "TamÃ¡s Kiss",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "Gabor Kecskemeti",
-          "S. Illes",
-          "T. Delaittre",
-          "Stephen C. Winter",
-          "PÃ©ter Kacsuk",
-          "Gergely Sipos"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/KimovskiSGSKSPF16",
+          "title": "Towards an Environment for Efficient and Transparent Virtual Machine Operations: The ENTICE Approach",
+          "booktitle": "CloudNet",
+          "year": "2016",
+          "pages": "242-247",
+          "ee": "https://doi.org/10.1109/CLOUDNET.2016.30",
+          "author": [
+            {
+              "#text": "Dragi Kimovski",
+              "@pid": "119/9021"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Nishant Saurabh",
+              "@pid": "169/1009"
+            },
+            {
+              "#text": "Polona Stefanic",
+              "@pid": "191/3570"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Sandi Gec",
+              "@pid": "191/3583"
+            },
+            {
+              "#text": "Thomas Fahringer",
+              "@pid": "31/5444"
+            },
+            {
+              "#text": "Vlado Stankovski",
+              "@pid": "05/677"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/KecskemetiGVNKK14",
-        "title": "One Click Cloud Orchestrator: Bringing Complex Applications Effortlessly to the Clouds.",
-        "pages": "38-49",
-        "year": "2014",
-        "booktitle": "Euro-Par Workshops (2)",
-        "ee": "https://doi.org/10.1007/978-3-319-14313-2_4",
-        "url": "db/conf/europar/europar2014w2.html#KecskemetiGVNKK14",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Mark Gergely",
-          "ÃdÃ¡m VisegrÃ¡di",
-          "Zsolt NÃ©meth",
-          "JÃ³zsef KovÃ¡cs",
-          "PÃ©ter Kacsuk"
-        ]
+        "inproceedings": {
+          "@key": "conf/cluster/MaioKP15",
+          "title": "A Workload-Aware Energy Model for Virtual Machine Migration",
+          "booktitle": "CLUSTER",
+          "year": "2015",
+          "pages": "274-283",
+          "ee": "https://doi.org/10.1109/CLUSTER.2015.47",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Vincenzo De Maio",
+              "@pid": "167/7912"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/SalloK21",
-        "title": "Towards Generating Realistic Trace for Simulating Functions-as-a-Service.",
-        "pages": "428-439",
-        "year": "2021",
-        "booktitle": "Euro-Par Workshops",
-        "ee": "https://doi.org/10.1007/978-3-031-06156-1_34",
-        "url": "db/conf/europar/europar2021w.html#SalloK21",
-        "authors": [
-          "Dilshad Hassan Sallo",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/compsac/BrandicEMDAKK10",
+          "title": "LAYSI: A Layered Approach for SLA-Violation Propagation in Self-Manageable Cloud Infrastructures",
+          "booktitle": "COMPSAC Workshops",
+          "year": "2010",
+          "pages": "365-370",
+          "ee": "https://doi.org/10.1109/COMPSACW.2010.70",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            },
+            {
+              "#text": "Michael Maurer",
+              "@pid": "10/5899"
+            },
+            {
+              "#text": "Sándor Ács",
+              "@pid": "60/11463"
+            },
+            {
+              "#text": "Schahram Dustdar",
+              "@pid": "d/SDustdar"
+            },
+            {
+              "#text": "Vincent C. Emeakaroha",
+              "@pid": "09/8090"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/KecskemetiKM16",
-        "title": "Towards a Methodology to Form Microservices from Monolithic Ones.",
-        "pages": "284-295",
-        "year": "2016",
-        "booktitle": "Euro-Par Workshops",
-        "ee": "https://www.wikidata.org/entity/Q57982060",
-        "url": "db/conf/europar/europar2016w.html#KecskemetiKM16",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz",
-          "Attila Csaba Marosi"
-        ]
+        "inproceedings": {
+          "@key": "conf/egc/GoyenecheKTKDKW05",
+          "title": "Experiences with Deploying Legacy Code Applications as Grid Services Using GEMLCA, ",
+          "booktitle": "EGC",
+          "year": "2005",
+          "pages": "851-860",
+          "ee": "https://doi.org/10.1007/11508380_87",
+          "author": [
+            {
+              "#text": "Ariel Goyeneche",
+              "@pid": "22/1546"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Stephen C. Winter",
+              "@pid": "40/3333"
+            },
+            {
+              "#text": "Tamás Kiss",
+              "@pid": "54/5297"
+            },
+            {
+              "#text": "Thierry Delaitre",
+              "@pid": "05/6007"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/europar/Al-HaboobiK20",
-        "title": "Improving Existing WMS for Reduced Makespan of Workflows with Lambda.",
-        "pages": "261-272",
-        "year": "2020",
-        "booktitle": "Euro-Par Workshops",
-        "ee": "https://doi.org/10.1007/978-3-030-71593-9_21",
-        "url": "db/conf/europar/europar2020w.html#Al-HaboobiK20",
-        "authors": [
-          "Ali Al-Haboobi",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/es/Buenabad-Chavez18",
+          "title": "Towards a Methodology for RAMI4.0 Service Design",
+          "booktitle": "ES",
+          "year": "2018",
+          "pages": "188-195",
+          "ee": "https://doi.org/10.1109/ES.2018.00036",
+          "author": [
+            {
+              "#text": "Evangelia Kavakli",
+              "@pid": "40/2162"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Jorge Buenabad Chávez",
+              "@pid": "03/821"
+            },
+            {
+              "#text": "Rizos Sakellariou",
+              "@pid": "48/2"
+            },
+            {
+              "#text": "Vasilios Tountopoulos",
+              "@pid": "33/839"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icsoc/GuineaKMW11",
-        "title": "Multi-layered Monitoring and Adaptation.",
-        "pages": "359-373",
-        "year": "2011",
-        "booktitle": "ICSOC",
-        "ee": "https://doi.org/10.1007/978-3-642-25535-9_24",
-        "url": "db/conf/icsoc/icsoc2011.html#GuineaKMW11",
-        "authors": [
-          "Sam Guinea",
-          "Gabor Kecskemeti",
-          "Annapaola Marconi",
-          "Branimir Wetzstein"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/Al-HaboobiK20",
+          "title": "Improving Existing WMS for Reduced Makespan of Workflows with Lambda",
+          "booktitle": "Euro-Par Workshops",
+          "year": "2021",
+          "pages": "261-272",
+          "ee": "https://doi.org/10.1007/978-3-030-71593-9_21",
+          "author": [
+            {
+              "#text": "Ali Al-Haboobi",
+              "@pid": "287/7612"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cloudnet/0001KP14",
-        "title": "Fostering energy-awareness in scientific cloud users.",
-        "pages": "149-154",
-        "year": "2014",
-        "booktitle": "CloudNet",
-        "ee": "https://doi.org/10.1109/CloudNet.2014.6968984",
-        "url": "db/conf/cloudnet/cloudnet2014.html#0001KP14",
-        "authors": [
-          "Simon Ostermann 0001",
-          "Gabor Kecskemeti",
-          "Radu Prodan"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/KecskemetiGVNKK14",
+          "title": "One Click Cloud Orchestrator: Bringing Complex Applications Effortlessly to the Clouds",
+          "booktitle": "Euro-Par Workshops (2)",
+          "year": "2014",
+          "pages": "38-49",
+          "ee": "https://doi.org/10.1007/978-3-319-14313-2_4",
+          "author": [
+            {
+              "#text": "Adam Visegradi",
+              "@pid": "130/3337"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "József Kovács",
+              "@pid": "07/7037"
+            },
+            {
+              "#text": "Mark Gergely",
+              "@pid": "128/5147"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cloudnet/KimovskiSGSKSPF16",
-        "title": "Towards an Environment for Efficient and Transparent Virtual Machine Operations: The ENTICE Approach.",
-        "pages": "242-247",
-        "year": "2016",
-        "booktitle": "CloudNet",
-        "ee": "https://www.wikidata.org/entity/Q62037400",
-        "url": "db/conf/cloudnet/cloudnet2016.html#KimovskiSGSKSPF16",
-        "authors": [
-          "Dragi Kimovski",
-          "Nishant Saurabh",
-          "Sandi Gec",
-          "Polona Stefanic",
-          "Gabor Kecskemeti",
-          "Vlado Stankovski",
-          "Radu Prodan",
-          "Thomas Fahringer"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/KecskemetiKM16",
+          "title": "Towards a Methodology to Form Microservices from Monolithic Ones",
+          "booktitle": "Euro-Par Workshops",
+          "year": "2017",
+          "pages": "284-295",
+          "ee": "https://doi.org/10.1007/978-3-319-58943-5_23",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icse/KerteszKNOF12",
-        "title": "A holistic service provisioning solution for Federated Cloud infrastructures.",
-        "pages": "25-26",
-        "year": "2012",
-        "booktitle": "S-Cube@ICSE",
-        "ee": "https://www.wikidata.org/entity/Q57982106",
-        "url": "db/conf/icse/s-cube2012.html#KerteszKNOF12",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Zsolt NÃ©meth",
-          "Marc Oriol",
-          "Xavier Franch"
-        ]
+        "inproceedings": {
+          "@key": "conf/europar/SalloK21",
+          "title": "Towards Generating Realistic Trace for Simulating Functions-as-a-Service",
+          "booktitle": "Euro-Par Workshops",
+          "year": "2022",
+          "pages": "428-439",
+          "ee": "https://doi.org/10.1007/978-3-031-06156-1_34",
+          "author": [
+            {
+              "#text": "Dilshad Hassan Sallo",
+              "@pid": "311/4734"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iot360/KecskemetiN15",
-        "title": "Foundations for Simulating IoT Control Mechanisms with a Chemical Analogy.",
-        "pages": "367-376",
-        "year": "2015",
-        "booktitle": "IoT 360 (1)",
-        "ee": "https://doi.org/10.1007/978-3-319-47063-4_38",
-        "url": "db/conf/iot360/iot360-2015-1.html#KecskemetiN15",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Zsolt NÃ©meth"
-        ]
+        "inproceedings": {
+          "@key": "conf/grid/KissTKIDWKS05",
+          "title": "Legacy code support for production grids",
+          "booktitle": "GRID",
+          "year": "2005",
+          "pages": "278-283",
+          "ee": "https://doi.org/10.1109/GRID.2005.1542754",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Gergely Sipos",
+              "@pid": "65/6297"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "S. Illes",
+              "@pid": "31/3217"
+            },
+            {
+              "#text": "Stephen C. Winter",
+              "@pid": "40/3333"
+            },
+            {
+              "#text": "T. Delaittre",
+              "@pid": "46/3399"
+            },
+            {
+              "#text": "Tamás Kiss",
+              "@pid": "54/5297"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ccgrid/MaioKP16",
-        "title": "An Improved Model for Live Migration in Data Centre Simulators.",
-        "pages": "527-530",
-        "year": "2016",
-        "booktitle": "CCGrid",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CCGrid.2016.41",
-        "url": "db/conf/ccgrid/ccgrid2016.html#MaioKP16",
-        "authors": [
-          "Vincenzo De Maio",
-          "Gabor Kecskemeti",
-          "Radu Prodan"
-        ]
+        "inproceedings": {
+          "@key": "conf/grid/TerstyanszkyKDWKK06",
+          "title": "Service-Oriented Production Grids and User Support",
+          "booktitle": "GRID",
+          "year": "2006",
+          "pages": "323-324",
+          "ee": "https://doi.org/10.1109/ICGRID.2006.311040",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Stephen C. Winter",
+              "@pid": "40/3333"
+            },
+            {
+              "#text": "Tamás Kiss",
+              "@pid": "54/5297"
+            },
+            {
+              "#text": "Thierry Delaitre",
+              "@pid": "05/6007"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/compsac/BrandicEMDAKK10",
-        "title": "LAYSI: A Layered Approach for SLA-Violation Propagation in Self-Manageable Cloud Infrastructures.",
-        "pages": "365-370",
-        "year": "2010",
-        "booktitle": "COMPSAC Workshops",
-        "ee": "https://www.wikidata.org/entity/Q57982132",
-        "url": "db/conf/compsac/compsac2010w.html#BrandicEMDAKK10",
-        "authors": [
-          "Ivona Brandic",
-          "Vincent C. Emeakaroha",
-          "Michael Maurer",
-          "Schahram Dustdar",
-          "Sandor Acs",
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/icac/KerteszKB09",
+          "title": "An SLA-based resource virtualization approach for on-demand service provision",
+          "booktitle": "VTDC@ICAC",
+          "year": "2009",
+          "pages": "27-34",
+          "ee": "https://doi.org/10.1145/1555336.1555341",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icac/KerteszKB09",
-        "title": "An SLA-based resource virtualization approach for on-demand service provision.",
-        "pages": "27-34",
-        "year": "2009",
-        "booktitle": "VTDC@ICAC",
-        "ee": "https://www.wikidata.org/entity/Q57982138",
-        "url": "db/conf/icac/vtdc2009.html#KerteszKB09",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Ivona Brandic"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse/KerteszKNOF12",
+          "title": "A holistic service provisioning solution for Federated Cloud infrastructures",
+          "booktitle": "S-Cube@ICSE",
+          "year": "2012",
+          "pages": "25-26",
+          "ee": "https://doi.org/10.1109/S-CUBE.2012.6225504",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Marc Oriol",
+              "@pid": "18/10358"
+            },
+            {
+              "#text": "Xavier Franch",
+              "@pid": "f/XavierFranch"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/egc/GoyenecheKTKDKW05",
-        "title": "Experiences with Deploying Legacy Code Applications as Grid Services Using GEMLCA, .",
-        "pages": "851-860",
-        "year": "2005",
-        "booktitle": "EGC",
-        "ee": "https://doi.org/10.1007/11508380_87",
-        "url": "db/conf/egc/egc2005.html#GoyenecheKTKDKW05",
-        "authors": [
-          "Ariel Goyeneche",
-          "TamÃ¡s Kiss",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "Gabor Kecskemeti",
-          "Thierry Delaitre",
-          "PÃ©ter Kacsuk",
-          "Stephen C. Winter"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsoc/GuineaKMW11",
+          "title": "Multi-layered Monitoring and Adaptation",
+          "booktitle": "ICSOC",
+          "year": "2011",
+          "pages": "359-373",
+          "ee": "https://doi.org/10.1007/978-3-642-25535-9_24",
+          "author": [
+            {
+              "#text": "Annapaola Marconi",
+              "@pid": "84/4043"
+            },
+            {
+              "#text": "Branimir Wetzstein",
+              "@pid": "76/1351"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Sam Guinea",
+              "@pid": "07/2772"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeehpcs/KecskemetiMK16",
-        "title": "The ENTICE approach to decompose monolithic services into microservices.",
-        "pages": "591-596",
-        "year": "2016",
-        "booktitle": "HPCS",
-        "ee": "https://www.wikidata.org/entity/Q57982075",
-        "url": "db/conf/ieeehpcs/ieeehpcs2016.html#KecskemetiMK16",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Attila Csaba Marosi",
-          "Attila KertÃ©sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeehpcs/GavuaK19",
+          "title": "A Comparative Analysis and Evaluation of MapReduce Cloud Computing Simulators",
+          "booktitle": "HPCS",
+          "year": "2019",
+          "pages": "692-699",
+          "ee": "https://doi.org/10.1109/HPCS48598.2019.9188142",
+          "author": [
+            {
+              "#text": "Ebenezer Komla Gavua",
+              "@pid": "274/1766"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ieeehpcs/GavuaK19",
-        "title": "A Comparative Analysis and Evaluation of MapReduce Cloud Computing Simulators.",
-        "pages": "692-699",
-        "year": "2019",
-        "booktitle": "HPCS",
-        "ee": "https://doi.org/10.1109/HPCS48598.2019.9188142",
-        "url": "db/conf/ieeehpcs/ieeehpcs2019.html#GavuaK19",
-        "authors": [
-          "Ebenezer Komla Gavua",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/ieeehpcs/KecskemetiMK16",
+          "title": "The ENTICE approach to decompose monolithic services into microservices",
+          "booktitle": "HPCS",
+          "year": "2016",
+          "pages": "591-596",
+          "ee": "https://doi.org/10.1109/HPCSIM.2016.7568389",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/KecskemetiKTKD08",
-        "title": "Automatic Service Deployment Using Virtualisation.",
-        "pages": "628-635",
-        "year": "2008",
-        "booktitle": "PDP",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/PDP.2008.89",
-        "url": "db/conf/pdp/pdp2008.html#KecskemetiKTKD08",
-        "authors": [
-          "Gabor Kecskemeti",
-          "PÃ©ter Kacsuk",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "TamÃ¡s Kiss",
-          "Thierry Delaitre"
-        ]
+        "inproceedings": {
+          "@key": "conf/iot360/KecskemetiN15",
+          "title": "Foundations for Simulating IoT Control Mechanisms with a Chemical Analogy",
+          "booktitle": "IoT 360 (1)",
+          "year": "2016",
+          "pages": "367-376",
+          "ee": "https://doi.org/10.1007/978-3-319-47063-4_38",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/KecskemetiMBKND12",
-        "title": "Facilitating Self-Adaptable Inter-cloud Management.",
-        "pages": "575-582",
-        "year": "2012",
-        "booktitle": "PDP",
-        "ee": "https://www.wikidata.org/entity/Q57982107",
-        "url": "db/conf/pdp/pdp2012.html#KecskemetiMBKND12",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Michael Maurer",
-          "Ivona Brandic",
-          "Attila KertÃ©sz",
-          "Zsolt NÃ©meth",
-          "Schahram Dustdar"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/AliK22",
+          "title": "Clustering Datasets in Cloud Computing Environment for User Identification",
+          "booktitle": "PDP",
+          "year": "2022",
+          "pages": "165-171",
+          "ee": "https://doi.org/10.1109/PDP55904.2022.00033",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Shallaw Mohammed Ali",
+              "@pid": "214/4421"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/KerteszKMOFM12",
-        "title": "Integrated Monitoring Approach for Seamless Service Provisioning in Federated Clouds.",
-        "pages": "567-574",
-        "year": "2012",
-        "booktitle": "PDP",
-        "ee": "https://www.wikidata.org/entity/Q57982111",
-        "url": "db/conf/pdp/pdp2012.html#KerteszKMOFM12",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Csaba Attila Marosi",
-          "Marc Oriol",
-          "Xavier Franch",
-          "Jordi Marco"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/KecskemetiHT17",
+          "title": "Modelling Low Power Compute Clusters for Cloud Simulation",
+          "booktitle": "PDP",
+          "year": "2017",
+          "pages": "39-45",
+          "ee": "https://doi.org/10.1109/PDP.2017.33",
+          "author": [
+            {
+              "#text": "Fung Po Tso",
+              "@pid": "75/803"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Wajdi Hajji",
+              "@pid": "199/3341"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/MarkusKK17",
-        "title": "Flexible Representation of IoT Sensors for Cloud Simulators.",
-        "pages": "199-203",
-        "year": "2017",
-        "booktitle": "PDP",
-        "ee": "https://www.wikidata.org/entity/Q57982058",
-        "url": "db/conf/pdp/pdp2017.html#MarkusKK17",
-        "authors": [
-          "AndrÃ¡s MÃ¡rkus",
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/KecskemetiKTKD08",
+          "title": "Automatic Service Deployment Using Virtualisation",
+          "booktitle": "PDP",
+          "year": "2008",
+          "pages": "628-635",
+          "ee": "https://doi.org/10.1109/PDP.2008.89",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Tamás Kiss",
+              "@pid": "54/5297"
+            },
+            {
+              "#text": "Thierry Delaitre",
+              "@pid": "05/6007"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/KerteszKB11",
-        "title": "Autonomic SLA-Aware Service Virtualization for Distributed Systems.",
-        "pages": "503-510",
-        "year": "2011",
-        "booktitle": "PDP",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/PDP.2011.17",
-        "url": "db/conf/pdp/pdp2011.html#KerteszKB11",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Ivona Brandic"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/KecskemetiMBKND12",
+          "title": "Facilitating Self-Adaptable Inter-cloud Management",
+          "booktitle": "PDP",
+          "year": "2012",
+          "pages": "575-582",
+          "ee": "https://doi.org/10.1109/PDP.2012.41",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            },
+            {
+              "#text": "Michael Maurer",
+              "@pid": "10/5899"
+            },
+            {
+              "#text": "Schahram Dustdar",
+              "@pid": "d/SDustdar"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/KecskemetiHT17",
-        "title": "Modelling Low Power Compute Clusters for Cloud Simulation.",
-        "pages": "39-45",
-        "year": "2017",
-        "booktitle": "PDP",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/PDP.2017.33",
-        "url": "db/conf/pdp/pdp2017.html#KecskemetiHT17",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Wajdi Hajji",
-          "Fung Po Tso 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/KerteszKB11",
+          "title": "Autonomic SLA-Aware Service Virtualization for Distributed Systems",
+          "booktitle": "PDP",
+          "year": "2011",
+          "pages": "503-510",
+          "ee": "https://doi.org/10.1109/PDP.2011.17",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/AliK22",
-        "title": "Clustering Datasets in Cloud Computing Environment for User Identification.",
-        "pages": "165-171",
-        "year": "2022",
-        "booktitle": "PDP",
-        "ee": "https://doi.org/10.1109/PDP55904.2022.00033",
-        "url": "db/conf/pdp/pdp2022.html#AliK22",
-        "authors": [
-          "Shallaw Mohammed Ali",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/KerteszKMOFM12",
+          "title": "Integrated Monitoring Approach for Seamless Service Provisioning in Federated Clouds",
+          "booktitle": "PDP",
+          "year": "2012",
+          "pages": "567-574",
+          "ee": "https://doi.org/10.1109/PDP.2012.25",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Jordi Marco",
+              "@pid": "29/631"
+            },
+            {
+              "#text": "Marc Oriol",
+              "@pid": "18/10358"
+            },
+            {
+              "#text": "Xavier Franch",
+              "@pid": "f/XavierFranch"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pdp/ProdanFKKMSBRSW17",
-        "title": "Use Cases towards a Decentralized Repository for Transparent and Efficient Virtual Machine Operations.",
-        "pages": "478-485",
-        "year": "2017",
-        "booktitle": "PDP",
-        "ee": "https://www.wikidata.org/entity/Q62037391",
-        "url": "db/conf/pdp/pdp2017.html#ProdanFKKMSBRSW17",
-        "authors": [
-          "Radu Prodan",
-          "Thomas Fahringer",
-          "Dragi Kimovski",
-          "Gabor Kecskemeti",
-          "Attila Csaba Marosi",
-          "Vlado Stankovski",
-          "Jonathan Becedas",
-          "Jose Julio Ramos",
-          "Craig Sheridan",
-          "Darren Whigham",
-          "Carlos Rodrigo Rubia Marcos"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/MarkusKK17",
+          "title": "Flexible Representation of IoT Sensors for Cloud Simulators",
+          "booktitle": "PDP",
+          "year": "2017",
+          "pages": "199-203",
+          "ee": "https://doi.org/10.1109/PDP.2017.87",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/es/Buenabad-Chavez18",
-        "title": "Towards a Methodology for RAMI4.0 Service Design.",
-        "pages": "188-195",
-        "year": "2018",
-        "booktitle": "ES",
-        "ee": "https://doi.org/10.1109/ES.2018.00036",
-        "url": "db/conf/es/es2018.html#Buenabad-Chavez18",
-        "authors": [
-          "Jorge Buenabad-ChÃ¡vez",
-          "Gabor Kecskemeti",
-          "Vasilios Tountopoulos",
-          "Evangelia Kavakli",
-          "Rizos Sakellariou"
-        ]
+        "inproceedings": {
+          "@key": "conf/pdp/ProdanFKKMSBRSW17",
+          "title": "Use Cases towards a Decentralized Repository for Transparent and Efficient Virtual Machine Operations",
+          "booktitle": "PDP",
+          "year": "2017",
+          "pages": "478-485",
+          "ee": "https://doi.org/10.1109/PDP.2017.47",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Carlos Rodrigo Rubia Marcos",
+              "@pid": "199/3397"
+            },
+            {
+              "#text": "Craig Sheridan",
+              "@pid": "04/10075"
+            },
+            {
+              "#text": "Darren Whigham",
+              "@pid": "158/5290"
+            },
+            {
+              "#text": "Dragi Kimovski",
+              "@pid": "119/9021"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Jonathan Becedas",
+              "@pid": "96/2308"
+            },
+            {
+              "#text": "Jose Julio Ramos",
+              "@pid": "199/3427"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Thomas Fahringer",
+              "@pid": "31/5444"
+            },
+            {
+              "#text": "Vlado Stankovski",
+              "@pid": "05/677"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cf/KecskemetiKN17",
-        "title": "Cloud Workload Prediction by Means of Simulations.",
-        "pages": "279-282",
-        "year": "2017",
-        "booktitle": "Conf. Computing Frontiers",
-        "ee": "https://www.wikidata.org/entity/Q57982054",
-        "url": "db/conf/cf/cf2017.html#KecskemetiKN17",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz",
-          "Zsolt NÃ©meth"
-        ]
+        "informal": {
+          "@key": "conf/scube/AndreBDGGKKNNPa10",
+          "title": "Architectures & Infrastructure",
+          "journal": "S-CUBE Book",
+          "year": "2010",
+          "pages": "85-116",
+          "ee": "https://doi.org/10.1007/978-3-642-17599-2_4",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Claudia Di Napoli",
+              "@pid": "00/5861"
+            },
+            {
+              "#text": "Erwan Daubert",
+              "@pid": "63/587"
+            },
+            {
+              "#text": "Françoise André",
+              "@pid": "49/2652"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Guillaume Gauvrit",
+              "@pid": "61/7692"
+            },
+            {
+              "#text": "Harald Psaier",
+              "@pid": "81/7752"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            },
+            {
+              "#text": "Jan Sudeikat",
+              "@pid": "58/2103"
+            },
+            {
+              "#text": "Jean-Louis Pazat",
+              "@pid": "90/5504"
+            },
+            {
+              "#text": "Maurizio Giordano",
+              "@pid": "76/6246"
+            },
+            {
+              "#text": "Wolfgang Renz",
+              "@pid": "23/3149"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cluster/MaioKP15",
-        "title": "A Workload-Aware Energy Model for Virtual Machine Migration.",
-        "pages": "274-283",
-        "year": "2015",
-        "booktitle": "CLUSTER",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CLUSTER.2015.47",
-        "url": "db/conf/cluster/cluster2015.html#MaioKP15",
-        "authors": [
-          "Vincenzo De Maio",
-          "Gabor Kecskemeti",
-          "Radu Prodan"
-        ]
+        "informal": {
+          "@key": "conf/scube/MetzgerBCDKKKMNWa10",
+          "title": "Analytical Quality Assurance",
+          "journal": "S-CUBE Book",
+          "year": "2010",
+          "pages": "209-270",
+          "ee": "https://doi.org/10.1007/978-3-642-17599-2_7",
+          "author": [
+            {
+              "#text": "Andrea Mocci",
+              "@pid": "43/236"
+            },
+            {
+              "#text": "Andreas Metzger",
+              "@pid": "32/2558"
+            },
+            {
+              "#text": "Branimir Wetzstein",
+              "@pid": "76/1351"
+            },
+            {
+              "#text": "Elisabetta Di Nitto",
+              "@pid": "76/4635"
+            },
+            {
+              "#text": "Fabrizio Silvestri",
+              "@pid": "s/FabrizioSilvestri"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Kyriakos Kritikos",
+              "@pid": "12/5971"
+            },
+            {
+              "#text": "Maha Driss",
+              "@pid": "54/7800"
+            },
+            {
+              "#text": "Manuel Carro",
+              "@pid": "72/789"
+            },
+            {
+              "#text": "Raman Kazhamiakin",
+              "@pid": "88/5834"
+            },
+            {
+              "#text": "Salima Benbernou",
+              "@pid": "b/SalimaBenbernou"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/paapp/SalloK23",
-        "title": "Towards a DISSECT-CF extension for simulating function-as-a-service.",
-        "pages": "288-300",
-        "year": "2023",
-        "volume": "38",
-        "journal": "Int. J. Parallel Emergent Distributed Syst.",
-        "number": "4",
-        "ee": "https://doi.org/10.1080/17445760.2023.2220141",
-        "url": "db/journals/paapp/paapp38.html#SalloK23",
-        "authors": [
-          "Dilshad Hassan Sallo",
-          "Gabor Kecskemeti"
-        ]
+        "inproceedings": {
+          "@key": "conf/ucc/Kecskemeti0P14",
+          "title": "Fostering Energy-Awareness in Simulations behind Scientific Workflow Management Systems",
+          "booktitle": "UCC",
+          "year": "2014",
+          "pages": "29-38",
+          "ee": "https://doi.org/10.1109/UCC.2014.11",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Simon Ostermann",
+              "@pid": "33/7684-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/MarkusAKK23",
-        "title": "Simulating IoT Workflows in DISSECT-CF-Fog.",
-        "pages": "1294",
-        "year": "2023",
-        "volume": "23",
-        "journal": "Sensors",
-        "number": "3",
-        "ee": "https://doi.org/10.3390/s23031294",
-        "url": "db/journals/sensors/sensors23.html#MarkusAKK23",
-        "authors": [
-          "AndrÃ¡s MÃ¡rkus",
-          "Ali Al-Haboobi",
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz"
-        ]
+        "inproceedings": {
+          "@key": "conf/ucc/MaioKP16",
+          "title": "An improved model for live migration in data centre simulators",
+          "booktitle": "UCC",
+          "year": "2016",
+          "pages": "108-117",
+          "ee": "https://doi.org/10.1145/2996890.2996892",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Vincenzo De Maio",
+              "@pid": "167/7912"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/GargAWSKR18",
-        "title": "Cloud computing based bushfire prediction for cyber-physical emergency applications.",
-        "pages": "354-363",
-        "year": "2018",
-        "volume": "79",
-        "journal": "Future Gener. Comput. Syst.",
-        "ee": "https://www.wikidata.org/entity/Q59386271",
-        "url": "db/journals/fgcs/fgcs79.html#GargAWSKR18",
-        "authors": [
-          "Saurabh Kumar Garg 0001",
-          "Jagannath Aryal",
-          "Hao Wang",
-          "Tejal Shah",
-          "Gabor Kecskemeti",
-          "Rajiv Ranjan 0001"
-        ]
+        "article": {
+          "@key": "journals/actaC/Al-HaboobiK21",
+          "title": "Execution Time Reduction in Function Oriented Scientific Workflows",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "131-150",
+          "ee": "https://doi.org/10.14232/ACTACYB.288489",
+          "author": [
+            {
+              "#text": "Ali Al-Haboobi",
+              "@pid": "287/7612"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/KerteszKB14",
-        "title": "An interoperable and self-adaptive approach for SLA-based service virtualization in heterogeneous Cloud environments.",
-        "pages": "54-68",
-        "year": "2014",
-        "volume": "32",
-        "journal": "Future Gener. Comput. Syst.",
-        "ee": "https://www.wikidata.org/entity/Q57982087",
-        "url": "db/journals/fgcs/fgcs32.html#KerteszKB14",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Ivona Brandic"
-        ]
+        "article": {
+          "@key": "journals/actaC/SalloK21",
+          "title": "A Parallel Event System for Large-Scale Cloud Simulations in DISSECT-CF",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "469-484",
+          "ee": "https://doi.org/10.14232/ACTACYB.287937",
+          "author": [
+            {
+              "#text": "Dilshad Hassan Sallo",
+              "@pid": "311/4734"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/KecskemetiTKN11",
-        "title": "An approach for virtual appliance distribution for service deployment.",
-        "pages": "280-289",
-        "year": "2011",
-        "volume": "27",
-        "journal": "Future Gener. Comput. Syst.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.future.2010.09.009",
-        "url": "db/journals/fgcs/fgcs27.html#KecskemetiTKN11",
-        "authors": [
-          "Gabor Kecskemeti",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "PÃ©ter Kacsuk",
-          "Zsolt NÃ©meth"
-        ]
+        "article": {
+          "@key": "journals/algorithms/RjeibK24",
+          "title": "VMP-ER: An Efficient Virtual Machine Placement Algorithm for Energy and Resources Optimization in Cloud Data Center",
+          "journal": "Algorithms",
+          "year": "2024",
+          "pages": "295",
+          "ee": "https://doi.org/10.3390/A17070295",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Hasanein D. Rjeib",
+              "@pid": "384/0762"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/MaioPBK16",
-        "title": "Modelling energy consumption of network transfers and virtual machine migration.",
-        "pages": "388-406",
-        "year": "2016",
-        "volume": "56",
-        "journal": "Future Gener. Comput. Syst.",
-        "ee": "https://doi.org/10.1016/j.future.2015.07.007",
-        "url": "db/journals/fgcs/fgcs56.html#MaioPBK16",
-        "authors": [
-          "Vincenzo De Maio",
-          "Radu Prodan",
-          "Shajulin Benedict",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/cloudcomp/KecskemetiCJLR17",
+          "title": "Modelling and Simulation Challenges in Internet of Things",
+          "journal": "IEEE Cloud Comput.",
+          "year": "2017",
+          "pages": "62-69",
+          "ee": "https://doi.org/10.1109/MCC.2017.18",
+          "author": [
+            {
+              "#text": "Devki Nandan Jha",
+              "@pid": "197/3237"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Giuliano Casale",
+              "@pid": "16/2365"
+            },
+            {
+              "#text": "Justin Lyon",
+              "@pid": "197/3349"
+            },
+            {
+              "#text": "Rajiv Ranjan",
+              "@pid": "68/163-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/SalloK21",
-        "title": "A Parallel Event System for Large-Scale Cloud Simulations in DISSECT-CF.",
-        "pages": "469-484",
-        "year": "2021",
-        "volume": "25",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "ee": "https://doi.org/10.14232/actacyb.287937",
-        "url": "db/journals/actaC/actaC25.html#SalloK21",
-        "authors": [
-          "Dilshad Hassan Sallo",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/cluster/KecskemetiNKR19",
+          "title": "Cloud workload prediction based on workflow execution time discrepancies",
+          "journal": "Clust. Comput.",
+          "year": "2019",
+          "pages": "737-755",
+          "ee": "https://doi.org/10.1007/S10586-018-2849-9",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Rajiv Ranjan",
+              "@pid": "68/163-1"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/actaC/Al-HaboobiK21",
-        "title": "Execution Time Reduction in Function Oriented Scientific Workflows.",
-        "pages": "131-150",
-        "year": "2021",
-        "volume": "25",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "ee": "https://doi.org/10.14232/actacyb.288489",
-        "url": "db/journals/actaC/actaC25.html#Al-HaboobiK21",
-        "authors": [
-          "Ali Al-Haboobi",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/concurrency/0001KP16",
+          "title": "Multi-layered simulations at the heart of workflow enactment on clouds",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2016",
+          "pages": "3180-3201",
+          "ee": "https://doi.org/10.1002/CPE.3733",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Simon Ostermann",
+              "@pid": "33/7684-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/suscom/KecskemetiOP14",
-        "title": "An architecture to stimulate behavioral development of academic cloud users.",
-        "pages": "136-150",
-        "year": "2014",
-        "volume": "4",
-        "journal": "Sustain. Comput. Informatics Syst.",
-        "number": "2",
-        "ee": "https://doi.org/10.1016/j.suscom.2014.04.002",
-        "url": "db/journals/suscom/suscom4.html#KecskemetiOP14",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Simon Ostermann 0001",
-          "Radu Prodan"
-        ]
+        "article": {
+          "@key": "journals/concurrency/KimovskiMGSKKSP18",
+          "title": "Distributed environment for efficient virtual machine image management in federated Cloud architectures",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2018",
+          "ee": "https://doi.org/10.1002/CPE.4220",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Dragi Kimovski",
+              "@pid": "119/9021"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Nishant Saurabh",
+              "@pid": "169/1009"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Sandi Gec",
+              "@pid": "191/3583"
+            },
+            {
+              "#text": "Vlado Stankovski",
+              "@pid": "05/677"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/KerteszKOKARMMMF13",
-        "title": "Enhancing Federated Cloud Management with an Integrated Service Monitoring Approach.",
-        "pages": "699-720",
-        "year": "2013",
-        "volume": "11",
-        "journal": "J. Grid Comput.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q57982105",
-        "url": "db/journals/grid/grid11.html#KerteszKOKARMMMF13",
-        "authors": [
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Marc Oriol",
-          "PÃ©ter Kotcauer",
-          "Sandor Acs",
-          "Marc RodrÃ­guez 0002",
-          "O. MercÃ¨",
-          "Csaba Attila Marosi",
-          "Jordi Marco",
-          "Xavier Franch"
-        ]
+        "article": {
+          "@key": "journals/concurrency/PontoKM21",
+          "title": "Comparison of workload consolidation algorithms for cloud data centers",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2021",
+          "ee": "https://doi.org/10.1002/CPE.6138",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "René Ponto",
+              "@pid": "259/3280"
+            },
+            {
+              "#text": "Zoltán Ádám Mann",
+              "@pid": "16/2962"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/HajnalKMKKL18",
-        "title": "ENTICE VM Image Analysis and Optimised Fragmentation.",
-        "pages": "247-263",
-        "year": "2018",
-        "volume": "16",
-        "journal": "J. Grid Comput.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q125748733",
-        "url": "db/journals/grid/grid16.html#HajnalKMKKL18",
-        "authors": [
-          "Ãkos Hajnal",
-          "Gabor Kecskemeti",
-          "Attila Csaba Marosi",
-          "JÃ³zsef KovÃ¡cs",
-          "PÃ©ter Kacsuk",
-          "RÃ³bert Lovas"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1803-06924",
+          "title": "Cloud Workload Prediction based on Workflow Execution Time Discrepancies",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1803.06924",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Rajiv Ranjan",
+              "@pid": "68/163-1"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/KacsukKKNKF16",
-        "title": "Infrastructure Aware Scientific Workflows and Infrastructure Aware Workflow Managers in Science Gateways.",
-        "pages": "641-654",
-        "year": "2016",
-        "volume": "14",
-        "journal": "J. Grid Comput.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q57982072",
-        "url": "db/journals/grid/grid14.html#KacsukKKNKF16",
-        "authors": [
-          "PÃ©ter Kacsuk",
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz",
-          "Zsolt NÃ©meth",
-          "JÃ³zsef KovÃ¡cs",
-          "ZoltÃ¡n Farkas"
-        ]
+        "informal": {
+          "@key": "journals/corr/Kecskemeti16",
+          "title": "DISSECT-CF: a simulator to foster energy-aware scheduling in infrastructure clouds",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1604.06581",
+          "author": {
+            "#text": "Gabor Kecskemeti",
+            "@pid": "31/6374"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/UrbahKFFKLMBCGKKHL09",
-        "title": "EDGeS: Bridging EGEE to BOINC and XtremWeb.",
-        "pages": "335-354",
-        "year": "2009",
-        "volume": "7",
-        "journal": "J. Grid Comput.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q73606128",
-        "url": "db/journals/grid/grid7.html#UrbahKFFKLMBCGKKHL09",
-        "authors": [
-          "Etienne Urbah",
-          "PÃ©ter Kacsuk",
-          "ZoltÃ¡n Farkas",
-          "Gilles Fedak",
-          "Gabor Kecskemeti",
-          "Oleg Lodygensky",
-          "Csaba Attila Marosi",
-          "ZoltÃ¡n Balaton",
-          "Gabriel Caillat",
-          "Gabor GombÃ¡s",
-          "Adam Kornafeld",
-          "JÃ³zsef KovÃ¡cs",
-          "Haiwu He",
-          "RÃ³bert Lovas"
-        ]
+        "article": {
+          "@key": "journals/fgcs/GargAWSKR18",
+          "title": "Cloud computing based bushfire prediction for cyber-physical emergency applications",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2018",
+          "pages": "354-363",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2017.02.009",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Hao Wang",
+              "@pid": "181/2812"
+            },
+            {
+              "#text": "Jagannath Aryal",
+              "@pid": "75/9763"
+            },
+            {
+              "#text": "Rajiv Ranjan",
+              "@pid": "68/163-1"
+            },
+            {
+              "#text": "Saurabh Kumar Garg",
+              "@pid": "04/883"
+            },
+            {
+              "#text": "Tejal Shah",
+              "@pid": "142/7854"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/Al-HaboobiK23",
-        "title": "Developing a Workflow Management System Simulation for Capturing Internal IaaS Behavioural Knowledge.",
-        "pages": "2",
-        "year": "2023",
-        "volume": "21",
-        "journal": "J. Grid Comput.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s10723-022-09638-7",
-        "url": "db/journals/grid/grid21.html#Al-HaboobiK23",
-        "authors": [
-          "Ali Al-Haboobi",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/fgcs/KecskemetiTKN11",
+          "title": "An approach for virtual appliance distribution for service deployment",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2011",
+          "pages": "280-289",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2010.09.009",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/grid/SillK14",
-        "title": "Guest Editors' Introduction: Special Issue on Interoperability, Federation Frameworks and Application Programming Interfaces for IaaS Clouds.",
-        "pages": "1-2",
-        "year": "2014",
-        "volume": "12",
-        "journal": "J. Grid Comput.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q58793099",
-        "url": "db/journals/grid/grid12.html#SillK14",
-        "authors": [
-          "Alan Sill",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/fgcs/KerteszKB14",
+          "title": "An interoperable and self-adaptive approach for SLA-based service virtualization in heterogeneous Cloud environments",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2014",
+          "pages": "54-68",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2012.05.016",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Ivona Brandic",
+              "@pid": "71/2136"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jcloudc/SalloK23",
-        "title": "Enriching computing simulators by generating realistic serverless traces.",
-        "pages": "36",
-        "year": "2023",
-        "volume": "12",
-        "journal": "J. Cloud Comput.",
-        "number": "1",
-        "ee": "https://doi.org/10.1186/s13677-023-00397-8",
-        "url": "db/journals/jcloudc/jcloudc12.html#SalloK23",
-        "authors": [
-          "Dilshad Hassan Sallo",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/fgcs/MaioPBK16",
+          "title": "Modelling energy consumption of network transfers and virtual machine migration",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2016",
+          "pages": "388-406",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2015.07.007",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Shajulin Benedict",
+              "@pid": "11/4274"
+            },
+            {
+              "#text": "Vincenzo De Maio",
+              "@pid": "167/7912"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/simpra/Kecskemeti15",
-        "title": "DISSECT-CF: A simulator to foster energy-aware scheduling in infrastructure clouds.",
-        "pages": "188-218",
-        "year": "2015",
-        "volume": "58",
-        "journal": "Simul. Model. Pract. Theory",
-        "ee": "https://doi.org/10.1016/j.simpat.2015.05.009",
-        "url": "db/journals/simpra/simpra58.html#Kecskemeti15",
-        "authors": [
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/fi/MarkusKK17",
+          "title": "Cost-Aware IoT Extension of DISSECT-CF",
+          "journal": "Future Internet",
+          "year": "2017",
+          "pages": "47",
+          "ee": "https://doi.org/10.3390/FI9030047",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/peerj-cs/MarkusBKK21",
-        "title": "Actuator behaviour modelling in IoT-Fog-Cloud simulation.",
-        "pages": "e651",
-        "year": "2021",
-        "volume": "7",
-        "journal": "PeerJ Comput. Sci.",
-        "ee": "https://www.wikidata.org/entity/Q110949751",
-        "url": "db/journals/peerj-cs/peerj-cs7.html#MarkusBKK21",
-        "authors": [
-          "AndrÃ¡s MÃ¡rkus",
-          "Mate Biro",
-          "Gabor Kecskemeti",
-          "Attila KertÃ©sz"
-        ]
+        "article": {
+          "@key": "journals/grid/Al-HaboobiK23",
+          "title": "Developing a Workflow Management System Simulation for Capturing Internal IaaS Behavioural Knowledge",
+          "journal": "J. Grid Comput.",
+          "year": "2023",
+          "pages": "2",
+          "ee": "https://doi.org/10.1007/S10723-022-09638-7",
+          "author": [
+            {
+              "#text": "Ali Al-Haboobi",
+              "@pid": "287/7612"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tsc/KecskemetiTKN14",
-        "title": "Towards Efficient Virtual Appliance Delivery with Minimal Manageable Virtual Appliances.",
-        "pages": "279-292",
-        "year": "2014",
-        "volume": "7",
-        "journal": "IEEE Trans. Serv. Comput.",
-        "number": "2",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TSC.2013.12",
-        "url": "db/journals/tsc/tsc7.html#KecskemetiTKN14",
-        "authors": [
-          "Gabor Kecskemeti",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "PÃ©ter Kacsuk",
-          "Zsolt NÃ©meth"
-        ]
+        "article": {
+          "@key": "journals/grid/HajnalKMKKL18",
+          "title": "ENTICE VM Image Analysis and Optimised Fragmentation",
+          "journal": "J. Grid Comput.",
+          "year": "2018",
+          "pages": "247-263",
+          "ee": "https://doi.org/10.1007/S10723-018-9430-X",
+          "author": [
+            {
+              "#text": "Ákos Hajnal",
+              "@pid": "78/2607"
+            },
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "József Kovács",
+              "@pid": "07/7037"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Róbert Lovas",
+              "@pid": "56/5349"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijcisys/AliK24",
-        "title": "EFection: Effectiveness Detection Technique for Clustering Cloud Workload Traces.",
-        "pages": "202",
-        "year": "2024",
-        "volume": "17",
-        "journal": "Int. J. Comput. Intell. Syst.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s44196-024-00618-1",
-        "url": "db/journals/ijcisys/ijcisys17.html#AliK24",
-        "authors": [
-          "Shallaw Mohammed Ali",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/grid/KacsukKKNKF16",
+          "title": "Infrastructure Aware Scientific Workflows and Infrastructure Aware Workflow Managers in Science Gateways",
+          "journal": "J. Grid Comput.",
+          "year": "2016",
+          "pages": "641-654",
+          "ee": "https://doi.org/10.1007/S10723-016-9380-0",
+          "author": [
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "József Kovács",
+              "@pid": "07/7037"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Zoltán Farkas",
+              "@pid": "53/4246"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cloudcomp/KecskemetiCJLR17",
-        "title": "Modelling and Simulation Challenges in Internet of Things.",
-        "pages": "62-69",
-        "year": "2017",
-        "volume": "4",
-        "journal": "IEEE Cloud Comput.",
-        "number": "1",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/MCC.2017.18",
-        "url": "db/journals/cloudcomp/cloudcomp4.html#KecskemetiCJLR17",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Giuliano Casale",
-          "Devki Nandan Jha",
-          "Justin Lyon",
-          "Rajiv Ranjan 0001"
-        ]
+        "article": {
+          "@key": "journals/grid/KerteszKOKARMMMF13",
+          "title": "Enhancing Federated Cloud Management with an Integrated Service Monitoring Approach",
+          "journal": "J. Grid Comput.",
+          "year": "2013",
+          "pages": "699-720",
+          "ee": "https://doi.org/10.1007/S10723-013-9269-0",
+          "author": [
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Jordi Marco",
+              "@pid": "29/631"
+            },
+            {
+              "#text": "Marc Oriol",
+              "@pid": "18/10358"
+            },
+            {
+              "#text": "Marc Rodríguez",
+              "@pid": "63/6172-2"
+            },
+            {
+              "#text": "O. Mercè",
+              "@pid": "136/8457"
+            },
+            {
+              "#text": "Péter Kotcauer",
+              "@pid": "72/11463"
+            },
+            {
+              "#text": "Sándor Ács",
+              "@pid": "60/11463"
+            },
+            {
+              "#text": "Xavier Franch",
+              "@pid": "f/XavierFranch"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fi/MarkusKK17",
-        "title": "Cost-Aware IoT Extension of DISSECT-CF.",
-        "pages": "47",
-        "year": "2017",
-        "volume": "9",
-        "journal": "Future Internet",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q125362247",
-        "url": "db/journals/fi/fi9.html#MarkusKK17",
-        "authors": [
-          "AndrÃ¡s MÃ¡rkus",
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/grid/SillK14",
+          "title": "Guest Editors' Introduction: Special Issue on Interoperability, Federation Frameworks and Application Programming Interfaces for IaaS Clouds",
+          "journal": "J. Grid Comput.",
+          "year": "2014",
+          "pages": "1-2",
+          "ee": "https://doi.org/10.1007/S10723-014-9291-X",
+          "author": [
+            {
+              "#text": "Alan Sill",
+              "@pid": "133/2540"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tpds/KecskemetiTK12",
-        "title": "Virtual Appliance Size Optimization with Active Fault Injection.",
-        "pages": "1983-1995",
-        "year": "2012",
-        "volume": "23",
-        "journal": "IEEE Trans. Parallel Distributed Syst.",
-        "number": "10",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/TPDS.2011.309",
-        "url": "db/journals/tpds/tpds23.html#KecskemetiTK12",
-        "authors": [
-          "Gabor Kecskemeti",
-          "GÃ¡bor TerstyÃ¡nszky",
-          "PÃ©ter Kacsuk"
-        ]
+        "article": {
+          "@key": "journals/grid/UrbahKFFKLMBCGKKHL09",
+          "title": "EDGeS: Bridging EGEE to BOINC and XtremWeb",
+          "journal": "J. Grid Comput.",
+          "year": "2009",
+          "pages": "335-354",
+          "ee": "https://doi.org/10.1007/S10723-009-9137-0",
+          "author": [
+            {
+              "#text": "Adam Kornafeld",
+              "@pid": "60/2390"
+            },
+            {
+              "#text": "Attila Csaba Marosi",
+              "@pid": "05/2854"
+            },
+            {
+              "#text": "Etienne Urbah",
+              "@pid": "55/803"
+            },
+            {
+              "#text": "Gabor Gombás",
+              "@pid": "83/135"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gabriel Caillat",
+              "@pid": "50/5377"
+            },
+            {
+              "#text": "Gilles Fedak",
+              "@pid": "34/3862"
+            },
+            {
+              "#text": "Haiwu He",
+              "@pid": "47/4079"
+            },
+            {
+              "#text": "József Kovács",
+              "@pid": "07/7037"
+            },
+            {
+              "#text": "Oleg Lodygensky",
+              "@pid": "91/6964"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Róbert Lovas",
+              "@pid": "56/5349"
+            },
+            {
+              "#text": "Zoltán Balaton",
+              "@pid": "16/2387"
+            },
+            {
+              "#text": "Zoltán Farkas",
+              "@pid": "53/4246"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/cluster/KecskemetiNKR19",
-        "title": "Cloud workload prediction based on workflow execution time discrepancies.",
-        "pages": "737-755",
-        "year": "2019",
-        "volume": "22",
-        "journal": "Clust. Comput.",
-        "number": "3",
-        "ee": "https://doi.org/10.1007/s10586-018-2849-9",
-        "url": "db/journals/cluster/cluster22.html#KecskemetiNKR19",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Zsolt NÃ©meth",
-          "Attila KertÃ©sz",
-          "Rajiv Ranjan 0001"
-        ]
+        "article": {
+          "@key": "journals/ijcisys/AliK24",
+          "title": "EFection: Effectiveness Detection Technique for Clustering Cloud Workload Traces",
+          "journal": "Int. J. Comput. Intell. Syst.",
+          "year": "2024",
+          "pages": "202",
+          "ee": "https://doi.org/10.1007/S44196-024-00618-1",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Shallaw Mohammed Ali",
+              "@pid": "214/4421"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/concurrency/0001KP16",
-        "title": "Multi-layered simulations at the heart of workflow enactment on clouds.",
-        "pages": "3180-3201",
-        "year": "2016",
-        "volume": "28",
-        "journal": "Concurr. Comput. Pract. Exp.",
-        "number": "11",
-        "ee": "https://doi.org/10.1002/cpe.3733",
-        "url": "db/journals/concurrency/concurrency28.html#0001KP16",
-        "authors": [
-          "Simon Ostermann 0001",
-          "Gabor Kecskemeti",
-          "Radu Prodan"
-        ]
+        "article": {
+          "@key": "journals/informaticaSI/GavuaK23",
+          "title": "ASM-based Formal Model for Analysing Cloud Auto-Scaling Mechanisms",
+          "journal": "Informatica (Slovenia)",
+          "year": "2023",
+          "ee": "https://doi.org/10.31449/INF.V47I6.4622",
+          "author": [
+            {
+              "#text": "Ebenezer Komla Gavua",
+              "@pid": "274/1766"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/concurrency/PontoKM21",
-        "title": "Comparison of workload consolidation algorithms for cloud data centers.",
-        "year": "2021",
-        "volume": "33",
-        "journal": "Concurr. Comput. Pract. Exp.",
-        "number": "9",
-        "ee": "https://doi.org/10.1002/cpe.6138",
-        "url": "db/journals/concurrency/concurrency33.html#PontoKM21",
-        "authors": [
-          "RenÃ© Ponto",
-          "Gabor Kecskemeti",
-          "ZoltÃ¡n ÃdÃ¡m Mann"
-        ]
+        "article": {
+          "@key": "journals/jcloudc/SalloK23",
+          "title": "Enriching computing simulators by generating realistic serverless traces",
+          "journal": "J. Cloud Comput.",
+          "year": "2023",
+          "pages": "36",
+          "ee": "https://doi.org/10.1186/S13677-023-00397-8",
+          "author": [
+            {
+              "#text": "Dilshad Hassan Sallo",
+              "@pid": "311/4734"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/concurrency/KimovskiMGSKKSP18",
-        "title": "Distributed environment for efficient virtual machine image management in federated Cloud architectures.",
-        "year": "2018",
-        "volume": "30",
-        "journal": "Concurr. Comput. Pract. Exp.",
-        "number": "20",
-        "ee": "https://www.wikidata.org/entity/Q57982056",
-        "url": "db/journals/concurrency/concurrency30.html#KimovskiMGSKKSP18",
-        "authors": [
-          "Dragi Kimovski",
-          "Attila Csaba Marosi",
-          "Sandi Gec",
-          "Nishant Saurabh",
-          "Attila KertÃ©sz",
-          "Gabor Kecskemeti",
-          "Vlado Stankovski",
-          "Radu Prodan"
-        ]
+        "article": {
+          "@key": "journals/paapp/SalloK23",
+          "title": "Towards a DISSECT-CF extension for simulating function-as-a-service",
+          "journal": "Int. J. Parallel Emergent Distributed Syst.",
+          "year": "2023",
+          "pages": "288-300",
+          "ee": "https://doi.org/10.1080/17445760.2023.2220141",
+          "author": [
+            {
+              "#text": "Dilshad Hassan Sallo",
+              "@pid": "311/4734"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tjs/AliK23",
-        "title": "SeQual: an unsupervised feature selection method for cloud workload traces.",
-        "pages": "15079-15097",
-        "year": "2023",
-        "volume": "79",
-        "journal": "J. Supercomput.",
-        "number": "13",
-        "ee": "https://doi.org/10.1007/s11227-023-05163-w",
-        "url": "db/journals/tjs/tjs79.html#AliK23",
-        "authors": [
-          "Shallaw Mohammed Ali",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/peerj-cs/MarkusBKK21",
+          "title": "Actuator behaviour modelling in IoT-Fog-Cloud simulation",
+          "journal": "PeerJ Comput. Sci.",
+          "year": "2021",
+          "pages": "e651",
+          "ee": "https://doi.org/10.7717/PEERJ-CS.651",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Mate Biro",
+              "@pid": "299/9618"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/informaticaSI/GavuaK23",
-        "title": "ASM-based Formal Model for Analysing Cloud Auto-Scaling Mechanisms.",
-        "year": "2023",
-        "volume": "47",
-        "journal": "Informatica (Slovenia)",
-        "number": "6",
-        "ee": "https://doi.org/10.31449/inf.v47i6.4622",
-        "url": "db/journals/informaticaSI/informaticaSI47.html#GavuaK23",
-        "authors": [
-          "Ebenezer Komla Gavua",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/sensors/MarkusAKK23",
+          "title": "Simulating IoT Workflows in DISSECT-CF-Fog",
+          "journal": "Sensors",
+          "year": "2023",
+          "pages": "1294",
+          "ee": "https://doi.org/10.3390/S23031294",
+          "author": [
+            {
+              "#text": "Ali Al-Haboobi",
+              "@pid": "287/7612"
+            },
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/algorithms/RjeibK24",
-        "title": "VMP-ER: An Efficient Virtual Machine Placement Algorithm for Energy and Resources Optimization in Cloud Data Center.",
-        "pages": "295",
-        "year": "2024",
-        "volume": "17",
-        "journal": "Algorithms",
-        "number": "7",
-        "ee": "https://doi.org/10.3390/a17070295",
-        "url": "db/journals/algorithms/algorithms17.html#RjeibK24",
-        "authors": [
-          "Hasanein D. Rjeib",
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/simpra/Kecskemeti15",
+          "title": "DISSECT-CF: A simulator to foster energy-aware scheduling in infrastructure clouds",
+          "journal": "Simul. Model. Pract. Theory",
+          "year": "2015",
+          "pages": "188-218",
+          "ee": "https://doi.org/10.1016/J.SIMPAT.2015.05.009",
+          "author": {
+            "#text": "Gabor Kecskemeti",
+            "@pid": "31/6374"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1803-06924",
-        "title": "Cloud Workload Prediction based on Workflow Execution Time Discrepancies.",
-        "year": "2018",
-        "volume": "abs/1803.06924",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1803.06924",
-        "url": "db/journals/corr/corr1803.html#abs-1803-06924",
-        "authors": [
-          "Gabor Kecskemeti",
-          "Zsolt NÃ©meth",
-          "Attila KertÃ©sz",
-          "Rajiv Ranjan 0001"
-        ]
+        "article": {
+          "@key": "journals/suscom/KecskemetiOP14",
+          "title": "An architecture to stimulate behavioral development of academic cloud users",
+          "journal": "Sustain. Comput. Informatics Syst.",
+          "year": "2014",
+          "pages": "136-150",
+          "ee": "https://doi.org/10.1016/J.SUSCOM.2014.04.002",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Radu Prodan",
+              "@pid": "43/1754"
+            },
+            {
+              "#text": "Simon Ostermann",
+              "@pid": "33/7684-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/Kecskemeti16",
-        "title": "DISSECT-CF: a simulator to foster energy-aware scheduling in infrastructure clouds.",
-        "year": "2016",
-        "volume": "abs/1604.06581",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1604.06581",
-        "url": "db/journals/corr/corr1604.html#Kecskemeti16",
-        "authors": [
-          "Gabor Kecskemeti"
-        ]
+        "article": {
+          "@key": "journals/tjs/AliK23",
+          "title": "SeQual: an unsupervised feature selection method for cloud workload traces",
+          "journal": "J. Supercomput.",
+          "year": "2023",
+          "pages": "15079-15097",
+          "ee": "https://doi.org/10.1007/S11227-023-05163-W",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Shallaw Mohammed Ali",
+              "@pid": "214/4421"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tpds/KecskemetiTK12",
+          "title": "Virtual Appliance Size Optimization with Active Fault Injection",
+          "journal": "IEEE Trans. Parallel Distributed Syst.",
+          "year": "2012",
+          "pages": "1983-1995",
+          "ee": "https://doi.org/10.1109/TPDS.2011.309",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsc/KecskemetiTKN14",
+          "title": "Towards Efficient Virtual Appliance Delivery with Minimal Manageable Virtual Appliances",
+          "journal": "IEEE Trans. Serv. Comput.",
+          "year": "2014",
+          "pages": "279-292",
+          "ee": "https://doi.org/10.1109/TSC.2013.12",
+          "author": [
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            },
+            {
+              "#text": "Gábor Terstyánszky",
+              "@pid": "47/1581"
+            },
+            {
+              "#text": "Péter Kacsuk",
+              "@pid": "95/1656"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/ethos/Kecskemeti11",
+          "title": "Foundations of efficient virtual appliance based service deployments",
+          "journal": "",
+          "year": "2011",
+          "author": {
+            "#text": "Gabor Kecskemeti",
+            "@pid": "31/6374"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/lncs/MarkusMKK18",
+          "title": "Efficient Simulation of IoT Cloud Use Cases",
+          "journal": "Autonomous Control for a Reliable Internet of Services",
+          "year": "2018",
+          "pages": "313-336",
+          "ee": "https://doi.org/10.1007/978-3-319-90415-3_12",
+          "author": [
+            {
+              "#text": "András Márkus",
+              "@pid": "41/1545"
+            },
+            {
+              "#text": "Andre Marques",
+              "@pid": "220/5969"
+            },
+            {
+              "#text": "Attila Kertész",
+              "@pid": "k/AttilaKertesz"
+            },
+            {
+              "#text": "Gabor Kecskemeti",
+              "@pid": "31/6374"
+            }
+          ]
+        }
       }
     ]
   }

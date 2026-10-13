@@ -1,38 +1,58 @@
 {
   "dblpperson": {
+    "@name": "Zoltán Belső",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/vtc/BelsoSLPEK11",
-        "title": "Joint Application of Spread Spectrum and OFDM Modulation for Microwave Radio Communication Used for Unmanned Aerial Vehicle.",
-        "pages": "1-5",
-        "year": "2011",
-        "booktitle": "VTC Spring",
-        "ee": "https://doi.org/10.1109/VETECS.2011.5956330",
-        "url": "db/conf/vtc/vtc2011s.html#BelsoSLPEK11",
-        "authors": [
-          "Zoltan Belso",
-          "Tamas Szilagyi",
-          "LÃ¡szlÃ³ Pap",
-          "Kalman Elek",
-          "Istvan Koller"
-        ]
+        "inproceedings": {
+          "@key": "conf/vtc/BelsoSLPEK11",
+          "title": "Joint Application of Spread Spectrum and OFDM Modulation for Microwave Radio Communication Used for Unmanned Aerial Vehicle",
+          "booktitle": "VTC Spring",
+          "year": "2011",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/VETECS.2011.5956330",
+          "author": [
+            {
+              "#text": "Istvan Koller",
+              "@pid": "32/10098"
+            },
+            {
+              "#text": "Kalman Elek",
+              "@pid": "08/10098"
+            },
+            {
+              "#text": "László Pap",
+              "@pid": "70/6608"
+            },
+            {
+              "#text": "Tamas Szilagyi",
+              "@pid": "35/10098"
+            },
+            {
+              "#text": "Zoltan Belso",
+              "@pid": "90/10099"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/winet/BelsoP25",
-        "title": "Evaluation of the capacity region for uplink multi user NOMA in fading environment.",
-        "pages": "3771-3783",
-        "year": "2025",
-        "volume": "31",
-        "journal": "Wirel. Networks",
-        "number": "5",
-        "ee": "https://doi.org/10.1007/s11276-025-03962-y",
-        "url": "db/journals/winet/winet31.html#BelsoP25",
-        "authors": [
-          "Zoltan Belso",
-          "LÃ¡szlÃ³ Pap"
-        ]
+        "article": {
+          "@key": "journals/winet/BelsoP25",
+          "title": "Evaluation of the capacity region for uplink multi user NOMA in fading environment",
+          "journal": "Wirel. Networks",
+          "year": "2025",
+          "pages": "3771-3783",
+          "ee": "https://doi.org/10.1007/S11276-025-03962-Y",
+          "author": [
+            {
+              "#text": "László Pap",
+              "@pid": "70/6608"
+            },
+            {
+              "#text": "Zoltan Belso",
+              "@pid": "90/10099"
+            }
+          ]
+        }
       }
     ]
   }

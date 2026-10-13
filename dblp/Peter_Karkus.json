@@ -1,25 +1,2031 @@
 {
   "dblpperson": {
+    "@name": "Péter Karkus",
     "r": [
       {
-        "type": "article",
-        "key": "journals/corr/abs-2609-08209",
-        "title": "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation.",
-        "year": "2026",
-        "volume": "abs/2609.08209",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2609.08209",
-        "url": "db/journals/corr/corr2609.html#abs-2609-08209",
-        "authors": [
-          "Weiwei Gu",
-          "Anmol Gupta",
-          "Anant Sah",
-          "Ryan Varghese",
-          "Lalitha Shreya Vanam",
-          "Prabhath Adireddi",
-          "Peter Karkus",
-          "Nakul Gopalan"
-        ]
+        "inproceedings": {
+          "@key": "conf/3dim/SunTBLXIKBFZLWPH24",
+          "title": "Partial-View Object View Synthesis via Filtering Inversion",
+          "booktitle": "3DV",
+          "year": "2024",
+          "pages": "453-463",
+          "ee": "https://doi.org/10.1109/3DV62453.2024.00105",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Dieter Fox",
+              "@pid": "f/DieterFox"
+            },
+            {
+              "#text": "Fan-Yun Sun",
+              "@pid": "227/3016"
+            },
+            {
+              "#text": "Jiajun Wu",
+              "@pid": "117/4768"
+            },
+            {
+              "#text": "Jonathan Tremblay",
+              "@pid": "17/8925"
+            },
+            {
+              "#text": "Kevin Lin",
+              "@pid": "69/10883"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Nick Haber",
+              "@pid": "179/4983"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Ruohan Zhang",
+              "@pid": "160/9929"
+            },
+            {
+              "#text": "Stanley T. Birchfield",
+              "@pid": "b/StanBirchfield"
+            },
+            {
+              "#text": "Valts Blukis",
+              "@pid": "210/9692"
+            },
+            {
+              "#text": "Yunzhu Li",
+              "@pid": "182/1831"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aaai/MaKHL20",
+          "title": "Particle Filter Recurrent Neural Networks",
+          "booktitle": "AAAI",
+          "year": "2020",
+          "pages": "5101-5108",
+          "ee": "https://doi.org/10.1609/AAAI.V34I04.5952",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/DeglurkarSM0MKI24",
+          "title": "System-Level Analysis of Module Uncertainty Quantification in the Autonomy Pipeline",
+          "booktitle": "CDC",
+          "year": "2024",
+          "pages": "1103-1109",
+          "ee": "https://doi.org/10.1109/CDC56724.2024.10886366",
+          "author": [
+            {
+              "#text": "Anish Muthali",
+              "@pid": "302/3827"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Claire J. Tomlin",
+              "@pid": "34/7142"
+            },
+            {
+              "#text": "Dragos D. Margineantu",
+              "@pid": "34/5356"
+            },
+            {
+              "#text": "Haotian Shen",
+              "@pid": "227/3167"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sampada Deglurkar",
+              "@pid": "207/7468"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/corl/KarkusHL18",
+          "title": "Particle Filter Networks with Application to Visual Localization",
+          "booktitle": "CoRL",
+          "year": "2018",
+          "pages": "169-178",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/corl/KarkusIM022",
+          "title": "DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles",
+          "booktitle": "CoRL",
+          "year": "2023",
+          "pages": "2170-2180",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvpr/KarkusCH21",
+          "title": "Differentiable SLAM-Net: Learning Particle SLAM for Visual Navigation",
+          "booktitle": "CVPR",
+          "year": "2021",
+          "pages": "2815-2825",
+          "ee": "https://doi.org/10.1109/CVPR46437.2021.00284",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Shaojun Cai",
+              "@pid": "164/8455"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvpr/ZhangKID0I025",
+          "title": "Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models",
+          "booktitle": "CVPR",
+          "year": "2025",
+          "pages": "5422-5432",
+          "ee": "https://doi.org/10.1109/CVPR52734.2025.00510",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wenhao Ding",
+              "@pid": "215/3667"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhejun Zhang",
+              "@pid": "58/9847"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecoc/MatsudaKNTMTY14",
+          "title": "On-chip generation and demultiplexing of quantum correlated photons using silicon-silica monolithic waveguide platform",
+          "booktitle": "ECOC",
+          "year": "2014",
+          "pages": "1-3",
+          "ee": "https://doi.org/10.1109/ECOC.2014.6963832",
+          "author": [
+            {
+              "#text": "Hidetaka Nishi",
+              "@pid": "04/10858"
+            },
+            {
+              "#text": "Hiroki Takesue",
+              "@pid": "23/8786"
+            },
+            {
+              "#text": "Koji Yamada",
+              "@pid": "36/4254"
+            },
+            {
+              "#text": "Nobuyuki Matsuda",
+              "@pid": "142/3009"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tai Tsuchizawa",
+              "@pid": "09/2303"
+            },
+            {
+              "#text": "William J. Munro",
+              "@pid": "66/9717"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iclr/0002HI00LYSIKX025",
+          "title": "STORM: Spatio-TempOral Reconstruction Model For Large-Scale Outdoor Scenes",
+          "booktitle": "ICLR",
+          "year": "2025",
+          "author": [
+            {
+              "#text": "Apoorva Sharma",
+              "@pid": "181/4231"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Boyi Li",
+              "@pid": "131/1124-1"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Jiahui Huang",
+              "@pid": "34/7741"
+            },
+            {
+              "#text": "Jiawei Yang",
+              "@pid": "96/2976-2"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Yan Wang",
+              "@pid": "59/2227-51"
+            },
+            {
+              "#text": "Yue Wang",
+              "@pid": "33/4822-41"
+            },
+            {
+              "#text": "Yurong You",
+              "@pid": "199/1968"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iclr/MaKHLY20",
+          "title": "Discriminative Particle Filter Reinforcement Learning for Complex Partial observations",
+          "booktitle": "ICLR",
+          "year": "2020",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Nan Ye",
+              "@pid": "73/7375"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/ChenKIWP23",
+          "title": "Tree-structured Policy Planning with Learned Behavior Models",
+          "booktitle": "ICRA",
+          "year": "2023",
+          "pages": "7902-7908",
+          "ee": "https://doi.org/10.1109/ICRA48891.2023.10161419",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Xinshuo Weng",
+              "@pid": "192/1952"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/ChristianosKIAP23",
+          "title": "Planning with Occluded Traffic Agents using Bi-Level Variational Occlusion Models",
+          "booktitle": "ICRA",
+          "year": "2023",
+          "pages": "5558-5565",
+          "ee": "https://doi.org/10.1109/ICRA48891.2023.10160604",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Filippos Christianos",
+              "@pid": "184/8334"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Stefano V. Albrecht",
+              "@pid": "118/3975"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/DiehlKVPB25",
+          "title": "LoRD: Adapting Differentiable Driving Policies to Distribution Shifts",
+          "booktitle": "ICRA",
+          "year": "2025",
+          "pages": "7036-7043",
+          "ee": "https://doi.org/10.1109/ICRA55743.2025.11128750",
+          "author": [
+            {
+              "#text": "Christopher Diehl",
+              "@pid": "272/4414"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sushant Veer",
+              "@pid": "173/5950"
+            },
+            {
+              "#text": "Torsten Bertram",
+              "@pid": "32/2490"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/HuangKI00L24",
+          "title": "DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving",
+          "booktitle": "ICRA",
+          "year": "2024",
+          "pages": "6806-6812",
+          "ee": "https://doi.org/10.1109/ICRA57147.2024.10610550",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Chen Lv",
+              "@pid": "130/1873-1"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhiyu Huang",
+              "@pid": "08/10083"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/KarkusAVJ20",
+          "title": "Differentiable Mapping Networks: Learning Structured Map Representations for Sparse Visual Localization",
+          "booktitle": "ICRA",
+          "year": "2020",
+          "pages": "4753-4759",
+          "ee": "https://doi.org/10.1109/ICRA40945.2020.9197452",
+          "author": [
+            {
+              "#text": "Anelia Angelova",
+              "@pid": "46/3065"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Rico Jonschkowski",
+              "@pid": "165/1321"
+            },
+            {
+              "#text": "Vincent Vanhoucke",
+              "@pid": "69/7157"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/PinslerKKHL19",
+          "title": "Factored Contextual Policy Search with Bayesian optimization",
+          "booktitle": "ICRA",
+          "year": "2019",
+          "pages": "7242-7248",
+          "ee": "https://doi.org/10.1109/ICRA.2019.8793808",
+          "author": [
+            {
+              "#text": "Andras Gabor Kupcsik",
+              "@pid": "133/1701"
+            },
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Robert Pinsler",
+              "@pid": "226/6250"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/VeerLCCKP23",
+          "title": "Receding Horizon Planning with Rule Hierarchies for Autonomous Vehicles",
+          "booktitle": "ICRA",
+          "year": "2023",
+          "pages": "1507-1513",
+          "ee": "https://doi.org/10.1109/ICRA48891.2023.10160622",
+          "author": [
+            {
+              "#text": "Karen Leung",
+              "@pid": "183/6257"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Ryan K. Cosner",
+              "@pid": "277/6306"
+            },
+            {
+              "#text": "Sushant Veer",
+              "@pid": "173/5950"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/KarkusHL17",
+          "title": "QMDP-Net: Deep Learning for Planning under Partial Observability",
+          "booktitle": "NIPS",
+          "year": "2017",
+          "pages": "4694-4704",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/nips/Wang0YYIW0F0K24",
+          "title": "DistillNeRF: Perceiving 3D Scenes from Single-Glance Images by Distilling Neural Fields and Foundation Model Features",
+          "booktitle": "NeurIPS",
+          "year": "2024",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Cunjun Yu",
+              "@pid": "232/3014"
+            },
+            {
+              "#text": "Jiawei Yang",
+              "@pid": "96/2976-2"
+            },
+            {
+              "#text": "Letian Wang",
+              "@pid": "17/8467"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sanja Fidler",
+              "@pid": "08/6607"
+            },
+            {
+              "#text": "Seung Wook Kim",
+              "@pid": "07/10150-1"
+            },
+            {
+              "#text": "Steven Lake Waslander",
+              "@pid": "18/7142"
+            },
+            {
+              "#text": "Yue Wang",
+              "@pid": "33/4822-41"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/rss/KarkusMHKLL19",
+          "title": "Differentiable Algorithm Networks for Composable Robot Learning",
+          "booktitle": "Robotics: Science and Systems",
+          "year": "2019",
+          "ee": "https://doi.org/10.15607/RSS.2019.XV.039",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Leslie Pack Kaelbling",
+              "@pid": "k/LesliePackKaelbling"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tomás Lozano-Pérez",
+              "@pid": "90/752"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/BurkodiKVVK13",
+          "title": "Team Organization and Participation in the Eurobot 2012 Contest",
+          "booktitle": "ACE",
+          "year": "2013",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.3182/20130828-3-UK-2039.00044",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "István Vajk",
+              "@pid": "43/3279"
+            },
+            {
+              "#text": "László Csaba Burkodi",
+              "@pid": "154/9723"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tamás Gábor Kiss",
+              "@pid": "154/9759"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sace/KissBVVK13",
+          "title": "The RobonAUT Robot Construction Contest in 2013",
+          "booktitle": "ACE",
+          "year": "2013",
+          "pages": "186-191",
+          "ee": "https://doi.org/10.3182/20130828-3-UK-2039.00045",
+          "author": [
+            {
+              "#text": "Dániel Varga",
+              "@pid": "24/3190"
+            },
+            {
+              "#text": "István Vajk",
+              "@pid": "43/3279"
+            },
+            {
+              "#text": "László Csaba Burkodi",
+              "@pid": "154/9723"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tamás Gábor Kiss",
+              "@pid": "154/9759"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/socs/KarkusWC16",
+          "title": "Recursive Constraint Manifold Subsearch for Multirobot Path Planning with Cooperative Tasks",
+          "booktitle": "SOCS",
+          "year": "2016",
+          "pages": "54-62",
+          "ee": "https://doi.org/10.1609/SOCS.V7I1.18384",
+          "author": [
+            {
+              "#text": "Glenn Wagner",
+              "@pid": "40/10332"
+            },
+            {
+              "#text": "Howie Choset",
+              "@pid": "c/HowieChoset"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1805-08975",
+          "title": "Particle Filter Networks: End-to-End Probabilistic Localization From Visual Observations",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1805.08975",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1807-06696",
+          "title": "Integrating Algorithmic Planning and Deep Learning for Partially Observable Navigation",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1807.06696",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1904-11761",
+          "title": "Factored Contextual Policy Search with Bayesian Optimization",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1904.11761",
+          "author": [
+            {
+              "#text": "Andras Gabor Kupcsik",
+              "@pid": "133/1701"
+            },
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Robert Pinsler",
+              "@pid": "226/6250"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-11602",
+          "title": "Differentiable Algorithm Networks for Composable Robot Learning",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.11602",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Leslie Pack Kaelbling",
+              "@pid": "k/LesliePackKaelbling"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tomás Lozano-Pérez",
+              "@pid": "90/752"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1905-12885",
+          "title": "Particle Filter Recurrent Neural Networks",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1905.12885",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2002-09884",
+          "title": "Discriminative Particle Filter Reinforcement Learning for Complex Partial Observations",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2002.09884",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Nan Ye",
+              "@pid": "73/7375"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            },
+            {
+              "#text": "Xiao Ma",
+              "@pid": "35/573-6"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2005-09530",
+          "title": "Differentiable Mapping Networks: Learning Structured Map Representations for Sparse Visual Localization",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2005.09530",
+          "author": [
+            {
+              "#text": "Anelia Angelova",
+              "@pid": "46/3065"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Rico Jonschkowski",
+              "@pid": "165/1321"
+            },
+            {
+              "#text": "Vincent Vanhoucke",
+              "@pid": "69/7157"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2009-05524",
+          "title": "Physically Embedded Planning Problems: New Challenges for Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2009.05524",
+          "author": [
+            {
+              "#text": "Alistair Muldal",
+              "@pid": "213/7589"
+            },
+            {
+              "#text": "Andrew Jaegle",
+              "@pid": "141/4033"
+            },
+            {
+              "#text": "Arthur Guez",
+              "@pid": "79/6713"
+            },
+            {
+              "#text": "Jonathan J. Hunt",
+              "@pid": "28/10525"
+            },
+            {
+              "#text": "Lars Buesing",
+              "@pid": "16/4453"
+            },
+            {
+              "#text": "Mehdi Mirza",
+              "@pid": "119/1493"
+            },
+            {
+              "#text": "Nicolas Heess",
+              "@pid": "76/9181"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Saran Tunyasuvunakool",
+              "@pid": "215/5104"
+            },
+            {
+              "#text": "Sébastien Racanière",
+              "@pid": "02/9996"
+            },
+            {
+              "#text": "Theophane Weber",
+              "@pid": "17/7225"
+            },
+            {
+              "#text": "Timothy P. Lillicrap",
+              "@pid": "37/10849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2010-01298",
+          "title": "Beyond Tabula-Rasa: a Modular Reinforcement Learning Approach for Physically Embedded 3D Sokoban",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.01298",
+          "author": [
+            {
+              "#text": "Andrew Jaegle",
+              "@pid": "141/4033"
+            },
+            {
+              "#text": "Arthur Guez",
+              "@pid": "79/6713"
+            },
+            {
+              "#text": "Lars Buesing",
+              "@pid": "16/4453"
+            },
+            {
+              "#text": "Mehdi Mirza",
+              "@pid": "119/1493"
+            },
+            {
+              "#text": "Nicolas Heess",
+              "@pid": "76/9181"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Theophane Weber",
+              "@pid": "17/7225"
+            },
+            {
+              "#text": "Timothy P. Lillicrap",
+              "@pid": "37/10849"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2105-07593",
+          "title": "Differentiable SLAM-net: Learning Particle SLAM for Visual Navigation",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2105.07593",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Shaojun Cai",
+              "@pid": "164/8455"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2210-14584",
+          "title": "Planning with Occluded Traffic Agents using Bi-Level Variational Occlusion Models",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2210.14584",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Filippos Christianos",
+              "@pid": "184/8334"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Stefano V. Albrecht",
+              "@pid": "118/3975"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2211-04878",
+          "title": "Foundation Models for Semantic Novelty in Reinforcement Learning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2211.04878",
+          "author": [
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Tarun Gupta",
+              "@pid": "38/6099-2"
+            },
+            {
+              "#text": "Tong Che",
+              "@pid": "125/0738"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2212-06437",
+          "title": "DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2212.06437",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2301-11902",
+          "title": "Tree-structured Policy Planning with Learned Behavior Models",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2301.11902",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Xinshuo Weng",
+              "@pid": "192/1952"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2304-00673",
+          "title": "Partial-View Object View Synthesis via Filtered Inversion",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2304.00673",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Dieter Fox",
+              "@pid": "f/DieterFox"
+            },
+            {
+              "#text": "Fan-Yun Sun",
+              "@pid": "227/3016"
+            },
+            {
+              "#text": "Jiajun Wu",
+              "@pid": "117/4768"
+            },
+            {
+              "#text": "Jonathan Tremblay",
+              "@pid": "17/8925"
+            },
+            {
+              "#text": "Kevin Lin",
+              "@pid": "69/10883"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Nick Haber",
+              "@pid": "179/4983"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Ruohan Zhang",
+              "@pid": "160/9929"
+            },
+            {
+              "#text": "Stanley T. Birchfield",
+              "@pid": "b/StanBirchfield"
+            },
+            {
+              "#text": "Valts Blukis",
+              "@pid": "210/9692"
+            },
+            {
+              "#text": "Yunzhu Li",
+              "@pid": "182/1831"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-05885",
+          "title": "DTPP: Differentiable Joint Conditional Prediction and Cost Evaluation for Tree Policy Planning in Autonomous Driving",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.05885",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Chen Lv",
+              "@pid": "130/1873-1"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhiyu Huang",
+              "@pid": "08/10083"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2310-18301",
+          "title": "Interactive Motion Planning for Autonomous Vehicles with Joint Optimization",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2310.18301",
+          "author": [
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sushant Veer",
+              "@pid": "173/5950"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2406-12095",
+          "title": "DistillNeRF: Perceiving 3D Scenes from Single-Glance Images by Distilling Neural Fields and Foundation Model Features",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2406.12095",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Cunjun Yu",
+              "@pid": "232/3014"
+            },
+            {
+              "#text": "Jiawei Yang",
+              "@pid": "96/2976-2"
+            },
+            {
+              "#text": "Letian Wang",
+              "@pid": "17/8467"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sanja Fidler",
+              "@pid": "08/6607"
+            },
+            {
+              "#text": "Seung Wook Kim",
+              "@pid": "07/10150-1"
+            },
+            {
+              "#text": "Steven Lake Waslander",
+              "@pid": "18/7142"
+            },
+            {
+              "#text": "Yue Wang",
+              "@pid": "33/4822-41"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2410-09681",
+          "title": "LoRD: Adapting Differentiable Driving Policies to Distribution Shifts",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.09681",
+          "author": [
+            {
+              "#text": "Christopher Diehl",
+              "@pid": "272/4414"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sushant Veer",
+              "@pid": "173/5950"
+            },
+            {
+              "#text": "Torsten Bertram",
+              "@pid": "32/2490"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2410-12019",
+          "title": "System-Level Analysis of Module Uncertainty Quantification in the Autonomy Pipeline",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2410.12019",
+          "author": [
+            {
+              "#text": "Anish Muthali",
+              "@pid": "302/3827"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Claire J. Tomlin",
+              "@pid": "34/7142"
+            },
+            {
+              "#text": "Dragos D. Margineantu",
+              "@pid": "34/5356"
+            },
+            {
+              "#text": "Haotian Shen",
+              "@pid": "227/3167"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sampada Deglurkar",
+              "@pid": "207/7468"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2411-02158",
+          "title": "Learning Multiple Initial Solutions to Optimization Problems",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2411.02158",
+          "author": [
+            {
+              "#text": "Elad Sharony",
+              "@pid": "393/1799"
+            },
+            {
+              "#text": "Heng Yang",
+              "@pid": "83/415"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Shie Mannor",
+              "@pid": "20/1669"
+            },
+            {
+              "#text": "Tong Che",
+              "@pid": "125/0738"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2412-05334",
+          "title": "Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2412.05334",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wenhao Ding",
+              "@pid": "215/3667"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhejun Zhang",
+              "@pid": "58/9847"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2501-00602",
+          "title": "STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2501.00602",
+          "author": [
+            {
+              "#text": "Apoorva Sharma",
+              "@pid": "181/4231"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Boyi Li",
+              "@pid": "131/1124-1"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Jiahui Huang",
+              "@pid": "34/7741"
+            },
+            {
+              "#text": "Jiawei Yang",
+              "@pid": "96/2976-2"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Yan Wang",
+              "@pid": "59/2227-51"
+            },
+            {
+              "#text": "Yue Wang",
+              "@pid": "33/4822-41"
+            },
+            {
+              "#text": "Yurong You",
+              "@pid": "199/1968"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2505-09074",
+          "title": "Deployable and Generalizable Motion Prediction: Taxonomy, Open Challenges and Future Directions",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2505.09074",
+          "author": [
+            {
+              "#text": "Abulikemu Abuduweili",
+              "@pid": "245/8652"
+            },
+            {
+              "#text": "Barza Nisar",
+              "@pid": "232/2800"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Changliu Liu",
+              "@pid": "166/3563"
+            },
+            {
+              "#text": "Evan Cook",
+              "@pid": "392/9887"
+            },
+            {
+              "#text": "Hao Shao",
+              "@pid": "66/3089"
+            },
+            {
+              "#text": "Jiachen Li",
+              "@pid": "137/8316-3"
+            },
+            {
+              "#text": "Letian Wang",
+              "@pid": "17/8467"
+            },
+            {
+              "#text": "Marc-Antoine Lavoie",
+              "@pid": "263/6287"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sandro Papais",
+              "@pid": "347/2682"
+            },
+            {
+              "#text": "Steven Lake Waslander",
+              "@pid": "18/7142"
+            },
+            {
+              "#text": "Wenhao Ding",
+              "@pid": "215/3667"
+            },
+            {
+              "#text": "Yang Zhou",
+              "@pid": "07/4580-54"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2512-01993",
+          "title": "RoaD: Rollouts as Demonstrations for Closed-Loop Supervised Fine-Tuning of Autonomous Driving Policies",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2512.01993",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Guillermo Garcia-Cobo",
+              "@pid": "352/3984"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Michael Watson",
+              "@pid": "13/5565"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhejun Zhang",
+              "@pid": "58/9847"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2606-07464",
+          "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2606.07464",
+          "author": [
+            {
+              "#text": "Alexander Popov",
+              "@pid": "41/9829"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Boyi Li",
+              "@pid": "131/1124-1"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Nikolai Smolyanskiy",
+              "@pid": "151/2100"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Ping Luo",
+              "@pid": "54/4989-2"
+            },
+            {
+              "#text": "Wenhao Ding",
+              "@pid": "215/3667"
+            },
+            {
+              "#text": "Yan Wang",
+              "@pid": "59/2227-51"
+            },
+            {
+              "#text": "Yiming Li",
+              "@pid": "l/YimingLi-3"
+            },
+            {
+              "#text": "Yurong You",
+              "@pid": "199/1968"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "317/6795"
+            },
+            {
+              "#text": "Zhixuan Liang",
+              "@pid": "212/8952"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-20756",
+          "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.20756",
+          "author": [
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Christos Sakaridis",
+              "@pid": "188/5858"
+            },
+            {
+              "#text": "Damiano Da Col",
+              "@pid": "447/0065"
+            },
+            {
+              "#text": "Kashyap Chitta",
+              "@pid": "220/3765"
+            },
+            {
+              "#text": "Konrad Schindler",
+              "@pid": "73/488"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KarkusHL17",
+          "title": "QMDP-Net: Deep Learning for Planning under Partial Observability",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1703.06692",
+          "author": [
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/KarkusKHL16",
+          "title": "Factored Contextual Policy Search with Bayesian Optimization",
+          "journal": "CoRR",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1612.01746",
+          "author": [
+            {
+              "#text": "Andras Gabor Kupcsik",
+              "@pid": "133/1701"
+            },
+            {
+              "#text": "David Hsu",
+              "@pid": "29/331"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Wee Sun Lee",
+              "@pid": "86/1498"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ral/ChenVKP24",
+          "title": "Interactive Joint Planning for Autonomous Vehicles",
+          "journal": "IEEE Robotics Autom. Lett.",
+          "year": "2024",
+          "pages": "987-994",
+          "ee": "https://doi.org/10.1109/LRA.2023.3332474",
+          "author": [
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Sushant Veer",
+              "@pid": "173/5950"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "158/4934-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ral/LiangCYKDLPWILXSILP26",
+          "title": "Planning-Aligned Token Compression for Long-Context Autonomous Driving",
+          "journal": "IEEE Robotics Autom. Lett.",
+          "year": "2026",
+          "pages": "11849-11856",
+          "ee": "https://doi.org/10.1109/LRA.2026.3728337",
+          "author": [
+            {
+              "#text": "Alexander Popov",
+              "@pid": "41/9829"
+            },
+            {
+              "#text": "Boris Ivanovic",
+              "@pid": "203/8356"
+            },
+            {
+              "#text": "Boyi Li",
+              "@pid": "131/1124-1"
+            },
+            {
+              "#text": "Danfei Xu",
+              "@pid": "135/8443"
+            },
+            {
+              "#text": "Marco Pavone",
+              "@pid": "91/3382-1"
+            },
+            {
+              "#text": "Maximilian Igl",
+              "@pid": "207/8245"
+            },
+            {
+              "#text": "Nikolai Smolyanskiy",
+              "@pid": "151/2100"
+            },
+            {
+              "#text": "Péter Karkus",
+              "@pid": "154/9692"
+            },
+            {
+              "#text": "Ping Luo",
+              "@pid": "54/4989-2"
+            },
+            {
+              "#text": "Wenhao Ding",
+              "@pid": "215/3667"
+            },
+            {
+              "#text": "Yan Wang",
+              "@pid": "59/2227-51"
+            },
+            {
+              "#text": "Yiming Li",
+              "@pid": "l/YimingLi-3"
+            },
+            {
+              "#text": "Yurong You",
+              "@pid": "199/1968"
+            },
+            {
+              "#text": "Yuxiao Chen",
+              "@pid": "158/4934-1"
+            },
+            {
+              "#text": "Zhixuan Liang",
+              "@pid": "212/8952"
+            }
+          ]
+        }
       }
     ]
   }

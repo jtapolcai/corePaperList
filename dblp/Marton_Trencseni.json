@@ -1,102 +1,198 @@
 {
   "dblpperson": {
+    "@name": "Marton Trencseni",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/cidr/CsabaiTDJHPBS07",
-        "title": "Spatial Indexing of Large Multidimensional Databases.",
-        "pages": "207-218",
-        "year": "2007",
-        "booktitle": "CIDR",
-        "ee": "http://cidrdb.org/cidr2007/papers/cidr07p23.pdf",
-        "url": "db/conf/cidr/cidr2007.html#CsabaiTDJHPBS07",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Geza Herczegh",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "inproceedings": {
+          "@key": "conf/cidr/CsabaiTDJHPBS07",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "booktitle": "CIDR",
+          "year": "2007",
+          "pages": "207-218",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1302-3860",
-        "title": "ScalienDB: Designing and Implementing a Distributed Database using Paxos",
-        "ee": "https://doi.org/10.48550/arXiv.1302.3860",
-        "year": "2013",
-        "journal": "CoRR",
-        "volume": "abs/1302.3860",
-        "url": "db/journals/corr/corr1302.html#abs-1302-3860",
-        "authors": [
-          "Marton Trencseni",
-          "Attila GazsÃ³"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1209-3913",
+          "title": "Keyspace: A Consistently Replicated, Highly-Available Key-Value Store",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.3913",
+          "author": [
+            {
+              "#text": "Attila Gazsó",
+              "@pid": "119/4918"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1209-6490",
-        "title": "Spatial Indexing of Large Multidimensional Databases",
-        "ee": "https://doi.org/10.48550/arXiv.1209.6490",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1209.6490",
-        "url": "db/journals/corr/corr1209.html#abs-1209-6490",
-        "authors": [
-          "IstvÃ¡n Csabai",
-          "Marton Trencseni",
-          "Geza Herczegh",
-          "LÃ¡szlÃ³ Dobos 0001",
-          "Peter Jozsa",
-          "Norbert Purger",
-          "Tamas Budavari",
-          "Alexander S. Szalay"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1209-4187",
+          "title": "PaxosLease: Diskless Paxos for Leases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.4187",
+          "author": [
+            {
+              "#text": "Attila Gazsó",
+              "@pid": "119/4918"
+            },
+            {
+              "#text": "Holger Reinhardt",
+              "@pid": "119/4804"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1209-3913",
-        "title": "Keyspace: A Consistently Replicated, Highly-Available Key-Value Store",
-        "ee": "https://doi.org/10.48550/arXiv.1209.3913",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1209.3913",
-        "url": "db/journals/corr/corr1209.html#abs-1209-3913",
-        "authors": [
-          "Marton Trencseni",
-          "Attila GazsÃ³"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1209-6490",
+          "title": "Spatial Indexing of Large Multidimensional Databases",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1209.6490",
+          "author": [
+            {
+              "#text": "Alex Szalay",
+              "@pid": "s/AlexanderSSzalay"
+            },
+            {
+              "#text": "Geza Herczegh",
+              "@pid": "08/5868"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            },
+            {
+              "#text": "Norbert Purger",
+              "@pid": "14/4724"
+            },
+            {
+              "#text": "Peter Jozsa",
+              "@pid": "09/690"
+            },
+            {
+              "#text": "Tamás Budavári",
+              "@pid": "49/161"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1209-4187",
-        "title": "PaxosLease: Diskless Paxos for Leases",
-        "ee": "https://doi.org/10.48550/arXiv.1209.4187",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1209.4187",
-        "url": "db/journals/corr/corr1209.html#abs-1209-4187",
-        "authors": [
-          "Marton Trencseni",
-          "Attila GazsÃ³",
-          "Holger Reinhardt"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1210-3595",
+          "title": "Plane-Sweep Incremental Algorithm: Computing Delaunay Tessellations of Large Datasets",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1210.3595",
+          "author": [
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1210-3595",
-        "title": "Plane-Sweep Incremental Algorithm: Computing Delaunay Tessellations of Large Datasets",
-        "ee": "https://doi.org/10.48550/arXiv.1210.3595",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1210.3595",
-        "url": "db/journals/corr/corr1210.html#abs-1210-3595",
-        "authors": [
-          "Marton Trencseni",
-          "IstvÃ¡n Csabai"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1302-3860",
+          "title": "ScalienDB: Designing and Implementing a Distributed Database using Paxos",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1302.3860",
+          "author": [
+            {
+              "#text": "Attila Gazsó",
+              "@pid": "119/4918"
+            },
+            {
+              "#text": "Márton Trencséni",
+              "@pid": "21/3620"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-01607",
+          "title": "Monte Carlo Experiments of Network Effects in Randomized Controlled Trials",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.01607",
+          "author": {
+            "#text": "Márton Trencséni",
+            "@pid": "21/3620"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-14640",
+          "title": "PaxosLease Revisited: A Checked Model of Diskless Distributed Leases",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.14640",
+          "author": {
+            "#text": "Márton Trencséni",
+            "@pid": "21/3620"
+          }
+        }
       }
     ]
   }

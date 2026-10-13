@@ -1,1364 +1,2345 @@
 {
   "dblpperson": {
+    "@name": "Domonkos Tikk",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/bis/KardkovacsT08",
-        "title": "Determining Relevant Deep Web Sites by Query Context Identification.",
-        "pages": "119-130",
-        "year": "2008",
-        "booktitle": "BIS (Workshops)",
-        "ee": "https://ceur-ws.org/Vol-333/adw1.pdf",
-        "url": "db/conf/bis/bisw2008.html#KardkovacsT08",
-        "authors": [
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fskd/WongTBG02",
-        "title": "Intelligent Well Log Data Analysis: A Comparison Study.",
-        "pages": "71-75",
-        "year": "2002",
-        "booktitle": "FSKD",
-        "url": "db/conf/fskd/fskd2002.html#WongTBG02",
-        "authors": [
-          "Kok Wai Wong",
-          "Domonkos Tikk",
-          "GyÃ¶rgy BirÃ³",
-          "TamÃ¡s D. Gedeon"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/HidasiQKT16",
-        "title": "Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations.",
-        "pages": "241-248",
-        "year": "2016",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2959100.2959167",
-        "url": "db/conf/recsys/recsys2016.html#HidasiQKT16",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Massimo Quadrana",
-          "Alexandros Karatzoglou",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/SaidTH12",
-        "title": "The challenge of recommender systems challenges.",
-        "pages": "9-10",
-        "year": "2012",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2365952.2365959",
-        "url": "db/conf/recsys/recsys2012.html#SaidTH12",
-        "authors": [
-          "Alan Said",
-          "Domonkos Tikk",
-          "Andreas Hotho"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/TakacsPNT08",
-        "title": "Matrix factorization and neighbor based algorithms for the netflix prize problem.",
-        "pages": "267-274",
-        "year": "2008",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/1454008.1454049",
-        "url": "db/conf/recsys/recsys2008.html#TakacsPNT08",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "BottyÃ¡n NÃ©meth",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/MotajcsekMLKLTA16",
-        "title": "Algorithms Aside: Recommendation As The Lens Of Life.",
-        "pages": "215-219",
-        "year": "2016",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2959100.2959164",
-        "url": "db/conf/recsys/recsys2016.html#MotajcsekMLKLTA16",
-        "authors": [
-          "Tamas Motajcsek",
-          "Jean-Yves Le Moine",
-          "Martha A. Larson",
-          "Daniel Kohlsdorf",
-          "Andreas Lommatzsch",
-          "Domonkos Tikk",
-          "Omar Alonso",
-          "Paolo Cremonesi",
-          "Andrew M. Demetriou",
-          "Kristaps Dobrajs",
-          "Franca Garzotto",
-          "Ayse GÃ¶ker",
-          "Frank Hopfgartner",
-          "Davide Malagoli",
-          "Thuy Ngoc Nguyen 0001",
-          "Jasminko Novak",
-          "Francesco Ricci 0001",
-          "Mario Scriminaci",
-          "Marko Tkalcic",
-          "Anna Zacchi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/PilaszyT09",
-        "title": "Recommending new movies: even a few ratings are more valuable than metadata.",
-        "pages": "93-100",
-        "year": "2009",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/1639714.1639731",
-        "url": "db/conf/recsys/recsys2009.html#PilaszyT09",
-        "authors": [
-          "IstvÃ¡n PilÃ¡szy",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/BelloginCST13",
-        "title": "Workshop on reproducibility and replication in recommender systems evaluation: RepSys.",
-        "pages": "485-486",
-        "year": "2013",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2507157.2508006",
-        "url": "db/conf/recsys/recsys2013.html#BelloginCST13",
-        "authors": [
-          "Alejandro BellogÃ­n",
-          "Pablo Castells",
-          "Alan Said",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/TakacsPT11",
-        "title": "Applications of the conjugate gradient method for implicit feedback collaborative filtering.",
-        "pages": "297-300",
-        "year": "2011",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2043932.2043987",
-        "url": "db/conf/recsys/recsys2011.html#TakacsPT11",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/LarsonTT15",
-        "title": "Overview of ACM RecSys CrowdRec 2015 Workshop: Crowdsourcing and Human Computation for Recommender Systems.",
-        "pages": "341-342",
-        "year": "2015",
-        "booktitle": "RecSys",
-        "ee": "https://dl.acm.org/citation.cfm?id=2798719",
-        "url": "db/conf/recsys/recsys2015.html#LarsonTT15",
-        "authors": [
-          "Martha A. Larson",
-          "Domonkos Tikk",
-          "Roberto Turrin"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/SaidDLT14",
-        "title": "Recommender systems challenge 2014.",
-        "pages": "387-388",
-        "year": "2014",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2645710.2645779",
-        "url": "db/conf/recsys/recsys2014.html#SaidDLT14",
-        "authors": [
-          "Alan Said",
-          "Simon Dooms",
-          "Babak Loni",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/HidasiKSSTVD18",
-        "title": "DLRS 2018: third workshop on deep learning for recommender systems.",
-        "pages": "512-513",
-        "year": "2018",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/3240323.3240333",
-        "url": "db/conf/recsys/recsys2018.html#HidasiKSSTVD18",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Alexandros Karatzoglou",
-          "Oren Sar Shalom",
-          "Bracha Shapira",
-          "Domonkos Tikk",
-          "Flavian Vasile",
-          "Sander Dieleman"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/ManouselisSTHKDVJ12",
-        "title": "Recommender systems challenge 2012.",
-        "pages": "353-354",
-        "year": "2012",
-        "booktitle": "RecSys",
-        "ee": "https://www.wikidata.org/entity/Q57703137",
-        "url": "db/conf/recsys/recsys2012.html#ManouselisSTHKDVJ12",
-        "authors": [
-          "Nikos Manouselis",
-          "Alan Said",
-          "Domonkos Tikk",
-          "Jannis Hermanns",
-          "Benjamin Kille",
-          "Hendrik Drachsler",
-          "Katrien Verbert",
-          "Kris Jack"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/PilaszyZT10",
-        "title": "Fast als-based matrix factorization for explicit and implicit feedback datasets.",
-        "pages": "71-78",
-        "year": "2010",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/1864708.1864726",
-        "url": "db/conf/recsys/recsys2010.html#PilaszyZT10",
-        "authors": [
-          "IstvÃ¡n PilÃ¡szy",
-          "DÃ¡vid Zibriczky",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/HidasiKSDST17",
-        "title": "DLRS 2017: Second Workshop on Deep Learning for Recommender Systems.",
-        "pages": "370-371",
-        "year": "2017",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/3109859.3109953",
-        "url": "db/conf/recsys/recsys2017.html#HidasiKSDST17",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Alexandros Karatzoglou",
-          "Oren Sar Shalom",
-          "Sander Dieleman",
-          "Bracha Shapira",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/PaganoCLHTKQ16",
-        "title": "The Contextual Turn: from Context-Aware to Context-Driven Recommender Systems.",
-        "pages": "249-252",
-        "year": "2016",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2959100.2959136",
-        "url": "db/conf/recsys/recsys2016.html#PaganoCLHTKQ16",
-        "authors": [
-          "Roberto Pagano",
-          "Paolo Cremonesi",
-          "Martha A. Larson",
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk",
-          "Alexandros Karatzoglou",
-          "Massimo Quadrana"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/TakacsT12",
-        "title": "Alternating least squares for personalized ranking.",
-        "pages": "83-90",
-        "year": "2012",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2365952.2365972",
-        "url": "db/conf/recsys/recsys2012.html#TakacsT12",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/KaratzoglouHTSR16",
-        "title": "RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS).",
-        "pages": "415-416",
-        "year": "2016",
-        "booktitle": "RecSys",
-        "ee": "https://doi.org/10.1145/2959100.2959202",
-        "url": "db/conf/recsys/recsys2016.html#KaratzoglouHTSR16",
-        "authors": [
-          "Alexandros Karatzoglou",
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk",
-          "Oren Sar Shalom",
-          "Haggai Roitman",
-          "Bracha Shapira",
-          "Lior Rokach"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/recsys/SaidTSSLC12",
-        "title": "Recommender Systems Evaluation: A 3D Benchmark.",
-        "pages": "21-23",
-        "year": "2012",
-        "booktitle": "RUE@RecSys",
-        "ee": "https://ceur-ws.org/Vol-910/paper4.pdf",
-        "url": "db/conf/recsys/rue2012.html#SaidTSSLC12",
-        "authors": [
-          "Alan Said",
-          "Domonkos Tikk",
-          "Klara Stumpf",
-          "Yue Shi 0002",
-          "Martha A. Larson",
-          "Paolo Cremonesi"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/ecweb/PilaszyT09",
-        "title": "Computational Complexity Reduction for Factorization-Based Collaborative Filtering Algorithms.",
-        "pages": "229-239",
-        "year": "2009",
-        "booktitle": "EC-Web",
-        "ee": "https://doi.org/10.1007/978-3-642-03964-5_22",
-        "url": "db/conf/ecweb/ecweb2009.html#PilaszyT09",
-        "authors": [
-          "IstvÃ¡n PilÃ¡szy",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/um/ZibriczkyHPT12",
-        "title": "Personalized recommendation of linear content on interactive TV platforms: beating the cold start and noisy implicit user feedback.",
-        "year": "2012",
-        "booktitle": "UMAP Workshops",
-        "ee": "https://ceur-ws.org/Vol-872/tvm2p2012_paper_2.pdf",
-        "url": "db/conf/um/umap2012w.html#ZibriczkyHPT12",
-        "authors": [
-          "DÃ¡vid Zibriczky",
-          "BalÃ¡zs Hidasi",
-          "ZoltÃ¡n Petres",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/um/SaidLTCKHTG14",
-        "title": "User-Item Reciprocity in Recommender Systems: Incentivizing the Crowd.",
-        "year": "2014",
-        "booktitle": "UMAP Workshops",
-        "ee": "https://ceur-ws.org/Vol-1181/pros2014_paper_06.pdf",
-        "url": "db/conf/um/umap2014w.html#SaidLTCKHTG14",
-        "authors": [
-          "Alan Said",
-          "Martha A. Larson",
-          "Domonkos Tikk",
-          "Paolo Cremonesi",
-          "Alexandros Karatzoglou",
-          "Frank Hopfgartner",
-          "Roberto Turrin",
-          "Joost Geurts"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/carr/HidasiT14",
-        "title": "Approximate modeling of continuous context in factorization algorithms.",
-        "pages": "3-9",
-        "year": "2014",
-        "booktitle": "CaRR@ECIR",
-        "ee": "https://doi.org/10.1145/2601301.2601303",
-        "url": "db/conf/carr/carr2014.html#HidasiT14",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/carr/HidasiT13",
-        "title": "Context-aware item-to-item recommendation within the factorization framework.",
-        "pages": "19-25",
-        "year": "2013",
-        "booktitle": "CaRR@WSDM",
-        "ee": "https://doi.org/10.1145/2442670.2442675",
-        "url": "db/conf/carr/carr2013.html#HidasiT13",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/carr/HidasiT12",
-        "title": "Enhancing matrix factorization through initialization for implicit feedback databases.",
-        "pages": "2-9",
-        "year": "2012",
-        "booktitle": "CaRR",
-        "ee": "https://doi.org/10.1145/2162102.2162104",
-        "url": "db/conf/carr/carr2012.html#HidasiT12",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/aiia/TikkSKM05",
-        "title": "Entity Recognizer in Hungarian Question Processing.",
-        "pages": "535-546",
-        "year": "2005",
-        "booktitle": "AI*IA",
-        "ee": "https://doi.org/10.1007/11558590_54",
-        "url": "db/conf/aiia/aiia2005.html#TikkSKM05",
-        "authors": [
-          "Domonkos Tikk",
-          "Ferenc Szidarovszky",
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "GÃ¡bor Magyar"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/smc/TikkBP02",
-        "title": "Polytopic and TS models are nowhere dense in the approximation model space.",
-        "pages": "4",
-        "year": "2002",
-        "booktitle": "SMC (2)",
-        "ee": "https://doi.org/10.1109/ICSMC.2002.1175684",
-        "url": "db/conf/smc/smc2002-2.html#TikkBP02",
-        "authors": [
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi",
-          "Ron J. Patton"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/smc/BaranyiMKTY98",
-        "title": "A general extension of fuzzy SVD rule base reduction using arbitrary inference algorithm.",
-        "pages": "2785-2790",
-        "year": "1998",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/ICSMC.1998.725083",
-        "url": "db/conf/smc/smc1998.html#BaranyiMKTY98",
-        "authors": [
-          "PÃ©ter Baranyi",
-          "Attila Martinovics",
-          "Szilveszter KovÃ¡cs",
-          "Domonkos Tikk",
-          "Yeung Yam"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/bionlp/HakenbergSTTRNG09",
-        "title": "Molecular event extraction from Link Grammar parse trees.",
-        "pages": "86-94",
-        "year": "2009",
-        "booktitle": "BioNLP@HLT-NAACL (Shared Task)",
-        "ee": "https://aclanthology.org/W09-1411/",
-        "url": "db/conf/bionlp/bionlp2009-s.html#HakenbergSTTRNG09",
-        "authors": [
-          "JÃ¶rg Hakenberg",
-          "IllÃ©s Solt",
-          "Domonkos Tikk",
-          "Luis Tari",
-          "Astrid RheinlÃ¤nder",
-          "Quang Long Nguyen",
-          "Graciela Gonzalez 0001",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/bionlp/ThomasPSTL11",
-        "title": "Not all links are equal: Exploiting Dependency Types for the Extraction of Protein-Protein Interactions from Text.",
-        "pages": "1-9",
-        "year": "2011",
-        "booktitle": "BioNLP@ACL",
-        "ee": "https://aclanthology.org/W11-0201/",
-        "url": "db/conf/bionlp/bionlp2011.html#ThomasPSTL11",
-        "authors": [
-          "Philippe Thomas 0002",
-          "Stefan Pietschmann",
-          "IllÃ©s Solt",
-          "Domonkos Tikk",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/conll/SzidarovszkyST10",
-        "title": "A Simple Ensemble Method for Hedge Identification.",
-        "pages": "144-147",
-        "year": "2010",
-        "booktitle": "CoNLL Shared Task",
-        "ee": "https://aclanthology.org/W10-3021/",
-        "url": "db/conf/conll/conll2010st.html#SzidarovszkyST10",
-        "authors": [
-          "Ferenc Szidarovszky",
-          "IllÃ©s Solt",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/TikkBP04",
-        "title": "On the approximation properties of TP model forms.",
-        "pages": "1069-1074",
-        "year": "2004",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2004.1375558",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#TikkBP04",
-        "authors": [
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi",
-          "Ron J. Patton"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/WongCT10",
-        "title": "Exploring the use of fuzzy signature for text mining.",
-        "pages": "1-5",
-        "year": "2010",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2010.5584873",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2010.html#WongCT10",
-        "authors": [
-          "Kok Wai Wong",
-          "Todsanai Chumwatana",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/JohanyakTKW06",
-        "title": "Fuzzy Rule Interpolation Matlab Toolbox - FRI Toolbox.",
-        "pages": "351-357",
-        "year": "2006",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2006.1681736",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2006.html#JohanyakTKW06",
-        "authors": [
-          "Zsolt Csaba JohanyÃ¡k",
-          "Domonkos Tikk",
-          "Szilveszter KovÃ¡cs",
-          "Kok Wai Wong"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/BaranyiTVYR02",
-        "title": "Minimizing TS controller via HOSVD.",
-        "pages": "128-133",
-        "year": "2002",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZ.2002.1004972",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2002.html#BaranyiTVYR02",
-        "authors": [
-          "PÃ©ter Baranyi",
-          "Domonkos Tikk",
-          "AnnamÃ¡ria R. VÃ¡rkonyi-KÃ³czy",
-          "Yeung Yam",
-          "Imre J. Rudas"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/BaranyiTGK00",
-        "title": "α-cut interpolation technique in the space of regular conclusion.",
-        "pages": "478-482",
-        "year": "2000",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2000.838706",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2000.html#BaranyiTGK00",
-        "authors": [
-          "PÃ©ter Baranyi",
-          "Domonkos Tikk",
-          "TamÃ¡s D. Gedeon",
-          "LÃ¡szlÃ³ T. KÃ³czy"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/TikkBKG00",
-        "title": "On a stable and always applicable interpolation method.",
-        "pages": "1049-1051",
-        "year": "2000",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2000.839196",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2000.html#TikkBKG00",
-        "authors": [
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi",
-          "LÃ¡szlÃ³ T. KÃ³czy",
-          "TamÃ¡s D. Gedeon"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/GedeonWT01",
-        "title": "Constructing Heirarchical Fuzzy Rule Bases for Classification.",
-        "pages": "1388-1391",
-        "year": "2001",
-        "booktitle": "FUZZ-IEEE",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2001.html#GedeonWT01",
-        "ee": "https://doi.org/10.1109/FUZZ.2001.1008917",
-        "authors": [
-          "TamÃ¡s D. Gedeon",
-          "Kok Wai Wong",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzIEEE/TikkBY04",
-        "title": "Experiments with a hierarchical text categorizer.",
-        "pages": "1191-1196",
-        "year": "2004",
-        "booktitle": "FUZZ-IEEE",
-        "ee": "https://doi.org/10.1109/FUZZY.2004.1375582",
-        "url": "db/conf/fuzzIEEE/fuzzIEEE2004.html#TikkBY04",
-        "authors": [
-          "Domonkos Tikk",
-          "GyÃ¶rgy BirÃ³",
-          "Jae Dong Yang"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/fuzzy/WongKGCT01",
-        "title": "Improvement of the Cluster Searching Algorithm in Sugeno and Yasukawa's Qualitative Modeling Approach.",
-        "pages": "536-549",
-        "year": "2001",
-        "booktitle": "Fuzzy Days",
-        "ee": "https://doi.org/10.1007/3-540-45493-4_54",
-        "url": "db/conf/fuzzy/fuzzy2001.html#WongKGCT01",
-        "authors": [
-          "Kok Wai Wong",
-          "LÃ¡szlÃ³ T. KÃ³czy",
-          "TamÃ¡s D. Gedeon",
-          "Alex Chong",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icmla/ZibriczkyPWT13",
-        "title": "EPG Content Recommendation in Large Scale: A Case Study on Interactive TV Platform.",
-        "pages": "315-320",
-        "year": "2013",
-        "booktitle": "ICMLA (2)",
-        "ee": "https://doi.org/10.1109/ICMLA.2013.142",
-        "url": "db/conf/icmla/icmla2013-2.html#ZibriczkyPWT13",
-        "authors": [
-          "DÃ¡vid Zibriczky",
-          "ZoltÃ¡n Petres",
-          "Marton Waszlavik",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/somet/NemethTPT13",
-        "title": "Visualization of movie features in collaborative filtering.",
-        "pages": "229-233",
-        "year": "2013",
-        "booktitle": "SoMeT",
-        "ee": "https://doi.org/10.1109/SoMeT.2013.6645674",
-        "url": "db/conf/somet/somet2013.html#NemethTPT13",
-        "authors": [
-          "BottyÃ¡n NÃ©meth",
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/icdm/TakacsPNT08",
-        "title": "Investigation of Various Matrix Factorization Methods for Large Recommender Systems.",
-        "pages": "553-562",
-        "year": "2008",
-        "booktitle": "ICDM Workshops",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICDMW.2008.86",
-        "url": "db/conf/icdm/icdmw2008.html#TakacsPNT08",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "BottyÃ¡n NÃ©meth",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "conf/pkdd/HidasiT12",
-        "title": "Fast ALS-Based Tensor Factorization for Context-Aware Recommendation from Implicit Feedback.",
-        "pages": "67-82",
-        "year": "2012",
-        "booktitle": "ECML/PKDD (2)",
-        "ee": "https://doi.org/10.1007/978-3-642-33486-3_5",
-        "url": "db/conf/pkdd/pkdd2012-2.html#HidasiT12",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/bmcbi/SoltTL10",
-        "title": "Species identification for gene name normalization.",
-        "pages": "P5",
-        "year": "2010",
-        "volume": "11",
-        "journal": "BMC Bioinform.",
-        "number": "S-5",
-        "ee": "https://www.wikidata.org/entity/Q46039370",
-        "url": "db/journals/bmcbi/bmcbi11S.html#SoltTL10",
-        "authors": [
-          "IllÃ©s Solt",
-          "Domonkos Tikk",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/bmcbi/TikkPL10",
-        "title": "A fast and effective dependency graph kernel for PPI relation extraction.",
-        "pages": "P8",
-        "year": "2010",
-        "volume": "11",
-        "journal": "BMC Bioinform.",
-        "number": "S-5",
-        "ee": "https://www.wikidata.org/entity/Q45940232",
-        "url": "db/journals/bmcbi/bmcbi11S.html#TikkPL10",
-        "authors": [
-          "Domonkos Tikk",
-          "Peter Palaga",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/bmcbi/TikkSTL13",
-        "title": "A detailed error analysis of 13 kernel methods for protein-protein interaction extraction.",
-        "pages": "12",
-        "year": "2013",
-        "volume": "14",
-        "journal": "BMC Bioinform.",
-        "ee": "https://www.wikidata.org/entity/Q34549569",
-        "url": "db/journals/bmcbi/bmcbi14.html#TikkSTL13",
-        "authors": [
-          "Domonkos Tikk",
-          "IllÃ©s Solt",
-          "Philippe Thomas 0002",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/datamine/HidasiT16",
-        "title": "General factorization framework for context-aware recommendations.",
-        "pages": "342-371",
-        "year": "2016",
-        "volume": "30",
-        "journal": "Data Min. Knowl. Discov.",
-        "number": "2",
-        "ee": "https://doi.org/10.1007/s10618-015-0417-y",
-        "url": "db/journals/datamine/datamine30.html#HidasiT16",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tist/CremonesiSTZ16",
-        "title": "Introduction to the Special Issue on Recommender System Benchmarking.",
-        "pages": "38:1-38:4",
-        "year": "2016",
-        "volume": "7",
-        "journal": "ACM Trans. Intell. Syst. Technol.",
-        "number": "3",
-        "ee": "https://doi.org/10.1145/2870627",
-        "url": "db/journals/tist/tist7.html#CremonesiSTZ16",
-        "authors": [
-          "Paolo Cremonesi",
-          "Alan Said",
-          "Domonkos Tikk",
-          "Michelle X. Zhou"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/biomedsem/NguyenTL10",
-        "title": "Simple tricks for improving pattern-based information extraction from the biomedical literature.",
-        "pages": "9",
-        "year": "2010",
-        "volume": "1",
-        "journal": "J. Biomed. Semant.",
-        "ee": "https://www.wikidata.org/entity/Q34203020",
-        "url": "db/journals/biomedsem/biomedsem1.html#NguyenTL10",
-        "authors": [
-          "Quang Long Nguyen",
-          "Domonkos Tikk",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/actaC/TikkBSKL07",
-        "title": "Topic and language specific internet search engine.",
-        "pages": "279-291",
-        "year": "2007",
-        "volume": "18",
-        "journal": "Acta Cybern.",
-        "number": "2",
-        "url": "db/journals/actaC/actaC18.html#TikkBSKL07",
-        "ee": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/3718",
-        "authors": [
-          "Domonkos Tikk",
-          "GyÃ¶rgy BirÃ³",
-          "Ferenc Szidarovszky",
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "GÃ¡bor LemÃ¡k"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ajiips/TikkB04",
-        "title": "A hierarchical test categorization approach and its application to FRT expansion.",
-        "pages": "123-131",
-        "year": "2004",
-        "volume": "8",
-        "journal": "Aust. J. Intell. Inf. Process. Syst.",
-        "number": "3",
-        "ee": "http://cs.anu.edu.au/ojs/index.php/ajiips/article/view/125",
-        "url": "db/journals/ajiips/ajiips8.html#TikkB04",
-        "authors": [
-          "Domonkos Tikk",
-          "GyÃ¶rgy BirÃ³"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ajiips/TikkBPT04",
-        "title": "Approximation capability of TP model forms.",
-        "pages": "155-163",
-        "year": "2004",
-        "volume": "8",
-        "journal": "Aust. J. Intell. Inf. Process. Syst.",
-        "number": "3",
-        "ee": "http://cs.anu.edu.au/ojs/index.php/ajiips/article/view/129",
-        "url": "db/journals/ajiips/ajiips8.html#TikkBPT04",
-        "authors": [
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi",
-          "Ron J. Patton",
-          "JÃ³zsef K. Tar"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jamia/SoltTGK09",
-        "title": "Research Paper: Semantic Classification of Diseases in Discharge Summaries Using a Context-aware Rule-based Classifier.",
-        "pages": "580-584",
-        "year": "2009",
-        "volume": "16",
-        "journal": "J. Am. Medical Informatics Assoc.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q37249223",
-        "url": "db/journals/jamia/jamia16.html#SoltTGK09",
-        "authors": [
-          "IllÃ©s Solt",
-          "Domonkos Tikk",
-          "Viktor GÃ¡l",
-          "Zsolt Tivadar KardkovÃ¡cs"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jamia/TikkS10",
-        "title": "Improving textual medication extraction using combined conditional random fields and rule-based systems.",
-        "pages": "540-544",
-        "year": "2010",
-        "volume": "17",
-        "journal": "J. Am. Medical Informatics Assoc.",
-        "number": "5",
-        "ee": "https://www.wikidata.org/entity/Q34371880",
-        "url": "db/journals/jamia/jamia17.html#TikkS10",
-        "authors": [
-          "Domonkos Tikk",
-          "IllÃ©s Solt"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jmlr/TakacsPNT09",
-        "title": "Scalable Collaborative Filtering Approaches for Large Recommender Systems.",
-        "pages": "623-656",
-        "year": "2009",
-        "volume": "10",
-        "journal": "J. Mach. Learn. Res.",
-        "ee": "https://dl.acm.org/doi/10.5555/1577069.1577091",
-        "url": "db/journals/jmlr/jmlr10.html#TakacsPNT09",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "BottyÃ¡n NÃ©meth",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/dke/KardkovacsT07",
-        "title": "On the transformation of sentences with genitive relations to SQL queries.",
-        "pages": "406-416",
-        "year": "2007",
-        "volume": "61",
-        "journal": "Data Knowl. Eng.",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.datak.2006.06.013",
-        "url": "db/journals/dke/dke61.html#KardkovacsT07",
-        "authors": [
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/kybernetika/TikkYB03",
-        "title": "Hierarchical text categorization using fuzzy relational thesaurus.",
-        "pages": "583-600",
-        "year": "2003",
-        "volume": "39",
-        "journal": "Kybernetika",
-        "number": "5",
-        "ee": "http://www.kybernetika.cz/content/2003/5/583",
-        "url": "db/journals/kybernetika/kybernetika39.html#TikkYB03",
-        "authors": [
-          "Domonkos Tikk",
-          "Jae Dong Yang",
-          "Sun Lee Bang"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sigir/BelloginCST14",
-        "title": "Report on the workshop on reproducibility and replication in recommender systems evaluation (RepSys).",
-        "pages": "29-35",
-        "year": "2014",
-        "volume": "48",
-        "journal": "SIGIR Forum",
-        "number": "1",
-        "ee": "https://doi.org/10.1145/2641383.2641389",
-        "url": "db/journals/sigir/sigir48.html#BelloginCST14",
-        "authors": [
-          "Alejandro BellogÃ­n",
-          "Pablo Castells",
-          "Alan Said",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ijar/TikkKG03",
-        "title": "A survey on universal approximation and its limits in soft computing techniques.",
-        "pages": "185-202",
-        "year": "2003",
-        "volume": "33",
-        "journal": "Int. J. Approx. Reason.",
-        "number": "2",
-        "ee": "https://doi.org/10.1016/S0888-613X(03)00021-5",
-        "url": "db/journals/ijar/ijar33.html#TikkKG03",
-        "authors": [
-          "Domonkos Tikk",
-          "LÃ¡szlÃ³ T. KÃ³czy",
-          "TamÃ¡s D. Gedeon"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tfs/TikkB00",
-        "title": "Comprehensive analysis of a new fuzzy rule interpolation method.",
-        "pages": "281-296",
-        "year": "2000",
-        "volume": "8",
-        "journal": "IEEE Trans. Fuzzy Syst.",
-        "number": "3",
-        "ee": "https://doi.org/10.1109/91.855917",
-        "url": "db/journals/tfs/tfs8.html#TikkB00",
-        "authors": [
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tfs/WongTGK05",
-        "title": "Fuzzy rule interpolation for multidimensional input spaces with applications: a case study.",
-        "pages": "809-819",
-        "year": "2005",
-        "volume": "13",
-        "journal": "IEEE Trans. Fuzzy Syst.",
-        "number": "6",
-        "ee": "https://doi.org/10.1109/TFUZZ.2005.859316",
-        "url": "db/journals/tfs/tfs13.html#WongTGK05",
-        "authors": [
-          "Kok Wai Wong",
-          "Domonkos Tikk",
-          "TamÃ¡s D. Gedeon",
-          "LÃ¡szlÃ³ T. KÃ³czy"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/tfs/TikkBGKY02",
-        "title": "Improvements and critique on Sugeno's and Yasukawa's qualitative modeling.",
-        "pages": "596-606",
-        "year": "2002",
-        "volume": "10",
-        "journal": "IEEE Trans. Fuzzy Syst.",
-        "number": "5",
-        "ee": "https://doi.org/10.1109/TFUZZ.2002.803494",
-        "url": "db/journals/tfs/tfs10.html#TikkBGKY02",
-        "authors": [
-          "Domonkos Tikk",
-          "GyÃ¶rgy BirÃ³",
-          "TamÃ¡s D. Gedeon",
-          "LÃ¡szlÃ³ T. KÃ³czy",
-          "Jae Dong Yang"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/cii/BaranyiTYP03",
-        "title": "From differential equations to PDC controller design via numerical transformation.",
-        "pages": "281-297",
-        "year": "2003",
-        "volume": "51",
-        "journal": "Comput. Ind.",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q60547160",
-        "url": "db/journals/cii/cii51.html#BaranyiTYP03",
-        "authors": [
-          "PÃ©ter Baranyi",
-          "Domonkos Tikk",
-          "Yeung Yam",
-          "Ron J. Patton"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ploscb/TikkTPHL10",
-        "title": "A Comprehensive Benchmark of Kernel Methods to Extract Protein-Protein Interactions from Literature.",
-        "year": "2010",
-        "volume": "6",
-        "journal": "PLoS Comput. Biol.",
-        "number": "7",
-        "ee": "https://www.wikidata.org/entity/Q33628849",
-        "url": "db/journals/ploscb/ploscb6.html#TikkTPHL10",
-        "authors": [
-          "Domonkos Tikk",
-          "Philippe Thomas 0002",
-          "Peter Palaga",
-          "JÃ¶rg Hakenberg",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/kais/HidasiT16",
-        "title": "Speeding up ALS learning via approximate methods for context-aware recommendations.",
-        "pages": "131-155",
-        "year": "2016",
-        "volume": "47",
-        "journal": "Knowl. Inf. Syst.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s10115-015-0863-2",
-        "url": "db/journals/kais/kais47.html#HidasiT16",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/ci/HakenbergSTVTNBL11",
-        "title": "Molecular Event Extraction from Link Grammar Parse Trees in the BioNLP'09 Shared Task.",
-        "pages": "665-680",
-        "year": "2011",
-        "volume": "27",
-        "journal": "Comput. Intell.",
-        "number": "4",
-        "ee": "https://doi.org/10.1111/j.1467-8640.2011.00404.x",
-        "url": "db/journals/ci/ci27.html#HakenbergSTVTNBL11",
-        "authors": [
-          "JÃ¶rg Hakenberg",
-          "IllÃ©s Solt",
-          "Domonkos Tikk",
-          "Nguyen Ha Vo",
-          "Luis Tari",
-          "Quang Long Nguyen",
-          "Chitta Baral",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/fss/TikkJKVMG02",
-        "title": "Stability of interpolative fuzzy KH controllers.",
-        "pages": "105-119",
-        "year": "2002",
-        "volume": "125",
-        "journal": "Fuzzy Sets Syst.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q128111540",
-        "url": "db/journals/fss/fss125.html#TikkJKVMG02",
-        "authors": [
-          "Domonkos Tikk",
-          "IstvÃ¡n JoÃ³",
-          "LÃ¡szlÃ³ T. KÃ³czy",
-          "PÃ©ter VÃ¡rlaki",
-          "Bernhard Moser 0001",
-          "TamÃ¡s D. Gedeon"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/fss/Tikk03",
-        "title": "Notes on the approximation rate of fuzzy KH interpolators.",
-        "pages": "441-453",
-        "year": "2003",
-        "volume": "138",
-        "journal": "Fuzzy Sets Syst.",
-        "number": "2",
-        "ee": "https://doi.org/10.1016/S0165-0114(02)00387-1",
-        "url": "db/journals/fss/fss138.html#Tikk03",
-        "authors": [
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/bioinformatics/ThomasDSKWSMTBL15",
-        "title": "Computer-assisted curation of a human regulatory core network from the biological literature.",
-        "pages": "1258-1266",
-        "year": "2015",
-        "volume": "31",
-        "journal": "Bioinform.",
-        "number": "8",
-        "ee": "https://www.wikidata.org/entity/Q45955810",
-        "url": "db/journals/bioinformatics/bioinformatics31.html#ThomasDSKWSMTBL15",
-        "authors": [
-          "Philippe Thomas 0002",
-          "Pawel Durek",
-          "IllÃ©s Solt",
-          "Bertram Klinger",
-          "Franziska Witzel",
-          "Pascal Schulthess",
-          "Yvonne Mayer",
-          "Domonkos Tikk",
-          "Nils BlÃ¼thgen",
-          "Ulf Leser"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jucs/HidasiT13",
-        "title": "Initializing Matrix Factorization Methods on Implicit Feedback Databases.",
-        "pages": "1834-1853",
-        "year": "2013",
-        "volume": "19",
-        "journal": "J. Univers. Comput. Sci.",
-        "number": "12",
-        "ee": "https://doi.org/10.3217/jucs-019-12-1834",
-        "url": "db/journals/jucs/jucs19.html#HidasiT13",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sigkdd/TakacsPNT07",
-        "title": "Major components of the gravity recommendation system.",
-        "pages": "80-83",
-        "year": "2007",
-        "volume": "9",
-        "journal": "SIGKDD Explor.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q56567348",
-        "url": "db/journals/sigkdd/sigkdd9.html#TakacsPNT07",
-        "authors": [
-          "GÃ¡bor TakÃ¡cs",
-          "IstvÃ¡n PilÃ¡szy",
-          "BottyÃ¡n NÃ©meth",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sigkdd/TikkKS06",
-        "title": "Voting with a parameterized veto strategy: solving the KDD Cup 2006 problem by means of a classifier committee.",
-        "pages": "53-62",
-        "year": "2006",
-        "volume": "8",
-        "journal": "SIGKDD Explor.",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/1233321.1233328",
-        "url": "db/journals/sigkdd/sigkdd8.html#TikkKS06",
-        "authors": [
-          "Domonkos Tikk",
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "Ferenc Szidarovszky"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sigkdd/BennettELST07",
-        "title": "KDD Cup and workshop 2007.",
-        "pages": "51-52",
-        "year": "2007",
-        "volume": "9",
-        "journal": "SIGKDD Explor.",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/1345448.1345459",
-        "url": "db/journals/sigkdd/sigkdd9.html#BennettELST07",
-        "authors": [
-          "James Bennett",
-          "Charles Elkan",
-          "Bing Liu 0001",
-          "Padhraic Smyth",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/sigkdd/KardkovacsTB05",
-        "title": "The Ferrety algorithm for the KDD Cup 2005 problem.",
-        "pages": "111-116",
-        "year": "2005",
-        "volume": "7",
-        "journal": "SIGKDD Explor.",
-        "number": "2",
-        "ee": "https://doi.org/10.1145/1117454.1117468",
-        "url": "db/journals/sigkdd/sigkdd7.html#KardkovacsTB05",
-        "authors": [
-          "Zsolt Tivadar KardkovÃ¡cs",
-          "Domonkos Tikk",
-          "ZoltÃ¡n BÃ¡nsÃ¡ghi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/HidasiT14",
-        "title": "General factorization framework for context-aware recommendations.",
-        "year": "2014",
-        "volume": "abs/1401.4529",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1401.4529",
-        "url": "db/journals/corr/corr1401.html#HidasiT14",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "inproceedings",
-        "key": "journals/corr/HidasiKBT15",
-        "title": "Session-based Recommendations with Recurrent Neural Networks.",
-        "year": "2016",
-        "booktitle": "ICLR (Poster)",
-        "ee": "https://doi.org/10.48550/arXiv.1511.06939",
-        "url": "db/conf/iclr/iclr2016.html#HidasiKBT15",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Alexandros Karatzoglou",
-          "Linas Baltrunas",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/abs-1204-1259",
-        "title": "Fast ALS-based tensor factorization for context-aware recommendation from implicit feedback",
-        "ee": "https://doi.org/10.48550/arXiv.1204.1259",
-        "year": "2012",
-        "journal": "CoRR",
-        "volume": "abs/1204.1259",
-        "url": "db/journals/corr/corr1204.html#abs-1204-1259",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/corr/HidasiT13",
-        "title": "Context-aware recommendations from implicit data via scalable tensor factorization.",
-        "year": "2013",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1309.7611",
-        "volume": "abs/1309.7611",
-        "url": "db/journals/corr/corr1309.html#HidasiT13",
-        "authors": [
-          "BalÃ¡zs Hidasi",
-          "Domonkos Tikk"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jaciii/CsapoRTB09",
-        "title": "Object Categorization Using Biologically Inspired Nodemaps and the HITEC Categorization System.",
-        "pages": "573-580",
-        "year": "2009",
-        "volume": "13",
-        "journal": "J. Adv. Comput. Intell. Intell. Informatics",
-        "number": "5",
-        "ee": "https://doi.org/10.20965/jaciii.2009.p0573",
-        "url": "db/journals/jaciii/jaciii13.html#CsapoRTB09",
-        "authors": [
-          "ÃdÃ¡m B. CsapÃ³",
-          "Barna ReskÃ³",
-          "Domonkos Tikk",
-          "PÃ©ter Baranyi"
-        ]
-      },
-      {
-        "type": "article",
-        "key": "journals/jaciii/TikkJKW11",
-        "title": "Fuzzy Rule Interpolation and Extrapolation Techniques: Criteria and Evaluation Guidelines.",
-        "pages": "254-263",
-        "year": "2011",
-        "volume": "15",
-        "journal": "J. Adv. Comput. Intell. Intell. Informatics",
-        "number": "3",
-        "ee": "https://doi.org/10.20965/jaciii.2011.p0254",
-        "url": "db/journals/jaciii/jaciii15.html#TikkJKW11",
-        "authors": [
-          "Domonkos Tikk",
-          "Zsolt Csaba JohanyÃ¡k",
-          "Szilveszter KovÃ¡cs",
-          "Kok Wai Wong"
-        ]
+        "informal": {
+          "@key": "books/igi/Erickson09/KovacsT09",
+          "title": "Full-Text Search Engines for Databases",
+          "journal": "Database Technologies: Concepts, Methodologies, Tools, and Applications",
+          "year": "2009",
+          "pages": "931-939",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/sp/rsse14/SaidTC14",
+          "title": "Benchmarking - A Methodology for Ensuring the Relative Quality of Recommendation Systems in Software Engineering",
+          "journal": "Recommendation Systems in Software Engineering",
+          "year": "2014",
+          "pages": "275-300",
+          "ee": "https://doi.org/10.1007/978-3-642-45135-5_11",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aiia/TikkSKM05",
+          "title": "Entity Recognizer in Hungarian Question Processing",
+          "booktitle": "AI*IA",
+          "year": "2005",
+          "pages": "535-546",
+          "ee": "https://doi.org/10.1007/11558590_54",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Ferenc Szidarovszky",
+              "@pid": "05/7042"
+            },
+            {
+              "#text": "Gábor Magyar",
+              "@pid": "68/3836"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bionlp/HakenbergSTTRNG09",
+          "title": "Molecular event extraction from Link Grammar parse trees",
+          "booktitle": "BioNLP@HLT-NAACL (Shared Task)",
+          "year": "2009",
+          "pages": "86-94",
+          "author": [
+            {
+              "#text": "Astrid Rheinländer",
+              "@pid": "52/8234"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Graciela Gonzalez-Hernandez",
+              "@pid": "219/1529"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Jörg Hakenberg",
+              "@pid": "01/1160"
+            },
+            {
+              "#text": "Luis Tari",
+              "@pid": "46/2345"
+            },
+            {
+              "#text": "Quang Long Nguyen",
+              "@pid": "93/9263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bionlp/ThomasPSTL11",
+          "title": "Not all links are equal: Exploiting Dependency Types for the Extraction of Protein-Protein Interactions from Text",
+          "booktitle": "BioNLP@ACL",
+          "year": "2011",
+          "pages": "1-9",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Philippe Thomas",
+              "@pid": "123/7263"
+            },
+            {
+              "#text": "Stefan Pietschmann",
+              "@pid": "31/3618"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bis/KardkovacsT08",
+          "title": "Determining Relevant Deep Web Sites by Query Context Identification",
+          "booktitle": "BIS (Workshops)",
+          "year": "2008",
+          "pages": "119-130",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/carr/HidasiT12",
+          "title": "Enhancing matrix factorization through initialization for implicit feedback databases",
+          "booktitle": "CaRR",
+          "year": "2012",
+          "pages": "2-9",
+          "ee": "https://doi.org/10.1145/2162102.2162104",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/carr/HidasiT13",
+          "title": "Context-aware item-to-item recommendation within the factorization framework",
+          "booktitle": "CaRR@WSDM",
+          "year": "2013",
+          "pages": "19-25",
+          "ee": "https://doi.org/10.1145/2442670.2442675",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/carr/HidasiT14",
+          "title": "Approximate modeling of continuous context in factorization algorithms",
+          "booktitle": "CaRR@ECIR",
+          "year": "2014",
+          "pages": "3-9",
+          "ee": "https://doi.org/10.1145/2601301.2601303",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/conll/SzidarovszkyST10",
+          "title": "A Simple Ensemble Method for Hedge Identification",
+          "booktitle": "CoNLL Shared Task",
+          "year": "2010",
+          "pages": "144-147",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Ferenc Szidarovszky",
+              "@pid": "05/7042"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ecweb/PilaszyT09",
+          "title": "Computational Complexity Reduction for Factorization-Based Collaborative Filtering Algorithms",
+          "booktitle": "EC-Web",
+          "year": "2009",
+          "pages": "229-239",
+          "ee": "https://doi.org/10.1007/978-3-642-03964-5_22",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fskd/WongTBG02",
+          "title": "Intelligent Well Log Data Analysis: A Comparison Study",
+          "booktitle": "FSKD",
+          "year": "2002",
+          "pages": "71-75",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "György Biró",
+              "@pid": "17/1739"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/BaranyiTGK00",
+          "title": "α-cut interpolation technique in the space of regular conclusion",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2000",
+          "pages": "478-482",
+          "ee": "https://doi.org/10.1109/FUZZY.2000.838706",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/BaranyiTVYR02",
+          "title": "Minimizing TS controller via HOSVD",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2002",
+          "pages": "128-133",
+          "ee": "https://doi.org/10.1109/FUZZ.2002.1004972",
+          "author": [
+            {
+              "#text": "Annamária R. Várkonyi-Kóczy",
+              "@pid": "97/6671"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Yeung Yam",
+              "@pid": "y/YeungYam"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/GedeonWT01",
+          "title": "Constructing Heirarchical Fuzzy Rule Bases for Classification",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2001",
+          "pages": "1388-1391",
+          "ee": "https://doi.org/10.1109/FUZZ.2001.1008917",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/JohanyakTKW06",
+          "title": "Fuzzy Rule Interpolation Matlab Toolbox - FRI Toolbox",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2006",
+          "pages": "351-357",
+          "ee": "https://doi.org/10.1109/FUZZY.2006.1681736",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "Szilveszter Kovács",
+              "@pid": "04/5320"
+            },
+            {
+              "#text": "Zsolt Csaba Johanyák",
+              "@pid": "33/2992"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/TikkBKG00",
+          "title": "On a stable and always applicable interpolation method",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2000",
+          "pages": "1049-1051",
+          "ee": "https://doi.org/10.1109/FUZZY.2000.839196",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/TikkBP04",
+          "title": "On the approximation properties of TP model forms",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2004",
+          "pages": "1069-1074",
+          "ee": "https://doi.org/10.1109/FUZZY.2004.1375558",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Ron J. Patton",
+              "@pid": "75/9186"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/TikkBY04",
+          "title": "Experiments with a hierarchical text categorizer",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2004",
+          "pages": "1191-1196",
+          "ee": "https://doi.org/10.1109/FUZZY.2004.1375582",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "György Biró",
+              "@pid": "17/1739"
+            },
+            {
+              "#text": "Jae Dong Yang",
+              "@pid": "01/3409"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzIEEE/WongCT10",
+          "title": "Exploring the use of fuzzy signature for text mining",
+          "booktitle": "FUZZ-IEEE",
+          "year": "2010",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/FUZZY.2010.5584873",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "Todsanai Chumwatana",
+              "@pid": "03/7645"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fuzzy/WongKGCT01",
+          "title": "Improvement of the Cluster Searching Algorithm in Sugeno and Yasukawa's Qualitative Modeling Approach",
+          "booktitle": "Fuzzy Days",
+          "year": "2001",
+          "pages": "536-549",
+          "ee": "https://doi.org/10.1007/3-540-45493-4_54",
+          "author": [
+            {
+              "#text": "Alex Chong",
+              "@pid": "57/2679"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icdm/TakacsPNT08",
+          "title": "Investigation of Various Matrix Factorization Methods for Large Recommender Systems",
+          "booktitle": "ICDM Workshops",
+          "year": "2008",
+          "pages": "553-562",
+          "ee": "https://doi.org/10.1109/ICDMW.2008.86",
+          "author": [
+            {
+              "#text": "Bottyán Németh",
+              "@pid": "68/1189"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icmla/ZibriczkyPWT13",
+          "title": "EPG Content Recommendation in Large Scale: A Case Study on Interactive TV Platform",
+          "booktitle": "ICMLA (2)",
+          "year": "2013",
+          "pages": "315-320",
+          "ee": "https://doi.org/10.1109/ICMLA.2013.142",
+          "author": [
+            {
+              "#text": "Dávid Zibriczky",
+              "@pid": "71/8779"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Marton Waszlavik",
+              "@pid": "144/3216"
+            },
+            {
+              "#text": "Zoltán Petres",
+              "@pid": "38/1185"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/pkdd/HidasiT12",
+          "title": "Fast ALS-Based Tensor Factorization for Context-Aware Recommendation from Implicit Feedback",
+          "booktitle": "ECML/PKDD (2)",
+          "year": "2012",
+          "pages": "67-82",
+          "ee": "https://doi.org/10.1007/978-3-642-33486-3_5",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/BelloginCST13",
+          "title": "Workshop on reproducibility and replication in recommender systems evaluation: RepSys",
+          "booktitle": "RecSys",
+          "year": "2013",
+          "pages": "485-486",
+          "ee": "https://doi.org/10.1145/2507157.2508006",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Alejandro Bellogín",
+              "@pid": "23/1049"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Pablo Castells",
+              "@pid": "c/PabloCastells"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/HidasiKSDST17",
+          "title": "DLRS 2017: Second Workshop on Deep Learning for Recommender Systems",
+          "booktitle": "RecSys",
+          "year": "2017",
+          "pages": "370-371",
+          "ee": "https://doi.org/10.1145/3109859.3109953",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Bracha Shapira",
+              "@pid": "74/6180"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Oren Sar Shalom",
+              "@pid": "34/8612"
+            },
+            {
+              "#text": "Sander Dieleman",
+              "@pid": "86/10569"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/HidasiKSSTVD18",
+          "title": "DLRS 2018: third workshop on deep learning for recommender systems",
+          "booktitle": "RecSys",
+          "year": "2018",
+          "pages": "512-513",
+          "ee": "https://doi.org/10.1145/3240323.3240333",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Bracha Shapira",
+              "@pid": "74/6180"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Flavian Vasile",
+              "@pid": "64/4087"
+            },
+            {
+              "#text": "Oren Sar Shalom",
+              "@pid": "34/8612"
+            },
+            {
+              "#text": "Sander Dieleman",
+              "@pid": "86/10569"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/HidasiQKT16",
+          "title": "Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations",
+          "booktitle": "RecSys",
+          "year": "2016",
+          "pages": "241-248",
+          "ee": "https://doi.org/10.1145/2959100.2959167",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Massimo Quadrana",
+              "@pid": "135/5066"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/KaratzoglouHTSR16",
+          "title": "RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)",
+          "booktitle": "RecSys",
+          "year": "2016",
+          "pages": "415-416",
+          "ee": "https://doi.org/10.1145/2959100.2959202",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Bracha Shapira",
+              "@pid": "74/6180"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Haggai Roitman",
+              "@pid": "94/4396"
+            },
+            {
+              "#text": "Lior Rokach",
+              "@pid": "r/LiorRokach"
+            },
+            {
+              "#text": "Oren Sar Shalom",
+              "@pid": "34/8612"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/LarsonTT15",
+          "title": "Overview of ACM RecSys CrowdRec 2015 Workshop: Crowdsourcing and Human Computation for Recommender Systems",
+          "booktitle": "RecSys",
+          "year": "2015",
+          "pages": "341-342",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Martha A. Larson",
+              "@pid": "75/107"
+            },
+            {
+              "#text": "Roberto Turrin",
+              "@pid": "21/3555"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/ManouselisSTHKDVJ12",
+          "title": "Recommender systems challenge 2012",
+          "booktitle": "RecSys",
+          "year": "2012",
+          "pages": "353-354",
+          "ee": "https://doi.org/10.1145/2365952.2366043",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Benjamin Kille",
+              "@pid": "17/11080"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Hendrik Drachsler",
+              "@pid": "87/6454"
+            },
+            {
+              "#text": "Jannis Hermanns",
+              "@pid": "55/10321"
+            },
+            {
+              "#text": "Katrien Verbert",
+              "@pid": "52/6970"
+            },
+            {
+              "#text": "Kris Jack",
+              "@pid": "99/5545"
+            },
+            {
+              "#text": "Nikos Manouselis",
+              "@pid": "21/4565"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/MotajcsekMLKLTA16",
+          "title": "Algorithms Aside: Recommendation As The Lens Of Life",
+          "booktitle": "RecSys",
+          "year": "2016",
+          "pages": "215-219",
+          "ee": "https://doi.org/10.1145/2959100.2959164",
+          "author": [
+            {
+              "#text": "Andreas Lommatzsch",
+              "@pid": "38/2946"
+            },
+            {
+              "#text": "Andrew M. Demetriou",
+              "@pid": "185/2885"
+            },
+            {
+              "#text": "Anna Zacchi",
+              "@pid": "99/2796"
+            },
+            {
+              "#text": "Ayse Göker",
+              "@pid": "66/6753"
+            },
+            {
+              "#text": "Daniel Kohlsdorf",
+              "@pid": "47/7181"
+            },
+            {
+              "#text": "Davide Malagoli",
+              "@pid": "184/2094"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Franca Garzotto",
+              "@pid": "68/7019"
+            },
+            {
+              "#text": "Francesco Ricci",
+              "@pid": "r/FrancescoRicci"
+            },
+            {
+              "#text": "Frank Hopfgartner",
+              "@pid": "85/5730"
+            },
+            {
+              "#text": "Jasminko Novak",
+              "@pid": "39/5526"
+            },
+            {
+              "#text": "Jean-Yves Le Moine",
+              "@pid": "00/2213"
+            },
+            {
+              "#text": "Kristaps Dobrajs",
+              "@pid": "185/2882"
+            },
+            {
+              "#text": "Mario Scriminaci",
+              "@pid": "81/701"
+            },
+            {
+              "#text": "Marko Tkalcic",
+              "@pid": "24/8697"
+            },
+            {
+              "#text": "Martha A. Larson",
+              "@pid": "75/107"
+            },
+            {
+              "#text": "Omar Alonso",
+              "@pid": "a/OmarAlonso"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            },
+            {
+              "#text": "Tamas Motajcsek",
+              "@pid": "185/2894"
+            },
+            {
+              "#text": "Thuy Ngoc Nguyen",
+              "@pid": "115/8737"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/PaganoCLHTKQ16",
+          "title": "The Contextual Turn: from Context-Aware to Context-Driven Recommender Systems",
+          "booktitle": "RecSys",
+          "year": "2016",
+          "pages": "249-252",
+          "ee": "https://doi.org/10.1145/2959100.2959136",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Martha A. Larson",
+              "@pid": "75/107"
+            },
+            {
+              "#text": "Massimo Quadrana",
+              "@pid": "135/5066"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            },
+            {
+              "#text": "Roberto Pagano",
+              "@pid": "131/4841"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/PilaszyT09",
+          "title": "Recommending new movies: even a few ratings are more valuable than metadata",
+          "booktitle": "RecSys",
+          "year": "2009",
+          "pages": "93-100",
+          "ee": "https://doi.org/10.1145/1639714.1639731",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/PilaszyZT10",
+          "title": "Fast als-based matrix factorization for explicit and implicit feedback datasets",
+          "booktitle": "RecSys",
+          "year": "2010",
+          "pages": "71-78",
+          "ee": "https://doi.org/10.1145/1864708.1864726",
+          "author": [
+            {
+              "#text": "Dávid Zibriczky",
+              "@pid": "71/8779"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/SaidDLT14",
+          "title": "Recommender systems challenge 2014",
+          "booktitle": "RecSys",
+          "year": "2014",
+          "pages": "387-388",
+          "ee": "https://doi.org/10.1145/2645710.2645779",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Babak Loni",
+              "@pid": "33/10057"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Simon Dooms",
+              "@pid": "27/8779"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/SaidTH12",
+          "title": "The challenge of recommender systems challenges",
+          "booktitle": "RecSys",
+          "year": "2012",
+          "pages": "9-10",
+          "ee": "https://doi.org/10.1145/2365952.2365959",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Andreas Hotho",
+              "@pid": "h/AndreasHotho"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/SaidTSSLC12",
+          "title": "Recommender Systems Evaluation: A 3D Benchmark",
+          "booktitle": "RUE@RecSys",
+          "year": "2012",
+          "pages": "21-23",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Klara Stumpf",
+              "@pid": "167/4837"
+            },
+            {
+              "#text": "Martha A. Larson",
+              "@pid": "75/107"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            },
+            {
+              "#text": "Yue Shi",
+              "@pid": "74/5978-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/TakacsPNT08",
+          "title": "Matrix factorization and neighbor based algorithms for the netflix prize problem",
+          "booktitle": "RecSys",
+          "year": "2008",
+          "pages": "267-274",
+          "ee": "https://doi.org/10.1145/1454008.1454049",
+          "author": [
+            {
+              "#text": "Bottyán Németh",
+              "@pid": "68/1189"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/TakacsPT11",
+          "title": "Applications of the conjugate gradient method for implicit feedback collaborative filtering",
+          "booktitle": "RecSys",
+          "year": "2011",
+          "pages": "297-300",
+          "ee": "https://doi.org/10.1145/2043932.2043987",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/recsys/TakacsT12",
+          "title": "Alternating least squares for personalized ranking",
+          "booktitle": "RecSys",
+          "year": "2012",
+          "pages": "83-90",
+          "ee": "https://doi.org/10.1145/2365952.2365972",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smc/BaranyiMKTY98",
+          "title": "A general extension of fuzzy SVD rule base reduction using arbitrary inference algorithm",
+          "booktitle": "SMC",
+          "year": "1998",
+          "pages": "2785-2790",
+          "ee": "https://doi.org/10.1109/ICSMC.1998.725083",
+          "author": [
+            {
+              "#text": "Attila Martinovics",
+              "@pid": "220/6263"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Szilveszter Kovács",
+              "@pid": "04/5320"
+            },
+            {
+              "#text": "Yeung Yam",
+              "@pid": "y/YeungYam"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smc/TikkBP02",
+          "title": "Polytopic and TS models are nowhere dense in the approximation model space",
+          "booktitle": "SMC (2)",
+          "year": "2002",
+          "pages": "4",
+          "ee": "https://doi.org/10.1109/ICSMC.2002.1175684",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Ron J. Patton",
+              "@pid": "75/9186"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/somet/NemethTPT13",
+          "title": "Visualization of movie features in collaborative filtering",
+          "booktitle": "SoMeT",
+          "year": "2013",
+          "pages": "229-233",
+          "ee": "https://doi.org/10.1109/SOMET.2013.6645674",
+          "author": [
+            {
+              "#text": "Bottyán Németh",
+              "@pid": "68/1189"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/um/SaidLTCKHTG14",
+          "title": "User-Item Reciprocity in Recommender Systems: Incentivizing the Crowd",
+          "booktitle": "UMAP Workshops",
+          "year": "2014",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Frank Hopfgartner",
+              "@pid": "85/5730"
+            },
+            {
+              "#text": "Joost Geurts",
+              "@pid": "76/245"
+            },
+            {
+              "#text": "Martha A. Larson",
+              "@pid": "75/107"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            },
+            {
+              "#text": "Roberto Turrin",
+              "@pid": "21/3555"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/um/ZibriczkyHPT12",
+          "title": "Personalized recommendation of linear content on interactive TV platforms: beating the cold start and noisy implicit user feedback",
+          "booktitle": "UMAP Workshops",
+          "year": "2012",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Dávid Zibriczky",
+              "@pid": "71/8779"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Zoltán Petres",
+              "@pid": "38/1185"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/TikkBSKL07",
+          "title": "Topic and language specific internet search engine",
+          "journal": "Acta Cybern.",
+          "year": "2007",
+          "pages": "279-291",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Ferenc Szidarovszky",
+              "@pid": "05/7042"
+            },
+            {
+              "#text": "Gábor Lemák",
+              "@pid": "86/7546"
+            },
+            {
+              "#text": "György Biró",
+              "@pid": "17/1739"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ajiips/TikkB04",
+          "title": "A hierarchical test categorization approach and its application to FRT expansion",
+          "journal": "Aust. J. Intell. Inf. Process. Syst.",
+          "year": "2004",
+          "pages": "123-131",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "György Biró",
+              "@pid": "17/1739"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ajiips/TikkBPT04",
+          "title": "Approximation capability of TP model forms",
+          "journal": "Aust. J. Intell. Inf. Process. Syst.",
+          "year": "2004",
+          "pages": "155-163",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "József K. Tar",
+              "@pid": "62/2731"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Ron J. Patton",
+              "@pid": "75/9186"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bioinformatics/ThomasDSKWSMTBL15",
+          "title": "Computer-assisted curation of a human regulatory core network from the biological literature",
+          "journal": "Bioinform.",
+          "year": "2015",
+          "pages": "1258-1266",
+          "ee": "https://doi.org/10.1093/BIOINFORMATICS/BTU795",
+          "author": [
+            {
+              "#text": "Bertram Klinger",
+              "@pid": "68/9421"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Franziska Witzel",
+              "@pid": "161/2908"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Nils Blüthgen",
+              "@pid": "71/4653"
+            },
+            {
+              "#text": "Pascal Schulthess",
+              "@pid": "161/2969"
+            },
+            {
+              "#text": "Pawel Durek",
+              "@pid": "78/5719"
+            },
+            {
+              "#text": "Philippe Thomas",
+              "@pid": "123/7263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            },
+            {
+              "#text": "Yvonne Mayer",
+              "@pid": "161/2912"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/biomedsem/NguyenTL10",
+          "title": "Simple tricks for improving pattern-based information extraction from the biomedical literature",
+          "journal": "J. Biomed. Semant.",
+          "year": "2010",
+          "pages": "9",
+          "ee": "https://doi.org/10.1186/2041-1480-1-9",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Quang Long Nguyen",
+              "@pid": "93/9263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bmcbi/SoltTL10",
+          "title": "Species identification for gene name normalization",
+          "journal": "BMC Bioinform.",
+          "year": "2010",
+          "pages": "P5",
+          "ee": "https://doi.org/10.1186/1471-2105-11-S5-P5",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bmcbi/TikkPL10",
+          "title": "A fast and effective dependency graph kernel for PPI relation extraction",
+          "journal": "BMC Bioinform.",
+          "year": "2010",
+          "pages": "P8",
+          "ee": "https://doi.org/10.1186/1471-2105-11-S5-P8",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Peter Palaga",
+              "@pid": "27/2059"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/bmcbi/TikkSTL13",
+          "title": "A detailed error analysis of 13 kernel methods for protein-protein interaction extraction",
+          "journal": "BMC Bioinform.",
+          "year": "2013",
+          "pages": "12",
+          "ee": "https://doi.org/10.1186/1471-2105-14-12",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Philippe Thomas",
+              "@pid": "123/7263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ci/HakenbergSTVTNBL11",
+          "title": "Molecular Event Extraction from Link Grammar Parse Trees in the BioNLP'09 Shared Task",
+          "journal": "Comput. Intell.",
+          "year": "2011",
+          "pages": "665-680",
+          "ee": "https://doi.org/10.1111/J.1467-8640.2011.00404.X",
+          "author": [
+            {
+              "#text": "Chitta Baral",
+              "@pid": "b/ChittaBaral"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Jörg Hakenberg",
+              "@pid": "01/1160"
+            },
+            {
+              "#text": "Luis Tari",
+              "@pid": "46/2345"
+            },
+            {
+              "#text": "Nguyen Ha Vo",
+              "@pid": "07/8355"
+            },
+            {
+              "#text": "Quang Long Nguyen",
+              "@pid": "93/9263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cii/BaranyiTYP03",
+          "title": "From differential equations to PDC controller design via numerical transformation",
+          "journal": "Comput. Ind.",
+          "year": "2003",
+          "pages": "281-297",
+          "ee": "https://doi.org/10.1016/S0166-3615(03)00058-7",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            },
+            {
+              "#text": "Ron J. Patton",
+              "@pid": "75/9186"
+            },
+            {
+              "#text": "Yeung Yam",
+              "@pid": "y/YeungYam"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1204-1259",
+          "title": "Fast ALS-based tensor factorization for context-aware recommendation from implicit feedback",
+          "journal": "CoRR",
+          "year": "2012",
+          "ee": "https://doi.org/10.48550/ARXIV.1204.1259",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/corr/HidasiKBT15",
+          "title": "Session-based Recommendations with Recurrent Neural Networks",
+          "booktitle": "ICLR (Poster)",
+          "year": "2016",
+          "ee": "https://doi.org/10.48550/ARXIV.1511.06939",
+          "author": [
+            {
+              "#text": "Alexandros Karatzoglou",
+              "@pid": "09/3996"
+            },
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Linas Baltrunas",
+              "@pid": "79/3913"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HidasiT13",
+          "title": "Context-aware recommendations from implicit data via scalable tensor factorization",
+          "journal": "CoRR",
+          "year": "2013",
+          "ee": "https://doi.org/10.48550/ARXIV.1309.7611",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HidasiT14",
+          "title": "General factorization framework for context-aware recommendations",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1401.4529",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/datamine/HidasiT16",
+          "title": "General factorization framework for context-aware recommendations",
+          "journal": "Data Min. Knowl. Discov.",
+          "year": "2016",
+          "pages": "342-371",
+          "ee": "https://doi.org/10.1007/S10618-015-0417-Y",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dke/KardkovacsT07",
+          "title": "On the transformation of sentences with genitive relations to SQL queries",
+          "journal": "Data Knowl. Eng.",
+          "year": "2007",
+          "pages": "406-416",
+          "ee": "https://doi.org/10.1016/J.DATAK.2006.06.013",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fss/Tikk03",
+          "title": "Notes on the approximation rate of fuzzy KH interpolators",
+          "journal": "Fuzzy Sets Syst.",
+          "year": "2003",
+          "pages": "441-453",
+          "ee": "https://doi.org/10.1016/S0165-0114(02)00387-1",
+          "author": {
+            "#text": "Domonkos Tikk",
+            "@pid": "55/6632"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/fss/TikkJKVMG02",
+          "title": "Stability of interpolative fuzzy KH controllers",
+          "journal": "Fuzzy Sets Syst.",
+          "year": "2002",
+          "pages": "105-119",
+          "ee": "https://doi.org/10.1016/S0165-0114(00)00104-4",
+          "author": [
+            {
+              "#text": "Bernhard Moser",
+              "@pid": "74/4251"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "István Joó",
+              "@pid": "62/3381"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Péter Várlaki",
+              "@pid": "50/1605"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijar/TikkKG03",
+          "title": "A survey on universal approximation and its limits in soft computing techniques",
+          "journal": "Int. J. Approx. Reason.",
+          "year": "2003",
+          "pages": "185-202",
+          "ee": "https://doi.org/10.1016/S0888-613X(03)00021-5",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jaciii/CsapoRTB09",
+          "title": "Object Categorization Using Biologically Inspired Nodemaps and the HITEC Categorization System",
+          "journal": "J. Adv. Comput. Intell. Intell. Informatics",
+          "year": "2009",
+          "pages": "573-580",
+          "ee": "https://doi.org/10.20965/JACIII.2009.P0573",
+          "author": [
+            {
+              "#text": "Ádám B. Csapó",
+              "@pid": "51/5065"
+            },
+            {
+              "#text": "Barna Reskó",
+              "@pid": "72/6240"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jaciii/TikkJKW11",
+          "title": "Fuzzy Rule Interpolation and Extrapolation Techniques: Criteria and Evaluation Guidelines",
+          "journal": "J. Adv. Comput. Intell. Intell. Informatics",
+          "year": "2011",
+          "pages": "254-263",
+          "ee": "https://doi.org/10.20965/JACIII.2011.P0254",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "Szilveszter Kovács",
+              "@pid": "04/5320"
+            },
+            {
+              "#text": "Zsolt Csaba Johanyák",
+              "@pid": "33/2992"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jamia/SoltTGK09",
+          "title": "Research Paper: Semantic Classification of Diseases in Discharge Summaries Using a Context-aware Rule-based Classifier",
+          "journal": "J. Am. Medical Informatics Assoc.",
+          "year": "2009",
+          "pages": "580-584",
+          "ee": "https://doi.org/10.1197/JAMIA.M3087",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            },
+            {
+              "#text": "Viktor Gál",
+              "@pid": "34/5080"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jamia/TikkS10",
+          "title": "Improving textual medication extraction using combined conditional random fields and rule-based systems",
+          "journal": "J. Am. Medical Informatics Assoc.",
+          "year": "2010",
+          "pages": "540-544",
+          "ee": "https://doi.org/10.1136/JAMIA.2010.004119",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Illés Solt",
+              "@pid": "14/9194"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jmlr/TakacsPNT09",
+          "title": "Scalable Collaborative Filtering Approaches for Large Recommender Systems",
+          "journal": "J. Mach. Learn. Res.",
+          "year": "2009",
+          "pages": "623-656",
+          "author": [
+            {
+              "#text": "Bottyán Németh",
+              "@pid": "68/1189"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jucs/HidasiT13",
+          "title": "Initializing Matrix Factorization Methods on Implicit Feedback Databases",
+          "journal": "J. Univers. Comput. Sci.",
+          "year": "2013",
+          "pages": "1834-1853",
+          "ee": "https://doi.org/10.3217/JUCS-019-12-1834",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/kais/HidasiT16",
+          "title": "Speeding up ALS learning via approximate methods for context-aware recommendations",
+          "journal": "Knowl. Inf. Syst.",
+          "year": "2016",
+          "pages": "131-155",
+          "ee": "https://doi.org/10.1007/S10115-015-0863-2",
+          "author": [
+            {
+              "#text": "Balázs Hidasi",
+              "@pid": "15/9988"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/kybernetika/TikkYB03",
+          "title": "Hierarchical text categorization using fuzzy relational thesaurus",
+          "journal": "Kybernetika",
+          "year": "2003",
+          "pages": "583-600",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Jae Dong Yang",
+              "@pid": "01/3409"
+            },
+            {
+              "#text": "Sun Lee Bang",
+              "@pid": "68/3068"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ploscb/TikkTPHL10",
+          "title": "A Comprehensive Benchmark of Kernel Methods to Extract Protein-Protein Interactions from Literature",
+          "journal": "PLoS Comput. Biol.",
+          "year": "2010",
+          "ee": "https://doi.org/10.1371/JOURNAL.PCBI.1000837",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Jörg Hakenberg",
+              "@pid": "01/1160"
+            },
+            {
+              "#text": "Peter Palaga",
+              "@pid": "27/2059"
+            },
+            {
+              "#text": "Philippe Thomas",
+              "@pid": "123/7263"
+            },
+            {
+              "#text": "Ulf Leser",
+              "@pid": "l/UlfLeser"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigir/BelloginCST14",
+          "title": "Report on the workshop on reproducibility and replication in recommender systems evaluation (RepSys)",
+          "journal": "SIGIR Forum",
+          "year": "2014",
+          "pages": "29-35",
+          "ee": "https://doi.org/10.1145/2641383.2641389",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Alejandro Bellogín",
+              "@pid": "23/1049"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Pablo Castells",
+              "@pid": "c/PabloCastells"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigkdd/BennettELST07",
+          "title": "KDD Cup and workshop 2007",
+          "journal": "SIGKDD Explor.",
+          "year": "2007",
+          "pages": "51-52",
+          "ee": "https://doi.org/10.1145/1345448.1345459",
+          "author": [
+            {
+              "#text": "Bing Liu",
+              "@pid": "l/BingLiu1"
+            },
+            {
+              "#text": "Charles Elkan",
+              "@pid": "e/CharlesElkan"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "James Bennett",
+              "@pid": "25/6082"
+            },
+            {
+              "#text": "Padhraic Smyth",
+              "@pid": "s/PadhraicSmyth"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigkdd/KardkovacsTB05",
+          "title": "The Ferrety algorithm for the KDD Cup 2005 problem",
+          "journal": "SIGKDD Explor.",
+          "year": "2005",
+          "pages": "111-116",
+          "ee": "https://doi.org/10.1145/1117454.1117468",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Zoltán Bánsághi",
+              "@pid": "43/6804"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigkdd/TakacsPNT07",
+          "title": "Major components of the gravity recommendation system",
+          "journal": "SIGKDD Explor.",
+          "year": "2007",
+          "pages": "80-83",
+          "ee": "https://doi.org/10.1145/1345448.1345466",
+          "author": [
+            {
+              "#text": "Bottyán Németh",
+              "@pid": "68/1189"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Gábor Takács",
+              "@pid": "18/439"
+            },
+            {
+              "#text": "István Pilászy",
+              "@pid": "73/2177"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigkdd/TikkKS06",
+          "title": "Voting with a parameterized veto strategy: solving the KDD Cup 2006 problem by means of a classifier committee",
+          "journal": "SIGKDD Explor.",
+          "year": "2006",
+          "pages": "53-62",
+          "ee": "https://doi.org/10.1145/1233321.1233328",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Ferenc Szidarovszky",
+              "@pid": "05/7042"
+            },
+            {
+              "#text": "Zsolt T. Kardkovács",
+              "@pid": "12/3183"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tfs/TikkB00",
+          "title": "Comprehensive analysis of a new fuzzy rule interpolation method",
+          "journal": "IEEE Trans. Fuzzy Syst.",
+          "year": "2000",
+          "pages": "281-296",
+          "ee": "https://doi.org/10.1109/91.855917",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Péter Baranyi",
+              "@pid": "21/3723"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tfs/TikkBGKY02",
+          "title": "Improvements and critique on Sugeno's and Yasukawa's qualitative modeling",
+          "journal": "IEEE Trans. Fuzzy Syst.",
+          "year": "2002",
+          "pages": "596-606",
+          "ee": "https://doi.org/10.1109/TFUZZ.2002.803494",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "György Biró",
+              "@pid": "17/1739"
+            },
+            {
+              "#text": "Jae Dong Yang",
+              "@pid": "01/3409"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tfs/WongTGK05",
+          "title": "Fuzzy rule interpolation for multidimensional input spaces with applications: a case study",
+          "journal": "IEEE Trans. Fuzzy Syst.",
+          "year": "2005",
+          "pages": "809-819",
+          "ee": "https://doi.org/10.1109/TFUZZ.2005.859316",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Kevin Kok Wai Wong",
+              "@pid": "13/3307"
+            },
+            {
+              "#text": "László T. Kóczy",
+              "@pid": "00/2018"
+            },
+            {
+              "#text": "Tom Gedeon",
+              "@pid": "g/TamasDGedeon"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tist/CremonesiSTZ16",
+          "title": "Introduction to the Special Issue on Recommender System Benchmarking",
+          "journal": "ACM Trans. Intell. Syst. Technol.",
+          "year": "2016",
+          "pages": "38:1-38:4",
+          "ee": "https://doi.org/10.1145/2870627",
+          "author": [
+            {
+              "#text": "Alan Said",
+              "@pid": "71/7413"
+            },
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "Michelle X. Zhou",
+              "@pid": "90/5406"
+            },
+            {
+              "#text": "Paolo Cremonesi",
+              "@pid": "03/3233"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Domonkos00",
+          "title": "Fuzzy szabályinterpolációs eljárások és fuzzy szabályozók univerzális közelítő tulajdonságának vizsgálata",
+          "journal": "",
+          "year": "2000",
+          "author": {
+            "#text": "Domonkos Tikk",
+            "@pid": "55/6632"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "reference/ai/KovacsT09",
+          "title": "Full-Text Search Engines for Databases",
+          "journal": "Encyclopedia of Artificial Intelligence",
+          "year": "2009",
+          "pages": "654-660",
+          "author": [
+            {
+              "#text": "Domonkos Tikk",
+              "@pid": "55/6632"
+            },
+            {
+              "#text": "László Kovács",
+              "@pid": "59/1019"
+            }
+          ]
+        }
       }
     ]
   }

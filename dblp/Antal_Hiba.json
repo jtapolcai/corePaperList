@@ -1,244 +1,459 @@
 {
   "dblpperson": {
+    "@name": "Antal Hiba",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/fpl/NagyNHKCS12",
-        "title": "FPGA based acceleration of computational fluid flow simulation on unstructured mesh geometry.",
-        "pages": "128-135",
-        "year": "2012",
-        "booktitle": "FPL",
-        "ee": "https://doi.org/10.1109/FPL.2012.6339276",
-        "url": "db/conf/fpl/fpl2012.html#NagyNHKCS12",
-        "authors": [
-          "ZoltÃ¡n Nagy 0001",
-          "Csaba Nemes",
-          "Antal Hiba",
-          "AndrÃ¡s Kiss",
-          "ÃrpÃ¡d CsÃ­k",
-          "PÃ©ter Szolgay"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecctd/ZsedrovitsZPHNV15",
+          "title": "Distant aircraft detection in sense-and-avoid on kilo-processor architectures",
+          "booktitle": "ECCTD",
+          "year": "2015",
+          "pages": "1-4",
+          "ee": "https://doi.org/10.1109/ECCTD.2015.7300065",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Borbala Jani Matyasne Pencz",
+              "@pid": "166/3161"
+            },
+            {
+              "#text": "Máté Németh",
+              "@pid": "132/1898"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BauerHZ19",
-        "title": "Comparison of Mono Camera-based Static Obstacle Position Estimation Methods for Automotive Application.",
-        "pages": "386-391",
-        "year": "2019",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2019.8798518",
-        "url": "db/conf/med/med2019.html#BauerHZ19",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "Ãkos ZarÃ¡ndy"
-        ]
+        "inproceedings": {
+          "@key": "conf/fpl/NagyNHKCS12",
+          "title": "FPGA based acceleration of computational fluid flow simulation on unstructured mesh geometry",
+          "booktitle": "FPL",
+          "year": "2012",
+          "pages": "128-135",
+          "ee": "https://doi.org/10.1109/FPL.2012.6339276",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BauerHZ20",
-        "title": "Single Filter Lead Vehicle Distance and Velocity Estimation with Multiple Hypothesis Testing.",
-        "pages": "508-513",
-        "year": "2020",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED48518.2020.9183049",
-        "url": "db/conf/med/med2020.html#BauerHZ20",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "Ãkos ZarÃ¡ndy"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BauerHVZB16",
+          "title": "Monocular image-based time to collision and closest point of approach estimation",
+          "booktitle": "MED",
+          "year": "2016",
+          "pages": "1168-1173",
+          "ee": "https://doi.org/10.1109/MED.2016.7535965",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BauerHVZB16",
-        "title": "Monocular image-based time to collision and closest point of approach estimation.",
-        "pages": "1168-1173",
-        "year": "2016",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2016.7535965",
-        "url": "db/conf/med/med2016.html#BauerHVZB16",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "BÃ¡lint Vanek",
-          "Ãkos ZarÃ¡ndy",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BauerHZ19",
+          "title": "Comparison of Mono Camera-based Static Obstacle Position Estimation Methods for Automotive Application",
+          "booktitle": "MED",
+          "year": "2019",
+          "pages": "386-391",
+          "ee": "https://doi.org/10.1109/MED.2019.8798518",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/vehits/NagyBHGDLK21",
-        "title": "The Forerunner UAV Concept for the Increased Safety of First Responders.",
-        "pages": "362-369",
-        "year": "2021",
-        "booktitle": "VEHITS",
-        "ee": "https://doi.org/10.5220/0010408203620369",
-        "url": "db/conf/vehits/vehits2021.html#NagyBHGDLK21",
-        "authors": [
-          "MihÃ¡ly Nagy",
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "Attila GÃ¡ti",
-          "IstvÃ¡n DrotÃ¡r",
-          "BalÃ¡zs Lattes",
-          "ÃdÃ¡m Kisari"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BauerHZ20",
+          "title": "Single Filter Lead Vehicle Distance and Velocity Estimation with Multiple Hypothesis Testing",
+          "booktitle": "MED",
+          "year": "2020",
+          "pages": "508-513",
+          "ee": "https://doi.org/10.1109/MED48518.2020.9183049",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecctd/ZsedrovitsZPHNV15",
-        "title": "Distant aircraft detection in sense-and-avoid on kilo-processor architectures.",
-        "pages": "1-4",
-        "year": "2015",
-        "booktitle": "ECCTD",
-        "ee": "https://doi.org/10.1109/ECCTD.2015.7300065",
-        "url": "db/conf/ecctd/ecctd2015.html#ZsedrovitsZPHNV15",
-        "authors": [
-          "TamÃ¡s Zsedrovits",
-          "Ãkos ZarÃ¡ndy",
-          "Borbala Jani Matyasne Pencz",
-          "Antal Hiba",
-          "MÃ¡tÃ© NÃ©meth",
-          "BÃ¡lint Vanek"
-        ]
+        "inproceedings": {
+          "@key": "conf/vehits/NagyBHGDLK21",
+          "title": "The Forerunner UAV Concept for the Increased Safety of First Responders",
+          "booktitle": "VEHITS",
+          "year": "2021",
+          "pages": "362-369",
+          "ee": "https://doi.org/10.5220/0010408203620369",
+          "author": [
+            {
+              "#text": "Ádám Kisari",
+              "@pid": "211/5569"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Attila Gáti",
+              "@pid": "124/0876"
+            },
+            {
+              "#text": "Balázs Lattes",
+              "@pid": "293/6425"
+            },
+            {
+              "#text": "István Drotár",
+              "@pid": "293/6304"
+            },
+            {
+              "#text": "Mihály Nagy",
+              "@pid": "293/6369"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/HibaGM21",
-        "title": "Optical Navigation Sensor for Runway Relative Positioning of Aircraft during Final Approach.",
-        "pages": "2203",
-        "year": "2021",
-        "volume": "21",
-        "journal": "Sensors",
-        "number": "6",
-        "ee": "https://doi.org/10.3390/s21062203",
-        "url": "db/journals/sensors/sensors21.html#HibaGM21",
-        "authors": [
-          "Antal Hiba",
-          "Attila GÃ¡ti",
-          "Augustin Manecy"
-        ]
+        "article": {
+          "@key": "journals/concurrency/NagyNHCKRS14",
+          "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays",
+          "journal": "Concurr. Comput. Pract. Exp.",
+          "year": "2014",
+          "pages": "615-643",
+          "ee": "https://doi.org/10.1002/CPE.3022",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Miklós Ruszinkó",
+              "@pid": "74/538"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/remotesensing/BauerHNSKKDZ23",
-        "title": "Encounter Risk Evaluation with a Forerunner UAV.",
-        "pages": "1512",
-        "year": "2023",
-        "volume": "15",
-        "journal": "Remote. Sens.",
-        "number": "6",
-        "ee": "https://doi.org/10.3390/rs15061512",
-        "url": "db/journals/remotesensing/remotesensing15.html#BauerHNSKKDZ23",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "MihÃ¡ly Nagy",
-          "Erno Simonyi",
-          "Gergely IstvÃ¡n Kuna",
-          "ÃdÃ¡m Kisari",
-          "IstvÃ¡n DrotÃ¡r",
-          "Ãkos ZarÃ¡ndy"
-        ]
+        "informal": {
+          "@key": "journals/corr/NagyNHCKRS14",
+          "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays",
+          "journal": "CoRR",
+          "year": "2014",
+          "ee": "https://doi.org/10.48550/ARXIV.1408.5715",
+          "author": [
+            {
+              "#text": "András Kiss",
+              "@pid": "05/7937"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Árpád Csík",
+              "@pid": "26/7936"
+            },
+            {
+              "#text": "Csaba Nemes",
+              "@pid": "01/10351"
+            },
+            {
+              "#text": "Miklós Ruszinkó",
+              "@pid": "74/538"
+            },
+            {
+              "#text": "Péter Szolgay",
+              "@pid": "68/4099"
+            },
+            {
+              "#text": "Zoltán Nagy",
+              "@pid": "61/2764-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ercim/BauerHDMV17",
-        "title": "Real Flight Demonstration of Monocular Image-Based Aircraft Sense and Avoid.",
-        "year": "2017",
-        "volume": "2017",
-        "journal": "ERCIM News",
-        "number": "110",
-        "ee": "https://ercim-news.ercim.eu/en110/r-i/real-flight-demonstration-of-monocular-image-based-aircraft-sense-and-avoid",
-        "url": "db/journals/ercim/ercim2017.html#BauerHDMV17",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "BÃ¡lint DarÃ³czy",
-          "MÃ¡rk Melczer",
-          "BÃ¡lint Vanek"
-        ]
+        "informal": {
+          "@key": "journals/ercim/BauerHDMV17",
+          "title": "Real Flight Demonstration of Monocular Image-Based Aircraft Sense and Avoid",
+          "journal": "ERCIM News",
+          "year": "2017",
+          "author": [
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Bálint Daróczy",
+              "@pid": "11/4890"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Márk Melczer",
+              "@pid": "202/7199"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jirs/BauerHBZ19",
-        "title": "Three Dimensional Intruder Closest Point of Approach Estimation Based-on Monocular Image Parameters in Aircraft Sense and Avoid - Motto: 'Almost Everything from Almost Nothing'.",
-        "pages": "261-276",
-        "year": "2019",
-        "volume": "93",
-        "journal": "J. Intell. Robotic Syst.",
-        "number": "1-2",
-        "ee": "https://www.wikidata.org/entity/Q130018410",
-        "url": "db/journals/jirs/jirs93.html#BauerHBZ19",
-        "authors": [
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "Jozsef Bokor",
-          "Ãkos ZarÃ¡ndy"
-        ]
+        "article": {
+          "@key": "journals/jirs/BauerHBZ19",
+          "title": "Three Dimensional Intruder Closest Point of Approach Estimation Based-on Monocular Image Parameters in Aircraft Sense and Avoid - Motto: 'Almost Everything from Almost Nothing'",
+          "journal": "J. Intell. Robotic Syst.",
+          "year": "2019",
+          "pages": "261-276",
+          "ee": "https://doi.org/10.1007/S10846-018-0816-6",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jirs/ZsedrovitsBHNPZ16",
-        "title": "Performance Analysis of Camera Rotation Estimation Algorithms in Multi-Sensor Fusion for Unmanned Aircraft Attitude Estimation.",
-        "pages": "759-777",
-        "year": "2016",
-        "volume": "84",
-        "journal": "J. Intell. Robotic Syst.",
-        "number": "1-4",
-        "ee": "https://doi.org/10.1007/s10846-016-0346-z",
-        "url": "db/journals/jirs/jirs84.html#ZsedrovitsBHNPZ16",
-        "authors": [
-          "TamÃ¡s Zsedrovits",
-          "PÃ©ter Bauer",
-          "Antal Hiba",
-          "MÃ¡tÃ© NÃ©meth",
-          "Borbala Jani Matyasne Pencz",
-          "Ãkos ZarÃ¡ndy",
-          "BÃ¡lint Vanek",
-          "Jozsef Bokor"
-        ]
+        "article": {
+          "@key": "journals/jirs/ZsedrovitsBHNPZ16",
+          "title": "Performance Analysis of Camera Rotation Estimation Algorithms in Multi-Sensor Fusion for Unmanned Aircraft Attitude Estimation",
+          "journal": "J. Intell. Robotic Syst.",
+          "year": "2016",
+          "pages": "759-777",
+          "ee": "https://doi.org/10.1007/S10846-016-0346-Z",
+          "author": [
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Bálint Vanek",
+              "@pid": "66/9848"
+            },
+            {
+              "#text": "Borbala Jani Matyasne Pencz",
+              "@pid": "166/3161"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Máté Németh",
+              "@pid": "132/1898"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            },
+            {
+              "#text": "Tamás Zsedrovits",
+              "@pid": "86/9850"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/concurrency/NagyNHCKRS14",
-        "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays.",
-        "pages": "615-643",
-        "year": "2014",
-        "volume": "26",
-        "journal": "Concurr. Comput. Pract. Exp.",
-        "number": "3",
-        "ee": "https://doi.org/10.1002/cpe.3022",
-        "url": "db/journals/concurrency/concurrency26.html#NagyNHCKRS14",
-        "authors": [
-          "ZoltÃ¡n Nagy 0001",
-          "Csaba Nemes",
-          "Antal Hiba",
-          "ÃrpÃ¡d CsÃ­k",
-          "AndrÃ¡s Kiss",
-          "MiklÃ³s RuszinkÃ³",
-          "PÃ©ter Szolgay"
-        ]
+        "article": {
+          "@key": "journals/remotesensing/BauerHNSKKDZ23",
+          "title": "Encounter Risk Evaluation with a Forerunner UAV",
+          "journal": "Remote. Sens.",
+          "year": "2023",
+          "pages": "1512",
+          "ee": "https://doi.org/10.3390/RS15061512",
+          "author": [
+            {
+              "#text": "Ádám Kisari",
+              "@pid": "211/5569"
+            },
+            {
+              "#text": "Ákos Zarándy",
+              "@pid": "37/3327"
+            },
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Erno Simonyi",
+              "@pid": "217/7669"
+            },
+            {
+              "#text": "Gergely István Kuna",
+              "@pid": "344/2693"
+            },
+            {
+              "#text": "István Drotár",
+              "@pid": "293/6304"
+            },
+            {
+              "#text": "Mihály Nagy",
+              "@pid": "293/6369"
+            },
+            {
+              "#text": "Péter Bauer",
+              "@pid": "53/1343"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/NagyNHCKRS14",
-        "title": "Accelerating unstructured finite volume computations on field-programmable gate arrays.",
-        "year": "2014",
-        "volume": "abs/1408.5715",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1408.5715",
-        "url": "db/journals/corr/corr1408.html#NagyNHCKRS14",
-        "authors": [
-          "ZoltÃ¡n Nagy 0001",
-          "Csaba Nemes",
-          "Antal Hiba",
-          "ÃrpÃ¡d CsÃ­k",
-          "AndrÃ¡s Kiss",
-          "MiklÃ³s RuszinkÃ³",
-          "PÃ©ter Szolgay"
-        ]
+        "article": {
+          "@key": "journals/sensors/HibaGM21",
+          "title": "Optical Navigation Sensor for Runway Relative Positioning of Aircraft during Final Approach",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "2203",
+          "ee": "https://doi.org/10.3390/S21062203",
+          "author": [
+            {
+              "#text": "Antal Hiba",
+              "@pid": "121/1678"
+            },
+            {
+              "#text": "Attila Gáti",
+              "@pid": "124/0876"
+            },
+            {
+              "#text": "Augustin Manecy",
+              "@pid": "123/6606"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Antal16",
+          "title": "Memory Access Optimization for Computations on Unstructured Meshes",
+          "journal": "",
+          "year": "2016",
+          "author": {
+            "#text": "Antal Hiba",
+            "@pid": "121/1678"
+          }
+        }
       }
     ]
   }

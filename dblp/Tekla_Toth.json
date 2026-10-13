@@ -1,63 +1,274 @@
 {
   "dblpperson": {
+    "@name": "Tekla Tóth",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/visapp/TothH19",
-        "title": "Robust Fitting of Geometric Primitives on LiDAR Data.",
-        "pages": "622-629",
-        "year": "2019",
-        "booktitle": "VISIGRAPP (5: VISAPP)",
-        "ee": "https://doi.org/10.5220/0007572606220629",
-        "url": "db/conf/visapp/visapp2019-2.html#TothH19",
-        "authors": [
-          "Tekla Toth",
-          "Levente Hajder"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvpr/BarathTH17",
+          "title": "A Minimal Solution for Two-View Focal-Length Estimation Using Two Affine Correspondences",
+          "booktitle": "CVPR",
+          "year": "2017",
+          "pages": "2557-2565",
+          "ee": "https://doi.org/10.1109/CVPR.2017.274",
+          "author": [
+            {
+              "#text": "Daniel Barath",
+              "@pid": "166/4789"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cvww/TothVH23",
-        "title": "3D Trajectory Registration for Sensor Calibration.",
-        "year": "2023",
-        "booktitle": "CVWW",
-        "ee": "https://ceur-ws.org/Vol-3349/paper5.pdf",
-        "url": "db/conf/cvww/cvww2023.html#TothVH23",
-        "authors": [
-          "Tekla Toth",
-          "GÃ¡bor Valasek",
-          "Levente Hajder"
-        ]
+        "inproceedings": {
+          "@key": "conf/cvww/TothVH23",
+          "title": "3D Trajectory Registration for Sensor Calibration",
+          "booktitle": "CVWW",
+          "year": "2023",
+          "author": [
+            {
+              "#text": "Gábor Valasek",
+              "@pid": "122/8346"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cvpr/BarathTH17",
-        "title": "A Minimal Solution for Two-View Focal-Length Estimation Using Two Affine Correspondences.",
-        "pages": "2557-2565",
-        "year": "2017",
-        "booktitle": "CVPR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CVPR.2017.274",
-        "url": "db/conf/cvpr/cvpr2017.html#BarathTH17",
-        "authors": [
-          "Daniel Barath",
-          "Tekla Toth",
-          "Levente Hajder"
-        ]
+        "inproceedings": {
+          "@key": "conf/icpr/MagyarLT26",
+          "title": "Automated Smart Data Curation via Embedding-Based Scenario Retrieval",
+          "booktitle": "ICPR (9)",
+          "year": "2027",
+          "pages": "628-642",
+          "ee": "https://doi.org/10.1007/978-3-032-31441-3_42",
+          "author": [
+            {
+              "#text": "Dávid Magyar",
+              "@pid": "344/1912"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            },
+            {
+              "#text": "Zsombor Lányi",
+              "@pid": "442/2978"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/BarathTH17",
-        "title": "A Minimal Solution for Two-view Focal-length Estimation using Two Affine Correspondences.",
-        "year": "2017",
-        "volume": "abs/1706.01649",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1706.01649",
-        "url": "db/journals/corr/corr1706.html#BarathTH17",
-        "authors": [
-          "Daniel Barath",
-          "Tekla Toth",
-          "Levente Hajder"
-        ]
+        "inproceedings": {
+          "@key": "conf/icra/TothPH20",
+          "title": "Automatic LiDAR-Camera Calibration of Extrinsic Parameters Using a Spherical Target",
+          "booktitle": "ICRA",
+          "year": "2020",
+          "pages": "8580-8586",
+          "ee": "https://doi.org/10.1109/ICRA40945.2020.9197316",
+          "author": [
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            },
+            {
+              "#text": "Zoltán Pusztai",
+              "@pid": "183/3625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visapp/HajderTP20",
+          "title": "Automatic Estimation of Sphere Centers from Images of Calibrated Cameras",
+          "booktitle": "VISIGRAPP (4: VISAPP)",
+          "year": "2020",
+          "pages": "490-497",
+          "ee": "https://doi.org/10.5220/0009164304900497",
+          "author": [
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            },
+            {
+              "#text": "Zoltán Pusztai",
+              "@pid": "183/3625"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visapp/TofalviKHT22",
+          "title": "LiDAR-camera Calibration in an Uniaxial 1-DoF Sensor System",
+          "booktitle": "VISIGRAPP (4: VISAPP)",
+          "year": "2022",
+          "pages": "730-738",
+          "ee": "https://doi.org/10.5220/0010988800003124",
+          "author": [
+            {
+              "#text": "Bandó Kovács",
+              "@pid": "315/4316"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tamás Tófalvi",
+              "@pid": "315/4488"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visapp/TothH19",
+          "title": "Robust Fitting of Geometric Primitives on LiDAR Data",
+          "booktitle": "VISIGRAPP (5: VISAPP)",
+          "year": "2019",
+          "pages": "622-629",
+          "ee": "https://doi.org/10.5220/0007572606220629",
+          "author": [
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/visigrapp/PancsicsNTJTH24",
+          "title": "Error Analysis of Aerial Image-Based Relative Object Position Estimation",
+          "booktitle": "VISIGRAPP (3): VISAPP",
+          "year": "2024",
+          "pages": "656-663",
+          "ee": "https://doi.org/10.5220/0012433300003660",
+          "author": [
+            {
+              "#text": "Gergely Treplán",
+              "@pid": "87/9171"
+            },
+            {
+              "#text": "Imre Benedek Juhász",
+              "@pid": "215/4001"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Nelli Nyisztor",
+              "@pid": "372/3125"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            },
+            {
+              "#text": "Zsombor Páncsics",
+              "@pid": "372/4051"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2002-10217",
+          "title": "Automatic Estimation of Sphere Centers from Images of Calibrated Cameras",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2002.10217",
+          "author": [
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            },
+            {
+              "#text": "Zoltán Pusztai",
+              "@pid": "183/3625"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/BarathTH17",
+          "title": "A Minimal Solution for Two-view Focal-length Estimation using Two Affine Correspondences",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1706.01649",
+          "author": [
+            {
+              "#text": "Daniel Barath",
+              "@pid": "166/4789"
+            },
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcv/TothH23",
+          "title": "A Minimal Solution for Image-Based Sphere Estimation",
+          "journal": "Int. J. Comput. Vis.",
+          "year": "2023",
+          "pages": "1428-1447",
+          "ee": "https://doi.org/10.1007/S11263-023-01766-1",
+          "author": [
+            {
+              "#text": "Levente Hajder",
+              "@pid": "94/4989"
+            },
+            {
+              "#text": "Tekla Toth",
+              "@pid": "202/1768"
+            }
+          ]
+        }
       }
     ]
   }

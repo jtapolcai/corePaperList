@@ -1,57 +1,97 @@
 {
   "dblpperson": {
+    "@name": "Kristof Berx",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/models/DavidMVTBV17",
-        "title": "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes.",
-        "pages": "145-154",
-        "year": "2017",
-        "booktitle": "MoDELS (Satellite Events)",
-        "ee": "https://ceur-ws.org/Vol-2019/commitmde_3.pdf",
-        "url": "db/conf/models/models2017s.html#DavidMVTBV17",
-        "authors": [
-          "IstvÃ¡n DÃ¡vid",
-          "Bart Meyers",
-          "Ken Vanherpen",
-          "Yentl Van Tendeloo",
-          "Kristof Berx",
-          "Hans Vangheluwe"
-        ]
+        "inproceedings": {
+          "@key": "conf/isse2/HerzigBGWP16",
+          "title": "Computational design synthesis for conceptual design of robotic assembly cells",
+          "booktitle": "ISSE",
+          "year": "2016",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/SYSENG.2016.7753183",
+          "author": [
+            {
+              "#text": "Christiaan J. J. Paredis",
+              "@pid": "71/5050"
+            },
+            {
+              "#text": "Klaas Gadeyne",
+              "@pid": "56/2239"
+            },
+            {
+              "#text": "Kristof Berx",
+              "@pid": "150/1360"
+            },
+            {
+              "#text": "Maarten Witters",
+              "@pid": "02/11483"
+            },
+            {
+              "#text": "Sebastian J. I. Herzig",
+              "@pid": "128/1807"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isse2/HerzigBGWP16",
-        "title": "Computational design synthesis for conceptual design of robotic assembly cells.",
-        "pages": "1-8",
-        "year": "2016",
-        "booktitle": "ISSE",
-        "ee": "https://doi.org/10.1109/SysEng.2016.7753183",
-        "url": "db/conf/isse2/isse2016.html#HerzigBGWP16",
-        "authors": [
-          "Sebastian J. I. Herzig",
-          "Kristof Berx",
-          "Klaas Gadeyne",
-          "Maarten Witters",
-          "Christiaan J. J. Paredis"
-        ]
+        "inproceedings": {
+          "@key": "conf/models/DavidMVTBV17",
+          "title": "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes",
+          "booktitle": "MoDELS (Satellite Events)",
+          "year": "2017",
+          "pages": "145-154",
+          "author": [
+            {
+              "#text": "Bart Meyers",
+              "@pid": "21/9761"
+            },
+            {
+              "#text": "Hans Vangheluwe",
+              "@pid": "v/HansVangheluwe"
+            },
+            {
+              "#text": "Istvan David",
+              "@pid": "151/1378"
+            },
+            {
+              "#text": "Ken Vanherpen",
+              "@pid": "160/4324"
+            },
+            {
+              "#text": "Kristof Berx",
+              "@pid": "150/1360"
+            },
+            {
+              "#text": "Yentl Van Tendeloo",
+              "@pid": "139/8310"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/aei/GadeynePB14",
-        "title": "Describing the design space of mechanical computational design synthesis problems.",
-        "pages": "198-207",
-        "year": "2014",
-        "volume": "28",
-        "journal": "Adv. Eng. Informatics",
-        "number": "3",
-        "ee": "https://doi.org/10.1016/j.aei.2014.03.004",
-        "url": "db/journals/aei/aei28.html#GadeynePB14",
-        "authors": [
-          "Klaas Gadeyne",
-          "Gregory Pinte",
-          "Kristof Berx"
-        ]
+        "article": {
+          "@key": "journals/aei/GadeynePB14",
+          "title": "Describing the design space of mechanical computational design synthesis problems",
+          "journal": "Adv. Eng. Informatics",
+          "year": "2014",
+          "pages": "198-207",
+          "ee": "https://doi.org/10.1016/J.AEI.2014.03.004",
+          "author": [
+            {
+              "#text": "Gregory Pinte",
+              "@pid": "70/11044"
+            },
+            {
+              "#text": "Klaas Gadeyne",
+              "@pid": "56/2239"
+            },
+            {
+              "#text": "Kristof Berx",
+              "@pid": "150/1360"
+            }
+          ]
+        }
       }
     ]
   }

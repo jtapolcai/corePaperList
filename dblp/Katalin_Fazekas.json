@@ -1,313 +1,945 @@
 {
   "dblpperson": {
+    "@name": "Katalin Fazekas",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/fmcad/BiereFFF24",
-        "title": "Clausal Equivalence Sweeping.",
-        "pages": "1-6",
-        "year": "2024",
-        "booktitle": "FMCAD",
-        "ee": "https://doi.org/10.34727/2024/isbn.978-3-85448-065-5_29",
-        "url": "db/conf/fmcad/fmcad2024.html#BiereFFF24",
-        "authors": [
-          "Armin Biere",
-          "Katalin Fazekas",
-          "Mathias Fleury",
-          "Nils Froleyks"
-        ]
+        "inproceedings": {
+          "@key": "conf/cade/BjornerF23",
+          "title": "On Incremental Pre-processing for SMT",
+          "booktitle": "CADE",
+          "year": "2023",
+          "pages": "41-60",
+          "ee": "https://doi.org/10.1007/978-3-031-38499-8_3",
+          "author": [
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Nikolaj S. Bjørner",
+              "@pid": "51/912"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fmcad/DurandFWZ21",
-        "title": "Model Checking AUTOSAR Components with CBMC.",
-        "pages": "96-101",
-        "year": "2021",
-        "booktitle": "FMCAD",
-        "ee": "https://doi.org/10.34727/2021/isbn.978-3-85448-046-4_18",
-        "url": "db/conf/fmcad/fmcad2021.html#DurandFWZ21",
-        "authors": [
-          "Timothee Durand",
-          "Katalin Fazekas",
-          "Georg Weissenbacher",
-          "Jakob Zwirchmayr"
-        ]
+        "inproceedings": {
+          "@key": "conf/cade/FazekasBB18",
+          "title": "Implicit Hitting Set Algorithms for Maximum Satisfiability Modulo Theories",
+          "booktitle": "IJCAR",
+          "year": "2018",
+          "pages": "134-151",
+          "ee": "https://doi.org/10.1007/978-3-319-94205-6_10",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Fahiem Bacchus",
+              "@pid": "b/FahiemBacchus"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/fmcad/FazekasGS23",
-        "title": "SAT-Based Quantified Symmetric Minimization of the Reachable States of Distributed Protocols.",
-        "pages": "152-161",
-        "year": "2023",
-        "booktitle": "FMCAD",
-        "ee": "https://doi.org/10.34727/2023/isbn.978-3-85448-060-0_23",
-        "url": "db/conf/fmcad/fmcad2023.html#FazekasGS23",
-        "authors": [
-          "Katalin Fazekas",
-          "Aman Goel",
-          "Karem A. Sakallah"
-        ]
+        "inproceedings": {
+          "@key": "conf/cav/BiereFFFFP24",
+          "title": "CaDiCaL 2.0",
+          "booktitle": "CAV (1)",
+          "year": "2024",
+          "pages": "133-152",
+          "ee": "https://doi.org/10.1007/978-3-031-65627-9_7",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            },
+            {
+              "#text": "Tobias Faller",
+              "@pid": "309/6560"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pos2/Fazekas25",
-        "title": "SAT Reasoning in CDCL(T) Solvers.",
-        "pages": "2",
-        "year": "2025",
-        "booktitle": "SMT/POS@CP/SAT/SoCS",
-        "ee": "https://ceur-ws.org/Vol-4008/SMT_invited2.pdf",
-        "url": "db/conf/pos2/pos2025.html#Fazekas25",
-        "authors": [
-          "Katalin Fazekas"
-        ]
+        "inproceedings": {
+          "@key": "conf/cpaior/FazekasSBP20",
+          "title": "Duplex Encoding of Staircase At-Most-One Constraints for the Antibandwidth Problem",
+          "booktitle": "CPAIOR",
+          "year": "2020",
+          "pages": "186-204",
+          "ee": "https://doi.org/10.1007/978-3-030-58942-4_13",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Markus Sinnl",
+              "@pid": "132/1582"
+            },
+            {
+              "#text": "Sophie N. Parragh",
+              "@pid": "41/7939"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pos2/FazekasPFB25",
-        "title": "Incremental Inprocessing Rules beyond Resolution.",
-        "pages": "190-200",
-        "year": "2025",
-        "booktitle": "SMT/POS@CP/SAT/SoCS",
-        "ee": "https://ceur-ws.org/Vol-4008/POS_paper11.pdf",
-        "url": "db/conf/pos2/pos2025.html#FazekasPFB25",
-        "authors": [
-          "Katalin Fazekas",
-          "Florian Pollitt",
-          "Mathias Fleury",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/fmcad/BiereFFF24",
+          "title": "Clausal Equivalence Sweeping",
+          "booktitle": "FMCAD",
+          "year": "2024",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.34727/2024/ISBN.978-3-85448-065-5_29",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cade/FazekasBB18",
-        "title": "Implicit Hitting Set Algorithms for Maximum Satisfiability Modulo Theories.",
-        "pages": "134-151",
-        "year": "2018",
-        "booktitle": "IJCAR",
-        "ee": "https://doi.org/10.1007/978-3-319-94205-6_10",
-        "url": "db/conf/cade/ijcar2018.html#FazekasBB18",
-        "authors": [
-          "Katalin Fazekas",
-          "Fahiem Bacchus",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/fmcad/DurandFWZ21",
+          "title": "Model Checking AUTOSAR Components with CBMC",
+          "booktitle": "FMCAD",
+          "year": "2021",
+          "pages": "96-101",
+          "ee": "https://doi.org/10.34727/2021/ISBN.978-3-85448-046-4_18",
+          "author": [
+            {
+              "#text": "Georg Weissenbacher",
+              "@pid": "15/3636"
+            },
+            {
+              "#text": "Jakob Zwirchmayr",
+              "@pid": "82/8292"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Timothee Durand",
+              "@pid": "308/1879"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cade/BjornerF23",
-        "title": "On Incremental Pre-processing for SMT.",
-        "pages": "41-60",
-        "year": "2023",
-        "booktitle": "CADE",
-        "ee": "https://doi.org/10.1007/978-3-031-38499-8_3",
-        "url": "db/conf/cade/cade2023.html#BjornerF23",
-        "authors": [
-          "Nikolaj S. BjÃ¸rner",
-          "Katalin Fazekas"
-        ]
+        "inproceedings": {
+          "@key": "conf/fmcad/FazekasGS23",
+          "title": "SAT-Based Quantified Symmetric Minimization of the Reachable States of Distributed Protocols",
+          "booktitle": "FMCAD",
+          "year": "2023",
+          "pages": "152-161",
+          "ee": "https://doi.org/10.34727/2023/ISBN.978-3-85448-060-0_23",
+          "author": [
+            {
+              "#text": "Aman Goel",
+              "@pid": "55/7029"
+            },
+            {
+              "#text": "Karem A. Sakallah",
+              "@pid": "34/5374"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cpaior/FazekasSBP20",
-        "title": "Duplex Encoding of Staircase At-Most-One Constraints for the Antibandwidth Problem.",
-        "pages": "186-204",
-        "year": "2020",
-        "booktitle": "CPAIOR",
-        "ee": "https://doi.org/10.1007/978-3-030-58942-4_13",
-        "url": "db/conf/cpaior/cpaior2020.html#FazekasSBP20",
-        "authors": [
-          "Katalin Fazekas",
-          "Markus Sinnl",
-          "Armin Biere",
-          "Sophie N. Parragh"
-        ]
+        "inproceedings": {
+          "@key": "conf/lpar/FazekasPFB24",
+          "title": "Certifying Incremental SAT Solving",
+          "booktitle": "LPAR",
+          "year": "2024",
+          "pages": "321-340",
+          "ee": "https://doi.org/10.29007/PDCC",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tacas/SchreiberFFB26",
-        "title": "Real-time Proof Checking for Distributed Incremental SAT Solving.",
-        "booktitle": "TACAS (1)",
-        "year": "2026",
-        "pages": "333-352",
-        "ee": "https://doi.org/10.1007/978-3-032-22752-2_18",
-        "url": "db/conf/tacas/tacas2026-1.html#SchreiberFFB26",
-        "authors": [
-          "Dominik Schreiber 0001",
-          "Mathias Fleury",
-          "Katalin Fazekas",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/pos2/Fazekas25",
+          "title": "SAT Reasoning in CDCL(T) Solvers",
+          "booktitle": "SMT/POS@CP/SAT/SoCS",
+          "year": "2025",
+          "pages": "2",
+          "author": {
+            "#text": "Katalin Fazekas",
+            "@pid": "194/1549"
+          }
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tap/FazekasHSB17",
-        "title": "Skolem Function Continuation for Quantified Boolean Formulas.",
-        "pages": "129-138",
-        "year": "2017",
-        "booktitle": "TAP@STAF",
-        "ee": "https://doi.org/10.1007/978-3-319-61467-0_8",
-        "url": "db/conf/tap/tap2017.html#FazekasHSB17",
-        "authors": [
-          "Katalin Fazekas",
-          "Marijn J. H. Heule",
-          "Martina Seidl",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/pos2/FazekasPFB25",
+          "title": "Incremental Inprocessing Rules beyond Resolution",
+          "booktitle": "SMT/POS@CP/SAT/SoCS",
+          "year": "2025",
+          "pages": "190-200",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sat/BiereFFF24",
-        "title": "Clausal Congruence Closure.",
-        "pages": "6:1-6:25",
-        "year": "2024",
-        "booktitle": "SAT",
-        "ee": "https://doi.org/10.4230/LIPIcs.SAT.2024.6",
-        "url": "db/conf/sat/sat2024.html#BiereFFF24",
-        "authors": [
-          "Armin Biere",
-          "Katalin Fazekas",
-          "Mathias Fleury",
-          "Nils Froleyks"
-        ]
+        "inproceedings": {
+          "@key": "conf/sat/BiereFFF24",
+          "title": "Clausal Congruence Closure",
+          "booktitle": "SAT",
+          "year": "2024",
+          "pages": "6:1-6:25",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2024.6",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sat/PollittFFFSSB26",
-        "title": "CaDiCaL 3.0 (Tool Paper).",
-        "pages": "40:1-40:14",
-        "year": "2026",
-        "booktitle": "SAT",
-        "ee": "https://doi.org/10.4230/LIPIcs.SAT.2026.40",
-        "url": "db/conf/sat/sat2026.html#PollittFFFSSB26",
-        "authors": [
-          "Florian Pollitt",
-          "Mathias Fleury",
-          "Katalin Fazekas",
-          "Nils Froleyks",
-          "AndrÃ© Schidler",
-          "Dominik Schreiber 0001",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/sat/FazekasBS19",
+          "title": "Incremental Inprocessing in SAT Solving",
+          "booktitle": "SAT",
+          "year": "2019",
+          "pages": "136-154",
+          "ee": "https://doi.org/10.1007/978-3-030-24258-9_9",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Christoph Scholl",
+              "@pid": "s/ChristophScholl"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sat/FazekasNPKSB23",
-        "title": "IPASIR-UP: User Propagators for CDCL.",
-        "pages": "8:1-8:13",
-        "year": "2023",
-        "booktitle": "SAT",
-        "ee": "https://doi.org/10.4230/LIPIcs.SAT.2023.8",
-        "url": "db/conf/sat/sat2023.html#FazekasNPKSB23",
-        "authors": [
-          "Katalin Fazekas",
-          "Aina Niemetz",
-          "Mathias Preiner",
-          "Markus Kirchweger",
-          "Stefan Szeider",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/sat/FazekasNPKSB23",
+          "title": "IPASIR-UP: User Propagators for CDCL",
+          "booktitle": "SAT",
+          "year": "2023",
+          "pages": "8:1-8:13",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2023.8",
+          "author": [
+            {
+              "#text": "Aina Niemetz",
+              "@pid": "115/4373"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Markus Kirchweger",
+              "@pid": "303/9211"
+            },
+            {
+              "#text": "Mathias Preiner",
+              "@pid": "115/4371"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sat/FazekasBS19",
-        "title": "Incremental Inprocessing in SAT Solving.",
-        "pages": "136-154",
-        "year": "2019",
-        "booktitle": "SAT",
-        "ee": "https://doi.org/10.1007/978-3-030-24258-9_9",
-        "url": "db/conf/sat/sat2019.html#FazekasBS19",
-        "authors": [
-          "Katalin Fazekas",
-          "Armin Biere",
-          "Christoph Scholl 0001"
-        ]
+        "inproceedings": {
+          "@key": "conf/sat/PollittFFFSSB26",
+          "title": "CaDiCaL 3.0 (Tool Paper)",
+          "booktitle": "SAT",
+          "year": "2026",
+          "pages": "40:1-40:14",
+          "ee": "https://doi.org/10.4230/LIPICS.SAT.2026.40",
+          "author": [
+            {
+              "#text": "André Schidler",
+              "@pid": "257/4358"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Dominik Schreiber",
+              "@pid": "178/3095-1"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lpar/FazekasPFB24",
-        "title": "Certifying Incremental SAT Solving.",
-        "pages": "321-340",
-        "year": "2024",
-        "booktitle": "LPAR",
-        "ee": "https://doi.org/10.29007/pdcc",
-        "url": "db/conf/lpar/lpar2024.html#FazekasPFB24",
-        "authors": [
-          "Katalin Fazekas",
-          "Florian Pollitt",
-          "Mathias Fleury",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/synasc/FazekasSB16",
+          "title": "A Duality-Aware Calculus for Quantified Boolean Formulas",
+          "booktitle": "SYNASC",
+          "year": "2016",
+          "pages": "181-186",
+          "ee": "https://doi.org/10.1109/SYNASC.2016.038",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Martina Seidl",
+              "@pid": "75/2935"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cav/BiereFFFFP24",
-        "title": "CaDiCaL 2.0.",
-        "pages": "133-152",
-        "year": "2024",
-        "booktitle": "CAV (1)",
-        "ee": "https://doi.org/10.1007/978-3-031-65627-9_7",
-        "url": "db/conf/cav/cav2024-1.html#BiereFFFFP24",
-        "authors": [
-          "Armin Biere",
-          "Tobias Faller",
-          "Katalin Fazekas",
-          "Mathias Fleury",
-          "Nils Froleyks",
-          "Florian Pollitt"
-        ]
+        "inproceedings": {
+          "@key": "conf/tacas/SchreiberFFB26",
+          "title": "Real-time Proof Checking for Distributed Incremental SAT Solving",
+          "booktitle": "TACAS (1)",
+          "year": "2026",
+          "pages": "333-352",
+          "ee": "https://doi.org/10.1007/978-3-032-22752-2_18",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Dominik Schreiber",
+              "@pid": "178/3095-1"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/synasc/FazekasSB16",
-        "title": "A Duality-Aware Calculus for Quantified Boolean Formulas.",
-        "pages": "181-186",
-        "year": "2016",
-        "booktitle": "SYNASC",
-        "ee": "https://doi.org/10.1109/SYNASC.2016.038",
-        "url": "db/conf/synasc/synasc2016.html#FazekasSB16",
-        "authors": [
-          "Katalin Fazekas",
-          "Martina Seidl",
-          "Armin Biere"
-        ]
+        "inproceedings": {
+          "@key": "conf/tap/FazekasHSB17",
+          "title": "Skolem Function Continuation for Quantified Boolean Formulas",
+          "booktitle": "TAP@STAF",
+          "year": "2017",
+          "pages": "129-138",
+          "ee": "https://doi.org/10.1007/978-3-319-61467-0_8",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Marijn Heule",
+              "@pid": "h/MarijnHeule"
+            },
+            {
+              "#text": "Martina Seidl",
+              "@pid": "75/2935"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jair/FazekasNPKSB24",
-        "title": "Satisfiability Modulo User Propagators.",
-        "pages": "989-1017",
-        "year": "2024",
-        "volume": "81",
-        "journal": "J. Artif. Intell. Res.",
-        "ee": "https://doi.org/10.1613/jair.1.16163",
-        "url": "db/journals/jair/jair81.html#FazekasNPKSB24",
-        "authors": [
-          "Katalin Fazekas",
-          "Aina Niemetz",
-          "Mathias Preiner",
-          "Markus Kirchweger",
-          "Stefan Szeider",
-          "Armin Biere"
-        ]
+        "informal": {
+          "@key": "data/10/FazekasNPKSB23",
+          "title": "Supplementary material of submission \"IPASIR-UP: User Propagators for CDCL\"",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.5281/ZENODO.8003683",
+          "author": [
+            {
+              "#text": "Aina Niemetz",
+              "@pid": "115/4373"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Markus Kirchweger",
+              "@pid": "303/9211"
+            },
+            {
+              "#text": "Mathias Preiner",
+              "@pid": "115/4371"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/dagstuhl-reports/FazekasJNSJ25",
-        "title": "Interactions in Constraint Optimization (Dagstuhl Seminar 25371).",
-        "year": "2025",
-        "pages": "1-20",
-        "volume": "15",
-        "journal": "Dagstuhl Reports",
-        "number": "9",
-        "ee": "https://doi.org/10.4230/DagRep.15.9.1",
-        "url": "db/journals/dagstuhl-reports/dagstuhl-reports15.html#FazekasJNSJ25",
-        "authors": [
-          "Katalin Fazekas",
-          "Matti JÃ¤rvisalo",
-          "Nina Narodytska",
-          "Peter J. Stuckey",
-          "Christoph Jabs"
-        ]
+        "informal": {
+          "@key": "data/11/BiereFFF24",
+          "title": "CNF Encoded Isomorphic and Optimized Miters from Hardware Model Checking Competition 2020 Models",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.11202461",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BiereFFF24a",
+          "title": "Clausal Equivalence Sweeping Paper Logs",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.11203283",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BiereFFF25",
+          "title": "CNF Encoded Isomorphic and Optimized Miters from Hardware Model Checking Competition 2024 Models",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15207209",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BiereFFFFP24",
+          "title": "CaDiCaL 2.0 CAV'24 Tool-Paper Artifact",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.10943125",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            },
+            {
+              "#text": "Tobias Faller",
+              "@pid": "309/6560"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BiereFFFP25",
+          "title": "Clausal Equivalence Checking Miters and SAT Competition Artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15211434",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/BiereFFFP25a",
+          "title": "Clausal Equivalence Checking Miters and SAT Competition Artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15226131",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/FazekasNPKSB24",
+          "title": "Supplementary material of \"Satisfiability modulo User Propagators\"",
+          "journal": "",
+          "year": "2024",
+          "ee": "https://doi.org/10.5281/ZENODO.13710465",
+          "author": [
+            {
+              "#text": "Aina Niemetz",
+              "@pid": "115/4373"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Markus Kirchweger",
+              "@pid": "303/9211"
+            },
+            {
+              "#text": "Mathias Preiner",
+              "@pid": "115/4371"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/FroleyksBFF25",
+          "title": "Hardware Model Checking Certificates Benchmarks",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.15209429",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/PollittFFFB25",
+          "title": "CaDiCaL 2.2 System Description Artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.14923247",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/PollittFFFB25a",
+          "title": "CaDiCaL 2.2 System Description Artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.14926824",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/11/PollittFFFB25b",
+          "title": "CaDiCaL 2.2 System Description Artifact",
+          "journal": "",
+          "year": "2025",
+          "ee": "https://doi.org/10.5281/ZENODO.14944298",
+          "author": [
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/PollittFFFSSB26",
+          "title": "Artifact CaDiCaL 3.0 Paper",
+          "journal": "",
+          "year": "2026",
+          "ee": "https://doi.org/10.5281/ZENODO.18924223",
+          "author": [
+            {
+              "#text": "André Schidler",
+              "@pid": "257/4358"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Dominik Schreiber",
+              "@pid": "178/3095-1"
+            },
+            {
+              "#text": "Florian Pollitt",
+              "@pid": "324/1552"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Mathias Fleury",
+              "@pid": "175/3307"
+            },
+            {
+              "#text": "Nils Christian Froleyks",
+              "@pid": "201/5325"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/dagstuhl-reports/FazekasJNSJ25",
+          "title": "Interactions in Constraint Optimization (Dagstuhl Seminar 25371)",
+          "journal": "Dagstuhl Reports",
+          "year": "2025",
+          "pages": "1-20",
+          "ee": "https://doi.org/10.4230/DAGREP.15.9.1",
+          "author": [
+            {
+              "#text": "Christoph Jabs",
+              "@pid": "325/2848"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Matti Järvisalo",
+              "@pid": "69/6999"
+            },
+            {
+              "#text": "Nina Narodytska",
+              "@pid": "87/3366"
+            },
+            {
+              "#text": "Peter J. Stuckey",
+              "@pid": "s/PeterJStuckey"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jair/FazekasNPKSB24",
+          "title": "Satisfiability Modulo User Propagators",
+          "journal": "J. Artif. Intell. Res.",
+          "year": "2024",
+          "pages": "989-1017",
+          "ee": "https://doi.org/10.1613/JAIR.1.16163",
+          "author": [
+            {
+              "#text": "Aina Niemetz",
+              "@pid": "115/4373"
+            },
+            {
+              "#text": "Armin Biere",
+              "@pid": "b/ArminBiere"
+            },
+            {
+              "#text": "Katalin Fazekas",
+              "@pid": "194/1549"
+            },
+            {
+              "#text": "Markus Kirchweger",
+              "@pid": "303/9211"
+            },
+            {
+              "#text": "Mathias Preiner",
+              "@pid": "115/4371"
+            },
+            {
+              "#text": "Stefan Szeider",
+              "@pid": "s/StefanSzeider"
+            }
+          ]
+        }
       }
     ]
   }

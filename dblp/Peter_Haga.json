@@ -1,20 +1,996 @@
 {
   "dblpperson": {
+    "@name": "Péter Hága",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/netsoft/SaravananHS25",
-        "title": "Energy Efficient Models for Future Communication Networks.",
-        "pages": "146-154",
-        "year": "2025",
-        "booktitle": "NetSoft",
-        "ee": "https://doi.org/10.1109/NetSoft64993.2025.11080548",
-        "url": "db/conf/netsoft/netsoft2025.html#SaravananHS25",
-        "authors": [
-          "M. Saravanan",
-          "Peter Haga",
-          "Jawahar A S"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/MakoHKSV19",
+          "title": "Sensor Signatures: AI Assisted Co-Location Detection of IoT Devices",
+          "booktitle": "GLOBECOM Workshops",
+          "year": "2019",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/GCWKSHPS45667.2019.9024422",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Daniel Mako",
+              "@pid": "260/2985"
+            },
+            {
+              "#text": "Mate Szebenyei",
+              "@pid": "260/2865"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/globecom/RaczVHBK22",
+          "title": "A Full-Stack Neuromorphic Prototype Architecture for Low-Power Wireless Sensors",
+          "booktitle": "GLOBECOM (Workshops)",
+          "year": "2022",
+          "pages": "353-358",
+          "ee": "https://doi.org/10.1109/GCWKSHPS56602.2022.10008616",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ieeesec/TabiBNVKHZ22",
+          "title": "Hybrid Quantum-Classical Autoencoders for End-to-End Radio Communication",
+          "booktitle": "SEC",
+          "year": "2022",
+          "pages": "468-473",
+          "ee": "https://doi.org/10.1109/SEC54971.2022.00071",
+          "author": [
+            {
+              "#text": "Bence Bakó",
+              "@pid": "338/2752"
+            },
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Vaderna",
+              "@pid": "47/6999"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            },
+            {
+              "#text": "Zsolt Tabi",
+              "@pid": "281/3137"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ifip12/VeresHRBK22",
+          "title": "A Communication Data Layer for Distributed Neuromorphic Systems",
+          "booktitle": "AIAI (2)",
+          "year": "2022",
+          "pages": "3-16",
+          "ee": "https://doi.org/10.1007/978-3-031-08337-2_1",
+          "author": [
+            {
+              "#text": "András Rácz",
+              "@pid": "83/1462"
+            },
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            },
+            {
+              "#text": "Zsolt Kenesi",
+              "@pid": "13/4906"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/CsabaiHMSSV06",
+          "title": "Results of Large-Scale Queueing Delay Tomography Performed in the ETOMIC Infrastructure",
+          "booktitle": "INFOCOM",
+          "year": "2006",
+          "ee": "https://doi.org/10.1109/INFOCOM.2006.55",
+          "author": [
+            {
+              "#text": "Gábor Simon",
+              "@pid": "62/3902"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/HagaDVC06",
+          "title": "Understanding Packet Pair Separation Beyond the Fluid Model: The Key Role of Traffic Granularity",
+          "booktitle": "INFOCOM",
+          "year": "2006",
+          "ee": "https://doi.org/10.1109/INFOCOM.2006.285",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Krisztián Diriczi",
+              "@pid": "75/6788"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/LakiMHSCV11",
+          "title": "Spotter: A model based active geolocation service",
+          "booktitle": "INFOCOM",
+          "year": "2011",
+          "pages": "3173-3181",
+          "ee": "https://doi.org/10.1109/INFCOM.2011.5935165",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            },
+            {
+              "#text": "Tamas Sebok",
+              "@pid": "02/9827"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/infocom/MatrayHLCV11",
+          "title": "On the network geography of the Internet",
+          "booktitle": "INFOCOM",
+          "year": "2011",
+          "pages": "126-130",
+          "ee": "https://doi.org/10.1109/INFCOM.2011.5934909",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/minenet/MatrayCHSDV07",
+          "title": "Building a prototype for network measurement virtual observatory",
+          "booktitle": "MineNet",
+          "year": "2007",
+          "pages": "23-28",
+          "ee": "https://doi.org/10.1145/1269880.1269887",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "László Dobos",
+              "@pid": "27/4695-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qce/BakoNHKZ23",
+          "title": "Space-Efficient Embedding of the Clique Cover Problem for Quantum Optimization",
+          "booktitle": "QCE",
+          "year": "2023",
+          "pages": "409-410",
+          "ee": "https://doi.org/10.1109/QCE57702.2023.10306",
+          "author": [
+            {
+              "#text": "Bence Bakó",
+              "@pid": "338/2752"
+            },
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qce/NagyTHKZ21",
+          "title": "Photonic Quantum Policy Learning in OpenAI Gym",
+          "booktitle": "QCE",
+          "year": "2021",
+          "pages": "123-129",
+          "ee": "https://doi.org/10.1109/QCE52317.2021.00028",
+          "author": [
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            },
+            {
+              "#text": "Zsolt Tabi",
+              "@pid": "281/3137"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/qce/TabiEKHKGZ20",
+          "title": "Quantum Optimization for the Graph Coloring Problem with Space-Efficient Embedding",
+          "booktitle": "QCE",
+          "year": "2020",
+          "pages": "56-62",
+          "ee": "https://doi.org/10.1109/QCE49297.2020.00018",
+          "author": [
+            {
+              "#text": "Adam Glos",
+              "@pid": "193/7349"
+            },
+            {
+              "#text": "Kareem H. El-Safty",
+              "@pid": "262/3393"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Kozsik",
+              "@pid": "69/3487"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            },
+            {
+              "#text": "Zsolt Tabi",
+              "@pid": "281/3137"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tridentcom/CsabaiFHHKLMSVE10",
+          "title": "ETOMIC Advanced Network Monitoring System for Future Internet Experimentation",
+          "booktitle": "TRIDENTCOM",
+          "year": "2011",
+          "pages": "243-254",
+          "ee": "https://doi.org/10.1007/978-3-642-17851-1_20",
+          "author": [
+            {
+              "#text": "Attila Fekete",
+              "@pid": "36/6583"
+            },
+            {
+              "#text": "Béla Hullár",
+              "@pid": "66/8262"
+            },
+            {
+              "#text": "Felix Espina",
+              "@pid": "04/8852"
+            },
+            {
+              "#text": "Gábor Kurucz",
+              "@pid": "93/8852"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tridentcom/HagaCTV08",
+          "title": "Relative rate reduction based control with adjustable congestion level",
+          "booktitle": "TRIDENTCOM",
+          "year": "2008",
+          "pages": "10",
+          "ee": "https://doi.org/10.4108/TRIDENTCOM.2008.3040",
+          "author": [
+            {
+              "#text": "Ferenc Tóth",
+              "@pid": "90/2214"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tridentcom/HagaLTCSV07",
+          "title": "Neural Network Based Available Bandwidth Estimation in the ETOMIC Infrastructure",
+          "booktitle": "TRIDENTCOM",
+          "year": "2007",
+          "pages": "1-10",
+          "ee": "https://doi.org/10.1109/TRIDENTCOM.2007.4444688",
+          "author": [
+            {
+              "#text": "Ferenc Tóth",
+              "@pid": "90/2214"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tridentcom/LakiMHCV09",
+          "title": "A detailed path-latency model for router geolocation",
+          "booktitle": "TRIDENTCOM",
+          "year": "2009",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/TRIDENTCOM.2009.4976258",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/tridentcom/MoratoMIANAACHSSV05",
+          "title": "The European Traffic Observatory Measurement Infraestructure (ETOMIC): A Testbed for Universal Active and Passive Measurements",
+          "booktitle": "TRIDENTCOM",
+          "year": "2005",
+          "pages": "283-289",
+          "ee": "https://doi.org/10.1109/TRIDNT.2005.34",
+          "author": [
+            {
+              "#text": "Daniel Morató",
+              "@pid": "60/6342"
+            },
+            {
+              "#text": "Eduardo Magaña",
+              "@pid": "88/1797"
+            },
+            {
+              "#text": "Francisco José Naranjo",
+              "@pid": "55/2675"
+            },
+            {
+              "#text": "Gábor Simon",
+              "@pid": "62/3902"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Javier Aracil",
+              "@pid": "13/6476"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "Mikel Izal",
+              "@pid": "65/456"
+            },
+            {
+              "#text": "Patxi Astiz",
+              "@pid": "15/4185"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Ulisses Alonso",
+              "@pid": "57/1723"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wcnc/BorsosCDHV22",
+          "title": "Resilience Analysis of Distributed Wireless Spiking Neural Networks",
+          "booktitle": "WCNC",
+          "year": "2022",
+          "pages": "2375-2380",
+          "ee": "https://doi.org/10.1109/WCNC51071.2022.9771543",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Marios Daoutis",
+              "@pid": "73/5742"
+            },
+            {
+              "#text": "Massimo Condoluci",
+              "@pid": "66/9958"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Tamás Borsos",
+              "@pid": "64/6146"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/TabiBNVKHZ25",
+          "title": "Quantum-Classical Autoencoder Architectures for End-to-End Radio Communication",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "82181-82192",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3566207",
+          "author": [
+            {
+              "#text": "Bence Bakó",
+              "@pid": "338/2752"
+            },
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Vaderna",
+              "@pid": "47/6999"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            },
+            {
+              "#text": "Zsolt Tabi",
+              "@pid": "281/3137"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ccr/claffyAABBDFFHLS10",
+          "title": "The 2nd workshop on active internet measurements (AIMS-2) report",
+          "journal": "Comput. Commun. Rev.",
+          "year": "2010",
+          "pages": "53-58",
+          "ee": "https://doi.org/10.1145/1880153.1880162",
+          "author": [
+            {
+              "#text": "Benoit Donnet",
+              "@pid": "27/3281"
+            },
+            {
+              "#text": "Emile Aben",
+              "@pid": "49/8891"
+            },
+            {
+              "#text": "Fabián E. Bustamante",
+              "@pid": "b/FabianEBustamante"
+            },
+            {
+              "#text": "Jordan Augé",
+              "@pid": "20/8852"
+            },
+            {
+              "#text": "K. C. Claffy",
+              "@pid": "68/4966"
+            },
+            {
+              "#text": "Marina Fomenkov",
+              "@pid": "84/4703"
+            },
+            {
+              "#text": "Matthew J. Luckie",
+              "@pid": "12/4563"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Robert Beverly",
+              "@pid": "12/1817"
+            },
+            {
+              "#text": "Timur Friedman",
+              "@pid": "62/609"
+            },
+            {
+              "#text": "Yuval Shavitt",
+              "@pid": "83/1922"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cn/HagaDVC07",
+          "title": "Granular model of packet pair separation in Poissonian traffic",
+          "journal": "Comput. Networks",
+          "year": "2007",
+          "pages": "683-698",
+          "ee": "https://doi.org/10.1016/J.COMNET.2006.06.002",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Krisztián Diriczi",
+              "@pid": "75/6788"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cn/LakiMHCV10",
+          "title": "A model based approach for improving router geolocation",
+          "journal": "Comput. Networks",
+          "year": "2010",
+          "pages": "1490-1501",
+          "ee": "https://doi.org/10.1016/J.COMNET.2009.12.004",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cn/MatrayHLVC12",
+          "title": "On the spatial properties of internet routes",
+          "journal": "Comput. Networks",
+          "year": "2012",
+          "pages": "2237-2248",
+          "ee": "https://doi.org/10.1016/J.COMNET.2012.03.005",
+          "author": [
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Mátray",
+              "@pid": "60/5854"
+            },
+            {
+              "#text": "Sándor Laki",
+              "@pid": "78/8261"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0801-4158",
+          "title": "Measuring the Dynamical State of the Internet: Large Scale Network Tomography via the ETOMIC Infrastructure",
+          "journal": "CoRR",
+          "year": "2008",
+          "ee": "https://doi.org/10.48550/ARXIV.0801.4158",
+          "author": [
+            {
+              "#text": "Gábor Simon",
+              "@pid": "62/3902"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "József Stéger",
+              "@pid": "79/3382"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2108-12926",
+          "title": "Photonic Quantum Policy Learning in OpenAI Gym",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.12926",
+          "author": [
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            },
+            {
+              "#text": "Zsolt Tabi",
+              "@pid": "281/3137"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/HagaTCV17",
+          "title": "Relative Rate Reduction Based Control with Adjustable Congestion Level",
+          "journal": "CoRR",
+          "year": "2017",
+          "ee": "https://doi.org/10.48550/ARXIV.1707.07218",
+          "author": [
+            {
+              "#text": "Ferenc Tóth",
+              "@pid": "90/2214"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/physics-0402078",
+          "title": "Self-generated Self-similar Traffic",
+          "journal": "CoRR",
+          "year": "2004",
+          "ee": "https://doi.org/10.48550/ARXIV.PHYSICS/0402078",
+          "author": [
+            {
+              "#text": "Gábor Simon",
+              "@pid": "62/3902"
+            },
+            {
+              "#text": "Gábor Vattay",
+              "@pid": "82/6832"
+            },
+            {
+              "#text": "István Csabai",
+              "@pid": "c/IstvanCsabai"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Péter Pollner",
+              "@pid": "71/2729"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/qmi/NagyCBHKZ25",
+          "title": "Hybrid quantum-classical reinforcement learning in latent observation spaces",
+          "journal": "Quantum Mach. Intell.",
+          "year": "2025",
+          "pages": "88",
+          "ee": "https://doi.org/10.1007/S42484-025-00306-Z",
+          "author": [
+            {
+              "#text": "Bence Bakó",
+              "@pid": "338/2752"
+            },
+            {
+              "#text": "Csaba Czabán",
+              "@pid": "333/7783"
+            },
+            {
+              "#text": "Dániel Nagy",
+              "@pid": "271/3983-1"
+            },
+            {
+              "#text": "Péter Hága",
+              "@pid": "99/6922"
+            },
+            {
+              "#text": "Zoltán Zimborás",
+              "@pid": "281/3070"
+            },
+            {
+              "#text": "Zsófia Kallus",
+              "@pid": "137/8156"
+            }
+          ]
+        }
       }
     ]
   }

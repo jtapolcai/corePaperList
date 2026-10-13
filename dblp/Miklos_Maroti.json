@@ -1,395 +1,2080 @@
 {
   "dblpperson": {
+    "@name": "Miklós Maróti",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/icsr/LevendovszkyKMLC02",
-        "title": "Model Reuse with Metamodel-Based Transformations.",
-        "pages": "166-178",
-        "year": "2002",
-        "booktitle": "ICSR",
-        "ee": "https://doi.org/10.1007/3-540-46020-9_12",
-        "url": "db/conf/icsr/icsr2002.html#LevendovszkyKMLC02",
-        "authors": [
-          "Tihamer Levendovszky",
-          "Gabor Karsai",
-          "Miklos Maroti",
-          "Ãkos LÃ©deczi",
-          "Hassan Charaf"
-        ]
+        "informal": {
+          "@key": "books/idea/siau2004/LedecziMV04",
+          "title": "Framework for the Rapid Development of Modeling Environments",
+          "journal": "Advanced Topics in Database Research, Vol. 3",
+          "year": "2004",
+          "pages": "257-271",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensys/HedgecockMLVB14a",
-        "title": "PinPtr: a high-precision GPS cloud service.",
-        "pages": "324-325",
-        "year": "2014",
-        "booktitle": "SenSys",
-        "ee": "https://doi.org/10.1145/2668332.2668342",
-        "url": "db/conf/sensys/sensys2014.html#HedgecockMLVB14a",
-        "authors": [
-          "Will Hedgecock",
-          "Miklos Maroti",
-          "Ãkos LÃ©deczi",
-          "PÃ©ter VÃ¶lgyesi",
-          "Rueben A. Banalagay"
-        ]
+        "inproceedings": {
+          "@key": "conf/aied/HutchinsBMLB18",
+          "title": "A Design-Based Approach to a Classroom-Centered OELE",
+          "booktitle": "AIED (2)",
+          "year": "2018",
+          "pages": "155-159",
+          "ee": "https://doi.org/10.1007/978-3-319-93846-2_28",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Gautam Biswas",
+              "@pid": "15/6242"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Nicole Hutchins",
+              "@pid": "221/3624"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sensys/HedgecockMLVB14",
-        "title": "Accurate real-time relative localization using single-frequency GPS.",
-        "pages": "206-220",
-        "year": "2014",
-        "booktitle": "SenSys",
-        "ee": "https://doi.org/10.1145/2668332.2668379",
-        "url": "db/conf/sensys/sensys2014.html#HedgecockMLVB14",
-        "authors": [
-          "Will Hedgecock",
-          "Miklos Maroti",
-          "Ãkos LÃ©deczi",
-          "PÃ©ter VÃ¶lgyesi",
-          "Rueben A. Banalagay"
-        ]
+        "inproceedings": {
+          "@key": "conf/cyphy/SimkoLMS14",
+          "title": "Towards a theory for cyber-physical systems modeling",
+          "booktitle": "CyPhy",
+          "year": "2014",
+          "pages": "56-61",
+          "ee": "https://doi.org/10.1145/2593458.2593463",
+          "author": [
+            {
+              "#text": "Gabor Simko",
+              "@pid": "66/11404"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icwn/MarotiKSL04",
-        "title": "Robust Multi-Hop Time Synchronization in Sensor Networks.",
-        "pages": "454-460",
-        "year": "2004",
-        "booktitle": "International Conference on Wireless Networks",
-        "url": "db/conf/icwn/icwn2004-1.html#MarotiKSL04",
-        "authors": [
-          "Miklos Maroti",
-          "Branislav Kusy",
-          "Gyula Simon",
-          "Ãkos LÃ©deczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/KusyLMV04",
+          "title": "Domain Independent Generative Modeling",
+          "booktitle": "ECBS",
+          "year": "2004",
+          "pages": "29-35",
+          "ee": "https://doi.org/10.1109/ECBS.2004.1316679",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mobisys/HedgecockMSVL13a",
-        "title": "RegTrack: a differential relative gps tracking solution.",
-        "pages": "475-476",
-        "year": "2013",
-        "booktitle": "MobiSys",
-        "ee": "https://doi.org/10.1145/2462456.2465733",
-        "url": "db/conf/mobisys/mobisys2013.html#HedgecockMSVL13a",
-        "authors": [
-          "Will Hedgecock",
-          "Miklos Maroti",
-          "JÃ¡nos Sallai",
-          "PÃ©ter VÃ¶lgyesi",
-          "Ãkos LÃ©deczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/ecbs/LedecziMKN99",
+          "title": "Metaprogrammable Toolkit for Model-Integrated Computing",
+          "booktitle": "ECBS",
+          "year": "1999",
+          "pages": "311-",
+          "ee": "https://doi.org/10.1109/ECBS.1999.755896",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Greg Nordstrom",
+              "@pid": "17/4561"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mobisys/HedgecockMSVL13",
-        "title": "High-accuracy differential tracking of low-cost GPS receivers.",
-        "pages": "221-234",
-        "year": "2013",
-        "booktitle": "MobiSys",
-        "ee": "https://doi.org/10.1145/2462456.2464456",
-        "url": "db/conf/mobisys/mobisys2013.html#HedgecockMSVL13",
-        "authors": [
-          "Will Hedgecock",
-          "Miklos Maroti",
-          "JÃ¡nos Sallai",
-          "PÃ©ter VÃ¶lgyesi",
-          "Ãkos LÃ©deczi"
-        ]
+        "inproceedings": {
+          "@key": "conf/emnets/SallaiLAKM10",
+          "title": "Using RF received phase for indoor tracking",
+          "booktitle": "HotEmNets",
+          "year": "2010",
+          "pages": "13:1-13:5",
+          "ee": "https://doi.org/10.1145/1978642.1978659",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Isaac Amundson",
+              "@pid": "35/287"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/smc/DevaSNM00",
-        "title": "Towards a standard for model specification and storage.",
-        "pages": "364-369",
-        "year": "2000",
-        "booktitle": "SMC",
-        "ee": "https://doi.org/10.1109/ICSMC.2000.885018",
-        "url": "db/conf/smc/smc2000.html#DevaSNM00",
-        "authors": [
-          "Dinesh Deva",
-          "Jonathan Sprinkle",
-          "Greg Nordstrom",
-          "Miklos Maroti"
-        ]
+        "inproceedings": {
+          "@key": "conf/ewsn/KusyBSLM07",
+          "title": "inTrack: High Precision Tracking of Mobile Sensor Nodes",
+          "booktitle": "EWSN",
+          "year": "2007",
+          "pages": "51-66",
+          "ee": "https://doi.org/10.1007/978-3-540-69830-2_4",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iwsas/LedecziBM00",
-        "title": "Model-Integrated Embedded Systems.",
-        "pages": "99-115",
-        "ee": "https://doi.org/10.1007/3-540-44584-6_9",
-        "year": "2000",
-        "booktitle": "IWSAS",
-        "url": "db/conf/iwsas/iwsas2000.html#LedecziBM00",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "Arpad Bakay",
-          "Miklos Maroti"
-        ]
+        "inproceedings": {
+          "@key": "conf/icaa2/ZhangLMSERJMKKD24",
+          "title": "Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue",
+          "booktitle": "ICAA",
+          "year": "2024",
+          "pages": "48-57",
+          "ee": "https://doi.org/10.1109/ICAA64256.2024.00016",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Anirban Roy",
+              "@pid": "49/1836"
+            },
+            {
+              "#text": "Ayan Mukhopadhyay",
+              "@pid": "180/1429"
+            },
+            {
+              "#text": "Baiting Luo",
+              "@pid": "285/4660"
+            },
+            {
+              "#text": "Daniel Elenius",
+              "@pid": "43/6172"
+            },
+            {
+              "#text": "Dániel Stojcsics",
+              "@pid": "143/3321"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Susmit Jha",
+              "@pid": "61/4923"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            },
+            {
+              "#text": "Yunuo Zhang",
+              "@pid": "343/1692"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icaa2/ZhangLMSERJMKKD24",
-        "title": "Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue.",
-        "pages": "48-57",
-        "year": "2024",
-        "booktitle": "ICAA",
-        "ee": "https://doi.org/10.1109/ICAA64256.2024.00016",
-        "url": "db/conf/icaa2/icaa2024.html#ZhangLMSERJMKKD24",
-        "authors": [
-          "Yunuo Zhang",
-          "Baiting Luo",
-          "Ayan Mukhopadhyay",
-          "DÃ¡niel Stojcsics",
-          "Daniel Elenius",
-          "Anirban Roy",
-          "Susmit Jha",
-          "Miklos Maroti",
-          "Xenofon D. Koutsoukos",
-          "Gabor Karsai",
-          "Abhishek Dubey"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccS/MarotiKKVL14",
+          "title": "Online Collaborative Environment for Designing Complex Computational Systems",
+          "booktitle": "ICCS",
+          "year": "2014",
+          "pages": "2432-2441",
+          "ee": "https://doi.org/10.1016/J.PROCS.2014.05.227",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            },
+            {
+              "#text": "Tamás Kecskés",
+              "@pid": "148/6337"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cyphy/SimkoLMS14",
-        "title": "Towards a theory for cyber-physical systems modeling.",
-        "pages": "56-61",
-        "year": "2014",
-        "booktitle": "CyPhy",
-        "ee": "https://doi.org/10.1145/2593458.2593463",
-        "url": "db/conf/cyphy/cyphy2014.html#SimkoLMS14",
-        "authors": [
-          "Gabor Simko",
-          "Tihamer Levendovszky",
-          "Miklos Maroti",
-          "Janos Sztipanovits"
-        ]
+        "inproceedings": {
+          "@key": "conf/icse/VolgyesiSLDM10",
+          "title": "Software development for a novel WSN platform",
+          "booktitle": "SESENA@ICSE",
+          "year": "2010",
+          "pages": "20-25",
+          "ee": "https://doi.org/10.1145/1809111.1809119",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Prabal Dutta",
+              "@pid": "40/5390"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/KusyLMV04",
-        "title": "Domain Independent Generative Modeling.",
-        "pages": "29-35",
-        "year": "2004",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.2004.1316679",
-        "url": "db/conf/ecbs/ecbs2004.html#KusyLMV04",
-        "authors": [
-          "Branislav Kusy",
-          "Ãkos LÃ©deczi",
-          "Miklos Maroti",
-          "PÃ©ter VÃ¶lgyesi"
-        ]
+        "inproceedings": {
+          "@key": "conf/icsr/LevendovszkyKMLC02",
+          "title": "Model Reuse with Metamodel-Based Transformations",
+          "booktitle": "ICSR",
+          "year": "2002",
+          "pages": "166-178",
+          "ee": "https://doi.org/10.1007/3-540-46020-9_12",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Hassan Charaf",
+              "@pid": "58/3550"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ecbs/LedecziMKN99",
-        "title": "Metaprogrammable Toolkit for Model-Integrated Computing.",
-        "pages": "311-",
-        "year": "1999",
-        "booktitle": "ECBS",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ECBS.1999.755896",
-        "url": "db/conf/ecbs/ecbs1999.html#LedecziMKN99",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "Miklos Maroti",
-          "Gabor Karsai",
-          "Greg Nordstrom"
-        ]
+        "inproceedings": {
+          "@key": "conf/icwn/MarotiKSL04",
+          "title": "Robust Multi-Hop Time Synchronization in Sensor Networks",
+          "booktitle": "International Conference on Wireless Networks",
+          "year": "2004",
+          "pages": "454-460",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcse/BrollLVSMCWVSL17",
-        "title": "A Visual Programming Environment for Learning Distributed Programming.",
-        "pages": "81-86",
-        "year": "2017",
-        "booktitle": "SIGCSE",
-        "ee": "https://doi.org/10.1145/3017680.3017741",
-        "url": "db/conf/sigcse/sigcse2017.html#BrollLVSMCWVSL17",
-        "authors": [
-          "Brian Broll",
-          "Ãkos LÃ©deczi",
-          "PÃ©ter VÃ¶lgyesi",
-          "JÃ¡nos Sallai",
-          "Miklos Maroti",
-          "Alexia Carrillo",
-          "Stephanie L. Weeden-Wright",
-          "Chris Vanags",
-          "Joshua D. Swartz",
-          "Melvin Lu"
-        ]
+        "inproceedings": {
+          "@key": "conf/icwn/SallaiBMLK04",
+          "title": "Acoustic Ranging in Resource-Constrained Sensor Networks",
+          "booktitle": "International Conference on Wireless Networks",
+          "year": "2004",
+          "pages": "467-",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aied/HutchinsBMLB18",
-        "title": "A Design-Based Approach to a Classroom-Centered OELE.",
-        "pages": "155-159",
-        "year": "2018",
-        "booktitle": "AIED (2)",
-        "ee": "https://doi.org/10.1007/978-3-319-93846-2_28",
-        "url": "db/conf/aied/aied2018-2.html#HutchinsBMLB18",
-        "authors": [
-          "Nicole Hutchins",
-          "Gautam Biswas",
-          "Miklos Maroti",
-          "Ãkos LÃ©deczi",
-          "Brian Broll"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipps/BrollLVSMV17",
+          "title": "Introducing Parallel and Distributed Computing to K12",
+          "booktitle": "IPDPS Workshops",
+          "year": "2017",
+          "pages": "323-330",
+          "ee": "https://doi.org/10.1109/IPDPSW.2017.81",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Chris Vanags",
+              "@pid": "195/8754"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipsn/VeressM11",
-        "title": "LinkBench: Benchmark and metric framework for wireless sensor networks.",
-        "pages": "171-172",
-        "year": "2011",
-        "booktitle": "IPSN",
-        "ee": "https://ieeexplore.ieee.org/document/5779099/",
-        "url": "db/conf/ipsn/ipsn2011.html#VeressM11",
-        "authors": [
-          "Krisztian Veress",
-          "Miklos Maroti"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipsn/KogekarNEKLM04",
+          "title": "Constraint-guided dynamic reconfiguration in sensor networks",
+          "booktitle": "IPSN",
+          "year": "2004",
+          "pages": "379-387",
+          "ee": "https://doi.org/10.1145/984622.984677",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brandon Eames",
+              "@pid": "35/1706"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Sachin Kogekar",
+              "@pid": "78/1894"
+            },
+            {
+              "#text": "Sandeep Neema",
+              "@pid": "48/2825"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipsn/LedecziVMSBNKD05",
-        "title": "Multiple simultaneous acoustic source localization in urban terrain.",
-        "pages": "491-496",
-        "year": "2005",
-        "booktitle": "IPSN",
-        "ee": "http://dl.acm.org/citation.cfm?id=1147771",
-        "url": "db/conf/ipsn/ipsn2005.html#LedecziVMSBNKD05",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "PÃ©ter VÃ¶lgyesi",
-          "Miklos Maroti",
-          "Gyula Simon",
-          "GyÃ¶rgy Balogh",
-          "AndrÃ¡s NÃ¡das",
-          "Branislav Kusy",
-          "Sebestyen DÃ³ra"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipsn/KusyLMM06",
+          "title": "Node density independent localization",
+          "booktitle": "IPSN",
+          "year": "2006",
+          "pages": "441-448",
+          "ee": "https://doi.org/10.1145/1127777.1127844",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Lambert G. L. T. Meertens",
+              "@pid": "m/LGLTMeertens"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipsn/KusyLMM06",
-        "title": "Node density independent localization.",
-        "pages": "441-448",
-        "year": "2006",
-        "booktitle": "IPSN",
-        "ee": "https://doi.org/10.1109/IPSN.2006.243912",
-        "url": "db/conf/ipsn/ipsn2006.html#KusyLMM06",
-        "authors": [
-          "Branislav Kusy",
-          "Ãkos LÃ©deczi",
-          "Miklos Maroti",
-          "Lambert G. L. T. Meertens"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipsn/LedecziVMSBNKD05",
+          "title": "Multiple simultaneous acoustic source localization in urban terrain",
+          "booktitle": "IPSN",
+          "year": "2005",
+          "pages": "491-496",
+          "ee": "https://doi.org/10.1109/IPSN.2005.1440982",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ipsn/KogekarNEKLM04",
-        "title": "Constraint-guided dynamic reconfiguration in sensor networks.",
-        "pages": "379-387",
-        "year": "2004",
-        "booktitle": "IPSN",
-        "ee": "https://doi.org/10.1109/IPSN.2004.1307359",
-        "url": "db/conf/ipsn/ipsn2004.html#KogekarNEKLM04",
-        "authors": [
-          "Sachin Kogekar",
-          "Sandeep Neema",
-          "Brandon Eames",
-          "Xenofon D. Koutsoukos",
-          "Ãkos LÃ©deczi",
-          "Miklos Maroti"
-        ]
+        "inproceedings": {
+          "@key": "conf/ipsn/VeressM11",
+          "title": "LinkBench: Benchmark and metric framework for wireless sensor networks",
+          "booktitle": "IPSN",
+          "year": "2011",
+          "pages": "171-172",
+          "author": [
+            {
+              "#text": "Krisztian Veress",
+              "@pid": "53/9662"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/computer/LedecziBMVNSK01",
-        "title": "Composing Domain-Specific Design Environments.",
-        "pages": "44-51",
-        "year": "2001",
-        "volume": "34",
-        "journal": "Computer",
-        "number": "11",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/2.963443",
-        "url": "db/journals/computer/computer34.html#LedecziBMVNSK01",
-        "authors": [
-          "Ãkos LÃ©deczi",
-          "Arpad Bakay",
-          "Miklos Maroti",
-          "PÃ©ter VÃ¶lgyesi",
-          "Greg Nordstrom",
-          "Jonathan Sprinkle",
-          "Gabor Karsai"
-        ]
+        "inproceedings": {
+          "@key": "conf/iwsas/LedecziBM00",
+          "title": "Model-Integrated Embedded Systems",
+          "booktitle": "IWSAS",
+          "year": "2001",
+          "pages": "99-115",
+          "ee": "https://doi.org/10.1007/3-540-44584-6_9",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Arpad Bakay",
+              "@pid": "20/4755"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/computer/MarotiSLS04",
-        "title": "Shooter Localization in Urban Terrain.",
-        "pages": "60-61",
-        "year": "2004",
-        "volume": "37",
-        "journal": "Computer",
-        "number": "8",
-        "ee": "http://doi.ieeecomputersociety.org/10.1109/MC.2004.104",
-        "url": "db/journals/computer/computer37.html#MarotiSLS04",
-        "authors": [
-          "Miklos Maroti",
-          "Gyula Simon",
-          "Ãkos LÃ©deczi",
-          "Janos Sztipanovits"
-        ]
+        "inproceedings": {
+          "@key": "conf/mass/KushwahaMSVML05",
+          "title": "Sensor node localization using mobile acoustic beacons",
+          "booktitle": "MASS",
+          "year": "2005",
+          "ee": "https://doi.org/10.1109/MAHSS.2005.1542835",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Károly Molnár",
+              "@pid": "53/1074"
+            },
+            {
+              "#text": "Manish Kushwaha",
+              "@pid": "58/5016"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijsnet/AmundsonSKLM11",
-        "title": "RF angle of arrival-based node localisation.",
-        "pages": "209-224",
-        "year": "2011",
-        "volume": "9",
-        "journal": "Int. J. Sens. Networks",
-        "number": "3/4",
-        "ee": "https://doi.org/10.1504/IJSNET.2011.040241",
-        "url": "db/journals/ijsnet/ijsnet9.html#AmundsonSKLM11",
-        "authors": [
-          "Isaac Amundson",
-          "JÃ¡nos Sallai",
-          "Xenofon D. Koutsoukos",
-          "Ãkos LÃ©deczi",
-          "Miklos Maroti"
-        ]
+        "inproceedings": {
+          "@key": "conf/middleware/Maroti04",
+          "title": "Directed Flood-Routing Framework for Wireless Sensor Networks",
+          "booktitle": "Middleware",
+          "year": "2004",
+          "pages": "99-114",
+          "ee": "https://doi.org/10.1007/978-3-540-30229-2_6",
+          "author": {
+            "#text": "Miklós Maróti",
+            "@pid": "m/MiklosMaroti"
+          }
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2411-12967",
-        "title": "Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue.",
-        "year": "2024",
-        "volume": "abs/2411.12967",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2411.12967",
-        "url": "db/journals/corr/corr2411.html#abs-2411-12967",
-        "authors": [
-          "Yunuo Zhang",
-          "Baiting Luo",
-          "Ayan Mukhopadhyay",
-          "DÃ¡niel Stojcsics",
-          "Daniel Elenius",
-          "Anirban Roy",
-          "Susmit Jha",
-          "Miklos Maroti",
-          "Xenofon D. Koutsoukos",
-          "Gabor Karsai",
-          "Abhishek Dubey"
-        ]
+        "inproceedings": {
+          "@key": "conf/mobisys/HedgecockMSVL13",
+          "title": "High-accuracy differential tracking of low-cost GPS receivers",
+          "booktitle": "MobiSys",
+          "year": "2013",
+          "pages": "221-234",
+          "ee": "https://doi.org/10.1145/2462456.2464456",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobisys/HedgecockMSVL13a",
+          "title": "RegTrack: a differential relative gps tracking solution",
+          "booktitle": "MobiSys",
+          "year": "2013",
+          "pages": "475-476",
+          "ee": "https://doi.org/10.1145/2462456.2465733",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobisys/KalmarWVRML19",
+          "title": "Animal-Borne Anti-Poaching System",
+          "booktitle": "MobiSys",
+          "year": "2019",
+          "pages": "91-102",
+          "ee": "https://doi.org/10.1145/3307334.3326080",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "George Wittemyer",
+              "@pid": "209/6353"
+            },
+            {
+              "#text": "György Kalmár",
+              "@pid": "208/8860"
+            },
+            {
+              "#text": "Henrik Barner Rasmussen",
+              "@pid": "243/0072"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mobisys/KalmarWVRML19a",
+          "title": "Animal-Borne Acoustic Gunshot Detector",
+          "booktitle": "MobiSys",
+          "year": "2019",
+          "pages": "578-579",
+          "ee": "https://doi.org/10.1145/3307334.3328634",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "George Wittemyer",
+              "@pid": "209/6353"
+            },
+            {
+              "#text": "György Kalmár",
+              "@pid": "208/8860"
+            },
+            {
+              "#text": "Henrik Barner Rasmussen",
+              "@pid": "243/0072"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/MarotiKKBVJLL14",
+          "title": "Next Generation (Meta)Modeling: Web- and Cloud-based Collaborative Tool Infrastructure",
+          "booktitle": "MPM@MoDELS",
+          "year": "2014",
+          "pages": "41-60",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "László Jurácz",
+              "@pid": "41/8776"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Róbert Kereskényi",
+              "@pid": "77/3816"
+            },
+            {
+              "#text": "Tamás Kecskés",
+              "@pid": "148/6337"
+            },
+            {
+              "#text": "Tihamer Levendovszky",
+              "@pid": "79/6881"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/monterey/SallaiML05",
+          "title": "A Concurrency Abstraction for Reliable Sensor Network Applications",
+          "booktitle": "Monterey Workshop",
+          "year": "2007",
+          "pages": "143-160",
+          "ee": "https://doi.org/10.1007/978-3-540-71156-8_8",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/HedgecockMLVB14",
+          "title": "Accurate real-time relative localization using single-frequency GPS",
+          "booktitle": "SenSys",
+          "year": "2014",
+          "pages": "206-220",
+          "ee": "https://doi.org/10.1145/2668332.2668379",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Rueben A. Banalagay",
+              "@pid": "239/1661"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/HedgecockMLVB14a",
+          "title": "PinPtr: a high-precision GPS cloud service",
+          "booktitle": "SenSys",
+          "year": "2014",
+          "pages": "324-325",
+          "ee": "https://doi.org/10.1145/2668332.2668342",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Rueben A. Banalagay",
+              "@pid": "239/1661"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/MarotiKSL04",
+          "title": "The flooding time synchronization protocol",
+          "booktitle": "SenSys",
+          "year": "2004",
+          "pages": "39-49",
+          "ee": "https://doi.org/10.1145/1031495.1031501",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/MarotiVDKNLBM05",
+          "title": "Radio interferometric geolocation",
+          "booktitle": "SenSys",
+          "year": "2005",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1145/1098918.1098920",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Károly Molnár",
+              "@pid": "53/1074"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sensys/SimonMLBKNPSF04",
+          "title": "Sensor network-based countersniper system",
+          "booktitle": "SenSys",
+          "year": "2004",
+          "pages": "1-12",
+          "ee": "https://doi.org/10.1145/1031495.1031497",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gábor Pap",
+              "@pid": "58/4702"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Ken Frampton",
+              "@pid": "30/4943"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcse/BrollLVSMCWVSL17",
+          "title": "A Visual Programming Environment for Learning Distributed Programming",
+          "booktitle": "SIGCSE",
+          "year": "2017",
+          "pages": "81-86",
+          "ee": "https://doi.org/10.1145/3017680.3017741",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Alexia Carrillo",
+              "@pid": "195/8680"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Chris Vanags",
+              "@pid": "195/8754"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Joshua D. Swartz",
+              "@pid": "195/8853"
+            },
+            {
+              "#text": "Melvin Lu",
+              "@pid": "195/8743"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Stephanie L. Weeden-Wright",
+              "@pid": "195/8608"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcse/LedecziMZYHBVSD20",
+          "title": "Teaching Cybersecurity with Networked Robots",
+          "booktitle": "SIGCSE",
+          "year": "2019",
+          "pages": "885-891",
+          "ee": "https://doi.org/10.1145/3287324.3287450",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Bernard Yett",
+              "@pid": "236/5386"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Gautam Biswas",
+              "@pid": "15/6242"
+            },
+            {
+              "#text": "Hamid Zare",
+              "@pid": "220/2948"
+            },
+            {
+              "#text": "Mary Metelko",
+              "@pid": "214/8605"
+            },
+            {
+              "#text": "Michael B. Smith",
+              "@pid": "74/430"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Nicole Hutchins",
+              "@pid": "221/3624"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Timothy Darrah",
+              "@pid": "236/5541"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/smc/DevaSNM00",
+          "title": "Towards a standard for model specification and storage",
+          "booktitle": "SMC",
+          "year": "2000",
+          "pages": "364-369",
+          "ee": "https://doi.org/10.1109/ICSMC.2000.885018",
+          "author": [
+            {
+              "#text": "Dinesh Deva",
+              "@pid": "210/7986"
+            },
+            {
+              "#text": "Greg Nordstrom",
+              "@pid": "17/4561"
+            },
+            {
+              "#text": "Jonathan Sprinkle",
+              "@pid": "94/2487"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/access/LedecziSVMHS26",
+          "title": "Acoustic Shooter Localization With Consistency-Function Fusion in Sparse Sensor Networks",
+          "journal": "IEEE Access",
+          "year": "2026",
+          "pages": "98191-98211",
+          "ee": "https://doi.org/10.1109/ACCESS.2026.3703320",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Will Hedgecock",
+              "@pid": "84/8007"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/aiedu/HutchinsBZSLM20",
+          "title": "Domain-Specific Modeling Languages in Computer-Based Learning Environments: a Systematic Approach to Support Science Learning through Computational Modeling",
+          "journal": "Int. J. Artif. Intell. Educ.",
+          "year": "2020",
+          "pages": "537-580",
+          "ee": "https://doi.org/10.1007/S40593-020-00209-Z",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Caitlin Snyder",
+              "@pid": "243/3785"
+            },
+            {
+              "#text": "Gautam Biswas",
+              "@pid": "15/6242"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Nicole Hutchins",
+              "@pid": "221/3624"
+            },
+            {
+              "#text": "Ningyu Zhang",
+              "@pid": "139/4181-2"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/LedecziBMVNSK01",
+          "title": "Composing Domain-Specific Design Environments",
+          "journal": "Computer",
+          "year": "2001",
+          "pages": "44-51",
+          "ee": "https://doi.org/10.1109/2.963443",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Arpad Bakay",
+              "@pid": "20/4755"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Greg Nordstrom",
+              "@pid": "17/4561"
+            },
+            {
+              "#text": "Jonathan Sprinkle",
+              "@pid": "94/2487"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/MarotiSLS04",
+          "title": "Shooter Localization in Urban Terrain",
+          "journal": "Computer",
+          "year": "2004",
+          "pages": "60-61",
+          "ee": "https://doi.org/10.1109/MC.2004.104",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-0709-1934",
+          "title": "CD(4) has bounded width",
+          "journal": "CoRR",
+          "year": "2007",
+          "ee": "https://doi.org/10.48550/ARXIV.0709.1934",
+          "author": [
+            {
+              "#text": "Catarina Carvalho",
+              "@pid": "99/1330"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Petar Markovic",
+              "@pid": "58/2149"
+            },
+            {
+              "#text": "Víctor Dalmau",
+              "@pid": "96/696"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2107-08456",
+          "title": "Congruence permutability is prime",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2107.08456",
+          "author": [
+            {
+              "#text": "Gergo Gyenizse",
+              "@pid": "266/3049"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2411-12967",
+          "title": "Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2411.12967",
+          "author": [
+            {
+              "#text": "Abhishek Dubey",
+              "@pid": "67/525"
+            },
+            {
+              "#text": "Anirban Roy",
+              "@pid": "49/1836"
+            },
+            {
+              "#text": "Ayan Mukhopadhyay",
+              "@pid": "180/1429"
+            },
+            {
+              "#text": "Baiting Luo",
+              "@pid": "285/4660"
+            },
+            {
+              "#text": "Daniel Elenius",
+              "@pid": "43/6172"
+            },
+            {
+              "#text": "Dániel Stojcsics",
+              "@pid": "143/3321"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Susmit Jha",
+              "@pid": "61/4923"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            },
+            {
+              "#text": "Yunuo Zhang",
+              "@pid": "343/1692"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2604-05161",
+          "title": "SMB algebras II: On the Constraint Satisfaction Problem over Semilattices of Mal'cev Blocks",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2604.05161",
+          "author": [
+            {
+              "#text": "Aleksandar Prokic",
+              "@pid": "434/7523"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Petar Markovic",
+              "@pid": "58/2149"
+            },
+            {
+              "#text": "Ralph McKenzie",
+              "@pid": "04/4529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dm/JezekMMM00",
+          "title": "Equations of tournaments are not finitely based",
+          "journal": "Discret. Math.",
+          "year": "2000",
+          "pages": "243-248",
+          "ee": "https://doi.org/10.1016/S0012-365X(99)00155-7",
+          "author": [
+            {
+              "#text": "Jaroslav Jezek",
+              "@pid": "05/2454"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Petar Markovic",
+              "@pid": "58/2149"
+            },
+            {
+              "#text": "Ralph McKenzie",
+              "@pid": "04/4529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dm/MarotiZ12",
+          "title": "Reflexive digraphs with near unanimity polymorphisms",
+          "journal": "Discret. Math.",
+          "year": "2012",
+          "pages": "2316-2328",
+          "ee": "https://doi.org/10.1016/J.DISC.2012.03.040",
+          "author": [
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejc/KincsesMMOZ13",
+          "title": "A special case of the Stahl conjecture",
+          "journal": "Eur. J. Comb.",
+          "year": "2013",
+          "pages": "502-511",
+          "ee": "https://doi.org/10.1016/J.EJC.2012.10.003",
+          "author": [
+            {
+              "#text": "Géza Makay",
+              "@pid": "91/4606"
+            },
+            {
+              "#text": "János Kincses",
+              "@pid": "81/1090"
+            },
+            {
+              "#text": "József Osztényi",
+              "@pid": "28/8050"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijac/BodorGMZ24",
+          "title": "Taylor is prime",
+          "journal": "Int. J. Algebra Comput.",
+          "year": "2024",
+          "pages": "857-879",
+          "ee": "https://doi.org/10.1142/S0218196724500322",
+          "author": [
+            {
+              "#text": "Bertalan Bodor",
+              "@pid": "260/9730"
+            },
+            {
+              "#text": "Gergo Gyenizse",
+              "@pid": "266/3049"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijac/GyenizseMZ20",
+          "title": "n-Permutability is not join-prime for n ≥ 5",
+          "journal": "Int. J. Algebra Comput.",
+          "year": "2020",
+          "pages": "1717-1737",
+          "ee": "https://doi.org/10.1142/S0218196720500605",
+          "author": [
+            {
+              "#text": "Gergo Gyenizse",
+              "@pid": "266/3049"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijac/GyenizseMZ23",
+          "title": "On the use of majority for investigating primeness of 3-permutability",
+          "journal": "Int. J. Algebra Comput.",
+          "year": "2023",
+          "pages": "31-46",
+          "ee": "https://doi.org/10.1142/S0218196723500042",
+          "author": [
+            {
+              "#text": "Gergo Gyenizse",
+              "@pid": "266/3049"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijahuc/KusyDLMLC06",
+          "title": "Elapsed time on arrival: a simple and versatile primitive for canonical time synchronisation services",
+          "journal": "Int. J. Ad Hoc Ubiquitous Comput.",
+          "year": "2006",
+          "pages": "239-251",
+          "ee": "https://doi.org/10.1504/IJAHUC.2006.010505",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "David E. Culler",
+              "@pid": "c/DavidECuller"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Philip Levis",
+              "@pid": "91/2665"
+            },
+            {
+              "#text": "Prabal Dutta",
+              "@pid": "40/5390"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijfcs/CouceiroMWZ19",
+          "title": "Computing Version Spaces in the Qualitative Approach to Multicriteria Decision Aid",
+          "journal": "Int. J. Found. Comput. Sci.",
+          "year": "2019",
+          "pages": "333-353",
+          "ee": "https://doi.org/10.1142/S0129054119500084",
+          "author": [
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miguel Couceiro",
+              "@pid": "90/3960"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Tamás Waldhauser",
+              "@pid": "06/5250"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijsnet/AmundsonSKLM11",
+          "title": "RF angle of arrival-based node localisation",
+          "journal": "Int. J. Sens. Networks",
+          "year": "2011",
+          "pages": "209-224",
+          "ee": "https://doi.org/10.1504/IJSNET.2011.040241",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Isaac Amundson",
+              "@pid": "35/287"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Xenofon Koutsoukos",
+              "@pid": "11/5453"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jpdc/BrollLZDSVMBV18",
+          "title": "A visual programming environment for introducing distributed computing to secondary education",
+          "journal": "J. Parallel Distributed Comput.",
+          "year": "2018",
+          "pages": "189-200",
+          "ee": "https://doi.org/10.1016/J.JPDC.2018.02.021",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Brian Broll",
+              "@pid": "151/0078"
+            },
+            {
+              "#text": "Chris Vanags",
+              "@pid": "195/8754"
+            },
+            {
+              "#text": "Dung Nguyen Do",
+              "@pid": "220/2979"
+            },
+            {
+              "#text": "Hamid Zare",
+              "@pid": "220/2948"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Lesa Brown",
+              "@pid": "220/2810"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jsyml/Maroti09",
+          "title": "The existence of a near-unanimity term in a finite algebra is decidable",
+          "journal": "J. Symb. Log.",
+          "year": "2009",
+          "pages": "1001-1014",
+          "ee": "https://doi.org/10.2178/JSL/1245158096",
+          "author": {
+            "#text": "Miklós Maróti",
+            "@pid": "m/MiklosMaroti"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/CzedliM09",
+          "title": "Two Notes on the Variety Generated by Planar Modular Lattices",
+          "journal": "Order",
+          "year": "2009",
+          "pages": "109-117",
+          "ee": "https://doi.org/10.1007/S11083-009-9110-3",
+          "author": [
+            {
+              "#text": "Gábor Czédli",
+              "@pid": "72/3715"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/CzedliMS09",
+          "title": "On the Scope of Averaging for Frankl's Conjecture",
+          "journal": "Order",
+          "year": "2009",
+          "pages": "31-48",
+          "ee": "https://doi.org/10.1007/S11083-008-9105-5",
+          "author": [
+            {
+              "#text": "E. Tamás Schmidt",
+              "@pid": "35/7603"
+            },
+            {
+              "#text": "Gábor Czédli",
+              "@pid": "72/3715"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/KunosMZ19",
+          "title": "On Finite Generability of Clones of Finite Posets",
+          "journal": "Order",
+          "year": "2019",
+          "pages": "653-666",
+          "ee": "https://doi.org/10.1007/S11083-019-09486-3",
+          "author": [
+            {
+              "#text": "Ádám Kunos",
+              "@pid": "158/8490"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/KunosMZ19a",
+          "title": "Correction to: On Finite Generability of Clones of Finite Posets",
+          "journal": "Order",
+          "year": "2019",
+          "pages": "667",
+          "ee": "https://doi.org/10.1007/S11083-019-09491-6",
+          "author": [
+            {
+              "#text": "Ádám Kunos",
+              "@pid": "158/8490"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/KunosMZ22",
+          "title": "Critical Relations of Crowns in Critical Times of Coronavirus Depression",
+          "journal": "Order",
+          "year": "2022",
+          "pages": "229-241",
+          "ee": "https://doi.org/10.1007/S11083-021-09571-6",
+          "author": [
+            {
+              "#text": "Ádám Kunos",
+              "@pid": "158/8490"
+            },
+            {
+              "#text": "László Zádori",
+              "@pid": "59/4616"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/order/MarkovicMM12",
+          "title": "Finitely Related Clones and Algebras with Cube Terms",
+          "journal": "Order",
+          "year": "2012",
+          "pages": "345-359",
+          "ee": "https://doi.org/10.1007/S11083-011-9232-2",
+          "author": [
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Petar Markovic",
+              "@pid": "58/2149"
+            },
+            {
+              "#text": "Ralph McKenzie",
+              "@pid": "04/4529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scp/VolgyesiMDOL05",
+          "title": "Software composition and verification for sensor networks",
+          "journal": "Sci. Comput. Program.",
+          "year": "2005",
+          "pages": "191-210",
+          "ee": "https://doi.org/10.1016/J.SCICO.2004.11.012",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Esteban Osses",
+              "@pid": "81/2223"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sLogica/AdarichevaMZMN06",
+          "title": "The Jónsson-Kiefer Property",
+          "journal": "Stud Logica",
+          "year": "2006",
+          "pages": "111-131",
+          "ee": "https://doi.org/10.1007/S11225-006-8300-X",
+          "author": [
+            {
+              "#text": "Eric Richard Zenk",
+              "@pid": "05/2981"
+            },
+            {
+              "#text": "James B. Nation",
+              "@pid": "10/6666"
+            },
+            {
+              "#text": "Kira V. Adaricheva",
+              "@pid": "00/1274"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Ralph McKenzie",
+              "@pid": "04/4529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sLogica/MarotiM04",
+          "title": "Finite basis problems and results for quasivarieties",
+          "journal": "Stud Logica",
+          "year": "2004",
+          "pages": "293-320",
+          "ee": "https://doi.org/10.1007/S11225-005-3320-5",
+          "author": [
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Ralph McKenzie",
+              "@pid": "04/4529"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/KarsaiMLGS04",
+          "title": "Composition and cloning in modeling and meta-modeling",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2004",
+          "pages": "263-278",
+          "ee": "https://doi.org/10.1109/TCST.2004.824311",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "Gabor Karsai",
+              "@pid": "37/3753"
+            },
+            {
+              "#text": "Janos Sztipanovits",
+              "@pid": "62/685"
+            },
+            {
+              "#text": "Jeffrey G. Gray",
+              "@pid": "g/JeffreyGGray"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tosn/LedecziNVBKSPDMMS05",
+          "title": "Countersniper system for urban warfare",
+          "journal": "ACM Trans. Sens. Networks",
+          "year": "2005",
+          "pages": "153-177",
+          "ee": "https://doi.org/10.1145/1105688.1105689",
+          "author": [
+            {
+              "#text": "Ákos Lédeczi",
+              "@pid": "l/AkosLedeczi"
+            },
+            {
+              "#text": "András Nádas",
+              "@pid": "88/1765"
+            },
+            {
+              "#text": "Branislav Kusy",
+              "@pid": "19/3001"
+            },
+            {
+              "#text": "Gábor Pap",
+              "@pid": "58/4702"
+            },
+            {
+              "#text": "György Balogh",
+              "@pid": "31/6893"
+            },
+            {
+              "#text": "Gyula Simon",
+              "@pid": "63/18"
+            },
+            {
+              "#text": "János Sallai",
+              "@pid": "71/6158"
+            },
+            {
+              "#text": "Károly Molnár",
+              "@pid": "53/1074"
+            },
+            {
+              "#text": "Miklós Maróti",
+              "@pid": "m/MiklosMaroti"
+            },
+            {
+              "#text": "Péter Völgyesi",
+              "@pid": "83/2615"
+            },
+            {
+              "#text": "Sebestyen Dóra",
+              "@pid": "41/4347"
+            }
+          ]
+        }
       }
     ]
   }

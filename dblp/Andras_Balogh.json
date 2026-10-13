@@ -1,43 +1,916 @@
 {
   "dblpperson": {
+    "@name": "András Balogh",
     "r": [
       {
-        "type": "article",
-        "key": "journals/corr/abs-2602-18739",
-        "title": "When World Models Dream Wrong: Physical-Conditioned Adversarial Attacks against World Models.",
-        "year": "2026",
-        "volume": "abs/2602.18739",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2602.18739",
-        "url": "db/journals/corr/corr2602.html#abs-2602-18739",
-        "authors": [
-          "Zhixiang Guo",
-          "Siyuan Liang 0004",
-          "Andras Balogh",
-          "Noah Lunberry",
-          "Rong-Cheng Tu",
-          "MÃ¡rk Jelasity",
-          "Dacheng Tao"
-        ]
+        "inproceedings": {
+          "@key": "conf/aaai/BaloghJ25",
+          "title": "How Not to Stitch Representations to Measure Similarity: Task Loss Matching Versus Direct Matching",
+          "booktitle": "AAAI",
+          "year": "2025",
+          "pages": "15472-15480",
+          "ee": "https://doi.org/10.1609/AAAI.V39I15.33698",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2605-23220",
-        "title": "WMAttack: Automated Attack Search for Adversarial Evaluation of World-Model Agents.",
-        "year": "2026",
-        "volume": "abs/2605.23220",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2605.23220",
-        "url": "db/journals/corr/corr2605.html#abs-2605-23220",
-        "authors": [
-          "Zhixiang Guo",
-          "Siyuan Liang 0004",
-          "Shi Fu",
-          "Cheng Guo",
-          "Andras Balogh",
-          "MÃ¡rk Jelasity",
-          "Dacheng Tao"
-        ]
+        "inproceedings": {
+          "@key": "conf/acc/KrsticGBS07",
+          "title": "Observer Based Boundary Control of an Unstable Wave Equation",
+          "booktitle": "ACC",
+          "year": "2007",
+          "pages": "2048-2053",
+          "ee": "https://doi.org/10.1109/ACC.2007.4282422",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Andrey Smyshlyaev",
+              "@pid": "38/3099"
+            },
+            {
+              "#text": "Bao-Zhu Guo",
+              "@pid": "10/3865"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acc/KrsticSBG07",
+          "title": "Control of Strings and Flexible Beams by Backstepping Boundary Control",
+          "booktitle": "ACC",
+          "year": "2007",
+          "pages": "882-887",
+          "ee": "https://doi.org/10.1109/ACC.2007.4282436",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Antranik Antonio Siranosian",
+              "@pid": "52/6129"
+            },
+            {
+              "#text": "Bao-Zhu Guo",
+              "@pid": "10/3865"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/BaloghK01",
+          "title": "Infinite-step backstepping for a heat equation-like PDE with arbitrarily many unstable eigenvalues",
+          "booktitle": "ACC",
+          "year": "2001",
+          "pages": "2480-2485",
+          "ee": "https://doi.org/10.1109/ACC.2001.946125",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/amcc/BaloghLK00",
+          "title": "Stability enhancement by boundary control in 2D channel flow. II. Numerical implementation and stability",
+          "booktitle": "ACC",
+          "year": "2000",
+          "pages": "4259-4263",
+          "ee": "https://doi.org/10.1109/ACC.2000.877024",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            },
+            {
+              "#text": "Wei-Jiu Liu",
+              "@pid": "345/6273"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/aqtr/BaloghTBR20",
+          "title": "Implementing a true-RMS AC Power Factor meter on the PIC18 microcontroller",
+          "booktitle": "AQTR",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR49680.2020.9130009",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Gavril Toderean",
+              "@pid": "54/2078"
+            },
+            {
+              "#text": "Ovidiu Buza",
+              "@pid": "145/4956"
+            },
+            {
+              "#text": "Zsolt Rózsa",
+              "@pid": "323/0066"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/birthday/BaloghBCGHMPPRVa10",
+          "title": "Workflow-Driven Tool Integration Using Model Transformations",
+          "booktitle": "Graph Transformations and Model-Driven Engineering",
+          "year": "2010",
+          "pages": "224-248",
+          "ee": "https://doi.org/10.1007/978-3-642-17322-6_11",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Balázs Polgár",
+              "@pid": "89/1583"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Bergmann",
+              "@pid": "76/4726"
+            },
+            {
+              "#text": "Gergely Varró",
+              "@pid": "65/3477"
+            },
+            {
+              "#text": "György Csertán",
+              "@pid": "97/4568"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/BaloghK02",
+          "title": "Stability of difference equations arising in infinite dimensional backstepping",
+          "booktitle": "CDC",
+          "year": "2002",
+          "pages": "3015-3020",
+          "ee": "https://doi.org/10.1109/CDC.2002.1184316",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/BaloghV05",
+          "title": "Forced Oscillations of a Membrane with Quadratic Nonlinearity",
+          "booktitle": "CDC/ECC",
+          "year": "2005",
+          "pages": "7378-7383",
+          "ee": "https://doi.org/10.1109/CDC.2005.1583352",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Vladimir Varlamov",
+              "@pid": "96/3803"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cdc/KrsticBS06",
+          "title": "Backstepping Boundary Controllers for Tip-Force Induced Flexible Beam Instabilities Arising in AFM",
+          "booktitle": "CDC",
+          "year": "2006",
+          "pages": "2430-2435",
+          "ee": "https://doi.org/10.1109/CDC.2006.377196",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Andrey Smyshlyaev",
+              "@pid": "38/3099"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iclr/BaloghJ26",
+          "title": "Verification of the Implicit World Model in a Generative Model via Adversarial Sequences",
+          "booktitle": "ICLR",
+          "year": "2026",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icml/BaloghJ23",
+          "title": "On the Functional Similarity of Robust and Non-Robust Neural Representations",
+          "booktitle": "ICML",
+          "year": "2023",
+          "pages": "1614-1635",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isas/BaloghVP05",
+          "title": "Model-Based Optimization of Enterprise Application and Service Deployment",
+          "booktitle": "ISAS",
+          "year": "2005",
+          "pages": "84-98",
+          "ee": "https://doi.org/10.1007/11560333_7",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/models/BergmannHRVBBO10",
+          "title": "Incremental Evaluation of Model Queries over EMF Models",
+          "booktitle": "MoDELS (1)",
+          "year": "2010",
+          "pages": "76-90",
+          "ee": "https://doi.org/10.1007/978-3-642-16145-2_6",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Ökrös",
+              "@pid": "13/3408"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gábor Bergmann",
+              "@pid": "76/4726"
+            },
+            {
+              "#text": "István Ráth",
+              "@pid": "07/4090"
+            },
+            {
+              "#text": "Zoltán Balogh",
+              "@pid": "85/5053-3"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mompes/AnastasopoulosB07",
+          "title": "Model-driven Development of Particle System Families",
+          "booktitle": "MOMPES",
+          "year": "2007",
+          "pages": "102-114",
+          "ee": "https://doi.org/10.1109/MOMPES.2007.13",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Michalis Anastasopoulos",
+              "@pid": "59/382"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sac/BaloghV06",
+          "title": "Advanced model transformation language constructs in the VIATRA2 framework",
+          "booktitle": "SAC",
+          "year": "2006",
+          "pages": "1280-1287",
+          "ee": "https://doi.org/10.1145/1141277.1141575",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sac/BaloghVVP06",
+          "title": "Compiling model transformations to EJB3-specific transformer plugins",
+          "booktitle": "SAC",
+          "year": "2006",
+          "pages": "1288-1295",
+          "ee": "https://doi.org/10.1145/1141277.1141576",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "Gergely Varró",
+              "@pid": "65/3477"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigsoft/BaloghPR07",
+          "title": "Scheduling of embedded time-triggered systems",
+          "booktitle": "EFTS",
+          "year": "2007",
+          "pages": "8",
+          "ee": "https://doi.org/10.1145/1316550.1316558",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Judit Rácz",
+              "@pid": "33/2371"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/softcom/BaloghI17",
+          "title": "Simulation and analysis of concurrent BLE link layer state machines running within the same physical device",
+          "booktitle": "SoftCOM",
+          "year": "2017",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.23919/SOFTCOM.2017.8115512",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Sándor Imre",
+              "@pid": "03/4861"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/softcom/BaloghILS15",
+          "title": "Service Mediation in multihop Bluetooth Low Energy networks based on NDN approach",
+          "booktitle": "SoftCOM",
+          "year": "2015",
+          "pages": "285-289",
+          "ee": "https://doi.org/10.1109/SOFTCOM.2015.7314123",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Károly Lendvai",
+              "@pid": "51/3132"
+            },
+            {
+              "#text": "Sándor Imre",
+              "@pid": "03/4861"
+            },
+            {
+              "#text": "Sándor Szabó",
+              "@pid": "02/6005"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sped/BuzaTBD13",
+          "title": "Algorithm for detection of voice signal periodicity",
+          "booktitle": "SpeD",
+          "year": "2013",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/SPED.2013.6682647",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Gavril Toderean",
+              "@pid": "54/2078"
+            },
+            {
+              "#text": "József Domokos",
+              "@pid": "145/4772"
+            },
+            {
+              "#text": "Ovidiu Buza",
+              "@pid": "145/4956"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/automatica/KrsticGBS08",
+          "title": "Output-feedback stabilization of an unstable wave equation",
+          "journal": "Autom.",
+          "year": "2008",
+          "pages": "63-74",
+          "ee": "https://doi.org/10.1016/J.AUTOMATICA.2007.05.012",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Andrey Smyshlyaev",
+              "@pid": "38/3099"
+            },
+            {
+              "#text": "Bao-Zhu Guo",
+              "@pid": "10/3865"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cnsns/BaloghBY19",
+          "title": "High-performance implementation of a Runge-Kutta finite-difference scheme for the Higgs boson equation in the de Sitter spacetime",
+          "journal": "Commun. Nonlinear Sci. Numer. Simul.",
+          "year": "2019",
+          "pages": "15-30",
+          "ee": "https://doi.org/10.1016/J.CNSNS.2018.07.011",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Jacob Banda",
+              "@pid": "187/9959"
+            },
+            {
+              "#text": "Karen Yagdjian",
+              "@pid": "269/3453"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2412-11299",
+          "title": "How not to Stitch Representations to Measure Similarity: Task Loss Matching versus Direct Matching",
+          "journal": "CoRR",
+          "year": "2024",
+          "ee": "https://doi.org/10.48550/ARXIV.2412.11299",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2511-17362",
+          "title": "ATAC: Augmentation-Based Test-Time Adversarial Correction for CLIP",
+          "journal": "CoRR",
+          "year": "2025",
+          "ee": "https://doi.org/10.48550/ARXIV.2511.17362",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Linxiang Su",
+              "@pid": "423/6157"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2602-05903",
+          "title": "Verification of the Implicit World Model in a Generative Model via Adversarial Sequences",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2602.05903",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Márk Jelasity",
+              "@pid": "99/618"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/dafes/IslamSBCP09",
+          "title": "An optimization based design for integrated dependable real-time embedded systems",
+          "journal": "Des. Autom. Embed. Syst.",
+          "year": "2009",
+          "pages": "245-285",
+          "ee": "https://doi.org/10.1007/S10617-009-9041-7",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "György Csertán",
+              "@pid": "97/4568"
+            },
+            {
+              "#text": "Neeraj Suri",
+              "@pid": "s/NeerajSuri"
+            },
+            {
+              "#text": "Shariful Islam",
+              "@pid": "13/3335"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ejcon/BaloghK02",
+          "title": "Infinite Dimensional Backstepping-Style Feedback Transformations for a Heat Equation with an Arbitrary Level of Instability",
+          "journal": "Eur. J. Control",
+          "year": "2002",
+          "pages": "165-175",
+          "ee": "https://doi.org/10.3166/EJC.8.165-175",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/entcs/GonczyMHVBMP09",
+          "title": "Tool Support for Engineering Certifiable Software",
+          "booktitle": "SafeCert@ETAPS",
+          "year": "2009",
+          "pages": "79-85",
+          "ee": "https://doi.org/10.1016/J.ENTCS.2009.09.008",
+          "author": [
+            {
+              "#text": "Ákos Horváth",
+              "@pid": "17/531-1"
+            },
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "András Pataricza",
+              "@pid": "19/6221"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            },
+            {
+              "#text": "István Majzik",
+              "@pid": "40/2013"
+            },
+            {
+              "#text": "László Gönczy",
+              "@pid": "83/4448"
+            },
+            {
+              "#text": "Zoltán Micskei",
+              "@pid": "69/4812"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mcss/BoskovicBK03",
+          "title": "Backstepping in Infinite Dimension for a Class of Parabolic Distributed Parameter Systems",
+          "journal": "Math. Control. Signals Syst.",
+          "year": "2003",
+          "pages": "44-75",
+          "ee": "https://doi.org/10.1007/S00498-003-0128-6",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Dejan M. Boskovic",
+              "@pid": "49/6135"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scl/BaloghK04",
+          "title": "Stability of partial difference equations governing control gains in infinite-dimensional backstepping",
+          "journal": "Syst. Control. Lett.",
+          "year": "2004",
+          "pages": "151-164",
+          "ee": "https://doi.org/10.1016/S0167-6911(03)00222-6",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/scp/VarroB07",
+          "title": "The model transformation language of the VIATRA2 framework",
+          "journal": "Sci. Comput. Program.",
+          "year": "2007",
+          "pages": "214-234",
+          "ee": "https://doi.org/10.1016/J.SCICO.2007.05.004",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Dániel Varró",
+              "@pid": "53/1883"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/siamco/KrsticGBS08",
+          "title": "Control of a Tip-Force Destabilized Shear Beam by Observer-Based Boundary Feedback",
+          "journal": "SIAM J. Control. Optim.",
+          "year": "2008",
+          "pages": "553-574",
+          "ee": "https://doi.org/10.1137/060676969",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Andrey Smyshlyaev",
+              "@pid": "38/3099"
+            },
+            {
+              "#text": "Bao-Zhu Guo",
+              "@pid": "10/3865"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tac/BaloghK00",
+          "title": "Boundary control of the Korteweg-de Vries-Burgers equation: further results on stabilization and well-posedness, with numerical demonstration",
+          "journal": "IEEE Trans. Autom. Control.",
+          "year": "2000",
+          "pages": "1739-1745",
+          "ee": "https://doi.org/10.1109/9.880639",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tac/BaloghLK01",
+          "title": "Stability enhancement by boundary control in 2-D channel flow",
+          "journal": "IEEE Trans. Autom. Control.",
+          "year": "2001",
+          "pages": "1696-1711",
+          "ee": "https://doi.org/10.1109/9.964681",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            },
+            {
+              "#text": "Wei-Jiu Liu",
+              "@pid": "345/6273"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tcst/BaloghAK05",
+          "title": "Optimal mixing enhancement in 3-D pipe flow",
+          "journal": "IEEE Trans. Control. Syst. Technol.",
+          "year": "2005",
+          "pages": "27-41",
+          "ee": "https://doi.org/10.1109/TCST.2004.838544",
+          "author": [
+            {
+              "#text": "András Balogh",
+              "@pid": "75/5957"
+            },
+            {
+              "#text": "Miroslav Krstic",
+              "@pid": "35/775"
+            },
+            {
+              "#text": "Ole Morten Aamo",
+              "@pid": "44/3664"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "phd/hu/Andras10",
+          "title": "Megbízható rendszerek modell transzformáció-alapú fejlesztése",
+          "journal": "",
+          "year": "2010",
+          "author": {
+            "#text": "András Balogh",
+            "@pid": "75/5957"
+          }
+        }
       }
     ]
   }

@@ -1,0 +1,748 @@
+{
+  "dblpperson": {
+    "@name": "Laszlo A. Belady",
+    "r": [
+      {
+        "informal": {
+          "@key": "books/ap/72/BeladyL72",
+          "title": "An Introduction to growth dynamics",
+          "journal": "Statistical Computer Performance Evaluation",
+          "year": "1972",
+          "pages": "503-511",
+          "ee": "https://doi.org/10.1016/B978-0-12-266950-7.50030-X",
+          "author": [
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Meir M. Lehman",
+              "@pid": "l/MeirMLehman"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "books/ap/72/DanielB72",
+          "title": "Discussion of Session III",
+          "journal": "Statistical Computer Performance Evaluation",
+          "year": "1972",
+          "pages": "159-162",
+          "ee": "https://doi.org/10.1016/B978-0-12-266950-7.50014-1",
+          "author": [
+            {
+              "#text": "Cuthbert Daniel",
+              "@pid": "264/7517"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acm/Belady86",
+          "title": "Software engineer, the system designer",
+          "booktitle": "ACM Conference on Computer Science",
+          "year": "1986",
+          "pages": "53-55",
+          "ee": "https://doi.org/10.1145/324634.325189",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/acm/Belady91",
+          "title": "System integration (panel session)",
+          "booktitle": "ACM Conference on Computer Science",
+          "year": "1991",
+          "pages": "706",
+          "ee": "https://doi.org/10.1145/327164.328870",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/compcon/BeladyOBC82",
+          "title": "Panel Discussion",
+          "booktitle": "COMPCON",
+          "year": "1982",
+          "pages": "235-236",
+          "author": [
+            {
+              "#text": "Bill Curtis",
+              "@pid": "01/5712"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Robert Balzer",
+              "@pid": "99/404"
+            },
+            {
+              "#text": "Susan S. Owicki",
+              "@pid": "06/3161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/csee/Belady00",
+          "title": "Beyond Software and Beyond Engineering",
+          "booktitle": "CSEE&T",
+          "year": "2000",
+          "pages": "219-",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagstuhl/Belady92",
+          "title": "Experiments and Measurements for Systems Integration",
+          "booktitle": "Experimental Software Engineering Issues",
+          "year": "1993",
+          "pages": "17-18",
+          "ee": "https://doi.org/10.1007/3-540-57092-6_93",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/fjcc/KamijoB87",
+          "title": "Activities for advanced workstations in Japan",
+          "booktitle": "FJCC",
+          "year": "1987",
+          "pages": "128",
+          "author": [
+            {
+              "#text": "F. Kamijo",
+              "@pid": "206/5099"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gacm/Belady82",
+          "title": "Software Parts - Small and Large",
+          "booktitle": "Software-Qualitätssicherung",
+          "year": "1982",
+          "pages": "270-285",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/hicss/Belady94",
+          "title": "Boosting the Effectiveness of Industrial Research in Computer Sciences",
+          "booktitle": "HICSS (4)",
+          "year": "1994",
+          "pages": "473-477",
+          "ee": "https://doi.org/10.1109/HICSS.1994.323438",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ibm/Belady80",
+          "title": "Modifiability of large software systems",
+          "booktitle": "Operating Systems Engineering",
+          "year": "1982",
+          "pages": "160-174",
+          "ee": "https://doi.org/10.1007/3-540-11604-4_53",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/BabcockBG90",
+          "title": "The Evolution of Technology Transfer at MCC's Software Technology Program: From Didactic to Dialectic",
+          "booktitle": "ICSE",
+          "year": "1990",
+          "pages": "290-299",
+          "author": [
+            {
+              "#text": "James D. Babcock",
+              "@pid": "66/4758"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Nancy C. Gore",
+              "@pid": "13/3580"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icse/Belady85",
+          "title": "New Software Engineering Program - Worldwide (Panel)",
+          "booktitle": "ICSE",
+          "year": "1985",
+          "pages": "128-131",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isese/Belady02",
+          "title": "Beyond Software, Beyond Engineering",
+          "booktitle": "ISESE",
+          "year": "2002",
+          "pages": "3-6",
+          "ee": "https://doi.org/10.1109/ISESE.2002.1166919",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/BeladyK69",
+          "title": "Dynamic space-sharing in computer systems",
+          "journal": "Commun. ACM",
+          "year": "1969",
+          "pages": "282-288",
+          "ee": "https://doi.org/10.1145/362946.363002",
+          "author": [
+            {
+              "#text": "C. J. Kuehner",
+              "@pid": "20/4375"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cacm/BeladyNS69",
+          "title": "An anomaly in space-time characteristics of certain programs running in a paging machine",
+          "journal": "Commun. ACM",
+          "year": "1969",
+          "pages": "349-353",
+          "ee": "https://doi.org/10.1145/363011.363155",
+          "author": [
+            {
+              "#text": "Gerald S. Shedler",
+              "@pid": "87/6182"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Robert A. Nelson",
+              "@pid": "54/6949"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cm/Belady89",
+          "title": "Software is the glue in large systems",
+          "journal": "IEEE Commun. Mag.",
+          "year": "1989",
+          "pages": "33-36",
+          "ee": "https://doi.org/10.1109/MCOM.1989.34694",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/Belady79",
+          "title": "Evolved Software for the 80's",
+          "journal": "Computer",
+          "year": "1979",
+          "pages": "79-82",
+          "ee": "https://doi.org/10.1109/MC.1979.1658621",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/Belady86",
+          "title": "The Japanese and Software: Is it a Good Match?",
+          "journal": "Computer",
+          "year": "1986",
+          "pages": "57-61",
+          "ee": "https://doi.org/10.1109/MC.1986.1663254",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/computer/WassermanBGMWW78",
+          "title": "The Oregon Report Software Engineering: The Turning Point",
+          "journal": "Computer",
+          "year": "1978",
+          "pages": "30-41",
+          "ee": "https://doi.org/10.1109/C-M.1978.218342",
+          "author": [
+            {
+              "#text": "Anthony I. Wasserman",
+              "@pid": "91/2540"
+            },
+            {
+              "#text": "Edward F. Miller",
+              "@pid": "69/4510"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Susan L. Gerhart",
+              "@pid": "96/1719"
+            },
+            {
+              "#text": "William A. Wulf",
+              "@pid": "w/WilliamAWulf"
+            },
+            {
+              "#text": "William M. Waite",
+              "@pid": "w/WilliamMWaite"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/csur/Belady95",
+          "title": "The Disappearence of the \"Pure\" Software Industry",
+          "journal": "ACM Comput. Surv.",
+          "year": "1995",
+          "pages": "17-18",
+          "ee": "https://doi.org/10.1145/214037.214043",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmrd/BeladyP74",
+          "title": "On-Line Measurement of Paging Behavior by the Multivalued MIN Algorithm",
+          "journal": "IBM J. Res. Dev.",
+          "year": "1974",
+          "pages": "2-19",
+          "ee": "https://doi.org/10.1147/RD.181.0002",
+          "author": [
+            {
+              "#text": "Frank P. Palermo",
+              "@pid": "06/5107"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmrd/BeladyPS81",
+          "title": "The IBM History of Memory Management Technology",
+          "journal": "IBM J. Res. Dev.",
+          "year": "1981",
+          "pages": "491-504",
+          "ee": "https://doi.org/10.1147/RD.255.0491",
+          "author": [
+            {
+              "#text": "Casper A. Scalzi",
+              "@pid": "38/2617"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Richard P. Parmelee",
+              "@pid": "03/6480"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmsj/BeladyBET71",
+          "title": "A Computer Graphics System for Block Diagram Problems",
+          "journal": "IBM Syst. J.",
+          "year": "1971",
+          "pages": "143-161",
+          "ee": "https://doi.org/10.1147/SJ.102.0143",
+          "author": [
+            {
+              "#text": "Carlo J. Evangelisti",
+              "@pid": "77/2274"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Mike W. Blasgen",
+              "@pid": "77/481"
+            },
+            {
+              "#text": "Robert D. Tennison",
+              "@pid": "41/1040"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmsj/BeladyEP80",
+          "title": "GREENPRINT: A Graphic Representation of Structured Programs",
+          "journal": "IBM Syst. J.",
+          "year": "1980",
+          "pages": "542-553",
+          "ee": "https://doi.org/10.1147/SJ.194.0542",
+          "author": [
+            {
+              "#text": "Carlo J. Evangelisti",
+              "@pid": "77/2274"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Leigh R. Power",
+              "@pid": "16/487"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmsj/BeladyL76",
+          "title": "A Model of Large Program Development",
+          "journal": "IBM Syst. J.",
+          "year": "1976",
+          "pages": "225-252",
+          "ee": "https://doi.org/10.1147/SJ.153.0225",
+          "author": [
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Meir M. Lehman",
+              "@pid": "l/MeirMLehman"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ibmsj/Belay66",
+          "title": "A Study of Replacement Algorithms for Virtual-Storage Computer",
+          "journal": "IBM Syst. J.",
+          "year": "1966",
+          "pages": "78-101",
+          "ee": "https://doi.org/10.1147/SJ.52.0078",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijseke/Belady91",
+          "title": "From Software Engineering to Knowledge Engineering: The Shape of the Software Industry in the 1990s",
+          "journal": "Int. J. Softw. Eng. Knowl. Eng.",
+          "year": "1991",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1142/S0218194091000032",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jss/BeladyE81",
+          "title": "System partitioning and its measure",
+          "journal": "J. Syst. Softw.",
+          "year": "1981",
+          "pages": "23-29",
+          "ee": "https://doi.org/10.1016/0164-1212(81)90043-1",
+          "author": [
+            {
+              "#text": "Carlo J. Evangelisti",
+              "@pid": "77/2274"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pieee/Belady86",
+          "title": "The special section on the convergence of software and hardware engineering development methodologies",
+          "journal": "Proc. IEEE",
+          "year": "1986",
+          "pages": "772",
+          "ee": "https://doi.org/10.1109/PROC.1986.13555",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigsoft/BasiliBBBBDFGLL99",
+          "title": "NSF workshop on a software research program for the 21st century",
+          "journal": "ACM SIGSOFT Softw. Eng. Notes",
+          "year": "1999",
+          "pages": "37-44",
+          "ee": "https://doi.org/10.1145/311963.311993",
+          "author": [
+            {
+              "#text": "Barry W. Boehm",
+              "@pid": "b/BarryWBoehm"
+            },
+            {
+              "#text": "Butler W. Lampson",
+              "@pid": "l/ButlerWLampson"
+            },
+            {
+              "#text": "Cordell Green",
+              "@pid": "69/2492"
+            },
+            {
+              "#text": "Duncan H. Lawrie",
+              "@pid": "32/1299"
+            },
+            {
+              "#text": "Frederick P. Brooks Jr.",
+              "@pid": "b/FrederickPBrooksJr"
+            },
+            {
+              "#text": "James Browne",
+              "@pid": "56/10367"
+            },
+            {
+              "#text": "Jeannette M. Wing",
+              "@pid": "w/JeannetteMWing"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Mark D. Weiser",
+              "@pid": "w/MarkWeiser"
+            },
+            {
+              "#text": "Nancy A. Lynch",
+              "@pid": "l/NancyALynch"
+            },
+            {
+              "#text": "Nancy G. Leveson",
+              "@pid": "l/NGLeveson"
+            },
+            {
+              "#text": "Richard A. DeMillo",
+              "@pid": "10/3823"
+            },
+            {
+              "#text": "Stuart I. Feldman",
+              "@pid": "f/StuartIFeldman"
+            },
+            {
+              "#text": "Victor R. Basili",
+              "@pid": "b/VRBasili"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigsoft/BeladyCEKLW82",
+          "title": "Investigation of human engineering: for software environments",
+          "journal": "ACM SIGSOFT Softw. Eng. Notes",
+          "year": "1982",
+          "pages": "69-72",
+          "ee": "https://doi.org/10.1145/1010809.1010818",
+          "author": [
+            {
+              "#text": "Bryan Edwards",
+              "@pid": "314/0327"
+            },
+            {
+              "#text": "Elizabeth Kruesi-Bailey",
+              "@pid": "33/7017"
+            },
+            {
+              "#text": "George R. Cannon",
+              "@pid": "314/1173"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Mark D. Weiser",
+              "@pid": "w/MarkWeiser"
+            },
+            {
+              "#text": "Tim Lindquist",
+              "@pid": "120/4984"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigsoft/BeladyR85",
+          "title": "The MCC software technology program",
+          "journal": "ACM SIGSOFT Softw. Eng. Notes",
+          "year": "1985",
+          "pages": "33-36",
+          "ee": "https://doi.org/10.1145/1012483.1012486",
+          "author": [
+            {
+              "#text": "Charles Richter",
+              "@pid": "34/6153"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sigsoft/RiddleBBDGHMS82",
+          "title": "Proposals for tool and methodology evaluation experiments: ACM SIGSOFT sponsored software engineering symposium on tool and methodology evaluation",
+          "journal": "ACM SIGSOFT Softw. Eng. Notes",
+          "year": "1982",
+          "pages": "6-10",
+          "ee": "https://doi.org/10.1145/1010809.1010811",
+          "author": [
+            {
+              "#text": "Carl Davis",
+              "@pid": "05/6705"
+            },
+            {
+              "#text": "John D. Musa",
+              "@pid": "97/803"
+            },
+            {
+              "#text": "Laszlo A. Belady",
+              "@pid": "b/LaszloABelady"
+            },
+            {
+              "#text": "Leon G. Stucki",
+              "@pid": "20/1455"
+            },
+            {
+              "#text": "Susan L. Gerhart",
+              "@pid": "96/1719"
+            },
+            {
+              "#text": "Victor R. Basili",
+              "@pid": "b/VRBasili"
+            },
+            {
+              "#text": "William E. Howden",
+              "@pid": "58/5326"
+            },
+            {
+              "#text": "William E. Riddle",
+              "@pid": "31/1805"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/software/Belady99",
+          "title": "Global R&D: How to Break Barriers",
+          "journal": "IEEE Softw.",
+          "year": "1999",
+          "pages": "15-17",
+          "ee": "https://doi.org/10.1109/52.776942",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tse/Belady78",
+          "title": "Guest Editorial for the Special Collection from the Third International Conference on Software Engineering",
+          "journal": "IEEE Trans. Software Eng.",
+          "year": "1978",
+          "pages": "261-262",
+          "author": {
+            "#text": "Laszlo A. Belady",
+            "@pid": "b/LaszloABelady"
+          }
+        }
+      }
+    ]
+  }
+}

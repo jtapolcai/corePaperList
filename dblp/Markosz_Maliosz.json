@@ -1,493 +1,837 @@
 {
   "dblpperson": {
+    "@name": "Markosz Maliosz",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/tsp/BallaMS20",
-        "title": "Open Source FaaS Performance Aspects.",
-        "pages": "358-364",
-        "year": "2020",
-        "booktitle": "TSP",
-        "ee": "https://doi.org/10.1109/TSP49548.2020.9163456",
-        "url": "db/conf/tsp/tsp2020.html#BallaMS20",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/BallaMS21",
+          "title": "Estimating Function Completion Time Distribution in Open Source FaaS",
+          "booktitle": "CloudNet",
+          "year": "2021",
+          "pages": "65-71",
+          "ee": "https://doi.org/10.1109/CLOUDNET53349.2021.9657119",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tsp/SoosSMM15",
-        "title": "Handover of media streams with network coding.",
-        "pages": "1-5",
-        "year": "2015",
-        "booktitle": "TSP",
-        "ee": "https://doi.org/10.1109/TSP.2015.7296452",
-        "url": "db/conf/tsp/tsp2015.html#SoosSMM15",
-        "authors": [
-          "Adam Soos",
-          "Csaba Simon",
-          "Markosz Maliosz",
-          "IstvÃ¡n MoldovÃ¡n"
-        ]
+        "inproceedings": {
+          "@key": "conf/cloudnet/BallaMS22",
+          "title": "Predictable Open Source FaaS Function Chains",
+          "booktitle": "CloudNet",
+          "year": "2022",
+          "pages": "186-194",
+          "ee": "https://doi.org/10.1109/CLOUDNET55617.2022.9978820",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/tsp/MalioszSBNG18",
-        "title": "Scaling in OpenStack Using Client Feedback.",
-        "pages": "1-5",
-        "year": "2018",
-        "booktitle": "TSP",
-        "ee": "https://doi.org/10.1109/TSP.2018.8441221",
-        "url": "db/conf/tsp/tsp2018.html#MalioszSBNG18",
-        "authors": [
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "David Balla",
-          "Anh Tra Phan Ngo",
-          "Daniel Gehberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/cnsm/MateSM21",
+          "title": "Asynchronous Time-Aware Shaper for Time-Sensitive Networking",
+          "booktitle": "CNSM",
+          "year": "2021",
+          "pages": "565-571",
+          "ee": "https://doi.org/10.23919/CNSM52442.2021.9615545",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Miklos Mate",
+              "@pid": "61/8605"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/macro/ZalatnaySMT15",
-        "title": "Managing Streaming Services in a Distributed Testbed.",
-        "pages": "223-234",
-        "year": "2015",
-        "booktitle": "MACRo",
-        "ee": "https://www.wikidata.org/entity/Q129901278",
-        "url": "db/conf/macro/macro2015.html#ZalatnaySMT15",
-        "authors": [
-          "Zsolt Zalatnay",
-          "Csaba Simon",
-          "Markosz Maliosz",
-          "BalÃ¡zs Terza"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/KalmarVM13",
+          "title": "Context-aware addressing in the Internet of Things using Bloom filters",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "487-492",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719296",
+          "author": [
+            {
+              "#text": "Andras Kalmar",
+              "@pid": "153/1277"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Rolland Vida",
+              "@pid": "06/479"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/wfcs/MalioszMMSH23",
-        "title": "Deterministic Local Cloud for Industrial Applications.",
-        "pages": "1-8",
-        "year": "2023",
-        "booktitle": "WFCS",
-        "ee": "https://doi.org/10.1109/WFCS57264.2023.10144237",
-        "url": "db/conf/wfcs/wfcs2023.html#MalioszMMSH23",
-        "authors": [
-          "Markosz Maliosz",
-          "IstvÃ¡n MoldovÃ¡n",
-          "MiklÃ³s MÃ¡tÃ©",
-          "Csaba Simon",
-          "JÃ¡nos Harmatos"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/SimonM13",
+          "title": "Characteristics of live media sharing communities",
+          "booktitle": "CogInfoCom",
+          "year": "2013",
+          "pages": "619-624",
+          "ee": "https://doi.org/10.1109/COGINFOCOM.2013.6719176",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/lanman/SimonMBGK16",
-        "title": "5G exchange for inter-domain resource sharing.",
-        "pages": "1-6",
-        "year": "2016",
-        "booktitle": "LANMAN",
-        "ee": "https://doi.org/10.1109/LANMAN.2016.7548842",
-        "url": "db/conf/lanman/lanman2016.html#SimonMBGK16",
-        "authors": [
-          "Csaba Simon",
-          "Markosz Maliosz",
-          "JÃ³zsef BÃ­rÃ³",
-          "BalÃ¡zs PÃ©ter Gero",
-          "AndrÃ¡s Kern"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/HegyiMLC03",
+          "title": "Shared protection of virtual private networks with traffic concentration",
+          "booktitle": "DRCN",
+          "year": "2003",
+          "pages": "448-454",
+          "ee": "https://doi.org/10.1109/DRCN.2003.1275389",
+          "author": [
+            {
+              "#text": "Ákos Ladányi",
+              "@pid": "89/797"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Péter Hegyi",
+              "@pid": "80/516"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cloudnet/BallaMS22",
-        "title": "Predictable Open Source FaaS Function Chains.",
-        "pages": "186-194",
-        "year": "2022",
-        "booktitle": "CloudNet",
-        "ee": "https://doi.org/10.1109/CloudNet55617.2022.9978820",
-        "url": "db/conf/cloudnet/cloudnet2022.html#BallaMS22",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/drcn/MalioszC01",
+          "title": "Configuration of Protected Virtual Private Networks",
+          "booktitle": "DRCN",
+          "year": "2001",
+          "pages": "197-204",
+          "author": [
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cloudnet/BallaMS21",
-        "title": "Estimating Function Completion Time Distribution in Open Source FaaS.",
-        "pages": "65-71",
-        "year": "2021",
-        "booktitle": "CloudNet",
-        "ee": "https://doi.org/10.1109/CloudNet53349.2021.9657119",
-        "url": "db/conf/cloudnet/cloudnet2021.html#BallaMS21",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/icc/KalmarVM15",
+          "title": "CAEsAR: A Context-Aware Addressing and Routing scheme for RPL networks",
+          "booktitle": "ICC",
+          "year": "2015",
+          "pages": "635-641",
+          "ee": "https://doi.org/10.1109/ICC.2015.7248393",
+          "author": [
+            {
+              "#text": "Andras Kalmar",
+              "@pid": "153/1277"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Rolland Vida",
+              "@pid": "06/479"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/BallaMS22",
-        "title": "Towards a Predictable Open Source FaaS.",
-        "pages": "1-5",
-        "year": "2022",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS54207.2022.9789777",
-        "url": "db/conf/noms/noms2022.html#BallaMS22",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/BallaMS21",
+          "title": "Performance Evaluation of Asynchronous FaaS",
+          "booktitle": "CLOUD",
+          "year": "2021",
+          "pages": "147-156",
+          "ee": "https://doi.org/10.1109/CLOUD53861.2021.00028",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/BallaSM20",
-        "title": "Adaptive scaling of Kubernetes pods.",
-        "pages": "1-5",
-        "year": "2020",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS47738.2020.9110428",
-        "url": "db/conf/noms/noms2020.html#BallaSM20",
-        "authors": [
-          "David Balla",
-          "Csaba Simon",
-          "Markosz Maliosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/BallaMS23",
+          "title": "An Auto-Scaling Framework for Predictable Open Source FaaS Function Chains",
+          "booktitle": "CLOUD",
+          "year": "2023",
+          "pages": "229-237",
+          "ee": "https://doi.org/10.1109/CLOUD60044.2023.00034",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/noms/BallaMMMH24",
-        "title": "Time Sensitive Industrial Applications in Kubernetes.",
-        "pages": "1-7",
-        "year": "2024",
-        "booktitle": "NOMS",
-        "ee": "https://doi.org/10.1109/NOMS59830.2024.10575426",
-        "url": "db/conf/noms/noms2024.html#BallaMMMH24",
-        "authors": [
-          "David Balla",
-          "IstvÃ¡n MoldovÃ¡n",
-          "MiklÃ³s MÃ¡tÃ©",
-          "Markosz Maliosz",
-          "JÃ¡nos Harmatos"
-        ]
+        "inproceedings": {
+          "@key": "conf/IEEEcloud/GehbergerBMS18",
+          "title": "Performance Evaluation of Low Latency Communication Alternatives in a Containerized Cloud Environment",
+          "booktitle": "IEEE CLOUD",
+          "year": "2018",
+          "pages": "9-16",
+          "ee": "https://doi.org/10.1109/CLOUD.2018.00009",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEcloud/BallaMS21",
-        "title": "Performance Evaluation of Asynchronous FaaS.",
-        "pages": "147-156",
-        "year": "2021",
-        "booktitle": "CLOUD",
-        "ee": "https://doi.org/10.1109/CLOUD53861.2021.00028",
-        "url": "db/conf/IEEEcloud/IEEEcloud2021.html#BallaMS21",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iov/BallaMSG19",
+          "title": "Tuning Runtimes in Open Source FaaS",
+          "booktitle": "IOV",
+          "year": "2020",
+          "pages": "250-266",
+          "ee": "https://doi.org/10.1007/978-3-030-38651-1_21",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEcloud/BallaMS23",
-        "title": "An Auto-Scaling Framework for Predictable Open Source FaaS Function Chains.",
-        "pages": "229-237",
-        "year": "2023",
-        "booktitle": "CLOUD",
-        "ee": "https://doi.org/10.1109/CLOUD60044.2023.00034",
-        "url": "db/conf/IEEEcloud/IEEEcloud2023.html#BallaMS23",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/iscsic/HegyiMS19",
+          "title": "Performance Measurements of Function as a Service Platforms",
+          "booktitle": "ISCSIC",
+          "year": "2019",
+          "pages": "43:1-43:6",
+          "ee": "https://doi.org/10.1145/3386164.3390516",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Gellért István Hegyi",
+              "@pid": "267/2716"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/IEEEcloud/GehbergerBMS18",
-        "title": "Performance Evaluation of Low Latency Communication Alternatives in a Containerized Cloud Environment.",
-        "pages": "9-16",
-        "year": "2018",
-        "booktitle": "IEEE CLOUD",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/CLOUD.2018.00009",
-        "url": "db/conf/IEEEcloud/IEEEcloud2018.html#GehbergerBMS18",
-        "authors": [
-          "Daniel Gehberger",
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/lanman/SimonMBGK16",
+          "title": "5G exchange for inter-domain resource sharing",
+          "booktitle": "LANMAN",
+          "year": "2016",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/LANMAN.2016.7548842",
+          "author": [
+            {
+              "#text": "András Kern",
+              "@pid": "85/5267"
+            },
+            {
+              "#text": "Balázs Péter Gero",
+              "@pid": "04/4095"
+            },
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "József Bíró",
+              "@pid": "b/JozsefBiro"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iov/BallaMSG19",
-        "title": "Tuning Runtimes in Open Source FaaS.",
-        "pages": "250-266",
-        "year": "2019",
-        "booktitle": "IOV",
-        "ee": "https://doi.org/10.1007/978-3-030-38651-1_21",
-        "url": "db/conf/iov/iov2019.html#BallaMSG19",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "Daniel Gehberger"
-        ]
+        "inproceedings": {
+          "@key": "conf/macro/ZalatnaySMT15",
+          "title": "Managing Streaming Services in a Distributed Testbed",
+          "booktitle": "MACRo",
+          "year": "2015",
+          "pages": "223-234",
+          "ee": "https://doi.org/10.1515/MACRO-2015-0022",
+          "author": [
+            {
+              "#text": "Balázs Terza",
+              "@pid": "224/9252"
+            },
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Zsolt Zalatnay",
+              "@pid": "224/9196"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/pimrc/BaloghVFMHRR21",
-        "title": "Cloud-Controlled Autonomous Mobile Robot Platform.",
-        "pages": "1-6",
-        "year": "2021",
-        "booktitle": "PIMRC",
-        "ee": "https://doi.org/10.1109/PIMRC50174.2021.9569730",
-        "url": "db/conf/pimrc/pimrc2021.html#BaloghVFMHRR21",
-        "authors": [
-          "Marcell Balogh",
-          "Attila VidÃ¡cs",
-          "GÃ¡bor FehÃ©r",
-          "Markosz Maliosz",
-          "MÃ¡rton Ãron HorvÃ¡th",
-          "Norbert Reider",
-          "SÃ¡ndor RÃ¡cz"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/BallaMMMH24",
+          "title": "Time Sensitive Industrial Applications in Kubernetes",
+          "booktitle": "NOMS",
+          "year": "2024",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/NOMS59830.2024.10575426",
+          "author": [
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "János Harmatos",
+              "@pid": "05/4105"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Miklos Mate",
+              "@pid": "61/8605"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/KalmarVM13",
-        "title": "Context-aware addressing in the Internet of Things using Bloom filters.",
-        "pages": "487-492",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719296",
-        "url": "db/conf/coginfocom/coginfocom2013.html#KalmarVM13",
-        "authors": [
-          "Andras Kalmar",
-          "Rolland Vida",
-          "Markosz Maliosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/BallaMS22",
+          "title": "Towards a Predictable Open Source FaaS",
+          "booktitle": "NOMS",
+          "year": "2022",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/NOMS54207.2022.9789777",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/SimonM13",
-        "title": "Characteristics of live media sharing communities.",
-        "pages": "619-624",
-        "year": "2013",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom.2013.6719176",
-        "url": "db/conf/coginfocom/coginfocom2013.html#SimonM13",
-        "authors": [
-          "Csaba Simon",
-          "Markosz Maliosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/noms/BallaSM20",
+          "title": "Adaptive scaling of Kubernetes pods",
+          "booktitle": "NOMS",
+          "year": "2020",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/NOMS47738.2020.9110428",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icc/KalmarVM15",
-        "title": "CAEsAR: A Context-Aware Addressing and Routing scheme for RPL networks.",
-        "pages": "635-641",
-        "year": "2015",
-        "booktitle": "ICC",
-        "ee": "https://doi.org/10.1109/ICC.2015.7248393",
-        "url": "db/conf/icc/icc2015.html#KalmarVM15",
-        "authors": [
-          "Andras Kalmar",
-          "Rolland Vida",
-          "Markosz Maliosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/pimrc/BaloghVFMHRR21",
+          "title": "Cloud-Controlled Autonomous Mobile Robot Platform",
+          "booktitle": "PIMRC",
+          "year": "2021",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/PIMRC50174.2021.9569730",
+          "author": [
+            {
+              "#text": "Attila Vidács",
+              "@pid": "04/2121"
+            },
+            {
+              "#text": "Gábor Fehér",
+              "@pid": "46/937"
+            },
+            {
+              "#text": "Marcell Balogh",
+              "@pid": "304/8893"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Márton Áron Horváth",
+              "@pid": "304/8698"
+            },
+            {
+              "#text": "Norbert Reider",
+              "@pid": "82/3571"
+            },
+            {
+              "#text": "Sándor Rácz",
+              "@pid": "07/6609"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cnsm/MateSM21",
-        "title": "Asynchronous Time-Aware Shaper for Time-Sensitive Networking.",
-        "pages": "565-571",
-        "year": "2021",
-        "booktitle": "CNSM",
-        "ee": "https://doi.org/10.23919/CNSM52442.2021.9615545",
-        "url": "db/conf/cnsm/cnsm2021.html#MateSM21",
-        "authors": [
-          "MiklÃ³s MÃ¡tÃ©",
-          "Csaba Simon",
-          "Markosz Maliosz"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/BallaMSGZ19",
+          "title": "Bounded Latency with RoCE",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2019",
+          "pages": "134-135",
+          "ee": "https://doi.org/10.1145/3342280.3342334",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Peter Zsitvai",
+              "@pid": "246/9379"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/MalioszC01",
-        "title": "Configuration of Protected Virtual Private Networks.",
-        "pages": "197-204",
-        "year": "2001",
-        "booktitle": "DRCN",
-        "url": "db/conf/drcn/drcn2001.html#MalioszC01",
-        "authors": [
-          "Markosz Maliosz",
-          "Tibor Cinkler"
-        ]
+        "inproceedings": {
+          "@key": "conf/tsp/BallaMS20",
+          "title": "Open Source FaaS Performance Aspects",
+          "booktitle": "TSP",
+          "year": "2020",
+          "pages": "358-364",
+          "ee": "https://doi.org/10.1109/TSP49548.2020.9163456",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/drcn/HegyiMLC03",
-        "title": "Shared protection of virtual private networks with traffic concentration.",
-        "pages": "448-454",
-        "year": "2003",
-        "booktitle": "DRCN",
-        "ee": "https://doi.org/10.1109/DRCN.2003.1275389",
-        "url": "db/conf/drcn/drcn2003.html#HegyiMLC03",
-        "authors": [
-          "PÃ©ter Hegyi",
-          "Markosz Maliosz",
-          "Ãkos LadÃ¡nyi",
-          "Tibor Cinkler"
-        ]
+        "inproceedings": {
+          "@key": "conf/tsp/MalioszSBNG18",
+          "title": "Scaling in OpenStack Using Client Feedback",
+          "booktitle": "TSP",
+          "year": "2018",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/TSP.2018.8441221",
+          "author": [
+            {
+              "#text": "Anh Tra Phan Ngo",
+              "@pid": "225/7322"
+            },
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Daniel Gehberger",
+              "@pid": "188/5172"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iscsic/HegyiMS19",
-        "title": "Performance Measurements of Function as a Service Platforms.",
-        "pages": "43:1-43:6",
-        "year": "2019",
-        "booktitle": "ISCSIC",
-        "ee": "https://doi.org/10.1145/3386164.3390516",
-        "url": "db/conf/iscsic/iscsic2019.html#HegyiMS19",
-        "authors": [
-          "GellÃ©rt IstvÃ¡n Hegyi",
-          "Markosz Maliosz",
-          "Csaba Simon"
-        ]
+        "inproceedings": {
+          "@key": "conf/tsp/SoosSMM15",
+          "title": "Handover of media streams with network coding",
+          "booktitle": "TSP",
+          "year": "2015",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/TSP.2015.7296452",
+          "author": [
+            {
+              "#text": "Adam Soos",
+              "@pid": "169/3642"
+            },
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/BallaMSGZ19",
-        "title": "Bounded Latency with RoCE.",
-        "pages": "134-135",
-        "year": "2019",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://www.wikidata.org/entity/Q130957477",
-        "url": "db/conf/sigcomm/p2019.html#BallaMSGZ19",
-        "authors": [
-          "David Balla",
-          "Markosz Maliosz",
-          "Csaba Simon",
-          "Daniel Gehberger",
-          "Peter Zsitvai"
-        ]
+        "inproceedings": {
+          "@key": "conf/wfcs/MalioszMMSH23",
+          "title": "Deterministic Local Cloud for Industrial Applications",
+          "booktitle": "WFCS",
+          "year": "2023",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/WFCS57264.2023.10144237",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "István Moldován",
+              "@pid": "90/4571"
+            },
+            {
+              "#text": "János Harmatos",
+              "@pid": "05/4105"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Miklos Mate",
+              "@pid": "61/8605"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/csm/SimonMM18",
-        "title": "Design Aspects of Low-Latency Services with Time-Sensitive Networking.",
-        "pages": "48-54",
-        "year": "2018",
-        "volume": "2",
-        "journal": "IEEE Commun. Stand. Mag.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q129556735",
-        "url": "db/journals/csm/csm2.html#SimonMM18",
-        "authors": [
-          "Csaba Simon",
-          "Markosz Maliosz",
-          "Miklos Mate"
-        ]
+        "article": {
+          "@key": "journals/csm/SimonMM18",
+          "title": "Design Aspects of Low-Latency Services with Time-Sensitive Networking",
+          "journal": "IEEE Commun. Stand. Mag.",
+          "year": "2018",
+          "pages": "48-54",
+          "ee": "https://doi.org/10.1109/MCOMSTD.2018.1700081",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Miklos Mate",
+              "@pid": "61/8605"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/VargaPFBHJSFMT20",
-        "title": "5G support for Industrial IoT Applications - Challenges, Solutions, and Research gaps.",
-        "pages": "828",
-        "year": "2020",
-        "volume": "20",
-        "journal": "Sensors",
-        "number": "3",
-        "ee": "https://www.wikidata.org/entity/Q89597369",
-        "url": "db/journals/sensors/sensors20.html#VargaPFBHJSFMT20",
-        "authors": [
-          "PÃ¡l Varga",
-          "JÃ³zsef Peto",
-          "Attila Franko",
-          "David Balla",
-          "DÃ¡vid Haja",
-          "Ferenc NÃ¡ndor Janky",
-          "Gabor Soos",
-          "DÃ¡niel Ficzere",
-          "Markosz Maliosz",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "article": {
+          "@key": "journals/fgcs/SzaboRSBM25",
+          "title": "Separation and optimization of encryption and erasure coding in decentralized storage systems",
+          "journal": "Future Gener. Comput. Syst.",
+          "year": "2025",
+          "pages": "107739",
+          "ee": "https://doi.org/10.1016/J.FUTURE.2025.107739",
+          "author": [
+            {
+              "#text": "Ákos Recse",
+              "@pid": "222/8064"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Marcell Szabó",
+              "@pid": "349/9950"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Róbert Szabó",
+              "@pid": "46/4993"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jnsm/MateSM22",
-        "title": "Asynchronous Time-Aware Shaper for Time-Sensitive Networking.",
-        "pages": "76",
-        "year": "2022",
-        "volume": "30",
-        "journal": "J. Netw. Syst. Manag.",
-        "number": "4",
-        "ee": "https://doi.org/10.1007/s10922-022-09688-y",
-        "url": "db/journals/jnsm/jnsm30.html#MateSM22",
-        "authors": [
-          "MiklÃ³s MÃ¡tÃ©",
-          "Csaba Simon",
-          "Markosz Maliosz"
-        ]
+        "article": {
+          "@key": "journals/jcn/LundbergBMJ01",
+          "title": "Realizing component based networking",
+          "journal": "J. Commun. Networks",
+          "year": "2001",
+          "pages": "56-63",
+          "ee": "https://doi.org/10.1109/JCN.2001.6596877",
+          "author": [
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Nils Björkman",
+              "@pid": "63/1533"
+            },
+            {
+              "#text": "Torbjörn Lundberg",
+              "@pid": "93/5487"
+            },
+            {
+              "#text": "Yong Jiang",
+              "@pid": "74/1552"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jnsm/HegyiMLC05",
-        "title": "Virtual Private/Overlay Network Design with Traffic Concentration and Shared Protection.",
-        "year": "2005",
-        "volume": "13",
-        "journal": "J. Netw. Syst. Manag.",
-        "number": "1",
-        "ee": "https://doi.org/10.1007/s10922-005-1865-2",
-        "url": "db/journals/jnsm/jnsm13.html#HegyiMLC05",
-        "pages": "119-138",
-        "authors": [
-          "PÃ©ter Hegyi",
-          "Markosz Maliosz",
-          "Ãkos LadÃ¡nyi",
-          "Tibor Cinkler"
-        ]
+        "article": {
+          "@key": "journals/jnsm/HegyiMLC05",
+          "title": "Virtual Private/Overlay Network Design with Traffic Concentration and Shared Protection",
+          "journal": "J. Netw. Syst. Manag.",
+          "year": "2005",
+          "pages": "119-138",
+          "ee": "https://doi.org/10.1007/S10922-005-1865-2",
+          "author": [
+            {
+              "#text": "Ákos Ladányi",
+              "@pid": "89/797"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Péter Hegyi",
+              "@pid": "80/516"
+            },
+            {
+              "#text": "Tibor Cinkler",
+              "@pid": "21/3848"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/fgcs/SzaboRSBM25",
-        "title": "Separation and optimization of encryption and erasure coding in decentralized storage systems.",
-        "pages": "107739",
-        "year": "2025",
-        "volume": "167",
-        "journal": "Future Gener. Comput. Syst.",
-        "ee": "https://doi.org/10.1016/j.future.2025.107739",
-        "url": "db/journals/fgcs/fgcs167.html#SzaboRSBM25",
-        "authors": [
-          "Marcell SzabÃ³",
-          "Ãkos Recse",
-          "RÃ³bert SzabÃ³",
-          "David Balla",
-          "Markosz Maliosz"
-        ]
+        "article": {
+          "@key": "journals/jnsm/MateSM22",
+          "title": "Asynchronous Time-Aware Shaper for Time-Sensitive Networking",
+          "journal": "J. Netw. Syst. Manag.",
+          "year": "2022",
+          "pages": "76",
+          "ee": "https://doi.org/10.1007/S10922-022-09688-Y",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Miklos Mate",
+              "@pid": "61/8605"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jcn/LundbergBMJ01",
-        "title": "Realizing component based networking.",
-        "pages": "56-63",
-        "year": "2001",
-        "volume": "3",
-        "journal": "J. Commun. Networks",
-        "number": "1",
-        "ee": "https://doi.org/10.1109/JCN.2001.6596877",
-        "url": "db/journals/jcn/jcn3.html#LundbergBMJ01",
-        "authors": [
-          "TorbjÃ¶rn Lundberg",
-          "Nils BjÃ¶rkman",
-          "Markosz Maliosz",
-          "Yong Jiang"
-        ]
+        "article": {
+          "@key": "journals/sensors/VargaPFBHJSFMT20",
+          "title": "5G support for Industrial IoT Applications - Challenges, Solutions, and Research gaps",
+          "journal": "Sensors",
+          "year": "2020",
+          "pages": "828",
+          "ee": "https://doi.org/10.3390/S20030828",
+          "author": [
+            {
+              "#text": "Attila Franko",
+              "@pid": "221/9203"
+            },
+            {
+              "#text": "Dániel Ficzere",
+              "@pid": "259/1791"
+            },
+            {
+              "#text": "David Balla",
+              "@pid": "225/7313"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "Ferenc Nándor Janky",
+              "@pid": "226/4622"
+            },
+            {
+              "#text": "Gabor Soos",
+              "@pid": "207/6861"
+            },
+            {
+              "#text": "József Peto",
+              "@pid": "225/8543"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Markosz Maliosz",
+              "@pid": "95/505"
+            },
+            {
+              "#text": "Pál Varga",
+              "@pid": "58/3919"
+            }
+          ]
+        }
       }
     ]
   }

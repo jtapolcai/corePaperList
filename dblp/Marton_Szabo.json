@@ -1,59 +1,114 @@
 {
   "dblpperson": {
+    "@name": "Marton Szabo",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/SonkolySNMPT18",
-        "title": "FERO: Fast and Efficient Resource Orchestrator for a Data Plane Built on Docker and DPDK.",
-        "pages": "243-251",
-        "year": "2018",
-        "booktitle": "INFOCOM",
-        "ee": "https://doi.org/10.1109/INFOCOM.2018.8485953",
-        "url": "db/conf/infocom/infocom2018.html#SonkolySNMPT18",
-        "authors": [
-          "BalÃ¡zs Sonkoly",
-          "Marton Szabo",
-          "BalÃ¡zs NÃ©meth 0001",
-          "AndrÃ¡s MajdÃ¡n",
-          "Gergely PongrÃ¡cz",
-          "LÃ¡szlÃ³ Toka"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/HajaSSNKTS18",
+          "title": "How to orchestrate a distributed OpenStack",
+          "booktitle": "INFOCOM Workshops",
+          "year": "2018",
+          "pages": "293-298",
+          "ee": "https://doi.org/10.1109/INFCOMW.2018.8407014",
+          "author": [
+            {
+              "#text": "Adam Nagy",
+              "@pid": "220/5724"
+            },
+            {
+              "#text": "András Kern",
+              "@pid": "85/5267"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Dávid Haja",
+              "@pid": "210/6359"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Mark Szalay",
+              "@pid": "188/5170"
+            },
+            {
+              "#text": "Marton Szabo",
+              "@pid": "204/9323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/infocom/HajaSSNKTS18",
-        "title": "How to orchestrate a distributed OpenStack.",
-        "pages": "293-298",
-        "year": "2018",
-        "booktitle": "INFOCOM Workshops",
-        "ee": "https://doi.org/10.1109/INFCOMW.2018.8407014",
-        "url": "db/conf/infocom/infocom2018w.html#HajaSSNKTS18",
-        "authors": [
-          "DÃ¡vid Haja",
-          "Marton Szabo",
-          "Mark Szalay",
-          "Adam Nagy",
-          "AndrÃ¡s Kern",
-          "LÃ¡szlÃ³ Toka",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/SonkolySNMPT18",
+          "title": "FERO: Fast and Efficient Resource Orchestrator for a Data Plane Built on Docker and DPDK",
+          "booktitle": "INFOCOM",
+          "year": "2018",
+          "pages": "243-251",
+          "ee": "https://doi.org/10.1109/INFOCOM.2018.8485953",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Balázs Németh",
+              "@pid": "76/8519-1"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Marton Szabo",
+              "@pid": "204/9323"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/sigcomm/SzaboMPTS17",
-        "title": "Making the Data Plane Ready for NFV: An Effective Way of Handling Resources.",
-        "pages": "97-99",
-        "year": "2017",
-        "booktitle": "SIGCOMM Posters and Demos",
-        "ee": "https://doi.org/10.1145/3123878.3131999",
-        "url": "db/conf/sigcomm/p2017.html#SzaboMPTS17",
-        "authors": [
-          "Marton Szabo",
-          "AndrÃ¡s MajdÃ¡n",
-          "Gergely PongrÃ¡cz",
-          "LÃ¡szlÃ³ Toka",
-          "BalÃ¡zs Sonkoly"
-        ]
+        "inproceedings": {
+          "@key": "conf/sigcomm/SzaboMPTS17",
+          "title": "Making the Data Plane Ready for NFV: An Effective Way of Handling Resources",
+          "booktitle": "SIGCOMM Posters and Demos",
+          "year": "2017",
+          "pages": "97-99",
+          "ee": "https://doi.org/10.1145/3123878.3131999",
+          "author": [
+            {
+              "#text": "András Majdán",
+              "@pid": "132/8497"
+            },
+            {
+              "#text": "Balázs Sonkoly",
+              "@pid": "23/1820"
+            },
+            {
+              "#text": "Gergely Pongrácz",
+              "@pid": "121/4115"
+            },
+            {
+              "#text": "László Toka",
+              "@pid": "96/5813"
+            },
+            {
+              "#text": "Marton Szabo",
+              "@pid": "204/9323"
+            }
+          ]
+        }
       }
     ]
   }

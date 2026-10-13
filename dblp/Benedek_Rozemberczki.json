@@ -1,611 +1,1275 @@
 {
   "dblpperson": {
+    "@name": "Benedek Rozemberczki",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/wsdm/Derr0RSP23",
-        "title": "The 3rd International Workshop on Machine Learning on Graphs (MLoG).",
-        "pages": "1271-1272",
-        "year": "2023",
-        "booktitle": "WSDM",
-        "ee": "https://doi.org/10.1145/3539597.3572706",
-        "url": "db/conf/wsdm/wsdm2023.html#Derr0RSP23",
-        "authors": [
-          "Tyler Derr",
-          "Yao Ma 0001",
-          "Benedek Rozemberczki",
-          "Neil Shah",
-          "Shirui Pan"
-        ]
+        "inproceedings": {
+          "@key": "conf/asunam/RozemberczkiDSS19",
+          "title": "GEMSEC: graph embedding with self clustering",
+          "booktitle": "ASONAM",
+          "year": "2019",
+          "pages": "65-72",
+          "ee": "https://doi.org/10.1145/3341161.3342890",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Charles Sutton",
+              "@pid": "59/5879"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Ryan Davies",
+              "@pid": "04/11177"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/gis/GhoshRRS18",
-        "title": "Topological signatures for fast mobility analysis.",
-        "pages": "159-168",
-        "year": "2018",
-        "booktitle": "SIGSPATIAL/GIS",
-        "ee": "https://www.wikidata.org/entity/Q130904888",
-        "url": "db/conf/gis/gis2018.html#GhoshRRS18",
-        "authors": [
-          "Abhirup Ghosh",
-          "Benedek Rozemberczki",
-          "Subramanian Ramamoorthy",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiGNE22",
+          "title": "MOOMIN: Deep Molecular Omics Network for Anti-Cancer Drug Combination Therapy",
+          "booktitle": "CIKM",
+          "year": "2022",
+          "pages": "3472-3483",
+          "ee": "https://doi.org/10.1145/3511808.3557146",
+          "author": [
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Anna Gogleva",
+              "@pid": "222/4655"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Eliseo Papa",
+              "@pid": "197/3616"
+            },
+            {
+              "#text": "Gavin Edwards",
+              "@pid": "305/0467"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/kdd/RozemberczkiHGG22",
-        "title": "ChemicalX: A Deep Learning Library for Drug Pair Scoring.",
-        "pages": "3819-3828",
-        "year": "2022",
-        "booktitle": "KDD",
-        "ee": "https://www.wikidata.org/entity/Q118774118",
-        "url": "db/conf/kdd/kdd2022.html#RozemberczkiHGG22",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Charles Tapley Hoyt",
-          "Anna Gogleva",
-          "Piotr Grabowski",
-          "Klas Karis",
-          "Andrej Lamov",
-          "Andriy Nikolov",
-          "Sebastian Nilsson",
-          "MichaÃ«l Ughetto",
-          "Yu Wang 0160",
-          "Tyler Derr",
-          "Benjamin M. Gyori"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiKS20",
+          "title": "Karate Club: An API Oriented Open-Source Python Framework for Unsupervised Learning on Graphs",
+          "booktitle": "CIKM",
+          "year": "2020",
+          "pages": "3125-3132",
+          "ee": "https://doi.org/10.1145/3340531.3412757",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/log/HeZHRCR23",
-        "title": "PyTorch Geometric Signed Directed: A Software Package on Graph Neural Networks for Signed and Directed Graphs.",
-        "pages": "12",
-        "year": "2023",
-        "booktitle": "LoG",
-        "ee": "https://proceedings.mlr.press/v231/he24a.html",
-        "url": "db/conf/log/log2023.html#HeZHRCR23",
-        "authors": [
-          "Yixuan He 0001",
-          "Xitong Zhang",
-          "Junjie Huang",
-          "Benedek Rozemberczki",
-          "Mihai Cucuringu",
-          "Gesine Reinert"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiKS20a",
+          "title": "Little Ball of Fur: A Python Library for Graph Sampling",
+          "booktitle": "CIKM",
+          "year": "2020",
+          "pages": "3133-3140",
+          "ee": "https://doi.org/10.1145/3340531.3412758",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/www/RozemberczkiEKB21",
-        "title": "Pathfinder Discovery Networks for Neural Message Passing.",
-        "pages": "2547-2558",
-        "year": "2021",
-        "booktitle": "WWW",
-        "ee": "https://doi.org/10.1145/3442381.3449882",
-        "url": "db/conf/www/www2021.html#RozemberczkiEKB21",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Peter Englert",
-          "Amol Kapoor",
-          "Martin Blais",
-          "Bryan Perozzi"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiS20",
+          "title": "Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models",
+          "booktitle": "CIKM",
+          "year": "2020",
+          "pages": "1325-1334",
+          "ee": "https://doi.org/10.1145/3340531.3411866",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiKS20a",
-        "title": "Little Ball of Fur: A Python Library for Graph Sampling.",
-        "pages": "3133-3140",
-        "year": "2020",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3340531.3412758",
-        "url": "db/conf/cikm/cikm2020.html#RozemberczkiKS20a",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiS21",
+          "title": "The Shapley Value of Classifiers in Ensemble Games",
+          "booktitle": "CIKM",
+          "year": "2021",
+          "pages": "1558-1567",
+          "ee": "https://doi.org/10.1145/3459637.3482302",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiSHP21",
-        "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models.",
-        "pages": "4564-4573",
-        "year": "2021",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3459637.3482014",
-        "url": "db/conf/cikm/cikm2021.html#RozemberczkiSHP21",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Yixuan He 0001",
-          "George Panagopoulos",
-          "Alexander Riedel",
-          "Maria Sinziana Astefanoaei",
-          "Oliver Kiss",
-          "Ferenc BÃ©res",
-          "GuzmÃ¡n LÃ³pez",
-          "Nicolas Collignon",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/cikm/RozemberczkiSHP21",
+          "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models",
+          "booktitle": "CIKM",
+          "year": "2021",
+          "pages": "4564-4573",
+          "ee": "https://doi.org/10.1145/3459637.3482014",
+          "author": [
+            {
+              "#text": "Alexander Riedel",
+              "@pid": "124/9774"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Guzmán López",
+              "@pid": "300/6977"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiS21",
-        "title": "The Shapley Value of Classifiers in Ensemble Games.",
-        "pages": "1558-1567",
-        "year": "2021",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3459637.3482302",
-        "url": "db/conf/cikm/cikm2021.html#RozemberczkiS21",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/gis/GhoshRRS18",
+          "title": "Topological signatures for fast mobility analysis",
+          "booktitle": "SIGSPATIAL/GIS",
+          "year": "2018",
+          "pages": "159-168",
+          "ee": "https://doi.org/10.1145/3274895.3274952",
+          "author": [
+            {
+              "#text": "Abhirup Ghosh",
+              "@pid": "143/7545"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Subramanian Ramamoorthy",
+              "@pid": "97/5598"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiKS20",
-        "title": "Karate Club: An API Oriented Open-Source Python Framework for Unsupervised Learning on Graphs.",
-        "pages": "3125-3132",
-        "year": "2020",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3340531.3412757",
-        "url": "db/conf/cikm/cikm2020.html#RozemberczkiKS20",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcai/RozemberczkiBNU22",
+          "title": "A Unified View of Relational Deep Learning for Drug Pair Scoring",
+          "booktitle": "IJCAI",
+          "year": "2022",
+          "pages": "5564-5571",
+          "ee": "https://doi.org/10.24963/IJCAI.2022/777",
+          "author": [
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Eliseo Papa",
+              "@pid": "197/3616"
+            },
+            {
+              "#text": "Michaël Ughetto",
+              "@pid": "229/3716"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            },
+            {
+              "#text": "Stephen Bonner",
+              "@pid": "173/9362"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiS20",
-        "title": "Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models.",
-        "pages": "1325-1334",
-        "year": "2020",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3340531.3411866",
-        "url": "db/conf/cikm/cikm2020.html#RozemberczkiS20",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/ijcai/RozemberczkiWBY22",
+          "title": "The Shapley Value in Machine Learning",
+          "booktitle": "IJCAI",
+          "year": "2022",
+          "pages": "5572-5579",
+          "ee": "https://doi.org/10.24963/IJCAI.2022/778",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Hao-Tsung Yang",
+              "@pid": "151/7478"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Péter Bayer",
+              "@pid": "283/4588"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cikm/RozemberczkiGNE22",
-        "title": "MOOMIN: Deep Molecular Omics Network for Anti-Cancer Drug Combination Therapy.",
-        "pages": "3472-3483",
-        "year": "2022",
-        "booktitle": "CIKM",
-        "ee": "https://doi.org/10.1145/3511808.3557146",
-        "url": "db/conf/cikm/cikm2022.html#RozemberczkiGNE22",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Anna Gogleva",
-          "Sebastian Nilsson",
-          "Gavin Edwards",
-          "Andriy Nikolov",
-          "Eliseo Papa"
-        ]
+        "inproceedings": {
+          "@key": "conf/kdd/BojchevskiKPKBR20",
+          "title": "Scaling Graph Neural Networks with Approximate PageRank",
+          "booktitle": "KDD",
+          "year": "2020",
+          "pages": "2464-2473",
+          "ee": "https://doi.org/10.1145/3394486.3403296",
+          "author": [
+            {
+              "#text": "Aleksandar Bojchevski",
+              "@pid": "203/8114"
+            },
+            {
+              "#text": "Amol Kapoor",
+              "@pid": "215/5014"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Bryan Perozzi",
+              "@pid": "91/10813"
+            },
+            {
+              "#text": "Johannes Gasteiger",
+              "@pid": "228/7897"
+            },
+            {
+              "#text": "Martin Blais",
+              "@pid": "225/4115"
+            },
+            {
+              "#text": "Michal Lukasik",
+              "@pid": "72/11338"
+            },
+            {
+              "#text": "Stephan Günnemann",
+              "@pid": "43/3011"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/asunam/RozemberczkiDSS19",
-        "title": "GEMSEC: graph embedding with self clustering.",
-        "pages": "65-72",
-        "year": "2019",
-        "booktitle": "ASONAM",
-        "ee": "https://doi.org/10.1145/3341161.3342890",
-        "url": "db/conf/asunam/asonam2019.html#RozemberczkiDSS19",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Ryan Davies",
-          "Rik Sarkar",
-          "Charles Sutton"
-        ]
+        "inproceedings": {
+          "@key": "conf/kdd/RozemberczkiHGG22",
+          "title": "ChemicalX: A Deep Learning Library for Drug Pair Scoring",
+          "booktitle": "KDD",
+          "year": "2022",
+          "pages": "3819-3828",
+          "ee": "https://doi.org/10.1145/3534678.3539023",
+          "author": [
+            {
+              "#text": "Andrej Lamov",
+              "@pid": "313/9809"
+            },
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Anna Gogleva",
+              "@pid": "222/4655"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Benjamin M. Gyori",
+              "@pid": "135/0172"
+            },
+            {
+              "#text": "Charles Tapley Hoyt",
+              "@pid": "199/2168"
+            },
+            {
+              "#text": "Klas Karis",
+              "@pid": "313/9288"
+            },
+            {
+              "#text": "Michaël Ughetto",
+              "@pid": "229/3716"
+            },
+            {
+              "#text": "Piotr Grabowski",
+              "@pid": "28/5871"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            },
+            {
+              "#text": "Tyler Derr",
+              "@pid": "207/7927"
+            },
+            {
+              "#text": "Yu Wang",
+              "@pid": "02/5889-160"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcai/RozemberczkiWBY22",
-        "title": "The Shapley Value in Machine Learning.",
-        "pages": "5572-5579",
-        "year": "2022",
-        "booktitle": "IJCAI",
-        "ee": "https://doi.org/10.24963/ijcai.2022/778",
-        "url": "db/conf/ijcai/ijcai2022.html#RozemberczkiWBY22",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Lauren Watson",
-          "PÃ©ter Bayer",
-          "Hao-Tsung Yang",
-          "Oliver Kiss",
-          "Sebastian Nilsson",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/log/HeZHRCR23",
+          "title": "PyTorch Geometric Signed Directed: A Software Package on Graph Neural Networks for Signed and Directed Graphs",
+          "booktitle": "LoG",
+          "year": "2023",
+          "pages": "12",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Gesine Reinert",
+              "@pid": "86/1736"
+            },
+            {
+              "#text": "Junjie Huang",
+              "@pid": "85/774"
+            },
+            {
+              "#text": "Mihai Cucuringu",
+              "@pid": "58/6857"
+            },
+            {
+              "#text": "Xitong Zhang",
+              "@pid": "156/9687"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ijcai/RozemberczkiBNU22",
-        "title": "A Unified View of Relational Deep Learning for Drug Pair Scoring.",
-        "pages": "5564-5571",
-        "year": "2022",
-        "booktitle": "IJCAI",
-        "ee": "https://doi.org/10.24963/ijcai.2022/777",
-        "url": "db/conf/ijcai/ijcai2022.html#RozemberczkiBNU22",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Stephen Bonner",
-          "Andriy Nikolov",
-          "MichaÃ«l Ughetto",
-          "Sebastian Nilsson",
-          "Eliseo Papa"
-        ]
+        "inproceedings": {
+          "@key": "conf/wsdm/Derr0RSP23",
+          "title": "The 3rd International Workshop on Machine Learning on Graphs (MLoG)",
+          "booktitle": "WSDM",
+          "year": "2023",
+          "pages": "1271-1272",
+          "ee": "https://doi.org/10.1145/3539597.3572706",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Neil Shah",
+              "@pid": "71/7771"
+            },
+            {
+              "#text": "Shirui Pan",
+              "@pid": "91/8171"
+            },
+            {
+              "#text": "Tyler Derr",
+              "@pid": "207/7927"
+            },
+            {
+              "#text": "Yao Ma",
+              "@pid": "212/7871"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/compnet/RozemberczkiAS21",
-        "title": "Multi-Scale attributed node embedding.",
-        "year": "2021",
-        "volume": "9",
-        "journal": "J. Complex Networks",
-        "number": "2",
-        "ee": "https://doi.org/10.1093/comnet/cnab014",
-        "url": "db/journals/compnet/compnet9.html#RozemberczkiAS21",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Carl Allen",
-          "Rik Sarkar"
-        ]
+        "inproceedings": {
+          "@key": "conf/www/RozemberczkiEKB21",
+          "title": "Pathfinder Discovery Networks for Neural Message Passing",
+          "booktitle": "WWW",
+          "year": "2021",
+          "pages": "2547-2558",
+          "ee": "https://doi.org/10.1145/3442381.3449882",
+          "author": [
+            {
+              "#text": "Amol Kapoor",
+              "@pid": "215/5014"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Bryan Perozzi",
+              "@pid": "91/10813"
+            },
+            {
+              "#text": "Martin Blais",
+              "@pid": "225/4115"
+            },
+            {
+              "#text": "Peter Englert",
+              "@pid": "132/9113"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2104-07788",
-        "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models.",
-        "year": "2021",
-        "volume": "abs/2104.07788",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2104.07788",
-        "url": "db/journals/corr/corr2104.html#abs-2104-07788",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Yixuan He 0001",
-          "George Panagopoulos",
-          "Maria Sinziana Astefanoaei",
-          "Oliver Kiss",
-          "Ferenc BÃ©res",
-          "Nicolas Collignon",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "data/11/RozemberczkiSHPAKBCS23",
+          "title": "Pedal Me Bicycle Deliveries",
+          "journal": "",
+          "year": "2023",
+          "ee": "https://doi.org/10.24432/C5KC9C",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2110-15087",
-        "title": "MOOMIN: Deep Molecular Omics Network for Anti-Cancer Drug Combination Therapy.",
-        "year": "2021",
-        "volume": "abs/2110.15087",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2110.15087",
-        "url": "db/journals/corr/corr2110.html#abs-2110-15087",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Anna Gogleva",
-          "Sebastian Nilsson",
-          "Gavin Edwards",
-          "Andriy Nikolov",
-          "Eliseo Papa"
-        ]
+        "article": {
+          "@key": "journals/compnet/RozemberczkiAS21",
+          "title": "Multi-Scale attributed node embedding",
+          "journal": "J. Complex Networks",
+          "year": "2021",
+          "ee": "https://doi.org/10.1093/COMNET/CNAB014",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Carl Allen",
+              "@pid": "220/5654"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2006-14360",
-        "title": "Stability Enhanced Privacy and Applications in Private Stochastic Gradient Descent.",
-        "year": "2020",
-        "volume": "abs/2006.14360",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2006.14360",
-        "url": "db/journals/corr/corr2006.html#abs-2006-14360",
-        "authors": [
-          "Lauren Watson",
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1802-03997",
+          "title": "GEMSEC: Graph Embedding with Self Clustering",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1802.03997",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Charles Sutton",
+              "@pid": "59/5879"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Ryan Davies",
+              "@pid": "04/11177"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2102-08100",
-        "title": "Chickenpox Cases in Hungary: a Benchmark Dataset for Spatiotemporal Signal Processing with Graph Neural Networks.",
-        "year": "2021",
-        "volume": "abs/2102.08100",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2102.08100",
-        "url": "db/journals/corr/corr2102.html#abs-2102-08100",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Paul Scherer",
-          "Oliver Kiss",
-          "Rik Sarkar",
-          "Tamas Ferenci"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-1909-13021",
+          "title": "Multi-scale Attributed Node Embedding",
+          "journal": "CoRR",
+          "year": "2019",
+          "ee": "https://doi.org/10.48550/ARXIV.1909.13021",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Carl Allen",
+              "@pid": "220/5654"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2202-05594",
-        "title": "The Shapley Value in Machine Learning.",
-        "year": "2022",
-        "volume": "abs/2202.05594",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2202.05594",
-        "url": "db/journals/corr/corr2202.html#abs-2202-05594",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Lauren Watson",
-          "PÃ©ter Bayer",
-          "Hao-Tsung Yang",
-          "Oliver Kiss",
-          "Sebastian Nilsson",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2001-07463",
+          "title": "Fast Sequence-Based Embedding with Diffusion Graphs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2001.07463",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2010-12878",
-        "title": "Pathfinder Discovery Networks for Neural Message Passing.",
-        "year": "2020",
-        "volume": "abs/2010.12878",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2010.12878",
-        "url": "db/journals/corr/corr2010.html#abs-2010-12878",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Peter Englert",
-          "Amol Kapoor",
-          "Martin Blais",
-          "Bryan Perozzi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2003-04819",
+          "title": "An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.04819",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2101-03091",
-        "title": "Twitch Gamers: a Dataset for Evaluating Proximity Preserving and Structural Role-based Node Embeddings.",
-        "year": "2021",
-        "volume": "abs/2101.03091",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2101.03091",
-        "url": "db/journals/corr/corr2101.html#abs-2101-03091",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2005-07959",
+          "title": "Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2005.07959",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2001-07463",
-        "title": "Fast Sequence-Based Embedding with Diffusion Graphs.",
-        "year": "2020",
-        "volume": "abs/2001.07463",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2001.07463",
-        "url": "db/journals/corr/corr2001.html#abs-2001-07463",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2006-04311",
+          "title": "Little Ball of Fur: A Python Library for Graph Sampling",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.04311",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1909-13021",
-        "title": "Multi-scale Attributed Node Embedding.",
-        "year": "2019",
-        "volume": "abs/1909.13021",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1909.13021",
-        "url": "db/journals/corr/corr1909.html#abs-1909-13021",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Carl Allen",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2006-14360",
+          "title": "Stability Enhanced Privacy and Applications in Private Stochastic Gradient Descent",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2006.14360",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2101-02153",
-        "title": "The Shapley Value of Classifiers in Ensemble Games.",
-        "year": "2021",
-        "volume": "abs/2101.02153",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2101.02153",
-        "url": "db/journals/corr/corr2101.html#abs-2101-02153",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2007-01570",
+          "title": "Scaling Graph Neural Networks with Approximate PageRank",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2007.01570",
+          "author": [
+            {
+              "#text": "Aleksandar Bojchevski",
+              "@pid": "203/8114"
+            },
+            {
+              "#text": "Amol Kapoor",
+              "@pid": "215/5014"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Bryan Perozzi",
+              "@pid": "91/10813"
+            },
+            {
+              "#text": "Johannes Gasteiger",
+              "@pid": "228/7897"
+            },
+            {
+              "#text": "Martin Blais",
+              "@pid": "225/4115"
+            },
+            {
+              "#text": "Michal Lukasik",
+              "@pid": "72/11338"
+            },
+            {
+              "#text": "Stephan Günnemann",
+              "@pid": "43/3011"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2204-08206",
-        "title": "TigerLily: Finding drug interactions in silico with the Graph.",
-        "year": "2022",
-        "volume": "abs/2204.08206",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2204.08206",
-        "url": "db/journals/corr/corr2204.html#abs-2204-08206",
-        "authors": [
-          "Benedek Rozemberczki"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2010-12878",
+          "title": "Pathfinder Discovery Networks for Neural Message Passing",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2010.12878",
+          "author": [
+            {
+              "#text": "Amol Kapoor",
+              "@pid": "215/5014"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Bryan Perozzi",
+              "@pid": "91/10813"
+            },
+            {
+              "#text": "Martin Blais",
+              "@pid": "225/4115"
+            },
+            {
+              "#text": "Peter Englert",
+              "@pid": "132/9113"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2204-01376",
-        "title": "Synthetic Graph Generation to Benchmark Graph Learning.",
-        "year": "2022",
-        "volume": "abs/2204.01376",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2204.01376",
-        "url": "db/journals/corr/corr2204.html#abs-2204-01376",
-        "authors": [
-          "Anton Tsitsulin",
-          "Benedek Rozemberczki",
-          "John Palowitch",
-          "Bryan Perozzi"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2101-02153",
+          "title": "The Shapley Value of Classifiers in Ensemble Games",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.02153",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2203-03594",
-        "title": "Continual and Sliding Window Release for Private Empirical Risk Minimization.",
-        "year": "2022",
-        "volume": "abs/2203.03594",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2203.03594",
-        "url": "db/journals/corr/corr2203.html#abs-2203-03594",
-        "authors": [
-          "Lauren Watson",
-          "Abhirup Ghosh",
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2101-03091",
+          "title": "Twitch Gamers: a Dataset for Evaluating Proximity Preserving and Structural Role-based Node Embeddings",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2101.03091",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2206-02238",
-        "title": "OntoMerger: An Ontology Integration Library for Deduplicating and Connecting Knowledge Graph Nodes.",
-        "year": "2022",
-        "volume": "abs/2206.02238",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2206.02238",
-        "url": "db/journals/corr/corr2206.html#abs-2206-02238",
-        "authors": [
-          "David Geleta",
-          "Andriy Nikolov",
-          "Mark ODonoghue",
-          "Benedek Rozemberczki",
-          "Anna Gogleva",
-          "Valentina Tamma",
-          "Terry R. Payne"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2102-08100",
+          "title": "Chickenpox Cases in Hungary: a Benchmark Dataset for Spatiotemporal Signal Processing with Graph Neural Networks",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2102.08100",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Tamas Ferenci",
+              "@pid": "143/1571"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2006-04311",
-        "title": "Little Ball of Fur: A Python Library for Graph Sampling.",
-        "year": "2020",
-        "volume": "abs/2006.04311",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2006.04311",
-        "url": "db/journals/corr/corr2006.html#abs-2006-04311",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2104-07788",
+          "title": "PyTorch Geometric Temporal: Spatiotemporal Signal Processing with Neural Machine Learning Models",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2104.07788",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Ferenc Béres",
+              "@pid": "225/2017"
+            },
+            {
+              "#text": "George Panagopoulos",
+              "@pid": "95/6834"
+            },
+            {
+              "#text": "Maria Sinziana Astefanoaei",
+              "@pid": "228/8980"
+            },
+            {
+              "#text": "Nicolas Collignon",
+              "@pid": "249/6823"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Paul Scherer",
+              "@pid": "251/3344"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Yixuan He",
+              "@pid": "226/6494-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2111-10625",
-        "title": "Explainable Biomedical Recommendations via Reinforcement Learning Reasoning on Knowledge Graphs.",
-        "year": "2021",
-        "volume": "abs/2111.10625",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2111.10625",
-        "url": "db/journals/corr/corr2111.html#abs-2111-10625",
-        "authors": [
-          "Gavin Edwards",
-          "Sebastian Nilsson",
-          "Benedek Rozemberczki",
-          "Eliseo Papa"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2110-15087",
+          "title": "MOOMIN: Deep Molecular Omics Network for Anti-Cancer Drug Combination Therapy",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2110.15087",
+          "author": [
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Anna Gogleva",
+              "@pid": "222/4655"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Eliseo Papa",
+              "@pid": "197/3616"
+            },
+            {
+              "#text": "Gavin Edwards",
+              "@pid": "305/0467"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-1802-03997",
-        "title": "GEMSEC: Graph Embedding with Self Clustering.",
-        "year": "2018",
-        "volume": "abs/1802.03997",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.1802.03997",
-        "url": "db/journals/corr/corr1802.html#abs-1802-03997",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Ryan Davies",
-          "Rik Sarkar",
-          "Charles Sutton"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2111-02916",
+          "title": "A Unified View of Relational Deep Learning for Drug Pair Scoring",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.02916",
+          "author": [
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Eliseo Papa",
+              "@pid": "197/3616"
+            },
+            {
+              "#text": "Michaël Ughetto",
+              "@pid": "229/3716"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            },
+            {
+              "#text": "Stephen Bonner",
+              "@pid": "173/9362"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2202-05240",
-        "title": "ChemicalX: A Deep Learning Library for Drug Pair Scoring.",
-        "year": "2022",
-        "volume": "abs/2202.05240",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2202.05240",
-        "url": "db/journals/corr/corr2202.html#abs-2202-05240",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Charles Tapley Hoyt",
-          "Anna Gogleva",
-          "Piotr Grabowski",
-          "Klas Karis",
-          "Andrej Lamov",
-          "Andriy Nikolov",
-          "Sebastian Nilsson",
-          "MichaÃ«l Ughetto",
-          "Yu Wang 0160",
-          "Tyler Derr",
-          "Benjamin M. Gyori"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2111-10625",
+          "title": "Explainable Biomedical Recommendations via Reinforcement Learning Reasoning on Knowledge Graphs",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2111.10625",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Eliseo Papa",
+              "@pid": "197/3616"
+            },
+            {
+              "#text": "Gavin Edwards",
+              "@pid": "305/0467"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2005-07959",
-        "title": "Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models.",
-        "year": "2020",
-        "volume": "abs/2005.07959",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2005.07959",
-        "url": "db/journals/corr/corr2005.html#abs-2005-07959",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2202-05240",
+          "title": "ChemicalX: A Deep Learning Library for Drug Pair Scoring",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.05240",
+          "author": [
+            {
+              "#text": "Andrej Lamov",
+              "@pid": "313/9809"
+            },
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Anna Gogleva",
+              "@pid": "222/4655"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Benjamin M. Gyori",
+              "@pid": "135/0172"
+            },
+            {
+              "#text": "Charles Tapley Hoyt",
+              "@pid": "199/2168"
+            },
+            {
+              "#text": "Klas Karis",
+              "@pid": "313/9288"
+            },
+            {
+              "#text": "Michaël Ughetto",
+              "@pid": "229/3716"
+            },
+            {
+              "#text": "Piotr Grabowski",
+              "@pid": "28/5871"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            },
+            {
+              "#text": "Tyler Derr",
+              "@pid": "207/7927"
+            },
+            {
+              "#text": "Yu Wang",
+              "@pid": "02/5889-160"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2003-04819",
-        "title": "An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs.",
-        "year": "2020",
-        "volume": "abs/2003.04819",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2003.04819",
-        "url": "db/journals/corr/corr2003.html#abs-2003-04819",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Oliver Kiss",
-          "Rik Sarkar"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2202-05594",
+          "title": "The Shapley Value in Machine Learning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2202.05594",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Hao-Tsung Yang",
+              "@pid": "151/7478"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Oliver Kiss",
+              "@pid": "260/6990"
+            },
+            {
+              "#text": "Péter Bayer",
+              "@pid": "283/4588"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            },
+            {
+              "#text": "Sebastian Nilsson",
+              "@pid": "246/5085"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2111-02916",
-        "title": "A Unified View of Relational Deep Learning for Drug Pair Scoring.",
-        "year": "2021",
-        "volume": "abs/2111.02916",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2111.02916",
-        "url": "db/journals/corr/corr2111.html#abs-2111-02916",
-        "authors": [
-          "Benedek Rozemberczki",
-          "Stephen Bonner",
-          "Andriy Nikolov",
-          "MichaÃ«l Ughetto",
-          "Sebastian Nilsson",
-          "Eliseo Papa"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2203-03594",
+          "title": "Continual and Sliding Window Release for Private Empirical Risk Minimization",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2203.03594",
+          "author": [
+            {
+              "#text": "Abhirup Ghosh",
+              "@pid": "143/7545"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Lauren Watson",
+              "@pid": "268/6008"
+            },
+            {
+              "#text": "Rik Sarkar",
+              "@pid": "82/4961"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-01376",
+          "title": "Synthetic Graph Generation to Benchmark Graph Learning",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.01376",
+          "author": [
+            {
+              "#text": "Anton Tsitsulin",
+              "@pid": "217/1668"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Bryan Perozzi",
+              "@pid": "91/10813"
+            },
+            {
+              "#text": "John Palowitch",
+              "@pid": "175/1231"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2204-08206",
+          "title": "TigerLily: Finding drug interactions in silico with the Graph",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2204.08206",
+          "author": {
+            "#text": "Benedek Rozemberczki",
+            "@pid": "215/3742"
+          }
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2206-02238",
+          "title": "OntoMerger: An Ontology Integration Library for Deduplicating and Connecting Knowledge Graph Nodes",
+          "journal": "CoRR",
+          "year": "2022",
+          "ee": "https://doi.org/10.48550/ARXIV.2206.02238",
+          "author": [
+            {
+              "#text": "Andriy Nikolov",
+              "@pid": "59/804"
+            },
+            {
+              "#text": "Anna Gogleva",
+              "@pid": "222/4655"
+            },
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "David Geleta",
+              "@pid": "140/5674"
+            },
+            {
+              "#text": "Mark ODonoghue",
+              "@pid": "322/0766"
+            },
+            {
+              "#text": "Terry R. Payne",
+              "@pid": "p/TerryRPayne"
+            },
+            {
+              "#text": "Valentina Tamma",
+              "@pid": "46/4735"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tlt/FinchamRKJJG21",
+          "title": "Persistence and Performance in Co-Enrollment Network Embeddings: An Empirical Validation of Tinto's Student Integration Model",
+          "journal": "IEEE Trans. Learn. Technol.",
+          "year": "2021",
+          "pages": "106-121",
+          "ee": "https://doi.org/10.1109/TLT.2021.3059362",
+          "author": [
+            {
+              "#text": "Benedek Rozemberczki",
+              "@pid": "215/3742"
+            },
+            {
+              "#text": "Dragan Gasevic",
+              "@pid": "67/5716"
+            },
+            {
+              "#text": "Ed Fincham",
+              "@pid": "239/2831"
+            },
+            {
+              "#text": "Jelena Jovanovic",
+              "@pid": "11/16-1"
+            },
+            {
+              "#text": "Srecko Joksimovic",
+              "@pid": "132/6104"
+            },
+            {
+              "#text": "Vitomir Kovanovic",
+              "@pid": "57/10956"
+            }
+          ]
+        }
       }
     ]
   }

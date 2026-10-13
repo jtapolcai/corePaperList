@@ -1,0 +1,6463 @@
+{
+  "dblpperson": {
+    "@name": "Gábor Székely",
+    "r": [
+      {
+        "informal": {
+          "@key": "books/sp/08/Szekely08",
+          "title": "Voronoi Skeletons",
+          "journal": "Medial Representations",
+          "year": "2008",
+          "pages": "191-221",
+          "ee": "https://doi.org/10.1007/978-1-4020-8658-8_6",
+          "author": {
+            "#text": "Gábor Székely",
+            "@pid": "41/1233"
+          }
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ACMace/KnoerleinSH07",
+          "title": "Visuo-haptic collaborative augmented reality ping-pong",
+          "booktitle": "Advances in Computer Entertainment Technology",
+          "year": "2007",
+          "pages": "91-94",
+          "ee": "https://doi.org/10.1145/1255047.1255065",
+          "author": [
+            {
+              "#text": "Benjamin Knoerlein",
+              "@pid": "47/6821"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/CechAWSC06",
+          "title": "Piecewise Rigid Multimodal Spine Registration",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2006",
+          "pages": "211-215",
+          "ee": "https://doi.org/10.1007/3-540-32137-3_43",
+          "author": [
+            {
+              "#text": "Adrian Andronache",
+              "@pid": "75/897"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Liping Wang",
+              "@pid": "36/1341"
+            },
+            {
+              "#text": "Peter Cech",
+              "@pid": "36/1858"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/KovacsCAWS06",
+          "title": "Automatic Segmentation of the Vessel Lumen from 3D CTA Images of Aortic Dissection",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2006",
+          "pages": "161-165",
+          "ee": "https://doi.org/10.1007/3-540-32137-3_33",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hatem Alkadhi",
+              "@pid": "67/5568"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Simon Wildermuth",
+              "@pid": "13/2161"
+            },
+            {
+              "#text": "Tamás Kovács",
+              "@pid": "73/6799"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/RempflerSISXSKS15",
+          "title": "Rekonstruktion zerebraler Gefässnetzwerke aus in-vivo μMRA mittels physiologischem Vorwissen zur lokalen Gefässgeometrie",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2015",
+          "pages": "161-166",
+          "ee": "https://doi.org/10.1007/978-3-662-46224-9_29",
+          "author": [
+            {
+              "#text": "Bjoern Andres",
+              "@pid": "150/3439"
+            },
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Giovanna D. Ielacqua",
+              "@pid": "150/3143"
+            },
+            {
+              "#text": "Jan Klohs",
+              "@pid": "150/3207"
+            },
+            {
+              "#text": "Markus Rempfler",
+              "@pid": "150/3312"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Stuart R. Stock",
+              "@pid": "128/5637"
+            },
+            {
+              "#text": "Tim Sprenger",
+              "@pid": "168/5521"
+            },
+            {
+              "#text": "Xianghui Xiao",
+              "@pid": "124/2296"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/SaurARESC09",
+          "title": "Contrast Enhancement with Dual Energy CT for the Assessment of Atherosclerosis",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2009",
+          "pages": "61-65",
+          "ee": "https://doi.org/10.1007/978-3-540-93860-6_13",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hatem Alkadhi",
+              "@pid": "67/5568"
+            },
+            {
+              "#text": "Luca Regazzoni",
+              "@pid": "44/7091"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Simon Eugster",
+              "@pid": "71/7091"
+            },
+            {
+              "#text": "Stefan C. Saur",
+              "@pid": "13/4553"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/SaurKBSC08",
+          "title": "Automatic Ascending Aorta Detection in CTA Datasets",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2008",
+          "pages": "323-327",
+          "ee": "https://doi.org/10.1007/978-3-540-78640-5_65",
+          "author": [
+            {
+              "#text": "Caroline Kühnel",
+              "@pid": "80/3146"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Stefan C. Saur",
+              "@pid": "13/4553"
+            },
+            {
+              "#text": "Tobias Boskamp",
+              "@pid": "08/6867"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/WaldRSCP05",
+          "title": "Fließende Überblendung von Endoskopiebildern für die Erstellung eines Mosaiks",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2005",
+          "pages": "287-291",
+          "ee": "https://doi.org/10.1007/3-540-26431-0_59",
+          "author": [
+            {
+              "#text": "Diana Wald",
+              "@pid": "66/4309"
+            },
+            {
+              "#text": "Dietrich Paulus",
+              "@pid": "p/DietrichPaulus"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Mireille Reeff",
+              "@pid": "20/2474"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/bildmed/WengertRCS06",
+          "title": "Fully Automatic Endoscope Calibration for Intraoperative Use",
+          "booktitle": "Bildverarbeitung für die Medizin",
+          "year": "2006",
+          "pages": "419-423",
+          "ee": "https://doi.org/10.1007/3-540-32137-3_85",
+          "author": [
+            {
+              "#text": "Christian Wengert",
+              "@pid": "48/2318"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Mireille Reeff",
+              "@pid": "20/2474"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/caip/SzekelyGKBK93",
+          "title": "Analysis of MR Angiography Volume Data Leading to the Structural Description of the Cerebral Vessel Tree",
+          "booktitle": "CAIP",
+          "year": "1993",
+          "pages": "687-692",
+          "ee": "https://doi.org/10.1007/3-540-57233-3_93",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Thomas Koller",
+              "@pid": "63/933"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cars/SierraBS03",
+          "title": "Evaluation of different pathology generation strategies for surgical training simulators",
+          "booktitle": "CARS",
+          "year": "2003",
+          "pages": "376-381",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvpr/NeuenschwanderFSK94",
+          "title": "Initializing snakes [object delineation]",
+          "booktitle": "CVPR",
+          "year": "1994",
+          "pages": "658-663",
+          "ee": "https://doi.org/10.1109/CVPR.1994.323783",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Pascal Fua",
+              "@pid": "f/PFua"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvpr/QuickeBHBS00",
+          "title": "Parameterization of Closed Surfaces for Parametric Surface Descriptio",
+          "booktitle": "CVPR",
+          "year": "2000",
+          "pages": "1354-1360",
+          "ee": "https://doi.org/10.1109/CVPR.2000.855840",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hans Blattman",
+              "@pid": "83/6816"
+            },
+            {
+              "#text": "Johannes Hug",
+              "@pid": "95/4009"
+            },
+            {
+              "#text": "Michael Quicke",
+              "@pid": "13/173"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvrmed/SzekelyKBG95",
+          "title": "Segmentation of 3D Objects from MRI Volume Data Using Constrained Elastic Deformations of Flexible Fourier Surface Models",
+          "booktitle": "CVRMed",
+          "year": "1995",
+          "pages": "495-505",
+          "ee": "https://doi.org/10.1007/978-3-540-49197-2_66",
+          "author": [
+            {
+              "#text": "András Kelemen",
+              "@pid": "15/5881"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/cvrmed/VehkomakiGS97",
+          "title": "A user-guided tool for efficient segmentation of medical image data",
+          "booktitle": "CVRMed",
+          "year": "1997",
+          "pages": "685-694",
+          "ee": "https://doi.org/10.1007/BFB0029294",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Tuomo Vehkomäki",
+              "@pid": "53/403"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagm/GerigSK93",
+          "title": "Line-finding in 2-D and 3-D by Multi-valued Non-linear Diffusion of Feature Maps",
+          "booktitle": "DAGM-Symposium",
+          "year": "1993",
+          "pages": "289-296",
+          "ee": "https://doi.org/10.1007/978-3-642-78546-7_34",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Thomas Koller",
+              "@pid": "63/933"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/dagm/OgniewiczSK93",
+          "title": "Detection of Prominent Boundary Points based on Structural Characteristics of the Hierarchic Medial Axis Transform",
+          "booktitle": "DAGM-Symposium",
+          "year": "1993",
+          "pages": "321-331",
+          "ee": "https://doi.org/10.1007/978-3-642-78546-7_38",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Robert L. Ogniewicz",
+              "@pid": "90/1089"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eccv/HugBS00",
+          "title": "Model-Based Initialisation for Segmentation",
+          "booktitle": "ECCV (2)",
+          "year": "2000",
+          "pages": "290-306",
+          "ee": "https://doi.org/10.1007/3-540-45053-X_19",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Johannes Hug",
+              "@pid": "95/4009"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/embc/RussHHSFSG13",
+          "title": "Simulation of transcatheter aortic valve implantation under consideration of leaflet calcification",
+          "booktitle": "EMBC",
+          "year": "2013",
+          "pages": "711-714",
+          "ee": "https://doi.org/10.1109/EMBC.2013.6609599",
+          "author": [
+            {
+              "#text": "Christoph Russ",
+              "@pid": "12/2283"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Gessat",
+              "@pid": "55/1797"
+            },
+            {
+              "#text": "Raoul Hopf",
+              "@pid": "139/8947"
+            },
+            {
+              "#text": "Simon H. Sündermann",
+              "@pid": "152/3949"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            },
+            {
+              "#text": "Volkmar Falk",
+              "@pid": "60/4048"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/emmcvpr/OakleyMS99",
+          "title": "Magnetic Resonance Imaging Based Correction and Reconstruction of Positron Emission Tomography Images",
+          "booktitle": "EMMCVPR",
+          "year": "1999",
+          "pages": "301-316",
+          "ee": "https://doi.org/10.1007/3-540-48432-9_21",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "John Missimer",
+              "@pid": "13/754"
+            },
+            {
+              "#text": "Jonathan Oakley",
+              "@pid": "31/5978-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/eurographics/LloydKSH08",
+          "title": "Identification of Dynamic Mass Spring Parameters for Deformable Body Simulation",
+          "booktitle": "Eurographics (Short Papers)",
+          "year": "2008",
+          "pages": "131-134",
+          "ee": "https://doi.org/10.2312/EGS.20081039",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "S. Kirac",
+              "@pid": "172/6896"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/europar/BurckhardtSBMS09",
+          "title": "Fast Implicit Simulation of Oscillatory Flow in Human Abdominal Bifurcation Using a Schur Complement Preconditioner",
+          "booktitle": "Euro-Par",
+          "year": "2009",
+          "pages": "747-759",
+          "ee": "https://doi.org/10.1007/978-3-642-03869-3_70",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jed Brown",
+              "@pid": "66/8942"
+            },
+            {
+              "#text": "Kathrin Burckhardt",
+              "@pid": "56/1761"
+            },
+            {
+              "#text": "Krishnamurthy Muralidhar",
+              "@pid": "50/5986"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gi/CechCS06",
+          "title": "Automatic Identification of Critical Landmarks on the Third Ventricle ",
+          "booktitle": "GI Jahrestagung (1)",
+          "year": "2006",
+          "pages": "459-466",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Peter Cech",
+              "@pid": "36/1858"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/gi/ReeffGCS06",
+          "title": "Mosaicing of Endoscopic Placenta Images",
+          "booktitle": "GI Jahrestagung (1)",
+          "year": "2006",
+          "pages": "467-474",
+          "author": [
+            {
+              "#text": "Friederike Gerhard",
+              "@pid": "76/2943"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Mireille Reeff",
+              "@pid": "20/2474"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/haptics/GokselJHS13",
+          "title": "Deformable haptic model generation through manual exploration",
+          "booktitle": "World Haptics",
+          "year": "2013",
+          "pages": "543-548",
+          "ee": "https://doi.org/10.1109/WHC.2013.6548466",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Seokhee Jeon",
+              "@pid": "38/5076"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/haptics/HoverHS08",
+          "title": "Data-Driven Haptic Rendering of Visco-Elastic Effects",
+          "booktitle": "HAPTICS",
+          "year": "2008",
+          "pages": "201-208",
+          "ee": "https://doi.org/10.1109/HAPTICS.2008.4479943",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Raphael Höver",
+              "@pid": "78/7587"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/haptics/HoverLSH09",
+          "title": "Computationally efficient techniques for data-driven haptic rendering",
+          "booktitle": "WHC",
+          "year": "2009",
+          "pages": "39-44",
+          "ee": "https://doi.org/10.1109/WHC.2009.4810814",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Massimiliano Di Luca",
+              "@pid": "28/548"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Raphael Höver",
+              "@pid": "78/7587"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/haptics/LeiskovskHS06",
+          "title": "Assessing the Fidelity of Haptically Rendered Deformable Objects",
+          "booktitle": "HAPTICS",
+          "year": "2006",
+          "pages": "3",
+          "ee": "https://doi.org/10.1109/VR.2006.27",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Peter Leskovský",
+              "@pid": "27/11173"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/EggerMSRSH13",
+          "title": "Spatial Stabilization Strategies Applied to Multiphysics Modeling of Blood Clotting Using a Modified PTT Model",
+          "booktitle": "ICCS",
+          "year": "2013",
+          "pages": "996-1005",
+          "ee": "https://doi.org/10.1016/J.PROCS.2013.05.265",
+          "author": [
+            {
+              "#text": "Ajit S. Mallik",
+              "@pid": "130/5931"
+            },
+            {
+              "#text": "Daniel A. Rüfenacht",
+              "@pid": "40/1846"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Julien Egger",
+              "@pid": "130/5667"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/HirschSLBKS09",
+          "title": "A Mechano-Chemical Model of a Solid Tumor for Therapy Outcome Predictions",
+          "booktitle": "ICCS (1)",
+          "year": "2009",
+          "pages": "715-724",
+          "ee": "https://doi.org/10.1007/978-3-642-01970-8_71",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Niels Kuster",
+              "@pid": "64/4302"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/SzczerbaLBS08",
+          "title": "A Multiphysics Model of Myoma Growth",
+          "booktitle": "ICCS (2)",
+          "year": "2008",
+          "pages": "187-196",
+          "ee": "https://doi.org/10.1007/978-3-540-69387-1_21",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/SzczerbaMS07",
+          "title": "High Quality Surface Mesh Generation for Multi-physics Bio-medical Simulations",
+          "booktitle": "International Conference on Computational Science (1)",
+          "year": "2007",
+          "pages": "906-913",
+          "ee": "https://doi.org/10.1007/978-3-540-72584-8_119",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/SzczerbaS05",
+          "title": "A Computational Model of Micro-vascular Growth",
+          "booktitle": "International Conference on Computational Science (3)",
+          "year": "2005",
+          "pages": "17-24",
+          "ee": "https://doi.org/10.1007/11428862_3",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccS/SzczerbaSK06",
+          "title": "A Multiphysics Model of Capillary Growth and Remodeling",
+          "booktitle": "International Conference on Computational Science (2)",
+          "year": "2006",
+          "pages": "86-93",
+          "ee": "https://doi.org/10.1007/11758525_12",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Haymo Kurz",
+              "@pid": "63/4108"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccv/KollerGSD95",
+          "title": "Multiscale Detection of Curvilinear Structures in 2D and 3D Image Data",
+          "booktitle": "ICCV",
+          "year": "1995",
+          "pages": "864-869",
+          "ee": "https://doi.org/10.1109/ICCV.1995.466846",
+          "author": [
+            {
+              "#text": "Daniel Dettwiler",
+              "@pid": "35/2661"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Thomas Koller",
+              "@pid": "63/933"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccv/NeuenschwanderFSK95",
+          "title": "Deformable Velcro(tm) Surfaces",
+          "booktitle": "ICCV",
+          "year": "1995",
+          "pages": "828-833",
+          "ee": "https://doi.org/10.1109/ICCV.1995.466852",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Pascal Fua",
+              "@pid": "f/PFua"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iccv/SyrkinaBS07",
+          "title": "Correspondence Establishment in Statistical Modeling of Shapes with Arbitrary Topology",
+          "booktitle": "ICCV",
+          "year": "2007",
+          "pages": "1-7",
+          "ee": "https://doi.org/10.1109/ICCV.2007.4409162",
+          "author": [
+            {
+              "#text": "Ekaterina Syrkina",
+              "@pid": "81/3244"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Miguel Ángel González Ballester",
+              "@pid": "341/5647"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icisc/HorvathBSN19",
+          "title": "There Is Always an Exception: Controlling Partial Information Leakage in Secure Computation",
+          "booktitle": "ICISC",
+          "year": "2020",
+          "pages": "133-149",
+          "ee": "https://doi.org/10.1007/978-3-030-40921-0_8",
+          "author": [
+            {
+              "#text": "Dóra Neubrandt",
+              "@pid": "183/1168"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Levente Buttyán",
+              "@pid": "84/3267"
+            },
+            {
+              "#text": "Máté Horváth",
+              "@pid": "156/9112"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icpr/NeuenschwanderF94",
+          "title": "Making snakes converge from minimal initialization",
+          "booktitle": "ICPR (1)",
+          "year": "1994",
+          "pages": "613-615",
+          "ee": "https://doi.org/10.1109/ICPR.1994.576376",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Pascal Fua",
+              "@pid": "f/PFua"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/icra/VuskovicKSR00",
+          "title": "Realistic Force Feedback for Virtual Reality Based Diagnostic Surgery Simulators",
+          "booktitle": "ICRA",
+          "year": "2000",
+          "pages": "1592-1598",
+          "ee": "https://doi.org/10.1109/ROBOT.2000.844824",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "M. Reidy",
+              "@pid": "87/5823"
+            },
+            {
+              "#text": "Martin Kauer",
+              "@pid": "152/9397"
+            },
+            {
+              "#text": "Vladimir Vuskovic",
+              "@pid": "280/4731"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipmi/BlancSS09",
+          "title": "Estimating the Confidence of Statistical Model Based Shape Prediction",
+          "booktitle": "IPMI",
+          "year": "2009",
+          "pages": "602-613",
+          "ee": "https://doi.org/10.1007/978-3-642-02498-6_50",
+          "author": [
+            {
+              "#text": "Ekaterina Syrkina",
+              "@pid": "81/3244"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipmi/GerigKSBK93",
+          "title": "Symbolic Description of 3-D Structures Applied to Cerebral Vessel Tree Obtained from MR Angiography Volume Data",
+          "booktitle": "IPMI",
+          "year": "1993",
+          "pages": "94-111",
+          "ee": "https://doi.org/10.1007/BFB0013783",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Thomas Koller",
+              "@pid": "63/933"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipmi/StynerRNZSTD03",
+          "title": "Evaluation of 3D Correspondence Methods for Model Building",
+          "booktitle": "IPMI",
+          "year": "2003",
+          "pages": "63-75",
+          "ee": "https://doi.org/10.1007/978-3-540-45087-0_6",
+          "author": [
+            {
+              "#text": "Christopher J. Taylor",
+              "@pid": "37/6755"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gabriel Zsemlye",
+              "@pid": "85/4301"
+            },
+            {
+              "#text": "Kumar T. Rajamani",
+              "@pid": "46/364"
+            },
+            {
+              "#text": "Lutz-Peter Nolte",
+              "@pid": "29/32"
+            },
+            {
+              "#text": "Martin Styner",
+              "@pid": "s/MAStyner"
+            },
+            {
+              "#text": "Rhodri H. Davies",
+              "@pid": "80/6149"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ipmi/WeltiGRKS01",
+          "title": "Spatio-temporal Segmentation of Active Multiple Sclerosis Lesions in Serial MRI Data",
+          "booktitle": "IPMI",
+          "year": "2001",
+          "pages": "438-445",
+          "ee": "https://doi.org/10.1007/3-540-45729-1_46",
+          "author": [
+            {
+              "#text": "Daniel Welti",
+              "@pid": "38/156"
+            },
+            {
+              "#text": "Ernst-Wilhelm Radue",
+              "@pid": "10/3098"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Ludwig Kappos",
+              "@pid": "62/293"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/iros/KosaHSSH09",
+          "title": "Fast experimental estimation of drag coefficients of arbitrary structures",
+          "booktitle": "IROS",
+          "year": "2009",
+          "pages": "249-254",
+          "ee": "https://doi.org/10.1109/IROS.2009.5354774",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Kósa",
+              "@pid": "75/6699"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Raphael Höver",
+              "@pid": "78/7587"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/is4th/SierraBS03",
+          "title": "Pathology Design for Surgical Training Simulators",
+          "booktitle": "IS4TH",
+          "year": "2003",
+          "pages": "375-384",
+          "ee": "https://doi.org/10.1007/3-540-45015-7_36",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/CardinaleRBSS09",
+          "title": "Bayesian Image Analysis with On-Line Confidence Estimates and its Application to Microtubule Tracking",
+          "booktitle": "ISBI",
+          "year": "2009",
+          "pages": "1091-1094",
+          "ee": "https://doi.org/10.1109/ISBI.2009.5193246",
+          "author": [
+            {
+              "#text": "Alexander Rauch",
+              "@pid": "50/2394"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Ivo F. Sbalzarini",
+              "@pid": "30/5647"
+            },
+            {
+              "#text": "Janick Cardinale",
+              "@pid": "08/7978"
+            },
+            {
+              "#text": "Yves Barral",
+              "@pid": "53/3779"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/CrimiMBSG14",
+          "title": "Vessel tracking for ultrasound-based venous pressure measurement",
+          "booktitle": "ISBI",
+          "year": "2014",
+          "pages": "306-309",
+          "ee": "https://doi.org/10.1109/ISBI.2014.6867870",
+          "author": [
+            {
+              "#text": "Alessandro Crimi",
+              "@pid": "60/9945"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Maxim Makhinya",
+              "@pid": "15/7527"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Ulrich Baumann",
+              "@pid": "41/4272"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/FurnstahlFSNSH08",
+          "title": "Automatic and robust forearm segmentation using graph cuts",
+          "booktitle": "ISBI",
+          "year": "2008",
+          "pages": "77-80",
+          "ee": "https://doi.org/10.1109/ISBI.2008.4540936",
+          "author": [
+            {
+              "#text": "Andreas Schweizer",
+              "@pid": "26/1202"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Ladislav Nagy",
+              "@pid": "61/1198"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Philipp Fürnstahl",
+              "@pid": "10/1589"
+            },
+            {
+              "#text": "Thomas J. Fuchs",
+              "@pid": "36/1644"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/GerigSS02",
+          "title": "Statistical shape models for segmentation and structural analysis",
+          "booktitle": "ISBI",
+          "year": "2002",
+          "pages": "18-21",
+          "ee": "https://doi.org/10.1109/ISBI.2002.1029182",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Martin Styner",
+              "@pid": "s/MAStyner"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/GokselGVS13",
+          "title": "Estimation of atlas-based segmentation outcome: Leveraging information from unsegmented images",
+          "booktitle": "ISBI",
+          "year": "2013",
+          "pages": "1215-1218",
+          "ee": "https://doi.org/10.1109/ISBI.2013.6556699",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            },
+            {
+              "#text": "Valeriy Vishnevskiy",
+              "@pid": "165/8047"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/KarssemeijerHHHBLTSNH09",
+          "title": "Integrating Biological Knowledge, Novel Imaging Modalities, and Modeling in Breast Cancer Diagnosis",
+          "booktitle": "ISBI",
+          "year": "2009",
+          "pages": "386-389",
+          "ee": "https://doi.org/10.1109/ISBI.2009.5193065",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "David J. Hawkes",
+              "@pid": "14/2317"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Henkjan J. Huisman",
+              "@pid": "222/3067"
+            },
+            {
+              "#text": "Horst K. Hahn",
+              "@pid": "87/4973"
+            },
+            {
+              "#text": "Jan M. Lesniak",
+              "@pid": "117/1682"
+            },
+            {
+              "#text": "John H. Hipwell",
+              "@pid": "37/3271"
+            },
+            {
+              "#text": "Nico Karssemeijer",
+              "@pid": "09/93"
+            },
+            {
+              "#text": "Tobias Böhler",
+              "@pid": "84/2123"
+            },
+            {
+              "#text": "Wiro J. Niessen",
+              "@pid": "93/6561"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/KoltukluogluHBK15",
+          "title": "A robust comparison approach of velocity data between MRI and CFD based on divergence-free space projection",
+          "booktitle": "ISBI",
+          "year": "2015",
+          "pages": "1393-1397",
+          "ee": "https://doi.org/10.1109/ISBI.2015.7164136",
+          "author": [
+            {
+              "#text": "Aymen Laadhari",
+              "@pid": "142/9585"
+            },
+            {
+              "#text": "Christian Binter",
+              "@pid": "165/8052"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Sebastian Kozerke",
+              "@pid": "94/2118"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            },
+            {
+              "#text": "Taha Sabri Koltukluoglu",
+              "@pid": "165/7862"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/KrcahSB11",
+          "title": "Fully automatic and fast segmentation of the femur bone from 3D-CT images with no shape prior",
+          "booktitle": "ISBI",
+          "year": "2011",
+          "pages": "2087-2090",
+          "ee": "https://doi.org/10.1109/ISBI.2011.5872823",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Marcel Krcah",
+              "@pid": "37/9772"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/LucaTS12",
+          "title": "Speeding-up image registration for repetitive motion scenarios",
+          "booktitle": "ISBI",
+          "year": "2012",
+          "pages": "1355-1358",
+          "ee": "https://doi.org/10.1109/ISBI.2012.6235817",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/SameiTS14",
+          "title": "RIB detection in MR images using shape priors and appearance models",
+          "booktitle": "ISBI",
+          "year": "2014",
+          "pages": "798-801",
+          "ee": "https://doi.org/10.1109/ISBI.2014.6867991",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/SamuylovSP17",
+          "title": "Tracking microtubule ends is more than point tracking",
+          "booktitle": "ISBI",
+          "year": "2017",
+          "pages": "808-812",
+          "ee": "https://doi.org/10.1109/ISBI.2017.7950641",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/SamuylovWSP15",
+          "title": "Mapping complex spatio-temporal models to image space: The virtual microscope",
+          "booktitle": "ISBI",
+          "year": "2015",
+          "pages": "707-711",
+          "ee": "https://doi.org/10.1109/ISBI.2015.7163971",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            },
+            {
+              "#text": "Lukas A. Widmer",
+              "@pid": "165/7808"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/TannerEGS14",
+          "title": "Decision fusion for temporal prediction of respiratory liver motion",
+          "booktitle": "ISBI",
+          "year": "2014",
+          "pages": "698-701",
+          "ee": "https://doi.org/10.1109/ISBI.2014.6867966",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jaap Gelderblom",
+              "@pid": "149/7669"
+            },
+            {
+              "#text": "Koen A. J. Eppenhof",
+              "@pid": "198/9338"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/TannerKS11",
+          "title": "Deformation models for registering MR and 3D ultrasound breast images",
+          "booktitle": "ISBI",
+          "year": "2011",
+          "pages": "582-585",
+          "ee": "https://doi.org/10.1109/ISBI.2011.5872474",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Nico Karssemeijer",
+              "@pid": "09/93"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/TannerSS13",
+          "title": "Investigating anisotropic diffusion for the registration of abdominal MR images",
+          "booktitle": "ISBI",
+          "year": "2013",
+          "pages": "484-487",
+          "ee": "https://doi.org/10.1109/ISBI.2013.6556517",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/TannerSS15",
+          "title": "Robust exemplar model of respiratory liver motion and individualization using an additional breath-hold image",
+          "booktitle": "ISBI",
+          "year": "2015",
+          "pages": "1576-1579",
+          "ee": "https://doi.org/10.1109/ISBI.2015.7164180",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/TannerYSS16",
+          "title": "Influence of inter-subject correspondences on liver motion predictions from population models",
+          "booktitle": "ISBI",
+          "year": "2016",
+          "pages": "286-289",
+          "ee": "https://doi.org/10.1109/ISBI.2016.7493265",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            },
+            {
+              "#text": "Minglei Yang",
+              "@pid": "162/6406-2"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/VishnevskiyGSTG15",
+          "title": "Unsupervised detection of local errors in image registration",
+          "booktitle": "ISBI",
+          "year": "2015",
+          "pages": "841-844",
+          "ee": "https://doi.org/10.1109/ISBI.2015.7164002",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            },
+            {
+              "#text": "Valeriy Vishnevskiy",
+              "@pid": "165/8047"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbi/WassmerLCSS16",
+          "title": "Automatic segmentation of lung carcinoma in histological images using a visual dictionary",
+          "booktitle": "ISBI",
+          "year": "2016",
+          "pages": "1037-1040",
+          "ee": "https://doi.org/10.1109/ISBI.2016.7493443",
+          "author": [
+            {
+              "#text": "Alex Soltermann",
+              "@pid": "123/8427"
+            },
+            {
+              "#text": "Florian Wassmer",
+              "@pid": "181/7005"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Ruben Casanova",
+              "@pid": "181/7001"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/FornaroSH10",
+          "title": "Semi-automatic Segmentation of Fractured Pelvic Bones for Surgical Planning",
+          "booktitle": "ISMBS",
+          "year": "2010",
+          "pages": "82-89",
+          "ee": "https://doi.org/10.1007/978-3-642-11615-5_9",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jürgen Fornaro",
+              "@pid": "26/7852"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/LloydHS10",
+          "title": "Optimization of Case-Specific Vascular Tree Models Based on Vessel Size Imaging",
+          "booktitle": "ISMBS",
+          "year": "2010",
+          "pages": "38-48",
+          "ee": "https://doi.org/10.1007/978-3-642-11615-5_5",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/McGregorLSS10",
+          "title": "Efficient Generation of Corresponding Meshes for Biomedical Flow Simulations",
+          "booktitle": "ISMBS",
+          "year": "2010",
+          "pages": "49-58",
+          "ee": "https://doi.org/10.1007/978-3-642-11615-5_6",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/RussHSBHFSG14",
+          "title": "Computational Stent Placement in Transcatheter Aortic Valve Implantation",
+          "booktitle": "ISBMS",
+          "year": "2014",
+          "pages": "95-105",
+          "ee": "https://doi.org/10.1007/978-3-319-12057-7_11",
+          "author": [
+            {
+              "#text": "Christoph Russ",
+              "@pid": "12/2283"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Gessat",
+              "@pid": "55/1797"
+            },
+            {
+              "#text": "Raoul Hopf",
+              "@pid": "139/8947"
+            },
+            {
+              "#text": "Silvia Born",
+              "@pid": "74/4016"
+            },
+            {
+              "#text": "Simon H. Sündermann",
+              "@pid": "152/3949"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            },
+            {
+              "#text": "Volkmar Falk",
+              "@pid": "60/4048"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/SzczerbaMMS08",
+          "title": "Mechanism and Localization of Wall Failure During Abdominal Aortic Aneurysm Formation",
+          "booktitle": "ISBMS",
+          "year": "2008",
+          "pages": "119-126",
+          "ee": "https://doi.org/10.1007/978-3-540-70521-5_13",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Krishnamurthy Muralidhar",
+              "@pid": "50/5986"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isbms/TuchschmidGBFTSH06",
+          "title": "A Flexible Framework for Highly-Modular Surgical Simulation Systems",
+          "booktitle": "ISBMS",
+          "year": "2006",
+          "pages": "84-92",
+          "ee": "https://doi.org/10.1007/11790273_10",
+          "author": [
+            {
+              "#text": "Daniel Bachofen",
+              "@pid": "11/995"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Markus Grassi",
+              "@pid": "26/9144"
+            },
+            {
+              "#text": "Markus Thaler",
+              "@pid": "52/2653"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "P. Früh",
+              "@pid": "90/4401"
+            },
+            {
+              "#text": "Stefan Tuchschmid",
+              "@pid": "67/4214"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ismar/BianchiJKSH06",
+          "title": "High-fidelity visuo-haptic interaction with virtual objects in multi-modal AR systems",
+          "booktitle": "ISMAR",
+          "year": "2006",
+          "pages": "187-196",
+          "ee": "https://doi.org/10.1109/ISMAR.2006.297813",
+          "author": [
+            {
+              "#text": "Benjamin Knoerlein",
+              "@pid": "47/6821"
+            },
+            {
+              "#text": "Christoph Jung",
+              "@pid": "67/6076"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gérald Bianchi",
+              "@pid": "16/1235"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/ismar/BianchiWHCS05",
+          "title": "Camera-Marker Alignment Framework and Comparison with Hand-Eye Calibration for Augmented Reality Applications",
+          "booktitle": "ISMAR",
+          "year": "2005",
+          "pages": "188-189",
+          "ee": "https://doi.org/10.1109/ISMAR.2005.24",
+          "author": [
+            {
+              "#text": "Christian Wengert",
+              "@pid": "48/2318"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gérald Bianchi",
+              "@pid": "16/1235"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/isms/SierraBKSH04",
+          "title": "Coherent Scene Generation for Surgical Simulators",
+          "booktitle": "ISMS",
+          "year": "2004",
+          "pages": "221-229",
+          "ee": "https://doi.org/10.1007/978-3-540-25968-8_25",
+          "author": [
+            {
+              "#text": "Celalettin Karadogan",
+              "@pid": "60/982"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mammo/LesniakSTPHKS12",
+          "title": "Multimodal Classification of Breast Masses in Mammography and MRI Using Unimodal Feature Selection and Decision Fusion",
+          "booktitle": "Digital Mammography / IWDM",
+          "year": "2012",
+          "pages": "88-95",
+          "ee": "https://doi.org/10.1007/978-3-642-31271-7_12",
+          "author": [
+            {
+              "#text": "Bram Platel",
+              "@pid": "72/4196"
+            },
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido van Schie",
+              "@pid": "32/4246"
+            },
+            {
+              "#text": "Henkjan J. Huisman",
+              "@pid": "222/3067"
+            },
+            {
+              "#text": "Jan M. Lesniak",
+              "@pid": "117/1682"
+            },
+            {
+              "#text": "Nico Karssemeijer",
+              "@pid": "09/93"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mammo/TannerHHS10",
+          "title": "Breast Shapes on Real and Simulated Mammograms",
+          "booktitle": "Digital Mammography / IWDM",
+          "year": "2010",
+          "pages": "540-547",
+          "ee": "https://doi.org/10.1007/978-3-642-13666-5_73",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "David J. Hawkes",
+              "@pid": "14/2317"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "John H. Hipwell",
+              "@pid": "37/3271"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miar/ChenTGSL16",
+          "title": "Temporal Prediction of Respiratory Motion Using a Trained Ensemble of Forecasting Methods",
+          "booktitle": "MIAR",
+          "year": "2016",
+          "pages": "383-391",
+          "ee": "https://doi.org/10.1007/978-3-319-43775-0_35",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            },
+            {
+              "#text": "Xiaoran Chen",
+              "@pid": "184/3448"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miar/KovacsCAWS06",
+          "title": "Automatic Segmentation of the Aortic Dissection Membrane from 3D CTA Images",
+          "booktitle": "MIAR",
+          "year": "2006",
+          "pages": "317-324",
+          "ee": "https://doi.org/10.1007/11812715_40",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hatem Alkadhi",
+              "@pid": "67/5568"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Simon Wildermuth",
+              "@pid": "13/2161"
+            },
+            {
+              "#text": "Tamás Kovács",
+              "@pid": "73/6799"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/micad/LesniakHKSBKS11",
+          "title": "Computer aided detection of breast masses in mammography using support vector machine classification",
+          "booktitle": "Computer-Aided Diagnosis",
+          "year": "2011",
+          "pages": "79631K",
+          "ee": "https://doi.org/10.1117/12.878140",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jan M. Lesniak",
+              "@pid": "117/1682"
+            },
+            {
+              "#text": "Maurice Samulski",
+              "@pid": "31/2030"
+            },
+            {
+              "#text": "Michiel Kallenberg",
+              "@pid": "25/6501"
+            },
+            {
+              "#text": "Nico Karssemeijer",
+              "@pid": "09/93"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            },
+            {
+              "#text": "Rianne Hupse",
+              "@pid": "77/8374"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/AndronacheCS05",
+          "title": "Adaptive Subdivision for Hierarchical Non-rigid Registration of Multi-modal Images Using Mutual Information",
+          "booktitle": "MICCAI (2)",
+          "year": "2005",
+          "pages": "976-983",
+          "ee": "https://doi.org/10.1007/11566489_120",
+          "author": [
+            {
+              "#text": "Adrian Andronache",
+              "@pid": "75/897"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/BianchiHS03",
+          "title": "Mesh Topology Identification for Mass-Spring Models",
+          "booktitle": "MICCAI (1)",
+          "year": "2003",
+          "pages": "50-58",
+          "ee": "https://doi.org/10.1007/978-3-540-39899-8_7",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gérald Bianchi",
+              "@pid": "16/1235"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/BianchiSSH04",
+          "title": "Simultaneous Topology and Stiffness Identification for Mass-Spring Models Based on FEM Reference Deformations",
+          "booktitle": "MICCAI (2)",
+          "year": "2004",
+          "pages": "293-301",
+          "ee": "https://doi.org/10.1007/978-3-540-30136-3_37",
+          "author": [
+            {
+              "#text": "Barbara Solenthaler",
+              "@pid": "93/921"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gérald Bianchi",
+              "@pid": "16/1235"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/BlancRSS09",
+          "title": "Conditional Variability of Statistical Shape Models Based on Surrogate Variables",
+          "booktitle": "MICCAI (1)",
+          "year": "2009",
+          "pages": "84-91",
+          "ee": "https://doi.org/10.1007/978-3-642-04271-3_11",
+          "author": [
+            {
+              "#text": "Christof Seiler",
+              "@pid": "83/7425"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Mauricio Reyes",
+              "@pid": "19/3092-1"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/BurckhardtS00",
+          "title": "XIMIT - X-Ray Migration Measurement Using Implant Models and Image Templates",
+          "booktitle": "MICCAI",
+          "year": "2000",
+          "pages": "1195-1204",
+          "ee": "https://doi.org/10.1007/978-3-540-40899-4_128",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Kathrin Burckhardt",
+              "@pid": "56/1761"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/CattinBGS06",
+          "title": "Retina Mosaicing Using Local Features",
+          "booktitle": "MICCAI (2)",
+          "year": "2006",
+          "pages": "185-192",
+          "ee": "https://doi.org/10.1007/11866763_23",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Herbert Bay",
+              "@pid": "b/HerbertBay"
+            },
+            {
+              "#text": "Luc Van Gool",
+              "@pid": "61/5017"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/EkatodramisSG98",
+          "title": "Detecting and Inferring Brain Activation from Functional MRI by Hypothesis-Testing Based on the Likelihood Ratio",
+          "booktitle": "MICCAI",
+          "year": "1998",
+          "pages": "578-589",
+          "ee": "https://doi.org/10.1007/BFB0056243",
+          "author": [
+            {
+              "#text": "Dimitrios Ekatodramis",
+              "@pid": "70/6000"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/GassSG12",
+          "title": "Semi-supervised Segmentation Using Multiple Segmentation Hypotheses from a Single Atlas",
+          "booktitle": "MCV",
+          "year": "2013",
+          "pages": "29-37",
+          "ee": "https://doi.org/10.1007/978-3-642-36620-8_4",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/GassSG14",
+          "title": "Multi-atlas Segmentation and Landmark Localization in Images with Large Field of View",
+          "booktitle": "MCV",
+          "year": "2014",
+          "pages": "171-180",
+          "ee": "https://doi.org/10.1007/978-3-319-13972-2_16",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/GerigWGCS98",
+          "title": "Exploring the Discrimination Power of the Time Domain for Segmentation and Characterization of Lesions in Serial MR Data",
+          "booktitle": "MICCAI",
+          "year": "1998",
+          "pages": "469-480",
+          "ee": "https://doi.org/10.1007/BFB0056232",
+          "author": [
+            {
+              "#text": "Alan C. F. Colchester",
+              "@pid": "01/3169"
+            },
+            {
+              "#text": "Charles R. G. Guttmann",
+              "@pid": "16/3911"
+            },
+            {
+              "#text": "Daniel Welti",
+              "@pid": "38/156"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/HardersS01",
+          "title": "A Multi-modal Approach to Segmentation of Tubular Structures",
+          "booktitle": "MICCAI",
+          "year": "2001",
+          "pages": "1180-1182",
+          "ee": "https://doi.org/10.1007/3-540-45468-3_153",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/HardersS07",
+          "title": "Using Statistical Shape Analysis for the Determination of Uterine Deformation States During Hydrometra",
+          "booktitle": "MICCAI (2)",
+          "year": "2007",
+          "pages": "858-865",
+          "ee": "https://doi.org/10.1007/978-3-540-75759-7_104",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/HardersSGS05",
+          "title": "A Hybrid Cutting Approach for Hysteroscopy Simulation",
+          "booktitle": "MICCAI (2)",
+          "year": "2005",
+          "pages": "567-574",
+          "ee": "https://doi.org/10.1007/11566489_70",
+          "author": [
+            {
+              "#text": "Denis Steinemann",
+              "@pid": "44/840"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Markus Gross",
+              "@pid": "g/MarkusHGross"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/HardersWWS02",
+          "title": "Improving Virtual Endoscopy for the Intestinal Tract",
+          "booktitle": "MICCAI (2)",
+          "year": "2002",
+          "pages": "20-27",
+          "ee": "https://doi.org/10.1007/3-540-45787-9_3",
+          "author": [
+            {
+              "#text": "Dominik Weishaupt",
+              "@pid": "76/1565"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Simon Wildermuth",
+              "@pid": "13/2161"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/HugBS99",
+          "title": "Tamed Snake: A Particle System for Robust Semi-automatic Segmentation",
+          "booktitle": "MICCAI",
+          "year": "1999",
+          "pages": "106-115",
+          "ee": "https://doi.org/10.1007/10704282_12",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Johannes Hug",
+              "@pid": "95/4009"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/KauerVDSB01",
+          "title": "Inverse Finite Element Characterization of Soft Tissues",
+          "booktitle": "MICCAI",
+          "year": "2001",
+          "pages": "128-136",
+          "ee": "https://doi.org/10.1007/3-540-45468-3_16",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jurg Dual",
+              "@pid": "166/3686"
+            },
+            {
+              "#text": "Martin Kauer",
+              "@pid": "152/9397"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Vladimir Vuskovic",
+              "@pid": "280/4731"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/KoltukluogluBTH15",
+          "title": "A Partial Domain Approach to Enable Aortic Flow Simulation Without Turbulent Modeling",
+          "booktitle": "MICCAI (2)",
+          "year": "2015",
+          "pages": "544-551",
+          "ee": "https://doi.org/10.1007/978-3-319-24571-3_65",
+          "author": [
+            {
+              "#text": "Aymen Laadhari",
+              "@pid": "142/9585"
+            },
+            {
+              "#text": "Christian Binter",
+              "@pid": "165/8052"
+            },
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Sebastian Kozerke",
+              "@pid": "94/2118"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            },
+            {
+              "#text": "Taha Sabri Koltukluoglu",
+              "@pid": "165/7862"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/LloydSS07",
+          "title": "A Coupled Finite Element Model of Tumor Growth and Vascularization",
+          "booktitle": "MICCAI (2)",
+          "year": "2007",
+          "pages": "874-881",
+          "ee": "https://doi.org/10.1007/978-3-540-75759-7_106",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/LucaGPSST11",
+          "title": "Keep Breathing! Common Motion Helps Multi-modal Mapping",
+          "booktitle": "MICCAI (1)",
+          "year": "2011",
+          "pages": "597-604",
+          "ee": "https://doi.org/10.1007/978-3-642-23623-5_75",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "H. Grabner",
+              "@pid": "65/10170"
+            },
+            {
+              "#text": "Lorena Petrusca",
+              "@pid": "58/10171"
+            },
+            {
+              "#text": "Rares Salomir",
+              "@pid": "87/3239"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/LucaST15",
+          "title": "Gated-tracking: Estimation of Respiratory Motion with Confidence",
+          "booktitle": "MICCAI (3)",
+          "year": "2015",
+          "pages": "451-458",
+          "ee": "https://doi.org/10.1007/978-3-319-24574-4_54",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/LucaTST13",
+          "title": "A Learning-Based Approach for Fast and Robust Vessel Tracking in Long Ultrasound Sequences",
+          "booktitle": "MICCAI (1)",
+          "year": "2013",
+          "pages": "518-525",
+          "ee": "https://doi.org/10.1007/978-3-642-40811-3_65",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Tschannen",
+              "@pid": "134/9824"
+            },
+            {
+              "#text": "Valeria De Luca",
+              "@pid": "116/3288"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/McGregorSMS09",
+          "title": "A Fast Alternative to Computational Fluid Dynamics for High Quality Imaging of Blood Flow",
+          "booktitle": "MICCAI (1)",
+          "year": "2009",
+          "pages": "124-131",
+          "ee": "https://doi.org/10.1007/978-3-642-04268-3_16",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Krishnamurthy Muralidhar",
+              "@pid": "50/5986"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/McGregorSS07",
+          "title": "A Multiphysics Simulation of a Healthy and a Diseased Abdominal Aorta",
+          "booktitle": "MICCAI (2)",
+          "year": "2007",
+          "pages": "227-234",
+          "ee": "https://doi.org/10.1007/978-3-540-75759-7_28",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/McGregorSSMS08",
+          "title": "Exploring the Use of Proper Orthogonal Decomposition for Enhancing Blood Flow Images Via Computational Fluid Dynamics",
+          "booktitle": "MICCAI (2)",
+          "year": "2008",
+          "pages": "782-789",
+          "ee": "https://doi.org/10.1007/978-3-540-85990-1_94",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Krishnamurthy Muralidhar",
+              "@pid": "50/5986"
+            },
+            {
+              "#text": "Martin von Siebenthal",
+              "@pid": "41/1863"
+            },
+            {
+              "#text": "Robert H. P. McGregor",
+              "@pid": "23/6900"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/RempflerSIXSKSAM14",
+          "title": "Extracting Vascular Networks under Physiological Constraints via Integer Programming",
+          "booktitle": "MICCAI (2)",
+          "year": "2014",
+          "pages": "505-512",
+          "ee": "https://doi.org/10.1007/978-3-319-10470-6_63",
+          "author": [
+            {
+              "#text": "Bjoern Andres",
+              "@pid": "150/3439"
+            },
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Giovanna D. Ielacqua",
+              "@pid": "150/3143"
+            },
+            {
+              "#text": "Jan Klohs",
+              "@pid": "150/3207"
+            },
+            {
+              "#text": "Markus Rempfler",
+              "@pid": "150/3312"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Stuart R. Stock",
+              "@pid": "128/5637"
+            },
+            {
+              "#text": "Xianghui Xiao",
+              "@pid": "124/2296"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SameiCST13",
+          "title": "Adaptive Confidence Regions of Motion Predictions from Population Exemplar Models",
+          "booktitle": "Abdominal Imaging",
+          "year": "2013",
+          "pages": "231-240",
+          "ee": "https://doi.org/10.1007/978-3-642-41083-3_26",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            },
+            {
+              "#text": "Grzegorz Chlebus",
+              "@pid": "135/0202"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SameiST14",
+          "title": "Detection and Registration of Ribs in MRI Using Geometric and Appearance Models",
+          "booktitle": "MICCAI (1)",
+          "year": "2014",
+          "pages": "706-713",
+          "ee": "https://doi.org/10.1007/978-3-319-10404-1_88",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SameiST15",
+          "title": "Prediction of Rib Motion During Free-Breathing from Liver Observations Using 4D MRI",
+          "booktitle": "CLIP@MICCAI",
+          "year": "2016",
+          "pages": "45-53",
+          "ee": "https://doi.org/10.1007/978-3-319-31808-0_6",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SameiTS12",
+          "title": "Predicting Liver Motion Using Exemplar Models",
+          "booktitle": "Abdominal Imaging",
+          "year": "2012",
+          "pages": "147-157",
+          "ee": "https://doi.org/10.1007/978-3-642-33612-6_16",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SaurADSC08",
+          "title": "Automatic Detection of Calcified Coronary Plaques in Computed Tomography Data Sets",
+          "booktitle": "MICCAI (1)",
+          "year": "2008",
+          "pages": "170-177",
+          "ee": "https://doi.org/10.1007/978-3-540-85988-8_21",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hatem Alkadhi",
+              "@pid": "67/5568"
+            },
+            {
+              "#text": "Lotus Desbiolles",
+              "@pid": "42/5390"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Stefan C. Saur",
+              "@pid": "13/4553"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SchneiderHSWM12",
+          "title": "Oblique Random Forests for 3-D Vessel Detection Using Steerable Filters and Orthogonal Subspace Filtering",
+          "booktitle": "MCV",
+          "year": "2013",
+          "pages": "142-154",
+          "ee": "https://doi.org/10.1007/978-3-642-36620-8_15",
+          "author": [
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Bruno Weber",
+              "@pid": "97/10171"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SchneiderHWS11",
+          "title": "Physiologically Based Construction of Optimized 3-D Arterial Tree Models",
+          "booktitle": "MICCAI (1)",
+          "year": "2011",
+          "pages": "404-411",
+          "ee": "https://doi.org/10.1007/978-3-642-23623-5_51",
+          "author": [
+            {
+              "#text": "Bruno Weber",
+              "@pid": "97/10171"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SchneiderHWSM14",
+          "title": "TGIF: Topological Gap In-Fill for Vascular Networks - A Generative PhysiologicalModeling Approach",
+          "booktitle": "MICCAI (2)",
+          "year": "2014",
+          "pages": "89-96",
+          "ee": "https://doi.org/10.1007/978-3-319-10470-6_12",
+          "author": [
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Bruno Weber",
+              "@pid": "97/10171"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SerbyHS01",
+          "title": "A New Approach to Cutting into Finite Element Models",
+          "booktitle": "MICCAI",
+          "year": "2001",
+          "pages": "425-433",
+          "ee": "https://doi.org/10.1007/3-540-45468-3_51",
+          "author": [
+            {
+              "#text": "D. Serby",
+              "@pid": "74/4875"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SiebenthalCGLS05",
+          "title": "4D MR Imaging Using Internal Respiratory Gating",
+          "booktitle": "MICCAI (2)",
+          "year": "2005",
+          "pages": "336-343",
+          "ee": "https://doi.org/10.1007/11566489_42",
+          "author": [
+            {
+              "#text": "Alan J. Lomax",
+              "@pid": "57/1392"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Martin von Siebenthal",
+              "@pid": "41/1863"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "U. Gamper",
+              "@pid": "45/6961"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SiebenthalSLC07",
+          "title": "Inter-subject Modelling of Liver Deformation During Radiation Therapy",
+          "booktitle": "MICCAI (1)",
+          "year": "2007",
+          "pages": "659-666",
+          "ee": "https://doi.org/10.1007/978-3-540-75757-3_80",
+          "author": [
+            {
+              "#text": "Alan J. Lomax",
+              "@pid": "57/1392"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Martin von Siebenthal",
+              "@pid": "41/1863"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SierraBS03",
+          "title": "Pathology Growth Model Based on Particles",
+          "booktitle": "MICCAI (1)",
+          "year": "2003",
+          "pages": "25-32",
+          "ee": "https://doi.org/10.1007/978-3-540-39899-8_4",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SierraSB02",
+          "title": "Generation of Pathologies for Surgical Training Simulators",
+          "booktitle": "MICCAI (2)",
+          "year": "2002",
+          "pages": "202-210",
+          "ee": "https://doi.org/10.1007/3-540-45787-9_26",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SierraZBSH05",
+          "title": "Hydrometra Simulation for VR-Based Hysteroscopy Training",
+          "booktitle": "MICCAI (2)",
+          "year": "2005",
+          "pages": "575-582",
+          "ee": "https://doi.org/10.1007/11566489_71",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "János Zátonyi",
+              "@pid": "94/4489"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SzczerbaS02",
+          "title": "Macroscopic Modeling of Vascular Systems",
+          "booktitle": "MICCAI (2)",
+          "year": "2002",
+          "pages": "284-292",
+          "ee": "https://doi.org/10.1007/3-540-45787-9_36",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SzczerbaS05",
+          "title": "Simulating Vascular Systems in Arbitrary Anatomies",
+          "booktitle": "MICCAI (2)",
+          "year": "2005",
+          "pages": "641-648",
+          "ee": "https://doi.org/10.1007/11566489_79",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/SzekelyBHRS98",
+          "title": "Modeling of Soft Tissue Deformation for Laparoscopic Surgery Simulation",
+          "booktitle": "MICCAI",
+          "year": "1998",
+          "pages": "550-561",
+          "ee": "https://doi.org/10.1007/BFB0056240",
+          "author": [
+            {
+              "#text": "Alex Rhomberg",
+              "@pid": "36/1705"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "P. Schmid",
+              "@pid": "02/2900"
+            },
+            {
+              "#text": "R. Hutter",
+              "@pid": "25/136"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/TannerSS14",
+          "title": "Improved Reconstruction of 4D-MR Images by Motion Predictions",
+          "booktitle": "MICCAI (1)",
+          "year": "2014",
+          "pages": "146-153",
+          "ee": "https://doi.org/10.1007/978-3-319-10404-1_19",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/TuchschmidBSLSH07",
+          "title": "Modelling Intravasation of Liquid Distension Media in Surgical Simulators",
+          "booktitle": "MICCAI (1)",
+          "year": "2007",
+          "pages": "717-724",
+          "ee": "https://doi.org/10.1007/978-3-540-75757-3_87",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Stefan Tuchschmid",
+              "@pid": "67/4214"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/VishnevskiyGSG14",
+          "title": "Total Variation Regularization of Displacements in Parametric Image Registration",
+          "booktitle": "ABDI@MICCAI",
+          "year": "2014",
+          "pages": "211-220",
+          "ee": "https://doi.org/10.1007/978-3-319-13692-9_20",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            },
+            {
+              "#text": "Valeriy Vishnevskiy",
+              "@pid": "165/8047"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/VishnevskiySSTK15",
+          "title": "Simultaneous Denoising and Registration for Accurate Cardiac Diffusion Tensor Reconstruction from MRI",
+          "booktitle": "MICCAI (1)",
+          "year": "2015",
+          "pages": "215-222",
+          "ee": "https://doi.org/10.1007/978-3-319-24553-9_27",
+          "author": [
+            {
+              "#text": "Christian T. Stoeck",
+              "@pid": "28/8525"
+            },
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Sebastian Kozerke",
+              "@pid": "94/2118"
+            },
+            {
+              "#text": "Valeriy Vishnevskiy",
+              "@pid": "165/8047"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/WengertBHBSC07",
+          "title": "Endoscopic Navigation for Minimally Invasive Suturing",
+          "booktitle": "MICCAI (2)",
+          "year": "2007",
+          "pages": "620-627",
+          "ee": "https://doi.org/10.1007/978-3-540-75759-7_75",
+          "author": [
+            {
+              "#text": "Armin Häberling",
+              "@pid": "59/2168"
+            },
+            {
+              "#text": "Charles Baur",
+              "@pid": "20/4622"
+            },
+            {
+              "#text": "Christian Wengert",
+              "@pid": "48/2318"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lukas Bossard",
+              "@pid": "09/6717"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/WengertCDBS06",
+          "title": "Markerless Endoscopic Registration and Referencing",
+          "booktitle": "MICCAI (1)",
+          "year": "2006",
+          "pages": "816-823",
+          "ee": "https://doi.org/10.1007/11866565_100",
+          "author": [
+            {
+              "#text": "Charles Baur",
+              "@pid": "20/4622"
+            },
+            {
+              "#text": "Christian Wengert",
+              "@pid": "48/2318"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "John M. Duff",
+              "@pid": "24/4198"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miccai/ZatonyiPSB03",
+          "title": "Real-Time Synthesis of Bleeding for Virtual Hysteroscopy",
+          "booktitle": "MICCAI (1)",
+          "year": "2003",
+          "pages": "67-74",
+          "ee": "https://doi.org/10.1007/978-3-540-39899-8_9",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "János Zátonyi",
+              "@pid": "94/4489"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Rupert Paget",
+              "@pid": "59/1675"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/BoyeSSST13",
+          "title": "Population based modeling of respiratory lung motion and prediction from partial information",
+          "booktitle": "Image Processing",
+          "year": "2013",
+          "pages": "86690U",
+          "ee": "https://doi.org/10.1117/12.2007076",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Dirk Boye",
+              "@pid": "182/6268"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            },
+            {
+              "#text": "Johannes Schmidt",
+              "@pid": "135/9822"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/GassSG14",
+          "title": "Detection and correction of inconsistency-based errors in non-rigid registration",
+          "booktitle": "Image Processing",
+          "year": "2014",
+          "pages": "90341B",
+          "ee": "https://doi.org/10.1117/12.2042757",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/GassSG14a",
+          "title": "Auxiliary anatomical labels for joint segmentation and atlas registration",
+          "booktitle": "Image Processing",
+          "year": "2014",
+          "pages": "90343T",
+          "ee": "https://doi.org/10.1117/12.2042876",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/SpuhlerHS06",
+          "title": "Fast and robust extraction of centerlines in 3D tubular structures using a scattered-snakelet approach",
+          "booktitle": "Image Processing",
+          "year": "2006",
+          "pages": "614442",
+          "ee": "https://doi.org/10.1117/12.653169",
+          "author": [
+            {
+              "#text": "Christoph Spuhler",
+              "@pid": "219/5787"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/SyrkinaBS11",
+          "title": "Propagating uncertainties in statistical model based shape prediction",
+          "booktitle": "Image Processing",
+          "year": "2011",
+          "pages": "796240",
+          "ee": "https://doi.org/10.1117/12.877960",
+          "author": [
+            {
+              "#text": "Ekaterina Syrkina",
+              "@pid": "81/3244"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/miip/TannerCHS10",
+          "title": "Cylindrical affine transformation model for image registration",
+          "booktitle": "Image Processing",
+          "year": "2010",
+          "pages": "76232P",
+          "ee": "https://doi.org/10.1117/12.843992",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "David J. Hawkes",
+              "@pid": "14/2317"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Timothy J. Carter",
+              "@pid": "75/5298"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mmvr/HardersSLSB07",
+          "title": "Haptic Interface Module for Hysteroscopy Simulator System",
+          "booktitle": "MMVR",
+          "year": "2007",
+          "pages": "167-169",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hannes Bleuler",
+              "@pid": "82/1475"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Peter Leskovský",
+              "@pid": "27/11173"
+            },
+            {
+              "#text": "Ulrich Spaelter",
+              "@pid": "58/551"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mmvr/SierraDWHSKJ07",
+          "title": "Patient Specific Simulation and Navigation of Ventriculoscopic Interventions",
+          "booktitle": "MMVR",
+          "year": "2007",
+          "pages": "433-435",
+          "author": [
+            {
+              "#text": "Ferenc A. Jolesz",
+              "@pid": "94/2864"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "J. Wada",
+              "@pid": "203/6183"
+            },
+            {
+              "#text": "Nobuhiko Hata",
+              "@pid": "29/5466"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            },
+            {
+              "#text": "Ron Kikinis",
+              "@pid": "k/RonKikinis"
+            },
+            {
+              "#text": "Simon P. DiMaio",
+              "@pid": "30/3520"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/mmvr/TuchschmidBBSH07",
+          "title": "Objective Surgical Performance Assessment for Virtual Hysteroscopy",
+          "booktitle": "MMVR",
+          "year": "2007",
+          "pages": "473-478",
+          "author": [
+            {
+              "#text": "Daniel Bachofen",
+              "@pid": "11/995"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Stefan Tuchschmid",
+              "@pid": "67/4214"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/parco/RhombergBST99",
+          "title": "A parallel architecture for interactive FEM computations in a surgery simulator",
+          "booktitle": "PARCO",
+          "year": "1999",
+          "pages": "225-232",
+          "author": [
+            {
+              "#text": "Alex Rhomberg",
+              "@pid": "36/1705"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gerhard Tröster",
+              "@pid": "50/1065"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vbc/BrechbuhlerGS96",
+          "title": "Compensation of Spatial Inhomogeneity in MRI Based on a Parametric Bias Estimate",
+          "booktitle": "VBC",
+          "year": "1996",
+          "pages": "141-146",
+          "ee": "https://doi.org/10.1007/BFB0046948",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vbc/BronSSNKS94",
+          "title": "Segmentation and visualization of membranes and intracellular organelles contours in 3D electron microscopy",
+          "booktitle": "VBC",
+          "year": "1994",
+          "ee": "https://doi.org/10.1117/12.185232",
+          "author": [
+            {
+              "#text": "Christophe Bron",
+              "@pid": "225/1655"
+            },
+            {
+              "#text": "Filip Sadlo",
+              "@pid": "19/3876"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jörg Schüpbach",
+              "@pid": "95/9648"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vbc/KelemenSRG96",
+          "title": "Automatic Segmentation of Cell Nuclei from Confocal Laser Scanning Microscopy Images",
+          "booktitle": "VBC",
+          "year": "1996",
+          "pages": "193-202",
+          "ee": "https://doi.org/10.1007/BFB0046954",
+          "author": [
+            {
+              "#text": "András Kelemen",
+              "@pid": "15/5881"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "H.-W. Reist",
+              "@pid": "87/232"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vbc/SzekelyBKOB92",
+          "title": "Mapping the human cerebral cortex using 3-D medial manifolds",
+          "booktitle": "VBC",
+          "year": "1992",
+          "ee": "https://doi.org/10.1117/12.131073",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Robert L. Ogniewicz",
+              "@pid": "90/1089"
+            },
+            {
+              "#text": "Thomas F. Budinger",
+              "@pid": "225/1599"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vbc/SzekelyKKG94",
+          "title": "Structural description and combined 3D display for superior analysis of cerebral vascularity from MRA",
+          "booktitle": "VBC",
+          "year": "1994",
+          "ee": "https://doi.org/10.1117/12.185187",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Ron Kikinis",
+              "@pid": "k/RonKikinis"
+            },
+            {
+              "#text": "Thomas Koller",
+              "@pid": "63/933"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vr/HardersS02",
+          "title": "Improving Medical Segmentation with Haptic Interaction",
+          "booktitle": "VR",
+          "year": "2002",
+          "pages": "243-250",
+          "ee": "https://doi.org/10.1109/VR.2002.996528",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vr/SteinemannHGS06",
+          "title": "Hybrid Cutting of Deformable Solids",
+          "booktitle": "VR",
+          "year": "2006",
+          "pages": "35-42",
+          "ee": "https://doi.org/10.1109/VR.2006.74",
+          "author": [
+            {
+              "#text": "Denis Steinemann",
+              "@pid": "44/840"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Markus Gross",
+              "@pid": "g/MarkusHGross"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/vriphys/LazarevychSRSH09",
+          "title": "Friction Handling for Penalty-Based Methods",
+          "booktitle": "VRIPHYS",
+          "year": "2009",
+          "pages": "135-144",
+          "ee": "https://doi.org/10.2312/PE/VRIPHYS/VRIPHYS09/135-144",
+          "author": [
+            {
+              "#text": "Christoph Renner",
+              "@pid": "50/9396"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jonas Spillmann",
+              "@pid": "63/5748"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Olexiy Lazarevych",
+              "@pid": "58/9396"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wbir/AndronacheCS06",
+          "title": "Local Intensity Mapping for Hierarchical Non-rigid Registration of Multi-modal Images Using the Cross-Correlation Coefficient",
+          "booktitle": "WBIR",
+          "year": "2006",
+          "pages": "26-33",
+          "ee": "https://doi.org/10.1007/11784012_4",
+          "author": [
+            {
+              "#text": "Adrian Andronache",
+              "@pid": "75/897"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/wbir/GassSG14",
+          "title": "Registration Fusion Using Markov Random Fields",
+          "booktitle": "WBIR",
+          "year": "2014",
+          "pages": "213-222",
+          "ee": "https://doi.org/10.1007/978-3-319-08554-8_22",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/actaC/SzekelyLHB21",
+          "title": "Protocol State Machine Reverse Engineering with a Teaching-Learning Approach",
+          "journal": "Acta Cybern.",
+          "year": "2021",
+          "pages": "517-535",
+          "ee": "https://doi.org/10.14232/ACTACYB.288213",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gergo Ládi",
+              "@pid": "231/7811"
+            },
+            {
+              "#text": "Levente Buttyán",
+              "@pid": "84/3267"
+            },
+            {
+              "#text": "Tamás Holczer",
+              "@pid": "00/1005"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cars/BakiSKSG15",
+          "title": "Thermal expansion imaging for monitoring lesion depth using M-mode ultrasound during cardiac RF ablation: in vitro study",
+          "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+          "year": "2015",
+          "pages": "681-693",
+          "ee": "https://doi.org/10.1007/S11548-015-1203-4",
+          "author": [
+            {
+              "#text": "Gábor Kósa",
+              "@pid": "75/6699"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Peter Baki",
+              "@pid": "163/7705"
+            },
+            {
+              "#text": "Sergio J. Sanabria",
+              "@pid": "163/7664"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cars/SaurADFSC09",
+          "title": "Guided review by frequent itemset mining: additional evidence for plaque detection",
+          "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+          "year": "2009",
+          "pages": "263-271",
+          "ee": "https://doi.org/10.1007/S11548-009-0290-5",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hatem Alkadhi",
+              "@pid": "67/5568"
+            },
+            {
+              "#text": "Lotus Desbiolles",
+              "@pid": "42/5390"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            },
+            {
+              "#text": "Stefan C. Saur",
+              "@pid": "13/4553"
+            },
+            {
+              "#text": "Thomas J. Fuchs",
+              "@pid": "36/1644"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cars/Serifovic-TrbalicDPSC09",
+          "title": "Intensity-based elastic registration incorporating anisotropic landmark errors and rotational information",
+          "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+          "year": "2009",
+          "pages": "463-468",
+          "ee": "https://doi.org/10.1007/S11548-009-0358-2",
+          "author": [
+            {
+              "#text": "Amira Serifovic-Trbalic",
+              "@pid": "71/10940"
+            },
+            {
+              "#text": "Damir Demirovic",
+              "@pid": "27/10940"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Naser Prljaca",
+              "@pid": "118/5914"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cars/TannerZFSSSMHKS16",
+          "title": "In vivo validation of spatio-temporal liver motion prediction from motion tracked on MR thermometry images",
+          "journal": "Int. J. Comput. Assist. Radiol. Surg.",
+          "year": "2016",
+          "pages": "1143-1152",
+          "ee": "https://doi.org/10.1007/S11548-016-1405-4",
+          "author": [
+            {
+              "#text": "Andreas Melzer",
+              "@pid": "70/10612"
+            },
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "G. Sat",
+              "@pid": "182/3563"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Golnoosh Samei",
+              "@pid": "117/8693"
+            },
+            {
+              "#text": "Graeme Houston",
+              "@pid": "124/6146"
+            },
+            {
+              "#text": "Helen Donald-Simpson",
+              "@pid": "294/0665"
+            },
+            {
+              "#text": "Jan Strehlow",
+              "@pid": "93/11451"
+            },
+            {
+              "#text": "Karen French",
+              "@pid": "169/8057"
+            },
+            {
+              "#text": "Sebastian Kozerke",
+              "@pid": "94/2118"
+            },
+            {
+              "#text": "Tobias Preußer",
+              "@pid": "36/1304"
+            },
+            {
+              "#text": "Y. Zur",
+              "@pid": "182/3976"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-01579",
+          "title": "Modelling Point Spread Function in Fluorescence Microscopy with a Sparse Combination of Gaussian Mixture: Trade-off between Accuracy and Efficiency",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.01579",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            },
+            {
+              "#text": "Prateek Purwar",
+              "@pid": "227/2863"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-1809-01590",
+          "title": "A Bayesian framework for the analog reconstruction of kymographs from fluorescence microscopy data",
+          "journal": "CoRR",
+          "year": "2018",
+          "ee": "https://doi.org/10.48550/ARXIV.1809.01590",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cviu/NafSKSK97",
+          "title": "3D Voronoi Skeletons and Their Usage for the Characterization and Recognition of 3D Organ Shape",
+          "journal": "Comput. Vis. Image Underst.",
+          "year": "1997",
+          "pages": "147-161",
+          "ee": "https://doi.org/10.1006/CVIU.1997.0610",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Martha Elizabeth Shenton",
+              "@pid": "64/6045"
+            },
+            {
+              "#text": "Martin Näf",
+              "@pid": "n/MartinNaf"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Ron Kikinis",
+              "@pid": "k/RonKikinis"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/cviu/NeuenschwanderFSK97",
+          "title": "Velcro Surfaces: Fast Initialization of Deformable Models",
+          "journal": "Comput. Vis. Image Underst.",
+          "year": "1997",
+          "pages": "237-245",
+          "ee": "https://doi.org/10.1006/CVIU.1996.0578",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Pascal Fua",
+              "@pid": "f/PFua"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/iacr/HorvathBSN19",
+          "title": "There Is Always an Exception: Controlling Partial Information Leakage in Secure Computation",
+          "journal": "IACR Cryptol. ePrint Arch.",
+          "year": "2019",
+          "pages": "1302",
+          "author": [
+            {
+              "#text": "Dóra Neubrandt",
+              "@pid": "183/1168"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Levente Buttyán",
+              "@pid": "84/3267"
+            },
+            {
+              "#text": "Máté Horváth",
+              "@pid": "156/9112"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcv/NeuenschwanderFISK97",
+          "title": "Ziplock Snakes",
+          "journal": "Int. J. Comput. Vis.",
+          "year": "1997",
+          "pages": "191-201",
+          "ee": "https://doi.org/10.1023/A:1007924018415",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lee Iverson",
+              "@pid": "38/4496"
+            },
+            {
+              "#text": "Olaf Kübler",
+              "@pid": "27/5657"
+            },
+            {
+              "#text": "Pascal Fua",
+              "@pid": "f/PFua"
+            },
+            {
+              "#text": "Walter M. Neuenschwander",
+              "@pid": "34/6832"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcv/PizerSSDZ03",
+          "title": "Multiscale Medial Loci and Their Properties",
+          "journal": "Int. J. Comput. Vis.",
+          "year": "2003",
+          "pages": "155-179",
+          "ee": "https://doi.org/10.1023/A:1026135101267",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "James N. Damon",
+              "@pid": "18/2373"
+            },
+            {
+              "#text": "Kaleem Siddiqi",
+              "@pid": "s/KaleemSiddiqi"
+            },
+            {
+              "#text": "Stephen M. Pizer",
+              "@pid": "92/41"
+            },
+            {
+              "#text": "Steven W. Zucker",
+              "@pid": "40/1041"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcam/LaadhariS17",
+          "title": "Eulerian finite element method for the numerical modeling of fluid dynamics of natural and pathological aortic valves",
+          "journal": "J. Comput. Appl. Math.",
+          "year": "2017",
+          "pages": "236-261",
+          "ee": "https://doi.org/10.1016/J.CAM.2016.11.042",
+          "author": [
+            {
+              "#text": "Aymen Laadhari",
+              "@pid": "142/9585"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jcphy/LaadhariSMS17",
+          "title": "Fully implicit methodology for the dynamics of biomembranes and capillary interfaces by combining the level set and Newton methods",
+          "journal": "J. Comput. Phys.",
+          "year": "2017",
+          "pages": "271-299",
+          "ee": "https://doi.org/10.1016/J.JCP.2017.04.019",
+          "author": [
+            {
+              "#text": "Aymen Laadhari",
+              "@pid": "142/9585"
+            },
+            {
+              "#text": "Chaouqi Misbah",
+              "@pid": "142/9592"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Pierre Saramito",
+              "@pid": "36/4818"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jvca/HardersWS02",
+          "title": "New paradigms for interactive 3D volume segmentation",
+          "journal": "Comput. Animat. Virtual Worlds",
+          "year": "2002",
+          "pages": "85-95",
+          "ee": "https://doi.org/10.1002/VIS.277",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Simon Wildermuth",
+              "@pid": "13/2161"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/jvca/SnedekerBHSN02",
+          "title": "The creation of a high-fidelity finite element model of the kidney for use in trauma research",
+          "journal": "Comput. Animat. Virtual Worlds",
+          "year": "2002",
+          "pages": "53-64",
+          "ee": "https://doi.org/10.1002/VIS.279",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "J. M. Hug",
+              "@pid": "61/5813"
+            },
+            {
+              "#text": "Jess Gerrit Snedeker",
+              "@pid": "55/4137"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Peter Niederer",
+              "@pid": "52/5456"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ki/SzekelyG00",
+          "title": "Model-based Segmentation of Radiological Images",
+          "journal": "Künstliche Intell.",
+          "year": "2000",
+          "pages": "18-23",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/AndronacheSSC08",
+          "title": "Non-rigid registration of multi-modal images using both mutual information and cross-correlation",
+          "journal": "Medical Image Anal.",
+          "year": "2008",
+          "pages": "3-15",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2007.06.005",
+          "author": [
+            {
+              "#text": "Adrian Andronache",
+              "@pid": "75/897"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Martin von Siebenthal",
+              "@pid": "41/1863"
+            },
+            {
+              "#text": "Philippe C. Cattin",
+              "@pid": "47/2193"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/BlancSSNR12",
+          "title": "Statistical model based shape prediction from a combination of direct observations and various surrogates: Application to orthopaedic research",
+          "journal": "Medical Image Anal.",
+          "year": "2012",
+          "pages": "1156-1166",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2012.04.004",
+          "author": [
+            {
+              "#text": "Christof Seiler",
+              "@pid": "83/7425"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lutz-Peter Nolte",
+              "@pid": "29/32"
+            },
+            {
+              "#text": "Mauricio Reyes",
+              "@pid": "19/3092-1"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/BurckhardtDGHS06",
+          "title": "Measuring orthopedic implant wear on standard radiographs with a precision in the 10 μm-range",
+          "journal": "Medical Image Anal.",
+          "year": "2006",
+          "pages": "520-529",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2006.03.005",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Claudio Dora",
+              "@pid": "61/9138"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jürg Hodler",
+              "@pid": "86/1076"
+            },
+            {
+              "#text": "Kathrin Burckhardt",
+              "@pid": "56/1761"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/BurckhardtGHNS00",
+          "title": "Precision of distance determination using 3D to 2D projections: The error of migration measurement using X-ray images",
+          "journal": "Medical Image Anal.",
+          "year": "2000",
+          "pages": "375-388",
+          "ee": "https://doi.org/10.1016/S1361-8415(00)00025-6",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hubert Nötzli",
+              "@pid": "85/6342"
+            },
+            {
+              "#text": "Jürg Hodler",
+              "@pid": "86/1076"
+            },
+            {
+              "#text": "Kathrin Burckhardt",
+              "@pid": "56/1761"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/FurnstahlSGHSH12",
+          "title": "Computer assisted reconstruction of complex proximal humerus fractures for preoperative planning",
+          "journal": "Medical Image Anal.",
+          "year": "2012",
+          "pages": "704-720",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2010.07.012",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jess Gerrit Snedeker",
+              "@pid": "55/4137"
+            },
+            {
+              "#text": "Jürg Hodler",
+              "@pid": "86/1076"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Philipp Fürnstahl",
+              "@pid": "10/1589"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/GerigWGCS00",
+          "title": "Exploring the discrimination power of the time domain for segmentation and characterization of active lesions in serial MR data",
+          "journal": "Medical Image Anal.",
+          "year": "2000",
+          "pages": "31-42",
+          "ee": "https://doi.org/10.1016/S1361-8415(00)00005-0",
+          "author": [
+            {
+              "#text": "Alan C. F. Colchester",
+              "@pid": "01/3169"
+            },
+            {
+              "#text": "Charles R. G. Guttmann",
+              "@pid": "16/3911"
+            },
+            {
+              "#text": "Daniel Welti",
+              "@pid": "38/156"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/HataS03",
+          "title": "Editorial",
+          "journal": "Medical Image Anal.",
+          "year": "2003",
+          "pages": "401",
+          "ee": "https://doi.org/10.1016/S1361-8415(03)00065-3",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Nobuhiko Hata",
+              "@pid": "29/5466"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/KauerVDSB02",
+          "title": "Inverse finite element characterization of soft tissues",
+          "journal": "Medical Image Anal.",
+          "year": "2002",
+          "pages": "275-287",
+          "ee": "https://doi.org/10.1016/S1361-8415(02)00085-3",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Jurg Dual",
+              "@pid": "166/3686"
+            },
+            {
+              "#text": "Martin Kauer",
+              "@pid": "152/9397"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Vladimir Vuskovic",
+              "@pid": "280/4731"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/RempflerSIXSKSA15",
+          "title": "Reconstructing cerebrovascular networks under local physiological constraints by integer programming",
+          "journal": "Medical Image Anal.",
+          "year": "2015",
+          "pages": "86-94",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2015.03.008",
+          "author": [
+            {
+              "#text": "Bjoern Andres",
+              "@pid": "150/3439"
+            },
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Giovanna D. Ielacqua",
+              "@pid": "150/3143"
+            },
+            {
+              "#text": "Jan Klohs",
+              "@pid": "150/3207"
+            },
+            {
+              "#text": "Markus Rempfler",
+              "@pid": "150/3312"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Stuart R. Stock",
+              "@pid": "128/5637"
+            },
+            {
+              "#text": "Xianghui Xiao",
+              "@pid": "124/2296"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SchneiderHWSM15",
+          "title": "Joint 3-D vessel segmentation and centerline extraction using oblique Hough forests with steerable filters",
+          "journal": "Medical Image Anal.",
+          "year": "2015",
+          "pages": "220-249",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2014.09.007",
+          "author": [
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Bruno Weber",
+              "@pid": "97/10171"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SchneiderRWSH12",
+          "title": "Tissue metabolism driven arterial tree generation",
+          "journal": "Medical Image Anal.",
+          "year": "2012",
+          "pages": "1397-1414",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2012.04.009",
+          "author": [
+            {
+              "#text": "Bruno Weber",
+              "@pid": "97/10171"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Johannes Reichold",
+              "@pid": "119/9099"
+            },
+            {
+              "#text": "Matthias Schneider",
+              "@pid": "79/2065-2"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SierraBS06",
+          "title": "Tumor growth models to generate pathologies for surgical training simulators",
+          "journal": "Medical Image Anal.",
+          "year": "2006",
+          "pages": "305-316",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2005.11.004",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SierraZSB06",
+          "title": "Generation of variable anatomical models for surgical training simulators",
+          "journal": "Medical Image Anal.",
+          "year": "2006",
+          "pages": "275-285",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2005.11.003",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gabriel Zsemlye",
+              "@pid": "85/4301"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SzekelyBHRIS00",
+          "title": "Modelling of soft tissue deformation for laparoscopic surgery simulation",
+          "journal": "Medical Image Anal.",
+          "year": "2000",
+          "pages": "57-66",
+          "ee": "https://doi.org/10.1016/S1361-8415(00)00002-5",
+          "author": [
+            {
+              "#text": "Alex Rhomberg",
+              "@pid": "36/1705"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Nicholas Ironmonger",
+              "@pid": "79/4566"
+            },
+            {
+              "#text": "P. Schmid",
+              "@pid": "02/2900"
+            },
+            {
+              "#text": "R. Hutter",
+              "@pid": "25/136"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SzekelyKBG96",
+          "title": "Segmentation of 2-D and 3-D objects from MRI volume data using constrained elastic deformations of flexible Fourier contour and surface models",
+          "journal": "Medical Image Anal.",
+          "year": "1996",
+          "pages": "19-34",
+          "ee": "https://doi.org/10.1016/S1361-8415(01)80003-7",
+          "author": [
+            {
+              "#text": "András Kelemen",
+              "@pid": "15/5881"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/SzekelyN16",
+          "title": "Image guidance in orthopaedics and traumatology: A historical perspective",
+          "journal": "Medical Image Anal.",
+          "year": "2016",
+          "pages": "79-83",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2016.06.033",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lutz-Peter Nolte",
+              "@pid": "29/32"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/TannerSLKS13",
+          "title": "Improved location features for linkage of regions across ipsilateral mammograms",
+          "journal": "Medical Image Anal.",
+          "year": "2013",
+          "pages": "1265-1272",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2013.05.001",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido van Schie",
+              "@pid": "32/4246"
+            },
+            {
+              "#text": "Jan M. Lesniak",
+              "@pid": "117/1682"
+            },
+            {
+              "#text": "Nico Karssemeijer",
+              "@pid": "09/93"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/TschannenVGSF16",
+          "title": "Regression forest-based automatic estimation of the articular margin plane for shoulder prosthesis planning",
+          "journal": "Medical Image Anal.",
+          "year": "2016",
+          "pages": "88-97",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2016.02.008",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lazaros Vlachopoulos",
+              "@pid": "145/3570"
+            },
+            {
+              "#text": "Michael Tschannen",
+              "@pid": "134/9824"
+            },
+            {
+              "#text": "Philipp Fürnstahl",
+              "@pid": "10/1589"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/TuchschmidBSLSH08",
+          "title": "Modeling intravasation of liquid distension media in surgical simulators",
+          "journal": "Medical Image Anal.",
+          "year": "2008",
+          "pages": "567-576",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2008.06.007",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Stefan Tuchschmid",
+              "@pid": "67/4214"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/VlachopoulosSGF18",
+          "title": "A scale-space curvature matching algorithm for the reconstruction of complex proximal humeral fractures",
+          "journal": "Medical Image Anal.",
+          "year": "2018",
+          "pages": "142-156",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2017.10.006",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Lazaros Vlachopoulos",
+              "@pid": "145/3570"
+            },
+            {
+              "#text": "Philipp Fürnstahl",
+              "@pid": "10/1589"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mia/ZatonyiPSGB05",
+          "title": "Real-time synthesis of bleeding for virtual hysteroscopy",
+          "journal": "Medical Image Anal.",
+          "year": "2005",
+          "pages": "255-266",
+          "ee": "https://doi.org/10.1016/J.MEDIA.2004.11.008",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "János Zátonyi",
+              "@pid": "94/4489"
+            },
+            {
+              "#text": "Markus Grassi",
+              "@pid": "26/9144"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Rupert Paget",
+              "@pid": "59/1675"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/mva/MooserFHSS13",
+          "title": "Estimation of affine transformations directly from tomographic projections in two and three dimensions",
+          "journal": "Mach. Vis. Appl.",
+          "year": "2013",
+          "pages": "419-434",
+          "ee": "https://doi.org/10.1007/S00138-011-0376-2",
+          "author": [
+            {
+              "#text": "Erwin Hack",
+              "@pid": "124/2105"
+            },
+            {
+              "#text": "Fredrik Forsberg",
+              "@pid": "124/2179"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "René Mooser",
+              "@pid": "124/2131"
+            },
+            {
+              "#text": "Urs Sennhauser",
+              "@pid": "55/6506"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/neuroimage/KrauthBPJMS10",
+          "title": "A mean three-dimensional atlas of the human thalamus: Generation from multiple histological data",
+          "journal": "NeuroImage",
+          "year": "2010",
+          "pages": "2053-2062",
+          "ee": "https://doi.org/10.1016/J.NEUROIMAGE.2009.10.042",
+          "author": [
+            {
+              "#text": "Alejandra Poveda",
+              "@pid": "116/4013"
+            },
+            {
+              "#text": "Anne Morel",
+              "@pid": "50/2692"
+            },
+            {
+              "#text": "Axel Krauth",
+              "@pid": "116/3908"
+            },
+            {
+              "#text": "Daniel Jeanmonod",
+              "@pid": "06/5482"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pieee/HardersS03",
+          "title": "Enhancing human-computer interaction in medical segmentation",
+          "journal": "Proc. IEEE",
+          "year": "2003",
+          "pages": "1430-1442",
+          "ee": "https://doi.org/10.1109/JPROC.2003.817125",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pr/KiryatiS93",
+          "title": "Estimating shortest paths and minimal distances on digitized three-dimensional surfaces",
+          "journal": "Pattern Recognit.",
+          "year": "1993",
+          "pages": "1623-1637",
+          "ee": "https://doi.org/10.1016/0031-3203(93)90018-R",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Nahum Kiryati",
+              "@pid": "69/1868"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/presence/HardersBGBSTHSSTZS08",
+          "title": "Virtual Reality Based Simulation of Hysteroscopic Interventions",
+          "journal": "Presence Teleoperators Virtual Environ.",
+          "year": "2008",
+          "pages": "441-462",
+          "ee": "https://doi.org/10.1162/PRES.17.5.441",
+          "author": [
+            {
+              "#text": "Bruno Heidelberger",
+              "@pid": "12/3088"
+            },
+            {
+              "#text": "Daniel Bachofen",
+              "@pid": "11/995"
+            },
+            {
+              "#text": "Denis Steinemann",
+              "@pid": "44/840"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "János Zátonyi",
+              "@pid": "94/4489"
+            },
+            {
+              "#text": "Markus Grassi",
+              "@pid": "26/9144"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Matthias Teschner",
+              "@pid": "15/6664"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Raimundo Sierra",
+              "@pid": "48/2174"
+            },
+            {
+              "#text": "Stefan Tuchschmid",
+              "@pid": "67/4214"
+            },
+            {
+              "#text": "Ulrich Spaelter",
+              "@pid": "58/551"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/presence/SzekelyBBDEHHHIKMNRSSTVT00",
+          "title": "Virtual Reality Based Simulation of Endoscopic Surgery",
+          "journal": "Presence Teleoperators Virtual Environ.",
+          "year": "2000",
+          "pages": "310-333",
+          "ee": "https://doi.org/10.1162/105474600566817",
+          "author": [
+            {
+              "#text": "Alex Rhomberg",
+              "@pid": "36/1705"
+            },
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "G. Schweitzer",
+              "@pid": "66/672"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gerhard Tröster",
+              "@pid": "50/1065"
+            },
+            {
+              "#text": "Johannes Hug",
+              "@pid": "95/4009"
+            },
+            {
+              "#text": "Jurg Dual",
+              "@pid": "166/3686"
+            },
+            {
+              "#text": "Markus Thaler",
+              "@pid": "52/2653"
+            },
+            {
+              "#text": "Martin Kauer",
+              "@pid": "152/9397"
+            },
+            {
+              "#text": "Michael Bajka",
+              "@pid": "86/47"
+            },
+            {
+              "#text": "Nicholas Ironmonger",
+              "@pid": "79/4566"
+            },
+            {
+              "#text": "P. Schmid",
+              "@pid": "02/2900"
+            },
+            {
+              "#text": "Peter Niederer",
+              "@pid": "52/5456"
+            },
+            {
+              "#text": "R. Hutter",
+              "@pid": "25/136"
+            },
+            {
+              "#text": "Rolf Enzler",
+              "@pid": "56/4120"
+            },
+            {
+              "#text": "U. Haller",
+              "@pid": "54/5065"
+            },
+            {
+              "#text": "V. Meier",
+              "@pid": "36/832"
+            },
+            {
+              "#text": "Vladimir Vuskovic",
+              "@pid": "280/4731"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "journals/procedia/SzczerbaNZSK10",
+          "title": "Unstructured mesh generation from the Virtual Family models for whole body biomedical simulations",
+          "booktitle": "ICCS",
+          "year": "2010",
+          "pages": "837-844",
+          "ee": "https://doi.org/10.1016/J.PROCS.2010.04.091",
+          "author": [
+            {
+              "#text": "Dominik Szczerba",
+              "@pid": "17/3873"
+            },
+            {
+              "#text": "Esra Neufeld",
+              "@pid": "05/7434"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Marcel Zefferer",
+              "@pid": "63/8769"
+            },
+            {
+              "#text": "Niels Kuster",
+              "@pid": "64/4302"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tbe/CrimiMBTSG16",
+          "title": "Automatic Measurement of Venous Pressure Using B-Mode Ultrasound",
+          "journal": "IEEE Trans. Biomed. Eng.",
+          "year": "2016",
+          "pages": "288-299",
+          "ee": "https://doi.org/10.1109/TBME.2015.2455953",
+          "author": [
+            {
+              "#text": "Alessandro Crimi",
+              "@pid": "60/9945"
+            },
+            {
+              "#text": "Christoph Thalhammer",
+              "@pid": "174/8306"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Maxim Makhinya",
+              "@pid": "15/7527"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Ulrich Baumann",
+              "@pid": "41/4272"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tbe/GessatHPRFSHMSF14",
+          "title": "Image-Based Mechanical Analysis of Stent Deformation: Concept and Exemplary Implementation for Aortic Valve Stents",
+          "journal": "IEEE Trans. Biomed. Eng.",
+          "year": "2014",
+          "pages": "4-15",
+          "ee": "https://doi.org/10.1109/TBME.2013.2273496",
+          "author": [
+            {
+              "#text": "Christoph Russ",
+              "@pid": "12/2283"
+            },
+            {
+              "#text": "Edoardo Mazza",
+              "@pid": "79/378"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Michael Gessat",
+              "@pid": "55/1797"
+            },
+            {
+              "#text": "Raoul Hopf",
+              "@pid": "139/8947"
+            },
+            {
+              "#text": "Simon H. Sündermann",
+              "@pid": "152/3949"
+            },
+            {
+              "#text": "Sven Hirsch",
+              "@pid": "62/1119"
+            },
+            {
+              "#text": "Thomas Frauenfelder",
+              "@pid": "139/9066"
+            },
+            {
+              "#text": "Thomas Pollok",
+              "@pid": "119/8668"
+            },
+            {
+              "#text": "Volkmar Falk",
+              "@pid": "60/4048"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/GassSG14",
+          "title": "Simultaneous Segmentation and Multiresolution Nonrigid Atlas Registration",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2014",
+          "pages": "2931-2943",
+          "ee": "https://doi.org/10.1109/TIP.2014.2322447",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/SamuylovPSP19",
+          "title": "Modeling Point Spread Function in Fluorescence Microscopy With a Sparse Gaussian Mixture: Tradeoff Between Accuracy and Efficiency",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2019",
+          "pages": "3688-3702",
+          "ee": "https://doi.org/10.1109/TIP.2019.2898843",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            },
+            {
+              "#text": "Prateek Purwar",
+              "@pid": "227/2863"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tip/SamuylovSP19",
+          "title": "A Bayesian Framework for the Analog Reconstruction of Kymographs From Fluorescence Microscopy Data",
+          "journal": "IEEE Trans. Image Process.",
+          "year": "2019",
+          "pages": "410-425",
+          "ee": "https://doi.org/10.1109/TIP.2018.2867946",
+          "author": [
+            {
+              "#text": "Denis K. Samuylov",
+              "@pid": "165/7969"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Grégory Paul",
+              "@pid": "86/8708"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/BlancS12",
+          "title": "Confidence Regions for Statistical Model Based Shape Prediction From Sparse Observations",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2012",
+          "pages": "1300-1310",
+          "ee": "https://doi.org/10.1109/TMI.2012.2188904",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Rémi Blanc",
+              "@pid": "91/7422"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/BurckhardtSNHG05",
+          "title": "Submillimeter measurement of cup migration in clinical standard radiographs",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2005",
+          "pages": "676-688",
+          "ee": "https://doi.org/10.1109/TMI.2005.846849",
+          "author": [
+            {
+              "#text": "Christian Gerber",
+              "@pid": "g/ChristianGerber"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Hubert Nötzli",
+              "@pid": "85/6342"
+            },
+            {
+              "#text": "Jürg Hodler",
+              "@pid": "86/1076"
+            },
+            {
+              "#text": "Kathrin Burckhardt",
+              "@pid": "56/1761"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/KelemenSG99",
+          "title": "Elastic Model-Based Segmentation of 3-D Neuroradiological Data Sets",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "1999",
+          "pages": "828-839",
+          "ee": "https://doi.org/10.1109/42.811260",
+          "author": [
+            {
+              "#text": "András Kelemen",
+              "@pid": "15/5881"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/MenzeJBKFKBPSWL15",
+          "title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2015",
+          "pages": "1993-2024",
+          "ee": "https://doi.org/10.1109/TMI.2014.2377694",
+          "author": [
+            {
+              "#text": "Andac Hamamci",
+              "@pid": "32/8528"
+            },
+            {
+              "#text": "András Jakab",
+              "@pid": "156/3027"
+            },
+            {
+              "#text": "Antonio Criminisi",
+              "@pid": "c/AntonioCriminisi"
+            },
+            {
+              "#text": "Ben Glocker",
+              "@pid": "86/2890"
+            },
+            {
+              "#text": "Binsheng Zhao",
+              "@pid": "61/1741"
+            },
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Brian B. Avants",
+              "@pid": "04/6739"
+            },
+            {
+              "#text": "Çagatay Demiralp",
+              "@pid": "74/20"
+            },
+            {
+              "#text": "Carlos A. Silva",
+              "@pid": "36/1049-2"
+            },
+            {
+              "#text": "Christopher R. Durst",
+              "@pid": "163/1345"
+            },
+            {
+              "#text": "D. Louis Collins",
+              "@pid": "c/DLouisCollins"
+            },
+            {
+              "#text": "Danial Lashkari",
+              "@pid": "65/2300"
+            },
+            {
+              "#text": "Darko Zikic",
+              "@pid": "63/2085"
+            },
+            {
+              "#text": "Doina Precup",
+              "@pid": "p/DoinaPrecup"
+            },
+            {
+              "#text": "Dong Hye Ye",
+              "@pid": "90/9123"
+            },
+            {
+              "#text": "Duygu Sarikaya",
+              "@pid": "07/9489"
+            },
+            {
+              "#text": "Elizabeth R. Gerstner",
+              "@pid": "165/7810"
+            },
+            {
+              "#text": "Ender Konukoglu",
+              "@pid": "45/7041"
+            },
+            {
+              "#text": "Ezequiel Geremia",
+              "@pid": "72/8525"
+            },
+            {
+              "#text": "Flor Vasseur",
+              "@pid": "169/0693"
+            },
+            {
+              "#text": "Florence Forbes",
+              "@pid": "87/78"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gozde Unal",
+              "@pid": "78/3600"
+            },
+            {
+              "#text": "Hervé Delingette",
+              "@pid": "d/HerveDelingette"
+            },
+            {
+              "#text": "Hoo-Chang Shin",
+              "@pid": "119/7225"
+            },
+            {
+              "#text": "Jamie Shotton",
+              "@pid": "47/572"
+            },
+            {
+              "#text": "Jason J. Corso",
+              "@pid": "68/2447"
+            },
+            {
+              "#text": "Jayashree Kalpathy-Cramer",
+              "@pid": "50/3269"
+            },
+            {
+              "#text": "Joana Festa",
+              "@pid": "169/0686"
+            },
+            {
+              "#text": "Johannes Slotboom",
+              "@pid": "149/7692"
+            },
+            {
+              "#text": "José Antonio Mariz",
+              "@pid": "167/8832"
+            },
+            {
+              "#text": "Justin S. Kirby",
+              "@pid": "42/10803"
+            },
+            {
+              "#text": "Keyvan Farahani",
+              "@pid": "169/0697"
+            },
+            {
+              "#text": "Khan M. Iftekharuddin",
+              "@pid": "10/4321"
+            },
+            {
+              "#text": "Koenraad Van Leemput",
+              "@pid": "l/KoenraadVanLeemput"
+            },
+            {
+              "#text": "Lawrence H. Schwartz",
+              "@pid": "93/3813"
+            },
+            {
+              "#text": "Levente Lanczi",
+              "@pid": "169/0687"
+            },
+            {
+              "#text": "Liang Zhao",
+              "@pid": "63/5422-18"
+            },
+            {
+              "#text": "Marc-André Weber",
+              "@pid": "49/8400"
+            },
+            {
+              "#text": "Marcel Prastawa",
+              "@pid": "56/6898"
+            },
+            {
+              "#text": "Mauricio Reyes",
+              "@pid": "19/3092-1"
+            },
+            {
+              "#text": "Max Wintermark",
+              "@pid": "163/1352"
+            },
+            {
+              "#text": "Michael T. Ryan",
+              "@pid": "92/3370"
+            },
+            {
+              "#text": "Michel Dojat",
+              "@pid": "65/4103"
+            },
+            {
+              "#text": "Nagesh K. Subbanna",
+              "@pid": "95/6623"
+            },
+            {
+              "#text": "Nicholas Ayache",
+              "@pid": "a/NicholasAyache"
+            },
+            {
+              "#text": "Nicholas J. Tustison",
+              "@pid": "63/4561"
+            },
+            {
+              "#text": "Nicolas Cordier",
+              "@pid": "169/0689"
+            },
+            {
+              "#text": "Nicole Porz",
+              "@pid": "149/7434"
+            },
+            {
+              "#text": "Nigel M. John",
+              "@pid": "26/1965"
+            },
+            {
+              "#text": "Nuno J. Sousa",
+              "@pid": "157/3477"
+            },
+            {
+              "#text": "Owen M. Thomas",
+              "@pid": "139/8994"
+            },
+            {
+              "#text": "Patricia Buendia",
+              "@pid": "55/2651"
+            },
+            {
+              "#text": "Polina Golland",
+              "@pid": "g/PolinaGolland"
+            },
+            {
+              "#text": "Raj Jena",
+              "@pid": "121/5306"
+            },
+            {
+              "#text": "Raphael Meier",
+              "@pid": "149/7569"
+            },
+            {
+              "#text": "Roland Wiest",
+              "@pid": "87/10741"
+            },
+            {
+              "#text": "Senan Doyle",
+              "@pid": "03/9381"
+            },
+            {
+              "#text": "Sérgio Pereira",
+              "@pid": "167/8895"
+            },
+            {
+              "#text": "Stefan Bauer",
+              "@pid": "45/9110"
+            },
+            {
+              "#text": "Stephen J. Price",
+              "@pid": "118/9592"
+            },
+            {
+              "#text": "Syed M. S. Reza",
+              "@pid": "139/8557"
+            },
+            {
+              "#text": "Tal Arbel",
+              "@pid": "20/1315"
+            },
+            {
+              "#text": "Tammy Riklin-Raviv",
+              "@pid": "87/6827"
+            },
+            {
+              "#text": "Thomas J. Taylor",
+              "@pid": "45/6900"
+            },
+            {
+              "#text": "Tilak Das",
+              "@pid": "169/0692"
+            },
+            {
+              "#text": "Xiaotao Guo",
+              "@pid": "81/2362"
+            },
+            {
+              "#text": "Yuliya Burren",
+              "@pid": "116/8163"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/MenzeLLRGAGWWSA16",
+          "title": "A Generative Probabilistic Model and Discriminative Extensions for Brain Lesion Segmentation - With Application to Tumor and Stroke",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2016",
+          "pages": "933-946",
+          "ee": "https://doi.org/10.1109/TMI.2015.2502596",
+          "author": [
+            {
+              "#text": "Bjoern Menze",
+              "@pid": "74/6505"
+            },
+            {
+              "#text": "Danial Lashkari",
+              "@pid": "65/2300"
+            },
+            {
+              "#text": "Esther Alberts",
+              "@pid": "177/6023"
+            },
+            {
+              "#text": "Ezequiel Geremia",
+              "@pid": "72/8525"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Koenraad Van Leemput",
+              "@pid": "l/KoenraadVanLeemput"
+            },
+            {
+              "#text": "Marc-André Weber",
+              "@pid": "49/8400"
+            },
+            {
+              "#text": "Nicholas Ayache",
+              "@pid": "a/NicholasAyache"
+            },
+            {
+              "#text": "Philipp Gruber",
+              "@pid": "177/5853"
+            },
+            {
+              "#text": "Polina Golland",
+              "@pid": "g/PolinaGolland"
+            },
+            {
+              "#text": "Susanne Wegener",
+              "@pid": "177/5764"
+            },
+            {
+              "#text": "Tammy Riklin-Raviv",
+              "@pid": "87/6827"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/StynerBSG00",
+          "title": "Parametric Estimate of Intensity Inhomogeneities Applied to MRI",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2000",
+          "pages": "153-165",
+          "ee": "https://doi.org/10.1109/42.845174",
+          "author": [
+            {
+              "#text": "Christian Brechbühler",
+              "@pid": "54/5001"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Guido Gerig",
+              "@pid": "g/GuidoGerig"
+            },
+            {
+              "#text": "Martin Styner",
+              "@pid": "s/MAStyner"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tmi/VishnevskiyGSTG17",
+          "title": "Isotropic Total Variation Regularization of Displacements in Parametric Image Registration",
+          "journal": "IEEE Trans. Medical Imaging",
+          "year": "2017",
+          "pages": "385-395",
+          "ee": "https://doi.org/10.1109/TMI.2016.2610583",
+          "author": [
+            {
+              "#text": "Christine Tanner",
+              "@pid": "28/2834"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Orcun Goksel",
+              "@pid": "44/767"
+            },
+            {
+              "#text": "Tobias Gass",
+              "@pid": "87/3469"
+            },
+            {
+              "#text": "Valeriy Vishnevskiy",
+              "@pid": "165/8047"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/toh/HoverKSH09",
+          "title": "Data-Driven Haptic Rendering—From Viscous Fluids to Visco-Elastic Solids",
+          "journal": "IEEE Trans. Haptics",
+          "year": "2009",
+          "pages": "15-27",
+          "ee": "https://doi.org/10.1109/TOH.2009.2",
+          "author": [
+            {
+              "#text": "Gábor Kósa",
+              "@pid": "75/6699"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Raphael Höver",
+              "@pid": "78/7587"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvcg/HardersBKS09",
+          "title": "Calibration, Registration, and Synchronization for High Precision Augmented Reality Haptics",
+          "journal": "IEEE Trans. Vis. Comput. Graph.",
+          "year": "2009",
+          "pages": "138-149",
+          "ee": "https://doi.org/10.1109/TVCG.2008.63",
+          "author": [
+            {
+              "#text": "Benjamin Knoerlein",
+              "@pid": "47/6821"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Gérald Bianchi",
+              "@pid": "16/1235"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tvcg/LloydSH07",
+          "title": "Identification of Spring Parameters for Deformable Object Simulation",
+          "journal": "IEEE Trans. Vis. Comput. Graph.",
+          "year": "2007",
+          "pages": "1081-1094",
+          "ee": "https://doi.org/10.1109/TVCG.2007.1055",
+          "author": [
+            {
+              "#text": "Bryn A. Lloyd",
+              "@pid": "80/5479"
+            },
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "series/star/HardersLCES08",
+          "title": "Design and Evaluation of Haptic Soft Tissue Interaction",
+          "journal": "The Sense of Touch and its Rendering",
+          "year": "2008",
+          "pages": "225-244",
+          "ee": "https://doi.org/10.1007/978-3-540-79035-8_11",
+          "author": [
+            {
+              "#text": "Gábor Székely",
+              "@pid": "41/1233"
+            },
+            {
+              "#text": "Marc O. Ernst",
+              "@pid": "23/5845"
+            },
+            {
+              "#text": "Matthias Harders",
+              "@pid": "56/4725"
+            },
+            {
+              "#text": "Peter Leskovský",
+              "@pid": "27/11173"
+            },
+            {
+              "#text": "Theresa Cooke",
+              "@pid": "45/208"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

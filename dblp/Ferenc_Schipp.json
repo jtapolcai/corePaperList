@@ -1,303 +1,466 @@
 {
   "dblpperson": {
+    "@name": "Ferenc Schipp",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/memea/SoumelidisFS12",
-        "title": "Comparison of the corneal surface representations based on Chebyshev polynomials.",
-        "pages": "1-6",
-        "year": "2012",
-        "booktitle": "MeMeA",
-        "ee": "https://doi.org/10.1109/MeMeA.2012.6226651",
-        "url": "db/conf/memea/memea2012.html#SoumelidisFS12",
-        "authors": [
-          "Alexandros Soumelidis",
-          "ZoltÃ¡n Fazekas",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/amcc/DozsaUSSB25",
+          "title": "System identification with generalized Prony schemes",
+          "booktitle": "ACC",
+          "year": "2025",
+          "pages": "5086-5092",
+          "ee": "https://doi.org/10.23919/ACC63710.2025.11107575",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Gergo Ungvári",
+              "@pid": "380/7168"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/SoumelidisFS05",
-        "title": "Geometrical description of quasi-hemispherical and calotte-like surfaces using discretised argument-transformed Chebyshev-polynomials.",
-        "pages": "1619-1624",
-        "year": "2005",
-        "booktitle": "CDC/ECC",
-        "ee": "https://doi.org/10.1109/CDC.2005.1582390",
-        "url": "db/conf/cdc/cdc2005.html#SoumelidisFS05",
-        "authors": [
-          "Alexandros Soumelidis",
-          "Zoltain Fazekas",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/biostec/SoumelidisFSENC08",
+          "title": "Development of a Multi-Camera Corneal Topographer - Using an Embedded Computing Approach",
+          "booktitle": "BIODEVICES (1)",
+          "year": "2008",
+          "pages": "126-129",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "András Edelmayer",
+              "@pid": "20/3185"
+            },
+            {
+              "#text": "Béla Csákány",
+              "@pid": "36/5310"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "János Németh",
+              "@pid": "74/3716"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/SoumelidisSB11",
-        "title": "Pole structure estimation from laguerre representations using hyperbolic metrics on the unit disc.",
-        "pages": "2136-2141",
-        "year": "2011",
-        "booktitle": "CDC/ECC",
-        "ee": "https://www.wikidata.org/entity/Q57735580",
-        "url": "db/conf/cdc/cdc2011.html#SoumelidisSB11",
-        "authors": [
-          "Alexandros Soumelidis",
-          "Ferenc Schipp",
-          "Jozsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/SoumelidisBS13",
+          "title": "An iterative identification of pole-stucture in dynamic systems based on hyperbolic metrics and Malmquist-Takenaka representation",
+          "booktitle": "CDC",
+          "year": "2013",
+          "pages": "5180-5185",
+          "ee": "https://doi.org/10.1109/CDC.2013.6760703",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cdc/SoumelidisBS13",
-        "title": "An iterative identification of pole-stucture in dynamic systems based on hyperbolic metrics and Malmquist-Takenaka representation.",
-        "pages": "5180-5185",
-        "year": "2013",
-        "booktitle": "CDC",
-        "ee": "https://www.wikidata.org/entity/Q57735355",
-        "url": "db/conf/cdc/cdc2013.html#SoumelidisBS13",
-        "authors": [
-          "Alexandros Soumelidis",
-          "Jozsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/SoumelidisFS05",
+          "title": "Geometrical description of quasi-hemispherical and calotte-like surfaces using discretised argument-transformed Chebyshev-polynomials",
+          "booktitle": "CDC/ECC",
+          "year": "2005",
+          "pages": "1619-1624",
+          "ee": "https://doi.org/10.1109/CDC.2005.1582390",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Zoltain Fazekas",
+              "@pid": "312/4569"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/amcc/DozsaUSSB25",
-        "title": "System identification with generalized Prony schemes.",
-        "pages": "5086-5092",
-        "year": "2025",
-        "booktitle": "ACC",
-        "ee": "https://doi.org/10.23919/ACC63710.2025.11107575",
-        "url": "db/conf/amcc/acc2025.html#DozsaUSSB25",
-        "authors": [
-          "TamÃ¡s DÃ³zsa",
-          "Gergo UngvÃ¡ri",
-          "Alexandros Soumelidis",
-          "Ferenc Schipp",
-          "JÃ³zsef Bokor"
-        ]
+        "inproceedings": {
+          "@key": "conf/cdc/SoumelidisSB11",
+          "title": "Pole structure estimation from laguerre representations using hyperbolic metrics on the unit disc",
+          "booktitle": "CDC/ECC",
+          "year": "2011",
+          "pages": "2136-2141",
+          "ee": "https://doi.org/10.1109/CDC.2011.6160657",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icinco/SoumelidisBS12",
-        "title": "Applying Hyperbolic Wavelets in Frequency Domain Identification.",
-        "pages": "532-535",
-        "year": "2012",
-        "booktitle": "ICINCO (1)",
-        "url": "db/conf/icinco/icinco2012-1.html#SoumelidisBS12",
-        "authors": [
-          "Alexandros Soumelidis",
-          "Jozsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/eurocast/FridliLS11",
+          "title": "Rational Function Systems in ECG Processing",
+          "booktitle": "EUROCAST (1)",
+          "year": "2012",
+          "pages": "88-95",
+          "ee": "https://doi.org/10.1007/978-3-642-27549-4_12",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Levente Lócsi",
+              "@pid": "11/10831"
+            },
+            {
+              "#text": "Sándor Fridli",
+              "@pid": "23/5063"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/biostec/SoumelidisFSENC08",
-        "title": "Development of a Multi-Camera Corneal Topographer - Using an Embedded Computing Approach.",
-        "pages": "126-129",
-        "year": "2008",
-        "booktitle": "BIODEVICES (1)",
-        "url": "db/conf/biostec/biodevices2008-1.html#SoumelidisFSENC08",
-        "authors": [
-          "Alexandros Soumelidis",
-          "ZoltÃ¡n Fazekas",
-          "Ferenc Schipp",
-          "AndrÃ¡s Edelmayer",
-          "JÃ¡nos NÃ©meth",
-          "BÃ©la CsÃ¡kÃ¡ny"
-        ]
+        "inproceedings": {
+          "@key": "conf/eurocast/NemethSW19",
+          "title": "Hyperbolic Transformations of Zernike Functions and Coefficients",
+          "booktitle": "EUROCAST (2)",
+          "year": "2020",
+          "pages": "380-387",
+          "ee": "https://doi.org/10.1007/978-3-030-45096-0_47",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Ferenc Weisz",
+              "@pid": "22/1296"
+            },
+            {
+              "#text": "Zsolt Németh",
+              "@pid": "74/2918"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/SoumelidisBS13",
-        "title": "Realizing system poles identification on the unit disc based on Laguerre representations and hyperbolic metrics.",
-        "pages": "1208-1213",
-        "year": "2013",
-        "booktitle": "MED",
-        "ee": "https://www.wikidata.org/entity/Q57735435",
-        "url": "db/conf/med/med2013.html#SoumelidisBS13",
-        "authors": [
-          "Alexandros Soumelidis",
-          "Jozsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/icinco/SoumelidisBS12",
+          "title": "Applying Hyperbolic Wavelets in Frequency Domain Identification",
+          "booktitle": "ICINCO (1)",
+          "year": "2012",
+          "pages": "532-535",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eurocast/FridliLS11",
-        "title": "Rational Function Systems in ECG Processing.",
-        "pages": "88-95",
-        "year": "2011",
-        "booktitle": "EUROCAST (1)",
-        "ee": "https://doi.org/10.1007/978-3-642-27549-4_12",
-        "url": "db/conf/eurocast/eurocast2011-1.html#FridliLS11",
-        "authors": [
-          "SÃ¡ndor Fridli",
-          "Levente LÃ³csi",
-          "Ferenc Schipp"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/SoumelidisBS13",
+          "title": "Realizing system poles identification on the unit disc based on Laguerre representations and hyperbolic metrics",
+          "booktitle": "MED",
+          "year": "2013",
+          "pages": "1208-1213",
+          "ee": "https://doi.org/10.1109/MED.2013.6608873",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eurocast/NemethSW19",
-        "title": "Hyperbolic Transformations of Zernike Functions and Coefficients.",
-        "pages": "380-387",
-        "year": "2019",
-        "booktitle": "EUROCAST (2)",
-        "ee": "https://doi.org/10.1007/978-3-030-45096-0_47",
-        "url": "db/conf/eurocast/eurocast2019-2.html#NemethSW19",
-        "authors": [
-          "Zsolt NÃ©meth",
-          "Ferenc Schipp",
-          "Ferenc Weisz"
-        ]
+        "inproceedings": {
+          "@key": "conf/memea/SoumelidisFS12",
+          "title": "Comparison of the corneal surface representations based on Chebyshev polynomials",
+          "booktitle": "MeMeA",
+          "year": "2012",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/MEMEA.2012.6226651",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Zoltán Fazekas",
+              "@pid": "07/1459"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tsp/KovacsFS20",
-        "title": "Generalized Rational Variable Projection With Application in ECG Compression.",
-        "pages": "478-492",
-        "year": "2020",
-        "volume": "68",
-        "journal": "IEEE Trans. Signal Process.",
-        "ee": "https://doi.org/10.1109/TSP.2019.2961234",
-        "url": "db/journals/tsp/tsp68.html#KovacsFS20",
-        "authors": [
-          "PÃ©ter KovÃ¡cs 0001",
-          "SÃ¡ndor Fridli",
-          "Ferenc Schipp"
-        ]
+        "article": {
+          "@key": "journals/automatica/BokorS98",
+          "title": "Approximate Identification in Laguerre and Kautz Bases",
+          "journal": "Autom.",
+          "year": "1998",
+          "pages": "463-468",
+          "ee": "https://doi.org/10.1016/S0005-1098(97)00201-X",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tac/GianoneBS98",
-        "title": "Approximate H∞ identification using partial sum operators in a disc algebra basis.",
-        "pages": "1117-1122",
-        "year": "1998",
-        "volume": "43",
-        "journal": "IEEE Trans. Autom. Control.",
-        "number": "8",
-        "ee": "https://www.wikidata.org/entity/Q57735972",
-        "url": "db/journals/tac/tac43.html#GianoneBS98",
-        "authors": [
-          "LÃ¡szlÃ³ Gianone",
-          "JÃ³zsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "article": {
+          "@key": "journals/automatica/SchippB97",
+          "title": "L∞ system approximation algorithms generated by ϑ summations",
+          "journal": "Autom.",
+          "year": "1997",
+          "pages": "2019-2024",
+          "ee": "https://doi.org/10.1016/S0005-1098(97)00116-7",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/tac/0002BS99",
-        "title": "Identification of rational approximate models in H∞ using generalized orthonormal basis.",
-        "pages": "153-158",
-        "year": "1999",
-        "volume": "44",
-        "journal": "IEEE Trans. Autom. Control.",
-        "number": "1",
-        "ee": "https://www.wikidata.org/entity/Q57735965",
-        "url": "db/journals/tac/tac44.html#0002BS99",
-        "authors": [
-          "ZoltÃ¡n SzabÃ³ 0002",
-          "Jozsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2003-00058",
+          "title": "Generalized Rational Variable Projection With Application in ECG Compression",
+          "journal": "CoRR",
+          "year": "2020",
+          "ee": "https://doi.org/10.48550/ARXIV.2003.00058",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Sándor Fridli",
+              "@pid": "23/5063"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/automatica/SchippB97",
-        "title": "L∞ system approximation algorithms generated by ϑ summations.",
-        "pages": "2019-2024",
-        "year": "1997",
-        "volume": "33",
-        "journal": "Autom.",
-        "number": "11",
-        "ee": "https://www.wikidata.org/entity/Q57735999",
-        "url": "db/journals/automatica/automatica33.html#SchippB97",
-        "authors": [
-          "Ferenc Schipp",
-          "Jozsef Bokor"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2108-02042",
+          "title": "A generalization of the root function",
+          "journal": "CoRR",
+          "year": "2021",
+          "ee": "https://doi.org/10.48550/ARXIV.2108.02042",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/automatica/BokorS98",
-        "title": "Approximate Identification in Laguerre and Kautz Bases.",
-        "pages": "463-468",
-        "year": "1998",
-        "volume": "34",
-        "journal": "Autom.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q57735978",
-        "url": "db/journals/automatica/automatica34.html#BokorS98",
-        "authors": [
-          "Jozsef Bokor",
-          "Ferenc Schipp"
-        ]
+        "article": {
+          "@key": "journals/jucs/LaszloSK06",
+          "title": "Construction of Wavelets and Applications",
+          "journal": "J. Univers. Comput. Sci.",
+          "year": "2006",
+          "pages": "1278-1291",
+          "ee": "https://doi.org/10.3217/JUCS-012-09-1278",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Ildikó László",
+              "@pid": "66/4653"
+            },
+            {
+              "#text": "Samuel P. Kozaitis",
+              "@pid": "18/811"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/siamnum/DozsaSS24",
-        "title": "On Bernoulli's Method.",
-        "pages": "1259-1277",
-        "year": "2024",
-        "volume": "62",
-        "journal": "SIAM J. Numer. Anal.",
-        "number": "3",
-        "ee": "https://doi.org/10.1137/22m1528501",
-        "url": "db/journals/siamnum/siamnum62.html#DozsaSS24",
-        "authors": [
-          "TamÃ¡s DÃ³zsa",
-          "Ferenc Schipp",
-          "Alexandros Soumelidis"
-        ]
+        "article": {
+          "@key": "journals/siamnum/DozsaSS24",
+          "title": "On Bernoulli's Method",
+          "journal": "SIAM J. Numer. Anal.",
+          "year": "2024",
+          "pages": "1259-1277",
+          "ee": "https://doi.org/10.1137/22M1528501",
+          "author": [
+            {
+              "#text": "Alexandros Soumelidis",
+              "@pid": "07/229"
+            },
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Tamás Dózsa",
+              "@pid": "236/8822"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/jucs/LaszloSK06",
-        "title": "Construction of Wavelets and Applications.",
-        "pages": "1278-1291",
-        "year": "2006",
-        "volume": "12",
-        "journal": "J. Univers. Comput. Sci.",
-        "number": "9",
-        "ee": "https://doi.org/10.3217/jucs-012-09-1278",
-        "url": "db/journals/jucs/jucs12.html#LaszloSK06",
-        "authors": [
-          "IldikÃ³ LÃ¡szlÃ³",
-          "Ferenc Schipp",
-          "Samuel P. Kozaitis"
-        ]
+        "article": {
+          "@key": "journals/tac/0002BS99",
+          "title": "Identification of rational approximate models in H∞ using generalized orthonormal basis",
+          "journal": "IEEE Trans. Autom. Control.",
+          "year": "1999",
+          "pages": "153-158",
+          "ee": "https://doi.org/10.1109/9.739108",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "Zoltán Szabó",
+              "@pid": "73/2909-2"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2108-02042",
-        "title": "A generalization of the root function.",
-        "year": "2021",
-        "volume": "abs/2108.02042",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2108.02042",
-        "url": "db/journals/corr/corr2108.html#abs-2108-02042",
-        "authors": [
-          "TamÃ¡s DÃ³zsa",
-          "Ferenc Schipp"
-        ]
+        "article": {
+          "@key": "journals/tac/GianoneBS98",
+          "title": "Approximate H∞ identification using partial sum operators in a disc algebra basis",
+          "journal": "IEEE Trans. Autom. Control.",
+          "year": "1998",
+          "pages": "1117-1122",
+          "ee": "https://doi.org/10.1109/9.704985",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Jozsef Bokor",
+              "@pid": "21/6347"
+            },
+            {
+              "#text": "László Gianone",
+              "@pid": "291/3408"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2003-00058",
-        "title": "Generalized Rational Variable Projection With Application in ECG Compression.",
-        "year": "2020",
-        "volume": "abs/2003.00058",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2003.00058",
-        "url": "db/journals/corr/corr2003.html#abs-2003-00058",
-        "authors": [
-          "PÃ©ter KovÃ¡cs 0001",
-          "SÃ¡ndor Fridli",
-          "Ferenc Schipp"
-        ]
+        "article": {
+          "@key": "journals/tsp/KovacsFS20",
+          "title": "Generalized Rational Variable Projection With Application in ECG Compression",
+          "journal": "IEEE Trans. Signal Process.",
+          "year": "2020",
+          "pages": "478-492",
+          "ee": "https://doi.org/10.1109/TSP.2019.2961234",
+          "author": [
+            {
+              "#text": "Ferenc Schipp",
+              "@pid": "83/3316"
+            },
+            {
+              "#text": "Péter Kovács",
+              "@pid": "31/6800-1"
+            },
+            {
+              "#text": "Sándor Fridli",
+              "@pid": "23/5063"
+            }
+          ]
+        }
       }
     ]
   }

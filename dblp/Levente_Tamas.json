@@ -1,657 +1,1266 @@
 {
   "dblpperson": {
+    "@name": "Levente Tamás",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/TamasML09",
-        "title": "Sensor data fusion based position estimation techniques in mobile robot navigation.",
-        "pages": "4457-4462",
-        "year": "2009",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC.2009.7075102",
-        "url": "db/conf/eucc/eucc2009.html#TamasML09",
-        "authors": [
-          "Levente Tamas",
-          "Andras Majdik",
-          "Gheorghe Lazea"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/FulopT18",
+          "title": "Lessons learned from lightweight CNN based object recognition for mobile robots",
+          "booktitle": "AQTR",
+          "year": "2018",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/AQTR.2018.8402778",
+          "author": [
+            {
+              "#text": "Andrea-Orsolya Fulop",
+              "@pid": "323/1574"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eucc/DomsaKKT23",
-        "title": "Local Image Feature Extraction in the Context of Automated Valet Parking based on Simultaneous Localization and Mapping.",
-        "pages": "1-6",
-        "year": "2023",
-        "booktitle": "ECC",
-        "ee": "https://doi.org/10.23919/ECC57647.2023.10178194",
-        "url": "db/conf/eucc/eucc2023.html#DomsaKKT23",
-        "authors": [
-          "Victor Domsa",
-          "Robert Konievic",
-          "Benjamin KelÃ©nyi",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/KonievicDT24",
+          "title": "Autonomous Robot Relocalization with Motion Constraints",
+          "booktitle": "AQTR",
+          "year": "2024",
+          "pages": "1-5",
+          "ee": "https://doi.org/10.1109/AQTR61889.2024.10554079",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Konievic",
+              "@pid": "352/4536"
+            },
+            {
+              "#text": "Victor Domsa",
+              "@pid": "342/0412"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isvc/MolnarATK25",
-        "title": "Object-Based Camera Pose Estimation from a Single Object Detection and Gravity Vector.",
-        "booktitle": "ISVC (1)",
-        "year": "2025",
-        "pages": "205-218",
-        "ee": "https://doi.org/10.1007/978-3-032-14492-8_16",
-        "url": "db/conf/isvc/isvc2025-1.html#MolnarATK25",
-        "authors": [
-          "SzilÃ¡rd MolnÃ¡r 0001",
-          "Zita Amstadt",
-          "Levente Tamas",
-          "Zoltan Kato"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/MaerTB22",
+          "title": "Underwater Robot Pose Estimation Using Acoustic Methods and Intermittent Position Measurements at the Surface",
+          "booktitle": "AQTR",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR55203.2022.9802002",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            },
+            {
+              "#text": "Vicu-Mihalis Maer",
+              "@pid": "323/0115"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icinco/SzokeLTPM09",
-        "title": "Path Planning with Markovian Processes.",
-        "pages": "479-482",
-        "year": "2009",
-        "booktitle": "ICINCO-RA",
-        "url": "db/conf/icinco/icinco2009-ra.html#SzokeLTPM09",
-        "authors": [
-          "Istvan Szoke",
-          "Gheorghe Lazea",
-          "Levente Tamas",
-          "Mircea Popa 0002",
-          "Andras Majdik"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/MarcuT20",
+          "title": "Navigation of Outdoor Mobile Robots with Extended Grid Algorithms",
+          "booktitle": "AQTR",
+          "year": "2020",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR49680.2020.9129936",
+          "author": [
+            {
+              "#text": "Cosmin Marcu",
+              "@pid": "144/2323"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isr/TamasL10",
-        "title": "Pattern Recognition and Tracking Dynamic Objects with LIDAR.",
-        "pages": "1-6",
-        "year": "2010",
-        "booktitle": "ISR/ROBOTIK",
-        "ee": "https://ieeexplore.ieee.org/document/5756807/",
-        "url": "db/conf/isr/isr2010.html#TamasL10",
-        "authors": [
-          "Levente Tamas",
-          "Gheorghe Lazea"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/MilitaruMT16",
+          "title": "Object handling in cluttered indoor environment with a mobile manipulator",
+          "booktitle": "AQTR",
+          "year": "2016",
+          "pages": "1-6",
+          "author": [
+            {
+              "#text": "Ady-Daniel Mezei",
+              "@pid": "219/1946"
+            },
+            {
+              "#text": "Cristian Militaru",
+              "@pid": "282/6608"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/isr/MajdikPTSL10",
-        "title": "New approach in solving the kidnapped robot problem.",
-        "pages": "1-6",
-        "year": "2010",
-        "booktitle": "ISR/ROBOTIK",
-        "ee": "https://ieeexplore.ieee.org/document/5756811/",
-        "url": "db/conf/isr/isr2010.html#MajdikPTSL10",
-        "authors": [
-          "Andras Majdik",
-          "Mircea Popa 0002",
-          "Levente Tamas",
-          "Istvan Szoke",
-          "Gheorghe Lazea"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/PallMTB14",
+          "title": "Railway track following with the AR.Drone using vanishing point detection",
+          "booktitle": "AQTR",
+          "year": "2014",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR.2014.6857870",
+          "author": [
+            {
+              "#text": "Elod Páll",
+              "@pid": "157/0986"
+            },
+            {
+              "#text": "Koppány Máthé",
+              "@pid": "158/5075"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iros/PallTB16",
-        "title": "Analysis and a home assistance application of online AEMS2 planning.",
-        "pages": "5013-5019",
-        "year": "2016",
-        "booktitle": "IROS",
-        "ee": "https://doi.org/10.1109/IROS.2016.7759736",
-        "url": "db/conf/iros/iros2016.html#PallTB16",
-        "authors": [
-          "Elod PÃ¡ll",
-          "Levente Tamas",
-          "Lucian Busoniu"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/PopT22",
+          "title": "MPI Planar Correction of Pulse Based ToF Cameras",
+          "booktitle": "AQTR",
+          "year": "2022",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR55203.2022.9802059",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Marian-Leontin Pop",
+              "@pid": "323/0010"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icpr/FrohlichKTTSW16",
-        "title": "Region based fusion of 3D and 2D visual data for Cultural Heritage objects.",
-        "pages": "2404-2409",
-        "year": "2016",
-        "booktitle": "ICPR",
-        "ee": "https://doi.org/10.1109/ICPR.2016.7899996",
-        "url": "db/conf/icpr/icpr2016.html#FrohlichKTTSW16",
-        "authors": [
-          "Robert Frohlich",
-          "Zoltan Kato",
-          "Alain TrÃ©meau",
-          "Levente Tamas",
-          "Shadi Shabo",
-          "Sylvie Yona Waksman"
-        ]
+        "inproceedings": {
+          "@key": "conf/aqtr/SucalaT24",
+          "title": "Traversability Map Estimation for Agricultural Robots",
+          "booktitle": "AQTR",
+          "year": "2024",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.1109/AQTR61889.2024.10554140",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Paul-Stelian Sucala",
+              "@pid": "379/5585"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/FulopT18",
-        "title": "Lessons learned from lightweight CNN based object recognition for mobile robots.",
-        "pages": "1-5",
-        "year": "2018",
-        "booktitle": "AQTR",
-        "ee": "https://doi.org/10.1109/AQTR.2018.8402778",
-        "url": "db/conf/aqtr/aqtr2018.html#FulopT18",
-        "authors": [
-          "Andrea-Orsolya Fulop",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/cciw/KatoT15",
+          "title": "Relative Pose Estimation and Fusion of 2D Spectral and 3D Lidar Images",
+          "booktitle": "CCIW",
+          "year": "2015",
+          "pages": "33-42",
+          "ee": "https://doi.org/10.1007/978-3-319-15979-9_4",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/PopT22",
-        "title": "MPI Planar Correction of Pulse Based ToF Cameras.",
-        "pages": "1-6",
-        "year": "2022",
-        "booktitle": "AQTR",
-        "ee": "https://doi.org/10.1109/AQTR55203.2022.9802059",
-        "url": "db/conf/aqtr/aqtr2022.html#PopT22",
-        "authors": [
-          "Marian-Leontin Pop",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/eccv/MolnarT22",
+          "title": "Representation Learning for Point Clouds with Variational Autoencoders",
+          "booktitle": "ECCV Workshops (6)",
+          "year": "2023",
+          "pages": "727-737",
+          "ee": "https://doi.org/10.1007/978-3-031-25075-0_49",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/MilitaruMT16",
-        "title": "Object handling in cluttered indoor environment with a mobile manipulator.",
-        "pages": "1-6",
-        "year": "2016",
-        "booktitle": "AQTR",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/AQTR.2016.7501382",
-        "url": "db/conf/aqtr/aqtr2016.html#MilitaruMT16",
-        "authors": [
-          "Cristian Militaru",
-          "Ady-Daniel Mezei",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/eccv/TamasFK14",
+          "title": "Relative Pose Estimation and Fusion of Omnidirectional and Lidar Cameras",
+          "booktitle": "ECCV Workshops (2)",
+          "year": "2015",
+          "pages": "640-651",
+          "ee": "https://doi.org/10.1007/978-3-319-16181-5_49",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Frohlich",
+              "@pid": "157/0296"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/PallMTB14",
-        "title": "Railway track following with the AR.Drone using vanishing point detection.",
-        "pages": "1-6",
-        "year": "2014",
-        "booktitle": "AQTR",
-        "ee": "https://doi.org/10.1109/AQTR.2014.6857870",
-        "url": "db/conf/aqtr/aqtr2014.html#PallMTB14",
-        "authors": [
-          "Elod PÃ¡ll",
-          "KoppÃ¡ny MÃ¡thÃ©",
-          "Levente Tamas",
-          "Lucian Busoniu"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/DomsaKKT23",
+          "title": "Local Image Feature Extraction in the Context of Automated Valet Parking based on Simultaneous Localization and Mapping",
+          "booktitle": "ECC",
+          "year": "2023",
+          "pages": "1-6",
+          "ee": "https://doi.org/10.23919/ECC57647.2023.10178194",
+          "author": [
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Konievic",
+              "@pid": "352/4536"
+            },
+            {
+              "#text": "Victor Domsa",
+              "@pid": "342/0412"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/KonievicDT24",
-        "title": "Autonomous Robot Relocalization with Motion Constraints.",
-        "pages": "1-5",
-        "year": "2024",
-        "booktitle": "AQTR",
-        "ee": "https://doi.org/10.1109/AQTR61889.2024.10554079",
-        "url": "db/conf/aqtr/aqtr2024.html#KonievicDT24",
-        "authors": [
-          "Robert Konievic",
-          "Victor Domsa",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/MezeiTB19",
+          "title": "Sorting objects from a conveyor belt using active perception with a POMDP model",
+          "booktitle": "ECC",
+          "year": "2019",
+          "pages": "2466-2471",
+          "ee": "https://doi.org/10.23919/ECC.2019.8796028",
+          "author": [
+            {
+              "#text": "Ady-Daniel Mezei",
+              "@pid": "219/1946"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/aqtr/MarcuT20",
-        "title": "Navigation of Outdoor Mobile Robots with Extended Grid Algorithms.",
-        "pages": "1-6",
-        "year": "2020",
-        "booktitle": "AQTR",
-        "ee": "https://doi.org/10.1109/AQTR49680.2020.9129936",
-        "url": "db/conf/aqtr/aqtr2020.html#MarcuT20",
-        "authors": [
-          "Cosmin Marcu",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/eucc/TamasML09",
+          "title": "Sensor data fusion based position estimation techniques in mobile robot navigation",
+          "booktitle": "ECC",
+          "year": "2009",
+          "pages": "4457-4462",
+          "ee": "https://doi.org/10.23919/ECC.2009.7075102",
+          "author": [
+            {
+              "#text": "Andras Majdik",
+              "@pid": "60/7320"
+            },
+            {
+              "#text": "Gheorghe Lazea",
+              "@pid": "72/1554"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icar/TamasM11",
-        "title": "Detection and tracking experiments in various environments.",
-        "pages": "180-185",
-        "year": "2011",
-        "booktitle": "ICAR",
-        "ee": "https://doi.org/10.1109/ICAR.2011.6088601",
-        "url": "db/conf/icar/icar2011.html#TamasM11",
-        "authors": [
-          "Levente Tamas",
-          "Cosmin Marcu"
-        ]
+        "inproceedings": {
+          "@key": "conf/euromed/BoochsBDKKKPSTTT14",
+          "title": "Colour and Space in Cultural Heritage: Key Questions in 3D Optical Documentation of Material Culture for Conservation, Study and Preservation",
+          "booktitle": "EuroMed",
+          "year": "2014",
+          "pages": "11-24",
+          "ee": "https://doi.org/10.1007/978-3-319-13695-0_2",
+          "author": [
+            {
+              "#text": "Alain Trémeau",
+              "@pid": "39/1067"
+            },
+            {
+              "#text": "Anna Bentkowska-Kafel",
+              "@pid": "153/8179"
+            },
+            {
+              "#text": "Ashish Karmacharya",
+              "@pid": "20/8781"
+            },
+            {
+              "#text": "Christian Degrigny",
+              "@pid": "153/8148"
+            },
+            {
+              "#text": "Despoina Tsiafaki",
+              "@pid": "153/8106"
+            },
+            {
+              "#text": "Frank Boochs",
+              "@pid": "75/6596"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Maciej Karaszewski",
+              "@pid": "70/8671"
+            },
+            {
+              "#text": "Marcello Picollo",
+              "@pid": "146/3634"
+            },
+            {
+              "#text": "Robert Sitnik",
+              "@pid": "36/5740"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/icar/SzokeLTPM09",
-        "title": "Path planning and dynamic objects detection.",
-        "pages": "1-6",
-        "year": "2009",
-        "booktitle": "ICAR",
-        "ee": "https://ieeexplore.ieee.org/document/5174727/",
-        "url": "db/conf/icar/icar2009.html#SzokeLTPM09",
-        "authors": [
-          "Istvan Szoke",
-          "Gheorghe Lazea",
-          "Levente Tamas",
-          "Mircea Popa 0002",
-          "Andras Majdik"
-        ]
+        "inproceedings": {
+          "@key": "conf/fedcsis/MolnarT23",
+          "title": "Segmentation Methods Evaluation on Grapevine Leaf Diseases",
+          "booktitle": "FedCSIS",
+          "year": "2023",
+          "pages": "1081-1085",
+          "ee": "https://doi.org/10.15439/2023F7053",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/MartonT18",
-        "title": "Wireless Data Rate Controller Design for Networked Control Applications.",
-        "pages": "448-453",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8442744",
-        "url": "db/conf/med/med2018.html#MartonT18",
-        "authors": [
-          "Lorinc MÃ¡rton",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/icar/SzokeLTPM09",
+          "title": "Path planning and dynamic objects detection",
+          "booktitle": "ICAR",
+          "year": "2009",
+          "pages": "1-6",
+          "author": [
+            {
+              "#text": "Andras Majdik",
+              "@pid": "60/7320"
+            },
+            {
+              "#text": "Gheorghe Lazea",
+              "@pid": "72/1554"
+            },
+            {
+              "#text": "Istvan Szoke",
+              "@pid": "38/7320"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Mircea Popa",
+              "@pid": "88/4157"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/TamasJ14",
-        "title": "Robustness analysis of 3D feature descriptors for object recognition using a time-of-flight camera.",
-        "pages": "1020-1025",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2014.6961508",
-        "url": "db/conf/med/med2014.html#TamasJ14",
-        "authors": [
-          "Levente Tamas",
-          "Bjoern Jensen"
-        ]
+        "inproceedings": {
+          "@key": "conf/icar/TamasM11",
+          "title": "Detection and tracking experiments in various environments",
+          "booktitle": "ICAR",
+          "year": "2011",
+          "pages": "180-185",
+          "ee": "https://doi.org/10.1109/ICAR.2011.6088601",
+          "author": [
+            {
+              "#text": "Cosmin Marcu",
+              "@pid": "144/2323"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/MolnarRT22",
-        "title": "Embedded GPU based autonomous robot use cases.",
-        "pages": "462-467",
-        "year": "2022",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED54222.2022.9837193",
-        "url": "db/conf/med/med2022.html#MolnarRT22",
-        "authors": [
-          "SzilÃ¡rd MolnÃ¡r 0001",
-          "Lucaci Adrian Romulus",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccp2/KonievicTK25",
+          "title": "To Flash or Not To Flash: A Case Study on Vine Foliar Disease Detection",
+          "booktitle": "ICCP",
+          "year": "2025",
+          "pages": "1-8",
+          "ee": "https://doi.org/10.1109/ICCP68926.2025.11427177",
+          "author": [
+            {
+              "#text": "Barna Keresztes",
+              "@pid": "35/8107"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Konievic",
+              "@pid": "352/4536"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/MartonSVHSST14",
-        "title": "Communication delay and jitter influence on bilateral teleoperation.",
-        "pages": "1171-1176",
-        "year": "2014",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2014.6961534",
-        "url": "db/conf/med/med2014.html#MartonSVHSST14",
-        "authors": [
-          "Lorinc MÃ¡rton",
-          "ZoltÃ¡n SzÃ¡ntÃ³",
-          "Tamas Vajda",
-          "Piroska Haller",
-          "Hunor SÃ¡ndor",
-          "TamÃ¡s SzabÃ³",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccp2/MezeiT16",
+          "title": "Active perception for object manipulation",
+          "booktitle": "ICCP",
+          "year": "2016",
+          "pages": "269-274",
+          "ee": "https://doi.org/10.1109/ICCP.2016.7737158",
+          "author": [
+            {
+              "#text": "Ady-Daniel Mezei",
+              "@pid": "219/1946"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/med/BlagaT18",
-        "title": "Augmented Reality for Digital Manufacturing.",
-        "pages": "173-178",
-        "year": "2018",
-        "booktitle": "MED",
-        "ee": "https://doi.org/10.1109/MED.2018.8443028",
-        "url": "db/conf/med/med2018.html#BlagaT18",
-        "authors": [
-          "Andreea Blaga",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccvw/MolnarKT21",
+          "title": "ToFNest: Efficient normal estimation for time-of-flight depth cameras",
+          "booktitle": "ICCVW",
+          "year": "2021",
+          "pages": "1791-1798",
+          "ee": "https://doi.org/10.1109/ICCVW54120.2021.00205",
+          "author": [
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/cciw/KatoT15",
-        "title": "Relative Pose Estimation and Fusion of 2D Spectral and 3D Lidar Images.",
-        "pages": "33-42",
-        "year": "2015",
-        "booktitle": "CCIW",
-        "ee": "https://doi.org/10.1007/978-3-319-15979-9_4",
-        "url": "db/conf/cciw/cciw2015.html#KatoT15",
-        "authors": [
-          "Zoltan Kato",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/iccvw/TamasK13",
+          "title": "Targetless Calibration of a Lidar - Perspective Camera Pair",
+          "booktitle": "ICCV Workshops",
+          "year": "2013",
+          "pages": "668-675",
+          "ee": "https://doi.org/10.1109/ICCVW.2013.92",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/eccv/TamasFK14",
-        "title": "Relative Pose Estimation and Fusion of Omnidirectional and Lidar Cameras.",
-        "pages": "640-651",
-        "year": "2014",
-        "booktitle": "ECCV Workshops (2)",
-        "ee": "https://doi.org/10.1007/978-3-319-16181-5_49",
-        "url": "db/conf/eccv/eccv2014w2.html#TamasFK14",
-        "authors": [
-          "Levente Tamas",
-          "Robert Frohlich",
-          "Zoltan Kato"
-        ]
+        "inproceedings": {
+          "@key": "conf/icinco/SzokeLTPM09",
+          "title": "Path Planning with Markovian Processes",
+          "booktitle": "ICINCO-RA",
+          "year": "2009",
+          "pages": "479-482",
+          "author": [
+            {
+              "#text": "Andras Majdik",
+              "@pid": "60/7320"
+            },
+            {
+              "#text": "Gheorghe Lazea",
+              "@pid": "72/1554"
+            },
+            {
+              "#text": "Istvan Szoke",
+              "@pid": "38/7320"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Mircea Popa",
+              "@pid": "88/4157"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccvw/TamasK13",
-        "title": "Targetless Calibration of a Lidar - Perspective Camera Pair.",
-        "pages": "668-675",
-        "year": "2013",
-        "booktitle": "ICCV Workshops",
-        "ee": "https://doi.ieeecomputersociety.org/10.1109/ICCVW.2013.92",
-        "url": "db/conf/iccvw/iccvw2013.html#TamasK13",
-        "authors": [
-          "Levente Tamas",
-          "Zoltan Kato"
-        ]
+        "inproceedings": {
+          "@key": "conf/icpr/FrohlichKTTSW16",
+          "title": "Region based fusion of 3D and 2D visual data for Cultural Heritage objects",
+          "booktitle": "ICPR",
+          "year": "2016",
+          "pages": "2404-2409",
+          "ee": "https://doi.org/10.1109/ICPR.2016.7899996",
+          "author": [
+            {
+              "#text": "Alain Trémeau",
+              "@pid": "39/1067"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Frohlich",
+              "@pid": "157/0296"
+            },
+            {
+              "#text": "Shadi Shabo",
+              "@pid": "198/9468"
+            },
+            {
+              "#text": "Sylvie Yona Waksman",
+              "@pid": "172/8349"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/euromed/BoochsBDKKKPSTTT14",
-        "title": "Colour and Space in Cultural Heritage: Key Questions in 3D Optical Documentation of Material Culture for Conservation, Study and Preservation.",
-        "pages": "11-24",
-        "year": "2014",
-        "booktitle": "EuroMed",
-        "ee": "https://doi.org/10.1007/978-3-319-13695-0_2",
-        "url": "db/conf/euromed/euromed2014.html#BoochsBDKKKPSTTT14",
-        "authors": [
-          "Frank Boochs",
-          "Anna Bentkowska-Kafel",
-          "Christian Degrigny",
-          "Maciej Karaszewski",
-          "Ashish Karmacharya",
-          "Zoltan Kato",
-          "Marcello Picollo",
-          "Robert Sitnik",
-          "Alain TrÃ©meau",
-          "Despoina Tsiafaki",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/iros/PallTB16",
+          "title": "Analysis and a home assistance application of online AEMS2 planning",
+          "booktitle": "IROS",
+          "year": "2016",
+          "pages": "5013-5019",
+          "ee": "https://doi.org/10.1109/IROS.2016.7759736",
+          "author": [
+            {
+              "#text": "Elod Páll",
+              "@pid": "157/0986"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/scipy/PopMPKTC21",
-        "title": "CNN Based ToF Image Processing.",
-        "pages": "148-153",
-        "year": "2021",
-        "booktitle": "SciPy",
-        "ee": "https://doi.org/10.25080/majora-1b6fd038-013",
-        "url": "db/conf/scipy/scipy2021.html#PopMPKTC21",
-        "authors": [
-          "Marian-Leontin Pop",
-          "SzilÃ¡rd MolnÃ¡r 0001",
-          "Alexandru Pop",
-          "Benjamin KelÃ©nyi",
-          "Levente Tamas",
-          "Andrei Cozma"
-        ]
+        "inproceedings": {
+          "@key": "conf/isr/MajdikPTSL10",
+          "title": "New approach in solving the kidnapped robot problem",
+          "booktitle": "ISR/ROBOTIK",
+          "year": "2010",
+          "pages": "1-6",
+          "author": [
+            {
+              "#text": "Andras Majdik",
+              "@pid": "60/7320"
+            },
+            {
+              "#text": "Gheorghe Lazea",
+              "@pid": "72/1554"
+            },
+            {
+              "#text": "Istvan Szoke",
+              "@pid": "38/7320"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Mircea Popa",
+              "@pid": "88/4157"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/iccp2/MezeiT16",
-        "title": "Active perception for object manipulation.",
-        "pages": "269-274",
-        "year": "2016",
-        "booktitle": "ICCP",
-        "ee": "https://doi.org/10.1109/ICCP.2016.7737158",
-        "url": "db/conf/iccp2/iccp2016.html#MezeiT16",
-        "authors": [
-          "Ady-Daniel Mezei",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/isr/TamasL10",
+          "title": "Pattern Recognition and Tracking Dynamic Objects with LIDAR",
+          "booktitle": "ISR/ROBOTIK",
+          "year": "2010",
+          "pages": "1-6",
+          "author": [
+            {
+              "#text": "Gheorghe Lazea",
+              "@pid": "72/1554"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/mfi/TamasM12",
-        "title": "Heterogeneous feature based correspondence estimation.",
-        "pages": "89-94",
-        "year": "2012",
-        "booktitle": "MFI",
-        "ee": "https://doi.org/10.1109/MFI.2012.6343042",
-        "url": "db/conf/mfi/mfi2012.html#TamasM12",
-        "authors": [
-          "Levente Tamas",
-          "Andras Majdik"
-        ]
+        "inproceedings": {
+          "@key": "conf/isvc/MolnarATK25",
+          "title": "Object-Based Camera Pose Estimation from a Single Object Detection and Gravity Vector",
+          "booktitle": "ISVC (1)",
+          "year": "2026",
+          "pages": "205-218",
+          "ee": "https://doi.org/10.1007/978-3-032-14492-8_16",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            },
+            {
+              "#text": "Zita Amstadt",
+              "@pid": "427/3515"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/synasc/MitreaT18",
-        "title": "MES Specific Data Analysis. Case Study with the Baxter Robot.",
-        "pages": "296-301",
-        "year": "2018",
-        "booktitle": "SYNASC",
-        "ee": "https://doi.org/10.1109/SYNASC.2018.00053",
-        "url": "db/conf/synasc/synasc2018.html#MitreaT18",
-        "authors": [
-          "Delia Mitrea",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/BlagaT18",
+          "title": "Augmented Reality for Digital Manufacturing",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "173-178",
+          "ee": "https://doi.org/10.1109/MED.2018.8443028",
+          "author": [
+            {
+              "#text": "Andreea Blaga",
+              "@pid": "237/2520"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/sensors/MolnarKT21",
-        "title": "Feature Pyramid Network Based Efficient Normal Estimation and Filtering for Time-of-Flight Depth Cameras.",
-        "pages": "6257",
-        "year": "2021",
-        "volume": "21",
-        "journal": "Sensors",
-        "number": "18",
-        "ee": "https://doi.org/10.3390/s21186257",
-        "url": "db/journals/sensors/sensors21.html#MolnarKT21",
-        "authors": [
-          "SzilÃ¡rd MolnÃ¡r 0001",
-          "Benjamin KelÃ©nyi",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/MartonSVHSST14",
+          "title": "Communication delay and jitter influence on bilateral teleoperation",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "1171-1176",
+          "ee": "https://doi.org/10.1109/MED.2014.6961534",
+          "author": [
+            {
+              "#text": "Hunor Sándor",
+              "@pid": "174/8499"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lorinc Márton",
+              "@pid": "66/5984"
+            },
+            {
+              "#text": "Piroska Haller",
+              "@pid": "84/6221"
+            },
+            {
+              "#text": "Tamás Szabó",
+              "@pid": "55/6968"
+            },
+            {
+              "#text": "Tamas Vajda",
+              "@pid": "139/8838"
+            },
+            {
+              "#text": "Zoltán Szántó",
+              "@pid": "147/9657"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/frai/MakemTB25",
-        "title": "A reliable approach for identifying acute lymphoblastic leukemia in microscopic imaging.",
-        "year": "2025",
-        "volume": "8",
-        "journal": "Frontiers Artif. Intell.",
-        "ee": "https://doi.org/10.3389/frai.2025.1620252",
-        "url": "db/journals/frai/frai8.html#MakemTB25",
-        "authors": [
-          "Mimosette Makem",
-          "Levente Tamas",
-          "Lucian Busoniu"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/MartonT18",
+          "title": "Wireless Data Rate Controller Design for Networked Control Applications",
+          "booktitle": "MED",
+          "year": "2018",
+          "pages": "448-453",
+          "ee": "https://doi.org/10.1109/MED.2018.8442744",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lorinc Márton",
+              "@pid": "66/5984"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/KelenyiT23",
-        "title": "D3GATTEN: Dense 3D Geometric Features Extraction and Pose Estimation Using Self-Attention.",
-        "pages": "7947-7958",
-        "year": "2023",
-        "volume": "11",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2023.3238901",
-        "url": "db/journals/access/access11.html#KelenyiT23",
-        "authors": [
-          "Benjamin KelÃ©nyi",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/MolnarRT22",
+          "title": "Embedded GPU based autonomous robot use cases",
+          "booktitle": "MED",
+          "year": "2022",
+          "pages": "462-467",
+          "ee": "https://doi.org/10.1109/MED54222.2022.9837193",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucaci Adrian Romulus",
+              "@pid": "326/0624"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/MitreaT18",
-        "title": "Manufacturing Execution System Specific Data Analysis-Use Case With a Cobot.",
-        "pages": "50245-50259",
-        "year": "2018",
-        "volume": "6",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2018.2869346",
-        "url": "db/journals/access/access6.html#MitreaT18",
-        "authors": [
-          "Delia Mitrea",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/med/TamasJ14",
+          "title": "Robustness analysis of 3D feature descriptors for object recognition using a time-of-flight camera",
+          "booktitle": "MED",
+          "year": "2014",
+          "pages": "1020-1025",
+          "ee": "https://doi.org/10.1109/MED.2014.6961508",
+          "author": [
+            {
+              "#text": "Bjoern Jensen",
+              "@pid": "237/2042"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/access/PopT25",
-        "title": "Spherical Harmonics for Robust Next-Best-View Estimation.",
-        "pages": "113049-113065",
-        "year": "2025",
-        "volume": "13",
-        "journal": "IEEE Access",
-        "ee": "https://doi.org/10.1109/ACCESS.2025.3574804",
-        "url": "db/journals/access/access13.html#PopT25",
-        "authors": [
-          "Alexandru Pop",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/mfi/TamasM12",
+          "title": "Heterogeneous feature based correspondence estimation",
+          "booktitle": "MFI",
+          "year": "2012",
+          "pages": "89-94",
+          "ee": "https://doi.org/10.1109/MFI.2012.6343042",
+          "author": [
+            {
+              "#text": "Andras Majdik",
+              "@pid": "60/7320"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ijcim/TamasM19",
-        "title": "Smart CPS: vertical integration overview and user story with a cobot.",
-        "pages": "504-521",
-        "year": "2019",
-        "volume": "32",
-        "journal": "Int. J. Comput. Integr. Manuf.",
-        "number": "4-5",
-        "ee": "https://www.wikidata.org/entity/Q129048808",
-        "url": "db/journals/ijcim/ijcim32.html#TamasM19",
-        "authors": [
-          "Levente Tamas",
-          "Mircea Murar"
-        ]
+        "inproceedings": {
+          "@key": "conf/scipy/PopMPKTC21",
+          "title": "CNN Based ToF Image Processing",
+          "booktitle": "SciPy",
+          "year": "2021",
+          "pages": "148-153",
+          "ee": "https://doi.org/10.25080/MAJORA-1B6FD038-013",
+          "author": [
+            {
+              "#text": "Alexandru Pop",
+              "@pid": "243/9404"
+            },
+            {
+              "#text": "Andrei Cozma",
+              "@pid": "219/7667"
+            },
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Marian-Leontin Pop",
+              "@pid": "323/0010"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/remotesensing/PopDT23",
-        "title": "Rotation Invariant Graph Neural Network for 3D Point Clouds.",
-        "pages": "1437",
-        "year": "2023",
-        "volume": "15",
-        "journal": "Remote. Sens.",
-        "number": "5",
-        "ee": "https://doi.org/10.3390/rs15051437",
-        "url": "db/journals/remotesensing/remotesensing15.html#PopDT23",
-        "authors": [
-          "Alexandru Pop",
-          "Victor Domsa",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/synasc/MitreaT18",
+          "title": "MES Specific Data Analysis. Case Study with the Baxter Robot",
+          "booktitle": "SYNASC",
+          "year": "2018",
+          "pages": "296-301",
+          "ee": "https://doi.org/10.1109/SYNASC.2018.00053",
+          "author": [
+            {
+              "#text": "Delia Mitrea",
+              "@pid": "94/7975"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/eswa/BergenDT24",
-        "title": "SAM-Net: Self-Attention based Feature Matching with Spatial Transformers and Knowledge Distillation.",
-        "pages": "122804",
-        "year": "2024",
-        "volume": "242",
-        "journal": "Expert Syst. Appl.",
-        "ee": "https://doi.org/10.1016/j.eswa.2023.122804",
-        "url": "db/journals/eswa/eswa242.html#BergenDT24",
-        "authors": [
-          "Ben Bergen 0001",
-          "Victor Domsa",
-          "Levente Tamas"
-        ]
+        "inproceedings": {
+          "@key": "conf/visapp/KelenyiMT22",
+          "title": "3D Object Recognition using Time of Flight Camera with Embedded GPU on Mobile Robots",
+          "booktitle": "VISIGRAPP (4: VISAPP)",
+          "year": "2022",
+          "pages": "849-856",
+          "ee": "https://doi.org/10.5220/0010972200003124",
+          "author": [
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/pami/FrohlichTK21",
-        "title": "Absolute Pose Estimation of Central Cameras Using Planar Regions.",
-        "pages": "377-391",
-        "year": "2021",
-        "volume": "43",
-        "journal": "IEEE Trans. Pattern Anal. Mach. Intell.",
-        "number": "2",
-        "ee": "https://www.wikidata.org/entity/Q92338894",
-        "url": "db/journals/pami/pami43.html#FrohlichTK21",
-        "authors": [
-          "Robert Frohlich",
-          "Levente Tamas",
-          "Zoltan Kato"
-        ]
+        "article": {
+          "@key": "journals/access/KelenyiT23",
+          "title": "D3GATTEN: Dense 3D Geometric Features Extraction and Pose Estimation Using Self-Attention",
+          "journal": "IEEE Access",
+          "year": "2023",
+          "pages": "7947-7958",
+          "ee": "https://doi.org/10.1109/ACCESS.2023.3238901",
+          "author": [
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/eaai/TamasG14",
-        "title": "3D semantic interpretation for robot perception inside office environments.",
-        "pages": "76-87",
-        "year": "2014",
-        "volume": "32",
-        "journal": "Eng. Appl. Artif. Intell.",
-        "ee": "https://doi.org/10.1016/j.engappai.2014.03.001",
-        "url": "db/journals/eaai/eaai32.html#TamasG14",
-        "authors": [
-          "Levente Tamas",
-          "Lucian Cosmin Goron"
-        ]
+        "article": {
+          "@key": "journals/access/MitreaT18",
+          "title": "Manufacturing Execution System Specific Data Analysis-Use Case With a Cobot",
+          "journal": "IEEE Access",
+          "year": "2018",
+          "pages": "50245-50259",
+          "ee": "https://doi.org/10.1109/ACCESS.2018.2869346",
+          "author": [
+            {
+              "#text": "Delia Mitrea",
+              "@pid": "94/7975"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/rcim/BlagaMMT21",
-        "title": "Augmented reality integration into MES for connected workers.",
-        "pages": "102057",
-        "year": "2021",
-        "volume": "68",
-        "journal": "Robotics Comput. Integr. Manuf.",
-        "ee": "https://doi.org/10.1016/j.rcim.2020.102057",
-        "url": "db/journals/rcim/rcim68.html#BlagaMMT21",
-        "authors": [
-          "Andreea Blaga",
-          "Cristian Militaru",
-          "Ady-Daniel Mezei",
-          "Levente Tamas"
-        ]
+        "article": {
+          "@key": "journals/access/PopT25",
+          "title": "Spherical Harmonics for Robust Next-Best-View Estimation",
+          "journal": "IEEE Access",
+          "year": "2025",
+          "pages": "113049-113065",
+          "ee": "https://doi.org/10.1109/ACCESS.2025.3574804",
+          "author": [
+            {
+              "#text": "Alexandru Pop",
+              "@pid": "243/9404"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-12064",
-        "title": "MPI Planar Correction of Pulse Based ToF Cameras.",
-        "year": "2023",
-        "volume": "abs/2312.12064",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.12064",
-        "url": "db/journals/corr/corr2312.html#abs-2312-12064",
-        "authors": [
-          "Marian-Leontin Pop",
-          "Levente Tamas"
-        ]
+        "article": {
+          "@key": "journals/air/MolnarT24",
+          "title": "Variational autoencoders for 3D data processing",
+          "journal": "Artif. Intell. Rev.",
+          "year": "2024",
+          "pages": "42",
+          "ee": "https://doi.org/10.1007/S10462-023-10687-X",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/corr/abs-2312-11401",
-        "title": "Underwater Robot Pose Estimation Using Acoustic Methods and Intermittent Position Measurements at the Surface.",
-        "year": "2023",
-        "volume": "abs/2312.11401",
-        "journal": "CoRR",
-        "ee": "https://doi.org/10.48550/arXiv.2312.11401",
-        "url": "db/journals/corr/corr2312.html#abs-2312-11401",
-        "authors": [
-          "Vicu-Mihalis Maer",
-          "Levente Tamas",
-          "Lucian Busoniu"
-        ]
+        "informal": {
+          "@key": "journals/corr/abs-2312-11401",
+          "title": "Underwater Robot Pose Estimation Using Acoustic Methods and Intermittent Position Measurements at the Surface",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.11401",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            },
+            {
+              "#text": "Vicu-Mihalis Maer",
+              "@pid": "323/0115"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2312-12064",
+          "title": "MPI Planar Correction of Pulse Based ToF Cameras",
+          "journal": "CoRR",
+          "year": "2023",
+          "ee": "https://doi.org/10.48550/ARXIV.2312.12064",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Marian-Leontin Pop",
+              "@pid": "323/0010"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eaai/TamasG14",
+          "title": "3D semantic interpretation for robot perception inside office environments",
+          "journal": "Eng. Appl. Artif. Intell.",
+          "year": "2014",
+          "pages": "76-87",
+          "ee": "https://doi.org/10.1016/J.ENGAPPAI.2014.03.001",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Cosmin Goron",
+              "@pid": "14/9808"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/eswa/BergenDT24",
+          "title": "SAM-Net: Self-Attention based Feature Matching with Spatial Transformers and Knowledge Distillation",
+          "journal": "Expert Syst. Appl.",
+          "year": "2024",
+          "pages": "122804",
+          "ee": "https://doi.org/10.1016/J.ESWA.2023.122804",
+          "author": [
+            {
+              "#text": "Ben Bergen",
+              "@pid": "12/3783-1"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Victor Domsa",
+              "@pid": "342/0412"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/frai/MakemTB25",
+          "title": "A reliable approach for identifying acute lymphoblastic leukemia in microscopic imaging",
+          "journal": "Frontiers Artif. Intell.",
+          "year": "2025",
+          "ee": "https://doi.org/10.3389/FRAI.2025.1620252",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            },
+            {
+              "#text": "Mimosette Makem",
+              "@pid": "321/9509"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/ijcim/TamasM19",
+          "title": "Smart CPS: vertical integration overview and user story with a cobot",
+          "journal": "Int. J. Comput. Integr. Manuf.",
+          "year": "2019",
+          "pages": "504-521",
+          "ee": "https://doi.org/10.1080/0951192X.2018.1535196",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Mircea Murar",
+              "@pid": "243/5962"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/pami/FrohlichTK21",
+          "title": "Absolute Pose Estimation of Central Cameras Using Planar Regions",
+          "journal": "IEEE Trans. Pattern Anal. Mach. Intell.",
+          "year": "2021",
+          "pages": "377-391",
+          "ee": "https://doi.org/10.1109/TPAMI.2019.2931577",
+          "author": [
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Robert Frohlich",
+              "@pid": "157/0296"
+            },
+            {
+              "#text": "Zoltan Kato",
+              "@pid": "k/ZKato"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/rcim/BlagaMMT21",
+          "title": "Augmented reality integration into MES for connected workers",
+          "journal": "Robotics Comput. Integr. Manuf.",
+          "year": "2021",
+          "pages": "102057",
+          "ee": "https://doi.org/10.1016/J.RCIM.2020.102057",
+          "author": [
+            {
+              "#text": "Ady-Daniel Mezei",
+              "@pid": "219/1946"
+            },
+            {
+              "#text": "Andreea Blaga",
+              "@pid": "237/2520"
+            },
+            {
+              "#text": "Cristian Militaru",
+              "@pid": "282/6608"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/remotesensing/PopDT23",
+          "title": "Rotation Invariant Graph Neural Network for 3D Point Clouds",
+          "journal": "Remote. Sens.",
+          "year": "2023",
+          "pages": "1437",
+          "ee": "https://doi.org/10.3390/RS15051437",
+          "author": [
+            {
+              "#text": "Alexandru Pop",
+              "@pid": "243/9404"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Victor Domsa",
+              "@pid": "342/0412"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/MezeiTB20",
+          "title": "Sorting Objects from a Conveyor Belt Using POMDPs with Multiple-Object Observations and Information-Gain Rewards",
+          "journal": "Sensors",
+          "year": "2020",
+          "pages": "2481",
+          "ee": "https://doi.org/10.3390/S20092481",
+          "author": [
+            {
+              "#text": "Ady-Daniel Mezei",
+              "@pid": "219/1946"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Lucian Busoniu",
+              "@pid": "65/1615"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/sensors/MolnarKT21",
+          "title": "Feature Pyramid Network Based Efficient Normal Estimation and Filtering for Time-of-Flight Depth Cameras",
+          "journal": "Sensors",
+          "year": "2021",
+          "pages": "6257",
+          "ee": "https://doi.org/10.3390/S21186257",
+          "author": [
+            {
+              "#text": "Benjamin Kelényi",
+              "@pid": "303/5843"
+            },
+            {
+              "#text": "Levente Tamas",
+              "@pid": "49/7320"
+            },
+            {
+              "#text": "Szilárd Molnár",
+              "@pid": "07/303-1"
+            }
+          ]
+        }
       }
     ]
   }

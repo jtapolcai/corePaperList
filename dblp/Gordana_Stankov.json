@@ -1,103 +1,158 @@
 {
   "dblpperson": {
+    "@name": "Gordana Stankov",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/UjbanyiSN19",
-        "title": "Eye tracking based usability evaluation of the MaxWhere virtual space in a search task.",
-        "pages": "469-474",
-        "year": "2019",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom47531.2019.9089922",
-        "url": "db/conf/coginfocom/coginfocom2019.html#UjbanyiSN19",
-        "authors": [
-          "Tibor Ujbanyi",
-          "Gordana Stankov",
-          "BÃ¡lint Nagy"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/UjbanyiSN19",
+          "title": "Eye tracking based usability evaluation of the MaxWhere virtual space in a search task",
+          "booktitle": "CogInfoCom",
+          "year": "2019",
+          "pages": "469-474",
+          "ee": "https://doi.org/10.1109/COGINFOCOM47531.2019.9089922",
+          "author": [
+            {
+              "#text": "Bálint Nagy",
+              "@pid": "37/7616"
+            },
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Tibor Ujbanyi",
+              "@pid": "164/4221"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/coginfocom/UjbanyiSN19a",
-        "title": "A transparent working environment in MaxWhere virtual space.",
-        "pages": "475-478",
-        "year": "2019",
-        "booktitle": "CogInfoCom",
-        "ee": "https://doi.org/10.1109/CogInfoCom47531.2019.9089967",
-        "url": "db/conf/coginfocom/coginfocom2019.html#UjbanyiSN19a",
-        "authors": [
-          "Tibor Ujbanyi",
-          "Gordana Stankov",
-          "BÃ¡lint Nagy"
-        ]
+        "inproceedings": {
+          "@key": "conf/coginfocom/UjbanyiSN19a",
+          "title": "A transparent working environment in MaxWhere virtual space",
+          "booktitle": "CogInfoCom",
+          "year": "2019",
+          "pages": "475-478",
+          "ee": "https://doi.org/10.1109/COGINFOCOM47531.2019.9089967",
+          "author": [
+            {
+              "#text": "Bálint Nagy",
+              "@pid": "37/7616"
+            },
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Tibor Ujbanyi",
+              "@pid": "164/4221"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ce/TakaciSM15",
-        "title": "Efficiency of learning environment using GeoGebra when calculus contents are learned in collaborative groups.",
-        "pages": "421-431",
-        "year": "2015",
-        "volume": "82",
-        "journal": "Comput. Educ.",
-        "ee": "https://www.wikidata.org/entity/Q112880783",
-        "url": "db/journals/ce/ce82.html#TakaciSM15",
-        "authors": [
-          "Djurdjica Takaci",
-          "Gordana Stankov",
-          "Ivana Milanovic"
-        ]
+        "article": {
+          "@key": "journals/caee/CisarOCS20",
+          "title": "Teaching spread spectrum in the course Telecommunication Systems using Octave",
+          "journal": "Comput. Appl. Eng. Educ.",
+          "year": "2020",
+          "pages": "367-383",
+          "ee": "https://doi.org/10.1002/CAE.22199",
+          "author": [
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Petar Císar",
+              "@pid": "171/2711"
+            },
+            {
+              "#text": "Péter Odry",
+              "@pid": "121/2034"
+            },
+            {
+              "#text": "Sanja Maravic Cisar",
+              "@pid": "04/10229"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ce/TakaciMSD17",
-        "title": "Efficiency of using VNS algorithm for forming heterogeneous groups for CSCL learning.",
-        "pages": "98-108",
-        "year": "2017",
-        "volume": "109",
-        "journal": "Comput. Educ.",
-        "ee": "https://doi.org/10.1016/j.compedu.2017.02.014",
-        "url": "db/journals/ce/ce109.html#TakaciMSD17",
-        "authors": [
-          "Durdica Takaci",
-          "Miroslav Maric",
-          "Gordana Stankov",
-          "Aleksandar Djenic"
-        ]
+        "article": {
+          "@key": "journals/ce/TakaciMSD17",
+          "title": "Efficiency of using VNS algorithm for forming heterogeneous groups for CSCL learning",
+          "journal": "Comput. Educ.",
+          "year": "2017",
+          "pages": "98-108",
+          "ee": "https://doi.org/10.1016/J.COMPEDU.2017.02.014",
+          "author": [
+            {
+              "#text": "Aleksandar Djenic",
+              "@pid": "152/4526"
+            },
+            {
+              "#text": "Djurdjica Takaci",
+              "@pid": "84/1708"
+            },
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Miroslav Maric",
+              "@pid": "121/2083"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/caee/CisarOCS20",
-        "title": "Teaching spread spectrum in the course Telecommunication Systems using Octave.",
-        "pages": "367-383",
-        "year": "2020",
-        "volume": "28",
-        "journal": "Comput. Appl. Eng. Educ.",
-        "number": "2",
-        "ee": "https://doi.org/10.1002/cae.22199",
-        "url": "db/journals/caee/caee28.html#CisarOCS20",
-        "authors": [
-          "Petar CÃ­sar",
-          "PÃ©ter Odry",
-          "Sanja Maravic Cisar",
-          "Gordana Stankov"
-        ]
+        "article": {
+          "@key": "journals/ce/TakaciSM15",
+          "title": "Efficiency of learning environment using GeoGebra when calculus contents are learned in collaborative groups",
+          "journal": "Comput. Educ.",
+          "year": "2015",
+          "pages": "421-431",
+          "ee": "https://doi.org/10.1016/J.COMPEDU.2014.12.002",
+          "author": [
+            {
+              "#text": "Djurdjica Takaci",
+              "@pid": "84/1708"
+            },
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Ivana Milanovic",
+              "@pid": "83/9607"
+            }
+          ]
+        }
       },
       {
-        "type": "article",
-        "key": "journals/ile/BozicTS21",
-        "title": "Influence of dynamic software environment on students' achievement of learning functions with parameters.",
-        "pages": "655-669",
-        "year": "2021",
-        "volume": "29",
-        "journal": "Interact. Learn. Environ.",
-        "number": "4",
-        "ee": "https://www.wikidata.org/entity/Q128082055",
-        "url": "db/journals/ile/ile29.html#BozicTS21",
-        "authors": [
-          "Radoslav Bozic",
-          "Durdica Takaci",
-          "Gordana Stankov"
-        ]
+        "article": {
+          "@key": "journals/ile/BozicTS21",
+          "title": "Influence of dynamic software environment on students' achievement of learning functions with parameters",
+          "journal": "Interact. Learn. Environ.",
+          "year": "2021",
+          "pages": "655-669",
+          "ee": "https://doi.org/10.1080/10494820.2019.1602842",
+          "author": [
+            {
+              "#text": "Djurdjica Takaci",
+              "@pid": "84/1708"
+            },
+            {
+              "#text": "Gordana Stankov",
+              "@pid": "158/3871"
+            },
+            {
+              "#text": "Radoslav Bozic",
+              "@pid": "296/0594"
+            }
+          ]
+        }
       }
     ]
   }

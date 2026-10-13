@@ -1,76 +1,186 @@
 {
   "dblpperson": {
+    "@name": "Péter Benkö",
     "r": [
       {
-        "type": "inproceedings",
-        "key": "conf/ewme/StuchlikovaKBMC16",
-        "title": "How to prepare university graduates as highly skilled key enabling technologies professionals?",
-        "pages": "1-6",
-        "year": "2016",
-        "booktitle": "EWME",
-        "ee": "https://doi.org/10.1109/EWME.2016.7496461",
-        "url": "db/conf/ewme/ewme2016.html#StuchlikovaKBMC16",
-        "authors": [
-          "Lubica Stuchlikova",
-          "Arpad Kosa",
-          "Peter Benko",
-          "Juraj Marek",
-          "Ales ChvÃ¡la",
-          "D. Donoval"
-        ]
+        "inproceedings": {
+          "@key": "conf/accessnets/KaldanisBASCK10",
+          "title": "Methodology towards Integrating Scenarios and Testbeds for Demonstrating Autonomic/Self-managing Networks and Behaviors Required in Future Networks",
+          "booktitle": "AccessNets",
+          "year": "2011",
+          "pages": "240-252",
+          "ee": "https://doi.org/10.1007/978-3-642-20931-4_19",
+          "author": [
+            {
+              "#text": "Csaba Simon",
+              "@pid": "45/1385"
+            },
+            {
+              "#text": "Domonkos Asztalos",
+              "@pid": "07/5469"
+            },
+            {
+              "#text": "Giannis Katsaros",
+              "@pid": "15/8514"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            },
+            {
+              "#text": "Ranganai Chaparadza",
+              "@pid": "05/7446"
+            },
+            {
+              "#text": "Vassilios Kaldanis",
+              "@pid": "42/8514"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ewme/StuchlikovaKBD14",
-        "title": "Massive open online courses in microelectronics education.",
-        "pages": "31-36",
-        "year": "2014",
-        "booktitle": "EWME",
-        "ee": "https://doi.org/10.1109/EWME.2014.6877390",
-        "url": "db/conf/ewme/ewme2014.html#StuchlikovaKBD14",
-        "authors": [
-          "Lubica Stuchlikova",
-          "Arpad Kosa",
-          "Peter Benko",
-          "Daniel Donoval"
-        ]
+        "inproceedings": {
+          "@key": "conf/globecom/BenkoV02",
+          "title": "A passive method for estimating end-to-end TCP packet loss",
+          "booktitle": "GLOBECOM",
+          "year": "2002",
+          "pages": "2609-2613",
+          "ee": "https://doi.org/10.1109/GLOCOM.2002.1189102",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ewme/MarekSDBCM14",
-        "title": "Power MOSFET interactive e-learning course.",
-        "pages": "120-123",
-        "year": "2014",
-        "booktitle": "EWME",
-        "ee": "https://doi.org/10.1109/EWME.2014.6877409",
-        "url": "db/conf/ewme/ewme2014.html#MarekSDBCM14",
-        "authors": [
-          "Juraj Marek",
-          "Lubica Stuchlikova",
-          "Daniel Donoval",
-          "Peter Benko",
-          "Ales ChvÃ¡la",
-          "Marian Molnar"
-        ]
+        "inproceedings": {
+          "@key": "conf/infocom/BenkoMV04",
+          "title": "A Large-scale, Passive Analysis of End-to-End TCP Performance over GPRS",
+          "booktitle": "INFOCOM",
+          "year": "2004",
+          "pages": "1882-1892",
+          "ee": "https://doi.org/10.1109/INFCOM.2004.1354598",
+          "author": [
+            {
+              "#text": "Andras Veres",
+              "@pid": "96/5487"
+            },
+            {
+              "#text": "Gábor Malicskó",
+              "@pid": "16/6161"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            }
+          ]
+        }
       },
       {
-        "type": "inproceedings",
-        "key": "conf/ewme/MarekBCKPSD16",
-        "title": "The secret of successful student team project.",
-        "pages": "1-6",
-        "year": "2016",
-        "booktitle": "EWME",
-        "ee": "https://doi.org/10.1109/EWME.2016.7496468",
-        "url": "db/conf/ewme/ewme2016.html#MarekBCKPSD16",
-        "authors": [
-          "Juraj Marek",
-          "Peter Benko",
-          "Ales ChvÃ¡la",
-          "Arpad Kosa",
-          "Patrik Pribytny",
-          "Lubica Stuchlikova",
-          "Daniel Donoval"
-        ]
+        "inproceedings": {
+          "@key": "conf/lcn/EltetoB00",
+          "title": "Measurement-Based TCP Models",
+          "booktitle": "LCN",
+          "year": "2000",
+          "pages": "526-535",
+          "ee": "https://doi.org/10.1109/LCN.2000.891095",
+          "author": [
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            },
+            {
+              "#text": "Tamás Éltetö",
+              "@pid": "18/2239"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/ChengAVBCSSV07",
+          "title": "Automating cross-layer diagnosis of enterprise wireless networks",
+          "booktitle": "SIGCOMM",
+          "year": "2007",
+          "pages": "25-36",
+          "ee": "https://doi.org/10.1145/1282427.1282384",
+          "author": [
+            {
+              "#text": "Alex C. Snoeren",
+              "@pid": "s/AlexCSnoeren"
+            },
+            {
+              "#text": "Geoffrey M. Voelker",
+              "@pid": "v/GeoffreyMVoelker"
+            },
+            {
+              "#text": "Jennifer Chiang",
+              "@pid": "27/5422"
+            },
+            {
+              "#text": "Mikhail Afanasyev",
+              "@pid": "66/4916"
+            },
+            {
+              "#text": "Patrick Verkaik",
+              "@pid": "v/PatrickVerkaik"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            },
+            {
+              "#text": "Stefan Savage",
+              "@pid": "s/StefanSavage"
+            },
+            {
+              "#text": "Yuchung Cheng",
+              "@pid": "85/8634"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sigcomm/ChengBBSVS06",
+          "title": "Jigsaw: solving the puzzle of enterprise 802.11 analysis",
+          "booktitle": "SIGCOMM",
+          "year": "2006",
+          "pages": "39-50",
+          "ee": "https://doi.org/10.1145/1159913.1159920",
+          "author": [
+            {
+              "#text": "Alex C. Snoeren",
+              "@pid": "s/AlexCSnoeren"
+            },
+            {
+              "#text": "Geoffrey M. Voelker",
+              "@pid": "v/GeoffreyMVoelker"
+            },
+            {
+              "#text": "John Bellardo",
+              "@pid": "29/5968"
+            },
+            {
+              "#text": "Péter Benkö",
+              "@pid": "95/2871"
+            },
+            {
+              "#text": "Stefan Savage",
+              "@pid": "s/StefanSavage"
+            },
+            {
+              "#text": "Yuchung Cheng",
+              "@pid": "85/8634"
+            }
+          ]
+        }
       }
     ]
   }
