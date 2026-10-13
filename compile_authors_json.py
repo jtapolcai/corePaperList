@@ -158,20 +158,39 @@ def build_author_record(profile: dict, stats: dict[str, dict]) -> dict:
 
     phd_year = profile.get("phd_year")
     first_pub_year = profile.get("openalex_first_pub_year")
+    degree = profile.get("degree", "")
     phd_year_source = "exact"
-    if not phd_year and first_pub_year:
-        phd_year = first_pub_year + 5
-        phd_year_source = "estimated"
-    years_since_phd = date.today().year - phd_year if phd_year else None
+    age_group = None
 
-    if years_since_phd is None:
-        age_group = "no PhD"
-    elif years_since_phd <= 7:
-        age_group = "ERC Starting"
-    elif years_since_phd <= 12:
-        age_group = "ERC Consolidator"
-    else:
+    ADVANCED_DEGREES = ("kandidátus", "levelező tag", "rendes tag", "tudomány doktora", "MTA doktora")
+
+    # Advanced degree always wins — regardless of phd_year
+    if degree and any(degree.startswith(d) for d in ADVANCED_DEGREES):
         age_group = "ERC Advanced"
+        phd_year_source = "degree_advanced"
+
+    if age_group is None:
+        # Extract phd_year from degree if not set explicitly
+        if not phd_year and degree:
+            import re as _re
+            m = _re.match(r"PhD\s*\((\d{4})\)", degree)
+            if m:
+                phd_year = int(m.group(1))
+                phd_year_source = "degree"
+        if not phd_year and first_pub_year:
+            phd_year = first_pub_year + 5
+            phd_year_source = "estimated"
+        years_since_phd = date.today().year - phd_year if phd_year else None
+        if years_since_phd is None:
+            age_group = "no PhD"
+        elif years_since_phd <= 7:
+            age_group = "ERC Starting"
+        elif years_since_phd <= 12:
+            age_group = "ERC Consolidator"
+        else:
+            age_group = "ERC Advanced"
+    else:
+        years_since_phd = date.today().year - phd_year if phd_year else None
 
     return {
         **profile,
