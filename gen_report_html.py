@@ -6,6 +6,8 @@ Links to downloadable PDFs with timestamps from report_meta.json.
 """
 import json
 import os
+import re
+import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -45,6 +47,37 @@ def papers_by_year_and_category(filename):
     return counts
 
 
+def _normalize(s):
+    s = unicodedata.normalize("NFD", s or "")
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def papers_by_year_from_author_category(filename, slug_to_cat, name_to_slug, pid_to_slug):
+    """Category from the author's profile (for abroad papers that lack 'classified')."""
+    papers = load_json(os.path.join(RESULTS_DIR, filename), {})
+    counts = defaultdict(lambda: {"theory": 0, "applied": 0, "unknown": 0})
+    for paper in papers.values():
+        try:
+            year = int(paper.get("year", 0))
+        except (ValueError, TypeError):
+            continue
+        if year < 1970 or year > 2030:
+            continue
+        cats = []
+        for auth in paper.get("authors", []):
+            pid = auth[1] if isinstance(auth, list) and len(auth) > 1 else None
+            name = auth[0] if isinstance(auth, list) else auth
+            slug = (pid_to_slug.get(pid) if pid else None) or name_to_slug.get(_normalize(name))
+            if slug:
+                c = slug_to_cat.get(slug, "")
+                if c in ("theory", "applied"):
+                    cats.append(c)
+        cat = max(set(cats), key=cats.count) if cats else "unknown"
+        counts[year][cat] += 1
+    return counts
+
+
 def papers_by_year_total(filename):
     papers = load_json(os.path.join(RESULTS_DIR, filename), {})
     counts = defaultdict(int)
@@ -79,8 +112,19 @@ print("Loading data …")
 authors = load_json(AUTHORS_FILE, [])
 meta = load_json(META_FILE, {})
 
+# Build slug→category, name→slug and pid→slug lookups from authors.json
+slug_to_cat = {a["slug"]: a.get("category", "") for a in authors}
+name_to_slug = {_normalize(a["name"]): a["slug"] for a in authors}
+pid_to_slug = {}
+for a in authors:
+    m = re.search(r"/pid/(.+?)(?:\.html)?$", a.get("dblp_url", ""))
+    if m:
+        pid_to_slug[m.group(1).strip("/")] = a["slug"]
+
 hung_astar_counts = papers_by_year_and_category("hungarian_papers_coreAstar.json")
-abroad_astar_counts = papers_by_year_and_category("already_abroad_papers_coreAstar.json")
+abroad_astar_counts = papers_by_year_from_author_category(
+    "already_abroad_papers_coreAstar.json", slug_to_cat, name_to_slug, pid_to_slug
+)
 hung_a_counts = papers_by_year_and_category("hungarian_papers_coreA.json")
 
 hung_astar_series = make_year_series(hung_astar_counts)
