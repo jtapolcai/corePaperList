@@ -110,6 +110,8 @@ def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = No
     parts = []
     pid_map = pid_map or {}
     for name in authors:
+        if isinstance(name, list):
+            name = name[0] if name else ""
         display = clean_name(name)
         slug = (
             author_lookup.get(normalize(name))
