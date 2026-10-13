@@ -799,7 +799,9 @@ function renderProfile(a) {{
     {{key:"phd_year",    label:"PhD éve",        type:"text"}},
   ];
   const editRows = EDIT_FIELDS.map(f => {{
-    const val = String(a[f.key] || "");
+    const raw = a[f.key];
+    const val = (raw === null || raw === undefined || raw === "-") ? "" : String(raw);
+    if (!val && f.type !== "select") return "";  // hide empty text fields
     const pencil = `<button class="pencil-btn" onclick="editField('${{f.key}}')" title="${{f.label}} szerkesztése">✏</button>`;
     let ctrl;
     if (f.type === "select") {{
