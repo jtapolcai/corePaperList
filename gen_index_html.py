@@ -332,6 +332,11 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
       <span class="title">Folyóirat vs. konferencia</span>
       <span class="desc">Interaktív összehasonlítás publikációs típusonként</span>
     </a>
+    <a class="nav-card" href="report.html">
+      <span class="icon">📄</span>
+      <span class="title">Elemzési jelentés</span>
+      <span class="desc">Összefoglaló grafikonok és letölthető PDF-ek</span>
+    </a>
   </div>
 
   <div class="section-title">Kulcsmutatók</div>

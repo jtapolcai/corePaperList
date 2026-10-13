@@ -244,6 +244,9 @@ body {{ font-family: system-ui,-apple-system,sans-serif; background: var(--bg); 
   padding: 0.6rem 0.75rem; }}
 .stat-card .val {{ font-size: 1.25rem; font-weight: 700; color: var(--accent); }}
 .stat-card .lbl {{ font-size: 0.72rem; color: var(--muted); margin-top: 0.1rem; }}
+.stat-card .src {{ font-size: 0.65rem; color: var(--muted); opacity: 0.7; margin-top: 0.25rem; }}
+.stat-card .src a, .stat-card .src .src-link {{ color: inherit; text-decoration: underline dotted; cursor: pointer; }}
+.stat-card .src a:hover, .stat-card .src .src-link:hover {{ opacity: 1; }}
 a.stat-link {{ text-decoration: none; cursor: pointer; display: block; transition: border-color 0.15s, background 0.15s; }}
 a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); }}
 .kv-table {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
@@ -682,25 +685,41 @@ function renderProfile(a) {{
   const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
+  const dblpSrc   = ["DBLP · CORE", "https://dblp.org"];
+  const mtmtUrl   = a.mtmt_id ? `https://m2.mtmt.hu/api/author/${{a.mtmt_id}}?format=HTML` : "https://mtmt.hu";
+  const mtmtSrc   = ["MTMT", mtmtUrl];
+  const calcSrc   = ["számított", ""];
   const statsData = [
-    ["Core A*",        a.core_astar,                    0,    a.core_astar_papers > 0 ? astarUrl : ""],
-    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_papers > 0 ? bothUrl : ""],
-    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar_papers > 0 ? bothUrl : ""],
-    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar_papers > 0 ? bothUrl : ""],
-    ["Core A",         a.core_a,                        0, a.core_a_papers > 0 ? aUrl : ""],
-    ["Citations",      a.mtmt_citations,                0, ""],
-    ["D1 eq.",         a.mtmt_d1_equiv,                 1, ""],
-    ["Magyar rang",    hungRankStr,                     null, hungTableUrl],
-    ["Kat. rang",      a.category_astar_rank,           0,    catTableUrl],
-    ["Életkor rang",   a.age_astar_rank,                0,    ageTableUrl],
+    ["Core A*",        a.core_astar,                    0,    a.core_astar > 0 ? astarUrl : "", dblpSrc],
+    ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
+    ["1st Author eq.", a.first_author_core_astar_equiv, 2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
+    ["HU eq.",         a.hungarian_core_astar_equiv,    2,    a.core_astar > 0 ? bothUrl : "",  calcSrc],
+    ["Core A",         a.core_a,                        0, a.core_a > 0 ? aUrl : "",            dblpSrc],
+    ["MTMT idézet",    a.mtmt_citations,                0, "", mtmtSrc],
+    ["D1 eq.",         a.mtmt_d1_equiv,                 1, "", mtmtSrc],
+    ["Magyar rang",    hungRankStr,                     null, hungTableUrl, calcSrc],
+    ["Kat. rang",      a.category_astar_rank,           0,    catTableUrl,  calcSrc],
+    ["Életkor rang",   a.age_astar_rank,                0,    ageTableUrl,  calcSrc],
   ].filter(([,v]) => v != null && v !== 0);
 
   const stats = statsData.length ? `<div class="section">
     <h3>Metrics</h3>
     <div class="stats-grid">
-      ${{statsData.map(([lbl, v, fmt_, url]) => {{
+      ${{statsData.map(([lbl, v, fmt_, url, src]) => {{
         const valStr = typeof v === "number" && fmt_ != null ? v.toFixed(fmt_) : fmt(v);
-        const inner  = `<div class="val">${{valStr}}</div><div class="lbl">${{lbl}}</div>`;
+        // When card is itself a link, source badge must not be a nested <a> (invalid HTML).
+        // Use a span with onclick+stopPropagation instead.
+        let srcHtml = "";
+        if (src) {{
+          if (!src[1]) {{
+            srcHtml = `<div class="src">${{src[0]}}</div>`;
+          }} else if (url) {{
+            srcHtml = `<div class="src"><span class="src-link" onclick="event.preventDefault();event.stopPropagation();window.open('${{src[1]}}','_blank')">${{src[0]}}</span></div>`;
+          }} else {{
+            srcHtml = `<div class="src"><a href="${{src[1]}}" target="_blank" rel="noopener">${{src[0]}}</a></div>`;
+          }}
+        }}
+        const inner  = `<div class="val">${{valStr}}</div><div class="lbl">${{lbl}}</div>${{srcHtml}}`;
         return url
           ? `<a class="stat-card stat-link" href="${{url}}" title="${{lbl}} cikkek listája">${{inner}}</a>`
           : `<div class="stat-card">${{inner}}</div>`;
