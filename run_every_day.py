@@ -23,10 +23,53 @@ else:
     force = False
 
 
-#url = "https://docs.google.com/spreadsheets/d/124qQX0h0CqPZZhBJiUT7myNqonp4dLJ4uyYZTtfauZI/export?format=csv"
-
 pid_to_name = {}
 authors_data = None
+
+
+def load_authors_from_profiles():
+    """Build authors_data from authors.json (replaces Google Sheet source).
+
+    Returns a dict keyed by author name (with accents), values compatible with
+    classify_author / dblp_utils interface:
+      - dblp_url: /PID/path format (without https://dblp.org/pid prefix)
+      - location: ['Hungary'] if currently in Hungary, [] otherwise
+      - institution: short code e.g. 'BME', 'ELTE'
+      - category: 'theory' | 'applied' | 'Unknown'
+    """
+    with open('authors.json', encoding='utf-8') as f:
+        authors = json.load(f)
+
+    authors_data = {}
+    for a in authors:
+        name = a.get('name', '').strip()
+        if not name:
+            continue
+
+        works = a.get('works')
+        in_hungary = works in ('hungary', 'company_hungary')
+
+        # Strip dblp.org prefix → /PID/path format for pid_to_name lookups
+        dblp_url_full = a.get('dblp_url', '')
+        dblp_pid = re.sub(
+            r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '',
+            dblp_url_full,
+        ).strip()
+
+        affiliations = a.get('affiliations', '')
+        institution = affiliations if isinstance(affiliations, str) else (affiliations[0] if affiliations else '')
+
+        authors_data[name] = {
+            'dblp_url': dblp_pid,
+            'location': ['Hungary'] if in_hungary else [],
+            'institution': institution or 'Unknown',
+            'department': 'Unknown',
+            'category': a.get('category') or 'Unknown',
+            'affiliations': [institution] if institution else [],
+            'works': works or '',
+        }
+
+    return authors_data
 
 # central results directory for JSON/BIB outputs
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), 'results')
@@ -132,7 +175,7 @@ if __name__ == "__main__":
     if not os.path.exists('results'):
         os.makedirs('results')
 
-    authors_data=google_author_sheet.download_author_google_sheet()
+    authors_data = load_authors_from_profiles()
 
     # check is author names are all unique
     author_names = [google_author_sheet.remove_accents(name) for name in authors_data.keys()]
@@ -212,8 +255,7 @@ if __name__ == "__main__":
     with open(out_no_page, 'w', encoding='utf-8') as f:
         json.dump(classify_paper.no_page_is_given, f, indent=2, ensure_ascii=False)
 
-    if not os.getenv("SKIP_SHEET_WRITE"):
-        google_author_sheet.generate_author_google_sheet(authors_data)
+    # Google Sheet write removed — authors.json is now the single source of truth
 
     from src import generate_chart
     generate_chart.main()

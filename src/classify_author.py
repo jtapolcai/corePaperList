@@ -56,8 +56,33 @@ def classify_author(author_name: str, pid: str, year: int) -> Dict[str, str]:
     """
     global authors_data, pid_to_name
     if len(pid_to_name) == 0:
-        authors_data=google_author_sheet.download_author_google_sheet()
-        create_pid_to_name_map(authors_data)
+        # pid_to_name should be populated via create_pid_to_name_map() before calling this.
+        # Fallback (standalone use): load from authors.json.
+        import json, re as _re
+        try:
+            with open('authors.json', encoding='utf-8') as _f:
+                _authors = json.load(_f)
+            for _a in _authors:
+                _name = _a.get('name', '').strip()
+                if not _name:
+                    continue
+                _url = _a.get('dblp_url', '')
+                _pid = _re.sub(r'^https?://(?:www\.)?dblp\.(?:org|uni-trier\.de)(?:/pid)?', '', _url).strip()
+                if _pid:
+                    pid_to_name[_pid] = _name
+                _works = _a.get('works')
+                _inst = _a.get('affiliations', '')
+                if not isinstance(_inst, str):
+                    _inst = _inst[0] if _inst else ''
+                authors_data[_name] = {
+                    'dblp_url': _pid,
+                    'location': ['Hungary'] if _works in ('hungary', 'company_hungary') else [],
+                    'institution': _inst or 'Unknown',
+                    'department': 'Unknown',
+                    'category': _a.get('category') or 'Unknown',
+                }
+        except Exception as _e:
+            print(f"classify_author fallback load failed: {_e}")
     # PIDs in pid_to_name already have the "/" prefix
     pid_key = pid if pid.startswith('/') else f"/{pid}"
     if pid and pid_key in pid_to_name:
