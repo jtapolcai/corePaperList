@@ -777,9 +777,8 @@ function renderProfile(a) {{
   const catTableUrl   = a.works === "hungary" && a.category ? `authors_table.html?munkahely=hungary&tema=${{encodeURIComponent(a.category)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const ageTableUrl   = a.works === "hungary" && a.age_group ? `authors_table.html?munkahely=hungary&karrier=${{encodeURIComponent(a.age_group)}}&highlight=${{encodeURIComponent(cleanName)}}` : "";
   const hungRankStr   = a.hung_astar_rank != null ? `${{a.hung_astar_rank}}/${{a.hung_astar_total}}` : null;
-  const dblpSrc   = ["DBLP · CORE", "https://dblp.org"];
-  const mtmtUrl   = a.mtmt_id ? `https://m2.mtmt.hu/api/author/${{a.mtmt_id}}?format=HTML` : "https://mtmt.hu";
-  const mtmtSrc   = ["MTMT", mtmtUrl];
+  const dblpSrc   = ["DBLP · CORE", ""];
+  const mtmtSrc   = ["MTMT", ""];
   const calcSrc   = ["számított", ""];
   const statsData = [
     ["Core A*",        a.core_astar,                    0,    a.core_astar > 0 ? astarUrl : "", dblpSrc],
