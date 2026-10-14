@@ -312,7 +312,11 @@ def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits
         )
         loc = "🇭🇺" if works in ("hungary", "company_hungary") else "🌍" if works in ("abroad", "company_abroad") else ""
         if is_anon:
-            profile_link = '<span title="the author requested to be anonymized" style="color:var(--muted);font-style:italic;cursor:default">Anonymized author</span>'
+            profile_link = (
+                f'<a href="authors_profile.html#{slug}" '
+                f'title="the author requested to be anonymized" '
+                f'style="color:var(--muted);font-style:italic">Anonymized author</a>'
+            )
             photo_cell = '<span class="thumb-placeholder"></span>'
         else:
             profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name

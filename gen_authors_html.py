@@ -209,6 +209,7 @@ def generate(authors: list, anon_slugs: set | None = None, ignore_slugs: set | N
             a = dict(a)
             for f in _ANON_HIDDEN_FIELDS:
                 a.pop(f, None)
+            a["_anon"] = True
         masked.append(a)
     anon_count = len(anon_slugs) + ignored_count
     data_json = json.dumps(masked, ensure_ascii=False)
@@ -851,7 +852,17 @@ function renderProfile(a) {{
     ["Életkor rang",   a.age_astar_rank,                0,    ageTableUrl,  calcSrc],
   ].filter(([,v]) => v != null && v !== 0);
 
-  const stats = statsData.length ? `<div class="section">
+  let stats;
+  if (a._anon) {{
+    stats = `<div class="section">
+    <h3>Metrics</h3>
+    <p style="color:var(--muted);font-style:italic;margin:0.5rem 0">
+      A szerző kérésére a metrikák rejtve.
+      <a href="${{bothUrl}}" style="margin-left:0.5rem">Cikkek megtekintése →</a>
+    </p>
+  </div>`;
+  }} else {{
+    stats = statsData.length ? `<div class="section">
     <h3>Metrics</h3>
     <div class="stats-grid">
       ${{statsData.map(([lbl, v, fmt_, url, src]) => {{
@@ -875,6 +886,7 @@ function renderProfile(a) {{
       }}).join("")}}
     </div>
   </div>` : "";
+  }}
 
   // Editable fields with pencil buttons (mtmt_name is auto-filled by MTMT search)
   const EDIT_FIELDS = [
