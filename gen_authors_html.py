@@ -839,6 +839,7 @@ function renderProfile(a) {{
   const dblpSrc   = null;
   const mtmtSrc   = null;
   const calcSrc   = null;
+  const oaSrc     = a.openalex_id ? ["OpenAlex", `https://openalex.org/authors/${{a.openalex_id}}`] : null;
   const statsData = [
     ["Core A*",        a.core_astar,                    0,    a.core_astar > 0 ? astarUrl : "", dblpSrc],
     ["Core A* eq.",    a.core_astar_equiv,              2,    a.core_astar_equiv > 0 ? bothUrl : "",  calcSrc],
@@ -847,6 +848,9 @@ function renderProfile(a) {{
     ["Core A",         a.core_a,                        0, a.core_a > 0 ? aUrl : "",            dblpSrc],
     ["MTMT idézet",    a.mtmt_citations,                0, "", mtmtSrc],
     ["D1 eq.",         a.mtmt_d1_equiv,                 1, "", mtmtSrc],
+    ["OA idézet",      a.openalex_cited_by_count,       0, "", oaSrc],
+    ["OA h-index",     a.openalex_h_index,              0, "", oaSrc],
+    ["OA 2yr idézet",  a.openalex_2yr_cited_by_count,   0, "", oaSrc],
     ["Magyar rang",    hungRankStr,                     null, hungTableUrl, calcSrc],
     ["Kat. rang",      a.category_astar_rank,           0,    catTableUrl,  calcSrc],
     ["Életkor rang",   a.age_astar_rank,                0,    ageTableUrl,  calcSrc],
@@ -1332,6 +1336,7 @@ def load_new_authors(profiles_dir: Path, existing_slugs: set) -> list:
             "hungarian_core_astar_equiv", "core_b", "core_c", "mtmt_citations",
             "mtmt_d1_equiv", "mtmt_d1", "mtmt_q1", "mtmt_q2", "mtmt_q3", "mtmt_q4",
             "mtmt_journals", "mtmt_conferences", "dblp_institutions", "mtmt_affiliations",
+            "openalex_cited_by_count", "openalex_h_index", "openalex_2yr_cited_by_count",
         ]}
         a["slug"] = slug
         for k in EDITABLE_FIELDS:
