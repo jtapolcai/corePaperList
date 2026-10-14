@@ -1086,6 +1086,10 @@ function clearAuthorFilter() {{
   if (paramNat !== null) {{
     filterNat = paramNat;
     activateChip("nat", filterNat);
+  }} else if (paramAuthor) {{
+    // When browsing a specific author, default to showing all papers (not van_magyar)
+    filterNat = "összes";
+    activateChip("nat", "összes");
   }}
   if (paramInst) {{
     filterInst = paramInst;
