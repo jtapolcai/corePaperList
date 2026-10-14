@@ -23,6 +23,7 @@ JSON_ABR_C     = RESULTS / "already_abroad_papers_coreC.json"
 JSON_HUN_NR    = RESULTS / "hungarian_papers_coreno_rank.json"
 JSON_ABR_NR    = RESULTS / "already_abroad_papers_coreno_rank.json"
 AUTHORS_JSON    = BASE / "authors.json"
+ANON_AUTHORS_JSON = BASE / "anon_authors.json"
 AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
 OUT_FILE       = BASE / "core_papers.html"
 
@@ -72,6 +73,25 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
+def load_anon_authors() -> tuple[set, set, set]:
+    """Returns (anon_slugs, anon_pids, anon_names) for anonymization lookups."""
+    anon_slugs: set = set()
+    anon_pids: set = set()
+    anon_names: set = set()
+    if ANON_AUTHORS_JSON.exists():
+        try:
+            for entry in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")):
+                if entry.get("slug"):
+                    anon_slugs.add(entry["slug"])
+                if entry.get("pid"):
+                    anon_pids.add(entry["pid"].lstrip("/"))
+                if entry.get("name"):
+                    anon_names.add(normalize(entry["name"]))
+        except Exception:
+            pass
+    return anon_slugs, anon_pids, anon_names
+
+
 def load_author_data() -> tuple[dict, dict, dict, dict, set]:
     """
     Returns (name_to_slug, slug_to_category, name_to_dblp_url, pid_to_slug, hu_names).
@@ -117,6 +137,27 @@ def load_author_data() -> tuple[dict, dict, dict, dict, set]:
     return lookup, category, pid_map, pid_to_slug, hu_names
 
 
+_ANON_SLUGS, _ANON_PIDS, _ANON_NAMES = None, None, None
+
+
+def _get_anon_sets():
+    global _ANON_SLUGS, _ANON_PIDS, _ANON_NAMES
+    if _ANON_SLUGS is None:
+        _ANON_SLUGS, _ANON_PIDS, _ANON_NAMES = load_anon_authors()
+    return _ANON_SLUGS, _ANON_PIDS, _ANON_NAMES
+
+
+def _is_anon(slug: str | None, pid_hint: str | None, name: str) -> bool:
+    anon_slugs, anon_pids, anon_names = _get_anon_sets()
+    if slug and slug in anon_slugs:
+        return True
+    if pid_hint and pid_hint.lstrip("/") in anon_pids:
+        return True
+    if normalize(name) in anon_names:
+        return True
+    return False
+
+
 def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = None,
                    pid_to_slug: dict | None = None) -> str:
     """Render author list as comma-separated HTML with profile links.
@@ -139,7 +180,12 @@ def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = No
             or author_lookup.get(normalize(name))
             or author_lookup.get(normalize(display))
         )
-        if slug:
+        if _is_anon(slug, pid_hint, name):
+            parts.append(
+                '<span class="anon-author" title="the author requested to be anonymized">'
+                'Anonymized author</span>'
+            )
+        elif slug:
             parts.append(
                 f'<a class="author-link" href="authors_profile.html#{slug}">{esc(display)}</a>'
             )
@@ -338,6 +384,7 @@ header h1 {{ font-size: 1.15rem; font-weight: 700; }}
 .author-link:hover {{ text-decoration: underline; }}
 .author-add {{ color: var(--muted); text-decoration: none; border-bottom: 1px dashed var(--muted); }}
 .author-add:hover {{ color: var(--accent); border-bottom-color: var(--accent); }}
+.anon-author {{ color: var(--muted); font-style: italic; cursor: default; border-bottom: 1px dotted var(--muted); }}
 .paper-tags {{ display: flex; flex-wrap: wrap; gap: 0.2rem; }}
 .tag {{ display: inline-block; padding: 0.08rem 0.4rem; border-radius: 4px; font-size: 0.7rem; font-weight: 500; }}
 .tag-inst {{ background: var(--chip-bg); color: var(--text); }}

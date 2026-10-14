@@ -7,6 +7,7 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 AUTHORS_JSON = BASE / "authors.json"
+ANON_AUTHORS_JSON = BASE / "anon_authors.json"
 PROFILES_DIR = BASE / "profiles"
 ABR_PAPERS = BASE / "results" / "already_abroad_papers_coreAstar.json"
 OUT = BASE / "index.html"
@@ -40,6 +41,16 @@ AGE_LABEL = {
 
 def load_authors() -> list:
     return json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
+
+
+def load_anon_slugs() -> set:
+    """Return set of slugs for authors who requested anonymization."""
+    if not ANON_AUTHORS_JSON.exists():
+        return set()
+    try:
+        return {e["slug"] for e in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")) if e.get("slug")}
+    except Exception:
+        return set()
 
 
 def load_papers() -> tuple[dict, dict, dict]:
@@ -263,8 +274,10 @@ def age_rows(age_counter: dict) -> str:
     return "\n".join(rows)
 
 
-def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits: int = 0) -> str:
+def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits: int = 0,
+             anon_slugs: set | None = None) -> str:
     rows = []
+    anon_slugs = anon_slugs or set()
     for i, a in enumerate(top, 1):
         name = a.get("name", "")
         slug = a.get("slug", "")
@@ -272,20 +285,25 @@ def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits
         val_str = f"{val:.{digits}f}" if isinstance(val, float) else str(val)
         works = a.get("works", "") or ""
         cat = a.get("category", "") or ""
+        is_anon = slug in anon_slugs
         cat_badge = (
             '<span class="badge theory">Elmélet</span>'
-            if cat == "theory"
+            if (cat == "theory" and not is_anon)
             else '<span class="badge applied">Alkalmazott</span>'
-            if cat == "applied"
+            if (cat == "applied" and not is_anon)
             else ""
         )
         loc = "🇭🇺" if works in ("hungary", "company_hungary") else "🌍" if works in ("abroad", "company_abroad") else ""
-        profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
-        photo_url = photo_map.get(slug, "")
-        if photo_url:
-            photo_cell = f'<img src="{photo_url}" class="thumb" alt="" onerror="this.style.display=\'none\'">'
-        else:
+        if is_anon:
+            profile_link = '<span title="the author requested to be anonymized" style="color:var(--muted);font-style:italic;cursor:default">Anonymized author</span>'
             photo_cell = '<span class="thumb-placeholder"></span>'
+        else:
+            profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
+            photo_url = photo_map.get(slug, "")
+            if photo_url:
+                photo_cell = f'<img src="{photo_url}" class="thumb" alt="" onerror="this.style.display=\'none\'">'
+            else:
+                photo_cell = '<span class="thumb-placeholder"></span>'
         rows.append(
             f"<tr><td class='rank'>{i}.</td>"
             f"<td class='name-cell'>{photo_cell}{loc} {profile_link}</td>"
@@ -294,7 +312,7 @@ def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits
     return "\n".join(rows)
 
 
-def render(s: dict, chart: dict, photo_map: dict) -> str:
+def render(s: dict, chart: dict, photo_map: dict, anon_slugs: set | None = None) -> str:
     hun_pct = round(100 * s["hungary"] / s["total"]) if s["total"] else 0
     ab_pct = round(100 * s["abroad"] / s["total"]) if s["total"] else 0
     updated = datetime.date.today().strftime("%Y. %m. %d.")
@@ -511,13 +529,13 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (összes)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_all"], photo_map)}</tbody>
+        <tbody>{top_rows(s["top_all"], photo_map, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_hun"], photo_map)}</tbody>
+        <tbody>{top_rows(s["top_hun"], photo_map, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
   </div>
@@ -527,13 +545,13 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
     <div>
       <table>
         <thead><tr><th></th><th>ERC Advanced (12+ év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>ERC Consolidator (7–12 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
   </div>
@@ -541,13 +559,13 @@ def render(s: dict, chart: dict, photo_map: dict) -> str:
     <div>
       <table>
         <thead><tr><th></th><th>ERC Starting (≤7 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>no PhD</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_nophd"], photo_map, "core_astar_equiv", 2)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_nophd"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
       </table>
     </div>
   </div>
@@ -657,7 +675,8 @@ def main():
     stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers)
     chart = build_chart_data(hun, abr, name_cat)
     photo_map = load_photo_map()
-    html = render(stats, chart, photo_map)
+    anon_slugs = load_anon_slugs()
+    html = render(stats, chart, photo_map, anon_slugs=anon_slugs)
     OUT.write_text(html, encoding="utf-8")
     print(f"Generated {OUT}")
 

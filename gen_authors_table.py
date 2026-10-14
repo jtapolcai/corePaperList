@@ -10,6 +10,7 @@ from pathlib import Path
 
 BASE = Path(__file__).parent
 AUTHORS_JSON = BASE / "authors.json"
+ANON_AUTHORS_JSON = BASE / "anon_authors.json"
 PROFILES_DIR = BASE / "profiles"
 
 
@@ -163,12 +164,23 @@ def _parse_institution(affiliations: str) -> str:
     return affiliations.split("-")[0].split()[0] if affiliations else ""
 
 
+def load_anon_slugs() -> set:
+    if not ANON_AUTHORS_JSON.exists():
+        return set()
+    try:
+        return {e["slug"] for e in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")) if e.get("slug")}
+    except Exception:
+        return set()
+
+
 def main():
     authors = json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
+    anon_slugs = load_anon_slugs()
+    authors = [a for a in authors if a.get("slug") not in anon_slugs]
     profiles, _ = load_profiles(PROFILES_DIR)
     authors = enrich_mta_photos(authors, PROFILES_DIR)
     data = to_itable_format(authors, profiles)
-    print(f"Loaded {len(data)} authors from authors.json + profiles/")
+    print(f"Loaded {len(data)} authors from authors.json + profiles/ ({len(anon_slugs)} anonymized excluded)")
 
     # Import and run create_itable
     sys.path.insert(0, str(BASE / "src"))

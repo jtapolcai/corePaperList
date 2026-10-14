@@ -17,7 +17,18 @@ from pathlib import Path
 BASE = Path(__file__).parent
 AUTHORS_JSON = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE / "authors.json"
 PROFILES_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else BASE / "profiles"
+ANON_AUTHORS_JSON = BASE / "anon_authors.json"
 OUT_FILE = BASE / "authors_profile.html"
+
+
+def load_anon_slugs() -> set:
+    """Return set of slugs for authors who requested anonymization."""
+    if not ANON_AUTHORS_JSON.exists():
+        return set()
+    try:
+        return {e["slug"] for e in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")) if e.get("slug")}
+    except Exception:
+        return set()
 
 
 def load_profiles(profiles_dir: Path) -> tuple[dict, set]:
@@ -158,9 +169,31 @@ def compute_ranks(authors: list) -> list:
     return authors
 
 
-def generate(authors: list) -> str:
+_ANON_HIDDEN_FIELDS = [
+    "core_astar", "core_a", "core_b", "core_c", "no_core",
+    "core_astar_equiv", "first_author_core_astar_equiv", "hungarian_core_astar_equiv",
+    "hung_core_astar", "hung_core_a", "hung_core_b", "hung_core_c", "hung_no_core",
+    "first_author_core_astar", "first_author_core_a", "first_author_core_b",
+    "first_author_core_c", "first_author_no_core",
+    "hung_astar_rank", "hung_astar_total", "category_astar_rank", "age_astar_rank",
+    "core_astar_papers",
+]
+
+
+def generate(authors: list, anon_slugs: set | None = None) -> str:
+    anon_slugs = anon_slugs or set()
     authors = compute_ranks(authors)
-    data_json = json.dumps(authors, ensure_ascii=False)
+    # Anon authors appear in the list but have metrics zeroed out
+    masked = []
+    for a in authors:
+        if a.get("slug") in anon_slugs:
+            a = dict(a)
+            for f in _ANON_HIDDEN_FIELDS:
+                a.pop(f, None)
+        masked.append(a)
+    anon_count = len(anon_slugs)
+    data_json = json.dumps(masked, ensure_ascii=False)
+    anon_count_js = anon_count
 
     new_author_github_url = new_author_url()
 
@@ -482,6 +515,7 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
 </div>
 <script>
 const AUTHORS = {data_json};
+const ANON_COUNT = {anon_count_js};
 const GITHUB_REPO   = "{GITHUB_REPO}";
 const GITHUB_BRANCH = "{GITHUB_BRANCH}";
 
@@ -737,7 +771,8 @@ function renderList() {{
     return (b.core_astar_equiv||0) - (a.core_astar_equiv||0);
   }});
 
-  document.getElementById("list-count").textContent = sorted.length + " / " + AUTHORS.length + " author";
+  const anonNote = (q && ANON_COUNT > 0) ? ` + ${{ANON_COUNT}} anonymized` : "";
+  document.getElementById("list-count").textContent = sorted.length + " / " + AUTHORS.length + " author" + anonNote;
 
   const el = document.getElementById("author-list");
   el.innerHTML = sorted.map(a => {{
@@ -1291,9 +1326,10 @@ def main():
 
     enrich_mta_photos(merged, PROFILES_DIR)
 
-    html = generate(merged)
+    anon_slugs = load_anon_slugs()
+    html = generate(merged, anon_slugs=anon_slugs)
     OUT_FILE.write_text(html, encoding="utf-8")
-    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles, {len(new_authors)} new)")
+    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles, {len(new_authors)} new, {len(anon_slugs)} anonymized)")
 
 
 if __name__ == "__main__":
