@@ -189,12 +189,7 @@ def format_authors(authors: list, author_lookup: dict, pid_map: dict | None = No
             or author_lookup.get(normalize(name))
             or author_lookup.get(normalize(display))
         )
-        if _is_anon(slug, pid_hint, name):
-            parts.append(
-                '<span class="anon-author" title="the author requested to be anonymized">'
-                'Anonymized author</span>'
-            )
-        elif slug:
+        if slug:
             parts.append(
                 f'<a class="author-link" href="authors_profile.html#{slug}">{esc(display)}</a>'
             )
