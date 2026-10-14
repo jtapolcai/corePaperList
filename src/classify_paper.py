@@ -15,8 +15,6 @@ import json
 from pathlib import Path
 import pandas as pd
 from collections import defaultdict
-import requests
-import xmltodict
 import google_author_sheet
 # Import from src to ensure we use the same module instance as run_every_day
 from src import classify_author
@@ -408,60 +406,6 @@ def _key_expected_surname(key: str) -> str:
         return surname.lower()
 
 
-_canonical_author_cache: Dict[str, Optional[List]] = {}
-
-def _fetch_canonical_authors(key: str) -> Optional[List[Tuple[str, str]]]:
-    """Fetch author list from the canonical DBLP paper record (/rec/{key}.xml).
-
-    Results are cached in memory and on disk under dblp/rec/{safe_key}.json so
-    that repeated runs (and the same key found via multiple persons) only hit
-    the network once.
-    """
-    if key in _canonical_author_cache:
-        return _canonical_author_cache[key]
-
-    safe_key = key.replace('/', '_')
-    cache_dir = _BASE_DIR / 'dblp' / 'rec'
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    cache_path = cache_dir / f"{safe_key}.json"
-
-    if cache_path.exists():
-        try:
-            with open(cache_path, encoding='utf-8') as f:
-                data = json.load(f)
-            _canonical_author_cache[key] = data
-            return data
-        except Exception:
-            pass
-
-    url = f"https://dblp.org/rec/{key}.xml"
-    try:
-        resp = requests.get(url, timeout=10)
-        resp.raise_for_status()
-        parsed = xmltodict.parse(resp.content)
-        # Find the paper element (inproceedings or article)
-        root = parsed.get('dblp', parsed)
-        info = root.get('inproceedings') or root.get('article')
-        if info is None:
-            _canonical_author_cache[key] = None
-            return None
-        raw = info.get('author', [])
-        if isinstance(raw, (str, dict)):
-            raw = [raw]
-        authors: List[Tuple[str, str]] = []
-        for a in raw:
-            if isinstance(a, dict):
-                authors.append((a.get('#text', ''), a.get('@pid', '')))
-            else:
-                authors.append((str(a), ''))
-        with open(cache_path, 'w', encoding='utf-8') as f:
-            json.dump(authors, f, indent=2, ensure_ascii=False)
-        _canonical_author_cache[key] = authors
-        return authors
-    except Exception as e:
-        print(f"Warning: could not fetch canonical DBLP record for {key}: {e}")
-        _canonical_author_cache[key] = None
-        return None
 
 
 def author_string(author_field) -> str:
@@ -590,30 +534,6 @@ def classify_paper(paper: Dict, search_log: str = "", skip_author_check: bool = 
                 author_list.append(author_tuple)
         else:
             author_list = [(author_list_raw.get("#text", ""), author_list_raw.get("@pid", ""))]
-        # Verify first-author order against the DBLP key.
-        # The person XML can be out of sync with canonical paper records (e.g.
-        # after DBLP corrects an author-order error).  If the key's encoded
-        # surname does not match the first author we fetched, fall back to the
-        # canonical /rec/{key}.xml which is always authoritative.
-        if key and author_list:
-            expected = _key_expected_surname(key)
-            first_surname_raw = author_list[0][0].split()[-1] if author_list[0][0] else ''
-            try:
-                from unidecode import unidecode
-                first_surname = unidecode(first_surname_raw).lower()
-            except ImportError:
-                first_surname = first_surname_raw.lower()
-            if expected and first_surname and not first_surname.startswith(expected):
-                canonical = _fetch_canonical_authors(key)
-                if canonical:
-                    # Re-merge PIDs: canonical may lack @pid, fill from person XML
-                    pid_map = {name: pid for name, pid in author_list}
-                    author_list = [
-                        (name, pid if pid else pid_map.get(name, ''))
-                        for name, pid in canonical
-                    ]
-                    search_log += f"\n ⚠ Author order corrected for {key} (key says '{expected}' first, person XML had '{first_surname}' first)"
-
         record["authors"] = author_list
         authors_str = ", ".join([a[0] for a in author_list])
         ptype = classify_paper_by_author(author_list, year)
