@@ -334,20 +334,42 @@ def _sparql_fetch(pid, author_name=""):
     if not pubs:
         return {"dblpperson": {"@name": author_name, "r": []}}
 
+    # Use dblp:hasSignature + dblp:ordinalNumber to preserve publication author order.
+    # The plain dblp:authoredBy relation is an unordered RDF set; SPARQL returns
+    # rows in non-deterministic order which scrambles author lists.
     authors_query = (
         "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
-        "SELECT DISTINCT ?pub ?coAuthorName ?coAuthorPid WHERE {\n"
+        "SELECT ?pub ?ord ?coAuthorName ?coAuthorPid WHERE {\n"
         "  ?pub dblp:authoredBy <" + author_uri + "> .\n"
-        "  ?pub dblp:authoredBy ?co . ?co dblp:primaryCreatorName ?coAuthorName .\n"
+        "  ?pub dblp:hasSignature ?sig .\n"
+        "  ?sig dblp:signatureCreator ?co .\n"
+        "  ?sig dblp:ordinalNumber ?ord .\n"
+        "  ?co dblp:primaryCreatorName ?coAuthorName .\n"
         "  BIND(REPLACE(STR(?co),\"https://dblp.org/pid/\",\"\") AS ?coAuthorPid)\n"
-        "}"
+        "} ORDER BY ?pub ?ord"
     )
     r2 = requests.post(SPARQL_URL, data={"query": authors_query},
                        headers={"Accept": "application/sparql-results+json"}, timeout=60)
     r2.raise_for_status()
     pub_authors: dict = {}
     seen_pairs: dict = {}
-    for b in r2.json()["results"]["bindings"]:
+    bindings2 = r2.json()["results"]["bindings"]
+    if not bindings2:
+        # Fallback: dblp:hasSignature not available for these records; use
+        # unordered dblp:authoredBy (legacy behaviour, order not guaranteed).
+        authors_query_fallback = (
+            "PREFIX dblp: <https://dblp.org/rdf/schema#>\n"
+            "SELECT DISTINCT ?pub ?coAuthorName ?coAuthorPid WHERE {\n"
+            "  ?pub dblp:authoredBy <" + author_uri + "> .\n"
+            "  ?pub dblp:authoredBy ?co . ?co dblp:primaryCreatorName ?coAuthorName .\n"
+            "  BIND(REPLACE(STR(?co),\"https://dblp.org/pid/\",\"\") AS ?coAuthorPid)\n"
+            "}"
+        )
+        r2b = requests.post(SPARQL_URL, data={"query": authors_query_fallback},
+                            headers={"Accept": "application/sparql-results+json"}, timeout=60)
+        r2b.raise_for_status()
+        bindings2 = r2b.json()["results"]["bindings"]
+    for b in bindings2:
         uri = b["pub"]["value"]
         name = b["coAuthorName"]["value"]
         apid = b["coAuthorPid"]["value"]

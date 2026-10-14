@@ -255,7 +255,8 @@ def get_metrics(mtmt_record:     dict, mtmt_pub: list) -> dict:
     for paper in mtmt_pub:
         if paper["otype"] == "JournalArticle":
             metrics["journal_publications"] += 1
-        if "conference" in paper:
+        sub = paper.get("subType") or {}
+        if sub.get("nameEng") == "Conference paper" or sub.get("name") == "Konferenciaközlemény":
             metrics["conference_publications"] += 1
         if "ratingsForSort" in paper:
             rank= paper["ratingsForSort"]
