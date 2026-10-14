@@ -14,6 +14,8 @@ on:
       - "gen_authors_table.py"
       - "gen_index_html.py"
       - "src/create_itable.py"
+      - "anon_authors.json"
+      - "ignore_authors.json"
 
 jobs:
   regenerate:
