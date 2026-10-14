@@ -159,7 +159,7 @@ def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
 
 
 def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers: dict | None = None,
-                  ignore_slugs: set | None = None) -> dict:
+                  ignore_slugs: set | None = None, anon_slugs: set | None = None) -> dict:
     total = len(authors)
     hungary = sum(1 for a in authors if (a.get("works") or "") in ("hungary", "company_hungary"))
     abroad = sum(1 for a in authors if (a.get("works") or "") in ("abroad", "company_abroad"))
@@ -225,7 +225,7 @@ def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
     age_counter = Counter(a.get("age_group") or "no PhD" for a in authors)
 
-    _ignore = ignore_slugs or set()
+    _ignore = (ignore_slugs or set()) | (anon_slugs or set())
 
     top_all = sorted(
         [a for a in authors if (a.get("core_astar") or 0) > 0 and a.get("slug") not in _ignore],
@@ -291,10 +291,8 @@ def age_rows(age_counter: dict) -> str:
     return "\n".join(rows)
 
 
-def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits: int = 0,
-             anon_slugs: set | None = None) -> str:
+def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits: int = 0) -> str:
     rows = []
-    anon_slugs = anon_slugs or set()
     for i, a in enumerate(top, 1):
         name = a.get("name", "")
         slug = a.get("slug", "")
@@ -302,29 +300,20 @@ def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits
         val_str = f"{val:.{digits}f}" if isinstance(val, float) else str(val)
         works = a.get("works", "") or ""
         cat = a.get("category", "") or ""
-        is_anon = slug in anon_slugs
         cat_badge = (
             '<span class="badge theory">Elmélet</span>'
-            if (cat == "theory" and not is_anon)
+            if cat == "theory"
             else '<span class="badge applied">Alkalmazott</span>'
-            if (cat == "applied" and not is_anon)
+            if cat == "applied"
             else ""
         )
         loc = "🇭🇺" if works in ("hungary", "company_hungary") else "🌍" if works in ("abroad", "company_abroad") else ""
-        if is_anon:
-            profile_link = (
-                f'<a href="authors_profile.html#{slug}" '
-                f'title="the author requested to be anonymized" '
-                f'style="color:var(--muted);font-style:italic">Anonymized author</a>'
-            )
-            photo_cell = '<span class="thumb-placeholder"></span>'
+        profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
+        photo_url = photo_map.get(slug, "")
+        if photo_url:
+            photo_cell = f'<img src="{photo_url}" class="thumb" alt="" onerror="this.style.display=\'none\'">'
         else:
-            profile_link = f'<a href="authors_profile.html#{slug}">{name}</a>' if slug else name
-            photo_url = photo_map.get(slug, "")
-            if photo_url:
-                photo_cell = f'<img src="{photo_url}" class="thumb" alt="" onerror="this.style.display=\'none\'">'
-            else:
-                photo_cell = '<span class="thumb-placeholder"></span>'
+            photo_cell = '<span class="thumb-placeholder"></span>'
         rows.append(
             f"<tr><td class='rank'>{i}.</td>"
             f"<td class='name-cell'>{photo_cell}{loc} {profile_link}</td>"
@@ -333,7 +322,7 @@ def top_rows(top: list, photo_map: dict, value_field: str = "core_astar", digits
     return "\n".join(rows)
 
 
-def render(s: dict, chart: dict, photo_map: dict, anon_slugs: set | None = None) -> str:
+def render(s: dict, chart: dict, photo_map: dict) -> str:
     hun_pct = round(100 * s["hungary"] / s["total"]) if s["total"] else 0
     ab_pct = round(100 * s["abroad"] / s["total"]) if s["total"] else 0
     updated = datetime.date.today().strftime("%Y. %m. %d.")
@@ -550,13 +539,13 @@ def render(s: dict, chart: dict, photo_map: dict, anon_slugs: set | None = None)
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (összes)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_all"], photo_map, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_all"], photo_map)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>Kutató (Magyarország)</th><th>Kat.</th><th class="num">A*</th></tr></thead>
-        <tbody>{top_rows(s["top_hun"], photo_map, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_hun"], photo_map)}</tbody>
       </table>
     </div>
   </div>
@@ -566,13 +555,13 @@ def render(s: dict, chart: dict, photo_map: dict, anon_slugs: set | None = None)
     <div>
       <table>
         <thead><tr><th></th><th>ERC Advanced (12+ év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_adv"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>ERC Consolidator (7–12 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_co"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
   </div>
@@ -580,13 +569,13 @@ def render(s: dict, chart: dict, photo_map: dict, anon_slugs: set | None = None)
     <div>
       <table>
         <thead><tr><th></th><th>ERC Starting (≤7 év)</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_st"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
     <div>
       <table>
         <thead><tr><th></th><th>no PhD</th><th>Kat.</th><th class="num">A* eq.</th></tr></thead>
-        <tbody>{top_rows(s["top_hun_eq_nophd"], photo_map, "core_astar_equiv", 2, anon_slugs=anon_slugs)}</tbody>
+        <tbody>{top_rows(s["top_hun_eq_nophd"], photo_map, "core_astar_equiv", 2)}</tbody>
       </table>
     </div>
   </div>
@@ -695,10 +684,11 @@ def main():
     name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
     anon_slugs = load_anon_slugs()
     ignore_slugs = load_ignore_slugs()
-    stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers, ignore_slugs=ignore_slugs)
+    stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers,
+                          ignore_slugs=ignore_slugs, anon_slugs=anon_slugs)
     chart = build_chart_data(hun, abr, name_cat)
     photo_map = load_photo_map()
-    html = render(stats, chart, photo_map, anon_slugs=anon_slugs)
+    html = render(stats, chart, photo_map)
     OUT.write_text(html, encoding="utf-8")
     print(f"Generated {OUT}")
 

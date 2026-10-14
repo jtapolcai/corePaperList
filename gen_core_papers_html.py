@@ -289,11 +289,27 @@ def load_papers(json_files: list[Path], label: str, author_lookup: dict, slug_ca
 
 
 def generate_html(papers_astar: list[dict], papers_a: list[dict], papers_b: list[dict], papers_c: list[dict], papers_norank: list[dict], author_lookup: dict, existing_profiles: set | None = None, pid_map: dict | None = None, pid_to_slug: dict | None = None) -> str:
+    def _author_slugs(authors: list) -> list[str]:
+        """Collect resolved slugs for all authors (used for filtering, including anon)."""
+        slugs = []
+        for entry in authors:
+            pid_hint = entry[1] if isinstance(entry, list) and len(entry) > 1 else None
+            name = entry[0] if isinstance(entry, list) else entry
+            slug = (
+                (pid_to_slug.get(pid_hint) if pid_hint else None)
+                or author_lookup.get(normalize(name))
+                or author_lookup.get(normalize(clean_name(name)))
+            )
+            if slug:
+                slugs.append(slug)
+        return slugs
+
     def paper_obj(p):
         return {
             "key":          p["key"],
             "title":        p["title"],
             "authors_html": format_authors(p["authors"], author_lookup, pid_map, pid_to_slug),
+            "author_slugs": _author_slugs(p["authors"]),
             "venue":        p["venue"],
             "year":         p["year"],
             "doi":          p["doi"],
@@ -964,7 +980,7 @@ function renderPaper(p) {{
 }}
 
 function matches(p) {{
-  if (authorSlugFilter && !p.authors_html.includes(`#${{authorSlugFilter}}`)) return false;
+  if (authorSlugFilter && !(p.author_slugs || []).includes(authorSlugFilter)) return false;
   if (filterInst  && !p.institutions.includes(filterInst)) return false;
   if (filterNat === "van_magyar")  {{ if (p.hu_count < 1) return false; }}
   else if (filterNat === "mind_magyar") {{ if (p.nationality !== "all_hungarian") return false; }}
