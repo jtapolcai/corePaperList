@@ -24,6 +24,7 @@ JSON_HUN_NR    = RESULTS / "hungarian_papers_coreno_rank.json"
 JSON_ABR_NR    = RESULTS / "already_abroad_papers_coreno_rank.json"
 AUTHORS_JSON    = BASE / "authors.json"
 ANON_AUTHORS_JSON = BASE / "anon_authors.json"
+IGNORE_AUTHORS_JSON = BASE / "ignore_authors.json"
 AUTHOR_PIDS_JSON = RESULTS / "author_pids.json"
 OUT_FILE       = BASE / "core_papers.html"
 
@@ -73,23 +74,31 @@ def clean_name(name: str) -> str:
     return _DBLP_SUFFIX.sub("", name).strip()
 
 
-def load_anon_authors() -> tuple[set, set, set]:
-    """Returns (anon_slugs, anon_pids, anon_names) for anonymization lookups."""
-    anon_slugs: set = set()
-    anon_pids: set = set()
-    anon_names: set = set()
-    if ANON_AUTHORS_JSON.exists():
+def _load_hide_list(path) -> tuple[set, set, set]:
+    """Returns (slugs, pids, names) from a hide-list JSON file."""
+    slugs: set = set()
+    pids: set = set()
+    names: set = set()
+    if Path(path).exists():
         try:
-            for entry in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")):
+            for entry in json.loads(Path(path).read_text(encoding="utf-8")):
                 if entry.get("slug"):
-                    anon_slugs.add(entry["slug"])
+                    slugs.add(entry["slug"])
                 if entry.get("pid"):
-                    anon_pids.add(entry["pid"].lstrip("/"))
+                    pids.add(entry["pid"].lstrip("/"))
                 if entry.get("name"):
-                    anon_names.add(normalize(entry["name"]))
+                    names.add(normalize(entry["name"]))
         except Exception:
             pass
-    return anon_slugs, anon_pids, anon_names
+    return slugs, pids, names
+
+
+def load_anon_authors() -> tuple[set, set, set]:
+    """Returns (anon_slugs, anon_pids, anon_names) for anonymization lookups.
+    Covers both anon_authors.json and ignore_authors.json (both show as Anonymized in paper lists)."""
+    s1, p1, n1 = _load_hide_list(ANON_AUTHORS_JSON)
+    s2, p2, n2 = _load_hide_list(IGNORE_AUTHORS_JSON)
+    return s1 | s2, p1 | p2, n1 | n2
 
 
 def load_author_data() -> tuple[dict, dict, dict, dict, set]:

@@ -8,6 +8,7 @@ from pathlib import Path
 BASE = Path(__file__).parent
 AUTHORS_JSON = BASE / "authors.json"
 ANON_AUTHORS_JSON = BASE / "anon_authors.json"
+IGNORE_AUTHORS_JSON = BASE / "ignore_authors.json"
 PROFILES_DIR = BASE / "profiles"
 ABR_PAPERS = BASE / "results" / "already_abroad_papers_coreAstar.json"
 OUT = BASE / "index.html"
@@ -43,14 +44,25 @@ def load_authors() -> list:
     return json.loads(AUTHORS_JSON.read_text(encoding="utf-8"))
 
 
-def load_anon_slugs() -> set:
-    """Return set of slugs for authors who requested anonymization."""
-    if not ANON_AUTHORS_JSON.exists():
+def _slugs_from_file(path) -> set:
+    from pathlib import Path as _Path
+    p = _Path(path)
+    if not p.exists():
         return set()
     try:
-        return {e["slug"] for e in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")) if e.get("slug")}
+        return {e["slug"] for e in json.loads(p.read_text(encoding="utf-8")) if e.get("slug")}
     except Exception:
         return set()
+
+
+def load_anon_slugs() -> set:
+    """Return slugs for anon_authors.json (shown as Anonymized in top-10 but not excluded)."""
+    return _slugs_from_file(ANON_AUTHORS_JSON)
+
+
+def load_ignore_slugs() -> set:
+    """Return slugs for ignore_authors.json (completely excluded from top-10 lists)."""
+    return _slugs_from_file(IGNORE_AUTHORS_JSON)
 
 
 def load_papers() -> tuple[dict, dict, dict]:
@@ -146,7 +158,8 @@ def build_chart_data(hun: dict, abr: dict, name_cat: dict) -> dict:
     }
 
 
-def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers: dict | None = None) -> dict:
+def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers: dict | None = None,
+                  ignore_slugs: set | None = None) -> dict:
     total = len(authors)
     hungary = sum(1 for a in authors if (a.get("works") or "") in ("hungary", "company_hungary"))
     abroad = sum(1 for a in authors if (a.get("works") or "") in ("abroad", "company_abroad"))
@@ -212,8 +225,10 @@ def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers
     works_counter = Counter(a.get("works") or "unknown" for a in authors)
     age_counter = Counter(a.get("age_group") or "no PhD" for a in authors)
 
+    _ignore = ignore_slugs or set()
+
     top_all = sorted(
-        [a for a in authors if (a.get("core_astar") or 0) > 0],
+        [a for a in authors if (a.get("core_astar") or 0) > 0 and a.get("slug") not in _ignore],
         key=lambda a: a.get("core_astar", 0) or 0,
         reverse=True,
     )[:10]
@@ -221,7 +236,8 @@ def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers
     top_hun = sorted(
         [a for a in authors
          if (a.get("core_astar") or 0) > 0
-         and (a.get("works") or "") in ("hungary", "company_hungary")],
+         and (a.get("works") or "") in ("hungary", "company_hungary")
+         and a.get("slug") not in _ignore],
         key=lambda a: a.get("core_astar", 0) or 0,
         reverse=True,
     )[:10]
@@ -229,7 +245,8 @@ def compute_stats(authors: list, hun_papers: dict | None = None, all_tier_papers
     def top_hun_eq(age_groups=None):
         pool = [a for a in authors
                 if (a.get("core_astar_equiv") or 0) > 0
-                and (a.get("works") or "") in ("hungary", "company_hungary")]
+                and (a.get("works") or "") in ("hungary", "company_hungary")
+                and a.get("slug") not in _ignore]
         if age_groups:
             pool = [a for a in pool if (a.get("age_group") or "") in age_groups]
         return sorted(pool, key=lambda a: a.get("core_astar_equiv", 0) or 0, reverse=True)[:10]
@@ -672,10 +689,11 @@ def main():
     authors = load_authors()
     hun, abr, all_tiers = load_papers()
     name_cat = {a["name"]: a.get("category", "unknown") for a in authors}
-    stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers)
+    anon_slugs = load_anon_slugs()
+    ignore_slugs = load_ignore_slugs()
+    stats = compute_stats(authors, hun_papers=hun, all_tier_papers=all_tiers, ignore_slugs=ignore_slugs)
     chart = build_chart_data(hun, abr, name_cat)
     photo_map = load_photo_map()
-    anon_slugs = load_anon_slugs()
     html = render(stats, chart, photo_map, anon_slugs=anon_slugs)
     OUT.write_text(html, encoding="utf-8")
     print(f"Generated {OUT}")

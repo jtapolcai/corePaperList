@@ -18,17 +18,29 @@ BASE = Path(__file__).parent
 AUTHORS_JSON = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE / "authors.json"
 PROFILES_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else BASE / "profiles"
 ANON_AUTHORS_JSON = BASE / "anon_authors.json"
+IGNORE_AUTHORS_JSON = BASE / "ignore_authors.json"
 OUT_FILE = BASE / "authors_profile.html"
 
 
-def load_anon_slugs() -> set:
-    """Return set of slugs for authors who requested anonymization."""
-    if not ANON_AUTHORS_JSON.exists():
+def _slugs_from_file(path) -> set:
+    from pathlib import Path as _P
+    p = _P(path)
+    if not p.exists():
         return set()
     try:
-        return {e["slug"] for e in json.loads(ANON_AUTHORS_JSON.read_text(encoding="utf-8")) if e.get("slug")}
+        return {e["slug"] for e in json.loads(p.read_text(encoding="utf-8")) if e.get("slug")}
     except Exception:
         return set()
+
+
+def load_anon_slugs() -> set:
+    """Slugs from anon_authors.json (appear in profile with metrics hidden)."""
+    return _slugs_from_file(ANON_AUTHORS_JSON)
+
+
+def load_ignore_slugs() -> set:
+    """Slugs from ignore_authors.json (completely excluded from profile list)."""
+    return _slugs_from_file(IGNORE_AUTHORS_JSON)
 
 
 def load_profiles(profiles_dir: Path) -> tuple[dict, set]:
@@ -180,18 +192,25 @@ _ANON_HIDDEN_FIELDS = [
 ]
 
 
-def generate(authors: list, anon_slugs: set | None = None) -> str:
+def generate(authors: list, anon_slugs: set | None = None, ignore_slugs: set | None = None) -> str:
     anon_slugs = anon_slugs or set()
+    ignore_slugs = ignore_slugs or set()
     authors = compute_ranks(authors)
-    # Anon authors appear in the list but have metrics zeroed out
+    # ignore_authors: completely excluded from profile list
+    # anon_authors: appear in list but metrics are hidden
     masked = []
+    ignored_count = 0
     for a in authors:
-        if a.get("slug") in anon_slugs:
+        slug = a.get("slug")
+        if slug in ignore_slugs:
+            ignored_count += 1
+            continue
+        if slug in anon_slugs:
             a = dict(a)
             for f in _ANON_HIDDEN_FIELDS:
                 a.pop(f, None)
         masked.append(a)
-    anon_count = len(anon_slugs)
+    anon_count = len(anon_slugs) + ignored_count
     data_json = json.dumps(masked, ensure_ascii=False)
     anon_count_js = anon_count
 
@@ -1327,9 +1346,10 @@ def main():
     enrich_mta_photos(merged, PROFILES_DIR)
 
     anon_slugs = load_anon_slugs()
-    html = generate(merged, anon_slugs=anon_slugs)
+    ignore_slugs = load_ignore_slugs()
+    html = generate(merged, anon_slugs=anon_slugs, ignore_slugs=ignore_slugs)
     OUT_FILE.write_text(html, encoding="utf-8")
-    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles, {len(new_authors)} new, {len(anon_slugs)} anonymized)")
+    print(f"Generated {OUT_FILE} with {len(merged)} authors ({len(profiles)} profiles, {len(new_authors)} new, {len(anon_slugs)} anon, {len(ignore_slugs)} ignored)")
 
 
 if __name__ == "__main__":
