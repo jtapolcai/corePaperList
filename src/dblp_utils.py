@@ -334,7 +334,7 @@ def _sparql_fetch(pid, author_name=""):
     if not pubs:
         return {"dblpperson": {"@name": author_name, "r": []}}
 
-    # Use dblp:hasSignature + dblp:ordinalNumber to preserve publication author order.
+    # Use dblp:hasSignature + dblp:signatureOrdinal to preserve publication author order.
     # The plain dblp:authoredBy relation is an unordered RDF set; SPARQL returns
     # rows in non-deterministic order which scrambles author lists.
     authors_query = (
@@ -343,7 +343,7 @@ def _sparql_fetch(pid, author_name=""):
         "  ?pub dblp:authoredBy <" + author_uri + "> .\n"
         "  ?pub dblp:hasSignature ?sig .\n"
         "  ?sig dblp:signatureCreator ?co .\n"
-        "  ?sig dblp:ordinalNumber ?ord .\n"
+        "  ?sig dblp:signatureOrdinal ?ord .\n"
         "  ?co dblp:primaryCreatorName ?coAuthorName .\n"
         "  BIND(REPLACE(STR(?co),\"https://dblp.org/pid/\",\"\") AS ?coAuthorPid)\n"
         "} ORDER BY ?pub ?ord"
