@@ -408,6 +408,8 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
       </div>
     </div>
 
+    <div id="m-existing-hint" style="font-size:.8rem;margin-bottom:.6rem;min-height:1.2em"></div>
+
     <div class="modal-section">
       <h3>DBLP profil</h3>
       <div id="dblp-status" class="candidate-none">Adj meg nevet a kereséshez</div>
@@ -1102,6 +1104,7 @@ function openNewAuthorModal() {{
   document.getElementById("mtmt-status").textContent = "Adj meg nevet a kereséshez";
   document.getElementById("mtmt-status").style.display = "";
   document.getElementById("m-linkedin-hint").innerHTML = "";
+  document.getElementById("m-existing-hint").innerHTML = "";
   document.getElementById("m-slug-preview").textContent = "";
   document.getElementById("add-modal-overlay").classList.add("open");
   setTimeout(() => document.getElementById("m-name").focus(), 50);
@@ -1130,8 +1133,23 @@ function searchByName() {{
   document.getElementById("mtmt-status").style.display = "";
   document.getElementById("m-linkedin-hint").innerHTML =
     '<a href="https://www.linkedin.com/search/results/people/?keywords=' + encodeURIComponent(name) + '" target="_blank" rel="noopener">🔍 Keresés LinkedIn-en →</a>';
+  checkExistingAuthors(name);
   searchDblp(name);
   searchMtmt(name);
+}}
+
+function checkExistingAuthors(name) {{
+  const q = name.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  const matches = AUTHORS.filter(a => {{
+    const n = (a.name || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+    return n.includes(q) || q.includes(n.split(" ").pop());
+  }});
+  const el = document.getElementById("m-existing-hint");
+  if (!matches.length) {{ el.innerHTML = ""; return; }}
+  el.innerHTML = '<span style="color:#b45309;font-weight:600">⚠️ Már szerepel az adatbázisban:</span> '
+    + matches.slice(0,5).map(a =>
+        `<a href="#${{a.slug}}" onclick="closeAddModal()" style="color:var(--accent)">${{a.name}}</a>`
+      ).join(", ");
 }}
 
 function slugifyJS(name) {{
@@ -1140,14 +1158,25 @@ function slugifyJS(name) {{
     .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }}
 
+async function dblpFetch(name) {{
+  const q = encodeURIComponent(name);
+  const direct = "https://dblp.org/search/author/api?q=" + q + "&format=json&h=20";
+  try {{
+    const r = await fetch(direct);
+    if (r.ok) return await r.json();
+  }} catch(e) {{}}
+  // CORS fallback
+  const proxy = "https://corsproxy.io/?url=" + encodeURIComponent(direct);
+  const r2 = await fetch(proxy);
+  if (!r2.ok) throw new Error("HTTP " + r2.status);
+  return await r2.json();
+}}
+
 async function searchDblp(name) {{
   const statusEl = document.getElementById("dblp-status");
   const listEl = document.getElementById("dblp-list");
   try {{
-    const url = "https://dblp.org/search/author/api?q=" + encodeURIComponent(name) + "&format=json&h=20";
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error("HTTP " + resp.status);
-    const data = await resp.json();
+    const data = await dblpFetch(name);
     const hits = data?.result?.hits?.hit || [];
     statusEl.style.display = "none";
     statusEl.className = "candidate-none";
@@ -1169,6 +1198,11 @@ async function searchDblp(name) {{
       </div>`;
     }}).join("");
     listEl.style.display = "flex";
+    // Auto-select if exactly one result
+    if (hits.length === 1) {{
+      const first = listEl.querySelector(".candidate");
+      if (first) first.click();
+    }}
   }} catch(e) {{
     statusEl.className = "candidate-none";
     statusEl.innerHTML = 'DBLP keresés sikertelen &mdash; <a href="https://dblp.org/search?q=' + encodeURIComponent(document.getElementById("m-name").value.trim()) + '" target="_blank" rel="noopener">Keresés DBLP-n →</a>';
