@@ -1001,6 +1001,8 @@ function selectDblp(url, name, el) {
   enrichFromDblp(url);
 }
 
+const _existingMtmtIds = new Set(AUTHORS.map(a => String(a.mtmt_id || "")).filter(Boolean));
+
 async function searchMtmt(name) {
   const statusEl = document.getElementById("mtmt-status");
   const listEl = document.getElementById("mtmt-list");
@@ -1017,10 +1019,14 @@ async function searchMtmt(name) {
       }
     } catch(e) {}
   }
+  // Filter out already-known authors
+  for (const mtid of seen.keys()) {
+    if (_existingMtmtIds.has(String(mtid))) seen.delete(mtid);
+  }
   statusEl.style.display = "none";
   statusEl.className = "candidate-none";
   if (!seen.size) {
-    statusEl.textContent = "Nem található MTMT-n";
+    statusEl.textContent = "Nem található MTMT-n (vagy már az adatbázisban van)";
     statusEl.style.display = "";
     return;
   }
