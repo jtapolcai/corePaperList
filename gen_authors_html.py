@@ -1241,12 +1241,13 @@ async function searchDblp(name) {{
 
 function selectDblp(url, name, el) {{
   document.getElementById("m-dblp-url").value = url;
+  document.getElementById("m-name").value = name;
   document.querySelectorAll("#dblp-list .candidate").forEach(c => c.classList.remove("selected"));
   el.classList.add("selected");
   _modalDblpName = name;
   _modalSlug = slugifyJS(name);
   document.getElementById("m-slug-preview").textContent = "Fájlnév: profiles/" + _modalSlug + ".json";
-  enrichFromDblp(url);
+  checkExistingAuthors(name);
 }}
 
 const _existingMtmtIds = new Set(AUTHORS.map(a => String(a.mtmt_id || "")).filter(Boolean));
@@ -1351,24 +1352,6 @@ async function enrichFromMtmt(mtid, label) {{
       if (THEORY_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "theory";
       else if (APPLIED_KW.some(k => disc.includes(k))) document.getElementById("m-category").value = "applied";
     }}
-  }} catch(e) {{}}
-}}
-
-async function enrichFromDblp(dblpUrl) {{
-  const m = dblpUrl.match(/dblp\\.org\\/pid\\/(.+)/);
-  if (!m) return;
-  const pid = m[1].replace(/\\/$/, "");
-  try {{
-    const url = "https://dblp.org/search/author/api?q=pid:" + encodeURIComponent(pid) + "&format=json&h=1";
-    const resp = await fetch(url);
-    const data = await resp.json();
-    const hit = (data?.result?.hits?.hit || [])[0];
-    if (!hit) return;
-    const notes = hit.info?.notes?.note;
-    const noteArr = Array.isArray(notes) ? notes : (notes ? [notes] : []);
-    const aff = noteArr.filter(n => n["@type"] === "affiliation").map(n => n["#text"]).join("; ");
-    if (aff && !document.getElementById("m-affiliations").value.trim())
-      document.getElementById("m-affiliations").value = aff;
   }} catch(e) {{}}
 }}
 
