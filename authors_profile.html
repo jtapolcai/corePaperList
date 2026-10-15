@@ -947,39 +947,39 @@ function slugifyJS(name) {
     .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
-function dblpJsonp(url) {
-  return new Promise((resolve, reject) => {
-    const cb = '_dblp' + Date.now();
-    const t = setTimeout(() => { cleanup(); reject(new Error('timeout')); }, 8000);
-    function cleanup() {
-      delete window[cb];
-      const s = document.getElementById(cb);
-      if (s) s.remove();
-      clearTimeout(t);
-    }
-    window[cb] = d => { cleanup(); resolve(d); };
-    const s = document.createElement('script');
-    s.id = cb;
-    s.onerror = () => { cleanup(); reject(new Error('load error')); };
-    s.src = url + '&callback=' + cb;
-    document.head.appendChild(s);
-  });
-}
-
 async function dblpFetch(name) {
-  const q = encodeURIComponent(name);
-  const url = "https://dblp.org/search/author/api?q=" + q + "&format=json&h=20";
-  // JSONP bypasses CORS
-  try {
-    const d = await dblpJsonp(url);
-    if (d?.result) return d;
-  } catch(e) {}
-  // corsproxy.io fallback
-  try {
-    const r = await fetch("https://corsproxy.io/?" + encodeURIComponent(url));
-    if (r.ok) { const d = await r.json(); if (d?.result) return d; }
-  } catch(e) {}
-  throw new Error("all failed");
+  // sparql.dblp.org has CORS headers; direct fetch and proxies do not
+  const safe = name.replace(/['"\\]/g, " ");
+  const sparql = [
+    "PREFIX dblp: <https://dblp.org/rdf/schema#>",
+    "SELECT DISTINCT ?person ?name WHERE {",
+    "  ?person a dblp:Person ; dblp:primaryCreatorName ?name .",
+    '  FILTER(CONTAINS(LCASE(STR(?name)), LCASE("' + safe + '")))',
+    "} LIMIT 20"
+  ].join("\n");
+  const r = await fetch("https://sparql.dblp.org/sparql", {
+    method: "POST",
+    headers: {
+      "Accept": "application/sparql-results+json",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: "query=" + encodeURIComponent(sparql)
+  });
+  if (!r.ok) throw new Error("SPARQL " + r.status);
+  const data = await r.json();
+  const bindings = data?.results?.bindings || [];
+  return {
+    result: {
+      hits: {
+        hit: bindings.map(b => ({
+          info: {
+            author: b.name?.value || "",
+            url: (b.person?.value || "").replace("https://dblp.org/", "")
+          }
+        }))
+      }
+    }
+  };
 }
 
 async function searchDblp(name) {
