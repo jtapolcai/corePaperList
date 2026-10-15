@@ -1220,7 +1220,9 @@ async function searchDblp(name) {{
       const pid = info.url || "";
       const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\\//,"") : "";
       const slug = slugifyJS(authorName);
-      return `<div class="candidate" onclick="selectDblp(${{JSON.stringify(dblpUrl)}}, ${{JSON.stringify(authorName)}}, this)">
+      const safeUrl = dblpUrl.replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+      const safeName = authorName.replace(/&/g,"&amp;").replace(/"/g,"&quot;");
+      return `<div class="candidate" data-url="${{safeUrl}}" data-name="${{safeName}}" onclick="selectDblp(this.dataset.url, this.dataset.name, this)">
         <span>🔗</span>
         <span><strong>${{authorName}}</strong> <span style="color:var(--muted);font-size:.72rem">→ ${{slug}}.json</span></span>
         ${{dblpUrl ? '<a href="' + dblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a>' : ''}}
