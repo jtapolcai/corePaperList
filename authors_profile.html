@@ -950,15 +950,23 @@ function slugifyJS(name) {
 async function dblpFetch(name) {
   const q = encodeURIComponent(name);
   const direct = "https://dblp.org/search/author/api?q=" + q + "&format=json&h=20";
+  const proxies = [
+    "https://corsproxy.io/?" + encodeURIComponent(direct),
+    "https://api.allorigins.win/raw?url=" + encodeURIComponent(direct),
+  ];
+  // Try direct first
   try {
     const r = await fetch(direct);
-    if (r.ok) return await r.json();
+    if (r.ok) { const d = await r.json(); if (d?.result) return d; }
   } catch(e) {}
-  // CORS fallback
-  const proxy = "https://corsproxy.io/?url=" + encodeURIComponent(direct);
-  const r2 = await fetch(proxy);
-  if (!r2.ok) throw new Error("HTTP " + r2.status);
-  return await r2.json();
+  // CORS proxy fallbacks
+  for (const url of proxies) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) { const d = await r.json(); if (d?.result) return d; }
+    } catch(e) {}
+  }
+  throw new Error("all failed");
 }
 
 async function searchDblp(name) {
