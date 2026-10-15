@@ -23,14 +23,49 @@ sys.path.insert(0, str(Path(__file__).parent / "src"))
 import mtmt_utils
 
 
-def extract_phd_year(author_rec: dict) -> int | None:
+# Maps MTMT degree type label → (profile degree prefix, is_phd_equivalent)
+# is_phd_equivalent=True → use year as phd_year instead of setting degree text
+_DEGREE_MAP = {
+    "PhD":              ("PhD",            True),
+    "Kandidátus":       ("kandidátus",     True),   # Soviet-era PhD, always pre-2000
+    "MTA Doktora":      ("MTA doktora",    False),
+    "MTA Levelező tag": ("levelező tag",   False),
+    "MTA Rendes tag":   ("rendes tag",     False),
+    "MTA külső tagja":  ("levelező tag",   False),  # treat as equivalent
+}
+
+
+def extract_degree_info(author_rec: dict) -> tuple[int | None, str | None]:
+    """Return (phd_year, degree_text) from MTMT degrees list.
+
+    phd_year  – set for PhD/Kandidátus entries
+    degree_text – set for MTA-level degrees (triggers ERC Advanced in compile)
+    Priority: PhD > Kandidátus > MTA Doktora > Levelező > Rendes tag.
+    """
+    phd_year: int | None = None
+    degree_text: str | None = None
+    priority = 99
+
     for deg in author_rec.get("degrees") or []:
         label = deg.get("label", "")
-        if "PhD" in label or "phd" in label.lower():
-            m = re.search(r"\b(19|20)\d{2}\b", label)
-            if m:
-                return int(m.group())
-    return None
+        kind = deg.get("degree", {}).get("label", "")
+        if kind not in _DEGREE_MAP:
+            continue
+        prefix, is_phd = _DEGREE_MAP[kind]
+        year_m = re.search(r"\b(19|20)\d{2}\b", label)
+        year = int(year_m.group()) if year_m else None
+        p = list(_DEGREE_MAP).index(kind)
+        if p >= priority:
+            continue
+        priority = p
+        if is_phd:
+            phd_year = year
+            degree_text = None  # PhD/Kandidátus: use phd_year, no degree text needed
+        else:
+            phd_year = None
+            degree_text = f"{prefix} ({year})" if year else prefix
+
+    return phd_year, degree_text
 
 BASE = Path(__file__).parent
 PROFILES_DIR = BASE / "profiles"
@@ -109,10 +144,19 @@ def update_profile(path: Path, force: bool) -> bool:
             profile["mtmt_affiliations"] = affil_str
             changed = True
 
-    # Fill phd_year only if not already set in the profile
-    if not profile.get("phd_year"):
-        phd_year = extract_phd_year(author_rec)
-        if phd_year and profile.get("phd_year") != phd_year:
+    # Fill phd_year / degree from MTMT degrees — only if not already set
+    if not profile.get("phd_year") and not profile.get("degree"):
+        phd_year, degree_text = extract_degree_info(author_rec)
+        if phd_year:
+            profile["phd_year"] = phd_year
+            changed = True
+        elif degree_text:
+            profile["degree"] = degree_text
+            changed = True
+    elif not profile.get("phd_year"):
+        # degree is set but phd_year missing — only fill phd_year from PhD/Kandidátus
+        phd_year, _ = extract_degree_info(author_rec)
+        if phd_year:
             profile["phd_year"] = phd_year
             changed = True
 
