@@ -468,6 +468,10 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
       <input type="text" id="m-homepage" placeholder="https://…">
     </div>
     <div class="modal-field">
+      <label>PhD év</label>
+      <input type="text" id="m-phd-year" placeholder="pl. 2012" style="width:8rem">
+    </div>
+    <div class="modal-field">
       <label>LinkedIn URL</label>
       <input type="text" id="m-linkedin" placeholder="https://linkedin.com/in/…">
       <div class="modal-hint" id="m-linkedin-hint"></div>
@@ -476,6 +480,7 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
       <label>Megjegyzés</label>
       <input type="text" id="m-note" placeholder="">
     </div>
+    <div id="m-slug-preview" style="font-size:.78rem;color:var(--muted);margin-top:.25rem"></div>
 
     <div class="modal-actions">
       <button class="btn-secondary" onclick="closeAddModal()">Mégsem</button>
@@ -1075,13 +1080,13 @@ handleHash();
 
 // ── Add-author modal ──────────────────────────────────────────────────────────
 
-let _modalName = "", _modalSlug = "";
+let _modalName = "", _modalSlug = "", _modalDblpName = "";
 
 function openNewAuthorModal() {{
-  _modalName = ""; _modalSlug = "";
+  _modalName = ""; _modalSlug = ""; _modalDblpName = "";
   document.getElementById("modal-title").textContent = "Új szerző hozzáadása";
   document.getElementById("m-name").value = "";
-  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note"].forEach(id => {{
+  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note","m-phd-year"].forEach(id => {{
     document.getElementById(id).value = "";
   }});
   document.getElementById("m-category").value = "";
@@ -1093,6 +1098,7 @@ function openNewAuthorModal() {{
   document.getElementById("mtmt-status").textContent = "Adj meg nevet a kereséshez";
   document.getElementById("mtmt-status").style.display = "";
   document.getElementById("m-linkedin-hint").innerHTML = "";
+  document.getElementById("m-slug-preview").textContent = "";
   document.getElementById("add-modal-overlay").classList.add("open");
   setTimeout(() => document.getElementById("m-name").focus(), 50);
 }}
@@ -1105,7 +1111,9 @@ function searchByName() {{
   const name = document.getElementById("m-name").value.trim();
   if (!name) return;
   _modalName = name;
+  _modalDblpName = "";
   _modalSlug = slugifyJS(name);
+  document.getElementById("m-slug-preview").textContent = "";
   document.getElementById("dblp-list").innerHTML = "";
   document.getElementById("dblp-list").style.display = "none";
   document.getElementById("dblp-status").className = "candidate-none loading-dots";
@@ -1132,14 +1140,15 @@ async function searchDblp(name) {{
   const statusEl = document.getElementById("dblp-status");
   const listEl = document.getElementById("dblp-list");
   try {{
-    const url = "https://dblp.org/search/author/api?q=" + encodeURIComponent(name) + "&format=json&h=8";
+    const url = "https://dblp.org/search/author/api?q=" + encodeURIComponent(name) + "&format=json&h=20";
     const resp = await fetch(url);
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
     const data = await resp.json();
     const hits = data?.result?.hits?.hit || [];
     statusEl.style.display = "none";
     statusEl.className = "candidate-none";
     if (!hits.length) {{
-      statusEl.textContent = "Nem található DBLP-n";
+      statusEl.innerHTML = 'Nem található DBLP-n &mdash; <a href="https://dblp.org/search?q=' + encodeURIComponent(name) + '" target="_blank" rel="noopener">Keresés DBLP-n →</a>';
       statusEl.style.display = "";
       return;
     }}
@@ -1148,15 +1157,17 @@ async function searchDblp(name) {{
       const authorName = info.author || "";
       const pid = info.url || "";
       const dblpUrl = pid ? "https://dblp.org/pid/" + pid.replace(/^.*pid\\//,"") : "";
+      const slug = slugifyJS(authorName);
       return `<div class="candidate" onclick="selectDblp(${{JSON.stringify(dblpUrl)}}, ${{JSON.stringify(authorName)}}, this)">
-        <span>🔗</span><span><strong>${{authorName}}</strong></span>
+        <span>🔗</span>
+        <span><strong>${{authorName}}</strong> <span style="color:var(--muted);font-size:.72rem">→ ${{slug}}.json</span></span>
         ${{dblpUrl ? '<a href="' + dblpUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="margin-left:auto;font-size:.75rem;color:var(--accent)">DBLP →</a>' : ''}}
       </div>`;
     }}).join("");
     listEl.style.display = "flex";
   }} catch(e) {{
     statusEl.className = "candidate-none";
-    statusEl.textContent = "DBLP keresés sikertelen";
+    statusEl.innerHTML = 'DBLP keresés sikertelen &mdash; <a href="https://dblp.org/search?q=' + encodeURIComponent(document.getElementById("m-name").value.trim()) + '" target="_blank" rel="noopener">Keresés DBLP-n →</a>';
     statusEl.style.display = "";
   }}
 }}
@@ -1165,6 +1176,9 @@ function selectDblp(url, name, el) {{
   document.getElementById("m-dblp-url").value = url;
   document.querySelectorAll("#dblp-list .candidate").forEach(c => c.classList.remove("selected"));
   el.classList.add("selected");
+  _modalDblpName = name;
+  _modalSlug = slugifyJS(name);
+  document.getElementById("m-slug-preview").textContent = "Fájlnév: profiles/" + _modalSlug + ".json";
   enrichFromDblp(url);
 }}
 
@@ -1286,18 +1300,20 @@ async function enrichFromDblp(dblpUrl) {{
 }}
 
 function saveAddModal() {{
-  const name = document.getElementById("m-name").value.trim() || _modalName;
+  const typedName = document.getElementById("m-name").value.trim() || _modalName;
+  const name = _modalDblpName || typedName;
   if (!name) {{ alert("Add meg a szerző nevét!"); return; }}
   const slug = slugifyJS(name);
   const obj = {{ name, slug }};
   const fields = {{
     dblp_url: "m-dblp-url", mtmt_id: "m-mtmt-id", mtmt_name: "m-mtmt-name",
     mta_att_id: "m-mta-att-id", category: "m-category", works: "m-works",
-    affiliations: "m-affiliations", homepage: "m-homepage", linkedin: "m-linkedin", note: "m-note"
+    affiliations: "m-affiliations", homepage: "m-homepage", linkedin: "m-linkedin",
+    note: "m-note", phd_year: "m-phd-year"
   }};
   for (const [key, id] of Object.entries(fields)) {{
     const v = document.getElementById(id).value.trim();
-    if (v) obj[key] = v;
+    if (v) obj[key] = key === "phd_year" ? parseInt(v) || v : v;
   }}
   const json = JSON.stringify(obj, null, 2);
   const encoded = encodeURIComponent(json);
