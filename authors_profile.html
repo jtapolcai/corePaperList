@@ -919,16 +919,24 @@ function searchByName() {
   searchMtmt(name);
 }
 
+function normalize(s) {
+  return (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+}
+
 function checkExistingAuthors(name) {
-  const q = name.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  const q = normalize(name);
+  const qTokens = q.split(/\s+/).filter(t => t.length >= 3);
   const matches = AUTHORS.filter(a => {
-    const n = (a.name || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
-    return n.includes(q) || q.includes(n.split(" ").pop());
+    const n = normalize(a.name);
+    const nTokens = n.split(/\s+/);
+    // name contains the full query, or any query token is a full token of the name
+    if (n.includes(q)) return true;
+    return qTokens.some(qt => nTokens.some(nt => nt === qt || (qt.length >= 5 && nt.startsWith(qt))));
   });
   const el = document.getElementById("m-existing-hint");
   if (!matches.length) { el.innerHTML = ""; return; }
   el.innerHTML = '<span style="color:#b45309;font-weight:600">⚠️ Már szerepel az adatbázisban:</span> '
-    + matches.slice(0,5).map(a =>
+    + matches.slice(0,8).map(a =>
         `<a href="#${a.slug}" onclick="closeAddModal()" style="color:var(--accent)">${a.name}</a>`
       ).join(", ");
 }
