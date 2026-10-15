@@ -15,11 +15,22 @@ Usage:
 """
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 import mtmt_utils
+
+
+def extract_phd_year(author_rec: dict) -> int | None:
+    for deg in author_rec.get("degrees") or []:
+        label = deg.get("label", "")
+        if "PhD" in label or "phd" in label.lower():
+            m = re.search(r"\b(19|20)\d{2}\b", label)
+            if m:
+                return int(m.group())
+    return None
 
 BASE = Path(__file__).parent
 PROFILES_DIR = BASE / "profiles"
@@ -96,6 +107,13 @@ def update_profile(path: Path, force: bool) -> bool:
         old = profile.get("mtmt_affiliations", "")
         if old != affil_str:
             profile["mtmt_affiliations"] = affil_str
+            changed = True
+
+    # Fill phd_year only if not already set in the profile
+    if not profile.get("phd_year"):
+        phd_year = extract_phd_year(author_rec)
+        if phd_year and profile.get("phd_year") != phd_year:
+            profile["phd_year"] = phd_year
             changed = True
 
     if changed:
