@@ -468,6 +468,10 @@ a.stat-link:hover {{ border-color: var(--accent); background: var(--accent-bg); 
       <input type="text" id="m-homepage" placeholder="https://…">
     </div>
     <div class="modal-field">
+      <label>Fénykép URL</label>
+      <input type="text" id="m-mta-photo" placeholder="https://…">
+    </div>
+    <div class="modal-field">
       <label>PhD év</label>
       <input type="text" id="m-phd-year" placeholder="pl. 2012" style="width:8rem">
     </div>
@@ -1086,7 +1090,7 @@ function openNewAuthorModal() {{
   _modalName = ""; _modalSlug = ""; _modalDblpName = "";
   document.getElementById("modal-title").textContent = "Új szerző hozzáadása";
   document.getElementById("m-name").value = "";
-  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note","m-phd-year"].forEach(id => {{
+  ["m-dblp-url","m-mtmt-id","m-mtmt-name","m-mta-att-id","m-affiliations","m-homepage","m-linkedin","m-note","m-phd-year","m-mta-photo"].forEach(id => {{
     document.getElementById(id).value = "";
   }});
   document.getElementById("m-category").value = "";
@@ -1309,7 +1313,7 @@ function saveAddModal() {{
     dblp_url: "m-dblp-url", mtmt_id: "m-mtmt-id", mtmt_name: "m-mtmt-name",
     mta_att_id: "m-mta-att-id", category: "m-category", works: "m-works",
     affiliations: "m-affiliations", homepage: "m-homepage", linkedin: "m-linkedin",
-    note: "m-note", phd_year: "m-phd-year"
+    note: "m-note", phd_year: "m-phd-year", mta_photo: "m-mta-photo"
   }};
   for (const [key, id] of Object.entries(fields)) {{
     const v = document.getElementById(id).value.trim();
