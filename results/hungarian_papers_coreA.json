@@ -7397,6 +7397,14 @@
         "30/5528-1"
       ],
       [
+        "Ferenc Kocsis",
+        "39/2787"
+      ],
+      [
+        "István Kovács",
+        "36/1356"
+      ],
+      [
         "László Vidács",
         "21/5882"
       ],
@@ -7407,19 +7415,11 @@
       [
         "Tibor Gyimóthy",
         "23/234"
-      ],
-      [
-        "Ferenc Kocsis",
-        "39/2787"
-      ],
-      [
-        "István Kovács",
-        "36/1356"
       ]
     ],
     "classfiied": [
-      "University of Szeged, Hungary",
       "SZTE",
+      "University of Szeged, Hungary",
       "mostly_hungarian",
       "applied"
     ]
@@ -7436,12 +7436,12 @@
     "crossref": "conf/icsm/SzokeNHFG15",
     "authors": [
       [
-        "Gábor Szoke",
-        "131/3170"
-      ],
-      [
         "Csaba Nagy",
         "30/5528-1"
+      ],
+      [
+        "Gábor Szoke",
+        "131/3170"
       ],
       [
         "Péter Hegedüs",
@@ -10274,7 +10274,7 @@
     "authors": [
       [
         "József Kovács",
-        "07/7037"
+        "07/7037-1"
       ],
       [
         "Gábor Kusper",
@@ -12739,6 +12739,32 @@
       "applied"
     ]
   },
+  "conf/bpm/FarkasK26": {
+    "key": "conf/bpm/FarkasK26",
+    "title": "Trust No Pool: Formal Security Analysis of BPMN Collaborations",
+    "venue": "BPM",
+    "year": "2027",
+    "pages": "111-127",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-032-37777-7_9",
+    "url": "",
+    "crossref": "conf/bpm/FarkasK26",
+    "authors": [
+      [
+        "Martin Farkas",
+        "393/6532"
+      ],
+      [
+        "Imre Kocsis",
+        "60/3841"
+      ]
+    ],
+    "classfiied": [
+      "BME-MIT",
+      "international",
+      "applied"
+    ]
+  },
   "conf/fuzzIEEE/AntonioBRPV10": {
     "key": "conf/fuzzIEEE/AntonioBRPV10",
     "title": "FPGA implementation of (p)-monotone sum of basic t-norms",
@@ -14940,102 +14966,6 @@
       "University of Szeged, Hungary",
       "SZTE",
       "all_hungarian",
-      "applied"
-    ]
-  },
-  "conf/europar/KacsukLK99": {
-    "key": "conf/europar/KacsukLK99",
-    "title": "Systematic Debugging of Parallel Programs in DIWIDE Based on Collective Breakpoints and Macrosteps",
-    "venue": "Euro-Par",
-    "year": "1999",
-    "pages": "90-97",
-    "doi": "",
-    "ee": "https://doi.org/10.1007/3-540-48311-X_8",
-    "url": "",
-    "crossref": "conf/europar/KacsukLK99",
-    "authors": [
-      [
-        "Péter Kacsuk",
-        "95/1656"
-      ],
-      [
-        "Róbert Lovas",
-        "56/5349"
-      ],
-      [
-        "József Kovács",
-        "07/7037"
-      ]
-    ],
-    "classfiied": [
-      "SZTAKI",
-      "international",
-      "applied"
-    ]
-  },
-  "conf/europar/KacsukLKSGPHHSDTG03": {
-    "key": "conf/europar/KacsukLKSGPHHSDTG03",
-    "title": "Demonstration of P-GRADE Job-Mode for the Grid",
-    "venue": "Euro-Par",
-    "year": "2003",
-    "pages": "1281-1286",
-    "doi": "",
-    "ee": "https://doi.org/10.1007/978-3-540-45209-6_173",
-    "url": "",
-    "crossref": "conf/europar/KacsukLKSGPHHSDTG03",
-    "authors": [
-      [
-        "Péter Kacsuk",
-        "95/1656"
-      ],
-      [
-        "Róbert Lovas",
-        "56/5349"
-      ],
-      [
-        "József Kovács",
-        "07/7037"
-      ],
-      [
-        "Ferenc Szalai",
-        "84/6267"
-      ],
-      [
-        "Gabor Gombás",
-        "83/135"
-      ],
-      [
-        "Norbert Podhorszki",
-        "28/270"
-      ],
-      [
-        "Ákos Horváth",
-        "17/531-3"
-      ],
-      [
-        "András Horányi",
-        "87/5916"
-      ],
-      [
-        "Imre Szeberényi",
-        "10/6449"
-      ],
-      [
-        "Thierry Delaitre",
-        "05/6007"
-      ],
-      [
-        "Gábor Terstyánszky",
-        "47/1581"
-      ],
-      [
-        "Agathocles Gourgoulis",
-        "68/5226"
-      ]
-    ],
-    "classfiied": [
-      "SZTAKI",
-      "international",
       "applied"
     ]
   },
@@ -19001,12 +18931,16 @@
     "crossref": "conf/wg/BiroBGKP12",
     "authors": [
       [
-        "Péter Biró",
-        "02/3474"
+        "Daniël Paulusma",
+        "18/5531"
       ],
       [
         "Matthijs Bomhoff",
         "77/8685"
+      ],
+      [
+        "Péter Biró",
+        "02/3474"
       ],
       [
         "Petr A. Golovach",
@@ -19015,10 +18949,6 @@
       [
         "Walter Kern",
         "51/1778"
-      ],
-      [
-        "Daniël Paulusma",
-        "18/5531"
       ]
     ],
     "classfiied": [
@@ -19039,20 +18969,20 @@
     "crossref": "conf/wg/BiroKPW15",
     "authors": [
       [
-        "Péter Biró",
-        "02/3474"
-      ],
-      [
-        "Walter Kern",
-        "51/1778"
-      ],
-      [
         "Daniël Paulusma",
         "18/5531"
       ],
       [
+        "Péter Biró",
+        "02/3474"
+      ],
+      [
         "Péter Wojuteczky",
         "167/4294"
+      ],
+      [
+        "Walter Kern",
+        "51/1778"
       ]
     ],
     "classfiied": [
@@ -19200,6 +19130,102 @@
     ],
     "classfiied": [
       "HUN-REN Szegedi Biológiai Kutatóközpont",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/europar/KacsukLK99": {
+    "key": "conf/europar/KacsukLK99",
+    "title": "Systematic Debugging of Parallel Programs in DIWIDE Based on Collective Breakpoints and Macrosteps",
+    "venue": "Euro-Par",
+    "year": "1999",
+    "pages": "90-97",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/3-540-48311-X_8",
+    "url": "",
+    "crossref": "conf/europar/KacsukLK99",
+    "authors": [
+      [
+        "Péter Kacsuk",
+        "95/1656"
+      ],
+      [
+        "Róbert Lovas",
+        "56/5349"
+      ],
+      [
+        "József Kovács",
+        "07/7037"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
+      "international",
+      "applied"
+    ]
+  },
+  "conf/europar/KacsukLKSGPHHSDTG03": {
+    "key": "conf/europar/KacsukLKSGPHHSDTG03",
+    "title": "Demonstration of P-GRADE Job-Mode for the Grid",
+    "venue": "Euro-Par",
+    "year": "2003",
+    "pages": "1281-1286",
+    "doi": "",
+    "ee": "https://doi.org/10.1007/978-3-540-45209-6_173",
+    "url": "",
+    "crossref": "conf/europar/KacsukLKSGPHHSDTG03",
+    "authors": [
+      [
+        "Péter Kacsuk",
+        "95/1656"
+      ],
+      [
+        "Róbert Lovas",
+        "56/5349"
+      ],
+      [
+        "József Kovács",
+        "07/7037"
+      ],
+      [
+        "Ferenc Szalai",
+        "84/6267"
+      ],
+      [
+        "Gabor Gombás",
+        "83/135"
+      ],
+      [
+        "Norbert Podhorszki",
+        "28/270"
+      ],
+      [
+        "Ákos Horváth",
+        "17/531-3"
+      ],
+      [
+        "András Horányi",
+        "87/5916"
+      ],
+      [
+        "Imre Szeberényi",
+        "10/6449"
+      ],
+      [
+        "Thierry Delaitre",
+        "05/6007"
+      ],
+      [
+        "Gábor Terstyánszky",
+        "47/1581"
+      ],
+      [
+        "Agathocles Gourgoulis",
+        "68/5226"
+      ]
+    ],
+    "classfiied": [
+      "SZTAKI",
       "international",
       "applied"
     ]
