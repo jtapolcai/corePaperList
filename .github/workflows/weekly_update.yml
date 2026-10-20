@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - uses: actions/checkout@v4
@@ -106,13 +107,20 @@ jobs:
           EOF
         continue-on-error: true
 
-      - name: Send weekly email with new papers
+      - name: Ensure weekly-digest label exists
+        run: |
+          gh label create "weekly-digest" --color "0075ca" --description "Automatikus heti CORE cikk összefoglaló" 2>/dev/null || true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Post weekly digest as GitHub Issue
         id: email
         run: python3 send_weekly_email.py
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Commit changes
         if: always()

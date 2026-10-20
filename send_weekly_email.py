@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
-"""Send weekly digest email for new Hungarian CORE papers.
+"""Weekly digest of new Hungarian CORE papers, posted as a GitHub Issue.
 
 Compares current results against a snapshot from the previous run,
-finds new papers per rank, LLM-verifies each, then sends an HTML email.
+finds new papers per rank, LLM-verifies each, then creates a GitHub Issue.
+GitHub automatically emails the issue to all repository watchers.
+
+Recipients are read from email_recipients.json (list of email strings);
+they are listed in the issue body so they can subscribe if not already watching.
 
 Environment variables required:
-  ANTHROPIC_API_KEY   – for LLM verification
-  GMAIL_APP_PASSWORD  – Gmail App Password for janos.tapolca@gmail.com
+  ANTHROPIC_API_KEY  – for LLM verification
+  GITHUB_TOKEN       – automatically provided by GitHub Actions (no setup needed)
+  GITHUB_REPOSITORY  – automatically provided by GitHub Actions (e.g. "owner/repo")
 
 Usage:
   python3 send_weekly_email.py                 # normal: only if new papers
-  python3 send_weekly_email.py --force-email   # send even if no new papers
-  python3 send_weekly_email.py --dry-run       # print email to stdout, no send
+  python3 send_weekly_email.py --force-post    # post even if no new papers
+  python3 send_weekly_email.py --dry-run       # print to stdout, no GitHub issue
 """
 import argparse
 import json
 import os
-import smtplib
 import sys
 import time
+import urllib.request
+import urllib.error
 from datetime import date
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 from pathlib import Path
 
 import anthropic
@@ -31,13 +35,19 @@ from llm_verify import verify_paper, load_cache, save_cache
 
 RESULTS_DIR = Path("results")
 SNAPSHOT_FILE = RESULTS_DIR / "weekly_snapshot.json"
+RECIPIENTS_FILE = Path("email_recipients.json")
 RANKS = ["A*", "A", "B", "C", "no_rank"]
 RANK_LABELS = {"A*": "A★", "A": "A", "B": "B", "C": "C", "no_rank": "Nincs rang"}
+RANK_EMOJI = {"A*": "🥇", "A": "🥈", "B": "🥉", "C": "📄", "no_rank": "📋"}
 
-RECIPIENT = "janos.tapolca@gmail.com"
-SENDER = "janos.tapolca@gmail.com"
-SMTP_HOST = "smtp.gmail.com"
-SMTP_PORT = 587
+
+def load_recipients() -> list[str]:
+    if RECIPIENTS_FILE.exists():
+        try:
+            return json.loads(RECIPIENTS_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return []
 
 
 def rank_filename(rank: str) -> str:
@@ -45,7 +55,6 @@ def rank_filename(rank: str) -> str:
 
 
 def load_results() -> dict[str, dict]:
-    """Load current papers from all rank files. Returns {rank: {key: paper}}."""
     all_papers = {}
     for rank in RANKS:
         path = RESULTS_DIR / f"hungarian_papers_core{rank_filename(rank)}.json"
@@ -57,7 +66,6 @@ def load_results() -> dict[str, dict]:
 
 
 def load_snapshot() -> dict[str, list[str]]:
-    """Load previous run's paper keys. Returns {rank: [key, ...]}."""
     if SNAPSHOT_FILE.exists():
         try:
             return json.loads(SNAPSHOT_FILE.read_text(encoding="utf-8"))
@@ -72,7 +80,6 @@ def save_snapshot(all_papers: dict[str, dict]) -> None:
 
 
 def find_new_papers(all_papers: dict, snapshot: dict) -> dict[str, dict]:
-    """Return {rank: {key: paper}} for papers not in the previous snapshot."""
     new = {}
     for rank in RANKS:
         prev_keys = set(snapshot.get(rank, []))
@@ -82,7 +89,6 @@ def find_new_papers(all_papers: dict, snapshot: dict) -> dict[str, dict]:
 
 
 def llm_check_papers(new_papers: dict, client) -> dict[str, list[dict]]:
-    """Run LLM verification on new papers. Returns {rank: [verified_paper, ...]}."""
     cache = load_cache()
     verified: dict[str, list] = {rank: [] for rank in RANKS}
 
@@ -108,7 +114,7 @@ def llm_check_papers(new_papers: dict, client) -> dict[str, list[dict]]:
     return verified
 
 
-def _paper_row(entry: dict, rank: str) -> str:
+def _paper_line(entry: dict) -> str:
     p = entry["paper"]
     title = p.get("title", "N/A")
     venue = p.get("venue", "")
@@ -116,124 +122,119 @@ def _paper_row(entry: dict, rank: str) -> str:
     pages = p.get("pages", "")
     authors = ", ".join(a[0] for a in p.get("authors", []))
     ee = p.get("ee", "")
-    link = f'<a href="{ee}" style="color:#1a73e8">{title}</a>' if ee else title
 
-    flag_html = ""
+    link = f"[{title}]({ee})" if ee else title
+    meta = " · ".join(x for x in [venue, str(year), pages] if x)
+    flag = ""
     if entry.get("flagged"):
         conf = entry.get("confidence", "low")[0].upper()
         reason = entry.get("reason", "")
-        flag_html = (
-            f'<br><span style="color:#c0392b;font-size:.85em">⚠️ [{conf}] {reason}</span>'
-        )
+        flag = f"\n  > ⚠️ [{conf}] {reason}"
 
-    return (
-        f"<tr>"
-        f"<td style='padding:4px 8px;border-bottom:1px solid #eee'>{link}{flag_html}</td>"
-        f"<td style='padding:4px 8px;border-bottom:1px solid #eee;white-space:nowrap'>{venue} {year}</td>"
-        f"<td style='padding:4px 8px;border-bottom:1px solid #eee;font-size:.85em;color:#555'>{pages}</td>"
-        f"<td style='padding:4px 8px;border-bottom:1px solid #eee;font-size:.85em;color:#444'>{authors}</td>"
-        f"</tr>"
-    )
+    return f"- {link}  \n  {authors}  \n  _{meta}_{flag}"
 
 
-RANK_COLORS = {
-    "A*": "#1a5276", "A": "#1f618d", "B": "#2471a3", "C": "#5d8aa8", "no_rank": "#888",
-}
-
-
-def build_html(verified: dict[str, list], today: str, total_new: int) -> str:
+def build_markdown(verified: dict[str, list], today: str, total_new: int,
+                   recipients: list[str]) -> str:
     sections = []
     for rank in RANKS:
         papers = verified.get(rank, [])
         if not papers:
             continue
-        color = RANK_COLORS.get(rank, "#333")
+        emoji = RANK_EMOJI.get(rank, "")
         label = RANK_LABELS.get(rank, rank)
         flagged_count = sum(1 for e in papers if e.get("flagged"))
-        flag_note = (
-            f' <span style="color:#c0392b;font-size:.85em">({flagged_count} ellenőrzésre szorul)</span>'
-            if flagged_count else ""
+        flag_note = f" · ⚠️ {flagged_count} ellenőrzésre szorul" if flagged_count else ""
+        lines = "\n".join(_paper_line(e) for e in papers)
+        sections.append(
+            f"## {emoji} CORE {label} — {len(papers)} új cikk{flag_note}\n\n{lines}"
         )
-        rows = "\n".join(_paper_row(e, rank) for e in papers)
-        sections.append(f"""
-<h2 style="color:{color};margin-top:28px;border-bottom:2px solid {color};padding-bottom:4px">
-  CORE {label} — {len(papers)} új cikk{flag_note}
-</h2>
-<table style="width:100%;border-collapse:collapse;font-size:.93em">
-  <thead>
-    <tr style="background:#f4f4f4">
-      <th style="text-align:left;padding:4px 8px">Cím</th>
-      <th style="text-align:left;padding:4px 8px">Helyszín</th>
-      <th style="text-align:left;padding:4px 8px">Oldalak</th>
-      <th style="text-align:left;padding:4px 8px">Szerzők</th>
-    </tr>
-  </thead>
-  <tbody>
-    {rows}
-  </tbody>
-</table>""")
 
-    body_sections = "\n".join(sections) if sections else "<p>Nincs új cikk.</p>"
+    body_sections = "\n\n---\n\n".join(sections) if sections else "_Nincs új cikk._"
+
     total_flagged = sum(
         1 for rank in RANKS for e in verified.get(rank, []) if e.get("flagged")
     )
     flag_summary = (
-        f'<p style="color:#c0392b">⚠️ {total_flagged} cikknél az LLM ellenőrzést javasol '
-        f'(short paper / helytelen besorolás gyanúja).</p>'
+        f"⚠️ **{total_flagged} cikknél az LLM ellenőrzést javasol** "
+        f"(short paper / helytelen besorolás gyanúja)."
         if total_flagged else
-        '<p style="color:#27ae60">✓ Az LLM szerint minden cikk helyesen van besorolva.</p>'
+        "✅ Az LLM szerint minden cikk helyesen van besorolva."
     )
 
-    return f"""<!DOCTYPE html>
-<html><head><meta charset="utf-8">
-<style>body{{font-family:Arial,sans-serif;max-width:900px;margin:auto;color:#222}}</style>
-</head><body>
-<h1 style="color:#1a5276">Magyar CORE cikkek — heti összefoglaló ({today})</h1>
-<p>Az elmúlt héten <strong>{total_new}</strong> új cikk lett találva.</p>
+    recipients_note = ""
+    if recipients:
+        mentions = ", ".join(recipients)
+        recipients_note = f"\n\n_Értesítési lista: {mentions}_"
+
+    return f"""# Magyar CORE cikkek — heti összefoglaló ({today})
+
+Az elmúlt héten **{total_new}** új cikk lett találva.
+
 {flag_summary}
+
+---
+
 {body_sections}
-<hr style="margin-top:40px">
-<p style="font-size:.8em;color:#888">
-  Automatikusan generált — <a href="https://jtapolcai.github.io/corePaperList/">corePaperList</a>
-</p>
-</body></html>"""
+
+---
+
+_Automatikusan generált — [corePaperList](https://jtapolcai.github.io/corePaperList/)_{recipients_note}
+"""
 
 
-def send_email(html: str, today: str, dry_run: bool = False) -> None:
-    subject = f"[corePaperList] Heti CORE cikk összefoglaló — {today}"
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"] = SENDER
-    msg["To"] = RECIPIENT
-    msg.attach(MIMEText(html, "html", "utf-8"))
-
+def post_github_issue(title: str, body: str, dry_run: bool = False) -> None:
     if dry_run:
-        print("=== DRY RUN — email tartalma ===")
-        print(f"To: {RECIPIENT}")
-        print(f"Subject: {subject}")
-        print(html[:2000])
+        print("=== DRY RUN — GitHub Issue tartalma ===")
+        print(f"Title: {title}")
+        print(body[:3000])
         return
 
-    password = os.environ.get("GMAIL_APP_PASSWORD")
-    if not password:
-        sys.exit("GMAIL_APP_PASSWORD environment variable is not set")
+    token = os.environ.get("GITHUB_TOKEN")
+    repo = os.environ.get("GITHUB_REPOSITORY")
 
-    with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
-        server.starttls()
-        server.login(SENDER, password)
-        server.sendmail(SENDER, [RECIPIENT], msg.as_string())
-    print(f"Email elküldve → {RECIPIENT}")
+    if not token:
+        sys.exit("GITHUB_TOKEN environment variable is not set")
+    if not repo:
+        sys.exit("GITHUB_REPOSITORY environment variable is not set")
+
+    url = f"https://api.github.com/repos/{repo}/issues"
+    payload = json.dumps({
+        "title": title,
+        "body": body,
+        "labels": ["weekly-digest"],
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json",
+            "X-GitHub-Api-Version": "2022-11-28",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            issue = json.loads(resp.read())
+            print(f"GitHub Issue létrehozva → {issue['html_url']}")
+    except urllib.error.HTTPError as e:
+        body_err = e.read().decode()
+        sys.exit(f"GitHub API hiba {e.code}: {body_err}")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--force-email", action="store_true",
-                        help="Send email even if no new papers found")
+    parser.add_argument("--force-post", action="store_true",
+                        help="Post issue even if no new papers found")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Print email to stdout instead of sending")
+                        help="Print to stdout instead of creating GitHub Issue")
     args = parser.parse_args()
 
     today = date.today().isoformat()
+    recipients = load_recipients()
     all_papers = load_results()
     snapshot = load_snapshot()
     new_papers = find_new_papers(all_papers, snapshot)
@@ -245,8 +246,8 @@ def main():
         if n:
             print(f"  {rank}: {n}")
 
-    if total_new == 0 and not args.force_email and not args.dry_run:
-        print("Nincs új cikk, email nem kerül kiküldésre.")
+    if total_new == 0 and not args.force_post and not args.dry_run:
+        print("Nincs új cikk, GitHub Issue nem jön létre.")
         save_snapshot(all_papers)
         return
 
@@ -254,8 +255,9 @@ def main():
     print("LLM ellenőrzés futtatása...")
     verified = llm_check_papers(new_papers, client)
 
-    html = build_html(verified, today, total_new)
-    send_email(html, today, dry_run=args.dry_run)
+    body = build_markdown(verified, today, total_new, recipients)
+    title = f"[Weekly] Magyar CORE cikkek — {today}"
+    post_github_issue(title, body, dry_run=args.dry_run)
 
     save_snapshot(all_papers)
 
