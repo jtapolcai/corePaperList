@@ -4,6 +4,34 @@
     "r": [
       {
         "inproceedings": {
+          "@key": "conf/aiia/LiKMP26",
+          "title": "Bound-Aware Heuristic Discovery with Large Language Models: A 15-Puzzle Case Study",
+          "booktitle": "AIxIA",
+          "year": "2027",
+          "pages": "365-377",
+          "ee": "https://doi.org/10.1007/978-3-032-40774-0_27",
+          "author": [
+            {
+              "#text": "Xiaojia Li",
+              "@pid": "199/1179"
+            },
+            {
+              "#text": "Csaba Kiss",
+              "@pid": "27/646"
+            },
+            {
+              "#text": "Roland Molontay",
+              "@pid": "183/8169"
+            },
+            {
+              "#text": "József Pintér",
+              "@pid": "369/0157"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/aime/KissMP26",
           "title": "The Critical Role of Model Selection in Causal Inference: A Comparative Analysis of Classification Models Within the InferBERT Framework for Pharmacovigilance",
           "booktitle": "AIME (1)",

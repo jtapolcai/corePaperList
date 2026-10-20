@@ -2129,6 +2129,34 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/icra/CoholichWAK26",
+          "title": "Sim2real Image Translation Enables Viewpoint-Robust Policies from Fixed-Camera Datasets",
+          "booktitle": "ICRA",
+          "year": "2026",
+          "pages": "14098-14105",
+          "ee": "https://doi.org/10.1109/ICRA57385.2026.11696076",
+          "author": [
+            {
+              "#text": "Jeremiah M. Coholich",
+              "@pid": "238/0320"
+            },
+            {
+              "#text": "Justin Wit",
+              "@pid": "427/0374"
+            },
+            {
+              "#text": "Robert Azarcon",
+              "@pid": "423/5995"
+            },
+            {
+              "#text": "Zsolt Kira",
+              "@pid": "36/4127"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/icra/DarunaLKC19",
           "title": "RoboCSE: Robot Common Sense Embedding",
           "booktitle": "ICRA",
@@ -7664,6 +7692,80 @@
             {
               "#text": "Ye Zhao",
               "@pid": "72/6144-2"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-33007",
+          "title": "CAPEX: Efficiently Distilling Foundation Model Behavior into Deployable Robot Policies through Experience-Adaptive Reasoning",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.33007",
+          "author": [
+            {
+              "#text": "Shivam Aarya",
+              "@pid": "358/6351"
+            },
+            {
+              "#text": "Zhang Xi-Jia",
+              "@pid": "402/1889"
+            },
+            {
+              "#text": "Chengyue Huang",
+              "@pid": "313/8039"
+            },
+            {
+              "#text": "Junhyun Kim",
+              "@pid": "298/9210"
+            },
+            {
+              "#text": "Huishu Xue",
+              "@pid": "432/5064"
+            },
+            {
+              "#text": "Hrish Leen",
+              "@pid": "336/3136"
+            },
+            {
+              "#text": "Roman Yakunin",
+              "@pid": "351/0104"
+            },
+            {
+              "#text": "Animesh Garg",
+              "@pid": "123/5728"
+            },
+            {
+              "#text": "Zsolt Kira",
+              "@pid": "36/4127"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2609-37905",
+          "title": "Beyond Interaction Capacity: Estimator Scaling with Recursive Models for CTR Prediction",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2609.37905",
+          "author": [
+            {
+              "#text": "Shivang Chopra",
+              "@pid": "262/6038"
+            },
+            {
+              "#text": "Fotis Iliopoulos",
+              "@pid": "147/4790"
+            },
+            {
+              "#text": "Zsolt Kira",
+              "@pid": "36/4127"
+            },
+            {
+              "#text": "Gaurav Menghani",
+              "@pid": "137/0537"
             }
           ]
         }

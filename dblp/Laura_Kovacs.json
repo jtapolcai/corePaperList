@@ -2388,6 +2388,26 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/mkm/McKeownK26",
+          "title": "Vampire Guide: An Interactive Playground for First-Order Theorem Proving and Vampire",
+          "booktitle": "CICM",
+          "year": "2027",
+          "pages": "347-353",
+          "ee": "https://doi.org/10.1007/978-3-032-38214-6_22",
+          "author": [
+            {
+              "#text": "John Anthony McKeown",
+              "@pid": "351/3316"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/paar/HajduKRV22",
           "title": "The Vampire Approach to Induction (short paper)",
           "booktitle": "PAAR@IJCAR",
@@ -3655,6 +3675,25 @@
           "journal": "",
           "year": "2026",
           "ee": "https://doi.org/10.5281/ZENODO.20679549",
+          "author": [
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
+            },
+            {
+              "#text": "Axel Polaczek",
+              "@pid": "433/1717"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "data/12/KovacsP26a",
+          "title": "Thousands of Problems to Lean",
+          "journal": "",
+          "year": "2026",
+          "ee": "https://doi.org/10.5281/ZENODO.21128974",
           "author": [
             {
               "#text": "Laura Kovács",
@@ -5106,6 +5145,25 @@
             {
               "#text": "Michael Rawson",
               "@pid": "203/2360-1"
+            }
+          ]
+        }
+      },
+      {
+        "informal": {
+          "@key": "journals/corr/abs-2605-16472",
+          "title": "Certificate-Aware Property-Directed Reachability",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2605.16472",
+          "author": [
+            {
+              "#text": "Arman Ferdowsi",
+              "@pid": "219/6529"
+            },
+            {
+              "#text": "Laura Kovács",
+              "@pid": "k/LauraKovacs"
             }
           ]
         }
