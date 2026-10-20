@@ -88,30 +88,45 @@ def find_new_papers(all_papers: dict, snapshot: dict) -> dict[str, dict]:
     return new
 
 
-def llm_check_papers(new_papers: dict, client) -> dict[str, list[dict]]:
+def llm_check_papers(new_papers: dict, client) -> tuple[dict[str, list[dict]], str | None]:
+    """Returns (verified, error_message). error_message is None on success."""
     cache = load_cache()
     verified: dict[str, list] = {rank: [] for rank in RANKS}
 
-    for rank in RANKS:
-        for key, paper in new_papers.get(rank, {}).items():
-            if key not in cache:
-                result = verify_paper(paper, rank, client)
-                result["rank"] = rank
-                cache[key] = result
-                save_cache(cache)
-                time.sleep(0.12)
-            else:
-                result = cache[key]
+    try:
+        for rank in RANKS:
+            for key, paper in new_papers.get(rank, {}).items():
+                if key not in cache:
+                    result = verify_paper(paper, rank, client)
+                    result["rank"] = rank
+                    cache[key] = result
+                    save_cache(cache)
+                    time.sleep(0.12)
+                else:
+                    result = cache[key]
 
-            verified[rank].append({
-                "key": key,
-                "paper": paper,
-                "flagged": result.get("flagged", False),
-                "confidence": result.get("confidence", "low"),
-                "reason": result.get("reason", ""),
-            })
+                verified[rank].append({
+                    "key": key,
+                    "paper": paper,
+                    "flagged": result.get("flagged", False),
+                    "confidence": result.get("confidence", "low"),
+                    "reason": result.get("reason", ""),
+                })
+    except Exception as e:
+        # Fill remaining papers without LLM flag
+        for rank in RANKS:
+            for key, paper in new_papers.get(rank, {}).items():
+                if not any(e["key"] == key for e in verified[rank]):
+                    verified[rank].append({
+                        "key": key,
+                        "paper": paper,
+                        "flagged": False,
+                        "confidence": "low",
+                        "reason": "",
+                    })
+        return verified, str(e)
 
-    return verified
+    return verified, None
 
 
 def _paper_line(entry: dict) -> str:
@@ -135,7 +150,7 @@ def _paper_line(entry: dict) -> str:
 
 
 def build_markdown(verified: dict[str, list], today: str, total_new: int,
-                   recipients: list[str]) -> str:
+                   recipients: list[str], llm_error: str | None = None) -> str:
     sections = []
     for rank in RANKS:
         papers = verified.get(rank, [])
@@ -152,15 +167,18 @@ def build_markdown(verified: dict[str, list], today: str, total_new: int,
 
     body_sections = "\n\n---\n\n".join(sections) if sections else "_Nincs új cikk._"
 
-    total_flagged = sum(
-        1 for rank in RANKS for e in verified.get(rank, []) if e.get("flagged")
-    )
-    flag_summary = (
-        f"⚠️ **{total_flagged} cikknél az LLM ellenőrzést javasol** "
-        f"(short paper / helytelen besorolás gyanúja)."
-        if total_flagged else
-        "✅ Az LLM szerint minden cikk helyesen van besorolva."
-    )
+    if llm_error:
+        flag_summary = f"⚠️ **Az LLM ellenőrzés sikertelen volt**, a cikkek nem lettek ellenőrizve.\n> `{llm_error}`"
+    else:
+        total_flagged = sum(
+            1 for rank in RANKS for e in verified.get(rank, []) if e.get("flagged")
+        )
+        flag_summary = (
+            f"⚠️ **{total_flagged} cikknél az LLM ellenőrzést javasol** "
+            f"(short paper / helytelen besorolás gyanúja)."
+            if total_flagged else
+            "✅ Az LLM szerint minden cikk helyesen van besorolva."
+        )
 
     recipients_note = ""
     if recipients:
@@ -251,11 +269,24 @@ def main():
         save_snapshot(all_papers)
         return
 
-    client = anthropic.Anthropic()
-    print("LLM ellenőrzés futtatása...")
-    verified = llm_check_papers(new_papers, client)
+    try:
+        client = anthropic.Anthropic()
+    except Exception as e:
+        client = None
+        print(f"Anthropic kliens hiba: {e}")
 
-    body = build_markdown(verified, today, total_new, recipients)
+    print("LLM ellenőrzés futtatása...")
+    if client:
+        verified, llm_error = llm_check_papers(new_papers, client)
+    else:
+        verified = {rank: [{"key": k, "paper": p, "flagged": False, "confidence": "low", "reason": ""}
+                            for k, p in new_papers.get(rank, {}).items()] for rank in RANKS}
+        llm_error = "Anthropic kliens nem elérhető (hiányzó vagy érvénytelen ANTHROPIC_API_KEY)"
+
+    if llm_error:
+        print(f"LLM hiba: {llm_error}")
+
+    body = build_markdown(verified, today, total_new, recipients, llm_error=llm_error)
     title = f"[Weekly] Magyar CORE cikkek — {today}"
     post_github_issue(title, body, dry_run=args.dry_run)
 
