@@ -21,7 +21,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests xmltodict unidecode pandas matplotlib
+        run: pip install requests xmltodict unidecode pandas matplotlib anthropic
 
       - name: Run DBLP update and paper classification
         id: dblp
@@ -105,6 +105,14 @@ jobs:
           p.write_text(json.dumps(meta, indent=2) + '\n')
           EOF
         continue-on-error: true
+
+      - name: Send weekly email with new papers
+        id: email
+        run: python3 send_weekly_email.py
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
 
       - name: Commit changes
         if: always()
