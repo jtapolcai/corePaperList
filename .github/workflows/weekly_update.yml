@@ -3,7 +3,12 @@ name: Weekly DBLP Update
 on:
   schedule:
     - cron: "0 4 * * 1"   # Hétfőnként 04:00 UTC
-  workflow_dispatch:        # Kézi indítás is lehetséges
+  workflow_dispatch:
+    inputs:
+      force_post:
+        description: 'Force GitHub Issue even if no new papers'
+        type: boolean
+        default: false
 
 jobs:
   update:
@@ -115,7 +120,7 @@ jobs:
 
       - name: Post weekly digest as GitHub Issue
         id: email
-        run: python3 send_weekly_email.py
+        run: python3 send_weekly_email.py ${{ github.event.inputs.force_post == 'true' && '--force-post' || '' }}
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
