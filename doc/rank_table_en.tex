@@ -1,0 +1,75 @@
+\begin{figure}[h!]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xbar stacked,
+    xmin=0, xmax=100,
+    width=13.5cm,
+    height=3cm,
+    bar width=16pt,
+    enlarge y limits=0.3,
+    y=7mm,
+    symbolic y coords={Norwegian,SJR,CORE},
+    ytick=data,
+    %
+    xtick={0,20,40,60,80,97},
+    xticklabels={0,20\%,40\%,60\%,80\%,100\%},
+    axis x line=bottom,
+    axis y line=left,
+    yticklabel style={font=\bfseries},
+    xticklabel style={
+      yshift=-3mm,       %
+      font=\normalsize  %
+    },
+    nodes near coords,
+    nodes near coords style={font=\scriptsize,inner sep=1pt,text=black},
+    point meta=explicit symbolic,
+    clip=false,
+    draw=black
+]
+
+%
+%
+\addplot+[xbar stacked, fill=green!70, font=\tiny, draw=black] coordinates {
+  (6.2,Norwegian) [2(6\%)]
+  (10,SJR)     [D1 (10\%)]
+  (6.5,CORE)   [A\!$^*$\!(6\%)] %
+};
+%
+%
+\addplot+[xbar stacked, fill=blue!30, draw=black] coordinates {
+  (0,Norwegian) []
+  (15,SJR)      [Q1 (15\%)]
+  (11,CORE)   [A (11\%)] %
+};
+
+%
+%
+\addplot+[xbar stacked, draw=black] coordinates {
+  (69.5,Norwegian) [1 (70\%)]
+  (25,SJR)      [Q2 (25\%)]
+  (22,CORE)   [B (22\%)] %
+};
+
+%
+%
+\addplot+[xbar stacked,  fill=orange!70, draw=black] coordinates {
+  (0,Norwegian)    []
+  (25,SJR)      [Q3 (25\%)]
+  (22,CORE)   [C (22\%)] %
+};
+
+%
+%
+\addplot+[xbar stacked,  fill=red!70, draw=black] coordinates {
+  (24.2,Norwegian)    [0 (24\%)]
+  (25,SJR)      [Q4 (25\%)]
+  (38.5,CORE)   [None (39\%)] %
+};
+
+\end{axis}
+\end{tikzpicture}
+
+\caption{Share of publications by venue rank under the Norwegian, SJR, and CORE evaluation systems.}
+\label{fig:core_boundaries}    
+\end{figure} 

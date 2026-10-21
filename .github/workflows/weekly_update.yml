@@ -84,6 +84,8 @@ jobs:
         run: |
           cd doc
           pdflatex -interaction=nonstopmode report.tex
+          bibtex report || true
+          pdflatex -interaction=nonstopmode report.tex
           pdflatex -interaction=nonstopmode report.tex
         continue-on-error: true
 
@@ -91,6 +93,8 @@ jobs:
         id: pdf_en
         run: |
           cd doc
+          pdflatex -interaction=nonstopmode report_en.tex
+          bibtex report_en || true
           pdflatex -interaction=nonstopmode report_en.tex
           pdflatex -interaction=nonstopmode report_en.tex
         continue-on-error: true
