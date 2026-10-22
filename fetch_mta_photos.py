@@ -29,15 +29,16 @@ _PHOTO_RE = re.compile(r"https://aat\.mta\.hu/aat/FileData/Get/\d+")
 
 
 def fetch_photo(att_url: str) -> str | None:
+    """Return the photo URL, "" if the page has no photo, or None on error."""
     m = re.search(r"PersonId=(\d+)", att_url)
     if not m:
-        return None
+        return ""
     url = f"https://mta.hu/koztestuleti_tagok?PersonId={m.group(1)}"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         html = urllib.request.urlopen(req, timeout=TIMEOUT).read().decode("utf-8", errors="replace")
         imgs = _PHOTO_RE.findall(html)
-        return imgs[0] if imgs else None
+        return imgs[0] if imgs else ""
     except Exception as e:
         print(f"  Warning: {url}: {e}")
         return None
@@ -119,9 +120,12 @@ def main():
             cache[slug] = photo
             print(f"  → {photo}")
             updated += 1
-        else:
+        elif photo == "":
             cache[slug] = ""
             print(f"  → no photo found")
+        else:
+            # fetch error (e.g. mta.hu maintenance): leave uncached so it is retried
+            print(f"  → fetch failed, will retry next run")
         time.sleep(0.5)
 
     CACHE_FILE.write_text(
