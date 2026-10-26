@@ -465,6 +465,26 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/sagt/ChenS26",
+          "title": "Control and Bribery in Stable Marriage and Stable Roommates: A Complete Complexity Landscape",
+          "booktitle": "SAGT",
+          "year": "2027",
+          "pages": "76-94",
+          "ee": "https://doi.org/10.1007/978-3-032-38782-0_5",
+          "author": [
+            {
+              "#text": "Jiehua Chen",
+              "@pid": "72/4415-1"
+            },
+            {
+              "#text": "Ildikó Schlotter",
+              "@pid": "09/515"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/sagt/MnichS17",
           "title": "Stable Marriage with Covering Constraints-A Complete Computational Trichotomy",
           "booktitle": "SAGT",
@@ -475,6 +495,26 @@
             {
               "#text": "Matthias Mnich",
               "@pid": "10/2223"
+            },
+            {
+              "#text": "Ildikó Schlotter",
+              "@pid": "09/515"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sagt/SchierreichS26",
+          "title": "Individual Rationality in Constrained Hedonic Games: Friends, Enemies, and Neutrals",
+          "booktitle": "SAGT",
+          "year": "2027",
+          "pages": "371-389",
+          "ee": "https://doi.org/10.1007/978-3-032-38782-0_21",
+          "author": [
+            {
+              "#text": "Simon Schierreich",
+              "@pid": "270/0149"
             },
             {
               "#text": "Ildikó Schlotter",
@@ -2114,18 +2154,6 @@
               "@pid": "154/6357"
             }
           ]
-        }
-      },
-      {
-        "informal": {
-          "@key": "phd/hu/Ildiko10",
-          "title": "Parameterized Complexity of Graph Modification and Stable Matching Problems",
-          "journal": "",
-          "year": "2010",
-          "author": {
-            "#text": "Ildikó Schlotter",
-            "@pid": "09/515"
-          }
         }
       }
     ]
