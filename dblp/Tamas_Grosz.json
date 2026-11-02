@@ -425,6 +425,33 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/interspeech/BijoyGGK26",
+          "title": "Mixture-of-Accent-Adapters for Robust ASR: Injecting Accent Cues into Pretrained Whisper",
+          "booktitle": "INTERSPEECH",
+          "year": "2026",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2026-1373",
+          "author": [
+            {
+              "#text": "Mehedi Hasan Bijoy",
+              "@pid": "332/4864"
+            },
+            {
+              "#text": "Yaroslav Getman",
+              "@pid": "315/6298"
+            },
+            {
+              "#text": "Tamás Grósz",
+              "@pid": "133/1170"
+            },
+            {
+              "#text": "Mikko Kurimo",
+              "@pid": "k/MikkoKurimo"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/interspeech/BijoyPGK25",
           "title": "Multi-Teacher Language-Aware Knowledge Distillation for Multilingual Speech Emotion Recognition",
           "booktitle": "INTERSPEECH",
@@ -618,11 +645,61 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/interspeech/GetmanGK26",
+          "title": "Do Learned Layer Weights Reflect Pretrained Information Structure in Self-Supervised Speech Models?",
+          "booktitle": "INTERSPEECH",
+          "year": "2026",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2026-566",
+          "author": [
+            {
+              "#text": "Yaroslav Getman",
+              "@pid": "315/6298"
+            },
+            {
+              "#text": "Tamás Grósz",
+              "@pid": "133/1170"
+            },
+            {
+              "#text": "Mikko Kurimo",
+              "@pid": "k/MikkoKurimo"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/interspeech/GetmanGLK25",
           "title": "Is your model big enough? Training and interpreting large-scale monolingual speech foundation models",
           "booktitle": "INTERSPEECH",
           "year": "2025",
           "ee": "https://doi.org/10.21437/INTERSPEECH.2025-46",
+          "author": [
+            {
+              "#text": "Yaroslav Getman",
+              "@pid": "315/6298"
+            },
+            {
+              "#text": "Tamás Grósz",
+              "@pid": "133/1170"
+            },
+            {
+              "#text": "Tommi Lehtonen",
+              "@pid": "417/1500"
+            },
+            {
+              "#text": "Mikko Kurimo",
+              "@pid": "k/MikkoKurimo"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/interspeech/GetmanGLK26",
+          "title": "Data Filtering Trade-offs in Self-Supervised Speech Representation Learning: A Study on Unconstrained Broadcast Audio",
+          "booktitle": "INTERSPEECH",
+          "year": "2026",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2026-50",
           "author": [
             {
               "#text": "Yaroslav Getman",
@@ -1026,6 +1103,37 @@
             {
               "#text": "Ragheb Al-Ghezi",
               "@pid": "243/1813"
+            },
+            {
+              "#text": "Tamás Grósz",
+              "@pid": "133/1170"
+            },
+            {
+              "#text": "Mikko Kurimo",
+              "@pid": "k/MikkoKurimo"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/interspeech/PalGOGK26",
+          "title": "Two-stage semi-supervised learning with pseudo-labels: A case study on Northern Sámi ASR",
+          "booktitle": "INTERSPEECH",
+          "year": "2026",
+          "ee": "https://doi.org/10.21437/INTERSPEECH.2026-2497",
+          "author": [
+            {
+              "#text": "Priyanshi Pal",
+              "@pid": "318/3298"
+            },
+            {
+              "#text": "Yaroslav Getman",
+              "@pid": "315/6298"
+            },
+            {
+              "#text": "Kristiina Ojala",
+              "@pid": "448/4900"
             },
             {
               "#text": "Tamás Grósz",
