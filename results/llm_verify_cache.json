@@ -46660,5 +46660,137 @@
     "confidence": "medium",
     "reason": "The title has no short-paper prefix or keyword, and at 8 pages (50-58) it is well above the page-count thresholds for short, poster, or demo papers, so it is most likely a full paper, though the no_rank status and satellite-event venue leave some uncertainty.",
     "rank": "no_rank"
+  },
+  "conf/ijcnn/BalyaTSR04": {
+    "flagged": false,
+    "confidence": "medium",
+    "reason": "The title has no short-paper prefix or keyword markers, and IJCNN accepts full papers as well as shorter ones, but the page count is missing so the length cannot be verified.",
+    "rank": "A"
+  },
+  "conf/ijcnn/RekeczkyTBSZ04": {
+    "flagged": false,
+    "confidence": "medium",
+    "reason": "The title has no short/poster/demo markers and the 5-page length (pages 1763-1768) is typical of IJCNN regular papers, though IJCNN proceedings do not clearly separate full and short tracks in the same way, so the page count alone is only a borderline signal.",
+    "rank": "A"
+  },
+  "conf/ijcnn/TimarBSR03": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "A"
+  },
+  "conf/cec/TuuSzaboK26": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "B"
+  },
+  "conf/iscas/BabiczTKRH19": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/BalyaPR04": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/BalyaRR02": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/FoldesyZRR07": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/RekeczkyBTS03": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/RekeczkySF01": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/RekeczkyUR95": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/ShiR07": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/SoosR07": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/TokesORRZ00": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/VilarinoR04": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/WerblinRBRR01": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/ZarandyFSTRR05": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/ZarandyRS03": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/iscas/ZarandyRSC15": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/sportshci/JohnsKBS26": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "no_rank"
+  },
+  "conf/sportshci/JohnsKS26": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "no_rank"
+  },
+  "conf/sportshci/SelimKJS26": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "no_rank"
   }
 }
