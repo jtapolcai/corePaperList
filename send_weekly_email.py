@@ -28,6 +28,8 @@ import urllib.error
 from datetime import date
 from pathlib import Path
 
+import requests as _requests
+
 import anthropic
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
@@ -258,29 +260,21 @@ def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: 
             print(f"  → {r}")
         return
 
-    payload = json.dumps({
-        "from": "corePaperList <digest@resend.dev>",
-        "to": recipients,
-        "subject": title,
-        "html": html,
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
+    resp = _requests.post(
         "https://api.resend.com/emails",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "User-Agent": "corePaperList/1.0",
+        headers={"Authorization": f"Bearer {api_key}"},
+        json={
+            "from": "corePaperList <digest@resend.dev>",
+            "to": recipients,
+            "subject": title,
+            "html": html,
         },
-        method="POST",
+        timeout=30,
     )
-    try:
-        with urllib.request.urlopen(req) as resp:
-            result = json.loads(resp.read())
-            print(f"Email elküldve {len(recipients)} címre (id: {result.get('id', '?')})")
-    except urllib.error.HTTPError as e:
-        print(f"Resend API hiba {e.code}: {e.read().decode()}")
+    if resp.ok:
+        print(f"Email elküldve {len(recipients)} címre (id: {resp.json().get('id', '?')})")
+    else:
+        print(f"Resend API hiba {resp.status_code}: {resp.text}")
 
 
 def post_github_issue(title: str, body: str, dry_run: bool = False) -> None:

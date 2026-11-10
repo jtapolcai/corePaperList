@@ -4,8 +4,10 @@
 Usage:
   RESEND_API_KEY=re_... python3 test_email.py recipient@example.com
 """
-import json, os, sys, urllib.request, urllib.error
+import json, os, sys
 from pathlib import Path
+
+import requests
 
 recipient = sys.argv[1] if len(sys.argv) > 1 else "janos.tapolcai@gmail.com"
 api_key = os.environ.get("RESEND_API_KEY")
@@ -38,26 +40,18 @@ html = f"""<html><body style="font-family:Arial,sans-serif;max-width:800px;margi
 </p>
 </body></html>"""
 
-payload = json.dumps({
-    "from": "corePaperList <onboarding@resend.dev>",
-    "to": [recipient],
-    "subject": "[TEST] corePaperList heti összefoglaló",
-    "html": html,
-}).encode()
-
-req = urllib.request.Request(
+resp = requests.post(
     "https://api.resend.com/emails",
-    data=payload,
-    headers={
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-        "User-Agent": "corePaperList/1.0",
+    headers={"Authorization": f"Bearer {api_key}"},
+    json={
+        "from": "corePaperList <onboarding@resend.dev>",
+        "to": [recipient],
+        "subject": "[TEST] corePaperList heti összefoglaló",
+        "html": html,
     },
-    method="POST",
+    timeout=30,
 )
-try:
-    with urllib.request.urlopen(req) as resp:
-        r = json.loads(resp.read())
-        print(f"✅ Email elküldve → {recipient}  (id: {r.get('id')})")
-except urllib.error.HTTPError as e:
-    print(f"❌ Hiba {e.code}: {e.read().decode()}")
+if resp.ok:
+    print(f"✅ Email elküldve → {recipient}  (id: {resp.json().get('id')})")
+else:
+    print(f"❌ Hiba {resp.status_code}: {resp.text}")
