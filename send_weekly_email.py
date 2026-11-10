@@ -241,8 +241,8 @@ def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: 
     def _md_to_html(text: str) -> str:
         # [text](url) → <a href="url">text</a>
         text = _re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
-        # _text_ → <em>text</em>
-        text = _re.sub(r'_(.*?)_', r'<em>\1</em>', text)
+        # _text_ → <em>text</em>  (only when _ is not surrounded by word chars, e.g. not in URLs)
+        text = _re.sub(r'(?<!\w)_(.*?)_(?!\w)', r'<em>\1</em>', text)
         # **text** → <strong>text</strong>
         text = _re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
         return text
