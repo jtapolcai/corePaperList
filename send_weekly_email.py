@@ -236,21 +236,32 @@ def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: 
         print("RESEND_API_KEY nincs beállítva — email küldés kihagyva.")
         return
 
+    import re as _re
+
+    def _md_to_html(text: str) -> str:
+        # [text](url) → <a href="url">text</a>
+        text = _re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
+        # _text_ → <em>text</em>
+        text = _re.sub(r'_(.*?)_', r'<em>\1</em>', text)
+        # **text** → <strong>text</strong>
+        text = _re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+        return text
+
     # Convert markdown to simple HTML
     html = "<html><body style='font-family:Arial,sans-serif;max-width:800px;margin:auto'>\n"
     for line in markdown_body.splitlines():
         if line.startswith("# "):
-            html += f"<h1>{line[2:]}</h1>\n"
+            html += f"<h1>{_md_to_html(line[2:])}</h1>\n"
         elif line.startswith("## "):
-            html += f"<h2>{line[3:]}</h2>\n"
+            html += f"<h2>{_md_to_html(line[3:])}</h2>\n"
         elif line.startswith("- "):
-            html += f"<li>{line[2:]}</li>\n"
+            html += f"<li>{_md_to_html(line[2:])}</li>\n"
         elif line.startswith("> "):
-            html += f"<blockquote>{line[2:]}</blockquote>\n"
+            html += f"<blockquote>{_md_to_html(line[2:])}</blockquote>\n"
         elif line.strip() == "---":
             html += "<hr>\n"
         elif line.strip():
-            html += f"<p>{line}</p>\n"
+            html += f"<p>{_md_to_html(line)}</p>\n"
     html += "</body></html>"
 
     if dry_run:
