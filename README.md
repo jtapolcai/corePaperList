@@ -224,6 +224,16 @@ corePaperList/
 
 ---
 
+## 📧 Heti email összefoglaló
+
+Minden hétfőn automatikus email összefoglaló készül az új magyar CORE konferencia cikkekről.
+
+**Feliratkozás:** Nyiss egy új [Feliratkozás issue-t](https://github.com/jtapolcai/corePaperList/issues/new?template=subscribe.yml) az email címeddel — a bot automatikusan felvesz a listára és bezárja az issue-t.
+
+**Leiratkozás:** Nyiss egy [Leiratkozás issue-t](https://github.com/jtapolcai/corePaperList/issues/new?template=unsubscribe.yml) ugyanazzal az email címmel.
+
+---
+
 ## 📁 Key Configuration Files
 
 | File | Description |
