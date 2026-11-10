@@ -4,10 +4,8 @@
 Usage:
   RESEND_API_KEY=re_... python3 test_email.py recipient@example.com
 """
-import json, os, sys
+import json, os, sys, subprocess
 from pathlib import Path
-
-import requests
 
 recipient = sys.argv[1] if len(sys.argv) > 1 else "janos.tapolcai@gmail.com"
 api_key = os.environ.get("RESEND_API_KEY")
@@ -40,18 +38,31 @@ html = f"""<html><body style="font-family:Arial,sans-serif;max-width:800px;margi
 </p>
 </body></html>"""
 
-resp = requests.post(
-    "https://api.resend.com/emails",
-    headers={"Authorization": f"Bearer {api_key}"},
-    json={
-        "from": "corePaperList <onboarding@resend.dev>",
-        "to": [recipient],
-        "subject": "[TEST] corePaperList heti összefoglaló",
-        "html": html,
-    },
-    timeout=30,
+payload = json.dumps({
+    "from": "corePaperList <onboarding@resend.dev>",
+    "to": [recipient],
+    "subject": "[TEST] corePaperList heti összefoglaló",
+    "html": html,
+})
+
+result = subprocess.run(
+    [
+        "curl", "-s", "-w", "\n%{http_code}",
+        "-X", "POST", "https://api.resend.com/emails",
+        "-H", f"Authorization: Bearer {api_key}",
+        "-H", "Content-Type: application/json",
+        "-d", payload,
+    ],
+    capture_output=True, text=True, check=False,
 )
-if resp.ok:
-    print(f"✅ Email elküldve → {recipient}  (id: {resp.json().get('id')})")
+lines = result.stdout.strip().rsplit("\n", 1)
+body = lines[0] if len(lines) > 1 else ""
+code = lines[-1] if len(lines) > 1 else "0"
+if code == "200":
+    try:
+        r = json.loads(body)
+        print(f"✅ Email elküldve → {recipient}  (id: {r.get('id')})")
+    except Exception:
+        print(f"✅ Email elküldve → {recipient}")
 else:
-    print(f"❌ Hiba {resp.status_code}: {resp.text}")
+    print(f"❌ Hiba {code}: {body}")

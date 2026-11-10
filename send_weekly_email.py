@@ -21,14 +21,13 @@ Usage:
 import argparse
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.request
 import urllib.error
 from datetime import date
 from pathlib import Path
-
-import requests as _requests
 
 import anthropic
 
@@ -260,21 +259,33 @@ def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: 
             print(f"  → {r}")
         return
 
-    resp = _requests.post(
-        "https://api.resend.com/emails",
-        headers={"Authorization": f"Bearer {api_key}"},
-        json={
-            "from": "corePaperList <digest@resend.dev>",
-            "to": recipients,
-            "subject": title,
-            "html": html,
-        },
-        timeout=30,
+    payload = json.dumps({
+        "from": "corePaperList <digest@resend.dev>",
+        "to": recipients,
+        "subject": title,
+        "html": html,
+    })
+    result = subprocess.run(
+        [
+            "curl", "-s", "-w", "\n%{http_code}",
+            "-X", "POST", "https://api.resend.com/emails",
+            "-H", f"Authorization: Bearer {api_key}",
+            "-H", "Content-Type: application/json",
+            "-d", payload,
+        ],
+        capture_output=True, text=True, check=False,
     )
-    if resp.ok:
-        print(f"Email elküldve {len(recipients)} címre (id: {resp.json().get('id', '?')})")
+    lines = result.stdout.strip().rsplit("\n", 1)
+    body = lines[0] if len(lines) > 1 else ""
+    code = lines[-1] if len(lines) > 1 else "0"
+    if code == "200":
+        try:
+            r = json.loads(body)
+            print(f"Email elküldve {len(recipients)} címre (id: {r.get('id', '?')})")
+        except Exception:
+            print(f"Email elküldve {len(recipients)} címre")
     else:
-        print(f"Resend API hiba {resp.status_code}: {resp.text}")
+        print(f"Resend API hiba {code}: {body}")
 
 
 def post_github_issue(title: str, body: str, dry_run: bool = False) -> None:
