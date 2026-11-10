@@ -75,12 +75,16 @@ def load_profiles() -> list[dict]:
 
 
 def compute_stats(profiles: list[dict]) -> dict[str, dict]:
-    pid_to_slug = {}
+    # pid_to_entries: {pid: [(slug, year_from, year_to), ...]}
+    # Supports multiple profiles sharing the same PID with different year ranges.
+    pid_to_entries: dict[str, list] = {}
     name_to_slug = {}
     for p in profiles:
         pid = extract_pid(p.get("dblp_url", ""))
         if pid:
-            pid_to_slug[pid] = p["slug"]
+            pid_to_entries.setdefault(pid, []).append(
+                (p["slug"], p.get("dblp_year_from"), p.get("dblp_year_to"))
+            )
         name = p.get("name", "")
         if name:
             name_to_slug[name] = p["slug"]
@@ -117,7 +121,22 @@ def compute_stats(profiles: list[dict]) -> dict[str, dict]:
                     else:
                         name, pid = entry, None
 
-                    slug = pid_to_slug.get(pid) if pid else None
+                    slug = None
+                    if pid and pid in pid_to_entries:
+                        entries = pid_to_entries[pid]
+                        if len(entries) == 1 and not entries[0][1] and not entries[0][2]:
+                            slug = entries[0][0]
+                        else:
+                            try:
+                                py = int(paper.get("year", 0) or 0)
+                            except (ValueError, TypeError):
+                                py = 0
+                            for entry_slug, yr_from, yr_to in entries:
+                                if (not yr_from or py >= yr_from) and (not yr_to or py <= yr_to):
+                                    slug = entry_slug
+                                    break
+                            if slug is None and entries:
+                                slug = entries[0][0]
                     if slug is None:
                         slug = name_to_slug.get(name)
                     if slug is None:

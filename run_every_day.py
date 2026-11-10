@@ -67,6 +67,8 @@ def load_authors_from_profiles():
             'category': a.get('category') or 'Unknown',
             'affiliations': [institution] if institution else [],
             'works': works or '',
+            'dblp_year_from': a.get('dblp_year_from'),
+            'dblp_year_to': a.get('dblp_year_to'),
         }
 
     return authors_data
