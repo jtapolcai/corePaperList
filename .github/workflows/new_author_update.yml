@@ -1,0 +1,91 @@
+name: New Author Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'profiles/*.json'
+
+jobs:
+  update:
+    # Skip commits made by the CI bot itself (weekly update, auto-regenerate)
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests xmltodict unidecode pandas matplotlib anthropic
+
+      - name: Show changed profiles
+        run: |
+          echo "Changed profiles:"
+          git diff --name-only HEAD~1 HEAD -- profiles/ || git show --name-only HEAD -- profiles/
+
+      - name: Compile authors.json
+        run: python3 compile_authors_json.py
+
+      - name: Run DBLP update and paper classification
+        run: python3 run_every_day.py
+        continue-on-error: true
+        env:
+          SKIP_SHEET_WRITE: "1"
+
+      - name: Generate report figure CSVs
+        run: python3 gen_report_data.py
+        continue-on-error: true
+
+      - name: Regenerate HTML files
+        run: |
+          python3 gen_index_html.py || true
+          python3 gen_authors_html.py || true
+          python3 gen_core_papers_html.py || true
+          python3 gen_report_html.py || true
+          pip install pandas
+          python3 gen_authors_table.py || true
+        continue-on-error: true
+
+      - name: Update weekly snapshot
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+
+          RESULTS_DIR = Path("results")
+          SNAPSHOT_FILE = RESULTS_DIR / "weekly_snapshot.json"
+          RANKS = ["A*", "A", "B", "C", "no_rank"]
+
+          snapshot = {}
+          for rank in RANKS:
+              fn = rank.replace("*", "star")
+              path = RESULTS_DIR / f"hungarian_papers_core{fn}.json"
+              snapshot[rank] = list(json.loads(path.read_text()).keys()) if path.exists() else []
+
+          SNAPSHOT_FILE.write_text(json.dumps(snapshot, indent=2))
+          total = sum(len(v) for v in snapshot.values())
+          print(f"Snapshot updated: {total} papers total")
+          EOF
+
+      - name: Commit changes
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/ authors.json dblp/ figures/ \
+                  index.html authors_profile.html core_papers.html authors_table.html report.html || true
+          if git diff --cached --quiet; then
+            echo "Nincs változás"
+          else
+            git commit -m "Update data for new author(s) [skip ci]"
+            git pull --rebase --autostash origin main
+            git push
+          fi
