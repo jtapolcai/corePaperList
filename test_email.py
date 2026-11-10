@@ -17,12 +17,31 @@ papers_file = Path("results/hungarian_papers_coreAstar.json")
 papers = json.loads(papers_file.read_text())
 key, paper = next(iter(papers.items()))
 
+PROFILE_BASE_URL = "https://jtapolcai.github.io/corePaperList/authors_profile.html"
+
+# Build name → slug map from authors.json
+slug_map = {}
+authors_file = Path("authors.json")
+if authors_file.exists():
+    for a in json.loads(authors_file.read_text()):
+        if "name" in a and "slug" in a:
+            slug_map[a["name"]] = a["slug"]
+
 title_text = paper.get("title", "?")
 venue = paper.get("venue", "")
 year = paper.get("year", "")
-authors = ", ".join(a[0] for a in paper.get("authors", []))
 ee = paper.get("ee", "")
 link = f'<a href="{ee}">{title_text}</a>' if ee else title_text
+
+author_parts = []
+for a in paper.get("authors", []):
+    name = a[0]
+    slug = slug_map.get(name)
+    if slug:
+        author_parts.append(f'<a href="{PROFILE_BASE_URL}#{slug}">{name}</a>')
+    else:
+        author_parts.append(name)
+authors = ", ".join(author_parts)
 
 html = f"""<html><body style="font-family:Arial,sans-serif;max-width:800px;margin:auto">
 <h1>corePaperList — email teszt</h1>
