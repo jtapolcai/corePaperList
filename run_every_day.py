@@ -212,11 +212,32 @@ if __name__ == "__main__":
         dbld_author[author]=person
         affil = author_cls.get("affiliations", [])
         search_log += "\n{} {} {}".format(author,len(papers),' '.join(affil) if isinstance(affil, list) else affil)
+
+        # Optional year filter to disambiguate homonym authors sharing a DBLP PID
+        year_from = author_cls.get("dblp_year_from")
+        year_to   = author_cls.get("dblp_year_to")
+
+        def _year_ok(pub):
+            if not (year_from or year_to):
+                return True
+            try:
+                entry = pub if isinstance(pub, dict) and "year" in pub else next(iter(pub.values())) if isinstance(pub, dict) else pub
+                y = int(entry.get("year", 0))
+            except Exception:
+                return True
+            if year_from and y < year_from:
+                return False
+            if year_to and y > year_to:
+                return False
+            return True
+
         if isinstance(papers_found, dict):
-            search_log, papers, foreign_papers, short_papers = classify_paper.process_paper(papers_found, papers, search_log, foreign_papers, short_papers)
+            if _year_ok(papers_found):
+                search_log, papers, foreign_papers, short_papers = classify_paper.process_paper(papers_found, papers, search_log, foreign_papers, short_papers)
         else:
             for paper in papers_found:
-                search_log, papers, foreign_papers, short_papers = classify_paper.process_paper(paper, papers, search_log, foreign_papers, short_papers)
+                if _year_ok(paper):
+                    search_log, papers, foreign_papers, short_papers = classify_paper.process_paper(paper, papers, search_log, foreign_papers, short_papers)
 
     # --- Save the log file ---
     with open("results/log_dblp.txt", "w", encoding="utf-8") as f:
