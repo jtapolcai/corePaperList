@@ -201,6 +201,63 @@ _Automatikusan generált — [corePaperList](https://jtapolcai.github.io/corePap
 """
 
 
+def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: bool = False) -> None:
+    """Send email to all recipients via Resend.com API."""
+    if not recipients:
+        return
+
+    api_key = os.environ.get("RESEND_API_KEY")
+    if not api_key:
+        print("RESEND_API_KEY nincs beállítva — email küldés kihagyva.")
+        return
+
+    # Convert markdown to simple HTML
+    html = "<html><body style='font-family:Arial,sans-serif;max-width:800px;margin:auto'>\n"
+    for line in markdown_body.splitlines():
+        if line.startswith("# "):
+            html += f"<h1>{line[2:]}</h1>\n"
+        elif line.startswith("## "):
+            html += f"<h2>{line[3:]}</h2>\n"
+        elif line.startswith("- "):
+            html += f"<li>{line[2:]}</li>\n"
+        elif line.startswith("> "):
+            html += f"<blockquote>{line[2:]}</blockquote>\n"
+        elif line.strip() == "---":
+            html += "<hr>\n"
+        elif line.strip():
+            html += f"<p>{line}</p>\n"
+    html += "</body></html>"
+
+    if dry_run:
+        print(f"=== DRY RUN — email küldés {len(recipients)} címre ===")
+        for r in recipients:
+            print(f"  → {r}")
+        return
+
+    payload = json.dumps({
+        "from": "corePaperList <digest@resend.dev>",
+        "to": recipients,
+        "subject": title,
+        "html": html,
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            result = json.loads(resp.read())
+            print(f"Email elküldve {len(recipients)} címre (id: {result.get('id', '?')})")
+    except urllib.error.HTTPError as e:
+        print(f"Resend API hiba {e.code}: {e.read().decode()}")
+
+
 def post_github_issue(title: str, body: str, dry_run: bool = False) -> None:
     if dry_run:
         print("=== DRY RUN — GitHub Issue tartalma ===")
@@ -289,6 +346,7 @@ def main():
     body = build_markdown(verified, today, total_new, recipients, llm_error=llm_error)
     title = f"[Weekly] Magyar CORE cikkek — {today}"
     post_github_issue(title, body, dry_run=args.dry_run)
+    send_emails(recipients, title, body, dry_run=args.dry_run)
 
     save_snapshot(all_papers)
 

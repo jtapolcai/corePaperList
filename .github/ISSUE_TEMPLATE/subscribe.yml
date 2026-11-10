@@ -1,0 +1,16 @@
+name: Feliratkozás heti összefoglalóra
+description: Feliratkozás a Magyar CORE cikkek heti email összefoglalójára
+labels: ["subscribe"]
+body:
+  - type: input
+    id: email
+    attributes:
+      label: Email cím
+      placeholder: pelda@university.hu
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        A feliratkozást automatikusan feldolgozzuk. Az issue lezárása után
+        hetente kapsz emailt az új magyar CORE konferencia cikkekről.

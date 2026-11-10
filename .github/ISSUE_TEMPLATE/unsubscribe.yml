@@ -1,0 +1,16 @@
+name: Leiratkozás heti összefoglalóról
+description: Leiratkozás a Magyar CORE cikkek heti email összefoglalójáról
+labels: ["unsubscribe"]
+body:
+  - type: input
+    id: email
+    attributes:
+      label: Email cím
+      placeholder: pelda@university.hu
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        A leiratkozást automatikusan feldolgozzuk. Az issue lezárása után
+        nem kapsz több emailt.

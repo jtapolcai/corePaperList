@@ -1,0 +1,108 @@
+name: Manage Subscribers
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  subscribe:
+    if: contains(github.event.issue.labels.*.name, 'subscribe')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add email to recipients list
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          EMAIL=$(echo "$ISSUE_BODY" | grep -oE '[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}' | head -1)
+          if [ -z "$EMAIL" ]; then echo "No email found"; exit 0; fi
+          python3 -c "
+          import json, os
+          from pathlib import Path
+          email = os.environ['EXTRACTED_EMAIL']
+          p = Path('email_recipients.json')
+          recipients = json.loads(p.read_text()) if p.exists() else []
+          if email not in recipients:
+              recipients.append(email)
+              p.write_text(json.dumps(sorted(recipients), indent=2) + '\n')
+          " EXTRACTED_EMAIL="$EMAIL"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add email_recipients.json
+          git diff --cached --quiet || git commit -m "Add subscriber [skip ci]" && git push || true
+
+      - name: Close issue with comment
+        uses: actions/github-script@v7
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        with:
+          script: |
+            const body = process.env.ISSUE_BODY || "";
+            const m = body.match(/[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}/);
+            const email = m ? m[0] : null;
+            const msg = email
+              ? `✅ **${email}** sikeresen feliratkozva! Hetente kapsz emailt az új magyar CORE cikkekről.\n\nLeiratkozáshoz nyiss egy "Leiratkozás" issue-t ugyanezzel az email címmel.`
+              : `❌ Nem sikerült email címet azonosítani. Kérlek nyiss új issue-t és add meg az email címed.`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, body: msg
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: 'closed'
+            });
+
+  unsubscribe:
+    if: contains(github.event.issue.labels.*.name, 'unsubscribe')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove email from recipients list
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          EMAIL=$(echo "$ISSUE_BODY" | grep -oE '[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}' | head -1)
+          if [ -z "$EMAIL" ]; then echo "No email found"; exit 0; fi
+          python3 -c "
+          import json, os
+          from pathlib import Path
+          email = os.environ['EXTRACTED_EMAIL']
+          p = Path('email_recipients.json')
+          recipients = json.loads(p.read_text()) if p.exists() else []
+          if email in recipients:
+              recipients.remove(email)
+              p.write_text(json.dumps(sorted(recipients), indent=2) + '\n')
+          " EXTRACTED_EMAIL="$EMAIL"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add email_recipients.json
+          git diff --cached --quiet || git commit -m "Remove subscriber [skip ci]" && git push || true
+
+      - name: Close issue with comment
+        uses: actions/github-script@v7
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        with:
+          script: |
+            const body = process.env.ISSUE_BODY || "";
+            const m = body.match(/[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}/);
+            const email = m ? m[0] : null;
+            const msg = email
+              ? `✅ **${email}** sikeresen leiratkozva.`
+              : `❌ Nem sikerült email címet azonosítani.`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, body: msg
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number, state: 'closed'
+            });
