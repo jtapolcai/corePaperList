@@ -1,87 +1,34 @@
 #!/usr/bin/env python3
-"""Quick test: send one paper as email via Resend.com.
+"""Test: send one A* paper through the same code path as the weekly update.
 
 Usage:
   RESEND_API_KEY=re_... python3 test_email.py recipient@example.com
 """
-import json, os, sys, subprocess
+import json, os, sys
+from datetime import date
 from pathlib import Path
 
-recipient = sys.argv[1] if len(sys.argv) > 1 else "janos.tapolcai@gmail.com"
-api_key = os.environ.get("RESEND_API_KEY")
-if not api_key:
-    sys.exit("Add meg: RESEND_API_KEY=re_... python3 test_email.py")
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-# Pick the first A* paper as a test
+recipient = sys.argv[1] if len(sys.argv) > 1 else "janos.tapolcai@gmail.com"
+
+import send_weekly_email as swe
+
+# Initialise the global author slug map (normally done in swe.main())
+swe._author_slugs = swe.load_author_slugs()
+
+# Pick the first A* paper as a fake "new" paper
 papers_file = Path("results/hungarian_papers_coreAstar.json")
 papers = json.loads(papers_file.read_text())
 key, paper = next(iter(papers.items()))
 
-PROFILE_BASE_URL = "https://jtapolcai.github.io/corePaperList/authors_profile.html"
+verified = {
+    rank: [] for rank in swe.RANKS
+}
+verified["A*"] = [{"key": key, "paper": paper, "flagged": False, "confidence": "high", "reason": ""}]
 
-# Build name → slug map from authors.json
-slug_map = {}
-authors_file = Path("authors.json")
-if authors_file.exists():
-    for a in json.loads(authors_file.read_text()):
-        if "name" in a and "slug" in a:
-            slug_map[a["name"]] = a["slug"]
+today = date.today().isoformat()
+body = swe.build_markdown(verified, today, total_new=1, recipients=[recipient])
+title = f"[TEST] corePaperList heti összefoglaló — {today}"
 
-title_text = paper.get("title", "?")
-venue = paper.get("venue", "")
-year = paper.get("year", "")
-ee = paper.get("ee", "")
-link = f'<a href="{ee}">{title_text}</a>' if ee else title_text
-
-author_parts = []
-for a in paper.get("authors", []):
-    name = a[0]
-    slug = slug_map.get(name)
-    if slug:
-        author_parts.append(f'<a href="{PROFILE_BASE_URL}#{slug}">{name}</a>')
-    else:
-        author_parts.append(name)
-authors = ", ".join(author_parts)
-
-html = f"""<html><body style="font-family:Arial,sans-serif;max-width:800px;margin:auto">
-<h1>corePaperList — email teszt</h1>
-<p>Ez egy teszt email. Az alábbi cikk jelenne meg a heti összefoglalóban:</p>
-<h2>🥇 CORE A★</h2>
-<ul>
-  <li>{link}<br>
-  <small>{authors} &nbsp;·&nbsp; {venue} {year}</small></li>
-</ul>
-<hr>
-<p style="color:#888;font-size:.85em">
-  <a href="https://jtapolcai.github.io/corePaperList/">corePaperList</a>
-</p>
-</body></html>"""
-
-payload = json.dumps({
-    "from": "corePaperList <onboarding@resend.dev>",
-    "to": [recipient],
-    "subject": "[TEST] corePaperList heti összefoglaló",
-    "html": html,
-})
-
-result = subprocess.run(
-    [
-        "curl", "-s", "-w", "\n%{http_code}",
-        "-X", "POST", "https://api.resend.com/emails",
-        "-H", f"Authorization: Bearer {api_key}",
-        "-H", "Content-Type: application/json",
-        "-d", payload,
-    ],
-    capture_output=True, text=True, check=False,
-)
-lines = result.stdout.strip().rsplit("\n", 1)
-body = lines[0] if len(lines) > 1 else ""
-code = lines[-1] if len(lines) > 1 else "0"
-if code == "200":
-    try:
-        r = json.loads(body)
-        print(f"✅ Email elküldve → {recipient}  (id: {r.get('id')})")
-    except Exception:
-        print(f"✅ Email elküldve → {recipient}")
-else:
-    print(f"❌ Hiba {code}: {body}")
+swe.send_emails([recipient], title, body)
