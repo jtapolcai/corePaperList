@@ -36,9 +36,21 @@ from llm_verify import verify_paper, load_cache, save_cache
 RESULTS_DIR = Path("results")
 SNAPSHOT_FILE = RESULTS_DIR / "weekly_snapshot.json"
 RECIPIENTS_FILE = Path("email_recipients.json")
+PROFILE_BASE_URL = "https://jtapolcai.github.io/corePaperList/authors_profile.html"
 RANKS = ["A*", "A", "B", "C", "no_rank"]
 RANK_LABELS = {"A*": "A★", "A": "A", "B": "B", "C": "C", "no_rank": "Nincs rang"}
 RANK_EMOJI = {"A*": "🥇", "A": "🥈", "B": "🥉", "C": "📄", "no_rank": "📋"}
+
+
+def load_author_slugs() -> dict[str, str]:
+    """Return {author_name: slug} from authors.json."""
+    p = Path("authors.json")
+    if not p.exists():
+        return {}
+    try:
+        return {a["name"]: a["slug"] for a in json.loads(p.read_text()) if "name" in a and "slug" in a}
+    except Exception:
+        return {}
 
 
 def load_recipients() -> list[str]:
@@ -129,14 +141,26 @@ def llm_check_papers(new_papers: dict, client) -> tuple[dict[str, list[dict]], s
     return verified, None
 
 
+_author_slugs: dict[str, str] = {}
+
+
 def _paper_line(entry: dict) -> str:
     p = entry["paper"]
     title = p.get("title", "N/A")
     venue = p.get("venue", "")
     year = p.get("year", "")
     pages = p.get("pages", "")
-    authors = ", ".join(a[0] for a in p.get("authors", []))
     ee = p.get("ee", "")
+
+    author_parts = []
+    for a in p.get("authors", []):
+        name = a[0]
+        slug = _author_slugs.get(name)
+        if slug:
+            author_parts.append(f"[{name}]({PROFILE_BASE_URL}#{slug})")
+        else:
+            author_parts.append(name)
+    authors = ", ".join(author_parts)
 
     link = f"[{title}]({ee})" if ee else title
     meta = " · ".join(x for x in [venue, str(year), pages] if x)
@@ -307,6 +331,9 @@ def main():
     parser.add_argument("--dry-run", action="store_true",
                         help="Print to stdout instead of creating GitHub Issue")
     args = parser.parse_args()
+
+    global _author_slugs
+    _author_slugs = load_author_slugs()
 
     today = date.today().isoformat()
     recipients = load_recipients()
