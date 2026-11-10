@@ -271,6 +271,7 @@ def send_emails(recipients: list[str], title: str, markdown_body: str, dry_run: 
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "corePaperList/1.0",
         },
         method="POST",
     )
