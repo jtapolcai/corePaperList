@@ -28,7 +28,13 @@ def _slugs_from_file(path) -> set:
     if not p.exists():
         return set()
     try:
-        return {e["slug"] for e in json.loads(p.read_text(encoding="utf-8")) if e.get("slug")}
+        result = set()
+        for e in json.loads(p.read_text(encoding="utf-8")):
+            if isinstance(e, str):
+                result.add(e)
+            elif isinstance(e, dict) and e.get("slug"):
+                result.add(e["slug"])
+        return result
     except Exception:
         return set()
 
