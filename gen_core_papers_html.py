@@ -82,12 +82,15 @@ def _load_hide_list(path) -> tuple[set, set, set]:
     if Path(path).exists():
         try:
             for entry in json.loads(Path(path).read_text(encoding="utf-8")):
-                if entry.get("slug"):
-                    slugs.add(entry["slug"])
-                if entry.get("pid"):
-                    pids.add(entry["pid"].lstrip("/"))
-                if entry.get("name"):
-                    names.add(normalize(entry["name"]))
+                if isinstance(entry, str):
+                    slugs.add(entry)
+                else:
+                    if entry.get("slug"):
+                        slugs.add(entry["slug"])
+                    if entry.get("pid"):
+                        pids.add(entry["pid"].lstrip("/"))
+                    if entry.get("name"):
+                        names.add(normalize(entry["name"]))
         except Exception:
             pass
     return slugs, pids, names
