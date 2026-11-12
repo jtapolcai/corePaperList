@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'profiles/*.json'
+      - 'ignore_authors.json'
 
 jobs:
   update:
