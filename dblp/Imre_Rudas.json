@@ -4529,6 +4529,33 @@
         }
       },
       {
+        "informal": {
+          "@key": "journals/corr/abs-2610-04614",
+          "title": "Approximate Feedback Nash Equilibria in Constrained Differential Games via Model Predictive Control with Upper Bound Guarantees",
+          "journal": "CoRR",
+          "year": "2026",
+          "ee": "https://doi.org/10.48550/ARXIV.2610.04614",
+          "author": [
+            {
+              "#text": "Bálint Varga",
+              "@pid": "235/5076"
+            },
+            {
+              "#text": "Karl Handwerker",
+              "@pid": "393/2761"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            },
+            {
+              "#text": "Péter Galambos",
+              "@pid": "117/3181"
+            }
+          ]
+        }
+      },
+      {
         "article": {
           "@key": "journals/csur/HouBCFWFTR25",
           "title": "IMPACTS Homeostasis Trust Management System: Optimizing Trust in Human-AI Teams",
@@ -6321,7 +6348,7 @@
             },
             {
               "#text": "Yong Zhao",
-              "@pid": "14/1356"
+              "@pid": "14/1356-16"
             },
             {
               "#text": "Yonglin Tian",
@@ -6980,6 +7007,38 @@
       },
       {
         "article": {
+          "@key": "journals/tsmc/HeXCAR26",
+          "title": "Dual-Regulation Prescribed Performance Output Feedback Control for Nonlinear Systems With Abrupt Load Variations",
+          "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
+          "year": "2026",
+          "pages": "7153-7164",
+          "ee": "https://doi.org/10.1109/TSMC.2026.3727091",
+          "author": [
+            {
+              "#text": "Jun He",
+              "@pid": "75/5705"
+            },
+            {
+              "#text": "Yu Xia",
+              "@pid": "28/4326-29"
+            },
+            {
+              "#text": "Jinde Cao",
+              "@pid": "77/2845"
+            },
+            {
+              "#text": "Ramesh K. Agarwal",
+              "@pid": "10/5363"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
           "@key": "journals/tsmc/KarolyGKR21",
           "title": "Deep Learning in Robotics: Survey on Model Structures and Training Strategies",
           "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
@@ -7186,6 +7245,42 @@
             {
               "#text": "Robert Kozma",
               "@pid": "38/5037-1"
+            }
+          ]
+        }
+      },
+      {
+        "article": {
+          "@key": "journals/tsmc/XiaHPCAR26",
+          "title": "Prescribed Trajectory Fault-Tolerant Control for Nonlinear Systems With Unknown Positive Odd Integer Powers",
+          "journal": "IEEE Trans. Syst. Man Cybern. Syst.",
+          "year": "2026",
+          "pages": "7178-7191",
+          "ee": "https://doi.org/10.1109/TSMC.2026.3727107",
+          "author": [
+            {
+              "#text": "Yu Xia",
+              "@pid": "28/4326-29"
+            },
+            {
+              "#text": "Jun He",
+              "@pid": "75/5705"
+            },
+            {
+              "#text": "Radu-Emil Precup",
+              "@pid": "41/2631"
+            },
+            {
+              "#text": "Jinde Cao",
+              "@pid": "77/2845"
+            },
+            {
+              "#text": "Ramesh K. Agarwal",
+              "@pid": "10/5363"
+            },
+            {
+              "#text": "Imre J. Rudas",
+              "@pid": "77/1960"
             }
           ]
         }

@@ -4,6 +4,30 @@
     "r": [
       {
         "inproceedings": {
+          "@key": "conf/besc/BachGT26",
+          "title": "Conversational Emotion-Cause Pair Extraction: A Single-Step Architecture and the Role of Emotion-Label Supervision",
+          "booktitle": "BESC (1)",
+          "year": "2027",
+          "pages": "419-437",
+          "ee": "https://doi.org/10.1007/978-981-92-6910-5_24",
+          "author": [
+            {
+              "#text": "Linus R. Bach",
+              "@pid": "449/4120"
+            },
+            {
+              "#text": "Tigist Ali Gebeyehu",
+              "@pid": "449/5685"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/besc/FerganT23",
           "title": "Course Review Sentiment Analysis: A Comparative Study Of Machine Learning and Deep Learning Methods",
           "booktitle": "BESC",
@@ -14,6 +38,62 @@
             {
               "#text": "Ekin Fergan",
               "@pid": "393/9361"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/besc/NguyenMAGT26",
+          "title": "Multilingual Behavioural Emotion Classification with Instruction-Tuned LLMs: Cross-Lingual Multi-label Evidence from XED",
+          "booktitle": "BESC (1)",
+          "year": "2027",
+          "pages": "488-507",
+          "ee": "https://doi.org/10.1007/978-981-92-6910-5_28",
+          "author": [
+            {
+              "#text": "Lam Anh Nguyen",
+              "@pid": "441/8908"
+            },
+            {
+              "#text": "Arseni Muravjov",
+              "@pid": "449/5655"
+            },
+            {
+              "#text": "Daniella Alves",
+              "@pid": "449/4360"
+            },
+            {
+              "#text": "Tigist Ali Gebeyehu",
+              "@pid": "449/5685"
+            },
+            {
+              "#text": "Tsegaye Misikir Tashu",
+              "@pid": "219/0966"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/besc/StereciuGT26",
+          "title": "Multimodal Fusion for Uncertainty-Aware Emotion Recognition in Conversations",
+          "booktitle": "BESC (1)",
+          "year": "2027",
+          "pages": "38-56",
+          "ee": "https://doi.org/10.1007/978-981-92-6910-5_3",
+          "author": [
+            {
+              "#text": "Teodora Stereciu",
+              "@pid": "449/4424"
+            },
+            {
+              "#text": "Tigist Ali Gebeyehu",
+              "@pid": "449/5685"
             },
             {
               "#text": "Tsegaye Misikir Tashu",
