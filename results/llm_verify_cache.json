@@ -46792,5 +46792,35 @@
     "confidence": "low",
     "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
     "rank": "no_rank"
+  },
+  "conf/icsm/JakobsS26": {
+    "flagged": false,
+    "confidence": "high",
+    "reason": "The title has no short-paper prefix or keyword, and at 10 pages (852-862) it is well above the page-count threshold for short, poster, or demo papers, consistent with a full ICSME research paper.",
+    "rank": "A"
+  },
+  "conf/icsm/HodovanK26": {
+    "flagged": false,
+    "confidence": "low",
+    "reason": "LLM error: 'ThinkingBlock' object has no attribute 'text'",
+    "rank": "C"
+  },
+  "conf/besc/BachGT26": {
+    "flagged": false,
+    "confidence": "high",
+    "reason": "The paper spans 18 pages (419-437), has no short/poster/demo/abstract markers in the title, and its title describes a substantive single-step architecture and an empirical study on emotion-label supervision, consistent with a full paper.",
+    "rank": "no_rank"
+  },
+  "conf/besc/NguyenMAGT26": {
+    "flagged": false,
+    "confidence": "high",
+    "reason": "The title has no short/poster/demo markers and the 19-page length (488-507) is well above the short-paper threshold, so it is consistent with a full paper.",
+    "rank": "no_rank"
+  },
+  "conf/besc/StereciuGT26": {
+    "flagged": false,
+    "confidence": "high",
+    "reason": "The title has no short/poster/demo/abstract markers and the paper spans 18 pages (pages 38-56), well above the threshold for short or poster submissions, so it is consistent with a full paper.",
+    "rank": "no_rank"
   }
 }
