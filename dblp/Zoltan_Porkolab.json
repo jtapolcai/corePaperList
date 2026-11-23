@@ -745,6 +745,26 @@
       },
       {
         "inproceedings": {
+          "@key": "conf/scam/KruppP26",
+          "title": "Precise Taint Analysis built on Symbolic Execution",
+          "booktitle": "SCAM",
+          "year": "2026",
+          "pages": "287-297",
+          "ee": "https://doi.org/10.1109/SCAM71261.2026.00035",
+          "author": [
+            {
+              "#text": "Dániel Krupp",
+              "@pid": "131/1769"
+            },
+            {
+              "#text": "Zoltán Porkoláb",
+              "@pid": "65/2241"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
           "@key": "conf/scam/NagyBP21",
           "title": "Unambiguity of Python Language Elements for Static Analysis",
           "booktitle": "SCAM",
@@ -1041,6 +1061,24 @@
           "title": "A Case Study on the Quality of Static Analysis Bug Reports",
           "booktitle": "SQAMIA",
           "year": "2023",
+          "author": [
+            {
+              "#text": "Kristóf Umann",
+              "@pid": "338/9934"
+            },
+            {
+              "#text": "Zoltán Porkoláb",
+              "@pid": "65/2241"
+            }
+          ]
+        }
+      },
+      {
+        "inproceedings": {
+          "@key": "conf/sqamia/UmannP25",
+          "title": "Why Do or Why Don't Software Developers Use Static Analysis Tools? A Literature Review",
+          "booktitle": "SQAMIA",
+          "year": "2025",
           "author": [
             {
               "#text": "Kristóf Umann",
